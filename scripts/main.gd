@@ -179,7 +179,7 @@ func _title() -> void:
 	_button("Begin your journey   →", Vector2(98, 661), 327, _begin)
 	var resume := _button("Continue", Vector2(441, 661), 166, _resume)
 	resume.disabled = not FileAccess.file_exists("user://jade_vow_save.json")
-	_label("%d story scenes  ·  2 books  ·  A living, animated cast" % state.story.nodes.size(), Vector2(100, 738), 15, JADE)
+	_label("%d story scenes  ·  %d books  ·  A living, animated cast" % [state.story.nodes.size(), state.story.get("chapters", {}).size()], Vector2(100, 738), 15, JADE)
 	_line(Vector2(72, 822), 1424, Color(0.8, 0.75, 0.6, 0.25))
 	_label("AZURE CLOUD SECT", Vector2(74, 842), 12, GOLD)
 	_label("Chapter one • The arrival", Vector2(660, 842), 12, JADE)
@@ -271,8 +271,8 @@ func _scene() -> void:
 	continue_button = _button("→", Vector2(1397, 719), 78, _advance)
 	continue_button.visible = choices.is_empty()
 	if node.has("continuation"):
-		continue_button.text = "II →"
-		continue_button.tooltip_text = "Continue to Book II"
+		continue_button.text = "→"
+		continue_button.tooltip_text = "Continue to the next book"
 	_button("Save", Vector2(74, 844), 95, _save)
 	_button("Load", Vector2(181, 844), 95, _resume)
 	_button("Log", Vector2(288, 844), 95, _journal)
