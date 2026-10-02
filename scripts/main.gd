@@ -632,7 +632,7 @@ func _capture() -> void:
 	for character in Wardrobe.CHARACTERS:
 		_set_outfit(character, Wardrobe.DEFAULT_OUTFIT)
 
-	for sample in [{"id": "lantern_hub", "file": "quest_hub"}, {"id": "reed_voice", "file": "spirit_encounter"}]:
+	for sample in [{"id": "lantern_hub", "file": "quest_hub"}, {"id": "reed_voice", "file": "spirit_encounter"}, {"id": "ferry_price", "file": "ferry_encounter"}, {"id": "archive_copies", "file": "archive_encounter"}]:
 		state.current = sample.id
 		_scene()
 		dialogue.visible_characters = -1
