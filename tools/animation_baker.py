@@ -9,11 +9,11 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFilter
 
 from animation_motion import motion_metrics, require_visible_motion
-from pose_rig import build_points, intermediate_points, triangulate, warp_pose, pose_amount, require_solid_hands, split_hand, place_hand
+from pose_rig import build_points, intermediate_points, pose_amount, require_solid_hands, arm_layers, move_segment, composite_over, place_hand
 
 CELL = (384, 512)
 FRAMES = 64
-GENERATOR = "keyposes-rig-v2"
+GENERATOR = "cutout-gesture-v3"
 
 
 def digest(path):
@@ -31,6 +31,17 @@ def pose_pair(sheet, index, columns, rig):
     seam = int(quiet[np.argmin(np.abs(quiet - height / 2))])
     crops = [column.crop((0, 0, column.width, seam)),
              column.crop((0, seam, column.width, height))]
+    for row, crop in enumerate(crops):
+        pixels = np.asarray(crop).copy()
+        mask = np.uint8(pixels[:, :, 3] >= 16)
+        linked = cv2.dilate(mask, np.ones((3, 3), np.uint8))
+        count, labels, stats, _ = cv2.connectedComponentsWithStats(linked, 8)
+        if count > 1:
+            primary = 1 + int(np.argmax(stats[1:, cv2.CC_STAT_AREA]))
+            keep = np.uint8(labels == primary) * 255
+            keep = np.asarray(Image.fromarray(keep).filter(ImageFilter.GaussianBlur(0.6)), dtype=np.float32) / 255
+            pixels[:, :, 3] = np.uint8(pixels[:, :, 3] * keep)
+            crops[row] = Image.fromarray(pixels)
     boxes = [crop.getchannel("A").point(lambda value: 255 if value >= 32 else 0).getbbox()
              for crop in crops]
     if any(box is None for box in boxes):
@@ -66,14 +77,12 @@ def premultiply(image):
     return pixels
 
 
-def render_frame(a, b, layers, rig, triangles, frame, motion, grid):
+def render_frame(a, b, layers, rig, frame, motion, grid):
     phase = 2 * math.pi * frame / FRAMES
     amount = pose_amount(phase, motion)
     xx, yy = grid
     intermediate = intermediate_points(rig, amount)
-    pose_a = warp_pose(layers[0][0], rig[0], intermediate, triangles, grid)
-    pose_b = warp_pose(layers[1][0], rig[1], intermediate, triangles, grid)
-    pixels = pose_a * (1 - amount) + pose_b * amount
+    pixels = layers[0][0].copy()
     # Independently move loose silk and hair, leaving the feet anchored.
     strength = {"idle": 3.5, "channeling": 6.0, "wind": 13.0, "resolve": 5.0}[motion]
     lateral = 1 - np.exp(-((xx - CELL[0] / 2) / 75) ** 2)
@@ -83,13 +92,27 @@ def render_frame(a, b, layers, rig, triangles, frame, motion, grid):
     sway = strength * (cloth * math.sin(phase + 0.6) + hair * math.sin(phase + 1.0))
     sway += 2.2 * math.sin(phase) * anchored
     lift = 1.6 * math.sin(phase + 0.4) * anchored
-    pixels = cv2.remap(pixels, np.float32(xx - sway), np.float32(yy - lift), cv2.INTER_LINEAR)
-    # Silk/hair motion cannot displace or erase the separately rigged palm.
+    # Neck-anchored head tilt keeps a single, sharp face.
+    neck = rig[0][15] + np.float32([0, 48])
+    angle = math.radians(2.8) * math.sin(phase + 0.2)
+    head_weight = np.clip((neck[1] + 8 - yy) / 65, 0, 1)
+    rotated_x = (xx - neck[0]) * math.cos(angle) + (yy - neck[1]) * math.sin(angle) + neck[0]
+    rotated_y = -(xx - neck[0]) * math.sin(angle) + (yy - neck[1]) * math.cos(angle) + neck[1]
+    map_x = xx - sway + (rotated_x - xx) * head_weight
+    map_y = yy - lift + (rotated_y - yy) * head_weight
+    pixels = cv2.remap(pixels, np.float32(map_x), np.float32(map_y), cv2.INTER_LINEAR)
+    # One clean body; both drawings supply only the articulated arm textures.
+    for layer_index, start_index, end_index in [(1, 10, 5), (2, 5, 0)]:
+        segment_a = move_segment(layers[0][layer_index], rig[0][start_index], rig[0][end_index],
+                                 intermediate[start_index], intermediate[end_index])
+        segment_b = move_segment(layers[1][layer_index], rig[1][start_index], rig[1][end_index],
+                                 intermediate[start_index], intermediate[end_index])
+        segment = segment_a * (1 - amount) + segment_b * amount
+        pixels = composite_over(pixels, segment)
     empty = np.zeros_like(a)
-    hand_a = place_hand(empty, layers[0][1], rig[0][0], intermediate[0])
-    hand_b = place_hand(empty, layers[1][1], rig[1][0], intermediate[0])
-    hand = hand_a * (1 - amount) + hand_b * amount
-    pixels = hand + pixels * (1 - hand[:, :, 3:4])
+    hand_a = place_hand(empty, layers[0][3], rig[0][0], intermediate[0])
+    hand_b = place_hand(empty, layers[1][3], rig[1][0], intermediate[0])
+    pixels = composite_over(pixels, hand_a * (1 - amount) + hand_b * amount)
     alpha = pixels[:, :, 3:4]
     pixels[:, :, :3] = np.divide(pixels[:, :, :3], alpha,
                                   out=np.zeros_like(pixels[:, :, :3]), where=alpha > 0.001)
@@ -121,7 +144,7 @@ def bake_sprites(root, out, force=False):
     rig_code_hash = digest(root / "tools/pose_rig.py")
     expected = len(catalog["characters"]) * len(catalog["outfits"]) * len(catalog["motions"]) * FRAMES
     manifest = {"version": 3, "generator": GENERATOR, "baker_sha256": baker_hash, "rig_sha256": rig_hash, "rig_code_sha256": rig_code_hash,
-                "source": "GPT Images", "derivation": "distinct gesture key poses, landmark-guided articulated pose tweening, cloth and hair motion",
+                "source": "GPT Images", "derivation": "distinct gesture key poses, two-bone cutout arm rig, single sharp body, cloth and hair motion",
                 "frame_count": expected, "fps": catalog["fps"], "cell": list(CELL),
                 "key_poses_per_appearance": 2,
                 "catalog_sha256": hashlib.sha256(catalog_bytes).hexdigest(), "outfits": {}}
@@ -156,9 +179,9 @@ def bake_sprites(root, out, force=False):
                     print(f"Preparing distinct poses: {character}/{outfit_id}", flush=True)
                     pair, rig_points = pose_pair(sheet, index, len(catalog["characters"]), rigs[outfit_id][character])
                     arrays = [premultiply(image) for image in pair]
-                    triangles = triangulate(rig_points, CELL)
-                    layers = [split_hand(array, points[0]) for array, points in zip(arrays, rig_points)]
-                frames = [render_frame(*arrays, layers, rig_points, triangles, index, motion, (xx, yy)) for index in range(FRAMES)]
+                    radius = {"sect": 26, "training": 14, "festival": 17}[outfit_id]
+                    layers = [arm_layers(array, points, radius) for array, points in zip(arrays, rig_points)]
+                frames = [render_frame(*arrays, layers, rig_points, index, motion, (xx, yy)) for index in range(FRAMES)]
                 hand_coverage = require_solid_hands(frames, rig_points, motion)
                 metrics = motion_metrics(frames[0], frames[FRAMES // 2])
                 require_visible_motion(metrics, f"{character}/{outfit_id}/{motion}")
