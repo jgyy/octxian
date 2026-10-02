@@ -155,6 +155,8 @@ func _run() -> void:
 	check(game.item_description.text.contains("custody"), "Inspection must explain the object's keeper")
 	game._item_selected(1)
 	check(game.item_image.texture.get_size() == Vector2(1536, 1024), "Landscape object art must retain its native aspect")
+	var object_selector: OptionButton = game.popup.find_child("ObjectSelector", true, false)
+	check(object_selector.selected == 1 and object_selector.get_item_text(1) == "A Sealed Echo Case", "Programmatic object selection must update its caption")
 	game._item_selected(-1)
 	check(game.item_image.texture != null, "Invalid object indices must preserve the preview")
 	game._close_popup()

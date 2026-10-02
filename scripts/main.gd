@@ -769,6 +769,12 @@ func _item_selected(index: int) -> void:
 	var entries: Array = world.get("items", [])
 	if index < 0 or index >= entries.size():
 		return
+	# Keep programmatic selection (including captures) consistent with the control.
+	if popup == null or not is_instance_valid(item_image):
+		return
+	var selector: OptionButton = popup.find_child("ObjectSelector", true, false)
+	if selector != null:
+		selector.select(index)
 	var entry: Dictionary = entries[index]
 	item_image.texture = load("res://" + str(entry.path))
 	item_description.text = str(entry.description)
