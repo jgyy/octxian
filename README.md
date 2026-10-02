@@ -12,7 +12,18 @@ A jade pendant leads Lin Yue to a mountain suspended above the mortal world. Ben
 
 Download the `jade-vow-linux` artifact from a successful [CI run](https://github.com/jgyy/octxian/actions/workflows/ci.yml), extract `jade-vow-linux.tar.gz`, and run `./jade-vow`. Keep `jade-vow.pck` beside the executable.
 
-Or clone this repository, open `project.godot` in Godot 4.7.2, and press F6/F5. Generated sprites, music, effects, and neural narration are bundled in the feature branch.
+Or clone this repository, open `project.godot` in Godot 4.7.2, and press F6/F5. Generated sprites, music, effects, and neural narration are bundled in the repository.
+
+To run the game from a terminal, install Godot and run these commands from the repository root (`octxian/`):
+
+```sh
+# Import the bundled assets on the first run.
+godot --headless --path . --editor --import
+# Launch the game window.
+godot --path .
+```
+
+If your Godot executable is named `godot4`, replace `godot` with `godot4` in both commands. After the first import, use `godot --path .` to play again.
 
 - **Enter / Space:** finish the current line, then advance.
 - **1–4:** select an available choice.
