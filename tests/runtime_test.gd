@@ -49,6 +49,8 @@ func _run() -> void:
 			check(game.actor.sprite.sprite_frames.get_frame_count("cycle") == 64, "Every character/motion must have 64 real frames")
 			check(game.actor.sprite.is_playing(), "Every sprite should animate")
 			await process_frame
+	game.audio.shutdown()
+	await create_timer(0.25).timeout
 	DirAccess.remove_absolute("user://settings.cfg")
 	game.queue_free()
 	await process_frame
