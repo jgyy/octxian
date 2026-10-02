@@ -689,8 +689,23 @@ func _smoke_build() -> void:
 	valid = valid and _set_outfit("shen_qing", "festival")
 	valid = valid and actor.outfit == "festival" and actor.sprite.texture != null
 	_set_outfit("shen_qing", Wardrobe.DEFAULT_OUTFIT)
+	state.current = "river_xiu"
+	_scene()
+	await get_tree().create_timer(0.2).timeout
+	valid = valid and actor.character == "wei_xiu" and actor.sprite.texture != null
+	valid = valid and background.texture != null and audio.voice.stream != null
+	state.current = "river_spirit"
+	_scene()
+	await get_tree().create_timer(0.2).timeout
+	valid = valid and actor.character == "mooring_eel" and actor.sprite.texture != null
+	_items()
+	_item_selected(1)
+	valid = valid and item_image.texture != null
+	if item_image.texture != null:
+		valid = valid and item_image.texture.get_size() == Vector2(1536, 1024)
+	_close_popup()
 	if valid:
-		print("JADE_VOW_PACKAGE_OK: standalone story, animated art and narration")
+		print("JADE_VOW_PACKAGE_OK: standalone story, world art, object inspection and narration")
 	else:
 		push_error("Packaged assets or story failed to load")
 	_quit_game(0 if valid else 1)
