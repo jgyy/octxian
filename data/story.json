@@ -186,7 +186,8 @@
       "animation": "channeling",
       "sfx": "qi",
       "text": "You let the cold air pass through you without holding it. Slowly, the mountain breathes with you. A thread of pale light wakes along your wrist.",
-      "next": "exile"
+      "next": "exile",
+      "effect": "qi"
     },
     "inscription": {
       "speaker": "lin_yue",
@@ -274,7 +275,8 @@
       "animation": "wind",
       "sfx": "bell",
       "text": "The stairs beneath the pavilion spiral into blue darkness. At their end lies a lake with no reflection. A star sleeps beneath its surface, small enough to hold in two hands.",
-      "next": "star"
+      "next": "star",
+      "effect": "bell"
     },
     "star": {
       "speaker": "narrator",
@@ -293,7 +295,8 @@
       "actor": "lin_yue",
       "animation": "channeling",
       "text": "The pendant opens into light. You see your mother at the lake, sharing an orange with a captive star. Neither speaks. For one brief afternoon, the mountain has no weight.",
-      "next": "fracture"
+      "next": "fracture",
+      "effect": "qi"
     },
     "fracture": {
       "speaker": "shen_qing",
@@ -352,7 +355,8 @@
       "animation": "channeling",
       "sfx": "qi",
       "text": "Take only what I offer. The breath in my meridians, the light in my sword. I will carry a little of the sky, if you will carry it with me.",
-      "next": "ending_shared"
+      "next": "ending_shared",
+      "effect": "qi"
     },
     "covenant": {
       "speaker": "lin_yue",
@@ -360,7 +364,8 @@
       "animation": "channeling",
       "sfx": "qi",
       "text": "I change the final stroke. Shelter, freely given. Shelter, freely left. A vow that cannot be refused is merely another chain.",
-      "next": "ending_covenant"
+      "next": "ending_covenant",
+      "effect": "qi"
     },
     "release": {
       "speaker": "lin_yue",
@@ -578,7 +583,8 @@
       "background": "salt_lantern_valley",
       "next": "ferry_raise_cost",
       "animation": "channeling",
-      "sfx": "qi"
+      "sfx": "qi",
+      "effect": "qi"
     },
     "ferry_raise_cost": {
       "speaker": "narrator",
@@ -642,7 +648,8 @@
       "text": "The marsh path narrowed between translucent reeds. Every blade held a thread of cold light. Lin Yue heard a bell, then noticed that the sound stopped whenever she tried to follow it. Su Lan removed her bronze clapper from its cord and laid it on the path. The reeds leaned away, leaving room for two people to pass.",
       "chapter": "book_ii",
       "background": "salt_lantern_valley",
-      "next": "reed_old_wound"
+      "next": "reed_old_wound",
+      "effect": "reed_light"
     },
     "reed_old_wound": {
       "speaker": "su_lan",
@@ -650,7 +657,8 @@
       "text": "I struck the bell last winter, when my husband's name disappeared from our household record. He had been dead for six winters already. The magistrate said the bell would restore his place in the register. It called the ward instead. For months I blamed the beast because that story left me someone to hate. Remember that when I sound certain.",
       "chapter": "book_ii",
       "background": "salt_lantern_valley",
-      "next": "reed_nest"
+      "next": "reed_nest",
+      "effect": "reed_light"
     },
     "reed_nest": {
       "speaker": "narrator",
@@ -658,7 +666,8 @@
       "text": "At the roofless shrine, a creature stood among nests woven from paper. Its feathers were the color of wet slate; salt reeds grew along its spine. A small bronze bell hung at its throat. Inside each nest rested an unmarked household tablet. The creature shielded them with its body when Lin Yue reached for her sword.",
       "chapter": "book_ii",
       "background": "salt_lantern_valley",
-      "next": "reed_voice"
+      "next": "reed_voice",
+      "effect": "reed_light"
     },
     "reed_voice": {
       "speaker": "reed_listener",
@@ -666,7 +675,8 @@
       "text": "Iron speaks loudly. I do not understand its words. Put the edge where I can stop looking at it. Then tell me which name you came to carry away, and whether the person who belongs to it has agreed to leave.",
       "chapter": "book_ii",
       "background": "salt_lantern_valley",
-      "next": "reed_question"
+      "next": "reed_question",
+      "effect": "reed_light"
     },
     "reed_question": {
       "speaker": "lin_yue",
@@ -674,7 +684,8 @@
       "text": "Wei Xiu. And eighteen others whose names I have not earned the right to speak yet. I thought you might have stolen them. These nests look like shelter. What are you protecting them from, Listener? And what happens if the people outside never learn where their names have gone?",
       "chapter": "book_ii",
       "background": "salt_lantern_valley",
-      "next": "reed_answer"
+      "next": "reed_answer",
+      "effect": "reed_light"
     },
     "reed_answer": {
       "speaker": "reed_listener",
@@ -682,7 +693,8 @@
       "text": "The bell commands the boundary to keep what it recognizes. The register recognizes a household by its name. When the new ink called those households trespassers, I took the names where the bell could not find them. Their people remained alive. Their doors became empty to the ward. Protection is a crooked nest when the wind comes from every side.",
       "chapter": "book_ii",
       "background": "salt_lantern_valley",
-      "next": "reed_hunger"
+      "next": "reed_hunger",
+      "effect": "reed_light"
     },
     "reed_hunger": {
       "speaker": "narrator",
@@ -690,7 +702,8 @@
       "text": "One nest trembled. A child's handwriting appeared on its tablet, then faded. The Listener lowered its head. Every name it sheltered cost a memory of its own. It no longer remembered whether it had once been a crane, a reed, or the first sound a ferryman heard on the lake. Its refuge would not survive another winter.",
       "chapter": "book_ii",
       "background": "salt_lantern_valley",
-      "next": "reed_choice"
+      "next": "reed_choice",
+      "effect": "reed_light"
     },
     "reed_choice": {
       "speaker": "lin_yue",
@@ -720,7 +733,8 @@
             "trust": 2
           }
         }
-      ]
+      ],
+      "effect": "reed_light"
     },
     "reed_escort": {
       "speaker": "reed_listener",
@@ -728,7 +742,8 @@
       "text": "Carry the nests, not loose tablets. A name is lighter than paper and heavier than a promise. If a clerk demands that you open one before its owner arrives, say no. If that no puts a sword between you and the tower, ask me before you decide whose blood should pay for it.",
       "chapter": "book_ii",
       "background": "salt_lantern_valley",
-      "next": "reed_escort_cost"
+      "next": "reed_escort_cost",
+      "effect": "reed_light"
     },
     "reed_escort_cost": {
       "speaker": "narrator",
@@ -736,7 +751,8 @@
       "text": "They carried the paper nests on a reed litter. At the shrine gate, a patrol demanded proof that the tablets belonged to living households. Lin Yue set her sword on the earth and asked the patrol captain to bring those households instead. The captain hesitated long enough for Su Lan to recognize him as a boy she had taught to read.",
       "chapter": "book_ii",
       "background": "salt_lantern_valley",
-      "next": "reed_memory"
+      "next": "reed_memory",
+      "effect": "reed_light"
     },
     "reed_rewrite": {
       "speaker": "lin_yue",
@@ -745,7 +761,8 @@
       "chapter": "book_ii",
       "background": "salt_lantern_valley",
       "next": "reed_rewrite_cost",
-      "animation": "channeling"
+      "animation": "channeling",
+      "effect": "reed_light"
     },
     "reed_rewrite_cost": {
       "speaker": "narrator",
@@ -753,7 +770,8 @@
       "text": "The Listener tapped a reed against the shrine stone. Lin Yue answered with the clapper. Their first rhythm broke a nest. Their second made the lake colder. Su Lan stopped them before the third and read the nineteen names aloud. This time they waited for each echo. In the waiting, the ward made room for a voice that was not an order.",
       "chapter": "book_ii",
       "background": "salt_lantern_valley",
-      "next": "reed_memory"
+      "next": "reed_memory",
+      "effect": "reed_light"
     },
     "reed_families": {
       "speaker": "su_lan",
@@ -761,7 +779,8 @@
       "text": "I will fetch them. Some will be frightened of you, Listener. Some will be angry. You may be angry in return. I cannot promise a meeting without hurt. I can promise that the first person who calls you a monster will hear from the keeper who taught the village that word.",
       "chapter": "book_ii",
       "background": "salt_lantern_valley",
-      "next": "reed_families_cost"
+      "next": "reed_families_cost",
+      "effect": "reed_light"
     },
     "reed_families_cost": {
       "speaker": "narrator",
@@ -769,7 +788,8 @@
       "text": "The families arrived with lanterns, food, and two farm hooks carried as weapons. A child asked whether the Listener ate fish. An old man asked why it had not explained itself sooner. The creature could answer only one question at a time. Lin Yue stayed beside the litter until dawn, learning how long a safe meeting could take.",
       "chapter": "book_ii",
       "background": "salt_lantern_valley",
-      "next": "reed_memory"
+      "next": "reed_memory",
+      "effect": "reed_light"
     },
     "reed_memory": {
       "speaker": "reed_listener",
@@ -777,7 +797,8 @@
       "text": "One of the names has returned something to me. Before I was this body, I listened beneath a bridge. Boats passed above me, and no one asked the water to be grateful. Keep that memory if I lose it again. I would like to know that I belonged here before anyone needed saving.",
       "chapter": "book_ii",
       "background": "salt_lantern_valley",
-      "next": "reed_return"
+      "next": "reed_return",
+      "effect": "reed_light"
     },
     "reed_return": {
       "speaker": "narrator",
@@ -785,7 +806,8 @@
       "text": "Su Lan tied the clapper to her wrist again. She had not rung it, but the cord no longer looked like a punishment. The Listener followed them toward the tower at the pace of a creature carrying a village's winter in its feathers. Along the path, the reeds began to sound like reeds instead of warnings.",
       "chapter": "book_ii",
       "background": "salt_lantern_valley",
-      "next": "lantern_conclave"
+      "next": "lantern_conclave",
+      "effect": "reed_light"
     },
     "archive_door": {
       "speaker": "narrator",
@@ -1001,7 +1023,8 @@
       "text": "Give me the clapper until sunset. I will strike once for every name and wait until someone answers. If no one answers, I will wait longer. A boundary that cannot bear a pause has no right to tell a living person where to stand.",
       "chapter": "book_ii",
       "background": "salt_lantern_valley",
-      "next": "ending_bell"
+      "next": "ending_bell",
+      "effect": "bell"
     },
     "ending_bell": {
       "speaker": "narrator",
@@ -1009,7 +1032,8 @@
       "text": "Nineteen names returned to the register before the bell sounded its twentieth note. That final note belonged to the Listener, whose own name no one yet knew. Su Lan left a blank line for it. This time the blank was room to arrive. Lin Yue listened beside the tower until the reeds answered in the evening wind.",
       "chapter": "book_ii",
       "background": "salt_lantern_valley",
-      "ending": "An Unstruck Bell"
+      "ending": "An Unstruck Bell",
+      "effect": "bell"
     },
     "lantern_seed": {
       "speaker": "lin_yue",
@@ -1019,7 +1043,8 @@
       "background": "salt_lantern_valley",
       "next": "ending_seed",
       "animation": "channeling",
-      "sfx": "qi"
+      "sfx": "qi",
+      "effect": "qi"
     },
     "ending_seed": {
       "speaker": "narrator",
