@@ -252,7 +252,9 @@ func _scene() -> void:
 		audio.effect(str(node.sfx))
 
 func _choose(index: int) -> void:
-	if dialogue != null and dialogue.visible_characters < dialogue.get_total_character_count():
+	if popup != null:
+		return
+	if dialogue != null and dialogue.visible_characters >= 0 and dialogue.visible_characters < dialogue.get_total_character_count():
 		return
 	if state.choose(index):
 		audio.effect()
@@ -261,7 +263,7 @@ func _choose(index: int) -> void:
 func _advance() -> void:
 	if popup != null:
 		return
-	if dialogue != null and dialogue.visible_characters < dialogue.get_total_character_count():
+	if dialogue != null and dialogue.visible_characters >= 0 and dialogue.visible_characters < dialogue.get_total_character_count():
 		dialogue.visible_characters = -1
 		text_clock = dialogue.get_total_character_count()
 		choice_box.visible = true
