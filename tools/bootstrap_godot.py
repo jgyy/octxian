@@ -1,32 +1,41 @@
-"""Download the pinned official Godot release and verify its published SHA-256."""
+"""Install the pinned official Godot archive, verifying its published SHA-256."""
 import hashlib
-import json
 import pathlib
 import urllib.request
 import zipfile
 
 VERSION = "4.7.2-stable"
-DEST = pathlib.Path(".cache/godot")
-DEST.mkdir(parents=True, exist_ok=True)
-request = urllib.request.Request(
-    f"https://api.github.com/repos/godotengine/godot/releases/tags/{VERSION}",
-    headers={"User-Agent": "jade-vow-ci"},
-)
-with urllib.request.urlopen(request, timeout=90) as response:
-    release = json.load(response)
-name = f"Godot_v{VERSION}_linux.x86_64.zip"
-asset = next(a for a in release["assets"] if a["name"] == name)
-archive = DEST / name
-if not archive.exists():
-    urllib.request.urlretrieve(asset["browser_download_url"], archive)
-digest = asset.get("digest", "")
-if not digest.startswith("sha256:"):
-    raise SystemExit("Official release has no SHA-256; refusing unverified binary")
-if hashlib.sha256(archive.read_bytes()).hexdigest() != digest.split(":", 1)[1]:
-    archive.unlink()
-    raise SystemExit("Godot archive checksum mismatch")
-with zipfile.ZipFile(archive) as bundle:
-    bundle.extractall(DEST)
-binary = DEST / f"Godot_v{VERSION}_linux.x86_64"
-binary.chmod(0o755)
-print(binary)
+# Official release asset digest, verified 2026-10-02:
+# https://github.com/godotengine/godot/releases/tag/4.7.2-stable
+EXPECTED_SHA256 = "cadd3204e728a35d3f13adb7fd0d7902636b79f6b95c40c265eb73b6c35329e4"
+ARCHIVE_NAME = f"Godot_v{VERSION}_linux.x86_64.zip"
+BINARY_NAME = f"Godot_v{VERSION}_linux.x86_64"
+DOWNLOAD_URL = f"https://github.com/godotengine/godot/releases/download/{VERSION}/{ARCHIVE_NAME}"
+
+
+def install(dest=pathlib.Path(".cache/godot"), downloader=None):
+    dest = pathlib.Path(dest)
+    dest.mkdir(parents=True, exist_ok=True)
+    archive = dest / ARCHIVE_NAME
+    if not archive.exists():
+        partial = dest / (ARCHIVE_NAME + ".part")
+        try:
+            (downloader or urllib.request.urlretrieve)(DOWNLOAD_URL, partial)
+            partial.replace(archive)
+        finally:
+            partial.unlink(missing_ok=True)
+    with archive.open("rb") as source:
+        digest = hashlib.file_digest(source, "sha256").hexdigest()
+    if digest != EXPECTED_SHA256:
+        archive.unlink()
+        raise SystemExit("Godot archive checksum mismatch")
+    with zipfile.ZipFile(archive) as bundle:
+        # Extract only the expected executable from the verified release.
+        bundle.extract(BINARY_NAME, dest)
+    binary = dest / BINARY_NAME
+    binary.chmod(0o755)
+    return binary
+
+
+if __name__ == "__main__":
+    print(install())
