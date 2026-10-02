@@ -126,7 +126,7 @@ def capsule_mask(shape, start, end, radius):
     return np.float32(np.clip((radius + 1.5 - distance) / 3, 0, 1))[:, :, None]
 
 
-def arm_layers(pixels, points, radius):
+def arm_layers(pixels, points, radius, donor=None):
     upper_mask = capsule_mask(pixels.shape, points[10], points[5], radius)
     lower_mask = capsule_mask(pixels.shape, points[5], points[0], radius)
     body, hand = split_hand(pixels, points[0])
@@ -142,7 +142,12 @@ def arm_layers(pixels, points, radius):
     fill_alpha = alpha * np.float32(torso)
     body_alpha = body[:, :, 3:4] * (1 - full_mask) + fill_alpha * full_mask
     plate = np.concatenate([np.float32(filled) / 255 * body_alpha, body_alpha], axis=2)
-    return plate, pixels * upper_mask, pixels * lower_mask, hand
+    hand_mask = np.divide(hand[:, :, 3:4], alpha, out=np.zeros_like(alpha), where=alpha > 0.001)
+    if donor is not None:
+        coverage = np.maximum(full_mask, hand_mask)
+        plate = pixels * (1 - coverage) + donor * coverage
+    # The palm has its own layer; limb textures must not contain a second copy.
+    return plate, pixels * upper_mask * (1 - hand_mask), pixels * lower_mask * (1 - hand_mask), hand
 
 
 def move_segment(layer, source_start, source_end, target_start, target_end):
@@ -160,3 +165,21 @@ def move_segment(layer, source_start, source_end, target_start, target_end):
 
 def composite_over(background, foreground):
     return foreground + background * (1 - foreground[:, :, 3:4])
+
+
+def align_body_donor(pixels, source_points, target_points):
+    source = np.float32([source_points[15], source_points[20], source_points[10]])
+    target = np.float32([target_points[15], target_points[20], target_points[10]])
+    affine = cv2.getAffineTransform(source, target)
+    return cv2.warpAffine(pixels, affine, (pixels.shape[1], pixels.shape[0]), flags=cv2.INTER_LINEAR)
+
+
+def move_palm(layer, source_points, destination_points):
+    source_vector = source_points[0] - source_points[5]
+    target_vector = destination_points[0] - destination_points[5]
+    source_angle = np.arctan2(source_vector[1], source_vector[0])
+    target_angle = np.arctan2(target_vector[1], target_vector[0])
+    transform = cv2.getRotationMatrix2D(tuple(float(value) for value in source_points[0]),
+                                       float(np.degrees(source_angle - target_angle)), 1.0)
+    transform[:, 2] += destination_points[0] - source_points[0]
+    return cv2.warpAffine(layer, transform, (layer.shape[1], layer.shape[0]), flags=cv2.INTER_LINEAR)

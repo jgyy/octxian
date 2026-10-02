@@ -9,7 +9,7 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFilter
 
 from animation_motion import motion_metrics, require_visible_motion
-from pose_rig import build_points, intermediate_points, pose_amount, require_solid_hands, arm_layers, move_segment, composite_over, place_hand
+from pose_rig import build_points, intermediate_points, pose_amount, require_solid_hands, arm_layers, move_segment, composite_over, align_body_donor, move_palm
 
 CELL = (384, 512)
 FRAMES = 64
@@ -101,18 +101,12 @@ def render_frame(a, b, layers, rig, frame, motion, grid):
     map_x = xx - sway + (rotated_x - xx) * head_weight
     map_y = yy - lift + (rotated_y - yy) * head_weight
     pixels = cv2.remap(pixels, np.float32(map_x), np.float32(map_y), cv2.INTER_LINEAR)
-    # One clean body; both drawings supply only the articulated arm textures.
+    # A single texture set keeps the moving arm and palm sharp and opaque.
     for layer_index, start_index, end_index in [(1, 10, 5), (2, 5, 0)]:
-        segment_a = move_segment(layers[0][layer_index], rig[0][start_index], rig[0][end_index],
-                                 intermediate[start_index], intermediate[end_index])
-        segment_b = move_segment(layers[1][layer_index], rig[1][start_index], rig[1][end_index],
-                                 intermediate[start_index], intermediate[end_index])
-        segment = segment_a * (1 - amount) + segment_b * amount
+        segment = move_segment(layers[1][layer_index], rig[1][start_index], rig[1][end_index],
+                               intermediate[start_index], intermediate[end_index])
         pixels = composite_over(pixels, segment)
-    empty = np.zeros_like(a)
-    hand_a = place_hand(empty, layers[0][3], rig[0][0], intermediate[0])
-    hand_b = place_hand(empty, layers[1][3], rig[1][0], intermediate[0])
-    pixels = composite_over(pixels, hand_a * (1 - amount) + hand_b * amount)
+    pixels = composite_over(pixels, move_palm(layers[1][3], rig[1], intermediate))
     alpha = pixels[:, :, 3:4]
     pixels[:, :, :3] = np.divide(pixels[:, :, :3], alpha,
                                   out=np.zeros_like(pixels[:, :, :3]), where=alpha > 0.001)
@@ -180,7 +174,9 @@ def bake_sprites(root, out, force=False):
                     pair, rig_points = pose_pair(sheet, index, len(catalog["characters"]), rigs[outfit_id][character])
                     arrays = [premultiply(image) for image in pair]
                     radius = {"sect": 26, "training": 14, "festival": 17}[outfit_id]
-                    layers = [arm_layers(array, points, radius) for array, points in zip(arrays, rig_points)]
+                    donor = align_body_donor(arrays[1], rig_points[1], rig_points[0])
+                    layers = [arm_layers(arrays[0], rig_points[0], radius, donor),
+                              arm_layers(arrays[1], rig_points[1], radius)]
                 frames = [render_frame(*arrays, layers, rig_points, index, motion, (xx, yy)) for index in range(FRAMES)]
                 hand_coverage = require_solid_hands(frames, rig_points, motion)
                 metrics = motion_metrics(frames[0], frames[FRAMES // 2])
