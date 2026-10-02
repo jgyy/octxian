@@ -1,0 +1,225 @@
+{
+  "engine": "Piper 1.3.0 (neural ONNX)",
+  "voice": "en_US-lessac-medium",
+  "model_url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/lessac/medium/en_US-lessac-medium.onnx",
+  "model_sha256": "5efe09e69902187827af646e1a6e9d269dee769f9877d17b16b1b46eeaaf019f",
+  "model_card": "# Model card for lessac (medium)\n\n* Language: en_US (English, United States)\n* Speakers: 1\n* Quality: medium\n* Samplerate: 22,050Hz\n\n## Dataset\n\n* URL: https://www.cstr.ed.ac.uk/projects/blizzard/2013/lessac_blizzard2013/\n* License: https://www.cstr.ed.ac.uk/projects/blizzard/2013/lessac_blizzard2013/license.html\n\n## Training\n\nTrained from scratch.\n",
+  "lines": {
+    "arrival": {
+      "file": "assets/generated/voices/arrival.wav",
+      "seconds": 8.89,
+      "text_sha256": "5f865002597a4a6290e9cb6d3e6d5d5d348c4ed224f6020d500ba9bb65b984f7",
+      "sha256": "18b05b938e4a4c36edb7e80ea9bdecbf39493c6266f8f9d3d47ce9f80ef90c35"
+    },
+    "pendant": {
+      "file": "assets/generated/voices/pendant.wav",
+      "seconds": 7.22,
+      "text_sha256": "56df3ac24f356306aba6f936dd3656c60ded71226e301838606c18495b53fe44",
+      "sha256": "227536db5d6e389dd9200738ba893610f892f50a2bf9018e6428a5445868d64f"
+    },
+    "gate": {
+      "file": "assets/generated/voices/gate.wav",
+      "seconds": 8.43,
+      "text_sha256": "b67f9976ed56ace824bf9998e32816ddcf88fc93eb3ce1a6781c9fd3450a1164",
+      "sha256": "2f19a50c7459054a4e1b8e32733d13c720c191b5e9b86fdd4cad0304c9871382"
+    },
+    "introduction": {
+      "file": "assets/generated/voices/introduction.wav",
+      "seconds": 5.47,
+      "text_sha256": "285445f021d5ab6bce24514f4d454059d02d2bb9f564dd44fe4f52a6282c054b",
+      "sha256": "9265092774d2883071dea9d953e3c42094c30eaf4c1013997f52140be8c93217"
+    },
+    "first_choice": {
+      "file": "assets/generated/voices/first_choice.wav",
+      "seconds": 3.69,
+      "text_sha256": "6ff95dfe4123a659dd1bd09439b35acdaa35b357c594c08956d592a201df7e1b",
+      "sha256": "07603d98f1e5122324c8b5bf19602563de944200d4b75e7e13c42faeb0927b11"
+    },
+    "trust": {
+      "file": "assets/generated/voices/trust.wav",
+      "seconds": 8.21,
+      "text_sha256": "645abea2336bcad59c7217dfc8c14628063754dc8a35c875e80a55718208d143",
+      "sha256": "7d4ab5032ac3cac8a477596e8fda26f1b8869bc33db2bf1cfc9a1d3c22ddbce4"
+    },
+    "question": {
+      "file": "assets/generated/voices/question.wav",
+      "seconds": 7.19,
+      "text_sha256": "767e06027bbb194e43178554b2c6e34c1964aea295436960dfd02eefc79c8dde",
+      "sha256": "5f49e6a626d177917ada2a5665085b668b5752af26c8666d4330a7ceb7f59c84"
+    },
+    "guard": {
+      "file": "assets/generated/voices/guard.wav",
+      "seconds": 8.14,
+      "text_sha256": "7ace95a2d7adef5f8ebcbd78e8f21e39772ac86a71cee01d99e1c4cf8eb6a3a7",
+      "sha256": "4d237f2e4adc0c83041695af9b1191e1e274fefbb60a1fc613c93b05ecb36f62"
+    },
+    "courtyard": {
+      "file": "assets/generated/voices/courtyard.wav",
+      "seconds": 7.64,
+      "text_sha256": "b5962d78940f7807062d676bd1c6817925fe678d1eda18cc8e87f2d873135dbd",
+      "sha256": "70f7f4bf9257527597fb6ff3ed4fcf9ff436fb60ef53bfddaa922be6ecbac9af"
+    },
+    "elder": {
+      "file": "assets/generated/voices/elder.wav",
+      "seconds": 6.07,
+      "text_sha256": "8e778be2fa9bd809ceddf7e4fed144cf81779f6f8e56624f533123b022616a8b",
+      "sha256": "0d70507f32511bdaec70934ed3d34adbf971c2d960802d4c9eda9b73e893c189"
+    },
+    "mother": {
+      "file": "assets/generated/voices/mother.wav",
+      "seconds": 5.58,
+      "text_sha256": "84b5b8213e46563c683599c62421336866b13236d3a58ef184fe5800a85b2167",
+      "sha256": "88996c87ef3e4721bdc90c28a2afa7e835460eceafecaf6ef59b46bf1f62cee8"
+    },
+    "truth": {
+      "file": "assets/generated/voices/truth.wav",
+      "seconds": 9.11,
+      "text_sha256": "f8fe4534b17193f1c26d58d1725436d8d3bd211c45a8a20a5d23f9aa5fb53998",
+      "sha256": "f96d814aa0d78b2b831e0f1cc52959eea493119e7ef404080a70fea3442963cc"
+    },
+    "cultivation_choice": {
+      "file": "assets/generated/voices/cultivation_choice.wav",
+      "seconds": 4.84,
+      "text_sha256": "b4c6c5f0feb7b31367da3b7f97b9a5b82f525aa925a1cba7e07b0ba1b6922bc6",
+      "sha256": "b520bcb6e0fd420e798880381c2db000332fd068f580356507709cef6c340f1d"
+    },
+    "breath": {
+      "file": "assets/generated/voices/breath.wav",
+      "seconds": 7.38,
+      "text_sha256": "531f50470fd288bae943f4a549d132695358a7143b11e490789b2405b3ffe3e0",
+      "sha256": "44d1ea4a022e1577ac2a654b5d5aefa90974dcda7d59dd0905ab3f61faa9dbfc"
+    },
+    "inscription": {
+      "file": "assets/generated/voices/inscription.wav",
+      "seconds": 6.88,
+      "text_sha256": "029e0ed653e2ca7220a72a23cacd01894d1ec2714ec6374e712316eeaed23b9c",
+      "sha256": "e8d01383e19c8e954f9e7b2ca9d5f40dae2cc6809ad383666553bfe209b68421"
+    },
+    "sword": {
+      "file": "assets/generated/voices/sword.wav",
+      "seconds": 5.77,
+      "text_sha256": "5e37617f497d49b92084a96b3fd2dd8890dd564ab0b35a2923b460eed24c7f62",
+      "sha256": "78f39a350f6b59bdcd5c061a22a49e4d97f94f9d71724698032aa8c3fbe84109"
+    },
+    "exile": {
+      "file": "assets/generated/voices/exile.wav",
+      "seconds": 9.22,
+      "text_sha256": "97f498e9e8f2bf5cc73ec3af32bc0043ae00898a45f121ac589b8575931d71e9",
+      "sha256": "4f66cb60dd3b85a7a26af1216bdb1f3b474068de75cfb82eaeef74ee4f359157"
+    },
+    "accusation": {
+      "file": "assets/generated/voices/accusation.wav",
+      "seconds": 6.52,
+      "text_sha256": "fa14439b37a72daebd1c6e744e9375ecd46e39b5c70a069bd3f0c684c085800f",
+      "sha256": "a2adc0bfc9196f0d7816913c058048ae3d09b24694a98de9fbffc9678111562d"
+    },
+    "exile_truth": {
+      "file": "assets/generated/voices/exile_truth.wav",
+      "seconds": 7.87,
+      "text_sha256": "92cde79410f2e6e9d6047bde65e41591785be6a9fb43ddc4551209ff9b0f7c37",
+      "sha256": "ebd0e373f6e20e7270501dadd8db3123596c953ee810ad9e755c5a149e9fba55"
+    },
+    "listen_choice": {
+      "file": "assets/generated/voices/listen_choice.wav",
+      "seconds": 4.33,
+      "text_sha256": "91b8e9a212a8a60c6a625e7f4bcf7d05bfbeaa667055bc5a96e7e9e5d98af458",
+      "sha256": "5b6037aab92205b0d9e0a9bd5771e22690aaa30eb8d691f0078ef3d7d0f9622a"
+    },
+    "star_wants": {
+      "file": "assets/generated/voices/star_wants.wav",
+      "seconds": 9.52,
+      "text_sha256": "5d43d35f8605e9389761cdb7b0b6a69c8175973e5a8b5b99cf9b2c77ea8b4f6b",
+      "sha256": "0525a09a44831883671cf79c2bb15ebfe29b2d8caabaf6390e69c2744c2344b8"
+    },
+    "protection": {
+      "file": "assets/generated/voices/protection.wav",
+      "seconds": 8.1,
+      "text_sha256": "afb110c8edef8d020f837919b6dbab704020eed73875de1374d8c2d28aa09242",
+      "sha256": "5d0b83ff0cbe50e2740932bc6cffe46e5c3b0851ad044795eca60d4cbb3ab797"
+    },
+    "waiting": {
+      "file": "assets/generated/voices/waiting.wav",
+      "seconds": 10.21,
+      "text_sha256": "5870518803f8963e82581530d56aa6cfa546898f51bf59fa470e670296206e0e",
+      "sha256": "d8576122087c12017d0811ed19856d787b80e74dce958dfea2f4138374281301"
+    },
+    "descent": {
+      "file": "assets/generated/voices/descent.wav",
+      "seconds": 9.78,
+      "text_sha256": "a521f7b47e91e47ca3f1f91285d671f7c98d080b77baf25927548956a7bd584d",
+      "sha256": "efdd49ea7748e86d7fc38bb3d91c6ad36eb651e9e5562abea89ac2c4ff69f6b5"
+    },
+    "star": {
+      "file": "assets/generated/voices/star.wav",
+      "seconds": 8.59,
+      "text_sha256": "198220e8c49767ea0acb5d6860fed448294cfe91dac784a1e994da9cc2d218e6",
+      "sha256": "df1004d8bbe09c0752d0585a26ec6720068b5ea81951eeed98327baac08afabb"
+    },
+    "answer": {
+      "file": "assets/generated/voices/answer.wav",
+      "seconds": 5.4,
+      "text_sha256": "a62421a51929faac0a2519d3ca64978c0432f1a44741248df1910db11f7b2855",
+      "sha256": "bb7cb92b0706e07cf928278bfa1fb3182d3a83396e878dce10a35e063f699449"
+    },
+    "memory": {
+      "file": "assets/generated/voices/memory.wav",
+      "seconds": 9.69,
+      "text_sha256": "dbe04b1ba340f963dfe2422552f297b0ebf79a63370fd5ef4855ed36752bb70e",
+      "sha256": "1e24c76a11fdc39502f5785a50f4da12255ed3458b9e3f4011822d19abdbc86c"
+    },
+    "fracture": {
+      "file": "assets/generated/voices/fracture.wav",
+      "seconds": 6.22,
+      "text_sha256": "bed20e605cf6aa20c13aab7d61fe03d49cee3c3e438bcdd6af7a2418e3c5fe8e",
+      "sha256": "073cae0653abc1727d8583f1bf0264748719091aeb4f4a21847584dbc29be07a"
+    },
+    "final_choice": {
+      "file": "assets/generated/voices/final_choice.wav",
+      "seconds": 4.44,
+      "text_sha256": "ab28e164d2e8966b499f0951f150739d7887197a8b136a817d22bd190ffb8c24",
+      "sha256": "4ece2fcdc5e58dc81480325f214c429b292f73cbada6913f8a4dc487e78cd6f6"
+    },
+    "shared": {
+      "file": "assets/generated/voices/shared.wav",
+      "seconds": 7.67,
+      "text_sha256": "3201cc8a1b7ca1026949a64bd444f76bc50ea59c79de162cef39017d70886244",
+      "sha256": "85ded69aa1b60f01401a6dd2b94f539e6ae1c043df5194baba124bbf5d2a9fda"
+    },
+    "covenant": {
+      "file": "assets/generated/voices/covenant.wav",
+      "seconds": 7.34,
+      "text_sha256": "c6a3554ec667ff5d5cb11526525af539369da803b93ae4890b85bfe59b96d2ae",
+      "sha256": "b0f0b845476ccf1dac4ff998564e4fbfeeec2f84908b89908fa3a5ce208c36d8"
+    },
+    "release": {
+      "file": "assets/generated/voices/release.wav",
+      "seconds": 5.24,
+      "text_sha256": "fcbe714d2e1771cb6218bc0b1168c331fac9841c1662f7890e8f839a442d0583",
+      "sha256": "f5c19f782a87d0993d3fe59f608c1795e13c4ca6e372abbb8a7b0cbf98761998"
+    },
+    "together": {
+      "file": "assets/generated/voices/together.wav",
+      "seconds": 7.55,
+      "text_sha256": "2337ee996875642af102890a0e7fd486aacd81f7c3523bdd25543dc0b8a319de",
+      "sha256": "92e86ee18f9d0e6efdbeb527b6bb5a7894f95b1f536097fb896ac0ef6b73c824"
+    },
+    "ending_shared": {
+      "file": "assets/generated/voices/ending_shared.wav",
+      "seconds": 12.82,
+      "text_sha256": "1d91b9172059b5e190c36a097e733ba0da1b9d99ad1d8033c089875120d1b844",
+      "sha256": "6ce5f2cfcd1f36364f57e6b362e2f694eca48762ea48def6c04925d8daeacd20"
+    },
+    "ending_covenant": {
+      "file": "assets/generated/voices/ending_covenant.wav",
+      "seconds": 12.9,
+      "text_sha256": "a60d609683e665a983468fac76b4024d686cd43c69ad75262465f0727a28c357",
+      "sha256": "258b61ab6a0a8e984d08c86f34ed14fb2ebac7cabd169ebc13cdb9439fba3d48"
+    },
+    "ending_release": {
+      "file": "assets/generated/voices/ending_release.wav",
+      "seconds": 13.65,
+      "text_sha256": "507be29a6dd687489da3038b070f15c40f43e668ad9aae70c4de0cbb6de53027",
+      "sha256": "966a43acee0e51d53aa620f1ecec55207f366e47fe2498e19212b2edb9c610a0"
+    }
+  }
+}
