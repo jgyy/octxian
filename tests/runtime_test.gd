@@ -104,6 +104,37 @@ func _run() -> void:
 	game.actor.reset_motion()
 	await create_timer(0.2).timeout
 	check(absf(game.actor.sprite.position.y) > 0.1, "Actual playback should move the complete portrait")
+
+	game.state.current = "ending_shared"
+	game._scene()
+	game.dialogue.visible_characters = -1
+	game._advance()
+	check(game.state.current == "lantern_shared", "UI should continue from Book I into Book II")
+	game.state.current = "lantern_hub"
+	game._scene()
+	game.dialogue.visible_characters = -1
+	check(game.actor.character == "su_lan" and game.actor.sprite.texture.get_size() == Vector2(1024, 1536), "Quest keeper should use her native portrait")
+	check(game.background.texture.get_size() == Vector2(1672, 941), "Book II should load its new background")
+	game._choose(1)
+	check(game.state.current == "reed_approach", "Quest hub should branch into the spirit route")
+	game.state.current = "reed_voice"
+	game._scene()
+	check(game.actor.character == "reed_listener", "Spirit should use its own sprite")
+	game._world()
+	check(game.world_previews.size() == 3, "World gallery should show all three asset categories")
+	for preview in game.world_previews.values():
+		check(preview.image.texture != null, "World gallery should load actual artwork")
+	game._close_popup()
+	var corrupt := ConfigFile.new()
+	corrupt.set_value("reading", "speed", [1, 2])
+	corrupt.set_value("reading", "motion", "false")
+	corrupt.set_value("reading", "voice", "false")
+	corrupt.set_value("audio", "Music", {"broken": true})
+	corrupt.save("user://settings.cfg")
+	game._load_settings()
+	check(game.text_speed == 38.0 and not game.reduced_motion and game.audio.enabled, "Malformed settings should use typed defaults")
+	check(AudioServer.get_bus_volume_db(AudioServer.get_bus_index("Music")) == -8.0, "Malformed volume should recover")
+	check(game._setting_number(corrupt, "missing", "missing", 38.0, 12.0, 100.0) == 38.0, "Missing numeric settings should use defaults")
 	game.audio.shutdown()
 	await create_timer(0.25).timeout
 	DirAccess.remove_absolute("user://settings.cfg")
