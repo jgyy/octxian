@@ -73,12 +73,6 @@ def render_frame(a, b, layers, rig, triangles, frame, motion, grid):
     intermediate = intermediate_points(rig, amount)
     pose_a = warp_pose(layers[0][0], rig[0], intermediate, triangles, grid)
     pose_b = warp_pose(layers[1][0], rig[1], intermediate, triangles, grid)
-    pose_a = place_hand(pose_a, layers[0][1], rig[0][0], intermediate[0])
-    pose_b = place_hand(pose_b, layers[1][1], rig[1][0], intermediate[0])
-    if amount < 0.00001:
-        pose_a = a
-    if amount > 0.99999:
-        pose_b = b
     pixels = pose_a * (1 - amount) + pose_b * amount
     # Independently move loose silk and hair, leaving the feet anchored.
     strength = {"idle": 3.5, "channeling": 6.0, "wind": 13.0, "resolve": 5.0}[motion]
@@ -90,6 +84,12 @@ def render_frame(a, b, layers, rig, triangles, frame, motion, grid):
     sway += 2.2 * math.sin(phase) * anchored
     lift = 1.6 * math.sin(phase + 0.4) * anchored
     pixels = cv2.remap(pixels, np.float32(xx - sway), np.float32(yy - lift), cv2.INTER_LINEAR)
+    # Silk/hair motion cannot displace or erase the separately rigged palm.
+    empty = np.zeros_like(a)
+    hand_a = place_hand(empty, layers[0][1], rig[0][0], intermediate[0])
+    hand_b = place_hand(empty, layers[1][1], rig[1][0], intermediate[0])
+    hand = hand_a * (1 - amount) + hand_b * amount
+    pixels = hand + pixels * (1 - hand[:, :, 3:4])
     alpha = pixels[:, :, 3:4]
     pixels[:, :, :3] = np.divide(pixels[:, :, :3], alpha,
                                   out=np.zeros_like(pixels[:, :, :3]), where=alpha > 0.001)
