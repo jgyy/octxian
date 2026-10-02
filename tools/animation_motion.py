@@ -6,7 +6,7 @@ warp must never qualify as articulated motion.
 import cv2
 import numpy as np
 
-LIMITS = {"changed_fraction": 0.20, "upper_changed_fraction": 0.20,
+LIMITS = {"changed_fraction": 0.15, "upper_changed_fraction": 0.20,
           "silhouette_change_fraction": 0.08}
 
 
