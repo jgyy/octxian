@@ -6,7 +6,7 @@
 - Three Book I endings continue into Book II without losing stats or journal history.
 - Three investigations, nine approaches, and four additional endings.
 - One new painted environment at native 1672×941.
-- One adult human NPC and one spirit beast, each at native 1024×1536 with alpha.
+- Two adult human NPCs and one spirit beast, each at native 1024×1536 with alpha.
 - A world art gallery and scene-specific backgrounds and portraits.
 - Regression coverage for invalid choice transactions, stats over 100, settings corruption, and world UI.
 
