@@ -5,7 +5,8 @@
 - `data/story.json`: characters, dialogue, links, choice effects and stat requirements.
 - `scripts/story_state.gd`: pure story navigation and versioned save validation.
 - `scripts/main.gd`: title, dialogue, choices, settings, journal and screenshot capture.
-- `scripts/animated_character.gd`: actual 64-frame atlas playback.
+- `scripts/animated_character.gd`: actual 64-frame atlas playback for every outfit.
+- `data/wardrobe.json` and `scripts/wardrobe.gd`: clothing catalog and validated per-character selections.
 - `scripts/audio_director.gd`: independent music, effects and narration buses.
 - `tools/build_assets.py`: deterministic frame and original audio generation.
 - `tools/generate_voices.py`: resumable neural narration.
@@ -22,7 +23,7 @@ godot --path . -- --capture
 godot --headless --path . --export-pack Linux build/jade-vow.pck
 ```
 
-Capture mode writes actual viewport screenshots to `build/screenshots` and exits.
+Capture mode writes six actual viewport screenshots to `build/screenshots` and exits. `python tools/verify_screenshots.py` validates them and creates compact JPEG previews. Captures cover the title, dialogue, original wardrobe, training wardrobe, festival wardrobe, and festival clothing in dialogue.
 The packaged executable discovers `jade-vow.pck` beside it.
 
 ## Story schema
@@ -33,7 +34,9 @@ Choices apply effects only when their requirements are met. Failed loads never r
 
 ## Asset accounting
 
-There are 16 atlas PNGs, each an 8×8 grid of 192×512 RGBA cells. Four characters each have four cycles of 64 frames, totalling 1,024. Their source is four portraits in a GPT-generated image. CI checks each individual decoded cell for a unique pixel hash and checks the atlas hash against the manifest. This distinguishes animation frames from source images.
+There are 48 atlas PNGs, each an 8×8 grid of 192×512 RGBA cells. Four adult characters each have three outfits and four cycles of 64 frames, totalling 3,072. Their source is twelve portraits in three GPT-generated cast images. CI checks every decoded cell for a globally unique pixel hash, source hashes, the clothing catalog hash, and each atlas hash against the versioned manifest. See [Wardrobe](WARDROBE.md) for clothing persistence and filenames.
+
+Asset baking is resumable: unchanged, verified atlases are reused. The feature-branch bundle job publishes assets and screenshots when media changes or captures are missing; repeat validation keeps the existing media commit intact.
 
 ## Scope
 
