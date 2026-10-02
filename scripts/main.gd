@@ -641,7 +641,8 @@ func _capture() -> void:
 	for character in Wardrobe.CHARACTERS:
 		_set_outfit(character, Wardrobe.DEFAULT_OUTFIT)
 
-	for sample in [{"id": "lantern_hub", "file": "quest_hub"}, {"id": "reed_voice", "file": "spirit_encounter"}, {"id": "ferry_price", "file": "ferry_encounter"}, {"id": "archive_copies", "file": "archive_encounter"}]:
+	atmosphere.enabled = not reduced_motion
+	for sample in [{"id": "lantern_hub", "file": "quest_hub"}, {"id": "reed_voice", "file": "spirit_encounter"}, {"id": "ferry_price", "file": "ferry_encounter"}, {"id": "archive_copies", "file": "archive_encounter"}, {"id": "river_xiu", "file": "river_pilot"}, {"id": "river_spirit", "file": "river_spirit"}, {"id": "harbor_answer", "file": "river_harbor"}]:
 		state.current = sample.id
 		_scene()
 		dialogue.visible_characters = -1
@@ -652,6 +653,13 @@ func _capture() -> void:
 	await get_tree().create_timer(0.8).timeout
 	await RenderingServer.frame_post_draw
 	get_viewport().get_texture().get_image().save_png("res://build/screenshots/world_gallery.png")
+	_items()
+	for index in range(world.get("items", []).size()):
+		_item_selected(index)
+		await get_tree().create_timer(0.4).timeout
+		await RenderingServer.frame_post_draw
+		var object_id := str(world.items[index].id)
+		get_viewport().get_texture().get_image().save_png("res://build/screenshots/object_%s.png" % object_id)
 	print("JADE_VOW_CAPTURE_OK")
 	_quit_game()
 
