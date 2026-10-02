@@ -787,7 +787,7 @@
       "actor": "su_lan",
       "text": "The archive door had been sealed with wet ink. An Ru opened it from inside using a kettle, a knife, and a patience Lin Yue immediately envied. Shelves leaned under rolls of household records. On the reading table lay nineteen cards, each bearing a name. At first glance nothing was missing. Then Lin Yue noticed the dates.",
       "chapter": "book_ii",
-      "background": "salt_lantern_valley",
+      "background": "valley_archive",
       "next": "archive_copies"
     },
     "archive_copies": {
@@ -795,7 +795,7 @@
       "actor": "an_ru",
       "text": "These are copies made yesterday. The missing families appear as newcomers requesting permission to settle land their grandparents farmed. The magistrate offered to restore their names if they signed. He called it mercy. I kept the originals because mercy should survive comparison with the document it replaces.",
       "chapter": "book_ii",
-      "background": "salt_lantern_valley",
+      "background": "valley_archive",
       "next": "archive_ancestry"
     },
     "archive_ancestry": {
@@ -803,7 +803,7 @@
       "actor": "su_lan",
       "text": "My husband is on that card. It says he arrived this spring. He died seven winters ago, standing in the water to rescue a ferry rope. The clerk copied his name from my complaint without copying the reason I had written it. So there he is, applying for a home he had already left feet first.",
       "chapter": "book_ii",
-      "background": "salt_lantern_valley",
+      "background": "valley_archive",
       "next": "archive_dilemma"
     },
     "archive_dilemma": {
@@ -811,7 +811,7 @@
       "actor": "an_ru",
       "text": "The originals prove the village's claim, but they also record debts. Wei Jin's family owes the shrine seventeen years of maintenance. The keeper's house borrowed seed salt during the famine. If we publish everything, the magistrate will demand payment. If we hide the debts, he will call the entire archive forged.",
       "chapter": "book_ii",
-      "background": "salt_lantern_valley",
+      "background": "valley_archive",
       "next": "archive_reading"
     },
     "archive_reading": {
@@ -819,7 +819,7 @@
       "actor": "su_lan",
       "text": "Lin Yue read until the ink blurred. Each debt had a witness, a date, and an exception written in a smaller hand. The village owed salt when the harvest exceeded its needs. Maintenance was shared when the ferry carried shrine visitors. The magistrate's copies preserved the numbers and omitted every condition that made a number human.",
       "chapter": "book_ii",
-      "background": "salt_lantern_valley",
+      "background": "valley_archive",
       "next": "archive_question"
     },
     "archive_question": {
@@ -827,7 +827,7 @@
       "actor": "lin_yue",
       "text": "He has made generosity look like a failed bargain. We can expose the full ledger, restore the exceptions first, or ask each household what it permits us to reveal. There is no clean page waiting behind these pages. There are only people who have to live together after we put the book down.",
       "chapter": "book_ii",
-      "background": "salt_lantern_valley",
+      "background": "valley_archive",
       "next": "archive_choice"
     },
     "archive_choice": {
@@ -835,7 +835,7 @@
       "actor": "an_ru",
       "text": "Choose how we bring this to the tower. I can preserve the pages whichever way you go. I cannot preserve everyone's trust by deciding what they ought to feel about them. Before you ask a clerk to be brave, remember that tomorrow the clerk still needs to work in this room.",
       "chapter": "book_ii",
-      "background": "salt_lantern_valley",
+      "background": "valley_archive",
       "choices": [
         {
           "text": "Publish the original ledger and every condition alongside its debts.",
@@ -865,7 +865,7 @@
       "actor": "lin_yue",
       "text": "We will take the whole ledger. I will stay through the reading and answer the demands that follow. If anyone uses a debt to erase a household's right to speak, I will ask them to read the exception out loud. I will not promise that being heard will be painless.",
       "chapter": "book_ii",
-      "background": "salt_lantern_valley",
+      "background": "valley_archive",
       "next": "archive_publish_cost"
     },
     "archive_publish_cost": {
@@ -873,7 +873,7 @@
       "actor": "su_lan",
       "text": "An Ru wrapped the ledger in oilcloth. Su Lan stopped at a page bearing her husband's mark and stood very still. It recorded a loan she had never known he made. The discovery did not diminish the years they had shared, but it changed their edges. Truth had arrived as grief before it could become evidence.",
       "chapter": "book_ii",
-      "background": "salt_lantern_valley",
+      "background": "valley_archive",
       "next": "archive_witness"
     },
     "archive_compare": {
@@ -881,7 +881,7 @@
       "actor": "an_ru",
       "text": "Then we need two columns, not an accusation. Here is what the village agreed. Here is what the copy claims. I will put my own name beneath the comparison. People should be able to question the person who assembled their proof, even if that questioning makes the proof harder to use.",
       "chapter": "book_ii",
-      "background": "salt_lantern_valley",
+      "background": "valley_archive",
       "next": "archive_compare_cost"
     },
     "archive_compare_cost": {
@@ -889,7 +889,7 @@
       "actor": "su_lan",
       "text": "They copied until the kettle went cold. Twice Lin Yue read a clause too quickly; twice An Ru made her start again. One exception favored the magistrate's own house, whose winter roof had been rebuilt without charge. Su Lan insisted they preserve that line too. A fair ledger could not begin by finding a new household to erase.",
       "chapter": "book_ii",
-      "background": "salt_lantern_valley",
+      "background": "valley_archive",
       "next": "archive_witness"
     },
     "archive_consent": {
@@ -897,7 +897,7 @@
       "actor": "su_lan",
       "text": "We will knock on doors before we open this book in the square. A household can refuse us, and we will record the refusal without inventing a reason. We will explain that silence may weaken the case. Then we will leave the door open long enough for the answer to belong to them.",
       "chapter": "book_ii",
-      "background": "salt_lantern_valley",
+      "background": "valley_archive",
       "next": "archive_consent_cost"
     },
     "archive_consent_cost": {
@@ -913,7 +913,7 @@
       "actor": "an_ru",
       "text": "Take my seal, Yue. It proves that the comparison came from this room. It does not prove that you must agree with me. If the magistrate asks who authorized the reading, say the people whose names were on the door. If he asks who authorized my work, say that I did, and bring him here.",
       "chapter": "book_ii",
-      "background": "salt_lantern_valley",
+      "background": "valley_archive",
       "next": "archive_return"
     },
     "archive_return": {
