@@ -59,6 +59,8 @@ Portrait preparation reuses unchanged, verified files. The feature-branch bundle
 
 `data/world_assets.json` registers native painted backgrounds, NPCs, and spirit beasts. World portraits render through the same intact-body animation component. The world validator rejects missing or duplicated files, dimensions that disagree with the catalog, sprites without alpha, broken links, unknown cast references, and unreachable scenes. Its JSON report states the authored word count and whether the final production targets have been reached. The present draft has not reached those targets.
 
+Reading scenes use a 680-pixel portrait height with room for the whole bob beneath the navigation bar and above the footer. Title portraits use 730 pixels; wardrobe previews use 350. Uniform scaling preserves proportions. Changing `display_height` updates a cached portrait's scale immediately.
+
 The stateful Godot route traversal includes Book I continuations and all seven endings. Repeated `(scene, stats)` states are deduplicated so converging routes do not inflate work or manuscript counts.
 
 ## Scope
