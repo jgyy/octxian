@@ -12,14 +12,14 @@ A jade pendant leads Lin Yue to a mountain suspended above the mortal world. Ben
 
 Download the `jade-vow-linux` artifact from a successful [CI run](https://github.com/jgyy/octxian/actions/workflows/ci.yml), extract `jade-vow-linux.tar.gz`, and run `./jade-vow`. Keep `jade-vow.pck` beside the executable.
 
-Or clone this repository, open `project.godot` in Godot 4.7.2, and press F6/F5. Generated sprites, music, effects, and neural narration are bundled after the first successful asset build.
+Or clone this repository, open `project.godot` in Godot 4.7.2, and press F6/F5. Generated sprites, music, effects, and neural narration are bundled in the feature branch.
 
 - **Enter / Space:** finish the current line, then advance.
 - **1–4:** select an available choice.
 - **S:** save. **L:** open the dialogue journal. **Esc:** close a panel or open settings.
-- The interface also provides save/load, auto reading, fast text, an animated wardrobe gallery, audio levels, and reduced motion.
+- The interface provides save/load, auto reading, fast text, an animated wardrobe gallery, audio levels, and reduced motion.
 
-The opening contains 36 scenes, 931 narrated words, cultivation stats, gated choices, and three reachable endings. It is a complete short opening with multiple endings, rather than a full-length novel.
+The opening contains 36 scenes, 931 narrated words, cultivation stats, gated choices, and three reachable endings. This is a complete short opening.
 
 ![Branching dialogue](docs/screenshots/dialogue.png)
 
@@ -29,30 +29,42 @@ Open **Wardrobe** in the top navigation and choose an outfit independently for e
 
 | Outfit | Style |
 |---|---|
-| Sect Robes | Original layered cultivation robes |
+| Sect Robes | Layered cultivation robes |
 | Light Training | Sleeveless wraps and open martial vests, exposed arms and waists, split skirts |
 | Moon Festival | Open shoulders and backs, decorated silk, open necklines and high side slits |
 
-The four adult characters each have all three options. Gallery previews animate, selected
-clothing appears immediately in the story and on the title screen, and choices persist in
-settings across sessions. Clothing changes leave dialogue progress and cultivation stats intact.
+The four adult characters each have all three options. Gallery previews animate, selected clothing appears immediately in the story and on the title screen, and choices persist across sessions. Clothing changes preserve dialogue progress and cultivation stats.
 
 ![Light Training wardrobe](docs/screenshots/wardrobe_training.png)
 
 ![Moon Festival wardrobe](docs/screenshots/wardrobe_festival.png)
 
-## Generated art, animation, and audio
+## Animation in motion
+
+The PNG files are sprite atlases: each contains an 8×8 sequence of frames. Godot plays them at 16 fps. These previews play the actual generated frames:
+
+![Animated Sect Robes](docs/animations/sect.gif)
+
+[Light Training](docs/animations/training.gif) · [Moon Festival](docs/animations/festival.gif) · [Four motion cycles](docs/animations/motions.gif) · [Frame comparison](docs/animations/sect_frames.jpg)
+
+The following recording samples the running Godot viewport, with background motion disabled:
+
+![In-game character animation](docs/animations/rendered_game.gif)
+
+The animation uses 24 GPT-drawn key poses, two per character/outfit appearance. An articulated upper arm, forearm, and palm follow a curved gesture path over one stable body portrait. The alternate pose supplies clothing beneath the removed resting arm. Head tilt, hair, and cloth movement accompany the gesture. Every loop moves the palm at least 48 pixels in its 384×512 cell.
+
+## Generated art and audio
 
 | Asset | Delivered |
 |---|---|
-| GPT Images artwork | Twelve character outfit portraits and one mountain-sect environment |
+| GPT Images artwork | 24 gesture key poses, twelve outfit reference portraits, one mountain-sect environment |
 | Animated sprites | **3,072 unique frames**: 4 characters × 3 outfits × 4 motion cycles × 64 frames |
-| Animation playback | 16 fps, seamless breathing/sway/qi effects through AnimatedSprite2D |
+| Animation playback | 16 fps through AnimatedSprite2D; gestures, head tilt, flowing hair and cloth |
 | Music | Original 48-second pentatonic plucked-string composition |
 | Sound effects | Page, bell, qi channeling, and sword |
-| AI voices | Piper neural narration for all 36 scenes; one Lessac narrator voice with character pacing |
+| AI voices | Piper neural narration for all 36 scenes; one Lessac narrator timbre with character pacing |
 
-The 3,072 frames are baked from GPT-generated artwork through deformation and effects. They are **not 3,072 independent GPT image requests**. Motion animates the existing portraits, without skeletal articulation or lip sync. See [art provenance](assets/art/PROVENANCE.md) and the generated voice model card for source and licensing details.
+In-between frames are computed from GPT artwork. They are **not 3,072 separate GPT image requests**. The game has no lip sync. See [art provenance](assets/art/PROVENANCE.md) and the generated voice model card for sources and licensing.
 
 ## Rebuild assets
 
@@ -65,18 +77,19 @@ python -m pip install -r requirements.txt
 python tools/build_assets.py
 python tools/generate_voices.py
 python tools/validate_assets.py
+python tools/preview_animations.py
 ```
 
 Voice generation downloads the public Piper Lessac neural model on its first run. It needs no API key, resumes unchanged lines, and records the model source, SHA-256, upstream model card, and per-line audio hashes.
 
-To expand the cast, add GPT artwork to `assets/art`, update the cast mapping in `tools/build_assets.py`, and extend `data/story.json`. Story text and choices are data files; no dialogue is hard-coded in the interface.
+To add appearances, update `data/wardrobe.json`, GPT pose sheets, and hand/elbow/shoulder landmarks in `data/animation_rigs.json`. Story text and choices live in `data/story.json`. See [development instructions](docs/DEVELOPMENT.md).
 
 ## Architecture
 
 ```mermaid
 flowchart TD
-    GPT["GPT Images artwork"] --> Bake["Python frame baker"]
-    Bake --> Atlas["48 atlases · 3,072 unique frames"]
+    GPT["GPT Images · distinct gesture poses"] --> Rig["Python arm rig · head · hair · cloth"]
+    Rig --> Atlas["48 atlases · 3,072 frames"]
     Atlas --> Cast["AnimatedSprite2D cast"]
     JSON["Story JSON · 36 scenes"] --> State["Story state · choices · stats"]
     State --> UI["Godot interface · journal · saves"]
@@ -87,19 +100,19 @@ flowchart TD
     Synth["Original music and SFX synthesis"] --> Audio["Music / SFX / Voice buses"]
     Piper --> Audio
     Audio --> UI
-    CI["GitHub Actions"] --> Verify["Story routes · saves · UI · assets"]
-    Verify --> Capture["Rendered screenshots"]
-    Verify --> Build["Playable Linux artifact"]
+    CI["GitHub Actions"] --> Verify["Gesture checks · routes · saves · UI"]
+    Verify --> Capture["Screenshots · atlas GIFs · timed game GIF"]
+    Verify --> Build["Standalone Linux build and playback check"]
 ```
 
 ## Validation
 
-CI checks asset counts and uniqueness, audio hashes and narration coverage, every story route and ending, save corruption handling, actual UI navigation, all 48 outfit animation cycles, settings and reduced motion. It imports and runs Godot, renders screenshots under Xvfb, and exports a playable Linux package.
+CI rejects identical frames, tiny sway, whole-image panning, tint changes, particle-only animation, and translucent or missing moving palms. It checks opaque-body and silhouette changes, at least 48 pixels of palm travel, source/code hashes, every decoded frame, audio integrity, and narration coverage.
 
-CI also launches the packaged game from a folder without the source checkout and checks that its story, animation, and narration load. Godot's license and third-party notices accompany the Linux package.
+Godot exercises all 48 outfit/motion loops using the loaded textures. Tests also cover every story route and ending, save corruption handling, wardrobe persistence, UI navigation, settings, and reduced motion. Xvfb captures screenshots and timed character playback. CI exports and launches a Linux package from a folder without the source checkout and checks clean shutdown.
 
-The feature branch's bundle job adds verified assets and screenshots in a separate small commit. PR checks only read repository contents; they do not push to branches.
+The feature branch bundles verified assets and review media in separate commits. When media is unchanged, the bundle job preserves the current commit. PR checks do not push to branches.
 
 ## License
 
-Project code and original story: [MIT](LICENSE). GPT artwork provenance is documented in `assets/art/PROVENANCE.md`. Piper's voice model card is bundled in `assets/generated/voices/MODEL_CARD` and in the Linux package. Piper is a build-time dependency; the game plays rendered WAV audio and does not bundle the Piper engine.
+Project code and original story: [MIT](LICENSE). GPT artwork provenance is documented in `assets/art/PROVENANCE.md`. Piper's voice model card is bundled in `assets/generated/voices/MODEL_CARD` and the Linux package. Piper is a build-time dependency; the game plays rendered WAV audio.
