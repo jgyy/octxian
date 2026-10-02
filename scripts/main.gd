@@ -445,7 +445,7 @@ func _cast() -> void:
 		for index in range(options.size()):
 			selector.add_item(str(options[index]["name"]))
 			selector.set_item_metadata(index, str(options[index]["id"]))
-			selector.set_item_tooltip(index, str(options[index]["description"]))
+			selector.get_popup().set_item_tooltip(index, str(options[index]["description"]))
 			if options[index]["id"] == wardrobe.selected(id):
 				selector.select(index)
 		selector.item_selected.connect(_outfit_selected.bind(id))
