@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "reviewed_chapters": [
+    "book_i",
+    "book_ii"
+  ],
+  "facts": [
+    {
+      "id": "mountain_fate",
+      "statement": "Only the release ending grounds Azure Cloud. Shared and covenant routes leave it aloft.",
+      "anchors": [
+        "ending_release",
+        "ending_shared",
+        "ending_covenant",
+        "ferry_discovery"
+      ]
+    },
+    {
+      "id": "pendant_custody",
+      "statement": "Lin Yue retains the intact pendant on every continuing route.",
+      "anchors": [
+        "ending_release",
+        "ferry_water",
+        "memory"
+      ]
+    },
+    {
+      "id": "names_not_people",
+      "statement": "Nineteen household records were erased last winter. Their living occupants were not swallowed or killed; tablets shelter their names.",
+      "anchors": [
+        "reed_answer",
+        "assembly_listener",
+        "ferry_mark"
+      ]
+    },
+    {
+      "id": "su_lan_husband",
+      "statement": "Su Lan's husband died seven winters before Book II; his memorial record vanished last winter, six winters after his death.",
+      "anchors": [
+        "archive_ancestry",
+        "reed_old_wound"
+      ]
+    },
+    {
+      "id": "wei_xiu_alive",
+      "statement": "Wei Xiu carved the crossing stone and works at the north landing. Her household claim was erased, not her life.",
+      "anchors": [
+        "ferry_mark"
+      ]
+    },
+    {
+      "id": "public_evidence",
+      "statement": "Other investigators attend the assembly and present evidence from roads Lin Yue did not visit. Privacy permissions remain binding.",
+      "anchors": [
+        "lantern_hub",
+        "assembly_archive",
+        "assembly_listener",
+        "assembly_test"
+      ]
+    },
+    {
+      "id": "names_before_seed",
+      "statement": "Every Book II ending restores household records through a hearing or the bell. Seed growth is optional future shelter, never a condition of rights.",
+      "anchors": [
+        "assembly_provisional",
+        "lantern_seed",
+        "ending_seed",
+        "ending_crossing",
+        "ending_ledger",
+        "ending_bell"
+      ]
+    }
+  ],
+  "review_policy": "Review each new chapter's chronology, custody, character knowledge, and alternate outcomes before updating this ledger. Structural checks supplement editorial review; they do not prove the absence of all possible plot holes."
+}
