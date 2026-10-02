@@ -1,0 +1,100 @@
+{
+  "source": "GPT Images",
+  "derivation": "mesh sway, breathing, qi aura",
+  "frame_count": 1024,
+  "fps": 16,
+  "cell": [
+    192,
+    512
+  ],
+  "characters": {
+    "lin_yue": {
+      "idle": {
+        "path": "assets/generated/sprites/lin_yue_idle.png",
+        "frames": 64,
+        "sha256": "167c0a0eadd1e0c688b8016e958f0e3c2e504c2cf12d91045a072c872822811d"
+      },
+      "channeling": {
+        "path": "assets/generated/sprites/lin_yue_channeling.png",
+        "frames": 64,
+        "sha256": "ee19af47e7dc753808c9406d125942827c0e38cc25ddfd1db4b1e1c5630eaef7"
+      },
+      "wind": {
+        "path": "assets/generated/sprites/lin_yue_wind.png",
+        "frames": 64,
+        "sha256": "e87f26e38a10032f2a490732e4977655a87fa67e383d722b2f03373981eec661"
+      },
+      "resolve": {
+        "path": "assets/generated/sprites/lin_yue_resolve.png",
+        "frames": 64,
+        "sha256": "d3d4f92c7c83dfcdfe000caa70471af7cbb247f991f6d50197181a5c1edd0c12"
+      }
+    },
+    "shen_qing": {
+      "idle": {
+        "path": "assets/generated/sprites/shen_qing_idle.png",
+        "frames": 64,
+        "sha256": "e91f9acd3dd273a95ee13b09ce355e09dba2ca688e61cc1a675d99caf026ef66"
+      },
+      "channeling": {
+        "path": "assets/generated/sprites/shen_qing_channeling.png",
+        "frames": 64,
+        "sha256": "91683b815ca852f80e1f693875e30581dbc63fa57e17b07d8813432cdde4418d"
+      },
+      "wind": {
+        "path": "assets/generated/sprites/shen_qing_wind.png",
+        "frames": 64,
+        "sha256": "cd30238c79238135c91fb9140665c613bd2a80d51fa30263a589065906f779d1"
+      },
+      "resolve": {
+        "path": "assets/generated/sprites/shen_qing_resolve.png",
+        "frames": 64,
+        "sha256": "08e584192c2171929808e943b2f1809c4c048ae9304492eaf5c7c4569a75ece3"
+      }
+    },
+    "elder_yun": {
+      "idle": {
+        "path": "assets/generated/sprites/elder_yun_idle.png",
+        "frames": 64,
+        "sha256": "0198cfe0316ed5956dc69c16c71fbb990c6916af60dc2b9fc102c2db4aa2d2cc"
+      },
+      "channeling": {
+        "path": "assets/generated/sprites/elder_yun_channeling.png",
+        "frames": 64,
+        "sha256": "18c92ada23d58aa3f39947a31a4216a71202e62283df178f6b9530a9a675baf5"
+      },
+      "wind": {
+        "path": "assets/generated/sprites/elder_yun_wind.png",
+        "frames": 64,
+        "sha256": "cad5049cc4f5d0ed8c9db7757b6dc24930ed51814ff6b4f16e708f755fb713ae"
+      },
+      "resolve": {
+        "path": "assets/generated/sprites/elder_yun_resolve.png",
+        "frames": 64,
+        "sha256": "6d3b458601174934d8b625778e2ff00bb610084fec3479f342302fc04bf18200"
+      }
+    },
+    "mo_ran": {
+      "idle": {
+        "path": "assets/generated/sprites/mo_ran_idle.png",
+        "frames": 64,
+        "sha256": "2afbcc232b43e98ebbc75b5203a38b4758d0f2a016bf1f4697a5000d9197d849"
+      },
+      "channeling": {
+        "path": "assets/generated/sprites/mo_ran_channeling.png",
+        "frames": 64,
+        "sha256": "a54cf4f3737d8d31075af233d2c753a2d5afa12c04745cef82e48c0d534f340d"
+      },
+      "wind": {
+        "path": "assets/generated/sprites/mo_ran_wind.png",
+        "frames": 64,
+        "sha256": "466089e7ea155adc7bf2de79c841bec47088a94879a545553a7685574495c0ad"
+      },
+      "resolve": {
+        "path": "assets/generated/sprites/mo_ran_resolve.png",
+        "frames": 64,
+        "sha256": "2cc9b984befbefcb91ca03f226a8f47c2bb306909f80ffe931fa70655c5bbb49"
+      }
+    }
+  }
+}
