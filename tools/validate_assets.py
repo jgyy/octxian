@@ -22,6 +22,8 @@ def main():
     assert manifest["version"] == 3 and manifest["generator"] == GENERATOR
     assert manifest["cell"] == list(CELL) and manifest["key_poses_per_appearance"] == 2
     assert manifest["baker_sha256"] == digest(ROOT / "tools/animation_baker.py")
+    assert manifest["rig_sha256"] == digest(ROOT / "data/animation_rigs.json")
+    assert manifest["rig_code_sha256"] == digest(ROOT / "tools/pose_rig.py")
     motion_report = {}
     count = 0
     hashes = set()
