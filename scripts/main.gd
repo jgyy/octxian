@@ -588,6 +588,21 @@ func _capture() -> void:
 	await get_tree().create_timer(0.8).timeout
 	await RenderingServer.frame_post_draw
 	get_viewport().get_texture().get_image().save_png("res://build/screenshots/outfit_dialogue.png")
+
+	# Record real timed playback, with a quiet background so the actor's motion is clear.
+	_set_outfit("lin_yue", Wardrobe.DEFAULT_OUTFIT)
+	atmosphere.enabled = false
+	actor.sprite.speed_scale = 1.0
+	await get_tree().create_timer(0.4).timeout
+	actor.sprite.set_frame_and_progress(0, 0.0)
+	DirAccess.make_dir_recursive_absolute("res://build/animations/rendered")
+	for index in range(16):
+		await RenderingServer.frame_post_draw
+		var snapshot := get_viewport().get_texture().get_image()
+		snapshot.resize(960, 540, Image.INTERPOLATE_LANCZOS)
+		snapshot.save_png("res://build/animations/rendered/frame_%02d.png" % index)
+		await get_tree().create_timer(0.25).timeout
+
 	for character in Wardrobe.CHARACTERS:
 		_set_outfit(character, Wardrobe.DEFAULT_OUTFIT)
 	print("JADE_VOW_CAPTURE_OK")
