@@ -44,7 +44,7 @@ def main():
         output = OUT / f"{node_id}.wav"
         if not output.exists() or old["lines"].get(node_id, {}).get("text_sha256") != digest:
             with wave.open(str(output), "wb") as wav_file:
-                voice.synthesize_wav(text, wav_file, syn_config=SynthesisConfig(length_scale=timing[node["speaker"]]))
+                voice.synthesize_wav(text, wav_file, syn_config=SynthesisConfig(length_scale=timing.get(node["speaker"], 1.04)))
         with wave.open(str(output)) as wav_file:
             seconds = wav_file.getnframes() / wav_file.getframerate()
             if seconds <= 0:

@@ -30,9 +30,25 @@ If your Godot executable is named `godot4`, replace `godot` with `godot4` in bot
 - **S:** save. **L:** open the dialogue journal. **Esc:** close a panel or open settings.
 - The interface provides save/load, auto reading, fast text, an animated wardrobe gallery, audio levels, and reduced motion.
 
-The opening contains 36 scenes, 931 narrated words, cultivation stats, gated choices, and three reachable endings. This is a complete short opening.
+The playable script contains **102 scenes and 4,464 authored words** across two books, with cultivation stats and gated choices. Book I has three endings; each can continue into Book II, which adds three quest routes and four endings.
+
+This draft expansion currently adds **one painted background, one human NPC sprite, and one spirit-beast sprite** at their native generated sizes. The requested 100 backgrounds, 100 NPCs, 100 monsters and more than one million words remain production targets; they are not delivered by this draft. CI writes exact delivery counts to `build/content_report.json`.
 
 ![Branching dialogue](docs/screenshots/dialogue.png)
+
+## Book II: The valley that kept its name
+
+Continue from any Book I ending using **II →**. Su Lan leads you into Salt Lantern Valley, where a protective ward has erased nineteen households from the village register. Investigate the ferry boundary, meet the accused Reed Listener, or examine altered records in the archive. Each investigation offers three approaches, costs, and testimony before a final settlement.
+
+The **World** gallery previews the delivered locations, people, and spirit beasts. The new paintings are preserved at their native sizes: **1672×941** for the valley and **1024×1536** for each sprite. Display scaling preserves proportions; no upscaling is presented as added detail.
+
+![Book II quest choices](docs/screenshots/quest_hub.png)
+
+![The Reed Listener encounter](docs/screenshots/spirit_encounter.png)
+
+![World art gallery](docs/screenshots/world_gallery.png)
+
+See [the production scope and word budgets](docs/EXPANSION.md) for remaining work.
 
 ## Clothing options
 
@@ -69,11 +85,12 @@ The twelve resting portraits come from the original GPT artwork. Body bobbing pr
 | Asset | Delivered |
 |---|---|
 | GPT Images artwork | 24 gesture key poses, twelve outfit reference portraits, one mountain-sect environment |
+| New Book II painted art | 1 native background, 1 human NPC, 1 spirit beast |
 | Character portraits | **12 intact portraits**: 4 characters × 3 outfits |
 | Animation playback | Sprite2D whole-body bobbing on a four-second loop |
 | Music | Original 48-second pentatonic plucked-string composition |
 | Sound effects | Page, bell, qi channeling, and sword |
-| AI voices | Piper neural narration for all 36 scenes; one Lessac narrator timbre with character pacing |
+| AI voices | Piper neural narration for all 102 scenes; one Lessac narrator timbre with character pacing |
 
 Portraits are extracted from GPT artwork and bobbed by Godot at runtime. The game has no lip sync. See [art provenance](assets/art/PROVENANCE.md) and the generated voice model card for sources and licensing.
 
@@ -93,6 +110,8 @@ python tools/preview_animations.py
 
 Voice generation downloads the public Piper Lessac neural model on its first run. It needs no API key, resumes unchanged lines, and records the model source, SHA-256, upstream model card, and per-line audio hashes.
 
+World art and descriptions live in `data/world_assets.json`. `tools/validate_world.py` checks references, native dimensions, transparency, reachability, and honest manuscript accounting.
+
 To add appearances or adjust bobbing, update `data/wardrobe.json` and the GPT pose sheets. Story text and choices live in `data/story.json`. See [development instructions](docs/DEVELOPMENT.md).
 
 ## Architecture
@@ -102,7 +121,7 @@ flowchart TD
     GPT["GPT Images · resting portraits"] --> Prep["Python portrait extraction"]
     Prep --> Portraits["12 intact outfit portraits"]
     Portraits --> Cast["Sprite2D cast · whole-body bob"]
-    JSON["Story JSON · 36 scenes"] --> State["Story state · choices · stats"]
+    JSON["Story JSON · 102 scenes"] --> State["Story state · choices · stats"]
     State --> UI["Godot interface · journal · saves"]
     Wardrobe["Wardrobe catalog · saved outfit choices"] --> Cast
     Wardrobe --> UI
@@ -120,7 +139,7 @@ flowchart TD
 
 CI checks intact portrait extraction, preserved proportions, source/code hashes, audio integrity, and narration coverage.
 
-Godot exercises all 48 outfit/motion combinations, checking that the complete portrait bobs smoothly and rests when reduced motion is enabled. Tests also cover every story route and ending, save corruption handling, wardrobe persistence, UI navigation, and settings. Xvfb captures screenshots and timed character playback. CI exports and launches a Linux package from a folder without the source checkout and checks clean shutdown.
+Godot exercises all 48 outfit/motion combinations, checking that the complete portrait bobs smoothly and rests when reduced motion is enabled. Tests also cover every story route and ending, atomic rejection of invalid choices, long-campaign saves above 100, damaged settings recovery, world art rendering, save corruption handling, wardrobe persistence, UI navigation, and settings. Xvfb captures screenshots and timed character playback. CI exports and launches a Linux package from a folder without the source checkout and checks clean shutdown.
 
 The feature branch bundles verified assets and review media in separate commits. When media is unchanged, the bundle job preserves the current commit. PR checks do not push to branches.
 

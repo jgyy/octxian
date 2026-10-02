@@ -27,6 +27,26 @@
       "name": "Narrator",
       "title": "",
       "color": "#c5b68b"
+    },
+    "su_lan": {
+      "name": "Su Lan",
+      "title": "Keeper of the unstruck bell",
+      "color": "#d4b37d"
+    },
+    "reed_listener": {
+      "name": "The Reed Listener",
+      "title": "Spirit of the salt marsh",
+      "color": "#9bcec6"
+    },
+    "wei_jin": {
+      "name": "Wei Jin",
+      "title": "Ferryman without a charter",
+      "color": "#a4c1db"
+    },
+    "an_ru": {
+      "name": "An Ru",
+      "title": "Archivist of borrowed names",
+      "color": "#bcb0d3"
     }
   },
   "nodes": {
@@ -355,19 +375,680 @@
       "speaker": "narrator",
       "actor": "shen_qing",
       "ending": "The Shared Sky",
-      "text": "At dawn, three hundred lanterns burn along the mountain paths. Each holds a thread of willing qi. The star rests without carrying the whole world. Shen Qing leaves the gate open. Your promise has become a place to return to."
+      "text": "At dawn, three hundred lanterns burn along the mountain paths. Each holds a thread of willing qi. The star rests without carrying the whole world. Shen Qing leaves the gate open. Your promise has become a place to return to.",
+      "continuation": "lantern_shared"
     },
     "ending_covenant": {
       "speaker": "narrator",
       "actor": "elder_yun",
       "ending": "A Vow Without Chains",
-      "text": "The star rises beyond the plum trees, then returns at sunset of its own accord. Azure Cloud learns to ask, and to accept an answer. Elder Yun plants an orange tree beside the lake. Your mother's kindness grows another branch."
+      "text": "The star rises beyond the plum trees, then returns at sunset of its own accord. Azure Cloud learns to ask, and to accept an answer. Elder Yun plants an orange tree beside the lake. Your mother's kindness grows another branch.",
+      "continuation": "lantern_covenant"
     },
     "ending_release": {
       "speaker": "narrator",
       "actor": "mo_ran",
       "ending": "Where Mountains Take Root",
-      "text": "The mountain settles into the valley without breaking a single roof. Above it, a new constellation brightens the sky. Mo Ran's exile ends where the old boundaries disappear. You return the jade to the earth, and begin the long walk home."
+      "text": "The mountain settles into the valley without breaking a single roof. Above it, a new constellation brightens the sky. Mo Ran's exile ends where the old boundaries disappear. You return the jade to the earth, and begin the long walk home.",
+      "continuation": "lantern_release"
+    },
+    "lantern_shared": {
+      "speaker": "shen_qing",
+      "actor": "shen_qing",
+      "text": "The lanterns we lit for the star are still burning. Three hundred willing hearts are a beginning, Yue, but willingness must be asked for again tomorrow. The villages below the mountain have sent no answer. Before we call our promise a success, we should learn whose sleep our light has disturbed.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "lantern_arrival"
+    },
+    "lantern_covenant": {
+      "speaker": "elder_yun",
+      "actor": "elder_yun",
+      "text": "The star returned by choice, and we celebrated. Then the salt villages sent us a bill for the lantern oil they had burned while waiting for the sky to fall. Freedom does not erase a debt. Your mother's covenant asks us to listen when gratitude is the last thing anyone feels.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "lantern_arrival"
+    },
+    "lantern_release": {
+      "speaker": "mo_ran",
+      "actor": "mo_ran",
+      "text": "The mountain has roots now. So do the roads it displaced. There is a ferry landing beneath a slope that used to be sky, and a family has lost its winter salt field. Come with me. If we learn only how to release what we love, we may never learn how to stay.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "lantern_arrival"
+    },
+    "lantern_arrival": {
+      "speaker": "narrator",
+      "actor": "su_lan",
+      "text": "The road down from Azure Cloud ended at a lake black enough to hold every lantern twice. Salt terraces stepped out into the water. Beyond them, a bell tower stood silent among reeds that gleamed like broken porcelain. Lin Yue had expected a village welcoming the mountain home. Instead, every gate bore a strip of blank paper.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "lantern_clapper"
+    },
+    "lantern_clapper": {
+      "speaker": "su_lan",
+      "actor": "su_lan",
+      "text": "Do not write your name on those slips. They are not invitations. Last winter the lake took nineteen names from our register, and the magistrate decided that people with no names could not own land. We leave the paper empty so visitors will ask before lending us another pretty solution.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "lantern_introduction"
+    },
+    "lantern_introduction": {
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "I brought a pendant, a sword, and several reasons to think I understood a promise. None of them tells me how to return a name. Tell me where to start, Keeper. I can promise to hear the answer. I cannot promise that the first thing I try will be wise.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "lantern_empty_bell"
+    },
+    "lantern_empty_bell": {
+      "speaker": "su_lan",
+      "actor": "su_lan",
+      "text": "Su Lan. Keeper is a job that pays in complaints. The bell has no clapper because I took it down. Each time it sounded, another household vanished from the register. People said the beast in the reeds was eating our names. People also said the magistrate was saving us. Both stories were very convenient.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "lantern_map"
+    },
+    "lantern_map": {
+      "speaker": "narrator",
+      "actor": "su_lan",
+      "text": "Su Lan spread a salt-stained map across the inn table. A ferry route stopped halfway through the lake. A marsh trail led to a shrine drawn without a roof. Beside the tower, a square archive had been crossed out and drawn again in another hand. Three roads, three explanations, and one village preparing to become a blank page.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "lantern_hub"
+    },
+    "lantern_hub": {
+      "speaker": "su_lan",
+      "actor": "su_lan",
+      "text": "We have until the next tide before the magistrate seals the register. Wei Jin's ferry can reach the drowned boundary stones. The Reed Listener is nesting at the roofless shrine. An Ru is hiding the old ledger in the archive. Choose where you can do the most good. I will go with you, and I reserve the right to disagree.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "choices": [
+        {
+          "text": "Follow the ferry and find who moved the boundary.",
+          "next": "ferry_departure",
+          "effects": {
+            "trust": 1
+          }
+        },
+        {
+          "text": "Enter the marsh and listen to the accused spirit.",
+          "next": "reed_approach",
+          "effects": {
+            "insight": 1
+          }
+        },
+        {
+          "text": "Visit the archive and trace the missing names.",
+          "next": "archive_door",
+          "effects": {
+            "resolve": 1
+          }
+        }
+      ]
+    },
+    "ferry_departure": {
+      "speaker": "narrator",
+      "actor": "su_lan",
+      "text": "Wei Jin's ferry was held together by rope, lacquer, and the stubbornness of a man who could mend everything except an official letter. He kept a pot of ginger tea beneath the tiller. On the landing, a carved stone named the lake a public crossing. A fresh seal declared every crossing a trespass.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "ferry_price"
+    },
+    "ferry_price": {
+      "speaker": "wei_jin",
+      "actor": "su_lan",
+      "text": "You can pay me when you return. That makes you passengers rather than witnesses, according to the clerk who wrote this notice. I have carried the same families for thirty years. If I call them customers now, perhaps their homes will become real enough for the magistrate to tax them.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "ferry_mark"
+    },
+    "ferry_mark": {
+      "speaker": "su_lan",
+      "actor": "su_lan",
+      "text": "His daughter carved the crossing stone. She was one of the nineteen. Her name was Wei Xiu. Saying it does not restore her deed, but I say it whenever I pass. Be careful with the word missing. Sometimes it describes a person; sometimes it describes what somebody has chosen to stop seeing.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "ferry_water"
+    },
+    "ferry_water": {
+      "speaker": "narrator",
+      "actor": "su_lan",
+      "text": "They pushed into the lake. Beneath the hull, terraces slid past like pale stairs descending into an unlit house. At the old boundary, Lin Yue felt the pendant answer a pulse below the water. The drowned stone carried two inscriptions. One faced the village. The newer one had been carved on the side that no villager could read.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "ferry_discovery"
+    },
+    "ferry_discovery": {
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "Someone turned the boundary inward. The village side says common water. The submerged side says private refuge. When the mountain descended, the ward followed the hidden inscription. It did not steal the fields by accident. It obeyed an instruction somebody had written long before we arrived.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "ferry_warning"
+    },
+    "ferry_warning": {
+      "speaker": "wei_jin",
+      "actor": "su_lan",
+      "text": "Then turn it back. I have a lever, and you have more qi than this boat deserves. But the ward is holding the storm away from our winter pans. Turn it too quickly and there will be no harvest to return. Knowing who made a wrong thing does not tell you what can survive its removal.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "ferry_choice"
+    },
+    "ferry_choice": {
+      "speaker": "su_lan",
+      "actor": "su_lan",
+      "text": "We can raise the stone with the ward intact, share its shelter with the banks, or leave it until the villagers can move the pans. Every answer costs someone a night of work. Before you choose, tell us whose work you think you have the right to volunteer.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "choices": [
+        {
+          "text": "Raise the stone publicly, keeping its protective ward intact.",
+          "next": "ferry_raise",
+          "effects": {
+            "qi": 1,
+            "resolve": 1
+          }
+        },
+        {
+          "text": "Ask the boat crews to share the ward, one willing crew at a time.",
+          "next": "ferry_share",
+          "effects": {
+            "trust": 2
+          }
+        },
+        {
+          "text": "Mark the boundary and let the village vote after seeing it.",
+          "next": "ferry_wait",
+          "effects": {
+            "insight": 2
+          }
+        }
+      ]
+    },
+    "ferry_raise": {
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "I will lift it, but not turn it. Let everyone read both faces while the shelter still holds. If the truth changes nothing, we will have learned something uglier than theft. If it changes anything, the hands that change it should be the hands that must live beside it.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "ferry_raise_cost",
+      "animation": "channeling",
+      "sfx": "qi"
+    },
+    "ferry_raise_cost": {
+      "speaker": "narrator",
+      "actor": "su_lan",
+      "text": "Qi shivered along the ferry ropes. The stone rose until its hidden inscription broke the surface. Lin Yue's palms blistered before the ward settled around it. Across the lake, salt workers stopped to read. One woman laughed once, without amusement. Another began copying the letters onto the blank paper at her gate.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "ferry_evidence"
+    },
+    "ferry_share": {
+      "speaker": "wei_jin",
+      "actor": "su_lan",
+      "text": "I will ask the west-bank crews. You ask the east. Do not say that good people must agree, and do not let the magistrate stand beside you while you ask. A yes given in front of a seal can be another kind of no. Bring me the refusals as carefully as the promises.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "ferry_share_cost"
+    },
+    "ferry_share_cost": {
+      "speaker": "narrator",
+      "actor": "su_lan",
+      "text": "Five crews offered lantern oil. Two offered ropes. Three refused because winter had already emptied their stores. Su Lan wrote every answer down. The ward widened unevenly, following each freely given thread. It left a cold gap along one shore. Lin Yue covered that gap herself, and understood why asking was harder than commanding.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "ferry_evidence"
+    },
+    "ferry_wait": {
+      "speaker": "su_lan",
+      "actor": "su_lan",
+      "text": "Then our work tonight is evidence. We will mark where the common water ended and where the private refuge began. The villagers will decide what to move. Waiting can be cowardice, Yue, but sometimes it is the courage to let another person arrive at an answer you cannot predict.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "ferry_wait_cost"
+    },
+    "ferry_wait_cost": {
+      "speaker": "narrator",
+      "actor": "su_lan",
+      "text": "They anchored three lanterns around the stone and drew its position on the map. The ferryman returned without reclaiming a single pan. At the landing, a worker called them useless. Su Lan handed her the map and listened until the anger had a shape. By midnight, the workers had planned a crossing of their own.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "ferry_evidence"
+    },
+    "ferry_evidence": {
+      "speaker": "wei_jin",
+      "actor": "su_lan",
+      "text": "Take this rubbing to the tower. The magistrate's grandfather signed the private refuge clause. My grandmother signed the common-water line. We have inherited both. I cannot make either ancestor answer for it. I can stand beside you when someone asks what I intend to do with my inheritance.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "ferry_return"
+    },
+    "ferry_return": {
+      "speaker": "narrator",
+      "actor": "su_lan",
+      "text": "The ferry reached the village with no triumphant music and a leak that had grown an inch. Wei Jin charged them for three cups of tea. Su Lan paid for four and left one steaming by the crossing stone. Lin Yue carried the rubbing beneath her robe, where the pendant could not mistake a document for a destiny.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "lantern_conclave"
+    },
+    "reed_approach": {
+      "speaker": "narrator",
+      "actor": "su_lan",
+      "text": "The marsh path narrowed between translucent reeds. Every blade held a thread of cold light. Lin Yue heard a bell, then noticed that the sound stopped whenever she tried to follow it. Su Lan removed her bronze clapper from its cord and laid it on the path. The reeds leaned away, leaving room for two people to pass.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "reed_old_wound"
+    },
+    "reed_old_wound": {
+      "speaker": "su_lan",
+      "actor": "su_lan",
+      "text": "I struck the bell the night my husband disappeared from the register. The magistrate told me it would call him home. It called the ward instead. For years I said that the beast took him because that story left me someone to hate. I would like you to remember that when I sound certain.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "reed_nest"
+    },
+    "reed_nest": {
+      "speaker": "narrator",
+      "actor": "reed_listener",
+      "text": "At the roofless shrine, a creature stood among nests woven from paper. Its feathers were the color of wet slate; salt reeds grew along its spine. A small bronze bell hung at its throat. Inside each nest rested an unmarked household tablet. The creature shielded them with its body when Lin Yue reached for her sword.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "reed_voice"
+    },
+    "reed_voice": {
+      "speaker": "reed_listener",
+      "actor": "reed_listener",
+      "text": "Iron speaks loudly. I do not understand its words. Put the edge where I can stop looking at it. Then tell me which name you came to carry away, and whether the person who belongs to it has agreed to leave.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "reed_question"
+    },
+    "reed_question": {
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "Wei Xiu. And eighteen others whose names I have not earned the right to speak yet. I thought you might have stolen them. These nests look like shelter. What are you protecting them from, Listener? And what happens if the people outside never learn where their names have gone?",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "reed_answer"
+    },
+    "reed_answer": {
+      "speaker": "reed_listener",
+      "actor": "reed_listener",
+      "text": "The bell commands the boundary to keep what it recognizes. The register recognizes a household by its name. When the new ink called those households trespassers, I took the names where the bell could not find them. Their people remained alive. Their doors became empty to the ward. Protection is a crooked nest when the wind comes from every side.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "reed_hunger"
+    },
+    "reed_hunger": {
+      "speaker": "narrator",
+      "actor": "reed_listener",
+      "text": "One nest trembled. A child's handwriting appeared on its tablet, then faded. The Listener lowered its head. Every name it sheltered cost a memory of its own. It no longer remembered whether it had once been a crane, a reed, or the first sound a ferryman heard on the lake. Its refuge would not survive another winter.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "reed_choice"
+    },
+    "reed_choice": {
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "I can carry the tablets to the tower, help you change the bell's command, or defend the shrine while the villagers come here themselves. I will not call any of these gifts unless you can refuse it. You have been protecting people who did not know how to thank you. That should not become another sentence.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "choices": [
+        {
+          "text": "Escort the tablets under the Listener's protection.",
+          "next": "reed_escort",
+          "effects": {
+            "resolve": 2
+          }
+        },
+        {
+          "text": "Study the bell's command together and change its boundary.",
+          "next": "reed_rewrite",
+          "effects": {
+            "insight": 2
+          }
+        },
+        {
+          "text": "Bring the families here so each can reclaim their own name.",
+          "next": "reed_families",
+          "effects": {
+            "trust": 2
+          }
+        }
+      ]
+    },
+    "reed_escort": {
+      "speaker": "reed_listener",
+      "actor": "reed_listener",
+      "text": "Carry the nests, not loose tablets. A name is lighter than paper and heavier than a promise. If a clerk demands that you open one before its owner arrives, say no. If that no puts a sword between you and the tower, ask me before you decide whose blood should pay for it.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "reed_escort_cost"
+    },
+    "reed_escort_cost": {
+      "speaker": "narrator",
+      "actor": "su_lan",
+      "text": "They carried the paper nests on a reed litter. At the shrine gate, a patrol demanded proof that the tablets belonged to living households. Lin Yue set her sword on the earth and asked the patrol captain to bring those households instead. The captain hesitated long enough for Su Lan to recognize him as a boy she had taught to read.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "reed_memory"
+    },
+    "reed_rewrite": {
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "The old ward says keep what the register recognizes. We will add a question: who keeps the register honest? I do not know how to carve that into a bell. Teach me the rhythm you hear before a name disappears. We can search for a pause large enough to hold an answer.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "reed_rewrite_cost",
+      "animation": "channeling"
+    },
+    "reed_rewrite_cost": {
+      "speaker": "narrator",
+      "actor": "reed_listener",
+      "text": "The Listener tapped a reed against the shrine stone. Lin Yue answered with the clapper. Their first rhythm broke a nest. Their second made the lake colder. Su Lan stopped them before the third and read the nineteen names aloud. This time they waited for each echo. In the waiting, the ward made room for a voice that was not an order.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "reed_memory"
+    },
+    "reed_families": {
+      "speaker": "su_lan",
+      "actor": "su_lan",
+      "text": "I will fetch them. Some will be frightened of you, Listener. Some will be angry. You may be angry in return. I cannot promise a meeting without hurt. I can promise that the first person who calls you a monster will hear from the keeper who taught the village that word.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "reed_families_cost"
+    },
+    "reed_families_cost": {
+      "speaker": "narrator",
+      "actor": "reed_listener",
+      "text": "The families arrived with lanterns, food, and two farm hooks carried as weapons. A child asked whether the Listener ate fish. An old man asked why it had not explained itself sooner. The creature could answer only one question at a time. Lin Yue stayed beside the litter until dawn, learning how long a safe meeting could take.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "reed_memory"
+    },
+    "reed_memory": {
+      "speaker": "reed_listener",
+      "actor": "reed_listener",
+      "text": "One of the names has returned something to me. Before I was this body, I listened beneath a bridge. Boats passed above me, and no one asked the water to be grateful. Keep that memory if I lose it again. I would like to know that I belonged here before anyone needed saving.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "reed_return"
+    },
+    "reed_return": {
+      "speaker": "narrator",
+      "actor": "reed_listener",
+      "text": "Su Lan tied the clapper to her wrist again. She had not rung it, but the cord no longer looked like a punishment. The Listener followed them toward the tower at the pace of a creature carrying a village's winter in its feathers. Along the path, the reeds began to sound like reeds instead of warnings.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "lantern_conclave"
+    },
+    "archive_door": {
+      "speaker": "narrator",
+      "actor": "su_lan",
+      "text": "The archive door had been sealed with wet ink. An Ru opened it from inside using a kettle, a knife, and a patience Lin Yue immediately envied. Shelves leaned under rolls of household records. On the reading table lay nineteen cards, each bearing a name. At first glance nothing was missing. Then Lin Yue noticed the dates.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "archive_copies"
+    },
+    "archive_copies": {
+      "speaker": "an_ru",
+      "actor": "su_lan",
+      "text": "These are copies made yesterday. The missing families appear as newcomers requesting permission to settle land their grandparents farmed. The magistrate offered to restore their names if they signed. He called it mercy. I kept the originals because mercy should survive comparison with the document it replaces.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "archive_ancestry"
+    },
+    "archive_ancestry": {
+      "speaker": "su_lan",
+      "actor": "su_lan",
+      "text": "My husband is on that card. It says he arrived this spring. He died seven winters ago, standing in the water to rescue a ferry rope. The clerk copied his name from my complaint without copying the reason I had written it. So there he is, applying for a home he had already left feet first.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "archive_dilemma"
+    },
+    "archive_dilemma": {
+      "speaker": "an_ru",
+      "actor": "su_lan",
+      "text": "The originals prove the village's claim, but they also record debts. Wei Jin's family owes the shrine seventeen years of maintenance. The keeper's house borrowed seed salt during the famine. If we publish everything, the magistrate will demand payment. If we hide the debts, he will call the entire archive forged.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "archive_reading"
+    },
+    "archive_reading": {
+      "speaker": "narrator",
+      "actor": "su_lan",
+      "text": "Lin Yue read until the ink blurred. Each debt had a witness, a date, and an exception written in a smaller hand. The village owed salt when the harvest exceeded its needs. Maintenance was shared when the ferry carried shrine visitors. The magistrate's copies preserved the numbers and omitted every condition that made a number human.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "archive_question"
+    },
+    "archive_question": {
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "He has made generosity look like a failed bargain. We can expose the full ledger, restore the exceptions first, or ask each household what it permits us to reveal. There is no clean page waiting behind these pages. There are only people who have to live together after we put the book down.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "archive_choice"
+    },
+    "archive_choice": {
+      "speaker": "an_ru",
+      "actor": "su_lan",
+      "text": "Choose how we bring this to the tower. I can preserve the pages whichever way you go. I cannot preserve everyone's trust by deciding what they ought to feel about them. Before you ask a clerk to be brave, remember that tomorrow the clerk still needs to work in this room.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "choices": [
+        {
+          "text": "Publish the original ledger and every condition alongside its debts.",
+          "next": "archive_publish",
+          "effects": {
+            "resolve": 2
+          }
+        },
+        {
+          "text": "Build a comparison showing exactly which exceptions were removed.",
+          "next": "archive_compare",
+          "effects": {
+            "insight": 2
+          }
+        },
+        {
+          "text": "Ask the households to choose what may be read in public.",
+          "next": "archive_consent",
+          "effects": {
+            "trust": 2
+          }
+        }
+      ]
+    },
+    "archive_publish": {
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "We will take the whole ledger. I will stay through the reading and answer the demands that follow. If anyone uses a debt to erase a household's right to speak, I will ask them to read the exception out loud. I will not promise that being heard will be painless.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "archive_publish_cost"
+    },
+    "archive_publish_cost": {
+      "speaker": "narrator",
+      "actor": "su_lan",
+      "text": "An Ru wrapped the ledger in oilcloth. Su Lan stopped at a page bearing her husband's mark and stood very still. It recorded a loan she had never known he made. The discovery did not diminish the years they had shared, but it changed their edges. Truth had arrived as grief before it could become evidence.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "archive_witness"
+    },
+    "archive_compare": {
+      "speaker": "an_ru",
+      "actor": "su_lan",
+      "text": "Then we need two columns, not an accusation. Here is what the village agreed. Here is what the copy claims. I will put my own name beneath the comparison. People should be able to question the person who assembled their proof, even if that questioning makes the proof harder to use.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "archive_compare_cost"
+    },
+    "archive_compare_cost": {
+      "speaker": "narrator",
+      "actor": "su_lan",
+      "text": "They copied until the kettle went cold. Twice Lin Yue read a clause too quickly; twice An Ru made her start again. One exception favored the magistrate's own house, whose winter roof had been rebuilt without charge. Su Lan insisted they preserve that line too. A fair ledger could not begin by finding a new household to erase.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "archive_witness"
+    },
+    "archive_consent": {
+      "speaker": "su_lan",
+      "actor": "su_lan",
+      "text": "We will knock on doors before we open this book in the square. A household can refuse us, and we will record the refusal without inventing a reason. We will explain that silence may weaken the case. Then we will leave the door open long enough for the answer to belong to them.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "archive_consent_cost"
+    },
+    "archive_consent_cost": {
+      "speaker": "narrator",
+      "actor": "su_lan",
+      "text": "Seven households permitted every page. Six permitted the land records but kept their debts private. Four asked An Ru to read for them. Two refused. Lin Yue wanted to argue with the last two until Su Lan pointed out how closely her helpful speech resembled the magistrate's offer of mercy.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "archive_witness"
+    },
+    "archive_witness": {
+      "speaker": "an_ru",
+      "actor": "su_lan",
+      "text": "Take my seal, Yue. It proves that the comparison came from this room. It does not prove that you must agree with me. If the magistrate asks who authorized the reading, say the people whose names were on the door. If he asks who authorized my work, say that I did, and bring him here.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "archive_return"
+    },
+    "archive_return": {
+      "speaker": "narrator",
+      "actor": "su_lan",
+      "text": "They left the archive with paper heavier than any sword. An Ru remained behind to make copies for the households who had asked. The blank slips at the gates began to fill: a name, a question, a date, a refusal. The village did not speak with one voice. Lin Yue began to think that might be the first good sign.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "lantern_conclave"
+    },
+    "lantern_conclave": {
+      "speaker": "narrator",
+      "actor": "su_lan",
+      "text": "At the bell tower, lanterns gathered in uneven rings. Su Lan placed her clapper on the steps. The magistrate arrived carrying a clean register and an offer to make everything simple. Lin Yue had returned with enough evidence to make simplicity impossible. Now she had to decide whether to seek victory or a settlement people could keep.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "lantern_magistrate"
+    },
+    "lantern_magistrate": {
+      "speaker": "su_lan",
+      "actor": "su_lan",
+      "text": "You may speak first, Yue. But before you speak for this village, look at it. There are people who agreed with you, people who refused you, and people whose problem you did not have time to visit. A beautiful answer can still leave someone standing outside its light.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "lantern_final_choice"
+    },
+    "lantern_final_choice": {
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "We can make the lake a common crossing, change the bell so it must hear a name before judging it, rebuild the shrine's shelter, or begin a public ledger that anyone may question. None will mend every wound tonight. Which work are we ready to remain for after the lanterns go out?",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "choices": [
+        {
+          "text": "Open the crossing and share responsibility for its ward.",
+          "next": "lantern_crossing",
+          "requires": {
+            "trust": 3
+          }
+        },
+        {
+          "text": "Teach the bell to wait for an answer before enforcing a boundary.",
+          "next": "lantern_bell",
+          "requires": {
+            "insight": 3
+          }
+        },
+        {
+          "text": "Plant a living shelter where the old refuge took root.",
+          "next": "lantern_seed",
+          "requires": {
+            "qi": 3
+          }
+        },
+        {
+          "text": "Begin a public ledger and return the decisions to the village.",
+          "next": "lantern_ledger"
+        }
+      ]
+    },
+    "lantern_crossing": {
+      "speaker": "wei_jin",
+      "actor": "su_lan",
+      "text": "I will sail the first crossing at dawn. After that, the crews will choose their own turns. The people who refused the ward still have the right to use the landing. If we start charging agreement as a fare, we have learned nothing from the stone under the water.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "ending_crossing"
+    },
+    "ending_crossing": {
+      "speaker": "narrator",
+      "actor": "su_lan",
+      "text": "The ferry crossed beneath a bridge of ordinary lanterns. Each flame had an owner; each owner could take it home. The ward held because enough people returned the next evening, then the next. Lin Yue stayed to mend ropes. The mountain's promise had reached the valley as work that could be shared and refused.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "ending": "The Open Crossing"
+    },
+    "lantern_bell": {
+      "speaker": "reed_listener",
+      "actor": "reed_listener",
+      "text": "Give me the clapper until sunset. I will strike once for every name and wait until someone answers. If no one answers, I will wait longer. A boundary that cannot bear a pause has no right to tell a living person where to stand.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "ending_bell"
+    },
+    "ending_bell": {
+      "speaker": "narrator",
+      "actor": "su_lan",
+      "text": "Nineteen names returned to the register before the bell sounded its twentieth note. That final note belonged to the Listener, whose own name no one yet knew. Su Lan left a blank line for it. This time the blank was room to arrive. Lin Yue listened beside the tower until the reeds answered in the evening wind.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "ending": "An Unstruck Bell"
+    },
+    "lantern_seed": {
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "I will spend my qi on a shelter that grows slowly enough to be questioned. No household must live beneath it. No name will bind a person to its roots. If the salt kills the first seed, we will learn from the soil before we ask anyone to call our failure a sacrifice.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "ending_seed",
+      "animation": "channeling",
+      "sfx": "qi"
+    },
+    "ending_seed": {
+      "speaker": "narrator",
+      "actor": "su_lan",
+      "text": "The first orange seed failed. The second survived in a pot beside Su Lan's door. When winter came, villagers moved the pot from house to house, sharing the little warmth it needed. Lin Yue returned in spring to find three leaves and a careful record of every night it had been tended. A refuge had become something small enough to care for.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "ending": "A Seed of Winter"
+    },
+    "lantern_ledger": {
+      "speaker": "an_ru",
+      "actor": "su_lan",
+      "text": "We will begin with the changes, the disagreements, and the names of the people who made them. A ledger is useful only if another hand can correct it. I will keep the first copy. The second belongs in the square. The third should travel with someone willing to return when it is challenged.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "next": "ending_ledger"
+    },
+    "ending_ledger": {
+      "speaker": "narrator",
+      "actor": "su_lan",
+      "text": "Lin Yue left Salt Lantern Valley with a book instead of a verdict. Behind her, nineteen households read their names in their own hands. Ahead, other villages had blank paper on their gates. She could not promise each one an ending. She could promise to arrive with questions, and to leave room on the page for an answer.",
+      "chapter": "book_ii",
+      "background": "salt_lantern_valley",
+      "ending": "The Common Ledger"
+    }
+  },
+  "chapters": {
+    "book_i": {
+      "label": "BOOK I",
+      "title": "The star beneath the mountain"
+    },
+    "book_ii": {
+      "label": "BOOK II",
+      "title": "The valley that kept its name"
     }
   }
 }

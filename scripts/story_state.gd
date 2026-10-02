@@ -1,6 +1,9 @@
 extends RefCounted
 
 const SAVE_VERSION := 1
+# Long campaigns may exceed 100; enforce the same limit on play and load.
+const MAX_STAT := 2147483647
+const STAT_KEYS := ["qi", "trust", "insight", "resolve"]
 var story: Dictionary = {}
 var current := "arrival"
 var stats := {"qi": 0, "trust": 0, "insight": 0, "resolve": 0}
@@ -26,12 +29,27 @@ func choose(index: int) -> bool:
 	if index < 0 or index >= choices.size() or not can_choose(choices[index]):
 		return false
 	var choice: Dictionary = choices[index]
+	var target := str(choice.get("next", ""))
+	if not story.get("nodes", {}).has(target):
+		return false
+	var updated := stats.duplicate()
 	for key in choice.get("effects", {}):
-		stats[key] = int(stats.get(key, 0)) + int(choice["effects"][key])
-	return go(str(choice.get("next", "")))
+		var effect = choice["effects"][key]
+		if not STAT_KEYS.has(key) or not (effect is int or effect is float):
+			return false
+		if not is_finite(float(effect)) or effect != int(effect):
+			return false
+		var value := int(updated.get(key, 0)) + int(effect)
+		if value < 0 or value > MAX_STAT:
+			return false
+		updated[key] = value
+	if not go(target):
+		return false
+	stats = updated
+	return true
 
 func advance() -> bool:
-	return go(str(node().get("next", "")))
+	return go(str(node().get("next", node().get("continuation", ""))))
 
 func go(target: String) -> bool:
 	if not story.get("nodes", {}).has(target):
@@ -58,9 +76,9 @@ func load_game(path: String = "user://jade_vow_save.json") -> bool:
 	if not data.get("stats") is Dictionary or not data.get("history") is Array:
 		return false
 	var validated_stats := {}
-	for key in stats:
+	for key in STAT_KEYS:
 		var value = data["stats"].get(key)
-		if not (value is float or value is int) or value < 0 or value > 100 or value != int(value):
+		if not (value is float or value is int) or value < 0 or value > MAX_STAT or not is_finite(float(value)) or value != int(value):
 			return false
 		validated_stats[key] = int(value)
 	for entry in data["history"]:

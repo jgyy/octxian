@@ -29,11 +29,19 @@ var text_speed := 38.0
 var text_clock := 0.0
 var auto_clock := 0.0
 var status_label: Label
+var background := TextureRect.new()
+var world: Dictionary = {}
+var background_paths: Dictionary = {}
+var world_previews: Dictionary = {}
 
 func _ready() -> void:
 	get_tree().auto_accept_quit = false
 	_build_theme()
-	var background := TextureRect.new()
+	var catalog = JSON.parse_string(FileAccess.get_file_as_string("res://data/world_assets.json"))
+	if catalog is Dictionary:
+		world = catalog
+		for entry in world.get("backgrounds", []):
+			background_paths[str(entry.id)] = "res://" + str(entry.path)
 	background.texture = load("res://assets/art/azure_cloud.png")
 	background.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
 	background.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_COVERED
@@ -93,6 +101,7 @@ func _build_theme() -> void:
 
 func _clear() -> void:
 	wardrobe_previews.clear()
+	world_previews.clear()
 	for child in ui.get_children():
 		ui.remove_child(child)
 		child.queue_free()
@@ -143,6 +152,7 @@ func _line(point: Vector2, width: float, color: Color = GOLD, parent: Node = nul
 func _header() -> void:
 	_label("◈  JADE VOW", Vector2(72, 35), 22, GOLD)
 	_label("AN ORIGINAL XIANXIA TALE", Vector2(75, 70), 10, JADE)
+	_button("World", Vector2(870, 36), 160, _world)
 	_button("Wardrobe", Vector2(1050, 36), 135, _cast)
 	_button("Journal", Vector2(1200, 36), 130, _journal)
 	_button("Settings", Vector2(1345, 36), 150, _settings)
@@ -150,6 +160,7 @@ func _header() -> void:
 
 func _title() -> void:
 	is_reading = false
+	background.texture = load("res://assets/art/azure_cloud.png")
 	audio.voice.stop()
 	_clear()
 	_header()
@@ -164,7 +175,7 @@ func _title() -> void:
 	_button("Begin your journey   →", Vector2(98, 661), 327, _begin)
 	var resume := _button("Continue", Vector2(441, 661), 166, _resume)
 	resume.disabled = not FileAccess.file_exists("user://jade_vow_save.json")
-	_label("36 story scenes  ·  3 endings  ·  A living, animated cast", Vector2(100, 738), 15, JADE)
+	_label("%d story scenes  ·  2 books  ·  A living, animated cast" % state.story.nodes.size(), Vector2(100, 738), 15, JADE)
 	_line(Vector2(72, 822), 1424, Color(0.8, 0.75, 0.6, 0.25))
 	_label("AZURE CLOUD SECT", Vector2(74, 842), 12, GOLD)
 	_label("Chapter one • The arrival", Vector2(660, 842), 12, JADE)
@@ -192,8 +203,11 @@ func _scene() -> void:
 	var actor_id := str(node.get("actor", "lin_yue"))
 	actor.show_character(actor_id, str(node.get("animation", "idle")), wardrobe.selected(actor_id))
 	actor.set_reduced_motion(reduced_motion)
-	_label("CHAPTER ONE", Vector2(77, 146), 13, GOLD)
-	_label("The star beneath the mountain", Vector2(77, 174), 27, PALE)
+	var chapter: Dictionary = state.story.get("chapters", {}).get(node.get("chapter", "book_i"), {})
+	_label(str(chapter.get("label", "BOOK I")), Vector2(77, 146), 13, GOLD)
+	_label(str(chapter.get("title", "The star beneath the mountain")), Vector2(77, 174), 27, PALE)
+	var background_path := str(background_paths.get(node.get("background", ""), "res://assets/art/azure_cloud.png"))
+	background.texture = load(background_path)
 	_label("QI %02d    TRUST %02d    INSIGHT %02d    RESOLVE %02d" % [state.stats.qi, state.stats.trust, state.stats.insight, state.stats.resolve], Vector2(78, 222), 14, JADE)
 	if node.has("ending"):
 		_label("ENDING DISCOVERED", Vector2(80, 315), 13, GOLD)
@@ -220,7 +234,7 @@ func _scene() -> void:
 	dialogue.add_theme_font_size_override("normal_font_size", 25)
 	dialogue.text = str(node.get("text", ""))
 	dialogue.visible_characters = 0
-	dialogue.scroll_active = false
+	dialogue.scroll_active = true
 	ui.add_child(dialogue)
 	text_clock = 0.0
 	auto_clock = 0.0
@@ -247,6 +261,9 @@ func _scene() -> void:
 		choice_box.add_child(button)
 	continue_button = _button("→", Vector2(1397, 719), 78, _advance)
 	continue_button.visible = choices.is_empty()
+	if node.has("continuation"):
+		continue_button.text = "II →"
+		continue_button.tooltip_text = "Continue to Book II"
 	_button("Save", Vector2(74, 844), 95, _save)
 	_button("Load", Vector2(181, 844), 95, _resume)
 	_button("Log", Vector2(288, 844), 95, _journal)
@@ -277,7 +294,10 @@ func _advance() -> void:
 		choice_box.visible = true
 		return
 	if state.node().has("ending"):
-		_title()
+		if state.node().has("continuation") and state.advance():
+			_scene()
+		else:
+			_title()
 	elif state.advance():
 		audio.effect()
 		_scene()
@@ -399,7 +419,10 @@ func _journal() -> void:
 	else:
 		for entry in state.history:
 			var name_text: String = state.story.characters[entry.speaker].name
-			log.append_text("[color=#ccb887]%s[/color]\n%s\n\n" % [name_text, entry.text])
+			log.push_color(GOLD)
+			log.add_text(name_text + "\n")
+			log.pop()
+			log.add_text(str(entry.text) + "\n\n")
 	column.add_child(log)
 
 func _cast() -> void:
@@ -549,14 +572,14 @@ func _load_settings() -> void:
 	var config := ConfigFile.new()
 	if config.load("user://settings.cfg") != OK:
 		return
-	text_speed = clampf(float(config.get_value("reading", "speed", 38.0)), 12.0, 100.0)
-	reduced_motion = bool(config.get_value("reading", "motion", false))
+	text_speed = _setting_number(config, "reading", "speed", 38.0, 12.0, 100.0)
+	reduced_motion = _setting_bool(config, "reading", "motion", false)
 	atmosphere.enabled = not reduced_motion
 	actor.set_reduced_motion(reduced_motion)
-	audio.enabled = bool(config.get_value("reading", "voice", true))
+	audio.enabled = _setting_bool(config, "reading", "voice", true)
 	wardrobe.restore(config.get_value("wardrobe", "choices", {}))
 	for bus in ["Music", "SFX", "Voice"]:
-		AudioServer.set_bus_volume_db(AudioServer.get_bus_index(bus), clampf(float(config.get_value("audio", bus, -8.0)), -40.0, 0.0))
+		AudioServer.set_bus_volume_db(AudioServer.get_bus_index(bus), _setting_number(config, "audio", bus, -8.0, -40.0, 0.0))
 
 func _capture() -> void:
 	DirAccess.make_dir_recursive_absolute("res://build/screenshots")
@@ -605,6 +628,18 @@ func _capture() -> void:
 
 	for character in Wardrobe.CHARACTERS:
 		_set_outfit(character, Wardrobe.DEFAULT_OUTFIT)
+
+	for sample in [{"id": "lantern_hub", "file": "quest_hub"}, {"id": "reed_voice", "file": "spirit_encounter"}]:
+		state.current = sample.id
+		_scene()
+		dialogue.visible_characters = -1
+		await get_tree().create_timer(0.8).timeout
+		await RenderingServer.frame_post_draw
+		get_viewport().get_texture().get_image().save_png("res://build/screenshots/%s.png" % sample.file)
+	_world()
+	await get_tree().create_timer(0.8).timeout
+	await RenderingServer.frame_post_draw
+	get_viewport().get_texture().get_image().save_png("res://build/screenshots/world_gallery.png")
 	print("JADE_VOW_CAPTURE_OK")
 	_quit_game()
 
@@ -639,3 +674,58 @@ func _smoke_build() -> void:
 	else:
 		push_error("Packaged assets or story failed to load")
 	_quit_game(0 if valid else 1)
+
+func _world() -> void:
+	var column := _make_popup("Places, people & spirit beasts")
+	popup.position = Vector2(210, 130)
+	popup.size = Vector2(1180, 680)
+	var row := HBoxContainer.new()
+	row.add_theme_constant_override("separation", 24)
+	column.add_child(row)
+	for group in ["backgrounds", "npcs", "monsters"]:
+		var card := VBoxContainer.new()
+		card.custom_minimum_size = Vector2(350, 540)
+		row.add_child(card)
+		var label := Label.new()
+		label.text = {"backgrounds": "Places", "npcs": "People", "monsters": "Spirit beasts"}[group]
+		label.add_theme_color_override("font_color", GOLD)
+		card.add_child(label)
+		var selector := OptionButton.new()
+		selector.name = "World_" + group
+		selector.custom_minimum_size = Vector2(350, 45)
+		selector.clip_text = true
+		for entry in world.get(group, []):
+			selector.add_item(str(entry.name))
+		card.add_child(selector)
+		var image := TextureRect.new()
+		image.custom_minimum_size = Vector2(350, 345)
+		image.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
+		image.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
+		card.add_child(image)
+		var description := RichTextLabel.new()
+		description.custom_minimum_size = Vector2(350, 120)
+		description.add_theme_font_size_override("normal_font_size", 16)
+		card.add_child(description)
+		world_previews[group] = {"image": image, "description": description}
+		selector.item_selected.connect(_world_selected.bind(group))
+		_world_selected(0, group)
+
+func _world_selected(index: int, group: String) -> void:
+	var entries: Array = world.get(group, [])
+	if index < 0 or index >= entries.size() or not world_previews.has(group):
+		return
+	var entry: Dictionary = entries[index]
+	world_previews[group].image.texture = load("res://" + str(entry.path))
+	world_previews[group].description.text = str(entry.description)
+
+# ConfigFile permits arbitrary Variant values. Reject damaged numeric/bool fields
+# before converting them, and require finite numbers for sliders.
+func _setting_number(config: ConfigFile, section: String, key: String, fallback: float, minimum: float, maximum: float) -> float:
+	var value = config.get_value(section, key, fallback)
+	if not (value is int or value is float) or not is_finite(float(value)):
+		return fallback
+	return clampf(float(value), minimum, maximum)
+
+func _setting_bool(config: ConfigFile, section: String, key: String, fallback: bool) -> bool:
+	var value = config.get_value(section, key, fallback)
+	return value if value is bool else fallback
