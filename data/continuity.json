@@ -135,5 +135,51 @@
       ]
     }
   ],
-  "review_policy": "Review each new chapter's chronology, custody, character knowledge, and alternate outcomes before updating this ledger. Structural checks supplement editorial review; they do not prove the absence of all possible plot holes."
+  "review_policy": "Review each new chapter's chronology, custody, character knowledge, and alternate outcomes before updating this ledger. Structural checks supplement editorial review; they do not prove the absence of all possible plot holes.",
+  "checkpoints": [
+    {
+      "id": "household_knowledge",
+      "required": [
+        "lantern_map"
+      ],
+      "before": "reed_question"
+    },
+    {
+      "id": "shared_evidence",
+      "required": [
+        "assembly_ferry",
+        "assembly_archive",
+        "assembly_listener",
+        "assembly_provisional"
+      ],
+      "before": "lantern_final_choice"
+    },
+    {
+      "id": "echo_terms_before_decision",
+      "required": [
+        "river_echo_rule",
+        "river_keeper_words",
+        "river_book",
+        "river_interim"
+      ],
+      "before": "river_resolution_choice"
+    },
+    {
+      "id": "stair_safety_before_return",
+      "required": [
+        "stair_completion",
+        "stair_test",
+        "stair_charter"
+      ],
+      "before": "stair_return"
+    },
+    {
+      "id": "harbor_permissions_before_return",
+      "required": [
+        "harbor_spirit",
+        "harbor_letters"
+      ],
+      "before": "harbor_return"
+    }
+  ]
 }
