@@ -49,7 +49,9 @@ def build_points(sheet, spec, transform, cell):
 
 def intermediate_points(pair, amount):
     first, second = pair
-    points = np.float32(first * (1 - amount) + second * amount)
+    points = first.copy()
+    root_offset = first[10] - second[10]
+    points[:15] = np.float32(first[:15] * (1 - amount) + (second[:15] + root_offset) * amount)
     # The palm travels around the shoulder, not straight through the torso.
     direction = np.sign(second[0, 0] - second[10, 0]) or 1
     arc = np.float32([direction * 30, -6]) * (4 * amount * (1 - amount))
@@ -148,3 +150,49 @@ def place_hand(body, layer, source_center, destination_center):
     transform = np.float32([[1, 0, offset[0]], [0, 1, offset[1]]])
     hand = cv2.warpAffine(layer, transform, (body.shape[1], body.shape[0]), flags=cv2.INTER_LINEAR)
     return hand + body * (1 - hand[:, :, 3:4])
+
+
+def capsule_mask(shape, start, end, radius):
+    yy, xx = np.mgrid[:shape[0], :shape[1]].astype(np.float32)
+    vector = end - start
+    length_squared = max(float(vector @ vector), 1)
+    along = np.clip(((xx - start[0]) * vector[0] + (yy - start[1]) * vector[1]) / length_squared, 0, 1)
+    distance = np.sqrt((xx - start[0] - along * vector[0]) ** 2
+                       + (yy - start[1] - along * vector[1]) ** 2)
+    return np.float32(np.clip((radius + 1.5 - distance) / 3, 0, 1))[:, :, None]
+
+
+def arm_layers(pixels, points, radius):
+    upper_mask = capsule_mask(pixels.shape, points[10], points[5], radius)
+    lower_mask = capsule_mask(pixels.shape, points[5], points[0], radius)
+    body, hand = split_hand(pixels, points[0])
+    full_mask = np.maximum(upper_mask, lower_mask)
+    alpha = pixels[:, :, 3:4]
+    straight = np.divide(pixels[:, :, :3], alpha, out=np.zeros_like(pixels[:, :, :3]), where=alpha > 0.001)
+    filled = cv2.inpaint(np.uint8(np.clip(straight * 255, 0, 255)),
+                         np.uint8(full_mask[:, :, 0] > 0.02) * 255, 3, cv2.INPAINT_TELEA)
+    yy, xx = np.mgrid[:pixels.shape[0], :pixels.shape[1]]
+    hip, face = points[20], points[15]
+    torso = ((np.abs(xx - hip[0]) < 44) & (yy > face[1] + 45)
+             & (yy < hip[1] + 90))[:, :, None]
+    fill_alpha = alpha * np.float32(torso)
+    body_alpha = body[:, :, 3:4] * (1 - full_mask) + fill_alpha * full_mask
+    plate = np.concatenate([np.float32(filled) / 255 * body_alpha, body_alpha], axis=2)
+    return plate, pixels * upper_mask, pixels * lower_mask, hand
+
+
+def move_segment(layer, source_start, source_end, target_start, target_end):
+    source_vector = source_end - source_start
+    target_vector = target_end - target_start
+    source_perp = np.float32([-source_vector[1], source_vector[0]])
+    target_perp = np.float32([-target_vector[1], target_vector[0]])
+    source_perp /= max(float(np.linalg.norm(source_perp)), 1)
+    target_perp /= max(float(np.linalg.norm(target_perp)), 1)
+    source = np.float32([source_start, source_end, source_start + source_perp * 20])
+    target = np.float32([target_start, target_end, target_start + target_perp * 20])
+    affine = cv2.getAffineTransform(source, target)
+    return cv2.warpAffine(layer, affine, (layer.shape[1], layer.shape[0]), flags=cv2.INTER_LINEAR)
+
+
+def composite_over(background, foreground):
+    return foreground + background * (1 - foreground[:, :, 3:4])
