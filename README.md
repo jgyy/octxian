@@ -17,24 +17,42 @@ Or clone this repository, open `project.godot` in Godot 4.7.2, and press F6/F5. 
 - **Enter / Space:** finish the current line, then advance.
 - **1–4:** select an available choice.
 - **S:** save. **L:** open the dialogue journal. **Esc:** close a panel or open settings.
-- The interface also provides save/load, auto reading, fast text, a cast gallery, audio levels, and reduced motion.
+- The interface also provides save/load, auto reading, fast text, an animated wardrobe gallery, audio levels, and reduced motion.
 
 The opening contains 36 scenes, 931 narrated words, cultivation stats, gated choices, and three reachable endings. It is a complete short opening with multiple endings, rather than a full-length novel.
 
 ![Branching dialogue](docs/screenshots/dialogue.png)
 
+## Clothing options
+
+Open **Wardrobe** in the top navigation and choose an outfit independently for each character.
+
+| Outfit | Style |
+|---|---|
+| Sect Robes | Original layered cultivation robes |
+| Light Training | Sleeveless wraps and open martial vests, exposed arms and waists, split skirts |
+| Moon Festival | Open shoulders and backs, decorated silk, open necklines and high side slits |
+
+The four adult characters each have all three options. Gallery previews animate, selected
+clothing appears immediately in the story and on the title screen, and choices persist in
+settings across sessions. Clothing changes leave dialogue progress and cultivation stats intact.
+
+![Light Training wardrobe](docs/screenshots/wardrobe_training.png)
+
+![Moon Festival wardrobe](docs/screenshots/wardrobe_festival.png)
+
 ## Generated art, animation, and audio
 
 | Asset | Delivered |
 |---|---|
-| GPT Images artwork | Four character portraits and one mountain-sect environment |
-| Animated sprites | **1,024 unique frames**: 4 characters × 4 motion cycles × 64 frames |
+| GPT Images artwork | Twelve character outfit portraits and one mountain-sect environment |
+| Animated sprites | **3,072 unique frames**: 4 characters × 3 outfits × 4 motion cycles × 64 frames |
 | Animation playback | 16 fps, seamless breathing/sway/qi effects through AnimatedSprite2D |
 | Music | Original 48-second pentatonic plucked-string composition |
 | Sound effects | Page, bell, qi channeling, and sword |
 | AI voices | Piper neural narration for all 36 scenes; one Lessac narrator voice with character pacing |
 
-The 1,024 frames are baked from GPT-generated artwork through deformation and effects. They are **not 1,024 independent GPT image requests**. Motion animates the existing portraits, without skeletal articulation or lip sync. See [art provenance](assets/art/PROVENANCE.md) and the generated voice model card for source and licensing details.
+The 3,072 frames are baked from GPT-generated artwork through deformation and effects. They are **not 3,072 independent GPT image requests**. Motion animates the existing portraits, without skeletal articulation or lip sync. See [art provenance](assets/art/PROVENANCE.md) and the generated voice model card for source and licensing details.
 
 ## Rebuild assets
 
@@ -58,10 +76,12 @@ To expand the cast, add GPT artwork to `assets/art`, update the cast mapping in 
 ```mermaid
 flowchart TD
     GPT["GPT Images artwork"] --> Bake["Python frame baker"]
-    Bake --> Atlas["16 atlases · 1,024 unique frames"]
+    Bake --> Atlas["48 atlases · 3,072 unique frames"]
     Atlas --> Cast["AnimatedSprite2D cast"]
     JSON["Story JSON · 36 scenes"] --> State["Story state · choices · stats"]
     State --> UI["Godot interface · journal · saves"]
+    Wardrobe["Wardrobe catalog · saved outfit choices"] --> Cast
+    Wardrobe --> UI
     Cast --> UI
     JSON --> Piper["Piper neural narration"]
     Synth["Original music and SFX synthesis"] --> Audio["Music / SFX / Voice buses"]
@@ -74,7 +94,7 @@ flowchart TD
 
 ## Validation
 
-CI checks asset counts and uniqueness, audio hashes and narration coverage, every story route and ending, save corruption handling, actual UI navigation, all 16 animation cycles, settings and reduced motion. It imports and runs Godot, renders screenshots under Xvfb, and exports a playable Linux package.
+CI checks asset counts and uniqueness, audio hashes and narration coverage, every story route and ending, save corruption handling, actual UI navigation, all 48 outfit animation cycles, settings and reduced motion. It imports and runs Godot, renders screenshots under Xvfb, and exports a playable Linux package.
 
 CI also launches the packaged game from a folder without the source checkout and checks that its story, animation, and narration load. Godot's license and third-party notices accompany the Linux package.
 
