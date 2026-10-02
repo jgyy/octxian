@@ -2,6 +2,7 @@ extends Control
 
 const StoryState = preload("res://scripts/story_state.gd")
 const Character = preload("res://scripts/animated_character.gd")
+const Wardrobe = preload("res://scripts/wardrobe.gd")
 const AudioDirector = preload("res://scripts/audio_director.gd")
 const Atmosphere = preload("res://scripts/atmosphere.gd")
 const GOLD := Color("#ccb887")
@@ -12,6 +13,8 @@ const PALE := Color("#e5e7da")
 var state = StoryState.new()
 var ui := Control.new()
 var actor = Character.new()
+var wardrobe = Wardrobe.new()
+var wardrobe_previews := {}
 var audio = AudioDirector.new()
 var atmosphere = Atmosphere.new()
 var dialogue: RichTextLabel
@@ -89,6 +92,7 @@ func _build_theme() -> void:
 	theme = game_theme
 
 func _clear() -> void:
+	wardrobe_previews.clear()
 	for child in ui.get_children():
 		ui.remove_child(child)
 		child.queue_free()
@@ -139,7 +143,7 @@ func _line(point: Vector2, width: float, color: Color = GOLD, parent: Node = nul
 func _header() -> void:
 	_label("◈  JADE VOW", Vector2(72, 35), 22, GOLD)
 	_label("AN ORIGINAL XIANXIA TALE", Vector2(75, 70), 10, JADE)
-	_button("The cast", Vector2(1050, 36), 135, _cast)
+	_button("Wardrobe", Vector2(1050, 36), 135, _cast)
 	_button("Journal", Vector2(1200, 36), 130, _journal)
 	_button("Settings", Vector2(1345, 36), 150, _settings)
 	_line(Vector2(72, 112), 1424, Color(0.8, 0.75, 0.6, 0.25))
@@ -150,7 +154,7 @@ func _title() -> void:
 	_clear()
 	_header()
 	actor.position = Vector2(1190, 518)
-	actor.show_character("lin_yue", "idle")
+	actor.show_character("lin_yue", "idle", wardrobe.selected("lin_yue"))
 	_label("BOOK I   /   THE STAR BENEATH THE MOUNTAIN", Vector2(95, 222), 14, GOLD)
 	_line(Vector2(95, 267), 86)
 	var title := _label("Jade Vow", Vector2(89, 290), 112)
@@ -185,7 +189,8 @@ func _scene() -> void:
 	_header()
 	actor.position = Vector2(1205, 419)
 	var node: Dictionary = state.node()
-	actor.show_character(str(node.get("actor", "lin_yue")), str(node.get("animation", "idle")))
+	var actor_id := str(node.get("actor", "lin_yue"))
+	actor.show_character(actor_id, str(node.get("animation", "idle")), wardrobe.selected(actor_id))
 	actor.sprite.speed_scale = 0.0 if reduced_motion else 1.0
 	_label("CHAPTER ONE", Vector2(77, 146), 13, GOLD)
 	_label("The star beneath the mountain", Vector2(77, 174), 27, PALE)
@@ -376,6 +381,7 @@ func _make_popup(title: String) -> VBoxContainer:
 	return column
 
 func _close_popup() -> void:
+	wardrobe_previews.clear()
 	if popup != null:
 		ui.remove_child(popup)
 		popup.queue_free()
@@ -397,25 +403,32 @@ func _journal() -> void:
 	column.add_child(log)
 
 func _cast() -> void:
-	var column := _make_popup("Those who share your path")
+	var column := _make_popup("Cast & wardrobe")
+	popup.position = Vector2(210, 135)
+	popup.size = Vector2(1180, 665)
+	var hint := Label.new()
+	hint.text = "Choose an outfit for each companion. Your choices follow you into the story."
+	hint.add_theme_font_size_override("font_size", 16)
+	hint.add_theme_color_override("font_color", JADE)
+	column.add_child(hint)
 	var row := HBoxContainer.new()
-	row.add_theme_constant_override("separation", 28)
+	row.add_theme_constant_override("separation", 24)
 	column.add_child(row)
-	for id in ["lin_yue", "shen_qing", "elder_yun", "mo_ran"]:
+	for id in Wardrobe.CHARACTERS:
 		var card := VBoxContainer.new()
-		card.custom_minimum_size = Vector2(226, 475)
+		card.custom_minimum_size = Vector2(256, 455)
 		row.add_child(card)
-		var portrait := TextureRect.new()
-		var atlas: Texture2D = load("res://assets/art/cast.png")
-		var cropped := AtlasTexture.new()
-		var index := ["lin_yue", "shen_qing", "elder_yun", "mo_ran"].find(id)
-		cropped.atlas = atlas
-		cropped.region = Rect2(index * atlas.get_width() / 4.0, 0, atlas.get_width() / 4.0, atlas.get_height())
-		portrait.texture = cropped
-		portrait.custom_minimum_size = Vector2(210, 360)
-		portrait.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
-		portrait.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
-		card.add_child(portrait)
+		var portrait_space := Control.new()
+		portrait_space.custom_minimum_size = Vector2(256, 350)
+		card.add_child(portrait_space)
+		var preview = Character.new()
+		preview.display_height = 350.0
+		preview.fade_in = false
+		preview.position = Vector2(128, 175)
+		portrait_space.add_child(preview)
+		preview.show_character(id, "idle", wardrobe.selected(id))
+		preview.sprite.speed_scale = 0.0 if reduced_motion else 1.0
+		wardrobe_previews[id] = preview
 		var name_label := Label.new()
 		name_label.text = str(state.story.characters[id].name)
 		name_label.add_theme_color_override("font_color", GOLD)
@@ -424,6 +437,38 @@ func _cast() -> void:
 		detail.text = str(state.story.characters[id].title)
 		detail.add_theme_font_size_override("font_size", 14)
 		card.add_child(detail)
+		var selector := OptionButton.new()
+		selector.name = "Outfit_" + id
+		selector.custom_minimum_size = Vector2(256, 48)
+		selector.add_theme_font_size_override("font_size", 18)
+		var options: Array = wardrobe.options()
+		for index in range(options.size()):
+			selector.add_item(str(options[index]["name"]))
+			selector.set_item_metadata(index, str(options[index]["id"]))
+			selector.set_item_tooltip(index, str(options[index]["description"]))
+			if options[index]["id"] == wardrobe.selected(id):
+				selector.select(index)
+		selector.item_selected.connect(_outfit_selected.bind(id))
+		card.add_child(selector)
+
+func _outfit_selected(index: int, character: String) -> void:
+	var options: Array = wardrobe.options()
+	if index < 0 or index >= options.size():
+		return
+	_set_outfit(character, str(options[index]["id"]))
+
+func _set_outfit(character: String, outfit: String) -> bool:
+	if not wardrobe.select(character, outfit):
+		return false
+	if wardrobe_previews.has(character):
+		var preview = wardrobe_previews[character]
+		preview.show_character(character, "idle", outfit)
+		preview.sprite.speed_scale = 0.0 if reduced_motion else 1.0
+	if actor.character == character:
+		actor.show_character(character, actor.motion, outfit)
+		actor.sprite.speed_scale = 0.0 if reduced_motion else 1.0
+	_save_settings()
+	return true
 
 func _settings() -> void:
 	var column := _make_popup("A quieter journey")
@@ -479,6 +524,8 @@ func _motion_changed(value: bool) -> void:
 	reduced_motion = value
 	atmosphere.enabled = not value
 	actor.sprite.speed_scale = 0.0 if value else 1.0
+	for preview in wardrobe_previews.values():
+		preview.sprite.speed_scale = 0.0 if value else 1.0
 	_save_settings()
 
 func _voice_changed(value: bool) -> void:
@@ -493,6 +540,7 @@ func _save_settings() -> void:
 	config.set_value("reading", "speed", text_speed)
 	config.set_value("reading", "motion", reduced_motion)
 	config.set_value("reading", "voice", audio.enabled)
+	config.set_value("wardrobe", "choices", wardrobe.selections)
 	for bus in ["Music", "SFX", "Voice"]:
 		config.set_value("audio", bus, AudioServer.get_bus_volume_db(AudioServer.get_bus_index(bus)))
 	config.save("user://settings.cfg")
@@ -506,6 +554,7 @@ func _load_settings() -> void:
 	atmosphere.enabled = not reduced_motion
 	actor.sprite.speed_scale = 0.0 if reduced_motion else 1.0
 	audio.enabled = bool(config.get_value("reading", "voice", true))
+	wardrobe.restore(config.get_value("wardrobe", "choices", {}))
 	for bus in ["Music", "SFX", "Voice"]:
 		AudioServer.set_bus_volume_db(AudioServer.get_bus_index(bus), clampf(float(config.get_value("audio", bus, -8.0)), -40.0, 0.0))
 
@@ -525,6 +574,22 @@ func _capture() -> void:
 	await get_tree().create_timer(0.4).timeout
 	await RenderingServer.frame_post_draw
 	get_viewport().get_texture().get_image().save_png("res://build/screenshots/cast.png")
+	for outfit in ["training", "festival"]:
+		for character in Wardrobe.CHARACTERS:
+			_set_outfit(character, outfit)
+		_cast()
+		await get_tree().create_timer(0.8).timeout
+		await RenderingServer.frame_post_draw
+		get_viewport().get_texture().get_image().save_png("res://build/screenshots/wardrobe_%s.png" % outfit)
+	_close_popup()
+	state.current = "pendant"
+	_scene()
+	dialogue.visible_characters = -1
+	await get_tree().create_timer(0.8).timeout
+	await RenderingServer.frame_post_draw
+	get_viewport().get_texture().get_image().save_png("res://build/screenshots/outfit_dialogue.png")
+	for character in Wardrobe.CHARACTERS:
+		_set_outfit(character, Wardrobe.DEFAULT_OUTFIT)
 	print("JADE_VOW_CAPTURE_OK")
 	_quit_game()
 
@@ -551,6 +616,9 @@ func _smoke_build() -> void:
 	await get_tree().create_timer(0.5).timeout
 	var valid: bool = state.current == "trust" and audio.voice.stream != null
 	valid = valid and actor.sprite.sprite_frames.get_frame_count("cycle") == 64
+	valid = valid and _set_outfit("shen_qing", "festival")
+	valid = valid and actor.outfit == "festival" and actor.sprite.sprite_frames.get_frame_count("cycle") == 64
+	_set_outfit("shen_qing", Wardrobe.DEFAULT_OUTFIT)
 	if valid:
 		print("JADE_VOW_PACKAGE_OK: standalone story, animated art and narration")
 	else:
