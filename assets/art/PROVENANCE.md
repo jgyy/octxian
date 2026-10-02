@@ -33,8 +33,9 @@ GPT Images generated these original assets during this expansion:
 | `world/salt_lantern_valley.png` | 1672×941 | Salt-lake village, terraces, bell tower, and lanterns |
 | `world/su_lan.png` | 1024×1536 | Adult bell keeper, intact full-body sprite with alpha |
 | `world/wei_jin.png` | 1024×1536 | Adult ferryman, intact full-body sprite with alpha |
+| `world/an_ru.png` | 1024×1536 | Adult archivist, intact full-body sprite with alpha |
 | `world/reed_listener.png` | 1024×1536 | Spirit beast carrying salt reeds and a bell, sprite with alpha |
 
 The files are the image tool's native PNG outputs and have not been upscaled. Native alpha and dimensions are validated in CI. They are new drawings, not recolors or copies of the existing cast. The image tool was asked for its highest native resolution; these are the returned dimensions, not a claim that a larger raster size contains more original detail.
 
-The requested final inventory is 100 new assets in each category. This draft delivers one background, two human NPCs, and one monster. See `data/world_assets.json` and `docs/EXPANSION.md` for exact counts and remaining scope.
+The requested final inventory is 100 new assets in each category. This draft delivers one background, three human NPCs, and one monster. See `data/world_assets.json` and `docs/EXPANSION.md` for exact counts and remaining scope.

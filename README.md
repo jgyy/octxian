@@ -32,7 +32,7 @@ If your Godot executable is named `godot4`, replace `godot` with `godot4` in bot
 
 The playable script contains **102 scenes and 4,464 authored words** across two books, with cultivation stats and gated choices. Book I has three endings; each can continue into Book II, which adds three quest routes and four endings.
 
-This draft expansion currently adds **one painted background, two human NPC sprites, and one spirit-beast sprite** at their native generated sizes. The requested 100 backgrounds, 100 NPCs, 100 monsters and more than one million words remain production targets; they are not delivered by this draft. CI writes exact delivery counts to `build/content_report.json`.
+This draft expansion currently adds **one painted background, three human NPC sprites, and one spirit-beast sprite** at their native generated sizes. The requested 100 backgrounds, 100 NPCs, 100 monsters and more than one million words remain production targets; they are not delivered by this draft. CI writes exact delivery counts to `build/content_report.json`.
 
 ![Branching dialogue](docs/screenshots/dialogue.png)
 
@@ -85,7 +85,7 @@ The twelve resting portraits come from the original GPT artwork. Body bobbing pr
 | Asset | Delivered |
 |---|---|
 | GPT Images artwork | 24 gesture key poses, twelve outfit reference portraits, one mountain-sect environment |
-| New Book II painted art | 1 native background, 2 human NPCs, 1 spirit beast |
+| New Book II painted art | 1 native background, 3 human NPCs, 1 spirit beast |
 | Character portraits | **12 intact portraits**: 4 characters × 3 outfits |
 | Animation playback | Sprite2D whole-body bobbing on a four-second loop |
 | Music | Original 48-second pentatonic plucked-string composition |
