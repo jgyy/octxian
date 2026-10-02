@@ -59,7 +59,7 @@ def main():
                 motion_report[label] = metrics
     report_path = ROOT / "build/animations/motion_report.json"
     report_path.parent.mkdir(parents=True, exist_ok=True)
-    report_path.write_text(json.dumps(motion_report, indent=2) + "\\n")
+    report_path.write_text(json.dumps(motion_report, indent=2) + "\n")
     expected = len(catalog["characters"]) * len(catalog["outfits"]) * len(catalog["motions"]) * catalog["frames_per_cycle"]
     assert count == manifest["frame_count"] == expected == 3072
     story = json.loads((ROOT / "data/story.json").read_text())

@@ -7,6 +7,26 @@ func check(condition: bool, message: String) -> void:
 		failures.append(message)
 		push_error(message)
 
+
+func _pose_difference(frames: SpriteFrames) -> float:
+	var first := frames.get_frame_texture("cycle", 0).get_image()
+	var opposite := frames.get_frame_texture("cycle", 32).get_image()
+	if first == null or opposite == null:
+		return 0.0
+	var body := 0
+	var changed := 0
+	for y in range(0, floori(first.get_height() * 0.60), 4):
+		for x in range(0, first.get_width(), 4):
+			var a := first.get_pixel(x, y)
+			var b := opposite.get_pixel(x, y)
+			if maxf(a.a, b.a) < 0.63:
+				continue
+			body += 1
+			var delta := Vector3(a.r * a.a - b.r * b.a, a.g * a.a - b.g * b.a, a.b * a.a - b.b * b.a)
+			if delta.length_squared() > 3.0 * pow(24.0 / 255.0, 2):
+				changed += 1
+	return float(changed) / maxf(body, 1)
+
 func _initialize() -> void:
 	call_deferred("_run")
 
@@ -84,6 +104,7 @@ func _run() -> void:
 				check(game.actor.outfit == clothing["id"], "Every character outfit should load")
 				check(game.actor.sprite.sprite_frames.get_frame_count("cycle") == 64, "Every outfit/motion must have 64 real frames")
 				check(game.actor.sprite.is_playing(), "Every outfit must animate")
+				check(_pose_difference(game.actor.sprite.sprite_frames) >= 0.20, "%s/%s/%s must visibly change its upper-body pose" % [id, clothing["id"], motion])
 				await process_frame
 	await create_timer(0.2).timeout
 	check(game.actor.sprite.frame > 0, "Actual sprite playback should advance animation frames")
