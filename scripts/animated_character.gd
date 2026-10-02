@@ -27,7 +27,7 @@ func show_character(id: String, animation: String = "idle") -> void:
 		for i in range(64):
 			var frame := AtlasTexture.new()
 			frame.atlas = atlas
-			frame.region = Rect2(Vector2(i % 8, i / 8) * cell, cell)
+			frame.region = Rect2(Vector2(i % 8, floori(i / 8.0)) * cell, cell)
 			frames.add_frame("cycle", frame)
 		sprite.sprite_frames = frames
 		sprite.scale = Vector2.ONE * (730.0 / cell.y)
