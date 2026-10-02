@@ -128,6 +128,11 @@ jobs:
         run: |
           test "$(git rev-parse HEAD)" = "$EXPECTED_SHA"
           git add -f assets/generated
+          REVIEW_INPUTS_SHA=$(git ls-tree -r "$EXPECTED_SHA" -- data scripts scenes tools project.godot assets/art .github/workflows/ci.yml | sha256sum | cut -d" " -f1)
+          review_unchanged=false
+          if [ -s docs/review_inputs.sha256 ] && [ "$(cat docs/review_inputs.sha256)" = "$REVIEW_INPUTS_SHA" ]; then
+            review_unchanged=true
+          fi
           missing_capture=false
           for capture in title dialogue cast wardrobe_training wardrobe_festival outfit_dialogue quest_hub spirit_encounter world_gallery; do
             if [ ! -s "docs/screenshots/$capture.png" ] || [ ! -s "docs/screenshots/$capture.jpg" ]; then
@@ -137,16 +142,18 @@ jobs:
           if [ ! -s docs/animations/motions.gif ]; then
             missing_capture=true
           fi
-          if git diff --cached --quiet && [ "$missing_capture" = false ]; then
+          if git diff --cached --quiet && [ "$missing_capture" = false ] && [ "$review_unchanged" = true ]; then
             echo "Verified assets and wardrobe screenshots are already bundled."
             exit 0
           fi
           mkdir -p docs/screenshots docs/animations
-          cp build/animations/*.gif build/animations/*.jpg build/animations/*.json docs/animations/
+          cp build/animations/*.gif build/animations/*.jpg docs/animations/
+          cp build/content_report.json docs/content_report.json
+          printf '%s\n' "$REVIEW_INPUTS_SHA" > docs/review_inputs.sha256
           cp build/screenshots/*.png build/screenshots/*.jpg docs/screenshots/
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -f assets/generated docs/screenshots docs/animations
+          git add -f assets/generated docs/screenshots docs/animations docs/content_report.json docs/review_inputs.sha256
           if ! git diff --cached --quiet; then
             git commit -m "assets: bundle portraits, bob previews and game screenshots"
             git push origin "HEAD:$BUNDLE_BRANCH"

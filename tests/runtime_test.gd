@@ -125,6 +125,14 @@ func _run() -> void:
 	for preview in game.world_previews.values():
 		check(preview.image.texture != null, "World gallery should load actual artwork")
 	game._close_popup()
+
+	game.state.history.append({"speaker": "narrator", "text": "[b]literal[/b]"})
+	game._journal()
+	var logs := game.popup.find_children("*", "RichTextLabel", true, false)
+	check(logs.size() == 1 and logs[0].get_parsed_text().contains("[b]literal[/b]"), "Journal must preserve prose rather than interpret markup")
+	game._close_popup()
+	game.state.history.pop_back()
+	check(game.dialogue.scroll_active, "Longer dialogue should remain accessible through scrolling")
 	var corrupt := ConfigFile.new()
 	corrupt.set_value("reading", "speed", [1, 2])
 	corrupt.set_value("reading", "motion", "false")
