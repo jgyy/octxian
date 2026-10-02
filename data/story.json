@@ -1,0 +1,373 @@
+{
+  "version": 1,
+  "title": "Jade Vow",
+  "start": "arrival",
+  "characters": {
+    "lin_yue": {
+      "name": "Lin Yue",
+      "title": "Wandering sword cultivator",
+      "color": "#c6ded2"
+    },
+    "shen_qing": {
+      "name": "Shen Qing",
+      "title": "Disciple of Azure Cloud",
+      "color": "#8bbbc7"
+    },
+    "elder_yun": {
+      "name": "Elder Yun",
+      "title": "Keeper of the seal",
+      "color": "#c8b6db"
+    },
+    "mo_ran": {
+      "name": "Mo Ran",
+      "title": "The nameless exile",
+      "color": "#d0a39a"
+    },
+    "narrator": {
+      "name": "Narrator",
+      "title": "",
+      "color": "#c5b68b"
+    }
+  },
+  "nodes": {
+    "arrival": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Above the mortal world, the mountains of Azure Cloud drift upon a sea of mist. You have climbed ten thousand steps to return a jade pendant to the woman who saved your life.",
+      "next": "pendant"
+    },
+    "pendant": {
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "Seven years, and the jade is still warm. Mother said every debt has an ending. She never told me what to do when the road leads into the sky.",
+      "next": "gate"
+    },
+    "gate": {
+      "speaker": "shen_qing",
+      "actor": "shen_qing",
+      "text": "The bell has rung without a hand to strike it. No visitor should be here tonight. Tell me your name, traveler, and why the seal in your palm is answering our mountain.",
+      "next": "introduction"
+    },
+    "introduction": {
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "Lin Yue. I came to return a debt. But if the mountain is calling, perhaps the debt was never mine alone.",
+      "next": "first_choice"
+    },
+    "first_choice": {
+      "speaker": "shen_qing",
+      "actor": "shen_qing",
+      "text": "Trust is scarce at Azure Cloud. Will you place the pendant in my hand?",
+      "choices": [
+        {
+          "text": "Trust him with the jade.",
+          "next": "trust",
+          "effects": {
+            "trust": 2,
+            "qi": 1
+          }
+        },
+        {
+          "text": "Ask what happened to the mountain.",
+          "next": "question",
+          "effects": {
+            "insight": 2
+          }
+        },
+        {
+          "text": "Keep the pendant. A debt is a promise.",
+          "next": "guard",
+          "effects": {
+            "resolve": 2
+          }
+        }
+      ]
+    },
+    "trust": {
+      "speaker": "shen_qing",
+      "actor": "shen_qing",
+      "animation": "resolve",
+      "text": "You trust too readily. Yet... the jade has stopped trembling. I have guarded this gate for eleven years, and this is the first time it has felt like a door.",
+      "next": "courtyard"
+    },
+    "question": {
+      "speaker": "shen_qing",
+      "actor": "shen_qing",
+      "text": "Our founder bound a star beneath this mountain. It has kept us aloft for nine centuries. Three nights ago, it began to weep.",
+      "next": "courtyard"
+    },
+    "guard": {
+      "speaker": "shen_qing",
+      "actor": "shen_qing",
+      "text": "Good. Keep your promises close. There are people inside who will call them weaknesses. Follow me, and do not answer any voice from beneath the stones.",
+      "next": "courtyard"
+    },
+    "courtyard": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "animation": "wind",
+      "text": "At the inner courtyard, plum petals rise instead of falling. Beneath the pavilion, the wind carries a name you have heard only in your dreams.",
+      "next": "elder"
+    },
+    "elder": {
+      "speaker": "elder_yun",
+      "actor": "elder_yun",
+      "text": "Little Yue. You have your mother's eyes. And her habit of arriving precisely when the world is about to end.",
+      "next": "mother"
+    },
+    "mother": {
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "You knew her? Then tell me why she gave me this pendant. Tell me why she made me swear never to break it.",
+      "next": "truth"
+    },
+    "truth": {
+      "speaker": "elder_yun",
+      "actor": "elder_yun",
+      "text": "Because the jade is not a key. It is a memory. Your mother carried the last kindness our founder ever showed the star. Without it, the seal is only a cage.",
+      "next": "cultivation_choice"
+    },
+    "cultivation_choice": {
+      "speaker": "elder_yun",
+      "actor": "elder_yun",
+      "text": "Before you descend, steady your meridians. Choose the practice that speaks to you.",
+      "choices": [
+        {
+          "text": "Breathe with the mountain. Gather quiet qi.",
+          "next": "breath",
+          "effects": {
+            "qi": 3
+          }
+        },
+        {
+          "text": "Study the ancient inscription.",
+          "next": "inscription",
+          "effects": {
+            "insight": 3
+          }
+        },
+        {
+          "text": "Practice the sword vow.",
+          "next": "sword",
+          "effects": {
+            "resolve": 3
+          }
+        }
+      ]
+    },
+    "breath": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "animation": "channeling",
+      "sfx": "qi",
+      "text": "You let the cold air pass through you without holding it. Slowly, the mountain breathes with you. A thread of pale light wakes along your wrist.",
+      "next": "exile"
+    },
+    "inscription": {
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "These strokes do not mean imprisonment. They mean shelter. Someone changed the final character. Someone made a refuge into a prison.",
+      "next": "exile"
+    },
+    "sword": {
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "animation": "resolve",
+      "sfx": "sword",
+      "text": "A sword is a promise given an edge. I will not draw it against something merely because I fear what it might become.",
+      "next": "exile"
+    },
+    "exile": {
+      "speaker": "mo_ran",
+      "actor": "mo_ran",
+      "text": "Then you are already wiser than the people who built this place. Do not look so surprised. Exiles know all the doors that disciples pretend do not exist.",
+      "next": "accusation"
+    },
+    "accusation": {
+      "speaker": "shen_qing",
+      "actor": "shen_qing",
+      "text": "Mo Ran. Your sentence forbids you from entering the mountain. You broke the outer seal. You brought this calamity upon us.",
+      "next": "exile_truth"
+    },
+    "exile_truth": {
+      "speaker": "mo_ran",
+      "actor": "mo_ran",
+      "text": "I broke nothing. I listened. The star remembers being a child, Shen Qing. It remembers a sky where it was allowed to move.",
+      "next": "listen_choice"
+    },
+    "listen_choice": {
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "The pavilion falls silent. There is room for one question before the seal breaks.",
+      "choices": [
+        {
+          "text": "Ask the exile what the star wants.",
+          "next": "star_wants",
+          "effects": {
+            "insight": 2,
+            "trust": 1
+          }
+        },
+        {
+          "text": "Ask Shen Qing who he is protecting.",
+          "next": "protection",
+          "effects": {
+            "trust": 3
+          }
+        },
+        {
+          "text": "Ask Elder Yun why she waited.",
+          "next": "waiting",
+          "effects": {
+            "resolve": 2,
+            "insight": 1
+          }
+        }
+      ]
+    },
+    "star_wants": {
+      "speaker": "mo_ran",
+      "actor": "mo_ran",
+      "text": "Not vengeance. Not worship. It wants someone to ask whether it is tired. Imagine carrying a mountain for nine hundred years, and being thanked only with chains.",
+      "next": "descent"
+    },
+    "protection": {
+      "speaker": "shen_qing",
+      "actor": "shen_qing",
+      "text": "Three hundred disciples. A village in our shadow. An old woman who taught me that duty was another word for love. I do not know how to save them all.",
+      "next": "descent"
+    },
+    "waiting": {
+      "speaker": "elder_yun",
+      "actor": "elder_yun",
+      "text": "Because I was afraid. Your mother offered to descend, and I let her go alone. She returned with the jade, but not with all her years. I have been living in that silence ever since.",
+      "next": "descent"
+    },
+    "descent": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "animation": "wind",
+      "sfx": "bell",
+      "text": "The stairs beneath the pavilion spiral into blue darkness. At their end lies a lake with no reflection. A star sleeps beneath its surface, small enough to hold in two hands.",
+      "next": "star"
+    },
+    "star": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "A voice touches your thoughts. It is neither young nor old. 'Did she send you? The woman who sat beside me when I forgot the names of my constellations?'",
+      "next": "answer"
+    },
+    "answer": {
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "She sent me to keep a promise. I think she wanted you to hear it from someone who still has time to choose.",
+      "next": "memory"
+    },
+    "memory": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "animation": "channeling",
+      "text": "The pendant opens into light. You see your mother at the lake, sharing an orange with a captive star. Neither speaks. For one brief afternoon, the mountain has no weight.",
+      "next": "fracture"
+    },
+    "fracture": {
+      "speaker": "shen_qing",
+      "actor": "shen_qing",
+      "animation": "resolve",
+      "text": "The foundations are splitting. Yue, there is no more time. If the star leaves, everything above us will fall.",
+      "next": "final_choice"
+    },
+    "final_choice": {
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "You cannot keep every promise unchanged. But you can choose what it becomes.",
+      "choices": [
+        {
+          "text": "Share the burden. Bind the seal to willing hearts.",
+          "next": "shared",
+          "effects": {
+            "trust": 1
+          },
+          "requires": {
+            "qi": 3
+          }
+        },
+        {
+          "text": "Rewrite the seal as a covenant.",
+          "next": "covenant",
+          "effects": {
+            "insight": 1
+          },
+          "requires": {
+            "insight": 3
+          }
+        },
+        {
+          "text": "Release the star. Guide the mountain to earth.",
+          "next": "release",
+          "effects": {
+            "resolve": 1
+          },
+          "requires": {
+            "resolve": 3
+          }
+        },
+        {
+          "text": "Call everyone together. No one descends alone.",
+          "next": "together",
+          "effects": {
+            "trust": 2
+          }
+        }
+      ]
+    },
+    "shared": {
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "animation": "channeling",
+      "sfx": "qi",
+      "text": "Take only what I offer. The breath in my meridians, the light in my sword. I will carry a little of the sky, if you will carry it with me.",
+      "next": "ending_shared"
+    },
+    "covenant": {
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "animation": "channeling",
+      "sfx": "qi",
+      "text": "I change the final stroke. Shelter, freely given. Shelter, freely left. A vow that cannot be refused is merely another chain.",
+      "next": "ending_covenant"
+    },
+    "release": {
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "animation": "resolve",
+      "sfx": "sword",
+      "text": "Go home. We have stood above the world long enough. It is time we learned how to stand within it.",
+      "next": "ending_release"
+    },
+    "together": {
+      "speaker": "shen_qing",
+      "actor": "shen_qing",
+      "text": "Then let the gate be a door. I will call the disciples. Elder Yun, open the village road. Mo Ran... show us the way you listened.",
+      "next": "ending_shared"
+    },
+    "ending_shared": {
+      "speaker": "narrator",
+      "actor": "shen_qing",
+      "ending": "The Shared Sky",
+      "text": "At dawn, three hundred lanterns burn along the mountain paths. Each holds a thread of willing qi. The star rests without carrying the whole world. Shen Qing leaves the gate open. Your promise has become a place to return to."
+    },
+    "ending_covenant": {
+      "speaker": "narrator",
+      "actor": "elder_yun",
+      "ending": "A Vow Without Chains",
+      "text": "The star rises beyond the plum trees, then returns at sunset of its own accord. Azure Cloud learns to ask, and to accept an answer. Elder Yun plants an orange tree beside the lake. Your mother's kindness grows another branch."
+    },
+    "ending_release": {
+      "speaker": "narrator",
+      "actor": "mo_ran",
+      "ending": "Where Mountains Take Root",
+      "text": "The mountain settles into the valley without breaking a single roof. Above it, a new constellation brightens the sky. Mo Ran's exile ends where the old boundaries disappear. You return the jade to the earth, and begin the long walk home."
+    }
+  }
+}
