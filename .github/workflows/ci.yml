@@ -33,12 +33,16 @@ jobs:
           key: jade-vow-godot-4.7.2-piper-lessac-v1
       - name: Install verified Godot 4.7.2
         run: python tools/bootstrap_godot.py
+      - name: Reject static portraits, pans, tint and particle-only animation
+        run: python -m unittest discover -s tests -p 'test_animation_motion.py'
       - name: Bake all clothing variants and compose score and effects
         run: python tools/build_assets.py
       - name: Generate neural narration for all scenes
         run: python tools/generate_voices.py
       - name: Verify animation counts, unique frames and audio provenance
         run: python tools/validate_assets.py
+      - name: Render animation GIFs and frame contact sheets
+        run: python tools/preview_animations.py
       - name: Import project
         run: |
           mkdir -p build/logs
@@ -85,6 +89,7 @@ jobs:
           path: |
             build/logs
             build/screenshots
+            build/animations
           if-no-files-found: warn
       - uses: actions/upload-artifact@v4
         with:
@@ -125,16 +130,20 @@ jobs:
               missing_capture=true
             fi
           done
+          if [ ! -s docs/animations/motions.gif ]; then
+            missing_capture=true
+          fi
           if git diff --cached --quiet && [ "$missing_capture" = false ]; then
             echo "Verified assets and wardrobe screenshots are already bundled."
             exit 0
           fi
-          mkdir -p docs/screenshots
+          mkdir -p docs/screenshots docs/animations
+          cp build/animations/*.gif build/animations/*.jpg build/animations/*.json docs/animations/
           cp build/screenshots/*.png build/screenshots/*.jpg docs/screenshots/
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -f assets/generated docs/screenshots
+          git add -f assets/generated docs/screenshots docs/animations
           if ! git diff --cached --quiet; then
-            git commit -m "assets: bundle animated wardrobes, neural audio and game screenshots"
+            git commit -m "assets: bundle visible gesture animations, GIF previews and game screenshots"
             git push origin HEAD:feat/jade-vow-godot
           fi
