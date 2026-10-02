@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "requested": {
+    "backgrounds": 100,
+    "npcs": 100,
+    "monsters": 100
+  },
+  "backgrounds": [
+    {
+      "id": "salt_lantern_valley",
+      "name": "Salt Lantern Valley",
+      "path": "assets/art/world/salt_lantern_valley.png",
+      "native_size": [
+        1672,
+        941
+      ],
+      "description": "A salt-lake village whose missing household names turn a protective ward into an instrument of exile."
+    }
+  ],
+  "npcs": [
+    {
+      "id": "su_lan",
+      "name": "Su Lan",
+      "path": "assets/art/world/su_lan.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "The bell keeper has stopped ringing a ward that erases households. She remembers how her own certainty helped the injustice begin."
+    }
+  ],
+  "monsters": [
+    {
+      "id": "reed_listener",
+      "name": "The Reed Listener",
+      "path": "assets/art/world/reed_listener.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "A spirit beast shelters nineteen stolen names in paper nests, spending its own memories to protect strangers."
+    }
+  ]
+}

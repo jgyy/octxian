@@ -23,3 +23,17 @@ The idle, channeling, wind, and resolve labels select a gentle whole-body bob am
 The generated manifest records source, catalog, builder-code, and portrait SHA-256 hashes. GIFs and contact sheets under `docs/animations` preview the body bob; `rendered_game.gif` samples the running Godot viewport.
 
 Music and sound effects are original deterministic synthesis. Neural narration uses Piper's Lessac model; its source, hash, and upstream model card are bundled with generated voices. No person's voice is cloned. All characters share one narrator timbre with different pacing.
+
+## Book II native paintings
+
+GPT Images generated these original assets during this expansion:
+
+| File | Native size | Contents |
+|---|---|---|
+| `world/salt_lantern_valley.png` | 1672×941 | Salt-lake village, terraces, bell tower, and lanterns |
+| `world/su_lan.png` | 1024×1536 | Adult bell keeper, intact full-body sprite with alpha |
+| `world/reed_listener.png` | 1024×1536 | Spirit beast carrying salt reeds and a bell, sprite with alpha |
+
+The files are the image tool's native PNG outputs and have not been upscaled. Native alpha and dimensions are validated in CI. They are new drawings, not recolors or copies of the existing cast. The image tool was asked for its highest native resolution; these are the returned dimensions, not a claim that a larger raster size contains more original detail.
+
+The requested final inventory is 100 new assets in each category. This draft delivers one in each category. See `data/world_assets.json` and `docs/EXPANSION.md` for exact counts and remaining scope.
