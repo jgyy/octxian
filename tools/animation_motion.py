@@ -7,7 +7,7 @@ import cv2
 import numpy as np
 
 LIMITS = {"changed_fraction": 0.07, "upper_changed_fraction": 0.12,
-          "silhouette_change_fraction": 0.03}
+          "silhouette_change_fraction": 0.02}
 
 
 def motion_metrics(first, opposite):

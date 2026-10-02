@@ -60,47 +60,6 @@ def intermediate_points(pair, amount):
     return points
 
 
-def triangulate(pair, cell):
-    points = intermediate_points(pair, 0.5)
-    subdivision = cv2.Subdiv2D((0, 0, cell[0], cell[1]))
-    inserted = []
-    for point in points:
-        if not any(np.linalg.norm(point - previous) < 0.1 for previous in inserted):
-            subdivision.insert(tuple(float(value) for value in point))
-            inserted.append(point)
-    triangles = []
-    for triangle in subdivision.getTriangleList():
-        vertices = triangle.reshape(3, 2)
-        indices = [int(np.argmin(np.sum((points - vertex) ** 2, axis=1))) for vertex in vertices]
-        if max(np.linalg.norm(points[index] - vertex) for index, vertex in zip(indices, vertices)) < 0.2:
-            triangles.append(indices)
-    return triangles
-
-
-def warp_pose(pixels, source_points, destination_points, triangles, grid):
-    xx, yy = grid
-    map_x, map_y = xx.copy(), yy.copy()
-    height, width = xx.shape
-    for indices in triangles:
-        source = source_points[indices]
-        destination = destination_points[indices]
-        if abs(cv2.contourArea(destination)) < 0.05:
-            continue
-        x, y, w, h = cv2.boundingRect(destination)
-        left, top, right, bottom = max(0, x), max(0, y), min(width, x + w), min(height, y + h)
-        if right <= left or bottom <= top:
-            continue
-        mask = np.zeros((bottom - top, right - left), dtype=np.uint8)
-        cv2.fillConvexPoly(mask, np.rint(destination - [left, top]).astype(np.int32), 1)
-        affine = cv2.getAffineTransform(destination, source)
-        region_x, region_y = xx[top:bottom, left:right], yy[top:bottom, left:right]
-        mapped_x = affine[0, 0] * region_x + affine[0, 1] * region_y + affine[0, 2]
-        mapped_y = affine[1, 0] * region_x + affine[1, 1] * region_y + affine[1, 2]
-        map_x[top:bottom, left:right][mask > 0] = mapped_x[mask > 0]
-        map_y[top:bottom, left:right][mask > 0] = mapped_y[mask > 0]
-    return cv2.remap(pixels, map_x, map_y, cv2.INTER_LINEAR)
-
-
 def pose_amount(phase, motion):
     amount = 0.5 - 0.5 * np.cos(phase)
     if motion == "channeling":
@@ -114,6 +73,11 @@ def pose_amount(phase, motion):
 
 def require_solid_hands(frames, pair, motion):
     minimum = 1.0
+    path = [intermediate_points(pair, pose_amount(2 * np.pi * index / len(frames), motion))[0]
+            for index in range(len(frames))]
+    travel = max(float(np.linalg.norm(point - path[0])) for point in path)
+    if travel < 48:
+        raise AssertionError(f"{motion}: palm travels only {travel:.1f}px; visible gesture requires 48px")
     for index in (8, 16, 24, 40, 48, 56):
         amount = pose_amount(2 * np.pi * index / len(frames), motion)
         hand = intermediate_points(pair, amount)[0]
