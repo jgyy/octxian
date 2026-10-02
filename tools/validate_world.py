@@ -41,6 +41,8 @@ def inspect(root):
         assert node["text"].strip(), f"Empty scene {key}"
         assert len(node["text"].split()) <= 100, f"Keep dialogue readable in {key}"
         assert sum(field in node for field in ("next", "choices", "ending")) == 1, f"Ambiguous navigation: {key}"
+        if "effect" in node:
+            assert node["effect"] in {"lanterns", "rain", "reed_light", "bell", "qi", "none"}
         if "background" in node:
             assert node["background"] in backgrounds
         if "chapter" in node:
