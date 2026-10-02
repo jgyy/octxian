@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "characters": [
     "lin_yue",
     "shen_qing",
@@ -12,8 +12,6 @@
     "wind",
     "resolve"
   ],
-  "frames_per_cycle": 64,
-  "fps": 16,
   "outfits": [
     {
       "id": "sect",
@@ -36,5 +34,12 @@
       "source": "assets/art/cast_festival.png",
       "poses": "assets/art/poses_festival.png"
     }
-  ]
+  ],
+  "seconds_per_cycle": 4.0,
+  "bob_pixels": {
+    "idle": 6,
+    "channeling": 8,
+    "wind": 10,
+    "resolve": 7
+  }
 }

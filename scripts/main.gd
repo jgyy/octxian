@@ -191,7 +191,7 @@ func _scene() -> void:
 	var node: Dictionary = state.node()
 	var actor_id := str(node.get("actor", "lin_yue"))
 	actor.show_character(actor_id, str(node.get("animation", "idle")), wardrobe.selected(actor_id))
-	actor.sprite.speed_scale = 0.0 if reduced_motion else 1.0
+	actor.set_reduced_motion(reduced_motion)
 	_label("CHAPTER ONE", Vector2(77, 146), 13, GOLD)
 	_label("The star beneath the mountain", Vector2(77, 174), 27, PALE)
 	_label("QI %02d    TRUST %02d    INSIGHT %02d    RESOLVE %02d" % [state.stats.qi, state.stats.trust, state.stats.insight, state.stats.resolve], Vector2(78, 222), 14, JADE)
@@ -427,7 +427,7 @@ func _cast() -> void:
 		preview.position = Vector2(128, 175)
 		portrait_space.add_child(preview)
 		preview.show_character(id, "idle", wardrobe.selected(id))
-		preview.sprite.speed_scale = 0.0 if reduced_motion else 1.0
+		preview.set_reduced_motion(reduced_motion)
 		wardrobe_previews[id] = preview
 		var name_label := Label.new()
 		name_label.text = str(state.story.characters[id].name)
@@ -463,10 +463,10 @@ func _set_outfit(character: String, outfit: String) -> bool:
 	if wardrobe_previews.has(character):
 		var preview = wardrobe_previews[character]
 		preview.show_character(character, "idle", outfit)
-		preview.sprite.speed_scale = 0.0 if reduced_motion else 1.0
+		preview.set_reduced_motion(reduced_motion)
 	if actor.character == character:
 		actor.show_character(character, actor.motion, outfit)
-		actor.sprite.speed_scale = 0.0 if reduced_motion else 1.0
+		actor.set_reduced_motion(reduced_motion)
 	_save_settings()
 	return true
 
@@ -523,9 +523,9 @@ func _speed_changed(value: float) -> void:
 func _motion_changed(value: bool) -> void:
 	reduced_motion = value
 	atmosphere.enabled = not value
-	actor.sprite.speed_scale = 0.0 if value else 1.0
+	actor.set_reduced_motion(value)
 	for preview in wardrobe_previews.values():
-		preview.sprite.speed_scale = 0.0 if value else 1.0
+		preview.set_reduced_motion(value)
 	_save_settings()
 
 func _voice_changed(value: bool) -> void:
@@ -552,7 +552,7 @@ func _load_settings() -> void:
 	text_speed = clampf(float(config.get_value("reading", "speed", 38.0)), 12.0, 100.0)
 	reduced_motion = bool(config.get_value("reading", "motion", false))
 	atmosphere.enabled = not reduced_motion
-	actor.sprite.speed_scale = 0.0 if reduced_motion else 1.0
+	actor.set_reduced_motion(reduced_motion)
 	audio.enabled = bool(config.get_value("reading", "voice", true))
 	wardrobe.restore(config.get_value("wardrobe", "choices", {}))
 	for bus in ["Music", "SFX", "Voice"]:
@@ -592,9 +592,9 @@ func _capture() -> void:
 	# Record real timed playback, with a quiet background so the actor's motion is clear.
 	_set_outfit("lin_yue", Wardrobe.DEFAULT_OUTFIT)
 	atmosphere.enabled = false
-	actor.sprite.speed_scale = 1.0
+	actor.set_reduced_motion(false)
 	await get_tree().create_timer(0.4).timeout
-	actor.sprite.set_frame_and_progress(0, 0.0)
+	actor.reset_motion()
 	DirAccess.make_dir_recursive_absolute("res://build/animations/rendered")
 	for index in range(16):
 		await RenderingServer.frame_post_draw
@@ -630,9 +630,9 @@ func _smoke_build() -> void:
 	_choose(0)
 	await get_tree().create_timer(0.5).timeout
 	var valid: bool = state.current == "trust" and audio.voice.stream != null
-	valid = valid and actor.sprite.sprite_frames.get_frame_count("cycle") == 64
+	valid = valid and actor.sprite.texture != null
 	valid = valid and _set_outfit("shen_qing", "festival")
-	valid = valid and actor.outfit == "festival" and actor.sprite.sprite_frames.get_frame_count("cycle") == 64
+	valid = valid and actor.outfit == "festival" and actor.sprite.texture != null
 	_set_outfit("shen_qing", Wardrobe.DEFAULT_OUTFIT)
 	if valid:
 		print("JADE_VOW_PACKAGE_OK: standalone story, animated art and narration")
