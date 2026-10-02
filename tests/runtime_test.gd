@@ -120,6 +120,9 @@ func _run() -> void:
 	game.state.current = "reed_voice"
 	game._scene()
 	check(game.actor.character == "reed_listener", "Spirit should use its own sprite")
+	var speaker_label: Label = game.ui.get_node("SpeakerName")
+	var speaker_title: Label = game.ui.get_node("SpeakerTitle")
+	check(speaker_title.position.x > speaker_label.position.x + speaker_label.get_minimum_size().x, "Long speaker names and role labels must not overlap")
 	game._world()
 	check(game.world_previews.size() == 3, "World gallery should show all three asset categories")
 	for preview in game.world_previews.values():
