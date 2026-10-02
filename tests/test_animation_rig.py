@@ -8,7 +8,7 @@ from PIL import Image, ImageDraw
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / "tools"))
 from animation_baker import premultiply, render_frame
-from pose_rig import build_points, intermediate_points, arm_layers, move_segment, place_hand, require_solid_hands
+from pose_rig import build_points, intermediate_points, arm_layers, move_segment, place_hand, require_solid_hands, align_body_donor
 from test_animation_motion import figure
 
 
@@ -32,7 +32,9 @@ class HandPathTests(unittest.TestCase):
 
     def render(self, images=None, frame=16):
         arrays = [premultiply(image) for image in (images or self.images)]
-        layers = [arm_layers(array, points, 14) for array, points in zip(arrays, self.points)]
+        donor = align_body_donor(arrays[1], self.points[1], self.points[0])
+        layers = [arm_layers(arrays[0], self.points[0], 14, donor),
+                  arm_layers(arrays[1], self.points[1], 14)]
         return render_frame(*arrays, layers, self.points, frame, "idle", self.grid)
 
     def test_crossfade_leaves_the_intermediate_hand_missing(self):
