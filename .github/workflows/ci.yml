@@ -118,6 +118,17 @@ jobs:
           EXPECTED_SHA: ${{ github.sha }}
         run: |
           test "$(git rev-parse HEAD)" = "$EXPECTED_SHA"
+          git add -f assets/generated
+          missing_capture=false
+          for capture in title dialogue cast wardrobe_training wardrobe_festival outfit_dialogue; do
+            if [ ! -s "docs/screenshots/$capture.png" ] || [ ! -s "docs/screenshots/$capture.jpg" ]; then
+              missing_capture=true
+            fi
+          done
+          if git diff --cached --quiet && [ "$missing_capture" = false ]; then
+            echo "Verified assets and wardrobe screenshots are already bundled."
+            exit 0
+          fi
           mkdir -p docs/screenshots
           cp build/screenshots/*.png build/screenshots/*.jpg docs/screenshots/
           git config user.name "github-actions[bot]"
