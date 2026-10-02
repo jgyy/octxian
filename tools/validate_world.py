@@ -10,6 +10,19 @@ STAT_KEYS = {"qi", "trust", "insight", "resolve"}
 BASE_ACTORS = {"lin_yue", "shen_qing", "elder_yun", "mo_ran"}
 
 
+def reachable_without(story, omitted):
+    reached, queue = set(), deque([story["start"]])
+    while queue:
+        key = queue.popleft()
+        if key == omitted or key in reached:
+            continue
+        reached.add(key)
+        node = story["nodes"][key]
+        queue.extend(node[field] for field in ("next", "continuation") if field in node)
+        queue.extend(choice["next"] for choice in node.get("choices", []))
+    return reached
+
+
 def inspect(root):
     world = json.loads((root / "data/world_assets.json").read_text())
     story = json.loads((root / "data/story.json").read_text())
@@ -59,7 +72,7 @@ def inspect(root):
                     if field == "requires":
                         assert value >= 0
     continuity = json.loads((root / "data/continuity.json").read_text())
-    assert set(continuity["reviewed_chapters"]) <= set(story["chapters"])
+    assert set(continuity["reviewed_chapters"]) == set(story["chapters"]), "Review every delivered chapter"
     for fact in continuity["facts"]:
         assert fact["statement"].strip() and fact["anchors"]
         assert set(fact["anchors"]) <= set(story["nodes"]), f"Missing continuity anchor: {fact['id']}"
@@ -74,6 +87,16 @@ def inspect(root):
         queue.extend(node[field] for field in ("next", "continuation") if field in node)
         queue.extend(choice["next"] for choice in node.get("choices", []))
     assert reached == set(story["nodes"]), "Every scene must be reachable"
+    # Required knowledge/safety scenes must dominate their decision in every
+    # structural path, so a future shortcut cannot silently skip the evidence.
+    for checkpoint in continuity.get("checkpoints", []):
+        target = checkpoint["before"]
+        assert target in story["nodes"]
+        for required in checkpoint["required"]:
+            assert required in story["nodes"]
+            assert target not in reachable_without(story, required), (
+                f"Continuity checkpoint {checkpoint['id']} bypasses {required}"
+            )
     # Count displayed prose once. Catalog descriptions, choice labels, design
     # documents and the number of possible traversals are not manuscript words.
     words = sum(len(node["text"].split()) for node in story["nodes"].values())
