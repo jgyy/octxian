@@ -18,7 +18,11 @@ def refine_hand(sheet, seed):
     total = weights.sum()
     if total < 1:
         raise ValueError(f"Palm annotation {seed} misses opaque skin")
-    return np.array([(weights * xx).sum() / total, (weights * yy).sum() / total], dtype=np.float32)
+    centroid_x, centroid_y = (weights * xx).sum() / total, (weights * yy).sum() / total
+    interior = cv2.distanceTransform(np.uint8(skin), cv2.DIST_L2, 5)
+    scores = interior * np.exp(-((xx - centroid_x) ** 2 + (yy - centroid_y) ** 2) / (2 * 12 ** 2))
+    best = np.unravel_index(np.argmax(scores), scores.shape)
+    return np.float32([xx[best], yy[best]])
 
 
 def build_points(sheet, spec, transform, cell):

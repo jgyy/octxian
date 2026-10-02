@@ -3,6 +3,7 @@ import json
 import pathlib
 
 from PIL import Image, ImageDraw
+from animation_baker import pose_pair
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 OUT = ROOT / "build/animations"
@@ -55,3 +56,21 @@ for index in range(64):
     panels.append(panel)
 panels[0].save(OUT / "motions.gif", save_all=True, append_images=panels[1:],
                duration=[60, 70, 60, 60] * 16, loop=0, disposal=2, optimize=False)
+
+rigs = json.loads((ROOT / "data/animation_rigs.json").read_text())["outfits"]
+for outfit in catalog["outfits"]:
+    source = Image.open(ROOT / outfit["poses"]).convert("RGBA")
+    guide = Image.new("RGB", (width * 4, height * 2), (13, 29, 32))
+    draw = ImageDraw.Draw(guide)
+    for column, character in enumerate(catalog["characters"]):
+        pair, points = pose_pair(source, column, 4, rigs[outfit["id"]][character])
+        for row, (pose, joints) in enumerate(zip(pair, points)):
+            x, y = column * width, row * height
+            guide.paste(pose, (x, y), pose)
+            for first, second in [(0, 5), (5, 10)]:
+                draw.line((x + joints[first, 0], y + joints[first, 1],
+                           x + joints[second, 0], y + joints[second, 1]), fill=(255, 200, 50), width=2)
+            for index in (0, 5, 10, 15, 20):
+                px, py = joints[index] + [x, y]
+                draw.ellipse((px - 3, py - 3, px + 3, py + 3), fill=(255, 80, 80))
+    guide.save(OUT / f"{outfit['id']}_rig.jpg", quality=82, optimize=True)
