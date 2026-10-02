@@ -1422,7 +1422,7 @@
       "speaker": "lin_yue",
       "actor": "lin_yue",
       "text": "We can change the return place with your agreement and Mo Ran's. We can repair a receiving platform above the old stair if it remains safe. We can also pause the ferry in a sheltered reach while the owners decide what should happen to their echoes. None of those permits us to listen. Which can you bear to discuss first?",
-      "next": "river_resolution_choice",
+      "next": "river_book",
       "chapter": "book_iii",
       "background": "north_landing",
       "effect": "rain"
@@ -1480,7 +1480,7 @@
       "speaker": "wei_xiu",
       "actor": "wei_xiu",
       "text": "We will sound the bank before anyone brings timber. A rebuilt stair that disappears in the next flood merely gives the promise another season to fail. If the old name can identify a safe landing above the water, the owners can approve it. If it cannot, I will say so even after we have carried all the beams here.",
-      "next": "ending_river_stair",
+      "next": "stair_soundings",
       "chapter": "book_iii",
       "background": "north_landing",
       "effect": "rain"
@@ -1488,10 +1488,10 @@
     "ending_river_stair": {
       "speaker": "narrator",
       "actor": "wei_xiu",
-      "text": "The new receiving platform stood above the flood marks. Its charter named a second berth for high water and required another survey each spring. Mo Ran permitted his sealed echo to return there. Letters invited the other owners to inspect it. Wei Xiu carved the date beside the old landing's name, leaving the vanished stair visible on the chart.",
+      "text": "The ramp opened above the flood line, with another berth named for high water. Mo Ran and Luo Fen carried their sealed echoes away. The third ring waited at the sheltered mooring under an agreement that could be reviewed without opening it. Wei Xiu left the vanished stair on the chart. A new shore had become safe without pretending the old one had never existed.",
       "ending": "A Stair Above the Flood",
       "chapter": "book_iii",
-      "background": "north_landing",
+      "background": "sheltered_reach",
       "effect": "none"
     },
     "river_harbor_terms": {
@@ -1525,15 +1525,6 @@
       "speaker": "wei_xiu",
       "actor": "wei_xiu",
       "text": "The berth is sound now. It was sound because we checked it, not because someone wrote that it ought to be. Your new return line needs a person who can refuse a landing when conditions change. I can do that this month. In summer I work upriver. Put the next pilot's duty beside mine, or this paper will become another vanished stair.",
-      "next": "return_witness",
-      "chapter": "book_iii",
-      "background": "north_landing",
-      "effect": "rain"
-    },
-    "return_witness": {
-      "speaker": "an_ru",
-      "actor": "an_ru",
-      "text": "Su Lan sent for me; I came with the old landing book. Mo Ran's receipt matches its entry. There are three entrusted echoes, not a hold full of them. One belongs to Mo Ran. Another belongs to Luo Fen, a living carpenter at Willow Reach. The third owner's receipt remains sealed in its ring. The book lost that page before I received it.",
       "next": "return_unknown",
       "chapter": "book_iii",
       "background": "north_landing",
@@ -1660,6 +1651,174 @@
       "next": "ending_river_return",
       "chapter": "book_iii",
       "background": "north_landing",
+      "effect": "none"
+    },
+    "river_book": {
+      "speaker": "an_ru",
+      "actor": "an_ru",
+      "text": "Su Lan sent a shore runner for me while you spoke. I brought the landing book. Mo Ran's receipt matches its entry. There are three entrusted echoes: his, Luo Fen's, and one whose page was lost before I received the book. Luo Fen is alive, a carpenter at Willow Reach. The unidentified receipt remains sealed in its ring.",
+      "next": "river_resolution_choice",
+      "chapter": "book_iii",
+      "background": "north_landing",
+      "effect": "rain"
+    },
+    "stair_soundings": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "They went upstream in Wei Xiu's ordinary boat while the Eel kept its shorter circuit beside the marker. The place called Willow Reach had moved without changing its name. New roofs stood above a pale scar of broken bank. At the vanished east stair, a carved lintel lay underwater. Lin Yue looked for a family of ghosts until a woman on the high bank asked whether they had come to measure timber.",
+      "next": "stair_luofen",
+      "chapter": "book_iii",
+      "background": "sheltered_reach",
+      "effect": "none"
+    },
+    "stair_luofen": {
+      "speaker": "wei_xiu",
+      "actor": "wei_xiu",
+      "text": "That is Luo Fen. Her letter reached my father this morning; she received our first message before we left. She wants her echo returned, but not heard by the work crew. She has offered to inspect the new platform herself. The flood took her stair, not her skill. Ask her about the joints before asking me.",
+      "next": "stair_measure",
+      "chapter": "book_iii",
+      "background": "sheltered_reach",
+      "effect": "none"
+    },
+    "stair_measure": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Luo Fen marked a beam with a carpenter's square, then showed Wei Xiu the old flood line. The new bank looked firm until a sounding pole slipped through its crust. Beneath it lay a pocket of water. The carpenter shook her head. Her household had already rebuilt once. She would not give her name to a stair that borrowed stability from the next dry week.",
+      "next": "stair_alternative",
+      "chapter": "book_iii",
+      "background": "sheltered_reach",
+      "effect": "none"
+    },
+    "stair_alternative": {
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "Then we should abandon this patch before the beams make us stubborn. The stone shelf above it looks sound, but a person with a weak knee could not climb there alone. A safe landing must include getting home after the boat stops. Wei Xiu, can the shelf take a ramp without pushing the current toward the fishing nets?",
+      "next": "stair_tradeoff",
+      "chapter": "book_iii",
+      "background": "sheltered_reach",
+      "effect": "none"
+    },
+    "stair_tradeoff": {
+      "speaker": "wei_xiu",
+      "actor": "wei_xiu",
+      "text": "A narrow ramp can. A grand stair cannot. We will need two turns, a resting rail, and a removable lower section for high water. It will cost more rope and less carved stone. Luo Fen says she can supervise the joints. She has not offered to work for free. I am glad she said that before anyone called her contribution a gift.",
+      "next": "stair_money",
+      "chapter": "book_iii",
+      "background": "sheltered_reach",
+      "effect": "none"
+    },
+    "stair_money": {
+      "speaker": "su_lan",
+      "actor": "su_lan",
+      "text": "The shrine has maintenance money held through winter. Its terms cover ferry access for visitors. They do not cover every repair we can describe as kind. I will ask the household meeting to authorize the part serving that access. Mo Ran can pay for the separate receiving case. The rest must be named before a worker picks up a saw.",
+      "next": "stair_funding_choice",
+      "chapter": "book_iii",
+      "background": "sheltered_reach",
+      "effect": "none"
+    },
+    "stair_funding_choice": {
+      "speaker": "wei_xiu",
+      "actor": "wei_xiu",
+      "text": "We can build the accessible ramp in stages using paid local shifts, or ask the upriver boat association for an advance against agreed maintenance work. Either can succeed. The first takes longer; the second binds a season of wages. Choose the cost we should put before the people who will bear it.",
+      "chapter": "book_iii",
+      "background": "sheltered_reach",
+      "effect": "none",
+      "choices": [
+        {
+          "text": "Build in paid stages, keeping an interim berth open.",
+          "next": "stair_stages",
+          "effects": {
+            "trust": 1
+          }
+        },
+        {
+          "text": "Negotiate the advance with a fixed repayment ceiling.",
+          "next": "stair_advance",
+          "effects": {
+            "insight": 1
+          }
+        }
+      ]
+    },
+    "stair_stages": {
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "Keep the temporary berth outside the spirit's circuit. Put its limits beside the pilot's rota, not at the bottom of the work notice. We will pay each shift before inviting the next. If funds run short, we stop at a safe stage. A slow ramp is a delay people can plan for; an unfinished dangerous one is another promise that spends their bodies.",
+      "next": "stair_stages_cost",
+      "chapter": "book_iii",
+      "background": "sheltered_reach",
+      "effect": "none"
+    },
+    "stair_stages_cost": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The first stage took six days. Lin Yue carried boards; Mo Ran sorted pegs; Luo Fen sent a crooked joint back three times. Wei Xiu kept the ordinary boats running from the temporary berth. At sunset she paid the workers in a line that moved more slowly than any sword lesson. Nobody described the extra days as failure. They described whose turn came tomorrow.",
+      "next": "stair_charter",
+      "chapter": "book_iii",
+      "background": "sheltered_reach",
+      "effect": "none"
+    },
+    "stair_advance": {
+      "speaker": "an_ru",
+      "actor": "an_ru",
+      "text": "Then the ceiling includes missed work during high water. No household's land secures the debt. The association may collect only the maintenance turns named in the agreement, and every turn must have a replacement option. I will read those conditions before the amount. If the lender refuses them, the attractive number on the next line will not decide for us.",
+      "next": "stair_advance_cost",
+      "chapter": "book_iii",
+      "background": "sheltered_reach",
+      "effect": "none"
+    },
+    "stair_advance_cost": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The association accepted a smaller advance with a longer schedule. Wei Xiu crossed out the first amount rather than tearing up its record. Luo Fen kept a copy beside her tools. The work began sooner, but the pilots would spend part of summer tending posts instead of carrying goods. When Lin Yue praised the bargain, Wei Xiu showed her the hours that praise had left out.",
+      "next": "stair_charter",
+      "chapter": "book_iii",
+      "background": "sheltered_reach",
+      "effect": "none"
+    },
+    "stair_charter": {
+      "speaker": "an_ru",
+      "actor": "an_ru",
+      "text": "The receiving place is Willow Reach's high-bank platform, with the north landing named for high water. Each owner must authorize their own return. Mo Ran has signed. Luo Fen has signed without consenting to a public hearing of her echo. The third ring stays sealed at the sheltered mooring while we search for its receipt. A safe platform does not supply a missing permission.",
+      "next": "stair_test",
+      "chapter": "book_iii",
+      "background": "sheltered_reach",
+      "effect": "none"
+    },
+    "stair_test": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Before the old ferry approached, Wei Xiu brought an empty boat down the route and turned it under full load. Luo Fen walked the ramp carrying two sacks of sand. Su Lan tested the rail with her whole weight. Lin Yue wanted to lend qi to the joints. The carpenter refused: the platform had to remain safe on a day when no cultivator visited.",
+      "next": "stair_spirit",
+      "chapter": "book_iii",
+      "background": "sheltered_reach",
+      "effect": "none"
+    },
+    "stair_spirit": {
+      "speaker": "mooring_eel",
+      "actor": "mooring_eel",
+      "text": "I can reach that wood without turning toward the vanished stair. The rings whose owners accepted it may come ashore. The closed ring may wait beside the marker with me. The new line asks a pilot to judge the river before I approach. I can accept a promise that lets the pilot stop me. I could not have carved that permission for myself.",
+      "next": "stair_return",
+      "chapter": "book_iii",
+      "background": "sheltered_reach",
+      "effect": "none"
+    },
+    "stair_return": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Mo Ran received a sealed reed case. Luo Fen received another and took it straight to her house, refusing every curious invitation along the way. The Eel moved its last closed ring to the sheltered mooring. Above the old stair, Wei Xiu cut the survey date into stone. She left the previous flood mark visible below it, where another spring could contradict today's careful measurements.",
+      "next": "stair_after",
+      "chapter": "book_iii",
+      "background": "sheltered_reach",
+      "effect": "none"
+    },
+    "stair_after": {
+      "speaker": "mo_ran",
+      "actor": "mo_ran",
+      "text": "When I crossed eleven years ago, I wanted a witness that no disciple could silence. I did not ask what work that witness would need to keep doing. This ramp will require people who may never hear what I left. I am paying my part because their work exists whether I am ready to tell a noble story about my own.",
+      "next": "ending_river_stair",
+      "chapter": "book_iii",
+      "background": "sheltered_reach",
       "effect": "none"
     }
   },
