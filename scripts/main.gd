@@ -95,7 +95,9 @@ func _clear() -> void:
 	continue_button = null
 	status_label = null
 
-func _label(text: String, point: Vector2, font_size: int = 22, color: Color = PALE, parent: Node = ui) -> Label:
+func _label(text: String, point: Vector2, font_size: int = 22, color: Color = PALE, parent: Node = null) -> Label:
+	if parent == null:
+		parent = ui
 	var label := Label.new()
 	label.text = text
 	label.position = point
@@ -109,7 +111,9 @@ func _serif(label: Label) -> void:
 	font.font_names = PackedStringArray(["DejaVu Serif", "Noto Serif", "Georgia"])
 	label.add_theme_font_override("font", font)
 
-func _button(text: String, point: Vector2, width: float, action: Callable, parent: Node = ui) -> Button:
+func _button(text: String, point: Vector2, width: float, action: Callable, parent: Node = null) -> Button:
+	if parent == null:
+		parent = ui
 	var button := Button.new()
 	button.text = text
 	button.position = point
@@ -119,7 +123,9 @@ func _button(text: String, point: Vector2, width: float, action: Callable, paren
 	parent.add_child(button)
 	return button
 
-func _line(point: Vector2, width: float, color: Color = GOLD, parent: Node = ui) -> void:
+func _line(point: Vector2, width: float, color: Color = GOLD, parent: Node = null) -> void:
+	if parent == null:
+		parent = ui
 	var line := ColorRect.new()
 	line.color = color
 	line.position = point
@@ -491,7 +497,9 @@ func _load_settings() -> void:
 	if config.load("user://settings.cfg") != OK:
 		return
 	text_speed = clampf(float(config.get_value("reading", "speed", 38.0)), 12.0, 100.0)
-	_motion_changed(bool(config.get_value("reading", "motion", false)))
+	reduced_motion = bool(config.get_value("reading", "motion", false))
+	atmosphere.enabled = not reduced_motion
+	actor.sprite.speed_scale = 0.0 if reduced_motion else 1.0
 	audio.enabled = bool(config.get_value("reading", "voice", true))
 	for bus in ["Music", "SFX", "Voice"]:
 		AudioServer.set_bus_volume_db(AudioServer.get_bus_index(bus), clampf(float(config.get_value("audio", bus, -8.0)), -40.0, 0.0))
