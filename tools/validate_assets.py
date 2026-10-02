@@ -6,8 +6,9 @@ import wave
 
 from PIL import Image
 
-from animation_baker import CELL, GENERATOR, digest
+from animation_baker import CELL, GENERATOR, digest, pose_pair
 from animation_motion import motion_metrics, require_visible_motion
+from pose_rig import require_solid_hands
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 OUT = ROOT / "assets/generated"
@@ -24,6 +25,7 @@ def main():
     assert manifest["baker_sha256"] == digest(ROOT / "tools/animation_baker.py")
     assert manifest["rig_sha256"] == digest(ROOT / "data/animation_rigs.json")
     assert manifest["rig_code_sha256"] == digest(ROOT / "tools/pose_rig.py")
+    rigs = json.loads((ROOT / "data/animation_rigs.json").read_text())["outfits"]
     motion_report = {}
     count = 0
     hashes = set()
@@ -35,7 +37,10 @@ def main():
         assert entry["pose_source"] == outfit["poses"]
         assert entry["pose_source_sha256"] == digest(ROOT / outfit["poses"])
         assert set(entry["characters"]) == set(catalog["characters"])
+        sheet = Image.open(ROOT / outfit["poses"]).convert("RGBA")
         for character, motions in entry["characters"].items():
+            _, rig_points = pose_pair(sheet, catalog["characters"].index(character),
+                                      len(catalog["characters"]), rigs[outfit_id][character])
             assert set(motions) == set(catalog["motions"]), character
             for motion, info in motions.items():
                 suffix = "" if outfit_id == "sect" else f"_{outfit_id}"
@@ -58,6 +63,7 @@ def main():
                 label = f"{character}/{outfit_id}/{motion}"
                 metrics = motion_metrics(decoded_frames[0], decoded_frames[32])
                 require_visible_motion(metrics, label)
+                metrics["moving_hand_opaque_coverage"] = require_solid_hands(decoded_frames, rig_points, motion)
                 motion_report[label] = metrics
     report_path = ROOT / "build/animations/motion_report.json"
     report_path.parent.mkdir(parents=True, exist_ok=True)
