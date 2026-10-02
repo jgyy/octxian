@@ -16,7 +16,7 @@
 
 ## Local checks
 
-Use Python 3.12 and Godot 4.7.2. Install `requirements.txt`, then run:
+Use Python 3.12 and Godot 4.7.2. `tools/bootstrap_godot.py` pins the official release archive SHA-256 and verifies cached downloads without querying the GitHub API. Install `requirements.txt`, then run:
 
 ```sh
 python -m unittest discover -s tests -p 'test_*.py'
@@ -47,7 +47,7 @@ Choices apply effects only when their requirements are met. Failed loads preserv
 
 There are twelve 384×512 portrait PNGs: four adult characters × three outfits. Each is an intact resting pose from the top row of its GPT pose sheet. Godot translates the complete Sprite2D vertically in a four-second loop; the motion label selects a 6–10 pixel bob. Separate outfit references and a mountain environment are also GPT-generated.
 
-The three Python regression tests cover selection of the intact resting pose, preserved aspect ratio, and missing artwork. Asset validation checks all twelve decoded portraits, transparency, source/code hashes, audio integrity, and narration coverage. It rejects leftover frame atlases.
+The portrait regression tests cover selection of the intact resting pose, preserved aspect ratio, and missing artwork. Two installer tests check offline reuse of a verified cache and rejection of modified archive bytes. Asset validation checks all twelve decoded portraits, transparency, source/code hashes, audio integrity, and narration coverage. It rejects leftover frame atlases.
 
 Godot runtime tests exercise all 48 outfit/motion combinations, verifying up/down movement, a smooth loop, an unchanged portrait texture, and a still body with reduced motion. They also exercise actual playback, wardrobe selection, settings persistence, story progress, and corrupt-config recovery. Story tests traverse every reachable scene and every authored ending.
 
