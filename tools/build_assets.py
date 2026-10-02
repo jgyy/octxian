@@ -55,7 +55,7 @@ def sprites():
         for motion in MOTIONS:
             atlas = Image.new("RGBA", (CELL[0] * 8, CELL[1] * 8))
             for frame in range(FRAMES):
-                phase = 2 * math.pi * frame / FRAMES
+                phase = 2 * math.pi * frame / FRAMES + MOTIONS.index(motion) * 0.29
                 amplitude = {"idle": 1.8, "channeling": 2.4, "wind": 5.0, "resolve": 3.2}[motion]
                 sway = amplitude * math.sin(phase) * (0.1 + yy / CELL[1]) ** 2
                 breathe = 1.0 + 0.008 * math.sin(phase + 0.6)
@@ -72,7 +72,7 @@ def sprites():
                 y1 = np.clip(y0 + 1, 0, CELL[1] - 1)
                 pixels = ((original[y0, x0] * (1 - wx) + original[y0, x1] * wx) * (1 - wy)
                           + (original[y1, x0] * (1 - wx) + original[y1, x1] * wx) * wy)
-                image = Image.fromarray(np.uint8(pixels), "RGBA")
+                image = Image.fromarray(np.uint8(pixels))
                 if motion in ("channeling", "resolve"):
                     aura = Image.new("RGBA", CELL)
                     draw = ImageDraw.Draw(aura)
