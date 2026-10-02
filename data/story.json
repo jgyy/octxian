@@ -1498,7 +1498,7 @@
       "speaker": "su_lan",
       "actor": "su_lan",
       "text": "Then I will lend the clapper as a signal, not an order. One soft stroke means the harbor crew is ready; silence means wait. The spirit may stop before it reaches exhaustion. We will ask the owners where their echoes should go, and we will pay the crew for the time we are asking them to give.",
-      "next": "ending_river_harbor",
+      "next": "harbor_site",
       "chapter": "book_iii",
       "background": "north_landing",
       "effect": "rain"
@@ -1506,10 +1506,10 @@
     "ending_river_harbor": {
       "speaker": "narrator",
       "actor": "wei_xiu",
-      "text": "In the sheltered reach, the ferry stopped circling. The Eel kept its rings closed while letters traveled upstream. Su Lan's clapper sounded only when a crew agreed to take a watch. Lin Yue wrote the unpaid costs before she wrote a promise to cover them. The first answer arrived after eight days. It asked a question. This time there was a place to ask it.",
+      "text": "At the sheltered reach, the old ferry stopped circling. Mo Ran received his sealed echo. Luo Fen chose to ask another question before naming a return day, and the last ring waited while copies were searched. The clapper sounded when a watch was ready. The harbor had not ended every obligation. It had made a place where an unanswered question no longer required a body to exhaust itself.",
       "ending": "The Harbor That Could Wait",
       "chapter": "book_iii",
-      "background": "north_landing",
+      "background": "sheltered_reach",
       "effect": "none"
     },
     "return_berth": {
@@ -1657,7 +1657,7 @@
       "speaker": "an_ru",
       "actor": "an_ru",
       "text": "Su Lan sent a shore runner for me while you spoke. I brought the landing book. Mo Ran's receipt matches its entry. There are three entrusted echoes: his, Luo Fen's, and one whose page was lost before I received the book. Luo Fen is alive, a carpenter at Willow Reach. The unidentified receipt remains sealed in its ring.",
-      "next": "river_resolution_choice",
+      "next": "river_interim",
       "chapter": "book_iii",
       "background": "north_landing",
       "effect": "rain"
@@ -1820,6 +1820,183 @@
       "chapter": "book_iii",
       "background": "sheltered_reach",
       "effect": "none"
+    },
+    "harbor_site": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The sheltered reach lay behind a willow bank, close enough to the north landing for a crew to walk home. Wei Xiu sounded it twice, once in the ordinary boat and once from the bank. The Eel waited outside while a fishing family moved a net they had set there. Lin Yue offered payment. The family accepted it without being asked to call the interruption a public service.",
+      "next": "harbor_rules",
+      "chapter": "book_iii",
+      "background": "sheltered_reach",
+      "effect": "none"
+    },
+    "harbor_rules": {
+      "speaker": "wei_xiu",
+      "actor": "wei_xiu",
+      "text": "No one ties a ring to a mooring post. The spirit keeps the echoes, and the boat rests beside it. The crew watches the river and calls for a move if the current turns. We are providing a place to wait, not acquiring a cargo. Put the fishing channel on the chart before the shelter. It was somebody's work before it became our solution.",
+      "next": "harbor_spirit",
+      "chapter": "book_iii",
+      "background": "sheltered_reach",
+      "effect": "none"
+    },
+    "harbor_spirit": {
+      "speaker": "mooring_eel",
+      "actor": "mooring_eel",
+      "text": "Here I can hold the return line without following the old circuit. The keeper allowed a stop wherever the ferry could wait safely; I mistook waiting for something only passengers could need. If the harbor becomes unsafe, I will move to the marker you name. I will not open a ring to pay for my place here.",
+      "next": "harbor_sulan",
+      "chapter": "book_iii",
+      "background": "sheltered_reach",
+      "effect": "none"
+    },
+    "harbor_sulan": {
+      "speaker": "su_lan",
+      "actor": "su_lan",
+      "text": "Nor will anyone demand that you do. The clapper belongs to me and remains on loan. I will lend it to one watch at a time, then ask whether the next crew accepts the task. A sound made without a willing watch will mean nothing. That is a small enough command for me to trust myself with.",
+      "next": "harbor_budget",
+      "chapter": "book_iii",
+      "background": "sheltered_reach",
+      "effect": "none"
+    },
+    "harbor_budget": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "An Ru drew two columns on a page. In one she put the net payment, lamp oil, mooring repair, and watch wages. In the other she put the money already offered. The gap was larger than Lin Yue's purse. Mo Ran laid his remaining travel silver on the table. It closed less than half. For the first time that morning, their proposal had a shape a refusal could touch.",
+      "next": "harbor_shortage",
+      "chapter": "book_iii",
+      "background": "sheltered_reach",
+      "effect": "none"
+    },
+    "harbor_shortage": {
+      "speaker": "mo_ran",
+      "actor": "mo_ran",
+      "text": "I can work, but I cannot promise that my hands replace a trained pilot. I can also give the money I set aside for going somewhere no one knows me. I had imagined that journey as freedom. Spending part of it here may be freedom too. Spending it all would leave me dependent on people who might prefer my gratitude to my answer.",
+      "next": "harbor_watch_choice",
+      "chapter": "book_iii",
+      "background": "sheltered_reach",
+      "effect": "none"
+    },
+    "harbor_watch_choice": {
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "We can fund a small paid watch for eight days and ask again with the replies in hand. Or we can ask the boat association to maintain the berth as part of its regular work, with the spirit's refusal written into the charter. Either requires less than promising every future hour. Which agreement should we offer first?",
+      "chapter": "book_iii",
+      "background": "sheltered_reach",
+      "effect": "none",
+      "choices": [
+        {
+          "text": "Fund eight days, with a reserve for moving to safety.",
+          "next": "harbor_eight_days",
+          "effects": {
+            "resolve": 1
+          }
+        },
+        {
+          "text": "Offer a regular berth agreement the spirit may leave.",
+          "next": "harbor_association",
+          "effects": {
+            "trust": 1
+          }
+        }
+      ]
+    },
+    "harbor_eight_days": {
+      "speaker": "an_ru",
+      "actor": "an_ru",
+      "text": "Then the reserve cannot be used to make the watches look generous. It pays for an emergency move even if no owner answers. The eighth day is a meeting date, not an eviction. If the money runs short, we ask for a smaller watch or another berth before anyone learns the limit by finding the lanterns dark.",
+      "next": "harbor_eight_cost",
+      "chapter": "book_iii",
+      "background": "sheltered_reach",
+      "effect": "none"
+    },
+    "harbor_eight_cost": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Lin Yue sold the silver clasp from her travel bundle. It bought oil and one more night, not a permanent answer. Mo Ran kept enough money to leave if he chose. Su Lan declined to praise them as selfless. Instead she wrote their names beside the amounts, so the next meeting would know whose offer could be renewed and whose could not.",
+      "next": "harbor_letters",
+      "chapter": "book_iii",
+      "background": "sheltered_reach",
+      "effect": "none"
+    },
+    "harbor_association": {
+      "speaker": "wei_xiu",
+      "actor": "wei_xiu",
+      "text": "The association can include the berth in its morning inspection if the spirit agrees. It cannot promise a keeper at every hour. We will publish those limits and name a place to call for help. I will ask the crews privately before the charter is read. I know how easily a public invitation turns the first yes into pressure on everyone behind it.",
+      "next": "harbor_association_cost",
+      "chapter": "book_iii",
+      "background": "sheltered_reach",
+      "effect": "none"
+    },
+    "harbor_association_cost": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Four crews accepted inspection turns. Two offered only money, and one asked to be left out because its hull needed repair. The charter recorded all seven answers without assigning virtue. The Eel accepted the berth after hearing its limits. When the first inspection boat arrived, the spirit moved aside without being signaled. They had given each other a habit that did not require obedience.",
+      "next": "harbor_letters",
+      "chapter": "book_iii",
+      "background": "sheltered_reach",
+      "effect": "none"
+    },
+    "harbor_letters": {
+      "speaker": "an_ru",
+      "actor": "an_ru",
+      "text": "The letters name no contents. Luo Fen receives her receipt number and an invitation to choose a return place. The upstream archive receives a request for the missing page, not a request to guess the echo's owner from a public performance. Mo Ran can decide for himself. I will record each reply under its own ring. No silence becomes consent because it is inconvenient to wait.",
+      "next": "harbor_moran",
+      "chapter": "book_iii",
+      "background": "sheltered_reach",
+      "effect": "none"
+    },
+    "harbor_moran": {
+      "speaker": "mo_ran",
+      "actor": "mo_ran",
+      "text": "I want mine returned sealed. I thought I needed time before receiving it; I needed time before letting anyone hear it. Those were different fears wearing the same coat. Return does not oblige me to make an audience. If I choose one later, I will ask the people beside me whether they want to take part in that memory too.",
+      "next": "harbor_return",
+      "chapter": "book_iii",
+      "background": "sheltered_reach",
+      "effect": "none"
+    },
+    "harbor_return": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The Eel closed Mo Ran's echo into a reed case. He carried it to the shelter and set it beside a bowl of plain tea. Su Lan did not ask whether he felt lighter. Wei Xiu showed him where the mooring rope chafed, and he wrapped it with spare cloth. He remained a useful person while carrying something he had not resolved.",
+      "next": "harbor_first_reply",
+      "chapter": "book_iii",
+      "background": "sheltered_reach",
+      "effect": "none"
+    },
+    "harbor_first_reply": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Luo Fen's reply arrived on the eighth day. She asked whether return at the high-bank landing would expose the echo to her crew. An Ru wrote back that the case could remain sealed. A second messenger brought three old copying books, none with the missing page. The unidentified ring did not become abandoned property because its history was difficult to find.",
+      "next": "harbor_answer",
+      "chapter": "book_iii",
+      "background": "sheltered_reach",
+      "effect": "none"
+    },
+    "harbor_answer": {
+      "speaker": "mooring_eel",
+      "actor": "mooring_eel",
+      "text": "Before, every unanswered question made the boat begin another circuit. Now a question can arrive here and remain a question while someone carries a reply. My closed ring has not grown lighter. My body has. Tell the carpenter that I can wait beside the high bank when she is ready, provided the pilot says the water is safe.",
+      "next": "harbor_departure",
+      "chapter": "book_iii",
+      "background": "sheltered_reach",
+      "effect": "none"
+    },
+    "harbor_departure": {
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "We will leave a record of the limits, not a story in which we finished every person's grief. Su Lan keeps the first contact until someone explicitly accepts it from her. An Ru keeps the copies. Wei Xiu keeps the right to say the berth is unsafe. You keep the right to ask for rest, Eel. That is enough work to begin with.",
+      "next": "ending_river_harbor",
+      "chapter": "book_iii",
+      "background": "sheltered_reach",
+      "effect": "none"
+    },
+    "river_interim": {
+      "speaker": "wei_xiu",
+      "actor": "wei_xiu",
+      "text": "Before we start, I have sounded the sheltered reach beside this landing. The Eel agrees to wait there between circuits; the keeper's stop clause permits that. Two crews have accepted temporary watches, paid from my route reserve. This buys eight days while we arrange the chosen repair. Nobody's plan is permission to let the spirit tire itself out meantime.",
+      "next": "river_resolution_choice",
+      "chapter": "book_iii",
+      "background": "north_landing",
+      "effect": "rain"
     }
   },
   "chapters": {
