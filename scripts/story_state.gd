@@ -57,14 +57,16 @@ func load_game(path: String = "user://jade_vow_save.json") -> bool:
 		return false
 	if not data.get("stats") is Dictionary or not data.get("history") is Array:
 		return false
+	var validated_stats := {}
 	for key in stats:
 		var value = data["stats"].get(key)
-		if not (value is float or value is int) or value < 0 or value > 100:
+		if not (value is float or value is int) or value < 0 or value > 100 or value != int(value):
 			return false
+		validated_stats[key] = int(value)
 	for entry in data["history"]:
 		if not entry is Dictionary or not entry.get("text") is String or not entry.get("speaker") is String:
 			return false
 	current = data["current"]
-	stats = data["stats"].duplicate()
+	stats = validated_stats
 	history = data["history"].duplicate(true)
 	return true
