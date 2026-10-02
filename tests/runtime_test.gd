@@ -57,4 +57,4 @@ func _run() -> void:
 	await process_frame
 	if failures.is_empty():
 		print("JADE_VOW_RUNTIME_TESTS_OK: UI, modals, accessibility, voices and 16 animated cycles")
-	quit(0 if failures.is_empty() else 1)
+	call_deferred("quit", 0 if failures.is_empty() else 1)
