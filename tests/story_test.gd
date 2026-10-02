@@ -11,7 +11,7 @@ func check(condition: bool, message: String) -> void:
 func _initialize() -> void:
 	var state = State.new()
 	check(state.current == "arrival", "Story should start at arrival")
-	check(state.story.nodes.size() == 109, "Opening and Book II scenes should load")
+	check(state.story.get("chapters", {}).has("book_ii"), "Campaign chapters should load")
 	for key in state.story.nodes:
 		var node: Dictionary = state.story.nodes[key]
 		check(state.story.characters.has(node.speaker), "Unknown speaker: " + key)
@@ -69,37 +69,54 @@ func _initialize() -> void:
 	state.current = "ending_shared"
 	check(state.advance() and state.current == "lantern_shared", "Book I ending should retain its continuation into Book II")
 
+	# Stats are monotone. Values above the greatest gate are equivalent for
+	# reachability; arithmetic overflow is checked separately above.
+	var campaign: Dictionary = State.new().story
+	var caps := {"qi": 0, "trust": 0, "insight": 0, "resolve": 0}
+	var expected_endings := {}
+	for scene_node in campaign.nodes.values():
+		if scene_node.has("ending"):
+			expected_endings[scene_node.ending] = true
+		for choice in scene_node.get("choices", []):
+			for key in choice.get("requires", {}):
+				caps[key] = maxi(caps[key], int(choice.requires[key]))
+			for effect in choice.get("effects", {}).values():
+				check(effect >= 0, "Capped traversal requires monotone stat effects")
 	var reached := {}
 	var endings := {}
 	var visited := {}
-	var queue: Array = [{"current": "arrival", "stats": {"qi": 0, "trust": 0, "insight": 0, "resolve": 0}}]
-	while not queue.is_empty():
-		var entry: Dictionary = queue.pop_front()
-		var visit_key := str(entry.current) + JSON.stringify(entry.stats)
+	var queue: Array = [{"current": campaign.start, "stats": {"qi": 0, "trust": 0, "insight": 0, "resolve": 0}}]
+	var cursor := 0
+	while cursor < queue.size():
+		var entry: Dictionary = queue[cursor]
+		cursor += 1
+		var visit_key := str(entry.current)
+		for key in State.STAT_KEYS:
+			entry.stats[key] = mini(int(entry.stats[key]), int(caps[key]))
+			visit_key += ":" + str(entry.stats[key])
 		if visited.has(visit_key):
 			continue
 		visited[visit_key] = true
-		var traveler = State.new()
+		var traveler = State.new(campaign)
 		traveler.current = entry.current
 		traveler.stats = entry.stats.duplicate()
 		reached[traveler.current] = true
 		var node: Dictionary = traveler.node()
 		if node.has("ending"):
 			endings[node.ending] = true
-			if node.has("continuation") and traveler.advance():
-				queue.append({"current": traveler.current, "stats": traveler.stats.duplicate()})
-		elif node.has("next"):
+		if node.has("next") or node.has("continuation"):
 			if traveler.advance():
 				queue.append({"current": traveler.current, "stats": traveler.stats.duplicate()})
 		else:
 			for index in range(node.get("choices", []).size()):
-				var branch = State.new()
+				var branch = State.new(campaign)
 				branch.current = entry.current
 				branch.stats = entry.stats.duplicate()
 				if branch.choose(index):
 					queue.append({"current": branch.current, "stats": branch.stats.duplicate()})
-	check(reached.size() == state.story.nodes.size(), "Every scene should be reachable")
-	check(endings.size() == 7, "All three opening and four Book II endings should be reachable")
+	check(reached.size() == campaign.nodes.size(), "Every scene should be reachable under its gates")
+	check(endings == expected_endings, "Every authored ending should be reachable")
+	print("Reachable scenes: %d; distinct capped states: %d" % [reached.size(), visited.size()])
 	DirAccess.remove_absolute("user://test_save.json")
 	DirAccess.remove_absolute("user://bad_save.json")
 	if failures.is_empty():
