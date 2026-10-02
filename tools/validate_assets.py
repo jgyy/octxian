@@ -49,9 +49,9 @@ def main():
                     decoded_frames.append(frame)
                     minimum, maximum = frame.getchannel("A").getextrema()
                     assert minimum == 0 and maximum > 0, "Each frame must be transparent and contain artwork"
-                    digest = hashlib.sha256(frame.tobytes()).hexdigest()
-                    assert digest not in hashes, "Animation frames must be unique"
-                    hashes.add(digest)
+                    frame_hash = hashlib.sha256(frame.tobytes()).hexdigest()
+                    assert frame_hash not in hashes, "Animation frames must be unique"
+                    hashes.add(frame_hash)
                     count += 1
                 label = f"{character}/{outfit_id}/{motion}"
                 metrics = motion_metrics(decoded_frames[0], decoded_frames[32])
