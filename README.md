@@ -48,6 +48,10 @@ The **World** gallery previews the delivered locations, people, and spirit beast
 
 ![World art gallery](docs/screenshots/world_gallery.png)
 
+![Wei Jin at the ferry crossing](docs/screenshots/ferry_encounter.png)
+
+![An Ru and the original ledger](docs/screenshots/archive_encounter.png)
+
 See [the production scope and word budgets](docs/EXPANSION.md) for remaining work.
 
 ## Clothing options
