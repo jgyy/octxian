@@ -33,6 +33,8 @@ var background := TextureRect.new()
 var world: Dictionary = {}
 var background_paths: Dictionary = {}
 var world_previews: Dictionary = {}
+var item_image: TextureRect
+var item_description: RichTextLabel
 
 func _ready() -> void:
 	get_tree().auto_accept_quit = false
@@ -682,6 +684,10 @@ func _smoke_build() -> void:
 
 func _world() -> void:
 	var column := _make_popup("Places, people & spirit beasts")
+	var objects := Button.new()
+	objects.text = "Inspect objects →"
+	objects.pressed.connect(_items)
+	column.get_child(0).add_child(objects)
 	popup.position = Vector2(210, 130)
 	popup.size = Vector2(1180, 680)
 	var row := HBoxContainer.new()
@@ -722,6 +728,37 @@ func _world_selected(index: int, group: String) -> void:
 	var entry: Dictionary = entries[index]
 	world_previews[group].image.texture = load("res://" + str(entry.path))
 	world_previews[group].description.text = str(entry.description)
+
+
+func _items() -> void:
+	var column := _make_popup("Objects & their keepers")
+	var selector := OptionButton.new()
+	selector.name = "ObjectSelector"
+	for entry in world.get("items", []):
+		selector.add_item(str(entry.name))
+	column.add_child(selector)
+	var row := HBoxContainer.new()
+	row.add_theme_constant_override("separation", 32)
+	column.add_child(row)
+	item_image = TextureRect.new()
+	item_image.custom_minimum_size = Vector2(470, 430)
+	item_image.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
+	item_image.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
+	row.add_child(item_image)
+	item_description = RichTextLabel.new()
+	item_description.custom_minimum_size = Vector2(440, 430)
+	item_description.add_theme_font_size_override("normal_font_size", 23)
+	row.add_child(item_description)
+	selector.item_selected.connect(_item_selected)
+	_item_selected(0)
+
+func _item_selected(index: int) -> void:
+	var entries: Array = world.get("items", [])
+	if index < 0 or index >= entries.size():
+		return
+	var entry: Dictionary = entries[index]
+	item_image.texture = load("res://" + str(entry.path))
+	item_description.text = str(entry.description)
 
 # ConfigFile permits arbitrary Variant values. Reject damaged numeric/bool fields
 # before converting them, and require finite numbers for sliders.
