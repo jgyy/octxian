@@ -540,11 +540,15 @@ func _quit_game(exit_code: int = 0) -> void:
 	queue_free()
 
 func _smoke_build() -> void:
+	await get_tree().create_timer(1.0).timeout
 	_begin()
+	await get_tree().create_timer(0.5).timeout
 	state.current = "first_choice"
 	_scene()
+	await get_tree().create_timer(0.5).timeout
 	dialogue.visible_characters = -1
 	_choose(0)
+	await get_tree().create_timer(0.5).timeout
 	var valid: bool = state.current == "trust" and audio.voice.stream != null
 	valid = valid and actor.sprite.sprite_frames.get_frame_count("cycle") == 64
 	if valid:
