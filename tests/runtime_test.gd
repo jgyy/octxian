@@ -52,6 +52,9 @@ func _run() -> void:
 	DirAccess.remove_absolute("user://settings.cfg")
 	game.queue_free()
 	await process_frame
+	game = null
+	scene = null
+	await process_frame
 	if failures.is_empty():
 		print("JADE_VOW_RUNTIME_TESTS_OK: UI, modals, accessibility, voices and 16 animated cycles")
 	quit(0 if failures.is_empty() else 1)
