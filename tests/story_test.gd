@@ -11,7 +11,7 @@ func check(condition: bool, message: String) -> void:
 func _initialize() -> void:
 	var state = State.new()
 	check(state.current == "arrival", "Story should start at arrival")
-	check(state.story.nodes.size() == 102, "Opening and Book II scenes should load")
+	check(state.story.nodes.size() == 109, "Opening and Book II scenes should load")
 	for key in state.story.nodes:
 		var node: Dictionary = state.story.nodes[key]
 		check(state.story.characters.has(node.speaker), "Unknown speaker: " + key)
