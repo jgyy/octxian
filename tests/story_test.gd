@@ -69,6 +69,24 @@ func _initialize() -> void:
 	state.current = "ending_shared"
 	check(state.advance() and state.current == "lantern_shared", "Book I ending should retain its continuation into Book II")
 
+	var continuations := {
+		"ending_crossing": "river_from_crossing",
+		"ending_bell": "river_from_bell",
+		"ending_seed": "river_from_seed",
+		"ending_ledger": "river_from_ledger"
+	}
+	for ending in continuations:
+		var continuation_state = State.new()
+		continuation_state.current = ending
+		continuation_state.stats.trust = 7
+		check(continuation_state.advance(), "Every valley settlement should continue")
+		check(continuation_state.current == continuations[ending], "Settlement must keep its own spring opening")
+		check(continuation_state.stats.trust == 7 and continuation_state.history.back().text == continuation_state.story.nodes[ending].text, "Continuations must preserve stats and prior ending prose")
+		check(continuation_state.save_game("user://test_save.json"), "Third-book checkpoint should save")
+		var continuation_restore = State.new()
+		check(continuation_restore.load_game("user://test_save.json") and continuation_restore.current == continuations[ending], "Third-book checkpoint should round trip")
+		check(continuation_restore.advance() and continuation_restore.current == "river_arrival", "Every opening must reach the same spring landing")
+
 	# Stats are monotone. Values above the greatest gate are equivalent for
 	# reachability; arithmetic overflow is checked separately above.
 	var campaign: Dictionary = State.new().story
