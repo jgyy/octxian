@@ -466,7 +466,7 @@
     "lantern_map": {
       "speaker": "narrator",
       "actor": "su_lan",
-      "text": "Su Lan spread a salt-stained map across the inn table. A ferry route stopped halfway through the lake. A marsh trail led to a shrine drawn without a roof. Beside the tower, a square archive had been crossed out and drawn again in another hand. Three roads, three explanations, and one village preparing to become a blank page.",
+      "text": "Su Lan spread a salt-stained map across the inn table, with the nineteen household names beside it. Lin Yue read Wei Xiu's name at the north landing. A ferry route stopped halfway through the lake. A marsh trail led to a roofless shrine. Beside the tower, the archive had been crossed out and drawn again. Three roads, three explanations, and one village preparing to become a blank page.",
       "chapter": "book_ii",
       "background": "bell_tower_square",
       "next": "lantern_hub"
@@ -870,7 +870,7 @@
       "background": "valley_archive",
       "choices": [
         {
-          "text": "Publish the original ledger and every condition alongside its debts.",
+          "text": "Publish the original land clauses and every condition, preserving private debts.",
           "next": "archive_publish",
           "effects": {
             "resolve": 2
@@ -895,7 +895,7 @@
     "archive_publish": {
       "speaker": "lin_yue",
       "actor": "lin_yue",
-      "text": "We will take the whole ledger. I will stay through the reading and answer the demands that follow. If anyone uses a debt to erase a household's right to speak, I will ask them to read the exception out loud. I will not promise that being heard will be painless.",
+      "text": "We will take the whole ledger so the originals can be checked. Public copies will include the land clauses and every condition beside them; personal debts need their households' permission before a reading. I will stay through the hearing. If anyone uses a debt to erase a household's right to speak, I will ask them to read its exception out loud.",
       "chapter": "book_ii",
       "background": "valley_archive",
       "next": "archive_publish_cost"
@@ -1122,7 +1122,7 @@
     "assembly_provisional": {
       "speaker": "su_lan",
       "actor": "su_lan",
-      "text": "Until the hearing is complete, I will keep the clapper down. The existing shelter holds with the boat crews tending it; a disputed household may enter without signing the new record. That buys us time, not justice. The magistrate has agreed to suspend sealing because the original dates can be checked in public.",
+      "text": "The magistrate disputes our interpretation, but the original dates can be checked. He has agreed to suspend sealing until the hearing ends. I will keep the clapper down. The crews maintain the existing shelter; disputed households may enter without signing new claims. That buys time, not justice. Each owner must have a chance to answer before we settle the register.",
       "next": "assembly_shelter",
       "chapter": "book_ii",
       "background": "bell_tower_square"
