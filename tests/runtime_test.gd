@@ -78,6 +78,10 @@ func _run() -> void:
 	game._title()
 	check(game.actor.outfit == "festival", "Title should use the selected Lin Yue clothing")
 	check(not game.is_reading, "Menu should return to title")
+	game.actor.display_height = 640.0
+	var cached_portrait: Texture2D = game.actor.sprite.texture
+	game._title()
+	check(game.actor.sprite.texture == cached_portrait and is_equal_approx(game.actor.sprite.texture.get_height() * game.actor.sprite.scale.y, 730.0), "Cached title portraits must resize when the stage changes")
 	for id in game.Wardrobe.CHARACTERS:
 		for clothing in game.wardrobe.options():
 			for motion in game.actor.LOOPS:
@@ -120,6 +124,9 @@ func _run() -> void:
 	game.state.current = "reed_voice"
 	game._scene()
 	check(game.actor.character == "reed_listener", "Spirit should use its own sprite")
+	var portrait_height: float = game.actor.sprite.texture.get_height() * game.actor.sprite.scale.y
+	check(game.actor.position.y - portrait_height / 2.0 - 12.0 > 112.0, "Scene portraits must clear the header throughout their bob")
+	check(game.actor.position.y + portrait_height / 2.0 + 12.0 < 830.0, "Scene portraits must remain behind the dialogue panel and clear the footer")
 	var speaker_label: Label = game.ui.get_node("SpeakerName")
 	var speaker_title: Label = game.ui.get_node("SpeakerTitle")
 	check(speaker_title.position.x > speaker_label.position.x + speaker_label.get_minimum_size().x, "Long speaker names and role labels must not overlap")

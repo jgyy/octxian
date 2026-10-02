@@ -164,6 +164,7 @@ func _title() -> void:
 	audio.voice.stop()
 	_clear()
 	_header()
+	actor.display_height = 730.0
 	actor.position = Vector2(1190, 518)
 	actor.show_character("lin_yue", "idle", wardrobe.selected("lin_yue"))
 	_label("BOOK I   /   THE STAR BENEATH THE MOUNTAIN", Vector2(95, 222), 14, GOLD)
@@ -198,7 +199,8 @@ func _resume() -> void:
 func _scene() -> void:
 	_clear()
 	_header()
-	actor.position = Vector2(1205, 419)
+	actor.display_height = 680.0
+	actor.position = Vector2(1205, 474)
 	var node: Dictionary = state.node()
 	var actor_id := str(node.get("actor", "lin_yue"))
 	actor.show_character(actor_id, str(node.get("animation", "idle")), wardrobe.selected(actor_id))

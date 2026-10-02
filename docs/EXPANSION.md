@@ -102,5 +102,6 @@ flowchart LR
 - Allow the dialogue panel to scroll when longer prose wraps beyond its visible height.
 - Give new speakers a default narration pace instead of failing on missing speaker timing.
 - Position role labels after the measured speaker-name width so long names remain readable.
+- Keep scene portraits below the navigation bar and above the footer throughout their bob; resizing a cached portrait updates its scale immediately.
 - Copy the animation formats actually produced by the renderer; the old animation JSON glob broke screenshot bundling.
 - Refresh bundled review media when deterministic story, art, or runtime input hashes change, even when generated voice files are unchanged.

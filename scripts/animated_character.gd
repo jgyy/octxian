@@ -16,7 +16,11 @@ var sprite := Sprite2D.new()
 var character := ""
 var motion := "idle"
 var outfit := "sect"
-var display_height := 730.0
+var display_height: float = 730.0:
+	set(value):
+		display_height = maxf(value, 1.0)
+		if sprite.texture != null:
+			sprite.scale = Vector2.ONE * (display_height / sprite.texture.get_height())
 var fade_in := true
 var reduced_motion := false
 var motion_time := 0.0
