@@ -225,8 +225,11 @@ func _scene() -> void:
 	ui.add_child(panel)
 	var speaker_id := str(node.get("speaker", "narrator"))
 	var character: Dictionary = state.story.characters[speaker_id]
-	_label(str(character.name), Vector2(104, 599), 24, Color(character.color))
-	_label(str(character.title), Vector2(280, 607), 13, JADE)
+	var speaker_label := _label(str(character.name), Vector2(104, 599), 24, Color(character.color))
+	speaker_label.name = "SpeakerName"
+	var title_x := maxf(280.0, speaker_label.position.x + speaker_label.get_minimum_size().x + 24.0)
+	var speaker_title := _label(str(character.title), Vector2(title_x, 607), 13, JADE)
+	speaker_title.name = "SpeakerTitle"
 	_line(Vector2(104, 638), 1388, Color(0.65, 0.72, 0.62, 0.2))
 	dialogue = RichTextLabel.new()
 	dialogue.position = Vector2(104, 657)
