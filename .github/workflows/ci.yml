@@ -54,7 +54,7 @@ jobs:
           ! rg 'SCRIPT ERROR:|ERROR:' build/logs/story.log
       - name: Test UI, every animation cycle and accessibility
         run: |
-          .cache/godot/Godot_v4.7.2-stable_linux.x86_64 --headless --path . --script tests/runtime_test.gd 2>&1 | tee build/logs/runtime.log
+          timeout 90s .cache/godot/Godot_v4.7.2-stable_linux.x86_64 --verbose --headless --path . --script tests/runtime_test.gd 2>&1 | tee build/logs/runtime.log
           rg 'JADE_VOW_RUNTIME_TESTS_OK' build/logs/runtime.log
           ! rg 'SCRIPT ERROR:|ERROR:' build/logs/runtime.log
       - name: Capture actual rendered game screenshots
