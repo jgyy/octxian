@@ -162,6 +162,7 @@ func _header() -> void:
 
 func _title() -> void:
 	is_reading = false
+	atmosphere.set_effect("lanterns")
 	background.texture = load("res://assets/art/azure_cloud.png")
 	audio.voice.stop()
 	_clear()
@@ -204,6 +205,7 @@ func _scene() -> void:
 	actor.display_height = 680.0
 	actor.position = Vector2(1205, 474)
 	var node: Dictionary = state.node()
+	atmosphere.set_effect(str(node.get("effect", "lanterns")))
 	var actor_id := str(node.get("actor", "lin_yue"))
 	actor.show_character(actor_id, str(node.get("animation", "idle")), wardrobe.selected(actor_id))
 	actor.set_reduced_motion(reduced_motion)
@@ -380,6 +382,7 @@ func _unhandled_key_input(event: InputEvent) -> void:
 
 func _make_popup(title: String) -> VBoxContainer:
 	_close_popup()
+	atmosphere.paused = true
 	popup = PanelContainer.new()
 	popup.position = Vector2(270, 150)
 	popup.size = Vector2(1060, 640)
@@ -408,6 +411,8 @@ func _make_popup(title: String) -> VBoxContainer:
 	return column
 
 func _close_popup() -> void:
+	atmosphere.paused = false
+	world_previews.clear()
 	wardrobe_previews.clear()
 	if popup != null:
 		ui.remove_child(popup)

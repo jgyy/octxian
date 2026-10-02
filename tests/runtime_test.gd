@@ -124,6 +124,20 @@ func _run() -> void:
 	game.state.current = "reed_voice"
 	game._scene()
 	check(game.actor.character == "reed_listener", "Spirit should use its own sprite")
+	check(game.atmosphere.effect == "reed_light", "Marsh scenes should select reed-light effects")
+	game.atmosphere.set_process(false)
+	var effect_clock: float = game.atmosphere.clock
+	game.atmosphere.paused = true
+	game.atmosphere._process(0.5)
+	check(game.atmosphere.clock == effect_clock, "Modal pause should freeze scene effects")
+	game.atmosphere.paused = false
+	game._motion_changed(true)
+	game.atmosphere._process(0.5)
+	check(game.atmosphere.clock == effect_clock, "Reduced motion should stop effects")
+	game._motion_changed(false)
+	game.atmosphere._process(0.5)
+	check(game.atmosphere.clock > effect_clock, "Enabled effects should resume")
+	game.atmosphere.set_process(true)
 	var portrait_height: float = game.actor.sprite.texture.get_height() * game.actor.sprite.scale.y
 	check(game.actor.position.y - portrait_height / 2.0 - 12.0 > 112.0, "Scene portraits must clear the header throughout their bob")
 	check(game.actor.position.y + portrait_height / 2.0 + 12.0 < 830.0, "Scene portraits must remain behind the dialogue panel and clear the footer")
