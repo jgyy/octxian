@@ -47,7 +47,7 @@ The following twenty books have a combined **planned** budget of 1,020,000 words
 | XIX | The Sky We Could Not Carry | 51,000 | Limits to collective rescue |
 | XX | A Vow Freely Left | 51,000 | Endings shaped by what each companion can refuse |
 
-Each book needs edited chapters, consequential branches, route continuity, character consistency, and reader-facing pacing before its word budget can be marked delivered.
+Each chapter must be individually written and edited, as requested. Each book also needs consequential branches, route continuity, character consistency, and reader-facing pacing before its word budget can be marked delivered. Future art must match the existing painted illustrations; scalable vector substitutes are outside the requested scope.
 
 ## Quest structure
 
@@ -101,3 +101,5 @@ flowchart LR
 - Preserve journal prose literally rather than interpreting loaded text as BBCode.
 - Allow the dialogue panel to scroll when longer prose wraps beyond its visible height.
 - Give new speakers a default narration pace instead of failing on missing speaker timing.
+- Copy the animation formats actually produced by the renderer; the old animation JSON glob broke screenshot bundling.
+- Refresh bundled review media when deterministic story, art, or runtime input hashes change, even when generated voice files are unchanged.
