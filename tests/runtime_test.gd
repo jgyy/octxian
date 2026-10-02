@@ -136,6 +136,13 @@ func _run() -> void:
 		check(preview.image.texture != null, "World gallery should load actual artwork")
 	game._close_popup()
 
+	game._items()
+	check(game.item_image.texture.get_size() == Vector2(1024, 1536), "Object inspection must retain native artwork")
+	check(game.item_description.text.contains("custody"), "Inspection must explain the object's keeper")
+	game._item_selected(-1)
+	check(game.item_image.texture != null, "Invalid object indices must preserve the preview")
+	game._close_popup()
+
 	game.state.history.append({"speaker": "narrator", "text": "[b]literal[/b]"})
 	game._journal()
 	var logs: Array[Node] = game.popup.find_children("*", "RichTextLabel", true, false)

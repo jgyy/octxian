@@ -15,8 +15,8 @@ def inspect(root):
     story = json.loads((root / "data/story.json").read_text())
     ids, paths, hashes = set(), set(), set()
     import hashlib
-    for group in ("backgrounds", "npcs", "monsters"):
-        for entry in world[group]:
+    for group in ("backgrounds", "npcs", "monsters", "items"):
+        for entry in world.get(group, []):
             assert entry["id"] not in ids, "Duplicate world ID"
             assert entry["path"] not in paths, "Duplicate artwork path"
             ids.add(entry["id"])
@@ -56,6 +56,11 @@ def inspect(root):
                     assert stat in STAT_KEYS and isinstance(value, int)
                     if field == "requires":
                         assert value >= 0
+    continuity = json.loads((root / "data/continuity.json").read_text())
+    assert set(continuity["reviewed_chapters"]) <= set(story["chapters"])
+    for fact in continuity["facts"]:
+        assert fact["statement"].strip() and fact["anchors"]
+        assert set(fact["anchors"]) <= set(story["nodes"]), f"Missing continuity anchor: {fact['id']}"
     # Structural reachability is independent of the gated state traversal in Godot.
     reached, queue = set(), deque([story["start"]])
     while queue:
@@ -76,6 +81,7 @@ def inspect(root):
         "word_target": 1000001,
         "word_target_met": words >= 1000001,
         "delivered_art": {group: len(world[group]) for group in ("backgrounds", "npcs", "monsters")},
+        "delivered_items": len(world.get("items", [])),
         "art_targets": world["requested"],
     }
     report["art_targets_met"] = all(report["delivered_art"][group] >= target for group, target in world["requested"].items())
