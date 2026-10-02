@@ -1130,7 +1130,7 @@
     "assembly_shelter": {
       "speaker": "wei_jin",
       "actor": "wei_jin",
-      "text": "The roofless shrine needs shelter as well. Its old orange grove died when salt reached the roots. I saved two seeds from the last fruit; here they are. The names will leave the Listener's care before we experiment with those seeds. Whatever you propose, Yue, nobody's right to a home should depend on whether your tree grows.",
+      "text": "The roofless shrine needs shelter as well. Its old orange grove died when salt reached the roots. I saved two seeds from the last fruit; here they are. The names will leave the Listener's care before we experiment with those seeds. Whatever you propose, Yue, nobody's right to a home should depend on whether your tree grows. The carpenter can repair the roof separately.",
       "next": "lantern_magistrate",
       "chapter": "book_ii",
       "background": "bell_tower_square"
@@ -1780,7 +1780,7 @@
       "speaker": "an_ru",
       "actor": "an_ru",
       "text": "The receiving place is Willow Reach's high-bank platform, with the north landing named for high water. Each owner must authorize their own return. Mo Ran has signed. Luo Fen has signed without consenting to a public hearing of her echo. The third ring stays sealed at the sheltered mooring while we search for its receipt. A safe platform does not supply a missing permission.",
-      "next": "stair_test",
+      "next": "stair_completion",
       "chapter": "book_iii",
       "background": "sheltered_reach",
       "effect": "none"
@@ -1860,7 +1860,7 @@
     "harbor_budget": {
       "speaker": "narrator",
       "actor": "lin_yue",
-      "text": "An Ru drew two columns on a page. In one she put the net payment, lamp oil, mooring repair, and watch wages. In the other she put the money already offered. The gap was larger than Lin Yue's purse. Mo Ran laid his remaining travel silver on the table. It closed less than half. For the first time that morning, their proposal had a shape a refusal could touch.",
+      "text": "An Ru drew two columns. In one she put the net payment, lamp oil, mooring repair, and replacement watch wages, crediting Wei Xiu's interim reserve. In the other she put the money already offered. The gap was larger than Lin Yue's purse. Mo Ran laid down his remaining travel silver. It closed less than half. Their proposal now had a shape a refusal could touch.",
       "next": "harbor_shortage",
       "chapter": "book_iii",
       "background": "sheltered_reach",
@@ -1992,11 +1992,20 @@
     "river_interim": {
       "speaker": "wei_xiu",
       "actor": "wei_xiu",
-      "text": "Before we start, I have sounded the sheltered reach beside this landing. The Eel agrees to wait there between circuits; the keeper's stop clause permits that. Two crews have accepted temporary watches, paid from my route reserve. This buys eight days while we arrange the chosen repair. Nobody's plan is permission to let the spirit tire itself out meantime.",
+      "text": "Before we start, I have sounded the sheltered reach beside this landing. The Eel agrees to wait there; the keeper's stop clause permits that. Two crews accepted temporary watches, paid from my route reserve. This buys eight days. We must review any extension before those watches expire. Nobody's repair plan is permission to let the spirit tire itself out meantime.",
       "next": "river_resolution_choice",
       "chapter": "book_iii",
       "background": "north_landing",
       "effect": "rain"
+    },
+    "stair_completion": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The second stage took four more days. Before the interim watch expired, Wei Xiu called a meeting and funded two replacement turns from the approved work budget. The Eel accepted the extension; the crews accepted the turns. Luo Fen tightened the final handrail only after a pilot had inspected the removable lower ramp. On the tenth morning, they began testing the finished platform.",
+      "next": "stair_test",
+      "chapter": "book_iii",
+      "background": "sheltered_reach",
+      "effect": "none"
     }
   },
   "chapters": {

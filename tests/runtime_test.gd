@@ -153,10 +153,19 @@ func _run() -> void:
 	game._items()
 	check(game.item_image.texture.get_size() == Vector2(1024, 1536), "Object inspection must retain native artwork")
 	check(game.item_description.text.contains("custody"), "Inspection must explain the object's keeper")
+	game._item_selected(1)
+	check(game.item_image.texture.get_size() == Vector2(1536, 1024), "Landscape object art must retain its native aspect")
 	game._item_selected(-1)
 	check(game.item_image.texture != null, "Invalid object indices must preserve the preview")
 	game._close_popup()
 
+	game.state.current = "river_xiu"
+	game._scene()
+	check(game.actor.character == "wei_xiu" and game.atmosphere.effect == "rain", "Spring landing must load the new pilot and rain")
+	game.state.current = "harbor_answer"
+	game._scene()
+	check(game.actor.character == "mooring_eel" and game.atmosphere.effect == "none", "Sheltered spirit scene should use its portrait and calm effect")
+	check(game.background.texture.get_size() == Vector2(1672, 941), "Harbor must retain the native environment")
 	game.state.history.append({"speaker": "narrator", "text": "[b]literal[/b]"})
 	game._journal()
 	var logs: Array[Node] = game.popup.find_children("*", "RichTextLabel", true, false)

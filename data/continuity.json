@@ -2,7 +2,8 @@
   "version": 1,
   "reviewed_chapters": [
     "book_i",
-    "book_ii"
+    "book_ii",
+    "book_iii"
   ],
   "facts": [
     {
@@ -68,6 +69,69 @@
         "ending_crossing",
         "ending_ledger",
         "ending_bell"
+      ]
+    },
+    {
+      "id": "spring_chronology",
+      "statement": "Book II begins in autumn. Every Book III route begins the following spring; seed's spring ending is not followed by a second winter. Su Lan's husband has now been dead eight winters.",
+      "anchors": [
+        "river_from_crossing",
+        "river_from_bell",
+        "river_from_seed",
+        "river_from_ledger"
+      ]
+    },
+    {
+      "id": "echo_mechanics",
+      "statement": "Echoes are volunteered external copies. Original minds retain their memories. Rings do not read unoffered thoughts; sealed return is distinct from permission to listen.",
+      "anchors": [
+        "river_notforgetting",
+        "river_echo_rule",
+        "river_keeper_words",
+        "harbor_moran",
+        "return_common",
+        "stair_charter"
+      ]
+    },
+    {
+      "id": "three_echoes",
+      "statement": "The ferry holds Mo Ran's echo, Luo Fen's echo, and one unidentified sealed echo. Luo Fen is alive. No route opens any echo or treats an unknown owner as abandoning property.",
+      "anchors": [
+        "river_book",
+        "return_common",
+        "stair_charter",
+        "harbor_letters",
+        "harbor_first_reply"
+      ]
+    },
+    {
+      "id": "river_stop_clause",
+      "statement": "The keeper died two summers before Book III; Willow Reach's east stair was lost in the intervening winter flood. A stop clause permits sheltered waiting. Eight-day interim watches are explicitly extended before ten-day stair construction completes.",
+      "anchors": [
+        "river_flood",
+        "river_keeper_fate",
+        "river_interim",
+        "stair_completion",
+        "harbor_spirit"
+      ]
+    },
+    {
+      "id": "spirit_agreement",
+      "statement": "The Eel accepts every changed return or holding arrangement. Owner permission is separate for each ring; pilots may refuse unsafe landings; the spirit may ask for rest.",
+      "anchors": [
+        "return_limit",
+        "stair_spirit",
+        "harbor_spirit",
+        "harbor_departure"
+      ]
+    },
+    {
+      "id": "unresolved_third_ring",
+      "statement": "The third ring's owner remains an intentional unresolved mystery in every Book III ending. A later chapter must identify the owner through permitted records, not open the echo to guess.",
+      "anchors": [
+        "ending_river_return",
+        "ending_river_stair",
+        "ending_river_harbor"
       ]
     }
   ],
