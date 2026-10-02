@@ -28,6 +28,7 @@ var auto_clock := 0.0
 var status_label: Label
 
 func _ready() -> void:
+	get_tree().auto_accept_quit = false
 	_build_theme()
 	var background := TextureRect.new()
 	background.texture = load("res://assets/art/azure_cloud.png")
@@ -522,5 +523,16 @@ func _capture() -> void:
 	await get_tree().create_timer(0.4).timeout
 	await RenderingServer.frame_post_draw
 	get_viewport().get_texture().get_image().save_png("res://build/screenshots/cast.png")
+	audio.shutdown()
+	await get_tree().create_timer(0.25).timeout
 	print("JADE_VOW_CAPTURE_OK")
+	get_tree().quit()
+
+func _notification(what: int) -> void:
+	if what == NOTIFICATION_WM_CLOSE_REQUEST:
+		_quit_game()
+
+func _quit_game() -> void:
+	audio.shutdown()
+	await get_tree().create_timer(0.25).timeout
 	get_tree().quit()

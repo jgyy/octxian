@@ -30,3 +30,13 @@ func effect(id: String = "page") -> void:
 	if ResourceLoader.exists(path):
 		effects.stream = load(path)
 		effects.play()
+
+func shutdown() -> void:
+	if music.finished.is_connected(music.play):
+		music.finished.disconnect(music.play)
+	for player in [music, effects, voice]:
+		player.stop()
+		player.stream = null
+
+func _exit_tree() -> void:
+	shutdown()
