@@ -66,7 +66,7 @@ Scene effects include rain, reed light, soft bell ripples, and qi motes. Effects
 
 ![Sealed echo case inspection](docs/screenshots/object_sealed_echo_case.png)
 
-See [the production scope and word budgets](docs/EXPANSION.md) for remaining work.
+See [the continuity review](docs/CONTINUITY.md) and [the production scope and word budgets](docs/EXPANSION.md) for established facts and remaining work.
 
 ## Clothing options
 
