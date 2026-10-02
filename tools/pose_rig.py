@@ -45,7 +45,7 @@ def build_points(sheet, spec, transform, cell):
 
 def intermediate_points(pair, amount):
     first, second = pair
-    points = first * (1 - amount) + second * amount
+    points = np.float32(first * (1 - amount) + second * amount)
     # The palm travels around the shoulder, not straight through the torso.
     direction = np.sign(second[0, 0] - second[10, 0]) or 1
     arc = np.float32([direction * 30, -6]) * (4 * amount * (1 - amount))
