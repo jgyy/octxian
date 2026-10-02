@@ -1,7 +1,7 @@
-"""Bake three wardrobes for four GPT-art characters: 3,072 animation frames.
+"""Prepare three wardrobes for four GPT-art characters and synthesize audio.
 
-Frames interpolate distinct GPT gesture poses through four 64-frame motion cycles.
-Validated unchanged atlases are reused, and --force rebakes every outfit.
+Whole-body bobbing runs in Godot. Unchanged portraits are reused;
+--force regenerates every outfit portrait.
 """
 import argparse
 import pathlib
@@ -12,10 +12,6 @@ from animation_baker import bake_sprites
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 OUT = ROOT / "assets/generated"
-CAST = ("lin_yue", "shen_qing", "elder_yun", "mo_ran")
-MOTIONS = ("idle", "channeling", "wind", "resolve")
-CELL = (192, 512)
-FRAMES = 64
 RATE = 22050
 
 

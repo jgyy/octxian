@@ -5,16 +5,14 @@
 - `data/story.json`: characters, dialogue, links, choice effects, and stat requirements.
 - `scripts/story_state.gd`: story navigation and versioned save validation.
 - `scripts/main.gd`: title, dialogue, choices, settings, journal, and viewport capture.
-- `scripts/animated_character.gd`: 64-frame atlas playback for every outfit.
+- `scripts/animated_character.gd`: intact outfit portraits with runtime body bobbing.
 - `data/wardrobe.json` and `scripts/wardrobe.gd`: catalog and persistent character selections.
-- `data/animation_rigs.json`: source-image hand, elbow, shoulder, face, and hip landmarks.
 - `scripts/audio_director.gd`: music, effects, narration buses, and orderly shutdown.
 - `tools/build_assets.py`: asset orchestration and original audio synthesis.
-- `tools/animation_baker.py` and `tools/pose_rig.py`: pose extraction and articulated cutout animation.
-- `tools/animation_motion.py`: translation-aligned opaque-body and silhouette measurements.
-- `tools/preview_animations.py`: atlas GIFs, frame comparisons, and rig guides.
+- `tools/animation_baker.py`: extract complete resting portraits without stretching.
+- `tools/preview_animations.py`: body bob GIFs and portrait contact sheets.
 - `tools/generate_voices.py`: resumable neural narration.
-- `tools/validate_assets.py`: decoded-frame motion, uniqueness, source integrity, and narration checks.
+- `tools/validate_assets.py`: portrait inventory, transparency, source integrity, and narration checks.
 
 ## Local checks
 
@@ -46,16 +44,16 @@ Choices apply effects only when their requirements are met. Failed loads preserv
 
 ## Asset accounting and regression checks
 
-There are 48 atlas PNGs, each an 8×8 grid of 384×512 cells: four adult characters × three outfits × four 64-frame loops = 3,072 frames. Their source is 24 GPT key poses in three pose sheets. Separate outfit references and a mountain environment are also GPT-generated.
+There are twelve 384×512 portrait PNGs: four adult characters × three outfits. Each is an intact resting pose from the top row of its GPT pose sheet. Godot translates the complete Sprite2D vertically in a four-second loop; the motion label selects a 6–10 pixel bob. Separate outfit references and a mountain environment are also GPT-generated.
 
-The 14 Python regression tests cover motion false positives and arm/palm rendering: identical portraits, tiny sway, the old wind/breathing deformation, pans, tint, particles, intermediate-hand opacity, stable body detail, segment transforms, curved hand paths, and minimum travel. Asset validation checks actual decoded atlas frames, all source/code hashes, opaque-body and silhouette movement, palm travel and coverage, and global uniqueness.
+The three Python regression tests cover selection of the intact resting pose, preserved aspect ratio, and missing artwork. Asset validation checks all twelve decoded portraits, transparency, source/code hashes, audio integrity, and narration coverage. It rejects leftover frame atlases.
 
-Godot runtime tests compare loaded frame textures for all 48 loops and exercise actual playback, wardrobe selection, settings persistence, reduced motion, story progress, and corrupt-config recovery. Story tests traverse every reachable scene and all three endings.
+Godot runtime tests exercise all 48 outfit/motion combinations, verifying up/down movement, a smooth loop, an unchanged portrait texture, and a still body with reduced motion. They also exercise actual playback, wardrobe selection, settings persistence, story progress, and corrupt-config recovery. Story tests traverse every reachable scene and all three endings.
 
-See [Wardrobe](WARDROBE.md) for precise thresholds and persistent settings. `build/animations/motion_report.json` records measured movement and palm coverage for each loop.
+See [Wardrobe](WARDROBE.md) for bob settings and persistent outfit choices.
 
-Asset baking resumes unchanged, verified atlases. The feature-branch bundle job publishes generated assets and review media in a separate commit, and exits without another commit when assets are unchanged and captures exist.
+Portrait preparation reuses unchanged, verified files. The feature-branch bundle job publishes generated assets and review media in a separate commit, and exits without another commit when assets are unchanged and captures exist.
 
 ## Scope
 
-This is a complete short opening. Narration uses one neural timbre with character pacing. Articulated arm gestures, head tilt, hair, and clothing movement are computed from GPT key poses; facial expressions and lip sync are not rigged. Additional chapters, voices, poses, and facial rigs can extend the existing data and asset pipeline.
+This is a complete short opening. Narration uses one neural timbre with character pacing. Animation is a gentle whole-body bob of each intact portrait. Additional chapters, voices, and outfit portraits can extend the existing data and asset pipeline.

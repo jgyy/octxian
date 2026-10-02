@@ -1,32 +1,25 @@
 # Wardrobe assets
 
-`data/wardrobe.json` is the shared catalog for asset baking, validation, and Godot's wardrobe controls. Every outfit has an ID, display name, description, outfit reference atlas, and two-pose GPT sheet. `data/animation_rigs.json` supplies hand, elbow, shoulder, face, and hip landmarks in source-image coordinates for each appearance.
+`data/wardrobe.json` is the shared catalog for portrait preparation and Godot wardrobe controls. Each outfit has an ID, display name, description, reference artwork, and a GPT pose sheet. The catalog also sets the four-second bob period and a 6–10 pixel vertical amplitude for each story motion label.
 
-The original `sect` style uses filenames such as `lin_yue_idle.png`. Other styles use `lin_yue_training_idle.png` and `lin_yue_festival_idle.png`. Every atlas is an 8×8 grid of **384×512** cells, played at **16 fps**. The PNG uses palette compression with transparency; validation and Godot decode it into RGBA.
+## Intact portraits
 
-## Gesture baking
+`tools/animation_baker.py` selects the complete resting drawing from the top row of each pose sheet. It separates rows at their transparent seam, crops transparent margins, preserves the drawing's proportions, and centers it in a transparent **384×512** image.
 
-`tools/animation_baker.py` separates the two drawn poses at their transparent row seam, removes disconnected neighboring fragments, and aligns their feet. `tools/pose_rig.py` refines the palm landmark to opaque skin and constructs the arm path.
-
-A stable portrait supplies the body. A donor plate from the alternate pose fills the area beneath its resting arm. Upper-arm, forearm, and palm textures from the raised pose move along an outward gesture arc. Their transforms use premultiplied alpha; the palm is excluded from the arm textures to avoid a duplicate hand. Neck-anchored head tilt and hair/cloth deformation add secondary motion.
-
-The manifest groups every character and motion under its outfit ID. It records catalog, source, pose-sheet, rig-data, baker-code, and output hashes. Cached atlases are reused only when all these inputs and the expected dimensions match. This invalidates the old subtle-sway atlases. Run `python tools/build_assets.py --force` to rebake all appearances.
+The twelve generated portraits use names such as `lin_yue.png`, `lin_yue_training.png`, and `lin_yue_festival.png`. The manifest records source, catalog, builder-code, and output SHA-256 hashes. Unchanged portraits are reused. Run `python tools/build_assets.py --force` to regenerate every appearance.
 
 ## Playback and persistence
 
-`scripts/animated_character.gd` derives the cell width from the loaded atlas and constructs all 64 AtlasTextures for the selected outfit and motion.
+`scripts/animated_character.gd` loads one complete portrait into a Sprite2D. It smoothly moves the whole sprite vertically with a sine wave. The `idle`, `channeling`, `wind`, and `resolve` labels select the bob amplitude. The drawing remains intact throughout the loop. Gallery previews use the same motion, scaled to their display height.
+
+Reduced motion resets the sprite to its resting position and stops bobbing. Changing an outfit resets the cycle. The character uses the reference artwork as a fallback if its generated portrait is unavailable.
 
 `scripts/wardrobe.gd` validates choices and restores defaults for invalid saved values. Selections are saved in `wardrobe/choices` in Godot's `user://settings.cfg`, independently of story saves. Each character's wardrobe persists across journeys and sessions.
 
-## Motion validation
+## Validation and previews
 
-All 48 loops must pass these checks on their decoded frames:
+Python tests check resting-pose selection, preserved proportions, and missing artwork. Asset validation verifies all twelve portrait hashes, dimensions, transparency, audio, and narration, and rejects obsolete frame atlases.
 
-- After translation alignment, at least 7% of opaque body pixels and 12% of upper-body pixels change substantially between frames 0 and 32.
-- The opaque silhouette changes by at least 2%; low-alpha qi particles do not count as body movement.
-- The palm travels at least 48 pixels, and its 5×5 center patch has at least 80% coverage at alpha 160 or greater in six intermediate frames.
-- Every one of the 3,072 decoded frames has a globally unique pixel hash.
+Godot tests exercise all 48 character/outfit/motion combinations. They check up/down movement, a smooth loop, an unchanged portrait texture, actual playback, and a still body with reduced motion enabled. They also cover wardrobe dropdowns and saved choices.
 
-Regression tests reject static portraits, the previous tiny sway/deformation, whole-body pans, tint changes, particles alone, and missing intermediate palms. Godot tests inspect loaded pose textures for every loop, exercise dropdowns and persistence, and verify frame advancement and reduced motion.
-
-`tools/preview_animations.py` writes actual atlas GIFs, sampled-frame contact sheets, and landmark guides. Timed Godot viewport captures verify character movement with background motion disabled. CI publishes these under `docs/animations` and captures all three wardrobes plus selected clothing in a story scene.
+`tools/preview_animations.py` creates bob GIFs and contact sheets from the same portraits and catalog settings. Timed Godot captures verify movement in the running game with background motion disabled. CI publishes these under `docs/animations` and captures all three wardrobes plus selected clothing in a story scene.
