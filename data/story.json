@@ -1020,7 +1020,8 @@
       "text": "The hearing restored the nineteen household records before the first public crossing. Each lantern had an owner; each owner could take it home. The ward held because enough people returned the next evening, then the next. Lin Yue stayed to mend ropes. The mountain's promise had reached the valley as work that could be shared and refused.",
       "chapter": "book_ii",
       "background": "bell_tower_square",
-      "ending": "The Open Crossing"
+      "ending": "The Open Crossing",
+      "continuation": "river_from_crossing"
     },
     "lantern_bell": {
       "speaker": "reed_listener",
@@ -1038,7 +1039,8 @@
       "chapter": "book_ii",
       "background": "bell_tower_square",
       "ending": "An Unstruck Bell",
-      "effect": "bell"
+      "effect": "bell",
+      "continuation": "river_from_bell"
     },
     "lantern_seed": {
       "speaker": "lin_yue",
@@ -1057,7 +1059,8 @@
       "text": "The hearing restored the nineteen household records. The first orange seed failed; the second survived in a pot beside Su Lan's door. In winter, villagers moved it from house to house, sharing the warmth it needed. Lin Yue returned in spring to find three leaves and a record of every night it had been tended. The shrine still needed a roof. Its future shelter was alive.",
       "chapter": "book_ii",
       "background": "bell_tower_square",
-      "ending": "A Seed of Winter"
+      "ending": "A Seed of Winter",
+      "continuation": "river_from_seed"
     },
     "lantern_ledger": {
       "speaker": "an_ru",
@@ -1073,7 +1076,8 @@
       "text": "Lin Yue left Salt Lantern Valley with a book instead of a verdict. Behind her, nineteen households read their names in their own hands. Ahead, other villages had blank paper on their gates. She could not promise each one an ending. She could promise to arrive with questions, and to leave room on the page for an answer.",
       "chapter": "book_ii",
       "background": "bell_tower_square",
-      "ending": "The Common Ledger"
+      "ending": "The Common Ledger",
+      "continuation": "river_from_ledger"
     },
     "assembly_ferry": {
       "speaker": "wei_jin",
@@ -1130,6 +1134,383 @@
       "next": "lantern_magistrate",
       "chapter": "book_ii",
       "background": "bell_tower_square"
+    },
+    "river_from_crossing": {
+      "speaker": "wei_jin",
+      "actor": "wei_jin",
+      "text": "Through winter, the crews kept a rota beside the repaired crossing. Some withdrew; others joined. Nobody lost passage for taking a lantern home. By spring, Lin Yue had learned three ways to splice a rope and one way to recognize a duty she had begun enjoying. Then Wei Xiu came from the north landing with a chart showing a ferry that had returned to the same bend twelve times.",
+      "next": "river_arrival",
+      "chapter": "book_iii",
+      "background": "north_landing",
+      "effect": "rain"
+    },
+    "river_from_bell": {
+      "speaker": "su_lan",
+      "actor": "su_lan",
+      "text": "Through winter, the bell waited for answers before the ward changed a boundary. It did not become wiser than the people listening; twice we corrected it together. The Listener's blank line remains blank by its choice. In spring, my husband would have been dead eight winters. I carried flowers to the crossing, and Wei Xiu brought news of a ferry that could not finish its journey.",
+      "next": "river_arrival",
+      "chapter": "book_iii",
+      "background": "north_landing",
+      "effect": "rain"
+    },
+    "river_from_seed": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "In the spring already promised by the three small leaves, Lin Yue returned to Su Lan's door. The pot was warm; the shrine still needed timbers. Nobody pretended that a seedling could mend a roof. While the carpenter measured beams, Wei Xiu arrived with a river chart. Its ink traced a boat circling the same bend, though no passenger had stepped aboard for years.",
+      "next": "river_arrival",
+      "chapter": "book_iii",
+      "background": "north_landing",
+      "effect": "rain"
+    },
+    "river_from_ledger": {
+      "speaker": "an_ru",
+      "actor": "an_ru",
+      "text": "Lin Yue traveled during autumn, then returned after winter with corrections from three villages. I entered those beside our own, leaving the old versions visible. The nineteen households had kept their restored records. The magistrate still disputed two boundaries, which the hearing had not settled. On the morning we reopened those questions, Wei Xiu reported another kind of unfinished crossing.",
+      "next": "river_arrival",
+      "chapter": "book_iii",
+      "background": "north_landing",
+      "effect": "rain"
+    },
+    "river_arrival": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "At the north landing, rain flattened the river into a sheet of hammered pewter. Wei Xiu stood beside the stone she had carved, rubbing chalk into its shallow letters. The record at the archive now recognized her household. The stone needed no new name. Lin Yue found comfort in work whose purpose was visible: clean a groove, mend a rope, leave the person standing where she had always stood.",
+      "next": "river_xiu",
+      "chapter": "book_iii",
+      "background": "north_landing",
+      "effect": "rain"
+    },
+    "river_xiu": {
+      "speaker": "wei_xiu",
+      "actor": "wei_xiu",
+      "text": "My father told you my name before you met me. I am grateful that he kept saying it. I would also like to introduce myself without becoming proof of what happened to us. I pilot this landing, cut lettering when work is scarce, and dislike ginger tea. The boat I need you to see belongs to none of those facts.",
+      "next": "river_chart",
+      "chapter": "book_iii",
+      "background": "north_landing",
+      "effect": "rain"
+    },
+    "river_chart": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "She unfolded a chart beneath the shelter. Blue lines marked depth; brown dots marked stones her sounding pole had found. A narrow loop crossed the map twelve times. Beside it lay twelve dates in Wei Xiu's own hand. The route began upstream at an abandoned mooring and returned there every afternoon. Ordinary boats passed outside the loop. No one was trapped aboard the old ferry.",
+      "next": "river_limits",
+      "chapter": "book_iii",
+      "background": "north_landing",
+      "effect": "rain"
+    },
+    "river_limits": {
+      "speaker": "wei_xiu",
+      "actor": "wei_xiu",
+      "text": "It is not eating travelers. I checked before asking anyone to come. The old ferry has no living passengers, no crew, and no cargo we can sell. Its ward pushes other hulls away gently. But the spring current is widening its circuit toward a fishing channel. I can move our route for a week. After that, my promises begin to spend someone else's wages.",
+      "next": "river_moran",
+      "chapter": "book_iii",
+      "background": "north_landing",
+      "effect": "rain"
+    },
+    "river_moran": {
+      "speaker": "mo_ran",
+      "actor": "mo_ran",
+      "text": "Mine may already have spent more than that. I recognized the stern when Wei Xiu sent the sketch. I crossed on that ferry eleven years ago, after Azure Cloud sentenced me. My ban was from the mountain, not this river. Whatever has changed above us, I still owe an account of what I asked the water to keep.",
+      "next": "river_notforgetting",
+      "chapter": "book_iii",
+      "background": "north_landing",
+      "effect": "rain"
+    },
+    "river_notforgetting": {
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "You remember the star. You remembered the seal well enough to find us. If the boat took your memories, how could you have carried that knowledge into Azure Cloud? Before we call this another prison, I need to know whether anything was taken from you, or whether the boat is keeping something you chose to leave.",
+      "next": "river_echo_rule",
+      "chapter": "book_iii",
+      "background": "north_landing",
+      "effect": "rain"
+    },
+    "river_echo_rule": {
+      "speaker": "mo_ran",
+      "actor": "mo_ran",
+      "text": "An echo, not an absence. The ferry keeper offered to preserve the sound of one memory outside my mind. I kept everything I knew. I thought a witness beyond the sect might matter someday. I entrusted the night I first heard the star, including the part where I walked away. Then I waited eleven years to admit why that last part frightened me.",
+      "next": "river_sulan",
+      "chapter": "book_iii",
+      "background": "north_landing",
+      "effect": "rain"
+    },
+    "river_sulan": {
+      "speaker": "su_lan",
+      "actor": "su_lan",
+      "text": "Then the boat cannot return a person to a time before their grief. Good. I have heard enough promises of that kind to distrust the price. Can it reveal an echo to anyone who asks? If so, your fear has been floating here as public cargo while you imagined it safely put aside.",
+      "next": "river_permission",
+      "chapter": "book_iii",
+      "background": "north_landing",
+      "effect": "rain"
+    },
+    "river_permission": {
+      "speaker": "mo_ran",
+      "actor": "mo_ran",
+      "text": "The keeper said an echo could be heard only with its owner's permission. I believed her. Wei Xiu's sketch shows bronze rings around a shadow beneath the ferry. That must be the spirit she served. I have brought the receipt she gave me. An Ru can check the seal; I cannot make an old confidence into present proof by remembering it fondly.",
+      "next": "river_receipt",
+      "chapter": "book_iii",
+      "background": "north_landing",
+      "effect": "rain"
+    },
+    "river_receipt": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The receipt had softened along its folds. It named Mo Ran, one entrusted echo, and the east stair of Willow Reach as the agreed place of return. Beneath the seal, a condition read: hold until the owner may receive it safely. The next line set no date and defined no other landing. Lin Yue had seen smaller omissions grow teeth.",
+      "next": "river_flood",
+      "chapter": "book_iii",
+      "background": "north_landing",
+      "effect": "rain"
+    },
+    "river_flood": {
+      "speaker": "wei_xiu",
+      "actor": "wei_xiu",
+      "text": "Willow Reach lost its east stair in last winter's flood. The families moved to high ground; the name on the chart stayed where the stair had been. I asked the old ferry to stop here. It circled past. I asked the shadow why. It rang a bronze ring against the hull. Perhaps that was an answer I did not know how to hear.",
+      "next": "river_plan",
+      "chapter": "book_iii",
+      "background": "north_landing",
+      "effect": "rain"
+    },
+    "river_plan": {
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "We will stay in your ordinary boat outside its circuit. Mo Ran can identify his own receipt; nobody will open other people's echoes. We will test whether it answers a request before we touch the ward. If the circuit moves toward the fishing channel, tell me at once. A conversation is not useful if the people depending on us cannot wait for it.",
+      "next": "river_approach_choice",
+      "chapter": "book_iii",
+      "background": "north_landing",
+      "effect": "rain"
+    },
+    "river_approach_choice": {
+      "speaker": "wei_xiu",
+      "actor": "wei_xiu",
+      "text": "My sounding pole will keep us clear of the old mooring rope. You can ask Mo Ran to call first, trace the current with me, or listen from outside the circuit until it answers. Each gives us a different kind of knowledge. Choose the one you will trust enough to question when the river disagrees.",
+      "chapter": "book_iii",
+      "background": "north_landing",
+      "effect": "rain",
+      "choices": [
+        {
+          "text": "Let Mo Ran identify himself and offer his receipt.",
+          "next": "river_call",
+          "effects": {
+            "trust": 1
+          }
+        },
+        {
+          "text": "Survey the circuit with Wei Xiu before speaking.",
+          "next": "river_survey",
+          "effects": {
+            "insight": 1
+          }
+        },
+        {
+          "text": "Listen at the boundary without crossing it.",
+          "next": "river_listen",
+          "effects": {
+            "resolve": 1
+          }
+        }
+      ]
+    },
+    "river_call": {
+      "speaker": "mo_ran",
+      "actor": "mo_ran",
+      "text": "I am the person named on this receipt. I have come to discuss where the echo may be returned. I have not come to hear anyone else's memory. If you remember the keeper who took my seal, tell me how she asked you to carry it. I owe her the courtesy of learning what she actually promised.",
+      "next": "river_call_answer",
+      "chapter": "book_iii",
+      "background": "north_landing",
+      "effect": "rain"
+    },
+    "river_call_answer": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The bronze rings beneath the ferry turned toward their boat. A shape rose between them, narrow-headed and long enough to curl twice around the stern. No voice played from the receipt. Mo Ran held it flat until rain threatened the ink; then Wei Xiu put a bowl over his hands. The spirit watched that small shelter before approaching.",
+      "next": "river_spirit",
+      "chapter": "book_iii",
+      "background": "north_landing",
+      "effect": "rain"
+    },
+    "river_survey": {
+      "speaker": "wei_xiu",
+      "actor": "wei_xiu",
+      "text": "The circuit follows the old line of the east stair, even where that line crosses deep water now. It bends away from the fishing nets. The ward is making an effort to avoid us, Yue. Something can be careful and still become dangerous. I would like to know what it is trying to protect before we decide which rope to cut.",
+      "next": "river_survey_answer",
+      "chapter": "book_iii",
+      "background": "north_landing",
+      "effect": "rain"
+    },
+    "river_survey_answer": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Wei Xiu laid three floating reeds across the current and timed their passage. The ferry slowed before every net marker, then hastened toward the vanished stair. Beneath its hull, bronze rings turned against the flow. A long slate body rose into view. Lin Yue saw the strain in its fins and lowered the sword she had not meant to draw.",
+      "next": "river_spirit",
+      "chapter": "book_iii",
+      "background": "north_landing",
+      "effect": "rain"
+    },
+    "river_listen": {
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "One ring sounds when the boat reaches the vanished stair. Another answers when it turns away. There is room between them for a word. I will say nothing into that room until I know it is waiting for us. Let the next circuit finish. If it turns toward the nets, we move first and interpret later.",
+      "next": "river_listen_answer",
+      "chapter": "book_iii",
+      "background": "north_landing",
+      "effect": "rain"
+    },
+    "river_listen_answer": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "They waited through a circuit. The first ring sounded over empty water; the second trembled without striking the hull. Between them came a breath like rain caught in a gutter. Lin Yue asked whether the keeper could hear her. A narrow head surfaced beyond the ward, and an amber eye regarded the ordinary boat without crossing its side.",
+      "next": "river_spirit",
+      "chapter": "book_iii",
+      "background": "north_landing",
+      "effect": "rain"
+    },
+    "river_spirit": {
+      "speaker": "mooring_eel",
+      "actor": "mooring_eel",
+      "text": "I hear the name on that paper. I hear the people beside it. The keeper told me to hold the echoes until their owners returned safely to the stair. The stair is water now. When I reach it, there is no place to set a passenger down. I turn away. When I turn away, the promise tells me I have not arrived.",
+      "next": "river_boundaries",
+      "chapter": "book_iii",
+      "background": "north_landing",
+      "effect": "rain"
+    },
+    "river_boundaries": {
+      "speaker": "su_lan",
+      "actor": "su_lan",
+      "text": "You have no living passengers aboard. The pilot has checked. Does the promise require a body to step onto the stair, or an echo to reach its owner? I am not asking you to guess. Tell us the words you were given, and tell us where your own understanding begins.",
+      "next": "river_keeper_words",
+      "chapter": "book_iii",
+      "background": "north_landing",
+      "effect": "rain"
+    },
+    "river_keeper_words": {
+      "speaker": "mooring_eel",
+      "actor": "mooring_eel",
+      "text": "One echo, one owner, one safe return. The keeper used the stair because everyone knew it. The rings keep the permission given for each echo; they do not let me search a mind or choose a new owner. Her last instructions were written when the stair still existed. I have been obeying a place after the people left it.",
+      "next": "river_keeper_fate",
+      "chapter": "book_iii",
+      "background": "north_landing",
+      "effect": "rain"
+    },
+    "river_keeper_fate": {
+      "speaker": "wei_xiu",
+      "actor": "wei_xiu",
+      "text": "The keeper died two summers ago. Her niece brought me the landing keys and the old ferry remained tied to its own ward. That is why nobody changed the agreement after the flood. I should have checked what work was still being done under those keys. You are not the only one here who inherited a duty without reading all of it.",
+      "next": "river_notfree",
+      "chapter": "book_iii",
+      "background": "north_landing",
+      "effect": "rain"
+    },
+    "river_notfree": {
+      "speaker": "mooring_eel",
+      "actor": "mooring_eel",
+      "text": "If I break the return line alone, the rings will spill their echoes into the current. They are not minds, but they are confidences. Fish will not care whose sorrow they hear. People will. I can hold the boat here while you speak, if your pilot marks a safe margin. I cannot hold it against spring water forever.",
+      "next": "river_margin",
+      "chapter": "book_iii",
+      "background": "north_landing",
+      "effect": "rain"
+    },
+    "river_margin": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Wei Xiu placed a reed marker where the ordinary boat could turn without striking a net. The Eel shortened its circuit to that marker. Its fins whitened under the new pressure. Su Lan untied the clapper from her wrist but did not offer it. Mo Ran lowered his receipt. For a moment, the only sound was rain, which asked nothing of them.",
+      "next": "river_first_offer",
+      "chapter": "book_iii",
+      "background": "north_landing",
+      "effect": "rain"
+    },
+    "river_first_offer": {
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "We can change the return place with your agreement and Mo Ran's. We can repair a receiving platform above the old stair if it remains safe. We can also pause the ferry in a sheltered reach while the owners decide what should happen to their echoes. None of those permits us to listen. Which can you bear to discuss first?",
+      "next": "river_resolution_choice",
+      "chapter": "book_iii",
+      "background": "north_landing",
+      "effect": "rain"
+    },
+    "river_resolution_choice": {
+      "speaker": "mo_ran",
+      "actor": "mo_ran",
+      "text": "I will make one decision now: the echo remains sealed while we work. What I entrusted is an account of my hesitation, not a key that should be turned in every lock. Help me ask for a safe return, or help me make a place where it can keep waiting without consuming its keeper.",
+      "chapter": "book_iii",
+      "background": "north_landing",
+      "effect": "rain",
+      "choices": [
+        {
+          "text": "Negotiate a new return place with the owner and spirit.",
+          "next": "river_return_terms",
+          "effects": {
+            "trust": 1
+          }
+        },
+        {
+          "text": "Survey a replacement stair with the pilot.",
+          "next": "river_stair_terms",
+          "effects": {
+            "insight": 1
+          }
+        },
+        {
+          "text": "Arrange a temporary harbor while every owner is contacted.",
+          "next": "river_harbor_terms",
+          "effects": {
+            "resolve": 1
+          }
+        }
+      ]
+    },
+    "river_return_terms": {
+      "speaker": "mo_ran",
+      "actor": "mo_ran",
+      "text": "I authorize return to the north landing, provided the pilot finds a berth safe for both boats and the Eel accepts the revised line. That permission is mine alone. An Ru may witness the document; she may not hear the echo through it. I would rather carry my own unfinished account than leave the spirit carrying an instruction nobody can fulfill.",
+      "next": "ending_river_return",
+      "chapter": "book_iii",
+      "background": "north_landing",
+      "effect": "rain"
+    },
+    "ending_river_return": {
+      "speaker": "narrator",
+      "actor": "wei_xiu",
+      "text": "They wrote a return line with a place that still existed. Mo Ran's ring released its echo into a sealed reed case at the landing. He did not open it that evening. The Eel held the other rings in a quiet reach, and letters went upriver to their owners. One crossing had ended. The remaining promises had acquired people responsible for asking about them.",
+      "ending": "The Owner's Shore",
+      "chapter": "book_iii",
+      "background": "north_landing",
+      "effect": "none"
+    },
+    "river_stair_terms": {
+      "speaker": "wei_xiu",
+      "actor": "wei_xiu",
+      "text": "We will sound the bank before anyone brings timber. A rebuilt stair that disappears in the next flood merely gives the promise another season to fail. If the old name can identify a safe landing above the water, the owners can approve it. If it cannot, I will say so even after we have carried all the beams here.",
+      "next": "ending_river_stair",
+      "chapter": "book_iii",
+      "background": "north_landing",
+      "effect": "rain"
+    },
+    "ending_river_stair": {
+      "speaker": "narrator",
+      "actor": "wei_xiu",
+      "text": "The new receiving platform stood above the flood marks. Its charter named a second berth for high water and required another survey each spring. Mo Ran permitted his sealed echo to return there. Letters invited the other owners to inspect it. Wei Xiu carved the date beside the old landing's name, leaving the vanished stair visible on the chart.",
+      "ending": "A Stair Above the Flood",
+      "chapter": "book_iii",
+      "background": "north_landing",
+      "effect": "none"
+    },
+    "river_harbor_terms": {
+      "speaker": "su_lan",
+      "actor": "su_lan",
+      "text": "Then I will lend the clapper as a signal, not an order. One soft stroke means the harbor crew is ready; silence means wait. The spirit may stop before it reaches exhaustion. We will ask the owners where their echoes should go, and we will pay the crew for the time we are asking them to give.",
+      "next": "ending_river_harbor",
+      "chapter": "book_iii",
+      "background": "north_landing",
+      "effect": "rain"
+    },
+    "ending_river_harbor": {
+      "speaker": "narrator",
+      "actor": "wei_xiu",
+      "text": "In the sheltered reach, the ferry stopped circling. The Eel kept its rings closed while letters traveled upstream. Su Lan's clapper sounded only when a crew agreed to take a watch. Lin Yue wrote the unpaid costs before she wrote a promise to cover them. The first answer arrived after eight days. It asked a question. This time there was a place to ask it.",
+      "ending": "The Harbor That Could Wait",
+      "chapter": "book_iii",
+      "background": "north_landing",
+      "effect": "none"
     }
   },
   "chapters": {
@@ -1140,6 +1521,10 @@
     "book_ii": {
       "label": "BOOK II",
       "title": "The valley that kept its name"
+    },
+    "book_iii": {
+      "label": "BOOK III",
+      "title": "The river without a shore"
     }
   }
 }
