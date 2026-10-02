@@ -1,9 +1,11 @@
 {
   "version": 3,
-  "generator": "keyposes-flow-v1",
-  "baker_sha256": "04ab346ef9f440f915700da96b76fe947a398aacd7f78ee87d485b9dc1b3b58c",
+  "generator": "keyposes-rig-v2",
+  "baker_sha256": "a2a3c43674588ca7e69766f7a6cbd692e0ee19fb579814f1833834b968cb51a1",
+  "rig_sha256": "b7f52d5afe0bf814d727deeea4ad1c34fa1fe363e2ee9b14ce35e18ce5c12b14",
+  "rig_code_sha256": "b528cd3139637aa89ca62c038cfaebf988699f853467bcb8d1cffd5b770e627e",
   "source": "GPT Images",
-  "derivation": "distinct gesture key poses, bidirectional optical-flow tweening, cloth and hair motion",
+  "derivation": "distinct gesture key poses, landmark-guided articulated pose tweening, cloth and hair motion",
   "frame_count": 3072,
   "fps": 16,
   "cell": [
@@ -23,168 +25,184 @@
           "idle": {
             "path": "assets/generated/sprites/lin_yue_idle.png",
             "frames": 64,
-            "sha256": "5e3d882b79b975b4030bc20cc8fdca88fa087528b3224beee5cff559bd07f636",
+            "sha256": "15da0d229ea15a23e22c47a004c96b253520e027b5e65b0008b63420ab5a9271",
             "visible_motion": {
-              "changed_fraction": 0.7987429158267088,
-              "upper_changed_fraction": 0.816019656019656,
-              "silhouette_change_fraction": 0.3964189266288844
-            }
+              "changed_fraction": 0.7985521171244019,
+              "upper_changed_fraction": 0.8157200229489386,
+              "silhouette_change_fraction": 0.3961605418620801
+            },
+            "moving_hand_opaque_coverage": 1.0
           },
           "channeling": {
             "path": "assets/generated/sprites/lin_yue_channeling.png",
             "frames": 64,
-            "sha256": "756e0921b6fbcfa057480c114396256a6fb780de2d3c6f65305ee355eae421f3",
+            "sha256": "3e036f09273134a7c9cdf85f40557fc6bb61a170fd8a99341e9739030ca02494",
             "visible_motion": {
-              "changed_fraction": 0.7959862723288557,
-              "upper_changed_fraction": 0.815983606557377,
-              "silhouette_change_fraction": 0.39512686687771537
-            }
+              "changed_fraction": 0.7958888603525193,
+              "upper_changed_fraction": 0.8157860190351165,
+              "silhouette_change_fraction": 0.3947816492119206
+            },
+            "moving_hand_opaque_coverage": 1.0
           },
           "wind": {
             "path": "assets/generated/sprites/lin_yue_wind.png",
             "frames": 64,
-            "sha256": "552d5937cf8afb691889b2ab1a9cede4b2fadd1fb0c5d950ba7aea1f3affacd8",
+            "sha256": "33519bc9c90ca47d2bfb1dd8ee93c0126cd39fd91a11559d4b930371a1aa776b",
             "visible_motion": {
-              "changed_fraction": 0.772050028229395,
-              "upper_changed_fraction": 0.7902521622204884,
-              "silhouette_change_fraction": 0.38598673696902425
-            }
+              "changed_fraction": 0.7672772371684793,
+              "upper_changed_fraction": 0.7869427753223751,
+              "silhouette_change_fraction": 0.38128219805380653
+            },
+            "moving_hand_opaque_coverage": 1.0
           },
           "resolve": {
             "path": "assets/generated/sprites/lin_yue_resolve.png",
             "frames": 64,
-            "sha256": "97e422cbc40a10c6a45626d1bc45f7cc56db6346538b56c4234a2510503f3076",
+            "sha256": "c2df9695279e8a6cb7a14716e2a84207e12af310a906076f8edf5aa11ce4adf0",
             "visible_motion": {
-              "changed_fraction": 0.7975291499438876,
-              "upper_changed_fraction": 0.8158015542512378,
-              "silhouette_change_fraction": 0.39545964658665095
-            }
+              "changed_fraction": 0.797308998867648,
+              "upper_changed_fraction": 0.8154219793564056,
+              "silhouette_change_fraction": 0.39514325679649065
+            },
+            "moving_hand_opaque_coverage": 1.0
           }
         },
         "shen_qing": {
           "idle": {
             "path": "assets/generated/sprites/shen_qing_idle.png",
             "frames": 64,
-            "sha256": "70e1f1dd809f9bca5066b3d014da075bc956e40b4cbb7d39a2909fed5a247dea",
+            "sha256": "96deb0b12f91f6926fcaebb288301df282edc945a6deb40216e7170beb2899e1",
             "visible_motion": {
-              "changed_fraction": 0.744668177024335,
-              "upper_changed_fraction": 0.7708322822595564,
-              "silhouette_change_fraction": 0.3903265497441506
-            }
+              "changed_fraction": 0.7447184818933339,
+              "upper_changed_fraction": 0.7707965048739835,
+              "silhouette_change_fraction": 0.3899333580879048
+            },
+            "moving_hand_opaque_coverage": 1.0
           },
           "channeling": {
             "path": "assets/generated/sprites/shen_qing_channeling.png",
             "frames": 64,
-            "sha256": "3f8518d68d0e491aef8d83db118f408a38e6859828a0d4fde2ce3a92e69c0842",
+            "sha256": "5c5152d0605d836da4cb5414abbecd4ad9ab520af512d6902af0d4d9d29b40d2",
             "visible_motion": {
-              "changed_fraction": 0.7415201250488472,
-              "upper_changed_fraction": 0.7689254419160065,
-              "silhouette_change_fraction": 0.3879640484564283
-            }
+              "changed_fraction": 0.7414853566713929,
+              "upper_changed_fraction": 0.7686904080051211,
+              "silhouette_change_fraction": 0.3873954921038478
+            },
+            "moving_hand_opaque_coverage": 1.0
           },
           "wind": {
             "path": "assets/generated/sprites/shen_qing_wind.png",
             "frames": 64,
-            "sha256": "80a40952aa73ab9c4691d41d38a82f783f1fffbc2fe3a863d1a8ea2f27d40acb",
+            "sha256": "abdc778a92b8074b82c974c6297046608eaacf90753cb3dace7a6ffabd8dffa9",
             "visible_motion": {
-              "changed_fraction": 0.7152182461659458,
-              "upper_changed_fraction": 0.7364509972809107,
-              "silhouette_change_fraction": 0.3785391270153362
-            }
+              "changed_fraction": 0.7147851019746856,
+              "upper_changed_fraction": 0.7335464555741614,
+              "silhouette_change_fraction": 0.3715079684600202
+            },
+            "moving_hand_opaque_coverage": 1.0
           },
           "resolve": {
             "path": "assets/generated/sprites/shen_qing_resolve.png",
             "frames": 64,
-            "sha256": "6d573c7fcea55afc29916a811fb3a5cceb1653db3f151882be4e54621622615c",
+            "sha256": "177c55287751e693e8215c5a9f8b95ab9bcffb0fdb67e0f9e3279a5b6c168464",
             "visible_motion": {
-              "changed_fraction": 0.7430070442488251,
-              "upper_changed_fraction": 0.7697769103940241,
-              "silhouette_change_fraction": 0.38902621320332575
-            }
+              "changed_fraction": 0.7429334063376908,
+              "upper_changed_fraction": 0.7694484687173613,
+              "silhouette_change_fraction": 0.38857221076097265
+            },
+            "moving_hand_opaque_coverage": 1.0
           }
         },
         "elder_yun": {
           "idle": {
             "path": "assets/generated/sprites/elder_yun_idle.png",
             "frames": 64,
-            "sha256": "e8ed92d2eea28823163d34e4a66dfae850ee0bba14730e89c2fc17bbc42c5c48",
+            "sha256": "221d82a46c1de6a786fdb354c7ab0d64d75b9dd6eeefb96860c90bc1b24e1995",
             "visible_motion": {
-              "changed_fraction": 0.7471966398212015,
-              "upper_changed_fraction": 0.7793754754439023,
-              "silhouette_change_fraction": 0.3135909984200994
-            }
+              "changed_fraction": 0.7478470282246412,
+              "upper_changed_fraction": 0.7805502476671057,
+              "silhouette_change_fraction": 0.31367883633561316
+            },
+            "moving_hand_opaque_coverage": 1.0
           },
           "channeling": {
             "path": "assets/generated/sprites/elder_yun_channeling.png",
             "frames": 64,
-            "sha256": "5fb118856652919a02315ddddc911ba611dfcc5f2940fffc35622b19124f388d",
+            "sha256": "b6578a0499b14ea04365184a8d87d21449ec4622ab31e5fbe86a40faada1b186",
             "visible_motion": {
-              "changed_fraction": 0.7488697596853642,
-              "upper_changed_fraction": 0.7818303496737494,
-              "silhouette_change_fraction": 0.313122355141268
-            }
+              "changed_fraction": 0.749633756120128,
+              "upper_changed_fraction": 0.7832001486712507,
+              "silhouette_change_fraction": 0.3132638112494699
+            },
+            "moving_hand_opaque_coverage": 1.0
           },
           "wind": {
             "path": "assets/generated/sprites/elder_yun_wind.png",
             "frames": 64,
-            "sha256": "e4d03d4c90619d97771cd4fd6d6a65cf72edff794999eca96ba0d1bf207b21db",
+            "sha256": "bd2d4afa2acad2a1b49cda28da132f2ade5337d78c487a059cddebf77e982696",
             "visible_motion": {
-              "changed_fraction": 0.727511382350092,
-              "upper_changed_fraction": 0.761798553060689,
-              "silhouette_change_fraction": 0.3083890341954858
-            }
+              "changed_fraction": 0.7314657502509846,
+              "upper_changed_fraction": 0.7669384784758635,
+              "silhouette_change_fraction": 0.3044153988724998
+            },
+            "moving_hand_opaque_coverage": 1.0
           },
           "resolve": {
             "path": "assets/generated/sprites/elder_yun_resolve.png",
             "frames": 64,
-            "sha256": "86c5f5f5892d818ade47a990d05eb83c3579fbd9711dcbb5cb7fc8b0db75c395",
+            "sha256": "023a7f749810305f9e0030232c8dcc7e7cbb7e5a6f815a6158f8e7873653b4bb",
             "visible_motion": {
-              "changed_fraction": 0.7485493975903614,
-              "upper_changed_fraction": 0.781366597984073,
-              "silhouette_change_fraction": 0.31326265060240965
-            }
+              "changed_fraction": 0.7492748176202454,
+              "upper_changed_fraction": 0.7828273456057007,
+              "silhouette_change_fraction": 0.313413705706053
+            },
+            "moving_hand_opaque_coverage": 1.0
           }
         },
         "mo_ran": {
           "idle": {
             "path": "assets/generated/sprites/mo_ran_idle.png",
             "frames": 64,
-            "sha256": "c5c41298daba91c7feac204aca4f02ba8819ad837f89a88fa5c803524a2df25b",
+            "sha256": "334a626b8ec7f10f7b41a051094d4c3f7525bb60af0cf39bb73e7ea80b59a7a7",
             "visible_motion": {
-              "changed_fraction": 0.6268014167073767,
-              "upper_changed_fraction": 0.6441834028040925,
-              "silhouette_change_fraction": 0.3343510828855235
-            }
+              "changed_fraction": 0.6269565660165997,
+              "upper_changed_fraction": 0.6441345424328914,
+              "silhouette_change_fraction": 0.3340190437394979
+            },
+            "moving_hand_opaque_coverage": 1.0
           },
           "channeling": {
             "path": "assets/generated/sprites/mo_ran_channeling.png",
             "frames": 64,
-            "sha256": "d03189a9d4d76cf199bfffe5a70952a80514798a9073c0fa62ebdc28c648fa95",
+            "sha256": "869ca1c4f10d42bafc340c656f6727826f228e38308c25756ff4aa5fd1f23fdc",
             "visible_motion": {
-              "changed_fraction": 0.6264290654623866,
-              "upper_changed_fraction": 0.643554000685265,
-              "silhouette_change_fraction": 0.3348691972822328
-            }
+              "changed_fraction": 0.6266088302378625,
+              "upper_changed_fraction": 0.6436715150420093,
+              "silhouette_change_fraction": 0.3342293906810036
+            },
+            "moving_hand_opaque_coverage": 1.0
           },
           "wind": {
             "path": "assets/generated/sprites/mo_ran_wind.png",
             "frames": 64,
-            "sha256": "a3a246be1ea3e622599bfcc4ac4fad1586836c24a9b957639a050f485d3d31a1",
+            "sha256": "15456ad286c38eaeff5066d25be04432179adf144cfa4b9b5411dd233f7718eb",
             "visible_motion": {
-              "changed_fraction": 0.5842011397646673,
-              "upper_changed_fraction": 0.5964425083945911,
-              "silhouette_change_fraction": 0.32540691238571606
-            }
+              "changed_fraction": 0.5860868140197063,
+              "upper_changed_fraction": 0.5971949356035801,
+              "silhouette_change_fraction": 0.3193047503943298
+            },
+            "moving_hand_opaque_coverage": 1.0
           },
           "resolve": {
             "path": "assets/generated/sprites/mo_ran_resolve.png",
             "frames": 64,
-            "sha256": "52a04518cac685b560b770435bd203960cd8df37d164aec644e4e998ef30a94e",
+            "sha256": "48433f9999f490c94a69030519f1745d612f171b88b6ff3eb3634d6313b4f382",
             "visible_motion": {
-              "changed_fraction": 0.6267514627321292,
-              "upper_changed_fraction": 0.6441646978195393,
-              "silhouette_change_fraction": 0.3341338081912999
-            }
+              "changed_fraction": 0.6269085427340416,
+              "upper_changed_fraction": 0.6442031473016676,
+              "silhouette_change_fraction": 0.3335506279474826
+            },
+            "moving_hand_opaque_coverage": 1.0
           }
         }
       }
@@ -199,168 +217,184 @@
           "idle": {
             "path": "assets/generated/sprites/lin_yue_training_idle.png",
             "frames": 64,
-            "sha256": "21e836a6a36428d875c1e5e0ecc56930fb5fc0b20bb4c247cdbe0cc1636e2d4e",
+            "sha256": "1b5dacb6df3f18585e1ab4899b172c116fe5efa880f42d310d90b3ed6640023f",
             "visible_motion": {
-              "changed_fraction": 0.7055985213288584,
-              "upper_changed_fraction": 0.7047577952046827,
-              "silhouette_change_fraction": 0.27906999367673524
-            }
+              "changed_fraction": 0.7059756536631409,
+              "upper_changed_fraction": 0.7051845177760259,
+              "silhouette_change_fraction": 0.2788735683633851
+            },
+            "moving_hand_opaque_coverage": 1.0
           },
           "channeling": {
             "path": "assets/generated/sprites/lin_yue_training_channeling.png",
             "frames": 64,
-            "sha256": "b4f42bd9c8e0df8b338267d6a3e0356321cb69c3bc95ce43c7e3e4d37e6b9b4e",
+            "sha256": "488f14ac183f4bfa589e9f2cb59ee5dc7706f4ab57493ffd4a813bf36639a667",
             "visible_motion": {
-              "changed_fraction": 0.700767586474932,
-              "upper_changed_fraction": 0.6970242448107105,
-              "silhouette_change_fraction": 0.28060629615235133
-            }
+              "changed_fraction": 0.7012248468941382,
+              "upper_changed_fraction": 0.697546967962313,
+              "silhouette_change_fraction": 0.28025663458734323
+            },
+            "moving_hand_opaque_coverage": 1.0
           },
           "wind": {
             "path": "assets/generated/sprites/lin_yue_training_wind.png",
             "frames": 64,
-            "sha256": "932d961817c6dd9049cd8bdf10890be429510a65f6d703248f5ebdc089b129f9",
+            "sha256": "1bd53d57a2293b8b577feb123816a76a61e0aecdf26cfc396d153a2038657e45",
             "visible_motion": {
-              "changed_fraction": 0.6670202723087854,
-              "upper_changed_fraction": 0.6631584903525152,
-              "silhouette_change_fraction": 0.2803281719885938
-            }
+              "changed_fraction": 0.6778679139092126,
+              "upper_changed_fraction": 0.6740616584116462,
+              "silhouette_change_fraction": 0.27431249636113103
+            },
+            "moving_hand_opaque_coverage": 1.0
           },
           "resolve": {
             "path": "assets/generated/sprites/lin_yue_training_resolve.png",
             "frames": 64,
-            "sha256": "2568fcf6d13b90e46749e4dc9691057a35d9c1ccb1bb993159f14809a45116ab",
+            "sha256": "367a14f363f72b5a45770f35e070436d9fac16c0eeab992c7626dd080b05e48e",
             "visible_motion": {
-              "changed_fraction": 0.7022604637596617,
-              "upper_changed_fraction": 0.6995313085864266,
-              "silhouette_change_fraction": 0.2799669437557727
-            }
+              "changed_fraction": 0.7026824618736384,
+              "upper_changed_fraction": 0.6999493442899758,
+              "silhouette_change_fraction": 0.2796938219732337
+            },
+            "moving_hand_opaque_coverage": 1.0
           }
         },
         "shen_qing": {
           "idle": {
             "path": "assets/generated/sprites/shen_qing_training_idle.png",
             "frames": 64,
-            "sha256": "8ae50bfaf6ce758f3bd1e3b014e6bc4f66fc3d45ba01b36220228434a82bae3b",
+            "sha256": "3bf538d8613e1a45bbd7cf110500a0cf5b706d8ec19e37dc9871b66e0268acea",
             "visible_motion": {
-              "changed_fraction": 0.7759480805274004,
-              "upper_changed_fraction": 0.8134064379200566,
-              "silhouette_change_fraction": 0.3499156122077898
-            }
+              "changed_fraction": 0.7759562841530054,
+              "upper_changed_fraction": 0.8133753557703131,
+              "silhouette_change_fraction": 0.3498853018519555
+            },
+            "moving_hand_opaque_coverage": 1.0
           },
           "channeling": {
             "path": "assets/generated/sprites/shen_qing_training_channeling.png",
             "frames": 64,
-            "sha256": "711c23aac2e219a0e510eb3b1c9e0e7661441f5e5850207395c980d068333766",
+            "sha256": "c1aff30a3072af86606d9365cbc7e9ba2599988b624b30fae8a23fdfa580be61",
             "visible_motion": {
-              "changed_fraction": 0.7775268315445637,
-              "upper_changed_fraction": 0.8155397581060216,
-              "silhouette_change_fraction": 0.3486887540830611
-            }
+              "changed_fraction": 0.777360885553751,
+              "upper_changed_fraction": 0.8151782267404453,
+              "silhouette_change_fraction": 0.348640122454313
+            },
+            "moving_hand_opaque_coverage": 1.0
           },
           "wind": {
             "path": "assets/generated/sprites/shen_qing_training_wind.png",
             "frames": 64,
-            "sha256": "35efb31b45eb49e3d45ac1d06a2897e400a42e6b38e54ea1aaec087ebe990b97",
+            "sha256": "f25a057ae42d7d782e39f9dc1af153ca4e58714f87c7473b953baf194a28d4ed",
             "visible_motion": {
-              "changed_fraction": 0.7590337636917981,
-              "upper_changed_fraction": 0.7996662724577576,
-              "silhouette_change_fraction": 0.33850265366808446
-            }
+              "changed_fraction": 0.7552658912479998,
+              "upper_changed_fraction": 0.7933029311761768,
+              "silhouette_change_fraction": 0.33775627649321116
+            },
+            "moving_hand_opaque_coverage": 1.0
           },
           "resolve": {
             "path": "assets/generated/sprites/shen_qing_training_resolve.png",
             "frames": 64,
-            "sha256": "2b416069ffe0db906f9a08e346c04fa7b6ac8905cbf44c92e957377a127a39f6",
+            "sha256": "fdf2c3c6dc689f2ba08507eff0372ef620ea65e4ca5eafe3d7f79980530ad366",
             "visible_motion": {
-              "changed_fraction": 0.7760914179104478,
-              "upper_changed_fraction": 0.8137388871919361,
-              "silhouette_change_fraction": 0.3494589552238806
-            }
+              "changed_fraction": 0.7759378294414538,
+              "upper_changed_fraction": 0.8134004373552869,
+              "silhouette_change_fraction": 0.3493921950946459
+            },
+            "moving_hand_opaque_coverage": 1.0
           }
         },
         "elder_yun": {
           "idle": {
             "path": "assets/generated/sprites/elder_yun_training_idle.png",
             "frames": 64,
-            "sha256": "30d1f04b0cf5dadca00111904b0dfe1e1d583fd45f30290c56252189c912e58e",
+            "sha256": "630b3b36fdf2e507df670bcdc602a5713435815a75926dcc4d416586fceb5109",
             "visible_motion": {
-              "changed_fraction": 0.7450905222400062,
-              "upper_changed_fraction": 0.7582896877178557,
-              "silhouette_change_fraction": 0.3391732717392346
-            }
+              "changed_fraction": 0.7459144453709827,
+              "upper_changed_fraction": 0.7596674711718959,
+              "silhouette_change_fraction": 0.33912260018594664
+            },
+            "moving_hand_opaque_coverage": 1.0
           },
           "channeling": {
             "path": "assets/generated/sprites/elder_yun_training_channeling.png",
             "frames": 64,
-            "sha256": "ad9411c40dcef2790cdbb56ffa2d6c76d8f1609a299862c47f0f6b4364df2b2e",
+            "sha256": "e145afb937eb4568d5b1d5e49a8f478c6f45eca372cd1cd06d871b5d249af2db",
             "visible_motion": {
-              "changed_fraction": 0.7423445389444583,
-              "upper_changed_fraction": 0.7541242006842322,
-              "silhouette_change_fraction": 0.3364275155029086
-            }
+              "changed_fraction": 0.7429177586422064,
+              "upper_changed_fraction": 0.7550157638291775,
+              "silhouette_change_fraction": 0.3363956647371099
+            },
+            "moving_hand_opaque_coverage": 1.0
           },
           "wind": {
             "path": "assets/generated/sprites/elder_yun_training_wind.png",
             "frames": 64,
-            "sha256": "d25dc82ea33b86136902f4cf9a4e680d884478a233e34272e310c914efe4f28b",
+            "sha256": "d184663debea2e7437e54421c32a728abaeaf6273cc507c7cb2560823b4ecfd7",
             "visible_motion": {
-              "changed_fraction": 0.7139348161668333,
-              "upper_changed_fraction": 0.7227095693954064,
-              "silhouette_change_fraction": 0.32251143192784537
-            }
+              "changed_fraction": 0.7082002748262982,
+              "upper_changed_fraction": 0.7098542464559926,
+              "silhouette_change_fraction": 0.3216048307495791
+            },
+            "moving_hand_opaque_coverage": 1.0
           },
           "resolve": {
             "path": "assets/generated/sprites/elder_yun_training_resolve.png",
             "frames": 64,
-            "sha256": "dc50b7ad0211432fdf65f928339b74af780ea2224af77134bf9e53e7f8a8e690",
+            "sha256": "3682cdfc050877b380fa1cfbe671bd2ced69d2d4d60b6c3abc623451047af05c",
             "visible_motion": {
-              "changed_fraction": 0.7421680039927823,
-              "upper_changed_fraction": 0.7536478381523588,
-              "silhouette_change_fraction": 0.33710216147732947
-            }
+              "changed_fraction": 0.7428349298370223,
+              "upper_changed_fraction": 0.7547669776019194,
+              "silhouette_change_fraction": 0.33708943620064113
+            },
+            "moving_hand_opaque_coverage": 1.0
           }
         },
         "mo_ran": {
           "idle": {
             "path": "assets/generated/sprites/mo_ran_training_idle.png",
             "frames": 64,
-            "sha256": "a4aea205591186a903f9eb56043970d6f9eea29922dba3d01a90104ec452c846",
+            "sha256": "767b2aa80de322fc948d7ef05b8c3fa3213973d2280d86b80690dd06f445e040",
             "visible_motion": {
-              "changed_fraction": 0.5933349704299425,
-              "upper_changed_fraction": 0.6296344405269995,
-              "silhouette_change_fraction": 0.2608815765240346
-            }
+              "changed_fraction": 0.5952896699703688,
+              "upper_changed_fraction": 0.6319355734518189,
+              "silhouette_change_fraction": 0.26191887197302544
+            },
+            "moving_hand_opaque_coverage": 1.0
           },
           "channeling": {
             "path": "assets/generated/sprites/mo_ran_training_channeling.png",
             "frames": 64,
-            "sha256": "fc57e78a9c990c85aa2b91aa9b15c21d057296edebd49d77c7a651fb8149602a",
+            "sha256": "4e1867afb2466f0d16c8257306c2c982f308cddb6836ae829d265807a934346f",
             "visible_motion": {
-              "changed_fraction": 0.5933394001983661,
-              "upper_changed_fraction": 0.6247513812154696,
-              "silhouette_change_fraction": 0.26183294307712757
-            }
+              "changed_fraction": 0.5945487781215854,
+              "upper_changed_fraction": 0.6259945974751465,
+              "silhouette_change_fraction": 0.26266556375928024
+            },
+            "moving_hand_opaque_coverage": 1.0
           },
           "wind": {
             "path": "assets/generated/sprites/mo_ran_training_wind.png",
             "frames": 64,
-            "sha256": "968abddd2f2a4b80a4a9ef39ea14b23663fd5ecd89e041e52caf5285a5dd15f9",
+            "sha256": "833346b6559e91fb53f9e5d0c560231b934147bb9c4b854809e6a105f2773d86",
             "visible_motion": {
-              "changed_fraction": 0.5608201802683633,
-              "upper_changed_fraction": 0.6077693084764442,
-              "silhouette_change_fraction": 0.2682817406908928
-            }
+              "changed_fraction": 0.565007048896011,
+              "upper_changed_fraction": 0.6068310642098165,
+              "silhouette_change_fraction": 0.26832459405458586
+            },
+            "moving_hand_opaque_coverage": 1.0
           },
           "resolve": {
             "path": "assets/generated/sprites/mo_ran_training_resolve.png",
             "frames": 64,
-            "sha256": "85fa44ce2c5cef6ca0f87f0cf8098dc280f1ac117cd3967c1459ac959e9b5788",
+            "sha256": "348526d84dbc365a96309ad20359ba379785618476e318d91950c9e2002248dd",
             "visible_motion": {
-              "changed_fraction": 0.5940974141637492,
-              "upper_changed_fraction": 0.6252281148039596,
-              "silhouette_change_fraction": 0.26059005384599637
-            }
+              "changed_fraction": 0.594891406601497,
+              "upper_changed_fraction": 0.6268692405319404,
+              "silhouette_change_fraction": 0.26148308724283204
+            },
+            "moving_hand_opaque_coverage": 1.0
           }
         }
       }
@@ -375,168 +409,184 @@
           "idle": {
             "path": "assets/generated/sprites/lin_yue_festival_idle.png",
             "frames": 64,
-            "sha256": "2328635db9879c36be7fde7c3c6e4473a989100d8c1721c7aa60888c0709ff95",
+            "sha256": "b387552a6e084da2a6088de79a3392c499e5e81c11919cb4fa336dbe4faea13d",
             "visible_motion": {
-              "changed_fraction": 0.7405275500513596,
-              "upper_changed_fraction": 0.7700836741585682,
-              "silhouette_change_fraction": 0.3191561524894858
-            }
+              "changed_fraction": 0.7408695820695937,
+              "upper_changed_fraction": 0.770424146922543,
+              "silhouette_change_fraction": 0.31918913942964566
+            },
+            "moving_hand_opaque_coverage": 1.0
           },
           "channeling": {
             "path": "assets/generated/sprites/lin_yue_festival_channeling.png",
             "frames": 64,
-            "sha256": "e32812969d936d748ee0db6adfaf5fc765ceefe28b8c4ac17f35d9643f108093",
+            "sha256": "923a102c8613f187519e99e326424634d28249bc645483a21c3351e3dcf77df7",
             "visible_motion": {
-              "changed_fraction": 0.7372010010281879,
-              "upper_changed_fraction": 0.7674580349254685,
-              "silhouette_change_fraction": 0.3180010475876385
-            }
+              "changed_fraction": 0.7374843584794017,
+              "upper_changed_fraction": 0.7679524776298969,
+              "silhouette_change_fraction": 0.3179812010747786
+            },
+            "moving_hand_opaque_coverage": 1.0
           },
           "wind": {
             "path": "assets/generated/sprites/lin_yue_festival_wind.png",
             "frames": 64,
-            "sha256": "29a1efe74b900f1e01020bb11379efaaa8075166e7c03969bdced7710adef0c3",
+            "sha256": "e5caab877cda2e86081118035bf074f5229a5a5935bed889c682702277af2417",
             "visible_motion": {
-              "changed_fraction": 0.6928291995545964,
-              "upper_changed_fraction": 0.7335381661065771,
-              "silhouette_change_fraction": 0.2967452035356372
-            }
+              "changed_fraction": 0.7029729095813299,
+              "upper_changed_fraction": 0.7362779628748215,
+              "silhouette_change_fraction": 0.2990989406199914
+            },
+            "moving_hand_opaque_coverage": 1.0
           },
           "resolve": {
             "path": "assets/generated/sprites/lin_yue_festival_resolve.png",
             "frames": 64,
-            "sha256": "ca9dcaa406ff75df7dae62403ba3771d39f27127009e81e71318479f3077b010",
+            "sha256": "c8e90bcb6290d1cdb564311921dd88f430d6baed3537b8703c553678fb87b3b4",
             "visible_motion": {
-              "changed_fraction": 0.7396013108650545,
-              "upper_changed_fraction": 0.7700152121246268,
-              "silhouette_change_fraction": 0.3182726056351684
-            }
+              "changed_fraction": 0.7399129229008892,
+              "upper_changed_fraction": 0.7704372980689759,
+              "silhouette_change_fraction": 0.3181998894566893
+            },
+            "moving_hand_opaque_coverage": 1.0
           }
         },
         "shen_qing": {
           "idle": {
             "path": "assets/generated/sprites/shen_qing_festival_idle.png",
             "frames": 64,
-            "sha256": "dcb016537888b3f768e62e5870b9a60564fdafde78ba0ad7b6818ec47f06780a",
+            "sha256": "4d416bb5f002767a26e8f6a222091c1203c82e379c39f6a1e0aefcc930d2bd13",
             "visible_motion": {
-              "changed_fraction": 0.7902513969213908,
-              "upper_changed_fraction": 0.7995707686151832,
-              "silhouette_change_fraction": 0.313008249420192
-            }
+              "changed_fraction": 0.7907465106511823,
+              "upper_changed_fraction": 0.8003842250253733,
+              "silhouette_change_fraction": 0.31430999286991007
+            },
+            "moving_hand_opaque_coverage": 1.0
           },
           "channeling": {
             "path": "assets/generated/sprites/shen_qing_festival_channeling.png",
             "frames": 64,
-            "sha256": "f5b559bd599c72b4718596c16419d64b1621a4c288baaf84554c8a881abb220b",
+            "sha256": "efd61ce034ec3891caad331149afd6205a658d5996c49bde7679d90d18de4c06",
             "visible_motion": {
-              "changed_fraction": 0.7891288189962055,
-              "upper_changed_fraction": 0.7962737877111188,
-              "silhouette_change_fraction": 0.3131185698079255
-            }
+              "changed_fraction": 0.7896473298388434,
+              "upper_changed_fraction": 0.7970100148233847,
+              "silhouette_change_fraction": 0.3144259958807969
+            },
+            "moving_hand_opaque_coverage": 1.0
           },
           "wind": {
             "path": "assets/generated/sprites/shen_qing_festival_wind.png",
             "frames": 64,
-            "sha256": "de0fb704c35bf3433364c72820e8dac8632054dbee4caa3b749b6ed9df8856e7",
+            "sha256": "1777a1d5a6e5acc913f6a93889cc24af742846292808bd233e58d7752875c788",
             "visible_motion": {
-              "changed_fraction": 0.7652574290615819,
-              "upper_changed_fraction": 0.7799738172297175,
-              "silhouette_change_fraction": 0.3016484924969929
-            }
+              "changed_fraction": 0.7630174414619099,
+              "upper_changed_fraction": 0.7641851978972849,
+              "silhouette_change_fraction": 0.30055918443293217
+            },
+            "moving_hand_opaque_coverage": 1.0
           },
           "resolve": {
             "path": "assets/generated/sprites/shen_qing_festival_resolve.png",
             "frames": 64,
-            "sha256": "09828a90e82a915f3a1048b837da68e5758b22361c7108e8ce840bc3cbf39779",
+            "sha256": "bce3d7ca48e13ee3e01f50921140b66e50af1ee99ff83fa0a87d180756d034ce",
             "visible_motion": {
-              "changed_fraction": 0.7903216339946003,
-              "upper_changed_fraction": 0.7977993245451575,
-              "silhouette_change_fraction": 0.31283992643894043
-            }
+              "changed_fraction": 0.7908261896858096,
+              "upper_changed_fraction": 0.7986357385829052,
+              "silhouette_change_fraction": 0.314141493038605
+            },
+            "moving_hand_opaque_coverage": 1.0
           }
         },
         "elder_yun": {
           "idle": {
             "path": "assets/generated/sprites/elder_yun_festival_idle.png",
             "frames": 64,
-            "sha256": "57cc07766a4b04e4e9b3d2363ae640d5de80172388da699c6e21506379e33f60",
+            "sha256": "d1ef6fc7edff01dce7b6a8d5662e704261dfeac3e89d9039acbf1016a8a061da",
             "visible_motion": {
-              "changed_fraction": 0.72053688014333,
-              "upper_changed_fraction": 0.7099988044474554,
-              "silhouette_change_fraction": 0.30438391384004937
-            }
+              "changed_fraction": 0.7215997084813701,
+              "upper_changed_fraction": 0.7118917626429682,
+              "silhouette_change_fraction": 0.3044648912372334
+            },
+            "moving_hand_opaque_coverage": 1.0
           },
           "channeling": {
             "path": "assets/generated/sprites/elder_yun_festival_channeling.png",
             "frames": 64,
-            "sha256": "a810bbb902050786daa0879b76cc2a2a6125031e618831c1d9871522819a9e73",
+            "sha256": "75ed37947091203a9e1ed52c2560dd9b5f25ce3940c0d097dd1ca90953ed365c",
             "visible_motion": {
-              "changed_fraction": 0.7204493699711553,
-              "upper_changed_fraction": 0.7138561414688546,
-              "silhouette_change_fraction": 0.30403319670057183
-            }
+              "changed_fraction": 0.7223554651527572,
+              "upper_changed_fraction": 0.717468344349765,
+              "silhouette_change_fraction": 0.30430998714796037
+            },
+            "moving_hand_opaque_coverage": 1.0
           },
           "wind": {
             "path": "assets/generated/sprites/elder_yun_festival_wind.png",
             "frames": 64,
-            "sha256": "b221ecdeccb94eb46b49fd301b6eb88867a65dafb0220466912863392caf6f16",
+            "sha256": "64b8753e3ccc5f118d1aa5f35d11eccb0931136485863c3303be1a8fdbf57080",
             "visible_motion": {
-              "changed_fraction": 0.6933140717831855,
-              "upper_changed_fraction": 0.689702005272829,
-              "silhouette_change_fraction": 0.2968788150077317
-            }
+              "changed_fraction": 0.6998165844167689,
+              "upper_changed_fraction": 0.6990656812160089,
+              "silhouette_change_fraction": 0.2994234062604501
+            },
+            "moving_hand_opaque_coverage": 1.0
           },
           "resolve": {
             "path": "assets/generated/sprites/elder_yun_festival_resolve.png",
             "frames": 64,
-            "sha256": "15e7936d31ca6971c30a129c077a98a0e01136f956ba472f8042ee02831c37bc",
+            "sha256": "1504f76d3a036b2bcaf1f2b1b169c61c08825e3aa1a4bb12c52d5264cebb466a",
             "visible_motion": {
-              "changed_fraction": 0.7205111070611344,
-              "upper_changed_fraction": 0.7119319427011734,
-              "silhouette_change_fraction": 0.3039305023996112
-            }
+              "changed_fraction": 0.7220838648282006,
+              "upper_changed_fraction": 0.7150283836271287,
+              "silhouette_change_fraction": 0.3041567960477029
+            },
+            "moving_hand_opaque_coverage": 1.0
           }
         },
         "mo_ran": {
           "idle": {
             "path": "assets/generated/sprites/mo_ran_festival_idle.png",
             "frames": 64,
-            "sha256": "bc67da294e364f93efe37f144343224490525b244d8d054e269e980084d33e49",
+            "sha256": "e35ff81f4e3c21c8739dd6ae112cad22f3a50cb2a8d4071108ac47c5fc46f660",
             "visible_motion": {
-              "changed_fraction": 0.7801826736783836,
-              "upper_changed_fraction": 0.7781778280698145,
-              "silhouette_change_fraction": 0.3431866408340253
-            }
+              "changed_fraction": 0.7805388752063905,
+              "upper_changed_fraction": 0.778737552916174,
+              "silhouette_change_fraction": 0.3433138703637085
+            },
+            "moving_hand_opaque_coverage": 1.0
           },
           "channeling": {
             "path": "assets/generated/sprites/mo_ran_festival_channeling.png",
             "frames": 64,
-            "sha256": "236061dcaa922b70e05aa525cfb599f42ab680a8524d2f3292a0f9573796df3d",
+            "sha256": "0e9dfec61684cc4046788978f498c2624a39ccbb37b66019bbe136df1ec1aecb",
             "visible_motion": {
-              "changed_fraction": 0.7831546679224028,
-              "upper_changed_fraction": 0.7817744567551318,
-              "silhouette_change_fraction": 0.34278828841306336
-            }
+              "changed_fraction": 0.7834981121973285,
+              "upper_changed_fraction": 0.782379505142602,
+              "silhouette_change_fraction": 0.3429338945969149
+            },
+            "moving_hand_opaque_coverage": 1.0
           },
           "wind": {
             "path": "assets/generated/sprites/mo_ran_festival_wind.png",
             "frames": 64,
-            "sha256": "080a2713f71271c21efbf60170767e09f09dd1c76c6e7a6030d5a0d6afab91a1",
+            "sha256": "b44aa51da4f13e78a9148860ad08dec8fc2c919d9c2b11bc53886e07dbb7795e",
             "visible_motion": {
-              "changed_fraction": 0.7578637995498428,
-              "upper_changed_fraction": 0.7580239635171924,
-              "silhouette_change_fraction": 0.3359902527948809
-            }
+              "changed_fraction": 0.7563137725656771,
+              "upper_changed_fraction": 0.752872674808059,
+              "silhouette_change_fraction": 0.34120688859134773
+            },
+            "moving_hand_opaque_coverage": 1.0
           },
           "resolve": {
             "path": "assets/generated/sprites/mo_ran_festival_resolve.png",
             "frames": 64,
-            "sha256": "e0fe080f1dcfb646019a89765c42acad2e93cd2b0ebc7eb40d78a68fc1238e52",
+            "sha256": "5548324d88bdf4b259fc4b1d0bbb30c923110b5c516983e5dfc38e6d5252d36c",
             "visible_motion": {
-              "changed_fraction": 0.7818606411356944,
-              "upper_changed_fraction": 0.7804794344252449,
-              "silhouette_change_fraction": 0.3429789826378313
-            }
+              "changed_fraction": 0.7820044296788483,
+              "upper_changed_fraction": 0.7809015746680846,
+              "silhouette_change_fraction": 0.34310631229235883
+            },
+            "moving_hand_opaque_coverage": 1.0
           }
         }
       }
