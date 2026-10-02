@@ -9,17 +9,18 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFilter
 
 from animation_motion import motion_metrics, require_visible_motion
+from pose_rig import build_points, intermediate_points, triangulate, warp_pose, pose_amount, require_solid_hands
 
 CELL = (384, 512)
 FRAMES = 64
-GENERATOR = "keyposes-flow-v1"
+GENERATOR = "keyposes-rig-v2"
 
 
 def digest(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
-def pose_pair(sheet, index, columns):
+def pose_pair(sheet, index, columns, rig):
     """Separate the two poses at the transparent seam; align their foot baseline."""
     width, height = sheet.size
     column = sheet.crop((index * width // columns, 0, (index + 1) * width // columns, height))
@@ -39,8 +40,8 @@ def pose_pair(sheet, index, columns):
     heights = [box[3] - box[1] + 8 for box in boxes]
     scale = min((CELL[0] - 40) / (right - left), (CELL[1] - 40) / max(heights))
     target_width = max(1, round((right - left) * scale))
-    result = []
-    for crop, box in zip(crops, boxes):
+    result, points = [], []
+    for row, (crop, box) in enumerate(zip(crops, boxes)):
         top, bottom = max(0, box[1] - 4), min(crop.height, box[3] + 4)
         cut = crop.crop((left, top, right, bottom))
         cut = cut.resize((target_width, CELL[1] - 40),
@@ -48,8 +49,15 @@ def pose_pair(sheet, index, columns):
         image = Image.new("RGBA", CELL)
         image.alpha_composite(cut, ((CELL[0] - cut.width) // 2, CELL[1] - 20 - cut.height))
         result.append(image)
+        row_offset = 0 if row == 0 else seam
+        origin_x = index * width // columns
+        def transform(point):
+            return np.float32([
+                (CELL[0] - cut.width) // 2 + (point[0] - origin_x - left) * cut.width / (right - left),
+                20 + (point[1] - row_offset - top) * cut.height / (bottom - top)])
+        points.append(build_points(sheet, rig[row], transform, CELL))
     require_visible_motion(motion_metrics(*result), f"GPT pose column {index}")
-    return result
+    return result, points
 
 
 def premultiply(image):
@@ -58,30 +66,13 @@ def premultiply(image):
     return pixels
 
 
-def optical_flow(a, b):
-    gray_a = cv2.cvtColor(np.uint8(np.clip(a[:, :, :3] * 255, 0, 255)), cv2.COLOR_RGB2GRAY)
-    gray_b = cv2.cvtColor(np.uint8(np.clip(b[:, :, :3] * 255, 0, 255)), cv2.COLOR_RGB2GRAY)
-    forward = cv2.calcOpticalFlowFarneback(gray_a, gray_b, None, 0.5, 5, 41, 7, 7, 1.5, 0)
-    backward = cv2.calcOpticalFlowFarneback(gray_b, gray_a, None, 0.5, 5, 41, 7, 7, 1.5, 0)
-    return cv2.GaussianBlur(forward, (5, 5), 0.8), cv2.GaussianBlur(backward, (5, 5), 0.8)
-
-
-def render_frame(a, b, flows, frame, motion, grid):
+def render_frame(a, b, rig, triangles, frame, motion, grid):
     phase = 2 * math.pi * frame / FRAMES
-    amount = 0.5 - 0.5 * math.cos(phase)
-    if motion == "channeling":
-        amount = amount ** 0.8
-    elif motion == "resolve":
-        amount = amount * amount * (3 - 2 * amount)
-    elif motion == "wind":
-        amount = 0.5 - 0.5 * math.cos(phase + 0.45)
+    amount = pose_amount(phase, motion)
     xx, yy = grid
-    forward, backward = flows
-    # Blend motion-compensated, premultiplied samples: transparent edges stay clean.
-    pose_a = cv2.remap(a, xx - forward[:, :, 0] * amount,
-                     yy - forward[:, :, 1] * amount, cv2.INTER_LINEAR)
-    pose_b = cv2.remap(b, xx - backward[:, :, 0] * (1 - amount),
-                     yy - backward[:, :, 1] * (1 - amount), cv2.INTER_LINEAR)
+    intermediate = intermediate_points(rig, amount)
+    pose_a = warp_pose(a, rig[0], intermediate, triangles, grid)
+    pose_b = warp_pose(b, rig[1], intermediate, triangles, grid)
     pixels = pose_a * (1 - amount) + pose_b * amount
     # Independently move loose silk and hair, leaving the feet anchored.
     strength = {"idle": 3.5, "channeling": 6.0, "wind": 13.0, "resolve": 5.0}[motion]
@@ -118,9 +109,13 @@ def bake_sprites(root, out, force=False):
     manifest_path = destination / "manifest.json"
     previous = json.loads(manifest_path.read_text()) if manifest_path.exists() else {}
     baker_hash = digest(pathlib.Path(__file__))
+    rig_path = root / "data/animation_rigs.json"
+    rigs = json.loads(rig_path.read_text())["outfits"]
+    rig_hash = digest(rig_path)
+    rig_code_hash = digest(root / "tools/pose_rig.py")
     expected = len(catalog["characters"]) * len(catalog["outfits"]) * len(catalog["motions"]) * FRAMES
-    manifest = {"version": 3, "generator": GENERATOR, "baker_sha256": baker_hash,
-                "source": "GPT Images", "derivation": "distinct gesture key poses, bidirectional optical-flow tweening, cloth and hair motion",
+    manifest = {"version": 3, "generator": GENERATOR, "baker_sha256": baker_hash, "rig_sha256": rig_hash, "rig_code_sha256": rig_code_hash,
+                "source": "GPT Images", "derivation": "distinct gesture key poses, landmark-guided articulated pose tweening, cloth and hair motion",
                 "frame_count": expected, "fps": catalog["fps"], "cell": list(CELL),
                 "key_poses_per_appearance": 2,
                 "catalog_sha256": hashlib.sha256(catalog_bytes).hexdigest(), "outfits": {}}
@@ -138,6 +133,7 @@ def bake_sprites(root, out, force=False):
         manifest["outfits"][outfit_id] = info
         cached = previous.get("outfits", {}).get(outfit_id, {})
         reusable = (previous.get("generator") == GENERATOR and previous.get("baker_sha256") == baker_hash
+                    and previous.get("rig_sha256") == rig_hash and previous.get("rig_code_sha256") == rig_code_hash
                     and previous.get("cell") == list(CELL) and cached.get("pose_source_sha256") == pose_hash
                     and cached.get("source_sha256") == source_hash)
         suffix = "" if outfit_id == "sect" else "_" + outfit_id
@@ -152,19 +148,21 @@ def bake_sprites(root, out, force=False):
                     continue
                 if pair is None:
                     print(f"Preparing distinct poses: {character}/{outfit_id}", flush=True)
-                    pair = pose_pair(sheet, index, len(catalog["characters"]))
+                    pair, rig_points = pose_pair(sheet, index, len(catalog["characters"]), rigs[outfit_id][character])
                     arrays = [premultiply(image) for image in pair]
-                    flows = optical_flow(*arrays)
-                frames = [render_frame(*arrays, flows, index, motion, (xx, yy)) for index in range(FRAMES)]
+                    triangles = triangulate(rig_points, CELL)
+                frames = [render_frame(*arrays, rig_points, triangles, index, motion, (xx, yy)) for index in range(FRAMES)]
+                hand_coverage = require_solid_hands(frames, rig_points, motion)
                 metrics = motion_metrics(frames[0], frames[FRAMES // 2])
                 require_visible_motion(metrics, f"{character}/{outfit_id}/{motion}")
                 atlas = Image.new("RGBA", (CELL[0] * 8, CELL[1] * 8))
                 for index, image in enumerate(frames):
                     atlas.alpha_composite(image, ((index % 8) * CELL[0], (index // 8) * CELL[1]))
-                atlas.save(path, compress_level=6)
+                atlas = atlas.quantize(colors=256, method=Image.Quantize.FASTOCTREE, dither=Image.Dither.NONE)
+                atlas.save(path, compress_level=9)
                 info["characters"][character][motion] = {
                     "path": str(path.relative_to(root)), "frames": FRAMES,
-                    "sha256": digest(path), "visible_motion": metrics}
+                    "sha256": digest(path), "visible_motion": metrics, "moving_hand_opaque_coverage": hand_coverage}
                 generated += FRAMES
                 print(f"Baked {character}/{outfit_id}/{motion}: {FRAMES} frames, body change {metrics['changed_fraction']:.1%}", flush=True)
     manifest_path.write_text(json.dumps(manifest, indent=2) + "\n")
