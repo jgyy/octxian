@@ -30,17 +30,17 @@ If your Godot executable is named `godot4`, replace `godot` with `godot4` in bot
 - **S:** save. **L:** open the dialogue journal. **Esc:** close a panel or open settings.
 - The interface provides save/load, auto reading, fast text, an animated wardrobe gallery, audio levels, and reduced motion.
 
-The playable script contains **102 scenes and 4,464 authored words** across two books, with cultivation stats and gated choices. Book I has three endings; each can continue into Book II, which adds three quest routes and four endings.
+The playable script contains **196 scenes and 10,274 authored words** across three books, with cultivation stats and gated choices. Book I has three endings; each continues into Book II, which has three investigations and four settlements. Every settlement continues into Book III, with three river routes, six settlement approaches, and three endings.
 
-This draft expansion currently adds **one painted background, three human NPC sprites, and one spirit-beast sprite** at their native generated sizes. The requested 100 backgrounds, 100 NPCs, 100 monsters and more than one million words remain production targets; they are not delivered by this draft. CI writes exact delivery counts to `build/content_report.json`.
+This draft expansion currently adds **five painted backgrounds, four human NPC sprites, two spirit-beast sprites, and two inspectable item paintings** at their native generated sizes. The requested 100 backgrounds, 100 NPCs, 100 monsters and more than one million words remain production targets; they are not delivered by this draft. CI writes exact delivery counts to `build/content_report.json`.
 
 ![Branching dialogue](docs/screenshots/dialogue.png)
 
 ## Book II: The valley that kept its name
 
-Continue from any Book I ending using **II →**. Su Lan leads you into Salt Lantern Valley, where a protective ward has erased nineteen households from the village register. Investigate the ferry boundary, meet the accused Reed Listener, or examine altered records in the archive. Each investigation offers three approaches, costs, and testimony before a final settlement.
+Continue from any Book I ending using the **→** continuation button. Su Lan leads you into Salt Lantern Valley, where a protective ward has erased nineteen households from the village register. Investigate the ferry boundary, meet the accused Reed Listener, or examine altered records in the archive. Each investigation offers three approaches, costs, and testimony before a final settlement.
 
-The **World** gallery previews the delivered locations, people, and spirit beasts. The new paintings are preserved at their native sizes: **1672×941** for the valley and **1024×1536** for each sprite. Display scaling preserves proportions; no upscaling is presented as added detail.
+The **World** gallery previews the delivered locations, people, and spirit beasts. The new paintings are preserved at their native sizes: **1672×941** for all five backgrounds, **1024×1536** for each sprite and the clapper, and **1536×1024** for the echo case. Display scaling preserves proportions; no upscaling is presented as added detail.
 
 ![Book II quest choices](docs/screenshots/quest_hub.png)
 
@@ -51,6 +51,20 @@ The **World** gallery previews the delivered locations, people, and spirit beast
 ![Wei Jin at the ferry crossing](docs/screenshots/ferry_encounter.png)
 
 ![An Ru and the original ledger](docs/screenshots/archive_encounter.png)
+
+## Book III: The river without a shore
+
+The next spring, living ferry pilot Wei Xiu charts an empty boat circling a landing lost to a flood. Mo Ran entrusted a copy of one memory to its river keeper eleven years earlier. Negotiate a new return place, survey an accessible replacement stair, or establish a supported harbor. Each route has a second choice with different costs and keeps permission separate for each echo.
+
+Scene effects include rain, reed light, soft bell ripples, and qi motes. Effects pause behind panels and disappear with reduced motion. Open **World → Inspect objects** to examine the clapper and sealed echo case; looking at their paintings does not transfer their custody.
+
+![Wei Xiu at the north landing](docs/screenshots/river_pilot.png)
+
+![The Mooring Eel](docs/screenshots/river_spirit.png)
+
+![The sheltered reach](docs/screenshots/river_harbor.png)
+
+![Sealed echo case inspection](docs/screenshots/object_sealed_echo_case.png)
 
 See [the production scope and word budgets](docs/EXPANSION.md) for remaining work.
 
@@ -89,12 +103,12 @@ The twelve resting portraits come from the original GPT artwork. Body bobbing pr
 | Asset | Delivered |
 |---|---|
 | GPT Images artwork | 24 gesture key poses, twelve outfit reference portraits, one mountain-sect environment |
-| New Book II painted art | 1 native background, 3 human NPCs, 1 spirit beast |
+| New world paintings | 5 native backgrounds, 4 human NPCs, 2 spirit beasts, 2 items |
 | Character portraits | **12 intact portraits**: 4 characters × 3 outfits |
 | Animation playback | Sprite2D whole-body bobbing on a four-second loop |
 | Music | Original 48-second pentatonic plucked-string composition |
 | Sound effects | Page, bell, qi channeling, and sword |
-| AI voices | Piper neural narration for all 102 scenes; one Lessac narrator timbre with character pacing |
+| AI voices | Piper neural narration for all 196 scenes; one Lessac narrator timbre with character pacing |
 
 Portraits are extracted from GPT artwork and bobbed by Godot at runtime. The game has no lip sync. See [art provenance](assets/art/PROVENANCE.md) and the generated voice model card for sources and licensing.
 
@@ -125,7 +139,9 @@ flowchart TD
     GPT["GPT Images · resting portraits"] --> Prep["Python portrait extraction"]
     Prep --> Portraits["12 intact outfit portraits"]
     Portraits --> Cast["Sprite2D cast · whole-body bob"]
-    JSON["Story JSON · 102 scenes"] --> State["Story state · choices · stats"]
+    JSON["Story JSON · 196 scenes"] --> State["Story state · choices · stats"]
+    Canon["Continuity ledger · required evidence checkpoints"] --> Verify
+    Effects["Scene effects · reduced motion"] --> UI
     State --> UI["Godot interface · journal · saves"]
     Wardrobe["Wardrobe catalog · saved outfit choices"] --> Cast
     Wardrobe --> UI

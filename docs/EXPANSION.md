@@ -2,19 +2,22 @@
 
 ## Delivered in this draft
 
-- 102 playable scenes and 4,464 authored words (36 existing scenes plus 66 new scenes).
-- Three Book I endings continue into Book II without losing stats or journal history.
-- Three investigations, nine approaches, and four additional endings.
-- One new painted environment at native 1672×941.
-- Three adult human NPCs and one spirit beast, each at native 1024×1536 with alpha.
-- A world art gallery and scene-specific backgrounds and portraits.
-- Regression coverage for invalid choice transactions, stats over 100, settings corruption, and world UI.
+- **196 playable scenes and 10,274 authored prose words** across three books.
+- Book I: 36 scenes, 942 words, three endings.
+- Book II: 73 scenes, 4,000 words, three investigations, nine approaches, four endings.
+- Book III: 87 scenes, 5,332 words, four spring continuations, three river routes, six settlement approaches, three endings.
+- Five painted backgrounds at native 1672×941.
+- Four human NPCs and two spirit beasts at native 1024×1536 with alpha.
+- Two inspectable item paintings: clapper at 1024×1536 and echo case at 1536×1024.
+- Rain, reed light, soft bell ripples, and qi effects, paused by panels and stopped by reduced motion.
+- Continuity ledger plus required-knowledge and safety checkpoints.
+- Sixteen rendered viewport screenshots, complete narration coverage, and Linux package validation.
 
 These are exact delivered counts. This draft does **not** fulfill the requested 100 backgrounds, 100 human NPCs, 100 monsters, or a manuscript longer than one million words. An image-generation prompt is not a delivered asset. A plot outline, word budget, alternate playthrough, or repeated paragraph is not an authored word.
 
 ## Production target
 
-The requested final manuscript must contain at least **1,000,001 displayed prose words**, counted once per authored scene. Choice captions, character biographies, README text, outlines, and the number of possible routes are excluded. The current counting convention is whitespace-delimited words, matching the opening's documented 931 words.
+The requested final manuscript must contain at least **1,000,001 displayed prose words**, counted once per authored scene. Choice captions, character biographies, README text, outlines, and the number of possible routes are excluded. The current counting convention is whitespace-delimited words, applied to the current scene text, including editorial revisions.
 
 `python tools/validate_world.py` writes the actual inventory and manuscript size to `build/content_report.json`. Structural validation passes independently of the production target; a passing draft CI run does not mean the target is fulfilled.
 
@@ -72,6 +75,17 @@ flowchart TD
     Conclave --> Bell["Unstruck Bell · insight 3"]
     Conclave --> Seed["Seed of Winter · qi 3"]
     Conclave --> Ledger["Common Ledger · always available"]
+    Crossing --> Spring["Outcome-specific spring continuation"]
+    Bell --> Spring
+    Seed --> Spring
+    Ledger --> Spring
+    Spring --> River["Wei Xiu and the entrusted echoes"]
+    River --> Return["New return place · receive now / supported delay"]
+    River --> Stair["Flood-safe ramp · paid stages / capped advance"]
+    River --> Harbor["Sheltered harbor · eight days / regular berth"]
+    Return --> Ring["Unidentified ring remains sealed"]
+    Stair --> Ring
+    Harbor --> Ring
 ```
 
 ## Content and review pipeline
@@ -105,3 +119,15 @@ flowchart LR
 - Keep scene portraits below the navigation bar and above the footer throughout their bob; resizing a cached portrait updates its scale immediately.
 - Copy the animation formats actually produced by the renderer; the old animation JSON glob broke screenshot bundling.
 - Refresh bundled review media when deterministic story, art, or runtime input hashes change, even when generated voice files are unchanged.
+
+## Continuity review
+
+`data/continuity.json` records reviewed facts, chronology, custody, permissions, and intentional unresolved questions. It is updated with every delivered book. The validator checks that each required evidence or safety scene lies on every structural path to its named decision. Godot separately traverses the choices under stat gates.
+
+Book II takes place in autumn; Book III begins the following spring on every settlement route. Only the release ending grounds Azure Cloud. Common valley art faces grounded ridges. Lin Yue retains the pendant. Wei Xiu is alive, and Su Lan's husband remains dead; erased household records do not erase or resurrect people.
+
+River echoes are volunteered external copies, not missing pieces of minds. Three rings hold separate permissions. The unidentified owner is a deliberate unresolved question in all Book III endings; no route opens that echo to guess an identity. Each settlement makes continued care explicit.
+
+These structural checks supplement an editorial reading of every new scene. They do not certify that every possible literary inconsistency has been eliminated.
+
+The manuscript still needs **989,727** additional authored prose words to reach 1,000,001. The original art quotas still need **95 backgrounds, 96 human NPCs, and 98 monsters**. The two item paintings are additional assets and do not count toward those quotas.
