@@ -1,0 +1,28 @@
+name: Godot CI
+on:
+  push:
+    branches: [main, feat/jade-vow-godot]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: godot-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  game:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install render dependencies
+        run: sudo apt-get update && sudo apt-get install -y xvfb libgl1-mesa-dri
+      - name: Install verified Godot 4.7.2
+        run: python tools/bootstrap_godot.py
+      - name: Import project
+        run: .cache/godot/Godot_v4.7.2-stable_linux.x86_64 --headless --path . --editor --import
+      - name: Launch smoke test
+        run: .cache/godot/Godot_v4.7.2-stable_linux.x86_64 --headless --path . --quit-after 120
