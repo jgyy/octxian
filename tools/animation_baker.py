@@ -38,11 +38,12 @@ def pose_pair(sheet, index, columns):
     right = min(column.width, max(box[2] for box in boxes) + 4)
     heights = [box[3] - box[1] + 8 for box in boxes]
     scale = min((CELL[0] - 40) / (right - left), (CELL[1] - 40) / max(heights))
+    target_width = max(1, round((right - left) * scale))
     result = []
     for crop, box in zip(crops, boxes):
         top, bottom = max(0, box[1] - 4), min(crop.height, box[3] + 4)
         cut = crop.crop((left, top, right, bottom))
-        cut = cut.resize((max(1, round(cut.width * scale)), max(1, round(cut.height * scale))),
+        cut = cut.resize((target_width, CELL[1] - 40),
                          Image.Resampling.LANCZOS)
         image = Image.new("RGBA", CELL)
         image.alpha_composite(cut, ((CELL[0] - cut.width) // 2, CELL[1] - 20 - cut.height))
