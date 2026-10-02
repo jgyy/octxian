@@ -66,6 +66,8 @@ func load_game(path: String = "user://jade_vow_save.json") -> bool:
 	for entry in data["history"]:
 		if not entry is Dictionary or not entry.get("text") is String or not entry.get("speaker") is String:
 			return false
+		if not story["characters"].has(entry["speaker"]):
+			return false
 	current = data["current"]
 	stats = validated_stats
 	history = data["history"].duplicate(true)
