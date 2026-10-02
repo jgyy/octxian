@@ -7,7 +7,7 @@ from PIL import Image
 root = pathlib.Path(__file__).resolve().parents[1]
 folder = root / "build/screenshots"
 images = []
-for name in ("title", "dialogue", "cast"):
+for name in ("title", "dialogue", "cast", "wardrobe_training", "wardrobe_festival", "outfit_dialogue"):
     source = Image.open(folder / f"{name}.png").convert("RGB")
     assert source.width >= 1280 and source.height >= 720, "Capture must use the real game viewport"
     pixels = np.asarray(source)
@@ -16,4 +16,6 @@ for name in ("title", "dialogue", "cast"):
     images.append(pixels)
 assert not np.array_equal(images[0], images[1]), "Title and dialogue must be different views"
 assert not np.array_equal(images[1], images[2]), "Cast modal must render on top of dialogue"
-print("Verified three distinct rendered game captures.")
+assert not np.array_equal(images[3], images[4]), "Training and festival outfits must render differently"
+assert not np.array_equal(images[1], images[5]), "Chosen outfits must render in story scenes"
+print("Verified six rendered captures including both wardrobes and selected story clothing.")
