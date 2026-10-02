@@ -525,19 +525,19 @@ func _capture() -> void:
 	await get_tree().create_timer(0.4).timeout
 	await RenderingServer.frame_post_draw
 	get_viewport().get_texture().get_image().save_png("res://build/screenshots/cast.png")
-	audio.shutdown()
-	await get_tree().create_timer(0.25).timeout
 	print("JADE_VOW_CAPTURE_OK")
-	get_tree().quit()
+	_quit_game()
 
 func _notification(what: int) -> void:
 	if what == NOTIFICATION_WM_CLOSE_REQUEST:
 		_quit_game()
 
-func _quit_game() -> void:
+func _quit_game(exit_code: int = 0) -> void:
+	var tree := get_tree()
 	audio.shutdown()
-	await get_tree().create_timer(0.25).timeout
-	get_tree().quit()
+	var timer := tree.create_timer(0.25)
+	timer.timeout.connect(tree.quit.bind(exit_code))
+	queue_free()
 
 func _smoke_build() -> void:
 	_begin()
@@ -547,10 +547,8 @@ func _smoke_build() -> void:
 	_choose(0)
 	var valid: bool = state.current == "trust" and audio.voice.stream != null
 	valid = valid and actor.sprite.sprite_frames.get_frame_count("cycle") == 64
-	audio.shutdown()
-	await get_tree().create_timer(0.25).timeout
 	if valid:
 		print("JADE_VOW_PACKAGE_OK: standalone story, animated art and narration")
 	else:
 		push_error("Packaged assets or story failed to load")
-	get_tree().quit(0 if valid else 1)
+	_quit_game(0 if valid else 1)

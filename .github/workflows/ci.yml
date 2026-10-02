@@ -76,7 +76,7 @@ jobs:
       - name: Test packaged game without the source checkout
         working-directory: build
         run: |
-          timeout 30s ./jade-vow --headless -- --smoke-build 2>&1 | tee logs/package.log
+          timeout 30s ./jade-vow --verbose --headless -- --smoke-build 2>&1 | tee logs/package.log
           rg 'JADE_VOW_PACKAGE_OK' logs/package.log
           ! rg 'SCRIPT ERROR:|ERROR:' logs/package.log
       - uses: actions/upload-artifact@v4
