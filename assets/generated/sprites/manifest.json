@@ -1,99 +1,296 @@
 {
+  "version": 2,
+  "generator": "wardrobe-v1",
   "source": "GPT Images",
   "derivation": "mesh sway, breathing, qi aura",
-  "frame_count": 1024,
+  "frame_count": 3072,
   "fps": 16,
   "cell": [
     192,
     512
   ],
-  "characters": {
-    "lin_yue": {
-      "idle": {
-        "path": "assets/generated/sprites/lin_yue_idle.png",
-        "frames": 64,
-        "sha256": "167c0a0eadd1e0c688b8016e958f0e3c2e504c2cf12d91045a072c872822811d"
-      },
-      "channeling": {
-        "path": "assets/generated/sprites/lin_yue_channeling.png",
-        "frames": 64,
-        "sha256": "ee19af47e7dc753808c9406d125942827c0e38cc25ddfd1db4b1e1c5630eaef7"
-      },
-      "wind": {
-        "path": "assets/generated/sprites/lin_yue_wind.png",
-        "frames": 64,
-        "sha256": "e87f26e38a10032f2a490732e4977655a87fa67e383d722b2f03373981eec661"
-      },
-      "resolve": {
-        "path": "assets/generated/sprites/lin_yue_resolve.png",
-        "frames": 64,
-        "sha256": "d3d4f92c7c83dfcdfe000caa70471af7cbb247f991f6d50197181a5c1edd0c12"
+  "catalog_sha256": "e6270eb528b4f2734a4b319a0944fb366fb227e101556af34ef07a60bedc9539",
+  "outfits": {
+    "sect": {
+      "source": "assets/art/cast.png",
+      "source_sha256": "6ea11587934efb42a24b298d8fe750d0fa6f334d5daf07d73485034b55a36287",
+      "characters": {
+        "lin_yue": {
+          "idle": {
+            "path": "assets/generated/sprites/lin_yue_idle.png",
+            "frames": 64,
+            "sha256": "167c0a0eadd1e0c688b8016e958f0e3c2e504c2cf12d91045a072c872822811d"
+          },
+          "channeling": {
+            "path": "assets/generated/sprites/lin_yue_channeling.png",
+            "frames": 64,
+            "sha256": "ee19af47e7dc753808c9406d125942827c0e38cc25ddfd1db4b1e1c5630eaef7"
+          },
+          "wind": {
+            "path": "assets/generated/sprites/lin_yue_wind.png",
+            "frames": 64,
+            "sha256": "e87f26e38a10032f2a490732e4977655a87fa67e383d722b2f03373981eec661"
+          },
+          "resolve": {
+            "path": "assets/generated/sprites/lin_yue_resolve.png",
+            "frames": 64,
+            "sha256": "d3d4f92c7c83dfcdfe000caa70471af7cbb247f991f6d50197181a5c1edd0c12"
+          }
+        },
+        "shen_qing": {
+          "idle": {
+            "path": "assets/generated/sprites/shen_qing_idle.png",
+            "frames": 64,
+            "sha256": "e91f9acd3dd273a95ee13b09ce355e09dba2ca688e61cc1a675d99caf026ef66"
+          },
+          "channeling": {
+            "path": "assets/generated/sprites/shen_qing_channeling.png",
+            "frames": 64,
+            "sha256": "91683b815ca852f80e1f693875e30581dbc63fa57e17b07d8813432cdde4418d"
+          },
+          "wind": {
+            "path": "assets/generated/sprites/shen_qing_wind.png",
+            "frames": 64,
+            "sha256": "cd30238c79238135c91fb9140665c613bd2a80d51fa30263a589065906f779d1"
+          },
+          "resolve": {
+            "path": "assets/generated/sprites/shen_qing_resolve.png",
+            "frames": 64,
+            "sha256": "08e584192c2171929808e943b2f1809c4c048ae9304492eaf5c7c4569a75ece3"
+          }
+        },
+        "elder_yun": {
+          "idle": {
+            "path": "assets/generated/sprites/elder_yun_idle.png",
+            "frames": 64,
+            "sha256": "0198cfe0316ed5956dc69c16c71fbb990c6916af60dc2b9fc102c2db4aa2d2cc"
+          },
+          "channeling": {
+            "path": "assets/generated/sprites/elder_yun_channeling.png",
+            "frames": 64,
+            "sha256": "18c92ada23d58aa3f39947a31a4216a71202e62283df178f6b9530a9a675baf5"
+          },
+          "wind": {
+            "path": "assets/generated/sprites/elder_yun_wind.png",
+            "frames": 64,
+            "sha256": "cad5049cc4f5d0ed8c9db7757b6dc24930ed51814ff6b4f16e708f755fb713ae"
+          },
+          "resolve": {
+            "path": "assets/generated/sprites/elder_yun_resolve.png",
+            "frames": 64,
+            "sha256": "6d3b458601174934d8b625778e2ff00bb610084fec3479f342302fc04bf18200"
+          }
+        },
+        "mo_ran": {
+          "idle": {
+            "path": "assets/generated/sprites/mo_ran_idle.png",
+            "frames": 64,
+            "sha256": "2afbcc232b43e98ebbc75b5203a38b4758d0f2a016bf1f4697a5000d9197d849"
+          },
+          "channeling": {
+            "path": "assets/generated/sprites/mo_ran_channeling.png",
+            "frames": 64,
+            "sha256": "a54cf4f3737d8d31075af233d2c753a2d5afa12c04745cef82e48c0d534f340d"
+          },
+          "wind": {
+            "path": "assets/generated/sprites/mo_ran_wind.png",
+            "frames": 64,
+            "sha256": "466089e7ea155adc7bf2de79c841bec47088a94879a545553a7685574495c0ad"
+          },
+          "resolve": {
+            "path": "assets/generated/sprites/mo_ran_resolve.png",
+            "frames": 64,
+            "sha256": "2cc9b984befbefcb91ca03f226a8f47c2bb306909f80ffe931fa70655c5bbb49"
+          }
+        }
       }
     },
-    "shen_qing": {
-      "idle": {
-        "path": "assets/generated/sprites/shen_qing_idle.png",
-        "frames": 64,
-        "sha256": "e91f9acd3dd273a95ee13b09ce355e09dba2ca688e61cc1a675d99caf026ef66"
-      },
-      "channeling": {
-        "path": "assets/generated/sprites/shen_qing_channeling.png",
-        "frames": 64,
-        "sha256": "91683b815ca852f80e1f693875e30581dbc63fa57e17b07d8813432cdde4418d"
-      },
-      "wind": {
-        "path": "assets/generated/sprites/shen_qing_wind.png",
-        "frames": 64,
-        "sha256": "cd30238c79238135c91fb9140665c613bd2a80d51fa30263a589065906f779d1"
-      },
-      "resolve": {
-        "path": "assets/generated/sprites/shen_qing_resolve.png",
-        "frames": 64,
-        "sha256": "08e584192c2171929808e943b2f1809c4c048ae9304492eaf5c7c4569a75ece3"
+    "training": {
+      "source": "assets/art/cast_training.png",
+      "source_sha256": "49c03fa4227265c590e8b5b6d7f1abc47585a7ab19b526387263f2747f2616a9",
+      "characters": {
+        "lin_yue": {
+          "idle": {
+            "path": "assets/generated/sprites/lin_yue_training_idle.png",
+            "frames": 64,
+            "sha256": "81fea9d07675633dbdc30904b9586d5aa32343423c7b80e675d60037be64efcf"
+          },
+          "channeling": {
+            "path": "assets/generated/sprites/lin_yue_training_channeling.png",
+            "frames": 64,
+            "sha256": "0e4a83d9c6d44eb7bfaae8e40499c0d55dc90891038c817f904f8e67bf857088"
+          },
+          "wind": {
+            "path": "assets/generated/sprites/lin_yue_training_wind.png",
+            "frames": 64,
+            "sha256": "2438efef8f502bc00496536275b462a952696364bd69071c0ab4f609698eb9ba"
+          },
+          "resolve": {
+            "path": "assets/generated/sprites/lin_yue_training_resolve.png",
+            "frames": 64,
+            "sha256": "c902ba641d732fcb3dcb0daf2ba1e481f71c5f5940bdc622476456573c9b268c"
+          }
+        },
+        "shen_qing": {
+          "idle": {
+            "path": "assets/generated/sprites/shen_qing_training_idle.png",
+            "frames": 64,
+            "sha256": "68ee6a55034c68c50160fffa377c51e57e2681415e61be68f9044745d8d2be21"
+          },
+          "channeling": {
+            "path": "assets/generated/sprites/shen_qing_training_channeling.png",
+            "frames": 64,
+            "sha256": "8d26de06478f284fbdb9b6603aaab84fa6422be83845063561cbd2ffdac39047"
+          },
+          "wind": {
+            "path": "assets/generated/sprites/shen_qing_training_wind.png",
+            "frames": 64,
+            "sha256": "61f98a9118e48f0546e65b476715c9fd78fdbe7bae1acbb9a38c789ddc90e190"
+          },
+          "resolve": {
+            "path": "assets/generated/sprites/shen_qing_training_resolve.png",
+            "frames": 64,
+            "sha256": "f1a74284cd81d8f0123ec4e4763ae4f3c2a1cce7fcbaf1e25eb2b30cbbb78e62"
+          }
+        },
+        "elder_yun": {
+          "idle": {
+            "path": "assets/generated/sprites/elder_yun_training_idle.png",
+            "frames": 64,
+            "sha256": "e7c9ddd8557536ac53a4c35982b6cf3b4c69dcf4514cc0dab7a9857ce7c6dee5"
+          },
+          "channeling": {
+            "path": "assets/generated/sprites/elder_yun_training_channeling.png",
+            "frames": 64,
+            "sha256": "062e02d0daa7b43b519f933a494392986c85b4f4c681a6bd00f6842adee714fb"
+          },
+          "wind": {
+            "path": "assets/generated/sprites/elder_yun_training_wind.png",
+            "frames": 64,
+            "sha256": "8d26a1850f1a32834553430fbc35c26f38c04df5b5e314d3c3524e4830c328e2"
+          },
+          "resolve": {
+            "path": "assets/generated/sprites/elder_yun_training_resolve.png",
+            "frames": 64,
+            "sha256": "9c1070f8957dad01a12e6122b989f64af1ffc4de3be8bf4d0f6a550b8884303c"
+          }
+        },
+        "mo_ran": {
+          "idle": {
+            "path": "assets/generated/sprites/mo_ran_training_idle.png",
+            "frames": 64,
+            "sha256": "2745e0920e38ff462d0809eb51b0f4547868f348341b8fe84402795d4b2bf34c"
+          },
+          "channeling": {
+            "path": "assets/generated/sprites/mo_ran_training_channeling.png",
+            "frames": 64,
+            "sha256": "3ace17bedeac0a2e0915b01a5be8b8635b6e2b707812bf40360abc7c7549eb08"
+          },
+          "wind": {
+            "path": "assets/generated/sprites/mo_ran_training_wind.png",
+            "frames": 64,
+            "sha256": "ae815422ca8ff7a9de5d3ec9f52aad76b153970950c195bd89d0b6f9aeb478f7"
+          },
+          "resolve": {
+            "path": "assets/generated/sprites/mo_ran_training_resolve.png",
+            "frames": 64,
+            "sha256": "62b91d489a0461a7438e0d7d9a6ee7f01b60e122a6f5ff54c6e45d0fca4338f6"
+          }
+        }
       }
     },
-    "elder_yun": {
-      "idle": {
-        "path": "assets/generated/sprites/elder_yun_idle.png",
-        "frames": 64,
-        "sha256": "0198cfe0316ed5956dc69c16c71fbb990c6916af60dc2b9fc102c2db4aa2d2cc"
-      },
-      "channeling": {
-        "path": "assets/generated/sprites/elder_yun_channeling.png",
-        "frames": 64,
-        "sha256": "18c92ada23d58aa3f39947a31a4216a71202e62283df178f6b9530a9a675baf5"
-      },
-      "wind": {
-        "path": "assets/generated/sprites/elder_yun_wind.png",
-        "frames": 64,
-        "sha256": "cad5049cc4f5d0ed8c9db7757b6dc24930ed51814ff6b4f16e708f755fb713ae"
-      },
-      "resolve": {
-        "path": "assets/generated/sprites/elder_yun_resolve.png",
-        "frames": 64,
-        "sha256": "6d3b458601174934d8b625778e2ff00bb610084fec3479f342302fc04bf18200"
-      }
-    },
-    "mo_ran": {
-      "idle": {
-        "path": "assets/generated/sprites/mo_ran_idle.png",
-        "frames": 64,
-        "sha256": "2afbcc232b43e98ebbc75b5203a38b4758d0f2a016bf1f4697a5000d9197d849"
-      },
-      "channeling": {
-        "path": "assets/generated/sprites/mo_ran_channeling.png",
-        "frames": 64,
-        "sha256": "a54cf4f3737d8d31075af233d2c753a2d5afa12c04745cef82e48c0d534f340d"
-      },
-      "wind": {
-        "path": "assets/generated/sprites/mo_ran_wind.png",
-        "frames": 64,
-        "sha256": "466089e7ea155adc7bf2de79c841bec47088a94879a545553a7685574495c0ad"
-      },
-      "resolve": {
-        "path": "assets/generated/sprites/mo_ran_resolve.png",
-        "frames": 64,
-        "sha256": "2cc9b984befbefcb91ca03f226a8f47c2bb306909f80ffe931fa70655c5bbb49"
+    "festival": {
+      "source": "assets/art/cast_festival.png",
+      "source_sha256": "94353b5d9021b87eaf35025926da2fe99f37b96b57fb763f0cb95cd522df0a41",
+      "characters": {
+        "lin_yue": {
+          "idle": {
+            "path": "assets/generated/sprites/lin_yue_festival_idle.png",
+            "frames": 64,
+            "sha256": "3a45065ad6656176654c1ba317f856da5ff33defbcae65b258754a859ce7da10"
+          },
+          "channeling": {
+            "path": "assets/generated/sprites/lin_yue_festival_channeling.png",
+            "frames": 64,
+            "sha256": "40148dfa29eec959a7febd306dcf03d7feadca994532138682fbacfc583dff64"
+          },
+          "wind": {
+            "path": "assets/generated/sprites/lin_yue_festival_wind.png",
+            "frames": 64,
+            "sha256": "5348193d575b9a46b806210c614283d1fd10d9f45f7db2c81090ec1818d9fced"
+          },
+          "resolve": {
+            "path": "assets/generated/sprites/lin_yue_festival_resolve.png",
+            "frames": 64,
+            "sha256": "f040a76699bb019884ccb6bf0939035133ed031a17bc378c39792bee15b51f16"
+          }
+        },
+        "shen_qing": {
+          "idle": {
+            "path": "assets/generated/sprites/shen_qing_festival_idle.png",
+            "frames": 64,
+            "sha256": "fa79aa24ef5ac537b7db3e876447564da6b317acee4b8335d892c047b60ee917"
+          },
+          "channeling": {
+            "path": "assets/generated/sprites/shen_qing_festival_channeling.png",
+            "frames": 64,
+            "sha256": "977c5fa8143e60d2c36e5fd2fefc24a55691f88715c1d2b45aa76d73db0b7114"
+          },
+          "wind": {
+            "path": "assets/generated/sprites/shen_qing_festival_wind.png",
+            "frames": 64,
+            "sha256": "d086dbbf3b09d4ab3b036b9cedabe4e58ddf787b9f43eaef60226d45228a629c"
+          },
+          "resolve": {
+            "path": "assets/generated/sprites/shen_qing_festival_resolve.png",
+            "frames": 64,
+            "sha256": "babfc2021a7b24a015b97b78756e3af83f1d4673d88f577bfeb0cca84464c0a3"
+          }
+        },
+        "elder_yun": {
+          "idle": {
+            "path": "assets/generated/sprites/elder_yun_festival_idle.png",
+            "frames": 64,
+            "sha256": "3b3319b6afe8bf2ed9e0fb03276f211a6d5675002788b7b69a86712ee098c074"
+          },
+          "channeling": {
+            "path": "assets/generated/sprites/elder_yun_festival_channeling.png",
+            "frames": 64,
+            "sha256": "c83fae677b0106a8b0d6d262f0fddaa0f4a5e1bfa96966fd6925ba33b6d6331d"
+          },
+          "wind": {
+            "path": "assets/generated/sprites/elder_yun_festival_wind.png",
+            "frames": 64,
+            "sha256": "3ad8a2b5e49d5c986d7ff7be464342e355842053a2035f15c377a57d2e62422b"
+          },
+          "resolve": {
+            "path": "assets/generated/sprites/elder_yun_festival_resolve.png",
+            "frames": 64,
+            "sha256": "74f2238cd406d10e642e61474dd962ea51e56ac6297feba7f75165fe3752ebc2"
+          }
+        },
+        "mo_ran": {
+          "idle": {
+            "path": "assets/generated/sprites/mo_ran_festival_idle.png",
+            "frames": 64,
+            "sha256": "e8b4966ad991e7735c0f2b74dde7013dce8be9377becb67ef6693bea3d4166d6"
+          },
+          "channeling": {
+            "path": "assets/generated/sprites/mo_ran_festival_channeling.png",
+            "frames": 64,
+            "sha256": "92ab12fb81a5c1f3e135a50e9cf29e4430ae3d00ea58608d6262ede7d3e7d6fa"
+          },
+          "wind": {
+            "path": "assets/generated/sprites/mo_ran_festival_wind.png",
+            "frames": 64,
+            "sha256": "78f95a294641f4939d18cf1a98705fdf63f4eaf573455a9c9c2eb10001e566ea"
+          },
+          "resolve": {
+            "path": "assets/generated/sprites/mo_ran_festival_resolve.png",
+            "frames": 64,
+            "sha256": "69cc79ece4b2393185c6f5c50ee9e2e6c5e5c68448f459d2d99bf9e4daddf33c"
+          }
+        }
       }
     }
   }
