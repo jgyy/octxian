@@ -61,6 +61,8 @@ func _ready() -> void:
 	_title()
 	if OS.get_cmdline_user_args().has("--capture"):
 		call_deferred("_capture")
+	elif OS.get_cmdline_user_args().has("--smoke-build"):
+		call_deferred("_smoke_build")
 
 func _build_theme() -> void:
 	var font := SystemFont.new()
@@ -536,3 +538,19 @@ func _quit_game() -> void:
 	audio.shutdown()
 	await get_tree().create_timer(0.25).timeout
 	get_tree().quit()
+
+func _smoke_build() -> void:
+	_begin()
+	state.current = "first_choice"
+	_scene()
+	dialogue.visible_characters = -1
+	_choose(0)
+	var valid: bool = state.current == "trust" and audio.voice.stream != null
+	valid = valid and actor.sprite.sprite_frames.get_frame_count("cycle") == 64
+	audio.shutdown()
+	await get_tree().create_timer(0.25).timeout
+	if valid:
+		print("JADE_VOW_PACKAGE_OK: standalone story, animated art and narration")
+	else:
+		push_error("Packaged assets or story failed to load")
+	get_tree().quit(0 if valid else 1)

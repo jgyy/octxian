@@ -76,6 +76,8 @@ flowchart TD
 
 CI checks asset counts and uniqueness, audio hashes and narration coverage, every story route and ending, save corruption handling, actual UI navigation, all 16 animation cycles, settings and reduced motion. It imports and runs Godot, renders screenshots under Xvfb, and exports a playable Linux package.
 
+CI also launches the packaged game from a folder without the source checkout and checks that its story, animation, and narration load. Godot's license and third-party notices accompany the Linux package.
+
 The feature branch's bundle job adds verified assets and screenshots in a separate small commit. PR checks only read repository contents; they do not push to branches.
 
 ## License
