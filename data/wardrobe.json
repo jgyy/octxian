@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "characters": [
     "lin_yue",
     "shen_qing",
@@ -19,19 +19,22 @@
       "id": "sect",
       "name": "Sect Robes",
       "description": "Traditional layered silk robes.",
-      "source": "assets/art/cast.png"
+      "source": "assets/art/cast.png",
+      "poses": "assets/art/poses_sect.png"
     },
     {
       "id": "training",
       "name": "Light Training",
       "description": "Sleeveless wraps, open vests, bare waists and split skirts.",
-      "source": "assets/art/cast_training.png"
+      "source": "assets/art/cast_training.png",
+      "poses": "assets/art/poses_training.png"
     },
     {
       "id": "festival",
       "name": "Moon Festival",
       "description": "Open shoulders and backs, decorative silk and high side slits.",
-      "source": "assets/art/cast_festival.png"
+      "source": "assets/art/cast_festival.png",
+      "poses": "assets/art/poses_festival.png"
     }
   ]
 }
