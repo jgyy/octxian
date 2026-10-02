@@ -1462,7 +1462,7 @@
       "speaker": "mo_ran",
       "actor": "mo_ran",
       "text": "I authorize return to the north landing, provided the pilot finds a berth safe for both boats and the Eel accepts the revised line. That permission is mine alone. An Ru may witness the document; she may not hear the echo through it. I would rather carry my own unfinished account than leave the spirit carrying an instruction nobody can fulfill.",
-      "next": "ending_river_return",
+      "next": "return_berth",
       "chapter": "book_iii",
       "background": "north_landing",
       "effect": "rain"
@@ -1470,7 +1470,7 @@
     "ending_river_return": {
       "speaker": "narrator",
       "actor": "wei_xiu",
-      "text": "They wrote a return line with a place that still existed. Mo Ran's ring released its echo into a sealed reed case at the landing. He did not open it that evening. The Eel held the other rings in a quiet reach, and letters went upriver to their owners. One crossing had ended. The remaining promises had acquired people responsible for asking about them.",
+      "text": "Mo Ran carried a sealed case from the north landing. Luo Fen's ring waited for her named berth; the third remained closed while the records were searched. The Eel no longer circled the vanished stair. Before leaving, Lin Yue checked the mooring pin Wei Xiu had replaced. One crossing had ended. The remaining promises had a place to rest and people responsible for asking about them.",
       "ending": "The Owner's Shore",
       "chapter": "book_iii",
       "background": "north_landing",
@@ -1508,6 +1508,156 @@
       "actor": "wei_xiu",
       "text": "In the sheltered reach, the ferry stopped circling. The Eel kept its rings closed while letters traveled upstream. Su Lan's clapper sounded only when a crew agreed to take a watch. Lin Yue wrote the unpaid costs before she wrote a promise to cover them. The first answer arrived after eight days. It asked a question. This time there was a place to ask it.",
       "ending": "The Harbor That Could Wait",
+      "chapter": "book_iii",
+      "background": "north_landing",
+      "effect": "none"
+    },
+    "return_berth": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Wei Xiu brought the ordinary boat alongside the landing without inviting the old ferry after it. She tested two mooring posts; one moved under her hand. Lin Yue had been preparing the words of a new covenant. Now she held a hammer while the pilot replaced a rotten pin. The spirit waited beyond the marker, keeping the boat still enough for its own fins to shake.",
+      "next": "return_cost",
+      "chapter": "book_iii",
+      "background": "north_landing",
+      "effect": "rain"
+    },
+    "return_cost": {
+      "speaker": "wei_xiu",
+      "actor": "wei_xiu",
+      "text": "The berth is sound now. It was sound because we checked it, not because someone wrote that it ought to be. Your new return line needs a person who can refuse a landing when conditions change. I can do that this month. In summer I work upriver. Put the next pilot's duty beside mine, or this paper will become another vanished stair.",
+      "next": "return_witness",
+      "chapter": "book_iii",
+      "background": "north_landing",
+      "effect": "rain"
+    },
+    "return_witness": {
+      "speaker": "an_ru",
+      "actor": "an_ru",
+      "text": "Su Lan sent for me; I came with the old landing book. Mo Ran's receipt matches its entry. There are three entrusted echoes, not a hold full of them. One belongs to Mo Ran. Another belongs to Luo Fen, a living carpenter at Willow Reach. The third owner's receipt remains sealed in its ring. The book lost that page before I received it.",
+      "next": "return_unknown",
+      "chapter": "book_iii",
+      "background": "north_landing",
+      "effect": "rain"
+    },
+    "return_unknown": {
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "Then we can make a rule for the third ring without inventing an owner. No one hears it. No one claims it because nobody answers a letter. We record the broken chain of custody and ask the upstream landing to search its copies. Does that give you a promise you can keep, Eel, or does it move the impossible stair into a book?",
+      "next": "return_limit",
+      "chapter": "book_iii",
+      "background": "north_landing",
+      "effect": "rain"
+    },
+    "return_limit": {
+      "speaker": "mooring_eel",
+      "actor": "mooring_eel",
+      "text": "I can keep a closed ring in sheltered water without carrying the ferry around it. The circuit costs me more than the echo does. But I cannot name a stranger by looking at a sound I have no permission to hear. Give me a place where closed things may remain closed, and someone who will ask the question again when you leave.",
+      "next": "return_custodian",
+      "chapter": "book_iii",
+      "background": "north_landing",
+      "effect": "rain"
+    },
+    "return_custodian": {
+      "speaker": "su_lan",
+      "actor": "su_lan",
+      "text": "I will be the first contact at this landing. An Ru will keep the record; neither of us can replace the owner. If I leave or die, the work must pass through an explicit acceptance, not through my house keys. I learned that from the bell. A person can refuse a duty they inherit without abandoning the people who depend on it.",
+      "next": "return_safety_choice",
+      "chapter": "book_iii",
+      "background": "north_landing",
+      "effect": "rain"
+    },
+    "return_safety_choice": {
+      "speaker": "mo_ran",
+      "actor": "mo_ran",
+      "text": "For my own ring, I can accept the echo today or request that it remain sealed here until I am ready. I will not use unreadiness to make the keeper wait without support. I have money for a watch and hands for a mooring rope. Yue, help me choose how to take responsibility without making courage into a performance.",
+      "chapter": "book_iii",
+      "background": "north_landing",
+      "effect": "rain",
+      "choices": [
+        {
+          "text": "Return the sealed case now; Mo Ran decides when to open it.",
+          "next": "return_now",
+          "effects": {
+            "trust": 1
+          }
+        },
+        {
+          "text": "Reserve a supported watch and a date to reconsider.",
+          "next": "return_later",
+          "effects": {
+            "resolve": 1
+          }
+        }
+      ]
+    },
+    "return_now": {
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "Receiving it is not the same as displaying it. Let the ring close around a reed case. Mo Ran will carry the case; everyone else will sign only that we saw the return happen. The contents remain his. If he asks us to hear them later, that will be another decision, made with people who can still say no.",
+      "next": "return_now_cost",
+      "chapter": "book_iii",
+      "background": "north_landing",
+      "effect": "rain"
+    },
+    "return_now_cost": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "An Ru found a clean reed case in her satchel. Mo Ran held it between both hands while the Eel touched its rim with a bronze ring. No voice escaped. The case grew heavier by less than a mouthful of water. Lin Yue signed the return line and noticed how little ink it took to make a boundary that people had spent eleven years avoiding.",
+      "next": "return_common",
+      "chapter": "book_iii",
+      "background": "north_landing",
+      "effect": "rain"
+    },
+    "return_later": {
+      "speaker": "mo_ran",
+      "actor": "mo_ran",
+      "text": "Eight days, then we ask again. I will pay for a harbor watch during that time. If the keeper cannot bear another day, the case can come to me sealed before the date. Waiting is a request I can make; it is not an order I can give the river. Put that beside my name, where I will have to read it.",
+      "next": "return_later_cost",
+      "chapter": "book_iii",
+      "background": "north_landing",
+      "effect": "rain"
+    },
+    "return_later_cost": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "They arranged the watch before accepting payment. Two crew members volunteered; a third declined because her father needed care. Wei Xiu wrote a replacement turn herself. The Eel brought the ring to the sheltered side of the marker and rested. On the eighth day, Mo Ran received the sealed case. Nobody applauded. A crew member handed him a bowl of rice that had gone cold.",
+      "next": "return_common",
+      "chapter": "book_iii",
+      "background": "north_landing",
+      "effect": "rain"
+    },
+    "return_common": {
+      "speaker": "an_ru",
+      "actor": "an_ru",
+      "text": "The other two rings remain under separate agreements. Luo Fen may authorize a place of return in her reply. The unidentified ring stays sealed while the copies are searched. Today's document changes no owner's permission except Mo Ran's. I have written that four times because readers tend to mistake an example for a rule that already includes them.",
+      "next": "return_moran",
+      "chapter": "book_iii",
+      "background": "north_landing",
+      "effect": "none"
+    },
+    "return_moran": {
+      "speaker": "mo_ran",
+      "actor": "mo_ran",
+      "text": "I used to think preserving this echo was proof that I had been right about the star. It also preserved a night when I heard suffering and went home. Both are true. I may ask you to listen someday, Yue. Today I would rather learn what to do with the part of my life that cannot be settled by proving someone else wrong.",
+      "next": "return_yue",
+      "chapter": "book_iii",
+      "background": "north_landing",
+      "effect": "none"
+    },
+    "return_yue": {
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "Then we can mend the boat before you decide. I came here expecting another seal to break. Instead, you handed me a hammer. The star's freedom did not make us experts in every kind of waiting. I am beginning to think a promise needs more than a beautiful last sentence. It needs somebody who knows which mooring post is rotten.",
+      "next": "return_letter",
+      "chapter": "book_iii",
+      "background": "north_landing",
+      "effect": "none"
+    },
+    "return_letter": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Luo Fen's reply arrived in the hand of a fish seller: she wanted her echo returned at the high-bank landing and did not permit anyone else to hear it. An Ru entered the request. The missing page would take longer to find. The Eel slept between watches, its bronze rings resting against wood rather than turning endlessly beneath a ferry.",
+      "next": "ending_river_return",
       "chapter": "book_iii",
       "background": "north_landing",
       "effect": "none"
