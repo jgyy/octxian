@@ -24,7 +24,7 @@ The generated manifest records source, catalog, builder-code, and portrait SHA-2
 
 Music and sound effects are original deterministic synthesis. Neural narration uses Piper's Lessac model; its source, hash, and upstream model card are bundled with generated voices. No person's voice is cloned. All characters share one narrator timbre with different pacing.
 
-## Book II native paintings
+## World native paintings
 
 GPT Images generated these original assets during this expansion:
 
@@ -35,7 +35,17 @@ GPT Images generated these original assets during this expansion:
 | `world/wei_jin.png` | 1024×1536 | Adult ferryman, intact full-body sprite with alpha |
 | `world/an_ru.png` | 1024×1536 | Adult archivist, intact full-body sprite with alpha |
 | `world/reed_listener.png` | 1024×1536 | Spirit beast carrying salt reeds and a bell, sprite with alpha |
+| `world/valley_archive.png` | 1672×941 | Original ledgers, copied records, and lamplit archive interior |
+| `world/north_landing.png` | 1672×941 | Spring rain at Wei Xiu's ferry jetty |
+| `world/bell_tower_square.png` | 1672×941 | Autumn public square facing grounded ridges |
+| `world/sheltered_reach.png` | 1672×941 | High-bank mooring, willows, and resting empty ferry |
+| `world/wei_xiu.png` | 1024×1536 | Adult ferry pilot and stone carver, sprite with alpha |
+| `world/mooring_eel.png` | 1024×1536 | River spirit with bronze rings, sprite with alpha |
+| `world/bronze_clapper.png` | 1024×1536 | Detached bronze clapper and red cord, item with alpha |
+| `world/sealed_echo_case.png` | 1536×1024 | Reed case, closed mooring ring, and folded receipt, item with alpha |
 
 The files are the image tool's native PNG outputs and have not been upscaled. Native alpha and dimensions are validated in CI. They are new drawings, not recolors or copies of the existing cast. The image tool was asked for its highest native resolution; these are the returned dimensions, not a claim that a larger raster size contains more original detail.
 
-The requested final inventory is 100 new assets in each category. This draft delivers one background, three human NPCs, and one monster. See `data/world_assets.json` and `docs/EXPANSION.md` for exact counts and remaining scope.
+The requested final inventory is 100 new assets in each category. This draft delivers five backgrounds, four human NPCs, two monsters, and two additional item paintings. See `data/world_assets.json` and `docs/EXPANSION.md` for exact counts and remaining scope.
+
+The original Salt Lantern Valley view depicts the period before Azure Cloud's fate is decided. Shared later scenes use the bell-tower square, whose framing does not assume the mountain remains aloft. None of the new paintings is an atlas crop. Native sprites and items are displayed with uniform scaling.
