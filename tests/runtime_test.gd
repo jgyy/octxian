@@ -128,7 +128,7 @@ func _run() -> void:
 
 	game.state.history.append({"speaker": "narrator", "text": "[b]literal[/b]"})
 	game._journal()
-	var logs := game.popup.find_children("*", "RichTextLabel", true, false)
+	var logs: Array[Node] = game.popup.find_children("*", "RichTextLabel", true, false)
 	check(logs.size() == 1 and logs[0].get_parsed_text().contains("[b]literal[/b]"), "Journal must preserve prose rather than interpret markup")
 	game._close_popup()
 	game.state.history.pop_back()
