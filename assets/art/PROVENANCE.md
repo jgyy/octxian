@@ -1,23 +1,25 @@
 # Art provenance
 
-`cast.png`, `cast_training.png`, `cast_festival.png`, and `azure_cloud.png` were created
-with GPT Images for Jade Vow on 2026-10-02.
+GPT Images created the following source images for Jade Vow on 2026-10-02:
 
-Each cast atlas contains the same four adult characters: Lin Yue, Shen Qing, Elder Yun,
-and Mo Ran. The original Sect Robes are complemented by Light Training and Moon Festival
-clothing. The new outfits show more shoulders, arms, chest, back, waist, or legs through
-sleeveless cuts, open martial vests, halter bodices, off-shoulder draping, and skirt slits.
+| Source | Contents |
+|---|---|
+| `cast.png` | Four adult characters in Sect Robes |
+| `cast_training.png` | Four Light Training outfit references |
+| `cast_festival.png` | Four Moon Festival outfit references |
+| `poses_sect.png` | Two distinct gesture poses for each character in Sect Robes |
+| `poses_training.png` | Two distinct gesture poses for each character in Light Training clothing |
+| `poses_festival.png` | Two distinct gesture poses for each character in Moon Festival clothing |
+| `azure_cloud.png` | Mountain-sect environment |
 
-The two new cast atlases were generated as GPT image edits using the previous cast artwork
-as identity references. The game offers 12 character/outfit appearances, not 12 new characters.
+The cast is Lin Yue, Shen Qing, Elder Yun, and Mo Ran. All are adults. The outfit references and pose sheets use previous GPT artwork to maintain their identities. Light Training and Moon Festival show more shoulders, arms, chest, back, waist, or legs through sleeveless cuts, open martial vests, halter bodices, off-shoulder draping, and skirt slits.
 
-Each appearance has 64 distinct frames for each of four motions: idle breathing, qi
-channeling, wind sway, and resolve. Total: **3,072 animation frames** in 48 atlas PNGs.
+There are twelve character/outfit appearances and **24 GPT-drawn animation key poses**. Each pose sheet has four columns and two rows: a resting gesture and a raised cultivation gesture.
 
-Frames are derived from GPT artwork through image deformation and particles. They are not
-3,072 independent GPT image requests or hand-drawn poses. Every outfit supports actual
-AnimatedSprite2D playback at 16 fps, including in the wardrobe gallery.
+The frame baker extracts a stable body portrait and upper-arm, forearm, and palm cutouts. The alternate pose supplies the moving limb textures and a donor clothing plate beneath the resting arm. Arm segments articulate along a curved hand path; the palm rotates with the forearm. Head tilt and hair/cloth deformation add secondary motion. Premultiplied alpha preserves the cutout edges.
 
-Music and sound effects are original deterministic synthesis. Neural narration uses Piper's
-Lessac model; its source, hash, and upstream model card are bundled with generated voices.
-No person's voice is cloned. All characters share one narrator timbre with different pacing.
+Each appearance has four 64-frame cycles: idle, channeling, wind, and resolve. Total: **3,072 computed frames** in 48 PNG atlases, played by Godot at 16 fps. These are derived frames, not 3,072 independent GPT image requests. The game does not perform lip sync.
+
+The generated manifest records source, catalog, rig, baker-code, and atlas SHA-256 hashes. GIFs and frame comparison sheets under `docs/animations` show the actual output; `rendered_game.gif` samples the running Godot viewport.
+
+Music and sound effects are original deterministic synthesis. Neural narration uses Piper's Lessac model; its source, hash, and upstream model card are bundled with generated voices. No person's voice is cloned. All characters share one narrator timbre with different pacing.

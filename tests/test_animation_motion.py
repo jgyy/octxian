@@ -3,6 +3,7 @@ import pathlib
 import sys
 import unittest
 
+import cv2
 import numpy as np
 from PIL import Image, ImageDraw
 
@@ -37,6 +38,14 @@ class VisibleMotionTests(unittest.TestCase):
         shifted = Image.new("RGBA", source.size)
         shifted.alpha_composite(source, (2, 2))
         self.rejected(source, shifted)
+
+    def test_previous_breathing_and_wind_mesh(self):
+        source = figure()
+        yy, xx = np.mgrid[:source.height, :source.width].astype(np.float32)
+        sample_x = (xx - source.width / 2) / 1.008 + source.width / 2
+        sample_x -= 5.0 * (0.1 + yy / source.height) ** 2
+        shifted = cv2.remap(np.asarray(source), sample_x, yy - 2.2, cv2.INTER_LINEAR)
+        self.rejected(source, Image.fromarray(shifted))
 
     def test_whole_portrait_panning(self):
         source = figure()
