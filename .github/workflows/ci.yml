@@ -1,0 +1,149 @@
+name: Godot CI
+on:
+  push:
+    branches: [main, feat/jade-vow-godot]
+  pull_request:
+  workflow_dispatch:
+defaults:
+  run:
+    shell: bash
+permissions:
+  contents: read
+concurrency:
+  group: godot-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  game:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install render and generation dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y xvfb libgl1-mesa-dri ripgrep
+          python -m pip install -r requirements.txt
+      - uses: actions/cache@v4
+        with:
+          path: .cache
+          key: jade-vow-godot-4.7.2-piper-lessac-v1
+      - name: Install verified Godot 4.7.2
+        run: python tools/bootstrap_godot.py
+      - name: Reject static animation and ghosted moving palms
+        run: python -m unittest discover -s tests -p 'test_animation_*.py'
+      - name: Bake all clothing variants and compose score and effects
+        run: python tools/build_assets.py
+      - name: Generate neural narration for all scenes
+        run: python tools/generate_voices.py
+      - name: Verify animation counts, unique frames and audio provenance
+        run: python tools/validate_assets.py
+      - name: Render animation GIFs and frame contact sheets
+        run: python tools/preview_animations.py
+      - name: Import project
+        run: |
+          mkdir -p build/logs
+          .cache/godot/Godot_v4.7.2-stable_linux.x86_64 --headless --path . --editor --import 2>&1 | tee build/logs/import.log
+          ! rg 'SCRIPT ERROR:|Parse Error:|ERROR:' build/logs/import.log
+      - name: Validate every story route and saves
+        run: |
+          timeout 90s .cache/godot/Godot_v4.7.2-stable_linux.x86_64 --headless --path . --script tests/story_test.gd 2>&1 | tee build/logs/story.log
+          rg 'JADE_VOW_STORY_TESTS_OK' build/logs/story.log
+          ! rg 'SCRIPT ERROR:|ERROR:' build/logs/story.log
+      - name: Test UI, every animation cycle and accessibility
+        run: |
+          timeout 90s .cache/godot/Godot_v4.7.2-stable_linux.x86_64 --verbose --headless --path . --script tests/runtime_test.gd 2>&1 | tee build/logs/runtime.log
+          rg 'JADE_VOW_RUNTIME_TESTS_OK' build/logs/runtime.log
+          ! rg 'SCRIPT ERROR:|ERROR:' build/logs/runtime.log
+      - name: Capture actual rendered game screenshots
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+        run: |
+          timeout 90s xvfb-run -a .cache/godot/Godot_v4.7.2-stable_linux.x86_64 --path . --audio-driver Dummy -- --capture 2>&1 | tee build/logs/capture.log
+          rg 'JADE_VOW_CAPTURE_OK' build/logs/capture.log
+          ! rg 'SCRIPT ERROR:|ERROR:' build/logs/capture.log
+          python tools/verify_screenshots.py
+      - name: Package a playable Linux build
+        run: |
+          .cache/godot/Godot_v4.7.2-stable_linux.x86_64 --headless --path . --export-pack Linux build/jade-vow.pck 2>&1 | tee build/logs/export.log
+          ! rg 'SCRIPT ERROR:|ERROR:' build/logs/export.log
+          test -s build/jade-vow.pck
+          cp .cache/godot/Godot_v4.7.2-stable_linux.x86_64 build/jade-vow
+          cp LICENSE assets/generated/voices/MODEL_CARD docs/GODOT_LICENSE.txt docs/GODOT_COPYRIGHT.txt build/
+          tar -czf build/jade-vow-linux.tar.gz -C build jade-vow jade-vow.pck LICENSE MODEL_CARD GODOT_LICENSE.txt GODOT_COPYRIGHT.txt
+      - name: Test packaged game without the source checkout
+        working-directory: build
+        env:
+          LIBGL_ALWAYS_SOFTWARE: '1'
+        run: |
+          timeout 30s xvfb-run -a ./jade-vow --verbose --audio-driver Dummy -- --smoke-build 2>&1 | tee logs/package.log
+          rg 'JADE_VOW_PACKAGE_OK' logs/package.log
+          ! rg 'SCRIPT ERROR:|ERROR:' logs/package.log
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: jade-vow-validation
+          path: |
+            build/logs
+            build/screenshots
+            build/animations
+          if-no-files-found: warn
+      - uses: actions/upload-artifact@v4
+        with:
+          name: jade-vow-linux
+          path: build/jade-vow-linux.tar.gz
+      - uses: actions/upload-artifact@v4
+        with:
+          name: jade-vow-generated-assets
+          path: assets/generated
+  bundle:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/feat/jade-vow-godot'
+    needs: game
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: feat/jade-vow-godot
+          fetch-depth: 0
+      - uses: actions/download-artifact@v4
+        with:
+          name: jade-vow-generated-assets
+          path: assets/generated
+      - uses: actions/download-artifact@v4
+        with:
+          name: jade-vow-validation
+          path: build
+      - name: Bundle verified assets and screenshots on the feature branch
+        env:
+          EXPECTED_SHA: ${{ github.sha }}
+        run: |
+          test "$(git rev-parse HEAD)" = "$EXPECTED_SHA"
+          git add -f assets/generated
+          missing_capture=false
+          for capture in title dialogue cast wardrobe_training wardrobe_festival outfit_dialogue; do
+            if [ ! -s "docs/screenshots/$capture.png" ] || [ ! -s "docs/screenshots/$capture.jpg" ]; then
+              missing_capture=true
+            fi
+          done
+          if [ ! -s docs/animations/motions.gif ]; then
+            missing_capture=true
+          fi
+          if git diff --cached --quiet && [ "$missing_capture" = false ]; then
+            echo "Verified assets and wardrobe screenshots are already bundled."
+            exit 0
+          fi
+          mkdir -p docs/screenshots docs/animations
+          cp build/animations/*.gif build/animations/*.jpg build/animations/*.json docs/animations/
+          cp build/screenshots/*.png build/screenshots/*.jpg docs/screenshots/
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f assets/generated docs/screenshots docs/animations
+          if ! git diff --cached --quiet; then
+            git commit -m "assets: bundle visible gesture animations, GIF previews and game screenshots"
+            git push origin HEAD:feat/jade-vow-godot
+          fi
