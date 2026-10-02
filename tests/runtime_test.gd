@@ -8,25 +8,6 @@ func check(condition: bool, message: String) -> void:
 		push_error(message)
 
 
-func _pose_difference(frames: SpriteFrames) -> float:
-	var first := frames.get_frame_texture("cycle", 0).get_image()
-	var opposite := frames.get_frame_texture("cycle", 32).get_image()
-	if first == null or opposite == null:
-		return 0.0
-	var body := 0
-	var changed := 0
-	for y in range(0, floori(first.get_height() * 0.60), 4):
-		for x in range(0, first.get_width(), 4):
-			var a := first.get_pixel(x, y)
-			var b := opposite.get_pixel(x, y)
-			if maxf(a.a, b.a) < 0.63:
-				continue
-			body += 1
-			var delta := Vector3(a.r * a.a - b.r * b.a, a.g * a.a - b.g * b.a, a.b * a.a - b.b * b.a)
-			if delta.length_squared() > 3.0 * pow(24.0 / 255.0, 2):
-				changed += 1
-	return float(changed) / maxf(body, 1)
-
 func _initialize() -> void:
 	call_deferred("_run")
 
@@ -57,7 +38,7 @@ func _run() -> void:
 	check(game.popup != null, "Journal should open")
 	game._close_popup()
 	game._motion_changed(true)
-	check(not game.atmosphere.enabled and game.actor.sprite.speed_scale == 0.0, "Reduced motion should stop animation")
+	check(not game.atmosphere.enabled and game.actor.reduced_motion and game.actor.sprite.position.is_zero_approx(), "Reduced motion should stop animation")
 	game._motion_changed(false)
 	game._toggle_voice()
 	check(not game.audio.enabled, "Voice toggle should disable narration")
@@ -73,7 +54,7 @@ func _run() -> void:
 	check(game.actor.outfit == "training", "Current scene should use the chosen outfit immediately")
 	check(game.wardrobe_previews["shen_qing"].outfit == "training", "Preview should use the chosen outfit")
 	check(game.state.current == before_node and game.state.stats == before_stats, "Clothing changes must preserve the story")
-	check(game.wardrobe_previews["shen_qing"].sprite.is_playing(), "Clothing previews must animate")
+	check(not game.wardrobe_previews["shen_qing"].reduced_motion, "Clothing previews must animate")
 	game._set_outfit("lin_yue", "festival")
 	var settings := ConfigFile.new()
 	check(settings.load("user://settings.cfg") == OK, "Wardrobe preferences should be saved")
@@ -91,7 +72,7 @@ func _run() -> void:
 	check(game.actor.outfit == "training", "Selected clothing should survive scene rebuilds")
 	game._motion_changed(true)
 	game._cast()
-	check(game.wardrobe_previews["lin_yue"].sprite.speed_scale == 0.0, "Reduced motion should stop wardrobe previews")
+	check(game.wardrobe_previews["lin_yue"].reduced_motion, "Reduced motion should stop wardrobe previews")
 	game._close_popup()
 	game._motion_changed(false)
 	game._title()
@@ -102,12 +83,27 @@ func _run() -> void:
 			for motion in game.actor.LOOPS:
 				game.actor.show_character(id, motion, str(clothing["id"]))
 				check(game.actor.outfit == clothing["id"], "Every character outfit should load")
-				check(game.actor.sprite.sprite_frames.get_frame_count("cycle") == 64, "Every outfit/motion must have 64 real frames")
-				check(game.actor.sprite.is_playing(), "Every outfit must animate")
-				check(_pose_difference(game.actor.sprite.sprite_frames) >= 0.12, "%s/%s/%s must visibly change its upper-body pose" % [id, clothing["id"], motion])
+				var portrait: Texture2D = game.actor.sprite.texture
+				check(portrait != null and portrait.get_size() == Vector2(384, 512), "Every outfit must load one intact portrait")
+				game.actor.set_process(false)
+				game.actor.reset_motion()
+				game.actor._process(1.0)
+				var high: float = game.actor.sprite.position.y
+				game.actor._process(2.0)
+				var low: float = game.actor.sprite.position.y
+				check(high > 0.0 and low < 0.0 and absf(high) <= 12.0, "%s/%s/%s must gently bob the whole body" % [id, clothing["id"], motion])
+				check(game.actor.sprite.texture == portrait and game.actor.sprite.rotation == 0.0, "Bobbing must preserve the complete portrait")
+				game.actor._process(1.0)
+				check(game.actor.sprite.position.is_zero_approx(), "The body bob must loop smoothly")
+				game.actor.set_reduced_motion(true)
+				game.actor._process(1.0)
+				check(game.actor.sprite.position.is_zero_approx(), "Reduced motion must leave the body at rest")
+				game.actor.set_reduced_motion(false)
+				game.actor.set_process(true)
 				await process_frame
+	game.actor.reset_motion()
 	await create_timer(0.2).timeout
-	check(game.actor.sprite.frame > 0, "Actual sprite playback should advance animation frames")
+	check(absf(game.actor.sprite.position.y) > 0.1, "Actual playback should move the complete portrait")
 	game.audio.shutdown()
 	await create_timer(0.25).timeout
 	DirAccess.remove_absolute("user://settings.cfg")
@@ -117,5 +113,5 @@ func _run() -> void:
 	scene = null
 	await process_frame
 	if failures.is_empty():
-		print("JADE_VOW_RUNTIME_TESTS_OK: UI, saved wardrobes, accessibility, voices and 48 animated outfit cycles")
+		print("JADE_VOW_RUNTIME_TESTS_OK: UI, saved wardrobes, accessibility, voices and 48 whole-body bob combinations")
 	call_deferred("quit", 0 if failures.is_empty() else 1)

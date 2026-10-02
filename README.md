@@ -1,6 +1,6 @@
 # Jade Vow
 
-[![Godot CI](https://github.com/jgyy/octxian/actions/workflows/ci.yml/badge.svg?branch=feat%2Fjade-vow-godot)](https://github.com/jgyy/octxian/actions/workflows/ci.yml)
+[![Godot CI](https://github.com/jgyy/octxian/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/jgyy/octxian/actions/workflows/ci.yml)
 
 An original xianxia visual novel built in **Godot 4.7.2 stable**, the latest stable release verified on 2026-10-02.
 
@@ -52,7 +52,7 @@ The four adult characters each have all three options. Gallery previews animate,
 
 ## Animation in motion
 
-The PNG files are sprite atlases: each contains an 8×8 sequence of frames. Godot plays them at 16 fps. These previews play the actual generated frames:
+Each character and outfit uses one intact portrait. Godot gently moves the whole body up and down in a four-second loop. These previews use the same portraits and bob settings:
 
 ![Animated Sect Robes](docs/animations/sect.gif)
 
@@ -62,20 +62,20 @@ The following recording samples the running Godot viewport, with background moti
 
 ![In-game character animation](docs/animations/rendered_game.gif)
 
-The animation uses 24 GPT-drawn key poses, two per character/outfit appearance. An articulated upper arm, forearm, and palm follow a curved gesture path over one stable body portrait. The alternate pose supplies clothing beneath the removed resting arm. Head tilt, hair, and cloth movement accompany the gesture. Every loop moves the palm at least 48 pixels in its 384×512 cell.
+The twelve resting portraits come from the original GPT artwork. Body bobbing preserves each complete drawing. The four story motion labels select a gentle 6–10 pixel bob, and reduced motion leaves the portraits still.
 
 ## Generated art and audio
 
 | Asset | Delivered |
 |---|---|
 | GPT Images artwork | 24 gesture key poses, twelve outfit reference portraits, one mountain-sect environment |
-| Animated sprites | **3,072 unique frames**: 4 characters × 3 outfits × 4 motion cycles × 64 frames |
-| Animation playback | 16 fps through AnimatedSprite2D; gestures, head tilt, flowing hair and cloth |
+| Character portraits | **12 intact portraits**: 4 characters × 3 outfits |
+| Animation playback | Sprite2D whole-body bobbing on a four-second loop |
 | Music | Original 48-second pentatonic plucked-string composition |
 | Sound effects | Page, bell, qi channeling, and sword |
 | AI voices | Piper neural narration for all 36 scenes; one Lessac narrator timbre with character pacing |
 
-In-between frames are computed from GPT artwork. They are **not 3,072 separate GPT image requests**. The game has no lip sync. See [art provenance](assets/art/PROVENANCE.md) and the generated voice model card for sources and licensing.
+Portraits are extracted from GPT artwork and bobbed by Godot at runtime. The game has no lip sync. See [art provenance](assets/art/PROVENANCE.md) and the generated voice model card for sources and licensing.
 
 ## Rebuild assets
 
@@ -93,15 +93,15 @@ python tools/preview_animations.py
 
 Voice generation downloads the public Piper Lessac neural model on its first run. It needs no API key, resumes unchanged lines, and records the model source, SHA-256, upstream model card, and per-line audio hashes.
 
-To add appearances, update `data/wardrobe.json`, GPT pose sheets, and hand/elbow/shoulder landmarks in `data/animation_rigs.json`. Story text and choices live in `data/story.json`. See [development instructions](docs/DEVELOPMENT.md).
+To add appearances or adjust bobbing, update `data/wardrobe.json` and the GPT pose sheets. Story text and choices live in `data/story.json`. See [development instructions](docs/DEVELOPMENT.md).
 
 ## Architecture
 
 ```mermaid
 flowchart TD
-    GPT["GPT Images · distinct gesture poses"] --> Rig["Python arm rig · head · hair · cloth"]
-    Rig --> Atlas["48 atlases · 3,072 frames"]
-    Atlas --> Cast["AnimatedSprite2D cast"]
+    GPT["GPT Images · resting portraits"] --> Prep["Python portrait extraction"]
+    Prep --> Portraits["12 intact outfit portraits"]
+    Portraits --> Cast["Sprite2D cast · whole-body bob"]
     JSON["Story JSON · 36 scenes"] --> State["Story state · choices · stats"]
     State --> UI["Godot interface · journal · saves"]
     Wardrobe["Wardrobe catalog · saved outfit choices"] --> Cast
@@ -112,15 +112,15 @@ flowchart TD
     Piper --> Audio
     Audio --> UI
     CI["GitHub Actions"] --> Verify["Gesture checks · routes · saves · UI"]
-    Verify --> Capture["Screenshots · atlas GIFs · timed game GIF"]
+    Verify --> Capture["Screenshots · bob previews · timed game GIF"]
     Verify --> Build["Standalone Linux build and playback check"]
 ```
 
 ## Validation
 
-CI rejects identical frames, tiny sway, whole-image panning, tint changes, particle-only animation, and translucent or missing moving palms. It checks opaque-body and silhouette changes, at least 48 pixels of palm travel, source/code hashes, every decoded frame, audio integrity, and narration coverage.
+CI checks intact portrait extraction, preserved proportions, source/code hashes, audio integrity, and narration coverage.
 
-Godot exercises all 48 outfit/motion loops using the loaded textures. Tests also cover every story route and ending, save corruption handling, wardrobe persistence, UI navigation, settings, and reduced motion. Xvfb captures screenshots and timed character playback. CI exports and launches a Linux package from a folder without the source checkout and checks clean shutdown.
+Godot exercises all 48 outfit/motion combinations, checking that the complete portrait bobs smoothly and rests when reduced motion is enabled. Tests also cover every story route and ending, save corruption handling, wardrobe persistence, UI navigation, and settings. Xvfb captures screenshots and timed character playback. CI exports and launches a Linux package from a folder without the source checkout and checks clean shutdown.
 
 The feature branch bundles verified assets and review media in separate commits. When media is unchanged, the bundle job preserves the current commit. PR checks do not push to branches.
 

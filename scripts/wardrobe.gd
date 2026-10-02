@@ -44,8 +44,8 @@ func source_path(outfit: String) -> String:
 			return "res://" + str(option["source"])
 	return "res://assets/art/cast.png"
 
-func animation_path(character: String, animation: String, outfit: String) -> String:
+func portrait_path(character: String, outfit: String) -> String:
 	if not is_valid(character, outfit):
 		outfit = DEFAULT_OUTFIT
 	var suffix := "" if outfit == DEFAULT_OUTFIT else "_" + outfit
-	return "res://assets/generated/sprites/%s%s_%s.png" % [character, suffix, animation]
+	return "res://assets/generated/sprites/%s%s.png" % [character, suffix]
