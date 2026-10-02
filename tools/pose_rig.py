@@ -119,3 +119,28 @@ def require_solid_hands(frames, pair, motion):
     if minimum < 0.80:
         raise AssertionError(f"{motion}: moving palm becomes transparent ({minimum:.0%} opaque coverage)")
     return minimum
+
+
+def split_hand(pixels, hand_point):
+    """Separate a feathered hand layer and fill its underlying body plate."""
+    height, width = pixels.shape[:2]
+    yy, xx = np.mgrid[:height, :width]
+    radius = ((xx - hand_point[0]) / 22) ** 2 + ((yy - hand_point[1]) / 29) ** 2
+    mask = np.float32(np.clip((1.05 - radius) / 0.20, 0, 1))[:, :, None]
+    hand = pixels * mask
+    alpha = pixels[:, :, 3:4]
+    straight = np.divide(pixels[:, :, :3], alpha, out=np.zeros_like(pixels[:, :, :3]), where=alpha > 0.001)
+    inpaint_mask = np.uint8(mask[:, :, 0] > 0.02) * 255
+    rgb = cv2.inpaint(np.uint8(np.clip(straight * 255, 0, 255)), inpaint_mask, 3, cv2.INPAINT_TELEA)
+    ring = (radius >= 1.1) & (radius < 1.6)
+    behind_is_body = float(np.mean(alpha[:, :, 0][ring] >= 0.7)) > 0.70
+    body_alpha = alpha * (1 - mask) + float(behind_is_body) * mask
+    body = np.concatenate([np.float32(rgb) / 255 * body_alpha, body_alpha], axis=2)
+    return body, hand
+
+
+def place_hand(body, layer, source_center, destination_center):
+    offset = destination_center - source_center
+    transform = np.float32([[1, 0, offset[0]], [0, 1, offset[1]]])
+    hand = cv2.warpAffine(layer, transform, (body.shape[1], body.shape[0]), flags=cv2.INTER_LINEAR)
+    return hand + body * (1 - hand[:, :, 3:4])

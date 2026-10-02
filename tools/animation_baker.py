@@ -9,7 +9,7 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFilter
 
 from animation_motion import motion_metrics, require_visible_motion
-from pose_rig import build_points, intermediate_points, triangulate, warp_pose, pose_amount, require_solid_hands
+from pose_rig import build_points, intermediate_points, triangulate, warp_pose, pose_amount, require_solid_hands, split_hand, place_hand
 
 CELL = (384, 512)
 FRAMES = 64
@@ -66,13 +66,19 @@ def premultiply(image):
     return pixels
 
 
-def render_frame(a, b, rig, triangles, frame, motion, grid):
+def render_frame(a, b, layers, rig, triangles, frame, motion, grid):
     phase = 2 * math.pi * frame / FRAMES
     amount = pose_amount(phase, motion)
     xx, yy = grid
     intermediate = intermediate_points(rig, amount)
-    pose_a = warp_pose(a, rig[0], intermediate, triangles, grid)
-    pose_b = warp_pose(b, rig[1], intermediate, triangles, grid)
+    pose_a = warp_pose(layers[0][0], rig[0], intermediate, triangles, grid)
+    pose_b = warp_pose(layers[1][0], rig[1], intermediate, triangles, grid)
+    pose_a = place_hand(pose_a, layers[0][1], rig[0][0], intermediate[0])
+    pose_b = place_hand(pose_b, layers[1][1], rig[1][0], intermediate[0])
+    if amount < 0.00001:
+        pose_a = a
+    if amount > 0.99999:
+        pose_b = b
     pixels = pose_a * (1 - amount) + pose_b * amount
     # Independently move loose silk and hair, leaving the feet anchored.
     strength = {"idle": 3.5, "channeling": 6.0, "wind": 13.0, "resolve": 5.0}[motion]
@@ -151,7 +157,8 @@ def bake_sprites(root, out, force=False):
                     pair, rig_points = pose_pair(sheet, index, len(catalog["characters"]), rigs[outfit_id][character])
                     arrays = [premultiply(image) for image in pair]
                     triangles = triangulate(rig_points, CELL)
-                frames = [render_frame(*arrays, rig_points, triangles, index, motion, (xx, yy)) for index in range(FRAMES)]
+                    layers = [split_hand(array, points[0]) for array, points in zip(arrays, rig_points)]
+                frames = [render_frame(*arrays, layers, rig_points, triangles, index, motion, (xx, yy)) for index in range(FRAMES)]
                 hand_coverage = require_solid_hands(frames, rig_points, motion)
                 metrics = motion_metrics(frames[0], frames[FRAMES // 2])
                 require_visible_motion(metrics, f"{character}/{outfit_id}/{motion}")
