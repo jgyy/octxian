@@ -216,17 +216,18 @@ func _run() -> void:
 	check(game.text_speed == 38.0 and not game.reduced_motion and game.audio.enabled, "Malformed settings should use typed defaults")
 	check(AudioServer.get_bus_volume_db(AudioServer.get_bus_index("Music")) == -8.0, "Malformed volume should recover")
 	check(game._setting_number(corrupt, "missing", "missing", 38.0, 12.0, 100.0) == 38.0, "Missing numeric settings should use defaults")
-	game.audio.shutdown()
-	await create_timer(0.25).timeout
 	DirAccess.remove_absolute("user://settings.cfg")
-	game.queue_free()
-	await process_frame
+	# Use the production exit path: free the players before its audio-drain timer
+	# ends, rather than waiting while they are alive and quitting just after free.
+	game.set_process(false)
+	game._quit_game(0 if failures.is_empty() else 1)
+	check(not game.audio.music.finished.is_connected(game.audio.music.play), "Shutdown must disconnect the repeating score")
+	for player in [game.audio.music, game.audio.effects, game.audio.voice]:
+		check(not player.playing and player.stream == null, "Shutdown must stop and release every audio stream")
 	game = null
 	scene = null
-	await process_frame
 	if failures.is_empty():
 		print("JADE_VOW_RUNTIME_TESTS_OK: UI, saved wardrobes, accessibility, voices and 48 whole-body bob combinations")
-	call_deferred("quit", 0 if failures.is_empty() else 1)
 
 func _test_attribute_ui(game) -> void:
 	var shortcut := InputEventKey.new()
