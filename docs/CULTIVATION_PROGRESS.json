@@ -1,19 +1,19 @@
 {
-  "displayed_scenes": 1891,
-  "displayed_words": 159074,
+  "displayed_scenes": 1905,
+  "displayed_words": 160095,
   "new_training_scenes": 77,
   "new_training_words": 5182,
   "rewritten_book_i_scenes": 36,
   "rewritten_book_i_words": 2397,
-  "rewrite_words": 40961,
+  "rewrite_words": 41982,
   "strict_word_target": 1000001,
   "planned_rewrite_words": 1050000,
   "reference_checks": "pass",
   "duplicate_prose_checks": "pass",
   "continuity_checkpoints": "pass",
   "inherited_words": 118113,
-  "remaining_displayed_words": 840927,
-  "remaining_rewrite_words": 959040,
+  "remaining_displayed_words": 839906,
+  "remaining_rewrite_words": 958019,
   "native_art": [
     {
       "mime": "image/png",
@@ -822,9 +822,23 @@
     "foundry_martial_014",
     "foundry_martial_015",
     "foundry_martial_016",
-    "foundry_martial_017"
+    "foundry_martial_017",
+    "foundry_nights_001",
+    "foundry_nights_002",
+    "foundry_nights_003",
+    "foundry_nights_004",
+    "foundry_nights_005",
+    "foundry_nights_006",
+    "foundry_nights_007",
+    "foundry_nights_008",
+    "foundry_nights_009",
+    "foundry_nights_010",
+    "foundry_nights_011",
+    "foundry_nights_012",
+    "foundry_nights_013",
+    "foundry_nights_014"
   ],
-  "rewrite_scenes": 585,
+  "rewrite_scenes": 599,
   "plot_repair_scene_ids": [
     "tempering_after_007",
     "tempering_after_009",
@@ -888,12 +902,12 @@
     "rewrite_word_change": 3035,
     "report": "docs/PLOT_HOLE_REVIEW.md"
   },
-  "foundry_scenes": 285,
-  "foundry_words": 21156,
+  "foundry_scenes": 299,
+  "foundry_words": 22177,
   "current_expansion": {
     "name": "Ash Bridge Foundry",
-    "new_scenes": 285,
-    "new_words": 21156,
+    "new_scenes": 299,
+    "new_words": 22177,
     "complete": false
   }
 }
