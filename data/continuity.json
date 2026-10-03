@@ -1,0 +1,1633 @@
+{
+  "version": 1,
+  "reviewed_chapters": [
+    "book_i",
+    "book_ii",
+    "book_iii",
+    "book_iv",
+    "book_v",
+    "book_vi",
+    "book_vii"
+  ],
+  "facts": [
+    {
+      "id": "mountain_fate",
+      "statement": "Only the release ending grounds Azure Cloud. Shared and covenant routes leave it aloft.",
+      "anchors": [
+        "ending_release",
+        "ending_shared",
+        "ending_covenant",
+        "ferry_discovery"
+      ]
+    },
+    {
+      "id": "pendant_custody",
+      "statement": "Lin Yue retains the intact pendant on every continuing route.",
+      "anchors": [
+        "ending_release",
+        "ferry_water",
+        "memory"
+      ]
+    },
+    {
+      "id": "names_not_people",
+      "statement": "Nineteen household records were erased last winter. Their living occupants were not swallowed or killed; tablets shelter their names.",
+      "anchors": [
+        "reed_answer",
+        "assembly_listener",
+        "ferry_mark"
+      ]
+    },
+    {
+      "id": "su_lan_husband",
+      "statement": "Su Lan's husband died seven winters before Book II; his memorial record vanished last winter, six winters after his death.",
+      "anchors": [
+        "archive_ancestry",
+        "reed_old_wound"
+      ]
+    },
+    {
+      "id": "wei_xiu_alive",
+      "statement": "Wei Xiu carved the crossing stone and works at the north landing. Her household claim was erased, not her life.",
+      "anchors": [
+        "ferry_mark"
+      ]
+    },
+    {
+      "id": "public_evidence",
+      "statement": "Other investigators attend the assembly and present evidence from roads Lin Yue did not visit. Privacy permissions remain binding.",
+      "anchors": [
+        "lantern_hub",
+        "assembly_archive",
+        "assembly_listener",
+        "assembly_test"
+      ]
+    },
+    {
+      "id": "names_before_seed",
+      "statement": "Every Book II ending restores household records through a hearing or the bell. Seed growth is optional future shelter, never a condition of rights.",
+      "anchors": [
+        "assembly_provisional",
+        "lantern_seed",
+        "ending_seed",
+        "ending_crossing",
+        "ending_ledger",
+        "ending_bell"
+      ]
+    },
+    {
+      "id": "spring_chronology",
+      "statement": "Book II begins in autumn. Every Book III route begins the following spring; seed's spring ending is not followed by a second winter. Su Lan's husband has now been dead eight winters.",
+      "anchors": [
+        "river_from_crossing",
+        "river_from_bell",
+        "river_from_seed",
+        "river_from_ledger"
+      ]
+    },
+    {
+      "id": "echo_mechanics",
+      "statement": "Echoes are volunteered external copies. Original minds retain their memories. Rings do not read unoffered thoughts; sealed return is distinct from permission to listen.",
+      "anchors": [
+        "river_notforgetting",
+        "river_echo_rule",
+        "river_keeper_words",
+        "harbor_moran",
+        "return_common",
+        "stair_charter"
+      ]
+    },
+    {
+      "id": "three_echoes",
+      "statement": "The ferry holds Mo Ran's echo, Luo Fen's echo, and one unidentified sealed echo. Luo Fen is alive. No route opens any echo or treats an unknown owner as abandoning property.",
+      "anchors": [
+        "river_book",
+        "return_common",
+        "stair_charter",
+        "harbor_letters",
+        "harbor_first_reply"
+      ]
+    },
+    {
+      "id": "river_stop_clause",
+      "statement": "The keeper died two summers before Book III; Willow Reach's east stair was lost in the intervening winter flood. A stop clause permits sheltered waiting. Eight-day interim watches are explicitly extended before ten-day stair construction completes.",
+      "anchors": [
+        "river_flood",
+        "river_keeper_fate",
+        "river_interim",
+        "stair_completion",
+        "harbor_spirit"
+      ]
+    },
+    {
+      "id": "spirit_agreement",
+      "statement": "The Eel accepts every changed return or holding arrangement. Owner permission is separate for each ring; pilots may refuse unsafe landings; the spirit may ask for rest.",
+      "anchors": [
+        "return_limit",
+        "stair_spirit",
+        "harbor_spirit",
+        "harbor_departure"
+      ]
+    },
+    {
+      "id": "unresolved_third_ring",
+      "statement": "The third ring's owner remains an intentional unresolved mystery in every Book III ending. A later chapter must identify the owner through permitted records, not open the echo to guess.",
+      "anchors": [
+        "ending_river_return",
+        "ending_river_stair",
+        "ending_river_harbor"
+      ]
+    },
+    {
+      "id": "orchard_river_custody",
+      "statement": "Book IV preserves each river ending: Mo Ran carries his sealed returned case; Luo Fen has a requested berth on return, her case home on stair, and an unanswered question on harbor. The unidentified ring stays sealed with the Eel and existing landing responsibilities continue.",
+      "anchors": [
+        "orchard_from_return",
+        "orchard_from_stair",
+        "orchard_from_harbor",
+        "ending_orchard_care"
+      ]
+    },
+    {
+      "id": "orchard_season",
+      "statement": "The orchard follows Book III during the same spring. Frost on the healing-hall branch is produced by the treatment ward, not a new calendar winter.",
+      "anchors": [
+        "orchard_arrival",
+        "orchard_need",
+        "ending_orchard_pause"
+      ]
+    },
+    {
+      "id": "orchard_pain_mechanics",
+      "statement": "Pain exchange moves temporary sensation, not injury or memory echoes. Disconnection follows a measured closing rhythm; no patient's pain is used as an unauthorized experiment.",
+      "anchors": [
+        "orchard_demonstration",
+        "orchard_stop",
+        "orchard_circuit",
+        "orchard_breath_trial"
+      ]
+    },
+    {
+      "id": "orchard_inherited_offer",
+      "statement": "Elder Yun helped mark the orchard thirty years earlier. The winter circuit omitted the renewal stroke and preserved household offers as inherited obligations. Removing that demand preserves the separate safe closing rhythm.",
+      "anchors": [
+        "orchard_elder",
+        "orchard_ledger_question",
+        "orchard_accounts",
+        "orchard_need"
+      ]
+    },
+    {
+      "id": "orchard_shared_findings",
+      "statement": "Lin Yue directly investigates one area; the matron's assistants examine the other two and report circuit, patient, and allocation findings before settlement.",
+      "anchors": [
+        "orchard_investigation_choice",
+        "orchard_accounts",
+        "orchard_resolution_choice"
+      ]
+    },
+    {
+      "id": "orchard_relief_limits",
+      "statement": "Food and ordinary care do not depend on accepting an exchange. All outcomes preserve limited staffing and supplies, ongoing injuries, a repaired circuit, and each patient's choice; no route promises complete healing.",
+      "anchors": [
+        "orchard_terms",
+        "orchard_cost",
+        "orchard_breath_limits",
+        "orchard_care_rota",
+        "orchard_fund_terms",
+        "orchard_pause"
+      ]
+    },
+    {
+      "id": "ren_qiao_role",
+      "statement": "Ren Qiao is an orchard healer working alongside the supervising matron and her assistants. The matron supervises the exchange circuit; Ren Qiao explains the available care resources and corrects the Hart's treatment schedule.",
+      "anchors": [
+        "orchard_arrival",
+        "orchard_cost",
+        "orchard_hart_terms"
+      ]
+    },
+    {
+      "id": "hart_separate_permission",
+      "statement": "The Frostroot Hart voluntarily carried temporary pain sensations in several individually accepted exchanges last winter. Its own record is separate from inherited household turns. Earlier consent authorizes no future visit, a human carrier cannot offer its body, and it cannot offer a human carrier's. The patient must separately agree to each exchange. The Hart declines tonight and is removed from the schedule before care planning.",
+      "anchors": [
+        "orchard_hart_arrival",
+        "orchard_hart_answer",
+        "orchard_hart_terms",
+        "orchard_cost"
+      ]
+    },
+    {
+      "id": "city_orchard_continuations",
+      "statement": "Book V follows all four orchard outcomes during the same spring. The limited breathing practice and return date, paid ordinary-care rota and remaining needs, separated relief finance and planting reserve, or individually reviewed exchange trial remain intact. The trip collects paid replacement medicine jars delayed by a courier-account dispute.",
+      "anchors": [
+        "city_from_breath",
+        "city_from_care",
+        "city_from_funds",
+        "city_from_pause",
+        "city_arrival"
+      ]
+    },
+    {
+      "id": "city_persona_mechanics",
+      "statement": "Licensed masks change exterior appearance and permitted voice, authorizing a specified public work persona and temporary recognition use. They convey no mind, memory, skill, or original personhood. Wearers and models retain their private true identities. Recognition permits help purchase finite paid cultivation-furnace hours; masks create no credit or qi.",
+      "anchors": [
+        "city_dressing_room",
+        "city_face_rule",
+        "city_credit_rule",
+        "city_name_proof"
+      ]
+    },
+    {
+      "id": "city_river_custody",
+      "statement": "Mo Ran retains his sealed returned echo case; the unidentified third ring remains sealed with the Eel under the existing landing agreement. Neither city investigation opens echoes or identifies the unknown owner through them.",
+      "anchors": [
+        "city_from_care",
+        "city_echo_custody"
+      ]
+    },
+    {
+      "id": "city_courser_permission",
+      "statement": "The Porcelain Courser owns its dispatch book and separately permits only watched comparison and a checked redacted copy of current-batch street-pass dates and Fei's relevant return-wax consignment. Fei separately approves her consignment link; private unrelated consignor names remain covered. Book access does not authorize a ride or use of unrelated customer records.",
+      "anchors": [
+        "city_courser_arrival",
+        "city_courser_terms",
+        "city_courser_permission",
+        "city_findings"
+      ]
+    },
+    {
+      "id": "city_offered_surface_limits",
+      "statement": "Sealed original tags are documentary exhibits kept covered during experiments. Only separately permitted offered cloth fragments are compared on unworn practice pieces with plain-amber and amber-violet return-wax controls. The Glasswing Moth voluntarily compares those fragments' surface scent and ink; no wearer is followed. It reads no minds, identities, intentions, or guilt, retains its duties, and declines an additional comparison requested at the hearing without invalidating the completed fragment comparisons. The sharp jar remains shut.",
+      "anchors": [
+        "city_sample_terms",
+        "city_perfumer_evidence",
+        "city_moth_limit"
+      ]
+    },
+    {
+      "id": "city_shared_evidence",
+      "statement": "Lin Yue follows one investigation; the other teams present preserved exhibits and authorized findings before resolution. Evidence independently distinguishes substituted permit lining and duplicate rental-return tokens, copied temporary-recognition permissions into permanent-name-proof collateral, and return-wax source/timing corroboration. Material provenance does not establish individual criminal intent.",
+      "anchors": [
+        "city_team_map",
+        "city_findings",
+        "city_mask_evidence",
+        "city_return_tokens",
+        "city_registry_evidence",
+        "city_perfumer_evidence",
+        "city_director_reply"
+      ]
+    },
+    {
+      "id": "city_courier_charges",
+      "statement": "The orchard's jars are a new paid dispatch delayed by Tao Wen's frozen account, separate from yesterday's three completed C-17 deliveries and a collected fourth parcel whose delivery the supplier canceled late. His rental is paid. Collection fee K-204 was legitimately deducted from his bond once at the ninth bell and billed again after cancellation at the tenth. C-17 was wrongly used as his pay-account identifier. Genuine return-price questions remain separately auditable.",
+      "anchors": [
+        "city_courier",
+        "city_courier_account",
+        "city_provisional",
+        "ending_city_audit"
+      ]
+    },
+    {
+      "id": "city_public_proofs_before_reform",
+      "statement": "The exchange lacks charter authority to seize permanent public name proofs as commercial security. Mei Dulan uses the registrar's countersigned correction warrant to restore provisional proofs and proper wage-account claims before all four resolution choices. The registry preserves commercial claims separately and promises neither unfunded compensation nor automatic debt forgiveness or personal guilt findings.",
+      "anchors": [
+        "city_name_proof",
+        "city_immediate_hold",
+        "city_registry_evidence",
+        "city_hearing_question",
+        "city_provisional",
+        "city_rights_restored",
+        "city_hearing_cost",
+        "city_final_choice"
+      ]
+    },
+    {
+      "id": "city_limited_credit_bridge",
+      "statement": "The qi route transfers only existing unused furnace-hour certificates voluntarily offered by their owners, cancels originals, prohibits double spending, caps each lender's loss at listed hours, returns unused hours, and ends after three nights. Public proofs and wages never secure the loan; extending it requires a new offer and refusal affects no restored rights.",
+      "anchors": [
+        "city_credit_bridge",
+        "ending_city_credit"
+      ]
+    },
+    {
+      "id": "city_limited_reform_options",
+      "statement": "Separate ledgers require paid clerk time and preserve correction history/private links. The worker pool has separately permitted models, bounded contributions/losses, hired administration, and exit rights. The audit pauses only the disputed batch through a review date, preserves checked lawful licenses, genuine charges, limited furnace fuel/credit, and unresolved needs.",
+      "anchors": [
+        "city_separate_ledgers",
+        "ending_city_ledgers",
+        "city_license_pool",
+        "ending_city_pool",
+        "city_batch_audit",
+        "ending_city_audit"
+      ]
+    },
+    {
+      "id": "city_next_court_records",
+      "statement": "Every Book V ending receives a request for the city hearing record from the court above the rain. Certified records preserve limits, disagreements, and unresolved questions; no ending claims the subsequent court chapter has occurred.",
+      "anchors": [
+        "ending_city_credit",
+        "ending_city_ledgers",
+        "ending_city_pool",
+        "ending_city_audit"
+      ]
+    },
+    {
+      "id": "city_masks_exterior_only",
+      "statement": "Original masks change visible exterior and voice timbre; they do not read or replace memories or minds. Signed shell seals define the original temporary work license, while removable collars record rental returns. Removing substituted collars leaves the original licensed appearance and voice functional.",
+      "anchors": [
+        "city_mask_layers",
+        "city_mask_voice",
+        "city_mask_rejoin"
+      ]
+    },
+    {
+      "id": "city_mask_fitting_source",
+      "statement": "Qiao Sen is fifty and makes the original masks. His signed fitting schedule, drying board, joint notches, and intact signed shell seals record separate work accounts and fittings for Bian Hui and Tao Min before the return-procedure revision. His knowledge comes from his own work and the posted registry notice.",
+      "anchors": [
+        "city_mask_entry",
+        "city_mask_ledger",
+        "city_mask_samples",
+        "city_mask_rejoin"
+      ]
+    },
+    {
+      "id": "city_mask_substitution",
+      "statement": "A pasted removable collar lining added an extra loop after the original fitting, feeding a copied rental-return mark and a permanent-name pledge absent from Qiao's authorization. Bian's original record is reed-seven and Tao's is reed-nine; their physically separate return tokens both repeat reed-seven. The pair establishes a copied number, not independent proof of authorship.",
+      "anchors": [
+        "city_mask_samples",
+        "city_mask_stakes",
+        "city_mask_rejoin"
+      ]
+    },
+    {
+      "id": "city_mask_corroboration_limits",
+      "statement": "The workshop comparison, mirror scratches, alum-treated paste, and changed silk weave together demonstrate the substitution method. Alum washing can accompany ordinary repair, and the substitute weave was sold to many shops; neither material alone identifies a culprit.",
+      "anchors": [
+        "city_mask_mirror",
+        "city_mask_scrape",
+        "city_mask_loft"
+      ]
+    },
+    {
+      "id": "city_mask_scoped_hold",
+      "statement": "Qiao holds the affected spring batch for inspection while unaffected rentals stay open. Masks remain useful for chosen expression as well as work. Bian's withheld cultivation practice credit and Tao's lost bookings await the common hearing; this branch does not settle the registry's permanent pledges.",
+      "anchors": [
+        "city_mask_expression",
+        "city_mask_stakes",
+        "city_mask_rejoin",
+        "city_mask_packet",
+        "city_mask_departure"
+      ]
+    },
+    {
+      "id": "city_mask_testimony",
+      "statement": "Bian Hui is a living thirty-six-year-old dyer and Tao Min a living forty-two-year-old performer. They allow their separate work accounts to be read at the hearing. Nian Bei, sixty, and Fu Wen, forty-nine, provide statements confined to their own repair and weaving work. No minor character requires a new runtime speaker or actor.",
+      "anchors": [
+        "city_mask_studio",
+        "city_mask_expression",
+        "city_mask_mirror",
+        "city_mask_loft",
+        "city_mask_packet"
+      ]
+    },
+    {
+      "id": "city_registry_permission_scope",
+      "statement": "A temporary recognition-use rental grants licensed visible features and voice timbre for its term. The courier's own name, memories, worker identity, and right to establish completed work are not transferred.",
+      "anchors": [
+        "city_registry_mei",
+        "city_registry_permit",
+        "city_registry_hall",
+        "city_registry_own_voice"
+      ]
+    },
+    {
+      "id": "city_registry_copied_collateral",
+      "statement": "Mei Dulan's retained director-signed batch order copies temporary recognition-use entries into permanent name-proof collateral. Tao's original rental contains no permission for that conversion; the later account uses permit C-17 in place of his worker number and holds his certificate after a disputed default.",
+      "anchors": [
+        "city_registry_permit",
+        "city_registry_fees",
+        "city_registry_compare",
+        "city_registry_conversion"
+      ]
+    },
+    {
+      "id": "city_registry_work_and_fees",
+      "statement": "Tao completed three deliveries, two unpaid. A fourth delivery was canceled after collection; one collection receipt created a duplicate charge. The rental is paid and a genuine return-price dispute remains for audit; a commercial dispute does not establish permanent rights over Tao's name-proof.",
+      "anchors": [
+        "city_registry_rental",
+        "city_registry_dispatch_order",
+        "city_registry_charges_total",
+        "city_registry_copies"
+      ]
+    },
+    {
+      "id": "city_registry_limited_evidence",
+      "statement": "Tao permits file examination; independent audit clerks supply findings from checks Lin Yue does not visit. The hearing receives authorized extracts and receipt entries; customer addresses and Tao's private family costs are withheld, originals remain with authorized keepers, and registry seals identify source without proving conclusions.",
+      "anchors": [
+        "city_registry_choice",
+        "city_registry_compare",
+        "city_registry_copies"
+      ]
+    },
+    {
+      "id": "city_registry_contested_hold",
+      "statement": "The branch preserves contradictory records, requests review and delivery payment, and gives Tao a dated acknowledgment. It does not lift the hold or settle the genuine return charge before the common hearing. Mei's own approval remains in the evidence.",
+      "anchors": [
+        "city_registry_admission",
+        "city_registry_review_request",
+        "city_registry_exit"
+      ]
+    },
+    {
+      "id": "city_perfumer_source_controls",
+      "statement": "Fei Nuo compares two voluntarily supplied cloth/tag exhibits with plain amber wax and her original amber-violet return blend as two controls. The comparison identifies a product match within the examined materials, supported by Fei's own supply book recording the blend's delivery to the exchange return desk after the offered fitting dates. It corroborates dispatch source and relative timing; it cannot identify who applied the wax or independently prove culpability.",
+      "anchors": [
+        "city_perfumer_materials",
+        "city_perfumer_controls",
+        "city_perfumer_steam",
+        "city_perfumer_bounded_claim"
+      ]
+    },
+    {
+      "id": "city_moth_surface_scope",
+      "statement": "The Glasswing Moth detects scent and ink/resin on supplied surfaces, not hidden faces, thoughts, memories, identity or guilt. It separately agrees to limited comparison work, retains its roof-rent and thread-repair role, and reclaims its drying bay for spring cocoons before the exhibits depart.",
+      "anchors": [
+        "city_perfumer_moth_arrival",
+        "city_perfumer_moth_terms",
+        "city_perfumer_blind_labels",
+        "city_perfumer_handoff"
+      ]
+    },
+    {
+      "id": "city_perfumer_stabilizer_limits",
+      "statement": "Scent stabilizes a voluntarily fitted outward likeness and licensed voice timbre; it transfers no memories. A wax-contaminated stabilizer fails on an unworn practice lattice in gentle steam. Cleaning a spare test lining repairs that material failure but does not resolve false permanent-name-proof collateral classification or require innocent wearers to remove their masks.",
+      "anchors": [
+        "city_perfumer_workroom",
+        "city_perfumer_controls",
+        "city_perfumer_steam",
+        "city_perfumer_separation",
+        "city_perfumer_return",
+        "city_perfumer_worker_story"
+      ]
+    },
+    {
+      "id": "city_perfumer_evidence_custody",
+      "statement": "Workers voluntarily offer examination fragments and hearing copies, retain their masks and unchanged names, and receive the original sealed return tags afterward. Fei retains the original supply book and control stock for verification. The studio and registry teams and courier contribute their independent records at the common hearing.",
+      "anchors": [
+        "city_perfumer_complaints",
+        "city_perfumer_deadline",
+        "city_perfumer_custody",
+        "city_perfumer_bounded_claim",
+        "city_perfumer_handoff"
+      ]
+    },
+    {
+      "id": "court_distinct_grounding",
+      "statement": "The Court Above the Rain stands on a separate northern cliff with ordinary foundations. Its existence, covered footpath, roofed inner measuring square, sheltered stair and closed exposed spur do not decide or retcon Azure Cloud's route-dependent fate.",
+      "anchors": [
+        "court_arrival",
+        "court_terrain",
+        "court_stair_pause"
+      ]
+    },
+    {
+      "id": "court_accident_people_and_dates",
+      "statement": "Bai Qun is a living forty-four-year-old woman stonebinder; Du Heng is a living thirty-one-year-old male porter with an injured right shoulder. An ordinary descending goods sling slipped at the lower landing two days before Day Zero arrival, reportedly at the third market bell. Actual first failure and disputed repair/safety-rope timing remain unknown; no narrator asserts a hidden cause. Ordinary care, restricted lifting, rest and clinician review remain necessary.",
+      "anchors": [
+        "court_du_heng",
+        "court_bai_qun",
+        "court_case_sequence",
+        "court_clinician_note",
+        "court_no_cause_verdict"
+      ]
+    },
+    {
+      "id": "court_finite_calendar",
+      "statement": "Teams work during Days Zero through Two, common hearing occurs Day Three, possible canal closure is forecast for Day Five with uncertainty, and the emergency extension is reviewed Day Seven. The ordinary seventy-five-day verification cycle is a genuine rule for unsettled evidentiary classifications. A desk display correction cannot independently change a governing rule or order.",
+      "anchors": [
+        "court_calendar",
+        "court_day_plan",
+        "court_docket_report",
+        "court_notice_repair"
+      ]
+    },
+    {
+      "id": "court_bound_official_roles",
+      "statement": "He Lian is an immortal female bench magistrate with apparent age sixty-two, bound by court charter and evidence. Luo Shan is a living thirty-nine-year-old male paid petition writer in an existing court assistance post; he helps requests, transcripts and access, but cannot rule or independently certify official copies. Authorized clerks certify court extracts.",
+      "anchors": [
+        "court_luo_shan",
+        "court_upper_bench",
+        "court_remand_extract",
+        "court_bench_account"
+      ]
+    },
+    {
+      "id": "court_preinvestigation_relief",
+      "statement": "Before investigation choices, the existing emergency receipt rule admits already valid corrected work proofs, suspends collection of the disputed new accident assessment and record-based work bar, provides a seven-day evidentiary extension/review, and releases a preexisting ninety-six-copper access appropriation. Genuine separate charges, injury claims, medical restrictions and physical safety closures persist; no damages or total wage reimbursement is promised.",
+      "anchors": [
+        "court_city_proof",
+        "court_emergency_rule",
+        "court_relief_request",
+        "court_immediate_relief",
+        "court_safe_closure",
+        "court_need_money"
+      ]
+    },
+    {
+      "id": "court_separate_access_equipment",
+      "statement": "Closed counterweighted GOODS lift remains under independent safety review. Reserved assisted round trips use supervised carrying cradles along the covered footpath, independently staffed and checked, with rest stops, weather/medical cancellation and written or local statement alternatives. Hearing access does not reopen the accident equipment.",
+      "anchors": [
+        "court_sling_notice",
+        "court_safe_closure",
+        "court_clinician_note",
+        "court_time_budget",
+        "court_witness_report"
+      ]
+    },
+    {
+      "id": "court_inspection_assignment_not_performance",
+      "statement": "Bai's written daily remit covers landing stone, guide groove and mooring pin; separate lift staff maintain brake and counterweight. A shortened whole-lift heading cannot enlarge her promise. Establishing assigned scope does not prove actual performance, historical cause, innocence or guilt. The court sets aside the unsupported broad assessment as filed while preserving properly specified claims subject to notice and reply.",
+      "anchors": [
+        "court_accident_remit",
+        "court_first_copy",
+        "court_scope_test",
+        "court_no_cause_verdict",
+        "court_existing_protection"
+      ]
+    },
+    {
+      "id": "court_city_corrections_survive",
+      "statement": "All four prior city outcomes persist: closed finite credit bridge and reported losses, separated proofs and incomplete commercial ledger, limited voluntary worker pool with nonmembers, or dated batch audit with unresolved prices. Corrected public proofs and proper wage-account claims remain valid before and after court reform; temporary outward-face and permitted-voice licenses supply no mind, memory, skill or personhood. Private/genuine commercial accounts remain separate.",
+      "anchors": [
+        "court_from_credit",
+        "court_from_ledgers",
+        "court_from_pool",
+        "court_from_audit",
+        "court_city_proof",
+        "court_scope",
+        "court_public_rights",
+        "court_private_account"
+      ]
+    },
+    {
+      "id": "court_echoes_not_evidence",
+      "statement": "Mo Ran's returned echo case stays sealed. The unidentified third ring remains sealed with the Eel under existing landing permission. Neither is opened or used to identify accident cause, compare clocks, read memories or reveal the unknown owner.",
+      "anchors": [
+        "court_echo_custody",
+        "court_private_account"
+      ]
+    },
+    {
+      "id": "court_witness_permission_specific",
+      "statement": "City hearing consent does not automatically permit new court testimony. Witnesses may offer scoped written accounts/extracts, ask a reader or local access, or decline further appearances; failed notice, canceled safe journey, declined appearance and missing answer are distinguished. Translated/condensed records need source review. Budgeted rooms/attendance do not reserve people or buy certainty.",
+      "anchors": [
+        "court_witness_terms",
+        "court_witness_dissent",
+        "court_permission_review",
+        "court_people_after_order",
+        "court_local_absence"
+      ]
+    },
+    {
+      "id": "court_four_independent_teams",
+      "statement": "Lin Yue follows exactly one of four inquiry teams. Witness, rain, cost and docket teams independently preserve authorized sources and report their bounded findings before all final choices. Source, permission, method, finding and limit remain visible; derived copies/annotations are not extra independent witnesses. Parties can inspect summaries before reliance.",
+      "anchors": [
+        "court_team_map",
+        "court_report_rule",
+        "court_investigation_choice",
+        "court_findings",
+        "court_witness_report",
+        "court_rain_report",
+        "court_cost_report",
+        "court_docket_report",
+        "court_visible_limits",
+        "court_copy_chain",
+        "court_bench_account"
+      ]
+    },
+    {
+      "id": "court_rain_limits",
+      "statement": "Rain Heron voluntarily offers specified log extracts and safe inner-rail questions, refuses dangerous closed-spur flight, and reads no minds or historical hidden events. Two extracts from its log are one source. Current tilted-gauge controlled comparison cannot reconstruct exact Day Minus Two rainfall; support replacement dated Day Minus One is distinct. Current clock offsets cannot be applied as precise past timestamps. Wet trace does not date the slip. Log and revised bulletin narrow warning bounds without proving guilt or exact future closure.",
+      "anchors": [
+        "court_rain_heron",
+        "court_heron_terms",
+        "court_marketing_clock",
+        "court_rain_report",
+        "court_clock_difference",
+        "court_forecast_limit"
+      ]
+    },
+    {
+      "id": "court_baseline_finite_assistance",
+      "statement": "The existing ninety-six-copper access appropriation reserves sixty-four: two assisted round trips at eight each (sixteen), four bounded attendance allocations at five each for Bai/Du/lift keeper/Heron (twenty, with Heron choosing a value-equivalent fish invoice and separately agreeing one safe message flight within the same five-copper arrangement), two certified extracts at four each (eight), six overnight storage nights arrival night Zero through night Five (twelve, pickup Day Six), and two handcart/attendant allocations at four each (eight). Ordinary staff/chair expenses are already funded elsewhere. Reserved/paid/canceled entries differ; no double charge or full compensation promise. Thirty-two funds exactly one additional plan.",
+      "anchors": [
+        "court_need_money",
+        "court_cost_report",
+        "court_unfunded_need",
+        "court_remaining_fund"
+      ]
+    },
+    {
+      "id": "court_weather_plan_boundaries",
+      "statement": "Weather option uses thirty-two copper: independent observer shifts eighteen (three six-copper shifts Days Three through Five), instrument rental six, notices four, conditional two-night storage four. Duties differ from ordinary lift safety. Lin's qi demonstrates a signal once; ordinary method must operate after departure. No weather control or past-cause reconstruction; shift cancellations, uncertainty, equipment return, review and unused reserve remain visible.",
+      "anchors": [
+        "court_weather_proposal",
+        "court_weather_terms",
+        "court_weather_setup",
+        "court_weather_shift",
+        "court_weather_close",
+        "ending_court_weather"
+      ]
+    },
+    {
+      "id": "court_local_plan_boundaries",
+      "statement": "Local testimony option uses thirty-two copper: two lower-landing sessions twelve each (minute-taker six, sheltered room two, attendant four), messenger four, conditional two-night storage four. No mandatory extra Bai/Du ascent, bought testimony, additional unfunded attendance, erased earlier statement, certainty or inferior classification for local speech. Witnesses may decline and approved corrections preserve actual observation limits.",
+      "anchors": [
+        "court_local_proposal",
+        "court_local_room",
+        "court_local_turn",
+        "court_local_absence",
+        "court_local_counter",
+        "court_local_record",
+        "ending_court_local"
+      ]
+    },
+    {
+      "id": "court_staged_plan_boundaries",
+      "statement": "Staged docket option uses thirty-two copper: six paid source-checking hours at two each (twelve), two specialist handling tasks at four each (eight), messenger four, conditional storage reserve up to four nights Six through Nine (eight). Tasks differ from ordinary funded copying. Named stages, receiving posts, dates and objection routes retain injury/maintenance/cause questions. Permission limits and unknown cause survive; custody beyond Day Seven needs renewed permission and authority or unused refund.",
+      "anchors": [
+        "court_staged_proposal",
+        "court_staged_division",
+        "court_staged_check",
+        "court_staged_handling",
+        "court_staged_limit",
+        "court_staged_delivery",
+        "ending_court_staged"
+      ]
+    },
+    {
+      "id": "court_remand_plan_boundaries",
+      "statement": "Ungated remand uses thirty-two copper: one independent present lower-landing reinspection twelve, notices/service six, certified supplemental extract six, conditional storage reserve up to four nights Six through Nine eight. It does not operate/reopen lift, replay accident, assign guilt, or erase injury claims. Weather interruptions and actual limits are reported; particular question/date/responsible post stay visible. Day Seven renews authority/permission if needed or returns unused reserve.",
+      "anchors": [
+        "court_remand_proposal",
+        "court_remand_instruction",
+        "court_remand_inspection",
+        "court_remand_extract",
+        "court_remand_delay",
+        "court_remand_review",
+        "ending_court_remand"
+      ]
+    },
+    {
+      "id": "court_exhibits_still_owned",
+      "statement": "Each offered exhibit has keeper, use/copy scope and return date. Original custody never expands because storage is funded. Source changes preserve old and corrected versions. Renewed copying, work or custody requires explicit permission/authority; unused reserves return. Every final plan has failure reporting and cannot revoke corrected rights or administrative relief by failing.",
+      "anchors": [
+        "court_custody",
+        "court_hand_off",
+        "court_permission_review",
+        "court_failure_clause",
+        "court_return_dates"
+      ]
+    },
+    {
+      "id": "court_concrete_institutional_findings",
+      "statement": "Rui Fang copied an old city classification without its correction; Ke Min added corroboration and approved shortening. Review and assessment each expected the other to check scope. He Lian's own retained approval checked the long-cycle match without recorded check of the omitted interim-reply condition. The adopted rule permits local checks and reasoned interim replies. Dated file correction preserves first annex, specific admissions do not prove deception/accident cause, and wider handoff review remains needed.",
+      "anchors": [
+        "court_copy_chain",
+        "court_bench_account",
+        "court_notice_repair"
+      ]
+    },
+    {
+      "id": "court_no_unfunded_third_journey",
+      "statement": "On Day Zero He Lian visits the lower waiting room to receive emergency petitions, so Bai and Du do not make unprovided upper-bench trips. Their sole funded visits are Day One and Day Two respectively. Day Three hearing reads approved accounts and uses named lower contacts for replies/orders/new permissions, with no additional mandatory ascent. Source portraits identify approved speakers and do not assert physical presence upstairs.",
+      "anchors": [
+        "court_calendar",
+        "court_findings",
+        "court_witness_report",
+        "court_existing_protection",
+        "court_room_after",
+        "court_measured_risk",
+        "court_people_after_order"
+      ]
+    },
+    {
+      "id": "court_witness_attendance_scope",
+      "statement": "Unreadable celestial-watch notices, failed assistance/contact handovers, and interrupted journeys are recorded separately from declined statements. Corrected attendance does not establish accident facts or universal future assistance.",
+      "anchors": [
+        "court_witness_a1_04",
+        "court_witness_a1_16",
+        "court_witness_a2_11",
+        "court_witness_a6_13"
+      ]
+    },
+    {
+      "id": "court_witness_existing_rights",
+      "statement": "Corrected city work proofs remain admitted unconditionally. New-case protection restricts the disputed civil assessment and record-based work bar but neither determines liability nor authorizes unsafe goods lifting during closure or recovery.",
+      "anchors": [
+        "court_witness_a4_02",
+        "court_witness_a5_02",
+        "court_witness_a8_16"
+      ]
+    },
+    {
+      "id": "court_witness_transport_dates",
+      "statement": "Bai Qun,44,a woman stonebinder, takes her one reserved supervised round trip on Day1. Du Heng,31,a man with an injured right shoulder, takes his on Day2. Passenger cradles are hand-carried along the covered footpath, independent of the closed counterweighted goods lift, with operator checks/rest/cancellation and local statement alternatives. Day3 uses authorized records without funded third journeys.",
+      "anchors": [
+        "court_witness_a2_05",
+        "court_witness_a2_06",
+        "court_witness_a4_01",
+        "court_witness_a4_17",
+        "court_witness_a5_01",
+        "court_witness_a5_17",
+        "court_witness_handoff"
+      ]
+    },
+    {
+      "id": "court_witness_finite_budget",
+      "statement": "One 96-copper access fund commits64: two8-copper round trips, two4-copper lower-landing assistance allocations, four5-copper bounded attendance allocations for Bai/Du/Sui Dan/Rain Heron, two4-copper certified extracts, and six2-copper storage nights Day0 through nightDay5 with Day6 collection.32 remains unspent for one later defined plan. No full lost-wage replacement, injury compensation, extra certified extracts, fifth allocation, unlimited trips or automatic other-witness pay is promised. Ordinary assistance/interpreter posts and rooms are funded separately.",
+      "anchors": [
+        "court_witness_a3_02",
+        "court_witness_a3_07",
+        "court_witness_a3_12",
+        "court_witness_a8_03",
+        "court_witness_a8_07",
+        "court_witness_a8_09"
+      ]
+    },
+    {
+      "id": "court_witness_bai_bounds",
+      "statement": "Bai's written remit is daily landing/guide inspection; brake and counterweight work belongs to separate lift staff. She describes an earlier surface inspection, a pin appearing seated at the accessible joint, and reported guide wear. She left before the injury, cannot certify hidden/internal condition, and identifies neither the wear-report recipient nor accident cause from a guess. A matched duty copy is not proof of completed work or innocence.",
+      "anchors": [
+        "court_witness_a4_04",
+        "court_witness_a4_05",
+        "court_witness_a4_08",
+        "court_witness_a4_11",
+        "court_witness_a4_15",
+        "court_witness_a4_16"
+      ]
+    },
+    {
+      "id": "court_witness_du_correction",
+      "statement": "Du describes the jolt from an obstructed lower-landing position and sees a safety rope only after reaching a bench. He does not establish installation time or hidden brake/counterweight motion. His first brief report saying no rope at descent is retained beside a dated correction to not seeing it before the jolt; diagrams/questions and his reason are disclosed. Painful or loaded reenactment is not required; ordinary care and right-shoulder restrictions continue.",
+      "anchors": [
+        "court_witness_a5_04",
+        "court_witness_a5_07",
+        "court_witness_a5_09",
+        "court_witness_a5_11",
+        "court_witness_a5_12",
+        "court_witness_a8_08"
+      ]
+    },
+    {
+      "id": "court_witness_independent_sources",
+      "statement": "Su E50,baker, hears the market third bell during baking and sees later assistance but not first failure. Chen Yuan52,potter, sees an unidentified carried coil after a shout, not first fastening/ownership. Ning Yu57,laundry worker, sees later bench/cloth assistance from a canopy-obstructed position. Hearsay/copy chains are not additional independent eyewitnesses; work/access limits do not make poorer witnesses inherently less credible.",
+      "anchors": [
+        "court_witness_a6_02",
+        "court_witness_a6_03",
+        "court_witness_a6_05",
+        "court_witness_a6_06",
+        "court_witness_a6_08",
+        "court_witness_a6_11",
+        "court_witness_a6_14"
+      ]
+    },
+    {
+      "id": "court_witness_clocks_translation",
+      "statement": "Present appointment conversions are checked separately from unproved accident-day market/court clock relationships. Court clock cleaning occurred in the interval; the relevant historical comparison is missing. Market keeper identifies a possible book at a canal-warehouse store without promised retrieval or new spending. Regular paid interpreter Mei Rui45 preserves original phrases; carried coil after shout cannot be inflated into a late-required-safety-rope finding. Original reports, corrections and stated influences remain available.",
+      "anchors": [
+        "court_witness_a7_01",
+        "court_witness_a7_02",
+        "court_witness_a7_06",
+        "court_witness_a7_11",
+        "court_witness_a7_14",
+        "court_witness_a7_15"
+      ]
+    },
+    {
+      "id": "court_witness_new_permissions",
+      "statement": "New accident-hearing permissions are separate from earlier city permissions. Offered records and corrections may be read on Day3; private medicine/household records stay outside. Local statements and declined extra journeys remain usable within stated limits. No witness is forced to demonstrate, supply a conclusion, submit mind tests or repeat unoffered magic.",
+      "anchors": [
+        "court_witness_a4_13",
+        "court_witness_a5_16",
+        "court_witness_a6_13",
+        "court_witness_a8_02",
+        "court_witness_a8_11",
+        "court_witness_a8_13"
+      ]
+    },
+    {
+      "id": "court_witness_heron_scope",
+      "statement": "Rain Heron agrees one light message flight and a short present-access report within its bounded5-copper participation arrangement, choosing a supplier's fish invoice of that value. It is not an accident eyewitness, promises no passenger journey or extra flight, and cannot establish earlier mechanism conditions or certain Day5 canal closure.",
+      "anchors": [
+        "court_witness_a1_13",
+        "court_witness_a3_06",
+        "court_witness_a3_16",
+        "court_witness_a7_09"
+      ]
+    },
+    {
+      "id": "court_rain_location_limits",
+      "statement": "The covered inner measuring square and stair, the closed exposed outer spur, the covered footpath carrying cradles, and the closed damaged goods lift are distinct places. Current passage checks can pause or cancel travel; no weather inquiry reopens the goods lift or orders an unsafe flight.",
+      "anchors": [
+        "court_rain_closed_walk",
+        "court_rain_provisional_map",
+        "court_rain_clock_entry",
+        "court_rain_safe_routes"
+      ]
+    },
+    {
+      "id": "court_rain_present_gauge",
+      "statement": "Day 0 controlled pours show current tilted-gauge outlet undercollection with rim loss; leveled support improves collection under the same method. The bottle is a comparison standard with handling residue, not perfect rainfall metrology. No present loss fraction is applied retroactively to the Day -2 accident.",
+      "anchors": [
+        "court_rain_volume_mark",
+        "court_rain_tilted_pours",
+        "court_rain_corrected_pours",
+        "court_rain_historical_limit"
+      ]
+    },
+    {
+      "id": "court_rain_repair_sources",
+      "statement": "Zhong Rui's offered maintenance slate dates the gauge-support replacement Day -1, after the reported Day -2 accident; an offered supply receipt supports the recorded delivery sequence without independently proving installation. Gauge collar, guide, mooring pin, handbrake, and counterweight records remain separate. The incident/maintenance certified extract is one of the shared two-extract baseline allowance; ordinary checked offered copies and receipts add no third certification.",
+      "anchors": [
+        "court_rain_slate_date",
+        "court_rain_slate_context",
+        "court_rain_mechanical_boundary",
+        "court_rain_maintenance_copy",
+        "court_rain_trace_packet"
+      ]
+    },
+    {
+      "id": "court_rain_clock_bounds",
+      "statement": "Day 1 protected current comparisons show disagreement among named market, lower-landing, and court-hall clocks, with obscured windows and bounded reading intervals. Winding, setting, restart, and comparison are different actions. Current offsets cannot certify exact Day -2 alignment; the original accident label remains third MARKET bell and event/aftermath observations stay separate.",
+      "anchors": [
+        "court_rain_clock_manifest",
+        "court_rain_keeper_definition",
+        "court_rain_signal_shared",
+        "court_rain_present_readings",
+        "court_rain_market_bell",
+        "court_rain_report_sources"
+      ]
+    },
+    {
+      "id": "court_rain_material_limits",
+      "statement": "Safely offered rope, board, and guide descriptions preserve collection after securing, handling history, and open custody intervals. Present wet traces do not date accident conditions; wet rope, load changes, securing work, and repair sequence are evidence questions rather than certified mechanical cause or guilt. Bai Qun's landing/guide remit remains distinct from lift staff's counterweight/brake duties; Du Heng's right-shoulder injury needs ordinary restricted lifting, rest, and review.",
+      "anchors": [
+        "court_rain_warning_rope",
+        "court_rain_trace_rejoin",
+        "court_rain_pin_view",
+        "court_rain_guide_edge",
+        "court_rain_load_record",
+        "court_rain_du_words",
+        "court_rain_trace_limits"
+      ]
+    },
+    {
+      "id": "court_rain_offered_heron_source",
+      "statement": "The independent Rain Heron offers only named log sections, safe inner-rail observations, and separately agreed comparisons. No mind reading, past vision, universal weather view, or sight of the hidden sling action is claimed. A copied outer-terrace heading is corrected to inner rail; two extracts from one offered log are counted as one source. Unrelated nesting entries stay private, earlier wording remains in correction history, and refused unsafe flights do not cancel completed testimony.",
+      "anchors": [
+        "court_rain_heron_limit",
+        "court_rain_heron_choice",
+        "court_rain_heron_record",
+        "court_rain_location_word",
+        "court_rain_copied_source",
+        "court_rain_source_count",
+        "court_rain_watch_terms",
+        "court_rain_heron_decline"
+      ]
+    },
+    {
+      "id": "court_rain_bulletin_sequence",
+      "statement": "Earlier and revised weather bulletins have a supported publication order, but their differing clock labels do not establish an exact relationship to the sling slip. Publication, dispatch, and receipt are separate events. Complete notices retain unobserved outer conditions; correction of copied wording does not itself establish intentional deception.",
+      "anchors": [
+        "court_rain_earlier_bulletin",
+        "court_rain_revised_bulletin",
+        "court_rain_publication_source",
+        "court_rain_bulletin_rejoin",
+        "court_rain_revision_reason"
+      ]
+    },
+    {
+      "id": "court_rain_forecast_and_dates",
+      "statement": "The Day 5 canal-closure concern is conditional, affected by unseen upper-basin rain, channel arrival, future observations, and operators' inspections. The forecaster advises risk; canal operators decide closure. Day 7 is the evidence-extension review, not a weather prediction. Days 0–2 branch work precedes Day 3 shared hearing; written/local testimony remains available when safe travel fails.",
+      "anchors": [
+        "court_rain_pressure_entry",
+        "court_rain_forecast_rejoin",
+        "court_rain_forecast_bounds",
+        "court_rain_day_five_range",
+        "court_rain_operator_authority",
+        "court_rain_chronology_summary"
+      ]
+    },
+    {
+      "id": "court_rain_attendance_and_plan",
+      "statement": "The Heron's optional bounded common-hearing attendance and one separately agreed safe message flight share the five-copper baseline allowance, or an agreed equal fish invoice. Each contribution needs permission, weather may cancel a flight, and the allowance buys no particular answer, unsafe flight, or seasonal watch. The 96-copper access fund reserves 64 baseline and leaves 32 for ONE exclusive final plan. Weather inquiry spends no final-plan money; any later station must have separately paid bounded work, duration, permission, and stopping terms.",
+      "anchors": [
+        "court_rain_witness_discomfort",
+        "court_rain_bounded_station",
+        "court_rain_attendance_terms",
+        "court_rain_acknowledgment"
+      ]
+    },
+    {
+      "id": "court_rain_preserved_party_stakes",
+      "statement": "Weather corrections leave mechanical cause and party responsibility unresolved; uncertainty neither erases Du's injury nor makes Bai's restricted work and disputed assessment harmless. Du's previously corrected public proof remains admitted; a copied temporary-license annex cannot silently revoke it. Luo Shan assists and carries checked copies in his paid post; authorized clerks certify and the charter-bound bench magistrate rules, without omniscience.",
+      "anchors": [
+        "court_rain_bai_review",
+        "court_rain_du_review",
+        "court_rain_easy_blame",
+        "court_rain_packet_boundaries",
+        "court_rain_exhibit_receipt"
+      ]
+    },
+    {
+      "id": "court_cost_finite_appropriation",
+      "statement": "Existing court access fund96; baseline ceiling64: carrying-chair roundtrips16, lower-landing assistance8, four bounded attendance20, two certified extracts8, six storage nights12. Reserve32 remains uncommitted pending all common findings. Paid, allocated and uncommitted money are distinct; no access payment awards damages or full lost wages.",
+      "anchors": [
+        "court_cost_cashbox",
+        "court_cost_first_subtotal",
+        "court_cost_copy_rejoin",
+        "court_cost_storage_rejoin",
+        "court_cost_completed_baseline",
+        "court_cost_final_sheet"
+      ]
+    },
+    {
+      "id": "court_cost_independent_chairs",
+      "statement": "BaiDay1 and DuDay2 use independently staffed carrying chairs along the covered footpath at8 per roundtrip, plus4 each lower-landing transfer. They never operate/reopen closed counterweighted goods lift. Safe conditions, rest and Du's clinician limits govern; no Day3 ascent is required.",
+      "anchors": [
+        "court_cost_passenger_board",
+        "court_cost_weight_limit",
+        "court_cost_cradle_check",
+        "court_cost_lift_return",
+        "court_cost_du_arrival",
+        "court_cost_final_sheet"
+      ]
+    },
+    {
+      "id": "court_cost_attendance",
+      "statement": "Bai, Du, goods-liftkeeper Sui Dan47 and independent Rain Heron each receive one bounded5-copper allocation, not favorable testimony, release or whole lost income. Sui's off-shift testimony differs from ordinary maintenance. Heron's allocation includes its separately agreed bounded participation and one safe message flight, not further flights; its equal-value fish invoice differs from seasonal inspections. Ordinary appointed Luo Shan/clerk/chair wages are already funded elsewhere.",
+      "anchors": [
+        "court_cost_lift_staff",
+        "court_cost_heron_attendance",
+        "court_cost_time_receipt",
+        "court_cost_time_rejoin",
+        "court_cost_keeper_offshift",
+        "court_cost_heron_receipt"
+      ]
+    },
+    {
+      "id": "court_cost_defined_extracts",
+      "statement": "Baseline certified extracts cost4 each and cover offered incident/maintenance log entries and wage/verification annex entries including copied license-reference history. Authorized clerks certify; Luo Shan requests/assists. Originals retain offered custody terms. Ordinary checks, notes, clarifications and packet receipt do not create extra paid certifications.",
+      "anchors": [
+        "court_cost_record_table",
+        "court_cost_clerk_seal",
+        "court_cost_annex_context",
+        "court_cost_log_context",
+        "court_cost_copy_rejoin",
+        "court_cost_source_return"
+      ]
+    },
+    {
+      "id": "court_cost_calendar_custody",
+      "statement": "Storage12 buys six nightsDay0–5 and collectionmorningDay6, beforeDay7 review. Extra space/funding never enlarge evidence permission. Custody beyondDay7 requires express renewal and owners' terms; unperformed unused money returns. Accepted copies remain usable only within offered terms.",
+      "anchors": [
+        "court_cost_six_nights",
+        "court_cost_owner_tags",
+        "court_cost_storage_rejoin",
+        "court_cost_custody_gap",
+        "court_cost_weather_storage",
+        "court_cost_docket_storage",
+        "court_cost_remand_storage"
+      ]
+    },
+    {
+      "id": "court_cost_exclusive_plans",
+      "statement": "Four conditional mutually exclusive32-copper proposals: weather18 three6-copper shiftsDays3–5+6 instrumentlease+4 notices+4 storage; local24 two12-copper sessions(minute-taker6+room2+attendant4 each)+4 messenger+4 storage; docket12 six2-copper sourcecheckinghours+8 two4-copper specialist tasks+4 messenger+8 maximumfourstorage nights; remand12 one reinspection+6 notices/service+6 defined supplemental certified extract+8 maximumfourstorage nights. Each has bounded tasks, limits and unused returns. None purchases guilt findings, unlimitedservices or goods-lift reopening.",
+      "anchors": [
+        "court_cost_weather_quote",
+        "court_cost_local_quote",
+        "court_cost_docket_quote",
+        "court_cost_remand_quote",
+        "court_cost_plan_comparison",
+        "court_cost_reserve_rejoin"
+      ]
+    },
+    {
+      "id": "court_cost_clerical_corrections",
+      "statement": "Dai's first estimate miscategorized travelers as freight and attached optional private writer Jian Bo's notice to court invitations. Corrected physically separate carrying-chair services, bounded appointment forms and official clarification preserve the original errors and corrections without unsupported theft/intent findings. Private additional writing remains voluntarily offerable.",
+      "anchors": [
+        "court_cost_clerk_resistance",
+        "court_cost_private_writer",
+        "court_cost_dai_admission",
+        "court_cost_copy_rejoin",
+        "court_cost_dai_report",
+        "court_cost_coin_count"
+      ]
+    },
+    {
+      "id": "court_docket_separate_queue_example",
+      "statement": "Deng Yuan, sixty-three, offers only dates and scheduling passages from his separate tile claim. Correcting the existing display instruction clarifies a conditional recommendation; the tile quantity and hearing date remain undecided and do not become evidence of the landing accident.",
+      "anchors": [
+        "court_docket_petitioner",
+        "court_docket_roofmaker_terms",
+        "court_docket_notice_copy",
+        "court_docket_deng_return_note"
+      ]
+    },
+    {
+      "id": "court_docket_copy_provenance",
+      "statement": "The court annex copied an old temporary-license classification without the city correction's qualifications. Rui Fang drafted that copying, Ke Min added corroboration and approved its shortening, and the retained draft identifies their separate acts. The file-specific dated correction preserves the first annex and original sources; copied documents and index sheet counts are not additional independent witnesses.",
+      "anchors": [
+        "court_docket_copy_chain",
+        "court_docket_writer_path",
+        "court_docket_source_rejoin",
+        "court_docket_supervisor_account",
+        "court_docket_acknowledged_copy"
+      ]
+    },
+    {
+      "id": "court_docket_admitted_proof_and_protection",
+      "statement": "Du's corrected city work proof remains admitted. The Day Zero emergency receipt continues to suspend the disputed new civil assessment and record-based work bar through the existing evidence-extension process. Physical safety restrictions, genuine private claims, actual conduct, accident cause, culpability, and damages remain separate; this route chooses no final common settlement.",
+      "anchors": [
+        "court_docket_landing_packet",
+        "court_docket_valid_proof",
+        "court_docket_assessment_boundary",
+        "court_docket_accepted_matters",
+        "court_docket_handoff"
+      ]
+    },
+    {
+      "id": "court_docket_calendar_authority",
+      "statement": "The adopted seventy-five-day verification cycle allows local checks and reasoned interim replies during distant searches. A torn proposed-practice training copy supplied an extra completeness line without an identified adoption mark. Display clarification and the file-specific correction use existing powers; replacing the standing calendar requires formal consideration rather than an unannounced universal rule.",
+      "anchors": [
+        "court_docket_calendar_volume",
+        "court_docket_minutes_path",
+        "court_docket_complete_path",
+        "court_docket_calendar_rejoin",
+        "court_docket_judge_distinction",
+        "court_docket_missing_signature"
+      ]
+    },
+    {
+      "id": "court_docket_distinct_duties",
+      "statement": "Offered scope pages assign Bai landing and guide inspection plus prompt reporting of visible obstructions, while counterweight and brake maintenance belong to separate lift staff. Contract assignment does not establish actual performance; a maintenance signature identifies a source still requiring explanation. The route makes no historical cause or guilt finding.",
+      "anchors": [
+        "court_docket_scope_bundle",
+        "court_docket_contract_margin",
+        "court_docket_maintenance_entry",
+        "court_docket_duty_rejoin",
+        "court_docket_assessment_language"
+      ]
+    },
+    {
+      "id": "court_docket_witness_limits_retained",
+      "statement": "Du's first rope statement is retained beside the approved correction: he did not see a rope before the jolt, saw one after injury, and cannot date first installation. Su E heard the market third bell, and Chen Yuan saw a coil carried after the shout; their separate limited observations do not combine into a complete view or multiply when copied.",
+      "anchors": [
+        "court_docket_witness_correction",
+        "court_docket_correction_reason",
+        "court_docket_independent_accounts",
+        "court_docket_independence_page"
+      ]
+    },
+    {
+      "id": "court_docket_weather_limits",
+      "statement": "The weather report establishes present gauge undercollection and current clock disagreement without reconstructing exact Day Minus Two rainfall or offsets. Gauge-support replacement is dated Day Minus One, separate from the accident. Two offered Heron inner-rail log extracts remain one witness; the erroneous copied heading outer terrace is retained beside its correction, and refusal of unsafe outer flight supplies no fault evidence.",
+      "anchors": [
+        "court_docket_weather_permission",
+        "court_docket_weather_source",
+        "court_docket_independence_page"
+      ]
+    },
+    {
+      "id": "court_docket_permissions_and_costs",
+      "statement": "Original keepers retain originals; only offered portions and separately authorized extensions enter comparison. The two baseline certified extracts cover offered incident/maintenance and wage/verification annex entries; ordinary comparisons and already supplied city materials add no third certification charge. Baseline sixty-four copper remains distinct from the unspent thirty-two for one final plan. Storage covers nights Zero through Five with pickup Day Six.",
+      "anchors": [
+        "court_docket_reserved_extract",
+        "court_docket_offered_limits",
+        "court_docket_custody_rejoin",
+        "court_docket_storage_term",
+        "court_docket_limited_funds",
+        "court_docket_cost_page"
+      ]
+    },
+    {
+      "id": "court_docket_finite_access_and_dates",
+      "statement": "The route proceeds Days Zero through Two; the common hearing is Day Three using offered records without another mandatory journey. Bai's Day One and Du's Day Two funded supervised cradles use the covered footpath, separate from the closed counterweighted goods lift, subject to staff and medical checks, cancellation, and written/local alternatives. The forecast Day Five canal closure is uncertain; Day Seven reviews the evidence extension rather than promising an accident verdict.",
+      "anchors": [
+        "court_docket_day_one",
+        "court_docket_applicant_reply",
+        "court_docket_du_visit",
+        "court_docket_days_named",
+        "court_docket_review_not_verdict",
+        "court_docket_handoff"
+      ]
+    },
+    {
+      "id": "court_docket_institutional_handoff",
+      "statement": "Review expected assessment to compare technical scope while assessment relied on the review mark. The judge's retained approval checked the long summary without a recorded check of its omitted interim provision. Specific acts and acknowledged gaps support file repair and broader review; workloads explain pressure without proving intent or erasing the supported defect.",
+      "anchors": [
+        "court_docket_review_sequence",
+        "court_docket_judge_record",
+        "court_docket_handoff_path",
+        "court_docket_approval_rejoin",
+        "court_docket_last_reply"
+      ]
+    },
+    {
+      "id": "court_docket_reply_and_remand_preparation",
+      "statement": "Source-request, applicant-route, and remand-form rehearsals remain marked practice. A useful bounded reply names available sources and gaps; any remand needs a specific question, return desk, date, and explicit treatment of protection. No remand, storage extension, or allocation of the thirty-two-copper remainder is issued before the shared decision.",
+      "anchors": [
+        "court_docket_remand_sketch",
+        "court_docket_reply_rejoin",
+        "court_docket_drafts_closed",
+        "court_docket_report_rejoin"
+      ]
+    },
+    {
+      "id": "court_docket_prior_echo_custody",
+      "statement": "Mo Ran's returned echo case remains closed; the unidentified third ring stays sealed with the Eel under the existing agreement and is not introduced as evidence in the landing injury case.",
+      "anchors": [
+        "court_docket_sealed_case"
+      ]
+    },
+    {
+      "id": "ring_spring_and_independent_court",
+      "statement": "Book VII inquiry occurs one spring afternoon three days after the court's Day Seven review. The damaged goods lift remains closed, injury care and particular claims remain separate, and all four court outcomes retain their own opening.",
+      "anchors": [
+        "ring_from_weather",
+        "ring_from_local",
+        "ring_from_staged",
+        "ring_from_remand",
+        "ring_calendar",
+        "ring_archive_no_accident"
+      ]
+    },
+    {
+      "id": "ring_three_independent_teams",
+      "statement": "Lin Yue follows exactly one afternoon inquiry. Wei Xiu and the Listener take the marsh; An Ru, Mei Dulan and Shen Qing examine archives; Wei Jin and Su Lan take the road. Other teams report independently before comparison. Wei Xiu's morning notes can travel to the road, but she only reunites with its party after the marsh returns.",
+      "anchors": [
+        "ring_departures",
+        "ring_investigation_choice",
+        "ring_shared_marsh_report",
+        "ring_shared_archive_report",
+        "ring_shared_road_report",
+        "ring_road_daughter_arrival"
+      ]
+    },
+    {
+      "id": "ring_material_and_date_limits",
+      "statement": "R-3 is an exterior deposit/custody token; LR-6 is a ferry permit reference. Two short stitches across one long reverse fold are in a reed-cloth retaining loop around the bronze rim. The seal stays intact. The maintenance sleeve lacks an owner line and has a damaged sentence. Its repair date is distinct from the copied moment and from deposition time.",
+      "anchors": [
+        "ring_marsh_first_page",
+        "ring_marsh_chronology",
+        "ring_marsh_seam",
+        "ring_marsh_damaged_leaf",
+        "ring_marsh_date_constraint",
+        "ring_counterfoil"
+      ]
+    },
+    {
+      "id": "ring_wei_jin_living_identity",
+      "statement": "Jin of the Lower Reed is Wei Jin's former public charter designation. Its suppression altered public records, not his living name, mind or personhood. Wei Xiu remains his living daughter. Volunteered correction, public occupancy and LR-6 extracts establish a record link, not ownership of the ring alone.",
+      "anchors": [
+        "ring_jin_offer",
+        "ring_daughter",
+        "ring_archive_correction",
+        "ring_archive_permit_serial",
+        "ring_archive_public_not_private",
+        "ring_shared_archive_report"
+      ]
+    },
+    {
+      "id": "ring_independent_receipt_comparison",
+      "statement": "The road sees only the exterior of Wei Jin's own closed R-3 receipt cover. At common findings he separately offers reading specific counterfoil fields, then permits their comparison outdoors. The Eel separately accepts the new comparison at its sheltered berth. Matching R-3 receipt/custody references, LR-6 charter link and present offered account identify Wei Jin; no playback or hidden echo content supplies proof.",
+      "anchors": [
+        "ring_road_permit_offer",
+        "ring_road_recognition_offer",
+        "ring_private_request",
+        "ring_cover_opened",
+        "ring_counterfoil",
+        "ring_eel_receipt_request",
+        "ring_eel_comparison_terms",
+        "ring_eel_recognition"
+      ]
+    },
+    {
+      "id": "ring_private_practice_not_resurrection",
+      "statement": "Wei Jin voluntarily describes his own departure-melody practice. It is an external copy, never a removed memory, soul or resurrection of his dead teacher. His daughter permits attending the comparison and no playback. No route authorizes listening to this copy or to Mo Ran's or Luo Fen's separate echoes.",
+      "anchors": [
+        "ring_old_agreement",
+        "ring_cover_opened",
+        "ring_what_echo_is",
+        "ring_xiu_answer",
+        "ring_yun_lesson",
+        "ring_road_playback_boundary"
+      ]
+    },
+    {
+      "id": "ring_owner_authorizes_practical_choice",
+      "statement": "Wei Jin accepts all three specific logistical arrangements and delegates choosing tonight's work to Lin Yue. Return is a covered handoff on dry safe boards. New custody pays exactly three watches with review before expiry. Declining today's return preserves existing protection and identified ownership; it creates neither abandonment nor a new paid duty.",
+      "anchors": [
+        "ring_return_options",
+        "ring_jin_boundary",
+        "ring_resources",
+        "ring_final_choice",
+        "ring_return_handoff",
+        "ring_custody_terms",
+        "ring_refusal_record"
+      ]
+    },
+    {
+      "id": "ring_cultivation_has_finite_cost",
+      "statement": "Marsh Lin Yue uses one bounded qi pulse and rests with wrist fatigue. Archive danger is paused before controlled power is used. Road flood-debris work has ordinary costs and a shallow forearm injury, leaving the lower approach closed. Strength and injury do not supply identity evidence or remove consent.",
+      "anchors": [
+        "ring_marsh_drift",
+        "ring_marsh_weakness",
+        "ring_archive_scaffold",
+        "ring_archive_paused",
+        "ring_archive_qi_restraint",
+        "ring_road_notice",
+        "ring_qi_temptation"
+      ]
+    }
+  ],
+  "review_policy": "Review each new chapter's chronology, custody, character knowledge, and alternate outcomes before updating this ledger. Structural checks supplement editorial review; they do not prove the absence of all possible plot holes.",
+  "checkpoints": [
+    {
+      "id": "household_knowledge",
+      "required": [
+        "lantern_map"
+      ],
+      "before": "reed_question"
+    },
+    {
+      "id": "shared_evidence",
+      "required": [
+        "assembly_ferry",
+        "assembly_archive",
+        "assembly_listener",
+        "assembly_provisional"
+      ],
+      "before": "lantern_final_choice"
+    },
+    {
+      "id": "echo_terms_before_decision",
+      "required": [
+        "river_echo_rule",
+        "river_keeper_words",
+        "river_book",
+        "river_interim"
+      ],
+      "before": "river_resolution_choice"
+    },
+    {
+      "id": "stair_safety_before_return",
+      "required": [
+        "stair_completion",
+        "stair_test",
+        "stair_charter"
+      ],
+      "before": "stair_return"
+    },
+    {
+      "id": "harbor_permissions_before_return",
+      "required": [
+        "harbor_spirit",
+        "harbor_letters"
+      ],
+      "before": "harbor_return"
+    },
+    {
+      "id": "orchard_safe_pause_before_investigation",
+      "required": [
+        "orchard_stop",
+        "orchard_terms"
+      ],
+      "before": "orchard_investigation_choice"
+    },
+    {
+      "id": "orchard_shared_findings_before_settlement",
+      "required": [
+        "orchard_hart_arrival",
+        "orchard_hart_answer",
+        "orchard_hart_terms",
+        "orchard_accounts",
+        "orchard_need",
+        "orchard_cost"
+      ],
+      "before": "orchard_resolution_choice"
+    },
+    {
+      "id": "city_mechanics_and_permissions_before_investigation",
+      "required": [
+        "city_face_rule",
+        "city_credit_rule",
+        "city_name_proof",
+        "city_courser_terms",
+        "city_courser_permission",
+        "city_echo_custody",
+        "city_sample_terms",
+        "city_witness_terms"
+      ],
+      "before": "city_investigation_choice"
+    },
+    {
+      "id": "city_complete_findings_and_public_correction_before_resolution",
+      "required": [
+        "city_findings",
+        "city_mask_evidence",
+        "city_return_tokens",
+        "city_registry_evidence",
+        "city_courier_account",
+        "city_perfumer_evidence",
+        "city_moth_limit",
+        "city_director_reply",
+        "city_hearing_question",
+        "city_provisional",
+        "city_rights_restored",
+        "city_hearing_cost"
+      ],
+      "before": "city_final_choice"
+    },
+    {
+      "id": "city_mask_exhibits_before_packet",
+      "required": [
+        "city_mask_layers",
+        "city_mask_fitting",
+        "city_mask_ledger",
+        "city_mask_samples",
+        "city_mask_rejoin",
+        "city_mask_mirror",
+        "city_mask_scrape",
+        "city_mask_loft",
+        "city_mask_hearing_risk"
+      ],
+      "before": "city_mask_packet"
+    },
+    {
+      "id": "city_registry_terms_before_choice",
+      "required": [
+        "city_registry_mei",
+        "city_registry_permit",
+        "city_registry_fees",
+        "city_registry_rental"
+      ],
+      "before": "city_registry_choice"
+    },
+    {
+      "id": "city_registry_evidence_before_return",
+      "required": [
+        "city_registry_compare",
+        "city_registry_conversion",
+        "city_registry_admission",
+        "city_registry_review_request",
+        "city_registry_copies"
+      ],
+      "before": "city_registry_exit"
+    },
+    {
+      "id": "city_perfumer_controls_before_allocation",
+      "required": [
+        "city_perfumer_moth_terms",
+        "city_perfumer_materials",
+        "city_perfumer_controls",
+        "city_perfumer_steam",
+        "city_perfumer_separation"
+      ],
+      "before": "city_perfumer_choice"
+    },
+    {
+      "id": "city_perfumer_source_before_handoff",
+      "required": [
+        "city_perfumer_return",
+        "city_perfumer_blind_labels",
+        "city_perfumer_custody",
+        "city_perfumer_bounded_claim"
+      ],
+      "before": "city_perfumer_handoff"
+    },
+    {
+      "id": "court_protection_and_limits_before_inquiry",
+      "required": [
+        "court_city_proof",
+        "court_accident_remit",
+        "court_emergency_rule",
+        "court_immediate_relief",
+        "court_safe_closure",
+        "court_custody",
+        "court_echo_custody",
+        "court_witness_terms",
+        "court_heron_terms",
+        "court_day_plan",
+        "court_team_map",
+        "court_report_rule"
+      ],
+      "before": "court_investigation_choice"
+    },
+    {
+      "id": "court_all_findings_and_unconditional_order_before_resolution",
+      "required": [
+        "court_findings",
+        "court_witness_report",
+        "court_witness_dissent",
+        "court_rain_report",
+        "court_clock_difference",
+        "court_forecast_limit",
+        "court_cost_report",
+        "court_unfunded_need",
+        "court_docket_report",
+        "court_scope_test",
+        "court_no_cause_verdict",
+        "court_public_rights",
+        "court_existing_protection",
+        "court_remaining_fund",
+        "court_permission_review",
+        "court_failure_clause",
+        "court_people_after_order",
+        "court_copy_chain",
+        "court_bench_account"
+      ],
+      "before": "court_final_choice"
+    },
+    {
+      "id": "court_witness_access_before_casework",
+      "required": [
+        "court_witness_a1_16",
+        "court_witness_a2_11",
+        "court_witness_a3_07",
+        "court_witness_a3_17"
+      ],
+      "before": "court_witness_a4_10"
+    },
+    {
+      "id": "court_witness_bai_bounds_before_du",
+      "required": [
+        "court_witness_a4_04",
+        "court_witness_a4_15",
+        "court_witness_a4_16"
+      ],
+      "before": "court_witness_a5_10"
+    },
+    {
+      "id": "court_witness_sources_before_packet",
+      "required": [
+        "court_witness_a5_11",
+        "court_witness_a5_12",
+        "court_witness_a6_11",
+        "court_witness_a7_11",
+        "court_witness_a8_09"
+      ],
+      "before": "court_witness_a8_10"
+    },
+    {
+      "id": "court_witness_custody_before_handoff",
+      "required": [
+        "court_witness_a8_15",
+        "court_witness_a8_16"
+      ],
+      "before": "court_witness_handoff"
+    },
+    {
+      "id": "court_rain_gauge_limits_before_clock",
+      "required": [
+        "court_rain_volume_rejoin",
+        "court_rain_corrected_pours",
+        "court_rain_historical_limit",
+        "court_rain_slate_date",
+        "court_rain_first_packet"
+      ],
+      "before": "court_rain_clock_entry"
+    },
+    {
+      "id": "court_rain_source_limits_before_forecast",
+      "required": [
+        "court_rain_bulletin_rejoin",
+        "court_rain_copied_source",
+        "court_rain_corrected_comparison",
+        "court_rain_watch_terms"
+      ],
+      "before": "court_rain_pressure_entry"
+    },
+    {
+      "id": "court_rain_complete_packet_before_return",
+      "required": [
+        "court_rain_packet_entry",
+        "court_rain_final_checks",
+        "court_rain_attendance_terms",
+        "court_rain_bai_review",
+        "court_rain_du_review",
+        "court_rain_packet_boundaries",
+        "court_rain_chronology_summary"
+      ],
+      "before": "court_rain_packet_exit"
+    },
+    {
+      "id": "court_cost_complete_packet_before_departure",
+      "required": [
+        "court_cost_scope",
+        "court_cost_passenger_board",
+        "court_cost_lift_return",
+        "court_cost_copy_rejoin",
+        "court_cost_storage_rejoin",
+        "court_cost_time_rejoin",
+        "court_cost_private_rejoin",
+        "court_cost_weather_quote",
+        "court_cost_local_quote",
+        "court_cost_docket_quote",
+        "court_cost_remand_quote",
+        "court_cost_reserve_rejoin",
+        "court_cost_final_sheet",
+        "court_cost_findings_packet"
+      ],
+      "before": "court_cost_departure"
+    },
+    {
+      "id": "court_docket_sources_before_scope",
+      "required": [
+        "court_docket_first_rejoin",
+        "court_docket_source_rejoin",
+        "court_docket_calendar_rejoin"
+      ],
+      "before": "court_docket_duty_choice"
+    },
+    {
+      "id": "court_docket_custody_before_approval",
+      "required": [
+        "court_docket_duty_rejoin",
+        "court_docket_witness_correction",
+        "court_docket_weather_source",
+        "court_docket_custody_rejoin"
+      ],
+      "before": "court_docket_approval_choice"
+    },
+    {
+      "id": "court_docket_complete_report_before_handoff",
+      "required": [
+        "court_docket_approval_rejoin",
+        "court_docket_reply_rejoin",
+        "court_docket_accepted_matters",
+        "court_docket_independence_page",
+        "court_docket_cost_page",
+        "court_docket_report_rejoin",
+        "court_docket_sealed_case"
+      ],
+      "before": "court_docket_handoff"
+    },
+    {
+      "id": "ring_shared_findings_and_owner_before_arrangement",
+      "required": [
+        "ring_shared_marsh_report",
+        "ring_shared_archive_report",
+        "ring_shared_road_report",
+        "ring_private_request",
+        "ring_counterfoil",
+        "ring_eel_receipt_request",
+        "ring_eel_comparison_terms",
+        "ring_eel_recognition",
+        "ring_jin_boundary",
+        "ring_resources"
+      ],
+      "before": "ring_final_choice"
+    },
+    {
+      "id": "ring_marsh_bounded_report_before_exit",
+      "required": [
+        "ring_marsh_remit",
+        "ring_marsh_first_page",
+        "ring_marsh_chronology",
+        "ring_marsh_seam",
+        "ring_marsh_no_hearing",
+        "ring_marsh_not_owner",
+        "ring_marsh_report"
+      ],
+      "before": "ring_marsh_exit"
+    },
+    {
+      "id": "ring_archive_public_scope_before_exit",
+      "required": [
+        "ring_archive_boundary",
+        "ring_archive_volunteered",
+        "ring_archive_permit_serial",
+        "ring_archive_account_stub",
+        "ring_archive_public_not_private",
+        "ring_archive_no_identification_yet"
+      ],
+      "before": "ring_archive_exit"
+    },
+    {
+      "id": "ring_road_separate_permissions_before_exit",
+      "required": [
+        "ring_road_permit_offer",
+        "ring_road_serial",
+        "ring_road_seam",
+        "ring_road_deposit_limit",
+        "ring_road_recognition_offer",
+        "ring_road_playback_boundary",
+        "ring_road_report"
+      ],
+      "before": "ring_road_exit"
+    }
+  ]
+}
