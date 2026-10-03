@@ -1,19 +1,19 @@
 {
-  "displayed_scenes": 1602,
-  "displayed_words": 137517,
+  "displayed_scenes": 1603,
+  "displayed_words": 137689,
   "new_training_scenes": 77,
-  "new_training_words": 5151,
+  "new_training_words": 5168,
   "rewritten_book_i_scenes": 36,
-  "rewritten_book_i_words": 2341,
-  "rewrite_words": 16770,
+  "rewritten_book_i_words": 2353,
+  "rewrite_words": 16983,
   "strict_word_target": 1000001,
   "planned_rewrite_words": 1050000,
   "reference_checks": "pass",
   "duplicate_prose_checks": "pass",
   "continuity_checkpoints": "pass",
-  "inherited_words": 120747,
-  "remaining_displayed_words": 862484,
-  "remaining_rewrite_words": 983231,
+  "inherited_words": 120706,
+  "remaining_displayed_words": 862312,
+  "remaining_rewrite_words": 983018,
   "native_art": [
     {
       "mime": "image/png",
@@ -128,9 +128,9 @@
   "runtime_validation_report": "docs/content_report.json",
   "runtime_validation_workflow": "https://github.com/jgyy/octxian/actions/workflows/ci.yml",
   "sluice_training_scenes": 131,
-  "sluice_training_words": 7860,
-  "rewritten_valley_scenes": 21,
-  "rewritten_valley_words": 1418,
+  "sluice_training_words": 7892,
+  "rewritten_valley_scenes": 22,
+  "rewritten_valley_words": 1489,
   "latest_batch": {
     "new_scenes": 131,
     "new_words": 7860,
@@ -403,7 +403,23 @@
     "assembly_provisional",
     "assembly_shelter",
     "lantern_seed",
-    "ending_seed"
+    "ending_seed",
+    "star_terms",
+    "reed_voice"
   ],
-  "rewrite_scenes": 265
+  "rewrite_scenes": 267,
+  "plot_repair_scene_ids": [
+    "tempering_after_007",
+    "tempering_after_009",
+    "exile",
+    "star_terms",
+    "sluice_004",
+    "reed_step_018",
+    "reed_voice"
+  ],
+  "plot_repair_new_scene_ids": [
+    "star_terms"
+  ],
+  "plot_repair_scenes": 7,
+  "plot_repair_words": 533
 }
