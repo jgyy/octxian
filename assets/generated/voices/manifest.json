@@ -1408,6 +1408,720 @@
       "seconds": 24.68,
       "text_sha256": "85d0e473f1d34c773b0d882c99649600ecd3a0d7991558768c5dc6e5a4242c1c",
       "sha256": "baa5f3e4864b87108c44cb4229653334b71654bc411bf2e883c9b8c52b347cdf"
+    },
+    "city_from_breath": {
+      "file": "assets/generated/voices/city_from_breath.wav",
+      "seconds": 26.78,
+      "text_sha256": "ba175c3a5021ec3166960549f7f457686336a79e4e78fda5ee0226bf87e93726",
+      "sha256": "2b558d4223deedcc65354157ef94489b05b29237789da456b597fa6156937f78"
+    },
+    "city_from_care": {
+      "file": "assets/generated/voices/city_from_care.wav",
+      "seconds": 29.54,
+      "text_sha256": "205388c903e385b2b4a0fe1de3a99b3fb8d56483b856e706c69762e5483b034e",
+      "sha256": "6876b2de26eaba33aa9c68dfc9f9dccd8deba907954320c14bb92827525debee"
+    },
+    "city_from_funds": {
+      "file": "assets/generated/voices/city_from_funds.wav",
+      "seconds": 28.12,
+      "text_sha256": "7937ae73e8f06b451573924f113d19fe82458de5f195e69d1566041cc229dcdc",
+      "sha256": "690e0a9740e3b1581c2ea5dc0a4fa3a9dd772602665b260b4bd70e0152b2d0d9"
+    },
+    "city_from_pause": {
+      "file": "assets/generated/voices/city_from_pause.wav",
+      "seconds": 28.76,
+      "text_sha256": "edced502dacb6b0f949f1c9549d4bdc0f31c0a5495c7055201ff010a127efe1a",
+      "sha256": "2b21756e092fbf3caa1e50dd18e51d87e8300a18b763b3bcc981332f83a0620d"
+    },
+    "city_arrival": {
+      "file": "assets/generated/voices/city_arrival.wav",
+      "seconds": 30.22,
+      "text_sha256": "89c751541de66822b4f240ea3db8b45926f9fbdaa843cb8c21c00813fcdc8025",
+      "sha256": "e8f6350defa005a4b5f01131abbd463df857662ee358c211fe4d170da889ca9f"
+    },
+    "city_dressing_room": {
+      "file": "assets/generated/voices/city_dressing_room.wav",
+      "seconds": 26.22,
+      "text_sha256": "12f2f80abcb446087422e3aa4af3f2788fc6f253a55968c26503b40555d7b9de",
+      "sha256": "55cadb01b156684b6527c0259761fdf9ca594ace3887160b31a218628420f9db"
+    },
+    "city_face_rule": {
+      "file": "assets/generated/voices/city_face_rule.wav",
+      "seconds": 29.48,
+      "text_sha256": "5a2bb7e72fb9fac1372baa9e8280d9ad5664c33c79b3f4117173f95b57a5b8cd",
+      "sha256": "70f20175de8f5f4908d73389cbcee0a7be8fc6b2571171341a5e9bf8c44e0f0a"
+    },
+    "city_credit_rule": {
+      "file": "assets/generated/voices/city_credit_rule.wav",
+      "seconds": 29.23,
+      "text_sha256": "5e6e9369d4c1dc74dacac7e288230bc55a57c0a546fe730f0e3caddabc5ad012",
+      "sha256": "4ab893963f6a03f1cfbe9cd9026e4571197426def0ab29374ef4e47933d85b55"
+    },
+    "city_wage_queue": {
+      "file": "assets/generated/voices/city_wage_queue.wav",
+      "seconds": 27.92,
+      "text_sha256": "a7fe47c7a09ee88a0a47914d4e2e3b599a17e3082d1e5fdf6c61ed08e43e3d32",
+      "sha256": "7e87ff3c3fb5948d7f02de880eab8c0e9db7702dc86df31d30532d0bd14d8868"
+    },
+    "city_courier": {
+      "file": "assets/generated/voices/city_courier.wav",
+      "seconds": 30.84,
+      "text_sha256": "dac6c00e5d0eecfdbde63938f8ac5f52c15d9419c5b30d8154cb6ec12b96c1e6",
+      "sha256": "e2f0db466b5e8e148bfc2e1e5d45f644248efcd81ebac996c373f9765cee65b0"
+    },
+    "city_notice": {
+      "file": "assets/generated/voices/city_notice.wav",
+      "seconds": 29.71,
+      "text_sha256": "b94975cb2fed0ec704519b21d8ff07cdeb0c9c30601875ddcbc3e353899df10a",
+      "sha256": "4dee5f1bd74d918224be799d903c21934980c297e356bac7a2dc1afabd4a512f"
+    },
+    "city_name_proof": {
+      "file": "assets/generated/voices/city_name_proof.wav",
+      "seconds": 29.7,
+      "text_sha256": "94669a744d60126e0f67b7818fd8e4c18ef442c12416ad17c5679aa2b5143fbb",
+      "sha256": "395188b40fdb372fc94e85437993b27cd7e746e616b659f4c56552e636036cec"
+    },
+    "city_courser_arrival": {
+      "file": "assets/generated/voices/city_courser_arrival.wav",
+      "seconds": 27.09,
+      "text_sha256": "1edb0e7ac2b814f0a0ffdcca78adb8c5ba50bc61f0e91016ce16a2729d484307",
+      "sha256": "9123968600632a50b688ded9568db564e19afc5950072824ef621c53a2e5b676"
+    },
+    "city_courser_terms": {
+      "file": "assets/generated/voices/city_courser_terms.wav",
+      "seconds": 29.49,
+      "text_sha256": "8d777b2d08d470047217024cd3f7bf4601f13cfe09c97d6d3a7e51306aca155d",
+      "sha256": "4eaef47917cde0dce417de654492011b770dfa74668610beeac138200400dbb2"
+    },
+    "city_courser_permission": {
+      "file": "assets/generated/voices/city_courser_permission.wav",
+      "seconds": 28.25,
+      "text_sha256": "5de5cc93278d0103ea6226cb3443f3073b42a5afec169ec40a1a2c9128eedfc1",
+      "sha256": "f92c176869d16e3f2403426081d6fba6abd593688765a23847675db72f7ace8f"
+    },
+    "city_echo_custody": {
+      "file": "assets/generated/voices/city_echo_custody.wav",
+      "seconds": 29.61,
+      "text_sha256": "155d7c182b8d0bfa1412ab972c20ac0cabc5ac8bed6dd220035e6d90e068d44f",
+      "sha256": "276283b210b1ec9e33ee544bc0ed7f02ca768022ac8c38aebb611bd54b439483"
+    },
+    "city_refuge": {
+      "file": "assets/generated/voices/city_refuge.wav",
+      "seconds": 28.37,
+      "text_sha256": "045dbd3460039f4f332bf394bd544f03195626ed100a5e2a18a0d67b12217e99",
+      "sha256": "63803e48c5da20c2a3ab34bbd37cf6dfb3cbfad592cd421e84cf2b523c438e52"
+    },
+    "city_binding_diagram": {
+      "file": "assets/generated/voices/city_binding_diagram.wav",
+      "seconds": 29.18,
+      "text_sha256": "961100cb99a8ee380d12293c8e1b371b631754bd00b7a02921d8ba8e417907ea",
+      "sha256": "68c4f542f1384c41507129f52079133ce75c54bd3e8a7c972299735ba0c34a1c"
+    },
+    "city_immediate_hold": {
+      "file": "assets/generated/voices/city_immediate_hold.wav",
+      "seconds": 27.95,
+      "text_sha256": "5d067d2579f412dab9fd2abda10af9eecbab58cba10093494be748eba888cb51",
+      "sha256": "ff1b6724260360b07a4e38e6875521ba705ffbd084bf64ffdb3661eb2f341fcd"
+    },
+    "city_clock": {
+      "file": "assets/generated/voices/city_clock.wav",
+      "seconds": 29.21,
+      "text_sha256": "acf2450c525c18fa0c7a4eca9097ba46e1b048e7351bc62eebbef1eb306c6e7c",
+      "sha256": "33a2a16c25f7fb1223ed1b7a1a09daa731cc27fef1bcb090413ee4f23ee30ed3"
+    },
+    "city_team_map": {
+      "file": "assets/generated/voices/city_team_map.wav",
+      "seconds": 27.79,
+      "text_sha256": "08e962eda2434a97ccad588428144637fefb8ff1ce634368b9166eafc08a2180",
+      "sha256": "d4ecebbb3c704fb778aab1a13ecff70e88efe748844f9197f690b74e85bfc9bd"
+    },
+    "city_sample_terms": {
+      "file": "assets/generated/voices/city_sample_terms.wav",
+      "seconds": 28.07,
+      "text_sha256": "fa31148d94e5f53ffaac82fb0bae45493404c4a7dce36643e9353798b193e507",
+      "sha256": "2080fc16591f37bbec860403ce7e3005be7f202650e66778e44f49306a5380be"
+    },
+    "city_witness_terms": {
+      "file": "assets/generated/voices/city_witness_terms.wav",
+      "seconds": 25.84,
+      "text_sha256": "e053339773c4fe1990a42b11abcc4b65770142fb9e5fc421b65445ea9b1f566f",
+      "sha256": "26878888ffb75f611d82a1abfb6d434852dafd2549a422ee6294d9d81ce947d1"
+    },
+    "city_investigation_choice": {
+      "file": "assets/generated/voices/city_investigation_choice.wav",
+      "seconds": 28.35,
+      "text_sha256": "cc0fbcfca6377f5f89c28f50af377c5965dbf3405a4587fbfb770cf90688cba0",
+      "sha256": "ce1aca69b673d9a9ad5cc8ae3de9382381b4ef315c1e1c3fb1156f9977b31060"
+    },
+    "city_findings": {
+      "file": "assets/generated/voices/city_findings.wav",
+      "seconds": 32.86,
+      "text_sha256": "68e5eadf62a3dae96ee112bc0f30e39605f5dbda1cf77e29276ccd3f61c7e3bc",
+      "sha256": "1a9da1b5939d02f104b24d2d7eb0d07f177824ea7565736bb9af69edafa1de57"
+    },
+    "city_mask_evidence": {
+      "file": "assets/generated/voices/city_mask_evidence.wav",
+      "seconds": 30.66,
+      "text_sha256": "8387995d9006a0aacf364df2b80b97e11bee486ebfd41c89537ffa02283fffa7",
+      "sha256": "ad16c4786d10dfcdb40892dad23e74ae2f525b196e1ced9725ffc22976df7aed"
+    },
+    "city_return_tokens": {
+      "file": "assets/generated/voices/city_return_tokens.wav",
+      "seconds": 31.32,
+      "text_sha256": "19a9dca1c4de3d6be732831b53c60d5677e84321e1465a8e87d948fa56a84c30",
+      "sha256": "0515bb6ed814499312a9b685fa6b19e1c6678e6d2855ddea5cd007fdb8cc5fe7"
+    },
+    "city_registry_evidence": {
+      "file": "assets/generated/voices/city_registry_evidence.wav",
+      "seconds": 31.71,
+      "text_sha256": "c90aabe606bfe575c4b43112e63541bb89a442eea455fdbc6d66f64fb96691e2",
+      "sha256": "ea1136c2fe2196bb592e8e2ef12af983a3039f511207fe691b040c149041ad4d"
+    },
+    "city_courier_account": {
+      "file": "assets/generated/voices/city_courier_account.wav",
+      "seconds": 28.39,
+      "text_sha256": "994448c1fd45a57637645cd0e6b765272db4713ca67f1dd4ad6e02e1536ca711",
+      "sha256": "34f9e726eec99d0d0ae59b1d4795c2f66a4e0f4c413ca3242a84c81604c1931c"
+    },
+    "city_perfumer_evidence": {
+      "file": "assets/generated/voices/city_perfumer_evidence.wav",
+      "seconds": 32.9,
+      "text_sha256": "cbb1f45c0360e92482c5e3594fc6ff14412794789eec027965376fd39241177b",
+      "sha256": "028d17962e0ea40b1a48c582e30fee98d9d586ee23db03a8514c9949439f44f0"
+    },
+    "city_moth_limit": {
+      "file": "assets/generated/voices/city_moth_limit.wav",
+      "seconds": 29.86,
+      "text_sha256": "92ea99ada7d7694b65414b4e8ca552b711a1d19bd25a3306ed17a5eeb7076ec4",
+      "sha256": "52b88ad63794d479605602c505ba04bf3e1a2885e15857bc5f4eae6001d7a6af"
+    },
+    "city_director_reply": {
+      "file": "assets/generated/voices/city_director_reply.wav",
+      "seconds": 33.25,
+      "text_sha256": "0000a11d727500d719a60f28efbaaaef6947733471576ec32f7c85b9dc1b5665",
+      "sha256": "4d5f79291fcf27cab6c8bbb06d73d95a106344e0e6a9f29a507f74dc51ec6ca6"
+    },
+    "city_hearing_question": {
+      "file": "assets/generated/voices/city_hearing_question.wav",
+      "seconds": 27.1,
+      "text_sha256": "3a140b947185eedc508096207e9586fabca22d2ed659560d2794c257d18d54c7",
+      "sha256": "59260d0a1585e3f48d7280807ea5bd30f7b01fa66123d0de75c149aa75eecb62"
+    },
+    "city_provisional": {
+      "file": "assets/generated/voices/city_provisional.wav",
+      "seconds": 34.06,
+      "text_sha256": "029ff5b9e5c5a67f200ce4a4dbe3ae7e788e97c6a10a025a923ae329745c9a4b",
+      "sha256": "7ee2e59a21d1913e808e3358f5b76494758e1d36e34c79f5b13cc403727e06e2"
+    },
+    "city_rights_restored": {
+      "file": "assets/generated/voices/city_rights_restored.wav",
+      "seconds": 30.56,
+      "text_sha256": "dd6c583cb6d5f05f47fedced987f12924f81c83f3d3149da2b68b80c94181843",
+      "sha256": "e75267f1e88d605368927854ebe232bf9e14d9ef15f1fd2cb137e3a3f8e8365f"
+    },
+    "city_hearing_cost": {
+      "file": "assets/generated/voices/city_hearing_cost.wav",
+      "seconds": 31.03,
+      "text_sha256": "a29648a4709a816868d17bbcd14350df6414ac06b6aba4de7d20c9aa7668da1f",
+      "sha256": "ef288eff65f0e41070741ec6bfb218f466e5e7b7cb318f958831926191c936a1"
+    },
+    "city_final_choice": {
+      "file": "assets/generated/voices/city_final_choice.wav",
+      "seconds": 29.97,
+      "text_sha256": "61a22faaabe8ca4a3b39d187a8a8324de97a924654682a73ae492a0de6239f1b",
+      "sha256": "a157fcc555e1e75f145654115a35ea92db573477310539773ab9f480cc911296"
+    },
+    "city_credit_bridge": {
+      "file": "assets/generated/voices/city_credit_bridge.wav",
+      "seconds": 29.2,
+      "text_sha256": "1bfe63d8fb78afea3eddbd7fae69ff15ed2063d4536d63825b8dfadf3005f803",
+      "sha256": "f6aa2a1ab069bae5085a517c80b92e530d82ff2d1f5f1ffbeb88d780f085346f"
+    },
+    "ending_city_credit": {
+      "file": "assets/generated/voices/ending_city_credit.wav",
+      "seconds": 30.42,
+      "text_sha256": "7d4ccbb0559e7abc7cd7af2993c2a89a4441bdbbfe4b2eb2363bd4c1e0f2df29",
+      "sha256": "139db7bb430634f8ac7a89499efc568be6e907b4d795fdc8f008cfdc2f46743a"
+    },
+    "city_separate_ledgers": {
+      "file": "assets/generated/voices/city_separate_ledgers.wav",
+      "seconds": 31.53,
+      "text_sha256": "555f1cf5aed53137a2125a60229edb14912544265ce2155ff72da7a2d7d5344f",
+      "sha256": "498eef4f582999eee60733abd1c2329203e8e9773470ab087b2dc68e7b27d38c"
+    },
+    "ending_city_ledgers": {
+      "file": "assets/generated/voices/ending_city_ledgers.wav",
+      "seconds": 32.69,
+      "text_sha256": "4759238e8b2de8d5b1b22ffdb6829232e702dce305cdb9b5371726d7edbb861f",
+      "sha256": "b4a95211d1116ba5e8ce9389f0bfdc4c82635501acfc73e12138db3bd81b64e2"
+    },
+    "city_license_pool": {
+      "file": "assets/generated/voices/city_license_pool.wav",
+      "seconds": 29.7,
+      "text_sha256": "284b96bf7a629bc5bd60069b016171c4155621bf3e34a2d693d2b0d2d9d6705b",
+      "sha256": "bd5d8f1f9c76948505a8b6b841b2cef4ecf0df99bcc998abe0b975fa97492458"
+    },
+    "ending_city_pool": {
+      "file": "assets/generated/voices/ending_city_pool.wav",
+      "seconds": 30.2,
+      "text_sha256": "1ea83674586ac04ea9eeefcb48b590081cef5166534c2f5441624a0bbe332569",
+      "sha256": "24a4da1648f229c4f82036e107ebec17c5a5b5eab5649b3cf12b644f4e164bcb"
+    },
+    "city_batch_audit": {
+      "file": "assets/generated/voices/city_batch_audit.wav",
+      "seconds": 31.23,
+      "text_sha256": "cd31af02e99a39dea2c23bb3524990e99fea592edb0162105e0fc23dce206c03",
+      "sha256": "ad90f9ae7ba96e843126421e9faef376370b838bb1b1e916ba16bdb2d740a274"
+    },
+    "ending_city_audit": {
+      "file": "assets/generated/voices/ending_city_audit.wav",
+      "seconds": 31.27,
+      "text_sha256": "f21e5d617a219da1012824d0068b83accfe77023c7c78d5cb5ee06cf114ee94a",
+      "sha256": "fc364a0f21ea57d11b1690290cd2885a3b40b24927a85885dfff9da1e958bc82"
+    },
+    "city_mask_entry": {
+      "file": "assets/generated/voices/city_mask_entry.wav",
+      "seconds": 26.92,
+      "text_sha256": "35eaef7a4426eb5ce687415026ddc540e6031553cdd2c446e4ecd8d23c37f9fa",
+      "sha256": "72694c29532fcff081fbe1d231e7fa4704e1539dd228b1e194509772b8c200f3"
+    },
+    "city_mask_studio": {
+      "file": "assets/generated/voices/city_mask_studio.wav",
+      "seconds": 25.66,
+      "text_sha256": "a142d0ec07e09d2ed8bcc13c2eb7f5e0540703ef82c3d8ecdea12be7447dfdf2",
+      "sha256": "38d9cce531cc07cb93922af380f6f208f62cc83a55536ba8e736284e44709ca3"
+    },
+    "city_mask_grain": {
+      "file": "assets/generated/voices/city_mask_grain.wav",
+      "seconds": 25.73,
+      "text_sha256": "13c1a42cb11b9af06c2a0ba9cd310ecccf6b62db17698130abb32fe8988ff501",
+      "sha256": "6dad207ecffd68a40f804bd14a097e2a3d0befb15ac2a3603c1cb9e7c974d040"
+    },
+    "city_mask_layers": {
+      "file": "assets/generated/voices/city_mask_layers.wav",
+      "seconds": 28.55,
+      "text_sha256": "ee6d539bb64e285dc4671d417751be7ad8389330644b6b41fd43eed3a480e3ff",
+      "sha256": "249fc389800a1b8b15acb80e310c9966d33725ca379b345df1bc6944fbc40fe5"
+    },
+    "city_mask_voice": {
+      "file": "assets/generated/voices/city_mask_voice.wav",
+      "seconds": 24.0,
+      "text_sha256": "2a8be29c050eb382f190439521a62bbd0e4b9ed43d909e1683271cb9cd00a6ac",
+      "sha256": "5f7831ea2d82cfb3d5014dc5e3c73147f7102e22e8a6de686020943ed98ba1d9"
+    },
+    "city_mask_fitting": {
+      "file": "assets/generated/voices/city_mask_fitting.wav",
+      "seconds": 25.6,
+      "text_sha256": "b767f5bfd50c787938b1ed3baa294ddc5a6257490e82023cc604d0e82b08b90e",
+      "sha256": "050d58cfe0d9118c99db2437da21ff16381a27adfe3f9a9f3c32d1b5b5c44b3b"
+    },
+    "city_mask_expression": {
+      "file": "assets/generated/voices/city_mask_expression.wav",
+      "seconds": 27.27,
+      "text_sha256": "b480f410445829f28f2d5a280b74d9fbd9b1a75454ddc5d7558a4d3c704976fa",
+      "sha256": "e26ed64cbe492d075c216f1b888c5690da16e43c2aa230b9a808b0ec0e1080df"
+    },
+    "city_mask_ledger": {
+      "file": "assets/generated/voices/city_mask_ledger.wav",
+      "seconds": 27.55,
+      "text_sha256": "d8203b486ba0cf073f5be9801b1a95b5110721300c2a1c218533921fa3f372ad",
+      "sha256": "9194c77420b6a971654366447f8c101a87adb11dfb47edd5f00ec11625af1259"
+    },
+    "city_mask_samples": {
+      "file": "assets/generated/voices/city_mask_samples.wav",
+      "seconds": 31.1,
+      "text_sha256": "70d43993bc04d08e4eca5259c266cfd2eca4b90b718676f3cdf26866723ad93a",
+      "sha256": "e9d9a47734c9ac1c690f0602dcbfd690af5762ccfb901befa812925420994f7c"
+    },
+    "city_mask_stakes": {
+      "file": "assets/generated/voices/city_mask_stakes.wav",
+      "seconds": 26.37,
+      "text_sha256": "e358b121a0e253cb46955800b4b2e5cdf3b22f205b5ba5cbbeceb2e4539807ba",
+      "sha256": "1d1ff619ee7135c5766594cdd0ccc4d54c7bb48e4c3a2f5a1c769223eb9b7bb3"
+    },
+    "city_mask_method": {
+      "file": "assets/generated/voices/city_mask_method.wav",
+      "seconds": 23.53,
+      "text_sha256": "44d76f9b08eb3d622a9691c49afb7314f3f727655ee6b33223641800385334da",
+      "sha256": "73e0d814b71bc6e66c053cd34ba4faccaae728dea1f961a24390f54e53ae0c1a"
+    },
+    "city_mask_seam": {
+      "file": "assets/generated/voices/city_mask_seam.wav",
+      "seconds": 24.09,
+      "text_sha256": "7d0004aea2432a10bcf33376de7a08ea486458004cdad3fc4e0b5fa4f4950581",
+      "sha256": "bfe9e0a74d02bfa0b8fdcbae20d67b86284865d989b448186d1db53e9702aa4c"
+    },
+    "city_mask_seam_result": {
+      "file": "assets/generated/voices/city_mask_seam_result.wav",
+      "seconds": 24.23,
+      "text_sha256": "d2f590fec11a304ce3eb5e47897dd7309552ac5b3a895ddbf01c50703f680f84",
+      "sha256": "dc3568c50210526b9d995b50f13b69c1606f44fddf4736bf376fe10c9f87cdd7"
+    },
+    "city_mask_dates": {
+      "file": "assets/generated/voices/city_mask_dates.wav",
+      "seconds": 28.6,
+      "text_sha256": "e80893e194bbea3fcff228cbc267265eb25adcb2487f94711997e3f57240d956",
+      "sha256": "6ac3c3e7e7f07a95fbbbe22d1c143f01bc93f481bc2e53f7663993febc41e6e2"
+    },
+    "city_mask_dates_result": {
+      "file": "assets/generated/voices/city_mask_dates_result.wav",
+      "seconds": 24.31,
+      "text_sha256": "7edfe4685afb4a1b1c3c8f0e4f7a33733ea4df5d5e92eee608ac88c3dfcb23b3",
+      "sha256": "ded562884533ed8aee17f39bfc1b97b88f139d1008698c426393ce717308c482"
+    },
+    "city_mask_workers": {
+      "file": "assets/generated/voices/city_mask_workers.wav",
+      "seconds": 27.81,
+      "text_sha256": "0e07afd4459a3d7a26d776e420a1b663fdbfa08ce690d96e9e7f9e241fd1b26a",
+      "sha256": "265dd7bf409ff6beebffd6c28e003a1acf6278018881d8daa9b431ea043eef95"
+    },
+    "city_mask_workers_result": {
+      "file": "assets/generated/voices/city_mask_workers_result.wav",
+      "seconds": 25.89,
+      "text_sha256": "e678737ab32dac8e53465436efd14cfe3207377491c36b375e497c2d7001f624",
+      "sha256": "763aa4ea20adb3ad47f4ca073037ee57b7fe94f7208ae992ee165cfe1decd188"
+    },
+    "city_mask_rejoin": {
+      "file": "assets/generated/voices/city_mask_rejoin.wav",
+      "seconds": 29.3,
+      "text_sha256": "a257d29d6ec3a03a5dcfdd6b80edd55ed53c827aeafe458161890f37c162fb9d",
+      "sha256": "bee064d0842adb5e319ae73c10b3f76121b79a6c8e909b7d1fa9d0c30f86cdc7"
+    },
+    "city_mask_mirror": {
+      "file": "assets/generated/voices/city_mask_mirror.wav",
+      "seconds": 28.68,
+      "text_sha256": "193cf5b4fab496e507c10c7cf75147c7c1ba90bdb88e05123a560c5d744d720b",
+      "sha256": "e95c827c6bd9c8e7d3cbb0c654e75b222c324c43ab94ca01c2b9af7e6652b96f"
+    },
+    "city_mask_scrape": {
+      "file": "assets/generated/voices/city_mask_scrape.wav",
+      "seconds": 27.18,
+      "text_sha256": "cd45987469a068d4c16b059e1f3a0c1d4264e3e573a8e5e124461ecb4f3dea1e",
+      "sha256": "0ffaf2b73c2fd591894f9f1c592859733e4f0f6e2d999527b7efdd027d0f0206"
+    },
+    "city_mask_loft": {
+      "file": "assets/generated/voices/city_mask_loft.wav",
+      "seconds": 27.74,
+      "text_sha256": "095f448cd6b2dca9a656f65763c881752ad021afe5832954a5cdc88269afe909",
+      "sha256": "721ebef7ff5ae8f509b37a2be53a51d866bc8350480d41871dd81f3b0c04e2a1"
+    },
+    "city_mask_hearing_risk": {
+      "file": "assets/generated/voices/city_mask_hearing_risk.wav",
+      "seconds": 25.66,
+      "text_sha256": "71ed078d011ae269fc93ecfc5d3cfdde0e29d2c6533d6c60c6cb2483a20db36a",
+      "sha256": "6869e4e91dc10da07bb948b8fc73cc084f52aa686c892e714c2a05b181bb7219"
+    },
+    "city_mask_packet": {
+      "file": "assets/generated/voices/city_mask_packet.wav",
+      "seconds": 27.79,
+      "text_sha256": "180989c459f0d15ee7d9715a4a9e375301a59eda01eaaa1d7238721cd6be42e1",
+      "sha256": "07ba4b6451fa83e79f40fe45078a675452e7a06692ff8e40cded834d9e07b8b6"
+    },
+    "city_mask_departure": {
+      "file": "assets/generated/voices/city_mask_departure.wav",
+      "seconds": 24.52,
+      "text_sha256": "8ac1f0449e6e741039f3591c30d160be8a4039f125010632b035ac2df65ac386",
+      "sha256": "170be986edd783e0969a8b93f4567371cc0a586cf66fc6e83a8efd2e2bb7caee"
+    },
+    "city_registry_entry": {
+      "file": "assets/generated/voices/city_registry_entry.wav",
+      "seconds": 27.76,
+      "text_sha256": "f144c9c6d058a584f71507d55645ef2420c00eb49c5cf2e87111f68c85acfda5",
+      "sha256": "93e410aa27132da6542de3a07fcfa2c57eb486d4d519d019f693b21484924079"
+    },
+    "city_registry_mei": {
+      "file": "assets/generated/voices/city_registry_mei.wav",
+      "seconds": 27.59,
+      "text_sha256": "28aba4c8917258fe510f75d0229ad7d9cc5faaf2ee8f9a3d98bb61d23fabc864",
+      "sha256": "c60e2264fcdb78023851026195d3aecd1ced2bec72a473a654e0287243fb9b96"
+    },
+    "city_registry_tao": {
+      "file": "assets/generated/voices/city_registry_tao.wav",
+      "seconds": 28.47,
+      "text_sha256": "90f9926fa09809442e32630c5754aecab84f3953255b7eb24c2d322886a1b021",
+      "sha256": "b4ac1e69ae815498475c23a6404ae2da822bd34820ae71a403f8d6da7cecfb79"
+    },
+    "city_registry_permit": {
+      "file": "assets/generated/voices/city_registry_permit.wav",
+      "seconds": 32.8,
+      "text_sha256": "cfefb7d96266ba9d4316db807142215ddf45102d9ee701394b28ac9541c7ee64",
+      "sha256": "9003a51c9877ad0d850f51ae083c7b773049943622fd59e0615bccda7288f0d4"
+    },
+    "city_registry_hall": {
+      "file": "assets/generated/voices/city_registry_hall.wav",
+      "seconds": 34.02,
+      "text_sha256": "0ef7840d7eb1c6fb8c80a34c3e147fae9845558ea6cd70c3f70fad1f44c5a58d",
+      "sha256": "2c5ca22457a1ea8e6bc72b3282fd14a544db7cbbe77c3002b460fbeb134ca314"
+    },
+    "city_registry_fees": {
+      "file": "assets/generated/voices/city_registry_fees.wav",
+      "seconds": 33.84,
+      "text_sha256": "a7f8ea94fce2df6e353f875c8c03eecf31db9922ff23a69d0363f4c0fbc8507b",
+      "sha256": "4e2e4e87c9b6c1698d726aaaae9162b53c0245ca7b49c144bf35e40c5261754b"
+    },
+    "city_registry_rental": {
+      "file": "assets/generated/voices/city_registry_rental.wav",
+      "seconds": 28.32,
+      "text_sha256": "b550c8e032f197f48e7e5d6c1933904b7fbd19edd4d49be9d57167f2d1157d2b",
+      "sha256": "179e12cee9e19e2b1a1aa43e8856b44e40473e204f165499c68ed341ea08dfed"
+    },
+    "city_registry_choice": {
+      "file": "assets/generated/voices/city_registry_choice.wav",
+      "seconds": 28.18,
+      "text_sha256": "7c0b0b8c12cbc23c52baba17725232cee9486e0a5d100806b9e0def5d8b9f385",
+      "sha256": "c70f3d9b86679bb155c362aca05b7204445e0988e94911903676b299a447b16a"
+    },
+    "city_registry_dispatch_log": {
+      "file": "assets/generated/voices/city_registry_dispatch_log.wav",
+      "seconds": 28.78,
+      "text_sha256": "ddfddcf2fd1ee0b9c1728b41cd369a8628ed78377fe3f65230d81ceee49f6156",
+      "sha256": "02bfe99623929301c9e75590d3d854aa304054ef0ece269bdb36dbe6e366f9bc"
+    },
+    "city_registry_dispatch_order": {
+      "file": "assets/generated/voices/city_registry_dispatch_order.wav",
+      "seconds": 29.56,
+      "text_sha256": "890205f7fb36d76160bcdf2307fbd143f09241cf781e63086a5302ef5bd9f26b",
+      "sha256": "86979d92177ad91372c7cc8cd3ba5b7ebe203a9a04114112eb84a8f573c0c3f4"
+    },
+    "city_registry_dispatch_return": {
+      "file": "assets/generated/voices/city_registry_dispatch_return.wav",
+      "seconds": 30.27,
+      "text_sha256": "268d471bbb3459855eadde183716a77e49cca9d0ca73647ccf0c7e42790dfd91",
+      "sha256": "20274937b903b7665b0d44d77cae3bd970f25bd98b73074294b4a1bbc287a7c5"
+    },
+    "city_registry_witness_door": {
+      "file": "assets/generated/voices/city_registry_witness_door.wav",
+      "seconds": 25.98,
+      "text_sha256": "6b33bd4ce418a64f1a778afdd6f64949bbfd34cc02022f83212d33fdb54a39b2",
+      "sha256": "b9d6dfff121c19b47a7b140e9f3a1d5b812e8a74a91cf1d659658d93986b0208"
+    },
+    "city_registry_witness_receipt": {
+      "file": "assets/generated/voices/city_registry_witness_receipt.wav",
+      "seconds": 30.51,
+      "text_sha256": "ca165a0ea1c16ac24b11b7a99d27ff079b1671f2c21abf3aede823f62c74b438",
+      "sha256": "d53de26446a0eae36700f2c2bcf4eb96b7fe413c76a7ee8384bb6b34f904da8d"
+    },
+    "city_registry_witness_limit": {
+      "file": "assets/generated/voices/city_registry_witness_limit.wav",
+      "seconds": 30.3,
+      "text_sha256": "3d315b589cb8a94660d964646d68172750c484ad7761fa27c533d6dbe77a1bec",
+      "sha256": "d3a83caaed9c5c6942027513f3e0202cae26045fc48aa9914a79caf7fece4128"
+    },
+    "city_registry_charges_table": {
+      "file": "assets/generated/voices/city_registry_charges_table.wav",
+      "seconds": 31.88,
+      "text_sha256": "9f7c3a42bdff2b2fbecbe27f23ba3d4b3c1b206b61b5a1261c63e3e338366459",
+      "sha256": "72f0810bbf80ed6c82fd842ce803da336e6435479778ea75ff4757f006713167"
+    },
+    "city_registry_charges_need": {
+      "file": "assets/generated/voices/city_registry_charges_need.wav",
+      "seconds": 26.8,
+      "text_sha256": "4d3964f3df8d27f4f5ae70d7caeeeb54dff527d979309de23f5c053fdd16f034",
+      "sha256": "f3489b43916cd7715027e0a15e3b5bc94ff75927cd9348c1d2126ea301302026"
+    },
+    "city_registry_charges_total": {
+      "file": "assets/generated/voices/city_registry_charges_total.wav",
+      "seconds": 30.33,
+      "text_sha256": "46205b55dbd8c9c30d0dd7cacd403d3a40e46e0d34ac4d0f7bb2a9f4f28009b7",
+      "sha256": "0b745e2526e58f8b85c4fe20b78d10b81b49e0213f175362d3747d7cbddf9d26"
+    },
+    "city_registry_compare": {
+      "file": "assets/generated/voices/city_registry_compare.wav",
+      "seconds": 31.49,
+      "text_sha256": "d785a8291a95357bdb32cf2bf1548813c89c59aad28cfb000d344249287e59c7",
+      "sha256": "b20e8eaaf74f38233b2c31cb4c558812e259f615d9d71ca4165613b1c4434447"
+    },
+    "city_registry_conversion": {
+      "file": "assets/generated/voices/city_registry_conversion.wav",
+      "seconds": 31.71,
+      "text_sha256": "6662762f8e78e324c30a8240c9385f583b6e5295b61d2378ad6f7f8cca8e86f3",
+      "sha256": "b7f0c823a43f5374495257a814857f5f8c0e17f32815b63f07b90337e0ba17cf"
+    },
+    "city_registry_admission": {
+      "file": "assets/generated/voices/city_registry_admission.wav",
+      "seconds": 28.61,
+      "text_sha256": "c0bca6f5207dfe425397f4dcd5cbe2dff7bf50d36be5c9e9182009c0f4cbb893",
+      "sha256": "a9464f3b80ddbd918a5c640e5d8d2fd6c47dded72b2141eadd78bc87dc5b9780"
+    },
+    "city_registry_review_request": {
+      "file": "assets/generated/voices/city_registry_review_request.wav",
+      "seconds": 30.07,
+      "text_sha256": "0a56f3c183406c306e264b78ed2c20387c174c3a1189ea7275d561adf15b5c97",
+      "sha256": "c93bf526558663208a6c1cf16edd848086ba99e3d37c72614c9279037ec7efb8"
+    },
+    "city_registry_copies": {
+      "file": "assets/generated/voices/city_registry_copies.wav",
+      "seconds": 31.11,
+      "text_sha256": "f9bacbe1406274f81a9a5109a73d06bced36abc7e50bc41780c5c0930ba1a43c",
+      "sha256": "b4c966ed8e5f58f95d2a6270fc9d487fcac1ce5d1cb166bf376c05a50afdda06"
+    },
+    "city_registry_own_voice": {
+      "file": "assets/generated/voices/city_registry_own_voice.wav",
+      "seconds": 25.55,
+      "text_sha256": "32ee520426c70947e33741939dbb6c92263fe594129a14965b364c49cf2f983c",
+      "sha256": "32b2f4ebf1fc13b0e369f32b14bd3e26cfa221f42c6aa38690101e1e090e30af"
+    },
+    "city_registry_exit": {
+      "file": "assets/generated/voices/city_registry_exit.wav",
+      "seconds": 29.77,
+      "text_sha256": "b56b703ed393e5f14c483019b89fecf546653854edc7ea60e40f9db556664e55",
+      "sha256": "ada327793e9048a4781aadd0476e61e82abe9ab1d69ca68429c6dd67843389b0"
+    },
+    "city_perfumer_entry": {
+      "file": "assets/generated/voices/city_perfumer_entry.wav",
+      "seconds": 27.11,
+      "text_sha256": "af9e9b456ec3ff35be29e69aad81879e3549f48cf4bee760b03455c9d7645c21",
+      "sha256": "56f527291c78e76b9ec5bdf90c268528710ff73b3585a9a93b72ac4c8823945b"
+    },
+    "city_perfumer_workroom": {
+      "file": "assets/generated/voices/city_perfumer_workroom.wav",
+      "seconds": 28.0,
+      "text_sha256": "8aae386d1e0627706e857d9770f179e664bae0cff912eedf6e8852708b067a96",
+      "sha256": "2c79c363c69c69ba43716a2d5e5b14d7280621f8f17a5a5aeafb20753f06e41a"
+    },
+    "city_perfumer_complaints": {
+      "file": "assets/generated/voices/city_perfumer_complaints.wav",
+      "seconds": 31.88,
+      "text_sha256": "a9a5c54afd03cf8c1e46cb6cc012e9d2571cc247362afc19d1d3ac12ffae7317",
+      "sha256": "4385d830ef58c9a89d2ed62ef20d98f24960254083a2e9050d6c2121d2ea3dc0"
+    },
+    "city_perfumer_moth_arrival": {
+      "file": "assets/generated/voices/city_perfumer_moth_arrival.wav",
+      "seconds": 26.42,
+      "text_sha256": "95ea02757495c163337aefa519c4714b5cd3a4077f488b777026d0a1fe5ddf4e",
+      "sha256": "57255f18b01d79c2226f387798be63ff4f2d6887c276ba85cc5df8d33d4984b9"
+    },
+    "city_perfumer_moth_terms": {
+      "file": "assets/generated/voices/city_perfumer_moth_terms.wav",
+      "seconds": 26.6,
+      "text_sha256": "7d64a3c09b5059b912321ad6db80ca2c6da1dfdd824b27fee7a155472b3c50ab",
+      "sha256": "83ed5e00f6b576a10d6cc59979e19c6a8869795194ab6dfb56c8670d9e4d445e"
+    },
+    "city_perfumer_materials": {
+      "file": "assets/generated/voices/city_perfumer_materials.wav",
+      "seconds": 28.87,
+      "text_sha256": "c093d93e466e9c03e4fff618f9d6f33edd55e910e293e6cbe00a90f731e42cae",
+      "sha256": "9d703b22f8bbde4e80cb9ecbba775f3b8742b4f24155766dbcea5c8473fcfc60"
+    },
+    "city_perfumer_controls": {
+      "file": "assets/generated/voices/city_perfumer_controls.wav",
+      "seconds": 29.47,
+      "text_sha256": "85d57d0db9d65985b09b980998b7c315da19930847d9232134abf5333e4a9975",
+      "sha256": "7f17d60769d791806b49b90e424e86f88ae77942ee51249824911bc48f0929e6"
+    },
+    "city_perfumer_steam": {
+      "file": "assets/generated/voices/city_perfumer_steam.wav",
+      "seconds": 28.72,
+      "text_sha256": "cf7fb2ad71a0a1ce055b199deb29b30d68a35b5d4da8c15bfcb46bf0ce0d13f2",
+      "sha256": "5e424f9fee9e15fe760d5ae82b0acb64e547ca7c59dd0ed6216a6b9bb3dc91c5"
+    },
+    "city_perfumer_separation": {
+      "file": "assets/generated/voices/city_perfumer_separation.wav",
+      "seconds": 27.09,
+      "text_sha256": "278fc88b9b8e4e90adf6a4b6361832b8250a72a82fbf8834587f59792c5eb4aa",
+      "sha256": "6ee668f412252259233dd8f3da4e0ec59f04545d9f4fe77708b00160633aa73a"
+    },
+    "city_perfumer_deadline": {
+      "file": "assets/generated/voices/city_perfumer_deadline.wav",
+      "seconds": 24.85,
+      "text_sha256": "8cd6521cd89cbe77e1eabf39b2dacb95fd28aaaf68028ce8bc96e214a5a45f22",
+      "sha256": "d228092611d0b1b02abc168c3a439e15a95defa2bafa2d5a7a3e55be383260d2"
+    },
+    "city_perfumer_choice": {
+      "file": "assets/generated/voices/city_perfumer_choice.wav",
+      "seconds": 26.62,
+      "text_sha256": "05e7ea0dc7e3dd2f15ea73e4ae32cae528a277e4900802a7f5a62eeb73fabf39",
+      "sha256": "b8a837de848196747ea51281ab038904c63b1bb5db396a0755055f5fa97dbf16"
+    },
+    "city_perfumer_qi_pulse": {
+      "file": "assets/generated/voices/city_perfumer_qi_pulse.wav",
+      "seconds": 25.7,
+      "text_sha256": "3eda9ac6ab5729bf06e52275b0fa8f1076b7b3c655095676536423f8f21b9c46",
+      "sha256": "b9e3c6290fe33ffb4da73d8aa021192c7d21db7e9c5c267e464bb2dcbfa6c1b8"
+    },
+    "city_perfumer_qi_source": {
+      "file": "assets/generated/voices/city_perfumer_qi_source.wav",
+      "seconds": 28.0,
+      "text_sha256": "3d9a58445301823c136f882bfe47ba1f90580af1b28c3cb0ed03303afbab6cbc",
+      "sha256": "3dd45554db82c8d68b2dcdff46b582d61c45c752e315da3092b7b81d117067df"
+    },
+    "city_perfumer_qi_cost": {
+      "file": "assets/generated/voices/city_perfumer_qi_cost.wav",
+      "seconds": 24.79,
+      "text_sha256": "4145a86d84af33fccd82dd170381a63338b193c622586542d6c9b161170b7666",
+      "sha256": "9a8be4e244e67ff6a05f34d035a2de9b50ba27d83e005fb40e66e4f3bab803ad"
+    },
+    "city_perfumer_trust_compare": {
+      "file": "assets/generated/voices/city_perfumer_trust_compare.wav",
+      "seconds": 28.01,
+      "text_sha256": "07007b97ee3ab3d4c2c558c515f44faffcf34c7332b9157cf007ea38c155cc79",
+      "sha256": "b4c55ec1b48787f8c43109a14aed77b8c73c92010549d47b352d59c40a71ad6b"
+    },
+    "city_perfumer_trust_reading": {
+      "file": "assets/generated/voices/city_perfumer_trust_reading.wav",
+      "seconds": 28.35,
+      "text_sha256": "3781f1075219927381fe1f7fe06650c95ce6eff9321f333230ad9364213d8ea1",
+      "sha256": "ae8da9826c2d963b2fd51c7593cad67973b3056404f33df2d35702ddc195e48c"
+    },
+    "city_perfumer_trust_cost": {
+      "file": "assets/generated/voices/city_perfumer_trust_cost.wav",
+      "seconds": 28.68,
+      "text_sha256": "54ed3a4eb498b97314e7a633ac96d8a9491fa388977e5aab9cc1d36735079f26",
+      "sha256": "e3e7658312f2afe1d8321c4d560763e391ad9fb8f4c6863eda5a02b7907b7f65"
+    },
+    "city_perfumer_drying_bay": {
+      "file": "assets/generated/voices/city_perfumer_drying_bay.wav",
+      "seconds": 29.35,
+      "text_sha256": "c23ab3519ddaf0f93d8885b325860823ea06dc080ab40716ea770c1b4c6813be",
+      "sha256": "d893f29d80930746a9d2b5ca60deaa441d28c47dea8eddf67a5b31817951a2c7"
+    },
+    "city_perfumer_drying_observation": {
+      "file": "assets/generated/voices/city_perfumer_drying_observation.wav",
+      "seconds": 27.39,
+      "text_sha256": "f661573ce1ea614562deb65e28515dc200d4664f90e481cf011e382e4c0fa7e5",
+      "sha256": "7f269714a694c1f9939f2d8740765bbe7af4dfb8f08a22a2b4beb6ce97d310e1"
+    },
+    "city_perfumer_drying_cost": {
+      "file": "assets/generated/voices/city_perfumer_drying_cost.wav",
+      "seconds": 25.58,
+      "text_sha256": "ba0831acd2c6701460ace409314014170e6a1102b7fd07b29da643c98eb144dd",
+      "sha256": "6e16ec99b5eaa499db3e513cfcd1029564e4b2fed5f3b8f22e1e8ba74a7d4f26"
+    },
+    "city_perfumer_return": {
+      "file": "assets/generated/voices/city_perfumer_return.wav",
+      "seconds": 29.93,
+      "text_sha256": "bc8c5bd6adb015308026de9832ac7fcf82b3605deee148ea8ed4f82ee1536a75",
+      "sha256": "0481a20a8c7e45a7f602d30725485005fb19bbcec76c3155ae83d4c63274e32e"
+    },
+    "city_perfumer_blind_labels": {
+      "file": "assets/generated/voices/city_perfumer_blind_labels.wav",
+      "seconds": 27.43,
+      "text_sha256": "c2a3ae6719146e12778495078b71e8bc9755dc9cde3e08d144aab2c6ad90b66b",
+      "sha256": "dbb295577ae730f2a38703df42a2d1a83ab5d10060cda56f8e619f60931f33d8"
+    },
+    "city_perfumer_worker_story": {
+      "file": "assets/generated/voices/city_perfumer_worker_story.wav",
+      "seconds": 28.98,
+      "text_sha256": "8965fd0630c5959d9049d44555ecc8340cf6079ba6ffe1204cdfaa8486d0e35a",
+      "sha256": "0525ab5b73b2b9ca928a73f6a569b92e3a3c8687623f777c3cc659d1b72bad4e"
+    },
+    "city_perfumer_custody": {
+      "file": "assets/generated/voices/city_perfumer_custody.wav",
+      "seconds": 29.84,
+      "text_sha256": "7f224422708ebb6ab08b009867399ed29fdbb2826d735ddc2aa3d270dbf5559e",
+      "sha256": "b99683e037aa857295c4a3414323df21e7bf12700263e278aac109a62643e9fa"
+    },
+    "city_perfumer_bounded_claim": {
+      "file": "assets/generated/voices/city_perfumer_bounded_claim.wav",
+      "seconds": 30.0,
+      "text_sha256": "ce00cccb7639988a1034dd7a0df43178d7d1b58718d63eab753ded9f25a359c3",
+      "sha256": "59192c8180dc274f2abdedee31bc9e00372c24601cd492ecf749b6fa393c5f9c"
+    },
+    "city_perfumer_handoff": {
+      "file": "assets/generated/voices/city_perfumer_handoff.wav",
+      "seconds": 31.71,
+      "text_sha256": "1fcbd2a956ecd8f5101eec1d137e9b8ac8cb772e28d64e827e0122437de3f897",
+      "sha256": "87199ad69fed5c2e699895cf6c931c7abd34ff62782b351326167bc8b70d03d0"
     }
   }
 }
