@@ -1,0 +1,74 @@
+{
+  "displayed_scenes": 1471,
+  "displayed_words": 129432,
+  "new_training_scenes": 77,
+  "new_training_words": 5151,
+  "rewritten_book_i_scenes": 36,
+  "rewritten_book_i_words": 2341,
+  "rewrite_words": 7492,
+  "strict_word_target": 1000001,
+  "planned_rewrite_words": 1050000,
+  "reference_checks": "pass",
+  "duplicate_prose_checks": "pass",
+  "continuity_checkpoints": "pass",
+  "inherited_words": 121940,
+  "remaining_displayed_words": 870569,
+  "remaining_rewrite_words": 992509,
+  "native_art": [
+    {
+      "mime": "image/png",
+      "size": [
+        1672,
+        941
+      ],
+      "bytes": 3205203,
+      "path": "assets/art/world/lower_training_terrace.png"
+    },
+    {
+      "path": "assets/art/world/han_mei.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 2256579,
+      "pngColorType": 6,
+      "commit": "570f90821ce98db2133cf944c06271c0591173a5"
+    },
+    {
+      "path": "assets/art/world/furnace_mite.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 2652138,
+      "pngColorType": 6,
+      "commit": "0cd554c764662b76299bdfcb00a1d9541d4d3e02"
+    },
+    {
+      "path": "assets/art/world/copper_practice_wick.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 1831752,
+      "pngColorType": 6,
+      "commit": "30a6636132dcbd33c81b3b4525ec66286db5dbd4"
+    },
+    {
+      "path": "assets/art/effects/first_qi_trace.png",
+      "mime": "image/png",
+      "size": [
+        1536,
+        1024
+      ],
+      "bytes": 1466775,
+      "pngColorType": 6,
+      "commit": "ba37547776e7097ed359e666f57c7154f3ec27c6"
+    }
+  ],
+  "runtime_validation": "pending final CI",
+  "complete": false
+}
