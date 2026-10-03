@@ -1395,6 +1395,48 @@
         "reed_nest",
         "reed_voice"
       ]
+    },
+    {
+      "id": "plot_seed_roof_preserved",
+      "statement": "On the seed route, the paid roof repair completed by the ending remains complete in the following spring. The carpenter inspects its winter wear; the seedling is future grove shelter and does not rebuild a missing roof.",
+      "anchors": [
+        "ending_seed",
+        "river_from_seed"
+      ]
+    },
+    {
+      "id": "plot_stair_keeps_accepted_stop",
+      "statement": "Every river investigation establishes an accepted sheltered eight-day stop before choosing a settlement. The ramp survey uses an ordinary boat while the Eel rests; it does not resume the shorter exhausting circuit after that common stop.",
+      "anchors": [
+        "river_interim",
+        "river_stair_terms",
+        "stair_soundings",
+        "stair_completion"
+      ]
+    },
+    {
+      "id": "plot_harbor_paid_term_renewed",
+      "statement": "On Day Eight, before the interim watch ends, the association approves twenty copper: sixteen for eight future two-copper night checks and four for an emergency move. Accepted regular morning duties are not billed twice. Eel and crews accept scope; review precedes Day Sixteen's last check. Closed-copy protection and safe-stop permission survive independently of expired paid watches.",
+      "anchors": [
+        "river_interim",
+        "harbor_first_reply",
+        "harbor_review",
+        "harbor_review_terms",
+        "harbor_departure",
+        "ending_river_harbor"
+      ]
+    },
+    {
+      "id": "plot_orchard_novice_no_healing",
+      "statement": "At stage three, Lin Yue supplies a stopped quarter-unit to a rated isolated diagnostic strip, not patient contacts or a winter ward. The breathing trial uses a separate grounded timing wick and ordinary pacing; no qi enters a patient or mends an injury. Matron and Yun perform qualified inspection and repair.",
+      "anchors": [
+        "orchard_circuit",
+        "orchard_circuit_limit",
+        "orchard_circuit_find",
+        "orchard_cost",
+        "orchard_breath_trial",
+        "ending_orchard_breath"
+      ]
     }
   ],
   "review_policy": "Review each new chapter's chronology, custody, character knowledge, and alternate outcomes before updating this ledger. Structural checks supplement editorial review; they do not prove the absence of all possible plot holes.",
@@ -1836,6 +1878,16 @@
         "star_terms"
       ],
       "before": "final_choice"
+    },
+    {
+      "id": "plot_harbor_review_before_departure",
+      "required": [
+        "river_interim",
+        "harbor_first_reply",
+        "harbor_review",
+        "harbor_review_terms"
+      ],
+      "before": "harbor_departure"
     }
   ]
 }

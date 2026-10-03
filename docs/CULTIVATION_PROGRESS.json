@@ -1,19 +1,19 @@
 {
-  "displayed_scenes": 1603,
-  "displayed_words": 137689,
+  "displayed_scenes": 1605,
+  "displayed_words": 137944,
   "new_training_scenes": 77,
   "new_training_words": 5168,
   "rewritten_book_i_scenes": 36,
   "rewritten_book_i_words": 2353,
-  "rewrite_words": 16983,
+  "rewrite_words": 17805,
   "strict_word_target": 1000001,
   "planned_rewrite_words": 1050000,
   "reference_checks": "pass",
   "duplicate_prose_checks": "pass",
   "continuity_checkpoints": "pass",
-  "inherited_words": 120706,
-  "remaining_displayed_words": 862312,
-  "remaining_rewrite_words": 983018,
+  "inherited_words": 120139,
+  "remaining_displayed_words": 862057,
+  "remaining_rewrite_words": 982196,
   "native_art": [
     {
       "mime": "image/png",
@@ -405,9 +405,19 @@
     "lantern_seed",
     "ending_seed",
     "star_terms",
-    "reed_voice"
+    "reed_voice",
+    "river_from_seed",
+    "stair_soundings",
+    "river_book",
+    "harbor_review",
+    "harbor_review_terms",
+    "orchard_circuit",
+    "orchard_circuit_limit",
+    "orchard_circuit_find",
+    "orchard_cost",
+    "orchard_breath_trial"
   ],
-  "rewrite_scenes": 267,
+  "rewrite_scenes": 277,
   "plot_repair_scene_ids": [
     "tempering_after_007",
     "tempering_after_009",
@@ -415,11 +425,23 @@
     "star_terms",
     "sluice_004",
     "reed_step_018",
-    "reed_voice"
+    "reed_voice",
+    "river_from_seed",
+    "stair_soundings",
+    "river_book",
+    "harbor_review",
+    "harbor_review_terms",
+    "orchard_circuit",
+    "orchard_circuit_limit",
+    "orchard_circuit_find",
+    "orchard_cost",
+    "orchard_breath_trial"
   ],
   "plot_repair_new_scene_ids": [
-    "star_terms"
+    "star_terms",
+    "harbor_review",
+    "harbor_review_terms"
   ],
-  "plot_repair_scenes": 7,
-  "plot_repair_words": 533
+  "plot_repair_scenes": 17,
+  "plot_repair_words": 1355
 }
