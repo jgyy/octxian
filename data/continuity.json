@@ -1437,6 +1437,57 @@
         "orchard_breath_trial",
         "ending_orchard_breath"
       ]
+    },
+    {
+      "id": "plot_wei_jin_delayed_identification",
+      "statement": "Wei Jin remembers entrusting his own copy and retains his counterfoil, but the keeper's missing custody page and illegible outer reference prevented identification. Only the newly recovered exterior R-3 entry supplies a safe comparison. His recollection is not missing and his daughter had no private playback permission.",
+      "anchors": [
+        "river_book",
+        "ring_jin_offer",
+        "ring_jin_context",
+        "ring_private_request",
+        "ring_counterfoil",
+        "ring_eel_recognition"
+      ]
+    },
+    {
+      "id": "plot_mortal_childhood_no_personal_qi",
+      "statement": "Lin Yue's childhood rice mishap used ordinary kiln-vent heat. She had no personal qi before the recovered trace tests. The later memory does not retroactively grant a childhood realm.",
+      "anchors": [
+        "arrival",
+        "tempering_after_013",
+        "ring_archive_mortality"
+      ]
+    },
+    {
+      "id": "plot_first_pair_no_leg_or_sword_aura",
+      "statement": "Lin Yue remains at Qi Gathering stage three across the later books. The marsh uses a bounded reference light and an ordinary pole; road work uses posts, guides and a plain sharpened sword. No unopened leg meridians, long body anchoring, projected reed force or Golden Core sword aura is used.",
+      "anchors": [
+        "channels_044",
+        "ring_marsh_breath",
+        "ring_marsh_probe",
+        "ring_marsh_drift",
+        "ring_marsh_weakness",
+        "ring_road_soundings",
+        "ring_road_qi_limit",
+        "ring_road_sword_cut",
+        "ring_road_release"
+      ]
+    },
+    {
+      "id": "plot_later_artifact_energy_account",
+      "statement": "City heating cups and court storage wards draw from measured separate stone charges. Lin Yue supplies stopped rated control/status pulses and grounded reference lights, then discharges. Licensed tenders and keepers retain operation; visitors do not power indefinite services or create heat from an unmeasured novice reserve.",
+      "anchors": [
+        "city_credit_bridge",
+        "city_perfumer_deadline",
+        "city_perfumer_choice",
+        "city_perfumer_qi_pulse",
+        "city_perfumer_qi_cost",
+        "court_rain_qi_lamp",
+        "court_rain_qi_signal",
+        "court_rain_trace_light",
+        "court_docket_dry_cover"
+      ]
     }
   ],
   "review_policy": "Review each new chapter's chronology, custody, character knowledge, and alternate outcomes before updating this ledger. Structural checks supplement editorial review; they do not prove the absence of all possible plot holes.",
@@ -1888,6 +1939,18 @@
         "harbor_review_terms"
       ],
       "before": "harbor_departure"
+    },
+    {
+      "id": "plot_identity_context_before_custody_comparison",
+      "required": [
+        "ring_jin_context",
+        "ring_shared_marsh_report",
+        "ring_shared_archive_report",
+        "ring_shared_road_report",
+        "ring_private_request",
+        "ring_eel_comparison_terms"
+      ],
+      "before": "ring_eel_recognition"
     }
   ]
 }
