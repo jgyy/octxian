@@ -69,6 +69,7 @@
       "commit": "ba37547776e7097ed359e666f57c7154f3ec27c6"
     }
   ],
-  "runtime_validation": "pending final CI",
-  "complete": false
+  "complete": false,
+  "runtime_validation_report": "docs/content_report.json",
+  "runtime_validation_workflow": "https://github.com/jgyy/octxian/actions/workflows/ci.yml"
 }

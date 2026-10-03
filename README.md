@@ -44,6 +44,18 @@ Five new native art masters cover the lower terrace, ash-room technician Han Mei
 
 The fourteen-volume architecture budgets **1,050,000 original words**. The [production ledger](docs/CULTIVATION_REWRITE.md) separates actual rewrite delivery, inherited prose, planned volumes and remaining work.
 
+![Mortal recruitment and zero qi](docs/screenshots/mortal_arrival.jpg)
+
+![Cultivation realm reference](docs/screenshots/cultivation_codex.jpg)
+
+![Han Mei on the lower training terrace](docs/screenshots/mortal_han_mei.jpg)
+
+![Furnace mite encounter](docs/screenshots/mortal_mite.jpg)
+
+![First retained qi trace](docs/screenshots/first_trace.jpg)
+
+![Copper practice wick inspection](docs/screenshots/object_copper_practice_wick.jpg)
+
 ## Character attributes
 
 Open **Attributes** in the top navigation, or press **C**, to inspect Lin Yue's **Qi, Trust, Insight, and Resolve**. Each attribute has a description, a growth hint, a rank, and progress toward its next rank. Choices show their point changes before selection, and locked choices show your current and required points. A short confirmation shows the gains after you choose.
