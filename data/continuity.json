@@ -1320,6 +1320,22 @@
         "channels_043",
         "channels_044"
       ]
+    },
+    {
+      "id": "sluice_bounded_mantis_work",
+      "statement": "At stage three, Lin Yue's first pair permits one aligned reinforced step. The mantis encounter requires source isolation, residual-charge tests, ordinary water-pressure reduction and an opened exit; no branch kills the creature or grants a stage. Commission travel preserves food, return fuel and novice throughput limits.",
+      "anchors": [
+        "reed_step_002",
+        "reed_step_008",
+        "reed_step_009",
+        "reed_step_011",
+        "mantis_step_001",
+        "mantis_gate_001",
+        "mantis_exit_001",
+        "reed_step_013",
+        "reed_step_019",
+        "reed_step_033"
+      ]
     }
   ],
   "review_policy": "Review each new chapter's chronology, custody, character knowledge, and alternate outcomes before updating this ledger. Structural checks supplement editorial review; they do not prove the absence of all possible plot holes.",
@@ -1739,6 +1755,20 @@
         "channels_043"
       ],
       "before": "channels_044"
+    },
+    {
+      "id": "sluice_assessments_before_valley",
+      "required": [
+        "sluice_040",
+        "channels_044",
+        "reed_step_002",
+        "reed_step_009",
+        "reed_step_013",
+        "reed_step_017",
+        "reed_step_019",
+        "reed_step_029"
+      ],
+      "before": "lantern_arrival"
     }
   ]
 }

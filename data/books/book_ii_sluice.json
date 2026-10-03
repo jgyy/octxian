@@ -5,11 +5,6 @@
       "name": "Duan Zhi",
       "title": "Examiner of the brine sluice",
       "color": "#b1c5b8"
-    },
-    "brine_mantis": {
-      "name": "The Brine Mantis",
-      "title": "Spirit of the settling pools",
-      "color": "#b4d2c8"
     }
   },
   "nodes": {
@@ -1114,7 +1109,8 @@
         "realm": "qi_gathering",
         "stage": "3: First pair"
       },
-      "next": "channels_045"
+      "next": "channels_045",
+      "effect": "paired_trace"
     },
     "channels_045": {
       "speaker": "narrator",
@@ -1126,7 +1122,511 @@
         "realm": "qi_gathering",
         "stage": "3: First pair"
       },
+      "next": "reed_step_001",
+      "effect": "paired_trace"
+    },
+    "reed_step_001": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The safety line hung slack above the dry practice boards. Duan drew two marks a single pace apart. Lin Yue measured her reserve before moving: eleven units after a poor night's sleep, below the examination result but adequate for the small lesson. One pulse would spend a quarter-unit in the route and lose another quarter in delivery. Duan put both numbers beside the marks.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "next": "reed_step_002"
+    },
+    "reed_step_002": {
+      "speaker": "duan_zhi",
+      "actor": "duan_zhi",
+      "text": "Set the foot before you reinforce it. Align knee and hip in ordinary weight. Send the low pulse through the completed pair only when that alignment holds, then discharge before turning. Reinforcement can support a prepared movement; it cannot decide whether the movement was wise. The safety line catches a stumble. Your qi is not the safety line.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "next": "reed_step_003"
+    },
+    "reed_step_003": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Her first Reed-Step felt like a firm board appearing beneath the sole. It lasted less than an exhalation and moved her no farther than an ordinary step. The difference lay in how the aligned leg bore a brief added load. She stopped at the second mark, discharged, and found her hand hovering over the next pulse as if a first success owed her an immediate second.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "next": "reed_step_004"
+    },
+    "reed_step_004": {
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "One step was the assigned attempt. I have reserve for another, but I do not have the recovery result for this one. I want to repeat it because I can finally do something visible. That is a reason to wait, not a measurement. Can we put an ordinary weighted carry between the attempts and keep tomorrow's sensation check?",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "next": "reed_step_005"
+    },
+    "reed_step_005": {
+      "speaker": "duan_zhi",
+      "actor": "duan_zhi",
+      "text": "We can. The plain carry tells us whether your stance remains sound without the pulse. If the technique teaches you to rely on light instead of alignment, it is making the next step less safe. Later stages may permit repetition. Today's stage permits the prepared movement under the tested conditions, and today's lesson includes stopping while you still want more.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "next": "reed_step_006"
+    },
+    "reed_step_006": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The carry exposed a habitual twist when Lin Yue reached for a basket on her left. She practiced turning after full discharge, with both feet free to move. By the third day she could repeat the step twice with rest between, preserving the tested flow. She did not combine them into a jump. The canal outside the boards remained wider than any promise in the lesson.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "next": "reed_step_007"
+    },
+    "reed_step_007": {
+      "speaker": "narrator",
+      "actor": "brine_mantis",
+      "text": "A week later, the east settling pool gave a hard metallic chatter. Lin Yue looked up from the caps to see a translucent mantis lodged against the gate screen. White mineral teeth lined its forearms; brine vented in fine jets from its thorax. The beast was combing debris from its legs, and each spray left a salt film across the nearest copper conductor.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "next": "reed_step_008"
+    },
+    "reed_step_008": {
+      "speaker": "duan_zhi",
+      "actor": "duan_zhi",
+      "text": "Shut off that practice bed. Ordinary shutter first, stone socket second, then test the blank. The mantis is defending a blocked exit, not challenging your stage. Its brine can bridge contacts like the fault in our caliper. Do not offer it a bright pulse. A low-voltage mistake can still arrive through a wet glove.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "next": "reed_step_009"
+    },
+    "reed_step_009": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Han Mei closed the stone socket while Duan lowered a ceramic shutter with his cane's hook. Lin Yue watched the reference lens fall dark. The blank still flickered. Residual charge remained in the wet conductor, even after the source was isolated. She kept her hands clear until Duan grounded the bed and the second test stayed quiet.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "next": "reed_step_010"
+    },
+    "reed_step_010": {
+      "speaker": "han_mei",
+      "actor": "brine_mantis",
+      "text": "We have isolated the practice equipment. The pool still moves under ordinary water pressure. The west manual gate can slow it, and the east screen has a dry service latch. The mantis needs a clear line to the sheltered settling basin. Choose a job you can finish without crossing the spray. I will protect the workers' side.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "next": "reed_step_011"
+    },
+    "reed_step_011": {
+      "speaker": "lin_yue",
+      "actor": "brine_mantis",
+      "text": "I can take the dry boards to the service latch with one tested step; Duan's line would catch a stumble. Or I can help crank the west gate and lower the ordinary pressure. Or I can carry the warning and clear the basin exit. None requires me to defeat the beast. The goal is to remove what holds it against the screen.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "choices": [
+        {
+          "text": "Use one inspected Reed-Step to reach the dry latch.",
+          "next": "mantis_step_001",
+          "effects": {
+            "qi": 1
+          }
+        },
+        {
+          "text": "Help crank the west gate to reduce water pressure.",
+          "next": "mantis_gate_001",
+          "effects": {
+            "resolve": 1
+          }
+        },
+        {
+          "text": "Clear the warning route and open the sheltered exit.",
+          "next": "mantis_exit_001",
+          "effects": {
+            "trust": 1
+          }
+        }
+      ]
+    },
+    "reed_step_012": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The selected work fit into a larger sequence. Han Mei guarded the wet conductors, Duan checked residual charge, and two rested workers held the gate chain. Lin Yue's task ended when she reached her declared stopping point. She could see how easily a cultivation tale might give the entire repair to the person whose single step produced the only visible glimmer.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "next": "reed_step_013"
+    },
+    "reed_step_013": {
+      "speaker": "narrator",
+      "actor": "brine_mantis",
+      "text": "Released from the screen's pressure, the mantis folded its salt combs and climbed along the sheltered ledge. It left a trail of brine rather than a defeated corpse or a spirit core. Nobody pursued it into the basin. Lin Yue watched its antennae test the reeds. The workshop had recovered its exit without pretending the creature's fear was an invitation to harvest it.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "next": "reed_step_014"
+    },
+    "reed_step_014": {
+      "speaker": "duan_zhi",
+      "actor": "duan_zhi",
+      "text": "The shutdown cost the workshop two fuel shares and an hour of pumping. Record it. Preventing an injury has a cost even when the cost is much smaller than an injury. Check your reserve if you used the route; check ordinary strain if you did not. Safe work still spends bodies, time and equipment. A successful outcome must not make those expenses disappear.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "next": "reed_step_015"
+    },
+    "reed_step_015": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "They rinsed the contacts with clean water, dried them, and tested each conductor against the blank. Lin Yue found one hairline crack in a ceramic pad. She tagged it out of service. A novice from the next shift asked whether she had struck the mantis with qi. She described the shutter, the grounding and the open exit before describing her own small job.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "next": "reed_step_016"
+    },
+    "reed_step_016": {
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "A bright attack would have made the wet contact problem worse. We stopped the source, tested what remained, reduced the pressure, and opened a way through. Third stage gave me one possible task. It did not make the other tasks less necessary. If you practice by the pool, inspect the underside of the pad as well as its face.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "next": "reed_step_017"
+    },
+    "reed_step_017": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The next morning's hand check stayed normal. Lin Yue felt more pride in that uninteresting result than she expected. She had learned a skill and used a bounded part of it without borrowing a larger skill from the urgency around her. Duan signed her work entry. The mark credited the task and inspection; it left the fourth-stage column empty.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "next": "reed_step_018"
+    },
+    "reed_step_018": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The valley road reopened six days later. Yun's engineers posted a weight limit on the repaired crossing, then sent the commission a weather window. Lin Yue had spent nearly three months at the sluice. Her notebook contained more failed or stopped attempts than passes. She counted the reserve she could replenish on travel days and asked for a practice allowance smaller than the workshop's.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "next": "reed_step_019"
+    },
+    "reed_step_019": {
+      "speaker": "elder_yun",
+      "actor": "elder_yun",
+      "text": "The commission pays for food and lodging separately from its fieldwork fuel. Your travel circle has a fixed share, and the return trip's allowance stays sealed. You will not keep a ward running by spending the journey home. At the valley you will assist measured low-load work, with a supervisor for any unfamiliar circuit. The listening commission carries no realm exemption.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "next": "reed_step_020"
+    },
+    "reed_step_020": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Lin Yue laid out her packing: ordinary clothes, repaired gloves, food for the closed-road contingency, a small grounding tail and the notebook. The workshop kept the costly caliper. Duan lent her a simpler reference thread with a known sampling loss. She tested it before taking it. A tool too small to impress anyone could still protect the boundary between a number and a guess.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "next": "reed_step_021"
+    },
+    "reed_step_021": {
+      "speaker": "duan_zhi",
+      "actor": "duan_zhi",
+      "text": "Write the thread's calibration inside its case. Use the same shade and cool-down interval when comparing readings. Salt wind may shift the ambient field, so a valley result cannot simply inherit our workshop correction. If a task needs more throughput than your tested pair, ask for another operator. Your useful contribution includes knowing where your method ends.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "next": "reed_step_022"
+    },
+    "reed_step_022": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Han Mei replaced the open-window mat with a folded travel blanket from the workshop store. Lin Yue offered her last spare coins. Han Mei pointed to the commission's equipment line and charged the account instead. The blanket was not a reward for advancement. A novice who had failed every examination would still have needed to stay warm on the repaired mountain road.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "next": "reed_step_023"
+    },
+    "reed_step_023": {
+      "speaker": "han_mei",
+      "actor": "han_mei",
+      "text": "When you meet someone whose root is still unmeasured, tell them what you did before the wick answered. They will hear enough about the answer. Tell them about the meals, the false warm chamber, the gloves and the days you stopped. If they cannot yet cultivate, they still need work that pays without promising to turn hunger into a virtue.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "next": "reed_step_024"
+    },
+    "reed_step_024": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Before leaving, Lin Yue visited the empty practice boards. Morning light lay across the two marks. She performed an ordinary aligned step and did not send qi through it. The line overhead was gone for inspection. Without it, today was not the same lesson. She carried that changed condition into her notebook rather than insisting the mark on yesterday's page made every morning safe.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "next": "reed_step_025"
+    },
+    "reed_step_025": {
+      "speaker": "shen_qing",
+      "actor": "shen_qing",
+      "text": "At the valley, people may have spent their oil waiting for the mountain to fall. They may ask what your new stage does for their losses. Answer with the actual task you can perform. If they need a gate repaired, repair the gate within your limits. They owe no wonder to our difficulties, and you owe no false miracle to their grief.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "next": "reed_step_026"
+    },
+    "reed_step_026": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "They left after breakfast, walking rather than flying. Shen Qing's supported artifact could not safely carry the survey tools and an untrained passenger over the repaired route. The first descent tired Lin Yue's ordinary calves. She kept the route quiet instead of reinforcing every step, saving the reserve for a tested task and the food for the body carrying her down.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "next": "reed_step_027"
+    },
+    "reed_step_027": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "At the crossing, two laborers checked the posted limit and moved the largest crate across separately. Lin Yue waited behind the painted line. The mountain's ancient array gleamed above them, sustained by operators and stored stones she could not begin to replace. She felt her twelve-unit field as a small dependable thing inside that enormous expense, neither worthless nor equal to it.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "next": "reed_step_028"
+    },
+    "reed_step_028": {
+      "speaker": "mo_ran",
+      "actor": "mo_ran",
+      "text": "I once thought a stronger realm would make dependence beneath me. Now I can name the people whose unseen work keeps each road under my feet. The old mistake survives every breakthrough unless we examine it. Carry your little reference thread openly. There is more honesty in a tool that admits its sampling loss than in a boast that hides its fuel.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "next": "reed_step_029"
+    },
+    "reed_step_029": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The repaired crossing held. On the other side Lin Yue rested before admitting a travel trace. The smaller reference thread spent one eighth of a unit per reading; she entered that cost and closed the case. Her reserve had fallen through the walk and the measurement. She accepted the number. The valley would meet a third-stage novice with a finite field, not the best version of a workshop test.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "next": "reed_step_030"
+    },
+    "reed_step_030": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "They reached a roadside shelter before rain. Shen Qing prepared an ordinary stove while Lin Yue inspected the borrowed grounding tail. Moisture had darkened its cloth wrapping. She set it beside the warmth and postponed the planned practice. The skipped session cost no coin; it cost the impatience of knowing that the next stage existed. She found she could survive that cost.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "next": "reed_step_031"
+    },
+    "reed_step_031": {
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "I still want Foundation. I want enough control that a tool does not have to guard every small movement. Today I can protect this route by letting the wet cloth dry. That will not be the last difficult small decision before a larger gate. The desire can stay with me without being obeyed at every moment.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "next": "reed_step_032"
+    },
+    "reed_step_032": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "At dawn she measured eleven and a half usable units, including the known sampling correction. The pair carried a quiet test pulse without numbness. She did not repeat it for reassurance. The valley road curved toward a black lake; salt terraces shone between the reeds. Somewhere below stood the bell tower whose silence had become part of their commission.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "next": "reed_step_033"
+    },
+    "reed_step_033": {
+      "speaker": "shen_qing",
+      "actor": "shen_qing",
+      "text": "We will hear the local workers before proposing a cultivation repair. A settlement circle may use a phase your root does not refine cleanly. Do not force compatibility because it seems quicker than asking. Your first pair can guide a permitted pulse through a rated adapter. It cannot make the adapter's fuel, or the village's agreement, unnecessary.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "next": "reed_step_034"
+    },
+    "reed_step_034": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Lin Yue put the reference case under her outer sleeve and left the pendant beside it. One held a tool for today's measurements; one held her mother's offered memory. Neither promised a realm. She felt the desire for a great circuit, for a liquid foundation, for a core whose turns might one day endure. Then she followed the ordinary path toward the waiting village.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
       "next": "lantern_arrival"
+    },
+    "mantis_step_001": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Duan checked the slack line and the dry approach while Lin Yue measured her current reserve. Nine units remained. She needed half a unit for the prepared step, including delivery loss; the remaining charge stayed closed. She aligned the knee, crossed the single marked gap, and discharged before reaching for the latch. The wood was cold beneath her ordinary hand.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "next": "mantis_step_002",
+      "effect": "paired_trace"
+    },
+    "mantis_step_002": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The latch lifted with a modest scrape. She stepped back by the same dry boards without reinforcing the turn. The service flap gave the trapped debris somewhere to fall, and the rested gate workers took the water load. Lin Yue's field had spent the expected half-unit. Her hand remained warm. She stopped using the route while the larger repair continued.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "next": "reed_step_012"
+    },
+    "mantis_gate_001": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Lin Yue took the second crank handle beside a rested worker. They counted ordinary turns while Duan watched the pool level. She kept the first pair quiet; the handle required strength over many breaths, beyond her tested reinforced step. The gate lowered steadily. Her palms grew hot through the gloves, a bodily cost she could feel without a lens.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "next": "mantis_gate_002"
+    },
+    "mantis_gate_002": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "As the pressure fell, Han Mei opened the service latch from its dry side. Debris slid clear of the screen. Lin Yue handed the crank to a rested replacement before her grip weakened. She had retained her qi and spent ordinary strength. Both facts went into the record; neither made the unchosen task disappear from the repair.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "next": "reed_step_012"
+    },
+    "mantis_exit_001": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Lin Yue carried the warning along the dry path, keeping the startled next-shift workers away from the wet conductors. At the sheltered basin she removed a fallen reed screen with a plain hook. The creature's exit widened. She tested the footing before walking back, refusing to reinforce a step whose underlying board she had not inspected.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "next": "mantis_exit_002"
+    },
+    "mantis_exit_002": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "She returned as the gate crew lowered the water pressure. Han Mei could open the latch now that the sheltered route was clear. The mantis turned toward it. Lin Yue's reserve had stayed closed throughout, while her breath ran fast from carrying the screen. She reported both her completed job and the fatigue, so the next job could belong to rested hands.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "next": "reed_step_012"
     }
   }
 }
