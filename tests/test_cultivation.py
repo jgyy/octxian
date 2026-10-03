@@ -84,6 +84,39 @@ class CultivationTests(unittest.TestCase):
                 current = self.story["nodes"][current]["next"]
             self.assertIn(rejoin, self.reachable_without(""))
 
+    def test_no_valley_path_skips_retention_and_first_pair_assessments(self):
+        required = ("sluice_020", "sluice_021", "sluice_037", "sluice_038",
+                    "sluice_039", "sluice_040", "channels_028", "channels_031",
+                    "channels_041", "channels_042", "channels_043", "channels_044")
+        for identifier in required:
+            with self.subTest(checkpoint=identifier):
+                self.assertNotIn("lantern_arrival", self.reachable_without(identifier))
+
+    def test_stage_changes_occur_after_recovered_tests(self):
+        for identifier in ("sluice_037", "sluice_038", "sluice_039"):
+            self.assertEqual(self.story["nodes"][identifier]["cultivation"]["stage"],
+                             "1: Trace")
+        self.assertEqual(self.story["nodes"]["sluice_040"]["cultivation"]["stage"],
+                         "2: Retention")
+        for identifier in ("channels_041", "channels_042", "channels_043"):
+            self.assertEqual(self.story["nodes"][identifier]["cultivation"]["stage"],
+                             "2: Retention")
+        self.assertEqual(self.story["nodes"]["channels_044"]["cultivation"]["stage"],
+                         "3: First pair")
+
+    def test_mantis_choices_keep_the_same_stage_and_rejoin(self):
+        node = self.story["nodes"]["reed_step_011"]
+        for choice in node["choices"]:
+            with self.subTest(route=choice["next"]):
+                current, seen = choice["next"], set()
+                while current != "reed_step_012":
+                    self.assertNotIn(current, seen)
+                    seen.add(current)
+                    target = self.story["nodes"][current]
+                    self.assertEqual(target["cultivation"], node["cultivation"])
+                    current = target["next"]
+                self.assertEqual(len(seen), 2)
+
 
 if __name__ == "__main__":
     unittest.main()
