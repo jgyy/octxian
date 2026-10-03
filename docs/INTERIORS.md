@@ -1,6 +1,6 @@
 # Building interiors
 
-The continuation of PR #2 requests 100 additional building-interior backgrounds, separate from the original 100-background quota. **32 are delivered; 68 remain.** Each file is an independently generated GPT Images painting preserved at its native returned dimensions. No scene is assembled from atlas cells, upscaled, or duplicated to inflate the inventory.
+The continuation of PR #2 requests 100 additional building-interior backgrounds, separate from the original 100-background quota. **33 are delivered; 67 remain.** Each file is an independently generated GPT Images painting preserved at its native returned dimensions. No scene is assembled from atlas cells, upscaled, or duplicated to inflate the inventory.
 
 Open **World → Interiors** in the game to browse these locations. Locations for future books are art previews; their descriptions do not count toward the manuscript and do not imply those books are playable.
 
@@ -43,3 +43,7 @@ Open **World → Interiors** in the game to browse these locations. Locations fo
 The validator decodes every original, checks its recorded size and unique SHA-256, and keeps the extra collection separate in `delivered_additional_art`. Use `python tools/validate_world.py --require-complete` to require all manuscript and art deliverables.
 
 The linked WebP files preserve all native pixels. The historical PNG blob IDs identify the pre-compaction originals in the local recovery bundle; current file and pixel hashes are recorded in `assets/art/compression.json`.
+
+## Ash-bridge addition
+
+The [Phase Comparison Room](../assets/art/world/phase_comparison_room.png) is an independent native **1536×1024 PNG** interior retained without conversion or enlargement. Its separate comparison benches and ground pots are playable in Book VIII and remain available through **World → Interiors**. This single painting adds one interior, not an original-scope exterior.

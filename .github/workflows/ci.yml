@@ -1,7 +1,7 @@
 name: Godot CI
 on:
   push:
-    branches: [main, feat/jade-vow-godot, feat/expanded-world-quests]
+    branches: [main, feat/jade-vow-godot, feat/expanded-world-quests, codex/cultivation-rewrite-20261003]
   pull_request:
     types: [opened, synchronize, reopened, ready_for_review, converted_to_draft]
   workflow_dispatch:
@@ -140,7 +140,7 @@ jobs:
           name: jade-vow-generated-assets
           path: assets/generated
   bundle:
-    if: github.event_name == 'push' && (github.ref == 'refs/heads/feat/jade-vow-godot' || github.ref == 'refs/heads/feat/expanded-world-quests')
+    if: github.event_name == 'push' && (github.ref == 'refs/heads/feat/jade-vow-godot' || github.ref == 'refs/heads/feat/expanded-world-quests' || github.ref == 'refs/heads/codex/cultivation-rewrite-20261003')
     needs: game
     runs-on: ubuntu-latest
     permissions:

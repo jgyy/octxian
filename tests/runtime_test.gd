@@ -19,13 +19,15 @@ func _run() -> void:
 	await _test_narration_formats(game)
 	check(not game.is_reading, "Game should open on title")
 	await _test_attribute_ui(game)
+	_test_cultivation_ui(game)
+	_test_foundry_ui(game)
 	_test_modal_rebuilds(game)
 	game._begin()
 	check(game.is_reading and game.dialogue != null, "Begin should display dialogue")
 	game._advance()
 	check(game.dialogue.visible_characters == -1, "Advance should complete typewriter first")
 	game._advance()
-	check(game.state.current == "pendant", "Next advance should move to next scene")
+	check(game.state.current == "mortal_001", "Next advance should enter mortal recruitment before the upper gate")
 	game.state.current = "first_choice"
 	game._scene()
 	game.dialogue.visible_characters = -1
@@ -500,4 +502,112 @@ func _test_modal_rebuilds(game) -> void:
 	game.state.current = "pendant"
 	game._scene()
 	check(game.popup == null and not game.atmosphere.paused, "Rebuilding dialogue must clear the modal pause")
+	game._title()
+
+func _test_cultivation_ui(game) -> void:
+	game._begin()
+	game._attributes()
+	var button: Button = game.popup.find_child("CultivationButton", true, false)
+	check(button != null, "Attributes must link to the cultivation codex")
+	if button != null:
+		button.emit_signal("pressed")
+	check(game.popup != null and game.popup.name == "CultivationPanel", "Cultivation must open its named panel")
+	check(game.atmosphere.paused, "Cultivation codex must pause scene effects")
+	var before_stats: Dictionary = game.state.stats.duplicate()
+	var before_history: Array = game.state.history.duplicate(true)
+	var selector: OptionButton = game.popup.find_child("CultivationSelector", true, false)
+	var detail: RichTextLabel = game.popup.find_child("CultivationDetail", true, false)
+	check(selector != null and selector.item_count == 16, "Codex must expose twelve realms and four practice references")
+	if selector != null and detail != null:
+		for index in range(selector.item_count):
+			game._cultivation_selected(index)
+			check(selector.selected == index and not detail.text.is_empty(), "Every codex selection must show its own reference")
+		var retained_text: String = detail.text
+		game._cultivation_selected(-1)
+		game._cultivation_selected(selector.item_count)
+		check(detail.text == retained_text, "Invalid codex selections must preserve the reference")
+	game._advance()
+	game._choose(0)
+	check(game.state.current == "arrival" and game.state.stats == before_stats and game.state.history == before_history, "Codex browsing must preserve the journey")
+	var mortal_label: String = game._cultivation_label(game.state.node())
+	game.state.stats.qi = game.StoryState.MAX_STAT
+	check(game._cultivation_label(game.state.node()) == mortal_label and mortal_label.begins_with("Mortal"), "Attribute points must never promote an authored mortal realm")
+	game.state.stats = before_stats
+	game._close_popup()
+	check(not game.atmosphere.paused, "Closing the codex must resume scene effects")
+	for sample in [{"node": "han_mei_shift", "actor": "han_mei"}, {"node": "mortal_mite_choice", "actor": "furnace_mite"}]:
+		game.state.current = sample.node
+		game._scene()
+		check(game.actor.character == sample.actor and game.actor.sprite.texture != null, "New cultivation portraits must render")
+		if game.actor.sprite.texture != null:
+			check(game.actor.sprite.texture.get_size() == Vector2(1024, 1536), "Cultivation sprites must retain native dimensions")
+		check(game.background.texture != null and game.background.texture.get_size() == Vector2(1672, 941), "Mortal training must use the native terrace environment")
+	game._items()
+	game._item_selected(2)
+	check(game.item_image.texture != null and game.item_image.texture.get_size() == Vector2(1024, 1536), "Practice wick must be inspectable at native size")
+	game._close_popup()
+	for sample in [{"node": "sluice_005", "actor": "duan_zhi"}, {"node": "reed_step_011", "actor": "brine_mantis"}]:
+		game.state.current = sample.node
+		game._scene()
+		check(game.actor.character == sample.actor and game.actor.sprite.texture != null, "Sluice characters must render native portraits")
+		if game.actor.sprite.texture != null:
+			check(game.actor.sprite.texture.get_size() == Vector2(1024, 1536), "Sluice sprites must retain full native detail")
+		check(game.background.texture != null and game.background.texture.get_size() == Vector2(1536, 1024), "Sluice scenes must use their own environment")
+	game.state.current = "channels_044"
+	game._scene()
+	var first_pair: String = game._cultivation_label(game.state.node())
+	check(first_pair.contains("3: First pair") and game.atmosphere.effect == "paired_trace", "The earned pair must select its authored realm and native effect")
+	game.state.stats.qi = game.StoryState.MAX_STAT
+	check(game._cultivation_label(game.state.node()) == first_pair, "A high attribute score cannot skip the first-pair stage")
+	game.state.stats = before_stats
+	game._items()
+	game._item_selected(3)
+	check(game.item_image.texture != null and game.item_image.texture.get_size() == Vector2(1024, 1536), "Meridian caliper must be inspectable at native size")
+	check(game.atmosphere.paused, "Inspection must pause the paired-channel effect")
+	game._close_popup()
+	check(not game.atmosphere.paused, "Closing inspection must resume the paired-channel scene")
+	game.state.current = "arrival"
+	game._title()
+
+func _test_foundry_ui(game) -> void:
+	game._begin()
+	var before_stats: Dictionary = game.state.stats.duplicate()
+	for sample in [
+		{"node": "foundry_arrival_003", "actor": "su_yan"},
+		{"node": "foundry_arrival_014", "actor": "zhen"},
+		{"node": "foundry_creature_002", "actor": "voidglass_centipede"},
+		{"node": "foundry_home_004", "actor": "yue_mother"}
+	]:
+		game.state.current = sample.node
+		game._scene()
+		check(game.actor.character == sample.actor and game.actor.sprite.texture != null, "Foundry participants must render their independent portraits")
+		if game.actor.sprite.texture != null:
+			check(game.actor.sprite.texture.get_size() == Vector2(1024, 1536), "Foundry portraits must retain native detail")
+		check(game.background.texture != null and game.background.texture.get_size() == Vector2(1536, 1024), "Foundry and home scenes must use their native environments")
+	game.state.current = "foundry_earned_002"
+	game._scene()
+	var earned: String = game._cultivation_label(game.state.node())
+	check(earned.contains("4: Second pair") and game.atmosphere.effect == "second_pair_trace", "The earned second pair must select its authored stage and native effect")
+	game.state.stats.qi = game.StoryState.MAX_STAT
+	check(game._cultivation_label(game.state.node()) == earned, "Choice attributes must not change the fourth-stage certificate")
+	game.state.stats = before_stats
+	var effect_clock: float = game.atmosphere.clock
+	game._items()
+	var found_comb := false
+	for index in range(game.world.get("items", []).size()):
+		if game.world.items[index].id == "phase_comb":
+			found_comb = true
+			game._item_selected(index)
+			check(game.item_image.texture != null and game.item_image.texture.get_size() == Vector2(1024, 1536), "The phase comb must be inspectable at native size")
+	check(found_comb, "The phase comb must appear in the item gallery")
+	game.atmosphere._process(0.5)
+	check(game.atmosphere.clock == effect_clock, "Object inspection must freeze the second-pair effect")
+	game._close_popup()
+	game._motion_changed(true)
+	game.atmosphere._process(0.5)
+	check(game.atmosphere.clock == effect_clock and not game.atmosphere.enabled, "Reduced motion must suppress the second-pair effect")
+	game._motion_changed(false)
+	game.atmosphere._process(0.5)
+	check(game.atmosphere.clock > effect_clock, "The second-pair effect must resume when motion is enabled")
+	game.state.current = "arrival"
 	game._title()
