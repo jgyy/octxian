@@ -1,6 +1,6 @@
-# Continuity review through Book III
+# Continuity review through Book IV
 
-The manuscript currently contains 196 scenes and 10,274 authored prose words. This review records the delivered chapters; the million-word campaign remains unfinished.
+The manuscript currently contains 234 scenes and 13,159 authored prose words. This review records the delivered chapters; the million-word campaign remains unfinished.
 
 | Topic | Established fact | Editorial correction or guard |
 |---|---|---|
@@ -19,7 +19,7 @@ The manuscript currently contains 196 scenes and 10,274 authored prose words. Th
 
 The unidentified third owner is an intentional open question. Later chapters must find an identity through permitted records, and retain the owner's authority over the echo. An unfinished question must not silently become proof of abandonment.
 
-`data/continuity.json` contains fact anchors and fourteen required-scene checks. `tools/validate_world.py` rejects structural paths that skip those knowledge or safety scenes; Godot route tests separately check the actual stat gates. These checks support, rather than replace, an editorial reading.
+`data/continuity.json` contains fact anchors and 22 required-scene checks. `tools/validate_world.py` rejects structural paths that skip those knowledge or safety scenes; Godot route tests separately check the actual stat gates. These checks support, rather than replace, an editorial reading.
 
 ```mermaid
 flowchart TD
@@ -39,3 +39,13 @@ flowchart TD
 ```
 
 The validation pipeline also tests the exported game's new world portraits, background, narration, and object inspector. Its Godot installer pins the official 4.7.2 archive digest and verifies cached bytes offline, avoiding anonymous API rate limits.
+
+## Book IV · orchard editorial review
+
+The three river outcomes keep their different custody arrangements on the journey to the orchard. Mo Ran's case remains sealed; Luo Fen's ring is awaiting her berth on return, already home on stair, and awaiting her answer on harbor. The unidentified ring remains sealed with the Eel. The orchard follows during the same spring; its frost comes from the treatment ward.
+
+Pain exchange transfers temporary sensation, never injury or memory. Each carrier, patient, and spirit retains separate permission. The Frostroot Hart's earlier individual offers authorize no new exchange; it declines tonight and Ren Qiao corrects the schedule. The inherited household demand is removed while a separate measured closing rhythm remains. Food and ordinary care do not depend on accepting an exchange.
+
+Elder Yun's written renewal term was omitted from the old copper mark; the ending shows a corrected copy of that mark, preserving the distinction. The breathing settlement establishes the orchard's agreement to sell seed stock while retaining enough for planting. All outcomes retain staffing limits, ongoing injuries, and review dates rather than promising complete healing.
+
+The matron's assistants investigate roads Lin Yue did not take and report their findings before settlement. Structural checkpoints require the safe pause, separate Hart permission, shared findings, and stated resources before later decisions. Each new scene was reviewed against existing river outcomes and the chapter's own mechanics.

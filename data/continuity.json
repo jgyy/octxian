@@ -3,7 +3,8 @@
   "reviewed_chapters": [
     "book_i",
     "book_ii",
-    "book_iii"
+    "book_iii",
+    "book_iv"
   ],
   "facts": [
     {
@@ -133,6 +134,85 @@
         "ending_river_stair",
         "ending_river_harbor"
       ]
+    },
+    {
+      "id": "orchard_river_custody",
+      "statement": "Book IV preserves each river ending: Mo Ran carries his sealed returned case; Luo Fen has a requested berth on return, her case home on stair, and an unanswered question on harbor. The unidentified ring stays sealed with the Eel and existing landing responsibilities continue.",
+      "anchors": [
+        "orchard_from_return",
+        "orchard_from_stair",
+        "orchard_from_harbor",
+        "ending_orchard_care"
+      ]
+    },
+    {
+      "id": "orchard_season",
+      "statement": "The orchard follows Book III during the same spring. Frost on the healing-hall branch is produced by the treatment ward, not a new calendar winter.",
+      "anchors": [
+        "orchard_arrival",
+        "orchard_need",
+        "ending_orchard_pause"
+      ]
+    },
+    {
+      "id": "orchard_pain_mechanics",
+      "statement": "Pain exchange moves temporary sensation, not injury or memory echoes. Disconnection follows a measured closing rhythm; no patient's pain is used as an unauthorized experiment.",
+      "anchors": [
+        "orchard_demonstration",
+        "orchard_stop",
+        "orchard_circuit",
+        "orchard_breath_trial"
+      ]
+    },
+    {
+      "id": "orchard_inherited_offer",
+      "statement": "Elder Yun helped mark the orchard thirty years earlier. The winter circuit omitted the renewal stroke and preserved household offers as inherited obligations. Removing that demand preserves the separate safe closing rhythm.",
+      "anchors": [
+        "orchard_elder",
+        "orchard_ledger_question",
+        "orchard_accounts",
+        "orchard_need"
+      ]
+    },
+    {
+      "id": "orchard_shared_findings",
+      "statement": "Lin Yue directly investigates one area; the matron's assistants examine the other two and report circuit, patient, and allocation findings before settlement.",
+      "anchors": [
+        "orchard_investigation_choice",
+        "orchard_accounts",
+        "orchard_resolution_choice"
+      ]
+    },
+    {
+      "id": "orchard_relief_limits",
+      "statement": "Food and ordinary care do not depend on accepting an exchange. All outcomes preserve limited staffing and supplies, ongoing injuries, a repaired circuit, and each patient's choice; no route promises complete healing.",
+      "anchors": [
+        "orchard_terms",
+        "orchard_cost",
+        "orchard_breath_limits",
+        "orchard_care_rota",
+        "orchard_fund_terms",
+        "orchard_pause"
+      ]
+    },
+    {
+      "id": "ren_qiao_role",
+      "statement": "Ren Qiao is an orchard healer working alongside the supervising matron and her assistants. The matron supervises the exchange circuit; Ren Qiao explains the available care resources and corrects the Hart's treatment schedule.",
+      "anchors": [
+        "orchard_arrival",
+        "orchard_cost",
+        "orchard_hart_terms"
+      ]
+    },
+    {
+      "id": "hart_separate_permission",
+      "statement": "The Frostroot Hart voluntarily carried temporary pain sensations in several individually accepted exchanges last winter. Its own record is separate from inherited household turns. Earlier consent authorizes no future visit, a human carrier cannot offer its body, and it cannot offer a human carrier's. The patient must separately agree to each exchange. The Hart declines tonight and is removed from the schedule before care planning.",
+      "anchors": [
+        "orchard_hart_arrival",
+        "orchard_hart_answer",
+        "orchard_hart_terms",
+        "orchard_cost"
+      ]
     }
   ],
   "review_policy": "Review each new chapter's chronology, custody, character knowledge, and alternate outcomes before updating this ledger. Structural checks supplement editorial review; they do not prove the absence of all possible plot holes.",
@@ -180,6 +260,26 @@
         "harbor_letters"
       ],
       "before": "harbor_return"
+    },
+    {
+      "id": "orchard_safe_pause_before_investigation",
+      "required": [
+        "orchard_stop",
+        "orchard_terms"
+      ],
+      "before": "orchard_investigation_choice"
+    },
+    {
+      "id": "orchard_shared_findings_before_settlement",
+      "required": [
+        "orchard_hart_arrival",
+        "orchard_hart_answer",
+        "orchard_hart_terms",
+        "orchard_accounts",
+        "orchard_need",
+        "orchard_cost"
+      ],
+      "before": "orchard_resolution_choice"
     }
   ]
 }
