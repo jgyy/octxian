@@ -1488,6 +1488,18 @@
         "court_rain_trace_light",
         "court_docket_dry_cover"
       ]
+    },
+    {
+      "id": "plot_source_isolated_before_escape",
+      "statement": "Qualified operators isolate the star's intake and transfer the immediate load to charged anchors before opening the source escape gate. Shared support reconnects only the confirmed lower voluntary draw; landing leaves the intake closed. Auxiliary renewal is funded for seven days with review before expiry, rather than implying three months of unlimited emergency fuel.",
+      "anchors": [
+        "fracture",
+        "star_terms",
+        "shared",
+        "release",
+        "ending_shared",
+        "lantern_shared"
+      ]
     }
   ],
   "review_policy": "Review each new chapter's chronology, custody, character knowledge, and alternate outcomes before updating this ledger. Structural checks supplement editorial review; they do not prove the absence of all possible plot holes.",
@@ -1951,6 +1963,13 @@
         "ring_eel_comparison_terms"
       ],
       "before": "ring_eel_recognition"
+    },
+    {
+      "id": "plot_source_isolated_before_manual_escape",
+      "required": [
+        "fracture"
+      ],
+      "before": "star_terms"
     }
   ]
 }
