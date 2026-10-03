@@ -164,3 +164,11 @@ Book V adds **10,456 displayed prose words** and **119 scenes**, four independen
 [PR CI](https://github.com/jgyy/octxian/actions/runs/37085436772) and [branch CI](https://github.com/jgyy/octxian/actions/runs/37085431753) passed on source commit `c7067d19`. Twenty Python tests pass; Godot reaches all 234 scenes and 14 endings across 19,159 capped states. Narration covers every scene. The native originals, alpha, provenance, decoded image fingerprints, continuity checkpoints, UI, 22 viewport captures, Linux export, and standalone playback pass. The two new portraits were also inspected in the actual rendered game.
 
 The generated delivery report matches the audited totals: 13,159 words, 5 human originals, and 3 spirit-beast originals. It reports `complete: false`; draft test success is validation of delivered content and does not satisfy the full production targets.
+
+## Verified city delivery
+
+[PR CI](https://github.com/jgyy/octxian/actions/runs/37088518454) and [branch CI](https://github.com/jgyy/octxian/actions/runs/37088514107) passed on source commit `52d797ba`. Twenty Python tests pass; Godot reaches all **353 scenes and 18 endings** across **34,872** capped states. All **353** scenes have narration. Thirty actual viewport captures, Linux export, and standalone playback pass.
+
+The new originals pass native resolution, alpha, retained-source provenance, file-hash and decoded-painting checks. All six new portraits and the settlement screen were inspected in the actual game: each has its own complete source design, transparent compositing, uniform fitting, readable speaker labels and visible gate summaries. The ungated audit stays available at zero attributes. Review media and narration are bundled in `662f134c`.
+
+Independent acceptance review confirms **23,615** displayed prose words, **9** human originals, **5** beast originals, **6** original-scope backgrounds and **30** extra interiors. All **14** continuity checkpoints and **190** fact anchors are valid. The generated report still says `complete: false`; the full manuscript and artwork quotas remain unmet.
