@@ -1,0 +1,2650 @@
+{
+  "review_base": "706a8be53c135336d70b84c023d4a6be7573500c",
+  "total_repairs": 115,
+  "progression_causality_repairs": 102,
+  "prose_continuity_repairs": 13,
+  "counting_rule": "One distinct changed choice, or one rewritten existing scene. Attribute-name changes, new Book IX scenes and metadata changes receive no repair count.",
+  "repairs": [
+    {
+      "id": "PROG-001",
+      "scene": "first_choice",
+      "choice_index": 2,
+      "destination": "guard",
+      "kind": "progression_causality",
+      "problem": "“Keep the jade wrapped until its circuit is explained.” credited physical conditioning without recovered bodily exercise.",
+      "before": {
+        "text": "Keep the jade wrapped until its circuit is explained.",
+        "next": "guard",
+        "effects": {
+          "resolve": 2
+        }
+      },
+      "after": {
+        "text": "Keep the jade wrapped until its circuit is explained.",
+        "next": "guard",
+        "effects": {
+          "trust": 2
+        }
+      },
+      "repair": "Credit Dao Heart 2 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-002",
+      "scene": "listen_choice",
+      "choice_index": 0,
+      "destination": "star_wants",
+      "kind": "progression_causality",
+      "problem": "the growth reward for “Ask the exile what the star wants.” did not identify the capacity practiced by that particular method.",
+      "before": {
+        "text": "Ask the exile what the star wants.",
+        "next": "star_wants",
+        "effects": {
+          "insight": 2,
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Ask the exile what the star wants.",
+        "next": "star_wants",
+        "effects": {
+          "insight": 3
+        }
+      },
+      "repair": "Credit Comprehension 3 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-003",
+      "scene": "listen_choice",
+      "choice_index": 2,
+      "destination": "waiting",
+      "kind": "progression_causality",
+      "problem": "“Ask Elder Yun why she waited.” credited physical conditioning without recovered bodily exercise.",
+      "before": {
+        "text": "Ask Elder Yun why she waited.",
+        "next": "waiting",
+        "effects": {
+          "resolve": 2,
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Ask Elder Yun why she waited.",
+        "next": "waiting",
+        "effects": {
+          "trust": 3
+        }
+      },
+      "repair": "Credit Dao Heart 3 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-004",
+      "scene": "final_choice",
+      "choice_index": 2,
+      "destination": "release",
+      "kind": "progression_causality",
+      "problem": "“Signal the mountain's controlled landing.” credited physical conditioning without recovered bodily exercise; reading or planning was gated by physical conditioning.",
+      "before": {
+        "text": "Signal the mountain's controlled landing.",
+        "next": "release",
+        "effects": {
+          "resolve": 1
+        },
+        "requires": {
+          "resolve": 3
+        }
+      },
+      "after": {
+        "text": "Signal the mountain's controlled landing.",
+        "next": "release",
+        "effects": {
+          "trust": 1
+        },
+        "requires": {
+          "insight": 3
+        }
+      },
+      "repair": "Credit Dao Heart 1 for this method; keep only relevant requirements {\"insight\":3}."
+    },
+    {
+      "id": "PROG-005",
+      "scene": "lantern_hub",
+      "choice_index": 0,
+      "destination": "ferry_departure",
+      "kind": "progression_causality",
+      "problem": "the growth reward for “Follow the ferry and find who moved the boundary.” did not identify the capacity practiced by that particular method.",
+      "before": {
+        "text": "Follow the ferry and find who moved the boundary.",
+        "next": "ferry_departure",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Follow the ferry and find who moved the boundary.",
+        "next": "ferry_departure",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-006",
+      "scene": "lantern_hub",
+      "choice_index": 2,
+      "destination": "archive_door",
+      "kind": "progression_causality",
+      "problem": "“Visit the archive and trace the missing names.” credited physical conditioning without recovered bodily exercise.",
+      "before": {
+        "text": "Visit the archive and trace the missing names.",
+        "next": "archive_door",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Visit the archive and trace the missing names.",
+        "next": "archive_door",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-007",
+      "scene": "ferry_choice",
+      "choice_index": 0,
+      "destination": "ferry_raise",
+      "kind": "progression_causality",
+      "problem": "“Raise the stone publicly, keeping its protective ward intact.” credited physical conditioning without recovered bodily exercise; “Raise the stone publicly, keeping its protective ward intact.” credited qi practice although the chosen task does not deliver a measured trace.",
+      "before": {
+        "text": "Raise the stone publicly, keeping its protective ward intact.",
+        "next": "ferry_raise",
+        "effects": {
+          "qi": 1,
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Raise the stone publicly, keeping its protective ward intact.",
+        "next": "ferry_raise",
+        "effects": {
+          "qi": 2
+        }
+      },
+      "repair": "Credit Qi Control 2 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-008",
+      "scene": "archive_choice",
+      "choice_index": 0,
+      "destination": "archive_publish",
+      "kind": "progression_causality",
+      "problem": "“Publish the original land clauses and every condition, preserving private debts.” credited physical conditioning without recovered bodily exercise.",
+      "before": {
+        "text": "Publish the original land clauses and every condition, preserving private debts.",
+        "next": "archive_publish",
+        "effects": {
+          "resolve": 2
+        }
+      },
+      "after": {
+        "text": "Publish the original land clauses and every condition, preserving private debts.",
+        "next": "archive_publish",
+        "effects": {
+          "trust": 2
+        }
+      },
+      "repair": "Credit Dao Heart 2 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-009",
+      "scene": "lantern_final_choice",
+      "choice_index": 0,
+      "destination": "lantern_crossing",
+      "kind": "progression_causality",
+      "problem": "the already offered cooperation was locked behind a player score.",
+      "before": {
+        "text": "Open the crossing and share responsibility for its ward.",
+        "next": "lantern_crossing",
+        "requires": {
+          "trust": 3
+        }
+      },
+      "after": {
+        "text": "Open the crossing and share responsibility for its ward.",
+        "next": "lantern_crossing"
+      },
+      "repair": "Credit no new attribute for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-010",
+      "scene": "river_approach_choice",
+      "choice_index": 0,
+      "destination": "river_call",
+      "kind": "progression_causality",
+      "problem": "the growth reward for “Let Mo Ran identify himself and offer his receipt.” did not identify the capacity practiced by that particular method.",
+      "before": {
+        "text": "Let Mo Ran identify himself and offer his receipt.",
+        "next": "river_call",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Let Mo Ran identify himself and offer his receipt.",
+        "next": "river_call",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-011",
+      "scene": "river_approach_choice",
+      "choice_index": 2,
+      "destination": "river_listen",
+      "kind": "progression_causality",
+      "problem": "“Listen at the boundary without crossing it.” credited physical conditioning without recovered bodily exercise.",
+      "before": {
+        "text": "Listen at the boundary without crossing it.",
+        "next": "river_listen",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Listen at the boundary without crossing it.",
+        "next": "river_listen",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-012",
+      "scene": "river_resolution_choice",
+      "choice_index": 0,
+      "destination": "river_return_terms",
+      "kind": "progression_causality",
+      "problem": "the growth reward for “Negotiate a new return place with the owner and spirit.” did not identify the capacity practiced by that particular method.",
+      "before": {
+        "text": "Negotiate a new return place with the owner and spirit.",
+        "next": "river_return_terms",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Negotiate a new return place with the owner and spirit.",
+        "next": "river_return_terms",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-013",
+      "scene": "river_resolution_choice",
+      "choice_index": 2,
+      "destination": "river_harbor_terms",
+      "kind": "progression_causality",
+      "problem": "“Arrange a temporary harbor while every owner is contacted.” credited physical conditioning without recovered bodily exercise.",
+      "before": {
+        "text": "Arrange a temporary harbor while every owner is contacted.",
+        "next": "river_harbor_terms",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Arrange a temporary harbor while every owner is contacted.",
+        "next": "river_harbor_terms",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-014",
+      "scene": "return_safety_choice",
+      "choice_index": 1,
+      "destination": "return_later",
+      "kind": "progression_causality",
+      "problem": "“Reserve a supported watch and a date to reconsider.” credited physical conditioning without recovered bodily exercise.",
+      "before": {
+        "text": "Reserve a supported watch and a date to reconsider.",
+        "next": "return_later",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Reserve a supported watch and a date to reconsider.",
+        "next": "return_later",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "repair": "Credit Dao Heart 1 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-015",
+      "scene": "harbor_watch_choice",
+      "choice_index": 0,
+      "destination": "harbor_eight_days",
+      "kind": "progression_causality",
+      "problem": "“Fund eight days, with a reserve for moving to safety.” credited physical conditioning without recovered bodily exercise.",
+      "before": {
+        "text": "Fund eight days, with a reserve for moving to safety.",
+        "next": "harbor_eight_days",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Fund eight days, with a reserve for moving to safety.",
+        "next": "harbor_eight_days",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "repair": "Credit Dao Heart 1 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-016",
+      "scene": "orchard_investigation_choice",
+      "choice_index": 0,
+      "destination": "orchard_circuit",
+      "kind": "progression_causality",
+      "problem": "“Trace the disconnected circuit with a measured breath.” credited physical conditioning without recovered bodily exercise; “Trace the disconnected circuit with a measured breath.” credited qi practice although the chosen task does not deliver a measured trace.",
+      "before": {
+        "text": "Trace the disconnected circuit with a measured breath.",
+        "next": "orchard_circuit",
+        "effects": {
+          "qi": 2,
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Trace the disconnected circuit with a measured breath.",
+        "next": "orchard_circuit",
+        "effects": {
+          "qi": 3
+        }
+      },
+      "repair": "Credit Qi Control 3 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-017",
+      "scene": "orchard_investigation_choice",
+      "choice_index": 1,
+      "destination": "orchard_meal",
+      "kind": "progression_causality",
+      "problem": "“Share the patients' meal and hear what they need.” credited physical conditioning without recovered bodily exercise.",
+      "before": {
+        "text": "Share the patients' meal and hear what they need.",
+        "next": "orchard_meal",
+        "effects": {
+          "trust": 2,
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Share the patients' meal and hear what they need.",
+        "next": "orchard_meal",
+        "effects": {
+          "trust": 3
+        }
+      },
+      "repair": "Credit Dao Heart 3 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-018",
+      "scene": "orchard_investigation_choice",
+      "choice_index": 2,
+      "destination": "orchard_ledger",
+      "kind": "progression_causality",
+      "problem": "“Compare winter allocations with the original treatment terms.” credited physical conditioning without recovered bodily exercise.",
+      "before": {
+        "text": "Compare winter allocations with the original treatment terms.",
+        "next": "orchard_ledger",
+        "effects": {
+          "insight": 2,
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Compare winter allocations with the original treatment terms.",
+        "next": "orchard_ledger",
+        "effects": {
+          "insight": 3
+        }
+      },
+      "repair": "Credit Comprehension 3 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-019",
+      "scene": "orchard_resolution_choice",
+      "choice_index": 1,
+      "destination": "orchard_care_rota",
+      "kind": "progression_causality",
+      "problem": "“Offer a paid rota that includes help beyond treatment.” credited physical conditioning without recovered bodily exercise; the already offered cooperation was locked behind a player score.",
+      "before": {
+        "text": "Offer a paid rota that includes help beyond treatment.",
+        "next": "orchard_care_rota",
+        "effects": {
+          "trust": 1,
+          "resolve": 1
+        },
+        "requires": {
+          "trust": 4
+        }
+      },
+      "after": {
+        "text": "Offer a paid rota that includes help beyond treatment.",
+        "next": "orchard_care_rota",
+        "effects": {
+          "trust": 2
+        }
+      },
+      "repair": "Credit Dao Heart 2 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-020",
+      "scene": "orchard_resolution_choice",
+      "choice_index": 2,
+      "destination": "orchard_fund_terms",
+      "kind": "progression_causality",
+      "problem": "the growth reward for “Separate relief funding and publish the new accounting.” did not identify the capacity practiced by that particular method.",
+      "before": {
+        "text": "Separate relief funding and publish the new accounting.",
+        "next": "orchard_fund_terms",
+        "effects": {
+          "insight": 1,
+          "trust": 1
+        },
+        "requires": {
+          "insight": 4
+        }
+      },
+      "after": {
+        "text": "Separate relief funding and publish the new accounting.",
+        "next": "orchard_fund_terms",
+        "effects": {
+          "insight": 2
+        },
+        "requires": {
+          "insight": 4
+        }
+      },
+      "repair": "Credit Comprehension 2 for this method; keep only relevant requirements {\"insight\":4}."
+    },
+    {
+      "id": "PROG-021",
+      "scene": "orchard_resolution_choice",
+      "choice_index": 3,
+      "destination": "orchard_pause",
+      "kind": "progression_causality",
+      "problem": "“Pause exchanges for seven days and provide ordinary care.” credited physical conditioning without recovered bodily exercise.",
+      "before": {
+        "text": "Pause exchanges for seven days and provide ordinary care.",
+        "next": "orchard_pause",
+        "effects": {
+          "resolve": 2
+        }
+      },
+      "after": {
+        "text": "Pause exchanges for seven days and provide ordinary care.",
+        "next": "orchard_pause",
+        "effects": {
+          "trust": 2
+        }
+      },
+      "repair": "Credit Dao Heart 2 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-022",
+      "scene": "city_investigation_choice",
+      "choice_index": 0,
+      "destination": "city_mask_entry",
+      "kind": "progression_causality",
+      "problem": "“Compare the masks, substituted collars, and return tokens.” credited qi practice although the chosen task does not deliver a measured trace.",
+      "before": {
+        "text": "Compare the masks, substituted collars, and return tokens.",
+        "next": "city_mask_entry",
+        "effects": {
+          "qi": 2,
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Compare the masks, substituted collars, and return tokens.",
+        "next": "city_mask_entry",
+        "effects": {
+          "insight": 3
+        }
+      },
+      "repair": "Credit Comprehension 3 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-023",
+      "scene": "city_investigation_choice",
+      "choice_index": 1,
+      "destination": "city_registry_entry",
+      "kind": "progression_causality",
+      "problem": "“Trace the recognition batch through licenses and courier charges.” credited physical conditioning without recovered bodily exercise.",
+      "before": {
+        "text": "Trace the recognition batch through licenses and courier charges.",
+        "next": "city_registry_entry",
+        "effects": {
+          "insight": 2,
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Trace the recognition batch through licenses and courier charges.",
+        "next": "city_registry_entry",
+        "effects": {
+          "insight": 3
+        }
+      },
+      "repair": "Credit Comprehension 3 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-024",
+      "scene": "city_investigation_choice",
+      "choice_index": 2,
+      "destination": "city_perfumer_entry",
+      "kind": "progression_causality",
+      "problem": "the growth reward for “Test the offered wax traces against dispatch controls.” did not identify the capacity practiced by that particular method.",
+      "before": {
+        "text": "Test the offered wax traces against dispatch controls.",
+        "next": "city_perfumer_entry",
+        "effects": {
+          "trust": 2,
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Test the offered wax traces against dispatch controls.",
+        "next": "city_perfumer_entry",
+        "effects": {
+          "insight": 3
+        }
+      },
+      "repair": "Credit Comprehension 3 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-025",
+      "scene": "city_final_choice",
+      "choice_index": 0,
+      "destination": "city_credit_bridge",
+      "kind": "progression_causality",
+      "problem": "“Bridge three nights with voluntarily offered furnace-hour credit.” credited qi practice although the chosen task does not deliver a measured trace; ordinary funding or study was gated by qi control.",
+      "before": {
+        "text": "Bridge three nights with voluntarily offered furnace-hour credit.",
+        "next": "city_credit_bridge",
+        "requires": {
+          "qi": 3
+        },
+        "effects": {
+          "qi": 1,
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Bridge three nights with voluntarily offered furnace-hour credit.",
+        "next": "city_credit_bridge",
+        "requires": {
+          "insight": 3
+        },
+        "effects": {
+          "insight": 2
+        }
+      },
+      "repair": "Credit Comprehension 2 for this method; keep only relevant requirements {\"insight\":3}."
+    },
+    {
+      "id": "PROG-026",
+      "scene": "city_final_choice",
+      "choice_index": 1,
+      "destination": "city_separate_ledgers",
+      "kind": "progression_causality",
+      "problem": "the growth reward for “Separate permanent proofs from temporary recognition accounts.” did not identify the capacity practiced by that particular method.",
+      "before": {
+        "text": "Separate permanent proofs from temporary recognition accounts.",
+        "next": "city_separate_ledgers",
+        "requires": {
+          "insight": 3
+        },
+        "effects": {
+          "insight": 1,
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Separate permanent proofs from temporary recognition accounts.",
+        "next": "city_separate_ledgers",
+        "requires": {
+          "insight": 3
+        },
+        "effects": {
+          "insight": 2
+        }
+      },
+      "repair": "Credit Comprehension 2 for this method; keep only relevant requirements {\"insight\":3}."
+    },
+    {
+      "id": "PROG-027",
+      "scene": "city_final_choice",
+      "choice_index": 2,
+      "destination": "city_license_pool",
+      "kind": "progression_causality",
+      "problem": "“Help workers form their own limited licensing cooperative.” credited physical conditioning without recovered bodily exercise; the already offered cooperation was locked behind a player score.",
+      "before": {
+        "text": "Help workers form their own limited licensing cooperative.",
+        "next": "city_license_pool",
+        "requires": {
+          "trust": 3
+        },
+        "effects": {
+          "trust": 1,
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Help workers form their own limited licensing cooperative.",
+        "next": "city_license_pool",
+        "effects": {
+          "trust": 2
+        }
+      },
+      "repair": "Credit Dao Heart 2 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-028",
+      "scene": "city_final_choice",
+      "choice_index": 3,
+      "destination": "city_batch_audit",
+      "kind": "progression_causality",
+      "problem": "“Pause the disputed batch for a dated individual audit.” credited physical conditioning without recovered bodily exercise.",
+      "before": {
+        "text": "Pause the disputed batch for a dated individual audit.",
+        "next": "city_batch_audit",
+        "effects": {
+          "resolve": 2
+        }
+      },
+      "after": {
+        "text": "Pause the disputed batch for a dated individual audit.",
+        "next": "city_batch_audit",
+        "effects": {
+          "trust": 2
+        }
+      },
+      "repair": "Credit Dao Heart 2 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-029",
+      "scene": "city_mask_method",
+      "choice_index": 1,
+      "destination": "city_mask_dates",
+      "kind": "progression_causality",
+      "problem": "“Compare the job dates and drying board.” credited physical conditioning without recovered bodily exercise.",
+      "before": {
+        "text": "Compare the job dates and drying board.",
+        "next": "city_mask_dates",
+        "effects": {
+          "insight": 2,
+          "resolve": 1
+        },
+        "requires": {
+          "insight": 5
+        }
+      },
+      "after": {
+        "text": "Compare the job dates and drying board.",
+        "next": "city_mask_dates",
+        "effects": {
+          "insight": 3
+        },
+        "requires": {
+          "insight": 5
+        }
+      },
+      "repair": "Credit Comprehension 3 for this method; keep only relevant requirements {\"insight\":5}."
+    },
+    {
+      "id": "PROG-030",
+      "scene": "city_mask_method",
+      "choice_index": 2,
+      "destination": "city_mask_workers",
+      "kind": "progression_causality",
+      "problem": "“Ask the workers to reconstruct their fittings.” credited physical conditioning without recovered bodily exercise.",
+      "before": {
+        "text": "Ask the workers to reconstruct their fittings.",
+        "next": "city_mask_workers",
+        "effects": {
+          "trust": 2,
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Ask the workers to reconstruct their fittings.",
+        "next": "city_mask_workers",
+        "effects": {
+          "insight": 3
+        }
+      },
+      "repair": "Credit Comprehension 3 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-031",
+      "scene": "city_registry_choice",
+      "choice_index": 0,
+      "destination": "city_registry_dispatch_log",
+      "kind": "progression_causality",
+      "problem": "“Trace the dispatch and cancellation times.” credited physical conditioning without recovered bodily exercise.",
+      "before": {
+        "text": "Trace the dispatch and cancellation times.",
+        "next": "city_registry_dispatch_log",
+        "requires": {
+          "insight": 5
+        },
+        "effects": {
+          "insight": 2,
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Trace the dispatch and cancellation times.",
+        "next": "city_registry_dispatch_log",
+        "requires": {
+          "insight": 5
+        },
+        "effects": {
+          "insight": 3
+        }
+      },
+      "repair": "Credit Comprehension 3 for this method; keep only relevant requirements {\"insight\":5}."
+    },
+    {
+      "id": "PROG-032",
+      "scene": "city_registry_choice",
+      "choice_index": 1,
+      "destination": "city_registry_witness_door",
+      "kind": "progression_causality",
+      "problem": "the already offered cooperation was locked behind a player score.",
+      "before": {
+        "text": "Ask willing workers to confirm their receipts.",
+        "next": "city_registry_witness_door",
+        "requires": {
+          "trust": 4
+        },
+        "effects": {
+          "trust": 2,
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Ask willing workers to confirm their receipts.",
+        "next": "city_registry_witness_door",
+        "effects": {
+          "insight": 3
+        }
+      },
+      "repair": "Credit Comprehension 3 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-033",
+      "scene": "city_registry_choice",
+      "choice_index": 2,
+      "destination": "city_registry_charges_table",
+      "kind": "progression_causality",
+      "problem": "“Reconcile the payment slips Tao provides.” credited physical conditioning without recovered bodily exercise.",
+      "before": {
+        "text": "Reconcile the payment slips Tao provides.",
+        "next": "city_registry_charges_table",
+        "effects": {
+          "resolve": 2,
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Reconcile the payment slips Tao provides.",
+        "next": "city_registry_charges_table",
+        "effects": {
+          "insight": 3
+        }
+      },
+      "repair": "Credit Comprehension 3 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-034",
+      "scene": "city_perfumer_choice",
+      "choice_index": 1,
+      "destination": "city_perfumer_trust_compare",
+      "kind": "progression_causality",
+      "problem": "the already offered cooperation was locked behind a player score.",
+      "before": {
+        "text": "Invite willing workshop tenants to compare the coded trays.",
+        "next": "city_perfumer_trust_compare",
+        "effects": {
+          "trust": 1,
+          "insight": 1
+        },
+        "requires": {
+          "trust": 4
+        }
+      },
+      "after": {
+        "text": "Invite willing workshop tenants to compare the coded trays.",
+        "next": "city_perfumer_trust_compare",
+        "effects": {
+          "insight": 2
+        }
+      },
+      "repair": "Credit Comprehension 2 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-035",
+      "scene": "city_perfumer_choice",
+      "choice_index": 2,
+      "destination": "city_perfumer_drying_bay",
+      "kind": "progression_causality",
+      "problem": "“Use the vacant loom bay for a slow strip comparison.” credited physical conditioning without recovered bodily exercise.",
+      "before": {
+        "text": "Use the vacant loom bay for a slow strip comparison.",
+        "next": "city_perfumer_drying_bay",
+        "effects": {
+          "resolve": 1,
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Use the vacant loom bay for a slow strip comparison.",
+        "next": "city_perfumer_drying_bay",
+        "effects": {
+          "insight": 2
+        }
+      },
+      "repair": "Credit Comprehension 2 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-036",
+      "scene": "mortal_mite_choice",
+      "choice_index": 1,
+      "destination": "mite_scoop_001",
+      "kind": "progression_causality",
+      "problem": "the growth reward for “Use the long scoop to clear its path to the grate.” did not identify the capacity practiced by that particular method.",
+      "before": {
+        "text": "Use the long scoop to clear its path to the grate.",
+        "next": "mite_scoop_001",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Use the long scoop to clear its path to the grate.",
+        "next": "mite_scoop_001",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "repair": "Credit Physique 1 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-037",
+      "scene": "court_investigation_choice",
+      "choice_index": 0,
+      "destination": "court_witness_entry",
+      "kind": "progression_causality",
+      "problem": "the growth reward for “Follow the witnesses and make room for their finite days.” did not identify the capacity practiced by that particular method.",
+      "before": {
+        "text": "Follow the witnesses and make room for their finite days.",
+        "next": "court_witness_entry",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Follow the witnesses and make room for their finite days.",
+        "next": "court_witness_entry",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-038",
+      "scene": "court_investigation_choice",
+      "choice_index": 1,
+      "destination": "court_rain_entry",
+      "kind": "progression_causality",
+      "problem": "“Examine the rain records, gauges, and clocks.” credited qi practice although the chosen task does not deliver a measured trace.",
+      "before": {
+        "text": "Examine the rain records, gauges, and clocks.",
+        "next": "court_rain_entry",
+        "effects": {
+          "qi": 1
+        }
+      },
+      "after": {
+        "text": "Examine the rain records, gauges, and clocks.",
+        "next": "court_rain_entry",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-039",
+      "scene": "court_investigation_choice",
+      "choice_index": 2,
+      "destination": "court_cost_entry",
+      "kind": "progression_causality",
+      "problem": "“Trace access costs and the remaining assistance fund.” credited physical conditioning without recovered bodily exercise.",
+      "before": {
+        "text": "Trace access costs and the remaining assistance fund.",
+        "next": "court_cost_entry",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Trace access costs and the remaining assistance fund.",
+        "next": "court_cost_entry",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-040",
+      "scene": "court_final_choice",
+      "choice_index": 1,
+      "destination": "court_local_proposal",
+      "kind": "progression_causality",
+      "problem": "“Bring two separately agreed testimony sessions to the lower landing.” credited physical conditioning without recovered bodily exercise; the already offered cooperation was locked behind a player score.",
+      "before": {
+        "text": "Bring two separately agreed testimony sessions to the lower landing.",
+        "next": "court_local_proposal",
+        "requires": {
+          "trust": 4
+        },
+        "effects": {
+          "trust": 1,
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Bring two separately agreed testimony sessions to the lower landing.",
+        "next": "court_local_proposal",
+        "effects": {
+          "insight": 2
+        }
+      },
+      "repair": "Credit Comprehension 2 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-041",
+      "scene": "court_final_choice",
+      "choice_index": 2,
+      "destination": "court_staged_proposal",
+      "kind": "progression_causality",
+      "problem": "the growth reward for “Stage the evidence docket with paid source checks and handling.” did not identify the capacity practiced by that particular method.",
+      "before": {
+        "text": "Stage the evidence docket with paid source checks and handling.",
+        "next": "court_staged_proposal",
+        "requires": {
+          "insight": 4
+        },
+        "effects": {
+          "insight": 1,
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Stage the evidence docket with paid source checks and handling.",
+        "next": "court_staged_proposal",
+        "requires": {
+          "insight": 4
+        },
+        "effects": {
+          "insight": 2
+        }
+      },
+      "repair": "Credit Comprehension 2 for this method; keep only relevant requirements {\"insight\":4}."
+    },
+    {
+      "id": "PROG-042",
+      "scene": "court_final_choice",
+      "choice_index": 3,
+      "destination": "court_remand_proposal",
+      "kind": "progression_causality",
+      "problem": "“Issue a dated limited remand for one independent reinspection.” credited physical conditioning without recovered bodily exercise.",
+      "before": {
+        "text": "Issue a dated limited remand for one independent reinspection.",
+        "next": "court_remand_proposal",
+        "effects": {
+          "resolve": 2
+        }
+      },
+      "after": {
+        "text": "Issue a dated limited remand for one independent reinspection.",
+        "next": "court_remand_proposal",
+        "effects": {
+          "trust": 2
+        }
+      },
+      "repair": "Credit Dao Heart 2 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-043",
+      "scene": "court_witness_a1_10",
+      "choice_index": 1,
+      "destination": "court_witness_a1_rotating_1",
+      "kind": "progression_causality",
+      "problem": "the growth reward for “Test rotating appointments around work.” did not identify the capacity practiced by that particular method.",
+      "before": {
+        "text": "Test rotating appointments around work.",
+        "next": "court_witness_a1_rotating_1",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Test rotating appointments around work.",
+        "next": "court_witness_a1_rotating_1",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-044",
+      "scene": "court_witness_a2_10",
+      "choice_index": 0,
+      "destination": "court_witness_a2_shelter_1",
+      "kind": "progression_causality",
+      "problem": "the growth reward for “Check the lower-gate shelter.” did not identify the capacity practiced by that particular method.",
+      "before": {
+        "text": "Check the lower-gate shelter.",
+        "next": "court_witness_a2_shelter_1",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Check the lower-gate shelter.",
+        "next": "court_witness_a2_shelter_1",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-045",
+      "scene": "court_witness_a4_10",
+      "choice_index": 1,
+      "destination": "court_witness_a4_remit_1",
+      "kind": "progression_causality",
+      "problem": "“Compare Bai’s written duty clauses.” credited physical conditioning without recovered bodily exercise.",
+      "before": {
+        "text": "Compare Bai’s written duty clauses.",
+        "next": "court_witness_a4_remit_1",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Compare Bai’s written duty clauses.",
+        "next": "court_witness_a4_remit_1",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-046",
+      "scene": "court_witness_a6_10",
+      "choice_index": 0,
+      "destination": "court_witness_a6_baker_1",
+      "kind": "progression_causality",
+      "problem": "the growth reward for “Follow Su E’s bell and oven sequence.” did not identify the capacity practiced by that particular method.",
+      "before": {
+        "text": "Follow Su E’s bell and oven sequence.",
+        "next": "court_witness_a6_baker_1",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Follow Su E’s bell and oven sequence.",
+        "next": "court_witness_a6_baker_1",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-047",
+      "scene": "court_witness_a8_10",
+      "choice_index": 0,
+      "destination": "court_witness_a8_sources_1",
+      "kind": "progression_causality",
+      "problem": "“Lead with firsthand sources and their limits.” credited physical conditioning without recovered bodily exercise.",
+      "before": {
+        "text": "Lead with firsthand sources and their limits.",
+        "next": "court_witness_a8_sources_1",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Lead with firsthand sources and their limits.",
+        "next": "court_witness_a8_sources_1",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-048",
+      "scene": "court_witness_a8_10",
+      "choice_index": 1,
+      "destination": "court_witness_a8_access_1",
+      "kind": "progression_causality",
+      "problem": "“Lead with delivered access and remaining costs.” credited physical conditioning without recovered bodily exercise.",
+      "before": {
+        "text": "Lead with delivered access and remaining costs.",
+        "next": "court_witness_a8_access_1",
+        "effects": {
+          "resolve": 2
+        }
+      },
+      "after": {
+        "text": "Lead with delivered access and remaining costs.",
+        "next": "court_witness_a8_access_1",
+        "effects": {
+          "insight": 2
+        }
+      },
+      "repair": "Credit Comprehension 2 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-049",
+      "scene": "court_rain_calibration_choice",
+      "choice_index": 1,
+      "destination": "court_rain_assistant_request",
+      "kind": "progression_causality",
+      "problem": "the already offered cooperation was locked behind a player score.",
+      "before": {
+        "text": "Ask for a bounded assist during the paid instrument check.",
+        "next": "court_rain_assistant_request",
+        "effects": {
+          "trust": 1,
+          "insight": 1
+        },
+        "requires": {
+          "trust": 4
+        }
+      },
+      "after": {
+        "text": "Ask for a bounded assist during the paid instrument check.",
+        "next": "court_rain_assistant_request",
+        "effects": {
+          "insight": 2
+        }
+      },
+      "repair": "Credit Comprehension 2 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-050",
+      "scene": "court_rain_calibration_choice",
+      "choice_index": 2,
+      "destination": "court_rain_manual_light",
+      "kind": "progression_causality",
+      "problem": "“Use steady daylight and record the delay.” credited physical conditioning without recovered bodily exercise.",
+      "before": {
+        "text": "Use steady daylight and record the delay.",
+        "next": "court_rain_manual_light",
+        "effects": {
+          "resolve": 1,
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Use steady daylight and record the delay.",
+        "next": "court_rain_manual_light",
+        "effects": {
+          "insight": 2
+        }
+      },
+      "repair": "Credit Comprehension 2 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-051",
+      "scene": "court_rain_signal_choice",
+      "choice_index": 1,
+      "destination": "court_rain_second_keeper",
+      "kind": "progression_causality",
+      "problem": "the already offered cooperation was locked behind a player score.",
+      "before": {
+        "text": "Use the willing second keeper during the bounded check.",
+        "next": "court_rain_second_keeper",
+        "effects": {
+          "trust": 1,
+          "insight": 1
+        },
+        "requires": {
+          "trust": 4
+        }
+      },
+      "after": {
+        "text": "Use the willing second keeper during the bounded check.",
+        "next": "court_rain_second_keeper",
+        "effects": {
+          "insight": 2
+        }
+      },
+      "repair": "Credit Comprehension 2 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-052",
+      "scene": "court_rain_signal_choice",
+      "choice_index": 2,
+      "destination": "court_rain_board_signal",
+      "kind": "progression_causality",
+      "problem": "“Use plain boards and preserve missed comparisons.” credited physical conditioning without recovered bodily exercise.",
+      "before": {
+        "text": "Use plain boards and preserve missed comparisons.",
+        "next": "court_rain_board_signal",
+        "effects": {
+          "resolve": 1,
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Use plain boards and preserve missed comparisons.",
+        "next": "court_rain_board_signal",
+        "effects": {
+          "insight": 2
+        }
+      },
+      "repair": "Credit Comprehension 2 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-053",
+      "scene": "court_rain_trace_choice",
+      "choice_index": 1,
+      "destination": "court_rain_trace_reader",
+      "kind": "progression_causality",
+      "problem": "the already offered cooperation was locked behind a player score.",
+      "before": {
+        "text": "Invite a permitted independent reader for the scheduled interval.",
+        "next": "court_rain_trace_reader",
+        "effects": {
+          "trust": 1,
+          "insight": 1
+        },
+        "requires": {
+          "trust": 4
+        }
+      },
+      "after": {
+        "text": "Invite a permitted independent reader for the scheduled interval.",
+        "next": "court_rain_trace_reader",
+        "effects": {
+          "insight": 2
+        }
+      },
+      "repair": "Credit Comprehension 2 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-054",
+      "scene": "court_rain_trace_choice",
+      "choice_index": 2,
+      "destination": "court_rain_trace_drawing",
+      "kind": "progression_causality",
+      "problem": "“Make two ordinary ruled sketches without consuming the sample.” credited physical conditioning without recovered bodily exercise.",
+      "before": {
+        "text": "Make two ordinary ruled sketches without consuming the sample.",
+        "next": "court_rain_trace_drawing",
+        "effects": {
+          "resolve": 1,
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Make two ordinary ruled sketches without consuming the sample.",
+        "next": "court_rain_trace_drawing",
+        "effects": {
+          "insight": 2
+        }
+      },
+      "repair": "Credit Comprehension 2 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-055",
+      "scene": "court_rain_bulletin_choice",
+      "choice_index": 1,
+      "destination": "court_rain_readback_statement",
+      "kind": "progression_causality",
+      "problem": "the already offered cooperation was locked behind a player score.",
+      "before": {
+        "text": "Read the complete passages with the Heron's bounded agreement.",
+        "next": "court_rain_readback_statement",
+        "effects": {
+          "trust": 1,
+          "insight": 1
+        },
+        "requires": {
+          "trust": 4
+        }
+      },
+      "after": {
+        "text": "Read the complete passages with the Heron's bounded agreement.",
+        "next": "court_rain_readback_statement",
+        "effects": {
+          "insight": 2
+        }
+      },
+      "repair": "Credit Comprehension 2 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-056",
+      "scene": "court_rain_bulletin_choice",
+      "choice_index": 2,
+      "destination": "court_rain_paired_copy",
+      "kind": "progression_causality",
+      "problem": "“Prepare a plain paired copy for the authorized source check.” credited physical conditioning without recovered bodily exercise.",
+      "before": {
+        "text": "Prepare a plain paired copy for the authorized source check.",
+        "next": "court_rain_paired_copy",
+        "effects": {
+          "resolve": 1,
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Prepare a plain paired copy for the authorized source check.",
+        "next": "court_rain_paired_copy",
+        "effects": {
+          "insight": 2
+        }
+      },
+      "repair": "Credit Comprehension 2 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-057",
+      "scene": "court_rain_forecast_choice",
+      "choice_index": 1,
+      "destination": "court_rain_forecast_keeper",
+      "kind": "progression_causality",
+      "problem": "the already offered cooperation was locked behind a player score.",
+      "before": {
+        "text": "Request the keeper's bounded ordinary comparison.",
+        "next": "court_rain_forecast_keeper",
+        "effects": {
+          "trust": 1,
+          "insight": 1
+        },
+        "requires": {
+          "trust": 4
+        }
+      },
+      "after": {
+        "text": "Request the keeper's bounded ordinary comparison.",
+        "next": "court_rain_forecast_keeper",
+        "effects": {
+          "insight": 2
+        }
+      },
+      "repair": "Credit Comprehension 2 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-058",
+      "scene": "court_rain_forecast_choice",
+      "choice_index": 2,
+      "destination": "court_rain_forecast_schedule",
+      "kind": "progression_causality",
+      "problem": "“Use the scheduled gauge interval and retain the delay.” credited physical conditioning without recovered bodily exercise.",
+      "before": {
+        "text": "Use the scheduled gauge interval and retain the delay.",
+        "next": "court_rain_forecast_schedule",
+        "effects": {
+          "resolve": 1,
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Use the scheduled gauge interval and retain the delay.",
+        "next": "court_rain_forecast_schedule",
+        "effects": {
+          "insight": 2
+        }
+      },
+      "repair": "Credit Comprehension 2 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-059",
+      "scene": "court_rain_notice_choice",
+      "choice_index": 1,
+      "destination": "court_rain_notice_readers",
+      "kind": "progression_causality",
+      "problem": "the already offered cooperation was locked behind a player score.",
+      "before": {
+        "text": "Read the authorized notice with willing local posting keepers.",
+        "next": "court_rain_notice_readers",
+        "effects": {
+          "trust": 1,
+          "insight": 1
+        },
+        "requires": {
+          "trust": 4
+        }
+      },
+      "after": {
+        "text": "Read the authorized notice with willing local posting keepers.",
+        "next": "court_rain_notice_readers",
+        "effects": {
+          "insight": 2
+        }
+      },
+      "repair": "Credit Comprehension 2 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-060",
+      "scene": "court_rain_notice_choice",
+      "choice_index": 2,
+      "destination": "court_rain_notice_ordinary",
+      "kind": "progression_causality",
+      "problem": "“Send the complete notice through its ordinary route.” credited physical conditioning without recovered bodily exercise.",
+      "before": {
+        "text": "Send the complete notice through its ordinary route.",
+        "next": "court_rain_notice_ordinary",
+        "effects": {
+          "resolve": 1,
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Send the complete notice through its ordinary route.",
+        "next": "court_rain_notice_ordinary",
+        "effects": {
+          "insight": 2
+        }
+      },
+      "repair": "Credit Comprehension 2 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-061",
+      "scene": "court_rain_final_check_choice",
+      "choice_index": 1,
+      "destination": "court_rain_source_readback",
+      "kind": "progression_causality",
+      "problem": "the already offered cooperation was locked behind a player score.",
+      "before": {
+        "text": "Read back the findings with willing source keepers.",
+        "next": "court_rain_source_readback",
+        "effects": {
+          "trust": 1,
+          "insight": 1
+        },
+        "requires": {
+          "trust": 4
+        }
+      },
+      "after": {
+        "text": "Read back the findings with willing source keepers.",
+        "next": "court_rain_source_readback",
+        "effects": {
+          "insight": 2
+        }
+      },
+      "repair": "Credit Comprehension 2 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-062",
+      "scene": "court_rain_final_check_choice",
+      "choice_index": 2,
+      "destination": "court_rain_receipt_check",
+      "kind": "progression_causality",
+      "problem": "“Check receipts, source labels, and copy permissions in order.” credited physical conditioning without recovered bodily exercise.",
+      "before": {
+        "text": "Check receipts, source labels, and copy permissions in order.",
+        "next": "court_rain_receipt_check",
+        "effects": {
+          "resolve": 1,
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Check receipts, source labels, and copy permissions in order.",
+        "next": "court_rain_receipt_check",
+        "effects": {
+          "insight": 2
+        }
+      },
+      "repair": "Credit Comprehension 2 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-063",
+      "scene": "court_cost_question_hub",
+      "choice_index": 1,
+      "destination": "court_cost_begin_notices",
+      "kind": "progression_causality",
+      "problem": "the growth reward for “Compare the copying notices.” did not identify the capacity practiced by that particular method.",
+      "before": {
+        "text": "Compare the copying notices.",
+        "next": "court_cost_begin_notices",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Compare the copying notices.",
+        "next": "court_cost_begin_notices",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-064",
+      "scene": "court_cost_question_hub",
+      "choice_index": 2,
+      "destination": "court_cost_begin_authority",
+      "kind": "progression_causality",
+      "problem": "“Check authority over the reserve.” credited physical conditioning without recovered bodily exercise.",
+      "before": {
+        "text": "Check authority over the reserve.",
+        "next": "court_cost_begin_authority",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Check authority over the reserve.",
+        "next": "court_cost_begin_authority",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-065",
+      "scene": "court_cost_lift_choice",
+      "choice_index": 1,
+      "destination": "court_cost_cradle_check",
+      "kind": "progression_causality",
+      "problem": "the growth reward for “Observe the empty-chair transfer.” did not identify the capacity practiced by that particular method.",
+      "before": {
+        "text": "Observe the empty-chair transfer.",
+        "next": "court_cost_cradle_check",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Observe the empty-chair transfer.",
+        "next": "court_cost_cradle_check",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-066",
+      "scene": "court_cost_lift_choice",
+      "choice_index": 2,
+      "destination": "court_cost_time_check",
+      "kind": "progression_causality",
+      "problem": "“Revise the appointment timetable.” credited physical conditioning without recovered bodily exercise.",
+      "before": {
+        "text": "Revise the appointment timetable.",
+        "next": "court_cost_time_check",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Revise the appointment timetable.",
+        "next": "court_cost_time_check",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-067",
+      "scene": "court_cost_copy_choice",
+      "choice_index": 1,
+      "destination": "court_cost_copy_annex",
+      "kind": "progression_causality",
+      "problem": "the growth reward for “Check the annex correction history.” did not identify the capacity practiced by that particular method.",
+      "before": {
+        "text": "Check the annex correction history.",
+        "next": "court_cost_copy_annex",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Check the annex correction history.",
+        "next": "court_cost_copy_annex",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-068",
+      "scene": "court_cost_copy_choice",
+      "choice_index": 2,
+      "destination": "court_cost_copy_notices",
+      "kind": "progression_causality",
+      "problem": "“Review the outgoing notices.” credited physical conditioning without recovered bodily exercise.",
+      "before": {
+        "text": "Review the outgoing notices.",
+        "next": "court_cost_copy_notices",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Review the outgoing notices.",
+        "next": "court_cost_copy_notices",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-069",
+      "scene": "court_cost_storage_choice",
+      "choice_index": 1,
+      "destination": "court_cost_shelf_check",
+      "kind": "progression_causality",
+      "problem": "the growth reward for “Check the shelf and return calendar.” did not identify the capacity practiced by that particular method.",
+      "before": {
+        "text": "Check the shelf and return calendar.",
+        "next": "court_cost_shelf_check",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Check the shelf and return calendar.",
+        "next": "court_cost_shelf_check",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-070",
+      "scene": "court_cost_storage_choice",
+      "choice_index": 2,
+      "destination": "court_cost_key_check",
+      "kind": "progression_causality",
+      "problem": "“Review completed key entries.” credited physical conditioning without recovered bodily exercise.",
+      "before": {
+        "text": "Review completed key entries.",
+        "next": "court_cost_key_check",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Review completed key entries.",
+        "next": "court_cost_key_check",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-071",
+      "scene": "court_cost_time_choice",
+      "choice_index": 1,
+      "destination": "court_cost_time_form",
+      "kind": "progression_causality",
+      "problem": "the growth reward for “Review bounded invitation terms.” did not identify the capacity practiced by that particular method.",
+      "before": {
+        "text": "Review bounded invitation terms.",
+        "next": "court_cost_time_form",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Review bounded invitation terms.",
+        "next": "court_cost_time_form",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-072",
+      "scene": "court_cost_time_choice",
+      "choice_index": 2,
+      "destination": "court_cost_time_interruption",
+      "kind": "progression_causality",
+      "problem": "“Ask about an interrupted appointment.” credited physical conditioning without recovered bodily exercise.",
+      "before": {
+        "text": "Ask about an interrupted appointment.",
+        "next": "court_cost_time_interruption",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Ask about an interrupted appointment.",
+        "next": "court_cost_time_interruption",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-073",
+      "scene": "court_cost_private_choice",
+      "choice_index": 1,
+      "destination": "court_cost_private_clinician",
+      "kind": "progression_causality",
+      "problem": "the growth reward for “Review the access-only clinician note.” did not identify the capacity practiced by that particular method.",
+      "before": {
+        "text": "Review the access-only clinician note.",
+        "next": "court_cost_private_clinician",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Review the access-only clinician note.",
+        "next": "court_cost_private_clinician",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-074",
+      "scene": "court_cost_private_choice",
+      "choice_index": 2,
+      "destination": "court_cost_private_yard",
+      "kind": "progression_causality",
+      "problem": "“Distinguish yard work from court attendance.” credited physical conditioning without recovered bodily exercise.",
+      "before": {
+        "text": "Distinguish yard work from court attendance.",
+        "next": "court_cost_private_yard",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Distinguish yard work from court attendance.",
+        "next": "court_cost_private_yard",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-075",
+      "scene": "court_cost_local_choice",
+      "choice_index": 1,
+      "destination": "court_cost_local_readback",
+      "kind": "progression_causality",
+      "problem": "the growth reward for “Review correction and stopping terms.” did not identify the capacity practiced by that particular method.",
+      "before": {
+        "text": "Review correction and stopping terms.",
+        "next": "court_cost_local_readback",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Review correction and stopping terms.",
+        "next": "court_cost_local_readback",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-076",
+      "scene": "court_cost_local_choice",
+      "choice_index": 2,
+      "destination": "court_cost_local_messenger",
+      "kind": "progression_causality",
+      "problem": "“Check the messenger's limited task.” credited physical conditioning without recovered bodily exercise.",
+      "before": {
+        "text": "Check the messenger's limited task.",
+        "next": "court_cost_local_messenger",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Check the messenger's limited task.",
+        "next": "court_cost_local_messenger",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-077",
+      "scene": "court_cost_reserve_choice",
+      "choice_index": 1,
+      "destination": "court_cost_emphasize_local",
+      "kind": "progression_causality",
+      "problem": "the growth reward for “Explain optional local sessions first.” did not identify the capacity practiced by that particular method.",
+      "before": {
+        "text": "Explain optional local sessions first.",
+        "next": "court_cost_emphasize_local",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Explain optional local sessions first.",
+        "next": "court_cost_emphasize_local",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-078",
+      "scene": "court_cost_reserve_choice",
+      "choice_index": 2,
+      "destination": "court_cost_emphasize_docket",
+      "kind": "progression_causality",
+      "problem": "“Explain staged source checking first.” credited physical conditioning without recovered bodily exercise.",
+      "before": {
+        "text": "Explain staged source checking first.",
+        "next": "court_cost_emphasize_docket",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Explain staged source checking first.",
+        "next": "court_cost_emphasize_docket",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-079",
+      "scene": "court_cost_report_choice",
+      "choice_index": 1,
+      "destination": "court_cost_report_gap",
+      "kind": "progression_causality",
+      "problem": "the growth reward for “Open with the storage calendar gap.” did not identify the capacity practiced by that particular method.",
+      "before": {
+        "text": "Open with the storage calendar gap.",
+        "next": "court_cost_report_gap",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Open with the storage calendar gap.",
+        "next": "court_cost_report_gap",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-080",
+      "scene": "court_docket_first_choice",
+      "choice_index": 1,
+      "destination": "court_docket_assistant_path",
+      "kind": "progression_causality",
+      "problem": "the already offered cooperation was locked behind a player score.",
+      "before": {
+        "text": "Ask Cai about the visits",
+        "next": "court_docket_assistant_path",
+        "effects": {
+          "trust": 1
+        },
+        "requires": {
+          "trust": 2
+        }
+      },
+      "after": {
+        "text": "Ask Cai about the visits",
+        "next": "court_docket_assistant_path",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-081",
+      "scene": "court_docket_source_choice",
+      "choice_index": 1,
+      "destination": "court_docket_writer_path",
+      "kind": "progression_causality",
+      "problem": "the already offered cooperation was locked behind a player score.",
+      "before": {
+        "text": "Ask the annex writer",
+        "next": "court_docket_writer_path",
+        "effects": {
+          "trust": 1
+        },
+        "requires": {
+          "trust": 2
+        }
+      },
+      "after": {
+        "text": "Ask the annex writer",
+        "next": "court_docket_writer_path",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-082",
+      "scene": "court_docket_source_choice",
+      "choice_index": 2,
+      "destination": "court_docket_index_path",
+      "kind": "progression_causality",
+      "problem": "“Trace the index stamp” credited physical conditioning without recovered bodily exercise; reading or planning was gated by physical conditioning.",
+      "before": {
+        "text": "Trace the index stamp",
+        "next": "court_docket_index_path",
+        "effects": {
+          "resolve": 1
+        },
+        "requires": {
+          "resolve": 3
+        }
+      },
+      "after": {
+        "text": "Trace the index stamp",
+        "next": "court_docket_index_path",
+        "effects": {
+          "insight": 1
+        },
+        "requires": {
+          "insight": 3
+        }
+      },
+      "repair": "Credit Comprehension 1 for this method; keep only relevant requirements {\"insight\":3}."
+    },
+    {
+      "id": "PROG-083",
+      "scene": "court_docket_calendar_choice",
+      "choice_index": 1,
+      "destination": "court_docket_complete_path",
+      "kind": "progression_causality",
+      "problem": "the already offered cooperation was locked behind a player score.",
+      "before": {
+        "text": "Check the completeness requirement",
+        "next": "court_docket_complete_path",
+        "effects": {
+          "trust": 1
+        },
+        "requires": {
+          "trust": 2
+        }
+      },
+      "after": {
+        "text": "Check the completeness requirement",
+        "next": "court_docket_complete_path",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-084",
+      "scene": "court_docket_calendar_choice",
+      "choice_index": 2,
+      "destination": "court_docket_invitation_path",
+      "kind": "progression_causality",
+      "problem": "“Test an invitation against a shift” credited physical conditioning without recovered bodily exercise; reading or planning was gated by physical conditioning.",
+      "before": {
+        "text": "Test an invitation against a shift",
+        "next": "court_docket_invitation_path",
+        "effects": {
+          "resolve": 1
+        },
+        "requires": {
+          "resolve": 3
+        }
+      },
+      "after": {
+        "text": "Test an invitation against a shift",
+        "next": "court_docket_invitation_path",
+        "effects": {
+          "insight": 1
+        },
+        "requires": {
+          "insight": 3
+        }
+      },
+      "repair": "Credit Comprehension 1 for this method; keep only relevant requirements {\"insight\":3}."
+    },
+    {
+      "id": "PROG-085",
+      "scene": "court_docket_duty_choice",
+      "choice_index": 1,
+      "destination": "court_docket_signer_path",
+      "kind": "progression_causality",
+      "problem": "the already offered cooperation was locked behind a player score.",
+      "before": {
+        "text": "Trace the maintenance signature",
+        "next": "court_docket_signer_path",
+        "effects": {
+          "trust": 1
+        },
+        "requires": {
+          "trust": 2
+        }
+      },
+      "after": {
+        "text": "Trace the maintenance signature",
+        "next": "court_docket_signer_path",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-086",
+      "scene": "court_docket_duty_choice",
+      "choice_index": 2,
+      "destination": "court_docket_view_path",
+      "kind": "progression_causality",
+      "problem": "“Map the ordinary inspection view” credited physical conditioning without recovered bodily exercise; reading or planning was gated by physical conditioning.",
+      "before": {
+        "text": "Map the ordinary inspection view",
+        "next": "court_docket_view_path",
+        "effects": {
+          "resolve": 1
+        },
+        "requires": {
+          "resolve": 3
+        }
+      },
+      "after": {
+        "text": "Map the ordinary inspection view",
+        "next": "court_docket_view_path",
+        "effects": {
+          "insight": 1
+        },
+        "requires": {
+          "insight": 3
+        }
+      },
+      "repair": "Credit Comprehension 1 for this method; keep only relevant requirements {\"insight\":3}."
+    },
+    {
+      "id": "PROG-087",
+      "scene": "court_docket_custody_choice",
+      "choice_index": 1,
+      "destination": "court_docket_keepers_path",
+      "kind": "progression_causality",
+      "problem": "the already offered cooperation was locked behind a player score.",
+      "before": {
+        "text": "Check the offered source limits",
+        "next": "court_docket_keepers_path",
+        "effects": {
+          "trust": 1
+        },
+        "requires": {
+          "trust": 2
+        }
+      },
+      "after": {
+        "text": "Check the offered source limits",
+        "next": "court_docket_keepers_path",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-088",
+      "scene": "court_docket_custody_choice",
+      "choice_index": 2,
+      "destination": "court_docket_reader_path",
+      "kind": "progression_causality",
+      "problem": "“Test record and witness counts” credited physical conditioning without recovered bodily exercise; reading or planning was gated by physical conditioning.",
+      "before": {
+        "text": "Test record and witness counts",
+        "next": "court_docket_reader_path",
+        "effects": {
+          "resolve": 1
+        },
+        "requires": {
+          "resolve": 3
+        }
+      },
+      "after": {
+        "text": "Test record and witness counts",
+        "next": "court_docket_reader_path",
+        "effects": {
+          "insight": 1
+        },
+        "requires": {
+          "insight": 3
+        }
+      },
+      "repair": "Credit Comprehension 1 for this method; keep only relevant requirements {\"insight\":3}."
+    },
+    {
+      "id": "PROG-089",
+      "scene": "court_docket_approval_choice",
+      "choice_index": 1,
+      "destination": "court_docket_judge_path",
+      "kind": "progression_causality",
+      "problem": "the already offered cooperation was locked behind a player score.",
+      "before": {
+        "text": "Examine the judge's recorded check",
+        "next": "court_docket_judge_path",
+        "effects": {
+          "trust": 1
+        },
+        "requires": {
+          "trust": 2
+        }
+      },
+      "after": {
+        "text": "Examine the judge's recorded check",
+        "next": "court_docket_judge_path",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-090",
+      "scene": "court_docket_approval_choice",
+      "choice_index": 2,
+      "destination": "court_docket_handoff_path",
+      "kind": "progression_causality",
+      "problem": "“Test the review handoff” credited physical conditioning without recovered bodily exercise; reading or planning was gated by physical conditioning.",
+      "before": {
+        "text": "Test the review handoff",
+        "next": "court_docket_handoff_path",
+        "effects": {
+          "resolve": 1
+        },
+        "requires": {
+          "resolve": 3
+        }
+      },
+      "after": {
+        "text": "Test the review handoff",
+        "next": "court_docket_handoff_path",
+        "effects": {
+          "insight": 1
+        },
+        "requires": {
+          "insight": 3
+        }
+      },
+      "repair": "Credit Comprehension 1 for this method; keep only relevant requirements {\"insight\":3}."
+    },
+    {
+      "id": "PROG-091",
+      "scene": "court_docket_reply_choice",
+      "choice_index": 1,
+      "destination": "court_docket_applicant_rehearsal",
+      "kind": "progression_causality",
+      "problem": "the already offered cooperation was locked behind a player score.",
+      "before": {
+        "text": "Test the applicant's reply route",
+        "next": "court_docket_applicant_rehearsal",
+        "effects": {
+          "trust": 1
+        },
+        "requires": {
+          "trust": 2
+        }
+      },
+      "after": {
+        "text": "Test the applicant's reply route",
+        "next": "court_docket_applicant_rehearsal",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-092",
+      "scene": "court_docket_reply_choice",
+      "choice_index": 2,
+      "destination": "court_docket_remand_rehearsal",
+      "kind": "progression_causality",
+      "problem": "“Read the proposed remand questions” credited physical conditioning without recovered bodily exercise; reading or planning was gated by physical conditioning.",
+      "before": {
+        "text": "Read the proposed remand questions",
+        "next": "court_docket_remand_rehearsal",
+        "effects": {
+          "resolve": 1
+        },
+        "requires": {
+          "resolve": 3
+        }
+      },
+      "after": {
+        "text": "Read the proposed remand questions",
+        "next": "court_docket_remand_rehearsal",
+        "effects": {
+          "insight": 1
+        },
+        "requires": {
+          "insight": 3
+        }
+      },
+      "repair": "Credit Comprehension 1 for this method; keep only relevant requirements {\"insight\":3}."
+    },
+    {
+      "id": "PROG-093",
+      "scene": "court_docket_report_choice",
+      "choice_index": 1,
+      "destination": "court_docket_permission_final",
+      "kind": "progression_causality",
+      "problem": "the already offered cooperation was locked behind a player score.",
+      "before": {
+        "text": "Check permission and storage routes",
+        "next": "court_docket_permission_final",
+        "effects": {
+          "trust": 1
+        },
+        "requires": {
+          "trust": 2
+        }
+      },
+      "after": {
+        "text": "Check permission and storage routes",
+        "next": "court_docket_permission_final",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-094",
+      "scene": "court_docket_report_choice",
+      "choice_index": 2,
+      "destination": "court_docket_language_final",
+      "kind": "progression_causality",
+      "problem": "“Read the plain page for promises” credited physical conditioning without recovered bodily exercise; reading or planning was gated by physical conditioning.",
+      "before": {
+        "text": "Read the plain page for promises",
+        "next": "court_docket_language_final",
+        "effects": {
+          "resolve": 1
+        },
+        "requires": {
+          "resolve": 3
+        }
+      },
+      "after": {
+        "text": "Read the plain page for promises",
+        "next": "court_docket_language_final",
+        "effects": {
+          "insight": 1
+        },
+        "requires": {
+          "insight": 3
+        }
+      },
+      "repair": "Credit Comprehension 1 for this method; keep only relevant requirements {\"insight\":3}."
+    },
+    {
+      "id": "PROG-095",
+      "scene": "ring_investigation_choice",
+      "choice_index": 0,
+      "destination": "ring_marsh_entry",
+      "kind": "progression_causality",
+      "problem": "“Take the reed channel with Wei Xiu and the offered custody record.” credited qi practice although the chosen task does not deliver a measured trace.",
+      "before": {
+        "text": "Take the reed channel with Wei Xiu and the offered custody record.",
+        "next": "ring_marsh_entry",
+        "effects": {
+          "qi": 1
+        }
+      },
+      "after": {
+        "text": "Take the reed channel with Wei Xiu and the offered custody record.",
+        "next": "ring_marsh_entry",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-096",
+      "scene": "ring_investigation_choice",
+      "choice_index": 2,
+      "destination": "ring_road_entry",
+      "kind": "progression_causality",
+      "problem": "the growth reward for “Walk the former ferry approach with Wei Jin.” did not identify the capacity practiced by that particular method.",
+      "before": {
+        "text": "Walk the former ferry approach with Wei Jin.",
+        "next": "ring_road_entry",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Walk the former ferry approach with Wei Jin.",
+        "next": "ring_road_entry",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "repair": "Credit Physique 1 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-097",
+      "scene": "ring_archive_ask_help",
+      "choice_index": 1,
+      "destination": "ring_archive_permit_lesson",
+      "kind": "progression_causality",
+      "problem": "“Ask Mei Dulan to explain the ferry permit comparison.” credited physical conditioning without recovered bodily exercise.",
+      "before": {
+        "text": "Ask Mei Dulan to explain the ferry permit comparison.",
+        "next": "ring_archive_permit_lesson",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Ask Mei Dulan to explain the ferry permit comparison.",
+        "next": "ring_archive_permit_lesson",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-098",
+      "scene": "ring_road_brace_choice",
+      "choice_index": 0,
+      "destination": "ring_road_brace_bank",
+      "kind": "progression_causality",
+      "problem": "“Spread the anchor load with Wei Jin.” credited qi practice although the chosen task does not deliver a measured trace.",
+      "before": {
+        "text": "Spread the anchor load with Wei Jin.",
+        "next": "ring_road_brace_bank",
+        "effects": {
+          "qi": 1
+        }
+      },
+      "after": {
+        "text": "Spread the anchor load with Wei Jin.",
+        "next": "ring_road_brace_bank",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-099",
+      "scene": "ring_road_terms_choice",
+      "choice_index": 1,
+      "destination": "ring_road_terms_silence",
+      "kind": "progression_causality",
+      "problem": "“Mend your sleeve while Wei Jin writes his limits.” credited physical conditioning without recovered bodily exercise.",
+      "before": {
+        "text": "Mend your sleeve while Wei Jin writes his limits.",
+        "next": "ring_road_terms_silence",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Mend your sleeve while Wei Jin writes his limits.",
+        "next": "ring_road_terms_silence",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "repair": "Credit Dao Heart 1 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-100",
+      "scene": "foundry_work_choice",
+      "choice_index": 0,
+      "destination": "foundry_wage_001",
+      "kind": "progression_causality",
+      "problem": "“Take the modest cup-sorting shifts.” credited physical conditioning without recovered bodily exercise.",
+      "before": {
+        "text": "Take the modest cup-sorting shifts.",
+        "next": "foundry_wage_001",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Take the modest cup-sorting shifts.",
+        "next": "foundry_wage_001",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-101",
+      "scene": "foundry_work_choice",
+      "choice_index": 2,
+      "destination": "foundry_rest_001",
+      "kind": "progression_causality",
+      "problem": "the growth reward for “Keep the lighter rota and recovered shoulder practice.” did not identify the capacity practiced by that particular method.",
+      "before": {
+        "text": "Keep the lighter rota and recovered shoulder practice.",
+        "next": "foundry_rest_001",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Keep the lighter rota and recovered shoulder practice.",
+        "next": "foundry_rest_001",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "repair": "Credit Physique 1 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROG-102",
+      "scene": "foundry_creature_choice",
+      "choice_index": 2,
+      "destination": "foundry_access_001",
+      "kind": "progression_causality",
+      "problem": "the growth reward for “Clear the upper access and account for departing workers.” did not identify the capacity practiced by that particular method.",
+      "before": {
+        "text": "Clear the upper access and account for departing workers.",
+        "next": "foundry_access_001",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Clear the upper access and account for departing workers.",
+        "next": "foundry_access_001",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+    },
+    {
+      "id": "PROSE-001",
+      "kind": "prose_continuity",
+      "scene": "ring_marsh_ache",
+      "problem": "The aftermath contradicts the grounded position light and ordinary pole used earlier, attributing reed movement and tissue strain to a pulse.",
+      "before": "My arm feels better when I stop pretending it is fully useful. The pulse moved reeds, and it also left me with an afternoon's weakness. At the court, we kept medical limits beside offered work. I should remember that rule when the offered body is mine. I can carry a notebook and speak at the meeting; I should not carry the box or offer another spell to save a few steps. Cultivation has given me more ways to help, and more ways to overstate what I can safely finish. Today the pilot's stopping word mattered.",
+      "after": "My arm improves when I stop pretending it is fully useful. The pole moved the reeds; the discharged reference wick marked its position. Ordinary leverage strained my elbow. At the court we kept medical limits beside offered work. Those limits apply to my body too. I can carry a notebook to the meeting, but not the box or another pole. Knowing the spent half-unit does not tell us what my tendons can safely carry. Wei Xiu's stopping word prevented another pull.",
+      "repair": "My arm improves when I stop pretending it is fully useful. The pole moved the reeds; the discharged reference wick marked its position. Ordinary leverage strained my elbow. At the court we kept medical limits beside offered work. Those limits apply to my body too. I can carry a notebook to the meeting, but not the box or another pole. Knowing the spent half-unit does not tell us what my tendons can safely carry. Wei Xiu's stopping word prevented another pull."
+    },
+    {
+      "id": "PROSE-002",
+      "kind": "prose_continuity",
+      "scene": "court_weather_setup",
+      "problem": "The station demonstration creates a floating light with no learned delivery path, dose or discharge.",
+      "before": "Lin Yue raised a thin green light above the inner measuring square. Shen could see it from the sheltered post without approaching the exposed spur. The observer timed the response, then repeated the exercise with an ordinary shuttered lantern. The second method was slower and still usable. They recorded both methods rather than preserving only the impressive one. The hired instrument's mount received its present check; no result was copied backward onto the accident date. Before Lin lowered the light, the observer asked her to repeat the ordinary signal. That was the one the station would actually inherit.",
+      "after": "Lin Yue fastened the grounded reference wick above the inner measuring square, with its lead clear of the gauge. She delivered one quarter-unit through the first arm pair and discharged. Shen timed the visible response from shelter. They repeated it with an ordinary shuttered lantern at the same height. The slower method remained usable without a cultivator. The instrument mount received its present check; neither signal reconstructed the accident. The observer kept the wick position on his drawing and the ordinary lantern for the station's later shifts.",
+      "repair": "Lin Yue fastened the grounded reference wick above the inner measuring square, with its lead clear of the gauge. She delivered one quarter-unit through the first arm pair and discharged. Shen timed the visible response from shelter. They repeated it with an ordinary shuttered lantern at the same height. The slower method remained usable without a cultivator. The instrument mount received its present check; neither signal reconstructed the accident. The observer kept the wick position on his drawing and the ordinary lantern for the station's later shifts."
+    },
+    {
+      "id": "PROSE-003",
+      "kind": "prose_continuity",
+      "scene": "court_rain_forecast_lamp",
+      "problem": "The forecast branch omits the grounded wick and stopping allowance established on other lighting branches.",
+      "before": "Lin Yue held a low light beside the gauge scale while Zhong Rui read its ordinary interval. She watched the roof edge as carefully as the etched marks, ensuring that her hand stayed inside the covered line. The light shortened their reading delay but did not increase the gauge's collection or calm the gust. Zhong Rui confirmed the level and entered the method. Luo Shan noted the nearby current observation separately from the older controlled pour. The corrected instrument was now gathering actual local rain, whose direction and rate differed from the deliberate stream used in the test.",
+      "after": "Zhong Rui set the grounded reference wick beside the safe scale. Lin Yue checked its blank, delivered one quarter-unit through her first arm pair and closed admission. The light lasted only the scheduled reading. Her hand and the wick stayed inside the covered line, clear of the water. Zhong confirmed the level before she discharged. Luo recorded the dose, present interval and earlier controlled pour separately. Local rain had filled the gauge; a visitor's light had only made its divisions readable.",
+      "repair": "Zhong Rui set the grounded reference wick beside the safe scale. Lin Yue checked its blank, delivered one quarter-unit through her first arm pair and closed admission. The light lasted only the scheduled reading. Her hand and the wick stayed inside the covered line, clear of the water. Zhong confirmed the level before she discharged. Luo recorded the dose, present interval and earlier controlled pour separately. Local rain had filled the gauge; a visitor's light had only made its divisions readable."
+    },
+    {
+      "id": "PROSE-004",
+      "kind": "prose_continuity",
+      "scene": "city_mask_seam",
+      "problem": "The seam method never states the dose, available route, losses or discharge; its glow can appear to read the actual collar.",
+      "before": "Lin Yue set her palm beside the collar, leaving its clasp open. A small breath of qi ran through the practice strand Qiao had laid beneath it. Light reached the red knot and stopped, then caught again in a finer loop pasted across the gap. The loop had been added to an already closed lattice. She marked both ends on Qiao's drawing while the collar stayed dark. The useful seam was a map of joins; she did not need to wear the portrait to read it.",
+      "after": "Qiao laid an isolated practice strand beneath the offered collar. Lin Yue checked the blank, supplied a quarter-unit through her first arm pair and recorded the smaller delivered trace. The strand lit its own copied joins; no qi entered the mask. A red knot and pasted finer loop appeared on the ordinary comparison drawing. Yue marked their ends, then discharged before Qiao moved the collar. The drawing located an added join. It could not identify the hand that made it or certify the concealed material without another test.",
+      "repair": "Qiao laid an isolated practice strand beneath the offered collar. Lin Yue checked the blank, supplied a quarter-unit through her first arm pair and recorded the smaller delivered trace. The strand lit its own copied joins; no qi entered the mask. A red knot and pasted finer loop appeared on the ordinary comparison drawing. Yue marked their ends, then discharged before Qiao moved the collar. The drawing located an added join. It could not identify the hand that made it or certify the concealed material without another test."
+    },
+    {
+      "id": "PROSE-005",
+      "kind": "prose_continuity",
+      "scene": "ring_archive_private_copy",
+      "problem": "A first-pair novice asserts a qi technique can read brush pressure, despite no such technique being learned.",
+      "before": "There is a rubbed space beside the charter heading. I can see the pressure left by the old brush through the fibers, but I cannot read what was removed. Qi would make the impressions brighter. That sounds useful until I remember that pressure survives beneath the guarded columns too. I will keep my hands off the sheet. If you need a brighter ordinary lamp, I can carry one. If the light reveals something the people covered, tell me before we decide that discovering it was merely an accident of workmanship.",
+      "after": "The charter's heading has a rubbed space. Angled ordinary light shows pressure in the fibers, but I cannot read the missing strokes. Sending qi into this sheet would be an untested experiment on someone else's record. It might damage the paper or reveal a guarded column without permission. I will leave it covered and carry the lamp you approve. The visible indentation belongs in our note as an uncertain observation. It cannot become a recovered sentence just because we badly want one.",
+      "repair": "The charter's heading has a rubbed space. Angled ordinary light shows pressure in the fibers, but I cannot read the missing strokes. Sending qi into this sheet would be an untested experiment on someone else's record. It might damage the paper or reveal a guarded column without permission. I will leave it covered and carry the lamp you approve. The visible indentation belongs in our note as an uncertain observation. It cannot become a recovered sentence just because we badly want one."
+    },
+    {
+      "id": "PROSE-006",
+      "kind": "prose_continuity",
+      "scene": "ring_archive_mortal_pace",
+      "problem": "Shen claims enough personal qi to dry a roof while the scene provides no reserve, apparatus or qualified roof work.",
+      "before": "When you said apprentice, I thought you meant your first sword teacher. You looked different just now. At the mountain we count progress by what becomes unnecessary: a crutch, a hearth, sleep after a long ascent. You turned a spool as though remembering something valuable precisely because it still needed doing. I have been standing here with enough qi to dry a roof and very little idea how to help this table. Show me where to place the support sheet. I can learn a task without making it disappear first.",
+      "after": "When you said apprentice, I thought you meant your first sword teacher. At the mountain we sometimes count progress by the chores a fueled apparatus saves. Here the failed roof still needs a carpenter. I cannot make soaked timber safe by warming its surface, and our travel fuel is not a repair budget. You turned that spool as though a small task mattered on its own. Show me where to place the support sheet. I can help this table without promising a dry building.",
+      "repair": "When you said apprentice, I thought you meant your first sword teacher. At the mountain we sometimes count progress by the chores a fueled apparatus saves. Here the failed roof still needs a carpenter. I cannot make soaked timber safe by warming its surface, and our travel fuel is not a repair budget. You turned that spool as though a small task mattered on its own. Show me where to place the support sheet. I can help this table without promising a dry building."
+    },
+    {
+      "id": "PROSE-007",
+      "kind": "prose_continuity",
+      "scene": "stair_test",
+      "problem": "An empty boat is described as tested under full load, leaving the load test unexplained.",
+      "before": "Before the old ferry approached, Wei Xiu brought an empty boat down the route and turned it under full load. Luo Fen walked the ramp carrying two sacks of sand. Su Lan tested the rail with her whole weight. Lin Yue wanted to lend qi to the joints. The carpenter refused: the platform had to remain safe on a day when no cultivator visited.",
+      "after": "Before the old ferry approached, Wei Xiu tested an ordinary boat with secured sand ballast equal to its rated load and no passengers. She turned it along the surveyed route while two crew members watched from shore. Luo Fen carried two sand sacks over the ramp; the carpenter checked deflection and fasteners separately. Su Lan tested the rail. Lin Yue kept her field closed. Unfueled joints had to carry the design load after every visitor left. A successful turn did not replace the carpenter's signed structural check.",
+      "repair": "Before the old ferry approached, Wei Xiu tested an ordinary boat with secured sand ballast equal to its rated load and no passengers. She turned it along the surveyed route while two crew members watched from shore. Luo Fen carried two sand sacks over the ramp; the carpenter checked deflection and fasteners separately. Su Lan tested the rail. Lin Yue kept her field closed. Unfueled joints had to carry the design load after every visitor left. A successful turn did not replace the carpenter's signed structural check."
+    },
+    {
+      "id": "PROSE-008",
+      "kind": "prose_continuity",
+      "scene": "orchard_breath_trial",
+      "problem": "The timing pulse lacks a dose; a dizzy participant can be counted as completing the intervention despite stopping.",
+      "before": "Three patients agreed to a paced-breathing trial beside their ordinary care. Lin Yue set a grounded copper reference wick on the table, supplied one small timing pulse, and discharged. No qi entered a patient or the treatment contact. The matron led an easy ordinary rhythm. One person found the ache easier to bear for a quarter hour; another became dizzy and stopped; the aunt felt no change. Yun recorded all three results. The visible cue supplied timing, never spiritual healing or a guaranteed remedy.",
+      "after": "Three patients offered one short paced-breathing trial beside ordinary care. Lin Yue gave the grounded wick a quarter-unit timing pulse through the first arm pair and discharged. The matron led an easy rhythm without qi entering a patient. One person found the ache easier for a quarter hour. Another grew dizzy and stopped; the matron sat with them and recorded an interrupted trial. The aunt felt no change. Yun kept all three outcomes, the stopping time and the wick allowance. The cue established timing, not treatment or restored tissue.",
+      "repair": "Three patients offered one short paced-breathing trial beside ordinary care. Lin Yue gave the grounded wick a quarter-unit timing pulse through the first arm pair and discharged. The matron led an easy rhythm without qi entering a patient. One person found the ache easier for a quarter hour. Another grew dizzy and stopped; the matron sat with them and recorded an interrupted trial. The aunt felt no change. Yun kept all three outcomes, the stopping time and the wick allowance. The cue established timing, not treatment or restored tissue."
+    },
+    {
+      "id": "PROSE-009",
+      "kind": "prose_continuity",
+      "scene": "ring_qi_temptation",
+      "problem": "Pendant warmth may imply that private echoes can be retrieved through an unearned technique, undermining the stated copy mechanics.",
+      "before": "Lin Yue rested her hands on the dry board beside the sheltered berth. Across the narrow gap, the Eel still held the covered ring. A faint vibration traveled through the water and wood; the pendant answered with a warmth she knew too well. For an instant she imagined one thread of qi recovering the whole departure: its water, its voice, a man's first winter. She put both hands behind her back. The warmth faded into the ordinary afternoon. She did not need to prove her strength against a closed thing. Wei Jin had already spoken clearly enough.",
+      "after": "Lin Yue rested her hands on the dry board beside the covered ring. A vibration traveled through wood and water. The pendant warmed, but its known memory was her mother's offered afternoon, not Wei Jin's winter. She imagined a thread of qi supplying the missing departure and recognized the wish before acting. No learned technique could produce that account, and no listening had been offered. She put her hands behind her back. The warmth faded. Wei Jin's ordinary words were already enough for tonight's arrangement.",
+      "repair": "Lin Yue rested her hands on the dry board beside the covered ring. A vibration traveled through wood and water. The pendant warmed, but its known memory was her mother's offered afternoon, not Wei Jin's winter. She imagined a thread of qi supplying the missing departure and recognized the wish before acting. No learned technique could produce that account, and no listening had been offered. She put her hands behind her back. The warmth faded. Wei Jin's ordinary words were already enough for tonight's arrangement."
+    },
+    {
+      "id": "PROSE-010",
+      "kind": "prose_continuity",
+      "scene": "court_weather_offer",
+      "problem": "The offer suggests unsupported projected light is an available novice skill.",
+      "before": "A station may help the next bulletin if it uses an agreed safe place and paid observers. It will not show the bench the past hidden inside today's rain. The proposed observer shifts must be separate from the lift keeper's ordinary safety duty, and no one may assume my attendance payment buys further work. I can discuss the copied log under its terms. Another observation requires another offer. Lin Yue's light could demonstrate a signal between sheltered posts. The later shifts must remain workable when she leaves, without a request that the sky obey the station's budget.",
+      "after": "A station can improve a future bulletin from a safe place with paid observers. It cannot reveal the past inside today's rain. Extra shifts remain separate from the lift keeper's ordinary duty and from my offered account. Lin Yue can demonstrate a grounded reference wick within her measured allowance. We must repeat the signal with a shuttered lantern before adopting it. Later observers inherit that ordinary method, not her continued attendance. Name the stopping conditions and missing views beside the price.",
+      "repair": "A station can improve a future bulletin from a safe place with paid observers. It cannot reveal the past inside today's rain. Extra shifts remain separate from the lift keeper's ordinary duty and from my offered account. Lin Yue can demonstrate a grounded reference wick within her measured allowance. We must repeat the signal with a shuttered lantern before adopting it. Later observers inherit that ordinary method, not her continued attendance. Name the stopping conditions and missing views beside the price."
+    },
+    {
+      "id": "PROSE-011",
+      "kind": "prose_continuity",
+      "scene": "ring_marsh_practice_choice",
+      "problem": "The choice mentions a meridian surge without limiting it to the only earned pair and can imply leg circulation for balance.",
+      "before": "The hull gave a small creak as Wei Xiu stepped aboard, and the benches lifted under my hands. At the court I had learned how a sheltered object could still need dry handling; a cabinet's floor did not rock beneath it. Here a useful breath would have to travel with a moving floor. I could begin by quieting the surge through my meridians, or by learning where my weight belonged without drawing qi. Both would teach me something the first proud sweep of a sword could easily conceal.",
+      "after": "The benches lifted as Wei Xiu stepped aboard. A cabinet's sheltered floor had never rocked like this. I could rehearse closure through my established first arm pair, using its grounded practice lead, or learn the deck's motion with ordinary shifts of weight. Neither would send qi through my unopened leg routes. The pilot wanted a clean stop, not a proud sword sweep. I checked the latch and put the sword away before choosing what to practice.",
+      "repair": "The benches lifted as Wei Xiu stepped aboard. A cabinet's sheltered floor had never rocked like this. I could rehearse closure through my established first arm pair, using its grounded practice lead, or learn the deck's motion with ordinary shifts of weight. Neither would send qi through my unopened leg routes. The pilot wanted a clean stop, not a proud sword sweep. I checked the latch and put the sword away before choosing what to practice."
+    },
+    {
+      "id": "PROSE-012",
+      "kind": "prose_continuity",
+      "scene": "court_rain_observation_options",
+      "problem": "The common observation offer does not define the finite light apparatus inherited by each branch.",
+      "before": "The ordinary gauge is working after its level check, Shen Qing said. We can compare its current collection with the offered local reports, but there will still be a delay in learning what happens upstream. We could improve the safe reading screen with a small qi lamp, or ask the willing station keeper to confirm the next ordinary interval from his protected post. We can also wait for the usual gauge interval and send only the bounded result. Whatever we choose, a clearer local reading must remain local when it enters the forecast.",
+      "after": "The leveled gauge now works, Shen Qing said. Its present collection can be compared with offered local accounts; upstream news still takes time. One measured discharge into Yue's grounded reference wick can light a safe reading. The keeper can also confirm his scheduled interval, if he agrees, or we can wait and report the delay. None alters rainfall. Keep the wick away from the bottle and preserve its starting allowance. A clearer local mark remains local when the forecaster copies it.",
+      "repair": "The leveled gauge now works, Shen Qing said. Its present collection can be compared with offered local accounts; upstream news still takes time. One measured discharge into Yue's grounded reference wick can light a safe reading. The keeper can also confirm his scheduled interval, if he agrees, or we can wait and report the delay. None alters rainfall. Keep the wick away from the bottle and preserve its starting allowance. A clearer local mark remains local when the forecaster copies it."
+    },
+    {
+      "id": "PROSE-013",
+      "kind": "prose_continuity",
+      "scene": "ring_road_brace_bank",
+      "problem": "Anchor distribution formerly earned qi even though the rig bears the load; the physical operation needs explicit ordinary handling.",
+      "before": "Lin Yue kneels beside Wei Jin at the inland posts. His hands are broad and work-darkened; hers have calluses placed by another trade. Together they lay a padded sling round each post and join the ropes where neither knot will drag across stone. He asks her to tighten the second loop while he watches the first. When both take weight evenly, they ease them again. Across the cut, Su Lan finishes marking the crown's possible swing. The work leaves a quiet certainty in Lin Yue's chest: she knows what their anchor can actually hold.",
+      "after": "Wei Jin showed Lin Yue the two inland posts and their padded guides. She carried slack line to the second guide on firm ground while he retained control. Neither person became a body anchor. She checked the angle against Su Lan's mark and reported a chafing edge before any load transfer. Jin adjusted the ordinary padding, then returned the rope to its rated path. Yue's field stayed closed. The preparation improved their rig and her understanding of it; it taught no new qi technique.",
+      "repair": "Wei Jin showed Lin Yue the two inland posts and their padded guides. She carried slack line to the second guide on firm ground while he retained control. Neither person became a body anchor. She checked the angle against Su Lan's mark and reported a chafing edge before any load transfer. Jin adjusted the ordinary padding, then returned the rope to its rated path. Yue's field stayed closed. The preparation improved their rig and her understanding of it; it taught no new qi technique."
+    }
+  ]
+}
