@@ -299,7 +299,7 @@ func _test_city_continuations() -> void:
 	_remove_checkpoint("user://city_checkpoint.json")
 
 func _test_city_settlements() -> void:
-	var gates := ["qi", "insight", "trust"]
+	var gates := ["insight", "insight"]
 	var destinations := ["city_credit_bridge", "city_separate_ledgers", "city_license_pool", "city_batch_audit"]
 	var ending_nodes := ["ending_city_credit", "ending_city_ledgers", "ending_city_pool", "ending_city_audit"]
 	for index in range(4):
@@ -313,7 +313,7 @@ func _test_city_settlements() -> void:
 			check(traveler.current == "city_final_choice" and traveler.stats == before_stats and traveler.history == before_history, "A blocked city settlement must preserve stats, prose and location")
 			traveler.stats[gates[index]] = 3
 		else:
-			for locked in range(3):
+			for locked in range(2):
 				check(not traveler.can_choose(traveler.node().choices[locked]), "Specialized city settlements must be locked at zero attributes")
 		check(traveler.choose(index) and traveler.current == destinations[index], "Every city settlement must be playable at its own threshold, including the untrained audit")
 		var steps := 0
@@ -388,7 +388,7 @@ func _test_court_continuations() -> void:
 func _test_court_routes_and_remedies() -> void:
 	var campaign: Dictionary = State.new().story
 	var entries := ["court_witness_entry", "court_rain_entry", "court_cost_entry", "court_docket_entry"]
-	var gains := ["trust", "qi", "resolve", "insight"]
+	var gains := ["insight", "insight", "insight", "insight"]
 	for index in range(entries.size()):
 		var traveler = State.new(campaign)
 		traveler.current = "court_investigation_choice"
@@ -428,20 +428,20 @@ func _test_court_routes_and_remedies() -> void:
 			check(visited.has(required), "Selected inquiries must still receive all bounded findings and unconditional protections: " + required)
 		check(traveler.can_choose(traveler.node().choices[3]), "The dated remand must remain available after every investigation")
 
-	var gates := ["qi", "trust", "insight"]
+	var gates := {0: "qi", 2: "insight"}
 	var destinations := ["court_weather_proposal", "court_local_proposal", "court_staged_proposal", "court_remand_proposal"]
 	var endings := ["ending_court_weather", "ending_court_local", "ending_court_staged", "ending_court_remand"]
 	var expected_after := [
 		{"qi": 5, "trust": 0, "insight": 1, "resolve": 0},
-		{"qi": 0, "trust": 5, "insight": 0, "resolve": 1},
-		{"qi": 0, "trust": 1, "insight": 5, "resolve": 0},
-		{"qi": 0, "trust": 0, "insight": 0, "resolve": 2}
+		{"qi": 0, "trust": 0, "insight": 2, "resolve": 0},
+		{"qi": 0, "trust": 0, "insight": 6, "resolve": 0},
+		{"qi": 0, "trust": 2, "insight": 0, "resolve": 0}
 	]
 	for index in range(destinations.size()):
 		var traveler = State.new(campaign)
 		traveler.current = "court_final_choice"
 		check(traveler.node().choices.size() == 4, "The finite court fund must offer four bounded remedy plans")
-		if index < gates.size():
+		if gates.has(index):
 			traveler.stats[gates[index]] = 3
 			var before_stats: Dictionary = traveler.stats.duplicate()
 			var before_history: Array = traveler.history.duplicate(true)
@@ -449,7 +449,7 @@ func _test_court_routes_and_remedies() -> void:
 			check(traveler.current == "court_final_choice" and traveler.stats == before_stats and traveler.history == before_history, "A rejected court remedy must preserve the journey atomically")
 			traveler.stats[gates[index]] = 4
 		else:
-			for locked in range(gates.size()):
+			for locked in gates:
 				check(not traveler.can_choose(traveler.node().choices[locked]), "Specialized court remedies must stay locked at zero attributes")
 		check(traveler.choose(index) and traveler.current == destinations[index], "Each court remedy must open at its stated threshold, including the ungated remand")
 		check(traveler.stats == expected_after[index], "Court remedy gains must match their explicit playable design")
@@ -582,7 +582,7 @@ func _test_ring_campaign() -> void:
 	_remove_checkpoint(checkpoint)
 
 	var entries := ["ring_marsh_entry", "ring_archive_entry", "ring_road_entry"]
-	var gains := ["qi", "insight", "trust"]
+	var gains := ["insight", "insight", "resolve"]
 	for index in range(entries.size()):
 		var traveler = State.new(campaign)
 		traveler.current = "ring_investigation_choice"
