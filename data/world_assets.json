@@ -459,6 +459,16 @@
       "description": "A sheltered room offers a kettle, spare blankets, private writing tables, and room to rest between testimony and ordinary care.",
       "environment": "interior",
       "collection": "building_interiors"
+    },
+    {
+      "id": "lower_training_terrace",
+      "name": "The Lower Training Terrace",
+      "path": "assets/art/world/lower_training_terrace.png",
+      "native_size": [
+        1672,
+        941
+      ],
+      "description": "Rain-dark work sheds and ordinary training tools lie below a floating sect. Lin Yue earns meals here while learning to hold his first qi trace."
     }
   ],
   "npcs": [
@@ -721,6 +731,26 @@
         ],
         "record": "assets/art/PROVENANCE.md"
       }
+    },
+    {
+      "id": "han_mei",
+      "name": "Han Mei",
+      "path": "assets/art/world/han_mei.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "A senior ash-room technician at Body Tempering's Bone stage. An old shoulder injury changed her training, while her skilled work continues to keep novices safe.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/han_mei.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/CULTIVATION_PROVENANCE.md"
+      }
     }
   ],
   "monsters": [
@@ -843,6 +873,26 @@
         ],
         "record": "assets/art/PROVENANCE.md"
       }
+    },
+    {
+      "id": "furnace_mite",
+      "name": "The Furnace Mite",
+      "path": "assets/art/world/furnace_mite.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "A defensive kiln spirit with terracotta plates and hot grit. Its danger has a specific source; a novice survives by using rated tools and leaving it a route to the furnace grate.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/furnace_mite.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/CULTIVATION_PROVENANCE.md"
+      }
     }
   ],
   "items": [
@@ -865,9 +915,32 @@
         1024
       ],
       "description": "A returned echo can remain sealed. The case preserves a volunteered copy of a memory, not a missing piece of the owner's mind. Receiving it grants nobody else permission to listen."
+    },
+    {
+      "id": "copper_practice_wick",
+      "name": "Copper Practice Wick",
+      "path": "assets/art/world/copper_practice_wick.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "Three copper chambers calibrate the qi retained through a calm exhalation. The grounded release tail makes a failed attempt safer. Its faint light measures a trace, not a cultivation realm; inspection grants no new ability."
     }
   ],
   "requested_additional": {
     "building_interiors": 100
-  }
+  },
+  "effects": [
+    {
+      "id": "first_qi_trace",
+      "name": "First Qi Trace",
+      "path": "assets/art/effects/first_qi_trace.png",
+      "native_size": [
+        1536,
+        1024
+      ],
+      "description": "An open faint filament for first-stage admission and clean release. It pauses with panels and disappears with reduced motion.",
+      "record": "assets/art/CULTIVATION_PROVENANCE.md"
+    }
+  ]
 }
