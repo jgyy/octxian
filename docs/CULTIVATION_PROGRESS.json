@@ -221,6 +221,69 @@
       "bytes": 2037993,
       "pngColorType": 6,
       "commit": "fffa8f3f812faade1a820f9743dac8791218669b"
+    },
+    {
+      "path": "assets/art/world/thunderfen_ridge.png",
+      "mime": "image/png",
+      "size": [
+        1672,
+        941
+      ],
+      "git_blob": "27bcfb64485e164928f39b6b62d4e8e6e685f2b1"
+    },
+    {
+      "path": "assets/art/world/thunderfen_night.png",
+      "mime": "image/png",
+      "size": [
+        1672,
+        941
+      ],
+      "git_blob": "0fb7fdaa21524db5651d2deb0e363d4fab0418fe"
+    },
+    {
+      "path": "assets/art/world/jiang_tao.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "git_blob": "d7913b4bfb024ff38157340973254492644d4b2b"
+    },
+    {
+      "path": "assets/art/world/copperback_tortoise.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "git_blob": "eadc889dc259025f0dd61dc3d9284ad89c2e2b81"
+    },
+    {
+      "path": "assets/art/world/cloudhound.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "git_blob": "49633efb143eecc83f2f3e9a887cf06a87e770dd"
+    },
+    {
+      "path": "assets/art/world/storm_compass.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "git_blob": "923d281fc916e1372ffed8c6b653f174e29eee42"
+    },
+    {
+      "path": "assets/art/effects/storm_discharge.png",
+      "mime": "image/png",
+      "size": [
+        1536,
+        1024
+      ],
+      "git_blob": "37522d85cad672e3bf8e5ff655946b34094763de"
     }
   ],
   "complete": false,
@@ -1011,13 +1074,21 @@
   "foundry_scenes": 299,
   "foundry_words": 22177,
   "current_expansion": {
-    "name": "Ash Bridge Foundry",
-    "new_scenes": 299,
-    "new_words": 22177,
+    "name": "Thunderfen Ridge",
+    "new_scenes": 94,
+    "new_words": 5921,
     "complete": true,
     "highest_earned_stage": "4: Second pair",
-    "report": "docs/FOUNDRY_EXPANSION.md"
+    "report": "docs/THUNDERFEN_EXPANSION.md"
   },
   "thunderfen_scenes": 94,
-  "thunderfen_words": 5921
+  "thunderfen_words": 5921,
+  "current_review": {
+    "kind": "continuity_and_progression",
+    "anchored_corrections": 115,
+    "choice_causality_corrections": 102,
+    "rewritten_existing_scenes": 13,
+    "existing_displayed_word_change": -88,
+    "report": "docs/CONTINUITY_REPAIRS_20261003.md"
+  }
 }
