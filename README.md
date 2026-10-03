@@ -30,13 +30,13 @@ If your Godot executable is named `godot4`, replace `godot` with `godot4` in bot
 - **S:** save. **L:** open the dialogue journal. **C:** open attributes. **Esc:** close a panel or open settings.
 - The interface provides save/load, auto reading, fast text, an animated wardrobe gallery, audio levels, and reduced motion.
 
-The playable script contains **1,905 scenes and 160,095 authored words** across eight books, with cultivation stats and gated choices. Book I has three endings; each continues into Book II, which has three investigations and four settlements. Every settlement continues into Book III, with three river routes, six settlement approaches, and three endings. Each continues into Book IV's orchard, with three investigations and four settlements. Every orchard outcome continues into Book V, with three city investigations and four resolutions. Each city resolution continues into Book VI, with four investigations, local branch choices and four bounded court remedies. Every court outcome continues into Book VII's three river investigations and three owner-approved arrangements. All three continue into Book VIII, where an eighty-day foundry apprenticeship earns the second meridian pair through three independent recovered examinations.
+The playable script contains **1,999 scenes and 165,928 authored words** across nine books, with cultivation stats and gated choices. Book I has three endings; each continues into Book II, which has three investigations and four settlements. Every settlement continues into Book III, with three river routes, six settlement approaches, and three endings. Each continues into Book IV's orchard, with three investigations and four settlements. Every orchard outcome continues into Book V, with three city investigations and four resolutions. Each city resolution continues into Book VI, with four investigations, local branch choices and four bounded court remedies. Every court outcome continues into Book VII's three river investigations and three owner-approved arrangements. All three continue into Book VIII, where an eighty-day foundry apprenticeship earns the second meridian pair through three independent recovered examinations.
 
-This draft expansion currently adds **eleven original-scope backgrounds, 33 extra building-interior backgrounds, eighteen human NPC sprites, nine spirit-beast sprites, five inspectable item paintings, and three cultivation effects** at their native generated sizes. The original 100-background quota, 500 human NPCs, 501 spirit beasts and more than one million words remain unfinished. The separate extra 100-interior quota has 33 delivered paintings. Run `python tools/validate_world.py --require-complete` to check all quotas. CI writes exact delivery counts to `build/content_report.json`.
+This draft expansion currently adds **twelve original-scope backgrounds, 34 extra building-interior backgrounds, nineteen human NPC sprites, eleven spirit-beast sprites, six inspectable item paintings, and four effects** at their native generated sizes. The original 100-background quota, 500 human NPCs, 501 spirit beasts and more than one million words remain unfinished. The separate extra 100-interior quota has 34 delivered paintings. Run `python tools/validate_world.py --require-complete` to check all quotas. CI writes exact delivery counts to `build/content_report.json`.
 
 ## Cultivation rewrite (draft)
 
-The cultivation rewrite currently delivers **41,982 words across 599 scenes**. The mortal opening contains 77 training scenes and 36 recast Book I scenes; the sluice apprenticeship contains 131 scenes. The whole campaign contains **160,095 displayed words**; 118,113 inherited words still await recast.
+The cultivation rewrite currently delivers **48,905 words across 705 scenes**. The mortal opening contains 77 training scenes and 36 recast Book I scenes; the sluice apprenticeship contains 131 scenes. The whole campaign contains **165,928 displayed words**; 117,023 inherited words still await recast.
 
 The latest [plot-hole review](docs/PLOT_HOLE_REVIEW.md) repairs 45 scenes, including four new mandatory scenes. Common routes now establish the star's terms, the harbor's funded renewal and the missing link in Wei Jin's custody records. Later powers respect the earned first arm pair, finite artifact fuel and ordinary load-bearing tools.
 
@@ -46,7 +46,7 @@ The [cultivation canon](docs/CULTIVATION_SYSTEM.md) defines twelve gates, anatom
 
 Nineteen native cultivation masters are bundled. The latest continuation adds **three 1536×1024 environments**, **three 1024×1536 human portraits**, a **1024×1536 voidglass centipede**, a **1024×1536 phase comb**, and a **1536×1024 interrupted second-pair effect**. [Provenance](assets/art/CULTIVATION_PROVENANCE.md) records their native dimensions; no enlargement is credited.
 
-The fourteen-volume architecture budgets 1,050,000 original words. The [production ledger](docs/CULTIVATION_REWRITE.md) and [verified scene accounting](docs/CULTIVATION_PROGRESS.json) distinguish delivered rewrite, inherited prose and the **958,019 rewrite words still needed**. The PR remains a draft.
+The fourteen-volume architecture budgets 1,050,000 original words. The [production ledger](docs/CULTIVATION_REWRITE.md) and [verified scene accounting](docs/CULTIVATION_PROGRESS.json) distinguish delivered rewrite, inherited prose and the **951,096 rewrite words still needed**. The PR remains a draft.
 
 ![Mortal recruitment and zero qi](docs/screenshots/mortal_arrival.jpg)
 
@@ -64,7 +64,9 @@ The fourteen-volume architecture budgets 1,050,000 original words. The [producti
 
 ## Character attributes
 
-Open **Attributes** in the top navigation, or press **C**, to inspect Lin Yue's **Qi, Trust, Insight, and Resolve**. Each attribute has a description, a growth hint, a rank, and progress toward its next rank. Choices show their point changes before selection, and locked choices show your current and required points. A short confirmation shows the gains after you choose.
+Open **Attributes** in the top navigation, or press **C**, to inspect Lin Yue's **Qi Control, Dao Heart, Comprehension, and Physique**. Each attribute has a description, a growth hint, a rank, and progress toward its next rank. Choices show their point changes before selection, and locked choices show your current and required points. A short confirmation shows the gains after you choose.
+
+Qi Control measures bounded admission, circulation and closure. Dao Heart measures choices that honor commitments and resist shortcuts. Comprehension measures understanding of techniques, formations and evidence. Physique measures recovered bodily conditioning. Scores never create qi fuel, authorize another person's consent, or award a realm. [Attribute definitions and save compatibility](docs/ATTRIBUTES.md).
 
 Ranks advance at **3, 6, and 10 points**. The highest rank does not cap your points. Story requirements use exact point totals, and attributes persist across books and in existing saves. Beginning a new journey resets all four to zero.
 
@@ -116,7 +118,7 @@ Ren Qiao and the Frostroot Hart have new independent native **1024×1536** portr
 
 ![The Frostroot Hart](docs/screenshots/orchard_spirit.jpg)
 
-The full production target is **more than one million displayed prose words and 1,001 unique world sprites: 500 humans and 501 spirit beasts**, alongside the existing background quotas. Current delivery is **160,095 words and 27 original world sprites**. This expansion remains unfinished.
+The full production target is **more than one million displayed prose words and 1,001 unique world sprites: 500 humans and 501 spirit beasts**, alongside the existing background quotas. Current delivery is **165,928 words and 30 original world sprites**. This expansion remains unfinished.
 
 ## Book V: The city of borrowed faces
 
@@ -155,7 +157,7 @@ Book VI adds **784 scenes and 75,090 displayed prose words**, four independent h
 
 Return to the river three days after the court review. Follow the reed-channel maintenance record, volunteered archive extracts, or Wei Jin's damaged former ferry approach. Each team brings independent evidence to a common comparison. The third ring stays sealed while its living owner is identified through offered records.
 
-Wei Jin separately accepts a closed return, three paid custody watches with review, or no return today under existing protection. The choice arranges tonight's work; it grants no listening permission. The original Book VII expansion added **257 scenes and 24,177 displayed words**. The later continuity review adds the mandatory ownership-context scene and recasts the marsh, archive and road power passages. Current campaign delivery is **160,095 words**; **839,906 displayed words remain** toward the strict million-word target.
+Wei Jin separately accepts a closed return, three paid custody watches with review, or no return today under existing protection. The choice arranges tonight's work; it grants no listening permission. The original Book VII expansion added **257 scenes and 24,177 displayed words**. The later continuity review adds the mandatory ownership-context scene and recasts the marsh, archive and road power passages. Current campaign delivery is **165,928 words**; **834,073 displayed words remain** toward the strict million-word target.
 
 Failed save replacement preserves a verified prior checkpoint; a missing primary can recover that backup. Scene transitions resume effects after dismissing a popup. Narration generation retains completed clips after a failed batch, and the Godot loader rejects duplicate JSON keys.
 
@@ -175,6 +177,22 @@ Three independent trials on Days Seventy, Seventy-four and Seventy-nine, each fo
 ![Earned second meridian pair](docs/screenshots/second_pair.jpg)
 
 ![Return to the kiln household](docs/screenshots/foundry_home.jpg)
+
+## Book IX: The ridge beneath the thunder
+
+Six weeks after each foundry outcome, Lin Yue joins Jiang Tao's paid seven-day Thunderfen survey at the already earned fourth stage. Investigate a scaled replica, conductive glaze fines, or the ordinary ground route. Independent teams share their findings before a recovered control check and the commission's closure. The Copperback Tortoise and Cloudhound are separate original creature designs.
+
+This continuation adds **94 scenes and 5,921 words**. New-journey randomness selects rain, mist or wind, then a cloudhound encounter, rockfall or external surge. A saved seed and resolved event records preserve outcomes across saves and revisits. Chance changes conditions without awarding cultivation or permission. [Arc and branch diagram](docs/THUNDERFEN_EXPANSION.md).
+
+This batch also makes [115 audited existing-content corrections](docs/CONTINUITY_REPAIRS_20261003.md): **102 choice-causality issues and 13 prose continuity passages**. The audit preserves exact before/after anchors and does not count new scenes or renamed labels as repairs.
+
+![Jiang Tao at Thunderfen](docs/screenshots/ridge_surveyor.jpg)
+
+![Copperback Tortoise](docs/screenshots/ridge_tortoise.jpg)
+
+![External storm discharge](docs/screenshots/ridge_discharge.jpg)
+
+![Storm compass inspection](docs/screenshots/object_storm_compass.jpg)
 
 ## Clothing options
 
@@ -204,21 +222,21 @@ The following recording samples the running Godot viewport, with background moti
 
 ![In-game character animation](docs/animations/rendered_game.webp)
 
-The twelve resting portraits come from the original GPT artwork. Body bobbing preserves each complete drawing. The four story motion labels select a gentle 6–10 pixel bob, and reduced motion leaves the portraits still.
+All legacy cast and pose sheets and their small derived portraits were removed. Twelve new independently generated **1024×1536 RGBA** originals now cover the first four characters and their three outfits. The builder copies each master byte for byte to its runtime portrait; body bobbing preserves the complete drawing. The four story motion labels select a gentle 6–10 pixel bob, and reduced motion leaves the portraits still.
 
 ## Generated art and audio
 
 | Asset | Delivered |
 |---|---|
-| GPT Images artwork | 24 gesture key poses, twelve outfit reference portraits, one mountain-sect environment |
-| New world paintings | 8 original backgrounds + 32 extra interiors, 14 human NPCs, 7 spirit beasts, 3 items, 1 qi effect |
+| Core GPT Images artwork | Twelve independent native 1024×1536 portraits; one retained mountain-sect environment |
+| World paintings | 12 original backgrounds + 34 extra interiors, 19 human NPCs, 11 spirit beasts, 6 items, 4 effects |
 | Character portraits | **12 intact portraits**: 4 characters × 3 outfits |
 | Animation playback | Sprite2D whole-body bobbing on a four-second loop |
 | Music | Original 48-second pentatonic plucked-string composition |
 | Sound effects | Page, bell, qi channeling, and sword |
-| AI voices | Piper neural narration for all 1,471 scenes; one Lessac narrator timbre with character pacing |
+| AI voices | Piper neural narration for all 1,999 scenes; one Lessac narrator timbre with character pacing |
 
-Portraits are extracted from GPT artwork and bobbed by Godot at runtime. The game has no lip sync. See [art provenance](assets/art/PROVENANCE.md) and the generated voice model card for sources and licensing.
+Native portraits retain their original bytes and are bobbed by Godot at runtime. [Core provenance](assets/art/CORE_PROVENANCE.md) and [Thunderfen provenance](assets/art/THUNDERFEN_PROVENANCE.md) record delivered dimensions and original blobs. The game has no lip sync. See [art provenance](assets/art/PROVENANCE.md) and the generated voice model card for sources and licensing.
 
 ## Rebuild assets
 
@@ -238,16 +256,17 @@ Voice generation downloads the public Piper Lessac neural model on its first run
 
 World art and descriptions live in `data/world_assets.json`. `tools/validate_world.py` checks references, native dimensions, transparency, reachability, and honest manuscript accounting.
 
-To add appearances or adjust bobbing, update `data/wardrobe.json` and the GPT pose sheets. The campaign index lives in `data/story.json`; new authored books live in `data/books/` and are merged through its `books` manifest. See [story authoring](docs/STORY_AUTHORING.md) for ID, word-accounting and narration rules. See [development instructions](docs/DEVELOPMENT.md).
+To add appearances or adjust bobbing, update `data/wardrobe.json` and the independent native portrait masters. The campaign index lives in `data/story.json`; new authored books live in `data/books/` and are merged through its `books` manifest. See [story authoring](docs/STORY_AUTHORING.md) for ID, word-accounting and narration rules. See [development instructions](docs/DEVELOPMENT.md).
 
 ## Architecture
 
 ```mermaid
 flowchart TD
-    GPT["GPT Images · resting portraits"] --> Prep["Python portrait extraction"]
+    GPT["GPT Images · native portrait masters"] --> Prep["Byte-preserving portrait preparation"]
     Prep --> Portraits["12 intact outfit portraits"]
     Portraits --> Cast["Sprite2D cast · whole-body bob"]
-    JSON["Story manifest and books · 1,471 scenes"] --> State["Story state · choices · stats"]
+    JSON["Story manifest and books · 1,999 scenes"] --> State["Story state · choices · cultivation capacities"]
+    Seed["Journey seed + saved encounter records"] --> State
     Canon["Continuity ledger · required evidence checkpoints"] --> Verify
     Effects["Scene effects · reduced motion"] --> UI
     State --> UI["Godot interface · journal · saves"]
@@ -258,14 +277,14 @@ flowchart TD
     Synth["Original music and SFX synthesis"] --> Audio["Music / SFX / Voice buses"]
     Piper --> Audio
     Audio --> UI
-    CI["GitHub Actions"] --> Verify["Gesture checks · routes · saves · UI"]
+    CI["GitHub Actions"] --> Verify["Native art · routes · saves · UI"]
     Verify --> Capture["Screenshots · bob previews · timed game GIF"]
     Verify --> Build["Standalone Linux build and playback check"]
 ```
 
 ## Validation
 
-CI checks intact portrait extraction, preserved proportions, source/code hashes, audio integrity, and narration coverage.
+CI checks native portrait byte preservation, transparency, source/code hashes, audio integrity, and narration coverage.
 
 Godot exercises all 48 outfit/motion combinations, checking that the complete portrait bobs smoothly and rests when reduced motion is enabled. Tests also cover every story route and ending, atomic rejection of invalid choices, long-campaign saves above 100, damaged settings recovery, world art rendering, save corruption handling, wardrobe persistence, UI navigation, and settings. Xvfb captures screenshots and timed character playback. CI exports and launches a Linux package from a folder without the source checkout and checks clean shutdown.
 
