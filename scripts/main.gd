@@ -1,6 +1,7 @@
 extends Control
 
 const StoryState = preload("res://scripts/story_state.gd")
+const Attributes = preload("res://scripts/attributes.gd")
 const Character = preload("res://scripts/animated_character.gd")
 const Wardrobe = preload("res://scripts/wardrobe.gd")
 const AudioDirector = preload("res://scripts/audio_director.gd")
@@ -156,6 +157,9 @@ func _line(point: Vector2, width: float, color: Color = GOLD, parent: Node = nul
 func _header() -> void:
 	_label("◈  JADE VOW", Vector2(72, 35), 22, GOLD)
 	_label("AN ORIGINAL XIANXIA TALE", Vector2(75, 70), 10, JADE)
+	var attributes_button := _button("Attributes", Vector2(685, 36), 165, _attributes)
+	attributes_button.name = "AttributesButton"
+	attributes_button.tooltip_text = "Lin Yue's attributes · C"
 	_button("World", Vector2(870, 36), 160, _world)
 	_button("Wardrobe", Vector2(1050, 36), 135, _cast)
 	_button("Journal", Vector2(1200, 36), 130, _journal)
@@ -216,7 +220,8 @@ func _scene() -> void:
 	_label(str(chapter.get("title", "The star beneath the mountain")), Vector2(77, 174), 27, PALE)
 	var background_path := str(background_paths.get(node.get("background", ""), "res://assets/art/azure_cloud.png"))
 	background.texture = load(background_path)
-	_label("QI %02d    TRUST %02d    INSIGHT %02d    RESOLVE %02d" % [state.stats.qi, state.stats.trust, state.stats.insight, state.stats.resolve], Vector2(78, 222), 14, JADE)
+	var totals := _label("QI %02d    TRUST %02d    INSIGHT %02d    RESOLVE %02d" % [state.stats.qi, state.stats.trust, state.stats.insight, state.stats.resolve], Vector2(78, 222), 14, JADE)
+	totals.name = "AttributeTotals"
 	if node.has("ending"):
 		_label("ENDING DISCOVERED", Vector2(80, 315), 13, GOLD)
 		var ending_label := _label(str(node.ending), Vector2(78, 343), 36)
@@ -250,26 +255,48 @@ func _scene() -> void:
 	text_clock = 0.0
 	auto_clock = 0.0
 	choice_box = VBoxContainer.new()
-	choice_box.position = Vector2(78, 290)
-	choice_box.size = Vector2(850, 265)
-	choice_box.add_theme_constant_override("separation", 9)
+	choice_box.position = Vector2(78, 268)
+	choice_box.size = Vector2(850, 288)
+	choice_box.add_theme_constant_override("separation", 6)
 	ui.add_child(choice_box)
 	choice_box.visible = false
 	var choices: Array = node.get("choices", [])
 	for i in range(choices.size()):
 		var choice: Dictionary = choices[i]
+		var details: Dictionary = state.choice_details(choice)
+		var card := VBoxContainer.new()
+		card.add_theme_constant_override("separation", 3)
+		choice_box.add_child(card)
 		var button := Button.new()
+		button.name = "Choice_" + str(i)
 		button.text = "%d  %s" % [i + 1, choice.text]
 		button.alignment = HORIZONTAL_ALIGNMENT_LEFT
-		button.custom_minimum_size = Vector2(850, 52)
-		button.disabled = not state.can_choose(choice)
-		if choice.has("requires"):
-			var parts: PackedStringArray = []
-			for key in choice.requires:
-				parts.append("%s %d" % [str(key).to_upper(), choice.requires[key]])
-			button.tooltip_text = "Requires " + ", ".join(parts)
+		button.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+		button.add_theme_font_size_override("font_size", 18)
+		button.custom_minimum_size = Vector2(850, 44)
+		for kind in ["normal", "hover", "pressed", "focus", "disabled"]:
+			var style: StyleBoxFlat = get_theme_stylebox(kind, "Button").duplicate()
+			style.content_margin_top = 6
+			style.content_margin_bottom = 6
+			button.add_theme_stylebox_override(kind, style)
+		button.disabled = not details.available
+		var parts: PackedStringArray = []
+		if not details.effects.is_empty():
+			parts.append("Gains: " + ", ".join(details.effects))
+		if not details.requirements.is_empty():
+			parts.append(("Requires: " if details.available else "Locked: ") + ", ".join(details.requirements))
+		if not details.available and details.missing.is_empty():
+			parts.append(details.reason)
+		button.tooltip_text = " · ".join(parts)
 		button.pressed.connect(_choose.bind(i))
-		choice_box.add_child(button)
+		card.add_child(button)
+		if not parts.is_empty():
+			var summary := Label.new()
+			summary.name = "ChoiceDetails_" + str(i)
+			summary.text = " · ".join(parts)
+			summary.add_theme_font_size_override("font_size", 14)
+			summary.add_theme_color_override("font_color", JADE if details.available else GOLD)
+			card.add_child(summary)
 	continue_button = _button("→", Vector2(1397, 719), 78, _advance)
 	continue_button.visible = choices.is_empty()
 	if node.has("continuation"):
@@ -292,9 +319,15 @@ func _choose(index: int) -> void:
 		return
 	if dialogue != null and dialogue.visible_characters >= 0 and dialogue.visible_characters < dialogue.get_total_character_count():
 		return
+	var choices: Array = state.node().get("choices", [])
+	var gains: PackedStringArray = []
+	if index >= 0 and index < choices.size():
+		gains = state.choice_details(choices[index]).effects
 	if state.choose(index):
 		audio.effect()
 		_scene()
+		if not gains.is_empty():
+			_toast(" · ".join(gains))
 
 func _advance() -> void:
 	if popup != null:
@@ -369,6 +402,9 @@ func _unhandled_key_input(event: InputEvent) -> void:
 		return
 	if popup != null:
 		return
+	if event.keycode == KEY_C:
+		_attributes()
+		return
 	if event.keycode in [KEY_ENTER, KEY_SPACE]:
 		if is_reading:
 			_advance()
@@ -420,6 +456,67 @@ func _close_popup() -> void:
 		ui.remove_child(popup)
 		popup.queue_free()
 		popup = null
+
+func _attributes() -> void:
+	var column := _make_popup("Lin Yue · Attributes")
+	popup.name = "AttributePanel"
+	column.add_theme_constant_override("separation", 12)
+	var hint := Label.new()
+	hint.text = "Your choices grow these attributes. Ranks describe growth; requirements use point totals."
+	hint.add_theme_font_size_override("font_size", 16)
+	hint.add_theme_color_override("font_color", JADE)
+	column.add_child(hint)
+	var grid := GridContainer.new()
+	grid.columns = 2
+	grid.size_flags_vertical = Control.SIZE_EXPAND_FILL
+	grid.add_theme_constant_override("h_separation", 16)
+	grid.add_theme_constant_override("v_separation", 16)
+	column.add_child(grid)
+	for key in Attributes.KEYS:
+		var profile: Dictionary = Attributes.profile(key, int(state.stats[key]))
+		var card := PanelContainer.new()
+		card.custom_minimum_size = Vector2(490, 210)
+		card.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+		var style := StyleBoxFlat.new()
+		style.bg_color = Color(0.07, 0.17, 0.18, 0.85)
+		style.border_color = Color(0.66, 0.77, 0.69, 0.25)
+		style.set_border_width_all(1)
+		style.set_content_margin_all(16)
+		card.add_theme_stylebox_override("panel", style)
+		grid.add_child(card)
+		var content := VBoxContainer.new()
+		content.add_theme_constant_override("separation", 8)
+		card.add_child(content)
+		var value_label := Label.new()
+		value_label.name = "AttributeValue_" + key
+		value_label.text = "%s · %d" % [profile.name, profile.value]
+		value_label.add_theme_font_size_override("font_size", 25)
+		value_label.add_theme_color_override("font_color", GOLD)
+		content.add_child(value_label)
+		var rank := Label.new()
+		rank.name = "AttributeRank_" + key
+		rank.text = "%s · %d %s to next rank" % [profile.rank, profile.remaining, "point" if profile.remaining == 1 else "points"] if profile.next_minimum >= 0 else "%s · Highest rank; points keep growing" % profile.rank
+		rank.add_theme_font_size_override("font_size", 15)
+		rank.add_theme_color_override("font_color", JADE)
+		content.add_child(rank)
+		var progress := ProgressBar.new()
+		progress.name = "AttributeProgress_" + key
+		progress.custom_minimum_size.y = 8
+		progress.max_value = 1.0
+		progress.value = profile.progress
+		progress.show_percentage = false
+		content.add_child(progress)
+		for text in [profile.description, profile.growth]:
+			var description := Label.new()
+			description.text = str(text)
+			description.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+			description.custom_minimum_size.x = 458
+			description.add_theme_font_size_override("font_size", 16)
+			content.add_child(description)
+	var footer := Label.new()
+	footer.text = "Attributes travel with you across books and are saved with your journey.   C: open · Esc: close"
+	footer.add_theme_font_size_override("font_size", 16)
+	column.add_child(footer)
 
 func _journal() -> void:
 	var column := _make_popup("The traveler's journal")
@@ -545,7 +642,7 @@ func _settings() -> void:
 	voice_toggle.toggled.connect(_voice_changed)
 	column.add_child(voice_toggle)
 	var help := Label.new()
-	help.text = "Enter / Space: advance    1–4: choose    S: save    L: journal    Esc: close\nNarration uses the open Piper Lessac neural voice."
+	help.text = "Enter / Space: advance    1–4: choose    S: save    L: journal    C: attributes    Esc: close\nNarration uses the open Piper Lessac neural voice."
 	help.add_theme_font_size_override("font_size", 17)
 	column.add_child(help)
 
@@ -607,6 +704,20 @@ func _capture() -> void:
 	await get_tree().create_timer(1.2).timeout
 	await RenderingServer.frame_post_draw
 	get_viewport().get_texture().get_image().save_png("res://build/screenshots/dialogue.png")
+	_attributes()
+	await get_tree().create_timer(0.4).timeout
+	await RenderingServer.frame_post_draw
+	get_viewport().get_texture().get_image().save_png("res://build/screenshots/attributes.png")
+	_close_popup()
+	state.current = "final_choice"
+	_scene()
+	dialogue.visible_characters = -1
+	await get_tree().create_timer(0.4).timeout
+	await RenderingServer.frame_post_draw
+	get_viewport().get_texture().get_image().save_png("res://build/screenshots/attribute_choices.png")
+	state.current = "first_choice"
+	_scene()
+	dialogue.visible_characters = -1
 	_cast()
 	await get_tree().create_timer(0.4).timeout
 	await RenderingServer.frame_post_draw
@@ -712,6 +823,10 @@ func _smoke_build() -> void:
 	valid = valid and item_image.texture != null
 	if item_image.texture != null:
 		valid = valid and item_image.texture.get_size() == Vector2(1536, 1024)
+	_close_popup()
+	_attributes()
+	var attribute_value: Label = popup.find_child("AttributeValue_trust", true, false)
+	valid = valid and attribute_value != null and attribute_value.text == "Trust · 2"
 	_close_popup()
 	if valid:
 		print("JADE_VOW_PACKAGE_OK: standalone story, world art, object inspection and narration")
