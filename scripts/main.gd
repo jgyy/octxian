@@ -500,7 +500,7 @@ func _cultivation() -> void:
 		fundamentals += "%d. %s\n%s\n\n" % [step.step, step.name, step.rule]
 	cultivation_entries.append({"name": "Practice and measurement", "text": fundamentals})
 	for entry in cultivation_catalog.get("realms", []):
-		var content: String = "%s\n\nSTAGES\n%s\n\n" % [entry.name, " → ".join(entry.stages)]
+		var content: String = "%s\n\nSTAGES\n%s\n\n" % [entry.name, " → ".join(PackedStringArray(entry.stages))]
 		for field in ["mechanism", "admission", "practice", "breakthrough", "capabilities", "limits", "failure", "recovery", "span"]:
 			content += "%s\n%s\n\n" % [str(field).capitalize(), entry.get(field, "")]
 		cultivation_entries.append({"name": entry.name, "text": content})
