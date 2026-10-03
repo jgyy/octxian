@@ -11,6 +11,8 @@ var current := "arrival"
 var stats := {"qi": 0, "trust": 0, "insight": 0, "resolve": 0}
 var history: Array = []
 var recovered_checkpoint := false
+var journey_seed: int = randi_range(1, 2147483646)
+var encounters: Dictionary = {}
 
 func _init(source: Dictionary = {}) -> void:
 	# Injected traversal campaigns are already merged; never reload their book files.
@@ -82,6 +84,8 @@ func can_choose(choice: Dictionary) -> bool:
 	return bool(choice_details(choice).available)
 
 func choose(index: int) -> bool:
+	if node().get("random_event", false):
+		return false
 	var choices: Array = node().get("choices", [])
 	if index < 0 or index >= choices.size():
 		return false
@@ -92,7 +96,34 @@ func choose(index: int) -> bool:
 	stats = details.updated_stats
 	return true
 
+func encounter_target() -> String:
+	if not node().get("random_event", false):
+		return ""
+	var options: Array = node().get("choices", [])
+	if options.size() < 2:
+		return ""
+	var targets: Array[String] = []
+	for option in options:
+		if not option is Dictionary or option.has("effects") or option.has("requires"):
+			return ""
+		var target := str(option.get("next", ""))
+		if not story.get("nodes", {}).has(target) or targets.has(target):
+			return ""
+		targets.append(target)
+	if encounters.has(current):
+		return str(encounters[current]) if targets.has(str(encounters[current])) else ""
+	var generator := RandomNumberGenerator.new()
+	generator.seed = journey_seed ^ current.hash()
+	return targets[generator.randi_range(0, targets.size() - 1)]
+
 func advance() -> bool:
+	if node().get("random_event", false):
+		var event_id := current
+		var target := encounter_target()
+		if target.is_empty() or not go(target):
+			return false
+		encounters[event_id] = target
+		return true
 	return go(str(node().get("next", node().get("continuation", ""))))
 
 func go(target: String) -> bool:
@@ -135,7 +166,7 @@ func _commit_checkpoint(temporary_path: String, path: String) -> int:
 func save_game(path: String = "user://jade_vow_save.json") -> bool:
 	var temporary_path := path + ".tmp"
 	var backup_path := path + ".bak"
-	var bytes := JSON.stringify({"version": SAVE_VERSION, "current": current, "stats": stats, "history": history}).to_utf8_buffer()
+	var bytes := JSON.stringify({"version": SAVE_VERSION, "current": current, "stats": stats, "history": history, "journey_seed": journey_seed, "encounters": encounters}).to_utf8_buffer()
 	if not _write_verified_checkpoint(temporary_path, bytes):
 		if FileAccess.file_exists(temporary_path):
 			DirAccess.remove_absolute(temporary_path)
@@ -181,6 +212,30 @@ func load_game(path: String = "user://jade_vow_save.json") -> bool:
 			return false
 		if not story["characters"].has(entry["speaker"]):
 			return false
+	var validated_seed: int = journey_seed
+	var validated_encounters: Dictionary = {}
+	if data.has("journey_seed") != data.has("encounters"):
+		return false
+	if data.has("journey_seed"):
+		var seed_value = data.journey_seed
+		if not (seed_value is int or seed_value is float) or not is_finite(float(seed_value)) or seed_value != int(seed_value) or seed_value < 1 or seed_value > 2147483646:
+			return false
+		if not data.encounters is Dictionary:
+			return false
+		validated_seed = int(seed_value)
+		for event_id in data.encounters:
+			if not story.nodes.has(event_id) or not story.nodes[event_id].get("random_event", false):
+				return false
+			var options: Array = story.nodes[event_id].get("choices", [])
+			var valid_target := false
+			for option in options:
+				if option.get("next", "") == data.encounters[event_id]:
+					valid_target = true
+			if not valid_target or not data.encounters[event_id] is String:
+				return false
+		validated_encounters = data.encounters.duplicate(true)
+	journey_seed = validated_seed
+	encounters = validated_encounters
 	current = data["current"]
 	stats = validated_stats
 	history = data["history"].duplicate(true)

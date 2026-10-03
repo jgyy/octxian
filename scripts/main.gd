@@ -274,7 +274,7 @@ func _scene() -> void:
 	choice_box.add_theme_constant_override("separation", 6)
 	ui.add_child(choice_box)
 	choice_box.visible = false
-	var choices: Array = node.get("choices", [])
+	var choices: Array = [] if node.get("random_event", false) else node.get("choices", [])
 	for i in range(choices.size()):
 		var choice: Dictionary = choices[i]
 		var details: Dictionary = state.choice_details(choice)
@@ -335,6 +335,8 @@ func _choose(index: int) -> void:
 		return
 	var choices: Array = state.node().get("choices", [])
 	var gains: PackedStringArray = []
+	if state.node().get("random_event", false):
+		return
 	if index >= 0 and index < choices.size():
 		gains = state.choice_details(choices[index]).effects
 	if state.choose(index):
@@ -402,7 +404,7 @@ func _process(delta: float) -> void:
 	else:
 		choice_box.visible = true
 		auto_clock += delta
-		if auto_read and auto_clock > 2.0 and not audio.voice.playing and state.node().has("next"):
+		if auto_read and auto_clock > 2.0 and not audio.voice.playing and (state.node().has("next") or state.node().get("random_event", false)):
 			_advance()
 
 func _unhandled_key_input(event: InputEvent) -> void:
