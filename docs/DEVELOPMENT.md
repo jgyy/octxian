@@ -10,7 +10,7 @@
 - `scripts/audio_director.gd`: music, effects, narration buses, and orderly shutdown.
 - `tools/build_assets.py`: asset orchestration and original audio synthesis.
 - `tools/animation_baker.py`: extract complete resting portraits without stretching.
-- `tools/preview_animations.py`: body bob GIFs and portrait contact sheets.
+- `tools/preview_animations.py`: body bob WebP previews and portrait contact sheets.
 - `tools/generate_voices.py`: resumable neural narration.
 - `tools/validate_assets.py`: portrait inventory, transparency, source integrity, and narration checks.
 
@@ -32,7 +32,7 @@ python tools/verify_screenshots.py
 godot --headless --path . --export-pack Linux build/jade-vow.pck
 ```
 
-Capture mode writes six viewport screenshots to `build/screenshots` and sixteen timed viewport frames to `build/animations/rendered`. Screenshot verification creates compact JPEG previews, `rendered_game.gif`, and a sampled game-frame sheet. Timed capture fixes the character's initial frame and disables atmospheric background animation so that measured changes reflect the character.
+Capture mode writes six viewport screenshots to `build/screenshots` and sixteen timed viewport frames to `build/animations/rendered`. Screenshot verification creates compact JPEG previews, `rendered_game.webp`, and a sampled game-frame sheet. Timed capture fixes the character's initial frame and disables atmospheric background animation so that measured changes reflect the character.
 
 The packaged executable discovers `jade-vow.pck` beside it. CI uses Xvfb with dummy audio for desktop capture and standalone playback. It runs the exported package from a folder without the source checkout and checks logs for errors, missing resources, and clean shutdown.
 
@@ -57,3 +57,5 @@ Portrait preparation reuses unchanged, verified files. The feature-branch bundle
 ## Scope
 
 This is a complete short opening. Narration uses one neural timbre with character pacing. Animation is a gentle whole-body bob of each intact portrait. Additional chapters, voices, and outfit portraits can extend the existing data and asset pipeline.
+
+Git history retains source changes with compressed media bundled at branch tips. Historic binary media is preserved in the local recovery bundle. Collaborators should clone the rewritten repository again.

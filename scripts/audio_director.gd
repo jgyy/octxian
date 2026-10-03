@@ -12,7 +12,7 @@ func _ready() -> void:
 	add_child(music)
 	add_child(effects)
 	add_child(voice)
-	var path := "res://assets/generated/audio/cloud_sea.wav"
+	var path := "res://assets/generated/audio/cloud_sea.ogg"
 	if ResourceLoader.exists(path):
 		music.stream = load(path)
 		music.finished.connect(music.play)
@@ -20,10 +20,16 @@ func _ready() -> void:
 
 func speak(id: String) -> void:
 	voice.stop()
-	var path := "res://assets/generated/voices/%s.wav" % id
-	if enabled and ResourceLoader.exists(path):
-		voice.stream = load(path)
-		voice.play()
+	voice.stream = null
+	if not enabled:
+		return
+	# Bundled narration uses Vorbis; WAV remains available for local authoring.
+	for extension in ["ogg", "wav"]:
+		var path := "res://assets/generated/voices/%s.%s" % [id, extension]
+		if ResourceLoader.exists(path):
+			voice.stream = load(path)
+			voice.play()
+			return
 
 func effect(id: String = "page") -> void:
 	var path := "res://assets/generated/audio/%s.wav" % id

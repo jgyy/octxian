@@ -5,6 +5,8 @@ Whole-body bobbing runs in Godot. Unchanged portraits are reused;
 """
 import argparse
 import pathlib
+import subprocess
+import tempfile
 import wave
 
 import numpy as np
@@ -23,6 +25,21 @@ def write_wav(path, samples, rate=RATE):
         audio.setsampwidth(2)
         audio.setframerate(rate)
         audio.writeframes((samples * 32767).astype("<i2").tobytes())
+
+
+def write_score(path, samples):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with tempfile.TemporaryDirectory(prefix=".score-", dir=path.parent) as folder:
+        source = pathlib.Path(folder) / "score.wav"
+        output = pathlib.Path(folder) / "score.ogg"
+        write_wav(source, samples)
+        subprocess.run(["ffmpeg", "-hide_banner", "-loglevel", "error", "-nostdin",
+                        "-y", "-i", str(source), "-map_metadata", "-1",
+                        "-c:a", "libvorbis", "-q:a", "3", str(output)], check=True)
+        output.replace(path)
+    legacy = path.with_suffix(".wav")
+    legacy.unlink(missing_ok=True)
+    pathlib.Path(str(legacy) + ".import").unlink(missing_ok=True)
 
 
 def sprites(force=False):
@@ -54,7 +71,7 @@ def music():
     fade = RATE * 2
     result[:fade] *= np.linspace(0, 1, fade)
     result[-fade:] *= np.linspace(1, 0, fade)
-    write_wav(OUT / "audio/cloud_sea.wav", result)
+    write_score(OUT / "audio/cloud_sea.ogg", result)
 
 
 def effects():

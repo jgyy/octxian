@@ -25,7 +25,7 @@ jobs:
       - name: Install render and generation dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y xvfb libgl1-mesa-dri ripgrep
+          sudo apt-get install -y xvfb libgl1-mesa-dri ripgrep ffmpeg
           python -m pip install -r requirements.txt
       - uses: actions/cache@v4
         with:
@@ -126,11 +126,11 @@ jobs:
           git add -f assets/generated
           missing_capture=false
           for capture in title dialogue cast wardrobe_training wardrobe_festival outfit_dialogue; do
-            if [ ! -s "docs/screenshots/$capture.png" ] || [ ! -s "docs/screenshots/$capture.jpg" ]; then
+            if [ ! -s "docs/screenshots/$capture.jpg" ]; then
               missing_capture=true
             fi
           done
-          if [ ! -s docs/animations/motions.gif ]; then
+          if [ ! -s docs/animations/motions.webp ]; then
             missing_capture=true
           fi
           if git diff --cached --quiet && [ "$missing_capture" = false ]; then
@@ -138,8 +138,8 @@ jobs:
             exit 0
           fi
           mkdir -p docs/screenshots docs/animations
-          cp build/animations/*.gif build/animations/*.jpg build/animations/*.json docs/animations/
-          cp build/screenshots/*.png build/screenshots/*.jpg docs/screenshots/
+          cp build/animations/*.webp build/animations/*.jpg build/animations/*.json docs/animations/
+          cp build/screenshots/*.jpg docs/screenshots/
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -f assets/generated docs/screenshots docs/animations

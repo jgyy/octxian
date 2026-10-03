@@ -34,7 +34,7 @@ func _ready() -> void:
 	get_tree().auto_accept_quit = false
 	_build_theme()
 	var background := TextureRect.new()
-	background.texture = load("res://assets/art/azure_cloud.png")
+	background.texture = load("res://assets/art/azure_cloud.webp")
 	background.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
 	background.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_COVERED
 	background.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)

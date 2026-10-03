@@ -30,7 +30,7 @@ def read_frames(character, outfit, motion):
 
 def save_loop(path, panels):
     panels[0].save(path, save_all=True, append_images=panels[1:],
-                   duration=[60, 70, 60, 60] * 16, loop=0, disposal=2, optimize=True)
+                   duration=[60, 70, 60, 60] * 16, loop=0, lossless=True, quality=100, method=4, exact=True)
 
 
 for outfit in catalog["outfits"]:
@@ -43,7 +43,7 @@ for outfit in catalog["outfits"]:
         for column, frames in enumerate(cast):
             panel.paste(frames[index], (column * TILE[0], 34), frames[index])
         panels.append(panel)
-    save_loop(OUT / f"{outfit['id']}.gif", panels)
+    save_loop(OUT / f"{outfit['id']}.webp", panels)
     contact = Image.new("RGB", (TILE[0] * 8, (TILE[1] + 28) * 4), (13, 29, 32))
     draw = ImageDraw.Draw(contact)
     for row, frames in enumerate(cast):
@@ -63,4 +63,4 @@ for index in range(SAMPLES):
         draw.text((column * TILE[0] + 6, 8), catalog["motions"][column], fill=(235, 218, 170))
         panel.paste(frames[index], (column * TILE[0], 34), frames[index])
     panels.append(panel)
-save_loop(OUT / "motions.gif", panels)
+save_loop(OUT / "motions.webp", panels)

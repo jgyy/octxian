@@ -6,7 +6,7 @@ An original xianxia visual novel built in **Godot 4.7.2 stable**, the latest sta
 
 A jade pendant leads Lin Yue to a mountain suspended above the mortal world. Beneath it sleeps a captive star. Decide whether a promise should become a burden, a covenant, or a door.
 
-![Jade Vow title screen](docs/screenshots/title.png)
+![Jade Vow title screen](docs/screenshots/title.jpg)
 
 ## Play
 
@@ -32,7 +32,7 @@ If your Godot executable is named `godot4`, replace `godot` with `godot4` in bot
 
 The opening contains 36 scenes, 931 narrated words, cultivation stats, gated choices, and three reachable endings. This is a complete short opening.
 
-![Branching dialogue](docs/screenshots/dialogue.png)
+![Branching dialogue](docs/screenshots/dialogue.jpg)
 
 ## Clothing options
 
@@ -46,21 +46,21 @@ Open **Wardrobe** in the top navigation and choose an outfit independently for e
 
 The four adult characters each have all three options. Gallery previews animate, selected clothing appears immediately in the story and on the title screen, and choices persist across sessions. Clothing changes preserve dialogue progress and cultivation stats.
 
-![Light Training wardrobe](docs/screenshots/wardrobe_training.png)
+![Light Training wardrobe](docs/screenshots/wardrobe_training.jpg)
 
-![Moon Festival wardrobe](docs/screenshots/wardrobe_festival.png)
+![Moon Festival wardrobe](docs/screenshots/wardrobe_festival.jpg)
 
 ## Animation in motion
 
 Each character and outfit uses one intact portrait. Godot gently moves the whole body up and down in a four-second loop. These previews use the same portraits and bob settings:
 
-![Animated Sect Robes](docs/animations/sect.gif)
+![Animated Sect Robes](docs/animations/sect.webp)
 
-[Light Training](docs/animations/training.gif) · [Moon Festival](docs/animations/festival.gif) · [Four motion cycles](docs/animations/motions.gif) · [Frame comparison](docs/animations/sect_frames.jpg)
+[Light Training](docs/animations/training.webp) · [Moon Festival](docs/animations/festival.webp) · [Four motion cycles](docs/animations/motions.webp) · [Frame comparison](docs/animations/sect_frames.jpg)
 
 The following recording samples the running Godot viewport, with background motion disabled:
 
-![In-game character animation](docs/animations/rendered_game.gif)
+![In-game character animation](docs/animations/rendered_game.webp)
 
 The twelve resting portraits come from the original GPT artwork. Body bobbing preserves each complete drawing. The four story motion labels select a gentle 6–10 pixel bob, and reduced motion leaves the portraits still.
 

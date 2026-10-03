@@ -28,8 +28,8 @@ start = np.asarray(rendered[0], dtype=np.float32)[50:330, 520:940]
 body_change = max(float(np.mean(np.abs(start - np.asarray(frame, dtype=np.float32)[50:330, 520:940])))
                   for frame in rendered[1:])
 assert body_change >= 0.2, f"Rendered body bob is missing: {body_change:.3f}"
-rendered[0].save(animation_folder / "rendered_game.gif", save_all=True,
-                 append_images=rendered[1:], duration=250, loop=0, disposal=2, optimize=False)
+rendered[0].save(animation_folder / "rendered_game.webp", save_all=True,
+                 append_images=rendered[1:], duration=250, loop=0, lossless=True, quality=100, method=4, exact=True)
 comparison = Image.new("RGB", (480 * 4, 270))
 for column, index in enumerate((0, 4, 8, 12)):
     comparison.paste(rendered[index].resize((480, 270), Image.Resampling.LANCZOS), (column * 480, 0))
