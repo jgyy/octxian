@@ -30,13 +30,13 @@ If your Godot executable is named `godot4`, replace `godot` with `godot4` in bot
 - **S:** save. **L:** open the dialogue journal. **C:** open attributes. **Esc:** close a panel or open settings.
 - The interface provides save/load, auto reading, fast text, an animated wardrobe gallery, audio levels, and reduced motion.
 
-The playable script contains **1,606 scenes and 137,918 authored words** across seven books, with cultivation stats and gated choices. Book I has three endings; each continues into Book II, which has three investigations and four settlements. Every settlement continues into Book III, with three river routes, six settlement approaches, and three endings. Each continues into Book IV's orchard, with three investigations and four settlements. Every orchard outcome continues into Book V, with three city investigations and four resolutions. Each city resolution continues into Book VI, with four investigations, local branch choices and four bounded court remedies. Every court outcome continues into Book VII's three river investigations and three owner-approved arrangements.
+The playable script contains **1,858 scenes and 156,792 authored words** across eight books, with cultivation stats and gated choices. Book I has three endings; each continues into Book II, which has three investigations and four settlements. Every settlement continues into Book III, with three river routes, six settlement approaches, and three endings. Each continues into Book IV's orchard, with three investigations and four settlements. Every orchard outcome continues into Book V, with three city investigations and four resolutions. Each city resolution continues into Book VI, with four investigations, local branch choices and four bounded court remedies. Every court outcome continues into Book VII's three river investigations and three owner-approved arrangements. All three continue into Book VIII, where an eighty-day foundry apprenticeship earns the second meridian pair through three independent recovered examinations.
 
-This draft expansion currently adds **nine original-scope backgrounds, 32 extra building-interior backgrounds, fifteen human NPC sprites, eight spirit-beast sprites, four inspectable item paintings, and two cultivation effects** at their native generated sizes. The original 100-background quota, 500 human NPCs, 501 spirit beasts and more than one million words remain unfinished. The separate extra 100-interior quota has 32 delivered paintings. Run `python tools/validate_world.py --require-complete` to check all quotas. CI writes exact delivery counts to `build/content_report.json`.
+This draft expansion currently adds **eleven original-scope backgrounds, 33 extra building-interior backgrounds, eighteen human NPC sprites, nine spirit-beast sprites, five inspectable item paintings, and three cultivation effects** at their native generated sizes. The original 100-background quota, 500 human NPCs, 501 spirit beasts and more than one million words remain unfinished. The separate extra 100-interior quota has 33 delivered paintings. Run `python tools/validate_world.py --require-complete` to check all quotas. CI writes exact delivery counts to `build/content_report.json`.
 
 ## Cultivation rewrite (draft)
 
-The cultivation rewrite currently delivers **19,805 words across 300 scenes**. The mortal opening contains 77 training scenes and 36 recast Book I scenes; the sluice apprenticeship contains 131 scenes. The whole campaign contains **137,918 displayed words**; 118,113 inherited words still await recast.
+The cultivation rewrite currently delivers **38,679 words across 552 scenes**. The mortal opening contains 77 training scenes and 36 recast Book I scenes; the sluice apprenticeship contains 131 scenes. The whole campaign contains **156,792 displayed words**; 118,113 inherited words still await recast.
 
 The latest [plot-hole review](docs/PLOT_HOLE_REVIEW.md) repairs 45 scenes, including four new mandatory scenes. Common routes now establish the star's terms, the harbor's funded renewal and the missing link in Wei Jin's custody records. Later powers respect the earned first arm pair, finite artifact fuel and ordinary load-bearing tools.
 
@@ -44,9 +44,9 @@ Lin Yue earns Qi Gathering stage two through three calibrated overnight retentio
 
 The [cultivation canon](docs/CULTIVATION_SYSTEM.md) defines twelve gates, anatomy, tests, recovery, techniques, crafts and resources. Open **Attributes → Cultivation realms** for its in-game reference. Choice attribute ranks never award realms.
 
-Ten native generated masters cover two environments, two human NPCs, two monsters, two items and two effects. This continuation adds the **1536×1024 sluice**, **1024×1536 Duan Zhi, brine mantis and caliper**, and **1536×1024 paired trace**. [Provenance](assets/art/CULTIVATION_PROVENANCE.md) records their native dimensions; no enlargement is credited.
+Nineteen native cultivation masters are bundled. The latest continuation adds **three 1536×1024 environments**, **three 1024×1536 human portraits**, a **1024×1536 voidglass centipede**, a **1024×1536 phase comb**, and a **1536×1024 interrupted second-pair effect**. [Provenance](assets/art/CULTIVATION_PROVENANCE.md) records their native dimensions; no enlargement is credited.
 
-The fourteen-volume architecture budgets 1,050,000 original words. The [production ledger](docs/CULTIVATION_REWRITE.md) and [verified scene accounting](docs/CULTIVATION_PROGRESS.json) distinguish delivered rewrite, inherited prose and the **980,196 rewrite words still needed**. The PR remains a draft.
+The fourteen-volume architecture budgets 1,050,000 original words. The [production ledger](docs/CULTIVATION_REWRITE.md) and [verified scene accounting](docs/CULTIVATION_PROGRESS.json) distinguish delivered rewrite, inherited prose and the **961,322 rewrite words still needed**. The PR remains a draft.
 
 ![Mortal recruitment and zero qi](docs/screenshots/mortal_arrival.jpg)
 
@@ -116,7 +116,7 @@ Ren Qiao and the Frostroot Hart have new independent native **1024×1536** portr
 
 ![The Frostroot Hart](docs/screenshots/orchard_spirit.jpg)
 
-The full production target is **more than one million displayed prose words and 1,001 unique world sprites: 500 humans and 501 spirit beasts**, alongside the existing background quotas. Current delivery is **137,918 words and 23 original world sprites**. This expansion remains unfinished.
+The full production target is **more than one million displayed prose words and 1,001 unique world sprites: 500 humans and 501 spirit beasts**, alongside the existing background quotas. Current delivery is **156,792 words and 27 original world sprites**. This expansion remains unfinished.
 
 ## Book V: The city of borrowed faces
 
@@ -155,9 +155,26 @@ Book VI adds **784 scenes and 75,090 displayed prose words**, four independent h
 
 Return to the river three days after the court review. Follow the reed-channel maintenance record, volunteered archive extracts, or Wei Jin's damaged former ferry approach. Each team brings independent evidence to a common comparison. The third ring stays sealed while its living owner is identified through offered records.
 
-Wei Jin separately accepts a closed return, three paid custody watches with review, or no return today under existing protection. The choice arranges tonight's work; it grants no listening permission. The original Book VII expansion added **257 scenes and 24,177 displayed words**. The later continuity review adds the mandatory ownership-context scene and recasts the marsh, archive and road power passages. Current campaign delivery is **137,918 words**; **862,083 displayed words remain** toward the strict million-word target.
+Wei Jin separately accepts a closed return, three paid custody watches with review, or no return today under existing protection. The choice arranges tonight's work; it grants no listening permission. The original Book VII expansion added **257 scenes and 24,177 displayed words**. The later continuity review adds the mandatory ownership-context scene and recasts the marsh, archive and road power passages. Current campaign delivery is **156,792 words**; **843,209 displayed words remain** toward the strict million-word target.
 
 Failed save replacement preserves a verified prior checkpoint; a missing primary can recover that backup. Scene transitions resume effects after dismissing a popup. Narration generation retains completed clips after a failed batch, and the Godot loader rejects duplicate JSON keys.
+
+
+## Book VIII: The furnace beneath the ash bridge
+
+Continue from any ring arrangement into paid foundry work at Qi Gathering's third stage. Learn five-phase material sampling, distinguish warm and cool discharge tails, prepare the complementary arm pair, report a failed return, recover for fourteen days, and requalify the established route. Work and creature-response choices rejoin before mandatory checks.
+
+Three independent trials on Days Seventy, Seventy-four and Seventy-nine, each followed by normal next-day sensation, earn the fourth stage on Day Eighty. Finish at a rated control bench, a bounded material survey or the west kiln household. None grants a fifth stage. This chapter adds **252 scenes and 18,874 new displayed words**.
+
+[Foundry expansion and progression diagram](docs/FOUNDRY_EXPANSION.md)
+
+![Su Yan at the ash bridge](docs/screenshots/foundry_examiner.jpg)
+
+![Voidglass centipede encounter](docs/screenshots/foundry_creature.jpg)
+
+![Earned second meridian pair](docs/screenshots/second_pair.jpg)
+
+![Return to the kiln household](docs/screenshots/foundry_home.jpg)
 
 ## Clothing options
 

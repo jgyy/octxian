@@ -47,4 +47,4 @@ Five focused regression tests reject bypasses of the source-isolation/terms sequ
 
 The merged-data audit finds **1,606 of 1,606 scenes and all 25 endings reachable across 151,435 capped attribute states**, with unique prose, a maximum of 100 words per scene, valid actors/art/stages, 135 anchored facts and 39 required checkpoints. Runtime CI adds narration, Godot route/save/UI checks, forty-nine viewport screenshots and a standalone Linux launch. Final CI evidence is linked in the draft PR.
 
-Current delivery is **137,918 displayed words**; **19,805 words in 300 scenes** are credited to the cultivation recast. This review adds 401 net displayed words and 3,035 newly credited rewrite words. The rest of the million-word rewrite remains in production.
+At this review's source commit, delivery was **137,918 displayed words**; **19,805 words in 300 scenes** are credited to the cultivation recast. This review adds 401 net displayed words and 3,035 newly credited rewrite words. The rest of the million-word rewrite remains in production.
