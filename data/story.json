@@ -631,26 +631,38 @@
     "lantern_shared": {
       "speaker": "shen_qing",
       "actor": "shen_qing",
-      "text": "The lanterns we lit for the star are still burning. Three hundred willing hearts are a beginning, Yue, but willingness must be asked for again tomorrow. The villages below the mountain have sent no answer. Before we call our promise a success, we should learn whose sleep our light has disturbed.",
+      "text": "Three hundred lanterns held one willing star, but Lin Yue's own field still holds only its first trace. The valley road remains under repair. Shen Qing brings a commission for the salt villages and a workshop placement for the waiting weeks. Before she can help carry any promise downhill, she must learn what her reserve can retain through an ordinary night.",
       "chapter": "book_ii",
-      "background": "bell_tower_square",
-      "next": "lantern_arrival"
+      "background": "lower_training_terrace",
+      "next": "sluice_001",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "1: Trace"
+      }
     },
     "lantern_covenant": {
       "speaker": "elder_yun",
       "actor": "elder_yun",
-      "text": "The star returned by choice, and we celebrated. Then the salt villages sent us a bill for the lantern oil they had burned while waiting for the sky to fall. Freedom does not erase a debt. Your mother's covenant asks us to listen when gratitude is the last thing anyone feels.",
+      "text": "The star accepted its covenant. The displaced valley paths still need engineers, meals and patient repairs. Elder Yun gives Lin Yue a future place on the listening commission, with no promotion attached. For now she can earn wages at the brine sluice and practice under its examiner. Her mother's offered memory supplies neither fuel nor a finished meridian.",
       "chapter": "book_ii",
-      "background": "bell_tower_square",
-      "next": "lantern_arrival"
+      "background": "lower_training_terrace",
+      "next": "sluice_001",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "1: Trace"
+      }
     },
     "lantern_release": {
       "speaker": "mo_ran",
       "actor": "mo_ran",
-      "text": "The mountain has roots now. So do the roads it displaced. There is a ferry landing beneath a slope that used to be sky, and a family has lost its winter salt field. Come with me. If we learn only how to release what we love, we may never learn how to stay.",
+      "text": "The released mountain has roots, and the drainage channels beneath it need rebuilding before the valley road opens. Mo Ran asks Lin Yue to join the later survey. Today she remains a first-stage novice whose field leaks during sleep. He directs her to a paid sluice placement, where useful work and slow cultivation can share the waiting weeks.",
       "chapter": "book_ii",
-      "background": "bell_tower_square",
-      "next": "lantern_arrival"
+      "background": "lower_training_terrace",
+      "next": "sluice_001",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "1: Trace"
+      }
     },
     "lantern_arrival": {
       "speaker": "narrator",
@@ -3884,6 +3896,7 @@
   },
   "books": [
     "data/books/book_i_mortal.json",
+    "data/books/book_ii_sluice.json",
     "data/books/book_vi.json",
     "data/books/book_vii.json",
     "data/books/book_vii_marsh.json",

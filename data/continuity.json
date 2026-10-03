@@ -1288,6 +1288,21 @@
         "ending_covenant",
         "ending_release"
       ]
+    },
+    {
+      "id": "sluice_retention_earned",
+      "statement": "After Book I and before the valley journey, the repaired-road delay permits weeks of paid sluice training. Lin Yue earns Qi Gathering stage two only after three recovered, calibrated overnight six-unit retention trials with clean release; coins and choice points do not award the stage.",
+      "anchors": [
+        "lantern_shared",
+        "lantern_covenant",
+        "lantern_release",
+        "sluice_020",
+        "sluice_030",
+        "sluice_037",
+        "sluice_038",
+        "sluice_039",
+        "sluice_040"
+      ]
     }
   ],
   "review_policy": "Review each new chapter's chronology, custody, character knowledge, and alternate outcomes before updating this ledger. Structural checks supplement editorial review; they do not prove the absence of all possible plot holes.",
@@ -1680,6 +1695,18 @@
         "ring_road_report"
       ],
       "before": "ring_road_exit"
+    },
+    {
+      "id": "sluice_three_retention_trials",
+      "required": [
+        "sluice_020",
+        "sluice_021",
+        "sluice_030",
+        "sluice_037",
+        "sluice_038",
+        "sluice_039"
+      ],
+      "before": "sluice_040"
     }
   ]
 }
