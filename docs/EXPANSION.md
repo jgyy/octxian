@@ -2,18 +2,19 @@
 
 ## Delivered in this draft
 
-- **234 playable scenes and 13,159 authored prose words** across four books.
+- **353 playable scenes and 23,615 authored prose words** across five books.
 - Book I: 36 scenes, 942 words, three endings.
 - Book II: 73 scenes, 4,000 words, three investigations, nine approaches, four endings.
 - Book III: 87 scenes, 5,332 words, four spring continuations, three river routes, six settlement approaches, three endings.
 - Book IV: 38 scenes, 2,885 words, three investigations, four settlements, and route-specific river continuations.
-- Five original-scope painted backgrounds at native 1672×941.
+- Book V: 119 scenes, 10,456 words, three investigations, four resolutions, and four orchard-outcome continuations.
+- Six original-scope painted backgrounds: five at native 1672×941 and the city market at native 1536×1024.
 - 30 additional building-interior paintings preserved at their individual native sizes; [inventory](INTERIORS.md).
-- Five human NPCs and three spirit beasts at native 1024×1536 with alpha.
+- Nine human NPCs and five spirit beasts at native 1024×1536 with alpha.
 - Two inspectable item paintings: clapper at 1024×1536 and echo case at 1536×1024.
 - Rain, reed light, soft bell ripples, and qi effects, paused by panels and stopped by reduced motion.
 - Continuity ledger plus required-knowledge and safety checkpoints.
-- Twenty-two rendered viewport screenshots, complete narration coverage, and Linux package validation.
+- Capture and narration pipelines cover all five books, with thirty required viewport screenshots and standalone Linux playback checks.
 
 These are exact delivered counts. This draft does **not** fulfill the requested original 100 backgrounds, 500 human NPCs, 501 spirit beasts, the extra 100 interior backgrounds, or a manuscript longer than one million words. An image-generation prompt is not a delivered asset. A plot outline, word budget, alternate playthrough, or repeated paragraph is not an authored word.
 
@@ -136,7 +137,7 @@ River echoes are volunteered external copies, not missing pieces of minds. Three
 
 These structural checks supplement an editorial reading of every new scene. They do not certify that every possible literary inconsistency has been eliminated.
 
-The manuscript still needs **986,842** additional authored prose words to reach 1,000,001. The original art quotas still need **95 backgrounds, 495 human NPCs, and 498 spirit beasts**. The two item paintings are additional assets and do not count toward those quotas. The extra interior quota has 30 delivered paintings and 70 remaining. These future-campaign locations are available in the gallery; their existence does not claim that the remaining outlined books have been written.
+The manuscript still needs **976,386** additional authored prose words to reach 1,000,001. The original art quotas still need **94 backgrounds, 491 human NPCs, and 496 spirit beasts**. The two item paintings are additional assets and do not count toward those quotas. The extra interior quota has 30 delivered paintings and 70 remaining. These future-campaign locations are available in the gallery; their existence does not claim that the remaining outlined books have been written.
 
 ## Book IV · delivered orchard chapter
 
@@ -144,7 +145,19 @@ Every river ending continues into the same spring while preserving its own echo-
 
 The inherited winter demand is removed while the safe closing rhythm remains. Choose a limited breathing trial, paid care rota, separate relief funding, or a reviewed pause with ordinary care. All four outcomes preserve injuries, resource limits, and individual choices. The unidentified third river ring remains sealed.
 
-This delivered chapter adds **2,885** displayed words. It does not fulfill the book's planned 51,000-word budget. The current entire manuscript is **13,159** words, with **986,842** more required. Original sprite delivery is **8**, with **993** more required. The PR remains a draft until the full manuscript, 500/501 sprite allocation, and both background quotas pass production acceptance.
+This delivered chapter adds **2,885** displayed words. It does not fulfill the book's planned 51,000-word budget. The current entire manuscript is **23,615** words, with **976,386** more required. Original sprite delivery is **14**, with **987** more required. The PR remains a draft until the full manuscript, 500/501 sprite allocation, and both background quotas pass production acceptance.
+
+## Book V · delivered city chapter
+
+All four orchard settlements continue during the same spring and preserve their staffing, practice, finance and review outcomes. The paid medicine-jar shipment is a new dispatch waiting on Tao Wen's frozen account, distinct from his earlier canceled fourth parcel. Mo Ran's case and the unidentified third river ring remain sealed.
+
+The masks rent an outward face, permitted voice and temporary recognition use; they transfer no skill, mind, memory or personhood. Three investigations independently establish collar substitution and copied return marks, a director-signed conversion of rental permissions into name-proof collateral, and wax-source timing supported by an independently offered courier consignment. Material tests use two controls and permitted cloth fragments; original tags remain sealed.
+
+The Porcelain Courser owns its dispatch ledger, permits watched and redacted relevant copying, and offers no automatic ride. The Glasswing Moth compares offered surfaces, preserves its workshop duties, and declines an additional hearing test. Certified registry corrections restore public proofs before all four settlements, leaving commercial charges on their own lines.
+
+Choose a bounded credit bridge using existing volunteered hours, separate ledgers with paid checking, a limited worker licensing pool, or a dated audit of only the disputed batch. No route invents fuel, credit, compensation, debt forgiveness or criminal intent. Each ending receives a court request for the hearing record; the next book remains unwritten.
+
+Book V adds **10,456 displayed prose words** and **119 scenes**, four independently generated humans, two spirit beasts and one original-scope market background. The entire manuscript is **23,615 words**, with **976,386** required. Sprite delivery is **9 humans + 5 spirit beasts = 14**, with **987** required. Original backgrounds are **6/100**; extra interiors are **30/100**. The PR remains a draft with production acceptance unmet.
 
 ## Verified orchard delivery
 

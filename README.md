@@ -30,9 +30,9 @@ If your Godot executable is named `godot4`, replace `godot` with `godot4` in bot
 - **S:** save. **L:** open the dialogue journal. **C:** open attributes. **Esc:** close a panel or open settings.
 - The interface provides save/load, auto reading, fast text, an animated wardrobe gallery, audio levels, and reduced motion.
 
-The playable script contains **234 scenes and 13,159 authored words** across four books, with cultivation stats and gated choices. Book I has three endings; each continues into Book II, which has three investigations and four settlements. Every settlement continues into Book III, with three river routes, six settlement approaches, and three endings. Each continues into Book IV's orchard, with three investigations and four settlements.
+The playable script contains **353 scenes and 23,615 authored words** across five books, with cultivation stats and gated choices. Book I has three endings; each continues into Book II, which has three investigations and four settlements. Every settlement continues into Book III, with three river routes, six settlement approaches, and three endings. Each continues into Book IV's orchard, with three investigations and four settlements. Every orchard outcome continues into Book V, with three city investigations and four resolutions.
 
-This draft expansion currently adds **five original-scope backgrounds, 30 extra building-interior backgrounds, five human NPC sprites, three spirit-beast sprites, and two inspectable item paintings** at their native generated sizes. The original 100-background quota, 500 human NPCs, 501 spirit beasts and more than one million words remain unfinished. The separate extra 100-interior quota has 30 delivered paintings. Run `python tools/validate_world.py --require-complete` to check all quotas. CI writes exact delivery counts to `build/content_report.json`.
+This draft expansion currently adds **six original-scope backgrounds, 30 extra building-interior backgrounds, nine human NPC sprites, five spirit-beast sprites, and two inspectable item paintings** at their native generated sizes. The original 100-background quota, 500 human NPCs, 501 spirit beasts and more than one million words remain unfinished. The separate extra 100-interior quota has 30 delivered paintings. Run `python tools/validate_world.py --require-complete` to check all quotas. CI writes exact delivery counts to `build/content_report.json`.
 
 ## Character attributes
 
@@ -88,7 +88,23 @@ Ren Qiao and the Frostroot Hart have new independent native **1024×1536** portr
 
 ![The Frostroot Hart](docs/screenshots/orchard_spirit.png)
 
-The full production target is **more than one million displayed prose words and 1,001 unique world sprites: 500 humans and 501 spirit beasts**, alongside the existing background quotas. Current delivery is **13,159 words and 8 original world sprites**. This expansion remains unfinished.
+The full production target is **more than one million displayed prose words and 1,001 unique world sprites: 500 humans and 501 spirit beasts**, alongside the existing background quotas. Current delivery is **23,615 words and 14 original world sprites**. This expansion remains unfinished.
+
+## Book V: The city of borrowed faces
+
+Continue from any orchard settlement to a spring city where masks rent outward appearances and recognition credit for finite cultivation-furnace hours. A changed batch makes workers' permanent name proofs answer for commercial disputes. Compare substituted mask collars, trace the registry and courier bills, or test offered wax fragments with two controls. The other teams present their findings before public proofs are restored.
+
+Choose a capped three-night credit bridge, separate permanent and temporary ledgers, a worker licensing cooperative, or an individual batch audit. The audit remains available without attribute training. All four outcomes keep genuine charges, fuel limits and unresolved work visible.
+
+This chapter adds **119 scenes and 10,456 authored prose words**, four human originals and two spirit beasts at native **1024×1536 RGBA**, and a separate **1536×1024** market painting. Original PNGs are retained; these are independently painted designs.
+
+![Qiao Sen in his mask workshop](docs/screenshots/city_mask_maker.png)
+
+![The independent Porcelain Courser](docs/screenshots/city_courser.png)
+
+![The Glasswing Moth](docs/screenshots/city_moth.png)
+
+![City resolution choices](docs/screenshots/city_choices.png)
 
 ## Clothing options
 
@@ -125,12 +141,12 @@ The twelve resting portraits come from the original GPT artwork. Body bobbing pr
 | Asset | Delivered |
 |---|---|
 | GPT Images artwork | 24 gesture key poses, twelve outfit reference portraits, one mountain-sect environment |
-| New world paintings | 5 original backgrounds + 30 extra interiors, 5 human NPCs, 3 spirit beasts, 2 items |
+| New world paintings | 6 original backgrounds + 30 extra interiors, 9 human NPCs, 5 spirit beasts, 2 items |
 | Character portraits | **12 intact portraits**: 4 characters × 3 outfits |
 | Animation playback | Sprite2D whole-body bobbing on a four-second loop |
 | Music | Original 48-second pentatonic plucked-string composition |
 | Sound effects | Page, bell, qi channeling, and sword |
-| AI voices | Piper neural narration for all 234 scenes; one Lessac narrator timbre with character pacing |
+| AI voices | Piper neural narration for all 353 scenes; one Lessac narrator timbre with character pacing |
 
 Portraits are extracted from GPT artwork and bobbed by Godot at runtime. The game has no lip sync. See [art provenance](assets/art/PROVENANCE.md) and the generated voice model card for sources and licensing.
 
@@ -161,7 +177,7 @@ flowchart TD
     GPT["GPT Images · resting portraits"] --> Prep["Python portrait extraction"]
     Prep --> Portraits["12 intact outfit portraits"]
     Portraits --> Cast["Sprite2D cast · whole-body bob"]
-    JSON["Story JSON · 234 scenes"] --> State["Story state · choices · stats"]
+    JSON["Story JSON · 353 scenes"] --> State["Story state · choices · stats"]
     Canon["Continuity ledger · required evidence checkpoints"] --> Verify
     Effects["Scene effects · reduced motion"] --> UI
     State --> UI["Godot interface · journal · saves"]

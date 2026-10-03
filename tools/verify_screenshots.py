@@ -7,7 +7,7 @@ from PIL import Image
 root = pathlib.Path(__file__).resolve().parents[1]
 folder = root / "build/screenshots"
 images = []
-for name in ("title", "dialogue", "cast", "wardrobe_training", "wardrobe_festival", "outfit_dialogue", "quest_hub", "spirit_encounter", "world_gallery", "ferry_encounter", "archive_encounter", "river_pilot", "river_spirit", "river_harbor", "object_bronze_clapper", "object_sealed_echo_case", "interior_gallery", "attributes", "attribute_choices", "orchard_healer", "orchard_spirit", "orchard_choices"):
+for name in ("title", "dialogue", "cast", "wardrobe_training", "wardrobe_festival", "outfit_dialogue", "quest_hub", "spirit_encounter", "world_gallery", "ferry_encounter", "archive_encounter", "river_pilot", "river_spirit", "river_harbor", "object_bronze_clapper", "object_sealed_echo_case", "interior_gallery", "attributes", "attribute_choices", "orchard_healer", "orchard_spirit", "orchard_choices", "city_market", "city_mask_maker", "city_archivist", "city_courier", "city_perfumer", "city_courser", "city_moth", "city_choices"):
     source = Image.open(folder / f"{name}.png").convert("RGB")
     assert source.width >= 1280 and source.height >= 720, "Capture must use the real game viewport"
     pixels = np.asarray(source)
@@ -29,7 +29,13 @@ assert not np.array_equal(images[1], images[17]), "Attributes must render a sepa
 assert not np.array_equal(images[1], images[18]), "Gated choices must render their visible requirements"
 assert not np.array_equal(images[19], images[20]), "Orchard healer and spirit must render distinct originals"
 assert not np.array_equal(images[20], images[21]), "Orchard settlement choices must render separately"
-print("Verified twenty-two rendered captures across four books, the world gallery, wardrobes and both painted objects.")
+for index in range(23, 29):
+    assert not np.array_equal(images[22], images[index]), "City portraits must render independently of the market"
+for first in range(23, 29):
+    for second in range(first + 1, 29):
+        assert not np.array_equal(images[first], images[second]), "Every city character must have a distinct rendered encounter"
+assert not np.array_equal(images[22], images[29]), "City settlement choices must render separately"
+print("Verified thirty rendered captures across five books, the world gallery, wardrobes and both painted objects.")
 
 # Timed samples come from the real Godot viewport.
 animation_folder = root / "build/animations"
