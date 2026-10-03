@@ -9,9 +9,18 @@ Each retained PNG is a new image-generation output. Maximum native detail was re
 | harbor_quarantine_quay | 1672×941 | RGB | `b739174b6e18f68fbfa16df210ea58c45d8b8aff` |
 | kiln_common_firing_hall | 1672×941 | RGB | `64b72469b88e4e06b632c444ab69ee9ab0335f82` |
 | salt_desert_survey_camp | 1672×941 | RGB | `29b21d2393579f772b536d2252fd84f71abf6fe2` |
+| mountain_archive_winter_hall | 1672×941 | RGB | `4b83f8f004b8aeb6a9cfae81c75c56ecb60efdf7` |
+| forest_autumn_boundary | 1672×941 | RGB | `bdfbcb3e65a8447e3ea8efe6952c64a5a53b245b` |
+| forest_kiln_workroom | 1672×941 | RGB | `4f0cfd5412fd1e4143e0cd7ee03e9099aaf7decf` |
+| forest_warden_lodge | 1672×941 | RGB | `00ae0609e29cbd60473ea6e3771243126bdb29d0` |
+| forest_boundary_map_room | 1672×941 | RGB | `78ccce64d2b389d273477d2877c7707a149abb6e` |
+| mountain_archive_autumn_courtyard | 1672×941 | RGB | `0a1cd6b8a351108409213acf1d2478812d5d7705` |
+| mountain_archive_winter_village | 1672×941 | RGB | `ce78e8ef72786f6ef14c5afd01851380e34d34e8` |
+| mountain_archive_winter_courtyard | 1672×941 | RGB | `92d603f3d121ec100df9f7f77cc728aa2260e7ae` |
+| kiln_understairs_archive | 1672×941 | RGB | `2007a424520749a67910b0d80f8044c58165f9b0` |
+| kiln_recovery_room | 1672×941 | RGB | `ccab70111ed10ec0ab8dacc2a77bda9e72d68de9` |
 | luo_zhen | 1024×1536 | RGBA | `3b0f01ce69db0dea349b220b3e378644ace3bacd` |
 | shi_lan | 1024×1536 | RGBA | `8ff3084d50933c0b830c4feeef1450e3eec97896` |
-| mountain_archive_winter_hall | 1672×941 | RGB | `4b83f8f004b8aeb6a9cfae81c75c56ecb60efdf7` |
 | harbor_he_ming | 1024×1536 | RGBA | `f1d8ce1e7ed0525a2cf6320fe2948fd0e77f0386` |
 | peng_ai | 1024×1536 | RGBA | `f6ef90aab8a738212eb4f52c2bd1a6a4f778802c` |
 | gao_ru | 1024×1536 | RGBA | `f5d53cb74465b79dd7e237b75a0ce11268b6f01c` |
@@ -25,14 +34,7 @@ Each retained PNG is a new image-generation output. Maximum native detail was re
 | wen_cai | 1024×1536 | RGBA | `9e3ed31bbcc6331f24e1311dd157ab84adb23f3b` |
 | pei_yun | 1024×1536 | RGBA | `ddaaa8b0ed39dbd64277c56866d3195be7f3515b` |
 | luo_sheng | 1024×1536 | RGBA | `db304e0ba73dbe3e67bbf43fc0a0432dc403ead1` |
-| forest_autumn_boundary | 1672×941 | RGB | `bdfbcb3e65a8447e3ea8efe6952c64a5a53b245b` |
-| forest_kiln_workroom | 1672×941 | RGB | `4f0cfd5412fd1e4143e0cd7ee03e9099aaf7decf` |
-| forest_warden_lodge | 1672×941 | RGB | `00ae0609e29cbd60473ea6e3771243126bdb29d0` |
-| forest_boundary_map_room | 1672×941 | RGB | `78ccce64d2b389d273477d2877c7707a149abb6e` |
 | tan_ning | 1024×1536 | RGBA | `75799c3132be4c521e59297a5f8705b24777d56c` |
-| mountain_archive_autumn_courtyard | 1672×941 | RGB | `0a1cd6b8a351108409213acf1d2478812d5d7705` |
-| mountain_archive_winter_village | 1672×941 | RGB | `ce78e8ef72786f6ef14c5afd01851380e34d34e8` |
-| mountain_archive_winter_courtyard | 1672×941 | RGB | `92d603f3d121ec100df9f7f77cc728aa2260e7ae` |
 | zhu_yan | 1024×1536 | RGBA | `9449ed5b9d79b44fbf4cde143de7bd8612cf5446` |
 | jian_rong | 1024×1536 | RGBA | `d6e7626bb9847c1420282811cb269df0d7c21cab` |
 | han_xun | 1024×1536 | RGBA | `35aec5e2c65173952b45fdfea23e7c94a21ba7ff` |
@@ -48,4 +50,4 @@ Each retained PNG is a new image-generation output. Maximum native detail was re
 | harbor_yan_su | 1024×1536 | RGBA | `432a7b5db97914ae33c060304052f124d405bea2` |
 | harbor_qin_shuo | 1024×1536 | RGBA | `eeb46421fef1ec02d8158a1ea76731ef1d992b1d` |
 
-The rejected Sun Nian output placed her cloudy eye on the wrong side and is excluded. The retained independent original has the cloudy anatomical left eye, on the viewer's right. All thirty principal cast portraits and thirteen environments are now retained; playable story participation will be checked at complete book integration.
+Thirty principal cast portraits and fifteen environments are retained. The rejected Sun Nian output placed her cloudy eye on the wrong side and is excluded. The retained independent original has the cloudy anatomical left eye, on the viewer's right. All thirty principal cast originals and the first thirteen locations passed native/artwork validation at source checkpoint ac224e2143c7f3e44dec5e872d6f5b304e4a9edb; the two subsequent kiln interiors require their own changed-source checks. Actual playable use and rendered captures will be verified at complete book integration.
