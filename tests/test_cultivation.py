@@ -76,11 +76,13 @@ class CultivationTests(unittest.TestCase):
                            "mite_cloth_001", "mite_scoop_001", "mite_warning_001"):
             seen = set()
             current = identifier
-            while current != "pendant":
+            rejoin = ("mortal_rejoin_001" if identifier.startswith("mortal_")
+                      else "tempering_after_001")
+            while current != rejoin:
                 self.assertNotIn(current, seen)
                 seen.add(current)
                 current = self.story["nodes"][current]["next"]
-            self.assertIn("tempering_after_013", seen)
+            self.assertIn(rejoin, self.reachable_without(""))
 
 
 if __name__ == "__main__":
