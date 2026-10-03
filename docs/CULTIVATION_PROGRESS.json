@@ -1,19 +1,19 @@
 {
-  "displayed_scenes": 1701,
-  "displayed_words": 145405,
+  "displayed_scenes": 1721,
+  "displayed_words": 146947,
   "new_training_scenes": 77,
   "new_training_words": 5182,
   "rewritten_book_i_scenes": 36,
   "rewritten_book_i_words": 2397,
-  "rewrite_words": 27292,
+  "rewrite_words": 28834,
   "strict_word_target": 1000001,
   "planned_rewrite_words": 1050000,
   "reference_checks": "pass",
   "duplicate_prose_checks": "pass",
   "continuity_checkpoints": "pass",
   "inherited_words": 118113,
-  "remaining_displayed_words": 854596,
-  "remaining_rewrite_words": 972709,
+  "remaining_displayed_words": 853054,
+  "remaining_rewrite_words": 971167,
   "native_art": [
     {
       "mime": "image/png",
@@ -166,6 +166,17 @@
       "bytes": 2434368,
       "pngColorType": 6,
       "commit": "9241b55d3b1db72c66b8b8ee31582bb9f34dce87"
+    },
+    {
+      "path": "assets/art/effects/second_pair_trace.png",
+      "mime": "image/png",
+      "size": [
+        1536,
+        1024
+      ],
+      "bytes": 2018944,
+      "pngColorType": 6,
+      "commit": "3682083bff35002415515e2801f2f4d7ed007a80"
     }
   ],
   "complete": false,
@@ -577,9 +588,29 @@
     "foundry_work_rejoin_001",
     "foundry_work_rejoin_002",
     "foundry_work_rejoin_003",
-    "foundry_work_rejoin_004"
+    "foundry_work_rejoin_004",
+    "foundry_route_001",
+    "foundry_route_002",
+    "foundry_route_003",
+    "foundry_route_004",
+    "foundry_route_005",
+    "foundry_route_006",
+    "foundry_route_007",
+    "foundry_route_008",
+    "foundry_route_009",
+    "foundry_route_010",
+    "foundry_route_011",
+    "foundry_route_012",
+    "foundry_route_013",
+    "foundry_route_014",
+    "foundry_route_015",
+    "foundry_route_016",
+    "foundry_route_017",
+    "foundry_route_018",
+    "foundry_route_019",
+    "foundry_route_020"
   ],
-  "rewrite_scenes": 395,
+  "rewrite_scenes": 415,
   "plot_repair_scene_ids": [
     "tempering_after_007",
     "tempering_after_009",
@@ -643,12 +674,12 @@
     "rewrite_word_change": 3035,
     "report": "docs/PLOT_HOLE_REVIEW.md"
   },
-  "foundry_scenes": 95,
-  "foundry_words": 7487,
+  "foundry_scenes": 115,
+  "foundry_words": 9029,
   "current_expansion": {
     "name": "Ash Bridge Foundry",
-    "new_scenes": 95,
-    "new_words": 7487,
+    "new_scenes": 115,
+    "new_words": 9029,
     "complete": false
   }
 }
