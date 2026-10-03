@@ -370,8 +370,8 @@
       "background": "stone_carvers_hall",
       "effect": "none",
       "cultivation": {
-        "realm": "body_tempering",
-        "stage": "Skin"
+        "realm": "mortal",
+        "stage": "Conditioned"
       },
       "next": "mortal_rejoin_002"
     },
@@ -383,8 +383,8 @@
       "background": "stone_carvers_hall",
       "effect": "none",
       "cultivation": {
-        "realm": "body_tempering",
-        "stage": "Skin"
+        "realm": "mortal",
+        "stage": "Conditioned"
       },
       "next": "mortal_rejoin_003"
     },
@@ -396,8 +396,8 @@
       "background": "stone_carvers_hall",
       "effect": "none",
       "cultivation": {
-        "realm": "body_tempering",
-        "stage": "Skin"
+        "realm": "mortal",
+        "stage": "Conditioned"
       },
       "next": "mortal_rejoin_004"
     },
@@ -409,8 +409,8 @@
       "background": "stone_carvers_hall",
       "effect": "none",
       "cultivation": {
-        "realm": "body_tempering",
-        "stage": "Skin"
+        "realm": "mortal",
+        "stage": "Conditioned"
       },
       "next": "mortal_rejoin_005"
     },
@@ -422,8 +422,8 @@
       "background": "stone_carvers_hall",
       "effect": "none",
       "cultivation": {
-        "realm": "body_tempering",
-        "stage": "Skin"
+        "realm": "mortal",
+        "stage": "Conditioned"
       },
       "next": "mortal_rejoin_006"
     },
@@ -435,8 +435,8 @@
       "background": "stone_carvers_hall",
       "effect": "none",
       "cultivation": {
-        "realm": "body_tempering",
-        "stage": "Skin"
+        "realm": "mortal",
+        "stage": "Conditioned"
       },
       "next": "mortal_rejoin_007"
     },
@@ -448,8 +448,8 @@
       "background": "stone_carvers_hall",
       "effect": "none",
       "cultivation": {
-        "realm": "body_tempering",
-        "stage": "Skin"
+        "realm": "mortal",
+        "stage": "Conditioned"
       },
       "next": "mortal_rejoin_008"
     },
@@ -465,6 +465,574 @@
         "stage": "Skin"
       },
       "next": "tempering_001"
+    },
+    "tempering_001": {
+      "chapter": "book_i",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Sinew work began with a cord stretched between two posts. Yue moved a clay weight along it, keeping his wrist, elbow and shoulder in the same line. He had lifted heavier clay for years. The difficulty was releasing the weight without a jerk. Every time his pride chose a faster movement, the cord trembled and the lesson began again from the empty hand.",
+      "background": "stone_carvers_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "body_tempering",
+        "stage": "Sinew"
+      },
+      "next": "tempering_002"
+    },
+    "tempering_002": {
+      "chapter": "book_i",
+      "speaker": "shen_qing",
+      "actor": "shen_qing",
+      "text": "Qing demonstrated with no spiritual reinforcement. 'An external channel wash can help tissue recover. It cannot perform this movement for you. We will use none until your baseline is clear.' Beside his own practice mark he drew a second mark for Qi Gathering. 'You are preparing the road. Later you may admit a traveler. A wider road with nobody on it is still empty.'",
+      "background": "stone_carvers_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "body_tempering",
+        "stage": "Sinew"
+      },
+      "next": "tempering_003"
+    },
+    "tempering_003": {
+      "chapter": "book_i",
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "Yue kept asking what qi felt like. Qing gave several answers and refused to make any one of them a rule. Coolness could come from sweat. Pressure could come from posture. Light behind closed eyes could come from squeezing them too hard. 'The sensation matters less than whether you can distinguish it from a blank and release it deliberately,' he said. Yue wished for an answer he could chase without checking.",
+      "background": "stone_carvers_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "body_tempering",
+        "stage": "Sinew"
+      },
+      "next": "tempering_004"
+    },
+    "tempering_004": {
+      "chapter": "book_i",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "In the sixth week, he tried to catch up with a student who had started younger. He doubled the cord weight after class. The first set felt manageable. The second left a bright ache down the inside of his forearm. By morning he could not hold the sieve without turning his wrist. The supervisor sent him to the clinic, and his record lost its next assessment date.",
+      "background": "stone_carvers_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "body_tempering",
+        "stage": "Sinew"
+      },
+      "next": "tempering_005"
+    },
+    "tempering_005": {
+      "chapter": "book_i",
+      "speaker": "elder_yun",
+      "actor": "elder_yun",
+      "text": "Yun found the extra weight beside his pallet. 'You have not lost the weeks you worked,' she said. 'You have lost the ability to use their result safely today. Those are different things.' She reduced his practice to ordinary walking and release strokes made with the uninjured hand. Yue asked whether she was punishing him. 'A tendon cannot understand punishment. It can understand load.'",
+      "background": "stone_carvers_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "body_tempering",
+        "stage": "Sinew"
+      },
+      "next": "tempering_006"
+    },
+    "tempering_006": {
+      "chapter": "book_i",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "For nine days, he worked at the ash ledger instead of the sieve. His wages were smaller. He used the grain he had set aside and borrowed no medicine he could not repay. The younger student passed Sinew while Yue was still practicing without the cord. Yue congratulated him badly, with a voice that sounded too tight. Afterward he wrote the envy down without trying to turn it into a technique.",
+      "background": "stone_carvers_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "body_tempering",
+        "stage": "Sinew"
+      },
+      "next": "tempering_007"
+    },
+    "tempering_007": {
+      "chapter": "book_i",
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "When the forearm stopped aching, the examiner still waited two more mornings before restoring the light weight. Yue had wanted to resume at the load he had lifted before the injury. He resumed below it. The slow movement felt humiliating until he noticed he could now feel the instant his shoulder began doing the wrist's job. That observation would not have appeared in a page titled Endured Everything.",
+      "background": "stone_carvers_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "body_tempering",
+        "stage": "Sinew"
+      },
+      "next": "tempering_008"
+    },
+    "tempering_008": {
+      "chapter": "book_i",
+      "speaker": "shen_qing",
+      "actor": "shen_qing",
+      "text": "'Qi follows paths your body can sustain,' Qing told the class. 'It does not repair every error simply because it is spiritual. Reinforce a twisted knee and you may twist it harder. Send a stronger pulse through an unprepared bridge and you may break it. Before we teach admission, each of you will show me how to end an attempt that is going badly.'",
+      "background": "stone_carvers_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "body_tempering",
+        "stage": "Sinew"
+      },
+      "next": "tempering_009"
+    },
+    "tempering_009": {
+      "chapter": "book_i",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The Sinew assessment used three weights and a request to stop midway through the second movement. Yue released cleanly. The examiner changed the angle of the cord for the third. He asked to reset his feet before lifting. She marked that request as part of the result. Two recovered days later, Sinew entered his record. There was still no light in the bowl.",
+      "background": "stone_carvers_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "body_tempering",
+        "stage": "Sinew"
+      },
+      "next": "tempering_010"
+    },
+    "tempering_010": {
+      "chapter": "book_i",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Bone practice moved to a stone bench in the sheltered yard. There were no blows to endure and no cliff to leap from. Yue carried an increasing load across ten paces, set it down, then repeated after rest. He learned how much the bench supported while he adjusted his grip. Under fatigue, his body tried to take a shortcut by leaning. The examiner measured the lean rather than rewarding the load.",
+      "background": "stone_carvers_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "body_tempering",
+        "stage": "Sinew"
+      },
+      "next": "tempering_011"
+    },
+    "tempering_011": {
+      "chapter": "book_i",
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "His first letter home listed the wages before the stages. He explained the injury and the delay, although the paper would have held a simpler version where everything went well. He could not afford to send a gift. Instead he drew the release stroke below the account and described how it worked. He folded the letter around one ordinary sentence: I am still trying, and I can still work.",
+      "background": "stone_carvers_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "body_tempering",
+        "stage": "Sinew"
+      },
+      "next": "tempering_012"
+    },
+    "tempering_012": {
+      "chapter": "book_i",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "By the eighth week, the bowl test was due. Yue arrived with rested hands and a stomach full of millet. The calibrated stone was hidden beneath one of three bowls. He called the first one empty and the second uncertain. At the third, he felt a fine pressure that did not keep his pulse's rhythm. He identified it twice. On the final comparison, he identified the empty bowl as the stone.",
+      "background": "stone_carvers_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "body_tempering",
+        "stage": "Sinew"
+      },
+      "next": "tempering_013"
+    },
+    "tempering_013": {
+      "chapter": "book_i",
+      "speaker": "shen_qing",
+      "actor": "shen_qing",
+      "text": "'There may be a faint mixed root,' Qing said. 'There is not yet a reliable result. We repeat in different room conditions next month.' Yue asked if he had failed. Qing answered yes, then turned the record to the page where Skin and Sinew remained. 'An unsuccessful sensing test does not erase the loads you can sustain. It changes which lesson comes next.'",
+      "background": "stone_carvers_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "body_tempering",
+        "stage": "Sinew"
+      },
+      "next": "tempering_014"
+    },
+    "tempering_014": {
+      "chapter": "book_i",
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "Yue walked down to the wage office with the same hemp cord he had worn on his first day. The office offered another term. He could leave with enough money for the road home, or stay and earn another month's meals. He waited until the disappointment had stopped moving through his hands. Then he signed the term without pretending that the signature itself was a breakthrough.",
+      "background": "stone_carvers_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "body_tempering",
+        "stage": "Sinew"
+      },
+      "next": "tempering_015"
+    },
+    "tempering_015": {
+      "chapter": "book_i",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The lower terrace did not celebrate his decision. A sack of grit had torn in the furnace corridor. Yue joined the cleanup after supper, marking contaminated tiles with chalk so nobody would carry the dust into the sleeping rooms. Behind the furnace door came a clicking noise. It stopped when he stopped sweeping, then began again beside a heap that should have been cold.",
+      "background": "stone_carvers_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "body_tempering",
+        "stage": "Sinew"
+      },
+      "next": "tempering_016"
+    },
+    "tempering_016": {
+      "chapter": "book_i",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "A furnace mite unfolded from the grit. Its shell was dark and layered like fired pottery. Between the plates shone a narrow orange heat. Yue had seen drawings in the disposal manual: a creature that fed on residual furnace qi and could spit hot particles when cornered. He held an ordinary broom. His body had two tempering assessments. Neither made his skin safe against burning grit.",
+      "background": "stone_carvers_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "body_tempering",
+        "stage": "Sinew"
+      },
+      "next": "tempering_017"
+    },
+    "tempering_017": {
+      "chapter": "book_i",
+      "speaker": "shen_qing",
+      "actor": "shen_qing",
+      "text": "From the far end of the corridor, Qing raised one hand. 'Step toward me. Leave the sack. Keep its path to the hot grate open.' He was far enough away that Yue would have to pass the broken heap to reach him. Yue looked for something he could use without approaching the creature. Along the wall hung the soaked ash cloths and a long-handled clay scoop.",
+      "background": "stone_carvers_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "body_tempering",
+        "stage": "Sinew"
+      },
+      "next": "tempering_018"
+    },
+    "tempering_018": {
+      "chapter": "book_i",
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "The mite clicked again. Yue had dreamed of a first battle where power answered the urgency of his need. Nothing answered now except what he remembered from work. The cloth could intercept loose grit. The scoop could shift a cold obstacle from the corridor. His own task was to keep his face away from the heat and reach the marked safe line.",
+      "background": "stone_carvers_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "body_tempering",
+        "stage": "Sinew"
+      },
+      "next": "mortal_mite_choice"
+    },
+    "mortal_mite_choice": {
+      "chapter": "book_i",
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "background": "stone_carvers_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "body_tempering",
+        "stage": "Sinew"
+      },
+      "text": "Yue could retreat behind a soaked cloth, clear the cold obstruction with the long scoop, or call the sleeping workers away from the corridor while Qing handled the animal. None required him to touch its shell. His hand moved once toward the practice sword at his belt. Then he left it there. He knew how little an ordinary blade could change the temperature of flying grit.",
+      "choices": [
+        {
+          "text": "Shield the retreat with a soaked ash cloth.",
+          "next": "mite_cloth_001",
+          "effects": {
+            "resolve": 1
+          }
+        },
+        {
+          "text": "Use the long scoop to clear its path to the grate.",
+          "next": "mite_scoop_001",
+          "effects": {
+            "insight": 1
+          }
+        },
+        {
+          "text": "Warn the workers and keep the corridor empty.",
+          "next": "mite_warning_001",
+          "effects": {
+            "trust": 1
+          }
+        }
+      ]
+    },
+    "mite_cloth_001": {
+      "chapter": "book_i",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Yue lifted the soaked cloth between his face and the heap, leaving room at its side so the mite was not boxed in. A few hot grains struck the fibers and hissed. He backed toward Qing without trying to watch around the cloth. At the safe line, he lowered it onto the marked tile. One corner was scorched. The water on his glove had warmed, but his hand was unburned.",
+      "background": "stone_carvers_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "body_tempering",
+        "stage": "Sinew"
+      },
+      "next": "mite_cloth_002"
+    },
+    "mite_cloth_002": {
+      "chapter": "book_i",
+      "speaker": "shen_qing",
+      "actor": "shen_qing",
+      "text": "Qing guided the mite toward the open grate with a small grounded talisman. The creature followed the stronger heat and disappeared behind the protected mesh. 'You used the cloth within its rating,' he said. 'We replace it before another shift. A tool that saved you once may have less protection left.' Yue marked the damage on the disposal sheet and resisted describing the cloth as a shield technique.",
+      "background": "stone_carvers_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "body_tempering",
+        "stage": "Sinew"
+      },
+      "next": "tempering_after_001"
+    },
+    "mite_scoop_001": {
+      "chapter": "book_i",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The long scoop reached the cold shard blocking the grate approach. Yue moved it sideways a handspan at a time. The mite struck the handle once, leaving a blackened notch beyond his grip. He withdrew rather than taking a second strike. The gap was wide enough. Qing set a grounded lure beside it, and the creature crawled toward the heat it knew.",
+      "background": "stone_carvers_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "body_tempering",
+        "stage": "Sinew"
+      },
+      "next": "mite_scoop_002"
+    },
+    "mite_scoop_002": {
+      "chapter": "book_i",
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "Yue wanted to keep the notched handle as evidence of his first victory. The supervisor told him to remove it from service. He wrote why on the repair tag: heat damage beyond the rated surface, strength uncertain. His useful action had been moving an obstacle. The mite was alive, the corridor was clear, and the scoop needed repair. Those facts were enough for the report.",
+      "background": "stone_carvers_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "body_tempering",
+        "stage": "Sinew"
+      },
+      "next": "tempering_after_001"
+    },
+    "mite_warning_001": {
+      "chapter": "book_i",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Yue called to the nearest sleeping room and asked its occupants to use the outer stair. He repeated the instruction until two people came out carrying their blankets in the correct direction. Behind him, Qing placed a lure by the grate. The mite followed it before the last room emptied. No one received a burn. Yue checked the rooms anyway, because the empty corridor did not tell him whether everyone had heard.",
+      "background": "stone_carvers_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "body_tempering",
+        "stage": "Sinew"
+      },
+      "next": "mite_warning_002"
+    },
+    "mite_warning_002": {
+      "chapter": "book_i",
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "The supervisor thanked him for keeping people away and assigned him the next morning's return check. Yue had imagined praise would feel like a door opening. This praise came with another small task. He did it. At breakfast he listened to someone describe Qing's talisman as the entire incident, then added the warning route to the written record where the next worker could use it.",
+      "background": "stone_carvers_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "body_tempering",
+        "stage": "Sinew"
+      },
+      "next": "tempering_after_001"
+    },
+    "tempering_after_001": {
+      "chapter": "book_i",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The incident report required no beast core and awarded no cultivation stage. The furnace grate received a new mesh guard. Yue's useful actions came from work he had once thought kept him away from cultivation. For the rest of the month he practiced with the same caution he used around hot grit: learn the limits, preserve a way out and do not trust excitement to measure distance.",
+      "background": "stone_carvers_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "body_tempering",
+        "stage": "Sinew"
+      },
+      "next": "tempering_after_002"
+    },
+    "tempering_after_002": {
+      "chapter": "book_i",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Bone entered his record in the eleventh week. Marrow work began after it. He walked, worked, ate, practiced and slept while an examiner compared his morning and evening coordination. The task was continuity. A brilliant afternoon followed by an exhausted morning could not pass. Yue's first three-day attempt failed because he spent the last night's sleep copying a lesson he was afraid to forget.",
+      "background": "stone_carvers_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "body_tempering",
+        "stage": "Bone"
+      },
+      "next": "tempering_after_003"
+    },
+    "tempering_after_003": {
+      "chapter": "book_i",
+      "speaker": "elder_yun",
+      "actor": "elder_yun",
+      "text": "Yun took away no book. She asked him to copy the same release stroke after breakfast. The line drifted before reaching the grounding mark. Yue could see the error. 'You chose an hour of study that made the next hour unusable,' she said. 'Write the net result, then plan again.' That evening he closed the primer before he had finished wanting to read it.",
+      "background": "stone_carvers_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "body_tempering",
+        "stage": "Bone"
+      },
+      "next": "tempering_after_004"
+    },
+    "tempering_after_004": {
+      "chapter": "book_i",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The next attempt included a shorter practice session and a full rest day before the comparison. His ordinary strength had changed less than he hoped. His steadiness had changed more. The examiner interrupted one movement, changed the next task and asked him to explain when he would stop. Yue answered without searching for a heroic reason to continue. Marrow was marked after the final recovered morning.",
+      "background": "stone_carvers_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "body_tempering",
+        "stage": "Marrow"
+      },
+      "next": "tempering_after_005"
+    },
+    "tempering_after_005": {
+      "chapter": "book_i",
+      "speaker": "shen_qing",
+      "actor": "shen_qing",
+      "text": "At the next bowl test, Yue identified the calibrated stone across three rooms. He repeated the result after walking and after the bowls were rearranged. Qing then removed every stone. Yue named the blank correctly. 'Mixed root, low admission efficiency,' Qing recorded. 'Reliable perception at this load.' Yue stared at the words. Seven years of wanting had not made them inevitable. Twelve weeks of measured work had made them possible.",
+      "background": "stone_carvers_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "body_tempering",
+        "stage": "Marrow"
+      },
+      "next": "tempering_after_006"
+    },
+    "tempering_after_006": {
+      "chapter": "book_i",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Permission to attempt admission came with a practice wick, a grounding mat and a limit small enough to disappoint him. The wick's light would measure one breath-unit at a time. Qing made Yue demonstrate the release stroke before placing the first stone in the room's array. The lower dantian was still only the site of a reservoir. Today they would learn whether a trace could enter and leave without injury.",
+      "background": "stone_carvers_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "body_tempering",
+        "stage": "Marrow"
+      },
+      "next": "tempering_after_007"
+    },
+    "tempering_after_007": {
+      "chapter": "book_i",
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "The first trace felt cooler than his own hand. Yue guided it toward the prepared route and lost it when someone dropped a cup outside. Nothing remained after he stood. The second trace snagged where his forearm had been injured. He released immediately and wrote down the snag. Qing ended the session. Yue had felt real qi for the first time, and the right final action had been to let it go.",
+      "background": "stone_carvers_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "body_tempering",
+        "stage": "Marrow"
+      },
+      "next": "tempering_after_008"
+    },
+    "tempering_after_008": {
+      "chapter": "book_i",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "For six days he returned to low-load circulation without storage. The old injury set the pace. Admission that morning could mean no cord practice that afternoon. Yue learned to hate the calculation and then to do it anyway. The room's fuel ledger charged his sessions against a finite allowance. There would be no extra stone because he felt close. He used each attempt only after the previous day's tremor check.",
+      "background": "stone_carvers_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "body_tempering",
+        "stage": "Marrow"
+      },
+      "next": "tempering_after_009"
+    },
+    "tempering_after_009": {
+      "chapter": "book_i",
+      "speaker": "shen_qing",
+      "actor": "shen_qing",
+      "text": "'Now close the trace into the lower dantian,' Qing said. 'Do not press. Let the return route carry it.' Yue watched the imagined shape fail twice before he stopped imagining a lake. The sensation was smaller: a point that remained when his breath changed. He stood, walked ten paces and returned. The wick glimmered for half an exhalation, then went dark.",
+      "background": "stone_carvers_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "body_tempering",
+        "stage": "Marrow"
+      },
+      "next": "tempering_after_010"
+    },
+    "tempering_after_010": {
+      "chapter": "book_i",
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "Half a breath-unit. Yue wrote the number with a hand that wanted to turn it into poetry. He waited through the next day before trying again. His evening measurement was smaller, not larger. He had worked a full shift and skipped the short rest. He changed the schedule. The lesson did not care how important the previous evening had felt.",
+      "background": "stone_carvers_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "body_tempering",
+        "stage": "Marrow"
+      },
+      "next": "tempering_after_011"
+    },
+    "tempering_after_011": {
+      "chapter": "book_i",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "On the nineteenth day of admission practice, three breath-units remained after a quiet night. Yue did not receive a stage that morning. The test had to be repeated on separate days, with clean release and no next-day tremor. He lit the copper wick, watched three short glimmers and discharged what remained into the grounding mark. The room smelled of ordinary lamp oil. He went to work.",
+      "background": "stone_carvers_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "body_tempering",
+        "stage": "Marrow"
+      },
+      "next": "tempering_after_012"
+    },
+    "tempering_after_012": {
+      "chapter": "book_i",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The second test passed after rain made the practice room colder. The third passed after a morning walk changed his breathing. Between them, Yue had one session where nothing stayed, and two sessions canceled for fatigue. The record kept all five results. When Qing drew the line under the final comparison, the failures remained above it. They showed what conditions the success actually depended on.",
+      "background": "stone_carvers_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "body_tempering",
+        "stage": "Marrow"
+      },
+      "next": "tempering_after_013"
+    },
+    "tempering_after_013": {
+      "chapter": "book_i",
+      "speaker": "shen_qing",
+      "actor": "shen_qing",
+      "text": "'Qi Gathering, first stage: Trace,' Qing said. 'Three retained breath-units. Clean release. Stable recovered hand.' He handed Yue a green examination cord and left the hemp work tablet attached beneath it. 'You may learn to light a wick and reinforce a prepared movement later. You cannot bind a mountain, heal a tendon or draw sword aura. You have earned the first lesson in a larger kind of caution.'",
+      "background": "stone_carvers_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "1: Trace"
+      },
+      "next": "tempering_after_014"
+    },
+    "tempering_after_014": {
+      "chapter": "book_i",
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "Yue carried the two cords to his room and laid them beside the pendant. The jade had not changed. His body had. His notebook now held the bruise, the injury, the failed bowl tests, the meals, the debts and three successful morning measurements. He wrote home that he had entered the first stage. In the next sentence he wrote that he still worked in the ash room.",
+      "background": "stone_carvers_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "1: Trace"
+      },
+      "next": "tempering_after_015"
+    },
+    "tempering_after_015": {
+      "chapter": "book_i",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Two weeks later, the upper mountain began shedding blue dust. The practice arrays hummed beyond their normal range. Yue's wick lit too easily near the stair, then went out when Qing moved him to a protected room. The extra light belonged to the mountain's troubled field. It could not be added to Yue's measured reserve. The same correction that had once disappointed him now kept him from admitting a dangerous load.",
+      "background": "stone_carvers_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "1: Trace"
+      },
+      "next": "tempering_after_016"
+    },
+    "tempering_after_016": {
+      "chapter": "book_i",
+      "speaker": "elder_yun",
+      "actor": "elder_yun",
+      "text": "Yun arrived at the lower terrace after dusk. She saw the pendant where Yue had laid it beside his notebook and finally said his mother's name. 'I asked her to bring that memory to the lake. She returned carrying it, and lost years she had meant to keep.' Yue stood. 'You told me to learn an exit before an entrance,' he said. 'Is that advice you followed?'",
+      "background": "stone_carvers_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "1: Trace"
+      },
+      "next": "tempering_after_017"
+    },
+    "tempering_after_017": {
+      "chapter": "book_i",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Yun accepted the question without answering it yet. She asked him to bring the pendant to the upper gate, by the protected stair and with Qing beside him. Yue packed his release notes along with the cloth around the jade. Ten thousand steps waited above the lower terrace. He knew how much his legs could carry and how little qi he could retain. For once, he climbed without confusing the two.",
+      "background": "stone_carvers_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "1: Trace"
+      },
+      "next": "pendant"
     }
   }
 }
