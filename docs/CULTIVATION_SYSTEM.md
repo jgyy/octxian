@@ -474,3 +474,7 @@ flowchart TD
     Step --> Mantis["Isolate source · lower pressure · open exit"]
     Mantis --> Valley["Valley work within novice limits"]
 ```
+
+### Ash-bridge fourth-stage assessment
+
+The local method requires eighteen usable breath-units after ordinary activity and sleep, at least 87% compatible charge, and two distinct paired routes carrying quarter-unit tasks successively with full discharge. Independent interruption control, three recovered calibrated trials and normal next-day sensation are mandatory. The second pair uses complementary outer-forearm and upper-arm paths to the shoulder junction; no leg route, middle dantian or extraordinary vessel opens here. Pulse quantity, rate, duration and phase compatibility remain separate limits. The six-contact phase comb measures external comparisons, never an internal meridian directly.
