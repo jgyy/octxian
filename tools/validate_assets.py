@@ -33,7 +33,7 @@ def main():
     catalog = json.loads(raw_catalog)
     manifest = json.loads((OUT / "sprites/manifest.json").read_text())
     assert manifest["catalog_sha256"] == hashlib.sha256(raw_catalog).hexdigest()
-    assert manifest["version"] == 4 and manifest["generator"] == GENERATOR
+    assert manifest["version"] == 5 and manifest["generator"] == GENERATOR
     assert manifest["cell"] == list(CELL)
     assert manifest["baker_sha256"] == digest(ROOT / "tools/animation_baker.py")
     assert set(manifest["outfits"]) == {item["id"] for item in catalog["outfits"]}
@@ -43,12 +43,14 @@ def main():
     paths = set()
     for outfit in catalog["outfits"]:
         entry = manifest["outfits"][outfit["id"]]
-        assert entry["source"] == outfit["poses"]
-        assert entry["source_sha256"] == digest(ROOT / outfit["poses"])
         assert set(entry["characters"]) == set(catalog["characters"])
         for character, info in entry["characters"].items():
             suffix = "" if outfit["id"] == "sect" else "_" + outfit["id"]
             assert info["path"] == f"assets/generated/sprites/{character}{suffix}.png"
+            original = ROOT / outfit["portraits"][character]
+            assert info["source"] == outfit["portraits"][character]
+            assert info["source_sha256"] == digest(original)
+            assert info["sha256"] == digest(original), "Runtime portraits must retain native source bytes"
             path = ROOT / info["path"]
             assert digest(path) == info["sha256"]
             with Image.open(path) as source:

@@ -93,7 +93,7 @@ func _run() -> void:
 				game.actor.show_character(id, motion, str(clothing["id"]))
 				check(game.actor.outfit == clothing["id"], "Every character outfit should load")
 				var portrait: Texture2D = game.actor.sprite.texture
-				check(portrait != null and portrait.get_size() == Vector2(384, 512), "Every outfit must load one intact portrait")
+				check(portrait != null and portrait.get_size() == Vector2(1024, 1536), "Every outfit must load one intact portrait")
 				game.actor.set_process(false)
 				game.actor.reset_motion()
 				game.actor._process(1.0)

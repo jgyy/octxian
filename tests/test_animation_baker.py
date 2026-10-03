@@ -1,34 +1,45 @@
-"""Protect intact portraits from stretching and split-body regressions."""
+"""Protect retained native sources from resizing, flattening and source substitution."""
+import json
 import pathlib
-import sys
+import tempfile
 import unittest
-
 from PIL import Image, ImageDraw
-
-sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / "tools"))
-from animation_baker import CELL, extract_portrait
+from tools.animation_baker import CELL, bake_sprites, digest, validate_native_portrait
 
 
 class PortraitTests(unittest.TestCase):
-    def test_selects_the_resting_pose_without_mixing_in_the_second_pose(self):
-        sheet = Image.new("RGBA", (200, 600))
-        draw = ImageDraw.Draw(sheet)
-        draw.rectangle((20, 20, 180, 270), fill=(20, 100, 200, 255))
-        draw.rectangle((20, 330, 180, 580), fill=(240, 40, 20, 255))
-        portrait = extract_portrait(sheet, 0, 1)
-        self.assertEqual(portrait.size, CELL)
-        self.assertEqual(portrait.getpixel((192, 300)), (20, 100, 200, 255))
-        self.assertEqual(portrait.getpixel((0, 0))[3], 0)
+    def test_native_bytes_survive_generation_and_cache_reuse(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = pathlib.Path(temporary)
+            (root / "data").mkdir()
+            source = root / "portrait.png"
+            image = Image.new("RGBA", CELL)
+            ImageDraw.Draw(image).rectangle((200, 100, 800, 1400), fill=(40, 120, 80, 255))
+            image.save(source)
+            catalog = {"characters": ["lin_yue"], "outfits": [
+                {"id": "sect", "portraits": {"lin_yue": "portrait.png"}}]}
+            (root / "data/wardrobe.json").write_text(json.dumps(catalog))
+            output = root / "assets/generated"
+            bake_sprites(root, output)
+            runtime = output / "sprites/lin_yue.png"
+            self.assertEqual(runtime.read_bytes(), source.read_bytes())
+            original_hash = digest(runtime)
+            bake_sprites(root, output)
+            self.assertEqual(digest(runtime), original_hash)
+            manifest = json.loads((output / "sprites/manifest.json").read_text())
+            self.assertEqual(manifest["outfits"]["sect"]["characters"]["lin_yue"]["native_size"], list(CELL))
 
-    def test_preserves_the_proportions_of_a_wide_portrait(self):
-        sheet = Image.new("RGBA", (600, 600))
-        ImageDraw.Draw(sheet).rectangle((20, 40, 580, 240), fill=(40, 120, 80, 255))
-        box = extract_portrait(sheet, 0, 1).getchannel("A").point(lambda value: 255 if value >= 160 else 0).getbbox()
-        self.assertAlmostEqual((box[2] - box[0]) / (box[3] - box[1]), 561 / 201, delta=0.08)
-
-    def test_missing_portrait_fails_instead_of_publishing_an_empty_character(self):
-        with self.assertRaises(ValueError):
-            extract_portrait(Image.new("RGBA", (200, 600)), 0, 1)
+    def test_low_resolution_flattened_and_empty_sources_are_rejected(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            path = pathlib.Path(temporary) / "invalid.png"
+            for mode, size, color in [("RGBA", (384, 512), (1, 2, 3, 255)),
+                                      ("RGB", CELL, (1, 2, 3)),
+                                      ("RGBA", CELL, (0, 0, 0, 0)),
+                                      ("RGBA", CELL, (1, 2, 3, 255))]:
+                with self.subTest(mode=mode, size=size, color=color):
+                    Image.new(mode, size, color).save(path)
+                    with self.assertRaises(ValueError):
+                        validate_native_portrait(path)
 
 
 if __name__ == "__main__":
