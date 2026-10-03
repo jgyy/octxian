@@ -1,6 +1,6 @@
 # Cultivation canon and manuscript architecture
 
-The rewrite centers on Lin Yue's cultivation. He begins at twenty-four as a mortal kiln worker with no retained qi and an initially unmeasured ordinary mixed root. He earns training through work and persists through failed tests, injury, hunger, envy and recovery. The pendant carries an offered memory; it supplies no root, technique, skill, reserve or realm.
+The rewrite centers on Lin Yue's cultivation. She begins at twenty-four as a mortal kiln worker with no retained qi and an initially unmeasured ordinary mixed root. She earns training through work and persists through failed tests, injury, hunger, envy and recovery. The pendant carries an offered memory; it supplies no root, technique, skill, reserve or realm.
 
 The machine-readable canon is [data/cultivation.json](../data/cultivation.json). The game exposes it through **Attributes → Cultivation realms**. Realm labels in the opening come from authored scene metadata. Qi, Trust, Insight and Resolve remain separate choice attributes; their point ranks do not grant cultivation realms.
 

@@ -103,18 +103,19 @@
     "arrival": {
       "speaker": "narrator",
       "actor": "lin_yue",
-      "text": "Lin Yue reached the lower recruitment terrace with a worker's recommendation, forty-three copper coins and no sensed qi. Above him, Azure Cloud floated on an array he could not understand. He had spent seven years trying to cultivate after ordinary kiln shifts. The testing queue advanced one place. He tightened the cord around his bedding, loosened it again when his fingers cramped, and joined the other applicants.",
+      "text": "Lin Yue reached the lower recruitment terrace with a worker's recommendation, forty-three copper coins and no sensed qi. Above her, Azure Cloud floated on an array she could not understand. She had spent seven years trying to cultivate after ordinary kiln shifts. The testing queue advanced one place. She tightened the cord around her bedding, loosened it again when her fingers cramped, and joined the other applicants.",
       "next": "mortal_001",
       "chapter": "book_i",
       "cultivation": {
         "realm": "mortal",
         "stage": "Unsensed"
-      }
+      },
+      "background": "lower_training_terrace"
     },
     "pendant": {
       "speaker": "lin_yue",
       "actor": "lin_yue",
-      "text": "At the upper gate, Yue held the jade in one hand and his release notes in the other. 'Three retained breath-units,' he told Qing before anyone asked. 'First stage. I can admit and discharge a trace. If that is too little for the work inside, tell me now.' The jade was warm, as it had been throughout every failed lesson. It had carried a memory. It had never carried his practice for him.",
+      "text": "At the upper gate, Yue held the jade in one hand and her release notes in the other. 'Three retained breath-units,' she told Qing before anyone asked. 'First stage. I can admit and discharge a trace. If that is too little for the work inside, tell me now.' The jade was warm, as it had been throughout every failed lesson. It had carried a memory. It had never carried her practice for her.",
       "next": "gate",
       "chapter": "book_i",
       "cultivation": {
@@ -147,7 +148,7 @@
     "first_choice": {
       "speaker": "shen_qing",
       "actor": "shen_qing",
-      "text": "Qing offered a padded testing cradle for the pendant. 'It may answer the sealed memory array. The cradle is grounded; your skin is not its fuel. We can test it before going farther, inspect the damaged gate gauge, or keep it wrapped until Yun explains the lake.' Yue looked at the unfamiliar circuit and the release stroke he knew. He would have to choose what he could verify first.",
+      "text": "Qing offered a padded testing cradle for the pendant. 'It may answer the sealed memory array. The cradle is grounded; your skin is not its fuel. We can test it before going farther, inspect the damaged gate gauge, or keep it wrapped until Yun explains the lake.' Yue looked at the unfamiliar circuit and the release stroke she knew. She would have to choose what she could verify first.",
       "choices": [
         {
           "text": "Test the jade in the grounded cradle.",
@@ -182,7 +183,7 @@
       "speaker": "shen_qing",
       "actor": "shen_qing",
       "animation": "resolve",
-      "text": "Yue placed the jade in the cradle. Qing let him direct the small release trace he had practiced for weeks, then supplied the array's required fuel from a separate stone. The jade stopped trembling. 'Good closure,' Qing said. 'The memory response came from the object. The controlled trace came from you. Keep both measurements separate.' Yue retrieved the pendant before they left the gate.",
+      "text": "Yue placed the jade in the cradle. Qing let her direct the small release trace she had practiced for weeks, then supplied the array's required fuel from a separate stone. The jade stopped trembling. 'Good closure,' Qing said. 'The memory response came from the object. The controlled trace came from you. Keep both measurements separate.' Yue retrieved the pendant before they left the gate.",
       "next": "courtyard",
       "chapter": "book_i",
       "cultivation": {
@@ -193,7 +194,7 @@
     "question": {
       "speaker": "shen_qing",
       "actor": "shen_qing",
-      "text": "The gauge recorded rising pressure from the mountain's lifting array. 'Our founder bound a living star below the reservoir,' Qing said. 'The array has drawn from it for nine hundred years. Three nights ago the return circuit stopped balancing the intake.' Yue read the rated load on the plate. His own reserve would not move its smallest main valve. Finding the release path would matter more.",
+      "text": "The gauge recorded rising pressure from the mountain's lifting array. 'Our founder bound a living star below the reservoir,' Qing said. 'The array has drawn from it for nine hundred years. Three nights ago the return circuit stopped balancing the intake.' Yue read the rated load on the plate. Her own reserve would not move its smallest main valve. Finding the release path would matter more.",
       "next": "courtyard",
       "chapter": "book_i",
       "cultivation": {
@@ -216,7 +217,7 @@
       "speaker": "narrator",
       "actor": "lin_yue",
       "animation": "wind",
-      "text": "Plum petals rose through the courtyard because the lifting field was leaking into the air above the isolation rails. Yue remembered the practice wick that had lit too easily on the lower stair. He kept admission closed. A faint voice came from beneath the pavilion, where the main array met the buried reservoir. He could hear it with his ears. He did not have to send a trace toward it.",
+      "text": "Plum petals rose through the courtyard because the lifting field was leaking into the air above the isolation rails. Yue remembered the practice wick that had lit too easily on the lower stair. She kept admission closed. A faint voice came from beneath the pavilion, where the main array met the buried reservoir. She could hear it with her ears. She did not have to send a trace toward it.",
       "next": "elder",
       "chapter": "book_i",
       "cultivation": {
@@ -227,7 +228,7 @@
     "elder": {
       "speaker": "elder_yun",
       "actor": "elder_yun",
-      "text": "Yun stood beside a shut fuel cabinet. 'Your mother's eyes,' she said, then looked at his notebook. 'And work she never had the chance to record.' Yue wanted that recognition to explain his faint root. Yun did not offer the explanation. 'Your examination was yours. This pendant concerns a different debt. I owe you its account before asking for help.'",
+      "text": "Yun stood beside a shut fuel cabinet. 'Your mother's eyes,' she said, then looked at her notebook. 'And work she never had the chance to record.' Yue wanted that recognition to explain her faint root. Yun did not offer the explanation. 'Your examination was yours. This pendant concerns a different debt. I owe you its account before asking for help.'",
       "next": "mother",
       "chapter": "book_i",
       "cultivation": {
@@ -238,7 +239,7 @@
     "mother": {
       "speaker": "lin_yue",
       "actor": "lin_yue",
-      "text": "'You knew the jade was here,' Yue said. 'You watched me fail tests without mentioning her. Why?' Yun took the question before the cabinet keys. 'Because her history was not a safe substitute for your training. I also delayed because the history shames me.' Yue kept the wrapped pendant in his palm. 'Then tell it before we make another circuit.'",
+      "text": "'You knew the jade was here,' Yue said. 'You watched me fail tests without mentioning her. Why?' Yun took the question before the cabinet keys. 'Because her history was not a safe substitute for your training. I also delayed because the history shames me.' Yue kept the wrapped pendant in her palm. 'Then tell it before we make another circuit.'",
       "next": "truth",
       "chapter": "book_i",
       "cultivation": {
@@ -260,7 +261,7 @@
     "cultivation_choice": {
       "speaker": "elder_yun",
       "actor": "elder_yun",
-      "text": "Yun spread three preparation sheets on the pavilion table. The crisis had no room for a new realm. Yue could calibrate his small relay, compare the release inscription with the founder's plan, or rehearse the marked evacuation path. Each used skills he already possessed. The main array would remain isolated while they worked.",
+      "text": "Yun spread three preparation sheets on the pavilion table. The crisis had no room for a new realm. Yue could calibrate her small relay, compare the release inscription with the founder's plan, or rehearse the marked evacuation path. Each used skills she already possessed. The main array would remain isolated while they worked.",
       "choices": [
         {
           "text": "Calibrate the small relay at your safe load.",
@@ -295,7 +296,7 @@
       "actor": "lin_yue",
       "animation": "channeling",
       "sfx": "qi",
-      "text": "Yue used the grounded practice wick from his examination. He admitted a trace, closed it and measured the release three times. Qing adjusted a relay so its input would trip below Yue's safe load. The preparation improved his familiarity with this circuit. His lower dantian remained the same small reservoir he had brought up the stairs. He had earned a safer task, not another stage.",
+      "text": "Yue used the grounded practice wick from her examination. She admitted a trace, closed it and measured the release three times. Qing adjusted a relay so its input would trip below Yue's safe load. The preparation improved her familiarity with this circuit. Her lower dantian remained the same small reservoir she had brought up the stairs. She had earned a safer task, not another stage.",
       "next": "exile",
       "effect": "qi",
       "chapter": "book_i",
@@ -307,7 +308,7 @@
     "inscription": {
       "speaker": "lin_yue",
       "actor": "lin_yue",
-      "text": "Yue compared the founder's drawing to the array plate. The exit stroke ended short of its grounding mark, exactly where his first ordinary ink copies had failed. 'The shelter circuit was altered to hold its source,' he said. Yun checked his reading against the older rubbing. His useful discovery came from a month of dull pages that had never once shone.",
+      "text": "Yue compared the founder's drawing to the array plate. The exit stroke ended short of its grounding mark, exactly where her first ordinary ink copies had failed. 'The shelter circuit was altered to hold its source,' she said. Yun checked her reading against the older rubbing. Her useful discovery came from a month of dull pages that had never once shone.",
       "next": "exile",
       "chapter": "book_i",
       "cultivation": {
@@ -320,7 +321,7 @@
       "actor": "lin_yue",
       "animation": "resolve",
       "sfx": "sword",
-      "text": "Yue walked the evacuation path with his ordinary blade sheathed. He checked the rail, the turn where two people could not pass and the signal for stopping the descent. Sword drills had taught him to move without crossing his feet. Today that skill would help someone follow him in darkness. The blade would not cut an ancient main seal. He marked the safe turn with white chalk.",
+      "text": "Yue walked the evacuation path with her ordinary blade sheathed. She checked the rail, the turn where two people could not pass and the signal for stopping the descent. Sword drills had taught her to move without crossing her feet. Today that skill would help someone follow her in darkness. The blade would not cut an ancient main seal. She marked the safe turn with white chalk.",
       "next": "exile",
       "chapter": "book_i",
       "cultivation": {
@@ -364,7 +365,7 @@
     "listen_choice": {
       "speaker": "lin_yue",
       "actor": "lin_yue",
-      "text": "Before they entered the reservoir stair, Yue asked for one account that could change the plan. The star's wish, the people exposed above, and Yun's earlier failure each had consequences for closing the array. His notebook held room for facts. It did not hold enough reserve to solve a question he chose to ignore.",
+      "text": "Before they entered the reservoir stair, Yue asked for one account that could change the plan. The star's wish, the people exposed above, and Yun's earlier failure each had consequences for closing the array. Her notebook held room for facts. It did not hold enough reserve to solve a question she chose to ignore.",
       "choices": [
         {
           "text": "Ask the exile what the star wants.",
@@ -434,7 +435,7 @@
       "actor": "lin_yue",
       "animation": "wind",
       "sfx": "bell",
-      "text": "The reservoir stair descended beside an intact grounding rail. Qing checked each landing before Yue followed. Below, a lake without reflection covered the source chamber. The star was small enough to shelter in two hands, yet the array surrounding it covered the cavern roof. Yue stopped behind the isolation line. He could feel pressure there without admitting it. His first useful discipline was keeping his own circuit shut.",
+      "text": "The reservoir stair descended beside an intact grounding rail. Qing checked each landing before Yue followed. Below, a lake without reflection covered the source chamber. The star was small enough to shelter in two hands, yet the array surrounding it covered the cavern roof. Yue stopped behind the isolation line. She could feel pressure there without admitting it. Her first useful discipline was keeping her own circuit shut.",
       "next": "star",
       "effect": "bell",
       "chapter": "book_i",
@@ -446,7 +447,7 @@
     "star": {
       "speaker": "narrator",
       "actor": "lin_yue",
-      "text": "A voice came through the speaking conduit above the lake. 'Did she send you? The woman who sat beside me while I forgot the names of my constellations?' Yue could answer in ordinary speech. Yun checked the return gauge while Qing kept the stair open. Nothing required the novice to surrender his mind, touch the source water or pretend to understand the star's inner cultivation.",
+      "text": "A voice came through the speaking conduit above the lake. 'Did she send you? The woman who sat beside me while I forgot the names of my constellations?' Yue could answer in ordinary speech. Yun checked the return gauge while Qing kept the stair open. Nothing required the novice to surrender her mind, touch the source water or pretend to understand the star's inner cultivation.",
       "next": "answer",
       "chapter": "book_i",
       "cultivation": {
@@ -457,7 +458,7 @@
     "answer": {
       "speaker": "lin_yue",
       "actor": "lin_yue",
-      "text": "'She gave me a memory to carry here,' Yue said. 'I could not travel safely then. I have learned enough to reach you now, and enough to know I cannot promise what I cannot sustain.' He asked whether the star wanted the memory projected. After the answer, Yun set the grounded cradle beside the conduit. Yue kept hold of the pendant until its release path was checked.",
+      "text": "'She gave me a memory to carry here,' Yue said. 'I could not travel safely then. I have learned enough to reach you now, and enough to know I cannot promise what I cannot sustain.' She asked whether the star wanted the memory projected. After the answer, Yun set the grounded cradle beside the conduit. Yue kept hold of the pendant until its release path was checked.",
       "next": "memory",
       "chapter": "book_i",
       "cultivation": {
@@ -469,7 +470,7 @@
       "speaker": "narrator",
       "actor": "lin_yue",
       "animation": "channeling",
-      "text": "The projection showed his mother sharing an orange beside the lake. The casing remained whole in the cradle. The memory's brief light drew from its stored image charge, not from Yue's root or the star's unoffered thoughts. He watched without acquiring her technique. When the projection ended, he lifted the warm jade again. The useful inheritance was the example of someone sitting down to listen.",
+      "text": "The projection showed her mother sharing an orange beside the lake. The casing remained whole in the cradle. The memory's brief light drew from its stored image charge, not from Yue's root or the star's unoffered thoughts. She watched without acquiring her technique. When the projection ended, she lifted the warm jade again. The useful inheritance was the example of someone sitting down to listen.",
       "next": "fracture",
       "effect": "qi",
       "chapter": "book_i",
@@ -493,7 +494,7 @@
     "final_choice": {
       "speaker": "lin_yue",
       "actor": "lin_yue",
-      "text": "Yue laid the corrected release diagram beside the fuel account. They could distribute temporary support through rated relays, build a covenant with a usable exit, or ground the mountain through its old landing anchors. If his preparation was insufficient, the others could coordinate the established emergency procedure. None would turn his first qi trace into a higher realm.",
+      "text": "Yue laid the corrected release diagram beside the fuel account. They could distribute temporary support through rated relays, build a covenant with a usable exit, or ground the mountain through its old landing anchors. If her preparation was insufficient, the others could coordinate the established emergency procedure. None would turn her first qi trace into a higher realm.",
       "choices": [
         {
           "text": "Coordinate support through rated willing relays.",
@@ -544,7 +545,7 @@
       "actor": "lin_yue",
       "animation": "channeling",
       "sfx": "qi",
-      "text": "'Use my relay only within its tested load,' Yue said. He supplied a small closure pulse while Qing connected the separately fueled support branches. Yun reduced intake from the star in stages. Yue did not feed the lifting array. He watched his wick and stopped when the relay's scheduled turn ended. Above them, each willing operator had a rated task and another person ready to take over.",
+      "text": "'Use my relay only within its tested load,' Yue said. She supplied a small closure pulse while Qing connected the separately fueled support branches. Yun reduced intake from the star in stages. Yue did not feed the lifting array. She watched her wick and stopped when the relay's scheduled turn ended. Above them, each willing operator had a rated task and another person ready to take over.",
       "next": "ending_shared",
       "effect": "qi",
       "chapter": "book_i",
@@ -558,7 +559,7 @@
       "actor": "lin_yue",
       "animation": "channeling",
       "sfx": "qi",
-      "text": "Yue traced the missing release stroke on a copy and showed where it must meet the grounding mark. Yun performed the main inscription with her established core control. Qing verified that the exit worked before reconnecting support. The covenant allowed the star to choose a bounded return with a clear departure. Understanding the stroke let Yue assist. It did not give his hand the power needed to carve it.",
+      "text": "Yue traced the missing release stroke on a copy and showed where it must meet the grounding mark. Yun performed the main inscription with her established core control. Qing verified that the exit worked before reconnecting support. The covenant allowed the star to choose a bounded return with a clear departure. Understanding the stroke let Yue assist. It did not give her hand the power needed to carve it.",
       "next": "ending_covenant",
       "effect": "qi",
       "chapter": "book_i",
@@ -595,7 +596,7 @@
       "speaker": "narrator",
       "actor": "shen_qing",
       "ending": "The Shared Sky",
-      "text": "At dawn, temporary support lanterns marked the mountain paths. Independent stones fed the rated branches while willing operators took short control turns. The star carried a smaller agreed load and could request another rest. Azure Cloud remained aloft with a fuel deadline it now had to honor. Yue returned to the lower terrace at Qi Gathering's first stage. The work tablet still hung beneath his examination cord.",
+      "text": "At dawn, temporary support lanterns marked the mountain paths. Independent stones fed the rated branches while willing operators took short control turns. The star carried a smaller agreed load and could request another rest. Azure Cloud remained aloft with a fuel deadline it now had to honor. Yue returned to the lower terrace at Qi Gathering's first stage. The work tablet still hung beneath her examination cord.",
       "continuation": "lantern_shared",
       "chapter": "book_i",
       "cultivation": {
@@ -607,7 +608,7 @@
       "speaker": "narrator",
       "actor": "elder_yun",
       "ending": "A Vow Without Chains",
-      "text": "The star rose through the open source conduit, then chose to return at sunset under the new bounded covenant. Azure Cloud remained aloft while stored anchors carried the interval. Yun planted an orange tree beside the lake after arranging the next fuel review. Yue kept the intact pendant and copied the corrected exit into his notebook. His own next task was still a recovered morning measurement.",
+      "text": "The star rose through the open source conduit, then chose to return at sunset under the new bounded covenant. Azure Cloud remained aloft while stored anchors carried the interval. Yun planted an orange tree beside the lake after arranging the next fuel review. Yue kept the intact pendant and copied the corrected exit into her notebook. Her own next task was still a recovered morning measurement.",
       "continuation": "lantern_covenant",
       "chapter": "book_i",
       "cultivation": {
@@ -619,7 +620,7 @@
       "speaker": "narrator",
       "actor": "mo_ran",
       "ending": "Where Mountains Take Root",
-      "text": "The landing anchors took the mountain's weight in measured stages, leaving every roof below intact. The star departed into the open sky. Azure Cloud stood on earth, and the old exile boundary no longer enclosed Mo Ran's road. Yue rested the intact jade against the ground, then lifted it again. He had helped with a transition using a novice's bounded task. Tomorrow he would practice the same first-stage circuit.",
+      "text": "The landing anchors took the mountain's weight in measured stages, leaving every roof below intact. The star departed into the open sky. Azure Cloud stood on earth, and the old exile boundary no longer enclosed Mo Ran's road. Yue rested the intact jade against the ground, then lifted it again. She had helped with a transition using a novice's bounded task. Tomorrow she would practice the same first-stage circuit.",
       "continuation": "lantern_release",
       "chapter": "book_i",
       "cultivation": {
