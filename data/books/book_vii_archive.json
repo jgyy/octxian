@@ -9,7 +9,11 @@
       "chapter": "book_vii",
       "background": "valley_archive",
       "effect": "none",
-      "next": "ring_archive_door"
+      "next": "ring_archive_door",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_door": {
       "speaker": "an_ru",
@@ -18,7 +22,11 @@
       "chapter": "book_vii",
       "background": "valley_archive",
       "effect": "none",
-      "next": "ring_archive_return_work"
+      "next": "ring_archive_return_work",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_return_work": {
       "speaker": "narrator",
@@ -27,7 +35,11 @@
       "chapter": "book_vii",
       "background": "archive_copy_room",
       "effect": "none",
-      "next": "ring_archive_city_visit"
+      "next": "ring_archive_city_visit",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_city_visit": {
       "speaker": "mei_dulan",
@@ -36,7 +48,11 @@
       "chapter": "book_vii",
       "background": "archive_copy_room",
       "effect": "none",
-      "next": "ring_archive_boundary"
+      "next": "ring_archive_boundary",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_boundary": {
       "speaker": "an_ru",
@@ -45,7 +61,11 @@
       "chapter": "book_vii",
       "background": "archive_consent_room",
       "effect": "none",
-      "next": "ring_archive_volunteered"
+      "next": "ring_archive_volunteered",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_volunteered": {
       "speaker": "narrator",
@@ -54,7 +74,11 @@
       "chapter": "book_vii",
       "background": "archive_consent_room",
       "effect": "none",
-      "next": "ring_archive_private_copy"
+      "next": "ring_archive_private_copy",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_private_copy": {
       "speaker": "shen_qing",
@@ -63,16 +87,24 @@
       "chapter": "book_vii",
       "background": "archive_consent_room",
       "effect": "none",
-      "next": "ring_archive_mortality"
+      "next": "ring_archive_mortality",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_mortality": {
       "speaker": "narrator",
       "actor": "lin_yue",
-      "text": "An Ru accepted the lamp and adjusted its wick herself. Shen Qing watched the small ceremony with the discomfort of a disciple whose useful power had become an inconvenience. Lin Yue understood it too well. She had once dried a whole basket of soaked rice with qi and congratulated herself before finding the middle grains cooked into paste. Her mother had made them eat that paste for supper. The memory arrived without a bronze ring or another person's witness. It belonged to the ordinary labor she had mistaken for an obstacle.",
+      "text": "An Ru adjusted the ordinary lamp herself. Shen Qing looked uncomfortable that his useful power offered so little help to this table. Lin Yue remembered drying soaked rice too close to a kiln's hot-air vent. The middle grains cooked into paste. Her mother had made them eat it for supper. Lin Yue had been mortal then; heat from someone else's furnace was never her own qi. The memory needed no ring or borrowed witness. It reminded her how easily a convenient source could be mistaken for a skill.",
       "chapter": "book_vii",
       "background": "archive_copy_room",
       "effect": "none",
-      "next": "ring_archive_occupied"
+      "next": "ring_archive_occupied",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_occupied": {
       "speaker": "an_ru",
@@ -81,7 +113,11 @@
       "chapter": "book_vii",
       "background": "archive_copy_room",
       "effect": "none",
-      "next": "ring_archive_missing_line"
+      "next": "ring_archive_missing_line",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_missing_line": {
       "speaker": "narrator",
@@ -90,7 +126,11 @@
       "chapter": "book_vii",
       "background": "archive_copy_room",
       "effect": "none",
-      "next": "ring_archive_correction"
+      "next": "ring_archive_correction",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_correction": {
       "speaker": "mei_dulan",
@@ -99,7 +139,11 @@
       "chapter": "book_vii",
       "background": "archive_copy_room",
       "effect": "none",
-      "next": "ring_archive_father"
+      "next": "ring_archive_father",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_father": {
       "speaker": "narrator",
@@ -108,7 +152,11 @@
       "chapter": "book_vii",
       "background": "archive_copy_room",
       "effect": "none",
-      "next": "ring_archive_witness_limit"
+      "next": "ring_archive_witness_limit",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_witness_limit": {
       "speaker": "an_ru",
@@ -117,7 +165,11 @@
       "chapter": "book_vii",
       "background": "archive_copy_room",
       "effect": "none",
-      "next": "ring_archive_qi_window"
+      "next": "ring_archive_qi_window",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_qi_window": {
       "speaker": "narrator",
@@ -126,7 +178,11 @@
       "chapter": "book_vii",
       "background": "archive_copy_room",
       "effect": "none",
-      "next": "ring_archive_ask_help"
+      "next": "ring_archive_ask_help",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_ask_help": {
       "speaker": "lin_yue",
@@ -150,7 +206,11 @@
             "resolve": 1
           }
         }
-      ]
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_bench_join": {
       "speaker": "narrator",
@@ -159,7 +219,11 @@
       "chapter": "book_vii",
       "background": "archive_copy_room",
       "effect": "none",
-      "next": "ring_archive_first_sheet"
+      "next": "ring_archive_first_sheet",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_first_sheet": {
       "speaker": "an_ru",
@@ -168,7 +232,11 @@
       "chapter": "book_vii",
       "background": "archive_copy_room",
       "effect": "none",
-      "next": "ring_archive_alias_ink"
+      "next": "ring_archive_alias_ink",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_alias_ink": {
       "speaker": "narrator",
@@ -177,7 +245,11 @@
       "chapter": "book_vii",
       "background": "archive_copy_room",
       "effect": "none",
-      "next": "ring_archive_permit_serial"
+      "next": "ring_archive_permit_serial",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_permit_serial": {
       "speaker": "mei_dulan",
@@ -186,7 +258,11 @@
       "chapter": "book_vii",
       "background": "archive_copy_room",
       "effect": "none",
-      "next": "ring_archive_serial_caution"
+      "next": "ring_archive_serial_caution",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_serial_caution": {
       "speaker": "shen_qing",
@@ -195,7 +271,11 @@
       "chapter": "book_vii",
       "background": "archive_copy_room",
       "effect": "none",
-      "next": "ring_archive_split_folio"
+      "next": "ring_archive_split_folio",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_split_folio": {
       "speaker": "narrator",
@@ -204,7 +284,11 @@
       "chapter": "book_vii",
       "background": "archive_copy_room",
       "effect": "none",
-      "next": "ring_archive_repair_date"
+      "next": "ring_archive_repair_date",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_repair_date": {
       "speaker": "an_ru",
@@ -213,7 +297,11 @@
       "chapter": "book_vii",
       "background": "archive_copy_room",
       "effect": "none",
-      "next": "ring_archive_repair_cost"
+      "next": "ring_archive_repair_cost",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_repair_cost": {
       "speaker": "narrator",
@@ -222,7 +310,11 @@
       "chapter": "book_vii",
       "background": "archive_copy_room",
       "effect": "none",
-      "next": "ring_archive_grandmother"
+      "next": "ring_archive_grandmother",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_grandmother": {
       "speaker": "lin_yue",
@@ -231,7 +323,11 @@
       "chapter": "book_vii",
       "background": "archive_copy_room",
       "effect": "none",
-      "next": "ring_archive_apprenticeship"
+      "next": "ring_archive_apprenticeship",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_apprenticeship": {
       "speaker": "narrator",
@@ -240,7 +336,11 @@
       "chapter": "book_vii",
       "background": "archive_copy_room",
       "effect": "none",
-      "next": "ring_archive_mortal_pace"
+      "next": "ring_archive_mortal_pace",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_mortal_pace": {
       "speaker": "shen_qing",
@@ -249,7 +349,11 @@
       "chapter": "book_vii",
       "background": "archive_copy_room",
       "effect": "none",
-      "next": "ring_archive_scaffold"
+      "next": "ring_archive_scaffold",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_scaffold": {
       "speaker": "narrator",
@@ -258,7 +362,11 @@
       "chapter": "book_vii",
       "background": "valley_archive",
       "effect": "none",
-      "next": "ring_archive_latch_falls"
+      "next": "ring_archive_latch_falls",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_latch_falls": {
       "speaker": "narrator",
@@ -267,7 +375,11 @@
       "chapter": "book_vii",
       "background": "valley_archive",
       "effect": "none",
-      "next": "ring_archive_paused"
+      "next": "ring_archive_paused",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_paused": {
       "speaker": "an_ru",
@@ -276,7 +388,11 @@
       "chapter": "book_vii",
       "background": "valley_archive",
       "effect": "none",
-      "next": "ring_archive_qi_restraint"
+      "next": "ring_archive_qi_restraint",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_qi_restraint": {
       "speaker": "narrator",
@@ -285,7 +401,11 @@
       "chapter": "book_vii",
       "background": "valley_archive",
       "effect": "none",
-      "next": "ring_archive_wet_papers"
+      "next": "ring_archive_wet_papers",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_wet_papers": {
       "speaker": "mei_dulan",
@@ -294,7 +414,11 @@
       "chapter": "book_vii",
       "background": "archive_copy_room",
       "effect": "none",
-      "next": "ring_archive_finding_bound"
+      "next": "ring_archive_finding_bound",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_finding_bound": {
       "speaker": "narrator",
@@ -303,7 +427,11 @@
       "chapter": "book_vii",
       "background": "archive_copy_room",
       "effect": "none",
-      "next": "ring_archive_object_difference"
+      "next": "ring_archive_object_difference",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_object_difference": {
       "speaker": "an_ru",
@@ -312,7 +440,11 @@
       "chapter": "book_vii",
       "background": "archive_copy_room",
       "effect": "none",
-      "next": "ring_archive_account_stub"
+      "next": "ring_archive_account_stub",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_account_stub": {
       "speaker": "narrator",
@@ -321,7 +453,11 @@
       "chapter": "book_vii",
       "background": "archive_copy_room",
       "effect": "none",
-      "next": "ring_archive_signatures"
+      "next": "ring_archive_signatures",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_signatures": {
       "speaker": "mei_dulan",
@@ -330,7 +466,11 @@
       "chapter": "book_vii",
       "background": "archive_copy_room",
       "effect": "none",
-      "next": "ring_archive_copy_gap"
+      "next": "ring_archive_copy_gap",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_copy_gap": {
       "speaker": "narrator",
@@ -339,7 +479,11 @@
       "chapter": "book_vii",
       "background": "archive_copy_room",
       "effect": "none",
-      "next": "ring_archive_released_folio"
+      "next": "ring_archive_released_folio",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_released_folio": {
       "speaker": "an_ru",
@@ -348,7 +492,11 @@
       "chapter": "book_vii",
       "background": "archive_copy_room",
       "effect": "none",
-      "next": "ring_archive_reconsider"
+      "next": "ring_archive_reconsider",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_reconsider": {
       "speaker": "lin_yue",
@@ -357,7 +505,11 @@
       "chapter": "book_vii",
       "background": "archive_copy_room",
       "effect": "none",
-      "next": "ring_archive_meal"
+      "next": "ring_archive_meal",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_meal": {
       "speaker": "narrator",
@@ -366,7 +518,11 @@
       "chapter": "book_vii",
       "background": "archive_copy_room",
       "effect": "none",
-      "next": "ring_archive_mei_admission"
+      "next": "ring_archive_mei_admission",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_mei_admission": {
       "speaker": "mei_dulan",
@@ -375,7 +531,11 @@
       "chapter": "book_vii",
       "background": "archive_copy_room",
       "effect": "none",
-      "next": "ring_archive_city_shadow"
+      "next": "ring_archive_city_shadow",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_city_shadow": {
       "speaker": "an_ru",
@@ -384,7 +544,11 @@
       "chapter": "book_vii",
       "background": "archive_copy_room",
       "effect": "none",
-      "next": "ring_archive_quiet_choice"
+      "next": "ring_archive_quiet_choice",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_quiet_choice": {
       "speaker": "narrator",
@@ -408,7 +572,11 @@
             "trust": 1
           }
         }
-      ]
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_bruise_common": {
       "speaker": "narrator",
@@ -417,7 +585,11 @@
       "chapter": "book_vii",
       "background": "archive_copy_room",
       "effect": "none",
-      "next": "ring_archive_vocation"
+      "next": "ring_archive_vocation",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_vocation": {
       "speaker": "an_ru",
@@ -426,7 +598,11 @@
       "chapter": "book_vii",
       "background": "archive_copy_room",
       "effect": "none",
-      "next": "ring_archive_apprentice_record"
+      "next": "ring_archive_apprentice_record",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_apprentice_record": {
       "speaker": "narrator",
@@ -435,7 +611,11 @@
       "chapter": "book_vii",
       "background": "archive_copy_room",
       "effect": "none",
-      "next": "ring_archive_record_scope"
+      "next": "ring_archive_record_scope",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_record_scope": {
       "speaker": "shen_qing",
@@ -444,7 +624,11 @@
       "chapter": "book_vii",
       "background": "archive_copy_room",
       "effect": "none",
-      "next": "ring_archive_public_not_private"
+      "next": "ring_archive_public_not_private",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_public_not_private": {
       "speaker": "mei_dulan",
@@ -453,7 +637,11 @@
       "chapter": "book_vii",
       "background": "archive_copy_room",
       "effect": "none",
-      "next": "ring_archive_erasure_repair"
+      "next": "ring_archive_erasure_repair",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_erasure_repair": {
       "speaker": "narrator",
@@ -462,7 +650,11 @@
       "chapter": "book_vii",
       "background": "archive_copy_room",
       "effect": "none",
-      "next": "ring_archive_no_accident"
+      "next": "ring_archive_no_accident",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_no_accident": {
       "speaker": "lin_yue",
@@ -471,7 +663,11 @@
       "chapter": "book_vii",
       "background": "archive_copy_room",
       "effect": "none",
-      "next": "ring_archive_discrepancy"
+      "next": "ring_archive_discrepancy",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_discrepancy": {
       "speaker": "narrator",
@@ -480,7 +676,11 @@
       "chapter": "book_vii",
       "background": "archive_copy_room",
       "effect": "none",
-      "next": "ring_archive_evening_light"
+      "next": "ring_archive_evening_light",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_evening_light": {
       "speaker": "narrator",
@@ -489,7 +689,11 @@
       "chapter": "book_vii",
       "background": "archive_copy_room",
       "effect": "none",
-      "next": "ring_archive_permit_correction"
+      "next": "ring_archive_permit_correction",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_permit_correction": {
       "speaker": "an_ru",
@@ -498,7 +702,11 @@
       "chapter": "book_vii",
       "background": "archive_copy_room",
       "effect": "none",
-      "next": "ring_archive_private_witness"
+      "next": "ring_archive_private_witness",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_private_witness": {
       "speaker": "mei_dulan",
@@ -507,7 +715,11 @@
       "chapter": "book_vii",
       "background": "archive_consent_room",
       "effect": "none",
-      "next": "ring_archive_no_identification_yet"
+      "next": "ring_archive_no_identification_yet",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_no_identification_yet": {
       "speaker": "narrator",
@@ -516,7 +728,11 @@
       "chapter": "book_vii",
       "background": "archive_consent_room",
       "effect": "none",
-      "next": "ring_archive_own_memory"
+      "next": "ring_archive_own_memory",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_own_memory": {
       "speaker": "lin_yue",
@@ -525,7 +741,11 @@
       "chapter": "book_vii",
       "background": "archive_consent_room",
       "effect": "none",
-      "next": "ring_archive_consent_ledger"
+      "next": "ring_archive_consent_ledger",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_consent_ledger": {
       "speaker": "an_ru",
@@ -534,7 +754,11 @@
       "chapter": "book_vii",
       "background": "archive_consent_room",
       "effect": "none",
-      "next": "ring_archive_report_draft"
+      "next": "ring_archive_report_draft",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_report_draft": {
       "speaker": "narrator",
@@ -543,7 +767,11 @@
       "chapter": "book_vii",
       "background": "archive_copy_room",
       "effect": "none",
-      "next": "ring_archive_objections"
+      "next": "ring_archive_objections",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_objections": {
       "speaker": "shen_qing",
@@ -552,7 +780,11 @@
       "chapter": "book_vii",
       "background": "archive_copy_room",
       "effect": "none",
-      "next": "ring_archive_incomplete_chain"
+      "next": "ring_archive_incomplete_chain",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_incomplete_chain": {
       "speaker": "mei_dulan",
@@ -561,7 +793,11 @@
       "chapter": "book_vii",
       "background": "archive_copy_room",
       "effect": "none",
-      "next": "ring_archive_custody_separate"
+      "next": "ring_archive_custody_separate",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_custody_separate": {
       "speaker": "narrator",
@@ -570,7 +806,11 @@
       "chapter": "book_vii",
       "background": "archive_copy_room",
       "effect": "none",
-      "next": "ring_archive_learning"
+      "next": "ring_archive_learning",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_learning": {
       "speaker": "shen_qing",
@@ -579,7 +819,11 @@
       "chapter": "book_vii",
       "background": "archive_copy_room",
       "effect": "none",
-      "next": "ring_archive_pack"
+      "next": "ring_archive_pack",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_pack": {
       "speaker": "an_ru",
@@ -588,7 +832,11 @@
       "chapter": "book_vii",
       "background": "archive_copy_room",
       "effect": "none",
-      "next": "ring_archive_threshold"
+      "next": "ring_archive_threshold",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_threshold": {
       "speaker": "narrator",
@@ -597,7 +845,11 @@
       "chapter": "book_vii",
       "background": "valley_archive",
       "effect": "none",
-      "next": "ring_archive_exit"
+      "next": "ring_archive_exit",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_exit": {
       "speaker": "lin_yue",
@@ -606,7 +858,11 @@
       "chapter": "book_vii",
       "background": "bell_tower_square",
       "effect": "none",
-      "next": "ring_findings"
+      "next": "ring_findings",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_charter_lesson": {
       "speaker": "an_ru",
@@ -615,7 +871,11 @@
       "chapter": "book_vii",
       "background": "archive_copy_room",
       "effect": "none",
-      "next": "ring_archive_bench_join"
+      "next": "ring_archive_bench_join",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_permit_lesson": {
       "speaker": "mei_dulan",
@@ -624,7 +884,11 @@
       "chapter": "book_vii",
       "background": "archive_copy_room",
       "effect": "none",
-      "next": "ring_archive_bench_join"
+      "next": "ring_archive_bench_join",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_apprentice_pause": {
       "speaker": "an_ru",
@@ -633,7 +897,11 @@
       "chapter": "book_vii",
       "background": "archive_copy_room",
       "effect": "none",
-      "next": "ring_archive_bruise_common"
+      "next": "ring_archive_bruise_common",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ring_archive_quiet_pause": {
       "speaker": "narrator",
@@ -642,7 +910,11 @@
       "chapter": "book_vii",
       "background": "archive_copy_room",
       "effect": "none",
-      "next": "ring_archive_bruise_common"
+      "next": "ring_archive_bruise_common",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     }
   }
 }

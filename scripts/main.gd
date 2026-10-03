@@ -33,6 +33,8 @@ var status_label: Label
 var background := TextureRect.new()
 var world: Dictionary = {}
 var background_paths: Dictionary = {}
+var cultivation_catalog: Dictionary = {}
+var cultivation_entries: Array[Dictionary] = []
 var world_previews: Dictionary = {}
 var item_image: TextureRect
 var item_description: RichTextLabel
@@ -47,6 +49,9 @@ func _ready() -> void:
 		world = catalog
 		for entry in world.get("backgrounds", []):
 			background_paths[str(entry.id)] = "res://" + str(entry.path)
+	var realm_data = JSON.parse_string(FileAccess.get_file_as_string("res://data/cultivation.json"))
+	if realm_data is Dictionary:
+		cultivation_catalog = realm_data
 	background.texture = load("res://assets/art/azure_cloud.webp")
 	background.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
 	background.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_COVERED
@@ -171,26 +176,26 @@ func _header() -> void:
 func _title() -> void:
 	is_reading = false
 	atmosphere.set_effect("lanterns")
-	background.texture = load("res://assets/art/azure_cloud.webp")
+	background.texture = load("res://assets/art/world/lower_training_terrace.png")
 	audio.voice.stop()
 	_clear()
 	_header()
 	actor.display_height = 730.0
 	actor.position = Vector2(1190, 518)
 	actor.show_character("lin_yue", "idle", wardrobe.selected("lin_yue"))
-	_label("BOOK I   /   THE STAR BENEATH THE MOUNTAIN", Vector2(95, 222), 14, GOLD)
+	_label("BOOK I   /   THE FIRST RETAINED BREATH", Vector2(95, 222), 14, GOLD)
 	_line(Vector2(95, 267), 86)
 	var title := _label("Jade Vow", Vector2(89, 290), 112)
 	_serif(title)
-	_label("A thousand paths.\nOne promise.", Vector2(97, 448), 36, JADE)
-	_label("Ascend the mist. Uncover a forgotten covenant.\nChoose what you will carry into the heavens.", Vector2(99, 563), 22)
+	_label("A mortal beginning.\nAn earned ascent.", Vector2(97, 448), 36, JADE)
+	_label("Work. Fail. Recover. Learn to retain your first breath of qi.\nBuild the foundation of a path into the heavens.", Vector2(99, 563), 22)
 	_button("Begin your journey   →", Vector2(98, 661), 327, _begin)
 	var resume := _button("Continue", Vector2(441, 661), 166, _resume)
 	resume.disabled = not StoryState.has_save()
 	_label("%d story scenes  ·  %d books  ·  A living, animated cast" % [state.story.nodes.size(), state.story.get("chapters", {}).size()], Vector2(100, 738), 15, JADE)
 	_line(Vector2(72, 822), 1424, Color(0.8, 0.75, 0.6, 0.25))
 	_label("AZURE CLOUD SECT", Vector2(74, 842), 12, GOLD)
-	_label("Chapter one • The arrival", Vector2(660, 842), 12, JADE)
+	_label("Chapter one • The mortal terrace", Vector2(660, 842), 12, JADE)
 	_label("Press Enter to begin", Vector2(1300, 842), 12, JADE)
 
 func _begin() -> void:
@@ -226,6 +231,8 @@ func _scene() -> void:
 	background.texture = load(background_path)
 	var totals := _label("QI %02d    TRUST %02d    INSIGHT %02d    RESOLVE %02d" % [state.stats.qi, state.stats.trust, state.stats.insight, state.stats.resolve], Vector2(78, 222), 14, JADE)
 	totals.name = "AttributeTotals"
+	var realm_label := _label(_cultivation_label(node), Vector2(78, 246), 13, GOLD)
+	realm_label.name = "CultivationRealm"
 	if node.has("ending"):
 		_label("ENDING DISCOVERED", Vector2(80, 315), 13, GOLD)
 		var ending_label := _label(str(node.ending), Vector2(78, 343), 36)
@@ -245,7 +252,10 @@ func _scene() -> void:
 	var speaker_label := _label(str(character.name), Vector2(104, 599), 24, Color(character.color))
 	speaker_label.name = "SpeakerName"
 	var title_x := maxf(280.0, speaker_label.position.x + speaker_label.get_minimum_size().x + 24.0)
-	var speaker_title := _label(str(character.title), Vector2(title_x, 607), 13, JADE)
+	var character_title: String = str(character.title)
+	if speaker_id == "lin_yue" and node.has("cultivation"):
+		character_title = _cultivation_label(node)
+	var speaker_title := _label(character_title, Vector2(title_x, 607), 13, JADE)
 	speaker_title.name = "SpeakerTitle"
 	_line(Vector2(104, 638), 1388, Color(0.65, 0.72, 0.62, 0.2))
 	dialogue = RichTextLabel.new()
@@ -461,12 +471,91 @@ func _close_popup() -> void:
 		popup.queue_free()
 		popup = null
 
+
+func _cultivation_label(node: Dictionary) -> String:
+	var progress: Dictionary = node.get("cultivation", {})
+	if progress.is_empty():
+		return ""
+	for entry in cultivation_catalog.get("realms", []):
+		if str(entry.id) == str(progress.get("realm", "")):
+			return "%s · %s" % [entry.name, progress.get("stage", "")]
+	return ""
+
+func _cultivation() -> void:
+	var column := _make_popup("The gates of cultivation")
+	popup.name = "CultivationPanel"
+	popup.position = Vector2(210, 95)
+	popup.size = Vector2(1180, 700)
+	column.add_theme_constant_override("separation", 12)
+	var hint := Label.new()
+	hint.text = "Realms require practice, demonstrated control and recovery. Attribute points do not grant a realm."
+	hint.add_theme_font_size_override("font_size", 16)
+	column.add_child(hint)
+	cultivation_entries.clear()
+	var fundamentals: String = "RESERVE, CONTROL AND RECOVERY\n\n"
+	for key in cultivation_catalog.get("measures", {}):
+		fundamentals += "%s\n%s\n\n" % [str(key).capitalize(), cultivation_catalog.measures[key]]
+	fundamentals += "THE PRACTICE CYCLE\n\n"
+	for step in cultivation_catalog.get("cycle", []):
+		fundamentals += "%d. %s\n%s\n\n" % [step.step, step.name, step.rule]
+	cultivation_entries.append({"name": "Practice and measurement", "text": fundamentals})
+	for entry in cultivation_catalog.get("realms", []):
+		var content: String = "%s\n\nSTAGES\n%s\n\n" % [entry.name, " → ".join(PackedStringArray(entry.stages))]
+		for field in ["mechanism", "admission", "practice", "breakthrough", "capabilities", "limits", "failure", "recovery", "span"]:
+			content += "%s\n%s\n\n" % [str(field).capitalize(), entry.get(field, "")]
+		cultivation_entries.append({"name": entry.name, "text": content})
+	var anatomy: String = "CHANNELS AND RESERVOIRS\n\n"
+	for entry in cultivation_catalog.get("anatomy", []):
+		anatomy += "%s\n%s\nFailure: %s\n\n" % [entry.name, entry.function, entry.failure]
+	cultivation_entries.append({"name": "Meridians and dantian", "text": anatomy})
+	var techniques: String = "TECHNIQUES\n\n"
+	for entry in cultivation_catalog.get("techniques", []):
+		techniques += "%s · %s\n%s\nCost: %s\nFailure: %s\nGrowth: %s\n\n" % [entry.name, entry.minimum, entry.steps, entry.cost, entry.failure, entry.growth]
+	cultivation_entries.append({"name": "Techniques", "text": techniques})
+	var crafts: String = "CRAFTS AND RESOURCES\n\n"
+	for entry in cultivation_catalog.get("crafts", []):
+		crafts += "%s\n%s\nStarting work: %s\n\n" % [entry.name, entry.rule, entry.opening_use]
+	for entry in cultivation_catalog.get("resources", []):
+		crafts += "%s\n%s\nLimit: %s\n\n" % [entry.name, entry.use, entry.limit]
+	cultivation_entries.append({"name": "Crafts and resources", "text": crafts})
+	var selector := OptionButton.new()
+	selector.name = "CultivationSelector"
+	selector.custom_minimum_size.y = 44
+	for entry in cultivation_entries:
+		selector.add_item(str(entry.name))
+	column.add_child(selector)
+	var detail := RichTextLabel.new()
+	detail.name = "CultivationDetail"
+	detail.custom_minimum_size = Vector2(1100, 480)
+	detail.size_flags_vertical = Control.SIZE_EXPAND_FILL
+	detail.scroll_active = true
+	detail.add_theme_font_size_override("normal_font_size", 20)
+	column.add_child(detail)
+	selector.item_selected.connect(_cultivation_selected)
+	_cultivation_selected(0)
+
+func _cultivation_selected(index: int) -> void:
+	if index < 0 or index >= cultivation_entries.size() or popup == null:
+		return
+	var selector: OptionButton = popup.find_child("CultivationSelector", true, false)
+	var detail: RichTextLabel = popup.find_child("CultivationDetail", true, false)
+	if selector == null or detail == null:
+		return
+	selector.select(index)
+	detail.text = str(cultivation_entries[index].text)
+	detail.scroll_to_line(0)
+
 func _attributes() -> void:
 	var column := _make_popup("Lin Yue · Attributes")
 	popup.name = "AttributePanel"
+	var codex_button := Button.new()
+	codex_button.name = "CultivationButton"
+	codex_button.text = "Cultivation realms →"
+	codex_button.pressed.connect(_cultivation)
+	column.get_child(0).add_child(codex_button)
 	column.add_theme_constant_override("separation", 12)
 	var hint := Label.new()
-	hint.text = "Your choices grow these attributes. Ranks describe growth; requirements use point totals."
+	hint.text = "Choice attributes record practice and relationships. Cultivation realms require separate training and tests."
 	hint.add_theme_font_size_override("font_size", 16)
 	hint.add_theme_color_override("font_color", JADE)
 	column.add_child(hint)
@@ -760,13 +849,19 @@ func _capture() -> void:
 		_set_outfit(character, Wardrobe.DEFAULT_OUTFIT)
 
 	atmosphere.enabled = not reduced_motion
-	for sample in [{"id": "lantern_hub", "file": "quest_hub"}, {"id": "reed_voice", "file": "spirit_encounter"}, {"id": "ferry_price", "file": "ferry_encounter"}, {"id": "archive_copies", "file": "archive_encounter"}, {"id": "river_xiu", "file": "river_pilot"}, {"id": "river_spirit", "file": "river_spirit"}, {"id": "harbor_answer", "file": "river_harbor"}, {"id": "orchard_arrival", "file": "orchard_healer"}, {"id": "orchard_hart_answer", "file": "orchard_spirit"}, {"id": "orchard_resolution_choice", "file": "orchard_choices"}, {"id": "city_arrival", "file": "city_market"}, {"id": "city_mask_studio", "file": "city_mask_maker"}, {"id": "city_registry_mei", "file": "city_archivist"}, {"id": "city_registry_tao", "file": "city_courier"}, {"id": "city_perfumer_workroom", "file": "city_perfumer"}, {"id": "city_courser_terms", "file": "city_courser"}, {"id": "city_perfumer_moth_terms", "file": "city_moth"}, {"id": "city_final_choice", "file": "city_choices"}, {"id": "court_upper_bench", "file": "court_upper_bench"}, {"id": "court_luo_shan", "file": "court_luo_shan"}, {"id": "court_bai_qun", "file": "court_bai_qun"}, {"id": "court_du_heng", "file": "court_du_heng"}, {"id": "court_rain_heron", "file": "court_rain_heron"}, {"id": "court_investigation_choice", "file": "court_investigation_choice"}, {"id": "court_final_choice", "file": "court_final_choice"}, {"id": "court_weather_setup", "file": "court_weather_setup"}]:
+	for sample in [{"id": "arrival", "file": "mortal_arrival"}, {"id": "han_mei_shift", "file": "mortal_han_mei"}, {"id": "mortal_mite_choice", "file": "mortal_mite"}, {"id": "tempering_after_013", "file": "first_trace"}, {"id": "sluice_005", "file": "sluice_examiner"}, {"id": "sluice_040", "file": "sluice_retention"}, {"id": "channels_044", "file": "paired_channel"}, {"id": "reed_step_011", "file": "brine_mantis"}, {"id": "lantern_hub", "file": "quest_hub"}, {"id": "reed_voice", "file": "spirit_encounter"}, {"id": "ferry_price", "file": "ferry_encounter"}, {"id": "archive_copies", "file": "archive_encounter"}, {"id": "river_xiu", "file": "river_pilot"}, {"id": "river_spirit", "file": "river_spirit"}, {"id": "harbor_answer", "file": "river_harbor"}, {"id": "orchard_arrival", "file": "orchard_healer"}, {"id": "orchard_hart_answer", "file": "orchard_spirit"}, {"id": "orchard_resolution_choice", "file": "orchard_choices"}, {"id": "city_arrival", "file": "city_market"}, {"id": "city_mask_studio", "file": "city_mask_maker"}, {"id": "city_registry_mei", "file": "city_archivist"}, {"id": "city_registry_tao", "file": "city_courier"}, {"id": "city_perfumer_workroom", "file": "city_perfumer"}, {"id": "city_courser_terms", "file": "city_courser"}, {"id": "city_perfumer_moth_terms", "file": "city_moth"}, {"id": "city_final_choice", "file": "city_choices"}, {"id": "court_upper_bench", "file": "court_upper_bench"}, {"id": "court_luo_shan", "file": "court_luo_shan"}, {"id": "court_bai_qun", "file": "court_bai_qun"}, {"id": "court_du_heng", "file": "court_du_heng"}, {"id": "court_rain_heron", "file": "court_rain_heron"}, {"id": "court_investigation_choice", "file": "court_investigation_choice"}, {"id": "court_final_choice", "file": "court_final_choice"}, {"id": "court_weather_setup", "file": "court_weather_setup"}, {"id":"foundry_arrival_003","file":"foundry_examiner"}, {"id":"foundry_arrival_014","file":"foundry_friend"}, {"id":"foundry_phase_001","file":"foundry_phase_room"}, {"id":"foundry_route_010","file":"foundry_material_fault"}, {"id":"foundry_creature_002","file":"foundry_creature"}, {"id":"foundry_earned_002","file":"second_pair"}, {"id":"foundry_final_choice","file":"foundry_choices"}, {"id":"foundry_home_004","file":"foundry_home"}, {"id":"foundry_assessment_018","file":"foundry_certificate"}]:
 		state.current = sample.id
 		_scene()
 		dialogue.visible_characters = -1
 		await get_tree().create_timer(0.8).timeout
 		await RenderingServer.frame_post_draw
 		get_viewport().get_texture().get_image().save_png("res://build/screenshots/%s.png" % sample.file)
+	_cultivation()
+	_cultivation_selected(3)
+	await get_tree().create_timer(0.4).timeout
+	await RenderingServer.frame_post_draw
+	get_viewport().get_texture().get_image().save_png("res://build/screenshots/cultivation_codex.png")
+	_close_popup()
 	_world()
 	await get_tree().create_timer(0.8).timeout
 	await RenderingServer.frame_post_draw
@@ -861,6 +956,33 @@ func _smoke_build() -> void:
 		await get_tree().create_timer(0.2).timeout
 		valid = valid and actor.character == encounter.actor and actor.sprite.texture != null
 		valid = valid and background.texture != null and audio.voice.stream is AudioStreamOggVorbis
+	_cultivation()
+	_cultivation_selected(12)
+	var realm_selector: OptionButton = popup.find_child("CultivationSelector", true, false)
+	valid = valid and cultivation_catalog.get("realms", []).size() == 12
+	valid = valid and realm_selector != null and realm_selector.selected == 12
+	_close_popup()
+	state.current = "han_mei_shift"
+	_scene()
+	valid = valid and actor.character == "han_mei" and actor.sprite.texture != null
+	state.current = "mortal_mite_choice"
+	_scene()
+	valid = valid and actor.character == "furnace_mite" and actor.sprite.texture != null
+	# The packaged sluice arc must retain native art and authored advancement.
+	for encounter in [{"node": "sluice_005", "actor": "duan_zhi"}, {"node": "reed_step_011", "actor": "brine_mantis"}]:
+		state.current = str(encounter.node)
+		_scene()
+		valid = valid and actor.character == encounter.actor and actor.sprite.texture != null
+		valid = valid and background.texture != null and background.texture.get_size() == Vector2(1536, 1024)
+		valid = valid and audio.voice.stream is AudioStreamOggVorbis
+	state.current = "channels_044"
+	_scene()
+	valid = valid and _cultivation_label(state.node()).contains("3: First pair")
+	valid = valid and atmosphere.effect == "paired_trace"
+	_items()
+	_item_selected(3)
+	valid = valid and item_image.texture != null and item_image.texture.get_size() == Vector2(1024, 1536)
+	_close_popup()
 	var retained_stats: Dictionary = state.stats.duplicate()
 	state.stats = {"qi": 0, "trust": 0, "insight": 0, "resolve": 0}
 	state.current = "court_final_choice"

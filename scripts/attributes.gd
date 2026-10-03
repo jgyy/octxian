@@ -6,8 +6,8 @@ const RANK_THRESHOLDS := [0, 3, 6, 10]
 const DEFINITIONS := {
 	"qi": {
 		"name": "Qi",
-		"description": "Spiritual energy used to channel wards and share their burden.",
-		"growth": "Grow through breathing practice and working with protective wards.",
+		"description": "Measured familiarity with qi practice and bounded ward tasks; points are not reserve or realm.",
+		"growth": "Grow through calibrated practice. Realm advancement needs its own tests and recovery.",
 		"ranks": ["Dormant", "Kindled", "Flowing", "Resonant"]
 	},
 	"trust": {
