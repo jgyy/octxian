@@ -6,7 +6,8 @@
     "book_iii",
     "book_iv",
     "book_v",
-    "book_vi"
+    "book_vi",
+    "book_vii"
   ],
   "facts": [
     {
@@ -1150,6 +1151,106 @@
       "anchors": [
         "court_docket_sealed_case"
       ]
+    },
+    {
+      "id": "ring_spring_and_independent_court",
+      "statement": "Book VII inquiry occurs one spring afternoon three days after the court's Day Seven review. The damaged goods lift remains closed, injury care and particular claims remain separate, and all four court outcomes retain their own opening.",
+      "anchors": [
+        "ring_from_weather",
+        "ring_from_local",
+        "ring_from_staged",
+        "ring_from_remand",
+        "ring_calendar",
+        "ring_archive_no_accident"
+      ]
+    },
+    {
+      "id": "ring_three_independent_teams",
+      "statement": "Lin Yue follows exactly one afternoon inquiry. Wei Xiu and the Listener take the marsh; An Ru, Mei Dulan and Shen Qing examine archives; Wei Jin and Su Lan take the road. Other teams report independently before comparison. Wei Xiu's morning notes can travel to the road, but she only reunites with its party after the marsh returns.",
+      "anchors": [
+        "ring_departures",
+        "ring_investigation_choice",
+        "ring_shared_marsh_report",
+        "ring_shared_archive_report",
+        "ring_shared_road_report",
+        "ring_road_daughter_arrival"
+      ]
+    },
+    {
+      "id": "ring_material_and_date_limits",
+      "statement": "R-3 is an exterior deposit/custody token; LR-6 is a ferry permit reference. Two short stitches across one long reverse fold are in a reed-cloth retaining loop around the bronze rim. The seal stays intact. The maintenance sleeve lacks an owner line and has a damaged sentence. Its repair date is distinct from the copied moment and from deposition time.",
+      "anchors": [
+        "ring_marsh_first_page",
+        "ring_marsh_chronology",
+        "ring_marsh_seam",
+        "ring_marsh_damaged_leaf",
+        "ring_marsh_date_constraint",
+        "ring_counterfoil"
+      ]
+    },
+    {
+      "id": "ring_wei_jin_living_identity",
+      "statement": "Jin of the Lower Reed is Wei Jin's former public charter designation. Its suppression altered public records, not his living name, mind or personhood. Wei Xiu remains his living daughter. Volunteered correction, public occupancy and LR-6 extracts establish a record link, not ownership of the ring alone.",
+      "anchors": [
+        "ring_jin_offer",
+        "ring_daughter",
+        "ring_archive_correction",
+        "ring_archive_permit_serial",
+        "ring_archive_public_not_private",
+        "ring_shared_archive_report"
+      ]
+    },
+    {
+      "id": "ring_independent_receipt_comparison",
+      "statement": "The road sees only the exterior of Wei Jin's own closed R-3 receipt cover. At common findings he separately offers reading specific counterfoil fields, then permits their comparison outdoors. The Eel separately accepts the new comparison at its sheltered berth. Matching R-3 receipt/custody references, LR-6 charter link and present offered account identify Wei Jin; no playback or hidden echo content supplies proof.",
+      "anchors": [
+        "ring_road_permit_offer",
+        "ring_road_recognition_offer",
+        "ring_private_request",
+        "ring_cover_opened",
+        "ring_counterfoil",
+        "ring_eel_receipt_request",
+        "ring_eel_comparison_terms",
+        "ring_eel_recognition"
+      ]
+    },
+    {
+      "id": "ring_private_practice_not_resurrection",
+      "statement": "Wei Jin voluntarily describes his own departure-melody practice. It is an external copy, never a removed memory, soul or resurrection of his dead teacher. His daughter permits attending the comparison and no playback. No route authorizes listening to this copy or to Mo Ran's or Luo Fen's separate echoes.",
+      "anchors": [
+        "ring_old_agreement",
+        "ring_cover_opened",
+        "ring_what_echo_is",
+        "ring_xiu_answer",
+        "ring_yun_lesson",
+        "ring_road_playback_boundary"
+      ]
+    },
+    {
+      "id": "ring_owner_authorizes_practical_choice",
+      "statement": "Wei Jin accepts all three specific logistical arrangements and delegates choosing tonight's work to Lin Yue. Return is a covered handoff on dry safe boards. New custody pays exactly three watches with review before expiry. Declining today's return preserves existing protection and identified ownership; it creates neither abandonment nor a new paid duty.",
+      "anchors": [
+        "ring_return_options",
+        "ring_jin_boundary",
+        "ring_resources",
+        "ring_final_choice",
+        "ring_return_handoff",
+        "ring_custody_terms",
+        "ring_refusal_record"
+      ]
+    },
+    {
+      "id": "ring_cultivation_has_finite_cost",
+      "statement": "Marsh Lin Yue uses one bounded qi pulse and rests with wrist fatigue. Archive danger is paused before controlled power is used. Road flood-debris work has ordinary costs and a shallow forearm injury, leaving the lower approach closed. Strength and injury do not supply identity evidence or remove consent.",
+      "anchors": [
+        "ring_marsh_drift",
+        "ring_marsh_weakness",
+        "ring_archive_scaffold",
+        "ring_archive_paused",
+        "ring_archive_qi_restraint",
+        "ring_road_notice",
+        "ring_qi_temptation"
+      ]
     }
   ],
   "review_policy": "Review each new chapter's chronology, custody, character knowledge, and alternate outcomes before updating this ledger. Structural checks supplement editorial review; they do not prove the absence of all possible plot holes.",
@@ -1473,6 +1574,60 @@
         "court_docket_sealed_case"
       ],
       "before": "court_docket_handoff"
+    },
+    {
+      "id": "ring_shared_findings_and_owner_before_arrangement",
+      "required": [
+        "ring_shared_marsh_report",
+        "ring_shared_archive_report",
+        "ring_shared_road_report",
+        "ring_private_request",
+        "ring_counterfoil",
+        "ring_eel_receipt_request",
+        "ring_eel_comparison_terms",
+        "ring_eel_recognition",
+        "ring_jin_boundary",
+        "ring_resources"
+      ],
+      "before": "ring_final_choice"
+    },
+    {
+      "id": "ring_marsh_bounded_report_before_exit",
+      "required": [
+        "ring_marsh_remit",
+        "ring_marsh_first_page",
+        "ring_marsh_chronology",
+        "ring_marsh_seam",
+        "ring_marsh_no_hearing",
+        "ring_marsh_not_owner",
+        "ring_marsh_report"
+      ],
+      "before": "ring_marsh_exit"
+    },
+    {
+      "id": "ring_archive_public_scope_before_exit",
+      "required": [
+        "ring_archive_boundary",
+        "ring_archive_volunteered",
+        "ring_archive_permit_serial",
+        "ring_archive_account_stub",
+        "ring_archive_public_not_private",
+        "ring_archive_no_identification_yet"
+      ],
+      "before": "ring_archive_exit"
+    },
+    {
+      "id": "ring_road_separate_permissions_before_exit",
+      "required": [
+        "ring_road_permit_offer",
+        "ring_road_serial",
+        "ring_road_seam",
+        "ring_road_deposit_limit",
+        "ring_road_recognition_offer",
+        "ring_road_playback_boundary",
+        "ring_road_report"
+      ],
+      "before": "ring_road_exit"
     }
   ]
 }

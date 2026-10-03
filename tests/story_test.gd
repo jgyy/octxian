@@ -5,6 +5,33 @@ const Attributes = preload("res://scripts/attributes.gd")
 const StoryData = preload("res://scripts/story_data.gd")
 var failures: Array[String] = []
 
+# Exercise backend failures without requiring a full disk or a Windows runner.
+class IncompleteCheckpointState:
+	extends "res://scripts/story_state.gd"
+
+	func _read_checkpoint_file(path: String) -> Dictionary:
+		var result: Dictionary = super._read_checkpoint_file(path)
+		if path.ends_with(".tmp") and result.ok and not result.bytes.is_empty():
+			var truncated: PackedByteArray = result.bytes
+			truncated.resize(truncated.size() - 1)
+			result.bytes = truncated
+		return result
+
+class RenameFailureState:
+	extends "res://scripts/story_state.gd"
+
+	var fail_restore := false
+	var commit_attempts := 0
+
+	func _commit_checkpoint(temporary_path: String, path: String) -> int:
+		commit_attempts += 1
+		if commit_attempts == 1 or fail_restore:
+			# Match the Windows edge: the destination is removed before move fails.
+			if FileAccess.file_exists(path):
+				DirAccess.remove_absolute(path)
+			return FAILED
+		return super._commit_checkpoint(temporary_path, path)
+
 func check(condition: bool, message: String) -> void:
 	if not condition:
 		failures.append(message)
@@ -13,6 +40,9 @@ func check(condition: bool, message: String) -> void:
 func _initialize() -> void:
 	_test_story_loading()
 	_test_attributes()
+	_test_atomic_saves()
+	_test_duplicate_json_keys()
+	_test_ring_campaign()
 	_test_city_continuations()
 	_test_city_settlements()
 	_test_court_continuations()
@@ -156,7 +186,7 @@ func _initialize() -> void:
 	check(reached.size() == campaign.nodes.size(), "Every scene should be reachable under its gates")
 	check(endings == expected_endings, "Every authored ending should be reachable")
 	print("Reachable scenes: %d; distinct capped states: %d" % [reached.size(), visited.size()])
-	DirAccess.remove_absolute("user://test_save.json")
+	_remove_checkpoint("user://test_save.json")
 	DirAccess.remove_absolute("user://bad_save.json")
 	if failures.is_empty():
 		print("JADE_VOW_STORY_TESTS_OK: all routes, gates and save validation")
@@ -230,7 +260,7 @@ func _test_attributes() -> void:
 	check(legacy.save_game(legacy_path), "Loaded attribute values must remain saveable")
 	var round_trip = State.new()
 	check(round_trip.load_game(legacy_path) and round_trip.stats == legacy_stats, "Ranks must not clamp persisted values")
-	DirAccess.remove_absolute(legacy_path)
+	_remove_checkpoint(legacy_path)
 
 func _check_attribute_choice_rejected(choice: Dictionary, message: String, starting_stats: Dictionary = {}) -> void:
 	var state = State.new()
@@ -266,7 +296,7 @@ func _test_city_continuations() -> void:
 		check(restored.load_game("user://city_checkpoint.json"), "A city continuation checkpoint must load")
 		check(restored.current == openings[ending] and restored.stats == expected_stats and restored.history == expected_history, "Book V saves must preserve the selected opening, attributes and prior outcome")
 		check(restored.advance() and restored.current == "city_arrival", "Every city opening must reach the same market without repeating an orchard settlement")
-	DirAccess.remove_absolute("user://city_checkpoint.json")
+	_remove_checkpoint("user://city_checkpoint.json")
 
 func _test_city_settlements() -> void:
 	var gates := ["qi", "insight", "trust"]
@@ -353,7 +383,7 @@ func _test_court_continuations() -> void:
 		check(restored.load_game("user://court_checkpoint.json"), "Modular court checkpoints must round trip")
 		check(restored.current == openings[ending] and restored.stats == expected_stats and restored.history == expected_history, "Court saves must retain source-independent IDs, attributes and prior prose")
 		check(restored.advance() and restored.current == "court_arrival", "Each route-specific court opening must reach the same cliff without repeating a city settlement")
-	DirAccess.remove_absolute("user://court_checkpoint.json")
+	_remove_checkpoint("user://court_checkpoint.json")
 
 func _test_court_routes_and_remedies() -> void:
 	var campaign: Dictionary = State.new().story
@@ -429,3 +459,158 @@ func _test_court_routes_and_remedies() -> void:
 				break
 			steps += 1
 		check(traveler.current == endings[index] and traveler.node().has("ending"), "Every bounded court remedy must reach its distinct authored outcome")
+
+func _test_atomic_saves() -> void:
+	var path := "user://atomic_save_test.json"
+	var temporary_path := path + ".tmp"
+	var backup_path := path + ".bak"
+	_remove_checkpoint(path)
+	var state = State.new()
+	check(state.save_game(path), "The initial checkpoint must save")
+	var original := FileAccess.get_file_as_string(path)
+	check(not FileAccess.file_exists(temporary_path), "A completed save must leave no temporary file")
+	state.current = "pendant"
+	state.stats.trust = 7
+	check(DirAccess.make_dir_absolute(temporary_path) == OK, "The write-failure fixture must block the temporary path")
+	check(not state.save_game(path), "A blocked temporary write must report failure")
+	check(DirAccess.dir_exists_absolute(temporary_path), "A blocked save must preserve the preexisting temporary-path directory")
+	check(FileAccess.get_file_as_string(path) == original, "A failed replacement must preserve the previous checkpoint byte for byte")
+	var restored = State.new()
+	check(restored.load_game(path) and restored.current == "arrival" and restored.stats.trust == 0, "The preserved checkpoint must remain loadable")
+	DirAccess.remove_absolute(temporary_path)
+
+	var incomplete = IncompleteCheckpointState.new()
+	incomplete.current = "pendant"
+	check(not incomplete.save_game(path), "A truncated readback must reject a write even when flush reports success")
+	check(FileAccess.get_file_as_string(path) == original and not FileAccess.file_exists(temporary_path), "Incomplete staged writes must preserve the checkpoint and remove the temporary file")
+
+	check(DirAccess.make_dir_absolute(backup_path) == OK, "The backup-failure fixture must block the backup path")
+	check(not state.save_game(path), "An unverified backup must prevent replacement of the primary checkpoint")
+	check(FileAccess.get_file_as_string(path) == original, "A failed backup must preserve the existing primary checkpoint")
+	DirAccess.remove_absolute(backup_path)
+	check(state.save_game(path), "An existing checkpoint must be replaceable after a failed write")
+	check(restored.load_game(path) and restored.current == "pendant" and restored.stats.trust == 7 and not restored.recovered_checkpoint, "A successful replacement must restore the new primary checkpoint")
+	check(FileAccess.get_file_as_string(backup_path) == original, "Replacement must retain the complete previous checkpoint as a backup")
+	check(not FileAccess.file_exists(temporary_path), "Replacing a checkpoint must consume its temporary file")
+
+	var replacement := FileAccess.get_file_as_string(path)
+	var rename_failure = RenameFailureState.new()
+	rename_failure.current = "first_choice"
+	check(not rename_failure.save_game(path), "A failed commit that removes the destination must report failure")
+	check(rename_failure.commit_attempts == 2 and FileAccess.get_file_as_string(path) == replacement, "A failed commit must restore the previous primary from verified bytes")
+	check(restored.load_game(path) and restored.current == "pendant" and not restored.recovered_checkpoint, "Restored primary checkpoints must remain loadable")
+
+	var recovery_failure = RenameFailureState.new()
+	recovery_failure.fail_restore = true
+	recovery_failure.current = "first_choice"
+	check(not recovery_failure.save_game(path), "Failed commit and recovery moves must report failure")
+	check(not FileAccess.file_exists(path) and FileAccess.get_file_as_string(backup_path) == replacement, "Failed recovery must leave the verified backup intact")
+	check(State.has_save(path), "The Continue control must recognize a recoverable backup")
+	check(restored.load_game(path) and restored.current == "pendant" and restored.stats.trust == 7 and restored.recovered_checkpoint, "A missing primary must recover the previous checkpoint from its backup")
+	check(not FileAccess.file_exists(temporary_path), "Failed recovery must clean up its staged file")
+
+	var corrupt := FileAccess.open(path, FileAccess.WRITE)
+	corrupt.store_string("{broken")
+	corrupt.close()
+	check(not restored.load_game(path) and restored.current == "pendant", "An existing corrupt primary must still fail without silently loading an older backup")
+	_remove_checkpoint(path)
+
+	var directory_path := "user://atomic_save_destination_test"
+	check(DirAccess.make_dir_absolute(directory_path) == OK, "The rename-failure fixture must create a directory")
+	check(not state.save_game(directory_path), "Replacing a directory must report a failed commit")
+	check(DirAccess.dir_exists_absolute(directory_path), "A failed commit must preserve the destination directory")
+	check(not FileAccess.file_exists(directory_path + ".tmp"), "A failed commit must clean up its temporary file")
+	DirAccess.remove_absolute(directory_path)
+
+func _remove_checkpoint(path: String) -> void:
+	for suffix in ["", ".tmp", ".bak"]:
+		DirAccess.remove_absolute(path + suffix)
+
+func _test_duplicate_json_keys() -> void:
+	var fixture_path := "user://duplicate_story_fixture.json"
+	var malformed := [
+		'{"chapters":{},"chapters":{}}',
+		'{"nodes":{"scene":{"text":"first"},"scene":{"text":"second"}}}',
+		'{"same":1,"\\u0073ame":2}',
+		'{"records":[{"same":1,"same":2}]}'
+	]
+	for contents in malformed:
+		var file := FileAccess.open(fixture_path, FileAccess.WRITE)
+		file.store_string(contents)
+		file.close()
+		var result := StoryData._read(fixture_path)
+		check(result.error.contains("duplicate JSON key") and result.story.is_empty(), "Duplicate JSON keys must fail before any story can be returned: " + contents)
+
+	var valid := {
+		"records": [{"same": 1}, {"same": 2}],
+		"first": {"same": 3}, "second": {"same": 4},
+		"text": 'Braces { } and commas, "quoted words" and \\paths remain prose.'
+	}
+	var file := FileAccess.open(fixture_path, FileAccess.WRITE)
+	file.store_string(JSON.stringify(valid))
+	file.close()
+	var loaded := StoryData._read(fixture_path)
+	check(loaded.error.is_empty() and loaded.story == valid, "Distinct object scopes and quoted punctuation must remain valid JSON")
+	DirAccess.remove_absolute(fixture_path)
+
+func _test_ring_campaign() -> void:
+	var campaign: Dictionary = State.new().story
+	check(campaign.chapters.has("book_vii"), "The campaign must contain Book VII")
+	check(campaign.get("books", []).has("data/books/book_vii.json"), "Book VII must load from the explicit manifest")
+	var openings := {
+		"ending_court_weather": "ring_from_weather",
+		"ending_court_local": "ring_from_local",
+		"ending_court_staged": "ring_from_staged",
+		"ending_court_remand": "ring_from_remand"
+	}
+	var expected_stats := {"qi": 101, "trust": 202, "insight": 303, "resolve": 404}
+	var checkpoint := "user://ring_checkpoint_test.json"
+	for ending in openings:
+		var traveler = State.new(campaign)
+		traveler.current = ending
+		traveler.stats = expected_stats.duplicate()
+		check(traveler.advance() and traveler.current == openings[ending], "Every court outcome must retain its own ring opening")
+		check(traveler.stats == expected_stats and traveler.history.size() == 1 and traveler.history.back().text == campaign.nodes[ending].text, "Ring continuations must preserve long-campaign attributes and the chosen court outcome")
+		check(traveler.save_game(checkpoint), "A ring opening checkpoint must save")
+		var restored = State.new(campaign)
+		check(restored.load_game(checkpoint), "A ring opening checkpoint must load")
+		check(restored.current == openings[ending] and restored.stats == expected_stats and restored.history == traveler.history, "Ring checkpoints must round trip the scene, attributes and journal")
+		check(restored.advance() and restored.current == "ring_arrival", "Every ring opening must reach the shared arrival")
+	_remove_checkpoint(checkpoint)
+
+	var entries := ["ring_marsh_entry", "ring_archive_entry", "ring_road_entry"]
+	var gains := ["qi", "insight", "trust"]
+	for index in range(entries.size()):
+		var traveler = State.new(campaign)
+		traveler.current = "ring_investigation_choice"
+		check(traveler.node().get("choices", []).size() == 3, "The ring investigation must offer three independent routes")
+		check(traveler.can_choose(traveler.node().choices[index]), "Every ring investigation must be playable with zero attributes")
+		check(traveler.choose(index) and traveler.current == entries[index] and traveler.stats[gains[index]] == 1, "The selected ring investigation must apply its stated gain and open its own route")
+		var visited := {}
+		var steps := 0
+		while traveler.current != "ring_findings" and steps < campaign.nodes.size():
+			visited[traveler.current] = true
+			check(traveler.node().get("chapter") == "book_vii", "Ring investigations must stay in Book VII")
+			if not traveler.advance():
+				break
+			steps += 1
+		check(traveler.current == "ring_findings", "Every ring investigation must return to the common findings")
+		for other in entries:
+			if other != entries[index]:
+				check(not visited.has(other), "An investigation must follow only its selected route")
+
+	var destinations := ["ring_return_proposal", "ring_custody_proposal", "ring_refusal_proposal"]
+	var endings := ["ending_ring_return", "ending_ring_custody", "ending_ring_refusal"]
+	for index in range(destinations.size()):
+		var traveler = State.new(campaign)
+		traveler.current = "ring_final_choice"
+		var original_stats: Dictionary = traveler.stats.duplicate()
+		check(traveler.node().get("choices", []).size() == 3, "Book VII must offer three resolutions")
+		check(traveler.can_choose(traveler.node().choices[index]), "Every ring resolution must remain available at zero attributes")
+		check(traveler.choose(index) and traveler.current == destinations[index] and traveler.stats == original_stats, "Ring resolutions must follow the selected proposal without hidden attribute changes")
+		var steps := 0
+		while not traveler.node().has("ending") and steps < campaign.nodes.size():
+			if not traveler.advance():
+				break
+			steps += 1
+		check(traveler.current == endings[index] and traveler.node().has("ending"), "Each ring resolution must reach its own authored outcome")

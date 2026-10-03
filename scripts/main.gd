@@ -105,6 +105,8 @@ func _build_theme() -> void:
 	theme = game_theme
 
 func _clear() -> void:
+	# Menu, Load and scene rebuilds can replace a modal without its Close button.
+	atmosphere.paused = false
 	wardrobe_previews.clear()
 	world_previews.clear()
 	for child in ui.get_children():
@@ -184,7 +186,7 @@ func _title() -> void:
 	_label("Ascend the mist. Uncover a forgotten covenant.\nChoose what you will carry into the heavens.", Vector2(99, 563), 22)
 	_button("Begin your journey   →", Vector2(98, 661), 327, _begin)
 	var resume := _button("Continue", Vector2(441, 661), 166, _resume)
-	resume.disabled = not FileAccess.file_exists("user://jade_vow_save.json")
+	resume.disabled = not StoryState.has_save()
 	_label("%d story scenes  ·  %d books  ·  A living, animated cast" % [state.story.nodes.size(), state.story.get("chapters", {}).size()], Vector2(100, 738), 15, JADE)
 	_line(Vector2(72, 822), 1424, Color(0.8, 0.75, 0.6, 0.25))
 	_label("AZURE CLOUD SECT", Vector2(74, 842), 12, GOLD)
@@ -202,6 +204,8 @@ func _resume() -> void:
 	if state.load_game():
 		is_reading = true
 		_scene()
+		if state.recovered_checkpoint:
+			_toast("Recovered your previous checkpoint.")
 	else:
 		_toast("The save could not be loaded. Your current journey is safe.")
 

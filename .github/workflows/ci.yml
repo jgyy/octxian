@@ -43,8 +43,32 @@ jobs:
         run: python -m unittest discover -s tests -p 'test_*.py'
       - name: Prepare outfit portraits and compose score and effects
         run: python tools/build_assets.py
+      - name: Restore completed narration checkpoints
+        id: narration-cache
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            assets/generated/voices/*.wav
+            assets/generated/voices/*.ogg
+            assets/generated/voices/manifest.json
+            assets/generated/voices/MODEL_CARD
+          key: jade-vow-lessac-clips-v1-${{ github.ref_name }}-${{ github.sha }}-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: |
+            jade-vow-lessac-clips-v1-${{ github.ref_name }}-${{ github.sha }}-
+            jade-vow-lessac-clips-v1-${{ github.ref_name }}-
+            jade-vow-lessac-clips-v1-
       - name: Generate neural narration for all scenes
-        run: python tools/generate_voices.py
+        run: timeout --kill-after=30s 25m python tools/generate_voices.py
+      - name: Preserve completed narration after failed generation
+        if: ${{ !cancelled() && steps.narration-cache.outcome == 'success' && steps.narration-cache.outputs.cache-primary-key != '' && steps.narration-cache.outputs.cache-hit != 'true' && hashFiles('assets/generated/voices/manifest.json') != '' }}
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            assets/generated/voices/*.wav
+            assets/generated/voices/*.ogg
+            assets/generated/voices/manifest.json
+            assets/generated/voices/MODEL_CARD
+          key: ${{ steps.narration-cache.outputs.cache-primary-key }}
       - name: Verify intact portraits and audio provenance
         run: python tools/validate_assets.py
       - name: Validate world artwork, quest schema and manuscript accounting
