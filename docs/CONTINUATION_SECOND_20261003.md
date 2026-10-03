@@ -24,4 +24,4 @@ Narration prebuild renders actual speech into a separate cache. Integration adop
 
 ## Native artwork
 
-Twelve further retained native PNG originals provide six environments and six principal cast portraits. See [creation record](../assets/art/CONTINUATION_BOOKS_PROVENANCE.md). Backgrounds are 1672×941 RGB; portraits are 1024×1536 RGBA. More cast portraits and interiors are in progress. Full-production art quotas remain unfinished; the PR stays draft.
+Sixteen further retained native PNG originals provide six environments and ten cast portraits. See [creation record](../assets/art/CONTINUATION_BOOKS_PROVENANCE.md). Backgrounds are 1672×941 RGB; portraits are 1024×1536 RGBA. More cast portraits and interiors are in progress. Full-production art quotas remain unfinished; the PR stays draft.
