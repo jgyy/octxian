@@ -12,7 +12,7 @@ func _ready() -> void:
 	add_child(music)
 	add_child(effects)
 	add_child(voice)
-	var path := "res://assets/generated/audio/cloud_sea.wav"
+	var path := "res://assets/generated/audio/cloud_sea.ogg"
 	if ResourceLoader.exists(path):
 		music.stream = load(path)
 		music.finished.connect(music.play)
@@ -23,7 +23,7 @@ func speak(id: String) -> void:
 	voice.stream = null
 	if not enabled:
 		return
-	# New chapters use compressed Vorbis; retained opening clips remain PCM.
+	# Bundled narration uses Vorbis; WAV remains available for local authoring.
 	for extension in ["ogg", "wav"]:
 		var path := "res://assets/generated/voices/%s.%s" % [id, extension]
 		if ResourceLoader.exists(path):

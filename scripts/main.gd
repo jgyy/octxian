@@ -47,7 +47,7 @@ func _ready() -> void:
 		world = catalog
 		for entry in world.get("backgrounds", []):
 			background_paths[str(entry.id)] = "res://" + str(entry.path)
-	background.texture = load("res://assets/art/azure_cloud.png")
+	background.texture = load("res://assets/art/azure_cloud.webp")
 	background.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
 	background.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_COVERED
 	background.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
@@ -171,7 +171,7 @@ func _header() -> void:
 func _title() -> void:
 	is_reading = false
 	atmosphere.set_effect("lanterns")
-	background.texture = load("res://assets/art/azure_cloud.png")
+	background.texture = load("res://assets/art/azure_cloud.webp")
 	audio.voice.stop()
 	_clear()
 	_header()
@@ -222,7 +222,7 @@ func _scene() -> void:
 	var chapter: Dictionary = state.story.get("chapters", {}).get(node.get("chapter", "book_i"), {})
 	_label(str(chapter.get("label", "BOOK I")), Vector2(77, 146), 13, GOLD)
 	_label(str(chapter.get("title", "The star beneath the mountain")), Vector2(77, 174), 27, PALE)
-	var background_path := str(background_paths.get(node.get("background", ""), "res://assets/art/azure_cloud.png"))
+	var background_path := str(background_paths.get(node.get("background", ""), "res://assets/art/azure_cloud.webp"))
 	background.texture = load(background_path)
 	var totals := _label("QI %02d    TRUST %02d    INSIGHT %02d    RESOLVE %02d" % [state.stats.qi, state.stats.trust, state.stats.insight, state.stats.resolve], Vector2(78, 222), 14, JADE)
 	totals.name = "AttributeTotals"

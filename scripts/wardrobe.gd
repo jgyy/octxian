@@ -42,7 +42,7 @@ func source_path(outfit: String) -> String:
 	for option in options():
 		if option["id"] == outfit:
 			return "res://" + str(option["source"])
-	return "res://assets/art/cast.png"
+	return "res://assets/art/cast.webp"
 
 func portrait_path(character: String, outfit: String) -> String:
 	if not is_valid(character, outfit):
