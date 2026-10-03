@@ -65,3 +65,8 @@ The workshop prompt requested settling pools, copper calibration blanks, finite 
 ## Phase Comparison Room · ash-bridge expansion
 
 `assets/art/world/phase_comparison_room.png` is an original native 1536×1024 PNG master. The prompt specified an independent stone-and-timber building interior with shuttered windows, separated copper references, finite-fuel shutters, sand-pot grounds, shoulder-practice ring and a physical heat-sink assembly. The retained output is not enlarged. Display scaling preserves its proportions. This independent generation is not a recolor or pose variant. 
+
+
+## West Village Kiln Home · ash-bridge expansion
+
+`assets/art/world/west_kiln_home.png` is an original native 1536×1024 PNG master. The prompt specified an independent mortal household beside a wood-fired village kiln, patched roof tiles, ordinary kitchen geography, work shelves, vegetable plot and no sect array or floating mountain. The retained output is not enlarged. Display scaling preserves its proportions. This independent generation is not a recolor or pose variant. 
