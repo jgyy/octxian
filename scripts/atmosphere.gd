@@ -34,7 +34,7 @@ func _draw() -> void:
 	var stage := Vector2(maxf(size.x, 1.0), maxf(size.y, 1.0))
 	if effect == "storm_discharge":
 		var extent := Vector2(540.0, 360.0) * (stage.x / 1600.0)
-		var center := stage * Vector2(0.74, 0.46)
+		var center := stage * Vector2(0.41, 0.45)
 		var opacity := 0.56 + sin(clock * 0.8) * 0.08
 		draw_texture_rect(STORM_DISCHARGE, Rect2(center - extent / 2.0, extent), false, Color(1.0, 1.0, 1.0, opacity))
 	elif effect == "first_trace" or effect == "paired_trace" or effect == "second_pair_trace":

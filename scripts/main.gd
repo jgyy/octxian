@@ -351,7 +351,7 @@ func _advance() -> void:
 	if dialogue != null and dialogue.visible_characters >= 0 and dialogue.visible_characters < dialogue.get_total_character_count():
 		dialogue.visible_characters = -1
 		text_clock = dialogue.get_total_character_count()
-		choice_box.visible = true
+		choice_box.visible = choice_box.get_child_count() > 0
 		return
 	if state.node().has("ending"):
 		if state.node().has("continuation") and state.advance():
@@ -402,7 +402,7 @@ func _process(delta: float) -> void:
 		text_clock += delta * text_speed * (8.0 if fast_read else 1.0)
 		dialogue.visible_characters = mini(int(text_clock), total)
 	else:
-		choice_box.visible = true
+		choice_box.visible = choice_box.get_child_count() > 0
 		auto_clock += delta
 		if auto_read and auto_clock > 2.0 and not audio.voice.playing and (state.node().has("next") or state.node().get("random_event", false)):
 			_advance()
