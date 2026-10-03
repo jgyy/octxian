@@ -50,3 +50,8 @@ The workshop prompt requested settling pools, copper calibration blanks, finite 
 ## Six-contact Phase Comb · ash-bridge expansion
 
 `assets/art/world/phase_comb.png` is an original native 1024×1536 PNG master with RGBA transparency. The prompt specified exactly six external contacts, five colored mineral wells and one empty control, separate copper leads, grounding weights, a physical shutter and visible ceramic repairs. The retained output is not enlarged. Display scaling preserves its proportions. This independent generation is not a recolor or pose variant. 
+
+
+## Interrupted Second-pair Trace · ash-bridge expansion
+
+`assets/art/effects/second_pair_trace.png` is an original native 1536×1024 PNG master with RGBA transparency. The prompt specified separate jade/amber and copper/violet paired filaments, explicit open interruption gaps, fading exit tips and no great-circuit closure, anatomical projection or explosive aura. The retained output is not enlarged. Display scaling preserves its proportions. This independent generation is not a recolor or pose variant. Effects do not contribute to sprite quotas.
