@@ -1,6 +1,7 @@
 extends Control
 
-const EFFECTS := ["lanterns", "rain", "reed_light", "bell", "qi", "none"]
+const EFFECTS := ["lanterns", "rain", "reed_light", "bell", "qi", "first_trace", "none"]
+const FIRST_TRACE = preload("res://assets/art/effects/first_qi_trace.png")
 var clock := 0.0
 var effect := "lanterns"
 var paused := false
@@ -28,7 +29,12 @@ func _draw() -> void:
 	if not enabled or effect == "none":
 		return
 	var stage := Vector2(maxf(size.x, 1.0), maxf(size.y, 1.0))
-	if effect == "rain":
+	if effect == "first_trace":
+		var extent := Vector2(360.0, 240.0) * (stage.x / 1600.0)
+		var center := stage * Vector2(0.76, 0.48)
+		var opacity := 0.24 + (sin(clock * 0.8) + 1.0) * 0.07
+		draw_texture_rect(FIRST_TRACE, Rect2(center - extent / 2.0, extent), false, Color(1.0, 1.0, 1.0, opacity))
+	elif effect == "rain":
 		for i in range(95):
 			var x := fposmod(i * 173.3 - clock * 37.0, stage.x)
 			var y := fposmod(i * 89.7 + clock * (280.0 + i % 7 * 12.0), stage.y)
