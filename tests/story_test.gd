@@ -546,11 +546,14 @@ func _test_duplicate_json_keys() -> void:
 		"first": {"same": 3}, "second": {"same": 4},
 		"text": 'Braces { } and commas, "quoted words" and \\paths remain prose.'
 	}
+	var serialized := JSON.stringify(valid)
 	var file := FileAccess.open(fixture_path, FileAccess.WRITE)
-	file.store_string(JSON.stringify(valid))
+	file.store_string(serialized)
 	file.close()
 	var loaded := StoryData._read(fixture_path)
-	check(loaded.error.is_empty() and loaded.story == valid, "Distinct object scopes and quoted punctuation must remain valid JSON")
+	# JSON numbers decode as floats; compare against the same decoded types.
+	var expected = JSON.parse_string(serialized)
+	check(loaded.error.is_empty() and loaded.story == expected, "Distinct object scopes and quoted punctuation must remain valid JSON")
 	DirAccess.remove_absolute(fixture_path)
 
 func _test_ring_campaign() -> void:
@@ -589,9 +592,21 @@ func _test_ring_campaign() -> void:
 		var visited := {}
 		var steps := 0
 		while traveler.current != "ring_findings" and steps < campaign.nodes.size():
+			check(not visited.has(traveler.current), "Ring investigations must not cycle: " + traveler.current)
+			if visited.has(traveler.current):
+				break
 			visited[traveler.current] = true
 			check(traveler.node().get("chapter") == "book_vii", "Ring investigations must stay in Book VII")
-			if not traveler.advance():
+			if traveler.node().has("choices"):
+				var chosen := false
+				for option in range(traveler.node().choices.size()):
+					if traveler.can_choose(traveler.node().choices[option]):
+						chosen = traveler.choose(option)
+						break
+				check(chosen, "Every reached ring inquiry decision must have an available route: " + traveler.current)
+				if not chosen:
+					break
+			elif not traveler.advance():
 				break
 			steps += 1
 		check(traveler.current == "ring_findings", "Every ring investigation must return to the common findings")
