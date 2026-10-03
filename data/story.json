@@ -1656,7 +1656,11 @@
       "next": "river_arrival",
       "chapter": "book_iii",
       "background": "north_landing",
-      "effect": "rain"
+      "effect": "rain",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "river_from_bell": {
       "speaker": "su_lan",
@@ -1665,7 +1669,11 @@
       "next": "river_arrival",
       "chapter": "book_iii",
       "background": "north_landing",
-      "effect": "rain"
+      "effect": "rain",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "river_from_seed": {
       "speaker": "narrator",
@@ -1674,7 +1682,11 @@
       "next": "river_arrival",
       "chapter": "book_iii",
       "background": "north_landing",
-      "effect": "rain"
+      "effect": "rain",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "river_from_ledger": {
       "speaker": "an_ru",
@@ -1683,7 +1695,11 @@
       "next": "river_arrival",
       "chapter": "book_iii",
       "background": "north_landing",
-      "effect": "rain"
+      "effect": "rain",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "river_arrival": {
       "speaker": "narrator",
@@ -1692,7 +1708,11 @@
       "next": "river_xiu",
       "chapter": "book_iii",
       "background": "north_landing",
-      "effect": "rain"
+      "effect": "rain",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "river_xiu": {
       "speaker": "wei_xiu",
@@ -1701,7 +1721,11 @@
       "next": "river_chart",
       "chapter": "book_iii",
       "background": "north_landing",
-      "effect": "rain"
+      "effect": "rain",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "river_chart": {
       "speaker": "narrator",
@@ -1710,7 +1734,11 @@
       "next": "river_limits",
       "chapter": "book_iii",
       "background": "north_landing",
-      "effect": "rain"
+      "effect": "rain",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "river_limits": {
       "speaker": "wei_xiu",
@@ -1719,7 +1747,11 @@
       "next": "river_moran",
       "chapter": "book_iii",
       "background": "north_landing",
-      "effect": "rain"
+      "effect": "rain",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "river_moran": {
       "speaker": "mo_ran",
@@ -1728,7 +1760,11 @@
       "next": "river_notforgetting",
       "chapter": "book_iii",
       "background": "north_landing",
-      "effect": "rain"
+      "effect": "rain",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "river_notforgetting": {
       "speaker": "lin_yue",
@@ -1737,7 +1773,11 @@
       "next": "river_echo_rule",
       "chapter": "book_iii",
       "background": "north_landing",
-      "effect": "rain"
+      "effect": "rain",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "river_echo_rule": {
       "speaker": "mo_ran",
@@ -1746,7 +1786,11 @@
       "next": "river_sulan",
       "chapter": "book_iii",
       "background": "north_landing",
-      "effect": "rain"
+      "effect": "rain",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "river_sulan": {
       "speaker": "su_lan",
@@ -1755,7 +1799,11 @@
       "next": "river_permission",
       "chapter": "book_iii",
       "background": "north_landing",
-      "effect": "rain"
+      "effect": "rain",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "river_permission": {
       "speaker": "mo_ran",
@@ -1764,7 +1812,11 @@
       "next": "river_receipt",
       "chapter": "book_iii",
       "background": "north_landing",
-      "effect": "rain"
+      "effect": "rain",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "river_receipt": {
       "speaker": "narrator",
@@ -1773,7 +1825,11 @@
       "next": "river_flood",
       "chapter": "book_iii",
       "background": "north_landing",
-      "effect": "rain"
+      "effect": "rain",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "river_flood": {
       "speaker": "wei_xiu",
@@ -1782,7 +1838,11 @@
       "next": "river_plan",
       "chapter": "book_iii",
       "background": "north_landing",
-      "effect": "rain"
+      "effect": "rain",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "river_plan": {
       "speaker": "lin_yue",
@@ -1791,7 +1851,11 @@
       "next": "river_approach_choice",
       "chapter": "book_iii",
       "background": "north_landing",
-      "effect": "rain"
+      "effect": "rain",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "river_approach_choice": {
       "speaker": "wei_xiu",
@@ -1822,7 +1886,11 @@
             "resolve": 1
           }
         }
-      ]
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "river_call": {
       "speaker": "mo_ran",
@@ -1831,7 +1899,11 @@
       "next": "river_call_answer",
       "chapter": "book_iii",
       "background": "north_landing",
-      "effect": "rain"
+      "effect": "rain",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "river_call_answer": {
       "speaker": "narrator",
@@ -1840,7 +1912,11 @@
       "next": "river_spirit",
       "chapter": "book_iii",
       "background": "north_landing",
-      "effect": "rain"
+      "effect": "rain",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "river_survey": {
       "speaker": "wei_xiu",
@@ -1849,7 +1925,11 @@
       "next": "river_survey_answer",
       "chapter": "book_iii",
       "background": "north_landing",
-      "effect": "rain"
+      "effect": "rain",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "river_survey_answer": {
       "speaker": "narrator",
@@ -1858,7 +1938,11 @@
       "next": "river_spirit",
       "chapter": "book_iii",
       "background": "north_landing",
-      "effect": "rain"
+      "effect": "rain",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "river_listen": {
       "speaker": "lin_yue",
@@ -1867,7 +1951,11 @@
       "next": "river_listen_answer",
       "chapter": "book_iii",
       "background": "north_landing",
-      "effect": "rain"
+      "effect": "rain",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "river_listen_answer": {
       "speaker": "narrator",
@@ -1876,7 +1964,11 @@
       "next": "river_spirit",
       "chapter": "book_iii",
       "background": "north_landing",
-      "effect": "rain"
+      "effect": "rain",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "river_spirit": {
       "speaker": "mooring_eel",
@@ -1885,7 +1977,11 @@
       "next": "river_boundaries",
       "chapter": "book_iii",
       "background": "north_landing",
-      "effect": "rain"
+      "effect": "rain",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "river_boundaries": {
       "speaker": "su_lan",
@@ -1894,7 +1990,11 @@
       "next": "river_keeper_words",
       "chapter": "book_iii",
       "background": "north_landing",
-      "effect": "rain"
+      "effect": "rain",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "river_keeper_words": {
       "speaker": "mooring_eel",
@@ -1903,7 +2003,11 @@
       "next": "river_keeper_fate",
       "chapter": "book_iii",
       "background": "north_landing",
-      "effect": "rain"
+      "effect": "rain",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "river_keeper_fate": {
       "speaker": "wei_xiu",
@@ -1912,7 +2016,11 @@
       "next": "river_notfree",
       "chapter": "book_iii",
       "background": "north_landing",
-      "effect": "rain"
+      "effect": "rain",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "river_notfree": {
       "speaker": "mooring_eel",
@@ -1921,7 +2029,11 @@
       "next": "river_margin",
       "chapter": "book_iii",
       "background": "north_landing",
-      "effect": "rain"
+      "effect": "rain",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "river_margin": {
       "speaker": "narrator",
@@ -1930,7 +2042,11 @@
       "next": "river_first_offer",
       "chapter": "book_iii",
       "background": "north_landing",
-      "effect": "rain"
+      "effect": "rain",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "river_first_offer": {
       "speaker": "lin_yue",
@@ -1939,7 +2055,11 @@
       "next": "river_book",
       "chapter": "book_iii",
       "background": "north_landing",
-      "effect": "rain"
+      "effect": "rain",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "river_resolution_choice": {
       "speaker": "mo_ran",
@@ -1970,7 +2090,11 @@
             "resolve": 1
           }
         }
-      ]
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "river_return_terms": {
       "speaker": "mo_ran",
@@ -1979,7 +2103,11 @@
       "next": "return_berth",
       "chapter": "book_iii",
       "background": "north_landing",
-      "effect": "rain"
+      "effect": "rain",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ending_river_return": {
       "speaker": "narrator",
@@ -1989,7 +2117,11 @@
       "chapter": "book_iii",
       "background": "north_landing",
       "effect": "none",
-      "continuation": "orchard_from_return"
+      "continuation": "orchard_from_return",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "river_stair_terms": {
       "speaker": "wei_xiu",
@@ -1998,7 +2130,11 @@
       "next": "stair_soundings",
       "chapter": "book_iii",
       "background": "north_landing",
-      "effect": "rain"
+      "effect": "rain",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ending_river_stair": {
       "speaker": "narrator",
@@ -2008,7 +2144,11 @@
       "chapter": "book_iii",
       "background": "sheltered_reach",
       "effect": "none",
-      "continuation": "orchard_from_stair"
+      "continuation": "orchard_from_stair",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "river_harbor_terms": {
       "speaker": "su_lan",
@@ -2017,7 +2157,11 @@
       "next": "harbor_site",
       "chapter": "book_iii",
       "background": "north_landing",
-      "effect": "rain"
+      "effect": "rain",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ending_river_harbor": {
       "speaker": "narrator",
@@ -2027,7 +2171,11 @@
       "chapter": "book_iii",
       "background": "sheltered_reach",
       "effect": "none",
-      "continuation": "orchard_from_harbor"
+      "continuation": "orchard_from_harbor",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "return_berth": {
       "speaker": "narrator",
@@ -2036,7 +2184,11 @@
       "next": "return_cost",
       "chapter": "book_iii",
       "background": "north_landing",
-      "effect": "rain"
+      "effect": "rain",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "return_cost": {
       "speaker": "wei_xiu",
@@ -2045,7 +2197,11 @@
       "next": "return_unknown",
       "chapter": "book_iii",
       "background": "north_landing",
-      "effect": "rain"
+      "effect": "rain",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "return_unknown": {
       "speaker": "lin_yue",
@@ -2054,7 +2210,11 @@
       "next": "return_limit",
       "chapter": "book_iii",
       "background": "north_landing",
-      "effect": "rain"
+      "effect": "rain",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "return_limit": {
       "speaker": "mooring_eel",
@@ -2063,7 +2223,11 @@
       "next": "return_custodian",
       "chapter": "book_iii",
       "background": "north_landing",
-      "effect": "rain"
+      "effect": "rain",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "return_custodian": {
       "speaker": "su_lan",
@@ -2072,7 +2236,11 @@
       "next": "return_safety_choice",
       "chapter": "book_iii",
       "background": "north_landing",
-      "effect": "rain"
+      "effect": "rain",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "return_safety_choice": {
       "speaker": "mo_ran",
@@ -2096,7 +2264,11 @@
             "resolve": 1
           }
         }
-      ]
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "return_now": {
       "speaker": "lin_yue",
@@ -2105,7 +2277,11 @@
       "next": "return_now_cost",
       "chapter": "book_iii",
       "background": "north_landing",
-      "effect": "rain"
+      "effect": "rain",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "return_now_cost": {
       "speaker": "narrator",
@@ -2114,7 +2290,11 @@
       "next": "return_common",
       "chapter": "book_iii",
       "background": "north_landing",
-      "effect": "rain"
+      "effect": "rain",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "return_later": {
       "speaker": "mo_ran",
@@ -2123,7 +2303,11 @@
       "next": "return_later_cost",
       "chapter": "book_iii",
       "background": "north_landing",
-      "effect": "rain"
+      "effect": "rain",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "return_later_cost": {
       "speaker": "narrator",
@@ -2132,7 +2316,11 @@
       "next": "return_common",
       "chapter": "book_iii",
       "background": "north_landing",
-      "effect": "rain"
+      "effect": "rain",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "return_common": {
       "speaker": "an_ru",
@@ -2141,7 +2329,11 @@
       "next": "return_moran",
       "chapter": "book_iii",
       "background": "north_landing",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "return_moran": {
       "speaker": "mo_ran",
@@ -2150,7 +2342,11 @@
       "next": "return_yue",
       "chapter": "book_iii",
       "background": "north_landing",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "return_yue": {
       "speaker": "lin_yue",
@@ -2159,7 +2355,11 @@
       "next": "return_letter",
       "chapter": "book_iii",
       "background": "north_landing",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "return_letter": {
       "speaker": "narrator",
@@ -2168,7 +2368,11 @@
       "next": "ending_river_return",
       "chapter": "book_iii",
       "background": "north_landing",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "river_book": {
       "speaker": "an_ru",
@@ -2177,7 +2381,11 @@
       "next": "river_interim",
       "chapter": "book_iii",
       "background": "north_landing",
-      "effect": "rain"
+      "effect": "rain",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "stair_soundings": {
       "speaker": "narrator",
@@ -2186,7 +2394,11 @@
       "next": "stair_luofen",
       "chapter": "book_iii",
       "background": "sheltered_reach",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "stair_luofen": {
       "speaker": "wei_xiu",
@@ -2195,7 +2407,11 @@
       "next": "stair_measure",
       "chapter": "book_iii",
       "background": "sheltered_reach",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "stair_measure": {
       "speaker": "narrator",
@@ -2204,7 +2420,11 @@
       "next": "stair_alternative",
       "chapter": "book_iii",
       "background": "sheltered_reach",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "stair_alternative": {
       "speaker": "lin_yue",
@@ -2213,7 +2433,11 @@
       "next": "stair_tradeoff",
       "chapter": "book_iii",
       "background": "sheltered_reach",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "stair_tradeoff": {
       "speaker": "wei_xiu",
@@ -2222,7 +2446,11 @@
       "next": "stair_money",
       "chapter": "book_iii",
       "background": "sheltered_reach",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "stair_money": {
       "speaker": "su_lan",
@@ -2231,7 +2459,11 @@
       "next": "stair_funding_choice",
       "chapter": "book_iii",
       "background": "sheltered_reach",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "stair_funding_choice": {
       "speaker": "wei_xiu",
@@ -2255,7 +2487,11 @@
             "insight": 1
           }
         }
-      ]
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "stair_stages": {
       "speaker": "lin_yue",
@@ -2264,7 +2500,11 @@
       "next": "stair_stages_cost",
       "chapter": "book_iii",
       "background": "sheltered_reach",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "stair_stages_cost": {
       "speaker": "narrator",
@@ -2273,7 +2513,11 @@
       "next": "stair_charter",
       "chapter": "book_iii",
       "background": "sheltered_reach",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "stair_advance": {
       "speaker": "an_ru",
@@ -2282,7 +2526,11 @@
       "next": "stair_advance_cost",
       "chapter": "book_iii",
       "background": "sheltered_reach",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "stair_advance_cost": {
       "speaker": "narrator",
@@ -2291,7 +2539,11 @@
       "next": "stair_charter",
       "chapter": "book_iii",
       "background": "sheltered_reach",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "stair_charter": {
       "speaker": "an_ru",
@@ -2300,7 +2552,11 @@
       "next": "stair_completion",
       "chapter": "book_iii",
       "background": "sheltered_reach",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "stair_test": {
       "speaker": "narrator",
@@ -2309,7 +2565,11 @@
       "next": "stair_spirit",
       "chapter": "book_iii",
       "background": "sheltered_reach",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "stair_spirit": {
       "speaker": "mooring_eel",
@@ -2318,7 +2578,11 @@
       "next": "stair_return",
       "chapter": "book_iii",
       "background": "sheltered_reach",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "stair_return": {
       "speaker": "narrator",
@@ -2327,7 +2591,11 @@
       "next": "stair_after",
       "chapter": "book_iii",
       "background": "sheltered_reach",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "stair_after": {
       "speaker": "mo_ran",
@@ -2336,7 +2604,11 @@
       "next": "ending_river_stair",
       "chapter": "book_iii",
       "background": "sheltered_reach",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "harbor_site": {
       "speaker": "narrator",
@@ -2345,7 +2617,11 @@
       "next": "harbor_rules",
       "chapter": "book_iii",
       "background": "sheltered_reach",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "harbor_rules": {
       "speaker": "wei_xiu",
@@ -2354,7 +2630,11 @@
       "next": "harbor_spirit",
       "chapter": "book_iii",
       "background": "sheltered_reach",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "harbor_spirit": {
       "speaker": "mooring_eel",
@@ -2363,7 +2643,11 @@
       "next": "harbor_sulan",
       "chapter": "book_iii",
       "background": "sheltered_reach",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "harbor_sulan": {
       "speaker": "su_lan",
@@ -2372,7 +2656,11 @@
       "next": "harbor_budget",
       "chapter": "book_iii",
       "background": "sheltered_reach",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "harbor_budget": {
       "speaker": "narrator",
@@ -2381,7 +2669,11 @@
       "next": "harbor_shortage",
       "chapter": "book_iii",
       "background": "sheltered_reach",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "harbor_shortage": {
       "speaker": "mo_ran",
@@ -2390,7 +2682,11 @@
       "next": "harbor_watch_choice",
       "chapter": "book_iii",
       "background": "sheltered_reach",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "harbor_watch_choice": {
       "speaker": "lin_yue",
@@ -2414,7 +2710,11 @@
             "trust": 1
           }
         }
-      ]
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "harbor_eight_days": {
       "speaker": "an_ru",
@@ -2423,7 +2723,11 @@
       "next": "harbor_eight_cost",
       "chapter": "book_iii",
       "background": "sheltered_reach",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "harbor_eight_cost": {
       "speaker": "narrator",
@@ -2432,7 +2736,11 @@
       "next": "harbor_letters",
       "chapter": "book_iii",
       "background": "sheltered_reach",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "harbor_association": {
       "speaker": "wei_xiu",
@@ -2441,7 +2749,11 @@
       "next": "harbor_association_cost",
       "chapter": "book_iii",
       "background": "sheltered_reach",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "harbor_association_cost": {
       "speaker": "narrator",
@@ -2450,7 +2762,11 @@
       "next": "harbor_letters",
       "chapter": "book_iii",
       "background": "sheltered_reach",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "harbor_letters": {
       "speaker": "an_ru",
@@ -2459,7 +2775,11 @@
       "next": "harbor_moran",
       "chapter": "book_iii",
       "background": "sheltered_reach",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "harbor_moran": {
       "speaker": "mo_ran",
@@ -2468,7 +2788,11 @@
       "next": "harbor_return",
       "chapter": "book_iii",
       "background": "sheltered_reach",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "harbor_return": {
       "speaker": "narrator",
@@ -2477,7 +2801,11 @@
       "next": "harbor_first_reply",
       "chapter": "book_iii",
       "background": "sheltered_reach",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "harbor_first_reply": {
       "speaker": "narrator",
@@ -2486,7 +2814,11 @@
       "next": "harbor_review",
       "chapter": "book_iii",
       "background": "sheltered_reach",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "harbor_answer": {
       "speaker": "mooring_eel",
@@ -2495,7 +2827,11 @@
       "next": "harbor_departure",
       "chapter": "book_iii",
       "background": "sheltered_reach",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "harbor_departure": {
       "speaker": "lin_yue",
@@ -2504,7 +2840,11 @@
       "next": "ending_river_harbor",
       "chapter": "book_iii",
       "background": "sheltered_reach",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "river_interim": {
       "speaker": "wei_xiu",
@@ -2513,7 +2853,11 @@
       "next": "river_resolution_choice",
       "chapter": "book_iii",
       "background": "north_landing",
-      "effect": "rain"
+      "effect": "rain",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "stair_completion": {
       "speaker": "narrator",
@@ -2522,7 +2866,11 @@
       "next": "stair_test",
       "chapter": "book_iii",
       "background": "sheltered_reach",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "orchard_from_return": {
       "chapter": "book_iv",
@@ -2531,7 +2879,11 @@
       "text": "The case stays in my bag. I am carrying it to the orchard because I am traveling there, not because their healers have acquired a claim on it. Luo Fen has named her high-bank berth; Su Lan will send us news when the pilot approves the return. The third ring waits under its own closed agreement. For once, I can take another road without pretending the road behind us has disappeared.",
       "next": "orchard_arrival",
       "background": "high_bank_boathouse",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "orchard_from_stair": {
       "chapter": "book_iv",
@@ -2540,7 +2892,11 @@
       "text": "Luo Fen checked the new handrail once more before Lin Yue left. Her echo was already home, sealed according to her wishes; Mo Ran carried his own case beneath his cloak. At the sheltered mooring, the Eel kept the unidentified ring closed. Wei Xiu would inspect the ramp again after high water. The orchard's invitation lay beside the survey copy in Lin Yue's bundle: a request for help, with no promised cure written beneath it.",
       "next": "orchard_arrival",
       "background": "stone_carvers_hall",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "orchard_from_harbor": {
       "chapter": "book_iv",
@@ -2549,7 +2905,11 @@
       "text": "Luo Fen has asked another question. An Ru will answer it from the landing, and the harbor has people responsible for checking the watch. We need not stand beside the Eel to make that arrangement real. My case is here, still sealed. The unidentified ring stays there, still sealed. The orchard letter asks for hands that can carry water and notice when someone stops speaking. That seems a task I should learn before offering anyone wisdom.",
       "next": "orchard_arrival",
       "background": "high_bank_boathouse",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "orchard_arrival": {
       "chapter": "book_iv",
@@ -2558,7 +2918,11 @@
       "text": "By the time they reached the orchard, spring had warmed the road enough for insects to gather over wheel ruts. Inside the healing hall, one plum branch remained white with frost. Treatment couches circled its trunk. Ren Qiao, the orchard's healer, moved between the couches in a green apron, his plum robes tied back. A woman with a swollen wrist counted roof tiles through clenched teeth while a younger woman slept on the neighboring couch. Beside the door, someone had chalked the meal times higher than the names of the healers.",
       "next": "orchard_elder",
       "background": "orchard_healing_hall",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "orchard_elder": {
       "chapter": "book_iv",
@@ -2567,7 +2931,11 @@
       "text": "I received the same letter. Thirty years ago, I helped this orchard mark its winter treatment circuit. The healers could ease one person's pain by letting another carry its sensation for a little while. I thought a willing community would make a kinder ward than a solitary master. Now the matron says the circuit remembers a household's first offer more faithfully than the people who live there. I have come to see what my careful work became.",
       "next": "orchard_patient",
       "background": "orchard_healing_hall",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "orchard_patient": {
       "chapter": "book_iv",
@@ -2576,7 +2944,11 @@
       "text": "The younger woman woke when her aunt shifted. Pain tightened both their faces, though only the aunt's wrist was injured. She asked the matron whether an afternoon's work would count against her household's winter turn. The matron put down the medicine bowl before answering. She could release today's connection. She could not persuade the winter circuit to stop naming that household tomorrow. Lin Yue watched the niece rub fingers that bore no swelling.",
       "next": "orchard_demonstration",
       "background": "orchard_healing_hall",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "orchard_demonstration": {
       "chapter": "book_iv",
@@ -2585,7 +2957,11 @@
       "text": "The exchange moves sensation, not injury. The aunt still needs her splint and medicine. Her niece may sleep after carrying the pain, but sleep is not proof that the work cost her nothing. Watch the copper channel between the couches. Each breath narrows it. The matron is closing today's connection gradually so neither body takes the whole change at once. We will not test the old mark by asking this girl to endure one more demonstration.",
       "next": "orchard_stop",
       "background": "pain_exchange_chamber",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "orchard_stop": {
       "chapter": "book_iv",
@@ -2594,7 +2970,11 @@
       "text": "The matron lifted the copper tongue with padded tongs. Its hum diminished over two measured breaths. The aunt's pain returned; the niece's borrowed ache faded. Neither stood immediately. Lin Yue fetched a stool rather than urging them upright. Above the couches, the frost stopped spreading along the branch. The matron covered the disconnected contact with a ceramic cap. It would stay capped while they examined the winter mark, even if the waiting room filled.",
       "next": "orchard_terms",
       "background": "pain_exchange_chamber",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "orchard_terms": {
       "chapter": "book_iv",
@@ -2603,7 +2983,11 @@
       "text": "First, nobody's treatment or meal depends on offering their body. Second, a household cannot promise the sensations of children not yet born. Third, we need to learn why the mark keeps those names before we cut anything that also regulates the exchange. I can hold a blade steady. That does not tell me which line is a chain and which keeps a frightened patient safe. Elder Yun, show us where we can look without reconnecting these couches.",
       "next": "orchard_investigation_choice",
       "background": "pain_exchange_chamber",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "orchard_investigation_choice": {
       "chapter": "book_iv",
@@ -2637,7 +3021,11 @@
         }
       ],
       "background": "orchard_apothecary",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "orchard_circuit": {
       "chapter": "book_iv",
@@ -2647,7 +3035,11 @@
       "next": "orchard_circuit_limit",
       "background": "pain_exchange_chamber",
       "effect": "qi",
-      "animation": "channeling"
+      "animation": "channeling",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "orchard_circuit_limit": {
       "chapter": "book_iv",
@@ -2656,7 +3048,11 @@
       "text": "The test copy shows one rhythm following a pulse and another following a household list. I can stop my small diagnostic input; I cannot interrupt the orchard's whole circuit by strength. These mapped strokes share a narrow connection. Removing it without comparison could lose the safe closing pace as well as the winter demand. Keep the patient contacts capped. We need the matron's practice strip and Elder Yun's inspection before a qualified hand changes the installed copper.",
       "next": "orchard_circuit_find",
       "background": "pain_exchange_chamber",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "orchard_circuit_find": {
       "chapter": "book_iv",
@@ -2665,7 +3061,11 @@
       "text": "The matron brought an apprentice practice strip whose copper tongue closed without a household notch. Lin Yue compared its timed light with the isolated test, keeping her own field shut after the earlier pulse. Elder Yun marked where the winter stroke lay outside the closing rhythm. The matron repeated the ordinary stopping sequence. Together the diagram and demonstration separated the inherited demand from the safe closure. Lin Yue could explain the distinction; she had not acquired the healer's capacity to alter it.",
       "next": "orchard_hart_arrival",
       "background": "pain_exchange_chamber",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "orchard_meal": {
       "chapter": "book_iv",
@@ -2674,7 +3074,11 @@
       "text": "In the dining hall, bowls were passed around a place left empty for the niece. Her aunt ate with her uninjured hand. A man who had volunteered the previous winter said the exchange let him sit beside his wife without watching every hour of her pain. Another patient wanted the couches taken away. Lin Yue kept pouring tea while the answers disagreed. Nobody asked her sword to settle which experience counted as the truth.",
       "next": "orchard_meal_question",
       "background": "orchard_dining_hall",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "orchard_meal_question": {
       "chapter": "book_iv",
@@ -2683,7 +3087,11 @@
       "text": "When you offered a turn, what did you think would happen afterward? The man expected two quiet days and got six nights of broken sleep. His wife expected to thank him and found herself apologizing whenever the ache returned. Neither regrets every exchange. Neither wants the next one arranged by a winter mark. I came here thinking I knew the weight of carrying something for another person. Listening has made that thought much less comfortable.",
       "next": "orchard_meal_find",
       "background": "orchard_dining_hall",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "orchard_meal_find": {
       "chapter": "book_iv",
@@ -2692,7 +3100,11 @@
       "text": "The niece arrived after the soup cooled. She wanted medicine for her aunt, an afternoon in her own garden, and someone to help wash the bedding. She did not ask for a heroic substitute. Lin Yue wrote the three requests on separate slips. Around the table, people added tasks they could offer and hours they could not. The resulting pile was modest. It contained more usable help than the sweeping pledge painted above the door.",
       "next": "orchard_hart_arrival",
       "background": "orchard_dining_hall",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "orchard_ledger": {
       "chapter": "book_iv",
@@ -2701,7 +3113,11 @@
       "text": "The seed vault smelled of dust and dry plum stones. An assistant opened the allocation book beneath a shaded lamp. Grain, medicine, and exchange turns shared one column, each marked against a household. In the older book, the same winter reserve had paid for meals while workers rested. A later keeper had moved the exchange tally beside it. Nothing on that page said the tally might become a condition of receiving food.",
       "next": "orchard_ledger_question",
       "background": "orchard_seed_vault",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "orchard_ledger_question": {
       "chapter": "book_iv",
@@ -2710,7 +3126,11 @@
       "text": "Here is my inscription copied in the margin: a winter offer, witnessed and renewed. The renewal stroke was never carried onto the copper. I checked the treatment rhythm and accepted the keeper's assurance about the rest. His handwriting cannot answer for him now. Mine can answer for me. We will preserve this page while correcting the mark. Future healers should be able to see how much confidence I placed in something I had not checked.",
       "next": "orchard_ledger_find",
       "background": "orchard_seed_vault",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "orchard_ledger_find": {
       "chapter": "book_iv",
@@ -2719,7 +3139,11 @@
       "text": "Lin Yue followed the payments beyond the exchange tally. Most winter grain had reached patients whether they volunteered or not, but three recent applications had been held for missing turns. The assistant brought the unopened applications to the matron. She authorized the meals immediately and kept the refusals for review. A correction small enough to fit beneath one signature changed what three people would eat tonight. The copper still needed work; supper did not have to wait.",
       "next": "orchard_hart_arrival",
       "background": "orchard_seed_vault",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "orchard_accounts": {
       "chapter": "book_iv",
@@ -2728,7 +3152,11 @@
       "text": "The assistants have finished their checks. The practice strip preserves a safe closing rhythm without household notches. At dinner, patients asked for relief, ordinary help, and the right to make different choices. The allocation books confirm that food was funded separately before the columns were combined. These findings agree on one repair: remove the inherited winter demand while keeping the measured closing pace. The matron will supervise; I will record my part in its making.",
       "next": "orchard_need",
       "background": "orchard_apothecary",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "orchard_need": {
       "chapter": "book_iv",
@@ -2737,7 +3165,11 @@
       "text": "With the contact still capped, the matron removed the winter stroke a shaving at a time. Elder Yun compared each cut with the practice strip. The frost loosened from the branch and fell into a shallow bowl. Nobody's pain vanished with it. In the sickroom, the aunt needed another poultice. Outside, six patients waited beneath a damp awning. The orchard had stopped assigning unwilling bodies. It still had to help the bodies already hurting.",
       "next": "orchard_cost",
       "background": "pain_exchange_chamber",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "orchard_cost": {
       "chapter": "book_iv",
@@ -2746,7 +3178,11 @@
       "text": "The matron can oversee three short exchanges a day if people choose them. More would exhaust her assistants. We have herbs for a week, wages for five care shifts, and seed stock that could fund another week if the orchard approves a sale. Quiet paced breathing may help someone bear an ache; Lin Yue's qi will enter no patient. It cannot mend an injury. Choose one first step, with the waiting room told exactly what supplies and skilled time remain unavailable.",
       "next": "orchard_resolution_choice",
       "background": "orchard_apothecary",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "orchard_resolution_choice": {
       "chapter": "book_iv",
@@ -2796,7 +3232,11 @@
         }
       ],
       "background": "orchard_healing_hall",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "orchard_breath_trial": {
       "chapter": "book_iv",
@@ -2806,7 +3246,11 @@
       "next": "orchard_breath_limits",
       "background": "orchard_healing_hall",
       "effect": "qi",
-      "animation": "channeling"
+      "animation": "channeling",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "orchard_breath_limits": {
       "chapter": "book_iv",
@@ -2815,7 +3259,11 @@
       "text": "We offer this to people who want to try, beside medicine and rest. The matron sets the pace, watches for dizziness, and ends it when asked. I will teach the breathing rhythm while I am here, then return after a month to hear what changed. No one loses another treatment by finding this one useless. Please write that beside the instructions. I would dislike becoming a remedy people must praise in order to be believed.",
       "next": "ending_orchard_breath",
       "background": "orchard_apothecary",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ending_orchard_breath": {
       "chapter": "book_iv",
@@ -2825,7 +3273,11 @@
       "ending": "A Practice That Could Be Stopped",
       "background": "herbal_steam_room",
       "effect": "none",
-      "continuation": "city_from_breath"
+      "continuation": "city_from_breath",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "orchard_care_rota": {
       "chapter": "book_iv",
@@ -2834,7 +3286,11 @@
       "text": "Five paid shifts will not cover every need. Let us begin with washing, carrying, and cooking, where willing hands do not have to pretend they are trained healers. I can take bedding to the wash yard. Shen Qing can carry the water. Neither task buys us access to anybody's treatment couch. The matron will ask privately who wants an exchange, and nobody's place on the care list will tell the dining hall what they answered.",
       "next": "orchard_care_rest",
       "background": "orchard_dining_hall",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "orchard_care_rest": {
       "chapter": "book_iv",
@@ -2843,7 +3299,11 @@
       "text": "The orchard agreed to sell a portion of its seed reserve for wages. Before the rota began, the matron named a replacement for each shift and one afternoon when no exchange would be offered. The niece went home to weed her own garden. Her aunt complained that the soup had too much ginger. Mo Ran received the complaint while folding clean bedding, then carried it to the kitchen without trying to turn gratitude into another household duty.",
       "next": "ending_orchard_care",
       "background": "orchard_sickroom",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ending_orchard_care": {
       "chapter": "book_iv",
@@ -2853,7 +3313,11 @@
       "ending": "Hands With Hours of Their Own",
       "background": "orchard_dining_hall",
       "effect": "none",
-      "continuation": "city_from_care"
+      "continuation": "city_from_care",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "orchard_fund_terms": {
       "chapter": "book_iv",
@@ -2862,7 +3326,11 @@
       "text": "The matron has approved separate pages for food, wages, medicine, and voluntary exchanges. We will account publicly for the money while keeping patients' answers private. I will pay to replace the copper section I helped make; that payment gives me no authority over who receives treatment. The orchard can decide how much seed stock to sell. It must keep enough for planting, or a generous spring will leave next winter with an empty store.",
       "next": "orchard_fund_reading",
       "background": "orchard_seed_vault",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "orchard_fund_reading": {
       "chapter": "book_iv",
@@ -2871,7 +3339,11 @@
       "text": "They read the proposed figures in the dining hall. A gardener corrected the seed estimate. A cook asked why replacement shifts had been priced below the regular ones. The matron amended both lines. Elder Yun's payment covered the new copper and one assistant's training, leaving a visible gap beneath the medicine total. Lin Yue helped write the remaining need on the notice. The figures looked less reassuring afterward and gave each offered coin somewhere honest to go.",
       "next": "ending_orchard_funds",
       "background": "orchard_dining_hall",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ending_orchard_funds": {
       "chapter": "book_iv",
@@ -2881,7 +3353,11 @@
       "ending": "The Winter Account Reopened",
       "background": "orchard_apothecary",
       "effect": "none",
-      "continuation": "city_from_funds"
+      "continuation": "city_from_funds",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "orchard_pause": {
       "chapter": "book_iv",
@@ -2890,7 +3366,11 @@
       "text": "Seven days gives the staff time to rest and learn the repaired circuit before offering another exchange. Tell each waiting patient today. Some may seek help elsewhere; the orchard will provide directions and transport where it can. Those who stay receive medicine, meals, splints, and the care the matron can safely give. The pause has a review date. We will ask about pain, staffing, and supplies on that day, without treating the date as an order to reopen.",
       "next": "orchard_pause_meals",
       "background": "orchard_healing_hall",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "orchard_pause_meals": {
       "chapter": "book_iv",
@@ -2899,7 +3379,11 @@
       "text": "Two patients left in a covered cart. Four remained, and one cried when she heard how slowly the herbs worked. Lin Yue sat beside her until the kettle boiled. She had no smaller sentence that made the delay kind. In the apothecary, Elder Yun practiced the repaired closing rhythm with the assistants. Mo Ran carried supper to the sickroom. The closed exchange chamber stood among busy rooms, neither forgotten nor required to prove its worth tonight.",
       "next": "ending_orchard_pause",
       "background": "orchard_sickroom",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ending_orchard_pause": {
       "chapter": "book_iv",
@@ -2909,7 +3393,11 @@
       "ending": "Seven Days of Ordinary Spring",
       "background": "orchard_healing_hall",
       "effect": "none",
-      "continuation": "city_from_pause"
+      "continuation": "city_from_pause",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "orchard_hart_arrival": {
       "chapter": "book_iv",
@@ -2918,7 +3406,11 @@
       "text": "In the winter-blossom pavilion, Ren Qiao showed Lin Yue another copper rest, broad enough for a creature's chest. Beside it lay the Frostroot Hart, rootlike mane braided clear of its crystal antlers. Last winter it had accepted several short exchanges while patients waited for medicine. Its own marked strip recorded each visit separately. The Hart lifted its head when they entered and asked why the spring schedule already included its name.",
       "next": "orchard_hart_answer",
       "background": "winter_blossom_pavilion",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "orchard_hart_answer": {
       "chapter": "book_iv",
@@ -2927,7 +3419,11 @@
       "text": "The cook with burned hands asked me for one evening. I agreed because she was hurting, and because I could rest afterward. The copper did not mend her burns. It let her eat while the medicine cooled. I returned twice when she asked again. Those answers belong to those evenings. Tonight I need sleep, and I decline another exchange. Leave room on your spring schedule for an answer you have not heard.",
       "next": "orchard_hart_terms",
       "background": "winter_blossom_pavilion",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "orchard_hart_terms": {
       "chapter": "book_iv",
@@ -2936,7 +3432,11 @@
       "text": "I will remove the Hart's name from the schedule. Its record is separate from the household turns; its earlier visits do not authorize another. A willing human carrier cannot offer the Hart's body, and the Hart cannot offer theirs. A patient must also agree to the particular exchange. We may ask again later, with room for every answer to differ. Tonight we plan with medicine and ordinary hands, not with relief we hoped this creature would give.",
       "next": "orchard_accounts",
       "background": "winter_blossom_pavilion",
-      "effect": "none"
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_from_breath": {
       "chapter": "book_v",
@@ -2945,7 +3445,11 @@
       "text": "The assistant can lead the breathing practice now, and the matron still stops it if someone grows dizzy. I left my return date beside the page of uneven results. That page will matter when I come back; a useful afternoon must not become a story in which everybody recovered. Ren Qiao sent us toward the city for replacement jars. Their supplier had asked us to collect the order ourselves. The courier's work account was frozen, though the orchard had already paid for its medicine containers.",
       "background": "orchard_apothecary",
       "effect": "none",
-      "next": "city_arrival"
+      "next": "city_arrival",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_from_care": {
       "chapter": "book_v",
@@ -2954,7 +3458,11 @@
       "text": "The helpers changed the rota before we left. Two patients still need more help than its paid hours can cover, and their names remain on tomorrow's list. I folded the last dry sheets without suggesting another grand pledge. Ren Qiao needs replacement jars; the city supplier cannot send them while its courier's account is held. I offered to collect them. My sealed case travels beneath my coat, where clean bedding traveled yesterday. Neither parcel has become public property because somebody has found a useful task for me.",
       "background": "orchard_dining_hall",
       "effect": "none",
-      "next": "city_arrival"
+      "next": "city_arrival",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_from_funds": {
       "chapter": "book_v",
@@ -2963,7 +3471,11 @@
       "text": "The assistant checked the repaired copper against the practice strip before I left. My payment covered that work and her training; the medicine gap remains on the public account. The orchard has kept enough seed for planting. I carry its paid receipt for replacement jars, which the city supplier has asked us to collect. A commercial dispute has stopped the courier. I want to understand how an argument over somebody else's rented face acquired the power to keep these ordinary containers out of a healing hall.",
       "background": "orchard_apothecary",
       "effect": "none",
-      "next": "city_arrival"
+      "next": "city_arrival",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_from_pause": {
       "chapter": "book_v",
@@ -2972,7 +3484,11 @@
       "text": "The seven-day review did not order the exchange chamber open. The matron arranged separate trial days for the two patients who wished to try; others kept medicine, meals, and the ordinary care plan. I left the orchard with its receipt for replacement jars. The supplier's courier could not bring them, so we would collect them ourselves. Behind us, the branch still bore its narrow scar. Ahead, a city advertised new faces above its gates. I hoped its jars would be easier to purchase than its promises.",
       "background": "orchard_healing_hall",
       "effect": "none",
-      "next": "city_arrival"
+      "next": "city_arrival",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_arrival": {
       "chapter": "book_v",
@@ -2981,7 +3497,11 @@
       "text": "The city market had more faces than customers. Lacquered masks watched from striped awnings, each beside a price, a license number, and a small notice of permitted uses. A broad smiling face cost more for festival work than for carrying sacks. Beyond the stalls, smoke rose from cultivation furnaces where artisans bought measured hours of heat. Lin Yue followed the supplier's address through a lane of mirrors. In every reflection, someone was holding a borrowed face away from their own, checking the fastening before agreeing to wear it.",
       "background": "borrowed_faces_market",
       "effect": "none",
-      "next": "city_dressing_room"
+      "next": "city_dressing_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_dressing_room": {
       "chapter": "book_v",
@@ -2990,7 +3510,11 @@
       "text": "Leave your traveling coat here if you want to try a fitting. You can also keep it on and watch. This room sells no compulsory transformation. Some people need a public work persona because their own standing is new, or because they want their private households left outside their trade. Others simply perform in the theater. A licensed face states what its wearer may represent. The permission is written on the tag. I make fragrance for these fittings, and I would rather you read the tag first.",
       "background": "borrowed_face_dressing_room",
       "effect": "none",
-      "next": "city_face_rule"
+      "next": "city_face_rule",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_face_rule": {
       "chapter": "book_v",
@@ -2999,7 +3523,11 @@
       "text": "A mask changes the face people see, and a voice only when the license includes it. The collar records returns against the shell's sealed work permission. It does not carry another person's mind, skill, or memories. Some designs resemble consenting models; some were invented in this workshop. Renting either lends a recorded public persona for specified work. Take the mask off and the appearance ends. The wearer's own identity has been here throughout. If a clerk claims my porcelain has swallowed a name, ask to see what the clerk wrote.",
       "background": "mask_makers_studio",
       "effect": "none",
-      "next": "city_credit_rule"
+      "next": "city_credit_rule",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_credit_rule": {
       "chapter": "book_v",
@@ -3008,7 +3536,11 @@
       "text": "Recognized work personas can purchase furnace hours without the long wait imposed on a new account. That standing has become cultivation currency: the exchange rents it with the face and keeps records of the work done under it. Hours still require fuel and payment. A mask creates no credit by itself. The original license has separate lines for appearance, recognition use, and the wearer's private name proof. Only the first two are rented. The third tells the registry which living person can answer for the account.",
       "background": "city_registry_office",
       "effect": "none",
-      "next": "city_wage_queue"
+      "next": "city_wage_queue",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_wage_queue": {
       "chapter": "book_v",
@@ -3017,7 +3549,11 @@
       "text": "At the supplier's warehouse, the medicine jars stood packed in straw beside the door. Their courier sat on the lowest step with a merchant's mask on his knees. Other workers waited behind him, holding pay chits the exchange would no longer clear. A mirror repairer had brought a cracked hand glass to keep working while she waited. The gate clerk examined each person's paper, then pointed to the same red line on a notice. Nobody in the queue had forgotten their name. The paperwork had stopped accepting it.",
       "background": "borrowed_faces_market",
       "effect": "none",
-      "next": "city_courier"
+      "next": "city_courier",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_courier": {
       "chapter": "book_v",
@@ -3026,7 +3562,11 @@
       "text": "The orchard paid for those jars; their new dispatch is waiting on my frozen account. Yesterday I collected a separate fourth parcel under C-17, after completing three deliveries. The supplier canceled its delivery late. My own courier license remains valid. Now the exchange calls me in unearned-credit default. One collection fee already came from my bond, but the same receipt is billed again. The return price remains disputed. I cannot feed my household with an argument while their ledger treats a face number as my pay account.",
       "background": "borrowed_faces_market",
       "effect": "none",
-      "next": "city_notice"
+      "next": "city_notice",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_notice": {
       "chapter": "book_v",
@@ -3035,7 +3575,11 @@
       "text": "This notice says disputed recognition credit can place the owner's name proof under attachment. That would keep a worker from claiming wages or showing an ordinary property document until the exchange lifts the hold. Tao's hand is steady when he writes his name. His employers know who completed those deliveries. Whatever the rental dispute means, neither fact has changed. Mei Dulan, before we inspect the masks, tell us who gave a commercial desk authority over a person's standing in your registry. The notice offers no answer.",
       "background": "identity_exchange_hall",
       "effect": "none",
-      "next": "city_name_proof"
+      "next": "city_name_proof",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_name_proof": {
       "chapter": "book_v",
@@ -3044,7 +3588,11 @@
       "text": "The registry charter gives that desk no such authority. A model may rent a resemblance; a worker may rent recognition use. Neither transaction sells the person's permanent name proof. The director submitted a spring batch which appears to treat those different fields as one security. I have the registrar's countersigned correction warrant, but I must identify the affected entries before using it. A separate commercial bill can remain disputed. Public proof cannot become its pawn merely because the exchange has printed a larger red seal.",
       "background": "city_registry_office",
       "effect": "none",
-      "next": "city_courser_arrival"
+      "next": "city_courser_arrival",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_courser_arrival": {
       "chapter": "book_v",
@@ -3053,7 +3601,11 @@
       "text": "A porcelain horse came through the lane slowly enough that nobody had to scatter. Dust dulled its glazed flanks. From its chest harness hung an oilcloth dispatch book, fastened clear of the jar crates. It stopped beside Tao and nudged the mask on his knees with its muzzle. Tao laughed once, a short sound which surprised the waiting workers. The horse had carried the exchange's return packets last week. When Lin Yue reached toward the book, it raised its head before her fingers touched the clasp.",
       "background": "borrowed_faces_market",
       "effect": "none",
-      "next": "city_courser_terms"
+      "next": "city_courser_terms",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_courser_terms": {
       "chapter": "book_v",
@@ -3062,7 +3614,11 @@
       "text": "Ask the courier who owns the book. That would be me. Compare this batch's street passes and Fei's return-wax consignment while I watch; copy their dates after covering other consignors' names. Ask Fei before using her consignment link. You may ask what I saw at the return desk. These permissions exclude my private customer list and a ride anywhere you find convenient. I know the difference between a useful witness and an available horse. Tao usually remembers it. Today he has stared at those red marks too long.",
       "background": "borrowed_faces_market",
       "effect": "none",
-      "next": "city_courser_permission"
+      "next": "city_courser_permission",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_courser_permission": {
       "chapter": "book_v",
@@ -3071,7 +3627,11 @@
       "text": "We will copy the street passes and relevant consignment here, with unrelated names covered. Both you and Fei can check the copy and its permitted uses before it leaves. The registry will record those limits beside your signatures. We can walk to the hearing ourselves. Tao, this account may help date the packets and the return-wax delivery, but cannot replace your receipts or the workshop records. We need comparisons that survive disagreement. If a witness declines a question, we will leave it open and seek another permitted source.",
       "background": "borrowed_faces_market",
       "effect": "none",
-      "next": "city_echo_custody"
+      "next": "city_echo_custody",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_echo_custody": {
       "chapter": "book_v",
@@ -3080,7 +3640,11 @@
       "text": "My case remains sealed beneath my coat. A city devoted to rented identities is still no reason to use an echo as a shortcut through somebody's history. The river copies were offered separately, and receiving one did not grant permission to listen. The unidentified third ring remains closed with the Eel under the landing's existing agreement. Its owner is still unknown. We have papers, living witnesses, and a horse who can refuse us. That seems enough material for an honest investigation, if we resist demanding more convenient evidence.",
       "background": "city_safe_house",
       "effect": "none",
-      "next": "city_refuge"
+      "next": "city_refuge",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_refuge": {
       "chapter": "book_v",
@@ -3089,7 +3653,11 @@
       "text": "The bathhouse keeper let the waiting workers shelter in an unused changing room. Steam warmed their cold fingers through the wall. Someone found a kettle; someone else counted the coins available for lunch. Tao kept the jars' paid receipt away from the wet towels. A performer removed her borrowed smile before eating, then carefully dried the collar. She still needed it for tomorrow's legitimate engagement. Lin Yue watched her make room for the mask beside the bread. Suspending a faulty account would not make every useful loan disappear.",
       "background": "city_bathhouse",
       "effect": "none",
-      "next": "city_binding_diagram"
+      "next": "city_binding_diagram",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_binding_diagram": {
       "chapter": "book_v",
@@ -3098,7 +3666,11 @@
       "text": "I brought a practice shell, with its collar disconnected. Here are the appearance contacts; here is the removable permit lining. The lining records authorized recognition use and returns. It is supposed to follow the workshop's sealed fitting record. Someone can replace a lining without remaking the face. That is where I will begin, though I have not yet earned the right to call any particular worker's collar false. Leave the useful shells intact. My shop can stop new fittings while we compare the disputed spring batch.",
       "background": "mask_makers_studio",
       "effect": "none",
-      "next": "city_immediate_hold"
+      "next": "city_immediate_hold",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_immediate_hold": {
       "chapter": "book_v",
@@ -3107,7 +3679,11 @@
       "text": "The registrar has authorized a hold on the proposed sale of the attached name proofs until this afternoon's evidence hearing. The exchange cannot auction them while we examine the entries. That protects the immediate question without canceling every ordinary license in the city. I will post the warrant at its return desk and preserve a certified copy of the batch. Any worker who wants help tracing an account can give us the relevant page. Private household details will stay covered unless they are needed and separately offered.",
       "background": "identity_exchange_hall",
       "effect": "none",
-      "next": "city_clock"
+      "next": "city_clock",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_clock": {
       "chapter": "book_v",
@@ -3116,7 +3692,11 @@
       "text": "Above the exchange hall, an hour drum sounded through the market. Furnace tenders were preparing the evening heating slots, and merchants had begun asking which credits they could accept. Three loaded carts waited at the corner without enough cleared vouchers to pass the depot. A clerk brought an inventory of fuel already bought for those slots. The figures gave the dispute a cost beyond the red notices. Lin Yue carried a copy into the hall. Restoring a public name proof would not, by itself, refill an empty commercial account.",
       "background": "borrowed_faces_market",
       "effect": "none",
-      "next": "city_team_map"
+      "next": "city_team_map",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_team_map": {
       "chapter": "book_v",
@@ -3125,7 +3705,11 @@
       "text": "We have three teams and time for one careful investigation each. Qiao Sen will compare collars with his fitting records. Mei Dulan will trace the batch through the registry and Tao's account. Fei Nuo will examine the return wax and dispatch materials. I will arrange copies and bring their findings to the hearing. Whichever team you join, the other two will report before a decision. Do not race them by promising a solution now. The furnace inventory belongs beside the evidence, where everyone can see the remaining shortfall.",
       "background": "tea_house_private_room",
       "effect": "none",
-      "next": "city_sample_terms"
+      "next": "city_sample_terms",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_sample_terms": {
       "chapter": "book_v",
@@ -3134,7 +3718,11 @@
       "text": "My wax can help distinguish a return-desk consignment from an original fitting, if its supply note and control samples agree. It cannot name the person who handled a parcel. Offer us loose tags or cloth you are willing to have examined; we will use unworn practice pieces for the comparison. The Glasswing Moth shares my workshop and may choose to help with surface traces. It does not read minds. Nobody must wear a sample, inhale a treatment, or explain their private life to let this examination proceed.",
       "background": "perfumer_workroom",
       "effect": "none",
-      "next": "city_witness_terms"
+      "next": "city_witness_terms",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_witness_terms": {
       "chapter": "book_v",
@@ -3143,7 +3731,11 @@
       "text": "We will distinguish what an exhibit shows from what we want it to show. A duplicated mark is a reason to examine an account, not a reason to shame the worker carrying it. A return-desk scent can place a material in a supply chain, not pronounce a verdict. The original license and the copied batch must both remain available. Please record who offers each statement and what may be published. The people in the changing room need usable findings, including any uncertainty that could affect their wages.",
       "background": "tea_house_private_room",
       "effect": "none",
-      "next": "city_investigation_choice"
+      "next": "city_investigation_choice",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_investigation_choice": {
       "chapter": "book_v",
@@ -3177,7 +3769,11 @@
             "insight": 1
           }
         }
-      ]
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_findings": {
       "chapter": "book_v",
@@ -3186,7 +3782,11 @@
       "text": "By the hearing, three packets lay beneath separate lamps. Qiao's held the collar comparison and workshop schedule. Mei's held authorized extracts, the director's batch order, and Tao's receipts. Fei's held offered strips and a signed observation note. The courser approved its redacted dispatch copy; Fei separately approved the relevant consignment's link to her return-wax delivery, dated after the original fittings. Lin Yue recognized the packet she had helped prepare. The other teams presented theirs in turn, with time for questions before asking the workers to accept a conclusion.",
       "background": "identity_exchange_hall",
       "effect": "none",
-      "next": "city_mask_evidence"
+      "next": "city_mask_evidence",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_mask_evidence": {
       "chapter": "book_v",
@@ -3195,7 +3795,11 @@
       "text": "The fittings came before these collars were substituted. My signed schedule and the original seals agree. The copied authorization has a reversed cord weave and a different wash beneath it; the face shells still work as designed. Bian Hui's fitting was reed-seven. Tao Min the performer's was reed-nine. Their separate return tokens both became reed-seven. The workshop recorded no replacement reed-seven shell. Keep those statements distinct. They show a faulty authorization and duplicated return mark. They do not show whose fingers made the substitution.",
       "background": "identity_exchange_hall",
       "effect": "none",
-      "next": "city_return_tokens"
+      "next": "city_return_tokens",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_return_tokens": {
       "chapter": "book_v",
@@ -3204,7 +3808,11 @@
       "text": "The hearing clerk placed the two return tokens on clean cloth, far enough apart for the waiting workers to see they were separate objects. Their matching rental marks pointed to one original entry, although the workshop schedule showed two different authorized fittings. The copied collars had collapsed those returns into a duplicate. A worker asked whether admitting possession meant admitting fraud. Mei wrote the distinction into the minutes before proceeding. Possession explained which account had been charged; the comparison explained why its altered return authorization could not be trusted.",
       "background": "identity_exchange_hall",
       "effect": "none",
-      "next": "city_registry_evidence"
+      "next": "city_registry_evidence",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_registry_evidence": {
       "chapter": "book_v",
@@ -3213,7 +3821,11 @@
       "text": "The original terms rent appearance and temporary recognition use. The director's signed batch copies that permission into a different field: permanent name-proof collateral. No matching authorization exists in the original forms, and our charter does not allow this commercial attachment. The copied fields were then used to stop wages and ordinary proof requests after an unearned-credit default. Correcting them is a registry duty. That conclusion does not require us to decide whether every return charge was fair, or whether every person handling a copied collar intended to deceive.",
       "background": "identity_exchange_hall",
       "effect": "none",
-      "next": "city_courier_account"
+      "next": "city_courier_account",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_courier_account": {
       "chapter": "book_v",
@@ -3222,7 +3834,11 @@
       "text": "My rental was paid. Receipt K-204 shows the collection fee coming out of my bond once, when I collected the order at the ninth bell. After the employer canceled at the tenth, the same fee appeared again under that receipt. The permit number C-17 had also become the pay account identifier, replacing my own courier stamp. Those errors helped produce the default. The return price is still disputed, and I will answer that question separately. I want my wages and name proof to stop answering it for me.",
       "background": "identity_exchange_hall",
       "effect": "none",
-      "next": "city_perfumer_evidence"
+      "next": "city_perfumer_evidence",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_perfumer_evidence": {
       "chapter": "book_v",
@@ -3231,7 +3847,11 @@
       "text": "Plain amber wax and the original amber-violet return blend were our controls. The offered cloth fragments reproduced the return blend's scent and its surface-binder trace on unworn practice pieces. My supply note places that blend at the exchange return desk after the original fittings were sealed. The dispatch copy supports the same sequence. These results connect materials and dates. They do not identify a culprit. I have left the sample limits on the note so nobody can turn a useful comparison into an accusation the comparison cannot support. The clerk requests another comparison tonight.",
       "background": "identity_exchange_hall",
       "effect": "none",
-      "next": "city_moth_limit"
+      "next": "city_moth_limit",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_moth_limit": {
       "chapter": "book_v",
@@ -3240,7 +3860,11 @@
       "text": "I compared only the permitted fragments and practice strips. I can notice the scent and ink remaining there; I cannot find the private name of a hand which touched them. I cannot taste an intention from a collar. The sealed original tags stayed covered, and I followed no wearer. Plain amber remained separate from the violet blend and the two offered fragments. My account supports that grouping. It says nothing about the person who applied the wax. I decline another comparison tonight. The sharp jar remains shut, and my workshop duties continue after this hearing.",
       "background": "identity_exchange_hall",
       "effect": "none",
-      "next": "city_director_reply"
+      "next": "city_director_reply",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_director_reply": {
       "chapter": "book_v",
@@ -3249,7 +3873,11 @@
       "text": "The director's written reply arrived beneath the exchange seal. He said the batch had secured recognition credit against expected rental income, protecting investors who had already paid for furnace fuel. Removing the security would expose a shortfall before evening. He disputed responsibility for the copied collars and requested a separate account hearing. The clerk read the entire reply, including its attached fuel figures. Lin Yue compared those figures with the tenders' inventory. The expense was real. Its reality did not supply the missing authority to attach a public name proof.",
       "background": "identity_exchange_hall",
       "effect": "none",
-      "next": "city_hearing_question"
+      "next": "city_hearing_question",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_hearing_question": {
       "chapter": "book_v",
@@ -3258,7 +3886,11 @@
       "text": "We should hear the return-price dispute and the director's account of the substituted collars. We should also keep the fuel shortfall where people can judge it. None of those questions makes a person's name proof available as security. The registry can correct that hold now, while the account hearing preserves the genuine claims. Let the exchange identify a charge by its proper receipt and an investor by the money actually committed. If it needs new credit, it must state the terms and find someone entitled to offer it.",
       "background": "identity_exchange_hall",
       "effect": "none",
-      "next": "city_provisional"
+      "next": "city_provisional",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_provisional": {
       "chapter": "book_v",
@@ -3267,7 +3899,11 @@
       "text": "Under the registrar's correction warrant, I am restoring provisional public name proofs for the affected entries and removing the batch attachment. Workers can claim wages under their proper accounts and request ordinary documents today. We will issue certified corrections without publishing the private links behind licensed personas. The original forms, copied batch, and contested receipts remain preserved. Genuine return charges receive separate case numbers. This order does not award compensation we have not funded, cancel a proved commercial debt, or decide personal liability for the substituted collars.",
       "background": "city_registry_office",
       "effect": "none",
-      "next": "city_rights_restored"
+      "next": "city_rights_restored",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_rights_restored": {
       "chapter": "book_v",
@@ -3276,7 +3912,11 @@
       "text": "Outside the registry, the mirror repairer used her corrected proof to collect a wage packet, then counted it before leaving. Tao's own courier stamp returned to his account. He carried the paid jars to the covered depot for the orchard run. Other receipts still needed reconciliation; one worker's employer had not deposited the wages owed. The clerks wrote those remaining problems separately. Across the lane, a furnace tender lowered the evening-slot board to show the missing funds. Restored papers opened doors. They did not produce the money behind every door.",
       "background": "city_registry_office",
       "effect": "none",
-      "next": "city_hearing_cost"
+      "next": "city_hearing_cost",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_hearing_cost": {
       "chapter": "book_v",
@@ -3285,7 +3925,11 @@
       "text": "The disputed batch cannot serve as tomorrow's security. Existing lawful licenses can be checked individually. For the next step, we have a few unused furnace-hour certificates people may offer, enough clerks to separate the two ledgers, workers willing to discuss their own licensing pool, and authority to audit the batch on a dated pause. None covers everything tonight. Qiao can inspect only a limited number of collars each day. Before you choose, remember that corrected public proofs and proper wage claims are already available on every plan.",
       "background": "identity_exchange_hall",
       "effect": "none",
-      "next": "city_final_choice"
+      "next": "city_final_choice",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_final_choice": {
       "chapter": "book_v",
@@ -3335,16 +3979,24 @@
             "resolve": 2
           }
         }
-      ]
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_credit_bridge": {
       "chapter": "book_v",
       "speaker": "lin_yue",
       "actor": "lin_yue",
-      "text": "These certificates contain existing unused furnace hours, offered by their owners. I can steady the regulator while the clerk cancels each original and records its limited transfer; we create no qi and spend no hour twice. Each lender's maximum loss is the number written beside their signature. The bridge ends after three nights. Unused hours return to their owners; extending it requires a new offer. Nobody's public proof or wages secure the loan. Please read that aloud before the first potter decides whether to part with her evening slot.",
+      "text": "The certificates hold existing unused furnace hours, offered by their owners. I can test one rated status relay at my measured load, then discharge. The licensed tender operates the regulator with its purchased fuel while clerks cancel and record transfers. We create no qi and spend no hour twice. Each lender's maximum loss is written beside the offer. This bridge ends after three nights; unused hours return, and extension needs a new offer. Public proofs and wages secure nothing. Read those limits before accepting a potter's slot.",
       "background": "identity_exchange_hall",
       "effect": "none",
-      "next": "ending_city_credit"
+      "next": "ending_city_credit",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ending_city_credit": {
       "chapter": "book_v",
@@ -3354,7 +4006,11 @@
       "background": "borrowed_faces_market",
       "effect": "none",
       "ending": "The Credit at Closing Time",
-      "continuation": "court_from_credit"
+      "continuation": "court_from_credit",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_separate_ledgers": {
       "chapter": "book_v",
@@ -3363,7 +4019,11 @@
       "text": "The permanent registry will hold public name proofs. The commercial ledger will hold time-limited appearance and recognition permits, billed by their own serials and dated events. A private verified link can identify the account owner when required, without printing a household name on every borrowed face. Two clerks will reconcile existing entries before transferring them. We will correct duplicates by an appended note, preserving the earlier line for review. This takes paid hours we have little of. We begin with blocked wages, not a promise to rewrite the whole city tonight.",
       "background": "city_registry_office",
       "effect": "none",
-      "next": "ending_city_ledgers"
+      "next": "ending_city_ledgers",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ending_city_ledgers": {
       "chapter": "book_v",
@@ -3373,7 +4033,11 @@
       "background": "city_registry_office",
       "effect": "none",
       "ending": "A Name in Its Own Column",
-      "continuation": "court_from_ledgers"
+      "continuation": "court_from_ledgers",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_license_pool": {
       "chapter": "book_v",
@@ -3382,7 +4046,11 @@
       "text": "The workers want a pool for licenses they choose to share, with models' permissions checked separately. I can offer inspected shells at a stated repair price. Members set a small mutual fund, a ceiling on each contribution, and a way to leave without surrendering public proof. The fund covers only the losses its account can actually pay. Joining buys no control over another person's face or testimony. We need a clerk and a first review date. Let the people paying the contributions choose them, including those who disagree with me.",
       "background": "silk_weavers_loft",
       "effect": "none",
-      "next": "ending_city_pool"
+      "next": "ending_city_pool",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ending_city_pool": {
       "chapter": "book_v",
@@ -3392,7 +4060,11 @@
       "background": "tea_house_private_room",
       "effect": "none",
       "ending": "The Licenses of Working People",
-      "continuation": "court_from_pool"
+      "continuation": "court_from_pool",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_batch_audit": {
       "chapter": "book_v",
@@ -3401,7 +4073,11 @@
       "text": "Keep this spring batch paused until Tuesday's account hearing. Inspect its collars and reconcile its receipts individually, beginning with people whose pay was blocked. Lawful licenses outside the batch remain usable after their ordinary checks. The exchange will post the available furnace slots and the money still missing, without attaching public proofs again. Workers can seek another supplier or decline a new rental. Tuesday is a review date, not an instruction to clear every entry. We will ask which charges were supported, which were corrected, and which still need an answer.",
       "background": "identity_exchange_hall",
       "effect": "none",
-      "next": "ending_city_audit"
+      "next": "ending_city_audit",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ending_city_audit": {
       "chapter": "book_v",
@@ -3411,7 +4087,11 @@
       "background": "identity_exchange_hall",
       "effect": "none",
       "ending": "Two Ledgers Until Tuesday",
-      "continuation": "court_from_audit"
+      "continuation": "court_from_audit",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_mask_entry": {
       "chapter": "book_v",
@@ -3420,7 +4100,11 @@
       "text": "At the borrowed-faces market, Qiao Sen was patching a broken stool while a line of customers waited for his stall to open. He was fifty, broad across the shoulders, with white dust caught in the creases of his hands. Three masks hung above him: a grave clerk, a laughing porter, and a woman whose painted brows seemed ready to quarrel. A dyer named Bian Hui had brought her work collar back in a cloth bag. The gate had accepted her rented face yesterday. Today it called her a duplicate.",
       "background": "borrowed_faces_market",
       "effect": "none",
-      "next": "city_mask_studio"
+      "next": "city_mask_studio",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_mask_studio": {
       "chapter": "book_v",
@@ -3429,7 +4113,11 @@
       "text": "The stool comes first. If she must wait while I inspect her mask, she ought to sit. Bian Hui is thirty-six and has worked the dye vats for fourteen years. She rented the porter face because the river guild recognizes its lifting practice. That credit belongs to her day's work, under a temporary persona. It should return to her account when she returns the collar. The face gives no one her memory, her birth name, or the right to carry her next shift.",
       "background": "mask_makers_studio",
       "effect": "none",
-      "next": "city_mask_grain"
+      "next": "city_mask_grain",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_mask_grain": {
       "chapter": "book_v",
@@ -3438,7 +4126,11 @@
       "text": "Inside the studio, Qiao opened a drawer of limewood blanks. He rejected one with a knot beside the mouth, then held another against the window so its fine grain showed through. Thin shavings curled from his knife into a basket kept for stove kindling. Each blank had to flex without pinching the wearer when its light was raised. Lin Yue noticed a cracked practice shell on a shelf. Qiao had dated the failure and written the cause beneath it: dried too near the flue.",
       "background": "mask_makers_studio",
       "effect": "none",
-      "next": "city_mask_layers"
+      "next": "city_mask_layers",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_mask_layers": {
       "chapter": "book_v",
@@ -3447,7 +4139,11 @@
       "text": "First I steam the shell, let it cool on this form, and scrape both sides. Rice paste binds the silk mesh inside. Three coats, each dry before the next; rain can add a day. The painted face sits outside the lattice. My signed shell seal states the chosen work and term. The removable collar carries the rental-return mark. Those are separate jobs. A fine portrait cannot cure a bad joint, and a beautiful voice does not make a license true. Touch this edge. It should feel smooth with the lamp out.",
       "background": "mask_makers_studio",
       "effect": "none",
-      "next": "city_mask_voice"
+      "next": "city_mask_voice",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_mask_voice": {
       "chapter": "book_v",
@@ -3456,7 +4152,11 @@
       "text": "These reeds tune the voice, but the lattice stops at the throat. It changes how a spoken word sounds; it supplies no word of its own. I can wear the clerk's face and still fail to add a column. Bian Hui can work behind a porter's broad smile without forgetting how dye takes to silk. Your rental mark is meant to connect a known worker, a chosen appearance, and a stated task for a set time. The changed lining has confused those three records.",
       "background": "mask_makers_studio",
       "effect": "none",
-      "next": "city_mask_fitting"
+      "next": "city_mask_fitting",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_mask_fitting": {
       "chapter": "book_v",
@@ -3465,7 +4165,11 @@
       "text": "Qiao led them to the dressing room, where Bian sat before a bronze mirror. He fitted the plain shell first and asked her to turn, chew, and look down at her hands. Only then did he fasten its collar. The porter's smile rose over her features like color crossing a wet brush. Bian tested one low note and stopped; the sound rasped. Qiao loosened a reed by a hair's width. When she spoke again, the voice had warmth without taking the words away from her.",
       "background": "borrowed_face_dressing_room",
       "effect": "none",
-      "next": "city_mask_expression"
+      "next": "city_mask_expression",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_mask_expression": {
       "chapter": "book_v",
@@ -3474,7 +4178,11 @@
       "text": "I made that smile because she asked for something cheerful after her husband left the vats to farm. She works beside her sister now; neither wanted the stern guild face. Tao Min, our forty-two-year-old player, rents a stern one precisely because he spends his evenings making people laugh. Faces can give a person a little room to try a different bearing. If the hearing leaves us only approved labor faces, half my best work will become useless, and neither customer will have been heard.",
       "background": "borrowed_face_dressing_room",
       "effect": "none",
-      "next": "city_mask_ledger"
+      "next": "city_mask_ledger",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_mask_ledger": {
       "chapter": "book_v",
@@ -3483,7 +4191,11 @@
       "text": "My schedule records the blank, the drying days, the fitting, and the collar I attached. This spring batch was fitted before the posted registry notice began treating rental returns as name proof. I signed beside each worker's work account, never beside a pledge of their permanent name. Yesterday an officer said my seal made me answerable for every borrowed face still in use. I asked which seal he meant. He pointed at a collar I had not tied. That is why I kept the schedule open.",
       "background": "mask_makers_studio",
       "effect": "none",
-      "next": "city_mask_samples"
+      "next": "city_mask_samples",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_mask_samples": {
       "chapter": "book_v",
@@ -3492,7 +4204,11 @@
       "text": "Bian tipped the contents of her cloth bag onto the table: the collar, a rental slip, and two return tokens. Both tokens bore reed-seven, although one came from her own return and the other from Tao Min's. Qiao's schedule gave Tao reed-nine; their punched corners differed. Qiao laid the genuine studio sample beside them. Its red closing knot was flat and narrow; Bian's lining covered a thicker joint. The portrait shell and its signed seal matched his fitting notes. Someone had kept the useful face while changing the part that told a clerk what it authorized.",
       "background": "mask_makers_studio",
       "effect": "none",
-      "next": "city_mask_stakes"
+      "next": "city_mask_stakes",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_mask_stakes": {
       "chapter": "book_v",
@@ -3501,7 +4217,11 @@
       "text": "Tao has lost a week's bookings because the register treats the shared number as a shared permanent name. Bian's guild has held back her practice credit. Neither needs us to declare all masks wicked. They need their two returns separated and the extra pledge removed from these collars. If I close every rental, the market carriers lose work before anyone checks a single slip. I can set this batch aside while we measure it. I cannot pay every worker to wait for a grand answer.",
       "background": "mask_makers_studio",
       "effect": "none",
-      "next": "city_mask_method"
+      "next": "city_mask_method",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_mask_method": {
       "chapter": "book_v",
@@ -3541,7 +4261,11 @@
             "resolve": 1
           }
         }
-      ]
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_mask_seam": {
       "chapter": "book_v",
@@ -3551,7 +4275,11 @@
       "background": "mask_makers_studio",
       "effect": "none",
       "next": "city_mask_seam_result",
-      "animation": "channeling"
+      "animation": "channeling",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_mask_seam_result": {
       "chapter": "book_v",
@@ -3560,7 +4288,11 @@
       "text": "That narrow bridge sends the closing pulse into two places. One is the return mark I fitted. The other sits under the pasted lining and repeats the mark beside a permanent-name pledge. Do you see why the voice sounded rough? The added loop tugs the lower reed frame when a wearer turns her head. I would never pass that through a fitting. We have found an extra circuit, not a second person hiding inside the mask. I will draw its joins and sign the sheet.",
       "background": "mask_makers_studio",
       "effect": "none",
-      "next": "city_mask_rejoin"
+      "next": "city_mask_rejoin",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_mask_dates": {
       "chapter": "book_v",
@@ -3569,7 +4301,11 @@
       "text": "Qiao's drying board still held the spring batch in black ink. Lin Yue placed each rental slip under its date, then read the jobs in order. Bian's collar had dried on a Tuesday; Tao's on the following Thursday. The slips named different work accounts, reed-seven and reed-nine, and different return times. Both copied tokens claimed a single return after the registry's revision. A smear on Tao's slip was blue dye, not a corrected digit. Lin Yue left it visible in her copy because a neat page would hide the difference.",
       "background": "mask_makers_studio",
       "effect": "none",
-      "next": "city_mask_dates_result"
+      "next": "city_mask_dates_result",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_mask_dates_result": {
       "chapter": "book_v",
@@ -3578,7 +4314,11 @@
       "text": "Your two fittings were finished before this new return form existed. The shared mark cannot come from a shared appointment, and the old schedule gives each worker a separate account. We should bring the board itself as well as my copy; it has the holes where your drying pegs stood. A clerk may still argue that you copied the later pledge onto an old date. The physical collars will answer the next part. Dates establish the order of work. They cannot tell us whose hands changed it.",
       "background": "mask_makers_studio",
       "effect": "none",
-      "next": "city_mask_rejoin"
+      "next": "city_mask_rejoin",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_mask_workers": {
       "chapter": "book_v",
@@ -3587,7 +4327,11 @@
       "text": "Bian returned after closing her vat, with a blue cloth over one arm. Tao came in stage paint and apologized for the powder on his boots. In the dressing room they each fitted the plain practice collar Qiao offered, then showed where the returned collars had pulled. Bian touched the left clasp; Tao touched the right. Their accounts matched different workshop notches. Both remembered a new strip being pasted in at the rental return desk. Neither had been told that a work receipt would stand as permanent name proof.",
       "background": "borrowed_face_dressing_room",
       "effect": "none",
-      "next": "city_mask_workers_result"
+      "next": "city_mask_workers_result",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_mask_workers_result": {
       "chapter": "book_v",
@@ -3596,7 +4340,11 @@
       "text": "They can give a useful account without agreeing about every small detail. Bian recalls a white pot; Tao recalls the clerk warming a brush. We shall write those separately. Both felt a pull that was absent at my fitting, and both saw the added strip at return. I will attach my own statement that the strips are not my work. A brush pot does not identify a forger. It tells us where to look for a procedure, and a procedure leaves more than someone's frightened recollection.",
       "background": "borrowed_face_dressing_room",
       "effect": "none",
-      "next": "city_mask_rejoin"
+      "next": "city_mask_rejoin",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_mask_rejoin": {
       "chapter": "book_v",
@@ -3605,7 +4353,11 @@
       "text": "Qiao lifted Bian's sound shell from the changed collar. Its smile and voice still worked; the signed seal still authorized her original guild task. His fitting notes described two good joints and two separate accounts. Beneath the added paste, an extra loop fed a copied return mark and a permanent-name pledge. Lin Yue sealed each token in its own sleeve, leaving reed-seven visible through a cut square. The pair established a copied number. Identifying who pasted the lining would take other evidence. Qiao labeled the sleeves before they left.",
       "background": "mask_makers_studio",
       "effect": "none",
-      "next": "city_mask_mirror"
+      "next": "city_mask_mirror",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_mask_mirror": {
       "chapter": "book_v",
@@ -3614,7 +4366,11 @@
       "text": "Nian Bei, the sixty-year-old mirror repairer, cleared felt from her polishing bench. In the soft reflection, the collar's hidden scratches showed without raising its rented appearance. Qiao held the genuine sample at the same angle. His knife had left short strokes that ran toward the closing knot; the pasted collar carried a long scrape across them. Nian placed a sheet of paper beside each view and drew the strokes. She had repaired three such collars that week. All three had rubbed their wearers' necks after return.",
       "background": "mirror_repair_shop",
       "effect": "none",
-      "next": "city_mask_scrape"
+      "next": "city_mask_scrape",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_mask_scrape": {
       "chapter": "book_v",
@@ -3623,7 +4379,11 @@
       "text": "We can test the loose offcut, not scrape away the collar we must show. This paste goes cloudy in warm water because someone washed it with alum. Mine stays milky and lifts in a skin. The new lining was softened, laid over the dry old knot, and fixed again. That explains the long scrape Nian saw. A repair can look like this too; the wash alone proves no false pledge. Joined to the extra mark and the paired tokens, it establishes how the substitution could have been made.",
       "background": "mirror_repair_shop",
       "effect": "none",
-      "next": "city_mask_loft"
+      "next": "city_mask_loft",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_mask_loft": {
       "chapter": "book_v",
@@ -3632,7 +4392,11 @@
       "text": "In the silk loft, Fu Wen set aside a half-woven crimson sash. At forty-nine she could find a missed thread by running a thumbnail across it. She counted the genuine lining's warp, then the pasted strip's. Qiao ordered an uneven count so the cloth would settle around the jaw. The substituted strip had an even count and a reversed border. Fu sold that ordinary weave to many shops. She would confirm the material difference, but refused to turn a common bolt of silk into an accusation against its last buyer.",
       "background": "silk_weavers_loft",
       "effect": "none",
-      "next": "city_mask_hearing_risk"
+      "next": "city_mask_hearing_risk",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_mask_hearing_risk": {
       "chapter": "book_v",
@@ -3641,7 +4405,11 @@
       "text": "The guild may ask why I did not find this sooner. I will tell them: I saw the face still worked and trusted the return desk to change only its date. That saved me two hours a week. Bian paid for those hours with withheld credit. We can mend the reeds today, but no small repair can remove the permanent pledge from the registry's page. I will bring my schedule and answer for the fitting. Keep the two tokens beside it. My reputation must not do their work.",
       "background": "silk_weavers_loft",
       "effect": "none",
-      "next": "city_mask_packet"
+      "next": "city_mask_packet",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_mask_packet": {
       "chapter": "book_v",
@@ -3650,7 +4418,11 @@
       "text": "At the safe house, Lin Yue folded the drawings around a board so their edges would stay flat. Qiao signed the fitting schedule and the three comparisons: seam, paste, and weave. Bian and Tao chose to have their separate accounts read at the hearing; Nian and Fu supplied short statements about their own work. The collars remained sealed as exhibits. Qiao listed the batch held for inspection and the unaffected rentals still open. A page left blank at the back would record what the hearing decided, after it heard them.",
       "background": "city_safe_house",
       "effect": "none",
-      "next": "city_mask_departure"
+      "next": "city_mask_departure",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_mask_departure": {
       "chapter": "book_v",
@@ -3660,7 +4432,11 @@
       "background": "borrowed_faces_market",
       "effect": "none",
       "next": "city_findings",
-      "animation": "resolve"
+      "animation": "resolve",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_registry_entry": {
       "chapter": "book_v",
@@ -3668,7 +4444,11 @@
       "actor": "mei_dulan",
       "background": "city_registry_office",
       "text": "The registry's shutters were open, although a strip across the main counter announced an audit. Behind it, a woman with gray threaded through her braid sorted slips into three dishes: completed work, unpaid work, and work whose charge had changed. Lin Yue expected a cabinet of mysterious names. Instead she found a leaking roof, a bucket beneath the leak, and a courier holding the wrong bill. The woman lifted a dry page away from the bucket. \"If you came to help, begin by keeping these dates apart.\"",
-      "next": "city_registry_mei"
+      "next": "city_registry_mei",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_registry_mei": {
       "chapter": "book_v",
@@ -3676,7 +4456,11 @@
       "actor": "mei_dulan",
       "background": "city_registry_office",
       "text": "I am Mei Dulan. I keep the route register; I also approved the form causing this queue. That gives you reason to check my explanation. A face permit describes the appearance its wearer may present, and the timbre they may use while it is active. A worker's license records who undertakes the work. Those are different pages. Neither page tells us everything about a person, but matching them matters when the exchange withholds wages. Please read only this courier's file. He has agreed to show it.",
-      "next": "city_registry_tao"
+      "next": "city_registry_tao",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_registry_tao": {
       "chapter": "book_v",
@@ -3684,7 +4468,11 @@
       "actor": "tao_wen",
       "background": "city_registry_office",
       "text": "My name is Tao Wen. It has been Tao Wen through three rented faces and two singing lessons I never finished. This morning a clerk said my market permit had expired, so nobody could prove I delivered yesterday's parcels. I can prove the work; I have receipts. I cannot pay another day's rental merely to resemble the man their counter remembers. The mask is in my satchel. I took it off before coming because I wanted to speak without being charged for the sound. I am twenty-five, and already tired of that counter.",
-      "next": "city_registry_permit"
+      "next": "city_registry_permit",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_registry_permit": {
       "chapter": "book_v",
@@ -3692,7 +4480,11 @@
       "actor": "shen_qing",
       "background": "city_registry_office",
       "text": "Tao laid out a courier's license, a rental permit marked C-17, and three folded receipts. His license named Tao Wen; the permit authorized silver eyebrows and a low speaking register until yesterday's dusk. Each delivery slip carried his worker number. The unpaid account carried only C-17. Shen Qing compared the dates without touching the mask. The permit had ended after the last delivery. Its original terms granted temporary recognition use. A later form called the same permission permanent name-proof collateral. Nothing on Tao's copy authorized that change.",
-      "next": "city_registry_hall"
+      "next": "city_registry_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_registry_hall": {
       "chapter": "book_v",
@@ -3700,7 +4492,11 @@
       "actor": "lin_yue",
       "background": "identity_exchange_hall",
       "text": "The exchange hall's fee board distinguished rental, renewal, and advances against recognition-credit. Makers licensed painted features and practiced timbres; customers used those appearances under exchange names to earn credit accepted at cultivation rooms. The arrangement sold a recognizable presentation, leaving the person and their memories with their own life. Lin Yue copied the rates while an attendant fetched yesterday's numbered receipt book. Mei pointed to the smallest column. Tao had rented one pattern for one shift. His account carried an additional collateral charge, larger than the rental he had signed.",
-      "next": "city_registry_fees"
+      "next": "city_registry_fees",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_registry_fees": {
       "chapter": "book_v",
@@ -3708,7 +4504,11 @@
       "actor": "mei_dulan",
       "background": "identity_exchange_hall",
       "text": "The director ordered a batch conversion six days ago. Every temporary recognition-use entry was copied into the permanent collateral column. Here is the instruction number on Tao's form. When the account fails, the system holds the worker's name-proof certificate as security. That certificate is what employers request before releasing pay. A copied column has turned a disputed commercial charge into an obstacle to proving ordinary work. We must preserve the original permission beside the conversion order. A registry seal verifies which document we received; it cannot make an alteration fair.",
-      "next": "city_registry_rental"
+      "next": "city_registry_rental",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_registry_rental": {
       "chapter": "book_v",
@@ -3716,7 +4516,11 @@
       "actor": "tao_wen",
       "background": "borrowed_faces_market",
       "text": "I rented this face because some patrons will only hand their parcels to someone with its silver brows. The quieter voice helps me quote their instructions without starting an argument. I knew the daily price. I did not sell my right to receive wages under my own name. Yesterday an employer canceled a fourth delivery after I collected the parcel. The collection fee had already come from my bond. My bill charges it again. My mother needs medicine before the next caravan. I need the work paid, not another advance.",
-      "next": "city_registry_choice"
+      "next": "city_registry_choice",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_registry_choice": {
       "chapter": "book_v",
@@ -3756,7 +4560,11 @@
           }
         }
       ],
-      "animation": "resolve"
+      "animation": "resolve",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_registry_dispatch_log": {
       "chapter": "book_v",
@@ -3764,7 +4572,11 @@
       "actor": "lin_yue",
       "background": "tea_house_private_room",
       "text": "In the tea house's unused upstairs room, Tao unfolded a route book with his customers' addresses covered by paper. The keeper had agreed to confirm times, not parcel contents. Three delivery entries bore Tao's worker number. A fourth recorded collection at the ninth bell and cancellation at the tenth. Mei copied the numbered lines while Lin Yue held the covers in place. The cancellation arrived after Tao had already collected the parcel. In the exchange summary, however, its time had been moved to the start of his shift.",
-      "next": "city_registry_dispatch_order"
+      "next": "city_registry_dispatch_order",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_registry_dispatch_order": {
       "chapter": "book_v",
@@ -3772,7 +4584,11 @@
       "actor": "mei_dulan",
       "background": "tea_house_private_room",
       "text": "This summary reverses the work. It treats the canceled delivery as though Tao accepted it after being warned there was no payment. The original dispatch entry shows the opposite order. A clerk rounded every event to the same morning column, then sorted cancellation before collection. I have seen that shortcut used to clear a crowded desk. We can show its effect here without guessing what the clerk intended. The employer's signed cancellation and Tao's collection mark must travel together. Either line alone lets somebody tell the more convenient story.",
-      "next": "city_registry_dispatch_return"
+      "next": "city_registry_dispatch_return",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_registry_dispatch_return": {
       "chapter": "book_v",
@@ -3780,7 +4596,11 @@
       "actor": "mo_ran",
       "background": "tea_house_private_room",
       "text": "Keep the original route book with its keeper. We will take the extract she authorizes and mark who copied it, when, and from which numbered page. Cover the addresses again before anyone carries it downstairs. The hearing needs the order of collection, cancellation, and return; it does not need the contents of every parcel or a list of customers. Tao can correct our account if we have mistaken his route. For now, this shows that he performed paid collection work before the employer canceled. It leaves the return fee to be checked separately.",
-      "next": "city_registry_compare"
+      "next": "city_registry_compare",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_registry_witness_door": {
       "chapter": "book_v",
@@ -3788,7 +4608,11 @@
       "actor": "tao_wen",
       "background": "city_bathhouse",
       "text": "My second delivery went to the bathhouse storeroom. Ask at the outer counter, where the towels are weighed. The staff there signed for it. We need not go near the pools, and we need not describe the patron who ordered it. I wore the rented face then; I am wearing my own face now. They may remember the parcel better than either one. That is why I asked for a receipt. Please show them the delivery number first. I would like their answer to concern the work they actually witnessed.",
-      "next": "city_registry_witness_receipt"
+      "next": "city_registry_witness_receipt",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_registry_witness_receipt": {
       "chapter": "book_v",
@@ -3796,7 +4620,11 @@
       "actor": "shen_qing",
       "background": "city_bathhouse",
       "text": "The bathhouse attendant compared the delivery number with a storeroom stub. Both recorded six bundles of clean linen, accepted before the afternoon weighing. She signed an extract confirming that delivery and declined to give the guests' names. Shen Qing thanked her and wrote the limit beside her signature. A second worker remembered Tao waiting while a torn bundle was counted again. That memory helped explain the late departure; the numbered stub established what the storeroom received. Nobody was asked to recognize a voice through a screen or demonstrate a customer's face.",
-      "next": "city_registry_witness_limit"
+      "next": "city_registry_witness_limit",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_registry_witness_limit": {
       "chapter": "book_v",
@@ -3804,7 +4632,11 @@
       "actor": "elder_yun",
       "background": "city_bathhouse",
       "text": "The extract confirms receipt of the linen. We should say exactly that at the hearing. It does not establish every delivery on Tao's route, and the attendant has made no promise about fees charged elsewhere. I spent too many years accepting a seal because it spared me another question. Today we have a witness willing to answer one question carefully. Let that answer keep its size. Tao's own signed account, the other receipts, and the rental terms can supply the rest. Leave the storeroom stub here, where tomorrow's worker will need it.",
-      "next": "city_registry_compare"
+      "next": "city_registry_compare",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_registry_charges_table": {
       "chapter": "book_v",
@@ -3812,7 +4644,11 @@
       "actor": "mei_dulan",
       "background": "city_safe_house",
       "text": "At the safe house, Mei cleared a patch of table between the kettle and a basket of mending. Tao placed his payment slips there himself. Lin Yue wrote four headings: rental, completed work, canceled work, and return. They copied only the amounts Tao permitted them to carry onward. The rental had been paid in full. Two completed deliveries remained unpaid. The collection fee, receipt K-204, appeared once as money already taken from Tao's bond and again as a new debt. Mei checked both receipt numbers against the original rental schedule before speaking.",
-      "next": "city_registry_charges_need"
+      "next": "city_registry_charges_need",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_registry_charges_need": {
       "chapter": "book_v",
@@ -3820,7 +4656,11 @@
       "actor": "tao_wen",
       "background": "city_safe_house",
       "text": "That bond was twelve copper credits. I saved it over nine weeks, carrying things the clients did not trust to the public cart. When the employer canceled, I agreed to return the parcel because leaving it outside would have damaged it. I did not agree to pay twice for collecting it. My mother's medicine costs seven credits, and the room costs four. You need not put those needs on the public sheet. They explain why I came today. The amounts on the receipts should be enough to examine the bill.",
-      "next": "city_registry_charges_total"
+      "next": "city_registry_charges_total",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_registry_charges_total": {
       "chapter": "book_v",
@@ -3828,7 +4668,11 @@
       "actor": "mei_dulan",
       "background": "city_safe_house",
       "text": "The two entries share collection receipt K-204. They cannot both be separate work. Removing the duplicate from the proposed account would change its balance, but I will not erase it from the evidence. We will show the charge and the correction side by side. The ordinary rental remains paid, and the legitimate price for returning a canceled parcel still needs agreement. Neither question grants the exchange permanent rights over Tao's name-proof. The batch form joined them because the columns fit. Our extract must show where the original terms stopped.",
-      "next": "city_registry_compare"
+      "next": "city_registry_compare",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_registry_compare": {
       "chapter": "book_v",
@@ -3836,7 +4680,11 @@
       "actor": "lin_yue",
       "background": "city_registry_office",
       "text": "Back at the registry, the two assigned clerks brought extracts from the checks Lin Yue had left to them. Mei arranged the findings beside the papers from her own group. The dispatch order placed cancellation after collection. The bathhouse had accepted its linen delivery. One collection receipt had generated two charges. Across all three checks, Tao's worker number remained consistent. Only the exchange's later summary used C-17 as both appearance permit and wage account. Mei threaded a cord through the copies, leaving the original documents with their authorized keepers.",
-      "next": "city_registry_conversion"
+      "next": "city_registry_conversion",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_registry_conversion": {
       "chapter": "book_v",
@@ -3844,7 +4692,11 @@
       "actor": "mei_dulan",
       "background": "city_registry_office",
       "text": "Here is the conversion order I received six days ago. The director signed it at the weekly registry meeting; I entered its number before returning the master to the exchange. This retained copy includes the temporary recognition-use box and the instruction to reproduce it as permanent name-proof collateral. Tao's signature appears on the rental, not on that instruction. We will provide the hearing with this page and its receipt entry. The copied terms explain the hold. Responsibility for issuing, approving, and applying them must be examined with those people present.",
-      "next": "city_registry_admission"
+      "next": "city_registry_admission",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_registry_admission": {
       "chapter": "book_v",
@@ -3852,7 +4704,11 @@
       "actor": "mei_dulan",
       "background": "city_registry_office",
       "text": "I am fifty-five. I have kept this desk for twenty-eight years, and yesterday I told myself the new form was another tedious way of collecting the same fee. I approved it without comparing the permissions. The queue grew while I argued for a roof repair. That repair still needs paying for; it will not excuse what happened to Tao's wages. Write my approval beside the director's order. I can explain it at the hearing. I want enough staff to check a crowded ledger, and I must show which check I missed.",
-      "next": "city_registry_review_request"
+      "next": "city_registry_review_request",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_registry_review_request": {
       "chapter": "book_v",
@@ -3860,7 +4716,11 @@
       "actor": "shen_qing",
       "background": "city_registry_office",
       "text": "Mark the certificate hold as contested and attach the original rental terms to the request for review. Do not turn our arrival into an instruction to destroy the later form. The hearing can examine the contradictory records and decide what registry authority allows it to lift immediately. Tao should receive a dated acknowledgment today, so another counter cannot pretend he never disputed the hold. We will also request payment for the completed deliveries. The disputed return price belongs on its own line, with the employer invited to explain the cancellation.",
-      "next": "city_registry_copies"
+      "next": "city_registry_copies",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_registry_copies": {
       "chapter": "book_v",
@@ -3868,7 +4728,11 @@
       "actor": "mei_dulan",
       "background": "city_registry_office",
       "text": "Mei prepared an acknowledgment in duplicate. Tao kept one; the registry retained the other beside a corded packet of extracts. Covered addresses stayed covered. His mother's medicine and his room payment appeared on neither public copy. Lin Yue checked the document list against each keeper's permission, then read it aloud to Tao. He corrected the delivery count: three completed, with only two still unpaid. Mei changed the summary before sealing it. The seal marked the packet's source and date. Its conclusions remained available for challenge by the people the hearing would summon.",
-      "next": "city_registry_own_voice"
+      "next": "city_registry_own_voice",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_registry_own_voice": {
       "chapter": "book_v",
@@ -3876,7 +4740,11 @@
       "actor": "tao_wen",
       "background": "city_registry_office",
       "text": "When the hearing comes, I will speak in this voice. Tomorrow, if the permit system is repaired, I may hire the silver brows again. They bring me work, and I like how they look. That choice will not make today's signature less mine. Keep my route available while the bill is examined. An employer can ask whether I delivered their parcel; I can answer with the receipt. I want the exchange to offer a useful service, and I want to leave its counter without owing it proof that I exist.",
-      "next": "city_registry_exit"
+      "next": "city_registry_exit",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_registry_exit": {
       "chapter": "book_v",
@@ -3884,7 +4752,11 @@
       "actor": "lin_yue",
       "background": "borrowed_faces_market",
       "text": "Outside, the rain had stopped. A seller lifted the cloth from a rack of licensed faces, and Tao paused to check tomorrow's posted rental price. He carried his own papers beneath his coat. Lin Yue carried the permitted extracts: completed work, duplicated charge, original terms, and a later order that had exceeded them. The packet could establish a chain of decisions; it could not settle every dispute in the market. They turned toward the hearing hall, where the other investigators were bringing evidence from rooms Lin Yue had not entered.",
-      "next": "city_findings"
+      "next": "city_findings",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_perfumer_entry": {
       "chapter": "book_v",
@@ -3893,7 +4765,11 @@
       "text": "Under a half-rolled awning, Lin Yue found Fei Nuo's counter closed for tests. Two market workers had left folded cloth and return tags in separate bags, each accompanied by a signed permission slip. Their borrowed appearances had blurred in the bathhouse heat, and the return desk had charged them under unfamiliar terms. A basket of unsold violets stood beside the complaints. Fei had moved her scales upstairs, leaving a chalk arrow and a request that visitors carry the bags by their handles.",
       "background": "borrowed_faces_market",
       "effect": "none",
-      "next": "city_perfumer_workroom"
+      "next": "city_perfumer_workroom",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_perfumer_workroom": {
       "chapter": "book_v",
@@ -3902,7 +4778,11 @@
       "text": "Please put the bags beside the blue tray. Appearance stabilizer belongs on this shelf; dispatch wax belongs on the other. People keep blaming the perfume because both smell pleasant when cold. Scent helps a voluntarily fitted outward likeness hold its pattern, including a licensed voice timbre. It carries none of the wearer's memories. I made the wax for sealing delivery cords. Before we discuss the charges, I need to find out which material is actually present on these offered fragments.",
       "background": "perfumer_workroom",
       "effect": "none",
-      "next": "city_perfumer_complaints"
+      "next": "city_perfumer_complaints",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_perfumer_complaints": {
       "chapter": "book_v",
@@ -3911,7 +4791,11 @@
       "text": "The bathhouse cashier brought out the workers' copied complaints. One washer, after twenty years at the same boilers, rented a licensed performance face for evening market work. Its fitting receipt described temporary recognition use. Her family still knew her unchanged name; the new bill treated the rental as permanent-name-proof collateral. She had supplied a cut sleeve lining and its return tag for examination, keeping the mask herself. Another worker described a similar charge. Both wanted the records corrected without turning the bathhouse into a public identification booth.",
       "background": "city_bathhouse",
       "effect": "none",
-      "next": "city_perfumer_moth_arrival"
+      "next": "city_perfumer_moth_arrival",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_perfumer_moth_arrival": {
       "chapter": "book_v",
@@ -3920,7 +4804,11 @@
       "text": "A glass-winged spirit unfolded above the drying rack when Fei opened the upper shutter. It was the workroom's other tenant, tending spring cocoons in the silk loft and repairing torn thread for the weavers. Fei paid its share of the roof rent in nectar and clear storage space. The Glasswing Moth examined the covered trays before approaching. One sharp-smelling jar made it retreat toward the window. Lin Yue closed that lid, and the creature returned to ask how long these tests would take.",
       "background": "perfumer_workroom",
       "effect": "none",
-      "next": "city_perfumer_moth_terms"
+      "next": "city_perfumer_moth_terms",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_perfumer_moth_terms": {
       "chapter": "book_v",
@@ -3929,7 +4817,11 @@
       "text": "I can compare the surfaces you have offered. Warmed ink, dried resin, and scents trapped in cloth each reach me differently. They tell me about those materials, never a person's hidden face or intentions. Leave the sealed tags under glass and bring me the permitted cut fragments. The loft is reserved for cocoons tonight; I will help until the shadows reach that beam. Fei owes me a clean corner afterward, and I expect her to keep it. Your hearing cannot borrow the whole evening.",
       "background": "silk_weavers_loft",
       "effect": "none",
-      "next": "city_perfumer_materials"
+      "next": "city_perfumer_materials",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_perfumer_materials": {
       "chapter": "book_v",
@@ -3938,7 +4830,11 @@
       "text": "This first jar holds plain amber wax from the same resin supplier. The second is my retained amber-violet return blend, prepared for the exchange return desk's spring consignment. Those will be our two controls. The workers' fragments make the comparison, and this unopened stabilizer will tell us whether a failing appearance has confused the complaint. My supply book records the dispatch blend separately from fitting perfume. Its delivery falls after the fitting dates printed on the offered tags. Keep the pages beside the jars.",
       "background": "perfumer_workroom",
       "effect": "none",
-      "next": "city_perfumer_controls"
+      "next": "city_perfumer_controls",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_perfumer_controls": {
       "chapter": "book_v",
@@ -3947,7 +4843,11 @@
       "text": "I will mark the trays by number before anyone smells them. We can copy the key afterward. The offered fragments remain separate, with the workers' permission slips alongside them. For the appearance test, use this unworn practice tile: its reflected lattice gives us lines to measure without borrowing anybody's face. Apply fresh stabilizer to one half and stabilizer with the smallest permitted wax scraping to the other. The original tags stay dry. If heat damages a trial, we lose a trial strip and preserve the evidence.",
       "background": "perfumer_workroom",
       "effect": "none",
-      "next": "city_perfumer_steam"
+      "next": "city_perfumer_steam",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_perfumer_steam": {
       "chapter": "book_v",
@@ -3956,7 +4856,11 @@
       "text": "The cashier lent them an empty warming niche after moving the clean towels. Fei set the controls and offered fragments above a covered bowl, bringing each to the same gentle warmth. The plain amber control released a resin smell. The retained blend and both fragments added the same dry violet note. On the practice tile, the contaminated half puckered while the clean lattice stayed even. Shen Qing copied the observation before the bowl cooled. None of the workers' masks entered the niche, and both original tags remained beneath glass.",
       "background": "city_bathhouse",
       "effect": "none",
-      "next": "city_perfumer_separation"
+      "next": "city_perfumer_separation",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_perfumer_separation": {
       "chapter": "book_v",
@@ -3965,22 +4869,30 @@
       "text": "The return wax softens sooner than the appearance film. A trace caught in the lining can wrinkle that film in steam; it explains the defect we reproduced on the unworn tile. It cannot explain a change to a rental contract. We should keep those questions on separate lines in the report. I can clean a test lining and show the worker a repair estimate. For the charge, we need the return desk's papers and the maker's retained terms. A successful cleaning would leave that dispute entirely open.",
       "background": "city_bathhouse",
       "effect": "none",
-      "next": "city_perfumer_deadline"
+      "next": "city_perfumer_deadline",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_perfumer_deadline": {
       "chapter": "book_v",
       "speaker": "shen_qing",
       "actor": "shen_qing",
-      "text": "The hearing clerk will receive exhibits before the evening shutters close. Qiao's studio team and the registry team are bringing their own records; they will report there even if we spend the afternoon here. Fei has one kettle of fuel left, two short sheets of clean test cloth, and a drying bay available until the Moth needs it. We can confirm the wax comparison without exhausting all three. Choose a method that leaves an intact reference for anyone who asks to repeat the test.",
+      "text": "The clerk receives exhibits before the evening shutters close. The other teams will report independently. Fei has fuel for one kettle, two already charged warming cups and two clean test sheets. Each cup's stone has a separate finite charge. The drying bay is available until the Moth needs it. We can compare the wax while preserving half the controls for a repeat. Choose a method whose heat source and stopping point another tester can identify, rather than spending the reference to produce a brighter result.",
       "background": "borrowed_faces_market",
       "effect": "none",
-      "next": "city_perfumer_choice"
+      "next": "city_perfumer_choice",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_perfumer_choice": {
       "chapter": "book_v",
       "speaker": "lin_yue",
       "actor": "lin_yue",
-      "text": "The first trial separated the failing film from the disputed charge. Now we need a comparison someone else can examine. A measured qi pulse could warm the paired materials without another kettle. The neighboring tenants could independently compare coded trays if they agree to interrupt work. Or we could spread thin strips in the vacant loom bay and wait for ordinary air to carry the scents. Each method uses the same two controls and offered fragments. Which expense can we make useful before the exhibits leave?",
+      "text": "We need a repeatable comparison. I can give the rated warming cups a small control pulse; their recorded stone charges provide the heat. Or willing neighboring tenants can compare coded trays during a bounded interruption of work. Or we can spread thin strips in the vacant bay and use ordinary air. All use the same controls and offered fragments. The cup method saves kettle fuel by spending a different finite source, not by making my reserve a furnace.",
       "background": "perfumer_workroom",
       "effect": "none",
       "choices": [
@@ -4014,17 +4926,25 @@
             "insight": 1
           }
         }
-      ]
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_perfumer_qi_pulse": {
       "chapter": "book_v",
       "speaker": "narrator",
       "actor": "lin_yue",
-      "text": "Lin Yue set a copper cup beneath each tray and guided her qi through the cups rather than the samples. Fei watched the water marks so the warmth remained equal. The Glasswing Moth waited beside the shutter, taking one approach to each numbered tray before returning to clean air. Lin Yue stopped when her wrist began to tremble. The ordinary thermometer showed no further rise. Fei drew a line beneath that reading, preserving the endpoint instead of asking for a stronger, more impressive result.",
+      "text": "Fei checked the charged cups and rated control socket. Lin Yue sent one stopped quarter-unit command through her arm pair, then discharged; the two stones supplied the warmth. Fei used ordinary controls and water marks to keep the cups equal. The Moth made one permitted approach to each tray. When Lin Yue's hand trembled, she took no further command turn. Fei closed the cups at the recorded thermometer endpoint and checked their remaining charges. No sample was heated by qi transferred from Lin Yue's body.",
       "background": "perfumer_workroom",
       "effect": "qi",
       "next": "city_perfumer_qi_source",
-      "animation": "channeling"
+      "animation": "channeling",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_perfumer_qi_source": {
       "chapter": "book_v",
@@ -4033,16 +4953,24 @@
       "text": "The answer repeats. Plain amber lacks the violet finish. My retained return blend and both offered fragments share it, while fresh fitting stabilizer behaves differently. Here are two comparison strips, dried under their original tray numbers. We will attach the key and the warming readings. The workers' tags have a later wax trace along the return folds, but that placement needs the paper records beside it. I can identify my prepared material within this test. I cannot identify the hand that put it there.",
       "background": "perfumer_workroom",
       "effect": "none",
-      "next": "city_perfumer_qi_cost"
+      "next": "city_perfumer_qi_cost",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_perfumer_qi_cost": {
       "chapter": "book_v",
       "speaker": "lin_yue",
       "actor": "lin_yue",
-      "text": "I need a cup of water and a quiet seat before we carry the trays. Spend the saved kettle fuel on cleaning a spare lining, then show the workers what that repair involves. They can decide whether to bring their masks back another day. While I rest, I will copy your delivery entry and leave its original page in your custody. Please write the pulse length beside my name. A later tester should be able to replace my qi with ordinary warmth and judge the same materials.",
+      "text": "I need water and a quiet seat before carrying anything. Record the command pulse, its delivery loss and both cups' consumed charge. We saved kettle fuel by using charged cups; we did not get free heat. Keep the rest for the agreed repeat comparison. While I rest, I can copy your offered delivery entry. The original remains with you. Another tester may use ordinary warmth at the recorded endpoint without needing my arm route or reopening anyone's mask.",
       "background": "tea_house_private_room",
       "effect": "none",
-      "next": "city_perfumer_return"
+      "next": "city_perfumer_return",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_perfumer_trust_compare": {
       "chapter": "book_v",
@@ -4051,7 +4979,11 @@
       "text": "The neighboring tenants agreed to one comparison during their meal break. A dyer wanted her unfinished thread kept away from the wax; a reed worker asked for clean cups and a written temperature. Fei supplied both before uncovering the trays. Each tenant received the numbered controls and offered fragments in a different order, then wrote observations alone. Their notes returned with crumbs of lunch on the corners. Neither knew which jar Fei hoped would match. The dyer added that strong fragrance sometimes concealed poor resin.",
       "background": "silk_weavers_loft",
       "effect": "none",
-      "next": "city_perfumer_trust_reading"
+      "next": "city_perfumer_trust_reading",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_perfumer_trust_reading": {
       "chapter": "book_v",
@@ -4060,7 +4992,11 @@
       "text": "Both notes group the offered fragments with the retained amber-violet return blend. Both put plain amber apart. The dyer noticed the violet finish sooner; the reed worker described it as dry flowers after the resin warmed. Their wording differs, but their numbered groups agree. We should keep the differences on the page. If a clerk reads only the convenient sentence, our careful comparison becomes another borrowed authority. Fei, open the tray key now, where everyone can compare the groups against the original labels.",
       "background": "silk_weavers_loft",
       "effect": "none",
-      "next": "city_perfumer_trust_cost"
+      "next": "city_perfumer_trust_cost",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_perfumer_trust_cost": {
       "chapter": "book_v",
@@ -4069,7 +5005,11 @@
       "text": "Their interrupted work costs more than a friendly thank-you. I will pay the agreed break fee from this delivery account and bring fresh cups tomorrow. The dyer can keep the cleaned spare lining as a repair example; it carries no face pattern. We retain two numbered strips, the observation notes, and this copy of my supply entry. My amber-violet stock went to the exchange return desk after the offered fitting dates. A courier's independent consignment sheet should check that sequence before the hearing treats it as established.",
       "background": "perfumer_workroom",
       "effect": "none",
-      "next": "city_perfumer_return"
+      "next": "city_perfumer_return",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_perfumer_drying_bay": {
       "chapter": "book_v",
@@ -4078,7 +5018,11 @@
       "text": "The Glasswing Moth offered the vacant bay until the shadows reached its marked beam. Shen Qing swept the floor while Fei stretched thin comparison strips on separate pegs. Plain amber, the retained amber-violet blend, fresh stabilizer, and the two offered fragments each received a numbered space. Lin Yue copied the arrangement onto the waiting-room notice. A weaver whose order needed drying chose the lower rack instead, after Fei paid the additional handling fee. The air moved slowly enough that they had time to watch it.",
       "background": "silk_weavers_loft",
       "effect": "none",
-      "next": "city_perfumer_drying_observation"
+      "next": "city_perfumer_drying_observation",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_perfumer_drying_observation": {
       "chapter": "book_v",
@@ -4087,7 +5031,11 @@
       "text": "The two offered fragments carry the dry violet finish found on your retained return blend. The plain amber strip carries resin alone. Fresh fitting stabilizer has another trail, faint and greener. I have compared what is on these pegs; I have followed no wearer. Mark that distinction beside my observation. Now take the numbered strips down in order and cover the reference jars. The shadow has reached the beam. My cocoons need this dry bay tonight, and their work will continue after your papers leave.",
       "background": "silk_weavers_loft",
       "effect": "none",
-      "next": "city_perfumer_drying_cost"
+      "next": "city_perfumer_drying_cost",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_perfumer_drying_cost": {
       "chapter": "book_v",
@@ -4096,7 +5044,11 @@
       "text": "The delayed order will leave on the next market cart. Fei has written the handling payment and told its buyer before closing the rack. I have copied the strip positions, drying time, and the Moth's stated limit. We can take two preserved comparison strips and a copy of the supply entry to the clerk; the remaining reference stock stays here for another test. Give me the broom again. Returning the bay clean is part of finishing this method, and the cocoons are already waiting by the shutter.",
       "background": "silk_weavers_loft",
       "effect": "none",
-      "next": "city_perfumer_return"
+      "next": "city_perfumer_return",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_perfumer_return": {
       "chapter": "book_v",
@@ -4105,7 +5057,11 @@
       "text": "On the worktable, Fei assembled the numbered strips, copied supply entry, and signed observation note. The original offered tags stayed in their individual covers. She cleaned a spare lining and repeated the lattice trial: without the foreign wax trace, fresh stabilizer held evenly in gentle warmth. The repair addressed a material failure, leaving the collateral charge untouched. Lin Yue wrote both results below the same heading. Beside them, Fei placed the two retained control jars and reserved half their stock for a later comparison.",
       "background": "perfumer_workroom",
       "effect": "none",
-      "next": "city_perfumer_blind_labels"
+      "next": "city_perfumer_blind_labels",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_perfumer_blind_labels": {
       "chapter": "book_v",
@@ -4114,7 +5070,11 @@
       "text": "Turn the numbered cards over once more. I will compare the cooled surfaces before you pack them. This one is plain amber. Those three have the violet finish: your original blend and the two offered fragments. Warmth made the trails stronger, but the grouping remains the same. Reveal the key and put my answer beside the others. Keep the sealed tags covered; I have finished with the permitted fragments. Fei, the sharp jar stays shut when I return to the loft. I still need to mend that tenant's torn thread.",
       "background": "perfumer_workroom",
       "effect": "none",
-      "next": "city_perfumer_worker_story"
+      "next": "city_perfumer_worker_story",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_perfumer_worker_story": {
       "chapter": "book_v",
@@ -4123,7 +5083,11 @@
       "text": "The washer asked whether fixing her lining would make the new charge disappear. I told her the repair and the bill needed different answers. She wants the performance mask for next week's market; her grown daughter has already sewn its ribbons. She also wants the recognition credit returned under the temporary rental she signed. We can carry those requests together without claiming she sold a permanent identity. Give her this copied observation and the cleaning estimate. She should have something usable tonight while the hearing examines the batch.",
       "background": "city_safe_house",
       "effect": "none",
-      "next": "city_perfumer_custody"
+      "next": "city_perfumer_custody",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_perfumer_custody": {
       "chapter": "book_v",
@@ -4132,7 +5096,11 @@
       "text": "The permission slips allow these fragments and copies to be shown at the hearing. The workers keep their masks, and the sealed original tags will be returned afterward. I have numbered each cover and asked the clerk to record who receives it. Fei's supply book remains upstairs; this copy bears her signature and the observed page edges. Anyone disputing the copying can examine the original with her. The Moth's observation has its own stated limits. My seal records this custody arrangement rather than enlarging anyone's permission.",
       "background": "tea_house_private_room",
       "effect": "none",
-      "next": "city_perfumer_bounded_claim"
+      "next": "city_perfumer_bounded_claim",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_perfumer_bounded_claim": {
       "chapter": "book_v",
@@ -4141,7 +5109,11 @@
       "text": "The submitted fragments behave like my amber-violet return wax within this comparison. My supply book records that blend for the exchange return desk after the fitting dates on the offered tags. It says where I sent the jar; it does not tell me whose hand later heated it. Compare the courier's dispatch record, Qiao's retained studio papers, and the registry's original rental terms before deciding what happened. I will answer for the formula and these observations. Half the control stock remains upstairs for a repeat test.",
       "background": "tea_house_private_room",
       "effect": "none",
-      "next": "city_perfumer_handoff"
+      "next": "city_perfumer_handoff",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "city_perfumer_handoff": {
       "chapter": "book_v",
@@ -4150,7 +5122,11 @@
       "text": "Fei lowered her shutters after posting a date for ordinary lining repairs. Above the market, the Glasswing Moth reclaimed its dry bay and returned to the waiting cocoons. Lin Yue carried the covered exhibits toward the hearing room, with the cleaning estimate tucked beside the washer's request. The clerk had reserved places for the studio and registry reports, including the courier's separately offered dispatch record. Their papers would have to establish what the batch authorized. The perfumer's comparison could make its material source visible, one limited piece among the findings.",
       "background": "borrowed_faces_market",
       "effect": "none",
-      "next": "city_findings"
+      "next": "city_findings",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "star_terms": {
       "speaker": "narrator",
@@ -4168,7 +5144,7 @@
       "actor": "an_ru",
       "text": "On the eighth day, before the last interim watch ended, Su Lan convened the promised review. Luo Fen's question settled no future shift. The boat association approved twenty copper from its berth-safety dues for the next eight nights. Existing morning inspections stayed on their ordinary account; this grant would pay only new night checks and an emergency-move reserve. The clerk credited unused earlier offers before recording the grant, so no completed watch was billed twice. Crews offered the named future turns individually.",
       "chapter": "book_iii",
-      "background": "river_harbor",
+      "background": "sheltered_reach",
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
@@ -4180,7 +5156,7 @@
       "actor": "su_lan",
       "text": "Sixteen copper pays eight night checks at two each; four stays for an emergency move. The crews and Eel accept that scope, with another review before the last check on Day Sixteen. Unused reserve returns. If access changes, we report and request a different berth before the paid term ends. Completed or expired watches create no unpaid replacement shift. Closed-echo protection and the permitted safe stop remain separate from this timed service. I will retain the receiving address and send each accepted worker a copy.",
       "chapter": "book_iii",
-      "background": "river_harbor",
+      "background": "sheltered_reach",
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
