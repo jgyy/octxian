@@ -425,6 +425,40 @@
         1024
       ],
       "description": "Spring rain brightens the city stalls and registry steps. Licensed outward appearances remain useful; rented recognition gives no ownership of the person beneath."
+    },
+    {
+      "id": "rain_court_terrace",
+      "name": "The Rain Court Terrace",
+      "path": "assets/art/world/rain_court_terrace.png",
+      "native_size": [
+        1536,
+        1024
+      ],
+      "description": "The cliff court stands above a spring rain valley on fixed rock foundations. A grounded terrace and goods-lift landing remain separate from Azure Cloud's fate."
+    },
+    {
+      "id": "rain_court_hearing_hall",
+      "name": "The Rain Court Hearing Hall",
+      "path": "assets/art/world/interiors/rain_court_hearing_hall.png",
+      "native_size": [
+        1536,
+        1024
+      ],
+      "description": "A low bench faces movable witness seats and separately covered exhibits. The open central aisle gives every speaker a path to the hearing.",
+      "environment": "interior",
+      "collection": "building_interiors"
+    },
+    {
+      "id": "rain_court_witness_room",
+      "name": "The Rain Court Witness Room",
+      "path": "assets/art/world/interiors/rain_court_witness_room.png",
+      "native_size": [
+        1536,
+        1024
+      ],
+      "description": "A sheltered room offers a kettle, spare blankets, private writing tables, and room to rest between testimony and ordinary care.",
+      "environment": "interior",
+      "collection": "building_interiors"
     }
   ],
   "npcs": [
@@ -607,6 +641,86 @@
         ],
         "record": "assets/art/PROVENANCE.md"
       }
+    },
+    {
+      "id": "he_lian",
+      "name": "He Lian",
+      "path": "assets/art/world/he_lian.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "An immortal bench magistrate whose long verification calendar has costs for mortal witnesses. She admits corrected public proofs while preserving disputed duties, cause, and individual responsibility.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/he_lian.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/PROVENANCE.md"
+      }
+    },
+    {
+      "id": "luo_shan",
+      "name": "Luo Shan",
+      "path": "assets/art/world/luo_shan.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "A mortal petition writer who translates the court's long calendars into dates working people can meet. He records limited testimony and keeps disputed claims separate from already restored standing.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/luo_shan.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/PROVENANCE.md"
+      }
+    },
+    {
+      "id": "bai_qun",
+      "name": "Bai Qun",
+      "path": "assets/art/world/bai_qun.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "A forty-four-year-old stonebinder responsible for landing and guide checks, whose own duties must be distinguished from the lift staff's brake and counterweight work. Her copied account proves neither neglect nor guilt.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/bai_qun.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/PROVENANCE.md"
+      }
+    },
+    {
+      "id": "du_heng",
+      "name": "Du Heng",
+      "path": "assets/art/world/du_heng.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "A thirty-one-year-old porter whose right shoulder remains injured after the descending goods sling slipped. Ordinary care, paid access, and the limits of what he saw remain separate from compensation and blame.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/du_heng.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/PROVENANCE.md"
+      }
     }
   ],
   "monsters": [
@@ -703,6 +817,26 @@
         "kind": "original_painting",
         "derivation": "none",
         "source_path": "assets/art/world/glasswing_moth.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/PROVENANCE.md"
+      }
+    },
+    {
+      "id": "rain_heron",
+      "name": "The Rain Heron",
+      "path": "assets/art/world/rain_heron.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "An independent cliff-court weather witness with a finite watch and observations of its own. Rain marks do not reconstruct unseen actions, exact accident times, or guilt.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/rain_heron.png",
         "native_size": [
           1024,
           1536

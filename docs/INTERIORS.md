@@ -1,6 +1,6 @@
 # Building interiors
 
-The continuation of PR #2 requests 100 additional building-interior backgrounds, separate from the original 100-background quota. **30 are delivered; 70 remain.** Each file is an independently generated GPT Images painting preserved at its native returned dimensions. No scene is assembled from atlas cells, upscaled, or duplicated to inflate the inventory.
+The continuation of PR #2 requests 100 additional building-interior backgrounds, separate from the original 100-background quota. **32 are delivered; 68 remain.** Each file is an independently generated GPT Images painting preserved at its native returned dimensions. No scene is assembled from atlas cells, upscaled, or duplicated to inflate the inventory.
 
 Open **World → Interiors** in the game to browse these locations. Locations for future books are art previews; their descriptions do not count toward the manuscript and do not imply those books are playable.
 
@@ -36,5 +36,8 @@ Open **World → Interiors** in the game to browse these locations. Locations fo
 | City Bathhouse | 1672×941 | [city_bathhouse.png](../assets/art/world/interiors/city_bathhouse.png) | `d21e72360c5f6fa50178495640ec948d66844e25` |
 | Perfumer's Workroom | 1672×940 | [perfumer_workroom.png](../assets/art/world/interiors/perfumer_workroom.png) | `43970c8b1d7356449a771609f28d26ffbd871b77` |
 | City Safe House | 1672×941 | [city_safe_house.png](../assets/art/world/interiors/city_safe_house.png) | `2803e1d762bd1bc9d2d5dc856e29d141f8e52800` |
+
+| The Rain Court Hearing Hall | 1536×1024 | [rain_court_hearing_hall.png](../assets/art/world/interiors/rain_court_hearing_hall.png) | `a4525a704f5a30169fe46a1cb6e36da4dd2e375d` |
+| The Rain Court Witness Room | 1536×1024 | [rain_court_witness_room.png](../assets/art/world/interiors/rain_court_witness_room.png) | `7f063c66ee677b7b2509daeb4c40f27e71f75708` |
 
 The validator decodes every original, checks its recorded size and unique SHA-256, and keeps the extra collection separate in `delivered_additional_art`. Use `python tools/validate_world.py --require-complete` to require all manuscript and art deliverables.

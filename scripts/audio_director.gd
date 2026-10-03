@@ -20,10 +20,16 @@ func _ready() -> void:
 
 func speak(id: String) -> void:
 	voice.stop()
-	var path := "res://assets/generated/voices/%s.wav" % id
-	if enabled and ResourceLoader.exists(path):
-		voice.stream = load(path)
-		voice.play()
+	voice.stream = null
+	if not enabled:
+		return
+	# New chapters use compressed Vorbis; retained opening clips remain PCM.
+	for extension in ["ogg", "wav"]:
+		var path := "res://assets/generated/voices/%s.%s" % [id, extension]
+		if ResourceLoader.exists(path):
+			voice.stream = load(path)
+			voice.play()
+			return
 
 func effect(id: String = "page") -> void:
 	var path := "res://assets/generated/audio/%s.wav" % id
