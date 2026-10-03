@@ -20,3 +20,16 @@ Each retained PNG is a new image-generation output. Maximum native detail was re
 | tian_min | 1024×1536 | RGBA | `655691cffa71d17884bdc7c9b16ab249afd3267c` |
 | pei_fen | 1024×1536 | RGBA | `6b4d55e1e62768b7734342b6af801a5c07412b05` |
 | bao_jun | 1024×1536 | RGBA | `4770b45c6c4341babb3857d8a559794cbb17a031` |
+| rong_sui | 1024×1536 | RGBA | `1c5109064d6d1c6442ca9ee9596b540b61a74c23` |
+| long_qian | 1024×1536 | RGBA | `1512126bd8baa557aae565aa81c8a7c83204c33f` |
+| wen_cai | 1024×1536 | RGBA | `9e3ed31bbcc6331f24e1311dd157ab84adb23f3b` |
+| pei_yun | 1024×1536 | RGBA | `ddaaa8b0ed39dbd64277c56866d3195be7f3515b` |
+| luo_sheng | 1024×1536 | RGBA | `db304e0ba73dbe3e67bbf43fc0a0432dc403ead1` |
+| forest_autumn_boundary | 1672×941 | RGB | `bdfbcb3e65a8447e3ea8efe6952c64a5a53b245b` |
+| forest_kiln_workroom | 1672×941 | RGB | `4f0cfd5412fd1e4143e0cd7ee03e9099aaf7decf` |
+| forest_warden_lodge | 1672×941 | RGB | `00ae0609e29cbd60473ea6e3771243126bdb29d0` |
+| forest_boundary_map_room | 1672×941 | RGB | `78ccce64d2b389d273477d2877c7707a149abb6e` |
+| tan_ning | 1024×1536 | RGBA | `75799c3132be4c521e59297a5f8705b24777d56c` |
+| mountain_archive_autumn_courtyard | 1672×941 | RGB | `0a1cd6b8a351108409213acf1d2478812d5d7705` |
+| mountain_archive_winter_village | 1672×941 | RGB | `ce78e8ef72786f6ef14c5afd01851380e34d34e8` |
+| mountain_archive_winter_courtyard | 1672×941 | RGB | `92d603f3d121ec100df9f7f77cc728aa2260e7ae` |

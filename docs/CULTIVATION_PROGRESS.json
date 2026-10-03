@@ -1,19 +1,19 @@
 {
   "displayed_scenes": 2335,
-  "displayed_words": 190890,
+  "displayed_words": 190875,
   "new_training_scenes": 77,
   "new_training_words": 5206,
   "rewritten_book_i_scenes": 37,
   "rewritten_book_i_words": 2519,
-  "rewrite_words": 79911,
+  "rewrite_words": 79896,
   "strict_word_target": 1000001,
   "planned_rewrite_words": 1050000,
   "reference_checks": "pass",
   "duplicate_prose_checks": "pass",
   "continuity_checkpoints": "pass",
   "inherited_words": 110979,
-  "remaining_displayed_words": 809111,
-  "remaining_rewrite_words": 920090,
+  "remaining_displayed_words": 809126,
+  "remaining_rewrite_words": 920105,
   "native_art": [
     {
       "mime": "image/png",
@@ -464,6 +464,123 @@
         1536
       ],
       "git_blob": "4770b45c6c4341babb3857d8a559794cbb17a031"
+    },
+    {
+      "path": "assets/art/world/rong_sui.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "git_blob": "1c5109064d6d1c6442ca9ee9596b540b61a74c23"
+    },
+    {
+      "path": "assets/art/world/long_qian.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "git_blob": "1512126bd8baa557aae565aa81c8a7c83204c33f"
+    },
+    {
+      "path": "assets/art/world/wen_cai.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "git_blob": "9e3ed31bbcc6331f24e1311dd157ab84adb23f3b"
+    },
+    {
+      "path": "assets/art/world/pei_yun.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "git_blob": "ddaaa8b0ed39dbd64277c56866d3195be7f3515b"
+    },
+    {
+      "path": "assets/art/world/luo_sheng.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "git_blob": "db304e0ba73dbe3e67bbf43fc0a0432dc403ead1"
+    },
+    {
+      "path": "assets/art/world/forest_autumn_boundary.png",
+      "mime": "image/png",
+      "size": [
+        1672,
+        941
+      ],
+      "git_blob": "bdfbcb3e65a8447e3ea8efe6952c64a5a53b245b"
+    },
+    {
+      "path": "assets/art/world/forest_kiln_workroom.png",
+      "mime": "image/png",
+      "size": [
+        1672,
+        941
+      ],
+      "git_blob": "4f0cfd5412fd1e4143e0cd7ee03e9099aaf7decf"
+    },
+    {
+      "path": "assets/art/world/forest_warden_lodge.png",
+      "mime": "image/png",
+      "size": [
+        1672,
+        941
+      ],
+      "git_blob": "00ae0609e29cbd60473ea6e3771243126bdb29d0"
+    },
+    {
+      "path": "assets/art/world/forest_boundary_map_room.png",
+      "mime": "image/png",
+      "size": [
+        1672,
+        941
+      ],
+      "git_blob": "78ccce64d2b389d273477d2877c7707a149abb6e"
+    },
+    {
+      "path": "assets/art/world/tan_ning.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "git_blob": "75799c3132be4c521e59297a5f8705b24777d56c"
+    },
+    {
+      "path": "assets/art/world/mountain_archive_autumn_courtyard.png",
+      "mime": "image/png",
+      "size": [
+        1672,
+        941
+      ],
+      "git_blob": "0a1cd6b8a351108409213acf1d2478812d5d7705"
+    },
+    {
+      "path": "assets/art/world/mountain_archive_winter_village.png",
+      "mime": "image/png",
+      "size": [
+        1672,
+        941
+      ],
+      "git_blob": "ce78e8ef72786f6ef14c5afd01851380e34d34e8"
+    },
+    {
+      "path": "assets/art/world/mountain_archive_winter_courtyard.png",
+      "mime": "image/png",
+      "size": [
+        1672,
+        941
+      ],
+      "git_blob": "92d603f3d121ec100df9f7f77cc728aa2260e7ae"
     }
   ],
   "complete": false,
@@ -477,9 +594,9 @@
     "new_scenes": 336,
     "new_words": 24617,
     "recast_scenes": 109,
-    "recast_words": 6491,
-    "net_displayed_word_addition": 24962,
-    "existing_displayed_word_change": 345
+    "recast_words": 9027,
+    "net_displayed_word_addition": 24947,
+    "existing_displayed_word_change": 330
   },
   "rewrite_scene_ids": [
     "arrival",
@@ -1678,10 +1795,12 @@
     "second_round": 29,
     "second_round_source": "feb4ec7500a1df2bf95b16265544553372c657ce",
     "rewritten_existing_scenes": 109,
-    "existing_displayed_word_change": 345,
+    "existing_displayed_word_change": 330,
     "prior_pr_anchored_corrections": 115,
     "total_pr_anchored_corrections": 197,
-    "report": "docs/CONTINUATION_SECOND_20261003.md"
+    "report": "docs/CONTINUATION_SECOND_20261003.md",
+    "second_round_paragraphs": 33,
+    "second_round_word_delta": 101
   },
   "previous_review": {
     "kind": "continuity_and_progression",

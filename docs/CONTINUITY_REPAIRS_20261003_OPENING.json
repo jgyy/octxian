@@ -8,16 +8,16 @@
   "verification": {
     "defects": 20,
     "changed_scenes": 25,
-    "delta": 129,
-    "displayed_words": 25881,
-    "max_words": 96,
+    "delta": 120,
+    "displayed_words": 25866,
+    "max_words": 88,
     "errors": [],
     "word_count_method": "Whitespace-delimited displayed node text; repository validator remains authoritative for production manuscript credit.",
     "metadata_preserved": true,
     "source_and_result_anchors_exact": true,
     "normalized_scene_prose_unique_within_file": true,
     "prior_text_repairs_untouched": true,
-    "followup_note": "Current anchor includes the separate paid-return/arrival correction audited against feb4ec7500a1df2bf95b16265544553372c657ce; the historical first-stage delta was 122 words.",
+    "followup_note": "Current anchors include the separately reviewed ferry return and singular mask exhibit packet. Historical first-stage root delta was122 words. The displayed-file total includes all subsequent corrections in that file; it is not first-audit-only credit.",
     "historical_displayed_file_words": 25816
   },
   "repairs": [
@@ -232,9 +232,10 @@
           "path": "data/story.json",
           "node_id": "city_mask_packet",
           "before": "At the safe house, Lin Yue folded the drawings around a board so their edges would stay flat. Qiao signed the fitting schedule and the three comparisons: seam, paste, and weave. Bian and Tao chose to have their separate accounts read at the hearing; Nian and Fu supplied short statements about their own work. The collars remained sealed as exhibits. Qiao listed the batch held for inspection and the unaffected rentals still open. A page left blank at the back would record what the hearing decided, after it heard them.",
-          "after": "At the safe house, Lin Yue folded the drawings around a board so their edges would stay flat. Qiao signed the fitting schedule and three direct comparisons: collar joins, paste, and weave. Bian and Tao chose to have their separate accounts read at the hearing; Nian and Fu supplied short statements about their own work. The collars remained sealed as exhibits. Qiao listed the batch held for inspection and the unaffected rentals still open. A page left blank at the back would record what the hearing decided, after it heard them."
+          "after": "At the safe house, Yue folded the drawings around a board. Qiao signed the fitting schedule and three direct comparisons: collar joins, paste and weave. Bian and Tao authorized their separate accounts for the hearing; Nian and Fu supplied statements about their own work. Bian's examined collar and both tokens remained separately sealed as exhibits. Tao's collar awaited its own physical check. Qiao listed the batch held for inspection and unaffected rentals still open. A blank page would record the hearing's decision."
         }
-      ]
+      ],
+      "followup_note": " Remaining plural exhibit wording was corrected under SECOND_CITY root001 without new root credit."
     }
   ]
 }
