@@ -1,19 +1,19 @@
 {
   "displayed_scenes": 1606,
-  "displayed_words": 137840,
+  "displayed_words": 137904,
   "new_training_scenes": 77,
   "new_training_words": 5168,
   "rewritten_book_i_scenes": 36,
-  "rewritten_book_i_words": 2353,
-  "rewrite_words": 19727,
+  "rewritten_book_i_words": 2397,
+  "rewrite_words": 19791,
   "strict_word_target": 1000001,
   "planned_rewrite_words": 1050000,
   "reference_checks": "pass",
   "duplicate_prose_checks": "pass",
   "continuity_checkpoints": "pass",
   "inherited_words": 118113,
-  "remaining_displayed_words": 862161,
-  "remaining_rewrite_words": 980274,
+  "remaining_displayed_words": 862097,
+  "remaining_rewrite_words": 980210,
   "native_art": [
     {
       "mime": "image/png",
@@ -130,7 +130,7 @@
   "sluice_training_scenes": 131,
   "sluice_training_words": 7892,
   "rewritten_valley_scenes": 22,
-  "rewritten_valley_words": 1489,
+  "rewritten_valley_words": 1509,
   "latest_batch": {
     "new_scenes": 131,
     "new_words": 7860,
@@ -481,7 +481,11 @@
     "court_rain_qi_lamp",
     "court_rain_qi_signal",
     "court_rain_trace_light",
-    "court_docket_dry_cover"
+    "court_docket_dry_cover",
+    "fracture",
+    "shared",
+    "release",
+    "lantern_shared"
   ],
   "plot_repair_new_scene_ids": [
     "star_terms",
@@ -489,6 +493,6 @@
     "harbor_review_terms",
     "ring_jin_context"
   ],
-  "plot_repair_scenes": 40,
-  "plot_repair_words": 3277
+  "plot_repair_scenes": 44,
+  "plot_repair_words": 3599
 }
