@@ -147,7 +147,7 @@ Stages: Skin → Sinew → Bone → Marrow.
 
 **Practice:** Skin: repeated friction and recovery. Sinew: aligned load and deliberate release. Bone: progressive support without impact shortcuts. Marrow: circulation and rest through a whole workday.
 
-**Breakthrough:** Complete four assessments over separate recovered days, sense qi reliably, admit a trace, circulate one prepared pair and retain three breath-units overnight without tremor.
+**Breakthrough:** Complete four assessments over separate recovered days, sense qi reliably, admit and cleanly release a trace through an external grounded practice lead, and retain three breath-units overnight on three recovered tests without tremor. This does not open an internal meridian pair; that is earned at Qi Gathering stage 3.
 
 **Capabilities:** Greater endurance, controlled falls and a steady training stance. External medicinal qi does not become personal reserve.
 

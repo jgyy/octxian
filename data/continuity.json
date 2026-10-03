@@ -1353,6 +1353,48 @@
         "reed_step_001",
         "mantis_step_001"
       ]
+    },
+    {
+      "id": "plot_external_lead_before_internal_pair",
+      "statement": "Before Qi Gathering stage three, Lin Yue's admission practice uses an external grounded copper lead; Body Tempering does not secretly open the first internal pair. Twelve primary meridians form six pairs; the first arm pair's chest junction is not the Foundation middle dantian.",
+      "anchors": [
+        "tempering_after_007",
+        "tempering_after_009",
+        "tempering_after_013",
+        "channels_004",
+        "channels_044"
+      ]
+    },
+    {
+      "id": "plot_shared_exit_discovery_and_star_terms",
+      "statement": "Yun shows the installed release discrepancy on the common preparation path, so breath and evacuation routes do not inherit an unvisited inscription discovery. The manual source escape gate and the star's confirmation of each conditional plan precede every Book I resolution.",
+      "anchors": [
+        "exile",
+        "star_terms",
+        "final_choice",
+        "ending_shared",
+        "ending_covenant",
+        "ending_release"
+      ]
+    },
+    {
+      "id": "plot_sluice_fate_and_autumn",
+      "statement": "The common sluice description does not refloat Azure Cloud after the release ending. Nearly three months of workshop training end with an early-autumn valley departure; the river campaign follows the ensuing winter.",
+      "anchors": [
+        "ending_release",
+        "sluice_004",
+        "reed_step_018",
+        "river_from_crossing",
+        "river_from_ledger"
+      ]
+    },
+    {
+      "id": "plot_listener_case_boundary",
+      "statement": "At the shrine the Listener responds to Lin Yue's closed measuring case, not a sword she drew in an earlier draft. No inspection of the nests is authorized by carrying the case.",
+      "anchors": [
+        "reed_nest",
+        "reed_voice"
+      ]
     }
   ],
   "review_policy": "Review each new chapter's chronology, custody, character knowledge, and alternate outcomes before updating this ledger. Structural checks supplement editorial review; they do not prove the absence of all possible plot holes.",
@@ -1786,6 +1828,14 @@
         "reed_step_029"
       ],
       "before": "lantern_arrival"
+    },
+    {
+      "id": "plot_all_plans_have_source_exit_and_consent",
+      "required": [
+        "exile",
+        "star_terms"
+      ],
+      "before": "final_choice"
     }
   ]
 }

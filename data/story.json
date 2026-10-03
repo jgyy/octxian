@@ -332,7 +332,7 @@
     "exile": {
       "speaker": "mo_ran",
       "actor": "mo_ran",
-      "text": "Mo Ran entered through a maintenance stair carrying a coil of grounding cable. 'You found the missing exit,' he said to Yue. A pale crack showed along the exile's wrist when he set the cable down. Yun named it before anyone mistook it for ornament: a return injury from an old core circuit. Power had left him with less safe capacity than his former title suggested.",
+      "text": "Yun brought the older rubbing to the preparation table. On it the exit reached its grounding mark; on the installed plate it ended short. She showed the discrepancy to Qing and Yue before they approached the reservoir. Mo Ran entered by the maintenance stair with grounding cable. A pale crack showed along his wrist. Yun identified a return injury from an old core circuit. His useful account and their shared comparison still needed checking against the pressure gauges.",
       "next": "accusation",
       "chapter": "book_i",
       "cultivation": {
@@ -484,7 +484,7 @@
       "actor": "shen_qing",
       "animation": "resolve",
       "text": "The return gauge climbed. 'Main intake must close before the next surge,' Qing said. Yun opened the dormant support anchors with the cabinet keys. They held stored fuel for a controlled transition, but not for endless suspension. Mo Ran checked the grounding cable against his damaged return route. Yue's relay waited behind its trip limit. Every part of the plan had a capacity and a way to fail.",
-      "next": "final_choice",
+      "next": "star_terms",
       "chapter": "book_i",
       "cultivation": {
         "realm": "qi_gathering",
@@ -1007,7 +1007,7 @@
     "reed_voice": {
       "speaker": "reed_listener",
       "actor": "reed_listener",
-      "text": "Iron speaks loudly. I do not understand its words. Put the edge where I can stop looking at it. Then tell me which name you came to carry away, and whether the person who belongs to it has agreed to leave.",
+      "text": "A measuring case can be a demand even when its copper is quiet. Keep yours closed, away from the nests, until I agree to a particular test. I cannot know its purpose from your intentions. Tell me which household you came to ask about, and whether its people have agreed to a return. My shelter is no invitation to read a tablet merely because you have learned to guide a trace.",
       "chapter": "book_ii",
       "background": "bell_tower_square",
       "next": "reed_question",
@@ -4151,6 +4151,17 @@
       "background": "borrowed_faces_market",
       "effect": "none",
       "next": "city_findings"
+    },
+    "star_terms": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Yun opened the source conduit's manual escape gate and showed the star the three support plans. This emergency exit worked independently of any covenant they might later repair. The star answered through the speaking tube: 'I accept a smaller load only while I can stop and leave. I accept an interval outside if your anchors carry it. I also accept departing while you land the mountain safely.' Qing repeated each condition. The star confirmed them before Yue chose an operator's task.",
+      "chapter": "book_i",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "1: Trace"
+      },
+      "next": "final_choice"
     }
   },
   "chapters": {
