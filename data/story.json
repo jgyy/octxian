@@ -57,6 +57,16 @@
       "name": "The Mooring Eel",
       "title": "Keeper of entrusted echoes",
       "color": "#b4d1cb"
+    },
+    "ren_qiao": {
+      "name": "Ren Qiao",
+      "title": "Healer of the orchard",
+      "color": "#b9c4a2"
+    },
+    "frostroot_hart": {
+      "name": "The Frostroot Hart",
+      "title": "A willing winter visitor",
+      "color": "#bfd1c5"
     }
   },
   "nodes": {
@@ -1474,7 +1484,8 @@
       "ending": "The Owner's Shore",
       "chapter": "book_iii",
       "background": "north_landing",
-      "effect": "none"
+      "effect": "none",
+      "continuation": "orchard_from_return"
     },
     "river_stair_terms": {
       "speaker": "wei_xiu",
@@ -1492,7 +1503,8 @@
       "ending": "A Stair Above the Flood",
       "chapter": "book_iii",
       "background": "sheltered_reach",
-      "effect": "none"
+      "effect": "none",
+      "continuation": "orchard_from_stair"
     },
     "river_harbor_terms": {
       "speaker": "su_lan",
@@ -1510,7 +1522,8 @@
       "ending": "The Harbor That Could Wait",
       "chapter": "book_iii",
       "background": "sheltered_reach",
-      "effect": "none"
+      "effect": "none",
+      "continuation": "orchard_from_harbor"
     },
     "return_berth": {
       "speaker": "narrator",
@@ -2006,6 +2019,416 @@
       "chapter": "book_iii",
       "background": "sheltered_reach",
       "effect": "none"
+    },
+    "orchard_from_return": {
+      "chapter": "book_iv",
+      "speaker": "mo_ran",
+      "actor": "mo_ran",
+      "text": "The case stays in my bag. I am carrying it to the orchard because I am traveling there, not because their healers have acquired a claim on it. Luo Fen has named her high-bank berth; Su Lan will send us news when the pilot approves the return. The third ring waits under its own closed agreement. For once, I can take another road without pretending the road behind us has disappeared.",
+      "next": "orchard_arrival",
+      "background": "high_bank_boathouse",
+      "effect": "none"
+    },
+    "orchard_from_stair": {
+      "chapter": "book_iv",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Luo Fen checked the new handrail once more before Lin Yue left. Her echo was already home, sealed according to her wishes; Mo Ran carried his own case beneath his cloak. At the sheltered mooring, the Eel kept the unidentified ring closed. Wei Xiu would inspect the ramp again after high water. The orchard's invitation lay beside the survey copy in Lin Yue's bundle: a request for help, with no promised cure written beneath it.",
+      "next": "orchard_arrival",
+      "background": "stone_carvers_hall",
+      "effect": "none"
+    },
+    "orchard_from_harbor": {
+      "chapter": "book_iv",
+      "speaker": "mo_ran",
+      "actor": "mo_ran",
+      "text": "Luo Fen has asked another question. An Ru will answer it from the landing, and the harbor has people responsible for checking the watch. We need not stand beside the Eel to make that arrangement real. My case is here, still sealed. The unidentified ring stays there, still sealed. The orchard letter asks for hands that can carry water and notice when someone stops speaking. That seems a task I should learn before offering anyone wisdom.",
+      "next": "orchard_arrival",
+      "background": "high_bank_boathouse",
+      "effect": "none"
+    },
+    "orchard_arrival": {
+      "chapter": "book_iv",
+      "speaker": "narrator",
+      "actor": "ren_qiao",
+      "text": "By the time they reached the orchard, spring had warmed the road enough for insects to gather over wheel ruts. Inside the healing hall, one plum branch remained white with frost. Treatment couches circled its trunk. Ren Qiao, the orchard's healer, moved between the couches in a green apron, his plum robes tied back. A woman with a swollen wrist counted roof tiles through clenched teeth while a younger woman slept on the neighboring couch. Beside the door, someone had chalked the meal times higher than the names of the healers.",
+      "next": "orchard_elder",
+      "background": "orchard_healing_hall",
+      "effect": "none"
+    },
+    "orchard_elder": {
+      "chapter": "book_iv",
+      "speaker": "elder_yun",
+      "actor": "elder_yun",
+      "text": "I received the same letter. Thirty years ago, I helped this orchard mark its winter treatment circuit. The healers could ease one person's pain by letting another carry its sensation for a little while. I thought a willing community would make a kinder ward than a solitary master. Now the matron says the circuit remembers a household's first offer more faithfully than the people who live there. I have come to see what my careful work became.",
+      "next": "orchard_patient",
+      "background": "orchard_healing_hall",
+      "effect": "none"
+    },
+    "orchard_patient": {
+      "chapter": "book_iv",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The younger woman woke when her aunt shifted. Pain tightened both their faces, though only the aunt's wrist was injured. She asked the matron whether an afternoon's work would count against her household's winter turn. The matron put down the medicine bowl before answering. She could release today's connection. She could not persuade the winter circuit to stop naming that household tomorrow. Lin Yue watched the niece rub fingers that bore no swelling.",
+      "next": "orchard_demonstration",
+      "background": "orchard_healing_hall",
+      "effect": "none"
+    },
+    "orchard_demonstration": {
+      "chapter": "book_iv",
+      "speaker": "elder_yun",
+      "actor": "elder_yun",
+      "text": "The exchange moves sensation, not injury. The aunt still needs her splint and medicine. Her niece may sleep after carrying the pain, but sleep is not proof that the work cost her nothing. Watch the copper channel between the couches. Each breath narrows it. The matron is closing today's connection gradually so neither body takes the whole change at once. We will not test the old mark by asking this girl to endure one more demonstration.",
+      "next": "orchard_stop",
+      "background": "pain_exchange_chamber",
+      "effect": "none"
+    },
+    "orchard_stop": {
+      "chapter": "book_iv",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The matron lifted the copper tongue with padded tongs. Its hum diminished over two measured breaths. The aunt's pain returned; the niece's borrowed ache faded. Neither stood immediately. Lin Yue fetched a stool rather than urging them upright. Above the couches, the frost stopped spreading along the branch. The matron covered the disconnected contact with a ceramic cap. It would stay capped while they examined the winter mark, even if the waiting room filled.",
+      "next": "orchard_terms",
+      "background": "pain_exchange_chamber",
+      "effect": "none"
+    },
+    "orchard_terms": {
+      "chapter": "book_iv",
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "First, nobody's treatment or meal depends on offering their body. Second, a household cannot promise the sensations of children not yet born. Third, we need to learn why the mark keeps those names before we cut anything that also regulates the exchange. I can hold a blade steady. That does not tell me which line is a chain and which keeps a frightened patient safe. Elder Yun, show us where we can look without reconnecting these couches.",
+      "next": "orchard_investigation_choice",
+      "background": "pain_exchange_chamber",
+      "effect": "none"
+    },
+    "orchard_investigation_choice": {
+      "chapter": "book_iv",
+      "speaker": "shen_qing",
+      "actor": "shen_qing",
+      "text": "I arrived with the medicine crates this morning. The matron has given us three places to begin: the disconnected copper circuit, the patients eating in the dining hall, and the old allocation book kept with the seeds. She will ask her assistants to examine the other two while we work. Pick the question you can pursue carefully. She wants findings before explanations, and an explanation before anybody promises that tomorrow will hurt less.",
+      "choices": [
+        {
+          "text": "Trace the disconnected circuit with a measured breath.",
+          "next": "orchard_circuit",
+          "effects": {
+            "qi": 2,
+            "resolve": 1
+          }
+        },
+        {
+          "text": "Share the patients' meal and hear what they need.",
+          "next": "orchard_meal",
+          "effects": {
+            "trust": 2,
+            "resolve": 1
+          }
+        },
+        {
+          "text": "Compare winter allocations with the original treatment terms.",
+          "next": "orchard_ledger",
+          "effects": {
+            "insight": 2,
+            "resolve": 1
+          }
+        }
+      ],
+      "background": "orchard_apothecary",
+      "effect": "none"
+    },
+    "orchard_circuit": {
+      "chapter": "book_iv",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Lin Yue rested two fingers against the cool copper while Elder Yun held the ceramic cap in place. Her qi met no pain, only the rhythm that would guide an exchange if the contact were joined. A second rhythm kept circling after she withdrew her breath. It passed through twelve small notches below the branch. Someone had added new household marks as the orchard grew, leaving the first instruction untouched.",
+      "next": "orchard_circuit_limit",
+      "background": "pain_exchange_chamber",
+      "effect": "qi",
+      "animation": "channeling"
+    },
+    "orchard_circuit_limit": {
+      "chapter": "book_iv",
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "The first rhythm follows a living pulse. The other follows a list. I can interrupt either for a moment, but they share this narrow stroke. If I tear it out, I may remove the gentle closing pace along with the winter demand. My qi tells me where the pressure runs. It does not tell me how long an ordinary healer's hands can hold the gap when I am gone. We need her measurement beside mine.",
+      "next": "orchard_circuit_find",
+      "background": "pain_exchange_chamber",
+      "effect": "none"
+    },
+    "orchard_circuit_find": {
+      "chapter": "book_iv",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The matron brought a practice strip used to teach apprentices. Its copper tongue closed without a household notch. Under her direction, Lin Yue matched the two closing rhythms, then let hers fade. The old winter stroke lay outside that rhythm. Elder Yun drew the distinction on plain paper. For the first time since entering the room, Lin Yue could name a line she would remove without describing the whole device as an enemy.",
+      "next": "orchard_hart_arrival",
+      "background": "pain_exchange_chamber",
+      "effect": "none"
+    },
+    "orchard_meal": {
+      "chapter": "book_iv",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "In the dining hall, bowls were passed around a place left empty for the niece. Her aunt ate with her uninjured hand. A man who had volunteered the previous winter said the exchange let him sit beside his wife without watching every hour of her pain. Another patient wanted the couches taken away. Lin Yue kept pouring tea while the answers disagreed. Nobody asked her sword to settle which experience counted as the truth.",
+      "next": "orchard_meal_question",
+      "background": "orchard_dining_hall",
+      "effect": "none"
+    },
+    "orchard_meal_question": {
+      "chapter": "book_iv",
+      "speaker": "mo_ran",
+      "actor": "mo_ran",
+      "text": "When you offered a turn, what did you think would happen afterward? The man expected two quiet days and got six nights of broken sleep. His wife expected to thank him and found herself apologizing whenever the ache returned. Neither regrets every exchange. Neither wants the next one arranged by a winter mark. I came here thinking I knew the weight of carrying something for another person. Listening has made that thought much less comfortable.",
+      "next": "orchard_meal_find",
+      "background": "orchard_dining_hall",
+      "effect": "none"
+    },
+    "orchard_meal_find": {
+      "chapter": "book_iv",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The niece arrived after the soup cooled. She wanted medicine for her aunt, an afternoon in her own garden, and someone to help wash the bedding. She did not ask for a heroic substitute. Lin Yue wrote the three requests on separate slips. Around the table, people added tasks they could offer and hours they could not. The resulting pile was modest. It contained more usable help than the sweeping pledge painted above the door.",
+      "next": "orchard_hart_arrival",
+      "background": "orchard_dining_hall",
+      "effect": "none"
+    },
+    "orchard_ledger": {
+      "chapter": "book_iv",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The seed vault smelled of dust and dry plum stones. An assistant opened the allocation book beneath a shaded lamp. Grain, medicine, and exchange turns shared one column, each marked against a household. In the older book, the same winter reserve had paid for meals while workers rested. A later keeper had moved the exchange tally beside it. Nothing on that page said the tally might become a condition of receiving food.",
+      "next": "orchard_ledger_question",
+      "background": "orchard_seed_vault",
+      "effect": "none"
+    },
+    "orchard_ledger_question": {
+      "chapter": "book_iv",
+      "speaker": "elder_yun",
+      "actor": "elder_yun",
+      "text": "Here is my inscription copied in the margin: a winter offer, witnessed and renewed. The renewal stroke was never carried onto the copper. I checked the treatment rhythm and accepted the keeper's assurance about the rest. His handwriting cannot answer for him now. Mine can answer for me. We will preserve this page while correcting the mark. Future healers should be able to see how much confidence I placed in something I had not checked.",
+      "next": "orchard_ledger_find",
+      "background": "orchard_seed_vault",
+      "effect": "none"
+    },
+    "orchard_ledger_find": {
+      "chapter": "book_iv",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Lin Yue followed the payments beyond the exchange tally. Most winter grain had reached patients whether they volunteered or not, but three recent applications had been held for missing turns. The assistant brought the unopened applications to the matron. She authorized the meals immediately and kept the refusals for review. A correction small enough to fit beneath one signature changed what three people would eat tonight. The copper still needed work; supper did not have to wait.",
+      "next": "orchard_hart_arrival",
+      "background": "orchard_seed_vault",
+      "effect": "none"
+    },
+    "orchard_accounts": {
+      "chapter": "book_iv",
+      "speaker": "elder_yun",
+      "actor": "elder_yun",
+      "text": "The assistants have finished their checks. The practice strip preserves a safe closing rhythm without household notches. At dinner, patients asked for relief, ordinary help, and the right to make different choices. The allocation books confirm that food was funded separately before the columns were combined. These findings agree on one repair: remove the inherited winter demand while keeping the measured closing pace. The matron will supervise; I will record my part in its making.",
+      "next": "orchard_need",
+      "background": "orchard_apothecary",
+      "effect": "none"
+    },
+    "orchard_need": {
+      "chapter": "book_iv",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "With the contact still capped, the matron removed the winter stroke a shaving at a time. Elder Yun compared each cut with the practice strip. The frost loosened from the branch and fell into a shallow bowl. Nobody's pain vanished with it. In the sickroom, the aunt needed another poultice. Outside, six patients waited beneath a damp awning. The orchard had stopped assigning unwilling bodies. It still had to help the bodies already hurting.",
+      "next": "orchard_cost",
+      "background": "pain_exchange_chamber",
+      "effect": "none"
+    },
+    "orchard_cost": {
+      "chapter": "book_iv",
+      "speaker": "ren_qiao",
+      "actor": "ren_qiao",
+      "text": "The matron can safely oversee three short exchanges a day if people choose them. More would exhaust her assistants. We have herbs for a week, wages for five paid care shifts, and seed stock that can fund another week if the orchard agrees to sell some. Your qi may help a few patients breathe through an ache; it cannot mend every injury. We need to decide what to try first, then tell the waiting room exactly what remains unavailable.",
+      "next": "orchard_resolution_choice",
+      "background": "orchard_apothecary",
+      "effect": "none"
+    },
+    "orchard_resolution_choice": {
+      "chapter": "book_iv",
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "The old demand is gone. A new arrangement must last through an ordinary day, when no visitor can make up its shortfall. We can trial a breathing treatment, assemble a paid care rota, separate the relief funds from every exchange tally, or keep the exchange paused while the staff rests. Each spends something the orchard has little of. Which first step can we make specific enough for the patients to judge?",
+      "choices": [
+        {
+          "text": "Trial a short breathing practice with the matron watching.",
+          "next": "orchard_breath_trial",
+          "effects": {
+            "qi": 1,
+            "insight": 1
+          },
+          "requires": {
+            "qi": 4
+          }
+        },
+        {
+          "text": "Offer a paid rota that includes help beyond treatment.",
+          "next": "orchard_care_rota",
+          "effects": {
+            "trust": 1,
+            "resolve": 1
+          },
+          "requires": {
+            "trust": 4
+          }
+        },
+        {
+          "text": "Separate relief funding and publish the new accounting.",
+          "next": "orchard_fund_terms",
+          "effects": {
+            "insight": 1,
+            "trust": 1
+          },
+          "requires": {
+            "insight": 4
+          }
+        },
+        {
+          "text": "Pause exchanges for seven days and provide ordinary care.",
+          "next": "orchard_pause",
+          "effects": {
+            "resolve": 2
+          }
+        }
+      ],
+      "background": "orchard_healing_hall",
+      "effect": "none"
+    },
+    "orchard_breath_trial": {
+      "chapter": "book_iv",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Three patients agreed to a trial. Lin Yue sat on the floor so the matron could see her hands. She guided her qi around the closing rhythm without joining the copper contact. One patient found the ache easier to bear for a quarter hour. Another grew dizzy, and they stopped. The aunt felt no change. Elder Yun recorded all three answers in the same ink, leaving no successful result large enough to hide the other two.",
+      "next": "orchard_breath_limits",
+      "background": "orchard_healing_hall",
+      "effect": "qi",
+      "animation": "channeling"
+    },
+    "orchard_breath_limits": {
+      "chapter": "book_iv",
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "We offer this to people who want to try, beside medicine and rest. The matron sets the pace, watches for dizziness, and ends it when asked. I will teach the breathing rhythm while I am here, then return after a month to hear what changed. No one loses another treatment by finding this one useless. Please write that beside the instructions. I would dislike becoming a remedy people must praise in order to be believed.",
+      "next": "ending_orchard_breath",
+      "background": "orchard_apothecary",
+      "effect": "none"
+    },
+    "ending_orchard_breath": {
+      "chapter": "book_iv",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "By the fourth morning, an assistant could lead the short practice without Lin Yue's qi. Its relief was slight and uneven. The aunt kept her splint; the patient who became dizzy chose the steam room instead. The orchard agreed to sell a small portion of its seed reserve for more herbs, keeping enough for planting. Beyond the open roof, ordinary plum blossoms replaced the melted frost. Lin Yue left a date for returning, a page of limits, and an empty space where the next healer could record a failure.",
+      "ending": "A Practice That Could Be Stopped",
+      "background": "herbal_steam_room",
+      "effect": "none"
+    },
+    "orchard_care_rota": {
+      "chapter": "book_iv",
+      "speaker": "mo_ran",
+      "actor": "mo_ran",
+      "text": "Five paid shifts will not cover every need. Let us begin with washing, carrying, and cooking, where willing hands do not have to pretend they are trained healers. I can take bedding to the wash yard. Shen Qing can carry the water. Neither task buys us access to anybody's treatment couch. The matron will ask privately who wants an exchange, and nobody's place on the care list will tell the dining hall what they answered.",
+      "next": "orchard_care_rest",
+      "background": "orchard_dining_hall",
+      "effect": "none"
+    },
+    "orchard_care_rest": {
+      "chapter": "book_iv",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The orchard agreed to sell a portion of its seed reserve for wages. Before the rota began, the matron named a replacement for each shift and one afternoon when no exchange would be offered. The niece went home to weed her own garden. Her aunt complained that the soup had too much ginger. Mo Ran received the complaint while folding clean bedding, then carried it to the kitchen without trying to turn gratitude into another household duty.",
+      "next": "ending_orchard_care",
+      "background": "orchard_sickroom",
+      "effect": "none"
+    },
+    "ending_orchard_care": {
+      "chapter": "book_iv",
+      "speaker": "narrator",
+      "actor": "mo_ran",
+      "text": "On the seventh day, the paid helpers met around a table sticky with spilled broth. They reduced one washing turn, added a carrying turn, and admitted that two patients still lacked the help they needed. Those names remained on tomorrow's list. Mo Ran's sealed case stayed beneath his folded coat. He had found work that required neither its contents nor a defense of his past. In the garden, the niece brought in a basket of weeds.",
+      "ending": "Hands With Hours of Their Own",
+      "background": "orchard_dining_hall",
+      "effect": "none"
+    },
+    "orchard_fund_terms": {
+      "chapter": "book_iv",
+      "speaker": "elder_yun",
+      "actor": "elder_yun",
+      "text": "The matron has approved separate pages for food, wages, medicine, and voluntary exchanges. We will account publicly for the money while keeping patients' answers private. I will pay to replace the copper section I helped make; that payment gives me no authority over who receives treatment. The orchard can decide how much seed stock to sell. It must keep enough for planting, or a generous spring will leave next winter with an empty store.",
+      "next": "orchard_fund_reading",
+      "background": "orchard_seed_vault",
+      "effect": "none"
+    },
+    "orchard_fund_reading": {
+      "chapter": "book_iv",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "They read the proposed figures in the dining hall. A gardener corrected the seed estimate. A cook asked why replacement shifts had been priced below the regular ones. The matron amended both lines. Elder Yun's payment covered the new copper and one assistant's training, leaving a visible gap beneath the medicine total. Lin Yue helped write the remaining need on the notice. The figures looked less reassuring afterward and gave each offered coin somewhere honest to go.",
+      "next": "ending_orchard_funds",
+      "background": "orchard_dining_hall",
+      "effect": "none"
+    },
+    "ending_orchard_funds": {
+      "chapter": "book_iv",
+      "speaker": "narrator",
+      "actor": "elder_yun",
+      "text": "The first week's account listed three declined exchanges beside no patient names. Food went out according to need. Medicine remained limited; the notice said how much and when the next supply was expected. Elder Yun stayed to teach an assistant how to check the closing rhythm against the practice strip. A copy of the old copper mark hung nearby, the omitted renewal stroke shown in red. Correcting the orchard had left her work more visible, including the part she wished she had done better.",
+      "ending": "The Winter Account Reopened",
+      "background": "orchard_apothecary",
+      "effect": "none"
+    },
+    "orchard_pause": {
+      "chapter": "book_iv",
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "Seven days gives the staff time to rest and learn the repaired circuit before offering another exchange. Tell each waiting patient today. Some may seek help elsewhere; the orchard will provide directions and transport where it can. Those who stay receive medicine, meals, splints, and the care the matron can safely give. The pause has a review date. We will ask about pain, staffing, and supplies on that day, without treating the date as an order to reopen.",
+      "next": "orchard_pause_meals",
+      "background": "orchard_healing_hall",
+      "effect": "none"
+    },
+    "orchard_pause_meals": {
+      "chapter": "book_iv",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Two patients left in a covered cart. Four remained, and one cried when she heard how slowly the herbs worked. Lin Yue sat beside her until the kettle boiled. She had no smaller sentence that made the delay kind. In the apothecary, Elder Yun practiced the repaired closing rhythm with the assistants. Mo Ran carried supper to the sickroom. The closed exchange chamber stood among busy rooms, neither forgotten nor required to prove its worth tonight.",
+      "next": "ending_orchard_pause",
+      "background": "orchard_sickroom",
+      "effect": "none"
+    },
+    "ending_orchard_pause": {
+      "chapter": "book_iv",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "At the seven-day review, the matron could offer one supervised exchange the following morning. The waiting patients discussed it separately; two wished to try, and she arranged different days. Others kept the ordinary care plan. Frost had disappeared from the plum branch, leaving a narrow scar in its bark. Lin Yue touched the scar before leaving. Spring had reached the orchard without making its people whole. There was still a chair beside the bed and someone paid to sit there.",
+      "ending": "Seven Days of Ordinary Spring",
+      "background": "orchard_healing_hall",
+      "effect": "none"
+    },
+    "orchard_hart_arrival": {
+      "chapter": "book_iv",
+      "speaker": "narrator",
+      "actor": "frostroot_hart",
+      "text": "In the winter-blossom pavilion, Ren Qiao showed Lin Yue another copper rest, broad enough for a creature's chest. Beside it lay the Frostroot Hart, rootlike mane braided clear of its crystal antlers. Last winter it had accepted several short exchanges while patients waited for medicine. Its own marked strip recorded each visit separately. The Hart lifted its head when they entered and asked why the spring schedule already included its name.",
+      "next": "orchard_hart_answer",
+      "background": "winter_blossom_pavilion",
+      "effect": "none"
+    },
+    "orchard_hart_answer": {
+      "chapter": "book_iv",
+      "speaker": "frostroot_hart",
+      "actor": "frostroot_hart",
+      "text": "The cook with burned hands asked me for one evening. I agreed because she was hurting, and because I could rest afterward. The copper did not mend her burns. It let her eat while the medicine cooled. I returned twice when she asked again. Those answers belong to those evenings. Tonight I need sleep, and I decline another exchange. Leave room on your spring schedule for an answer you have not heard.",
+      "next": "orchard_hart_terms",
+      "background": "winter_blossom_pavilion",
+      "effect": "none"
+    },
+    "orchard_hart_terms": {
+      "chapter": "book_iv",
+      "speaker": "ren_qiao",
+      "actor": "ren_qiao",
+      "text": "I will remove the Hart's name from the schedule. Its record is separate from the household turns; its earlier visits do not authorize another. A willing human carrier cannot offer the Hart's body, and the Hart cannot offer theirs. A patient must also agree to the particular exchange. We may ask again later, with room for every answer to differ. Tonight we plan with medicine and ordinary hands, not with relief we hoped this creature would give.",
+      "next": "orchard_accounts",
+      "background": "winter_blossom_pavilion",
+      "effect": "none"
     }
   },
   "chapters": {
@@ -2020,6 +2443,10 @@
     "book_iii": {
       "label": "BOOK III",
       "title": "The river without a shore"
+    },
+    "book_iv": {
+      "label": "BOOK IV",
+      "title": "The orchard of unfinished winters"
     }
   }
 }

@@ -2,19 +2,20 @@
 
 ## Delivered in this draft
 
-- **196 playable scenes and 10,274 authored prose words** across three books.
+- **234 playable scenes and 13,159 authored prose words** across four books.
 - Book I: 36 scenes, 942 words, three endings.
 - Book II: 73 scenes, 4,000 words, three investigations, nine approaches, four endings.
 - Book III: 87 scenes, 5,332 words, four spring continuations, three river routes, six settlement approaches, three endings.
+- Book IV: 38 scenes, 2,885 words, three investigations, four settlements, and route-specific river continuations.
 - Five original-scope painted backgrounds at native 1672×941.
 - 30 additional building-interior paintings preserved at their individual native sizes; [inventory](INTERIORS.md).
-- Four human NPCs and two spirit beasts at native 1024×1536 with alpha.
+- Five human NPCs and three spirit beasts at native 1024×1536 with alpha.
 - Two inspectable item paintings: clapper at 1024×1536 and echo case at 1536×1024.
 - Rain, reed light, soft bell ripples, and qi effects, paused by panels and stopped by reduced motion.
 - Continuity ledger plus required-knowledge and safety checkpoints.
-- Seventeen rendered viewport screenshots, complete narration coverage, and Linux package validation.
+- Twenty-two rendered viewport screenshots, complete narration coverage, and Linux package validation.
 
-These are exact delivered counts. This draft does **not** fulfill the requested original 100 backgrounds, 100 human NPCs, 100 monsters, the extra 100 interior backgrounds, or a manuscript longer than one million words. An image-generation prompt is not a delivered asset. A plot outline, word budget, alternate playthrough, or repeated paragraph is not an authored word.
+These are exact delivered counts. This draft does **not** fulfill the requested original 100 backgrounds, 500 human NPCs, 501 spirit beasts, the extra 100 interior backgrounds, or a manuscript longer than one million words. An image-generation prompt is not a delivered asset. A plot outline, word budget, alternate playthrough, or repeated paragraph is not an authored word.
 
 ## Production target
 
@@ -24,7 +25,9 @@ The requested final manuscript must contain at least **1,000,001 displayed prose
 
 The continuation request adds **100 building-interior backgrounds** to the original 100 backgrounds: **200 backgrounds total**. Only paintings explicitly assigned to the `building_interiors` collection count toward the extra quota; those paintings do not also satisfy the original background quota. The existing valley archive remains part of the original five. Exact repeated scene prose is rejected instead of counted again.
 
-Native image dimensions are recorded per asset. Keep the original generated file. Do not satisfy “highest possible resolution” by enlarging a smaller file, cropping many tiny atlas cells, or copying one drawing under multiple names.
+The confirmed sprite target is **500 human portraits plus 501 spirit-beast portraits: 1,001 independent originals**. Native portrait resolution must be at least **1024×1536** (either canvas orientation); larger originals retain their returned dimensions. The image tool is asked for its highest native resolution. Enlargement does not qualify as added original detail. Outfit changes, gesture poses, recolors, mirrors, and atlas crops do not count as independent designs.
+
+Native image dimensions and retained-source provenance are recorded per sprite. Decoded painting fingerprints reject reencoded copies, hidden RGB changes, and transparent padding. These checks supplement inspection of independent faces, silhouettes, costumes, anatomy, and painted details; they do not establish semantic originality alone. Keep the original generated file. Do not satisfy “highest possible resolution” by enlarging a smaller file, cropping many tiny atlas cells, or copying one drawing under multiple names.
 
 ## Campaign outline and budgets
 
@@ -133,4 +136,12 @@ River echoes are volunteered external copies, not missing pieces of minds. Three
 
 These structural checks supplement an editorial reading of every new scene. They do not certify that every possible literary inconsistency has been eliminated.
 
-The manuscript still needs **989,727** additional authored prose words to reach 1,000,001. The original art quotas still need **95 backgrounds, 96 human NPCs, and 98 monsters**. The two item paintings are additional assets and do not count toward those quotas. The extra interior quota has 30 delivered paintings and 70 remaining. These future-campaign locations are available in the gallery; their existence does not claim that the outlined books have been written.
+The manuscript still needs **986,842** additional authored prose words to reach 1,000,001. The original art quotas still need **95 backgrounds, 495 human NPCs, and 498 spirit beasts**. The two item paintings are additional assets and do not count toward those quotas. The extra interior quota has 30 delivered paintings and 70 remaining. These future-campaign locations are available in the gallery; their existence does not claim that the remaining outlined books have been written.
+
+## Book IV · delivered orchard chapter
+
+Every river ending continues into the same spring while preserving its own echo-custody outcome. Ren Qiao and the Frostroot Hart have independent native portraits and appear in the chapter. Investigate the disconnected treatment circuit, listen to patients over a meal, or compare the winter allocation records. The other investigators report their findings before settlement. The Hart declines another exchange; its permission is separate from every human carrier's and patient's.
+
+The inherited winter demand is removed while the safe closing rhythm remains. Choose a limited breathing trial, paid care rota, separate relief funding, or a reviewed pause with ordinary care. All four outcomes preserve injuries, resource limits, and individual choices. The unidentified third river ring remains sealed.
+
+This delivered chapter adds **2,885** displayed words. It does not fulfill the book's planned 51,000-word budget. The current entire manuscript is **13,159** words, with **986,842** more required. Original sprite delivery is **8**, with **993** more required. The PR remains a draft until the full manuscript, 500/501 sprite allocation, and both background quotas pass production acceptance.

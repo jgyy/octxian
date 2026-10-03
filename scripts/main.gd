@@ -756,7 +756,7 @@ func _capture() -> void:
 		_set_outfit(character, Wardrobe.DEFAULT_OUTFIT)
 
 	atmosphere.enabled = not reduced_motion
-	for sample in [{"id": "lantern_hub", "file": "quest_hub"}, {"id": "reed_voice", "file": "spirit_encounter"}, {"id": "ferry_price", "file": "ferry_encounter"}, {"id": "archive_copies", "file": "archive_encounter"}, {"id": "river_xiu", "file": "river_pilot"}, {"id": "river_spirit", "file": "river_spirit"}, {"id": "harbor_answer", "file": "river_harbor"}]:
+	for sample in [{"id": "lantern_hub", "file": "quest_hub"}, {"id": "reed_voice", "file": "spirit_encounter"}, {"id": "ferry_price", "file": "ferry_encounter"}, {"id": "archive_copies", "file": "archive_encounter"}, {"id": "river_xiu", "file": "river_pilot"}, {"id": "river_spirit", "file": "river_spirit"}, {"id": "harbor_answer", "file": "river_harbor"}, {"id": "orchard_arrival", "file": "orchard_healer"}, {"id": "orchard_hart_answer", "file": "orchard_spirit"}, {"id": "orchard_resolution_choice", "file": "orchard_choices"}]:
 		state.current = sample.id
 		_scene()
 		dialogue.visible_characters = -1
@@ -816,6 +816,14 @@ func _smoke_build() -> void:
 	_scene()
 	await get_tree().create_timer(0.2).timeout
 	valid = valid and actor.character == "mooring_eel" and actor.sprite.texture != null
+	state.current = "orchard_arrival"
+	_scene()
+	await get_tree().create_timer(0.2).timeout
+	valid = valid and actor.character == "ren_qiao" and actor.sprite.texture != null and audio.voice.stream != null
+	state.current = "orchard_hart_answer"
+	_scene()
+	await get_tree().create_timer(0.2).timeout
+	valid = valid and actor.character == "frostroot_hart" and actor.sprite.texture != null and background.texture != null
 	_interiors()
 	_interior_selected(_interior_entries().size() - 1)
 	valid = valid and interior_image.texture != null

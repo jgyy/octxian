@@ -89,6 +89,19 @@ func _initialize() -> void:
 		check(continuation_restore.load_game("user://test_save.json") and continuation_restore.current == continuations[ending], "Third-book checkpoint should round trip")
 		check(continuation_restore.advance() and continuation_restore.current == "river_arrival", "Every opening must reach the same spring landing")
 
+	var orchard_openings := {
+		"ending_river_return": "orchard_from_return",
+		"ending_river_stair": "orchard_from_stair",
+		"ending_river_harbor": "orchard_from_harbor"
+	}
+	for ending in orchard_openings:
+		var orchard = State.new()
+		orchard.current = ending
+		orchard.stats.trust = 101
+		check(orchard.advance() and orchard.current == orchard_openings[ending], "Every river outcome must retain its distinct orchard opening")
+		check(orchard.stats.trust == 101 and orchard.history.back().text == orchard.story.nodes[ending].text, "Book IV must preserve long-campaign attributes and prior ending prose")
+		check(orchard.advance() and orchard.current == "orchard_arrival", "Every orchard opening must reach the healing hall")
+
 	# Stats are monotone. Values above the greatest gate are equivalent for
 	# reachability; arithmetic overflow is checked separately above.
 	var campaign: Dictionary = State.new().story
