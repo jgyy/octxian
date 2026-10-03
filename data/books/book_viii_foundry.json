@@ -15,6 +15,11 @@
       "name": "Voidglass Centipede",
       "title": "Spirit of cooling seams",
       "color": "#a5bcc8"
+    },
+    "zhen": {
+      "name": "Zhen",
+      "title": "Ceramic worker and second-stage apprentice",
+      "color": "#acbecb"
     }
   },
   "nodes": {
@@ -190,7 +195,7 @@
     "foundry_arrival_014": {
       "chapter": "book_viii",
       "speaker": "narrator",
-      "actor": "lin_yue",
+      "actor": "zhen",
       "background": "ash_bridge_foundry",
       "effect": "none",
       "cultivation": {
@@ -203,7 +208,7 @@
     "foundry_arrival_015": {
       "chapter": "book_viii",
       "speaker": "narrator",
-      "actor": "lin_yue",
+      "actor": "zhen",
       "background": "ash_bridge_foundry",
       "effect": "none",
       "cultivation": {
@@ -294,7 +299,7 @@
     "foundry_arrival_022": {
       "chapter": "book_viii",
       "speaker": "narrator",
-      "actor": "lin_yue",
+      "actor": "zhen",
       "background": "ash_bridge_foundry",
       "effect": "none",
       "cultivation": {
@@ -801,7 +806,7 @@
     "foundry_craft_005": {
       "chapter": "book_viii",
       "speaker": "narrator",
-      "actor": "lin_yue",
+      "actor": "zhen",
       "background": "ash_bridge_foundry",
       "effect": "none",
       "cultivation": {
@@ -944,7 +949,7 @@
     "foundry_craft_016": {
       "chapter": "book_viii",
       "speaker": "narrator",
-      "actor": "lin_yue",
+      "actor": "zhen",
       "background": "ash_bridge_foundry",
       "effect": "none",
       "cultivation": {
@@ -1187,7 +1192,7 @@
     "foundry_rest_003": {
       "chapter": "book_viii",
       "speaker": "narrator",
-      "actor": "lin_yue",
+      "actor": "zhen",
       "background": "ash_bridge_foundry",
       "effect": "none",
       "cultivation": {
@@ -1447,7 +1452,7 @@
     "foundry_route_014": {
       "chapter": "book_viii",
       "speaker": "narrator",
-      "actor": "lin_yue",
+      "actor": "zhen",
       "background": "ash_bridge_foundry",
       "effect": "none",
       "cultivation": {
@@ -1533,6 +1538,292 @@
         "stage": "3: First pair"
       },
       "text": "Yue asked whether wanting cultivation so much made her unsafe. Su Yan considered the question before answering. 'Wanting is why you stay to learn. It also changes which facts you are tempted to edit. We train the editing habit alongside the route.' The soup cooled between them. Yue finished it before asking about the revised pad. There would be time to understand the fault if she did not use understanding as an excuse to stop caring for the body that had felt it.",
+      "next": "foundry_recovery_001"
+    },
+    "foundry_recovery_001": {
+      "chapter": "book_viii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "ash_bridge_foundry",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "text": "The failure entry named Day Thirty-one. Yue wrote the date beside the fourteen-day reassessment interval, then put the examination cord in her drawer. Naming the day did not make the wait shorter. It did prevent her fear from stretching it into an indistinct exile. The ordinary healer's instructions remained separate from Su Yan's material inquiry. Neither would be replaced by how calm Yue managed to appear at breakfast.",
+      "next": "foundry_recovery_002"
+    },
+    "foundry_recovery_002": {
+      "chapter": "book_viii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "ash_bridge_foundry",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "text": "For the first three days, she performed no powered cuff work. A quiet lower field stayed within the healer's reduced retention limit; it was not circulated into the resting shoulder. Her old twelve-unit performance remained a past examination result. Present practice had smaller permission. Yue had once imagined that gaining a stage meant keeping every part of its use forever. The foundry was teaching her to preserve an earned capacity by admitting when its use had changed.",
+      "next": "foundry_recovery_003"
+    },
+    "foundry_recovery_003": {
+      "chapter": "book_viii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "ash_bridge_foundry",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "text": "She took light work counting uncharged lids at a low table. The task paid less than handling full trays and did not load the shoulder. Zhen brought the lids down; Yue marked the completed count and returned them by small stacks. The arrangement had an actual end at the healer's next review. She did not promise to repay help through an indefinite future duty. Zhen wanted accurate lids today, not a claim over her eventual cultivation.",
+      "next": "foundry_recovery_004"
+    },
+    "foundry_recovery_004": {
+      "chapter": "book_viii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "ash_bridge_foundry",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "text": "The room's senior student came to see her with the split-lamp tube she had once watched so hungrily. He left its socket empty. The instrument could be examined as ordinary craft while she rested, but she asked him to keep it in his own drawer. She knew how readily looking became internal rehearsal when she wanted a route badly enough. Declining the object did not require pretending she no longer wanted to learn its circuit.",
+      "next": "foundry_recovery_005"
+    },
+    "foundry_recovery_005": {
+      "chapter": "book_viii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "ash_bridge_foundry",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "text": "On the fifth rest day, the shoulder felt almost ordinary. Yue caught herself planning a hidden tiny pulse to find out whether it truly was. She wrote the plan down and took it to the healer instead. He examined ordinary movement and found a mild tenderness under the loaded turn. The symptom had not disappeared simply because she had ceased noticing it in bed. No powered test was added. Yue returned to the lid table angry with the answer and glad she had asked.",
+      "next": "foundry_recovery_006"
+    },
+    "foundry_recovery_006": {
+      "chapter": "book_viii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "ash_bridge_foundry",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "text": "At supper, Zhen talked about his own stage-two retention failures. He had once improved the evening reading by skipping the work that paid his room, then presented it as a normal-day result. The lie had required more lies about meals and attendance. He withdrew the record before any advancement examination. Yue listened without making his error an excuse for her delayed warning. Their failures resembled each other enough to discuss and differed enough to need their own repairs.",
+      "next": "foundry_recovery_007"
+    },
+    "foundry_recovery_007": {
+      "chapter": "book_viii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "ash_bridge_foundry",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "text": "The weekly wage arrived with no unexplained training deduction. Yue compared the food, light-work pay and courier expense before sending another small letter home. This one said that practice had paused and ordinary sensation was improving. She did not tell her mother that she would certainly advance by the next letter. Her mother's last reply had described a repaired roof tile and an expensive sack of grain. Those ordinary costs deserved money she could count rather than confidence she could perform.",
+      "next": "foundry_recovery_008"
+    },
+    "foundry_recovery_008": {
+      "chapter": "book_viii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "ash_bridge_foundry",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "text": "During the seventh rest day, Su Yan showed the revised external test: cool pad, warmed pad, active sample and blank. The warming reproduced ordinary cuff temperature, not an extreme furnace condition. A material suitable only when cool could still fail in normal use. The examiner refused to blame the building's general heat limit for a missing personal-practice specification. Yue could understand the distinction while her body rested; she could not certify her own recovery from the external result.",
+      "next": "foundry_recovery_009"
+    },
+    "foundry_recovery_009": {
+      "chapter": "book_viii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "ash_bridge_foundry",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "text": "The revised pad used a thinner compatible film with a separate physical heat sink. Its improved tail had a cost: lower useful output and more reference fuel spent in the comparison. The foreman approved that expense for apprentice safety. No one pretended the added sink created qi or that a more expensive pad must be safer. The new assembly would still need independent warm-condition blanks and personal trials after the healer cleared Yue to resume.",
+      "next": "foundry_recovery_010"
+    },
+    "foundry_recovery_010": {
+      "chapter": "book_viii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "ash_bridge_foundry",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "text": "On Day Forty, two days before the original paid place would end, the foreman held its renewal review. She offered another six weeks from the training account, including meals, light-work options and the same separately bounded practice allowance. The revised material inquiry had its own approved budget. Yue could decline and retain her earned wages and return fare. She accepted the extension after reading the dates, not because an injury had made leaving financially impossible.",
+      "next": "foundry_recovery_011"
+    },
+    "foundry_recovery_011": {
+      "chapter": "book_viii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "ash_bridge_foundry",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "text": "Su Yan accepted responsibility for the training specification that had missed warm-cuff testing. Yue accepted responsibility for the one-breath delay in reporting. The review entered both without forcing them to compete for a single blame. The foreman scheduled a shared inspection lesson so other apprentices would learn the revised condition. Yue's experience could help them only if its limits survived the telling. The review did not sell it as proof that pain was a shortcut to a deeper route.",
+      "next": "foundry_recovery_012"
+    },
+    "foundry_recovery_012": {
+      "chapter": "book_viii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "ash_bridge_foundry",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "text": "Before bed, Yue opened the admission notice and replaced the old end date with Day Eighty-four on her personal schedule. She kept the next review before that date. The spare copper for a return journey remained untouched. Twelve weeks might produce a fourth stage, a safer third stage or another reason to stop. She was buying the conditions for honest practice, not the result itself.",
+      "next": "foundry_recovery_013"
+    },
+    "foundry_recovery_013": {
+      "chapter": "book_viii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "ash_bridge_foundry",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "text": "The bridge's cooling chimneys sounded different after rain. Yue began hearing the ordinary contractions without treating every click as a warning from her body. She sat there with a bowl of ginger broth and practiced the unpowered breath she had learned as a mortal. It steadied attention; it admitted no qi and awarded no realm. Sometimes returning to the first exercise was how she kept a later stage from filling every waking minute.",
+      "next": "foundry_recovery_014"
+    },
+    "foundry_recovery_014": {
+      "chapter": "book_viii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "ash_bridge_foundry",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "text": "By the twelfth rest day, loaded shoulder movement no longer reproduced the tenderness. The healer still kept the original reassessment date. Two good ordinary mornings did not erase the agreed observation interval. Yue counted the remaining days with less resentment than before. She had watched how quickly an anticipated date could become pressure to report the result she wanted. The interval was not sacred; the reason for retaining it was specific and legible.",
+      "next": "foundry_recovery_015"
+    },
+    "foundry_recovery_015": {
+      "chapter": "book_viii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "ash_bridge_foundry",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "text": "On Day Forty-five, the healer repeated ordinary touch, grip and shoulder movement, including the previously tender turn. All stayed within baseline. He cleared a cautious return to the established first pair only, with a smaller dose and a next-day check. The second route remained closed to practice. Yue felt an astonishing joy at this modest permission. It returned something she already knew rather than giving her the higher stage she had arrived wanting.",
+      "next": "foundry_recovery_016"
+    },
+    "foundry_recovery_016": {
+      "chapter": "book_viii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "ash_bridge_foundry",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "text": "Su Yan used the old reliable copper lead for the first recovered check. The revised warm-tested pad stayed off the bench. Yue admitted a small trace through the established inward path and let its return finish before speaking. It felt ordinary. The examiner recorded the completed discharge, then ended the session despite spare fuel. The next morning's normal sensation would be part of the result. Relief could tempt her to hurry just as effectively as ambition had.",
+      "next": "foundry_recovery_017"
+    },
+    "foundry_recovery_017": {
+      "chapter": "book_viii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "ash_bridge_foundry",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "text": "The next-day examination remained normal. After a further recovered interval, Yue repeated the first pair under its old permitted conditions. Her reserve was still rebuilding toward its former working range, so no maximum task was scheduled. Returning capacity needed evidence at the load she actually held. The slate's smaller numbers no longer seemed to insult the examination cord. They told Su Yan what could be done that morning.",
+      "next": "foundry_recovery_018"
+    },
+    "foundry_recovery_018": {
+      "chapter": "book_viii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "ash_bridge_foundry",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "text": "The third recovered first-pair check passed after a light ordinary shift. Only then did the examiner discuss using the revised pad for a future tiny admission near the second route. The new material had passed independent external tests at cool and cuff temperatures. Yue's body had passed its own limited recovery sequence. Neither set of results could stand in for the other. The next attempt would require both and preserve the same immediate stop rule.",
+      "next": "foundry_recovery_019"
+    },
+    "foundry_recovery_019": {
+      "chapter": "book_viii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "ash_bridge_foundry",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "text": "Yue read the failure entry aloud to Zhen before the shared inspection lesson. She had written 'the material made me wait' and crossed it out. The amended sentence said she noticed a changed return and delayed reporting for one breath. The technical report named the warm tail separately. Zhen said the amended version sounded less like a hero surviving an ambush. Yue agreed. It also gave the next apprentice something specific to do differently.",
+      "next": "foundry_recovery_020"
+    },
+    "foundry_recovery_020": {
+      "chapter": "book_viii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "ash_bridge_foundry",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "text": "The lesson used an empty cuff and an external warmed pad. Yue demonstrated the reporting words without sending a pulse through herself. The other apprentices saw the tail lengthen and the physical shutter close. The disputed material's owner allowed the specimen to remain at the teaching bench under its restricted use. A dangerous personal-practice component had become a bounded external lesson. Its new usefulness did not remove the old restriction.",
+      "next": "foundry_recovery_021"
+    },
+    "foundry_recovery_021": {
+      "chapter": "book_viii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "ash_bridge_foundry",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "text": "At the end of the review, the foreman asked whether Yue wanted the specimen as a keepsake. She declined. Carrying it in her pack would require new precautions and invite someone later to mistake its beauty for permitted use. She kept the written comparison and the memory of the examiner's calm stop instead. Her cultivation needed less equipment than her eagerness had once insisted. It needed the right equipment, in the right place, under terms she understood.",
+      "next": "foundry_recovery_022"
+    },
+    "foundry_recovery_022": {
+      "chapter": "book_viii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "ash_bridge_foundry",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "text": "The following week began with warm rain on the ash bridge. Yue returned to light cup work and scheduled small sessions around meals. The first pair remained normal; the second pair remained unfinished. Her renewed place had five weeks left, enough time to continue carefully and too little to promise the final result. Below the bridge, violet flecks appeared in a cooling seam where no practice pad had been set. That question belonged to the yard before it belonged to her route.",
       "next": "foundry_end_bench"
     }
   }
