@@ -511,6 +511,28 @@
         1536,
         1024
       ]
+    },
+    {
+      "id": "thunderfen_ridge",
+      "name": "Thunderfen Ridge",
+      "path": "assets/art/world/thunderfen_ridge.png",
+      "native_size": [
+        1672,
+        941
+      ],
+      "description": "Basalt columns, copper seams and a checked lower path; the damaged upper spur remains closed."
+    },
+    {
+      "id": "thunderfen_night",
+      "name": "Thunderfen Survey Workshop",
+      "path": "assets/art/world/thunderfen_night.png",
+      "native_size": [
+        1672,
+        941
+      ],
+      "description": "A sheltered workshop overlooks the pools at dusk. The isolated frame and dry bench remain separate from the damaged permanent rod.",
+      "environment": "interior",
+      "collection": "building_interiors"
     }
   ],
   "npcs": [
@@ -873,6 +895,26 @@
         ],
         "record": "assets/art/CULTIVATION_PROVENANCE.md"
       }
+    },
+    {
+      "id": "jiang_tao",
+      "name": "Jiang Tao",
+      "path": "assets/art/world/jiang_tao.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "A qualified formation surveyor who trains bounded control, keeps field and protection fuel separate, and ends work when conditions change.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/jiang_tao.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/THUNDERFEN_PROVENANCE.md"
+      }
     }
   ],
   "monsters": [
@@ -1055,6 +1097,46 @@
         ],
         "record": "assets/art/CULTIVATION_PROVENANCE.md"
       }
+    },
+    {
+      "id": "copperback_tortoise",
+      "name": "The Copperback Tortoise",
+      "path": "assets/art/world/copperback_tortoise.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "A pool keeper whose observed shell taps are ordinary signals, not permission to sample its body or read private memories.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/copperback_tortoise.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/THUNDERFEN_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "cloudhound",
+      "name": "The Cloudhound",
+      "path": "assets/art/world/cloudhound.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "A territorial scree hunter. Retreat keeps the upper spur closed; seeing this beast establishes no intent or historical cause.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/cloudhound.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/THUNDERFEN_PROVENANCE.md"
+      }
     }
   ],
   "items": [
@@ -1107,6 +1189,16 @@
         1024,
         1536
       ]
+    },
+    {
+      "id": "storm_compass",
+      "name": "Jiang Tao's Storm Compass",
+      "path": "assets/art/world/storm_compass.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "Five calibrated crystal vanes show local weather conditions, not future events. Its separate fuel cell is measured before field readings."
     }
   ],
   "requested_additional": {
@@ -1145,6 +1237,17 @@
         1024
       ],
       "record": "assets/art/CULTIVATION_PROVENANCE.md"
+    },
+    {
+      "id": "storm_discharge",
+      "name": "Interrupted Storm Discharge",
+      "path": "assets/art/effects/storm_discharge.png",
+      "native_size": [
+        1536,
+        1024
+      ],
+      "description": "A storm filament follows the isolated external ground bed after a bounded circuit closes. No novice body supplies the protection load.",
+      "record": "assets/art/THUNDERFEN_PROVENANCE.md"
     }
   ]
 }

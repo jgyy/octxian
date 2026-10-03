@@ -206,7 +206,7 @@ def inspect(root):
             assert len(alternatives) >= 2 and len({c["next"] for c in alternatives}) == len(alternatives)
             assert all(not set(c) & {"effects", "requires"} for c in alternatives), "Chance does not award skills or gate rights"
         if "effect" in node:
-            assert node["effect"] in {"lanterns", "rain", "reed_light", "bell", "qi", "first_trace", "paired_trace", "second_pair_trace", "none"}
+            assert node["effect"] in {"lanterns", "rain", "reed_light", "bell", "qi", "first_trace", "paired_trace", "second_pair_trace", "storm_discharge", "none"}
         if "background" in node:
             assert node["background"] in backgrounds
         if "chapter" in node:
