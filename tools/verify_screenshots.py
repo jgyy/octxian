@@ -7,7 +7,7 @@ from PIL import Image
 root = pathlib.Path(__file__).resolve().parents[1]
 folder = root / "build/screenshots"
 images = []
-for name in ("title", "dialogue", "cast", "wardrobe_training", "wardrobe_festival", "outfit_dialogue", "quest_hub", "spirit_encounter", "world_gallery", "ferry_encounter", "archive_encounter", "river_pilot", "river_spirit", "river_harbor", "object_bronze_clapper", "object_sealed_echo_case"):
+for name in ("title", "dialogue", "cast", "wardrobe_training", "wardrobe_festival", "outfit_dialogue", "quest_hub", "spirit_encounter", "world_gallery", "ferry_encounter", "archive_encounter", "river_pilot", "river_spirit", "river_harbor", "object_bronze_clapper", "object_sealed_echo_case", "interior_gallery"):
     source = Image.open(folder / f"{name}.png").convert("RGB")
     assert source.width >= 1280 and source.height >= 720, "Capture must use the real game viewport"
     pixels = np.asarray(source)
@@ -24,7 +24,8 @@ assert not np.array_equal(images[9], images[10]), "Ferryman and archivist must r
 assert not np.array_equal(images[11], images[12]), "Pilot and river spirit must render independently"
 assert not np.array_equal(images[12], images[13]), "River and harbor scenes must use distinct environments"
 assert not np.array_equal(images[14], images[15]), "Object paintings must render as distinct inspectable artifacts"
-print("Verified sixteen rendered captures across three books, the world gallery, wardrobes and both painted objects.")
+assert not np.array_equal(images[8], images[16]), "Interior gallery must render its own full painting view"
+print("Verified seventeen rendered captures across three books, the world gallery, wardrobes and both painted objects.")
 
 # Timed samples come from the real Godot viewport.
 animation_folder = root / "build/animations"

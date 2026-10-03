@@ -4,6 +4,11 @@ on:
     branches: [main, feat/jade-vow-godot, feat/expanded-world-quests]
   pull_request:
   workflow_dispatch:
+    inputs:
+      require_complete:
+        description: Require every production deliverable
+        type: boolean
+        default: false
 defaults:
   run:
     shell: bash
@@ -42,7 +47,14 @@ jobs:
       - name: Verify intact portraits and audio provenance
         run: python tools/validate_assets.py
       - name: Validate world artwork, quest schema and manuscript accounting
-        run: python tools/validate_world.py
+        env:
+          REQUIRE_COMPLETE: ${{ inputs.require_complete }}
+        run: |
+          if [ "$REQUIRE_COMPLETE" = true ]; then
+            python tools/validate_world.py --require-complete
+          else
+            python tools/validate_world.py
+          fi
       - name: Render body bob previews and contact sheets
         run: python tools/preview_animations.py
       - name: Import project
@@ -134,7 +146,7 @@ jobs:
             review_unchanged=true
           fi
           missing_capture=false
-          for capture in title dialogue cast wardrobe_training wardrobe_festival outfit_dialogue quest_hub spirit_encounter world_gallery ferry_encounter archive_encounter river_pilot river_spirit river_harbor object_bronze_clapper object_sealed_echo_case; do
+          for capture in title dialogue cast wardrobe_training wardrobe_festival outfit_dialogue quest_hub spirit_encounter world_gallery ferry_encounter archive_encounter river_pilot river_spirit river_harbor object_bronze_clapper object_sealed_echo_case interior_gallery; do
             if [ ! -s "docs/screenshots/$capture.png" ] || [ ! -s "docs/screenshots/$capture.jpg" ]; then
               missing_capture=true
             fi

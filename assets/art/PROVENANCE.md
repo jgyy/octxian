@@ -46,6 +46,12 @@ GPT Images generated these original assets during this expansion:
 
 The files are the image tool's native PNG outputs and have not been upscaled. Native alpha and dimensions are validated in CI. They are new drawings, not recolors or copies of the existing cast. The image tool was asked for its highest native resolution; these are the returned dimensions, not a claim that a larger raster size contains more original detail.
 
-The requested final inventory is 100 new assets in each category. This draft delivers five backgrounds, four human NPCs, two monsters, and two additional item paintings. See `data/world_assets.json` and `docs/EXPANSION.md` for exact counts and remaining scope.
+The requested final inventory is 100 original-scope backgrounds, 100 NPCs, 100 monsters, plus 100 additional building-interior backgrounds. This draft delivers five original-scope backgrounds, 10 extra interiors, four human NPCs, two monsters, and two additional item paintings. See `data/world_assets.json` and `docs/EXPANSION.md` for exact counts and remaining scope.
 
 The original Salt Lantern Valley view depicts the period before Azure Cloud's fate is decided. Shared later scenes use the bell-tower square, whose framing does not assume the mountain remains aloft. None of the new paintings is an atlas crop. Native sprites and items are displayed with uniform scaling.
+
+## Additional building interiors
+
+GPT Images generated each painting in `world/interiors/` independently during the continuation of PR #2. The image tool returned a complete native PNG for each location. None is an atlas crop, resized derivative, recolor, or duplicated file. The [interior inventory](../../docs/INTERIORS.md) lists names, exact returned dimensions, and Git blob identifiers. All original PNG bytes are preserved.
+
+The collection currently contains **10** paintings against the additional **100**-painting quota. Some locations belong to planned later books; gallery availability is delivered art, not a claim of written chapters.
