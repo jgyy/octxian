@@ -20,6 +20,7 @@ func _run() -> void:
 	check(not game.is_reading, "Game should open on title")
 	await _test_attribute_ui(game)
 	_test_cultivation_ui(game)
+	_test_foundry_ui(game)
 	_test_modal_rebuilds(game)
 	game._begin()
 	check(game.is_reading and game.dialogue != null, "Begin should display dialogue")
@@ -565,5 +566,48 @@ func _test_cultivation_ui(game) -> void:
 	check(game.atmosphere.paused, "Inspection must pause the paired-channel effect")
 	game._close_popup()
 	check(not game.atmosphere.paused, "Closing inspection must resume the paired-channel scene")
+	game.state.current = "arrival"
+	game._title()
+
+func _test_foundry_ui(game) -> void:
+	game._begin()
+	var before_stats: Dictionary = game.state.stats.duplicate()
+	for sample in [
+		{"node": "foundry_arrival_003", "actor": "su_yan"},
+		{"node": "foundry_arrival_014", "actor": "zhen"},
+		{"node": "foundry_creature_002", "actor": "voidglass_centipede"},
+		{"node": "foundry_home_004", "actor": "yue_mother"}
+	]:
+		game.state.current = sample.node
+		game._scene()
+		check(game.actor.character == sample.actor and game.actor.sprite.texture != null, "Foundry participants must render their independent portraits")
+		if game.actor.sprite.texture != null:
+			check(game.actor.sprite.texture.get_size() == Vector2(1024, 1536), "Foundry portraits must retain native detail")
+		check(game.background.texture != null and game.background.texture.get_size() == Vector2(1536, 1024), "Foundry and home scenes must use their native environments")
+	game.state.current = "foundry_earned_002"
+	game._scene()
+	var earned: String = game._cultivation_label(game.state.node())
+	check(earned.contains("4: Second pair") and game.atmosphere.effect == "second_pair_trace", "The earned second pair must select its authored stage and native effect")
+	game.state.stats.qi = game.StoryState.MAX_STAT
+	check(game._cultivation_label(game.state.node()) == earned, "Choice attributes must not change the fourth-stage certificate")
+	game.state.stats = before_stats
+	var effect_clock: float = game.atmosphere.clock
+	game._items()
+	var found_comb := false
+	for index in range(game.world.get("items", []).size()):
+		if game.world.items[index].id == "phase_comb":
+			found_comb = true
+			game._item_selected(index)
+			check(game.item_image.texture != null and game.item_image.texture.get_size() == Vector2(1024, 1536), "The phase comb must be inspectable at native size")
+	check(found_comb, "The phase comb must appear in the item gallery")
+	game.atmosphere._process(0.5)
+	check(game.atmosphere.clock == effect_clock, "Object inspection must freeze the second-pair effect")
+	game._close_popup()
+	game._motion_changed(true)
+	game.atmosphere._process(0.5)
+	check(game.atmosphere.clock == effect_clock and not game.atmosphere.enabled, "Reduced motion must suppress the second-pair effect")
+	game._motion_changed(false)
+	game.atmosphere._process(0.5)
+	check(game.atmosphere.clock > effect_clock, "The second-pair effect must resume when motion is enabled")
 	game.state.current = "arrival"
 	game._title()

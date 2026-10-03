@@ -8,7 +8,7 @@ from PIL import Image
 root = pathlib.Path(__file__).resolve().parents[1]
 folder = root / "build/screenshots"
 images = []
-for name in ("title", "dialogue", "cast", "wardrobe_training", "wardrobe_festival", "outfit_dialogue", "quest_hub", "spirit_encounter", "world_gallery", "ferry_encounter", "archive_encounter", "river_pilot", "river_spirit", "river_harbor", "object_bronze_clapper", "object_sealed_echo_case", "interior_gallery", "attributes", "attribute_choices", "orchard_healer", "orchard_spirit", "orchard_choices", "city_market", "city_mask_maker", "city_archivist", "city_courier", "city_perfumer", "city_courser", "city_moth", "city_choices", "court_upper_bench", "court_luo_shan", "court_bai_qun", "court_du_heng", "court_rain_heron", "court_investigation_choice", "court_final_choice", "court_weather_setup", "mortal_arrival", "mortal_han_mei", "mortal_mite", "first_trace", "cultivation_codex", "object_copper_practice_wick", "sluice_examiner", "sluice_retention", "paired_channel", "brine_mantis", "object_meridian_caliper"):
+for name in ("title", "dialogue", "cast", "wardrobe_training", "wardrobe_festival", "outfit_dialogue", "quest_hub", "spirit_encounter", "world_gallery", "ferry_encounter", "archive_encounter", "river_pilot", "river_spirit", "river_harbor", "object_bronze_clapper", "object_sealed_echo_case", "interior_gallery", "attributes", "attribute_choices", "orchard_healer", "orchard_spirit", "orchard_choices", "city_market", "city_mask_maker", "city_archivist", "city_courier", "city_perfumer", "city_courser", "city_moth", "city_choices", "court_upper_bench", "court_luo_shan", "court_bai_qun", "court_du_heng", "court_rain_heron", "court_investigation_choice", "court_final_choice", "court_weather_setup", "mortal_arrival", "mortal_han_mei", "mortal_mite", "first_trace", "cultivation_codex", "object_copper_practice_wick", "sluice_examiner", "sluice_retention", "paired_channel", "brine_mantis", "object_meridian_caliper", "foundry_examiner", "foundry_friend", "foundry_phase_room", "foundry_material_fault", "foundry_creature", "second_pair", "foundry_choices", "foundry_home", "foundry_certificate", "object_phase_comb"):
     source = Image.open(folder / f"{name}.png").convert("RGB")
     assert source.width >= 1280 and source.height >= 720, "Capture must use the real game viewport"
     pixels = np.asarray(source)
@@ -46,7 +46,10 @@ for first, second in ((38, 39), (39, 40), (40, 41), (41, 42), (42, 43)):
 for first in range(44, 49):
     for second in range(first + 1, 49):
         assert not np.array_equal(images[first], images[second]), "Sluice examiner, stage tests, monster and caliper must render distinct views"
-print("Verified forty-nine rendered captures including both earned qi stages, the sluice encounters and caliper.")
+for first in range(49, 59):
+    for second in range(first + 1, 59):
+        assert not np.array_equal(images[first], images[second]), "Foundry stages, distinct participants, home and comb must render independently"
+print("Verified fifty-nine rendered captures including the earned second pair, foundry routes, independent participants and phase comb.")
 
 # Timed samples come from the real Godot viewport.
 animation_folder = root / "build/animations"
