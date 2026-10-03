@@ -55,3 +55,8 @@ The workshop prompt requested settling pools, copper calibration blanks, finite 
 ## Interrupted Second-pair Trace · ash-bridge expansion
 
 `assets/art/effects/second_pair_trace.png` is an original native 1536×1024 PNG master with RGBA transparency. The prompt specified separate jade/amber and copper/violet paired filaments, explicit open interruption gaps, fading exit tips and no great-circuit closure, anatomical projection or explosive aura. The retained output is not enlarged. Display scaling preserves its proportions. This independent generation is not a recolor or pose variant. Effects do not contribute to sprite quotas.
+
+
+## Zhen · ash-bridge expansion
+
+`assets/art/world/zhen.png` is an original native 1024×1536 PNG master with RGBA transparency. The prompt specified an independent adult ceramic worker with a faded olive headcloth, patched indigo apron, blue-stained fingers, ordinary brush, spoon rest and fully visible tied work shoes. The retained output is not enlarged. Display scaling preserves its proportions. This independent generation is not a recolor or pose variant. 
