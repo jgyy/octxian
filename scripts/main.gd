@@ -35,6 +35,8 @@ var background_paths: Dictionary = {}
 var world_previews: Dictionary = {}
 var item_image: TextureRect
 var item_description: RichTextLabel
+var interior_image: TextureRect
+var interior_description: RichTextLabel
 
 func _ready() -> void:
 	get_tree().auto_accept_quit = false
@@ -653,6 +655,10 @@ func _capture() -> void:
 	await get_tree().create_timer(0.8).timeout
 	await RenderingServer.frame_post_draw
 	get_viewport().get_texture().get_image().save_png("res://build/screenshots/world_gallery.png")
+	_interiors()
+	await get_tree().create_timer(0.4).timeout
+	await RenderingServer.frame_post_draw
+	get_viewport().get_texture().get_image().save_png("res://build/screenshots/interior_gallery.png")
 	_items()
 	for index in range(world.get("items", []).size()):
 		_item_selected(index)
@@ -698,6 +704,9 @@ func _smoke_build() -> void:
 	_scene()
 	await get_tree().create_timer(0.2).timeout
 	valid = valid and actor.character == "mooring_eel" and actor.sprite.texture != null
+	_interiors()
+	_interior_selected(_interior_entries().size() - 1)
+	valid = valid and interior_image.texture != null
 	_items()
 	_item_selected(1)
 	valid = valid and item_image.texture != null
@@ -712,6 +721,10 @@ func _smoke_build() -> void:
 
 func _world() -> void:
 	var column := _make_popup("Places, people & spirit beasts")
+	var interiors := Button.new()
+	interiors.text = "Interiors →"
+	interiors.pressed.connect(_interiors)
+	column.get_child(0).add_child(interiors)
 	var objects := Button.new()
 	objects.text = "Inspect objects →"
 	objects.pressed.connect(_items)
@@ -753,10 +766,56 @@ func _world_selected(index: int, group: String) -> void:
 	var entries: Array = world.get(group, [])
 	if index < 0 or index >= entries.size() or not world_previews.has(group):
 		return
+	var selector: OptionButton = popup.find_child("World_" + group, true, false)
+	if selector != null:
+		selector.select(index)
 	var entry: Dictionary = entries[index]
 	world_previews[group].image.texture = load("res://" + str(entry.path))
 	world_previews[group].description.text = str(entry.description)
 
+
+func _interior_entries() -> Array:
+	var entries: Array = []
+	for entry in world.get("backgrounds", []):
+		if entry.get("collection", "") == "building_interiors":
+			entries.append(entry)
+	return entries
+
+func _interiors() -> void:
+	var column := _make_popup("Inside the world")
+	popup.position = Vector2(210, 95)
+	popup.size = Vector2(1180, 700)
+	column.add_theme_constant_override("separation", 12)
+	var selector := OptionButton.new()
+	selector.name = "InteriorSelector"
+	selector.custom_minimum_size.y = 44
+	selector.clip_text = true
+	for entry in _interior_entries():
+		selector.add_item(str(entry.name))
+	column.add_child(selector)
+	interior_image = TextureRect.new()
+	interior_image.custom_minimum_size = Vector2(1100, 440)
+	interior_image.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
+	interior_image.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
+	column.add_child(interior_image)
+	interior_description = RichTextLabel.new()
+	interior_description.custom_minimum_size = Vector2(1100, 60)
+	interior_description.add_theme_font_size_override("normal_font_size", 18)
+	column.add_child(interior_description)
+	selector.item_selected.connect(_interior_selected)
+	_interior_selected(0)
+
+func _interior_selected(index: int) -> void:
+	var entries: Array = _interior_entries()
+	if index < 0 or index >= entries.size() or popup == null:
+		return
+	var selector: OptionButton = popup.find_child("InteriorSelector", true, false)
+	if selector == null or not is_instance_valid(interior_image):
+		return
+	selector.select(index)
+	var entry: Dictionary = entries[index]
+	interior_image.texture = load("res://" + str(entry.path))
+	interior_description.text = str(entry.description)
 
 func _items() -> void:
 	var column := _make_popup("Objects & their keepers")

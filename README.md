@@ -32,7 +32,7 @@ If your Godot executable is named `godot4`, replace `godot` with `godot4` in bot
 
 The playable script contains **196 scenes and 10,274 authored words** across three books, with cultivation stats and gated choices. Book I has three endings; each continues into Book II, which has three investigations and four settlements. Every settlement continues into Book III, with three river routes, six settlement approaches, and three endings.
 
-This draft expansion currently adds **five painted backgrounds, four human NPC sprites, two spirit-beast sprites, and two inspectable item paintings** at their native generated sizes. The requested 100 backgrounds, 100 NPCs, 100 monsters and more than one million words remain production targets; they are not delivered by this draft. CI writes exact delivery counts to `build/content_report.json`.
+This draft expansion currently adds **five original-scope backgrounds, 10 extra building-interior backgrounds, four human NPC sprites, two spirit-beast sprites, and two inspectable item paintings** at their native generated sizes. The original 100-background quota, 100 NPCs, 100 monsters and more than one million words remain unfinished. The separate extra 100-interior quota has 10 delivered paintings. Run `python tools/validate_world.py --require-complete` to check all quotas. CI writes exact delivery counts to `build/content_report.json`.
 
 ![Branching dialogue](docs/screenshots/dialogue.png)
 
@@ -40,7 +40,7 @@ This draft expansion currently adds **five painted backgrounds, four human NPC s
 
 Continue from any Book I ending using the **→** continuation button. Su Lan leads you into Salt Lantern Valley, where a protective ward has erased nineteen households from the village register. Investigate the ferry boundary, meet the accused Reed Listener, or examine altered records in the archive. Each investigation offers three approaches, costs, and testimony before a final settlement.
 
-The **World** gallery previews the delivered locations, people, and spirit beasts. The new paintings are preserved at their native sizes: **1672×941** for all five backgrounds, **1024×1536** for each sprite and the clapper, and **1536×1024** for the echo case. Display scaling preserves proportions; no upscaling is presented as added detail.
+The **World** gallery previews the delivered locations, people, and spirit beasts. The new paintings are preserved at their native sizes: **1672×941** for all five backgrounds, **1024×1536** for each sprite and the clapper, and **1536×1024** for the echo case. Display scaling preserves proportions; no upscaling is presented as added detail. Choose **World → Interiors** for a larger preview of the extra interior paintings; the [interior inventory](docs/INTERIORS.md) records every native file and size.
 
 ![Book II quest choices](docs/screenshots/quest_hub.png)
 
@@ -103,7 +103,7 @@ The twelve resting portraits come from the original GPT artwork. Body bobbing pr
 | Asset | Delivered |
 |---|---|
 | GPT Images artwork | 24 gesture key poses, twelve outfit reference portraits, one mountain-sect environment |
-| New world paintings | 5 native backgrounds, 4 human NPCs, 2 spirit beasts, 2 items |
+| New world paintings | 5 original backgrounds + 10 extra interiors, 4 human NPCs, 2 spirit beasts, 2 items |
 | Character portraits | **12 intact portraits**: 4 characters × 3 outfits |
 | Animation playback | Sprite2D whole-body bobbing on a four-second loop |
 | Music | Original 48-second pentatonic plucked-string composition |

@@ -150,6 +150,23 @@ func _run() -> void:
 		check(preview.image.texture != null, "World gallery should load actual artwork")
 	game._close_popup()
 
+	game._interiors()
+	var interiors: Array = game._interior_entries()
+	check(not interiors.is_empty(), "Interior gallery must contain delivered building paintings")
+	for index in range(interiors.size()):
+		game._interior_selected(index)
+		var native: Array = interiors[index].native_size
+		check(game.interior_image.texture != null and game.interior_image.texture.get_size() == Vector2(native[0], native[1]), "Every interior must load at its recorded native size")
+	var interior_selector: OptionButton = game.popup.find_child("InteriorSelector", true, false)
+	check(interior_selector.selected == interiors.size() - 1, "Programmatic interior selection must update the caption")
+	var interior_texture: Texture2D = game.interior_image.texture
+	game._interior_selected(-1)
+	game._interior_selected(interiors.size())
+	check(game.interior_image.texture == interior_texture, "Invalid interior selections must preserve the current painting")
+	game._close_popup()
+	game._interior_selected(0)
+	check(game.popup == null, "Selection after closing the interior gallery must be harmless")
+
 	game._items()
 	check(game.item_image.texture.get_size() == Vector2(1024, 1536), "Object inspection must retain native artwork")
 	check(game.item_description.text.contains("custody"), "Inspection must explain the object's keeper")

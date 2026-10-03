@@ -4,15 +4,39 @@
   "word_target": 1000001,
   "word_target_met": false,
   "delivered_art": {
+    "backgrounds": 15,
+    "npcs": 4,
+    "monsters": 2
+  },
+  "delivered_original_art": {
     "backgrounds": 5,
     "npcs": 4,
     "monsters": 2
   },
+  "delivered_additional_art": {
+    "building_interiors": 10
+  },
   "delivered_items": 2,
   "art_targets": {
+    "backgrounds": 200,
+    "npcs": 100,
+    "monsters": 100
+  },
+  "original_art_targets": {
     "backgrounds": 100,
     "npcs": 100,
     "monsters": 100
   },
-  "art_targets_met": false
+  "additional_art_targets": {
+    "building_interiors": 100
+  },
+  "art_targets_met": false,
+  "remaining": {
+    "authored_words": 989727,
+    "backgrounds": 95,
+    "npcs": 96,
+    "monsters": 98,
+    "building_interiors": 90
+  },
+  "complete": false
 }
