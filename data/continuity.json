@@ -1532,6 +1532,111 @@
         "foundry_arrival_028",
         "foundry_arrival_030"
       ]
+    },
+    {
+      "id": "foundry_fourth_gate",
+      "statement": "Fourth stage follows eighteen usable units, 87% compatible charge, separate quarter-unit tasks and interruption, then three independent recovered trials on Days 70, 74 and 79 with ordinary sensation on Days 71, 75 and 80. Certification occurs on Day 80. Two paired routes open no legs, middle dantian, sword aura or great circuit.",
+      "anchors": [
+        "foundry_phase_021",
+        "foundry_phase_022",
+        "foundry_resume_019",
+        "foundry_assessment_001",
+        "foundry_assessment_006",
+        "foundry_assessment_008",
+        "foundry_assessment_011",
+        "foundry_assessment_014",
+        "foundry_assessment_018",
+        "foundry_earned_002",
+        "foundry_earned_003"
+      ]
+    },
+    {
+      "id": "foundry_warm_fault_and_recovery",
+      "statement": "A permitted material's return changes at ordinary cuff temperature despite a clean cool-condition blank. Day 31's failure has a one-breath reporting delay and a separate technical cause under investigation. Fourteen days precede ordinary reassessment; independent first-pair checks and corrected warm comparisons precede new-route practice.",
+      "anchors": [
+        "foundry_route_009",
+        "foundry_route_010",
+        "foundry_route_012",
+        "foundry_route_015",
+        "foundry_route_017",
+        "foundry_route_018",
+        "foundry_recovery_015",
+        "foundry_recovery_018",
+        "foundry_resume_002"
+      ]
+    },
+    {
+      "id": "foundry_paid_review",
+      "statement": "The initial six-week place renews on Day 40 before expiry, extending through Day 84 with separately bounded food, work and practice accounts. Day 82 review precedes all final offers. Advancement purchases neither unlimited fuel nor a future stage.",
+      "anchors": [
+        "foundry_arrival_012",
+        "foundry_recovery_010",
+        "foundry_recovery_012",
+        "foundry_aftermath_008",
+        "foundry_final_choice",
+        "foundry_bench_001"
+      ]
+    },
+    {
+      "id": "foundry_shared_branch_knowledge",
+      "statement": "The examiner presents the batch findings after all work branches and presents gauge, shutter and access reports after every creature-defense branch. Lin Yue is not credited with personally visiting the unchosen stations.",
+      "anchors": [
+        "foundry_work_choice",
+        "foundry_work_rejoin_001",
+        "foundry_creature_choice",
+        "foundry_creature_rejoin_003"
+      ]
+    },
+    {
+      "id": "foundry_creature_limits",
+      "statement": "A voidglass centipede consumes trapped charge in cooling scrap. Su Yan's ninth-stage control uses a supported rated barrier with separate finite sockets. Novices work ordinary stations. The shed plate stays in specimen custody, is tested externally and supplies no personal route, spirit core or breakthrough.",
+      "anchors": [
+        "foundry_creature_003",
+        "foundry_creature_005",
+        "foundry_creature_007",
+        "foundry_creature_choice",
+        "foundry_creature_rejoin_004",
+        "foundry_creature_rejoin_005",
+        "foundry_creature_rejoin_006"
+      ]
+    },
+    {
+      "id": "foundry_living_mother_cost_preserved",
+      "statement": "The living kiln household retains the mother's lasting old-route cost described in Book I. Her earlier technique is no hidden superior lineage, and her daughter's fourth stage repairs neither it nor the lost years. Mother's and Yun's delayed explanations are admitted separately; no memory loss is invented.",
+      "anchors": [
+        "waiting",
+        "foundry_home_004",
+        "foundry_home_007",
+        "foundry_home_008",
+        "foundry_home_009",
+        "foundry_end_home"
+      ]
+    },
+    {
+      "id": "foundry_external_vs_internal",
+      "statement": "The six-contact comb compares five external phase wells and a sixth blank with separate grounds; it is not six internal pairs. Quantity, usable purity, rate, duration and material temperature are separate. Reference stones power external comparisons; personal samples and task delivery loss come out of the novice reserve.",
+      "anchors": [
+        "foundry_phase_001",
+        "foundry_phase_002",
+        "foundry_phase_003",
+        "foundry_phase_004",
+        "foundry_phase_006",
+        "foundry_phase_011",
+        "foundry_phase_015"
+      ]
+    },
+    {
+      "id": "foundry_task_after_stage",
+      "statement": "Two earned pairs do not automatically certify the live furnace station. Dummy commands and recovered checks precede one rated live command; separate finite stones power the heat. All final outcomes preserve stage four and no later realm is awarded.",
+      "anchors": [
+        "foundry_aftermath_001",
+        "foundry_aftermath_002",
+        "foundry_aftermath_004",
+        "foundry_final_choice",
+        "foundry_end_bench",
+        "foundry_end_survey",
+        "foundry_end_home"
+      ]
     }
   ],
   "review_policy": "Review each new chapter's chronology, custody, character knowledge, and alternate outcomes before updating this ledger. Structural checks supplement editorial review; they do not prove the absence of all possible plot holes.",
@@ -2002,6 +2107,81 @@
         "fracture"
       ],
       "before": "star_terms"
+    },
+    {
+      "id": "foundry_local_baseline_before_sample",
+      "required": [
+        "foundry_arrival_005",
+        "foundry_arrival_019",
+        "foundry_arrival_027",
+        "foundry_arrival_028",
+        "foundry_phase_004"
+      ],
+      "before": "foundry_phase_006"
+    },
+    {
+      "id": "foundry_common_material_findings_before_route",
+      "required": [
+        "foundry_phase_021",
+        "foundry_phase_022",
+        "foundry_work_rejoin_001",
+        "foundry_work_rejoin_004"
+      ],
+      "before": "foundry_route_001"
+    },
+    {
+      "id": "foundry_source_controls_before_defense_station",
+      "required": [
+        "foundry_creature_003",
+        "foundry_creature_005",
+        "foundry_creature_007",
+        "foundry_creature_010"
+      ],
+      "before": "foundry_creature_choice"
+    },
+    {
+      "id": "foundry_recovery_and_shared_reports_before_resumption",
+      "required": [
+        "foundry_route_012",
+        "foundry_route_015",
+        "foundry_recovery_010",
+        "foundry_recovery_015",
+        "foundry_recovery_016",
+        "foundry_recovery_017",
+        "foundry_recovery_018",
+        "foundry_creature_rejoin_003",
+        "foundry_creature_rejoin_004",
+        "foundry_creature_rejoin_007"
+      ],
+      "before": "foundry_resume_002"
+    },
+    {
+      "id": "foundry_three_recovered_trials_before_fourth",
+      "required": [
+        "foundry_resume_019",
+        "foundry_assessment_001",
+        "foundry_assessment_004",
+        "foundry_assessment_006",
+        "foundry_assessment_008",
+        "foundry_assessment_011",
+        "foundry_assessment_014",
+        "foundry_assessment_016",
+        "foundry_assessment_017"
+      ],
+      "before": "foundry_assessment_018"
+    },
+    {
+      "id": "foundry_certificate_and_terms_before_final_choice",
+      "required": [
+        "foundry_assessment_018",
+        "foundry_earned_001",
+        "foundry_earned_002",
+        "foundry_aftermath_001",
+        "foundry_aftermath_004",
+        "foundry_aftermath_008",
+        "foundry_aftermath_009"
+      ],
+      "before": "foundry_final_choice"
     }
   ]
 }
