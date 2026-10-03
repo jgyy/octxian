@@ -9,11 +9,11 @@
     384,
     512
   ],
-  "catalog_sha256": "9852d44f17d8d13dea2ab663f6ba1086928120531c4f1f139ae16de8a988262b",
+  "catalog_sha256": "bdac7286cfd9ddb661497cc3a0ef5e97dce906edcbdccfbe2cab79bb9c8fde41",
   "outfits": {
     "sect": {
-      "source": "assets/art/poses_sect.png",
-      "source_sha256": "df41a43c9a6b0145c07cf19943fc00ab449ed6ec35e09592efdc8a30de6f2772",
+      "source": "assets/art/poses_sect.webp",
+      "source_sha256": "6627997a7a886eb792a0b4b8c0bdfb61fba48d4f2bf3e385995a277df8135b79",
       "characters": {
         "lin_yue": {
           "path": "assets/generated/sprites/lin_yue.png",
@@ -34,8 +34,8 @@
       }
     },
     "training": {
-      "source": "assets/art/poses_training.png",
-      "source_sha256": "317aeba481caa6278ce4b902416c498faa3e9fb9b86123d898e62e02a7fba3a7",
+      "source": "assets/art/poses_training.webp",
+      "source_sha256": "1a947df5ee22d24b7d112dfe53625af9cb1bd7e7e0945d9539361da07b06e949",
       "characters": {
         "lin_yue": {
           "path": "assets/generated/sprites/lin_yue_training.png",
@@ -56,8 +56,8 @@
       }
     },
     "festival": {
-      "source": "assets/art/poses_festival.png",
-      "source_sha256": "6a88867a1e4b7d25acc2a490cc2d5758c67498deade880b6eed5956f99467049",
+      "source": "assets/art/poses_festival.webp",
+      "source_sha256": "98eedd086dd39c52a2aa8ad85318dab687c646a7b84be41c782e703bcaf9422c",
       "characters": {
         "lin_yue": {
           "path": "assets/generated/sprites/lin_yue_festival.png",

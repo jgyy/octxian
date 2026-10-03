@@ -6,7 +6,7 @@ An original xianxia visual novel built in **Godot 4.7.2 stable**, the latest sta
 
 A jade pendant leads Lin Yue to a mountain suspended above the mortal world. Beneath it sleeps a captive star. Decide whether a promise should become a burden, a covenant, or a door.
 
-![Jade Vow title screen](docs/screenshots/title.png)
+![Jade Vow title screen](docs/screenshots/title.jpg)
 
 ## Play
 
@@ -40,11 +40,11 @@ Open **Attributes** in the top navigation, or press **C**, to inspect Lin Yue's 
 
 Ranks advance at **3, 6, and 10 points**. The highest rank does not cap your points. Story requirements use exact point totals, and attributes persist across books and in existing saves. Beginning a new journey resets all four to zero.
 
-![Character attributes](docs/screenshots/attributes.png)
+![Character attributes](docs/screenshots/attributes.jpg)
 
-![Visible choice requirements](docs/screenshots/attribute_choices.png)
+![Visible choice requirements](docs/screenshots/attribute_choices.jpg)
 
-![Branching dialogue](docs/screenshots/dialogue.png)
+![Branching dialogue](docs/screenshots/dialogue.jpg)
 
 ## Book II: The valley that kept its name
 
@@ -52,15 +52,15 @@ Continue from any Book I ending using the **→** continuation button. Su Lan le
 
 The **World** gallery previews the delivered locations, people, and spirit beasts. The new paintings are preserved at their native sizes: **1672×941** for the five earlier backgrounds, **1024×1536** for each sprite and the clapper, and **1536×1024** for the echo case. Display scaling preserves proportions; no upscaling is presented as added detail. Choose **World → Interiors** for a larger preview of the extra interior paintings; the [interior inventory](docs/INTERIORS.md) records every native file and size.
 
-![Book II quest choices](docs/screenshots/quest_hub.png)
+![Book II quest choices](docs/screenshots/quest_hub.jpg)
 
-![The Reed Listener encounter](docs/screenshots/spirit_encounter.png)
+![The Reed Listener encounter](docs/screenshots/spirit_encounter.jpg)
 
-![World art gallery](docs/screenshots/world_gallery.png)
+![World art gallery](docs/screenshots/world_gallery.jpg)
 
-![Wei Jin at the ferry crossing](docs/screenshots/ferry_encounter.png)
+![Wei Jin at the ferry crossing](docs/screenshots/ferry_encounter.jpg)
 
-![An Ru and the original ledger](docs/screenshots/archive_encounter.png)
+![An Ru and the original ledger](docs/screenshots/archive_encounter.jpg)
 
 ## Book III: The river without a shore
 
@@ -68,13 +68,13 @@ The next spring, living ferry pilot Wei Xiu charts an empty boat circling a land
 
 Scene effects include rain, reed light, soft bell ripples, and qi motes. Effects pause behind panels and disappear with reduced motion. Open **World → Inspect objects** to examine the clapper and sealed echo case; looking at their paintings does not transfer their custody.
 
-![Wei Xiu at the north landing](docs/screenshots/river_pilot.png)
+![Wei Xiu at the north landing](docs/screenshots/river_pilot.jpg)
 
-![The Mooring Eel](docs/screenshots/river_spirit.png)
+![The Mooring Eel](docs/screenshots/river_spirit.jpg)
 
-![The sheltered reach](docs/screenshots/river_harbor.png)
+![The sheltered reach](docs/screenshots/river_harbor.jpg)
 
-![Sealed echo case inspection](docs/screenshots/object_sealed_echo_case.png)
+![Sealed echo case inspection](docs/screenshots/object_sealed_echo_case.jpg)
 
 See [the continuity review](docs/CONTINUITY.md) and [the production scope and word budgets](docs/EXPANSION.md) for established facts and remaining work.
 
@@ -82,11 +82,11 @@ See [the continuity review](docs/CONTINUITY.md) and [the production scope and wo
 
 Continue from any river ending into the same spring. Ren Qiao's healing orchard transfers temporary sensations while leaving injuries in need of ordinary care. An inherited winter obligation has outlasted the offers that created it. Study the circuit, hear the patients, or examine the accounts before choosing a breathing trial, paid care rota, relief fund, or reviewed pause.
 
-Ren Qiao and the Frostroot Hart have new independent native **1024×1536** portraits. Their original PNGs are retained and checked for transparency, source provenance, and decoded duplicates.
+Ren Qiao and the Frostroot Hart have new independent native **1024×1536** portraits. Their native paintings are stored as lossless WebP and checked for transparency, source provenance, and decoded duplicates.
 
-![Ren Qiao in the healing hall](docs/screenshots/orchard_healer.png)
+![Ren Qiao in the healing hall](docs/screenshots/orchard_healer.jpg)
 
-![The Frostroot Hart](docs/screenshots/orchard_spirit.png)
+![The Frostroot Hart](docs/screenshots/orchard_spirit.jpg)
 
 The full production target is **more than one million displayed prose words and 1,001 unique world sprites: 500 humans and 501 spirit beasts**, alongside the existing background quotas. Current delivery is **122,882 words and 19 original world sprites**. This expansion remains unfinished.
 
@@ -96,15 +96,15 @@ Continue from any orchard settlement to a spring city where masks rent outward a
 
 Choose a capped three-night credit bridge, separate permanent and temporary ledgers, a worker licensing cooperative, or an individual batch audit. The audit remains available without attribute training. All four outcomes keep genuine charges, fuel limits and unresolved work visible.
 
-This chapter adds **119 scenes and 10,456 authored prose words**, four human originals and two spirit beasts at native **1024×1536 RGBA**, and a separate **1536×1024** market painting. Original PNGs are retained; these are independently painted designs.
+This chapter adds **119 scenes and 10,456 authored prose words**, four human originals and two spirit beasts at native **1024×1536 RGBA**, and a separate **1536×1024** market painting. Native pixels are retained in lossless WebP; these are independently painted designs.
 
-![Qiao Sen in his mask workshop](docs/screenshots/city_mask_maker.png)
+![Qiao Sen in his mask workshop](docs/screenshots/city_mask_maker.jpg)
 
-![The independent Porcelain Courser](docs/screenshots/city_courser.png)
+![The independent Porcelain Courser](docs/screenshots/city_courser.jpg)
 
-![The Glasswing Moth](docs/screenshots/city_moth.png)
+![The Glasswing Moth](docs/screenshots/city_moth.jpg)
 
-![City resolution choices](docs/screenshots/city_choices.png)
+![City resolution choices](docs/screenshots/city_choices.jpg)
 
 
 ## Book VI: The court above the rain
@@ -113,15 +113,15 @@ Follow four investigations into an accident at a cliff court: arrange safe witne
 
 The court admits approved records, corrects an unsupported broad assessment, and keeps genuine claims and ordinary care in place before the final choice. Fund one of four bounded next steps: weather observations, local testimony, staged source checking, or an ungated limited remand. Existing funds cannot buy every remedy at once.
 
-Book VI adds **784 scenes and 75,090 displayed prose words**, four independent human portraits, the Rain Heron, and three native court environments. The campaign now loads authored books from a manifest while preserving existing scene IDs and version-1 saves. New narration uses compressed Vorbis; matching legacy WAVs retain their original bytes.
+Book VI adds **784 scenes and 75,090 displayed prose words**, four independent human portraits, the Rain Heron, and three native court environments. The campaign now loads authored books from a manifest while preserving existing scene IDs and version-1 saves. All bundled narration uses compressed Vorbis, with text hashes and source encoding recorded in its manifest.
 
-![He Lian and the initial petition](docs/screenshots/court_upper_bench.png)
+![He Lian and the initial petition](docs/screenshots/court_upper_bench.jpg)
 
-![The Rain Heron](docs/screenshots/court_rain_heron.png)
+![The Rain Heron](docs/screenshots/court_rain_heron.jpg)
 
-![Four inquiry routes](docs/screenshots/court_investigation_choice.png)
+![Four inquiry routes](docs/screenshots/court_investigation_choice.jpg)
 
-![Bounded court remedies](docs/screenshots/court_final_choice.png)
+![Bounded court remedies](docs/screenshots/court_final_choice.jpg)
 
 ## Book VII: The circle that kept a crossing
 
@@ -143,21 +143,21 @@ Open **Wardrobe** in the top navigation and choose an outfit independently for e
 
 The four adult characters each have all three options. Gallery previews animate, selected clothing appears immediately in the story and on the title screen, and choices persist across sessions. Clothing changes preserve dialogue progress and cultivation stats.
 
-![Light Training wardrobe](docs/screenshots/wardrobe_training.png)
+![Light Training wardrobe](docs/screenshots/wardrobe_training.jpg)
 
-![Moon Festival wardrobe](docs/screenshots/wardrobe_festival.png)
+![Moon Festival wardrobe](docs/screenshots/wardrobe_festival.jpg)
 
 ## Animation in motion
 
 Each character and outfit uses one intact portrait. Godot gently moves the whole body up and down in a four-second loop. These previews use the same portraits and bob settings:
 
-![Animated Sect Robes](docs/animations/sect.gif)
+![Animated Sect Robes](docs/animations/sect.webp)
 
-[Light Training](docs/animations/training.gif) · [Moon Festival](docs/animations/festival.gif) · [Four motion cycles](docs/animations/motions.gif) · [Frame comparison](docs/animations/sect_frames.jpg)
+[Light Training](docs/animations/training.webp) · [Moon Festival](docs/animations/festival.webp) · [Four motion cycles](docs/animations/motions.webp) · [Frame comparison](docs/animations/sect_frames.jpg)
 
 The following recording samples the running Godot viewport, with background motion disabled:
 
-![In-game character animation](docs/animations/rendered_game.gif)
+![In-game character animation](docs/animations/rendered_game.webp)
 
 The twelve resting portraits come from the original GPT artwork. Body bobbing preserves each complete drawing. The four story motion labels select a gentle 6–10 pixel bob, and reduced motion leaves the portraits still.
 
@@ -189,7 +189,7 @@ python tools/validate_assets.py
 python tools/preview_animations.py
 ```
 
-Voice generation downloads the public Piper Lessac neural model on its first run. It needs no API key, resumes unchanged lines, and records the model source, SHA-256, upstream model card, codec, and per-line audio hashes. New clips use mono Vorbis quality 3; valid legacy PCM16 clips remain unchanged.
+Voice generation downloads the public Piper Lessac neural model on its first run. It needs no API key, resumes unchanged lines, and records the model source, SHA-256, upstream model card, codec, and per-line audio hashes. New clips use 16000 Hz mono Vorbis quality 0; validated existing clips are reused.
 
 World art and descriptions live in `data/world_assets.json`. `tools/validate_world.py` checks references, native dimensions, transparency, reachability, and honest manuscript accounting.
 

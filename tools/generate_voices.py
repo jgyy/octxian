@@ -43,8 +43,8 @@ def render_clip(voice, text, output, length_scale):
                                  syn_config=SynthesisConfig(length_scale=length_scale))
         audio_metadata(source)
         subprocess.run(["ffmpeg", "-hide_banner", "-loglevel", "error", "-nostdin",
-                        "-y", "-i", str(source), "-map_metadata", "-1", "-ac", "1",
-                        "-c:a", "libvorbis", "-q:a", "3", str(compressed)],
+                        "-y", "-i", str(source), "-map_metadata", "-1", "-ac", "1", "-ar", "16000",
+                        "-c:a", "libvorbis", "-q:a", "0", str(compressed)],
                        check=True)
         metadata = audio_metadata(compressed)
         compressed.replace(output)
@@ -75,7 +75,7 @@ def main():
     manifest = {"engine": "Piper 1.3.0 (neural ONNX)", "voice": "en_US-lessac-medium",
                 "model_url": f"{BASE}/{MODEL}", "model_sha256": model_digest,
                 "model_card": card.read_text(),
-                "encoding": "New clips: mono Vorbis quality 3; valid legacy PCM16 retained",
+                "encoding": "New clips: 16000 Hz mono Vorbis quality 0; validated existing clips retained",
                 # Retain unprocessed records until their scenes are checked.
                 "lines": {node_id: info for node_id, info in old_lines.items()
                           if node_id in story["nodes"]}}
@@ -98,7 +98,7 @@ def main():
         else:
             output = OUT / f"{node_id}.ogg"
             metadata = render_clip(voice, text, output, timing.get(node["speaker"], 1.04))
-            encoding = "ffmpeg libvorbis, mono, quality 3"
+            encoding = "ffmpeg libvorbis, mono, 16000 Hz, quality 0"
             status = "Generated"
         manifest["lines"][node_id] = {**clip_entry(ROOT, output, digest, metadata),
                                       "encoding": encoding}

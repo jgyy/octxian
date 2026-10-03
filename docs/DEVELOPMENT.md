@@ -11,7 +11,7 @@
 - `scripts/audio_director.gd`: music, effects, narration buses, and orderly shutdown.
 - `tools/build_assets.py`: asset orchestration and original audio synthesis.
 - `tools/animation_baker.py`: extract complete resting portraits without stretching.
-- `tools/preview_animations.py`: body bob GIFs and portrait contact sheets.
+- `tools/preview_animations.py`: body bob WebP previews and portrait contact sheets.
 - `tools/generate_voices.py`: resumable neural narration.
 - `tools/validate_assets.py`: portrait inventory, transparency, source integrity, and narration checks.
 
@@ -34,7 +34,7 @@ python tools/verify_screenshots.py
 godot --headless --path . --export-pack Linux build/jade-vow.pck
 ```
 
-Capture mode writes twenty-two viewport screenshots to `build/screenshots` and sixteen timed viewport frames to `build/animations/rendered`. Screenshot verification creates compact JPEG previews, `rendered_game.gif`, and a sampled game-frame sheet. Timed capture fixes the character's initial frame and disables atmospheric background animation so that measured changes reflect the character.
+Capture mode writes twenty-two viewport screenshots to `build/screenshots` and sixteen timed viewport frames to `build/animations/rendered`. Screenshot verification creates compact JPEG previews, `rendered_game.webp`, and a sampled game-frame sheet. Timed capture fixes the character's initial frame and disables atmospheric background animation so that measured changes reflect the character.
 
 The packaged executable discovers `jade-vow.pck` beside it. CI uses Xvfb with dummy audio for desktop capture and standalone playback. It runs the exported package from a folder without the source checkout and checks logs for errors, missing resources, and clean shutdown.
 
@@ -85,3 +85,11 @@ Use `python tools/validate_world.py --require-complete` for the production accep
 The current target is 500 human NPC originals and 501 spirit-beast originals, preserved independently from the 100 original backgrounds and 100 extra interiors. Every sprite records its retained original source, native dimensions, and creation record. The minimum native detail is 1024×1536 (either orientation); do not upscale to pass it. Decoded painting fingerprints ignore encoding metadata, hidden RGB, and transparent canvas padding. A shared original source cannot count twice. Editorial design review remains necessary to exclude pose, costume, mirror, and recolor derivatives.
 
 Book IV extends every river ending, retains scores and journal history, and adds four orchard settlements. The capture harness visits Ren Qiao, the Frostroot Hart, and the final orchard choice; the standalone package loads both native portraits and their narration.
+
+## Compact media storage
+
+Source paintings use lossless WebP with exact RGBA pixels and native dimensions recorded in `assets/art/compression.json`. Bundled narration uses 16000 Hz mono Vorbis quality 0; the manifest records text hashes, decoded timing, and previous file hashes and encodings. Review screenshots use the existing full-size JPEG captures. CI retains this encoding for new narration and bundles JPEG screenshots.
+
+Run `python tools/optimize_assets.py` to compact newly added PNG artwork and WAV narration, then run `python tools/build_assets.py` to refresh portrait source hashes. Validate all decoded assets before committing.
+
+Git history was compacted by removing binary media from old commits and retaining optimized media at each branch tip. Earlier source commits remain, but their removed media requires regeneration or recovery from the original bundle. Collaborators should clone the rewritten repository again.
