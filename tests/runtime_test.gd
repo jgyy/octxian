@@ -198,6 +198,7 @@ func _run() -> void:
 	check(game.actor.character == "frostroot_hart" and game.actor.sprite.texture.get_size() == Vector2(1024, 1536), "Frostroot Hart must load its own native original")
 	await _test_city_ui(game)
 	await _test_court_ui(game)
+	await _test_thunderfen_ui(game)
 	game.state.current = "orchard_resolution_choice"
 	game._scene()
 	game.dialogue.visible_characters = -1
@@ -376,6 +377,8 @@ func _test_city_ui(game) -> void:
 		var summary: Label = game.choice_box.find_child("ChoiceDetails_" + str(index), true, false)
 		check(blocked != null and blocked.disabled, "Untrained city settlement choices must remain locked")
 		check(summary != null and summary.text.contains("Locked"), "City settlement gates must be visible before choosing")
+	var cooperative: Button = game.choice_box.find_child("Choice_1", true, false)
+	check(cooperative != null and not cooperative.disabled, "Already offered testimony cooperation must remain available without a score")
 	var fallback: Button = game.choice_box.find_child("Choice_3", true, false)
 	check(fallback != null and not fallback.disabled, "The city audit must remain available without attribute training")
 	var before_stats: Dictionary = game.state.stats.duplicate()
@@ -457,7 +460,7 @@ func _test_court_ui(game) -> void:
 	game._scene()
 	game._advance()
 	await process_frame
-	for index in range(3):
+	for index in [0, 2]:
 		var blocked: Button = game.choice_box.find_child("Choice_" + str(index), true, false)
 		var summary: Label = game.choice_box.find_child("ChoiceDetails_" + str(index), true, false)
 		check(blocked != null and blocked.disabled, "Untrained specialized court remedies must be locked in the UI")
@@ -468,6 +471,12 @@ func _test_court_ui(game) -> void:
 	var before_history: Array = game.state.history.duplicate(true)
 	game._choose(0)
 	check(game.state.current == "court_final_choice" and game.state.stats == before_stats and game.state.history == before_history, "A locked court UI remedy must preserve the journey")
+	game._choose(1)
+	check(game.state.current == "court_local_proposal" and game.state.stats.insight == 2, "Offered testimony must advance and credit Comprehension")
+	game.state.current = "court_final_choice"
+	game.state.stats = before_stats.duplicate()
+	game._scene()
+	game.dialogue.visible_characters = -1
 	game._choose(3)
 	check(game.state.current == "court_remand_proposal" and game.state.stats.trust == 2, "The ungated court remedy must advance through the UI and apply Dao Heart")
 
@@ -611,3 +620,45 @@ func _test_foundry_ui(game) -> void:
 	check(game.atmosphere.clock > effect_clock, "The second-pair effect must resume when motion is enabled")
 	game.state.current = "arrival"
 	game._title()
+
+func _test_thunderfen_ui(game) -> void:
+	for sample in [{"node": "ridge_departure_002", "actor": "jiang_tao"},
+			{"node": "ridge_pool_001", "actor": "copperback_tortoise"},
+			{"node": "ridge_incident_cloudhound_001", "actor": "cloudhound"}]:
+		game.state.current = sample.node
+		game._scene()
+		check(game.actor.character == sample.actor and game.actor.sprite.texture != null, "Thunderfen originals must render in dialogue")
+		if game.actor.sprite.texture != null:
+			check(game.actor.sprite.texture.get_size() == Vector2(1024, 1536), "Thunderfen portraits must retain native detail")
+		check(game.background.texture != null and game.background.texture.get_size() == Vector2(1672, 941), "Thunderfen backgrounds must retain their native dimensions")
+
+	for event_id in ["ridge_weather_event", "ridge_incident_event"]:
+		game.state.current = event_id
+		game.state.journey_seed = 23
+		game._scene()
+		game._advance()
+		await process_frame
+		check(game.choice_box.get_child_count() == 0 and not game.choice_box.visible, "Chance must not expose selectable outcome cards")
+		check(game.continue_button.visible, "Chance must offer Continue after the line")
+		var predicted: String = game.state.encounter_target()
+		var before_stats: Dictionary = game.state.stats.duplicate()
+		var before_history: Array = game.state.history.duplicate(true)
+		game._choose(0)
+		check(game.state.current == event_id and game.state.history == before_history, "Number selection cannot alter a chance event")
+		game._advance()
+		check(game.state.current == predicted and game.state.encounters[event_id] == predicted, "UI Continue must resolve the saved-seed outcome")
+		check(game.state.stats == before_stats and game.state.history.size() == before_history.size() + 1, "Chance must record one transition without score gains")
+
+	game.state.current = "ridge_incident_surge_001"
+	game._scene()
+	check(game.atmosphere.effect == "storm_discharge", "The external discharge must select its own effect")
+	game._settings()
+	check(game.atmosphere.paused, "Panels must pause the storm effect")
+	game._close_popup()
+	game._motion_changed(true)
+	check(not game.atmosphere.enabled, "Reduced motion must remove the storm effect")
+	game._motion_changed(false)
+	game._items()
+	game._item_selected(game.world.items.size() - 1)
+	check(game.item_image.texture != null and game.item_image.texture.get_size() == Vector2(1024, 1536), "Storm compass inspection must retain native pixels")
+	game._close_popup()
