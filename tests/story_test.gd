@@ -40,6 +40,7 @@ func check(condition: bool, message: String) -> void:
 func _initialize() -> void:
 	_test_story_loading()
 	_test_attributes()
+	_test_encounters()
 	_test_atomic_saves()
 	_test_duplicate_json_keys()
 	_test_ring_campaign()
@@ -181,7 +182,7 @@ func _initialize() -> void:
 				var branch = State.new(campaign)
 				branch.current = entry.current
 				branch.stats = entry.stats.duplicate()
-				if branch.choose(index):
+				if (branch.go(str(node.choices[index].next)) if node.get("random_event", false) else branch.choose(index)):
 					queue.append({"current": branch.current, "stats": branch.stats.duplicate()})
 	check(reached.size() == campaign.nodes.size(), "Every scene should be reachable under its gates")
 	check(endings == expected_endings, "Every authored ending should be reachable")
@@ -629,3 +630,43 @@ func _test_ring_campaign() -> void:
 				break
 			steps += 1
 		check(traveler.current == endings[index] and traveler.node().has("ending"), "Each ring resolution must reach its own authored outcome")
+
+func _test_encounters() -> void:
+	var fixture := {
+		"start": "weather", "characters": {"narrator": {}},
+		"nodes": {
+			"weather": {"speaker": "narrator", "text": "Clouds gather.", "random_event": true,
+				"choices": [{"text": "Rain", "next": "rain"}, {"text": "Mist", "next": "mist"}, {"text": "Wind", "next": "wind"}]},
+			"rain": {"speaker": "narrator", "text": "Rain arrives.", "ending": "Rain"},
+			"mist": {"speaker": "narrator", "text": "Mist arrives.", "ending": "Mist"},
+			"wind": {"speaker": "narrator", "text": "Wind arrives.", "ending": "Wind"}
+		}
+	}
+	var outcomes := {}
+	for seed_value in range(1, 65):
+		var traveler = State.new(fixture)
+		traveler.journey_seed = seed_value
+		var predicted: String = traveler.encounter_target()
+		check(not traveler.choose(0), "Number shortcuts cannot choose a chance outcome")
+		check(traveler.advance() and traveler.current == predicted, "Chance outcomes must use the seeded selection")
+		outcomes[predicted] = true
+		check(traveler.encounters.weather == predicted, "The resolved event must be recorded")
+		traveler.current = "weather"
+		check(traveler.advance() and traveler.current == predicted, "Revisiting cannot reroll a resolved event")
+	check(outcomes.size() == 3, "Independent journeys must expose all three weather variations")
+
+	var saved = State.new(fixture)
+	saved.journey_seed = 19
+	check(saved.save_game("user://encounter_test.json"), "A checkpoint before an event must save")
+	var restored = State.new(fixture)
+	check(restored.load_game("user://encounter_test.json"), "A seeded checkpoint must load")
+	check(restored.journey_seed == saved.journey_seed and restored.encounter_target() == saved.encounter_target(), "Saving before an event must preserve its future outcome")
+	check(saved.advance() and saved.save_game("user://encounter_test.json"), "A resolved event must save")
+	check(restored.load_game("user://encounter_test.json") and restored.encounters == saved.encounters, "Resolved event records must round trip")
+	var malformed := FileAccess.open("user://encounter_bad.json", FileAccess.WRITE)
+	malformed.store_string(JSON.stringify({"version": 1, "current": "weather", "stats": saved.stats, "history": [], "journey_seed": 19, "encounters": {"weather": "missing"}}))
+	malformed.close()
+	var before: String = restored.current
+	check(not restored.load_game("user://encounter_bad.json") and restored.current == before, "Invalid event records must reject the entire load atomically")
+	_remove_checkpoint("user://encounter_test.json")
+	_remove_checkpoint("user://encounter_bad.json")

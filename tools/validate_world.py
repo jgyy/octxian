@@ -200,6 +200,11 @@ def inspect(root):
         texts.add(normalized)
         assert len(node["text"].split()) <= 100, f"Keep dialogue readable in {key}"
         assert sum(field in node for field in ("next", "choices", "ending")) == 1, f"Ambiguous navigation: {key}"
+        if "random_event" in node:
+            assert node["random_event"] is True and "choices" in node, "Chance events need alternatives"
+            alternatives = node["choices"]
+            assert len(alternatives) >= 2 and len({c["next"] for c in alternatives}) == len(alternatives)
+            assert all(not set(c) & {"effects", "requires"} for c in alternatives), "Chance does not award skills or gate rights"
         if "effect" in node:
             assert node["effect"] in {"lanterns", "rain", "reed_light", "bell", "qi", "first_trace", "paired_trace", "second_pair_trace", "none"}
         if "background" in node:
