@@ -34,7 +34,7 @@ python tools/verify_screenshots.py
 godot --headless --path . --export-pack Linux build/jade-vow.pck
 ```
 
-Capture mode writes nineteen viewport screenshots to `build/screenshots` and sixteen timed viewport frames to `build/animations/rendered`. Screenshot verification creates compact JPEG previews, `rendered_game.gif`, and a sampled game-frame sheet. Timed capture fixes the character's initial frame and disables atmospheric background animation so that measured changes reflect the character.
+Capture mode writes twenty-two viewport screenshots to `build/screenshots` and sixteen timed viewport frames to `build/animations/rendered`. Screenshot verification creates compact JPEG previews, `rendered_game.gif`, and a sampled game-frame sheet. Timed capture fixes the character's initial frame and disables atmospheric background animation so that measured changes reflect the character.
 
 The packaged executable discovers `jade-vow.pck` beside it. CI uses Xvfb with dummy audio for desktop capture and standalone playback. It runs the exported package from a folder without the source checkout and checks logs for errors, missing resources, and clean shutdown.
 
@@ -64,7 +64,7 @@ Portrait preparation reuses unchanged, verified files. The feature-branch bundle
 
 Reading scenes use a 680-pixel portrait height with room for the whole bob beneath the navigation bar and above the footer. Title portraits use 730 pixels; wardrobe previews use 350. Uniform scaling preserves proportions. Changing `display_height` updates a cached portrait's scale immediately.
 
-The stateful Godot route traversal includes continuations across all three books and all ten endings. Test travelers reuse one parsed campaign. With nonnegative stat effects, values at or above the greatest gate are equivalent for reachability; capped states are deduplicated. Overflow and corrupt saves are checked separately at full values. The default `StoryState.new()` still parses its own story, keeping mutated corruption fixtures isolated.
+The stateful Godot route traversal includes continuations across all four books and all fourteen endings. Test travelers reuse one parsed campaign. With nonnegative stat effects, values at or above the greatest gate are equivalent for reachability; capped states are deduplicated. Overflow and corrupt saves are checked separately at full values. The default `StoryState.new()` still parses its own story, keeping mutated corruption fixtures isolated.
 
 `data/continuity.json` must list every delivered chapter as reviewed and keep its fact anchors valid. Its checkpoints name scenes that must lie on every path to a later decision. The validator removes each required scene in turn and rejects a still-reachable decision, catching shortcuts that bypass knowledge or safety work. Editorial review also covers chronology, custody, privacy, and alternate world outcomes.
 
@@ -79,3 +79,9 @@ This draft extends the short opening with Books II and III; its exact authored c
 The 100 additional interior paintings are registered as backgrounds with `environment: interior` and `collection: building_interiors`. They do not count toward the original 100-background quota. The total background target is 200. World → Interiors loads one original painting at a time and preserves its aspect ratio. Runtime validation visits every delivered interior and checks caption synchronization, dimensions, invalid selection handling, and selection after the panel is closed. The standalone package also loads the last interior.
 
 Use `python tools/validate_world.py --require-complete` for the production acceptance check, or dispatch Godot CI with `require_complete: true`. Draft validation still checks delivered content without treating unfinished quotas as satisfied. The strict command writes its report before returning failure. PR checks automatically require completeness when the PR leaves draft; ready-for-review and converted-to-draft events trigger new checks. Both modes reject exact repeated scene prose.
+
+## Full-production sprite acceptance
+
+The current target is 500 human NPC originals and 501 spirit-beast originals, preserved independently from the 100 original backgrounds and 100 extra interiors. Every sprite records its retained original source, native dimensions, and creation record. The minimum native detail is 1024×1536 (either orientation); do not upscale to pass it. Decoded painting fingerprints ignore encoding metadata, hidden RGB, and transparent canvas padding. A shared original source cannot count twice. Editorial design review remains necessary to exclude pose, costume, mirror, and recolor derivatives.
+
+Book IV extends every river ending, retains scores and journal history, and adds four orchard settlements. The capture harness visits Ren Qiao, the Frostroot Hart, and the final orchard choice; the standalone package loads both native portraits and their narration.

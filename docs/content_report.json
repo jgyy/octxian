@@ -1,42 +1,51 @@
 {
-  "scenes": 196,
-  "authored_words": 10274,
+  "scenes": 234,
+  "authored_words": 13159,
   "word_target": 1000001,
   "word_target_met": false,
   "delivered_art": {
     "backgrounds": 35,
-    "npcs": 4,
-    "monsters": 2
+    "npcs": 5,
+    "monsters": 3
   },
   "delivered_original_art": {
     "backgrounds": 5,
-    "npcs": 4,
-    "monsters": 2
+    "npcs": 5,
+    "monsters": 3
   },
   "delivered_additional_art": {
     "building_interiors": 30
   },
   "delivered_items": 2,
+  "delivered_unique_sprites": 8,
+  "sprite_target": 1001,
+  "sprite_target_met": false,
+  "minimum_sprite_native_size": [
+    1024,
+    1536
+  ],
   "art_targets": {
     "backgrounds": 200,
-    "npcs": 100,
-    "monsters": 100
+    "npcs": 500,
+    "monsters": 501
   },
   "original_art_targets": {
     "backgrounds": 100,
-    "npcs": 100,
-    "monsters": 100
+    "npcs": 500,
+    "monsters": 501
   },
   "additional_art_targets": {
     "building_interiors": 100
   },
   "art_targets_met": false,
   "remaining": {
-    "authored_words": 989727,
+    "authored_words": 986842,
     "backgrounds": 95,
-    "npcs": 96,
-    "monsters": 98,
-    "building_interiors": 70
+    "npcs": 495,
+    "monsters": 498,
+    "building_interiors": 70,
+    "unique_sprites": 993
   },
-  "complete": false
+  "complete": false,
+  "originality_validation": "Retained original sources, native dimensions, file hashes, and decoded pixels are checked. Distinct designs require editorial review; poses, recolors, mirrors, and other derivatives do not qualify as independent originals."
 }

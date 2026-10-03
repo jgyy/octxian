@@ -186,6 +186,18 @@ func _run() -> void:
 	game._scene()
 	check(game.actor.character == "mooring_eel" and game.atmosphere.effect == "none", "Sheltered spirit scene should use its portrait and calm effect")
 	check(game.background.texture.get_size() == Vector2(1672, 941), "Harbor must retain the native environment")
+	game.state.current = "orchard_arrival"
+	game._scene()
+	check(game.actor.character == "ren_qiao" and game.actor.sprite.texture.get_size() == Vector2(1024, 1536), "Orchard healer must load his retained native original")
+	game.state.current = "orchard_hart_answer"
+	game._scene()
+	check(game.actor.character == "frostroot_hart" and game.actor.sprite.texture.get_size() == Vector2(1024, 1536), "Frostroot Hart must load its own native original")
+	game.state.current = "orchard_resolution_choice"
+	game._scene()
+	game.dialogue.visible_characters = -1
+	var resolve_before: int = game.state.stats.resolve
+	game._choose(3)
+	check(game.state.current == "orchard_pause" and game.state.stats.resolve == resolve_before + 2, "Book IV must retain an available settlement and apply its attribute effects")
 	game.state.history.append({"speaker": "narrator", "text": "[b]literal[/b]"})
 	game._journal()
 	var logs: Array[Node] = game.popup.find_children("*", "RichTextLabel", true, false)

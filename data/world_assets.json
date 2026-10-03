@@ -2,8 +2,8 @@
   "version": 1,
   "requested": {
     "backgrounds": 200,
-    "npcs": 100,
-    "monsters": 100
+    "npcs": 500,
+    "monsters": 501
   },
   "backgrounds": [
     {
@@ -426,7 +426,17 @@
         1024,
         1536
       ],
-      "description": "The bell keeper has stopped ringing a ward that erases households. She remembers how her own certainty helped the injustice begin."
+      "description": "The bell keeper has stopped ringing a ward that erases households. She remembers how her own certainty helped the injustice begin.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/su_lan.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/PROVENANCE.md"
+      }
     },
     {
       "id": "wei_jin",
@@ -436,7 +446,17 @@
         1024,
         1536
       ],
-      "description": "A veteran ferryman keeps the disputed crossing open. He asks whose winter harvest will bear the cost of repairing a wrong boundary."
+      "description": "A veteran ferryman keeps the disputed crossing open. He asks whose winter harvest will bear the cost of repairing a wrong boundary.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/wei_jin.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/PROVENANCE.md"
+      }
     },
     {
       "id": "an_ru",
@@ -446,7 +466,17 @@
         1024,
         1536
       ],
-      "description": "An archivist preserves the original household ledger. Her seal identifies the evidence without asking the village to accept her conclusions."
+      "description": "An archivist preserves the original household ledger. Her seal identifies the evidence without asking the village to accept her conclusions.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/an_ru.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/PROVENANCE.md"
+      }
     },
     {
       "id": "wei_xiu",
@@ -456,7 +486,37 @@
         1024,
         1536
       ],
-      "description": "A living ferry pilot and stone carver whose household was erased from the register. She charts a route without claiming the memories it carries."
+      "description": "A living ferry pilot and stone carver whose household was erased from the register. She charts a route without claiming the memories it carries.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/wei_xiu.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/PROVENANCE.md"
+      }
+    },
+    {
+      "id": "ren_qiao",
+      "name": "Ren Qiao",
+      "path": "assets/art/world/ren_qiao.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "An orchard healer who keeps the transfer bowl closed until patient and carrier understand the price. His staff and medicine satchel have outlasted several confident cures.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/ren_qiao.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/PROVENANCE.md"
+      }
     }
   ],
   "monsters": [
@@ -468,7 +528,17 @@
         1024,
         1536
       ],
-      "description": "A spirit beast shelters nineteen stolen names in paper nests, spending its own memories to protect strangers."
+      "description": "A spirit beast shelters nineteen stolen names in paper nests, spending its own memories to protect strangers.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/reed_listener.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/PROVENANCE.md"
+      }
     },
     {
       "id": "mooring_eel",
@@ -478,7 +548,37 @@
         1024,
         1536
       ],
-      "description": "A river spirit holds memories entrusted by ferry passengers. It can keep an echo, but cannot read unoffered thoughts or replace a living witness."
+      "description": "A river spirit holds memories entrusted by ferry passengers. It can keep an echo, but cannot read unoffered thoughts or replace a living witness.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/mooring_eel.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/PROVENANCE.md"
+      }
+    },
+    {
+      "id": "frostroot_hart",
+      "name": "The Frostroot Hart",
+      "path": "assets/art/world/frostroot_hart.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "A living winter spirit whose crystal antlers shelter dormant plum buds. Root braids remember the burdens it carried; consent is renewed before another pain is transferred.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/frostroot_hart.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/PROVENANCE.md"
+      }
     }
   ],
   "items": [

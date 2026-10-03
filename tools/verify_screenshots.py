@@ -7,7 +7,7 @@ from PIL import Image
 root = pathlib.Path(__file__).resolve().parents[1]
 folder = root / "build/screenshots"
 images = []
-for name in ("title", "dialogue", "cast", "wardrobe_training", "wardrobe_festival", "outfit_dialogue", "quest_hub", "spirit_encounter", "world_gallery", "ferry_encounter", "archive_encounter", "river_pilot", "river_spirit", "river_harbor", "object_bronze_clapper", "object_sealed_echo_case", "interior_gallery", "attributes", "attribute_choices"):
+for name in ("title", "dialogue", "cast", "wardrobe_training", "wardrobe_festival", "outfit_dialogue", "quest_hub", "spirit_encounter", "world_gallery", "ferry_encounter", "archive_encounter", "river_pilot", "river_spirit", "river_harbor", "object_bronze_clapper", "object_sealed_echo_case", "interior_gallery", "attributes", "attribute_choices", "orchard_healer", "orchard_spirit", "orchard_choices"):
     source = Image.open(folder / f"{name}.png").convert("RGB")
     assert source.width >= 1280 and source.height >= 720, "Capture must use the real game viewport"
     pixels = np.asarray(source)
@@ -27,7 +27,9 @@ assert not np.array_equal(images[14], images[15]), "Object paintings must render
 assert not np.array_equal(images[8], images[16]), "Interior gallery must render its own full painting view"
 assert not np.array_equal(images[1], images[17]), "Attributes must render a separate character panel"
 assert not np.array_equal(images[1], images[18]), "Gated choices must render their visible requirements"
-print("Verified nineteen rendered captures across three books, the world gallery, wardrobes and both painted objects.")
+assert not np.array_equal(images[19], images[20]), "Orchard healer and spirit must render distinct originals"
+assert not np.array_equal(images[20], images[21]), "Orchard settlement choices must render separately"
+print("Verified twenty-two rendered captures across four books, the world gallery, wardrobes and both painted objects.")
 
 # Timed samples come from the real Godot viewport.
 animation_folder = root / "build/animations"

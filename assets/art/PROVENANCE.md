@@ -46,7 +46,7 @@ GPT Images generated these original assets during this expansion:
 
 The files are the image tool's native PNG outputs and have not been upscaled. Native alpha and dimensions are validated in CI. They are new drawings, not recolors or copies of the existing cast. The image tool was asked for its highest native resolution; these are the returned dimensions, not a claim that a larger raster size contains more original detail.
 
-The requested final inventory is 100 original-scope backgrounds, 100 NPCs, 100 monsters, plus 100 additional building-interior backgrounds. This draft delivers five original-scope backgrounds, 30 extra interiors, four human NPCs, two monsters, and two additional item paintings. See `data/world_assets.json` and `docs/EXPANSION.md` for exact counts and remaining scope.
+The requested final inventory is 100 original-scope backgrounds, 500 human NPC originals, 501 spirit-beast originals, plus 100 additional building-interior backgrounds. This draft delivers five original-scope backgrounds, 30 extra interiors, five human NPCs, three monsters, and two additional item paintings. See `data/world_assets.json` and `docs/EXPANSION.md` for exact counts and remaining scope.
 
 The original Salt Lantern Valley view depicts the period before Azure Cloud's fate is decided. Shared later scenes use the bell-tower square, whose framing does not assume the mountain remains aloft. None of the new paintings is an atlas crop. Native sprites and items are displayed with uniform scaling.
 
@@ -55,3 +55,16 @@ The original Salt Lantern Valley view depicts the period before Azure Cloud's fa
 GPT Images generated each painting in `world/interiors/` independently during the continuation of PR #2. The image tool returned a complete native PNG for each location. None is an atlas crop, resized derivative, recolor, or duplicated file. The [interior inventory](../../docs/INTERIORS.md) lists names, exact returned dimensions, and Git blob identifiers. All original PNG bytes are preserved.
 
 The collection currently contains **30** paintings against the additional **100**-painting quota. Some locations belong to planned later books; gallery availability is delivered art, not a claim of written chapters.
+
+## Original sprite production · 2026-10-03
+
+The expanded target is **500 human portraits and 501 spirit beasts: 1,001 independent original designs**. Outfit variants, poses, recolors, mirrors, repackaged files, and cropped atlases do not qualify as separate designs. Each new sprite is generated separately at the image tool's requested highest native portrait resolution. Returned dimensions are recorded without claiming that enlargement adds detail.
+
+| ID / original file | Native size | Original Git blob | Creation and design review |
+|---|---|---|---|
+| `ren_qiao` · `world/ren_qiao.png` | 1024×1536 RGBA | `d96b92e7c67e79662308f6c975106af3fccfefbd` | Independently generated adult orchard healer; angular face, plum robes, green medicinal apron, ceramic salve jar, carved staff, medicine satchel. Reviewed as a distinct human design. |
+| `frostroot_hart` · `world/frostroot_hart.png` | 1024×1536 RGBA | `e6b08e4bbb97d99d6ba5be179e960633768d296f` | Independently generated winter deer spirit; root mane, asymmetrical crystal antlers, plum buds, bronze token. Reviewed as a distinct creature design. |
+
+These PNGs are the image tool's unmodified native outputs. The catalog points to each retained original and this creation record. CI checks alpha, dimensions, bytes, decoded painting fingerprints, and original source references. Such checks detect copying and repackaging; editorial inspection establishes distinct identities and species.
+
+Current original sprite delivery: **5 humans + 3 spirit beasts = 8**. The remaining sprite requirement is **495 humans + 498 spirit beasts = 993**.
