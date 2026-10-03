@@ -49,7 +49,7 @@ Each retained PNG is a new image-generation output. Maximum native detail was re
 | harbor_han_pei | 1024×1536 | RGBA | `e82aefaccdc71f3dab6e8497ac61c44b5123189b` |
 | harbor_yan_su | 1024×1536 | RGBA | `432a7b5db97914ae33c060304052f124d405bea2` |
 | harbor_qin_shuo | 1024×1536 | RGBA | `eeb46421fef1ec02d8158a1ea76731ef1d992b1d` |
-
 | mountain_archive_spring_courtyard | 1672×941 | RGB | `bb335a00ebe38f3fd1814a55d7ceba9f7d1b3079` |
+| mountain_archive_winter_workshop_fire | 1672×941 | RGB | `b8a69690a8fd5760ecd23a8a7443689b6532e65c` |
 
-Thirty principal cast portraits and sixteen environments are retained. The rejected Sun Nian output placed her cloudy eye on the wrong side and is excluded. The retained independent original has the cloudy anatomical left eye, on the viewer's right. All thirty principal cast originals and all fifteen locations passed native/artwork validation at source checkpoint 9a1a1f9afa72d7e30c7b3961383a5c6272a43291. The additional independent spring courtyard awaits its changed-source checks. Actual playable use and rendered captures will be verified at complete book integration.
+Thirty principal cast portraits and seventeen environments are retained. The rejected Sun Nian output placed her cloudy eye on the wrong side and is excluded. The retained independent original has the cloudy anatomical left eye, on the viewer's right. The thirty cast originals and sixteen preceding environments passed native/artwork validation at source checkpoint da7bc2435090afb47ba656d926f4fa29acacf4b3. The newly retained independent winter-workshop fire awaits its changed-source checks. Actual playable use and rendered captures will be verified at complete book integration.
