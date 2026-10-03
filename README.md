@@ -27,12 +27,109 @@ If your Godot executable is named `godot4`, replace `godot` with `godot4` in bot
 
 - **Enter / Space:** finish the current line, then advance.
 - **1–4:** select an available choice.
-- **S:** save. **L:** open the dialogue journal. **Esc:** close a panel or open settings.
+- **S:** save. **L:** open the dialogue journal. **C:** open attributes. **Esc:** close a panel or open settings.
 - The interface provides save/load, auto reading, fast text, an animated wardrobe gallery, audio levels, and reduced motion.
 
-The opening contains 36 scenes, 931 narrated words, cultivation stats, gated choices, and three reachable endings. This is a complete short opening.
+The playable script contains **1,394 scenes and 122,882 authored words** across seven books, with cultivation stats and gated choices. Book I has three endings; each continues into Book II, which has three investigations and four settlements. Every settlement continues into Book III, with three river routes, six settlement approaches, and three endings. Each continues into Book IV's orchard, with three investigations and four settlements. Every orchard outcome continues into Book V, with three city investigations and four resolutions. Each city resolution continues into Book VI, with four investigations, local branch choices and four bounded court remedies. Every court outcome continues into Book VII's three river investigations and three owner-approved arrangements.
+
+This draft expansion currently adds **seven original-scope backgrounds, 32 extra building-interior backgrounds, thirteen human NPC sprites, six spirit-beast sprites, and two inspectable item paintings** at their native generated sizes. The original 100-background quota, 500 human NPCs, 501 spirit beasts and more than one million words remain unfinished. The separate extra 100-interior quota has 32 delivered paintings. Run `python tools/validate_world.py --require-complete` to check all quotas. CI writes exact delivery counts to `build/content_report.json`.
+
+## Character attributes
+
+Open **Attributes** in the top navigation, or press **C**, to inspect Lin Yue's **Qi, Trust, Insight, and Resolve**. Each attribute has a description, a growth hint, a rank, and progress toward its next rank. Choices show their point changes before selection, and locked choices show your current and required points. A short confirmation shows the gains after you choose.
+
+Ranks advance at **3, 6, and 10 points**. The highest rank does not cap your points. Story requirements use exact point totals, and attributes persist across books and in existing saves. Beginning a new journey resets all four to zero.
+
+![Character attributes](docs/screenshots/attributes.png)
+
+![Visible choice requirements](docs/screenshots/attribute_choices.png)
 
 ![Branching dialogue](docs/screenshots/dialogue.png)
+
+## Book II: The valley that kept its name
+
+Continue from any Book I ending using the **→** continuation button. Su Lan leads you into Salt Lantern Valley, where a protective ward has erased nineteen households from the village register. Investigate the ferry boundary, meet the accused Reed Listener, or examine altered records in the archive. Each investigation offers three approaches, costs, and testimony before a final settlement.
+
+The **World** gallery previews the delivered locations, people, and spirit beasts. The new paintings are preserved at their native sizes: **1672×941** for the five earlier backgrounds, **1024×1536** for each sprite and the clapper, and **1536×1024** for the echo case. Display scaling preserves proportions; no upscaling is presented as added detail. Choose **World → Interiors** for a larger preview of the extra interior paintings; the [interior inventory](docs/INTERIORS.md) records every native file and size.
+
+![Book II quest choices](docs/screenshots/quest_hub.png)
+
+![The Reed Listener encounter](docs/screenshots/spirit_encounter.png)
+
+![World art gallery](docs/screenshots/world_gallery.png)
+
+![Wei Jin at the ferry crossing](docs/screenshots/ferry_encounter.png)
+
+![An Ru and the original ledger](docs/screenshots/archive_encounter.png)
+
+## Book III: The river without a shore
+
+The next spring, living ferry pilot Wei Xiu charts an empty boat circling a landing lost to a flood. Mo Ran entrusted a copy of one memory to its river keeper eleven years earlier. Negotiate a new return place, survey an accessible replacement stair, or establish a supported harbor. Each route has a second choice with different costs and keeps permission separate for each echo.
+
+Scene effects include rain, reed light, soft bell ripples, and qi motes. Effects pause behind panels and disappear with reduced motion. Open **World → Inspect objects** to examine the clapper and sealed echo case; looking at their paintings does not transfer their custody.
+
+![Wei Xiu at the north landing](docs/screenshots/river_pilot.png)
+
+![The Mooring Eel](docs/screenshots/river_spirit.png)
+
+![The sheltered reach](docs/screenshots/river_harbor.png)
+
+![Sealed echo case inspection](docs/screenshots/object_sealed_echo_case.png)
+
+See [the continuity review](docs/CONTINUITY.md) and [the production scope and word budgets](docs/EXPANSION.md) for established facts and remaining work.
+
+## Book IV: The orchard of unfinished winters
+
+Continue from any river ending into the same spring. Ren Qiao's healing orchard transfers temporary sensations while leaving injuries in need of ordinary care. An inherited winter obligation has outlasted the offers that created it. Study the circuit, hear the patients, or examine the accounts before choosing a breathing trial, paid care rota, relief fund, or reviewed pause.
+
+Ren Qiao and the Frostroot Hart have new independent native **1024×1536** portraits. Their original PNGs are retained and checked for transparency, source provenance, and decoded duplicates.
+
+![Ren Qiao in the healing hall](docs/screenshots/orchard_healer.png)
+
+![The Frostroot Hart](docs/screenshots/orchard_spirit.png)
+
+The full production target is **more than one million displayed prose words and 1,001 unique world sprites: 500 humans and 501 spirit beasts**, alongside the existing background quotas. Current delivery is **122,882 words and 19 original world sprites**. This expansion remains unfinished.
+
+## Book V: The city of borrowed faces
+
+Continue from any orchard settlement to a spring city where masks rent outward appearances and recognition credit for finite cultivation-furnace hours. A changed batch makes workers' permanent name proofs answer for commercial disputes. Compare substituted mask collars, trace the registry and courier bills, or test offered wax fragments with two controls. The other teams present their findings before public proofs are restored.
+
+Choose a capped three-night credit bridge, separate permanent and temporary ledgers, a worker licensing cooperative, or an individual batch audit. The audit remains available without attribute training. All four outcomes keep genuine charges, fuel limits and unresolved work visible.
+
+This chapter adds **119 scenes and 10,456 authored prose words**, four human originals and two spirit beasts at native **1024×1536 RGBA**, and a separate **1536×1024** market painting. Original PNGs are retained; these are independently painted designs.
+
+![Qiao Sen in his mask workshop](docs/screenshots/city_mask_maker.png)
+
+![The independent Porcelain Courser](docs/screenshots/city_courser.png)
+
+![The Glasswing Moth](docs/screenshots/city_moth.png)
+
+![City resolution choices](docs/screenshots/city_choices.png)
+
+
+## Book VI: The court above the rain
+
+Follow four investigations into an accident at a cliff court: arrange safe witness access, compare bounded rain and clock records, account for finite assistance, or trace conflicting docket versions. An injured porter and stonebinder need their corrected work proofs honored while particular safety and injury questions remain open. Paid carrying chairs use a covered footpath; the damaged goods lift stays closed.
+
+The court admits approved records, corrects an unsupported broad assessment, and keeps genuine claims and ordinary care in place before the final choice. Fund one of four bounded next steps: weather observations, local testimony, staged source checking, or an ungated limited remand. Existing funds cannot buy every remedy at once.
+
+Book VI adds **784 scenes and 75,090 displayed prose words**, four independent human portraits, the Rain Heron, and three native court environments. The campaign now loads authored books from a manifest while preserving existing scene IDs and version-1 saves. New narration uses compressed Vorbis; matching legacy WAVs retain their original bytes.
+
+![He Lian and the initial petition](docs/screenshots/court_upper_bench.png)
+
+![The Rain Heron](docs/screenshots/court_rain_heron.png)
+
+![Four inquiry routes](docs/screenshots/court_investigation_choice.png)
+
+![Bounded court remedies](docs/screenshots/court_final_choice.png)
+
+## Book VII: The circle that kept a crossing
+
+Return to the river three days after the court review. Follow the reed-channel maintenance record, volunteered archive extracts, or Wei Jin's damaged former ferry approach. Each team brings independent evidence to a common comparison. The third ring stays sealed while its living owner is identified through offered records.
+
+Wei Jin separately accepts a closed return, three paid custody watches with review, or no return today under existing protection. The choice arranges tonight's work; it grants no listening permission. This book adds **257 scenes and 24,177 original displayed words**, bringing delivery to **122,882 words**. **877,119 words remain** toward the strict million-word target.
+
+Failed save replacement preserves a verified prior checkpoint; a missing primary can recover that backup. Scene transitions resume effects after dismissing a popup. Narration generation retains completed clips after a failed batch, and the Godot loader rejects duplicate JSON keys.
 
 ## Clothing options
 
@@ -69,17 +166,18 @@ The twelve resting portraits come from the original GPT artwork. Body bobbing pr
 | Asset | Delivered |
 |---|---|
 | GPT Images artwork | 24 gesture key poses, twelve outfit reference portraits, one mountain-sect environment |
+| New world paintings | 7 original backgrounds + 32 extra interiors, 13 human NPCs, 6 spirit beasts, 2 items |
 | Character portraits | **12 intact portraits**: 4 characters × 3 outfits |
 | Animation playback | Sprite2D whole-body bobbing on a four-second loop |
 | Music | Original 48-second pentatonic plucked-string composition |
 | Sound effects | Page, bell, qi channeling, and sword |
-| AI voices | Piper neural narration for all 36 scenes; one Lessac narrator timbre with character pacing |
+| AI voices | Piper neural narration for all 1,394 scenes; one Lessac narrator timbre with character pacing |
 
 Portraits are extracted from GPT artwork and bobbed by Godot at runtime. The game has no lip sync. See [art provenance](assets/art/PROVENANCE.md) and the generated voice model card for sources and licensing.
 
 ## Rebuild assets
 
-Python 3.12 is recommended.
+Python 3.12 and ffmpeg are required to regenerate narration.
 
 ```sh
 python -m venv .venv
@@ -91,9 +189,11 @@ python tools/validate_assets.py
 python tools/preview_animations.py
 ```
 
-Voice generation downloads the public Piper Lessac neural model on its first run. It needs no API key, resumes unchanged lines, and records the model source, SHA-256, upstream model card, and per-line audio hashes.
+Voice generation downloads the public Piper Lessac neural model on its first run. It needs no API key, resumes unchanged lines, and records the model source, SHA-256, upstream model card, codec, and per-line audio hashes. New clips use mono Vorbis quality 3; valid legacy PCM16 clips remain unchanged.
 
-To add appearances or adjust bobbing, update `data/wardrobe.json` and the GPT pose sheets. Story text and choices live in `data/story.json`. See [development instructions](docs/DEVELOPMENT.md).
+World art and descriptions live in `data/world_assets.json`. `tools/validate_world.py` checks references, native dimensions, transparency, reachability, and honest manuscript accounting.
+
+To add appearances or adjust bobbing, update `data/wardrobe.json` and the GPT pose sheets. The campaign index lives in `data/story.json`; new authored books live in `data/books/` and are merged through its `books` manifest. See [story authoring](docs/STORY_AUTHORING.md) for ID, word-accounting and narration rules. See [development instructions](docs/DEVELOPMENT.md).
 
 ## Architecture
 
@@ -102,7 +202,9 @@ flowchart TD
     GPT["GPT Images · resting portraits"] --> Prep["Python portrait extraction"]
     Prep --> Portraits["12 intact outfit portraits"]
     Portraits --> Cast["Sprite2D cast · whole-body bob"]
-    JSON["Story JSON · 36 scenes"] --> State["Story state · choices · stats"]
+    JSON["Story manifest and books · 1,394 scenes"] --> State["Story state · choices · stats"]
+    Canon["Continuity ledger · required evidence checkpoints"] --> Verify
+    Effects["Scene effects · reduced motion"] --> UI
     State --> UI["Godot interface · journal · saves"]
     Wardrobe["Wardrobe catalog · saved outfit choices"] --> Cast
     Wardrobe --> UI
@@ -120,10 +222,10 @@ flowchart TD
 
 CI checks intact portrait extraction, preserved proportions, source/code hashes, audio integrity, and narration coverage.
 
-Godot exercises all 48 outfit/motion combinations, checking that the complete portrait bobs smoothly and rests when reduced motion is enabled. Tests also cover every story route and ending, save corruption handling, wardrobe persistence, UI navigation, and settings. Xvfb captures screenshots and timed character playback. CI exports and launches a Linux package from a folder without the source checkout and checks clean shutdown.
+Godot exercises all 48 outfit/motion combinations, checking that the complete portrait bobs smoothly and rests when reduced motion is enabled. Tests also cover every story route and ending, atomic rejection of invalid choices, long-campaign saves above 100, damaged settings recovery, world art rendering, save corruption handling, wardrobe persistence, UI navigation, and settings. Xvfb captures screenshots and timed character playback. CI exports and launches a Linux package from a folder without the source checkout and checks clean shutdown.
 
 The feature branch bundles verified assets and review media in separate commits. When media is unchanged, the bundle job preserves the current commit. PR checks do not push to branches.
 
 ## License
 
-Project code and original story: [MIT](LICENSE). GPT artwork provenance is documented in `assets/art/PROVENANCE.md`. Piper's voice model card is bundled in `assets/generated/voices/MODEL_CARD` and the Linux package. Piper is a build-time dependency; the game plays rendered WAV audio.
+Project code and original story: [MIT](LICENSE). GPT artwork provenance is documented in `assets/art/PROVENANCE.md`. Piper's voice model card is bundled in `assets/generated/voices/MODEL_CARD` and the Linux package. Piper is a build-time dependency; the game plays rendered WAV and Vorbis audio.

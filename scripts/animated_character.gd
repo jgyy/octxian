@@ -3,11 +3,24 @@ extends Node2D
 const Wardrobe = preload("res://scripts/wardrobe.gd")
 const LOOPS := ["idle", "channeling", "wind", "resolve"]
 var wardrobe = Wardrobe.new()
+var world_portraits: Dictionary = {}
+
+func _init() -> void:
+	var catalog = JSON.parse_string(FileAccess.get_file_as_string("res://data/world_assets.json"))
+	if catalog is Dictionary:
+		for group in ["npcs", "monsters"]:
+			for entry in catalog.get(group, []):
+				world_portraits[str(entry.id)] = "res://" + str(entry.path)
+
 var sprite := Sprite2D.new()
 var character := ""
 var motion := "idle"
 var outfit := "sect"
-var display_height := 730.0
+var display_height: float = 730.0:
+	set(value):
+		display_height = maxf(value, 1.0)
+		if sprite.texture != null:
+			sprite.scale = Vector2.ONE * (display_height / sprite.texture.get_height())
 var fade_in := true
 var reduced_motion := false
 var motion_time := 0.0
@@ -35,9 +48,12 @@ func set_reduced_motion(value: bool) -> void:
 		reset_motion()
 
 func show_character(id: String, animation: String = "idle", clothing: String = "sect") -> void:
-	if not Wardrobe.CHARACTERS.has(id):
+	var world_actor := world_portraits.has(id)
+	if not Wardrobe.CHARACTERS.has(id) and not world_actor:
 		id = "lin_yue"
-	if not wardrobe.is_valid(id, clothing):
+	if world_actor:
+		clothing = "world"
+	elif not wardrobe.is_valid(id, clothing):
 		clothing = Wardrobe.DEFAULT_OUTFIT
 	if not LOOPS.has(animation):
 		animation = "idle"
@@ -47,7 +63,7 @@ func show_character(id: String, animation: String = "idle", clothing: String = "
 	motion = animation
 	outfit = clothing
 	reset_motion()
-	var path: String = wardrobe.portrait_path(id, clothing)
+	var path: String = str(world_portraits[id]) if world_actor else wardrobe.portrait_path(id, clothing)
 	if ResourceLoader.exists(path):
 		sprite.texture = load(path)
 	else:

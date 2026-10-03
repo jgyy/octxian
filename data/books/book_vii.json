@@ -1,0 +1,505 @@
+{
+  "chapters": {
+    "book_vii": {
+      "label": "BOOK VII",
+      "title": "The circle that kept a crossing"
+    }
+  },
+  "characters": {},
+  "nodes": {
+    "ring_from_weather": {
+      "chapter": "book_vii",
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "background": "rain_court_terrace",
+      "effect": "none",
+      "text": "The station sheet went back to its keeper before I left the cliff. Its dated warning could help travelers; it could not explain a broken sling or heal Du's shoulder. Below the court, a river messenger waited with a different question. The Mooring Eel still held the third echo ring. A damaged outer record had come loose from its old rack, and the Eel wanted help examining the custody mark. I agreed to visit after the descent. The court kept its own receiving address and Day Seven decisions; carrying one unresolved question did not settle another.",
+      "next": "ring_arrival"
+    },
+    "ring_from_local": {
+      "chapter": "book_vii",
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "background": "rain_court_witness_room",
+      "effect": "none",
+      "text": "I left the local room's receiving address with Luo Shan and took no witness originals down the path. Bai and Du had their next questions, their protections, and the costs which our hearing had not removed. At the lower gate a river messenger offered a folded request. The Mooring Eel had found a loose page near an old custody rack. It concerned the third ring we had left sealed. Wei Xiu wanted us at the landing, if we could come. I wrote our travel date beside the court's review, allowing each place its separate unfinished work.",
+      "next": "ring_arrival"
+    },
+    "ring_from_staged": {
+      "chapter": "book_vii",
+      "speaker": "shen_qing",
+      "actor": "shen_qing",
+      "background": "rain_court_hearing_hall",
+      "effect": "none",
+      "text": "Three particular questions remained in the court file. I copied the next receiving date without taking its sources away. When the river messenger mentioned a loose custody page, I almost called it another answer. Elder Yun asked what the page actually said. The messenger had not opened its folded cover. That small correction accompanied me down the covered path. We had learned enough at the bench to ask a better first question, perhaps. The Eel's request was for help with an exterior mark, and the third echo ring would remain closed until somebody separately authorized more.",
+      "next": "ring_arrival"
+    },
+    "ring_from_remand": {
+      "chapter": "book_vii",
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "background": "rain_court_terrace",
+      "effect": "none",
+      "text": "The remand returned its bounded findings on Day Seven. It left the goods lift closed, Du's ordinary care necessary, and particular claims awaiting their own answers. I watched the clerk post the next date before descending. At the lower gate, Wei Xiu's messenger asked whether we could return to the river. A page from the old custody rack had loosened, showing a repair mark beside the third ring's deposit token. I promised an examination, nothing else. We set out the next morning with dry rope, travel food, and the sealed echo case which still belonged to Mo Ran.",
+      "next": "ring_arrival"
+    },
+    "ring_arrival": {
+      "chapter": "book_vii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "north_landing",
+      "effect": "none",
+      "text": "Three days after the court's Day Seven review, Lin Yue reached the north landing. Spring had raised a thin green edge along the crossing stone. Wei Xiu's chisel lay beside a shallow groove filled with rain. Nothing about the cliff hearing had altered this bank's needs: a ferry waited for a new peg, children stepped around a puddle, and somebody had to take the late grain cart across. The Mooring Eel surfaced beyond the working ropes. At its throat, the third ring remained covered. Its outer custody tab had been placed on a dry board.",
+      "next": "ring_calendar"
+    },
+    "ring_calendar": {
+      "chapter": "book_vii",
+      "speaker": "wei_xiu",
+      "actor": "wei_xiu",
+      "background": "north_landing",
+      "effect": "none",
+      "text": "Father is coming after the grain cart, and An Ru has offered the archive room for this afternoon. We have paid the ordinary ferry fare from our travel purse. Nobody has reserved another court journey or promised the Eel a new watch. The tab belongs to the custody record; the echo belongs to whoever entrusted it. Those are different things to examine. I asked you here because the old keeper's rack has shifted, not because the water gave me a name. We can begin with what has actually come loose and leave the rest covered.",
+      "next": "ring_old_agreement"
+    },
+    "ring_old_agreement": {
+      "chapter": "book_vii",
+      "speaker": "mooring_eel",
+      "actor": "mooring_eel",
+      "background": "sheltered_reach",
+      "effect": "none",
+      "text": "Your earlier arrangements still stand. Mo Ran's case is not this ring. Luo Fen's own return decision is not this ring. Their separate permissions cannot be threaded through an unnamed owner merely because three circles once shared my throat. The keeper died two summers before your first spring visit. Her stair was lost last winter. I have found part of her outer record in a dry rack above the bank. Its page can be read without listening to any echo. I offer that reading and inspection of this ring's exterior seam, for this inquiry alone.",
+      "next": "ring_seal_seen"
+    },
+    "ring_seal_seen": {
+      "chapter": "book_vii",
+      "speaker": "elder_yun",
+      "actor": "elder_yun",
+      "background": "sheltered_reach",
+      "effect": "none",
+      "text": "The cover is intact. I will draw its present closure on the custody sheet, with the Eel watching, before anyone handles the tab. My seal can record what we do today. It cannot restore an absent permission by pretending the keeper left one. The old directions named one owner and one safe return for each entrusted copy. We have not identified this owner yet. If the record gives us a possible name, we will ask that person separately. If it gives us nothing, the ring remains under its existing care rather than becoming nobody's property.",
+      "next": "ring_jin_arrives"
+    },
+    "ring_jin_arrives": {
+      "chapter": "book_vii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "north_landing",
+      "effect": "none",
+      "text": "Wei Jin brought the grain cart across and tied his ferry beside his daughter's stone. He had ginger tea in its familiar pot and a new patch along the gunwale. When Wei Xiu described the loose tab, he rubbed a thumb over the cloth around his tools. The movement stopped before it became an explanation. Lin Yue waited. A swallow skimmed the wake and landed on the ferry's awning. Wei Jin poured four cups, then put a fifth within the Eel's reach. He said he might recognize the workmanship, if they wanted his own account.",
+      "next": "ring_jin_offer"
+    },
+    "ring_jin_offer": {
+      "chapter": "book_vii",
+      "speaker": "wei_jin",
+      "actor": "wei_jin",
+      "background": "ferry_ticket_house",
+      "effect": "none",
+      "text": "I once worked under a charter which called me Jin of the Lower Reed. That was a public boat name. It was never the whole of my own name, and my daughter did not become a stranger when a clerk stopped copying it. I have an old permit and a tool wrapping from those seasons. You may examine them if I bring them out. I remember lending a particular repair to the keeper, and I may remember leaving something with her. Memory is a poor receipt after so many crossings. Please compare the offered marks before believing me.",
+      "next": "ring_daughter"
+    },
+    "ring_daughter": {
+      "chapter": "book_vii",
+      "speaker": "wei_xiu",
+      "actor": "wei_xiu",
+      "background": "ferry_ticket_house",
+      "effect": "none",
+      "text": "He told me that boat name when I was learning to carve letters. I did not know it had a connection to the keeper's work. Father, I can help with the ferry this afternoon, or stay out of your account if you prefer. Being your daughter gives me no right to hear a private copy. If the ring turns out to be yours, you can tell me as much or as little as you choose. The repaired crossing still needs its peg either way. We can keep that ordinary task separate from what you decide to remember.",
+      "next": "ring_question"
+    },
+    "ring_question": {
+      "chapter": "book_vii",
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "background": "ferry_ticket_house",
+      "effect": "none",
+      "text": "Then our question is narrower than the story I was beginning to imagine. We have an unnamed sealed deposit, an offered recollection, and papers which may or may not connect them. I will follow one inquiry this afternoon. The other teams can report their own work here before we compare anything. Nobody needs to cross a dangerous channel to deserve a hearing. Nobody needs to hear the echo to establish a custody claim. If the marks fail to agree, I want their disagreement left visible. A circle should not become a prophecy just because it fits a hand.",
+      "next": "ring_departures"
+    },
+    "ring_departures": {
+      "chapter": "book_vii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "high_bank_boathouse",
+      "effect": "none",
+      "text": "On the boathouse table, three small bundles waited. Wei Xiu set a dry bag beside the Eel's exterior custody sketch. An Ru laid out blank copying sheets for the offered archive extracts. Wei Jin rested his wrapped tools beside a worn permit cover; Su Lan offered one afternoon of help on his former approach. Shen Qing joined the archive team while Elder Yun stayed at the landing near the Eel's sheltered berth. They would return before the late ferry watch. Outside, wind tilted the reeds in separate directions. Lin Yue had time to walk one road.",
+      "next": "ring_investigation_choice"
+    },
+    "ring_investigation_choice": {
+      "chapter": "book_vii",
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "background": "high_bank_boathouse",
+      "effect": "none",
+      "text": "The three teams are ready, and the Eel will keep the ring at the sheltered landing. I can join Wei Xiu in the reed channel to examine the outer custody rack, help An Ru and Mei compare the volunteered charter papers, or accompany Wei Jin along his former ferry approach. Each inquiry must bring back its source and its limits. The others will speak for themselves when we meet again. I have packed enough food for one road. Choosing where to spend my strength also means trusting somebody else's work beyond my sight.",
+      "choices": [
+        {
+          "text": "Take the reed channel with Wei Xiu and the offered custody record.",
+          "next": "ring_marsh_entry",
+          "effects": {
+            "qi": 1
+          }
+        },
+        {
+          "text": "Compare the volunteered charter papers with An Ru.",
+          "next": "ring_archive_entry",
+          "effects": {
+            "insight": 1
+          }
+        },
+        {
+          "text": "Walk the former ferry approach with Wei Jin.",
+          "next": "ring_road_entry",
+          "effects": {
+            "trust": 1
+          }
+        }
+      ]
+    },
+    "ring_findings": {
+      "chapter": "book_vii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "high_bank_boathouse",
+      "effect": "none",
+      "text": "By the late ferry watch, all three teams had returned to the boathouse. Lin Yue set down the bundle from the road she had actually taken and washed her hands in its basin. Each other bundle stayed with its keeper until that account began. The Eel remained at the sheltered berth with the covered third ring; its offered report traveled on a separate sheet. Wei Jin's small receipt cover lay beside his old permit, still closed. A lamp trembled above the table. Outside, passengers argued cheerfully over whose sack of onions had occupied the driest bench.",
+      "next": "ring_shared_marsh_report"
+    },
+    "ring_limits": {
+      "chapter": "book_vii",
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "background": "high_bank_boathouse",
+      "effect": "none",
+      "text": "A permit identifies a ferry charter. A repair identifies a construction. A deposit token identifies an entry in a custody system. None of them alone lets us assign a person's private echo. Together they give us a reason to ask Wei Jin about his offered receipt, with the Eel present. We should first make room for a refusal. The grain crossing has been completed, the return fare is already paid, and the ordinary landing work continues. Nobody's food or passage will depend on agreeing that these papers tell one story.",
+      "next": "ring_private_request"
+    },
+    "ring_private_request": {
+      "chapter": "book_vii",
+      "speaker": "wei_jin",
+      "actor": "wei_jin",
+      "background": "archive_consent_room",
+      "effect": "none",
+      "text": "I offer the receipt for a custody comparison. An Ru and Lin Yue may read its deposit reference, permit reference, issue date, and return terms here. They may then take those offered fields to the Eel at its sheltered berth, if it agrees to the comparison. My daughter can join if she wishes; I have asked her. Please cover the copied moment's description before any public note. I will decide separately whether to describe it. Reading the receipt is not permission to open the ring, and recognizing me would not require a performance of my past.",
+      "next": "ring_cover_opened"
+    },
+    "ring_cover_opened": {
+      "chapter": "book_vii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_consent_room",
+      "effect": "none",
+      "text": "Wei Jin untied his own receipt cover. Inside, a narrow keeper's counterfoil had been folded around a plain reed sliver. He covered its lower lines with clean paper and pointed to the references he had offered. An Ru read R-3 and LR-6 aloud, then copied the issue date and return terms for the proposed exterior comparison. Wei Xiu sat beside the door. She had chosen to attend and had asked to hear no playback of the copied moment. Across the water, the bronze ring remained covered with the Eel at its sheltered berth.",
+      "next": "ring_counterfoil"
+    },
+    "ring_counterfoil": {
+      "chapter": "book_vii",
+      "speaker": "an_ru",
+      "actor": "an_ru",
+      "background": "archive_consent_room",
+      "effect": "none",
+      "text": "The counterfoil identifies R-3 as this holder's deposit and LR-6 as the permit reference. Its return clause gives no witness the right to listen. Its issue date belongs to the same spring as the outer repair entry; that correspondence alone cannot date the copied moment. The charter correction connects the former boat name to Wei Jin, who presents this receipt as his own. We have inspected the offered writing. I will take only its offered fields to the Eel if it agrees, leaving the private description covered and every neighboring record out.",
+      "next": "ring_eel_receipt_request"
+    },
+    "ring_eel_recognition": {
+      "chapter": "book_vii",
+      "speaker": "mooring_eel",
+      "actor": "mooring_eel",
+      "background": "sheltered_reach",
+      "effect": "none",
+      "text": "The receipt's deposit reference agrees with R-3 and its outer custody mark. I recognize the keeper's counterfoil arrangement. Its issue date agrees with the repair spring, without telling us when the copied moment occurred. Wei Jin, I accept your offered receipt with the charter correction and your own account. I can record you as the owner whose deposit has now been identified. The ring remains covered with me. Before any return, tell me whether you want the closed copy, whether you want a bounded custody term, or whether you decline return today.",
+      "next": "ring_what_echo_is"
+    },
+    "ring_what_echo_is": {
+      "chapter": "book_vii",
+      "speaker": "wei_jin",
+      "actor": "wei_jin",
+      "background": "sheltered_reach",
+      "effect": "none",
+      "text": "The copy is a ferry departure melody I practiced before my first winter crossing alone. I remember the melody myself; leaving a copy did not take it out of me. My teacher had died by then, and I wanted the keeper to hold the sound while I worked away from this bank. It is my own practice, not my teacher brought back into the world. I offer that description now. I do not offer a listening. For years I thought the return stair was a place I could always come back to.",
+      "next": "ring_xiu_answer"
+    },
+    "ring_xiu_answer": {
+      "chapter": "book_vii",
+      "speaker": "wei_xiu",
+      "actor": "wei_xiu",
+      "background": "sheltered_reach",
+      "effect": "none",
+      "text": "Then we have found a return request, not a missing piece of you. I am glad to know what you want us to know. I can help arrange a dry passage if you want the closed copy home. I can also help explain a refusal to someone who thinks family means an audience. You taught me the crossing rhythm when I was small; that does not give me a claim on this particular practice. We can mend the ferry peg tomorrow without repeating it. I would like ordinary time with you more than proof that you were once young.",
+      "next": "ring_qi_temptation"
+    },
+    "ring_qi_temptation": {
+      "chapter": "book_vii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "sheltered_reach",
+      "effect": "none",
+      "text": "Lin Yue rested her hands on the dry board beside the sheltered berth. Across the narrow gap, the Eel still held the covered ring. A faint vibration traveled through the water and wood; the pendant answered with a warmth she knew too well. For an instant she imagined one thread of qi recovering the whole departure: its water, its voice, a man's first winter. She put both hands behind her back. The warmth faded into the ordinary afternoon. She did not need to prove her strength against a closed thing. Wei Jin had already spoken clearly enough.",
+      "next": "ring_yun_lesson"
+    },
+    "ring_yun_lesson": {
+      "chapter": "book_vii",
+      "speaker": "elder_yun",
+      "actor": "elder_yun",
+      "background": "sheltered_reach",
+      "effect": "none",
+      "text": "A seal is sometimes a promise about what our strength will leave alone. You can sense a stored resonance without possessing it, Yue. Do not call the sensation a message addressed to you. The keeper's agreement names an owner; it names no cultivator entitled to finish her work by force. We have identified a claimant through offered outward records. That is useful work. The next useful work may be to carry a closed container over dry boards, or to let it remain where its keeper can care for it.",
+      "next": "ring_return_options"
+    },
+    "ring_return_options": {
+      "chapter": "book_vii",
+      "speaker": "mooring_eel",
+      "actor": "mooring_eel",
+      "background": "sheltered_reach",
+      "effect": "none",
+      "text": "I can release the covered ring to Wei Jin at the sheltered board, with a dry tray and someone he chooses to carry it. I can keep it under a new bounded custody agreement while he decides whether he wants it at home. I can also accept his refusal of return today and retain it under the existing protection, with a later appointment he may request. I offer these possibilities separately. None requires a listening. None makes the ring an ownerless object. Tell me the arrangement before the late watch changes.",
+      "next": "ring_jin_boundary"
+    },
+    "ring_jin_boundary": {
+      "chapter": "book_vii",
+      "speaker": "wei_jin",
+      "actor": "wei_jin",
+      "background": "sheltered_reach",
+      "effect": "none",
+      "text": "All three arrangements are acceptable to me under the limits we have just stated. I have asked Yue to help choose which practical arrangement we can support tonight. That is permission for this logistics decision, not permission to choose what I feel about the melody. If we arrange a return, I will receive the closed ring. If we arrange a dated custody term, I will sign that term. If we record no return today, I will leave it covered. I am still free to request a different lawful arrangement later.",
+      "next": "ring_resources"
+    },
+    "ring_resources": {
+      "chapter": "book_vii",
+      "speaker": "shen_qing",
+      "actor": "shen_qing",
+      "background": "high_bank_boathouse",
+      "effect": "none",
+      "text": "Our travel purse covers the already paid ferry fares, supper, and one dry carrying tray. We can spare the tray for a return. For new custody, Wei Jin has offered payment for the Eel's next three watches, with another decision before the third ends; the Eel has accepted that exact offer. If he chooses no return today, the existing agreement continues without an invented new payment or extra duty. I will put the purse away after recording what we actually use. There is no secret fourth plan financed by tomorrow's tea.",
+      "next": "ring_final_choice"
+    },
+    "ring_final_choice": {
+      "chapter": "book_vii",
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "background": "high_bank_boathouse",
+      "effect": "none",
+      "text": "Wei Jin has offered us a choice among three arrangements he accepts for tonight. The ring remains covered, his identity comparison is complete, and no listening is authorized. We can help him receive the closed copy through the sheltered landing, record a paid three-watch custody term with a review before it expires, or record that he declines return today while the existing protection continues. Each choice leaves his later decisions his own. The Eel has stated what it can do, and our purse has a finite bottom. Let us choose work we can finish.",
+      "choices": [
+        {
+          "text": "Help Wei Jin receive the covered ring at the sheltered landing.",
+          "next": "ring_return_proposal"
+        },
+        {
+          "text": "Record the agreed three-watch custody term and review.",
+          "next": "ring_custody_proposal"
+        },
+        {
+          "text": "Record no return today and retain the existing protection.",
+          "next": "ring_refusal_proposal"
+        }
+      ]
+    },
+    "ring_return_proposal": {
+      "chapter": "book_vii",
+      "speaker": "wei_jin",
+      "actor": "wei_jin",
+      "background": "sheltered_reach",
+      "effect": "none",
+      "text": "I will receive the covered ring here. Wei Xiu may carry the tray beside me, because I am asking her now and she has agreed. The Eel can keep hold until both our feet are on the dry board. If the board shifts or the ferry watch needs this space, we will wait rather than hurry a private return through someone else's work. I have not agreed to open the ring tonight. At home it will have a dry shelf and its intact cover. That is enough of a destination for this journey.",
+      "next": "ring_return_board"
+    },
+    "ring_return_board": {
+      "chapter": "book_vii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "sheltered_reach",
+      "effect": "none",
+      "text": "Wei Xiu tested the board with a weighted sack before setting the dry tray upon it. Shen Qing held the lamp beyond the working rope. The Mooring Eel waited while an ordinary ferry took two passengers out, then brought the covered ring to the board without crossing beneath their hull. Lin Yue steadied the tray with both hands. Its weight was smaller than the expectation she had carried. No melody rose from it, no forgotten teacher stood in the mist. Wei Jin stepped forward in the same wet boots he had worn all afternoon.",
+      "next": "ring_return_handoff"
+    },
+    "ring_return_handoff": {
+      "chapter": "book_vii",
+      "speaker": "mooring_eel",
+      "actor": "mooring_eel",
+      "background": "sheltered_reach",
+      "effect": "none",
+      "text": "The outer tab reads R-3. We have recorded the offered identity comparison and this closed handoff to Wei Jin. The seal is intact, and he has received the ring on the tray he requested. My custody of this particular copy ends with his acknowledged receipt. No other entrusted echo has changed owner or location through this act. I will retain the outer custody account without a listening or a copy of the private melody. Wei Jin, if you need help with later handling, you can ask for a new arrangement rather than inheriting an unspoken one.",
+      "next": "ring_return_shelf"
+    },
+    "ring_return_shelf": {
+      "chapter": "book_vii",
+      "speaker": "wei_xiu",
+      "actor": "wei_xiu",
+      "background": "high_bank_boathouse",
+      "effect": "none",
+      "text": "Father has chosen the upper shelf in his own room. It stays dry when the ferry pot boils, and I will move my spare rope before he places the tray there. I have asked whether he wants company for that ordinary carrying. He says yes. If he later wants privacy, I will leave. We can learn how a closed thing lives at home without treating it as a performance owed to us. Tomorrow I still need him to hold the new peg while I mark it. I hope he brings the ginger pot.",
+      "next": "ring_return_evening"
+    },
+    "ring_return_evening": {
+      "chapter": "book_vii",
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "background": "north_landing",
+      "effect": "none",
+      "text": "I had imagined a return would end with an opened circle. Instead I carried a lamp while a ferryman and his daughter took a covered tray up the bank. It was difficult, briefly, to keep my qi still. The pendant warmed when we passed the old boundary stone, then cooled against my chest. I thought of the court sheet, the orchard's waiting beds, the city's unanswered prices. A completed task could sit among unfinished ones without swallowing them. I put the lamp away and paid for supper with the coins we had actually kept.",
+      "next": "ending_ring_return"
+    },
+    "ending_ring_return": {
+      "chapter": "book_vii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "north_landing",
+      "effect": "none",
+      "text": "At dawn, Wei Jin held the ferry peg while his daughter marked its new seat. The covered ring rested on the dry shelf he had chosen. He had given nobody a listening, and the melody remained his to approach or leave quiet. Lin Yue ate ginger rice beside the crossing stone before taking the north road. Behind her, a boat pushed out under a familiar mortal name. The crossing needed hands, rope, and another patch of lacquer. Finding the circle's owner had brought one closed thing home; it had also returned the afternoon to people still living.",
+      "ending": "The Circle Comes Home"
+    },
+    "ring_custody_proposal": {
+      "chapter": "book_vii",
+      "speaker": "wei_jin",
+      "actor": "wei_jin",
+      "background": "sheltered_reach",
+      "effect": "none",
+      "text": "I want time before bringing the copy into my room. I accept the Eel's offer of three paid watches, with a review before the third ends. Here is the agreed payment from my own ferry earnings. It buys that bounded work, not another spirit's affection or an indefinite promise. I will keep the receipt and ask at the landing before the review watch begins. The ring stays covered. If I cannot attend, the receiving message must ask for a new decision; it must not quietly extend the paid work by assuming I meant forever.",
+      "next": "ring_custody_terms"
+    },
+    "ring_custody_terms": {
+      "chapter": "book_vii",
+      "speaker": "mooring_eel",
+      "actor": "mooring_eel",
+      "background": "sheltered_reach",
+      "effect": "none",
+      "text": "I accept the three watches and this stated payment. The ring remains in my sheltered custody, under the existing closed cover. The review will occur before the third watch ends. If the meeting fails, I will preserve the copy under its protection while reporting that the new term has not been extended; any further paid service needs another agreement. Protection is not a threat I will use to collect an answer. Write the practical receiving place beside the time. A named owner who needs time is still an owner.",
+      "next": "ring_custody_copy"
+    },
+    "ring_custody_copy": {
+      "chapter": "book_vii",
+      "speaker": "an_ru",
+      "actor": "an_ru",
+      "background": "archive_copy_room",
+      "effect": "none",
+      "text": "These copies record the paid term, the covered condition, and the review before the third watch ends. Wei Jin keeps one; the Eel keeps one at the dry rack. The archive holds only the limited custody comparison offered today, excluding the melody's description from its public index. I will return his original counterfoil in its own cover. The public charter correction does not need to become a public echo catalogue. Someone searching the record will find a lawful claimant and a receiving place, rather than a promise that private life can be read through a number.",
+      "next": "ring_custody_night"
+    },
+    "ring_custody_night": {
+      "chapter": "book_vii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "sheltered_reach",
+      "effect": "none",
+      "text": "Wei Jin left the covered ring with the Eel and took his receipt home. Lin Yue stayed near the berth through the ordinary landing watch change because she had offered that brief help, not because the new payment recruited her. She checked that the Eel's agreed three-watch term and review time were written on its dry-rack copy. Reeds clicked against the bank. Beneath the surface, the Eel turned toward its resting place. A circle of faint light moved with it, then vanished under the shelf. The copy had not become a road Lin Yue was required to follow.",
+      "next": "ring_custody_review_note"
+    },
+    "ring_custody_review_note": {
+      "chapter": "book_vii",
+      "speaker": "wei_xiu",
+      "actor": "wei_xiu",
+      "background": "ferry_ticket_house",
+      "effect": "none",
+      "text": "I have put Father's review time beside the ferry's work notice, with his agreement. It names a meeting, not a demand that he hear anything. I can carry a message if the grain cart delays him, and I will say exactly what he asks me to say. The permit LR-6 is back in his own cover; the new ferry peg is ready for tomorrow. These small arrangements make room for a decision without making the decision for him. I will be here for the ordinary crossing whichever answer he brings to the Eel.",
+      "next": "ending_ring_custody"
+    },
+    "ending_ring_custody": {
+      "chapter": "book_vii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "north_landing",
+      "effect": "none",
+      "text": "The next ferry watch began with a repaired peg and a written review time. The Eel kept the covered ring for the agreed work; Wei Jin kept his original receipt and the freedom to reconsider its return. Lin Yue left the landing after checking that the message route was usable. She had not heard the stored practice and carried no copy of it into the hills. Behind her, the ferry's ginger pot steamed in the morning air. A pause had acquired a place, a cost, and an end to review, while the person within it kept his own pace.",
+      "ending": "A Pause with a Receiving Place"
+    },
+    "ring_refusal_proposal": {
+      "chapter": "book_vii",
+      "speaker": "wei_jin",
+      "actor": "wei_jin",
+      "background": "sheltered_reach",
+      "effect": "none",
+      "text": "Please record that I decline return today. Knowing which deposit is mine does not mean I am ready to give it a shelf at home. I want no new paid custody term tonight. The Eel has offered to continue the existing protection, and I understand that later practical work must still be discussed. I am not abandoning the copy or transferring it to a collector. I am choosing no handoff now. Keep the receiving place on my receipt so I can request another meeting when I have an answer worth bringing.",
+      "next": "ring_refusal_record"
+    },
+    "ring_refusal_record": {
+      "chapter": "book_vii",
+      "speaker": "mooring_eel",
+      "actor": "mooring_eel",
+      "background": "sheltered_reach",
+      "effect": "none",
+      "text": "The identified owner declines today's return. The covered ring remains protected under its existing agreement, and there is no new listening, handoff, paid term, or gift to a third party. I accept that record. I can report an urgent change in the safe place through the ordinary landing message route; such a report would ask for a practical decision, not declare his refusal invalid. Wei Jin can request a new meeting. I will not call his private copy unclaimed merely because the first offered return has ended without a transfer.",
+      "next": "ring_refusal_public_note"
+    },
+    "ring_refusal_public_note": {
+      "chapter": "book_vii",
+      "speaker": "an_ru",
+      "actor": "an_ru",
+      "background": "archive_consent_room",
+      "effect": "none",
+      "text": "The limited public record says the custody claimant has been identified and no return occurred today. It contains no account of the private melody. His offered counterfoil goes back into his cover, and the charter extract goes back to its own keeper. We can close this afternoon's comparison while leaving a lawful future request possible. I will remove the draft line which said the ring had nobody. It now has an identified owner who has declined a particular action. That is a complete answer to the offered handoff, even if it leaves us curious.",
+      "next": "ring_refusal_daughter"
+    },
+    "ring_refusal_daughter": {
+      "chapter": "book_vii",
+      "speaker": "wei_xiu",
+      "actor": "wei_xiu",
+      "background": "ferry_ticket_house",
+      "effect": "none",
+      "text": "Father, you can come to supper without bringing it. I have set another cup beside the stove and saved the dry bench. We will not ask you to sing the old practice or tell us why you declined the ring. If you want to talk about the road, I will listen; if you want to complain about the ferry peg, I have plenty to say myself. The crossing stone bears our living household's name. That ordinary fact is enough for tonight. I am glad you came back with your own papers in your own hands.",
+      "next": "ring_refusal_supper"
+    },
+    "ring_refusal_supper": {
+      "chapter": "book_vii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "high_bank_boathouse",
+      "effect": "none",
+      "text": "They ate beside the stove while the evening ferry knocked softly against its ropes. Wei Jin complained that the new peg was too handsome to survive the winter. His daughter told him handsome work could still be strong. Shen Qing laughed, and the discussion moved to the grain cart's lopsided wheel. Lin Yue felt the pendant warm once, then settle. Beyond the door, the Eel took the covered ring toward its sheltered resting place. Nobody followed it with a lantern. The supper had not become a reward for producing a better story.",
+      "next": "ending_ring_refusal"
+    },
+    "ending_ring_refusal": {
+      "chapter": "book_vii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "north_landing",
+      "effect": "none",
+      "text": "At morning's crossing, Wei Jin used his living name to greet two passengers and charged them the ordinary fare. His identified copy remained closed with the Eel, protected through the existing arrangement. The receiving place was written on the receipt he had taken home. Lin Yue departed without a melody, a new artifact, or a private explanation she had earned by helping. She carried the smell of ginger and the ache of work in her hands. Behind her, the ferry moved into the reeds. A refusal had left a person's life larger than the mystery around it.",
+      "ending": "The Crossing in a Living Name"
+    },
+    "ring_shared_marsh_report": {
+      "chapter": "book_vii",
+      "speaker": "wei_xiu",
+      "actor": "wei_xiu",
+      "background": "high_bank_boathouse",
+      "effect": "none",
+      "text": "The outer rack yielded the offered maintenance sleeve. Its repair entry belongs to deposit token R-3. The bronze ring's reed-cloth retaining loop has two short stitches across one long reverse fold, matching the entry we could read. The inner cover and seal stayed untouched. That construction may belong to more than one worker; it does not name a person. A damaged sentence remains incomplete. The original sleeve has returned to the Eel's control. We have brought the permitted extracts, the handling accounts, and a careful drawing from two brief exterior views.",
+      "next": "ring_shared_archive_report"
+    },
+    "ring_shared_archive_report": {
+      "chapter": "book_vii",
+      "speaker": "an_ru",
+      "actor": "an_ru",
+      "background": "high_bank_boathouse",
+      "effect": "none",
+      "text": "The volunteered extracts connect permit LR-6 and the former public boat name Jin of the Lower Reed to living Wei Jin. A repair account supports the permit link. The public occupancy correction remains a correction to records, not a replacement for his own identity. I did not inspect the ring or hear an echo. These papers establish which boat the account describes; they cannot establish who deposited a private copy with the keeper. Mei checked the offered copying against its source. We have kept the portions about neighboring households out of this table's record.",
+      "next": "ring_shared_road_report"
+    },
+    "ring_shared_road_report": {
+      "chapter": "book_vii",
+      "speaker": "wei_jin",
+      "actor": "wei_jin",
+      "background": "high_bank_boathouse",
+      "effect": "none",
+      "text": "I brought my worn permit LR-6 and the tool wrapping you were allowed to examine. The wrapping uses the repair I remember lending to the keeper: two short stitches across one long reverse fold. I also brought my own closed receipt cover. Its outside is marked R-3. I remember putting a copy with her, but I will not ask you to treat my recollection or a common stitch as proof. If the other marks agree, I can offer the paper inside this cover separately. The ring itself can stay closed while we make that comparison.",
+      "next": "ring_limits"
+    },
+    "ring_eel_receipt_request": {
+      "chapter": "book_vii",
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "background": "sheltered_reach",
+      "effect": "none",
+      "text": "We have compared the three reports and read the fields Wei Jin offered from his own receipt. The original maintenance sleeve remains under your control. May we bring his offered counterfoil fields to this sheltered board for comparison with your exterior custody mark? He permits that use and has come himself. We ask for no listening or new handling of the ring. If you need a rest or decline this additional comparison, the afternoon's findings can wait. The grain ferry is clear of the berth, and nobody has reserved your attendance in a dry room.",
+      "next": "ring_eel_comparison_terms"
+    },
+    "ring_eel_comparison_terms": {
+      "chapter": "book_vii",
+      "speaker": "mooring_eel",
+      "actor": "mooring_eel",
+      "background": "sheltered_reach",
+      "effect": "none",
+      "text": "I agree to one comparison of those offered receipt fields here. Place the paper above the splash mark and keep the lamp back as before. Wei Jin can point to the return clause himself. I will compare the deposit token and my outer custody mark, not search the echo for another proof. The ring stays with me and its cover stays intact. If the fields disagree, I will say so without changing the claimant by guesswork. Your new question gives me room to answer it; the earlier exterior viewing did not owe you this extra work.",
+      "next": "ring_eel_recognition"
+    }
+  }
+}
