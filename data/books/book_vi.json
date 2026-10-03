@@ -539,21 +539,21 @@
           "text": "Follow the witnesses and make room for their finite days.",
           "next": "court_witness_entry",
           "effects": {
-            "trust": 1
+            "insight": 1
           }
         },
         {
           "text": "Examine the rain records, gauges, and clocks.",
           "next": "court_rain_entry",
           "effects": {
-            "qi": 1
+            "insight": 1
           }
         },
         {
           "text": "Trace access costs and the remaining assistance fund.",
           "next": "court_cost_entry",
           "effects": {
-            "resolve": 1
+            "insight": 1
           }
         },
         {
@@ -887,7 +887,7 @@
       "actor": "rain_heron",
       "background": "rain_court_hearing_hall",
       "effect": "none",
-      "text": "A station may help the next bulletin if it uses an agreed safe place and paid observers. It will not show the bench the past hidden inside today's rain. The proposed observer shifts must be separate from the lift keeper's ordinary safety duty, and no one may assume my attendance payment buys further work. I can discuss the copied log under its terms. Another observation requires another offer. Lin Yue's light could demonstrate a signal between sheltered posts. The later shifts must remain workable when she leaves, without a request that the sky obey the station's budget.",
+      "text": "A station can improve a future bulletin from a safe place with paid observers. It cannot reveal the past inside today's rain. Extra shifts remain separate from the lift keeper's ordinary duty and from my offered account. Lin Yue can demonstrate a grounded reference wick within her measured allowance. We must repeat the signal with a shuttered lantern before adopting it. Later observers inherit that ordinary method, not her continued attendance. Name the stopping conditions and missing views beside the price.",
       "next": "court_local_offer",
       "cultivation": {
         "realm": "qi_gathering",
@@ -1033,12 +1033,8 @@
         {
           "text": "Bring two separately agreed testimony sessions to the lower landing.",
           "next": "court_local_proposal",
-          "requires": {
-            "trust": 4
-          },
           "effects": {
-            "trust": 1,
-            "resolve": 1
+            "insight": 2
           }
         },
         {
@@ -1048,15 +1044,14 @@
             "insight": 4
           },
           "effects": {
-            "insight": 1,
-            "trust": 1
+            "insight": 2
           }
         },
         {
           "text": "Issue a dated limited remand for one independent reinspection.",
           "next": "court_remand_proposal",
           "effects": {
-            "resolve": 2
+            "trust": 2
           }
         }
       ],
@@ -1097,7 +1092,7 @@
       "actor": "lin_yue",
       "background": "rain_court_terrace",
       "effect": "none",
-      "text": "Lin Yue raised a thin green light above the inner measuring square. Shen could see it from the sheltered post without approaching the exposed spur. The observer timed the response, then repeated the exercise with an ordinary shuttered lantern. The second method was slower and still usable. They recorded both methods rather than preserving only the impressive one. The hired instrument's mount received its present check; no result was copied backward onto the accident date. Before Lin lowered the light, the observer asked her to repeat the ordinary signal. That was the one the station would actually inherit.",
+      "text": "Lin Yue fastened the grounded reference wick above the inner measuring square, with its lead clear of the gauge. She delivered one quarter-unit through the first arm pair and discharged. Shen timed the visible response from shelter. They repeated it with an ordinary shuttered lantern at the same height. The slower method remained usable without a cultivator. The instrument mount received its present check; neither signal reconstructed the accident. The observer kept the wick position on his drawing and the ordinary lantern for the station's later shifts.",
       "next": "court_weather_shift",
       "cultivation": {
         "realm": "qi_gathering",
@@ -1608,7 +1603,7 @@
           "text": "Test rotating appointments around work.",
           "next": "court_witness_a1_rotating_1",
           "effects": {
-            "trust": 1
+            "insight": 1
           }
         }
       ],
@@ -1889,7 +1884,7 @@
           "text": "Check the lower-gate shelter.",
           "next": "court_witness_a2_shelter_1",
           "effects": {
-            "trust": 1
+            "insight": 1
           }
         },
         {
@@ -2472,7 +2467,7 @@
           "text": "Compare Bai’s written duty clauses.",
           "next": "court_witness_a4_remit_1",
           "effects": {
-            "resolve": 1
+            "insight": 1
           }
         }
       ],
@@ -3041,7 +3036,7 @@
           "text": "Follow Su E’s bell and oven sequence.",
           "next": "court_witness_a6_baker_1",
           "effects": {
-            "trust": 1
+            "insight": 1
           }
         },
         {
@@ -3617,14 +3612,14 @@
           "text": "Lead with firsthand sources and their limits.",
           "next": "court_witness_a8_sources_1",
           "effects": {
-            "resolve": 1
+            "insight": 1
           }
         },
         {
           "text": "Lead with delivered access and remaining costs.",
           "next": "court_witness_a8_access_1",
           "effects": {
-            "resolve": 2
+            "insight": 2
           }
         }
       ],
@@ -4124,19 +4119,14 @@
           "text": "Ask for a bounded assist during the paid instrument check.",
           "next": "court_rain_assistant_request",
           "effects": {
-            "trust": 1,
-            "insight": 1
-          },
-          "requires": {
-            "trust": 4
+            "insight": 2
           }
         },
         {
           "text": "Use steady daylight and record the delay.",
           "next": "court_rain_manual_light",
           "effects": {
-            "resolve": 1,
-            "insight": 1
+            "insight": 2
           }
         }
       ],
@@ -4545,19 +4535,14 @@
           "text": "Use the willing second keeper during the bounded check.",
           "next": "court_rain_second_keeper",
           "effects": {
-            "trust": 1,
-            "insight": 1
-          },
-          "requires": {
-            "trust": 4
+            "insight": 2
           }
         },
         {
           "text": "Use plain boards and preserve missed comparisons.",
           "next": "court_rain_board_signal",
           "effects": {
-            "resolve": 1,
-            "insight": 1
+            "insight": 2
           }
         }
       ],
@@ -4875,19 +4860,14 @@
           "text": "Invite a permitted independent reader for the scheduled interval.",
           "next": "court_rain_trace_reader",
           "effects": {
-            "trust": 1,
-            "insight": 1
-          },
-          "requires": {
-            "trust": 4
+            "insight": 2
           }
         },
         {
           "text": "Make two ordinary ruled sketches without consuming the sample.",
           "next": "court_rain_trace_drawing",
           "effects": {
-            "resolve": 1,
-            "insight": 1
+            "insight": 2
           }
         }
       ],
@@ -5256,19 +5236,14 @@
           "text": "Read the complete passages with the Heron's bounded agreement.",
           "next": "court_rain_readback_statement",
           "effects": {
-            "trust": 1,
-            "insight": 1
-          },
-          "requires": {
-            "trust": 4
+            "insight": 2
           }
         },
         {
           "text": "Prepare a plain paired copy for the authorized source check.",
           "next": "court_rain_paired_copy",
           "effects": {
-            "resolve": 1,
-            "insight": 1
+            "insight": 2
           }
         }
       ],
@@ -5528,7 +5503,7 @@
       "chapter": "book_vi",
       "speaker": "shen_qing",
       "actor": "shen_qing",
-      "text": "The ordinary gauge is working after its level check, Shen Qing said. We can compare its current collection with the offered local reports, but there will still be a delay in learning what happens upstream. We could improve the safe reading screen with a small qi lamp, or ask the willing station keeper to confirm the next ordinary interval from his protected post. We can also wait for the usual gauge interval and send only the bounded result. Whatever we choose, a clearer local reading must remain local when it enters the forecast.",
+      "text": "The leveled gauge now works, Shen Qing said. Its present collection can be compared with offered local accounts; upstream news still takes time. One measured discharge into Yue's grounded reference wick can light a safe reading. The keeper can also confirm his scheduled interval, if he agrees, or we can wait and report the delay. None alters rainfall. Keep the wick away from the bottle and preserve its starting allowance. A clearer local mark remains local when the forecaster copies it.",
       "background": "rain_court_terrace",
       "effect": "rain",
       "next": "court_rain_forecast_choice",
@@ -5560,19 +5535,14 @@
           "text": "Request the keeper's bounded ordinary comparison.",
           "next": "court_rain_forecast_keeper",
           "effects": {
-            "trust": 1,
-            "insight": 1
-          },
-          "requires": {
-            "trust": 4
+            "insight": 2
           }
         },
         {
           "text": "Use the scheduled gauge interval and retain the delay.",
           "next": "court_rain_forecast_schedule",
           "effects": {
-            "resolve": 1,
-            "insight": 1
+            "insight": 2
           }
         }
       ],
@@ -5585,7 +5555,7 @@
       "chapter": "book_vi",
       "speaker": "narrator",
       "actor": "lin_yue",
-      "text": "Lin Yue held a low light beside the gauge scale while Zhong Rui read its ordinary interval. She watched the roof edge as carefully as the etched marks, ensuring that her hand stayed inside the covered line. The light shortened their reading delay but did not increase the gauge's collection or calm the gust. Zhong Rui confirmed the level and entered the method. Luo Shan noted the nearby current observation separately from the older controlled pour. The corrected instrument was now gathering actual local rain, whose direction and rate differed from the deliberate stream used in the test.",
+      "text": "Zhong Rui set the grounded reference wick beside the safe scale. Lin Yue checked its blank, delivered one quarter-unit through her first arm pair and closed admission. The light lasted only the scheduled reading. Her hand and the wick stayed inside the covered line, clear of the water. Zhong confirmed the level before she discharged. Luo recorded the dose, present interval and earlier controlled pour separately. Local rain had filled the gauge; a visitor's light had only made its divisions readable.",
       "background": "rain_court_terrace",
       "effect": "rain",
       "next": "court_rain_forecast_rejoin",
@@ -5720,19 +5690,14 @@
           "text": "Read the authorized notice with willing local posting keepers.",
           "next": "court_rain_notice_readers",
           "effects": {
-            "trust": 1,
-            "insight": 1
-          },
-          "requires": {
-            "trust": 4
+            "insight": 2
           }
         },
         {
           "text": "Send the complete notice through its ordinary route.",
           "next": "court_rain_notice_ordinary",
           "effects": {
-            "resolve": 1,
-            "insight": 1
+            "insight": 2
           }
         }
       ],
@@ -5932,19 +5897,14 @@
           "text": "Read back the findings with willing source keepers.",
           "next": "court_rain_source_readback",
           "effects": {
-            "trust": 1,
-            "insight": 1
-          },
-          "requires": {
-            "trust": 4
+            "insight": 2
           }
         },
         {
           "text": "Check receipts, source labels, and copy permissions in order.",
           "next": "court_rain_receipt_check",
           "effects": {
-            "resolve": 1,
-            "insight": 1
+            "insight": 2
           }
         }
       ],
@@ -6414,14 +6374,14 @@
           "text": "Compare the copying notices.",
           "next": "court_cost_begin_notices",
           "effects": {
-            "trust": 1
+            "insight": 1
           }
         },
         {
           "text": "Check authority over the reserve.",
           "next": "court_cost_begin_authority",
           "effects": {
-            "resolve": 1
+            "insight": 1
           }
         }
       ],
@@ -6618,14 +6578,14 @@
           "text": "Observe the empty-chair transfer.",
           "next": "court_cost_cradle_check",
           "effects": {
-            "trust": 1
+            "insight": 1
           }
         },
         {
           "text": "Revise the appointment timetable.",
           "next": "court_cost_time_check",
           "effects": {
-            "resolve": 1
+            "insight": 1
           }
         }
       ],
@@ -6900,14 +6860,14 @@
           "text": "Check the annex correction history.",
           "next": "court_cost_copy_annex",
           "effects": {
-            "trust": 1
+            "insight": 1
           }
         },
         {
           "text": "Review the outgoing notices.",
           "next": "court_cost_copy_notices",
           "effects": {
-            "resolve": 1
+            "insight": 1
           }
         }
       ],
@@ -7182,14 +7142,14 @@
           "text": "Check the shelf and return calendar.",
           "next": "court_cost_shelf_check",
           "effects": {
-            "trust": 1
+            "insight": 1
           }
         },
         {
           "text": "Review completed key entries.",
           "next": "court_cost_key_check",
           "effects": {
-            "resolve": 1
+            "insight": 1
           }
         }
       ],
@@ -7490,14 +7450,14 @@
           "text": "Review bounded invitation terms.",
           "next": "court_cost_time_form",
           "effects": {
-            "trust": 1
+            "insight": 1
           }
         },
         {
           "text": "Ask about an interrupted appointment.",
           "next": "court_cost_time_interruption",
           "effects": {
-            "resolve": 1
+            "insight": 1
           }
         }
       ],
@@ -7707,14 +7667,14 @@
           "text": "Review the access-only clinician note.",
           "next": "court_cost_private_clinician",
           "effects": {
-            "trust": 1
+            "insight": 1
           }
         },
         {
           "text": "Distinguish yard work from court attendance.",
           "next": "court_cost_private_yard",
           "effects": {
-            "resolve": 1
+            "insight": 1
           }
         }
       ],
@@ -8041,14 +8001,14 @@
           "text": "Review correction and stopping terms.",
           "next": "court_cost_local_readback",
           "effects": {
-            "trust": 1
+            "insight": 1
           }
         },
         {
           "text": "Check the messenger's limited task.",
           "next": "court_cost_local_messenger",
           "effects": {
-            "resolve": 1
+            "insight": 1
           }
         }
       ],
@@ -8284,14 +8244,14 @@
           "text": "Explain optional local sessions first.",
           "next": "court_cost_emphasize_local",
           "effects": {
-            "trust": 1
+            "insight": 1
           }
         },
         {
           "text": "Explain staged source checking first.",
           "next": "court_cost_emphasize_docket",
           "effects": {
-            "resolve": 1
+            "insight": 1
           }
         }
       ],
@@ -8553,7 +8513,7 @@
           "text": "Open with the storage calendar gap.",
           "next": "court_cost_report_gap",
           "effects": {
-            "trust": 1
+            "insight": 1
           }
         }
       ],
@@ -8776,10 +8736,7 @@
           "text": "Ask Cai about the visits",
           "next": "court_docket_assistant_path",
           "effects": {
-            "trust": 1
-          },
-          "requires": {
-            "trust": 2
+            "insight": 1
           }
         },
         {
@@ -9064,20 +9021,17 @@
           "text": "Ask the annex writer",
           "next": "court_docket_writer_path",
           "effects": {
-            "trust": 1
-          },
-          "requires": {
-            "trust": 2
+            "insight": 1
           }
         },
         {
           "text": "Trace the index stamp",
           "next": "court_docket_index_path",
           "effects": {
-            "resolve": 1
+            "insight": 1
           },
           "requires": {
-            "resolve": 3
+            "insight": 3
           }
         }
       ],
@@ -9365,20 +9319,17 @@
           "text": "Check the completeness requirement",
           "next": "court_docket_complete_path",
           "effects": {
-            "trust": 1
-          },
-          "requires": {
-            "trust": 2
+            "insight": 1
           }
         },
         {
           "text": "Test an invitation against a shift",
           "next": "court_docket_invitation_path",
           "effects": {
-            "resolve": 1
+            "insight": 1
           },
           "requires": {
-            "resolve": 3
+            "insight": 3
           }
         }
       ],
@@ -9666,20 +9617,17 @@
           "text": "Trace the maintenance signature",
           "next": "court_docket_signer_path",
           "effects": {
-            "trust": 1
-          },
-          "requires": {
-            "trust": 2
+            "insight": 1
           }
         },
         {
           "text": "Map the ordinary inspection view",
           "next": "court_docket_view_path",
           "effects": {
-            "resolve": 1
+            "insight": 1
           },
           "requires": {
-            "resolve": 3
+            "insight": 3
           }
         }
       ],
@@ -9967,20 +9915,17 @@
           "text": "Check the offered source limits",
           "next": "court_docket_keepers_path",
           "effects": {
-            "trust": 1
-          },
-          "requires": {
-            "trust": 2
+            "insight": 1
           }
         },
         {
           "text": "Test record and witness counts",
           "next": "court_docket_reader_path",
           "effects": {
-            "resolve": 1
+            "insight": 1
           },
           "requires": {
-            "resolve": 3
+            "insight": 3
           }
         }
       ],
@@ -10268,20 +10213,17 @@
           "text": "Examine the judge's recorded check",
           "next": "court_docket_judge_path",
           "effects": {
-            "trust": 1
-          },
-          "requires": {
-            "trust": 2
+            "insight": 1
           }
         },
         {
           "text": "Test the review handoff",
           "next": "court_docket_handoff_path",
           "effects": {
-            "resolve": 1
+            "insight": 1
           },
           "requires": {
-            "resolve": 3
+            "insight": 3
           }
         }
       ],
@@ -10569,20 +10511,17 @@
           "text": "Test the applicant's reply route",
           "next": "court_docket_applicant_rehearsal",
           "effects": {
-            "trust": 1
-          },
-          "requires": {
-            "trust": 2
+            "insight": 1
           }
         },
         {
           "text": "Read the proposed remand questions",
           "next": "court_docket_remand_rehearsal",
           "effects": {
-            "resolve": 1
+            "insight": 1
           },
           "requires": {
-            "resolve": 3
+            "insight": 3
           }
         }
       ],
@@ -10870,20 +10809,17 @@
           "text": "Check permission and storage routes",
           "next": "court_docket_permission_final",
           "effects": {
-            "trust": 1
-          },
-          "requires": {
-            "trust": 2
+            "insight": 1
           }
         },
         {
           "text": "Read the plain page for promises",
           "next": "court_docket_language_final",
           "effects": {
-            "resolve": 1
+            "insight": 1
           },
           "requires": {
-            "resolve": 3
+            "insight": 3
           }
         }
       ],

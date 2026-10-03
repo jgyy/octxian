@@ -201,9 +201,9 @@ func _run() -> void:
 	game.state.current = "orchard_resolution_choice"
 	game._scene()
 	game.dialogue.visible_characters = -1
-	var resolve_before: int = game.state.stats.resolve
+	var heart_before: int = game.state.stats.trust
 	game._choose(3)
-	check(game.state.current == "orchard_pause" and game.state.stats.resolve == resolve_before + 2, "Book IV must retain an available settlement and apply its attribute effects")
+	check(game.state.current == "orchard_pause" and game.state.stats.trust == heart_before + 2, "Book IV must retain an available settlement and apply its attribute effects")
 	game.state.history.append({"speaker": "narrator", "text": "[b]literal[/b]"})
 	game._journal()
 	var logs: Array[Node] = game.popup.find_children("*", "RichTextLabel", true, false)
@@ -285,7 +285,7 @@ func _test_attribute_ui(game) -> void:
 	check(game.state.current == "trust" and game.state.stats.qi == 1 and game.state.stats.trust == 2, "Closing attributes must restore choice interaction")
 	check(game.status_label.text.contains("Qi Control +1") and game.status_label.text.contains("Dao Heart +2"), "Choice gains must appear on the resulting scene")
 	var totals: Label = game.ui.find_child("AttributeTotals", true, false)
-	check(totals != null and totals.text.contains("QI 01") and totals.text.contains("TRUST 02"), "Scene totals must refresh after gaining attributes")
+	check(totals != null and totals.text.contains("CONTROL 01") and totals.text.contains("DAO HEART 02"), "Scene totals must refresh after gaining attributes")
 	game._unhandled_key_input(shortcut)
 	_check_attribute_panel(game)
 	game._close_popup()
@@ -371,7 +371,7 @@ func _test_city_ui(game) -> void:
 	game._scene()
 	game._advance()
 	await process_frame
-	for index in range(3):
+	for index in range(2):
 		var blocked: Button = game.choice_box.find_child("Choice_" + str(index), true, false)
 		var summary: Label = game.choice_box.find_child("ChoiceDetails_" + str(index), true, false)
 		check(blocked != null and blocked.disabled, "Untrained city settlement choices must remain locked")
@@ -469,7 +469,7 @@ func _test_court_ui(game) -> void:
 	game._choose(0)
 	check(game.state.current == "court_final_choice" and game.state.stats == before_stats and game.state.history == before_history, "A locked court UI remedy must preserve the journey")
 	game._choose(3)
-	check(game.state.current == "court_remand_proposal" and game.state.stats.resolve == 2, "The ungated court remedy must advance through the UI and apply Resolve")
+	check(game.state.current == "court_remand_proposal" and game.state.stats.trust == 2, "The ungated court remedy must advance through the UI and apply Dao Heart")
 
 func _court_world_size(game, id: String) -> Vector2:
 	for group in ["backgrounds", "npcs", "monsters"]:

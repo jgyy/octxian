@@ -989,7 +989,7 @@ func _smoke_build() -> void:
 	_scene()
 	dialogue.visible_characters = -1
 	_choose(3)
-	valid = valid and state.current == "court_remand_proposal" and state.stats.resolve == 2
+	valid = valid and state.current == "court_remand_proposal" and state.stats.trust == 2
 	state.stats = retained_stats
 	_interiors()
 	_interior_selected(_interior_entries().size() - 1)
