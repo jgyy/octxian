@@ -35,3 +35,8 @@ The workshop prompt requested settling pools, copper calibration blanks, finite 
 ## Ash Bridge Foundry · ash-bridge expansion
 
 `assets/art/world/ash_bridge_foundry.png` is an original native 1536×1024 PNG master. The prompt requested late-spring sandstone cliffs, ordinary craft architecture, ceramic furnaces, physical fuel shutters and a clear portrait area, without a floating mountain. The retained output is not enlarged. Display scaling preserves its proportions. This independent generation is not a recolor or pose variant. 
+
+
+## Su Yan · ash-bridge expansion
+
+`assets/art/world/su_yan.png` is an original native 1024×1536 PNG master with RGBA transparency. The prompt specified an independent fifty-seven-year-old woman with a jaw burn scar, iron-grey braided hair, an ash-grey robe, saffron work apron, teal gloves, ceramic slate and copper stylus, on a full transparent portrait canvas. The retained output is not enlarged. Display scaling preserves its proportions. This independent generation is not a recolor or pose variant. 
