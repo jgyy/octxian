@@ -27,12 +27,22 @@ If your Godot executable is named `godot4`, replace `godot` with `godot4` in bot
 
 - **Enter / Space:** finish the current line, then advance.
 - **1–4:** select an available choice.
-- **S:** save. **L:** open the dialogue journal. **Esc:** close a panel or open settings.
+- **S:** save. **L:** open the dialogue journal. **C:** open attributes. **Esc:** close a panel or open settings.
 - The interface provides save/load, auto reading, fast text, an animated wardrobe gallery, audio levels, and reduced motion.
 
 The playable script contains **196 scenes and 10,274 authored words** across three books, with cultivation stats and gated choices. Book I has three endings; each continues into Book II, which has three investigations and four settlements. Every settlement continues into Book III, with three river routes, six settlement approaches, and three endings.
 
 This draft expansion currently adds **five original-scope backgrounds, 30 extra building-interior backgrounds, four human NPC sprites, two spirit-beast sprites, and two inspectable item paintings** at their native generated sizes. The original 100-background quota, 100 NPCs, 100 monsters and more than one million words remain unfinished. The separate extra 100-interior quota has 30 delivered paintings. Run `python tools/validate_world.py --require-complete` to check all quotas. CI writes exact delivery counts to `build/content_report.json`.
+
+## Character attributes
+
+Open **Attributes** in the top navigation, or press **C**, to inspect Lin Yue's **Qi, Trust, Insight, and Resolve**. Each attribute has a description, a growth hint, a rank, and progress toward its next rank. Choices show their point changes before selection, and locked choices show your current and required points. A short confirmation shows the gains after you choose.
+
+Ranks advance at **3, 6, and 10 points**. The highest rank does not cap your points. Story requirements use exact point totals, and attributes persist across books and in existing saves. Beginning a new journey resets all four to zero.
+
+![Character attributes](docs/screenshots/attributes.png)
+
+![Visible choice requirements](docs/screenshots/attribute_choices.png)
 
 ![Branching dialogue](docs/screenshots/dialogue.png)
 

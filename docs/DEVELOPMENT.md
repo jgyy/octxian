@@ -3,7 +3,8 @@
 ## Project layout
 
 - `data/story.json`: characters, dialogue, links, choice effects, and stat requirements.
-- `scripts/story_state.gd`: story navigation and versioned save validation.
+- `scripts/story_state.gd`: story navigation, shared choice preview/application validation, and versioned saves.
+- `scripts/attributes.gd`: attribute meanings, growth hints, and derived ranks.
 - `scripts/main.gd`: title, dialogue, choices, settings, journal, and viewport capture.
 - `scripts/animated_character.gd`: intact outfit portraits with runtime body bobbing.
 - `data/wardrobe.json` and `scripts/wardrobe.gd`: catalog and persistent character selections.
@@ -33,13 +34,15 @@ python tools/verify_screenshots.py
 godot --headless --path . --export-pack Linux build/jade-vow.pck
 ```
 
-Capture mode writes seventeen viewport screenshots to `build/screenshots` and sixteen timed viewport frames to `build/animations/rendered`. Screenshot verification creates compact JPEG previews, `rendered_game.gif`, and a sampled game-frame sheet. Timed capture fixes the character's initial frame and disables atmospheric background animation so that measured changes reflect the character.
+Capture mode writes nineteen viewport screenshots to `build/screenshots` and sixteen timed viewport frames to `build/animations/rendered`. Screenshot verification creates compact JPEG previews, `rendered_game.gif`, and a sampled game-frame sheet. Timed capture fixes the character's initial frame and disables atmospheric background animation so that measured changes reflect the character.
 
 The packaged executable discovers `jade-vow.pck` beside it. CI uses Xvfb with dummy audio for desktop capture and standalone playback. It runs the exported package from a folder without the source checkout and checks logs for errors, missing resources, and clean shutdown.
 
 ## Story schema
 
 Each node has `speaker`, `actor`, and `text`, plus exactly one of `next`, `choices`, or `ending`. Optional `chapter` and `background` select chapter labels and catalog art. Optional `effect` selects `lanterns`, `rain`, `reed_light`, `bell`, `qi`, or `none`. An `ending` may also have `continuation` to lead into the next book while keeping the ending discoverable. Choices have `text`, `next`, optional additive `effects`, and optional minimum-stat `requires`. Animations may be `idle`, `wind`, `channeling`, or `resolve`. Named sound effects are optional.
+
+The Attributes panel (C) derives ranks from the existing four saved scores at thresholds 0, 3, 6, and 10. The catalog includes descriptions and growth hints; the final rank is descriptive and does not limit points. Choice summaries show additive effects and current/required values in catalog order. `choice_details()` validates destinations, integer requirements, and in-range resulting scores; both `can_choose()` and `choose()` use this validation so the preview matches application. Malformed choices fail before any score, scene, or journal mutation.
 
 Choices apply effects only when their requirements are met. Failed loads preserve the current journey. Versioned saves live in Godot's `user://` directory; settings use a separate config file.
 

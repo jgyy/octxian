@@ -1,9 +1,10 @@
 extends RefCounted
 
+const Attributes = preload("res://scripts/attributes.gd")
 const SAVE_VERSION := 1
 # Long campaigns may exceed 100; enforce the same limit on play and load.
 const MAX_STAT := 2147483647
-const STAT_KEYS := ["qi", "trust", "insight", "resolve"]
+const STAT_KEYS = Attributes.KEYS
 var story: Dictionary = {}
 var current := "arrival"
 var stats := {"qi": 0, "trust": 0, "insight": 0, "resolve": 0}
@@ -19,34 +20,69 @@ func _init(source: Dictionary = {}) -> void:
 func node() -> Dictionary:
 	return story.get("nodes", {}).get(current, {})
 
+# Preview and application share validation, including malformed requirements and overflow.
+func choice_details(choice: Dictionary) -> Dictionary:
+	var details := {
+		"available": false, "reason": "",
+		"effects": PackedStringArray(), "requirements": PackedStringArray(),
+		"missing": PackedStringArray(), "updated_stats": stats.duplicate()
+	}
+	if not story.get("nodes", {}).has(str(choice.get("next", ""))):
+		details.reason = "This choice has no valid destination."
+		return details
+	var requirements = choice.get("requires", {})
+	var effects = choice.get("effects", {})
+	if not requirements is Dictionary or not effects is Dictionary:
+		details.reason = "This choice has invalid attribute data."
+		return details
+	for key in requirements:
+		var value = requirements[key]
+		if not STAT_KEYS.has(key) or not (value is int or value is float):
+			details.reason = "This choice has an invalid attribute requirement."
+			return details
+		if not is_finite(float(value)) or value < 0 or value > MAX_STAT or value != int(value):
+			details.reason = "This choice has an invalid attribute requirement."
+			return details
+	for key in effects:
+		var effect = effects[key]
+		if not STAT_KEYS.has(key) or not (effect is int or effect is float):
+			details.reason = "This choice has an invalid attribute change."
+			return details
+		if not is_finite(float(effect)) or effect < -MAX_STAT or effect > MAX_STAT or effect != int(effect):
+			details.reason = "This choice has an invalid attribute change."
+			return details
+		var updated: int = int(stats.get(key, 0)) + int(effect)
+		if updated < 0 or updated > MAX_STAT:
+			details.reason = "This choice would exceed the attribute limits."
+			return details
+		details.updated_stats[key] = updated
+	for key in STAT_KEYS:
+		var title := Attributes.attribute_name(key)
+		if requirements.has(key):
+			var requirement := "%s %d/%d" % [title, int(stats.get(key, 0)), int(requirements[key])]
+			details.requirements.append(requirement)
+			if int(stats.get(key, 0)) < int(requirements[key]):
+				details.missing.append(requirement)
+		if effects.has(key) and int(effects[key]) != 0:
+			var effect: int = int(effects[key])
+			details.effects.append("%s %s%d" % [title, "+" if effect > 0 else "", effect])
+	details.available = details.missing.is_empty()
+	if not details.available:
+		details.reason = "Requires " + ", ".join(details.missing)
+	return details
+
 func can_choose(choice: Dictionary) -> bool:
-	for key in choice.get("requires", {}):
-		if int(stats.get(key, 0)) < int(choice["requires"][key]):
-			return false
-	return true
+	return bool(choice_details(choice).available)
 
 func choose(index: int) -> bool:
 	var choices: Array = node().get("choices", [])
-	if index < 0 or index >= choices.size() or not can_choose(choices[index]):
+	if index < 0 or index >= choices.size():
 		return false
 	var choice: Dictionary = choices[index]
-	var target := str(choice.get("next", ""))
-	if not story.get("nodes", {}).has(target):
+	var details := choice_details(choice)
+	if not details.available or not go(str(choice.get("next", ""))):
 		return false
-	var updated := stats.duplicate()
-	for key in choice.get("effects", {}):
-		var effect = choice["effects"][key]
-		if not STAT_KEYS.has(key) or not (effect is int or effect is float):
-			return false
-		if not is_finite(float(effect)) or effect != int(effect):
-			return false
-		var value := int(updated.get(key, 0)) + int(effect)
-		if value < 0 or value > MAX_STAT:
-			return false
-		updated[key] = value
-	if not go(target):
-		return false
-	stats = updated
+	stats = details.updated_stats
 	return true
 
 func advance() -> bool:
