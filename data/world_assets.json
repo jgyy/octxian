@@ -823,6 +823,50 @@
         "record": "assets/art/CONTINUATION_BOOKS_PROVENANCE.md"
       },
       "environment": "exterior"
+    },
+    {
+      "id": "kiln_understairs_archive",
+      "name": "Kiln Understairs Archive",
+      "path": "assets/art/world/kiln_understairs_archive.png",
+      "native_size": [
+        1672,
+        941
+      ],
+      "description": "Dry retained ceramic samples and protected contract folios beneath the kiln school's ordinary wooden stairs.",
+      "environment": "interior",
+      "collection": "building_interiors",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/kiln_understairs_archive.png",
+        "native_size": [
+          1672,
+          941
+        ],
+        "record": "assets/art/CONTINUATION_BOOKS_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "kiln_recovery_room",
+      "name": "Kiln Recovery Room",
+      "path": "assets/art/world/kiln_recovery_room.png",
+      "native_size": [
+        1672,
+        941
+      ],
+      "description": "An ordinary ceramic workers' clinic and lodging room, with a low bed, clean linen, stove and washbasin; recovery depends on care and rest.",
+      "environment": "interior",
+      "collection": "building_interiors",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/kiln_recovery_room.png",
+        "native_size": [
+          1672,
+          941
+        ],
+        "record": "assets/art/CONTINUATION_BOOKS_PROVENANCE.md"
+      }
     }
   ],
   "npcs": [
