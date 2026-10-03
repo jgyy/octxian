@@ -1,19 +1,19 @@
 {
-  "displayed_scenes": 1721,
-  "displayed_words": 146947,
+  "displayed_scenes": 1743,
+  "displayed_words": 148600,
   "new_training_scenes": 77,
   "new_training_words": 5182,
   "rewritten_book_i_scenes": 36,
   "rewritten_book_i_words": 2397,
-  "rewrite_words": 28834,
+  "rewrite_words": 30487,
   "strict_word_target": 1000001,
   "planned_rewrite_words": 1050000,
   "reference_checks": "pass",
   "duplicate_prose_checks": "pass",
   "continuity_checkpoints": "pass",
   "inherited_words": 118113,
-  "remaining_displayed_words": 853054,
-  "remaining_rewrite_words": 971167,
+  "remaining_displayed_words": 851401,
+  "remaining_rewrite_words": 969514,
   "native_art": [
     {
       "mime": "image/png",
@@ -177,6 +177,17 @@
       "bytes": 2018944,
       "pngColorType": 6,
       "commit": "3682083bff35002415515e2801f2f4d7ed007a80"
+    },
+    {
+      "path": "assets/art/world/zhen.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 1885266,
+      "pngColorType": 6,
+      "commit": "8aab0c35723f6e0a036fbcd46b5599bbf83c117c"
     }
   ],
   "complete": false,
@@ -608,9 +619,31 @@
     "foundry_route_017",
     "foundry_route_018",
     "foundry_route_019",
-    "foundry_route_020"
+    "foundry_route_020",
+    "foundry_recovery_001",
+    "foundry_recovery_002",
+    "foundry_recovery_003",
+    "foundry_recovery_004",
+    "foundry_recovery_005",
+    "foundry_recovery_006",
+    "foundry_recovery_007",
+    "foundry_recovery_008",
+    "foundry_recovery_009",
+    "foundry_recovery_010",
+    "foundry_recovery_011",
+    "foundry_recovery_012",
+    "foundry_recovery_013",
+    "foundry_recovery_014",
+    "foundry_recovery_015",
+    "foundry_recovery_016",
+    "foundry_recovery_017",
+    "foundry_recovery_018",
+    "foundry_recovery_019",
+    "foundry_recovery_020",
+    "foundry_recovery_021",
+    "foundry_recovery_022"
   ],
-  "rewrite_scenes": 415,
+  "rewrite_scenes": 437,
   "plot_repair_scene_ids": [
     "tempering_after_007",
     "tempering_after_009",
@@ -674,12 +707,12 @@
     "rewrite_word_change": 3035,
     "report": "docs/PLOT_HOLE_REVIEW.md"
   },
-  "foundry_scenes": 115,
-  "foundry_words": 9029,
+  "foundry_scenes": 137,
+  "foundry_words": 10682,
   "current_expansion": {
     "name": "Ash Bridge Foundry",
-    "new_scenes": 115,
-    "new_words": 9029,
+    "new_scenes": 137,
+    "new_words": 10682,
     "complete": false
   }
 }
