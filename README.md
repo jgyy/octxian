@@ -30,9 +30,9 @@ If your Godot executable is named `godot4`, replace `godot` with `godot4` in bot
 - **S:** save. **L:** open the dialogue journal. **C:** open attributes. **Esc:** close a panel or open settings.
 - The interface provides save/load, auto reading, fast text, an animated wardrobe gallery, audio levels, and reduced motion.
 
-The playable script contains **353 scenes and 23,615 authored words** across five books, with cultivation stats and gated choices. Book I has three endings; each continues into Book II, which has three investigations and four settlements. Every settlement continues into Book III, with three river routes, six settlement approaches, and three endings. Each continues into Book IV's orchard, with three investigations and four settlements. Every orchard outcome continues into Book V, with three city investigations and four resolutions.
+The playable script contains **1,137 scenes and 98,705 authored words** across six books, with cultivation stats and gated choices. Book I has three endings; each continues into Book II, which has three investigations and four settlements. Every settlement continues into Book III, with three river routes, six settlement approaches, and three endings. Each continues into Book IV's orchard, with three investigations and four settlements. Every orchard outcome continues into Book V, with three city investigations and four resolutions. Each city resolution continues into Book VI, with four investigations, local branch choices and four bounded court remedies.
 
-This draft expansion currently adds **six original-scope backgrounds, 30 extra building-interior backgrounds, nine human NPC sprites, five spirit-beast sprites, and two inspectable item paintings** at their native generated sizes. The original 100-background quota, 500 human NPCs, 501 spirit beasts and more than one million words remain unfinished. The separate extra 100-interior quota has 30 delivered paintings. Run `python tools/validate_world.py --require-complete` to check all quotas. CI writes exact delivery counts to `build/content_report.json`.
+This draft expansion currently adds **seven original-scope backgrounds, 32 extra building-interior backgrounds, thirteen human NPC sprites, six spirit-beast sprites, and two inspectable item paintings** at their native generated sizes. The original 100-background quota, 500 human NPCs, 501 spirit beasts and more than one million words remain unfinished. The separate extra 100-interior quota has 32 delivered paintings. Run `python tools/validate_world.py --require-complete` to check all quotas. CI writes exact delivery counts to `build/content_report.json`.
 
 ## Character attributes
 
@@ -88,7 +88,7 @@ Ren Qiao and the Frostroot Hart have new independent native **1024×1536** portr
 
 ![The Frostroot Hart](docs/screenshots/orchard_spirit.png)
 
-The full production target is **more than one million displayed prose words and 1,001 unique world sprites: 500 humans and 501 spirit beasts**, alongside the existing background quotas. Current delivery is **23,615 words and 14 original world sprites**. This expansion remains unfinished.
+The full production target is **more than one million displayed prose words and 1,001 unique world sprites: 500 humans and 501 spirit beasts**, alongside the existing background quotas. Current delivery is **98,705 words and 19 original world sprites**. This expansion remains unfinished.
 
 ## Book V: The city of borrowed faces
 
@@ -105,6 +105,23 @@ This chapter adds **119 scenes and 10,456 authored prose words**, four human ori
 ![The Glasswing Moth](docs/screenshots/city_moth.png)
 
 ![City resolution choices](docs/screenshots/city_choices.png)
+
+
+## Book VI: The court above the rain
+
+Follow four investigations into an accident at a cliff court: arrange safe witness access, compare bounded rain and clock records, account for finite assistance, or trace conflicting docket versions. An injured porter and stonebinder need their corrected work proofs honored while particular safety and injury questions remain open. Paid carrying chairs use a covered footpath; the damaged goods lift stays closed.
+
+The court admits approved records, corrects an unsupported broad assessment, and keeps genuine claims and ordinary care in place before the final choice. Fund one of four bounded next steps: weather observations, local testimony, staged source checking, or an ungated limited remand. Existing funds cannot buy every remedy at once.
+
+Book VI adds **784 scenes and 75,090 displayed prose words**, four independent human portraits, the Rain Heron, and three native court environments. The campaign now loads authored books from a manifest while preserving existing scene IDs and version-1 saves. New narration uses compressed Vorbis; matching legacy WAVs retain their original bytes.
+
+![He Lian and the initial petition](docs/screenshots/court_upper_bench.png)
+
+![The Rain Heron](docs/screenshots/court_rain_heron.png)
+
+![Four inquiry routes](docs/screenshots/court_investigation_choice.png)
+
+![Bounded court remedies](docs/screenshots/court_final_choice.png)
 
 ## Clothing options
 
@@ -141,18 +158,18 @@ The twelve resting portraits come from the original GPT artwork. Body bobbing pr
 | Asset | Delivered |
 |---|---|
 | GPT Images artwork | 24 gesture key poses, twelve outfit reference portraits, one mountain-sect environment |
-| New world paintings | 6 original backgrounds + 30 extra interiors, 9 human NPCs, 5 spirit beasts, 2 items |
+| New world paintings | 7 original backgrounds + 32 extra interiors, 13 human NPCs, 6 spirit beasts, 2 items |
 | Character portraits | **12 intact portraits**: 4 characters × 3 outfits |
 | Animation playback | Sprite2D whole-body bobbing on a four-second loop |
 | Music | Original 48-second pentatonic plucked-string composition |
 | Sound effects | Page, bell, qi channeling, and sword |
-| AI voices | Piper neural narration for all 353 scenes; one Lessac narrator timbre with character pacing |
+| AI voices | Piper neural narration for all 1,137 scenes; one Lessac narrator timbre with character pacing |
 
 Portraits are extracted from GPT artwork and bobbed by Godot at runtime. The game has no lip sync. See [art provenance](assets/art/PROVENANCE.md) and the generated voice model card for sources and licensing.
 
 ## Rebuild assets
 
-Python 3.12 is recommended.
+Python 3.12 and ffmpeg are required to regenerate narration.
 
 ```sh
 python -m venv .venv
@@ -164,11 +181,11 @@ python tools/validate_assets.py
 python tools/preview_animations.py
 ```
 
-Voice generation downloads the public Piper Lessac neural model on its first run. It needs no API key, resumes unchanged lines, and records the model source, SHA-256, upstream model card, and per-line audio hashes.
+Voice generation downloads the public Piper Lessac neural model on its first run. It needs no API key, resumes unchanged lines, and records the model source, SHA-256, upstream model card, codec, and per-line audio hashes. New clips use mono Vorbis quality 3; valid legacy PCM16 clips remain unchanged.
 
 World art and descriptions live in `data/world_assets.json`. `tools/validate_world.py` checks references, native dimensions, transparency, reachability, and honest manuscript accounting.
 
-To add appearances or adjust bobbing, update `data/wardrobe.json` and the GPT pose sheets. Story text and choices live in `data/story.json`. See [development instructions](docs/DEVELOPMENT.md).
+To add appearances or adjust bobbing, update `data/wardrobe.json` and the GPT pose sheets. The campaign index lives in `data/story.json`; new authored books live in `data/books/` and are merged through its `books` manifest. See [story authoring](docs/STORY_AUTHORING.md) for ID, word-accounting and narration rules. See [development instructions](docs/DEVELOPMENT.md).
 
 ## Architecture
 
@@ -177,7 +194,7 @@ flowchart TD
     GPT["GPT Images · resting portraits"] --> Prep["Python portrait extraction"]
     Prep --> Portraits["12 intact outfit portraits"]
     Portraits --> Cast["Sprite2D cast · whole-body bob"]
-    JSON["Story JSON · 353 scenes"] --> State["Story state · choices · stats"]
+    JSON["Story manifest and books · 1,137 scenes"] --> State["Story state · choices · stats"]
     Canon["Continuity ledger · required evidence checkpoints"] --> Verify
     Effects["Scene effects · reduced motion"] --> UI
     State --> UI["Godot interface · journal · saves"]
@@ -203,4 +220,4 @@ The feature branch bundles verified assets and review media in separate commits.
 
 ## License
 
-Project code and original story: [MIT](LICENSE). GPT artwork provenance is documented in `assets/art/PROVENANCE.md`. Piper's voice model card is bundled in `assets/generated/voices/MODEL_CARD` and the Linux package. Piper is a build-time dependency; the game plays rendered WAV audio.
+Project code and original story: [MIT](LICENSE). GPT artwork provenance is documented in `assets/art/PROVENANCE.md`. Piper's voice model card is bundled in `assets/generated/voices/MODEL_CARD` and the Linux package. Piper is a build-time dependency; the game plays rendered WAV and Vorbis audio.

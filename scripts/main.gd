@@ -756,7 +756,7 @@ func _capture() -> void:
 		_set_outfit(character, Wardrobe.DEFAULT_OUTFIT)
 
 	atmosphere.enabled = not reduced_motion
-	for sample in [{"id": "lantern_hub", "file": "quest_hub"}, {"id": "reed_voice", "file": "spirit_encounter"}, {"id": "ferry_price", "file": "ferry_encounter"}, {"id": "archive_copies", "file": "archive_encounter"}, {"id": "river_xiu", "file": "river_pilot"}, {"id": "river_spirit", "file": "river_spirit"}, {"id": "harbor_answer", "file": "river_harbor"}, {"id": "orchard_arrival", "file": "orchard_healer"}, {"id": "orchard_hart_answer", "file": "orchard_spirit"}, {"id": "orchard_resolution_choice", "file": "orchard_choices"}, {"id": "city_arrival", "file": "city_market"}, {"id": "city_mask_studio", "file": "city_mask_maker"}, {"id": "city_registry_mei", "file": "city_archivist"}, {"id": "city_registry_tao", "file": "city_courier"}, {"id": "city_perfumer_workroom", "file": "city_perfumer"}, {"id": "city_courser_terms", "file": "city_courser"}, {"id": "city_perfumer_moth_terms", "file": "city_moth"}, {"id": "city_final_choice", "file": "city_choices"}]:
+	for sample in [{"id": "lantern_hub", "file": "quest_hub"}, {"id": "reed_voice", "file": "spirit_encounter"}, {"id": "ferry_price", "file": "ferry_encounter"}, {"id": "archive_copies", "file": "archive_encounter"}, {"id": "river_xiu", "file": "river_pilot"}, {"id": "river_spirit", "file": "river_spirit"}, {"id": "harbor_answer", "file": "river_harbor"}, {"id": "orchard_arrival", "file": "orchard_healer"}, {"id": "orchard_hart_answer", "file": "orchard_spirit"}, {"id": "orchard_resolution_choice", "file": "orchard_choices"}, {"id": "city_arrival", "file": "city_market"}, {"id": "city_mask_studio", "file": "city_mask_maker"}, {"id": "city_registry_mei", "file": "city_archivist"}, {"id": "city_registry_tao", "file": "city_courier"}, {"id": "city_perfumer_workroom", "file": "city_perfumer"}, {"id": "city_courser_terms", "file": "city_courser"}, {"id": "city_perfumer_moth_terms", "file": "city_moth"}, {"id": "city_final_choice", "file": "city_choices"}, {"id": "court_upper_bench", "file": "court_upper_bench"}, {"id": "court_luo_shan", "file": "court_luo_shan"}, {"id": "court_bai_qun", "file": "court_bai_qun"}, {"id": "court_du_heng", "file": "court_du_heng"}, {"id": "court_rain_heron", "file": "court_rain_heron"}, {"id": "court_investigation_choice", "file": "court_investigation_choice"}, {"id": "court_final_choice", "file": "court_final_choice"}, {"id": "court_weather_setup", "file": "court_weather_setup"}]:
 		state.current = sample.id
 		_scene()
 		dialogue.visible_characters = -1
@@ -842,6 +842,29 @@ func _smoke_build() -> void:
 		valid = valid and actor.character == encounter.actor and actor.sprite.texture != null and audio.voice.stream != null
 		if actor.sprite.texture != null:
 			valid = valid and actor.sprite.texture.get_size() == Vector2(1024, 1536)
+	# The standalone package must include modular book data, new art and Vorbis.
+	valid = valid and state.story.chapters.has("book_vi")
+	for encounter in [
+		{"node": "court_upper_bench", "actor": "he_lian"},
+		{"node": "court_luo_shan", "actor": "luo_shan"},
+		{"node": "court_bai_qun", "actor": "bai_qun"},
+		{"node": "court_du_heng", "actor": "du_heng"},
+		{"node": "court_rain_heron", "actor": "rain_heron"},
+		{"node": "court_weather_setup", "actor": "lin_yue"}
+	]:
+		state.current = str(encounter.node)
+		_scene()
+		await get_tree().create_timer(0.2).timeout
+		valid = valid and actor.character == encounter.actor and actor.sprite.texture != null
+		valid = valid and background.texture != null and audio.voice.stream is AudioStreamOggVorbis
+	var retained_stats: Dictionary = state.stats.duplicate()
+	state.stats = {"qi": 0, "trust": 0, "insight": 0, "resolve": 0}
+	state.current = "court_final_choice"
+	_scene()
+	dialogue.visible_characters = -1
+	_choose(3)
+	valid = valid and state.current == "court_remand_proposal" and state.stats.resolve == 2
+	state.stats = retained_stats
 	_interiors()
 	_interior_selected(_interior_entries().size() - 1)
 	valid = valid and interior_image.texture != null

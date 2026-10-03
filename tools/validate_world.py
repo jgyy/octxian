@@ -7,6 +7,11 @@ from collections import deque
 
 from PIL import Image
 
+if __package__:
+    from .story_data import authored_word_count, load_story
+else:
+    from story_data import authored_word_count, load_story
+
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 STAT_KEYS = {"qi", "trust", "insight", "resolve"}
 BASE_ACTORS = {"lin_yue", "shen_qing", "elder_yun", "mo_ran"}
@@ -143,7 +148,7 @@ def reachable_without(story, omitted):
 
 def inspect(root):
     world = json.loads((root / "data/world_assets.json").read_text())
-    story = json.loads((root / "data/story.json").read_text())
+    story = load_story(root)
     assert world["requested"] == {"backgrounds": 200, "npcs": 500, "monsters": 501}, "Preserve background quotas and 1001 original sprites"
     assert world["requested_additional"] == ADDITIONAL_ART_TARGETS, "Preserve the 100 extra interiors"
     ids, paths, hashes, pixel_hashes, sprite_sources = set(), set(), set(), set(), set()
@@ -232,7 +237,7 @@ def inspect(root):
             assert target not in reachable_without(story, required), (
                 f"Continuity checkpoint {checkpoint['id']} bypasses {required}"
             )
-    words = sum(len(node["text"].split()) for node in story["nodes"].values())
+    words = authored_word_count(story)
     return delivery_report(world, words, len(story["nodes"]))
 
 

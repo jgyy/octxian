@@ -2879,7 +2879,8 @@
       "text": "On the third evening, the furnace tender closed the temporary list. Two unused hours returned to their owners. Several promised heating slots had gone unfilled, and the report said so. Tao delivered the orchard's jars under his own courier stamp. Qiao resumed only the fittings whose collars he had checked. The workers who declined to lend credit kept their corrected proofs and wages. A court messenger arrived with a request for the hearing record. Lin Yue sent a certified copy, including the bridge's losses, its refusals, and its closing time.",
       "background": "borrowed_faces_market",
       "effect": "none",
-      "ending": "The Credit at Closing Time"
+      "ending": "The Credit at Closing Time",
+      "continuation": "court_from_credit"
     },
     "city_separate_ledgers": {
       "chapter": "book_v",
@@ -2897,7 +2898,8 @@
       "text": "The new commercial book opened with several blank pages. Mei refused to fill them by copying the disputed batch again. A clerk checked each license against its original terms, while another returned corrected wage slips. The queue moved slowly. Beside it, the mirror repairer demonstrated how a copied serial could mislead someone reading in haste. Tao's jars reached the orchard before the last account was reconciled. When the court requested testimony, Mei enclosed both ledgers' rules and the unresolved return-price case. The clean columns had made the unfinished work easier to see.",
       "background": "city_registry_office",
       "effect": "none",
-      "ending": "A Name in Its Own Column"
+      "ending": "A Name in Its Own Column",
+      "continuation": "court_from_ledgers"
     },
     "city_license_pool": {
       "chapter": "book_v",
@@ -2915,7 +2917,8 @@
       "text": "The first pool meeting lasted until the tea turned cold. Members reduced the proposed contribution, hired a clerk for fewer hours, and left two costly licenses outside the fund. A performer declined to join and kept her separate contract. Qiao repaired her collar at the posted price. Tao carried the orchard's jars, then returned to argue about the pool's delivery rule. Their minutes contained the argument. When a court messenger asked who spoke for the city, the clerk sent the chosen delegates' names and a second list of people who had chosen nobody.",
       "background": "tea_house_private_room",
       "effect": "none",
-      "ending": "The Licenses of Working People"
+      "ending": "The Licenses of Working People",
+      "continuation": "court_from_pool"
     },
     "city_batch_audit": {
       "chapter": "book_v",
@@ -2933,7 +2936,8 @@
       "text": "At Tuesday's hearing, Qiao had cleared fewer collars than the exchange hoped. One return price remained disputed; several duplicate charges had been removed. The furnace board showed reduced hours rather than imaginary credit. Tao's jars had already left for the orchard under his own license. The waiting workers brought their corrected proofs and their unresolved receipts to different desks. A messenger from the court above the rain requested the minutes. Lin Yue watched the clerk seal a complete copy, leaving the last unanswered line visible beneath the list of questions for next week.",
       "background": "identity_exchange_hall",
       "effect": "none",
-      "ending": "Two Ledgers Until Tuesday"
+      "ending": "Two Ledgers Until Tuesday",
+      "continuation": "court_from_audit"
     },
     "city_mask_entry": {
       "chapter": "book_v",
@@ -3696,5 +3700,8 @@
       "label": "BOOK V",
       "title": "The city of borrowed faces"
     }
-  }
+  },
+  "books": [
+    "data/books/book_vi.json"
+  ]
 }

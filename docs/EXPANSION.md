@@ -2,19 +2,20 @@
 
 ## Delivered in this draft
 
-- **353 playable scenes and 23,615 authored prose words** across five books.
+- **1,137 playable scenes and 98,705 authored prose words** across six books.
 - Book I: 36 scenes, 942 words, three endings.
 - Book II: 73 scenes, 4,000 words, three investigations, nine approaches, four endings.
 - Book III: 87 scenes, 5,332 words, four spring continuations, three river routes, six settlement approaches, three endings.
 - Book IV: 38 scenes, 2,885 words, three investigations, four settlements, and route-specific river continuations.
 - Book V: 119 scenes, 10,456 words, three investigations, four resolutions, and four orchard-outcome continuations.
-- Six original-scope painted backgrounds: five at native 1672×941 and the city market at native 1536×1024.
-- 30 additional building-interior paintings preserved at their individual native sizes; [inventory](INTERIORS.md).
-- Nine human NPCs and five spirit beasts at native 1024×1536 with alpha.
+- Book VI: 784 scenes, 75,090 words, four investigations with local choices, four remedies, and four city-outcome continuations.
+- Seven original-scope painted backgrounds: five at native 1672×941 and the market and court terrace at native 1536×1024.
+- 32 additional building-interior paintings preserved at their individual native sizes; [inventory](INTERIORS.md).
+- Thirteen human NPCs and six spirit beasts at native 1024×1536 with alpha.
 - Two inspectable item paintings: clapper at 1024×1536 and echo case at 1536×1024.
 - Rain, reed light, soft bell ripples, and qi effects, paused by panels and stopped by reduced motion.
 - Continuity ledger plus required-knowledge and safety checkpoints.
-- Capture and narration pipelines cover all five books, with thirty required viewport screenshots and standalone Linux playback checks.
+- Capture and narration pipelines cover all six books, with thirty-eight required viewport screenshots and standalone Linux playback checks.
 
 These are exact delivered counts. This draft does **not** fulfill the requested original 100 backgrounds, 500 human NPCs, 501 spirit beasts, the extra 100 interior backgrounds, or a manuscript longer than one million words. An image-generation prompt is not a delivered asset. A plot outline, word budget, alternate playthrough, or repeated paragraph is not an authored word.
 
@@ -42,7 +43,7 @@ The following twenty books have a combined **planned** budget of 1,020,000 words
 | IV | The Orchard of Unfinished Winters | 51,000 | Healing that transfers another person's pain |
 | V | The City of Borrowed Faces | 51,000 | Identity sold as cultivation currency |
 | VI | The Court Above the Rain | 51,000 | Immortal justice and mortal testimony |
-| VII | The Thousand-Mile Funeral | 51,000 | Who may inherit a dead sect's vows |
+| VII | The Furnace Beneath the Snow | 51,000 | A descent, damaged cultivation channels, and incompatible seed rescues |
 | VIII | The Desert That Remembers Water | 51,000 | Restoring a river without erasing its new inhabitants |
 | IX | The Library Beneath the Moon | 51,000 | A history that edits its readers |
 | X | The Seven Unopened Gates | 51,000 | Guardians who can no longer refuse their duty |
@@ -137,7 +138,7 @@ River echoes are volunteered external copies, not missing pieces of minds. Three
 
 These structural checks supplement an editorial reading of every new scene. They do not certify that every possible literary inconsistency has been eliminated.
 
-The manuscript still needs **976,386** additional authored prose words to reach 1,000,001. The original art quotas still need **94 backgrounds, 491 human NPCs, and 496 spirit beasts**. The two item paintings are additional assets and do not count toward those quotas. The extra interior quota has 30 delivered paintings and 70 remaining. These future-campaign locations are available in the gallery; their existence does not claim that the remaining outlined books have been written.
+The manuscript still needs **901,296** additional authored prose words to reach 1,000,001. The original art quotas still need **93 backgrounds, 487 human NPCs, and 495 spirit beasts**. The two item paintings are additional assets and do not count toward those quotas. The extra interior quota has 32 delivered paintings and 68 remaining. These future-campaign locations are available in the gallery; their existence does not claim that the remaining outlined books have been written.
 
 ## Book IV · delivered orchard chapter
 
@@ -145,7 +146,7 @@ Every river ending continues into the same spring while preserving its own echo-
 
 The inherited winter demand is removed while the safe closing rhythm remains. Choose a limited breathing trial, paid care rota, separate relief funding, or a reviewed pause with ordinary care. All four outcomes preserve injuries, resource limits, and individual choices. The unidentified third river ring remains sealed.
 
-This delivered chapter adds **2,885** displayed words. It does not fulfill the book's planned 51,000-word budget. The current entire manuscript is **23,615** words, with **976,386** more required. Original sprite delivery is **14**, with **987** more required. The PR remains a draft until the full manuscript, 500/501 sprite allocation, and both background quotas pass production acceptance.
+This delivered chapter adds **2,885** displayed words. It does not fulfill the book's planned 51,000-word budget. The current entire manuscript is **98,705** words, with **901,296** more required. Original sprite delivery is **19**, with **982** more required. The PR remains a draft until the full manuscript, 500/501 sprite allocation, and both background quotas pass production acceptance.
 
 ## Book V · delivered city chapter
 
@@ -155,9 +156,9 @@ The masks rent an outward face, permitted voice and temporary recognition use; t
 
 The Porcelain Courser owns its dispatch ledger, permits watched and redacted relevant copying, and offers no automatic ride. The Glasswing Moth compares offered surfaces, preserves its workshop duties, and declines an additional hearing test. Certified registry corrections restore public proofs before all four settlements, leaving commercial charges on their own lines.
 
-Choose a bounded credit bridge using existing volunteered hours, separate ledgers with paid checking, a limited worker licensing pool, or a dated audit of only the disputed batch. No route invents fuel, credit, compensation, debt forgiveness or criminal intent. Each ending receives a court request for the hearing record; the next book remains unwritten.
+Choose a bounded credit bridge using existing volunteered hours, separate ledgers with paid checking, a limited worker licensing pool, or a dated audit of only the disputed batch. No route invents fuel, credit, compensation, debt forgiveness or criminal intent. Each ending receives a court request for the hearing record; each receives its own playable court continuation.
 
-Book V adds **10,456 displayed prose words** and **119 scenes**, four independently generated humans, two spirit beasts and one original-scope market background. The entire manuscript is **23,615 words**, with **976,386** required. Sprite delivery is **9 humans + 5 spirit beasts = 14**, with **987** required. Original backgrounds are **6/100**; extra interiors are **30/100**. The PR remains a draft with production acceptance unmet.
+Book V adds **10,456 displayed prose words** and **119 scenes**, four independently generated humans, two spirit beasts and one original-scope market background. The entire manuscript is **98,705 words**, with **901,296** required. Sprite delivery is **13 humans + 6 spirit beasts = 19**, with **982** required. Original backgrounds are **7/100**; extra interiors are **32/100**. The PR remains a draft with production acceptance unmet.
 
 ## Verified orchard delivery
 
@@ -172,3 +173,15 @@ The generated delivery report matches the audited totals: 13,159 words, 5 human 
 The new originals pass native resolution, alpha, retained-source provenance, file-hash and decoded-painting checks. All six new portraits and the settlement screen were inspected in the actual game: each has its own complete source design, transparent compositing, uniform fitting, readable speaker labels and visible gate summaries. The ungated audit stays available at zero attributes. Review media and narration are bundled in `662f134c`.
 
 Independent acceptance review confirms **23,615** displayed prose words, **9** human originals, **5** beast originals, **6** original-scope backgrounds and **30** extra interiors. All **14** continuity checkpoints and **190** fact anchors are valid. The generated report still says `complete: false`; the full manuscript and artwork quotas remain unmet.
+
+## Book VI · delivered court chapter
+
+Four city outcomes retain their corrected public proofs and bounded commercial settlements. The cliff court stands on fixed foundations separate from Azure Cloud. An ordinary descending goods sling slipped two days before arrival; Bai Qun's landing/guide duties are separate from lift staff's brake and counterweight work. Du Heng's injured right shoulder remains under ordinary care.
+
+Before investigation, a limited emergency rule suspends the disputed new assessment and record-based work bar while admitting corrected proofs. The physical goods lift remains closed. Assisted witness visits use independently supervised carrying chairs on a covered path. Authorized statements are read at the Day Three hearing; Bai's Day One and Du's Day Two visits do not imply another unpaid ascent.
+
+Four teams investigate witness accounts, present rain-gauge and clock comparisons, access costs, and docket authority. Lin Yue follows one team; all share their bounded findings before resolution. Current observations do not reconstruct hidden historical causes. The Heron offers finite observations and one separately agreed safe message flight; it does not accept dangerous flight or indefinite duty. Earlier/corrected statements and copied sources remain distinguishable.
+
+A ninety-six-copper access fund reserves sixty-four for specified baseline services, leaving thirty-two for exactly one remedy. Weather observations, local testimony, staged docket checks, and a limited remand have separate budgets, permissions, return dates and failure reports. Corrected rights and ordinary care do not depend on choosing a specialized remedy. The remand remains available at zero attributes.
+
+This chapter adds **784 playable scenes and 75,090 authored words**. Four new humans and one new beast bring sprite delivery to **19**. The original court terrace and two extra interiors retain native **1536×1024** paintings. Portraits retain native **1024×1536 RGBA** paintings. The new modular loader and compressed narration support continued manuscript growth without duplicating scene prose or invalidating existing saves. Source validation and rendered acceptance are recorded separately when CI completes.

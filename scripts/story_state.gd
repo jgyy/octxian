@@ -1,6 +1,7 @@
 extends RefCounted
 
 const Attributes = preload("res://scripts/attributes.gd")
+const StoryData = preload("res://scripts/story_data.gd")
 const SAVE_VERSION := 1
 # Long campaigns may exceed 100; enforce the same limit on play and load.
 const MAX_STAT := 2147483647
@@ -11,11 +12,16 @@ var stats := {"qi": 0, "trust": 0, "insight": 0, "resolve": 0}
 var history: Array = []
 
 func _init(source: Dictionary = {}) -> void:
-	# Traversal tools may reuse one immutable campaign instead of reparsing it per branch.
-	var raw = source if not source.is_empty() else JSON.parse_string(FileAccess.get_file_as_string("res://data/story.json"))
-	if raw is Dictionary:
-		story = raw
-		current = str(story.get("start", "arrival"))
+	# Injected traversal campaigns are already merged; never reload their book files.
+	if not source.is_empty():
+		story = source
+	else:
+		var loaded := StoryData.load_campaign()
+		if not loaded.error.is_empty():
+			push_error(loaded.error)
+			return
+		story = loaded.story
+	current = str(story.get("start", "arrival"))
 
 func node() -> Dictionary:
 	return story.get("nodes", {}).get(current, {})
