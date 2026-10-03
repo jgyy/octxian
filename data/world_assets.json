@@ -469,6 +469,16 @@
         941
       ],
       "description": "Rain-dark work sheds and ordinary training tools lie below a floating sect. Lin Yue earns meals here while learning to hold his first qi trace."
+    },
+    {
+      "id": "brine_sluice_workshop",
+      "name": "Brine Sluice Workshop",
+      "path": "assets/art/world/brine_sluice_workshop.png",
+      "native_size": [
+        1536,
+        1024
+      ],
+      "description": "Settling pools, copper blanks and an ordinary hand winch support a paid cultivation apprenticeship. Each novice borrows a timed share of finite practice fuel."
     }
   ],
   "npcs": [
@@ -745,6 +755,26 @@
         "kind": "original_painting",
         "derivation": "none",
         "source_path": "assets/art/world/han_mei.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/CULTIVATION_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "duan_zhi",
+      "name": "Duan Zhi",
+      "path": "assets/art/world/duan_zhi.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "A stage-six Qi Gathering examiner and sluice mechanic. His old leg injury limits his stance; he teaches with calibrated blanks, independent tests and a plain wooden cane.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/duan_zhi.png",
         "native_size": [
           1024,
           1536

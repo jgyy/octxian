@@ -17,3 +17,12 @@ The terrace prompt described a modest paid-work and training courtyard beneath a
 The first mite generation returned a cropped 1224×1285 canvas. It was replaced by a new portrait composition with longer native-painted antennae and legs on a full 1024×1536 canvas, retaining the same creature design. It counts as one monster, never as two designs. No enlargement was used.
 
 Transparency, decoded dimensions, visible-pixel coverage and duplicate fingerprints must pass the world validator before these portraits are counted. First-trace artwork is an effect; it contributes no human, monster or background quota.
+
+## Sluice apprenticeship expansion
+
+| File | Native pixels | Role |
+|---|---|---|
+| world/brine_sluice_workshop.png | 1536×1024 | Independent sluice environment |
+| world/duan_zhi.png | 1024×1536 RGBA | Independent human examiner |
+
+The workshop prompt requested settling pools, copper calibration blanks, finite practice circles, worn salt-work architecture and a clear portrait area. Duan Zhi's prompt specified a 52-year-old stage-six examiner in patched work robes, with a plain cane, old leg brace and two-arm measuring instrument. Both retained files are original native paintings. They are not variants of previous designs.
