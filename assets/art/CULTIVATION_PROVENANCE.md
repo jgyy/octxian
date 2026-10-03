@@ -30,3 +30,8 @@ The workshop prompt requested settling pools, copper calibration blanks, finite 
 `world/brine_mantis.png` is a native 1024×1536 RGBA independent creature master. The prompt specified six insect limbs, translucent sea-green chitin, white mineral combs, long antennae and brine vents on a full portrait canvas. Its silhouette and biology are independent of the existing kiln beetle and glasswing moth. Native alpha and footprint are checked in CI.
 
 `world/meridian_caliper.png` is a native 1024×1536 RGBA item master: repaired bronze arms, distinct jade/amber mineral lenses, underside contact access, separate grounding weights and a blank plate. `effects/paired_channel_trace.png` is a native 1536×1024 RGBA effect master: muted jade admission and amber return with separate exit tips. Both are original generations; the effect contributes no sprite quota. The paired effect reuses the established paused/reduced-motion presentation behavior.
+
+
+## Ash Bridge Foundry · ash-bridge expansion
+
+`assets/art/world/ash_bridge_foundry.png` is an original native 1536×1024 PNG master. The prompt requested late-spring sandstone cliffs, ordinary craft architecture, ceramic furnaces, physical fuel shutters and a clear portrait area, without a floating mountain. The retained output is not enlarged. Display scaling preserves its proportions. This independent generation is not a recolor or pose variant. 
