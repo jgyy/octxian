@@ -1,19 +1,19 @@
 {
-  "displayed_scenes": 1855,
-  "displayed_words": 156543,
+  "displayed_scenes": 1858,
+  "displayed_words": 156792,
   "new_training_scenes": 77,
   "new_training_words": 5182,
   "rewritten_book_i_scenes": 36,
   "rewritten_book_i_words": 2397,
-  "rewrite_words": 38430,
+  "rewrite_words": 38679,
   "strict_word_target": 1000001,
   "planned_rewrite_words": 1050000,
   "reference_checks": "pass",
   "duplicate_prose_checks": "pass",
   "continuity_checkpoints": "pass",
   "inherited_words": 118113,
-  "remaining_displayed_words": 843458,
-  "remaining_rewrite_words": 961571,
+  "remaining_displayed_words": 843209,
+  "remaining_rewrite_words": 961322,
   "native_art": [
     {
       "mime": "image/png",
@@ -199,6 +199,17 @@
       "bytes": 2987493,
       "pngColorType": 2,
       "commit": "50a520ee9ea33340910cb65a3e9cd28044c53bc9"
+    },
+    {
+      "path": "assets/art/world/west_kiln_home.png",
+      "mime": "image/png",
+      "size": [
+        1536,
+        1024
+      ],
+      "bytes": 3365944,
+      "pngColorType": 2,
+      "commit": "fb46e5839b438cf984cc38f2381cce63122f9100"
     }
   ],
   "complete": false,
@@ -764,9 +775,12 @@
     "foundry_home_005",
     "foundry_home_006",
     "foundry_end_survey",
-    "foundry_end_home"
+    "foundry_end_home",
+    "foundry_home_007",
+    "foundry_home_008",
+    "foundry_home_009"
   ],
-  "rewrite_scenes": 549,
+  "rewrite_scenes": 552,
   "plot_repair_scene_ids": [
     "tempering_after_007",
     "tempering_after_009",
@@ -830,12 +844,12 @@
     "rewrite_word_change": 3035,
     "report": "docs/PLOT_HOLE_REVIEW.md"
   },
-  "foundry_scenes": 249,
-  "foundry_words": 18625,
+  "foundry_scenes": 252,
+  "foundry_words": 18874,
   "current_expansion": {
     "name": "Ash Bridge Foundry",
-    "new_scenes": 249,
-    "new_words": 18625,
+    "new_scenes": 252,
+    "new_words": 18874,
     "complete": false
   }
 }

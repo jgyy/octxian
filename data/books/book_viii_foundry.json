@@ -3256,7 +3256,7 @@
       "chapter": "book_viii",
       "speaker": "narrator",
       "actor": "lin_yue",
-      "background": "ash_bridge_foundry",
+      "background": "west_kiln_home",
       "effect": "none",
       "cultivation": {
         "realm": "qi_gathering",
@@ -3269,7 +3269,7 @@
       "chapter": "book_viii",
       "speaker": "narrator",
       "actor": "lin_yue",
-      "background": "ash_bridge_foundry",
+      "background": "west_kiln_home",
       "effect": "none",
       "cultivation": {
         "realm": "qi_gathering",
@@ -3282,14 +3282,14 @@
       "chapter": "book_viii",
       "speaker": "narrator",
       "actor": "lin_yue",
-      "background": "ash_bridge_foundry",
+      "background": "west_kiln_home",
       "effect": "none",
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "4: Second pair"
       },
       "text": "At supper, her mother asked whether she would continue. Yue said yes, then named the money, teachers, materials and recovered tests she would need before the next pair. The answer was longer than a vow and smaller than a legend. She slept in the familiar room with the certificate on a dry shelf. Tomorrow would begin with ordinary food, ordinary chores and a body worth preserving for the cultivation still ahead.",
-      "next": "foundry_end_home"
+      "next": "foundry_home_007"
     },
     "foundry_end_survey": {
       "chapter": "book_viii",
@@ -3308,7 +3308,7 @@
       "chapter": "book_viii",
       "speaker": "narrator",
       "actor": "lin_yue",
-      "background": "lower_training_terrace",
+      "background": "west_kiln_home",
       "effect": "none",
       "cultivation": {
         "realm": "qi_gathering",
@@ -3316,6 +3316,45 @@
       },
       "text": "At home, Yue set the spoon rest beneath an ordinary work brush. The fourth-stage certificate stayed dry beside the patched tablet. Her mother's repaired roof still needed inspection after rain, and rice still needed the right distance from the kiln vent. Cultivation had changed what Yue could carry through her two tested routes. It had not made the familiar household disappear. She slept with a plan for the next teacher, paid copper for the next journey and hands that could still take up tomorrow's work.",
       "ending": "The Gate Brought Home"
+    },
+    "foundry_home_007": {
+      "chapter": "book_viii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "west_kiln_home",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Her mother spoke of the lake without opening the jade. The old technique's cost had not been restored by the passing years; ordinary work remained fitted around the damaged route. Yue's new pair could not repair it. The afternoon beside the star had been an offered kindness with a price, not evidence of a superior family root. Her mother could still teach clay, herb labels and ordinary breath. Safe internal-route instruction had required teachers whose present methods and capacity could be inspected.",
+      "next": "foundry_home_008"
+    },
+    "foundry_home_008": {
+      "chapter": "book_viii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "west_kiln_home",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "'I should have explained more before you left,' her mother said. 'I told you the pendant was a memory and where to take it when travel was safe. I avoided the cost because I could not bear making it the first thing you inherited from me. Silence did not make it safer.' Yue kept that admission beside Yun's different delay. Neither account made the years simple. It did let them speak now without pretending someone had stolen a memory from either of them.",
+      "next": "foundry_home_009"
+    },
+    "foundry_home_009": {
+      "chapter": "book_viii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "west_kiln_home",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Yue described the manual escape, the star's confirmed terms and the qualified operators who had carried the mountain's load. Her part had used a tested first-stage relay. She did not offer a claim to have healed the star or solved the lost years. Her mother listened, then set the rice bowls down with both ordinary hands. The account belonged to work already completed under whichever support plan the mountain had taken. At home, its meaning could remain personal without becoming a new cultivation technique.",
+      "next": "foundry_end_home"
     }
   }
 }
