@@ -33,3 +33,19 @@ Each retained PNG is a new image-generation output. Maximum native detail was re
 | mountain_archive_autumn_courtyard | 1672×941 | RGB | `0a1cd6b8a351108409213acf1d2478812d5d7705` |
 | mountain_archive_winter_village | 1672×941 | RGB | `ce78e8ef72786f6ef14c5afd01851380e34d34e8` |
 | mountain_archive_winter_courtyard | 1672×941 | RGB | `92d603f3d121ec100df9f7f77cc728aa2260e7ae` |
+| zhu_yan | 1024×1536 | RGBA | `9449ed5b9d79b44fbf4cde143de7bd8612cf5446` |
+| jian_rong | 1024×1536 | RGBA | `d6e7626bb9847c1420282811cb269df0d7c21cab` |
+| han_xun | 1024×1536 | RGBA | `35aec5e2c65173952b45fdfea23e7c94a21ba7ff` |
+| tuo_yin | 1024×1536 | RGBA | `5ba9a394b96d23815df7a042249dda78a0e56709` |
+| du_she | 1024×1536 | RGBA | `eff7e0d54364d1b9a1002e3fa2e4c3219b651443` |
+| bao_sun | 1024×1536 | RGBA | `6e73bf38f1866a43eaaba1fa42df127bf90bd484` |
+| luo_zhimo | 1024×1536 | RGBA | `cee6cb1f256879429b6c1b7ebb89e2673440066c` |
+| tan_ke | 1024×1536 | RGBA | `84471ab167cc1b09e5f0167b18a9ffb97b557394` |
+| he_xi | 1024×1536 | RGBA | `d5c259cc6b5197f337f4f055006baa5593dc88ae` |
+| sun_nian | 1024×1536 | RGBA | `1276bf2ed29fdfddf9065043b41f1d18e158a4e5` |
+| harbor_sui_yan | 1024×1536 | RGBA | `75fffc308548dc634612cc654adf93d7c7897983` |
+| harbor_han_pei | 1024×1536 | RGBA | `e82aefaccdc71f3dab6e8497ac61c44b5123189b` |
+| harbor_yan_su | 1024×1536 | RGBA | `432a7b5db97914ae33c060304052f124d405bea2` |
+| harbor_qin_shuo | 1024×1536 | RGBA | `eeb46421fef1ec02d8158a1ea76731ef1d992b1d` |
+
+The rejected Sun Nian output placed her cloudy eye on the wrong side and is excluded. The retained independent original has the cloudy anatomical left eye, on the viewer's right. All thirty principal cast portraits and thirteen environments are now retained; playable story participation will be checked at complete book integration.
