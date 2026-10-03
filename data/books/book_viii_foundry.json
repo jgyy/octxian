@@ -20,6 +20,11 @@
       "name": "Zhen",
       "title": "Ceramic worker and second-stage apprentice",
       "color": "#acbecb"
+    },
+    "yue_mother": {
+      "name": "Lin Yue's Mother",
+      "title": "Worker of the west village kiln",
+      "color": "#c6b49c"
     }
   },
   "nodes": {
@@ -3255,7 +3260,7 @@
     "foundry_home_004": {
       "chapter": "book_viii",
       "speaker": "narrator",
-      "actor": "lin_yue",
+      "actor": "yue_mother",
       "background": "west_kiln_home",
       "effect": "none",
       "cultivation": {
@@ -3268,7 +3273,7 @@
     "foundry_home_005": {
       "chapter": "book_viii",
       "speaker": "narrator",
-      "actor": "lin_yue",
+      "actor": "yue_mother",
       "background": "west_kiln_home",
       "effect": "none",
       "cultivation": {
@@ -3281,7 +3286,7 @@
     "foundry_home_006": {
       "chapter": "book_viii",
       "speaker": "narrator",
-      "actor": "lin_yue",
+      "actor": "yue_mother",
       "background": "west_kiln_home",
       "effect": "none",
       "cultivation": {
@@ -3320,7 +3325,7 @@
     "foundry_home_007": {
       "chapter": "book_viii",
       "speaker": "narrator",
-      "actor": "lin_yue",
+      "actor": "yue_mother",
       "background": "west_kiln_home",
       "effect": "none",
       "cultivation": {
@@ -3333,7 +3338,7 @@
     "foundry_home_008": {
       "chapter": "book_viii",
       "speaker": "narrator",
-      "actor": "lin_yue",
+      "actor": "yue_mother",
       "background": "west_kiln_home",
       "effect": "none",
       "cultivation": {
@@ -3346,7 +3351,7 @@
     "foundry_home_009": {
       "chapter": "book_viii",
       "speaker": "narrator",
-      "actor": "lin_yue",
+      "actor": "yue_mother",
       "background": "west_kiln_home",
       "effect": "none",
       "cultivation": {
