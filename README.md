@@ -50,7 +50,7 @@ Ranks advance at **3, 6, and 10 points**. The highest rank does not cap your poi
 
 Continue from any Book I ending using the **→** continuation button. Su Lan leads you into Salt Lantern Valley, where a protective ward has erased nineteen households from the village register. Investigate the ferry boundary, meet the accused Reed Listener, or examine altered records in the archive. Each investigation offers three approaches, costs, and testimony before a final settlement.
 
-The **World** gallery previews the delivered locations, people, and spirit beasts. The new paintings are preserved at their native sizes: **1672×941** for all five backgrounds, **1024×1536** for each sprite and the clapper, and **1536×1024** for the echo case. Display scaling preserves proportions; no upscaling is presented as added detail. Choose **World → Interiors** for a larger preview of the extra interior paintings; the [interior inventory](docs/INTERIORS.md) records every native file and size.
+The **World** gallery previews the delivered locations, people, and spirit beasts. The new paintings are preserved at their native sizes: **1672×941** for the five earlier backgrounds, **1024×1536** for each sprite and the clapper, and **1536×1024** for the echo case. Display scaling preserves proportions; no upscaling is presented as added detail. Choose **World → Interiors** for a larger preview of the extra interior paintings; the [interior inventory](docs/INTERIORS.md) records every native file and size.
 
 ![Book II quest choices](docs/screenshots/quest_hub.png)
 
