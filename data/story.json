@@ -169,7 +169,7 @@
           "text": "Keep the jade wrapped until its circuit is explained.",
           "next": "guard",
           "effects": {
-            "resolve": 2
+            "trust": 2
           }
         }
       ],
@@ -371,8 +371,7 @@
           "text": "Ask the exile what the star wants.",
           "next": "star_wants",
           "effects": {
-            "insight": 2,
-            "trust": 1
+            "insight": 3
           }
         },
         {
@@ -386,8 +385,7 @@
           "text": "Ask Elder Yun why she waited.",
           "next": "waiting",
           "effects": {
-            "resolve": 2,
-            "insight": 1
+            "trust": 3
           }
         }
       ],
@@ -520,10 +518,10 @@
           "text": "Signal the mountain's controlled landing.",
           "next": "release",
           "effects": {
-            "resolve": 1
+            "trust": 1
           },
           "requires": {
-            "resolve": 3
+            "insight": 3
           }
         },
         {
@@ -735,7 +733,7 @@
           "text": "Follow the ferry and find who moved the boundary.",
           "next": "ferry_departure",
           "effects": {
-            "trust": 1
+            "insight": 1
           }
         },
         {
@@ -749,7 +747,7 @@
           "text": "Visit the archive and trace the missing names.",
           "next": "archive_door",
           "effects": {
-            "resolve": 1
+            "insight": 1
           }
         }
       ],
@@ -841,8 +839,7 @@
           "text": "Raise the stone publicly, keeping its protective ward intact.",
           "next": "ferry_raise",
           "effects": {
-            "qi": 1,
-            "resolve": 1
+            "qi": 2
           }
         },
         {
@@ -1279,7 +1276,7 @@
           "text": "Publish the original land clauses and every condition, preserving private debts.",
           "next": "archive_publish",
           "effects": {
-            "resolve": 2
+            "trust": 2
           }
         },
         {
@@ -1431,10 +1428,7 @@
       "choices": [
         {
           "text": "Open the crossing and share responsibility for its ward.",
-          "next": "lantern_crossing",
-          "requires": {
-            "trust": 3
-          }
+          "next": "lantern_crossing"
         },
         {
           "text": "Teach the bell to wait for an answer before enforcing a boundary.",
@@ -1869,7 +1863,7 @@
           "text": "Let Mo Ran identify himself and offer his receipt.",
           "next": "river_call",
           "effects": {
-            "trust": 1
+            "insight": 1
           }
         },
         {
@@ -1883,7 +1877,7 @@
           "text": "Listen at the boundary without crossing it.",
           "next": "river_listen",
           "effects": {
-            "resolve": 1
+            "insight": 1
           }
         }
       ],
@@ -2073,7 +2067,7 @@
           "text": "Negotiate a new return place with the owner and spirit.",
           "next": "river_return_terms",
           "effects": {
-            "trust": 1
+            "insight": 1
           }
         },
         {
@@ -2087,7 +2081,7 @@
           "text": "Arrange a temporary harbor while every owner is contacted.",
           "next": "river_harbor_terms",
           "effects": {
-            "resolve": 1
+            "insight": 1
           }
         }
       ],
@@ -2261,7 +2255,7 @@
           "text": "Reserve a supported watch and a date to reconsider.",
           "next": "return_later",
           "effects": {
-            "resolve": 1
+            "trust": 1
           }
         }
       ],
@@ -2561,7 +2555,7 @@
     "stair_test": {
       "speaker": "narrator",
       "actor": "lin_yue",
-      "text": "Before the old ferry approached, Wei Xiu brought an empty boat down the route and turned it under full load. Luo Fen walked the ramp carrying two sacks of sand. Su Lan tested the rail with her whole weight. Lin Yue wanted to lend qi to the joints. The carpenter refused: the platform had to remain safe on a day when no cultivator visited.",
+      "text": "Before the old ferry approached, Wei Xiu tested an ordinary boat with secured sand ballast equal to its rated load and no passengers. She turned it along the surveyed route while two crew members watched from shore. Luo Fen carried two sand sacks over the ramp; the carpenter checked deflection and fasteners separately. Su Lan tested the rail. Lin Yue kept her field closed. Unfueled joints had to carry the design load after every visitor left. A successful turn did not replace the carpenter's signed structural check.",
       "next": "stair_spirit",
       "chapter": "book_iii",
       "background": "sheltered_reach",
@@ -2700,7 +2694,7 @@
           "text": "Fund eight days, with a reserve for moving to safety.",
           "next": "harbor_eight_days",
           "effects": {
-            "resolve": 1
+            "trust": 1
           }
         },
         {
@@ -2999,24 +2993,21 @@
           "text": "Trace the disconnected circuit with a measured breath.",
           "next": "orchard_circuit",
           "effects": {
-            "qi": 2,
-            "resolve": 1
+            "qi": 3
           }
         },
         {
           "text": "Share the patients' meal and hear what they need.",
           "next": "orchard_meal",
           "effects": {
-            "trust": 2,
-            "resolve": 1
+            "trust": 3
           }
         },
         {
           "text": "Compare winter allocations with the original treatment terms.",
           "next": "orchard_ledger",
           "effects": {
-            "insight": 2,
-            "resolve": 1
+            "insight": 3
           }
         }
       ],
@@ -3205,19 +3196,14 @@
           "text": "Offer a paid rota that includes help beyond treatment.",
           "next": "orchard_care_rota",
           "effects": {
-            "trust": 1,
-            "resolve": 1
-          },
-          "requires": {
-            "trust": 4
+            "trust": 2
           }
         },
         {
           "text": "Separate relief funding and publish the new accounting.",
           "next": "orchard_fund_terms",
           "effects": {
-            "insight": 1,
-            "trust": 1
+            "insight": 2
           },
           "requires": {
             "insight": 4
@@ -3227,7 +3213,7 @@
           "text": "Pause exchanges for seven days and provide ordinary care.",
           "next": "orchard_pause",
           "effects": {
-            "resolve": 2
+            "trust": 2
           }
         }
       ],
@@ -3242,7 +3228,7 @@
       "chapter": "book_iv",
       "speaker": "narrator",
       "actor": "lin_yue",
-      "text": "Three patients agreed to a paced-breathing trial beside their ordinary care. Lin Yue set a grounded copper reference wick on the table, supplied one small timing pulse, and discharged. No qi entered a patient or the treatment contact. The matron led an easy ordinary rhythm. One person found the ache easier to bear for a quarter hour; another became dizzy and stopped; the aunt felt no change. Yun recorded all three results. The visible cue supplied timing, never spiritual healing or a guaranteed remedy.",
+      "text": "Three patients offered one short paced-breathing trial beside ordinary care. Lin Yue gave the grounded wick a quarter-unit timing pulse through the first arm pair and discharged. The matron led an easy rhythm without qi entering a patient. One person found the ache easier for a quarter hour. Another grew dizzy and stopped; the matron sat with them and recorded an interrupted trial. The aunt felt no change. Yun kept all three outcomes, the stopping time and the wick allowance. The cue established timing, not treatment or restored tissue.",
       "next": "orchard_breath_limits",
       "background": "orchard_healing_hall",
       "effect": "qi",
@@ -3749,24 +3735,21 @@
           "text": "Compare the masks, substituted collars, and return tokens.",
           "next": "city_mask_entry",
           "effects": {
-            "qi": 2,
-            "insight": 1
+            "insight": 3
           }
         },
         {
           "text": "Trace the recognition batch through licenses and courier charges.",
           "next": "city_registry_entry",
           "effects": {
-            "insight": 2,
-            "resolve": 1
+            "insight": 3
           }
         },
         {
           "text": "Test the offered wax traces against dispatch controls.",
           "next": "city_perfumer_entry",
           "effects": {
-            "trust": 2,
-            "insight": 1
+            "insight": 3
           }
         }
       ],
@@ -3943,11 +3926,10 @@
           "text": "Bridge three nights with voluntarily offered furnace-hour credit.",
           "next": "city_credit_bridge",
           "requires": {
-            "qi": 3
+            "insight": 3
           },
           "effects": {
-            "qi": 1,
-            "insight": 1
+            "insight": 2
           }
         },
         {
@@ -3957,26 +3939,21 @@
             "insight": 3
           },
           "effects": {
-            "insight": 1,
-            "trust": 1
+            "insight": 2
           }
         },
         {
           "text": "Help workers form their own limited licensing cooperative.",
           "next": "city_license_pool",
-          "requires": {
-            "trust": 3
-          },
           "effects": {
-            "trust": 1,
-            "resolve": 1
+            "trust": 2
           }
         },
         {
           "text": "Pause the disputed batch for a dated individual audit.",
           "next": "city_batch_audit",
           "effects": {
-            "resolve": 2
+            "trust": 2
           }
         }
       ],
@@ -4246,8 +4223,7 @@
           "text": "Compare the job dates and drying board.",
           "next": "city_mask_dates",
           "effects": {
-            "insight": 2,
-            "resolve": 1
+            "insight": 3
           },
           "requires": {
             "insight": 5
@@ -4257,8 +4233,7 @@
           "text": "Ask the workers to reconstruct their fittings.",
           "next": "city_mask_workers",
           "effects": {
-            "trust": 2,
-            "resolve": 1
+            "insight": 3
           }
         }
       ],
@@ -4271,7 +4246,7 @@
       "chapter": "book_v",
       "speaker": "narrator",
       "actor": "lin_yue",
-      "text": "Lin Yue set her palm beside the collar, leaving its clasp open. A small breath of qi ran through the practice strand Qiao had laid beneath it. Light reached the red knot and stopped, then caught again in a finer loop pasted across the gap. The loop had been added to an already closed lattice. She marked both ends on Qiao's drawing while the collar stayed dark. The useful seam was a map of joins; she did not need to wear the portrait to read it.",
+      "text": "Qiao laid an isolated practice strand beneath the offered collar. Lin Yue checked the blank, supplied a quarter-unit through her first arm pair and recorded the smaller delivered trace. The strand lit its own copied joins; no qi entered the mask. A red knot and pasted finer loop appeared on the ordinary comparison drawing. Yue marked their ends, then discharged before Qiao moved the collar. The drawing located an added join. It could not identify the hand that made it or certify the concealed material without another test.",
       "background": "mask_makers_studio",
       "effect": "none",
       "next": "city_mask_seam_result",
@@ -4536,27 +4511,21 @@
             "insight": 5
           },
           "effects": {
-            "insight": 2,
-            "resolve": 1
+            "insight": 3
           }
         },
         {
           "text": "Ask willing workers to confirm their receipts.",
           "next": "city_registry_witness_door",
-          "requires": {
-            "trust": 4
-          },
           "effects": {
-            "trust": 2,
-            "insight": 1
+            "insight": 3
           }
         },
         {
           "text": "Reconcile the payment slips Tao provides.",
           "next": "city_registry_charges_table",
           "effects": {
-            "resolve": 2,
-            "insight": 1
+            "insight": 3
           }
         }
       ],
@@ -4911,19 +4880,14 @@
           "text": "Invite willing workshop tenants to compare the coded trays.",
           "next": "city_perfumer_trust_compare",
           "effects": {
-            "trust": 1,
-            "insight": 1
-          },
-          "requires": {
-            "trust": 4
+            "insight": 2
           }
         },
         {
           "text": "Use the vacant loom bay for a slow strip comparison.",
           "next": "city_perfumer_drying_bay",
           "effects": {
-            "resolve": 1,
-            "insight": 1
+            "insight": 2
           }
         }
       ],
