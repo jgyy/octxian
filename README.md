@@ -30,7 +30,7 @@ If your Godot executable is named `godot4`, replace `godot` with `godot4` in bot
 - **S:** save. **L:** open the dialogue journal. **C:** open attributes. **Esc:** close a panel or open settings.
 - The interface provides save/load, auto reading, fast text, an animated wardrobe gallery, audio levels, and reduced motion.
 
-The playable script contains **1,137 scenes and 98,705 authored words** across six books, with cultivation stats and gated choices. Book I has three endings; each continues into Book II, which has three investigations and four settlements. Every settlement continues into Book III, with three river routes, six settlement approaches, and three endings. Each continues into Book IV's orchard, with three investigations and four settlements. Every orchard outcome continues into Book V, with three city investigations and four resolutions. Each city resolution continues into Book VI, with four investigations, local branch choices and four bounded court remedies.
+The playable script contains **1,394 scenes and 122,882 authored words** across seven books, with cultivation stats and gated choices. Book I has three endings; each continues into Book II, which has three investigations and four settlements. Every settlement continues into Book III, with three river routes, six settlement approaches, and three endings. Each continues into Book IV's orchard, with three investigations and four settlements. Every orchard outcome continues into Book V, with three city investigations and four resolutions. Each city resolution continues into Book VI, with four investigations, local branch choices and four bounded court remedies. Every court outcome continues into Book VII's three river investigations and three owner-approved arrangements.
 
 This draft expansion currently adds **seven original-scope backgrounds, 32 extra building-interior backgrounds, thirteen human NPC sprites, six spirit-beast sprites, and two inspectable item paintings** at their native generated sizes. The original 100-background quota, 500 human NPCs, 501 spirit beasts and more than one million words remain unfinished. The separate extra 100-interior quota has 32 delivered paintings. Run `python tools/validate_world.py --require-complete` to check all quotas. CI writes exact delivery counts to `build/content_report.json`.
 
@@ -88,7 +88,7 @@ Ren Qiao and the Frostroot Hart have new independent native **1024×1536** portr
 
 ![The Frostroot Hart](docs/screenshots/orchard_spirit.png)
 
-The full production target is **more than one million displayed prose words and 1,001 unique world sprites: 500 humans and 501 spirit beasts**, alongside the existing background quotas. Current delivery is **98,705 words and 19 original world sprites**. This expansion remains unfinished.
+The full production target is **more than one million displayed prose words and 1,001 unique world sprites: 500 humans and 501 spirit beasts**, alongside the existing background quotas. Current delivery is **122,882 words and 19 original world sprites**. This expansion remains unfinished.
 
 ## Book V: The city of borrowed faces
 
@@ -122,6 +122,14 @@ Book VI adds **784 scenes and 75,090 displayed prose words**, four independent h
 ![Four inquiry routes](docs/screenshots/court_investigation_choice.png)
 
 ![Bounded court remedies](docs/screenshots/court_final_choice.png)
+
+## Book VII: The circle that kept a crossing
+
+Return to the river three days after the court review. Follow the reed-channel maintenance record, volunteered archive extracts, or Wei Jin's damaged former ferry approach. Each team brings independent evidence to a common comparison. The third ring stays sealed while its living owner is identified through offered records.
+
+Wei Jin separately accepts a closed return, three paid custody watches with review, or no return today under existing protection. The choice arranges tonight's work; it grants no listening permission. This book adds **257 scenes and 24,177 original displayed words**, bringing delivery to **122,882 words**. **877,119 words remain** toward the strict million-word target.
+
+Failed save replacement preserves a verified prior checkpoint; a missing primary can recover that backup. Scene transitions resume effects after dismissing a popup. Narration generation retains completed clips after a failed batch, and the Godot loader rejects duplicate JSON keys.
 
 ## Clothing options
 
@@ -163,7 +171,7 @@ The twelve resting portraits come from the original GPT artwork. Body bobbing pr
 | Animation playback | Sprite2D whole-body bobbing on a four-second loop |
 | Music | Original 48-second pentatonic plucked-string composition |
 | Sound effects | Page, bell, qi channeling, and sword |
-| AI voices | Piper neural narration for all 1,137 scenes; one Lessac narrator timbre with character pacing |
+| AI voices | Piper neural narration for all 1,394 scenes; one Lessac narrator timbre with character pacing |
 
 Portraits are extracted from GPT artwork and bobbed by Godot at runtime. The game has no lip sync. See [art provenance](assets/art/PROVENANCE.md) and the generated voice model card for sources and licensing.
 
@@ -194,7 +202,7 @@ flowchart TD
     GPT["GPT Images · resting portraits"] --> Prep["Python portrait extraction"]
     Prep --> Portraits["12 intact outfit portraits"]
     Portraits --> Cast["Sprite2D cast · whole-body bob"]
-    JSON["Story manifest and books · 1,137 scenes"] --> State["Story state · choices · stats"]
+    JSON["Story manifest and books · 1,394 scenes"] --> State["Story state · choices · stats"]
     Canon["Continuity ledger · required evidence checkpoints"] --> Verify
     Effects["Scene effects · reduced motion"] --> UI
     State --> UI["Godot interface · journal · saves"]

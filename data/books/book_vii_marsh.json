@@ -1,0 +1,636 @@
+{
+  "chapters": {},
+  "characters": {},
+  "nodes": {
+    "ring_marsh_entry": {
+      "chapter": "book_vii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "north_landing",
+      "effect": "none",
+      "text": "The north landing smelled of wet rope and the green bitterness of cut reeds. Three days had passed since the court's Day Seven review; spring still moved through the valley in unsettled showers. Lin Yue found Wei Xiu testing a sounding pole against the bottom step. Across the sheltered water, the Mooring Eel rested inside the berth's marked margin. Its third ring remained closed. The old question had survived the journey through orchard, city, and court, without becoming permission to listen. Today they would look for a physical record of its keeping.",
+      "next": "ring_marsh_remit"
+    },
+    "ring_marsh_remit": {
+      "chapter": "book_vii",
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "background": "north_landing",
+      "effect": "none",
+      "text": "I have come to ask about the outside of the third ring and the papers used to maintain it. I am not asking you to let us hear its echo. A name might be found in a charter, or might remain hidden behind a name we do not recognize. Either way, an exterior observation has its own limits. If the ring cannot be safely shown, we can begin with your ledger. We also need to know what work you are willing to do today, before we make a day's plan around you.",
+      "next": "ring_marsh_xiu"
+    },
+    "ring_marsh_xiu": {
+      "chapter": "book_vii",
+      "speaker": "wei_xiu",
+      "actor": "wei_xiu",
+      "background": "north_landing",
+      "effect": "none",
+      "text": "My father completed the grain crossing and offered his own account before our teams separated. Nobody has told him that this ring is his, because nobody has proved it. An old charter name could belong to him; it could also belong to somebody who worked beside him. I have agreed to pilot our little boat to the high-bank rack and back while this weather holds. That is one trip, with a sheltered stop halfway. Ordinary landing safety work continues here. Our investigation cannot quietly turn those checks into an extra unpaid watch.",
+      "next": "ring_marsh_eel"
+    },
+    "ring_marsh_eel": {
+      "chapter": "book_vii",
+      "speaker": "mooring_eel",
+      "actor": "mooring_eel",
+      "background": "sheltered_reach",
+      "effect": "none",
+      "text": "I can show the ring's outer surface here, above the water, without loosening its inner seal. My maintenance book describes the loops that keep entrusted things from knocking against the hull. It does not contain the echoes themselves. The keeper stored its older leaves at the high bank when damp began to eat the binding. I will lend you the leaves concerning that repair. Other people's entries stay covered. My permission is for this comparison and a narrow account at your meeting, not for making every deposit into public curiosity.",
+      "next": "ring_marsh_exterior_terms"
+    },
+    "ring_marsh_exterior_terms": {
+      "chapter": "book_vii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "sheltered_reach",
+      "effect": "none",
+      "text": "Wei Xiu placed a clean board on two low rests and checked that it did not bridge the water. The Eel would remain in the berth throughout the examination, with nobody fastening it to the board. The ring could be presented against a dark cloth while its inner face stayed turned away. Lin Yue wrote those simple terms on the viewing sheet. She left a second space for any limit the Eel might add after seeing the arrangement. The spirit tested the board's shadow, then asked that the lamp be kept well back.",
+      "next": "ring_marsh_gear"
+    },
+    "ring_marsh_gear": {
+      "chapter": "book_vii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "high_bank_boathouse",
+      "effect": "none",
+      "text": "Inside the boathouse, rain tapped the roof in quick, uneven fingers. Wei Xiu packed a sounding pole, spare lashings, two dry wraps, and a shallow box for the offered leaves. Lin Yue checked her sword's fastening so its edge would remain covered among the reeds. Her pendant rested against her ribs, ordinary warmth beneath damp cloth. It offered no charter name and no convenient answer from the river. The Reed Listener arrived carrying a little bundle of spring shoots. It placed them beside the box and watched the wind move through them.",
+      "next": "ring_marsh_training"
+    },
+    "ring_marsh_training": {
+      "chapter": "book_vii",
+      "speaker": "wei_xiu",
+      "actor": "wei_xiu",
+      "background": "high_bank_boathouse",
+      "effect": "none",
+      "text": "Before we push off, practice stopping. Most visitors practice a grand movement and assume the stopping will happen afterward. Stand with one foot beside the bench and let the boat's motion reach your knees. If you brace everything, the force travels into the gunwale and spends my balance as well as yours. You can use a slow breath to soften that response, or learn the deck's movement by shifting your feet. Either practice takes attention. Neither makes you our pilot. When I call hold, let the movement end where it is.",
+      "next": "ring_marsh_practice_choice"
+    },
+    "ring_marsh_practice_choice": {
+      "chapter": "book_vii",
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "background": "high_bank_boathouse",
+      "effect": "none",
+      "text": "The hull gave a small creak as Wei Xiu stepped aboard, and the benches lifted under my hands. At the court I had learned how a sheltered object could still need dry handling; a cabinet's floor did not rock beneath it. Here a useful breath would have to travel with a moving floor. I could begin by quieting the surge through my meridians, or by learning where my weight belonged without drawing qi. Both would teach me something the first proud sweep of a sword could easily conceal.",
+      "choices": [
+        {
+          "text": "Practice a breath that can stop.",
+          "next": "ring_marsh_breath"
+        },
+        {
+          "text": "Learn the boat through shifting feet.",
+          "next": "ring_marsh_footing"
+        }
+      ]
+    },
+    "ring_marsh_breath": {
+      "chapter": "book_vii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "high_bank_boathouse",
+      "effect": "none",
+      "text": "Lin Yue chose a breath short enough to release before it became a spell. Pale warmth settled along her calves, then faded as the hull tipped. She nearly held it there by force. Wei Xiu touched the bench and said hold. Lin Yue let the current in her meridians end, leaving her knees loose. The boat rocked once and settled. The exercise cost little qi, but it exposed the familiar temptation to turn steadiness into control. She repeated it without light, following the ordinary rise and fall until she could stop on the word.",
+      "next": "ring_marsh_practice_rejoin"
+    },
+    "ring_marsh_footing": {
+      "chapter": "book_vii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "high_bank_boathouse",
+      "effect": "none",
+      "text": "Lin Yue left her qi quiet and watched the seam between two deck planks. As Wei Xiu shifted the hull, that seam rose toward one ankle and dipped beneath the other. She answered with a small change of weight instead of a clenched knee. Her first attempt sent a bench squealing against its peg. The second was less impressive and more useful. When Wei Xiu called hold, she stopped moving without locking herself rigid. By the fifth repetition, her thighs trembled. Learning the boat's language had a bodily cost even without a spell.",
+      "next": "ring_marsh_practice_rejoin"
+    },
+    "ring_marsh_practice_rejoin": {
+      "chapter": "book_vii",
+      "speaker": "reed_listener",
+      "actor": "reed_listener",
+      "background": "high_bank_boathouse",
+      "effect": "none",
+      "text": "The river does not know how much you practiced. It will still give you its next movement. I can point out the sheltered reed passages I know, and tell you when their growth has changed. I cannot hear the bottom through every wave. Wei Xiu's pole knows something my leaves do not. If the reeds gather tightly enough to close a passage, we will turn. I am coming because I agreed to guide this trip. The names I sheltered before remain their owners' affairs, beyond the papers in your box.",
+      "next": "ring_marsh_launch"
+    },
+    "ring_marsh_launch": {
+      "chapter": "book_vii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "north_landing",
+      "effect": "none",
+      "text": "They pushed off after Wei Xiu's final sounding. Lin Yue sat low beside the dry box while the Listener balanced a reed across its palms. The Eel watched from the berth, keeping the sealed ring with it. Its maintenance leaves would travel; its entrusted echo would not. Along the jetty, a child dropped a pebble and leaned to find the widening circles. Farther out, rain blurred those circles before they reached the boat. Wei Xiu took the outer channel slowly, where old ropes had been marked and the current left room for an ordinary turn.",
+      "next": "ring_marsh_reading_water"
+    },
+    "ring_marsh_reading_water": {
+      "chapter": "book_vii",
+      "speaker": "wei_xiu",
+      "actor": "wei_xiu",
+      "background": "north_landing",
+      "effect": "none",
+      "text": "See the foam beside that dark stump. Its upstream face is smooth, and the white water begins behind it. We keep clear of both until the pole tells me the depth. A pattern on top can suggest a buried obstruction, but it cannot tell me the shape of everything below. People like to compare a river to a memory. I prefer to know where my passengers put their feet. Keep the box under your bench for now. When I ask you to move, move the box after yourself, never instead of yourself.",
+      "next": "ring_marsh_listener"
+    },
+    "ring_marsh_listener": {
+      "chapter": "book_vii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "north_landing",
+      "effect": "none",
+      "text": "The Listener raised its reed, and the blade quivered toward the narrower passage. New shoots bent away from a mat of older stems lodged beside the bank. Lin Yue could smell mud warmed beneath shallow water. The route was no secret road into a spirit's thoughts; it was a channel the Listener had traveled and Wei Xiu could test. A kingfisher crossed them in a flash of hard blue. Behind it, the low sky brightened briefly, giving the bank's dry rack a pale outline through the taller reeds.",
+      "next": "ring_marsh_ledger_location"
+    },
+    "ring_marsh_ledger_location": {
+      "chapter": "book_vii",
+      "speaker": "reed_listener",
+      "actor": "reed_listener",
+      "background": "north_landing",
+      "effect": "none",
+      "text": "The keeper put the rack above the flood stain, under a roof of split bamboo. I saw her carry a wrapped book there while she was living. That is a memory of an ordinary visit, not a message she left in me to unfold today. After she died, I watched the reeds grow around the path. I do not know which pages remain. We will have to look with our eyes, and ask the Eel what it recognizes. A witness to a shelf is not a witness to everything once placed upon it.",
+      "next": "ring_marsh_direction"
+    },
+    "ring_marsh_direction": {
+      "chapter": "book_vii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "north_landing",
+      "effect": "none",
+      "text": "Wei Xiu sounded the channel twice before following the Listener's direction. The pole came up streaked with black mud, then scraped against something hard beneath the next stroke. She angled the boat away and marked the obstruction on her working chart. Lin Yue resisted the urge to stand for a better view. The high bank was closer now, but the approach curved behind a tongue of reeds. Beneath their rustling, she heard a softer drag along the water, as if somebody were pulling a heavy sleeve across the surface toward them.",
+      "next": "ring_marsh_knot"
+    },
+    "ring_marsh_knot": {
+      "chapter": "book_vii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "north_landing",
+      "effect": "none",
+      "text": "A rope end caught the stern's short safety lashing. Wei Xiu held the tiller steady while Lin Yue looked, keeping both hands inside the gunwale until the pilot named the task. It was a loose length of old cord, frayed and soft, without a load attached. Lin Yue lifted the snag with the blunt hook Wei Xiu passed her. The wet fibers fell away like an exhausted braid. They put the recovered cord in an empty corner of the boat rather than throwing it downstream. The small delay left them facing the drifting reeds.",
+      "next": "ring_marsh_channel"
+    },
+    "ring_marsh_channel": {
+      "chapter": "book_vii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "north_landing",
+      "effect": "none",
+      "text": "The reed mat slid from the side passage faster than the boat could clear it. Pale broken stalks lay across darker roots, making a floating floor that was no floor at all. Wei Xiu called hold and drew the bow toward the open water. Lin Yue let the boat's tilt enter her knees as they had practiced. The Listener lowered its guiding reed and watched the bank instead of the advancing mat. Something had shifted upstream. Their dry rack still stood within sight, but reaching it had ceased to be the most urgent task.",
+      "next": "ring_marsh_wire"
+    },
+    "ring_marsh_wire": {
+      "chapter": "book_vii",
+      "speaker": "wei_xiu",
+      "actor": "wei_xiu",
+      "background": "north_landing",
+      "effect": "none",
+      "text": "There is a fishing wire under that mat. I saw its marker yesterday, and the marker is gone today. We will not thrust a blade into it or try to drive straight through. Stay low. Listener, can you show me where the rooted reeds end? Yue, wait until I give you the spare pole. If the stern drifts against the stalks, push from the surface with its broad end. Do not plant it blindly into the bottom. We need room to turn; we do not need to conquer the channel.",
+      "next": "ring_marsh_halt"
+    },
+    "ring_marsh_halt": {
+      "chapter": "book_vii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "north_landing",
+      "effect": "none",
+      "text": "Lin Yue took the pole and held it parallel to the water while Wei Xiu backed one careful stroke. The Listener touched two green stems still fastened to the bank, then pointed beyond them. There was a narrow patch of open water, dark as a polished nail. Wei Xiu set the bow toward it. The drifting mat rubbed their stern with a noise like torn cloth. Lin Yue pressed the broad pole end against the loose stalks, feeling them yield in separate bunches. One hidden root held longer and sent a tremor through her wrists.",
+      "next": "ring_marsh_mat"
+    },
+    "ring_marsh_mat": {
+      "chapter": "book_vii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "north_landing",
+      "effect": "none",
+      "text": "A coil of fishing wire rose from the reeds. It flashed once, then tightened around a broken branch rather than the boat. Wei Xiu stopped rowing before their wake could draw it nearer. The Listener did not order the reeds to release them. It held a rooted stem steady so the pilot could see the remaining gap, then let it spring back untouched. Lin Yue tasted cold rain against her upper lip. The mat was moving enough to pinch the stern between itself and the bank unless they gained a little space.",
+      "next": "ring_marsh_probe"
+    },
+    "ring_marsh_probe": {
+      "chapter": "book_vii",
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "background": "north_landing",
+      "effect": "none",
+      "text": "I can give the pole a short pulse, directed through its broad end, to loosen the bunch beside us. I will stop after one breath. It will not reach the wire or search beneath the mat. If that pulse fails, I will leave the pole loose and follow your turn. Tell me where you want the stern before I begin. I have spent too many journeys trying to offer power before learning the shape of the task. This time I want the work to end where your judgment says it should.",
+      "next": "ring_marsh_drift"
+    },
+    "ring_marsh_drift": {
+      "chapter": "book_vii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "north_landing",
+      "effect": "none",
+      "text": "At Wei Xiu's nod, Lin Yue breathed once through the pole. Qi warmed the grain beneath her fingers and spread into a shallow pressure against the stalks. The nearest bunch slipped apart. It did not burst or ignite; water opened between stems, enough for the stern to slide. The spell pulled harder through her left arm than she expected. She stopped with the next exhale, and ordinary rain became suddenly cold against her skin. Wei Xiu used the new space immediately, turning the boat without asking the cultivator to hold it open.",
+      "next": "ring_marsh_oar"
+    },
+    "ring_marsh_oar": {
+      "chapter": "book_vii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "north_landing",
+      "effect": "none",
+      "text": "The oar caught clean water, then another reed root. Wei Xiu loosened her grip instead of wrenching against it. Lin Yue heard the handle knock softly against the rowlock. With the boat drifting free of the bank, the root slid off. They gained the open patch and turned into the wider reach. Behind them, the mat closed over their former course. No cheer rose from the boat. The Listener kept watching until the pale fishing wire disappeared beneath the stalks. Wei Xiu marked the blocked passage before doing anything about the distant rack.",
+      "next": "ring_marsh_weakness"
+    },
+    "ring_marsh_weakness": {
+      "chapter": "book_vii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "north_landing",
+      "effect": "none",
+      "text": "Lin Yue's fingers would not close evenly around the spare pole. She set it down before the weakness could surprise the pilot and rubbed her wrist against her sleeve. A thin ache traveled toward her elbow. The single pulse had been modest, but the moving resistance made it harder to judge than a stationary ward. She told Wei Xiu what hurt and where her grip felt unreliable. The admission changed their plan: no carrying the record box while stepping ashore, no second pulse to hurry them, and a rest at the sheltered bank.",
+      "next": "ring_marsh_refuge"
+    },
+    "ring_marsh_refuge": {
+      "chapter": "book_vii",
+      "speaker": "wei_xiu",
+      "actor": "wei_xiu",
+      "background": "sheltered_reach",
+      "effect": "none",
+      "text": "The bank ahead has a gravel lip and a post I checked this morning. We can stop there without passing beneath that wire. I will secure the boat and carry the box after you are seated. Our route to the rack now uses the upper footpath, which the Listener knows and I can inspect. If the rain makes it unsafe, the ledger can wait. A record about keeping something safely should not require us to become careless on its behalf. Your arm needs ordinary warmth, and my shoulders would welcome a pause.",
+      "next": "ring_marsh_rest"
+    },
+    "ring_marsh_rest": {
+      "chapter": "book_vii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "sheltered_reach",
+      "effect": "none",
+      "text": "Under a willow, Lin Yue drank water from her own flask while Wei Xiu checked the short footpath. The Listener shook rain from its shoots, scattering bright drops across the mud. Somewhere beyond the bank, a frog called in the steady, indifferent rhythm of a creature with no interest in their investigation. The ache eased when Lin Yue rested her forearm on her knees. She counted no new mastery from the pulse. What she had gained was a clearer measure of the work she could offer, and a reason to trust the pilot's pause.",
+      "next": "ring_marsh_ledger_rack"
+    },
+    "ring_marsh_ledger_rack": {
+      "chapter": "book_vii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "sheltered_reach",
+      "effect": "none",
+      "text": "The high-bank rack stood beneath an overhanging bamboo roof. Its lowest shelf carried a pale water stain from a flood older than the last winter; the offered book rested higher, inside a lidded reed case. Wei Xiu tested each plank of the little approach before stepping onto it. Lin Yue remained on the firm path with her weakened hand tucked beneath her elbow. The Listener found no living nest inside the case roof. It announced that limited observation, then moved aside so the pilot could inspect the ordinary fastenings and the keeper's old inventory mark.",
+      "next": "ring_marsh_outer_boundary"
+    },
+    "ring_marsh_outer_boundary": {
+      "chapter": "book_vii",
+      "speaker": "wei_xiu",
+      "actor": "wei_xiu",
+      "background": "sheltered_reach",
+      "effect": "none",
+      "text": "The Eel's note names the upper case with three tied bands, and that is what we have here. I will open the outer lid, lift the offered sleeve, and leave the other sleeves tied. We cannot know their contents by reading the label of the one we need. The inventory mark will travel in a sketch beside the box. When we return, the Eel can tell us whether the offered sleeve is the right one. Until then, its location and label describe our retrieval; they do not authenticate every word inside.",
+      "next": "ring_marsh_dry_hands"
+    },
+    "ring_marsh_dry_hands": {
+      "chapter": "book_vii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "sheltered_reach",
+      "effect": "none",
+      "text": "Wei Xiu dried her hands with a cloth kept inside the spare wrap. Her fingers left no shining trail on the case lid. Beneath it, three flat sleeves rested against a wooden spacer. The upper sleeve wore a blue thread matching the Eel's description. She lifted that sleeve and checked the case bottom for loose scraps without untucking the others. Nothing lay there except a seed husk. Lin Yue drew the roof, shelf, and tied bands in her notebook. She omitted the neighboring private labels, which had no part in the authorized comparison.",
+      "next": "ring_marsh_covers"
+    },
+    "ring_marsh_covers": {
+      "chapter": "book_vii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "high_bank_boathouse",
+      "effect": "none",
+      "text": "They carried the sleeve back along the upper path and waited for a clearer patch of weather before the short return to the berth. By the time they reached the boathouse, the lamp had been lit under its low roof. The Eel recognized the blue thread and the repair sleeve's uneven corner. It agreed to compare the two offered leaves at the nearby viewing board. Wei Xiu placed a dry cloth beneath them. Lin Yue's drawing of the retrieval stayed separate, giving the afternoon's journey a trace without turning the journey itself into evidence of ownership.",
+      "next": "ring_marsh_first_page"
+    },
+    "ring_marsh_first_page": {
+      "chapter": "book_vii",
+      "speaker": "mooring_eel",
+      "actor": "mooring_eel",
+      "background": "sheltered_reach",
+      "effect": "none",
+      "text": "This is the outer maintenance hand, kept so a tired attendant could see which loop needed work. It numbers the entrusted rings by deposit token. The third ring is R-3 on these leaves. That number is a handling reference, not a personal name. The writer did not copy the owner line onto this repair page. I recognize the record's function and the token attached to the ring; I cannot supply the absent identity by recognizing the book. Read the work description, and keep its blank boundary visible in whatever account you take away.",
+      "next": "ring_marsh_chronology"
+    },
+    "ring_marsh_chronology": {
+      "chapter": "book_vii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "sheltered_reach",
+      "effect": "none",
+      "text": "The repair leaf carried a spring date earlier than the keeper's death. Wei Xiu set it beside the retained custody chronology instead of converting it into an exact anniversary. The keeper had died two summers before the party's first river inquiry; the east stair had been lost last winter. Those separate events still had separate places on the page. A later damage note mentioned damp at the binding and transfer to the high-bank rack. It did not say the echo had moved owners, or that the drowned stair had released any person's permission.",
+      "next": "ring_marsh_gap"
+    },
+    "ring_marsh_gap": {
+      "chapter": "book_vii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "sheltered_reach",
+      "effect": "none",
+      "text": "At the fold, a brown stain obscured the end of one maintenance sentence. Lin Yue read the clear words aloud and stopped at the damage. Wei Xiu copied the visible strokes, leaving a marked space where the stain began. Nobody rubbed or heated the paper to make it more helpful. The Eel remembered the book's ordinary use but did not remember what those missing strokes said. The silence was uncomfortable precisely because a plausible ending came so easily to mind. Lin Yue wrote that the sentence was incomplete before she wrote any possible interpretation.",
+      "next": "ring_marsh_diagram"
+    },
+    "ring_marsh_diagram": {
+      "chapter": "book_vii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "sheltered_reach",
+      "effect": "none",
+      "text": "Below the stained sentence, a small drawing showed the outer retaining loop flattened on a worktable. Its edge folded backward once, with two short transverse stitches crossing the long fold. The line beside it called this a replacement against rubbing. Wei Xiu held the leaf at an angle to distinguish ink from an old crease. Lin Yue followed the drawing with her good hand, stopping above the paper without touching it. The diagram described how a loop had been repaired. No face, voice, or remembered passenger appeared from the lines, however long she looked.",
+      "next": "ring_marsh_model"
+    },
+    "ring_marsh_model": {
+      "chapter": "book_vii",
+      "speaker": "wei_xiu",
+      "actor": "wei_xiu",
+      "background": "sheltered_reach",
+      "effect": "none",
+      "text": "We can make a loose model from this spare reed cloth before looking at the ring. That will help us see whether we understand the diagram without handling an entrusted object. I will fold it backward once and mark where the short stitches would cross. We will leave the model unsewn, so it cannot be mistaken for an old repair. If the diagram is unclear, the model must stay unclear. A neat new object can persuade us we understood an untidy old page even when the page never supplied that certainty.",
+      "next": "ring_marsh_waiting"
+    },
+    "ring_marsh_waiting": {
+      "chapter": "book_vii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "sheltered_reach",
+      "effect": "none",
+      "text": "Wei Xiu folded the cloth while the Eel remained quiet in the berth. Rain thinned to a drifting mist. Beyond the board, the water carried a little branch past without catching it on the marker rope. Lin Yue watched the spirit's body curve beneath the surface and thought of the earlier ferry circuit, the exhausting obedience to a landing that had vanished. They had changed its stopping place through agreement; they had not earned the contents of what it kept. She asked whether the Eel still wanted to show the outer loop this afternoon.",
+      "next": "ring_marsh_tray"
+    },
+    "ring_marsh_tray": {
+      "chapter": "book_vii",
+      "speaker": "mooring_eel",
+      "actor": "mooring_eel",
+      "background": "sheltered_reach",
+      "effect": "none",
+      "text": "Yes, for the comparison we described. Keep the cloth model on the board and your hands away from the ring. I can bring its outer edge above water for three slow breaths, then rest it again. If you need a second view, ask after that rest. The reed-cloth retaining loop wraps the bronze rim; its seam is outside the sealed inner face. It can be repaired without listening to the echo. Today we will not remove the loop, loosen the seal, or treat its wear as permission to do either.",
+      "next": "ring_marsh_lamp"
+    },
+    "ring_marsh_lamp": {
+      "chapter": "book_vii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "sheltered_reach",
+      "effect": "none",
+      "text": "Wei Xiu moved the lamp to the agreed distance and shaded it with a clean board. The light now struck across the viewing cloth, revealing ridges without warming the object. The Eel lifted the ring's outer edge. Water drained from bronze in three bright lines. Lin Yue could see the retaining cloth darken where it lay close to the rim, and a thicker place near its joining fold. She counted the slow breaths aloud so nobody's fascination could lengthen them unnoticed. At the third, the Eel lowered the ring into its own sheltered custody.",
+      "next": "ring_marsh_seam"
+    },
+    "ring_marsh_seam": {
+      "chapter": "book_vii",
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "background": "sheltered_reach",
+      "effect": "none",
+      "text": "I saw two short stitches across one long reverse fold on the outer retaining loop. That is the construction drawn beside R-3 in your repair leaf. I could not see every side, and I have not tested the thread's age. The bronze ring's inner seal stayed untouched. I want to record those observations separately from the interpretation that this may be the repair the page describes. Even a close material match does not tell me whose echo rests inside. The absent owner line is still absent after we have looked at the seam.",
+      "next": "ring_marsh_no_hearing"
+    },
+    "ring_marsh_no_hearing": {
+      "chapter": "book_vii",
+      "speaker": "reed_listener",
+      "actor": "reed_listener",
+      "background": "sheltered_reach",
+      "effect": "none",
+      "text": "I saw the cloth and the water falling from it. I heard your counting, the lamp's little hiss, and Wei Xiu shifting the board. I heard no echo because none was offered. Do not give my presence a greater meaning when you speak at the meeting. People know that I shelter names and may imagine I recognized one inside this ring. I did not. The skill I brought today was knowing a reed passage, and even that passage changed under spring water. Let my account remain small enough for me to answer it.",
+      "next": "ring_marsh_old_repair"
+    },
+    "ring_marsh_old_repair": {
+      "chapter": "book_vii",
+      "speaker": "mooring_eel",
+      "actor": "mooring_eel",
+      "background": "sheltered_reach",
+      "effect": "none",
+      "text": "The loop has remained outside my seal since the repair described in this sleeve. I know its place and the deposit token I keep with it. I do not know who made every stitch, and the repair leaf names no worker. The keeper sometimes accepted useful materials from passengers and sometimes repaired them herself. That was ordinary care around entrusted things, not a way to mark an owner forever. If another record has this same token, we can ask about its origin. Similar stitching alone cannot turn an old passenger's craft into ownership.",
+      "next": "ring_marsh_ruler"
+    },
+    "ring_marsh_ruler": {
+      "chapter": "book_vii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "sheltered_reach",
+      "effect": "none",
+      "text": "For the second view, Wei Xiu laid a ruler against the model rather than the ring. The Eel agreed to lift the outer edge once more after resting. Lin Yue compared the visible proportions without claiming an exact measurement across moving water. The short stitches appeared close together on either side of the fold's midpoint. The model helped her describe that spacing, but its fresh cloth looked smoother and wider. She wrote approximate beside the sketch. When the Eel lowered the ring, the comparison ended; no request to keep it above water followed.",
+      "next": "ring_marsh_mismatch"
+    },
+    "ring_marsh_mismatch": {
+      "chapter": "book_vii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "sheltered_reach",
+      "effect": "none",
+      "text": "A tiny frayed tuft on the actual loop had no counterpart in the diagram. Wei Xiu pointed it out before they filed the comparison as complete. The drawing might omit later wear, or might simplify the old repair; the afternoon could not decide between those explanations. Lin Yue added the tuft to her sketch with a separate note about when it was seen. She felt the relief of making the match less perfect and therefore more faithful. The record could support resemblance without swallowing every difference into a story that had already begun to feel persuasive.",
+      "next": "ring_marsh_shorthand"
+    },
+    "ring_marsh_shorthand": {
+      "chapter": "book_vii",
+      "speaker": "wei_xiu",
+      "actor": "wei_xiu",
+      "background": "sheltered_reach",
+      "effect": "none",
+      "text": "The margin says retaining loop renewed, not owner renewed, and not echo returned. I have seen repair shorthand confuse people who arrive hoping for a larger answer. R-3 labels the deposited thing for this work record. An old permit number would belong to another system. If somebody brings a permit, we will need a permitted record connecting the two systems before we claim they are the same person's trail. The drawing gives us a construction to compare. It does not let us read a missing name through the back of the paper.",
+      "next": "ring_marsh_not_owner"
+    },
+    "ring_marsh_not_owner": {
+      "chapter": "book_vii",
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "background": "sheltered_reach",
+      "effect": "none",
+      "text": "I came thinking my old ferryman might stand closer to this mystery than anyone knew. It is possible he does. It is possible an older charter name belongs to him, and possible it belongs to someone else. The river has supplied no answer to that choice. What we have is R-3, a repair description, and a visible exterior seam that resembles it. I will not carry the boat's danger or my tired arm into the meeting as proof that our guess deserves to become a fact. Effort does not fill an owner line.",
+      "next": "ring_marsh_reeds"
+    },
+    "ring_marsh_reeds": {
+      "chapter": "book_vii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "sheltered_reach",
+      "effect": "none",
+      "text": "Wind lifted the spare cloth model from one corner. Wei Xiu caught it before it reached the wet board, then placed a stone only on the clean margin of their working sheet. Across the reach, reeds leaned together with the hollow whisper that had preceded the drifting mat. The blocked channel would need its own ordinary notice for pilots. Lin Yue separated that notice from the ring report. Their afternoon had taught two useful things with different audiences: where a passage had become unsafe, and what a bounded exterior comparison could presently show about R-3.",
+      "next": "ring_marsh_review_choice"
+    },
+    "ring_marsh_review_choice": {
+      "chapter": "book_vii",
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "background": "sheltered_reach",
+      "effect": "none",
+      "text": "Before we carry this report to the common meeting, I can redraw the seam with the differences plainly visible, or ask the Eel to hear our limits in ordinary words. Wei Xiu will check the other part afterward. Neither task needs another view of the ring. I want the next reader to find the resemblance and its gaps without relying on our excitement beside the water. A careful drawing can make a claim look irresistible; a reassuring sentence can do the same. We should test whichever temptation I am most likely to overlook.",
+      "choices": [
+        {
+          "text": "Redraw the seam and its differences.",
+          "next": "ring_marsh_redraw"
+        },
+        {
+          "text": "Read the limits back to the Eel.",
+          "next": "ring_marsh_read_limits"
+        }
+      ]
+    },
+    "ring_marsh_redraw": {
+      "chapter": "book_vii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "sheltered_reach",
+      "effect": "none",
+      "text": "Lin Yue drew the diagram's fold on the left and the observed loop on the right. She marked the actual tuft, the limited viewing angle, and the absence of a measured width. Under the two sketches she wrote that both showed two short stitches crossing one long reverse fold. A separate line explained that the comparison concerned exterior construction, with thread age and maker unknown. Wei Xiu checked the notes against her own view. The new page looked less elegant than the first sketch, but a reader could now see where observation ended before resemblance became interpretation.",
+      "next": "ring_marsh_review_rejoin"
+    },
+    "ring_marsh_read_limits": {
+      "chapter": "book_vii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "sheltered_reach",
+      "effect": "none",
+      "text": "Lin Yue read the report's short account while the Eel listened from the berth. At recognized repair, the spirit stopped her. It recognized its custody token and the record sleeve, but the account had made that sound like recognition of the repair's maker. She changed the sentence to say exterior construction matches the offered diagram in the stated features. At keeping continues, the Eel asked her to retain the pilot's ordinary safety authority. She added that no new custody term had been decided. The report grew clearer through two corrections supplied by the one doing the keeping.",
+      "next": "ring_marsh_review_rejoin"
+    },
+    "ring_marsh_review_rejoin": {
+      "chapter": "book_vii",
+      "speaker": "wei_xiu",
+      "actor": "wei_xiu",
+      "background": "sheltered_reach",
+      "effect": "none",
+      "text": "The drawing names its limited view and the frayed tuft instead of hiding them. The short account distinguishes the Eel's custody recognition from any claim about a maker or owner. I checked the remaining page after your work, and these are the parts we can each sign. Our agreement is about what we observed and how the report describes it. It does not create an extra source for the old deposit. At the meeting, anyone offering another record should say whether it comes from this ledger or from an independent place.",
+      "next": "ring_marsh_damaged_leaf"
+    },
+    "ring_marsh_damaged_leaf": {
+      "chapter": "book_vii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "sheltered_reach",
+      "effect": "none",
+      "text": "The stained sentence remained tempting when they read the second leaf. Its surviving edge seemed to end in a shape that might belong to a familiar surname. Wei Xiu turned the paper toward the light and found the shape was partly a tear shadow. She kept that observation beside the incomplete transcription. Lin Yue did not erase her earlier doubt and replace it with a new certainty. The damage still prevented a full reading. They would offer the visible maintenance entries and the gap, without attaching a guessed person to the shadow of a damaged stroke.",
+      "next": "ring_marsh_prior_custodian"
+    },
+    "ring_marsh_prior_custodian": {
+      "chapter": "book_vii",
+      "speaker": "reed_listener",
+      "actor": "reed_listener",
+      "background": "sheltered_reach",
+      "effect": "none",
+      "text": "I remember the keeper carrying a roof tile under one arm and laughing because it was heavier than her book. That memory belongs to an afternoon when I helped her keep rain off the rack. It says something about the work she did while living. It cannot answer whom she meant on a leaf I never read. She died two summers before your first river visit. The stair's later loss was another event. Let the dead keep the work we witnessed, without making them speak every useful answer we wish they had written.",
+      "next": "ring_marsh_date_constraint"
+    },
+    "ring_marsh_date_constraint": {
+      "chapter": "book_vii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "sheltered_reach",
+      "effect": "none",
+      "text": "Wei Xiu compared the repair date with the outer sleeve's custody sequence. The entry preceded the high-bank transfer, and the transfer note belonged before the keeper's death. That order supported their reading of the sleeve as an old maintenance record. It did not establish when an owner's original memory occurred, or whether the ring had been entrusted under a familiar name. Lin Yue added the sequence in plain words beneath the dates. The present was three days after the court's review, one spring afternoon beside sheltered water; the old entries would not be stretched to answer newer questions.",
+      "next": "ring_marsh_no_charge"
+    },
+    "ring_marsh_no_charge": {
+      "chapter": "book_vii",
+      "speaker": "mooring_eel",
+      "actor": "mooring_eel",
+      "background": "sheltered_reach",
+      "effect": "none",
+      "text": "Our viewing is finished. I have not offered a further lifting of the ring, and nothing in your report should promise one. I am willing for the repair extract and your exterior sketch to go to the common meeting, with the stated limits. The original leaves stay in this dry sleeve under my control. If someone wants to compare another token with R-3, bring the permitted outside record here or ask me for a separately agreed comparison. I will not make the echo into payment for storage, a pilot's effort, or anybody's curiosity.",
+      "next": "ring_marsh_packing"
+    },
+    "ring_marsh_packing": {
+      "chapter": "book_vii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "sheltered_reach",
+      "effect": "none",
+      "text": "The offered leaves returned to their sleeve with the blue thread loose enough not to bruise the paper. Wei Xiu checked the pages against the retrieval list, then placed the sleeve in the Eel's covered dry case. Their extract traveled in the small box, plainly marked as a copy of two maintenance leaves. Lin Yue put the new seam sketch beside it and the incomplete sentence behind it. The unsewn cloth model remained at the worktable, tagged as today's model. Nobody would find it later and mistake its clean folds for a passenger's old possession.",
+      "next": "ring_marsh_upper_path"
+    },
+    "ring_marsh_upper_path": {
+      "chapter": "book_vii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "sheltered_reach",
+      "effect": "none",
+      "text": "A little gust carried cold water under the shelter roof. Wei Xiu lowered the viewing board and moved the lamp back to its usual place. The Eel settled deeper in the berth, with the ring's outer cloth hidden once more beneath the surface. Lin Yue could still picture the stitches, but the picture in her mind was her own recent observation, not something borrowed from inside the ring. She wrapped her sore wrist and followed the pilot along the upper path. The common meeting waited at the landing; the blocked reed passage would remain closed.",
+      "next": "ring_marsh_rain"
+    },
+    "ring_marsh_rain": {
+      "chapter": "book_vii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "north_landing",
+      "effect": "none",
+      "text": "On the walk back, rain began again in drops large enough to darken individual stones. Wei Xiu carried the report box beneath her cloak, leaving Lin Yue's tired arm free. The Listener chose the side of the path where roots held the mud, then paused whenever the footing changed. Lin Yue heard the river beyond the reeds without seeing it. The unseen water had carried their danger and now carried somebody else's ordinary journey. At a fork, Wei Xiu tied a temporary warning beside the channel notice, directing pilots toward the wider approach until they could inspect it.",
+      "next": "ring_marsh_ache"
+    },
+    "ring_marsh_ache": {
+      "chapter": "book_vii",
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "background": "north_landing",
+      "effect": "none",
+      "text": "My arm feels better when I stop pretending it is fully useful. The pulse moved reeds, and it also left me with an afternoon's weakness. At the court, we kept medical limits beside offered work. I should remember that rule when the offered body is mine. I can carry a notebook and speak at the meeting; I should not carry the box or offer another spell to save a few steps. Cultivation has given me more ways to help, and more ways to overstate what I can safely finish. Today the pilot's stopping word mattered.",
+      "next": "ring_marsh_same_way"
+    },
+    "ring_marsh_same_way": {
+      "chapter": "book_vii",
+      "speaker": "wei_xiu",
+      "actor": "wei_xiu",
+      "background": "north_landing",
+      "effect": "none",
+      "text": "You helped where I asked, and stopped when the space opened. That is useful work. The cost does not make the observation of the ring truer, though. We would still need the same limits if the whole afternoon had been easy. I will report the blocked channel through the ordinary pilot safety notice; I have not asked for a search through every reed bed. My father will hear the findings when he has agreed to his own part. Being my father does not make his papers available through my permission.",
+      "next": "ring_marsh_dry_landing"
+    },
+    "ring_marsh_dry_landing": {
+      "chapter": "book_vii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "north_landing",
+      "effect": "none",
+      "text": "At the landing, the afternoon crowd had thinned to a salt seller folding her awning and a boy counting the returned ferries. Wei Xiu set the report box on a dry bench and let the Listener's shoots rest beside it. Lin Yue drank another mouthful of water. Across the channel, the berth marker remained visible through the rain, with no sign that the Eel needed to move. The investigation had brought an old maintenance token into clearer view. The living river still required watching, and the people watching it still needed the rest their ordinary shifts allowed.",
+      "next": "ring_marsh_report"
+    },
+    "ring_marsh_report": {
+      "chapter": "book_vii",
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "background": "north_landing",
+      "effect": "none",
+      "text": "Our marsh report has four parts. The permitted outer sleeve identifies this ring as deposit R-3. Its diagram describes a retaining-loop repair with two short stitches across one long reverse fold. The Eel showed those features on the exterior reed-cloth loop, while the bronze ring's sealed inner face stayed untouched. Finally, the source has no owner line and one damaged sentence we could not complete. We have described a material correspondence, not identified a person. The common meeting may compare independent offered records, and must keep their permissions separate from the ring's contents.",
+      "next": "ring_marsh_xiu_reading"
+    },
+    "ring_marsh_xiu_reading": {
+      "chapter": "book_vii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "north_landing",
+      "effect": "none",
+      "text": "Wei Xiu read the short report once with her pilot's finger resting on the table. She corrected one phrase that made the inspection sound longer than two brief views with a rest between them. She added that exact width and thread age had not been measured. The changes did not weaken an established owner finding, because no such finding existed. They made the exterior observation easier to question accurately. Lin Yue initialed the corrections beside the earlier wording, preserving how the account had become narrower. The afternoon would reach the meeting with its own revision trail visible.",
+      "next": "ring_marsh_eel_account"
+    },
+    "ring_marsh_eel_account": {
+      "chapter": "book_vii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "north_landing",
+      "effect": "none",
+      "text": "The Eel's offered words traveled on a separate sheet: it recognized the sleeve and token in its custody, and had permitted the exterior comparison alone. Wei Xiu checked that this account did not imply the spirit had come ashore or attended another hearing. The Eel remained at the safe berth, doing the keeping it had agreed to do. Its words could be read at the common findings within the stated scope. If a later question needed more of the spirit, it would have to return as a question, with room for the spirit to decline.",
+      "next": "ring_marsh_listener_account"
+    },
+    "ring_marsh_listener_account": {
+      "chapter": "book_vii",
+      "speaker": "reed_listener",
+      "actor": "reed_listener",
+      "background": "north_landing",
+      "effect": "none",
+      "text": "My account can stay on this small page. I guided the boat toward a rack I remembered, saw the drifting reeds close a passage, and helped mark rooted growth while Wei Xiu turned. Later I witnessed two exterior views and heard no echo. My memory of the keeper's visit supports why I recognized the rack, not the identity of a depositor. If another investigator has found a name, let that investigator name the offered source. I would like the people listening to know which part belongs to my seeing and which part belongs elsewhere.",
+      "next": "ring_marsh_open_question"
+    },
+    "ring_marsh_open_question": {
+      "chapter": "book_vii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "north_landing",
+      "effect": "none",
+      "text": "Lin Yue placed the three accounts together without binding them into one speaker. She could imagine Wei Jin beneath the old charter name, his hands making the same small stitches years ago. She could also imagine another boatworker using a repair learned at the same landing. Those possibilities had become easier to describe and no easier to settle alone. The closed ring remained across the water with its custodian. A living person's authority over an echo would require more than an elegant seam and a daughter's familiarity with her father's work, however warmly those clues fitted together.",
+      "next": "ring_marsh_agreement"
+    },
+    "ring_marsh_agreement": {
+      "chapter": "book_vii",
+      "speaker": "wei_xiu",
+      "actor": "wei_xiu",
+      "background": "north_landing",
+      "effect": "none",
+      "text": "At the meeting, I will give our report before asking anyone to fit it to my father's story. We have brought what this route could learn. The other investigators will speak for the places they visited. If their papers narrow the owner question, we can ask the person concerned what further comparison they permit. We can also leave it unresolved if the links fail. Either outcome keeps the Eel's custody safe and the ring closed today. My boat can carry a bounded finding back to shore. It does not have to carry a verdict.",
+      "next": "ring_marsh_exit"
+    },
+    "ring_marsh_exit": {
+      "chapter": "book_vii",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "north_landing",
+      "effect": "none",
+      "text": "They lifted the box from the dry bench as the last shower loosened into mist. Lin Yue carried her notebook in her sound hand; Wei Xiu took the offered extracts, and the Listener walked beside the little bundle of shoots. At the common meeting's threshold, the marsh packet still contained a visible gap where an owner line might have been. It also contained R-3, a repair diagram, and a careful drawing of an exterior seam. Those were enough to contribute something real. Lin Yue entered ready to hear the findings from the roads she had not traveled.",
+      "next": "ring_findings"
+    }
+  }
+}

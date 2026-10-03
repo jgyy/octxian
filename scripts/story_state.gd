@@ -10,6 +10,7 @@ var story: Dictionary = {}
 var current := "arrival"
 var stats := {"qi": 0, "trust": 0, "insight": 0, "resolve": 0}
 var history: Array = []
+var recovered_checkpoint := false
 
 func _init(source: Dictionary = {}) -> void:
 	# Injected traversal campaigns are already merged; never reload their book files.
@@ -101,17 +102,65 @@ func go(target: String) -> bool:
 	current = target
 	return true
 
-func save_game(path: String = "user://jade_vow_save.json") -> bool:
+static func has_save(path: String = "user://jade_vow_save.json") -> bool:
+	return FileAccess.file_exists(path) or FileAccess.file_exists(path + ".bak")
+
+func _read_checkpoint_file(path: String) -> Dictionary:
+	var file := FileAccess.open(path, FileAccess.READ)
+	if file == null:
+		return {"ok": false, "bytes": PackedByteArray()}
+	var length := file.get_length()
+	var bytes := file.get_buffer(length)
+	var read_error := file.get_error()
+	file.close()
+	return {"ok": read_error == OK and bytes.size() == length, "bytes": bytes}
+
+func _write_verified_checkpoint(path: String, bytes: PackedByteArray) -> bool:
 	var file := FileAccess.open(path, FileAccess.WRITE)
 	if file == null:
 		return false
-	file.store_string(JSON.stringify({"version": SAVE_VERSION, "current": current, "stats": stats, "history": history}))
+	file.store_buffer(bytes)
+	file.flush()
+	var write_error := file.get_error()
+	file.close()
+	if write_error != OK:
+		return false
+	# Some backends do not expose late flush errors through get_error().
+	var written := _read_checkpoint_file(path)
+	return written.ok and written.bytes == bytes
+
+func _commit_checkpoint(temporary_path: String, path: String) -> int:
+	return DirAccess.rename_absolute(temporary_path, path)
+
+func save_game(path: String = "user://jade_vow_save.json") -> bool:
+	var temporary_path := path + ".tmp"
+	var backup_path := path + ".bak"
+	var bytes := JSON.stringify({"version": SAVE_VERSION, "current": current, "stats": stats, "history": history}).to_utf8_buffer()
+	if not _write_verified_checkpoint(temporary_path, bytes):
+		if FileAccess.file_exists(temporary_path):
+			DirAccess.remove_absolute(temporary_path)
+		return false
+	var previous := _read_checkpoint_file(path)
+	if FileAccess.file_exists(path):
+		if not previous.ok or not _write_verified_checkpoint(backup_path, previous.bytes):
+			DirAccess.remove_absolute(temporary_path)
+			return false
+	# Keep a verified prior checkpoint: Windows removes an existing destination
+	# before attempting the move, so a failed rename can leave the primary absent.
+	if _commit_checkpoint(temporary_path, path) != OK:
+		if previous.ok and _write_verified_checkpoint(temporary_path, previous.bytes):
+			_commit_checkpoint(temporary_path, path)
+		DirAccess.remove_absolute(temporary_path)
+		return false
 	return true
 
 func load_game(path: String = "user://jade_vow_save.json") -> bool:
-	if not FileAccess.file_exists(path):
+	# Recover the prior checkpoint only when a replacement left no primary file.
+	var checkpoint_path := path if FileAccess.file_exists(path) else path + ".bak"
+	var checkpoint := _read_checkpoint_file(checkpoint_path)
+	if not checkpoint.ok:
 		return false
-	var data = JSON.parse_string(FileAccess.get_file_as_string(path))
+	var data = JSON.parse_string(checkpoint.bytes.get_string_from_utf8())
 	if not data is Dictionary or data.get("version", -1) != SAVE_VERSION:
 		return false
 	if not story["nodes"].has(data.get("current", "")):
@@ -132,4 +181,5 @@ func load_game(path: String = "user://jade_vow_save.json") -> bool:
 	current = data["current"]
 	stats = validated_stats
 	history = data["history"].duplicate(true)
+	recovered_checkpoint = checkpoint_path != path
 	return true

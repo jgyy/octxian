@@ -1,6 +1,6 @@
-# Continuity review through Book VI
+# Continuity review through Book VII
 
-The manuscript currently contains 1,137 scenes and 98,705 authored prose words. This review records the delivered chapters; the million-word campaign remains unfinished.
+The manuscript currently contains 1,394 scenes and 122,882 authored prose words. This review records the delivered chapters; the million-word campaign remains unfinished.
 
 | Topic | Established fact | Editorial correction or guard |
 |---|---|---|
@@ -19,7 +19,7 @@ The manuscript currently contains 1,137 scenes and 98,705 authored prose words. 
 
 The unidentified third owner is an intentional open question. Later chapters must find an identity through permitted records, and retain the owner's authority over the echo. An unfinished question must not silently become proof of abandonment.
 
-`data/continuity.json` contains fact anchors and 158 required-scene checks. `tools/validate_world.py` rejects structural paths that skip those knowledge or safety scenes; Godot route tests separately check the actual stat gates. These checks support, rather than replace, an editorial reading.
+`data/continuity.json` contains fact anchors and 188 required-scene checks. `tools/validate_world.py` rejects structural paths that skip those knowledge or safety scenes; Godot route tests separately check the actual stat gates. These checks support, rather than replace, an editorial reading.
 
 ```mermaid
 flowchart TD
@@ -76,3 +76,15 @@ The docket preserves original judgments, shortened annexes, copying and review a
 The ninety-six-copper access appropriation reserves sixty-four for two trips, four bounded participation allocations, two certified extracts, six storage nights, and two handcart/attendant services. Thirty-two funds exactly one final plan. Reserved, paid, canceled and conditional custody amounts remain distinct. Each plan specifies actual work, permissions, uncertainty, source return, failure reporting and Day Seven review without making corrected rights conditional on success.
 
 Peer review corrected gender and relative-day slips, separated initial local petitions and approved hearing records from extra physical visits, kept a controlled gauge fixture unchanged during bottle readings, and framed route packet drafts before the real common hearing. Every new scene was reviewed against the shared chronology and the other inquiry routes. The merged continuity ledger contains 106 facts, 506 anchors and 27 checkpoints with 158 mandatory scene checks. Structural checks supplement the editorial review.
+
+## Book VII · river identification review
+
+Day Ten is three days after the court's Day Seven review, during the same spring. Court injury claims and equipment safety stay unresolved under their own processes. Four court openings retain their actual outcomes. Lin Yue joins one team; Wei Xiu and the Listener work on the marsh, An Ru/Mei/Shen on the archive, and Wei Jin/Su Lan on the road. Wei Xiu's morning notes travel to the road, and she rejoins only after the marsh team returns.
+
+The marsh maintenance sleeve and exterior R-3 token have no owner line. A damaged sentence stays incomplete. The two short stitches across one long reverse fold belong to a reed-cloth retaining loop, never the bronze ring's seal. Its repair date does not date the copied moment or deposition. Original maintenance leaves return to the Eel; permitted extracts travel to findings.
+
+Volunteered public corrections and permit LR-6 connect the former charter designation Jin of the Lower Reed to living Wei Jin. He has retained his own name and memory throughout. His separate personal counterfoil remains closed on the road. At findings he offers selected fields for reading, then asks the Eel for a newly agreed comparison outdoors. The Eel stays at its sheltered berth and recognizes the matched R-3 custody reference and receipt with his present account. No playback supplies identity evidence.
+
+Wei Jin voluntarily describes his own departure practice; the stored copy does not contain a resurrected teacher. His daughter permits the comparison and declines playback. He accepts all three named practical arrangements before delegating tonight's choice. Closed return, bounded paid custody, and declined return retain separate terms. Continued protection is not abandonment or an invented paid watch. No branch changes Mo Ran's or Luo Fen's echo permissions.
+
+Editorial review corrected simultaneous team staffing, memories from optional earlier roads, original-versus-extract custody, repair-versus-deposit dates, Eel location and additional permission, and an unbudgeted attendant. The ledger now contains **114 facts, 558 anchors and 31 checkpoints with 188 mandatory scene checks**. Graph checks supplement the editorial reading.

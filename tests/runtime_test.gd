@@ -19,6 +19,7 @@ func _run() -> void:
 	await _test_narration_formats(game)
 	check(not game.is_reading, "Game should open on title")
 	await _test_attribute_ui(game)
+	_test_modal_rebuilds(game)
 	game._begin()
 	check(game.is_reading and game.dialogue != null, "Begin should display dialogue")
 	game._advance()
@@ -474,3 +475,29 @@ func _court_world_size(game, id: String) -> Vector2:
 			if entry.id == id:
 				return Vector2(entry.native_size[0], entry.native_size[1])
 	return Vector2.ZERO
+
+func _test_modal_rebuilds(game) -> void:
+	game._begin()
+	game._settings()
+	check(game.atmosphere.paused, "Opening a modal must pause the scene")
+	# The footer remains reachable while the modal is open.
+	var menu: Button
+	for child in game.ui.get_children():
+		if child is Button and child.text == "Menu":
+			menu = child
+	check(menu != null, "Reading must offer the Menu button")
+	if menu != null:
+		menu.emit_signal("pressed")
+	check(game.popup == null and not game.is_reading and not game.atmosphere.paused, "Returning to the title from a modal must resume its effects")
+	var clock: float = game.atmosphere.clock
+	game.atmosphere._process(0.5)
+	check(game.atmosphere.clock > clock, "Title effects must actually progress after dismissing a modal through Menu")
+
+	game._attributes()
+	game._begin()
+	check(game.popup == null and game.is_reading and not game.atmosphere.paused, "Beginning a journey from a modal must resume scene effects")
+	game._journal()
+	game.state.current = "pendant"
+	game._scene()
+	check(game.popup == null and not game.atmosphere.paused, "Rebuilding dialogue must clear the modal pause")
+	game._title()

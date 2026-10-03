@@ -54,12 +54,56 @@ static func _read(path: String) -> Dictionary:
 	if not FileAccess.file_exists(path):
 		return _failure("Missing story book: %s" % path)
 	var parser := JSON.new()
-	var status := parser.parse(FileAccess.get_file_as_string(path))
+	var source := FileAccess.get_file_as_string(path)
+	var status := parser.parse(source)
 	if status != OK:
 		return _failure("%s: malformed JSON at line %d: %s" % [path, parser.get_error_line(), parser.get_error_message()])
 	if not parser.data is Dictionary:
 		return _failure("%s: story files must contain an object." % path)
+	var duplicate := _validate_unique_keys(source, path)
+	if not duplicate.is_empty():
+		return _failure(duplicate)
 	return {"story": parser.data, "error": ""}
+
+# JSON.parse silently keeps the last duplicate key. Inspect valid JSON tokens
+# before returning it, including escaped spellings of the same object key.
+static func _validate_unique_keys(source: String, path: String) -> String:
+	var containers: Array[Dictionary] = []
+	var index := 0
+	while index < source.length():
+		var token := source[index]
+		if token == "\"":
+			var start := index
+			index = source.find("\"", index + 1)
+			while index >= 0:
+				var escapes := 0
+				var preceding := index - 1
+				while preceding > start and source[preceding] == "\\":
+					escapes += 1
+					preceding -= 1
+				if escapes % 2 == 0:
+					break
+				index = source.find("\"", index + 1)
+			if not containers.is_empty():
+				var context: Dictionary = containers.back()
+				if context.object and context.key:
+					var key: String = JSON.parse_string(source.substr(start, index - start + 1))
+					if context.names.has(key):
+						return "%s: duplicate JSON key: %s" % [path, key]
+					context.names[key] = true
+					context.key = false
+		elif token == "{":
+			containers.append({"object": true, "key": true, "names": {}})
+		elif token == "[":
+			containers.append({"object": false})
+		elif token == "}" or token == "]":
+			containers.pop_back()
+		elif token == "," and not containers.is_empty():
+			var context: Dictionary = containers.back()
+			if context.object:
+				context.key = true
+		index += 1
+	return ""
 
 static func _validate_groups(raw: Dictionary, path: String) -> String:
 	for group in GROUPS:
