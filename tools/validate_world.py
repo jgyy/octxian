@@ -152,7 +152,7 @@ def inspect(root):
     assert world["requested"] == {"backgrounds": 200, "npcs": 500, "monsters": 501}, "Preserve background quotas and 1001 original sprites"
     assert world["requested_additional"] == ADDITIONAL_ART_TARGETS, "Preserve the 100 extra interiors"
     ids, paths, hashes, pixel_hashes, sprite_sources = set(), set(), set(), set(), set()
-    for group in ("backgrounds", "npcs", "monsters", "items"):
+    for group in ("backgrounds", "npcs", "monsters", "items", "effects"):
         for entry in world.get(group, []):
             assert entry["id"] not in ids, "Duplicate world ID"
             assert entry["path"] not in paths, "Duplicate artwork path"
@@ -198,7 +198,7 @@ def inspect(root):
         assert len(node["text"].split()) <= 100, f"Keep dialogue readable in {key}"
         assert sum(field in node for field in ("next", "choices", "ending")) == 1, f"Ambiguous navigation: {key}"
         if "effect" in node:
-            assert node["effect"] in {"lanterns", "rain", "reed_light", "bell", "qi", "none"}
+            assert node["effect"] in {"lanterns", "rain", "reed_light", "bell", "qi", "first_trace", "none"}
         if "background" in node:
             assert node["background"] in backgrounds
         if "chapter" in node:
