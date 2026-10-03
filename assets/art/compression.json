@@ -1,0 +1,809 @@
+{
+  "encoding": "lossless WebP; exact RGBA pixels, alpha and dimensions retained",
+  "images": {
+    "assets/art/azure_cloud.webp": {
+      "source": "assets/art/azure_cloud.png",
+      "source_sha256": "4cd313909a0ddcdad4dc8634a981d9795ac2193f678ba4f8ab2171e75a4fc404",
+      "source_bytes": 2881497,
+      "sha256": "5fc1bf2871522aec2ca7fc38ac18b4baf7eb2ad9aedbc58e283d2de14c2fb57c",
+      "bytes": 2064268,
+      "native_size": [
+        1672,
+        941
+      ],
+      "rgba_sha256": "0dab2d2275497c9a3c0645cc34ec1f5a958e31981530f56cfe40a79a6854e165"
+    },
+    "assets/art/cast.webp": {
+      "source": "assets/art/cast.png",
+      "source_sha256": "6ea11587934efb42a24b298d8fe750d0fa6f334d5daf07d73485034b55a36287",
+      "source_bytes": 3218191,
+      "sha256": "3a3506cef62a8ed4da1ba964b3d9ed8547953b86f341c2ed84df78e096189d7e",
+      "bytes": 2146740,
+      "native_size": [
+        1536,
+        1024
+      ],
+      "rgba_sha256": "20357f32d3b84df93b33f245d37840f0bc2956cbb19b83e220ffd637b77766a4"
+    },
+    "assets/art/cast_festival.webp": {
+      "source": "assets/art/cast_festival.png",
+      "source_sha256": "94353b5d9021b87eaf35025926da2fe99f37b96b57fb763f0cb95cd522df0a41",
+      "source_bytes": 3350927,
+      "sha256": "6e15f1521abb6c3059b70627f0fb1a22e69d897b1a04fba69d453e364a066a7b",
+      "bytes": 2268748,
+      "native_size": [
+        1536,
+        1024
+      ],
+      "rgba_sha256": "9f4a826d9d201db8a7137e87b31943bc565ee4d927912d22ef874d702b181517"
+    },
+    "assets/art/cast_training.webp": {
+      "source": "assets/art/cast_training.png",
+      "source_sha256": "49c03fa4227265c590e8b5b6d7f1abc47585a7ab19b526387263f2747f2616a9",
+      "source_bytes": 3232252,
+      "sha256": "62cb6c98d82b96d95bb0b3cfc939f91b101fba654bbe32cdf26bb16fe90affef",
+      "bytes": 2132568,
+      "native_size": [
+        1536,
+        1024
+      ],
+      "rgba_sha256": "59cf29eb9b6735885b4ed800c26455479db30b50ce3f57be80c4910a0612e44b"
+    },
+    "assets/art/poses_festival.webp": {
+      "source": "assets/art/poses_festival.png",
+      "source_sha256": "6a88867a1e4b7d25acc2a490cc2d5758c67498deade880b6eed5956f99467049",
+      "source_bytes": 3202519,
+      "sha256": "98eedd086dd39c52a2aa8ad85318dab687c646a7b84be41c782e703bcaf9422c",
+      "bytes": 2208832,
+      "native_size": [
+        1536,
+        1024
+      ],
+      "rgba_sha256": "fac6aac3abf5a3a03d3ccf195484d825beff2630cc9fbeb58c2981bd30ecdebf"
+    },
+    "assets/art/poses_sect.webp": {
+      "source": "assets/art/poses_sect.png",
+      "source_sha256": "df41a43c9a6b0145c07cf19943fc00ab449ed6ec35e09592efdc8a30de6f2772",
+      "source_bytes": 3035567,
+      "sha256": "6627997a7a886eb792a0b4b8c0bdfb61fba48d4f2bf3e385995a277df8135b79",
+      "bytes": 2000694,
+      "native_size": [
+        1536,
+        1024
+      ],
+      "rgba_sha256": "7f38745fda3aafec8b9a9d300ce81b1081ebf4eb91fe0c0ea68a8c9f232c995f"
+    },
+    "assets/art/poses_training.webp": {
+      "source": "assets/art/poses_training.png",
+      "source_sha256": "317aeba481caa6278ce4b902416c498faa3e9fb9b86123d898e62e02a7fba3a7",
+      "source_bytes": 3139248,
+      "sha256": "1a947df5ee22d24b7d112dfe53625af9cb1bd7e7e0945d9539361da07b06e949",
+      "bytes": 2084366,
+      "native_size": [
+        1536,
+        1024
+      ],
+      "rgba_sha256": "bf66c9888d360282cc44c616eb7d3c564fa5eee3ff6b17c45aae052f47df2436"
+    },
+    "assets/art/world/an_ru.webp": {
+      "source": "assets/art/world/an_ru.png",
+      "source_sha256": "ebb5f4d497be160c49737e648213c5b7dfc51d7a604b470ed60c7eeffa0c621a",
+      "source_bytes": 2014654,
+      "sha256": "436795e14c3ae5150ee844abd7de5da59d1c78f8630a1c2630a16b421164dd97",
+      "bytes": 1229598,
+      "native_size": [
+        1024,
+        1536
+      ],
+      "rgba_sha256": "1a2f58f07c70f56d3dbb1ef89bc1e80412db92cd1cb2ef69ca6dcbce555773b5"
+    },
+    "assets/art/world/bai_qun.webp": {
+      "source": "assets/art/world/bai_qun.png",
+      "source_sha256": "5934f741ae437662601112ef64699f95310f67ba197c0287df3aaaec3fef1ba9",
+      "source_bytes": 2052911,
+      "sha256": "076e216f06f487b82834c305a8dfc03301eee497db70cb3f835ddf94face36da",
+      "bytes": 1241530,
+      "native_size": [
+        1024,
+        1536
+      ],
+      "rgba_sha256": "23096ec2707ecdb87ce36a4509256913380f916aa10d28681edd518435d42586"
+    },
+    "assets/art/world/bell_tower_square.webp": {
+      "source": "assets/art/world/bell_tower_square.png",
+      "source_sha256": "66a30d6810e8c23f7a27cfca31f7d2c103d8702114c2023ac2f2cd37156a4b75",
+      "source_bytes": 3004374,
+      "sha256": "939f65bd07c93da42b2daa9f657b9d7e49036054fbd6c1eb4d35366892ddbd03",
+      "bytes": 2313212,
+      "native_size": [
+        1672,
+        941
+      ],
+      "rgba_sha256": "3ee095e87f3728c2b4a095bea809da99a1552458fe652f487274864d4baedbc4"
+    },
+    "assets/art/world/borrowed_faces_market.webp": {
+      "source": "assets/art/world/borrowed_faces_market.png",
+      "source_sha256": "46b293b689cded7da7bb9e6d9d578db0bbe318b9bc8f117054374bca306e2694",
+      "source_bytes": 3439270,
+      "sha256": "1e5bff266a4f35d876028911e427d1d6ac5860870d6f61488eed3825eee1b9a7",
+      "bytes": 2368346,
+      "native_size": [
+        1536,
+        1024
+      ],
+      "rgba_sha256": "5017e511439095a3e788e8327e0f03849d0c7216ed011ae2f46592db9ed4b1b1"
+    },
+    "assets/art/world/bronze_clapper.webp": {
+      "source": "assets/art/world/bronze_clapper.png",
+      "source_sha256": "5097d1d7a9d39f99dd884b76f0851860d97105d31a5e46196ac9223b49356a00",
+      "source_bytes": 1921847,
+      "sha256": "50f6dfd8fc7973a05d1c43e80ea6ad30700ad70ec1a9845c4c48f2a28156a757",
+      "bytes": 1192422,
+      "native_size": [
+        1024,
+        1536
+      ],
+      "rgba_sha256": "6d68527c7f739355dd2f0ed8e2baef8437622d535eefb84c62a7bafb00c27831"
+    },
+    "assets/art/world/du_heng.webp": {
+      "source": "assets/art/world/du_heng.png",
+      "source_sha256": "a2574f034c098faf5733590677212b7e53ed2f9fdc67d67c716c6c420c943787",
+      "source_bytes": 1790501,
+      "sha256": "74cf7297db26a7bbe648ed82508bcb4e1bc764de43d41dbaf8daaee03df1b0ae",
+      "bytes": 1075018,
+      "native_size": [
+        1024,
+        1536
+      ],
+      "rgba_sha256": "a7e73bcb119c2da2b3743530286bca7dc62762227ad5baebb50ff99fe5620024"
+    },
+    "assets/art/world/fei_nuo.webp": {
+      "source": "assets/art/world/fei_nuo.png",
+      "source_sha256": "2c345df5757b25547f0540054713ed4e1dabf8fe05a40078ccc77317d0ba03a7",
+      "source_bytes": 2187893,
+      "sha256": "c4e7f61ea21524f1350ae532f5d6bf17348c439191a8f89f4d8e9ee99a5d6135",
+      "bytes": 1359326,
+      "native_size": [
+        1024,
+        1536
+      ],
+      "rgba_sha256": "26a5ee36fed69ac446a9e7441590b20191e7d70b2702aa096fa455000b36e3ac"
+    },
+    "assets/art/world/frostroot_hart.webp": {
+      "source": "assets/art/world/frostroot_hart.png",
+      "source_sha256": "25944079f42c0005eb8a27a18a3168fa4e99dfadc54b8e31388835f1059c5c26",
+      "source_bytes": 2337290,
+      "sha256": "5d6f6b96025b270832710d010309b222a04f56773d9bbcc627c8018beab32f56",
+      "bytes": 1477640,
+      "native_size": [
+        1024,
+        1536
+      ],
+      "rgba_sha256": "5f5d1da7ad4e1baea499aa9722e5973abbdeae0fbbd7cb882e6cf2fc361b423e"
+    },
+    "assets/art/world/glasswing_moth.webp": {
+      "source": "assets/art/world/glasswing_moth.png",
+      "source_sha256": "1551a08214b873a511a9acc5ffa0ea815d883d91615c87581c6ad4de55660b43",
+      "source_bytes": 3036898,
+      "sha256": "b9b6524637cf1a220f214efdb757f5767f30277095903bc8baec3094d136ddac",
+      "bytes": 2080888,
+      "native_size": [
+        1024,
+        1536
+      ],
+      "rgba_sha256": "a587bbfd8748261ebfa5907d6ebbedf082195200ce8525ca21cbbffb9f2244a4"
+    },
+    "assets/art/world/he_lian.webp": {
+      "source": "assets/art/world/he_lian.png",
+      "source_sha256": "e35ee04f25eb40d6b8c6ec57baf4a99f6dee9743685c252c55812e5a8a6ed272",
+      "source_bytes": 1992703,
+      "sha256": "c9e5883093d4b15a636c1faeab8a72352c3a26fc52198e80873876cff9dd2e28",
+      "bytes": 1217724,
+      "native_size": [
+        1024,
+        1536
+      ],
+      "rgba_sha256": "56b2902dd4d07b8ed71d3bea4a355059d0a25b4b3ab6627712fde5ff8c1cb2e6"
+    },
+    "assets/art/world/interiors/archive_consent_room.webp": {
+      "source": "assets/art/world/interiors/archive_consent_room.png",
+      "source_sha256": "4ba78bb133f2dcb04daf12e6edbe95bb994e165c4e216b83d126ee67f2c921c2",
+      "source_bytes": 2155375,
+      "sha256": "dff3738debdc85b6722ea4fa88cd95dacd9e11a535dea715a170b2da67a838ef",
+      "bytes": 1616638,
+      "native_size": [
+        1672,
+        941
+      ],
+      "rgba_sha256": "2898c0063ef4ec5e82630e56d34e6f96189d7d72795246e4bf14373f191eb11b"
+    },
+    "assets/art/world/interiors/archive_copy_room.webp": {
+      "source": "assets/art/world/interiors/archive_copy_room.png",
+      "source_sha256": "5d5ee43b64fdfb2ff3e2ae4be6d2d2d5de169ee392e50f7d98301fdd4e1be0c0",
+      "source_bytes": 2457851,
+      "sha256": "4ba59d2307fc452b77b1a899b6e173e02965b8a2a0953a69ee71eab9c7898c1e",
+      "bytes": 1827864,
+      "native_size": [
+        1672,
+        941
+      ],
+      "rgba_sha256": "1646ce295652820b1de83efda0d4b0c4dc9a4f61f06f31edb39f176e64e6014c"
+    },
+    "assets/art/world/interiors/bell_keeper_workshop.webp": {
+      "source": "assets/art/world/interiors/bell_keeper_workshop.png",
+      "source_sha256": "8f11683b6c1732264babb3cd8d0afa9708dd3db37370b471b187b962b183fde7",
+      "source_bytes": 2671281,
+      "sha256": "0da304d82ae33d8d843f636ef5cd7cd61f35872c2b9c201be02ee07217cc0d69",
+      "bytes": 2020888,
+      "native_size": [
+        1672,
+        941
+      ],
+      "rgba_sha256": "2be002e0a4b65a73f94dbafb9bc89b97f8d0ba9a1b6914fffcbacb031498a80c"
+    },
+    "assets/art/world/interiors/borrowed_face_dressing_room.webp": {
+      "source": "assets/art/world/interiors/borrowed_face_dressing_room.png",
+      "source_sha256": "3c2dcef50223235e40b05ffc824bec412e7ef35302255d2f5739212a8898d0e8",
+      "source_bytes": 2562993,
+      "sha256": "94f2e12d020c43fecfa87179bb1362cb38b93d20e442bbfa4915cafef31803f0",
+      "bytes": 1939188,
+      "native_size": [
+        1672,
+        941
+      ],
+      "rgba_sha256": "3d922385ee65041088245798632319988b108e046a7995802234d2f1303eebd1"
+    },
+    "assets/art/world/interiors/city_bathhouse.webp": {
+      "source": "assets/art/world/interiors/city_bathhouse.png",
+      "source_sha256": "30a948913b60e9640b8d44c237807b1f0b352c9878253e234f67c8230e08f50a",
+      "source_bytes": 2562536,
+      "sha256": "ae66c68b48bc1115a0c1499bf67412a4a3073bb1ff0a1e6b5886f36252388a9e",
+      "bytes": 1893822,
+      "native_size": [
+        1672,
+        941
+      ],
+      "rgba_sha256": "1ae547b48ae6a7d5cf5018162a1c3523d57bdf215886f0f3b9391f82a2654db7"
+    },
+    "assets/art/world/interiors/city_registry_office.webp": {
+      "source": "assets/art/world/interiors/city_registry_office.png",
+      "source_sha256": "ffe8b3f6aba42da9af6ecf4084938f840c4454302158fc6cc4c93893be0901be",
+      "source_bytes": 2650183,
+      "sha256": "774f00269ceba57d824a5bc8204f73fe1d9e9c4f68e4ceaaa9fa0d56d9514a30",
+      "bytes": 1989122,
+      "native_size": [
+        1672,
+        941
+      ],
+      "rgba_sha256": "726da5b90001083b12f6f31adfbb92c42c9ff70c55db52c2fed712cee0f7ab09"
+    },
+    "assets/art/world/interiors/city_safe_house.webp": {
+      "source": "assets/art/world/interiors/city_safe_house.png",
+      "source_sha256": "4a7b6c84e76c3691669282c07870b845e8e19442ed3a996c4cec99d991b3ba24",
+      "source_bytes": 2712419,
+      "sha256": "3ba7019b2723eaa83523714512147f0322a82757438ae2d828c23ebe6c4edee0",
+      "bytes": 1946278,
+      "native_size": [
+        1672,
+        941
+      ],
+      "rgba_sha256": "048c2eac0589c091ee5df43542ce09aa4d6163e02f29f89ac72638dba0a5c657"
+    },
+    "assets/art/world/interiors/ferry_ticket_house.webp": {
+      "source": "assets/art/world/interiors/ferry_ticket_house.png",
+      "source_sha256": "39abd3157a645ba09ce2e9660b5b1592368bc4eb0662118b23a36cd6d52bb44d",
+      "source_bytes": 2388937,
+      "sha256": "643fccb7b5a06923c62ec3916af491d26a5f183cb2dd1533ec4956c5c9bb4787",
+      "bytes": 1779482,
+      "native_size": [
+        1672,
+        941
+      ],
+      "rgba_sha256": "80b34ed81e20eb7765d5fe3321d56a19cdd82e10cfef00f2cf74fcf59e954909"
+    },
+    "assets/art/world/interiors/grafting_workshop.webp": {
+      "source": "assets/art/world/interiors/grafting_workshop.png",
+      "source_sha256": "e4e76b1bd300d5e3667cb3b5206e9b2833f1d5bbffbcf666508c99cf80a26e48",
+      "source_bytes": 2952758,
+      "sha256": "c166bdc7cfbe6f6d889c91afb73cf50811795cb6f74910f573285bde40b21177",
+      "bytes": 2212680,
+      "native_size": [
+        1672,
+        941
+      ],
+      "rgba_sha256": "5d2c4eaed5e65bb0939012f94156d76147bcf09681e2291aba147fe73fc435b0"
+    },
+    "assets/art/world/interiors/herbal_steam_room.webp": {
+      "source": "assets/art/world/interiors/herbal_steam_room.png",
+      "source_sha256": "9c712f73dbb34cd77ac844b56a56cda5bb497700772e9ffcf7b7eafceef2ae4b",
+      "source_bytes": 2660851,
+      "sha256": "47dc912aaf6b9a7a4296ee39c52123ee8ae7f4c5e65a90f8816c2382410be918",
+      "bytes": 1965376,
+      "native_size": [
+        1672,
+        940
+      ],
+      "rgba_sha256": "354c42352fb194cad99468f84f326512dbb5767118a9504404bb70db0f09260d"
+    },
+    "assets/art/world/interiors/high_bank_boathouse.webp": {
+      "source": "assets/art/world/interiors/high_bank_boathouse.png",
+      "source_sha256": "f7ce56ff96e12a061603bdea7b0c6452d6f8b4639e37bfc023629fa3ca8d2db2",
+      "source_bytes": 2715602,
+      "sha256": "7493ab12eaf9086230bfb14b6d9f242f8d05e317273f2e3dd8e5a9f6096cfe65",
+      "bytes": 2008484,
+      "native_size": [
+        1672,
+        941
+      ],
+      "rgba_sha256": "26db41d5e09ca58e00914bdcdf50b219b42eb00b8544ba0ccfe296064f1017c5"
+    },
+    "assets/art/world/interiors/identity_exchange_hall.webp": {
+      "source": "assets/art/world/interiors/identity_exchange_hall.png",
+      "source_sha256": "8eac1b975d7cef80846aa6c1c5faddbf7671c46e938aec6d56810dadebc9e0ee",
+      "source_bytes": 2619787,
+      "sha256": "81abbd2f1a672233dd11438fc52d0a5625a893bb2f5f8e6e7d0ead37e6854f74",
+      "bytes": 1978900,
+      "native_size": [
+        1672,
+        941
+      ],
+      "rgba_sha256": "4ce822a9ebbee7a6f863e519da8d0d48ec60c4e6c636310ec5681bde2bee37aa"
+    },
+    "assets/art/world/interiors/mask_makers_studio.webp": {
+      "source": "assets/art/world/interiors/mask_makers_studio.png",
+      "source_sha256": "a82cf3698465e23d7a87d2cc5fc64e9c1a5be615a2b0851796b4b270ef43ef2b",
+      "source_bytes": 2682890,
+      "sha256": "14bac0cc3a776e29d3b23458b9d658648056923e5e3ddcf2639a5455b329b732",
+      "bytes": 2054582,
+      "native_size": [
+        1672,
+        941
+      ],
+      "rgba_sha256": "685fff121c4ed1382dc75b885591a92776e223d6a74cc2d400269ad24f5d6c44"
+    },
+    "assets/art/world/interiors/mirror_repair_shop.webp": {
+      "source": "assets/art/world/interiors/mirror_repair_shop.png",
+      "source_sha256": "5d8b239d25c3f6b92a2ffff84b5ebf870d94f50a10c1a2fe491526d54795ddc7",
+      "source_bytes": 2579025,
+      "sha256": "6253c1c2f815e12e8ffd05045f1702309f7c2b94d50e846408c894a4f9dcb3b7",
+      "bytes": 1895690,
+      "native_size": [
+        1672,
+        941
+      ],
+      "rgba_sha256": "30a6a25e442fca24428409289c65b55e65bb1b26a8816e0bd6fe33195dca760f"
+    },
+    "assets/art/world/interiors/orchard_apothecary.webp": {
+      "source": "assets/art/world/interiors/orchard_apothecary.png",
+      "source_sha256": "0ef6760f98d7298392823bcc6b93517a5b0b25f813ca302b8e9d6053ec1cc9b4",
+      "source_bytes": 2669675,
+      "sha256": "abc567a89eec0c651ae192a3b6bb965b9105009521b22f2a2099d61eea0a6953",
+      "bytes": 1997640,
+      "native_size": [
+        1672,
+        941
+      ],
+      "rgba_sha256": "7cf3dde5a36647e4b3ac3eac717c7f446b372e7d88b3c1b9ff30acaaab131b67"
+    },
+    "assets/art/world/interiors/orchard_dining_hall.webp": {
+      "source": "assets/art/world/interiors/orchard_dining_hall.png",
+      "source_sha256": "249552d437cf356120e0e4841a1c927097f19afad68887b4a042b64826ccbc56",
+      "source_bytes": 2692354,
+      "sha256": "8854b942fc3417208f3ef151b7010844c951e8c09301dd997ddff14a4ee20ab3",
+      "bytes": 2040696,
+      "native_size": [
+        1672,
+        941
+      ],
+      "rgba_sha256": "05b71b1406e8272041cc5c4a61bf41e21704ea58bead374f008b81f133f1d4ec"
+    },
+    "assets/art/world/interiors/orchard_healing_hall.webp": {
+      "source": "assets/art/world/interiors/orchard_healing_hall.png",
+      "source_sha256": "eccc39f74ea739fdaf879be38e6703921d4d6c6e55151c5759998ea58c64e89f",
+      "source_bytes": 2919301,
+      "sha256": "6b197c333f10ed3fed5fd204253094331687a12de67d3df121bd59dbe5f83741",
+      "bytes": 2170574,
+      "native_size": [
+        1672,
+        941
+      ],
+      "rgba_sha256": "86eef9da32eeb9a8ab9dd220b72edded81093c1d4c12d4cccdf225ba2c6926f5"
+    },
+    "assets/art/world/interiors/orchard_night_watch.webp": {
+      "source": "assets/art/world/interiors/orchard_night_watch.png",
+      "source_sha256": "446d396a750cfe80fe7b780f3e38d443d991cccc490cac59fa4ca69d4e53cda5",
+      "source_bytes": 2521770,
+      "sha256": "e1428c20f6fb1ab3652b0b4e04f35b894a74601dc2d09a140ef80efdd9ea864c",
+      "bytes": 1914696,
+      "native_size": [
+        1672,
+        941
+      ],
+      "rgba_sha256": "d46992af0a015e67e7ce994db67947a920fbbe1e3f2efb7a8443d684ead70e49"
+    },
+    "assets/art/world/interiors/orchard_seed_vault.webp": {
+      "source": "assets/art/world/interiors/orchard_seed_vault.png",
+      "source_sha256": "b3eb0107d30526e6386279829aa0b34545bca23699ad4d2424128d029371719a",
+      "source_bytes": 2700522,
+      "sha256": "4bac5b0dbcb3bda4fdc809f3f65c959815a909268d1608258b9707f91fc9a9b6",
+      "bytes": 1992738,
+      "native_size": [
+        1672,
+        941
+      ],
+      "rgba_sha256": "697df2a2da76cee970a18b1f11bfde11a7f782bd195827e473926cd760df0777"
+    },
+    "assets/art/world/interiors/orchard_sickroom.webp": {
+      "source": "assets/art/world/interiors/orchard_sickroom.png",
+      "source_sha256": "e9295555c2707f5629db6b33a3008f41c2af2cb8ea03b33b325c47c3ebabcc70",
+      "source_bytes": 2312092,
+      "sha256": "171f9f4b1c9f43a3a89e80c05629c61aa503ecccb926fe8518bdd329f3dbaa99",
+      "bytes": 1705790,
+      "native_size": [
+        1672,
+        941
+      ],
+      "rgba_sha256": "74848930683fcf8139db3360221c0ce680ba4eb12a56e8b008a4fc1037d51bdb"
+    },
+    "assets/art/world/interiors/pain_exchange_chamber.webp": {
+      "source": "assets/art/world/interiors/pain_exchange_chamber.png",
+      "source_sha256": "6638f09e7ab6e48ae3c129c617d4669940bea4e94c06e3d10bd279a211da5209",
+      "source_bytes": 2352787,
+      "sha256": "50b930c241fd5b4fd57e21d0e9c12099143aa009000fc8081a382159ac5d9f3f",
+      "bytes": 1794416,
+      "native_size": [
+        1672,
+        941
+      ],
+      "rgba_sha256": "b8732f19d9a2754f726361c1534545325fe5e1e9b669d54820f909feb6245c05"
+    },
+    "assets/art/world/interiors/perfumer_workroom.webp": {
+      "source": "assets/art/world/interiors/perfumer_workroom.png",
+      "source_sha256": "b54487eb8ff597105b4de32471d0f0c706aa06b60c74adbd43a7017a56316250",
+      "source_bytes": 2611297,
+      "sha256": "6c86e71b58dbe77773097970075a81c4649d8060be24cd316c4dfa870fad7889",
+      "bytes": 1941138,
+      "native_size": [
+        1672,
+        940
+      ],
+      "rgba_sha256": "e059004dbe7a9bbfd9a6122b818ace1274bf3521481effdda020b5643049053a"
+    },
+    "assets/art/world/interiors/rain_court_hearing_hall.webp": {
+      "source": "assets/art/world/interiors/rain_court_hearing_hall.png",
+      "source_sha256": "8661bdba274fccb22896308f9956b78dbd5cfb04e5ae6acc98fbd58db201b22b",
+      "source_bytes": 2914812,
+      "sha256": "c61c452038f5d9cdf0cf4c8ce45a46b19a950f8429c5bc04cf127336691a01b4",
+      "bytes": 1958428,
+      "native_size": [
+        1536,
+        1024
+      ],
+      "rgba_sha256": "0ba1b2989dafa78430d86c0b5b1b05169d1c2715f7f5aada57aa6144fa99ab96"
+    },
+    "assets/art/world/interiors/rain_court_witness_room.webp": {
+      "source": "assets/art/world/interiors/rain_court_witness_room.png",
+      "source_sha256": "a76b1a1c57a1aaa6962c70b620042f2c25fbaf1419f0b474624fa0b495d2cccd",
+      "source_bytes": 3024333,
+      "sha256": "3f3dd2fc395a175dc2687bc9f1a0c0989ddaf1c676c194c0a677fefd1e552dea",
+      "bytes": 1980130,
+      "native_size": [
+        1536,
+        1024
+      ],
+      "rgba_sha256": "099c5db419a08bb0bfa1a8765a86184a38a3d69664fefe57140397a9287c87b0"
+    },
+    "assets/art/world/interiors/reed_case_workroom.webp": {
+      "source": "assets/art/world/interiors/reed_case_workroom.png",
+      "source_sha256": "cc175479e3ceac29e4049782f134eae7c5c9d15622f789f624a88b7f55bb7b59",
+      "source_bytes": 2728230,
+      "sha256": "781fd101467df447a261cf4df076745c4892831e5cb62b61f1bdf12fd381bf92",
+      "bytes": 2007068,
+      "native_size": [
+        1672,
+        941
+      ],
+      "rgba_sha256": "a86b2118a60fb1464de91cf71f9ab0fe184f47430c89aab5467f31247ad0e5a8"
+    },
+    "assets/art/world/interiors/salt_merchant_store.webp": {
+      "source": "assets/art/world/interiors/salt_merchant_store.png",
+      "source_sha256": "5d6b7d5a6ef4ba41eb52b91f05ddce586fc9664f09ac8da21f7dabfbed50b0ba",
+      "source_bytes": 2624887,
+      "sha256": "4a7b8f621977c6c9fcedf0e2c1150a5d4853f8e654ca56768562ae49eea067d0",
+      "bytes": 1946514,
+      "native_size": [
+        1672,
+        941
+      ],
+      "rgba_sha256": "98d98ae32619723b82d8ec7ca85fc57eb487423993925946b90015bdf67f5fdc"
+    },
+    "assets/art/world/interiors/silk_weavers_loft.webp": {
+      "source": "assets/art/world/interiors/silk_weavers_loft.png",
+      "source_sha256": "5b4e516750a95e2a60f1dd1b573ae92b5500a98cefe7e1d4e4ec88ac645df3fa",
+      "source_bytes": 2790161,
+      "sha256": "a06f2666c918005a4ddc8b01cfff28b986d26db71fbfea0673c9342f243cf3be",
+      "bytes": 2095672,
+      "native_size": [
+        1672,
+        941
+      ],
+      "rgba_sha256": "cf1e3983e3297b2c26c5c452d47326b0503979d5982af39e3226193cea1a4407"
+    },
+    "assets/art/world/interiors/stone_carvers_hall.webp": {
+      "source": "assets/art/world/interiors/stone_carvers_hall.png",
+      "source_sha256": "ef2590450864c125e0500eca001cb9626ad5db6a579caa92592da0983d744d5d",
+      "source_bytes": 2697612,
+      "sha256": "05dd214f9355ba454c40f0b4466288b05c896d0d66b974b8bbd5d420018fbe1b",
+      "bytes": 1998282,
+      "native_size": [
+        1672,
+        941
+      ],
+      "rgba_sha256": "62b58a7c05179fefb8bcf4aa93bfcaf749a5cd7175a8bdc1f5f318c34b3d233d"
+    },
+    "assets/art/world/interiors/tea_house_private_room.webp": {
+      "source": "assets/art/world/interiors/tea_house_private_room.png",
+      "source_sha256": "2b8196721b6589c47b175ae830e0a3bdd0fa656c9233f61634a8312d4dbca602",
+      "source_bytes": 2347016,
+      "sha256": "0db1366aab9e09455efc5f3a7fce6f5cb034398eba12a7c45276322dc5991f78",
+      "bytes": 1746464,
+      "native_size": [
+        1672,
+        941
+      ],
+      "rgba_sha256": "ea77278ff6ea2693cc4137a6b7cdb2e2ff99755a8238bc4f5de701f04d7a4403"
+    },
+    "assets/art/world/interiors/village_council_room.webp": {
+      "source": "assets/art/world/interiors/village_council_room.png",
+      "source_sha256": "b45ba999cf7506c3b5f0f4ff2be4273111733c45fb87286a3bb4b3ed7db55d2f",
+      "source_bytes": 2550009,
+      "sha256": "16479189c0f3209b511857bbec66a39f13691b9abdf46b02d26cfde90ea15b1e",
+      "bytes": 1902774,
+      "native_size": [
+        1672,
+        940
+      ],
+      "rgba_sha256": "0123c6d06f2c7156e740f7181eb0ad8c31412611dd87b47eb8ac82988ad0d31c"
+    },
+    "assets/art/world/interiors/winter_blossom_pavilion.webp": {
+      "source": "assets/art/world/interiors/winter_blossom_pavilion.png",
+      "source_sha256": "c47e688ab91814764bdc95878e87b0402a19d436f17027dbc950b0b6374740f2",
+      "source_bytes": 2642352,
+      "sha256": "7e214531434f1277acdc82dd528e969b4263fd273f04074af394c03c7a262daa",
+      "bytes": 1992970,
+      "native_size": [
+        1672,
+        941
+      ],
+      "rgba_sha256": "8cfbafb98c4a85f6f1b4c00318ce2b56fbe344dd22d71c55ceff1f881c954227"
+    },
+    "assets/art/world/interiors/winter_grain_house.webp": {
+      "source": "assets/art/world/interiors/winter_grain_house.png",
+      "source_sha256": "f54eb14ef70f6ef7f84c1a00a7041087b44f039a4473720a99d03c6b7b6ce28c",
+      "source_bytes": 2796929,
+      "sha256": "6525b6ea54f27411044c4e2866a12016cdcc55ecb121e2e0c955334b66f6a8de",
+      "bytes": 2058158,
+      "native_size": [
+        1672,
+        941
+      ],
+      "rgba_sha256": "3142364c34c9124a945552b738c63320e7409f4349c4e3810a32345712f2f55c"
+    },
+    "assets/art/world/luo_shan.webp": {
+      "source": "assets/art/world/luo_shan.png",
+      "source_sha256": "f5b967ca36780e644155bc51324a20093f210a1d00b92d9b5a19660c1d1e1ed2",
+      "source_bytes": 1892169,
+      "sha256": "6064d18cc10687377a6ab0ad6b18535b37ac465cb57543175381c1d0e96f688c",
+      "bytes": 1120310,
+      "native_size": [
+        1024,
+        1536
+      ],
+      "rgba_sha256": "2926fd223b98ccb793d5f0f8d0f17f62b9921718d8fe4f69c4feaa272f02904f"
+    },
+    "assets/art/world/mei_dulan.webp": {
+      "source": "assets/art/world/mei_dulan.png",
+      "source_sha256": "ae57f46c0855eced9015f7c46f7333cad3db34f311c005ce1e85739c990c0bf3",
+      "source_bytes": 2293592,
+      "sha256": "1f772df01e18f98889598f41b1511565fd3225728778a97d45d4f4b177f3ea26",
+      "bytes": 1420948,
+      "native_size": [
+        1024,
+        1536
+      ],
+      "rgba_sha256": "08981fdd26981e8fe9eeab196cb64ee6ce6e3ce266faa1802d3e9916fac1f8a3"
+    },
+    "assets/art/world/mooring_eel.webp": {
+      "source": "assets/art/world/mooring_eel.png",
+      "source_sha256": "7fd219d6532b077908c7a56f4445b27f863d5984ffe26b5a3674f5d9f18bcd51",
+      "source_bytes": 2946699,
+      "sha256": "671a01812b4b759ebaa80463a132b5991aad2463096992415a89dc47fefdb9ca",
+      "bytes": 1875370,
+      "native_size": [
+        1024,
+        1536
+      ],
+      "rgba_sha256": "1173fc840c9f10610786d3c0b61ac0249f1ffb27cc8ddd425c09be4c39629ac8"
+    },
+    "assets/art/world/north_landing.webp": {
+      "source": "assets/art/world/north_landing.png",
+      "source_sha256": "2dbcd8c1a35d44a37efada98d7620bb4c9433f3def4ac06b41d24b9aa8a6f79d",
+      "source_bytes": 3159667,
+      "sha256": "1bf01149029b1a4985f1bb3d0715e012f37aa8ac1121670826b55b9e8aa3ae46",
+      "bytes": 2277170,
+      "native_size": [
+        1672,
+        941
+      ],
+      "rgba_sha256": "3aec262363966ace0cf6b1599ce591086c38452beaf58cfe7d0e9daeb8981e64"
+    },
+    "assets/art/world/porcelain_courser.webp": {
+      "source": "assets/art/world/porcelain_courser.png",
+      "source_sha256": "b097089cbcc25b099e9cb18ca27e4f72ee0662c140cbfb13bf552a7c319a1726",
+      "source_bytes": 2769229,
+      "sha256": "ae352724d136ff53997caf55274fbbaf77d713c3cda8288d6bf18d8f2991bfe2",
+      "bytes": 1789364,
+      "native_size": [
+        1024,
+        1536
+      ],
+      "rgba_sha256": "03408e3d304713a700774550c15dfb55db9c5a1e72987c1d4c6e0dc3c06bb56a"
+    },
+    "assets/art/world/qiao_sen.webp": {
+      "source": "assets/art/world/qiao_sen.png",
+      "source_sha256": "b63d1cead9d7e70a301b4f77dde64b667cf5955c69f132d9bf68401a51b785c7",
+      "source_bytes": 2190034,
+      "sha256": "6b2703ac0894756a2b7d9deca87df9bfde74fd42ad9d0eeca424163dc4d478d8",
+      "bytes": 1353620,
+      "native_size": [
+        1024,
+        1536
+      ],
+      "rgba_sha256": "f13dc1ad6581018f7d721de60115d67478be84823b01952e107c65ac94e468e1"
+    },
+    "assets/art/world/rain_court_terrace.webp": {
+      "source": "assets/art/world/rain_court_terrace.png",
+      "source_sha256": "d753c770a3143a3a9e73850aa081ef3d63bffbcb2c43f5733bcf8dee619ba1f3",
+      "source_bytes": 3505304,
+      "sha256": "1a2d0140c6edefcbd7f2736769167b63e8c8a6e4f420f8b119f31ddfb5e5d7fd",
+      "bytes": 2229584,
+      "native_size": [
+        1536,
+        1024
+      ],
+      "rgba_sha256": "a8639b34287461a8b9b36152f16e28c45876d32a77042a141399c7dfff1835e2"
+    },
+    "assets/art/world/rain_heron.webp": {
+      "source": "assets/art/world/rain_heron.png",
+      "source_sha256": "e706a86a4dbb2cf7944e7e8bfab2197e36f4d8535bca7c7a1da10af53128d89b",
+      "source_bytes": 2502977,
+      "sha256": "d62d582932910a2f08c9aef98a277b9c3c28d97f753730bbff106268c4443dd6",
+      "bytes": 1595206,
+      "native_size": [
+        1024,
+        1536
+      ],
+      "rgba_sha256": "916254af2debaf96412a9e91994fe216b45039a1a706687070a74391580337d3"
+    },
+    "assets/art/world/reed_listener.webp": {
+      "source": "assets/art/world/reed_listener.png",
+      "source_sha256": "de1c2092b51283ffa4ab54dbc727c9b5be1e6c471575988bc09f66d51920b708",
+      "source_bytes": 2803450,
+      "sha256": "0a8eeab14e5321db4e53598bfa3d9ce8afd315b7f10d03ad16fb395be84c3290",
+      "bytes": 1801976,
+      "native_size": [
+        1024,
+        1536
+      ],
+      "rgba_sha256": "89fad18b7109ae92004a6bea6da2bdbfd02960b0bcca41127b810df94c82ec4f"
+    },
+    "assets/art/world/ren_qiao.webp": {
+      "source": "assets/art/world/ren_qiao.png",
+      "source_sha256": "f2092272fc3efb2e6866cb20c813dd783abcc5849f9893e3535064960f738f2b",
+      "source_bytes": 2200913,
+      "sha256": "7d4055e96636b5ebe73a130206bb341010b53b169de637ec2580cce5fc52b3db",
+      "bytes": 1361850,
+      "native_size": [
+        1024,
+        1536
+      ],
+      "rgba_sha256": "6ba767cc79580dfeebd09c70a67dd72596c9be8ea019cb16716da1528a64d512"
+    },
+    "assets/art/world/salt_lantern_valley.webp": {
+      "source": "assets/art/world/salt_lantern_valley.png",
+      "source_sha256": "06f825b112bc5612756f347b6b8d27594e965b3ed877b21b5b088ccb3584bf15",
+      "source_bytes": 3136244,
+      "sha256": "8db2879f8edde9896ced719befe362ee65fd6316a1394a6e48f4f0e90a8b4562",
+      "bytes": 2362796,
+      "native_size": [
+        1672,
+        941
+      ],
+      "rgba_sha256": "1f4d81311a7d4d54adf4d6d25a4ba6f230d8672f6ae16b37734534bd0f412055"
+    },
+    "assets/art/world/sealed_echo_case.webp": {
+      "source": "assets/art/world/sealed_echo_case.png",
+      "source_sha256": "0d03eebc8d9bd8d0c6ce1a0537bbe33ca16b8c44239b0435744e2bdb47125c68",
+      "source_bytes": 2648301,
+      "sha256": "220b7f20bb9407270b7ef48c6d675a7be947cd6374363fd1cb86fef37cbb07c8",
+      "bytes": 1671870,
+      "native_size": [
+        1536,
+        1024
+      ],
+      "rgba_sha256": "e13d014482cef19837b1d112f25698683bbd95e84bb188487df8b3226d46a5b3"
+    },
+    "assets/art/world/sheltered_reach.webp": {
+      "source": "assets/art/world/sheltered_reach.png",
+      "source_sha256": "603f920437a8e231814ca3a920ba811dc0a4a4c7f0ed314f7cbadbfc8f96ae42",
+      "source_bytes": 3268489,
+      "sha256": "d6fd16d57b415f9c0de621c038c6cabe90d463d3a44206e22d70d6e3f1bd0b96",
+      "bytes": 2386484,
+      "native_size": [
+        1672,
+        941
+      ],
+      "rgba_sha256": "a7f3161d4d57b30a7efe7de2b304d0525c45224236e3cf4365e64b0affcd6951"
+    },
+    "assets/art/world/su_lan.webp": {
+      "source": "assets/art/world/su_lan.png",
+      "source_sha256": "e8e54241c138b1d4129c60bd5be4cbf85759ac791258e0cd340bf8238b9d2ca4",
+      "source_bytes": 2207699,
+      "sha256": "4b6a2150f2b559ee7d5926fcbc76fc9de2eb43bcae6f4f9b51fddb8df9c8ceaf",
+      "bytes": 1395382,
+      "native_size": [
+        1024,
+        1536
+      ],
+      "rgba_sha256": "71297149894383a08ad09af538e35f2a5b9d184fdedec6094777a79bde39929c"
+    },
+    "assets/art/world/tao_wen.webp": {
+      "source": "assets/art/world/tao_wen.png",
+      "source_sha256": "b6cac7983080367ede412046aad5b3c12691ada6ac1ca8486298cb5f47f994dc",
+      "source_bytes": 2035346,
+      "sha256": "b7e7867e5e30202f7fff3b9287f3977fe0293158494b93599a983ddcca6381f6",
+      "bytes": 1242420,
+      "native_size": [
+        1024,
+        1536
+      ],
+      "rgba_sha256": "5926a1d1a7fb5e4039ab5fdb52973123c33d44677f5c30597bb4a032864798c2"
+    },
+    "assets/art/world/valley_archive.webp": {
+      "source": "assets/art/world/valley_archive.png",
+      "source_sha256": "a272828440cdb161130c22811d6077d80d8e4ba6ae64fadfd4ae530edb843efa",
+      "source_bytes": 2710405,
+      "sha256": "d562dda9b59e1f6bb20ed596cea299048553e4692ab691bdb5a1a4e4420ce5a9",
+      "bytes": 2015398,
+      "native_size": [
+        1672,
+        941
+      ],
+      "rgba_sha256": "ebb3bdaeea2a69c4806f2c194d08bc778fd7748f01d5d7b31ad47355241ca4bd"
+    },
+    "assets/art/world/wei_jin.webp": {
+      "source": "assets/art/world/wei_jin.png",
+      "source_sha256": "11cb6a7e19c17dae71c4ed996fa768216cefdb8ea5251b98abff5f00481b0318",
+      "source_bytes": 2183721,
+      "sha256": "5fa2751194ac5fd224658d7438115ba18d3278e948eaa0cd67bc935f07e52d3c",
+      "bytes": 1342240,
+      "native_size": [
+        1024,
+        1536
+      ],
+      "rgba_sha256": "6688921fe7a5d7e08556f337e442bb57498de1cdfdd904882a30aecaf8e9742d"
+    },
+    "assets/art/world/wei_xiu.webp": {
+      "source": "assets/art/world/wei_xiu.png",
+      "source_sha256": "a3262e97f606e35eb5a25ba2983f2c564c0085beeaab8ce667eed6ceac65c550",
+      "source_bytes": 2017336,
+      "sha256": "6e0f15fc0ce8f934041898ab6afe657e5f222e6bd7c58c7d8de626276621e7f4",
+      "bytes": 1232528,
+      "native_size": [
+        1024,
+        1536
+      ],
+      "rgba_sha256": "4ad6fdc2e715dc517eb4be67c25757eb5303ae7944b3184f8ec1ae9cb4583689"
+    }
+  }
+}

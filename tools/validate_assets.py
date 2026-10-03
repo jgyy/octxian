@@ -8,17 +8,27 @@ from PIL import Image
 if __package__:
     from .animation_baker import CELL, GENERATOR, digest
     from .story_data import load_story
-    from .voice_assets import validate_clip
+    from .voice_assets import audio_metadata, validate_clip
 else:
     from animation_baker import CELL, GENERATOR, digest
     from story_data import load_story
-    from voice_assets import validate_clip
+    from voice_assets import audio_metadata, validate_clip
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 OUT = ROOT / "assets/generated"
 
 
 def main():
+    compression = json.loads((ROOT / "assets/art/compression.json").read_text())
+    paintings = set()
+    for name, info in compression["images"].items():
+        path = ROOT / name
+        assert digest(path) == info["sha256"], "Compressed artwork bytes changed"
+        with Image.open(path) as image:
+            assert list(image.size) == info["native_size"], "Keep native artwork dimensions"
+            assert hashlib.sha256(image.convert("RGBA").tobytes()).hexdigest() == info["rgba_sha256"], "Compressed artwork pixels changed"
+        paintings.add(path)
+    assert paintings == set((ROOT / "assets/art").rglob("*.webp")), "Record every compressed painting"
     raw_catalog = (ROOT / "data/wardrobe.json").read_bytes()
     catalog = json.loads(raw_catalog)
     manifest = json.loads((OUT / "sprites/manifest.json").read_text())
@@ -61,7 +71,9 @@ def main():
     for path in (OUT / "audio").glob("*.wav"):
         with wave.open(str(path)) as audio:
             assert audio.getnframes() > 0 and audio.getsampwidth() == 2, path
-    assert len(list((OUT / "audio").glob("*.wav"))) == 5
+    assert len(list((OUT / "audio").glob("*.wav"))) == 4
+    score = audio_metadata(OUT / "audio/cloud_sea.ogg")
+    assert score["seconds"] == 48.0, "Keep the complete background composition"
     print(f"Verified {len(paths)} intact portraits, 5 music/effects files, {len(voices['lines'])} neural voice clips.")
 
 
