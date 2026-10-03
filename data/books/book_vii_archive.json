@@ -83,7 +83,7 @@
     "ring_archive_private_copy": {
       "speaker": "shen_qing",
       "actor": "shen_qing",
-      "text": "There is a rubbed space beside the charter heading. I can see the pressure left by the old brush through the fibers, but I cannot read what was removed. Qi would make the impressions brighter. That sounds useful until I remember that pressure survives beneath the guarded columns too. I will keep my hands off the sheet. If you need a brighter ordinary lamp, I can carry one. If the light reveals something the people covered, tell me before we decide that discovering it was merely an accident of workmanship.",
+      "text": "The charter's heading has a rubbed space. Angled ordinary light shows pressure in the fibers, but I cannot read the missing strokes. Sending qi into this sheet would be an untested experiment on someone else's record. It might damage the paper or reveal a guarded column without permission. I will leave it covered and carry the lamp you approve. The visible indentation belongs in our note as an uncertain observation. It cannot become a recovered sentence just because we badly want one.",
       "chapter": "book_vii",
       "background": "archive_consent_room",
       "effect": "none",
@@ -203,7 +203,7 @@
           "text": "Ask Mei Dulan to explain the ferry permit comparison.",
           "next": "ring_archive_permit_lesson",
           "effects": {
-            "resolve": 1
+            "insight": 1
           }
         }
       ],
@@ -345,7 +345,7 @@
     "ring_archive_mortal_pace": {
       "speaker": "shen_qing",
       "actor": "shen_qing",
-      "text": "When you said apprentice, I thought you meant your first sword teacher. You looked different just now. At the mountain we count progress by what becomes unnecessary: a crutch, a hearth, sleep after a long ascent. You turned a spool as though remembering something valuable precisely because it still needed doing. I have been standing here with enough qi to dry a roof and very little idea how to help this table. Show me where to place the support sheet. I can learn a task without making it disappear first.",
+      "text": "When you said apprentice, I thought you meant your first sword teacher. At the mountain we sometimes count progress by the chores a fueled apparatus saves. Here the failed roof still needs a carpenter. I cannot make soaked timber safe by warming its surface, and our travel fuel is not a repair budget. You turned that spool as though a small task mattered on its own. Show me where to place the support sheet. I can help this table without promising a dry building.",
       "chapter": "book_vii",
       "background": "archive_copy_room",
       "effect": "none",
