@@ -26,3 +26,5 @@ Transparency, decoded dimensions, visible-pixel coverage and duplicate fingerpri
 | world/duan_zhi.png | 1024×1536 RGBA | Independent human examiner |
 
 The workshop prompt requested settling pools, copper calibration blanks, finite practice circles, worn salt-work architecture and a clear portrait area. Duan Zhi's prompt specified a 52-year-old stage-six examiner in patched work robes, with a plain cane, old leg brace and two-arm measuring instrument. Both retained files are original native paintings. They are not variants of previous designs.
+
+`world/brine_mantis.png` is a native 1024×1536 RGBA independent creature master. The prompt specified six insect limbs, translucent sea-green chitin, white mineral combs, long antennae and brine vents on a full portrait canvas. Its silhouette and biology are independent of the existing kiln beetle and glasswing moth. Native alpha and footprint are checked in CI.

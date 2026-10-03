@@ -5,6 +5,11 @@
       "name": "Duan Zhi",
       "title": "Examiner of the brine sluice",
       "color": "#b1c5b8"
+    },
+    "brine_mantis": {
+      "name": "The Brine Mantis",
+      "title": "Spirit of the settling pools",
+      "color": "#b4d2c8"
     }
   },
   "nodes": {
@@ -508,7 +513,7 @@
         "realm": "qi_gathering",
         "stage": "2: Retention"
       },
-      "next": "lantern_arrival",
+      "next": "channels_001",
       "effect": "first_trace"
     },
     "sluice_work_001": {
@@ -582,6 +587,546 @@
         "stage": "1: Trace"
       },
       "next": "sluice_029"
+    },
+    "channels_001": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Second stage changed the entry in Lin Yue's book and very little else. The gate still needed a winch. Her meals still cost money. When she woke tired after celebrating with sweet rice, her field returned a smaller reserve than on the examination day. She recorded it without crossing out the stage, then asked whether a reliable pattern could include such a day.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "2: Retention"
+      },
+      "next": "channels_002"
+    },
+    "channels_002": {
+      "speaker": "duan_zhi",
+      "actor": "duan_zhi",
+      "text": "Reliability includes knowing when the pattern is unavailable. Your recovered capacity and today's usable reserve are different measures. A runner can be trained and still exhausted. Do not spend an examination number you no longer possess. We will begin route work below half of today's measured reserve, leaving enough for a safe discharge and the ordinary walk home.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "2: Retention"
+      },
+      "next": "channels_003"
+    },
+    "channels_003": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "He unfolded a map of the twelve primary channels. Paired strokes connected receiving and returning paths; fine side marks indicated tissue junctions where perception often became confused. Lin Yue searched for the single gate she imagined opening. There were many joints instead. Some appeared twice, under different names, because the same limb needed distinct directions of flow.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "2: Retention"
+      },
+      "next": "channels_004"
+    },
+    "channels_004": {
+      "speaker": "duan_zhi",
+      "actor": "duan_zhi",
+      "text": "For your method, the first pair follows the inner wrist route toward the chest junction and its outward partner toward the hand. These are cultivated paths associated with tissue, not hollow pipes waiting to be drilled. We soften resistance with compatible trickles and inspect the return. Forcing a larger flow through numb tissue can make the sensation seem easier while destroying its warning.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "2: Retention"
+      },
+      "next": "channels_005"
+    },
+    "channels_005": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The bronze caliper had two mineral lenses and separate grounding cords. Duan placed one lens over the practice thread and one over its return. He showed her the tiny delay between them. A matched return appeared after the outgoing trace, never before it. If both brightened together, ambient interference or a faulty bridge was the likelier explanation.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "2: Retention"
+      },
+      "next": "channels_006"
+    },
+    "channels_006": {
+      "speaker": "duan_zhi",
+      "actor": "duan_zhi",
+      "text": "This instrument cannot see a soul. It compares a controlled input and an observable return at the surface. It has blind places. We add your report of pressure, the pulse checks and a next-day examination. If those disagree, the bright lens does not win by being expensive. Instruments have limits; practitioners have incentives to misreport. The test needs both facts.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "2: Retention"
+      },
+      "next": "channels_007"
+    },
+    "channels_007": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Lin Yue borrowed the caliper under a numbered slip. She cleaned its contact pads, inspected the silk cords and returned it before the next novice's session. The tool cost more than she had earned in a year at the kiln. Its price made her afraid to use it until she saw a repaired hinge. Someone trusted ordinary maintenance more than ceremonial perfection.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "2: Retention"
+      },
+      "next": "channels_008"
+    },
+    "channels_008": {
+      "speaker": "han_mei",
+      "actor": "han_mei",
+      "text": "A clean repaired tool can be safer than a beautiful neglected one. Check the repair before each borrowing. If it drifts, leave a note and take it out of service. Nobody earns a realm by keeping another worker's equipment pristine in imagination. We need to know what it actually does after salt air, wet sleeves and a clumsy elbow.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "2: Retention"
+      },
+      "next": "channels_009"
+    },
+    "channels_009": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Her first pulse reached the wrist junction and returned with a sharp tick in her middle finger. She stopped. The reservoir still held most of its measured charge, but the finger felt colder than its neighbors. Duan compared both hands, checked ordinary circulation and canceled the next pulse. He gave her a warm cloth and an appointment for the following morning.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "2: Retention"
+      },
+      "next": "channels_010"
+    },
+    "channels_010": {
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "It was barely a quarter-unit. I could hold more than six last week. I expected a small pulse to be too weak to harm me. If reserve does not tell me how much the wrist can pass, what measurement does? I need to know which number to obey before the smallness of the light persuades me to ignore the cold.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "2: Retention"
+      },
+      "next": "channels_011"
+    },
+    "channels_011": {
+      "speaker": "duan_zhi",
+      "actor": "duan_zhi",
+      "text": "Throughput and reserve are separate. A cistern may hold more water than its drain can carry. We estimate route throughput from several low pulses, with full recovery between them, then stay below the smallest safe estimate. A quarter-unit may still arrive too quickly. Tonight you use no qi through that wrist. Retention practice can continue without pretending the route is ready.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "2: Retention"
+      },
+      "next": "channels_012"
+    },
+    "channels_012": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The cold resolved by morning. Duan found no lingering numbness and prescribed two further rest days before a slower attempt. Lin Yue spent them scraping ordinary deposits from a shut-down pool. She watched water spread through a narrow groove: a fast pour spilled over its banks; the same quantity admitted slowly reached the basin. The comparison was useful precisely because water was not qi.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "2: Retention"
+      },
+      "next": "channels_013"
+    },
+    "channels_013": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "During the next session she reduced the input to one eighth of a unit and lengthened its release over three ordinary breaths. The return lens moved late and weakly. Her finger stayed warm. Duan wrote a safe low-flow observation, leaving the completion column empty. Lin Yue looked at the slow return and understood how someone could be tempted to rename impatience as courage.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "2: Retention"
+      },
+      "next": "channels_014"
+    },
+    "channels_014": {
+      "speaker": "duan_zhi",
+      "actor": "duan_zhi",
+      "text": "You are not opening the whole pair today. You are finding a flow the first junction tolerates. We will repeat it after sleep, then move to the next junction only if both sides agree. Channels adapt through compatible work and recovery. A dramatic surge can tear a shortcut across a route that later must be repaired in the ordinary slow way.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "2: Retention"
+      },
+      "next": "channels_015"
+    },
+    "channels_015": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "For two weeks the same three breaths carried the same eighth-unit pulse. On some evenings the return arrived sooner; on others it returned with phase grit that the grounding pad caught as a dull halo. Lin Yue noted what she had eaten and which basin she had cleaned. Correlations emerged, disappeared, and refused to become a convenient single explanation.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "2: Retention"
+      },
+      "next": "channels_016"
+    },
+    "channels_016": {
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "The grit is worse after the west basin, but not every time. It might be the basin's residue, or fatigue from its longer shift, or the cold wind there. Could I change the shift while keeping the meal and practice hour the same? I cannot afford enough attempts to vary everything at once, and another guess will only use the fuel.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "2: Retention"
+      },
+      "next": "channels_017"
+    },
+    "channels_017": {
+      "speaker": "duan_zhi",
+      "actor": "duan_zhi",
+      "text": "We can schedule that comparison. It will cost us one slower repair morning, which belongs in the workshop account. Your test matters enough to pay that cost, once. Ask a second worker to seal the reference chamber without telling you its position. Then write the prediction before the attempt. A prediction recorded afterward can agree with almost anything.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "2: Retention"
+      },
+      "next": "channels_018"
+    },
+    "channels_018": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The controlled comparison weakened the basin theory. Grit rose after heavy labor at either pool and stayed lower after seated sorting at the west one. Han Mei inspected the ordinary pulse under Lin Yue's wrist. The result suggested fatigue altered refinement before the channel became painful. It did not prove that the west basin's deposits were harmless; those still went into the lined tray.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "2: Retention"
+      },
+      "next": "channels_019"
+    },
+    "channels_019": {
+      "speaker": "han_mei",
+      "actor": "han_mei",
+      "text": "We have narrowed one cause for your practice result. The disposal rule answers a different question and remains. When cultivation texts sound certain, ask what their certainty covers. A method safe for a rested examiner may fail in a hungry worker. That is not an inferior soul. It is a method written around a body the author forgot to describe.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "2: Retention"
+      },
+      "next": "channels_020"
+    },
+    "channels_020": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Lin Yue began labeling each attempt with a recovered or working-day mark. Her notebook looked less heroic and became easier to use. She could compare like with like. The first junction tolerated a slow quarter-unit on three recovered trials. Duan let her continue toward the elbow, where the return would have to cross a scar from an old kiln burn.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "2: Retention"
+      },
+      "next": "channels_021"
+    },
+    "channels_021": {
+      "speaker": "duan_zhi",
+      "actor": "duan_zhi",
+      "text": "The scar changes the surface reading. It may also change local tolerance. We test both instead of deciding from appearance. No pill is required merely because the skin has a mark. Show me the ordinary movement first. Then we compare with a contact pad placed clear of the scar and keep the dose beneath the previous safe flow.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "2: Retention"
+      },
+      "next": "channels_022"
+    },
+    "channels_022": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The altered placement improved the lens reading but did not improve her felt pressure. Duan split those findings in the notebook. A salve eased the old skin's dryness; a longer release eased the route. Neither could claim the other's result. Lin Yue had wanted one cure to remove the scar and every consequence of it. The work gave her two smaller answers she could verify.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "2: Retention"
+      },
+      "next": "channels_023"
+    },
+    "channels_023": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Shen Qing visited with a sword practice invitation. He demonstrated a narrow bright thread along a grounded blade, then put the blade away when Lin Yue asked whether she could try it. She felt disappointment before she noticed the rated handle and the separate stone socket. His demonstration involved protections she did not yet know how to inspect.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "2: Retention"
+      },
+      "next": "channels_024"
+    },
+    "channels_024": {
+      "speaker": "shen_qing",
+      "actor": "shen_qing",
+      "text": "The blade is a workshop teaching tool. Its socket supplies most of the visible thread. Your first pair is not ready for this grip, and the return pad sits close to your wrist scar. We can practice ordinary alignment with an unpowered wooden blade today. Refusing this particular circuit does not forbid you to learn where your feet belong.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "2: Retention"
+      },
+      "next": "channels_025"
+    },
+    "channels_025": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "They practiced on dry boards. Shen Qing moved her front foot a finger-width and asked her to bend the knee without power. The pressure vanished. Lin Yue had been planning to reinforce a stance that was already twisted. She repeated the ordinary correction until the boards creaked under the same balanced weight. No light appeared. The absence was becoming less embarrassing.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "2: Retention"
+      },
+      "next": "channels_026"
+    },
+    "channels_026": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "In the fourth route week, she woke after a troubled dream and discovered a faint numb line across two fingers. She had practiced within the dose limit, eaten properly, and slept long enough. The uncertainty frightened her more than a known mistake. She carried the notebook to Duan rather than making an unrecorded attempt to reproduce the symptom.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "2: Retention"
+      },
+      "next": "channels_027"
+    },
+    "channels_027": {
+      "speaker": "duan_zhi",
+      "actor": "duan_zhi",
+      "text": "We suspend route pulses until the symptom resolves and an independent examiner checks it. You keep your stage-two retention assessment; the pair remains unfinished. Yesterday's low-flow limit may no longer be safe. A limit is a conclusion from known conditions, not an oath that the tissue must obey when new evidence arrives.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "2: Retention"
+      },
+      "next": "channels_028"
+    },
+    "channels_028": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Han Mei took the next readings while Duan inspected the caliper. A salt bridge had formed beneath one contact pad. It allowed part of the apparent return to pass outside Lin Yue's route. The notebook overstated her throughput. It did not explain away the numbness; a too-fast pulse could still have reached the tissue before the false return convinced them it was complete.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "2: Retention"
+      },
+      "next": "channels_029"
+    },
+    "channels_029": {
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "I cleaned the visible pads every time. I did not know the underside could make a bridge. Your inspection sheet did not name it either. I need the rest now, and we need a better inspection. If we call this only my impatience, the next borrower will make the same careful mistake with the same clean-looking instrument.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "2: Retention"
+      },
+      "next": "channels_030"
+    },
+    "channels_030": {
+      "speaker": "duan_zhi",
+      "actor": "duan_zhi",
+      "text": "Agreed. The workshop pays for the independent assessment and the lost scheduled sessions. I will add the underside check and a test with the contacts lifted from the skin. Your report stopped the instrument before another borrower used it. My stage does not excuse a faulty inspection. We repair the tool and our procedure; your wrist still needs its own recovery.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "2: Retention"
+      },
+      "next": "channels_031"
+    },
+    "channels_031": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The independent examination found temporary irritation, no persistent loss of ordinary sensation. The route rested for eleven days. Lin Yue could maintain a quiet reservoir and do limited sorting, but she missed the sensation of reaching toward the elbow. The promise of third stage had made stage two feel like a waiting room. She read her first overnight failure and found a room with a floor.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "2: Retention"
+      },
+      "next": "channels_032"
+    },
+    "channels_032": {
+      "speaker": "han_mei",
+      "actor": "han_mei",
+      "text": "Keep the floor. When my shoulder was injured, I treated every surviving skill as a reminder of the one I had lost. It nearly cost me the work I could still do. You are allowed to grieve the lost days. You are also allowed to hold six units reliably without demanding that they apologize for not being twelve.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "2: Retention"
+      },
+      "next": "channels_033"
+    },
+    "channels_033": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The repaired caliper returned with a second blank and a lifted-contact test. Duan asked Lin Yue to inspect it before watching his own inspection. Their separate notes matched. For the renewed route work, he used a lower dose and a slower release than before. She felt a small return at the elbow without the old cold line, then waited until morning before deciding what it meant.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "2: Retention"
+      },
+      "next": "channels_034"
+    },
+    "channels_034": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The next-day hand check was normal. Another week established the elbow junction under alternating light work and recovered days. Duan changed the chamber positions, the contact cloth and the hour of practice. Lin Yue could state which changes affected the reference and which affected her. Her explanations became shorter as she needed fewer invented reasons to protect her pride.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "2: Retention"
+      },
+      "next": "channels_035"
+    },
+    "channels_035": {
+      "speaker": "duan_zhi",
+      "actor": "duan_zhi",
+      "text": "Now the chest junction. We keep the ordinary breath easy and the return route available. If you feel tightness behind the sternum, stop; a remembered diagram does not overrule that sensation. The first pair will be complete only when the inward and outward paths carry a matched low pulse, release on command, and leave both hands normal after sleep.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "2: Retention"
+      },
+      "next": "channels_036"
+    },
+    "channels_036": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The inward path reached the chest junction on a still morning. Lin Yue felt a cool turn beside the warmth of her heartbeat. She did not follow it deeper. The manual's next stroke looked temptingly close, a single curve away from an extraordinary vessel. Duan covered that part of the map and asked her to demonstrate the way back first.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "2: Retention"
+      },
+      "next": "channels_037"
+    },
+    "channels_037": {
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "I want the larger circuit badly enough that the next line looks like permission. Today the permission is for this pair. I can name the return junction and stop the pulse before the chest tightens. If I cannot do that when I am excited, the map belongs to my imagination more than to my body.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "2: Retention"
+      },
+      "next": "channels_038"
+    },
+    "channels_038": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The first complete return cost nearly half a unit to deliver a useful quarter. Some energy dispersed at the junctions; some was caught by the grounding pads. Duan required the loss to remain in the notebook. A completed route did not mean a perfect route. Lin Yue could finally distinguish the promise of future efficiency from the reserve that today's technique actually spent.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "2: Retention"
+      },
+      "next": "channels_039"
+    },
+    "channels_039": {
+      "speaker": "duan_zhi",
+      "actor": "duan_zhi",
+      "text": "Third-stage assessment requires twelve usable units after ordinary activity, at least eighty-five percent compatible charge, and the first pair carrying a controlled quarter-unit pulse in both directions. Three recovered trials, with independent blanks and normal next-day sensation. We do not add reserve while pretending the route work costs nothing. Your sleeping field and your waking route must support each other.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "2: Retention"
+      },
+      "next": "channels_040"
+    },
+    "channels_040": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "It took three more weeks to reach the twelve-unit reserve while keeping the route quiet. Lin Yue increased the target by half a unit only after a recovered retention test. When a working day returned less, she reduced the next practice load instead of chasing the missing amount. The workshop ledger recorded sixty-eight days since her arrival. None could be removed by a bright enough exhalation.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "2: Retention"
+      },
+      "next": "channels_041"
+    },
+    "channels_041": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The first assessment returned twelve and one quarter units at eighty-six percent compatibility. The inward pulse and its outward partner matched within the caliper's permitted delay. Duan asked her to stop halfway through another pulse. She discharged without chest pressure, then spent the remainder of the day sorting ceramic caps. Next morning, both hands felt ordinary.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "2: Retention"
+      },
+      "next": "channels_042"
+    },
+    "channels_042": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "For the second assessment, Han Mei sealed the reference and Duan moved the bench into the shaded shed. Twelve units remained after the overnight and sampling corrections. A passerby dropped a bucket during the route test. Lin Yue interrupted, grounded, and restarted only after the blank settled. Her pair obeyed the stop sooner than her startled heartbeat did.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "2: Retention"
+      },
+      "next": "channels_043"
+    },
+    "channels_043": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The third assessment followed a light sluice shift, a full supper and a night's sleep in the cooler room. Twelve and one eighth units remained; compatibility was eighty-seven percent. The quarter-unit pulse completed both directions. Lin Yue named the measured loss, released the excess, and returned the borrowed tool. The following morning's sensation check found no numbness.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "2: Retention"
+      },
+      "next": "channels_044"
+    },
+    "channels_044": {
+      "speaker": "duan_zhi",
+      "actor": "duan_zhi",
+      "text": "Qi Gathering, third stage: First pair. Your method now permits one prepared reinforced step, within the tested throughput. It does not permit a leap across the canal or a blade thread borrowed from Shen Qing's tool. We will practice the step on dry boards with a slack safety line. A new capability needs its own ordinary conditions.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "next": "channels_045"
+    },
+    "channels_045": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Lin Yue traced the two channel strokes in her notebook. The ink was darker where weeks of corrections had crossed the first neat diagram. She could have recopied it cleanly. Instead she added a second page for the next stage and kept the damaged map. The salt bridge, the eleven rest days and the stopped pulses belonged to the route she had actually earned.",
+      "chapter": "book_ii",
+      "background": "brine_sluice_workshop",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "next": "lantern_arrival"
     }
   }
 }

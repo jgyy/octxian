@@ -1303,6 +1303,23 @@
         "sluice_039",
         "sluice_040"
       ]
+    },
+    {
+      "id": "sluice_first_pair_earned",
+      "statement": "Route reserve and throughput are distinct. A hidden instrument salt bridge prompts an independent examination, eleven-day route recovery and revised calibration. Stage three follows three independent twelve-unit first-pair trials and next-day sensation checks after more than sixty-eight workshop days.",
+      "anchors": [
+        "channels_010",
+        "channels_011",
+        "channels_028",
+        "channels_030",
+        "channels_031",
+        "channels_039",
+        "channels_040",
+        "channels_041",
+        "channels_042",
+        "channels_043",
+        "channels_044"
+      ]
     }
   ],
   "review_policy": "Review each new chapter's chronology, custody, character knowledge, and alternate outcomes before updating this ledger. Structural checks supplement editorial review; they do not prove the absence of all possible plot holes.",
@@ -1707,6 +1724,21 @@
         "sluice_039"
       ],
       "before": "sluice_040"
+    },
+    {
+      "id": "sluice_recovery_before_first_pair",
+      "required": [
+        "sluice_040",
+        "channels_028",
+        "channels_030",
+        "channels_031",
+        "channels_033",
+        "channels_039",
+        "channels_041",
+        "channels_042",
+        "channels_043"
+      ],
+      "before": "channels_044"
     }
   ]
 }
