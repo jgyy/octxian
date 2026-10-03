@@ -45,3 +45,8 @@ The workshop prompt requested settling pools, copper calibration blanks, finite 
 ## Voidglass Centipede · ash-bridge expansion
 
 `assets/art/world/voidglass_centipede.png` is an original native 1024×1536 PNG master with RGBA transparency. The prompt specified a full sinuous segmented creature with many mineral legs, violet glass stress lines, copper joints, sensory filaments and a flattened split-glass tail, independently designed from the existing mantis and kiln mite. The retained output is not enlarged. Display scaling preserves its proportions. This independent generation is not a recolor or pose variant. 
+
+
+## Six-contact Phase Comb · ash-bridge expansion
+
+`assets/art/world/phase_comb.png` is an original native 1024×1536 PNG master with RGBA transparency. The prompt specified exactly six external contacts, five colored mineral wells and one empty control, separate copper leads, grounding weights, a physical shutter and visible ceramic repairs. The retained output is not enlarged. Display scaling preserves its proportions. This independent generation is not a recolor or pose variant. 
