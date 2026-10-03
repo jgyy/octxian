@@ -673,6 +673,156 @@
         ],
         "record": "assets/art/CONTINUATION_BOOKS_PROVENANCE.md"
       }
+    },
+    {
+      "id": "forest_autumn_boundary",
+      "name": "Autumn Forest Boundary",
+      "path": "assets/art/world/forest_autumn_boundary.png",
+      "native_size": [
+        1672,
+        941
+      ],
+      "description": "Late-autumn Chinese mountain forest boundary, leafless broadleaf trees and dark pines, leaf litter, thin ground frost but no settled snow, old plain stone markers, a narrow working path and stakes beside safely unburned firebreak trial ground.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/forest_autumn_boundary.png",
+        "native_size": [
+          1672,
+          941
+        ],
+        "record": "assets/art/CONTINUATION_BOOKS_PROVENANCE.md"
+      },
+      "environment": "exterior"
+    },
+    {
+      "id": "forest_kiln_workroom",
+      "name": "Forest Kiln Cooling Workroom",
+      "path": "assets/art/world/forest_kiln_workroom.png",
+      "native_size": [
+        1672,
+        941
+      ],
+      "description": "Ancient Chinese forest charcoal kiln cooling workroom with clay retort pots on sturdy shelves, ordinary scoops and weighed black charcoal trays, stone floor, soot-dark timber, pale morning light and a high cool ventilation opening.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/forest_kiln_workroom.png",
+        "native_size": [
+          1672,
+          941
+        ],
+        "record": "assets/art/CONTINUATION_BOOKS_PROVENANCE.md"
+      },
+      "environment": "interior",
+      "collection": "building_interiors"
+    },
+    {
+      "id": "forest_warden_lodge",
+      "name": "Forest Warden Lodge",
+      "path": "assets/art/world/forest_warden_lodge.png",
+      "native_size": [
+        1672,
+        941
+      ],
+      "description": "Ancient Chinese mountain forest warden lodge interior, winter coats on pegs, long plain timber table, reed baskets of grain, a simple stove with protected ember grate, small raised paperboard, low shelves of work ledgers and a shuttered window.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/forest_warden_lodge.png",
+        "native_size": [
+          1672,
+          941
+        ],
+        "record": "assets/art/CONTINUATION_BOOKS_PROVENANCE.md"
+      },
+      "environment": "interior",
+      "collection": "building_interiors"
+    },
+    {
+      "id": "forest_boundary_map_room",
+      "name": "Forest Boundary Map Room",
+      "path": "assets/art/world/forest_boundary_map_room.png",
+      "native_size": [
+        1672,
+        941
+      ],
+      "description": "Ancient Chinese forest survey map room interior, broad old paper maps weighted on a central wooden table, tied folios on low shelves, ordinary bamboo measuring rods, plumb line and compass, unpowered wall diagram, clear window light.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/forest_boundary_map_room.png",
+        "native_size": [
+          1672,
+          941
+        ],
+        "record": "assets/art/CONTINUATION_BOOKS_PROVENANCE.md"
+      },
+      "environment": "interior",
+      "collection": "building_interiors"
+    },
+    {
+      "id": "mountain_archive_autumn_courtyard",
+      "name": "Mountain Archive Autumn Courtyard",
+      "path": "assets/art/world/mountain_archive_autumn_courtyard.png",
+      "native_size": [
+        1672,
+        941
+      ],
+      "description": "Ancient Chinese mountain archive exterior courtyard in early autumn, plain timber and stone building, open cobbled yard with a low reference drain and terrace edge, old maple leaves amber and red, a repaired roof bay scaffold outside a closed side aisle, distant mountain path beyond gate.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/mountain_archive_autumn_courtyard.png",
+        "native_size": [
+          1672,
+          941
+        ],
+        "record": "assets/art/CONTINUATION_BOOKS_PROVENANCE.md"
+      },
+      "environment": "exterior"
+    },
+    {
+      "id": "mountain_archive_winter_village",
+      "name": "Mountain Archive Winter Village",
+      "path": "assets/art/world/mountain_archive_winter_village.png",
+      "native_size": [
+        1672,
+        941
+      ],
+      "description": "A small ancient Chinese mountain village market lane in midwinter, snow on stone-and-timber cottages and shuttered stalls, a narrow swept walkway, ordinary baskets and paper screens under eaves, covered well and bare fruit tree, high forested slopes beyond the roofs.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/mountain_archive_winter_village.png",
+        "native_size": [
+          1672,
+          941
+        ],
+        "record": "assets/art/CONTINUATION_BOOKS_PROVENANCE.md"
+      },
+      "environment": "exterior"
+    },
+    {
+      "id": "mountain_archive_winter_courtyard",
+      "name": "Mountain Archive Winter Courtyard",
+      "path": "assets/art/world/mountain_archive_winter_courtyard.png",
+      "native_size": [
+        1672,
+        941
+      ],
+      "description": "A plain ancient Chinese mountain archive exterior courtyard in settled winter snow, stone path swept clear from a timber gate to archive door, protected wall drain hatch and a low terrace edge, repaired roof and safely closed side bay, snow laden pine and bare maple branches, cold blue afternoon light.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/mountain_archive_winter_courtyard.png",
+        "native_size": [
+          1672,
+          941
+        ],
+        "record": "assets/art/CONTINUATION_BOOKS_PROVENANCE.md"
+      },
+      "environment": "exterior"
     }
   ],
   "npcs": [
@@ -1269,6 +1419,126 @@
         "kind": "original_painting",
         "derivation": "none",
         "source_path": "assets/art/world/bao_jun.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/CONTINUATION_BOOKS_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "rong_sui",
+      "name": "Rong Sui",
+      "path": "assets/art/world/rong_sui.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "Factor of the eastern charcoal contracts",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/rong_sui.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/CONTINUATION_BOOKS_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "long_qian",
+      "name": "Long Qian",
+      "path": "assets/art/world/long_qian.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "Buyer of grain-house winter fuel",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/long_qian.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/CONTINUATION_BOOKS_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "wen_cai",
+      "name": "Wen Cai",
+      "path": "assets/art/world/wen_cai.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "Charcoal cutter of the lower road",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/wen_cai.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/CONTINUATION_BOOKS_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "pei_yun",
+      "name": "Pei Yun",
+      "path": "assets/art/world/pei_yun.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "Keeper of the old forest boundary",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/pei_yun.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/CONTINUATION_BOOKS_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "luo_sheng",
+      "name": "Luo Sheng",
+      "path": "assets/art/world/luo_sheng.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "Kiln foreman",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/luo_sheng.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/CONTINUATION_BOOKS_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "tan_ning",
+      "name": "Tan Ning",
+      "path": "assets/art/world/tan_ning.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "Clerk of vessel contracts",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/tan_ning.png",
         "native_size": [
           1024,
           1536

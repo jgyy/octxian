@@ -3,13 +3,13 @@
   "source_commit": "feb4ec7500a1df2bf95b16265544553372c657ce",
   "review_date": "2026-10-03",
   "defect_count": 6,
-  "changed_scene_count": 7,
+  "changed_scene_count": 8,
   "scope": "Six additional city continuity or evidence defects in existing Book V. No new-book drafting errors, training changes, or prior repair roots are counted. The review found fewer than the requested eight defensible additional roots.",
   "verification": {
     "repairs": 6,
-    "changed": 7,
-    "max": 95,
-    "delta": -36,
+    "changed": 8,
+    "max": 89,
+    "delta": -51,
     "errors": [],
     "exact_source_and_result_anchors": true,
     "metadata_preserved": true,
@@ -53,6 +53,12 @@
           "node_id": "city_mask_stakes",
           "before": "Tao has lost a week's bookings because the register treats the shared number as a shared permanent name. Bian's guild has held back her practice credit. Neither needs us to declare all masks wicked. They need their two returns separated and the extra pledge removed from these collars. If I close every rental, the market carriers lose work before anyone checks a single slip. I can set this batch aside while we measure it. I cannot pay every worker to wait for a grand answer.",
           "after": "Tao has lost a week's bookings because the register treats the shared number as a shared permanent name. Bian's guild has held back her practice credit. They need their returns separated and the unauthorized registry pledges removed. Bian's examined collar needs repair; each further collar needs its own check. Closing every rental would stop unaffected carriers before anyone examined their slips. I can set this batch aside. I cannot pay every worker to wait for a grand answer."
+        },
+        {
+          "path": "data/story.json",
+          "node_id": "city_mask_packet",
+          "before": "At the safe house, Lin Yue folded the drawings around a board so their edges would stay flat. Qiao signed the fitting schedule and three direct comparisons: collar joins, paste, and weave. Bian and Tao chose to have their separate accounts read at the hearing; Nian and Fu supplied short statements about their own work. The collars remained sealed as exhibits. Qiao listed the batch held for inspection and the unaffected rentals still open. A page left blank at the back would record what the hearing decided, after it heard them.",
+          "after": "At the safe house, Yue folded the drawings around a board. Qiao signed the fitting schedule and three direct comparisons: collar joins, paste and weave. Bian and Tao authorized their separate accounts for the hearing; Nian and Fu supplied statements about their own work. Bian's examined collar and both tokens remained separately sealed as exhibits. Tao's collar awaited its own physical check. Qiao listed the batch held for inspection and unaffected rentals still open. A blank page would record the hearing's decision."
         }
       ]
     },
@@ -61,7 +67,7 @@
       "path": "data/story.json",
       "node_id": "city_mask_samples",
       "before": "Bian tipped the contents of her cloth bag onto the table: the collar, a rental slip, and two return tokens. Both tokens bore reed-seven, although one came from her own return and the other from Tao Min's. Qiao's schedule gave Tao reed-nine; their punched corners differed. Qiao laid the genuine studio sample beside them. Its red closing knot was flat and narrow; Bian's lining covered a thicker joint. The portrait shell and its signed seal matched his fitting notes. Someone had kept the useful face while changing the part that told a clerk what it authorized.",
-      "after": "Bian placed her changed collar, rental slip, and two return tokens on the table. Tao Min had lent his token for this comparison, with a signed note allowing its serial to be shown at the hearing. Both bore reed-seven, though Qiao's schedule gave Tao reed-nine; their punched corners differed. Qiao laid his genuine studio sample beside them. Its flat red knot differed from Bian's thicker pasted join. Her portrait shell and signed seal matched his fitting notes. The added lining changed what a clerk might believe the return authorized.",
+      "after": "Bian placed her changed collar, rental slip and two return tokens on the table. Tao Min had lent his token and rental slip, with a signed note allowing dates and serials at the hearing. Both tokens bore reed-seven, though Qiao's schedule gave Tao reed-nine; their punched corners differed. His genuine studio sample's flat red knot differed from Bian's thicker pasted join. Her portrait shell and signed seal matched his fitting notes. The added lining changed what a clerk might believe the return authorized.",
       "reason": "Tao Min's token appears in Bian's bag before the optional worker visit or later hearing permissions. Its provenance and the permitted examination are unstated, although the token exposes another worker's return serial and is used as an exhibit.",
       "category": "offered_token_custody",
       "evidence": [
@@ -182,5 +188,6 @@
       ]
     }
   ],
-  "source_base": "feb4ec7500a1df2bf95b16265544553372c657ce"
+  "source_base": "feb4ec7500a1df2bf95b16265544553372c657ce",
+  "followup_note": "Follow-up review closes remaining manifestations of the same roots: the singular examined collar in the final exhibit packet, and explicit loan scope for Tao's rental slip as well as token. No additional root count."
 }
