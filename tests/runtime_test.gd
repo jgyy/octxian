@@ -93,7 +93,7 @@ func _run() -> void:
 				game.actor.show_character(id, motion, str(clothing["id"]))
 				check(game.actor.outfit == clothing["id"], "Every character outfit should load")
 				var portrait: Texture2D = game.actor.sprite.texture
-				check(portrait != null and portrait.get_size() == Vector2(384, 512), "Every outfit must load one intact portrait")
+				check(portrait != null and portrait.get_size() == Vector2(1024, 1536), "Every outfit must load one intact portrait")
 				game.actor.set_process(false)
 				game.actor.reset_motion()
 				game.actor._process(1.0)
@@ -198,12 +198,13 @@ func _run() -> void:
 	check(game.actor.character == "frostroot_hart" and game.actor.sprite.texture.get_size() == Vector2(1024, 1536), "Frostroot Hart must load its own native original")
 	await _test_city_ui(game)
 	await _test_court_ui(game)
+	await _test_thunderfen_ui(game)
 	game.state.current = "orchard_resolution_choice"
 	game._scene()
 	game.dialogue.visible_characters = -1
-	var resolve_before: int = game.state.stats.resolve
+	var heart_before: int = game.state.stats.trust
 	game._choose(3)
-	check(game.state.current == "orchard_pause" and game.state.stats.resolve == resolve_before + 2, "Book IV must retain an available settlement and apply its attribute effects")
+	check(game.state.current == "orchard_pause" and game.state.stats.trust == heart_before + 2, "Book IV must retain an available settlement and apply its attribute effects")
 	game.state.history.append({"speaker": "narrator", "text": "[b]literal[/b]"})
 	game._journal()
 	var logs: Array[Node] = game.popup.find_children("*", "RichTextLabel", true, false)
@@ -255,7 +256,7 @@ func _test_attribute_ui(game) -> void:
 	var choice_details: Label = game.choice_box.find_child("ChoiceDetails_0", true, false)
 	check(game.choice_box.get_child_count() == 3 and game.choice_box.get_child(0) is VBoxContainer, "Each choice must have its own card")
 	check(choice_button != null and not choice_button.disabled, "Playable choices must remain enabled")
-	check(choice_details != null and choice_details.is_visible_in_tree() and choice_details.text.contains("Qi +1") and choice_details.text.contains("Trust +2"), "Choice gains must be visible before selection")
+	check(choice_details != null and choice_details.is_visible_in_tree() and choice_details.text.contains("Qi Control +1") and choice_details.text.contains("Dao Heart +2"), "Choice gains must be visible before selection")
 
 	game.dialogue.visible_characters = 1
 	game.text_clock = 1.0
@@ -283,9 +284,9 @@ func _test_attribute_ui(game) -> void:
 	game._advance()
 	game._choose(0)
 	check(game.state.current == "trust" and game.state.stats.qi == 1 and game.state.stats.trust == 2, "Closing attributes must restore choice interaction")
-	check(game.status_label.text.contains("Qi +1") and game.status_label.text.contains("Trust +2"), "Choice gains must appear on the resulting scene")
+	check(game.status_label.text.contains("Qi Control +1") and game.status_label.text.contains("Dao Heart +2"), "Choice gains must appear on the resulting scene")
 	var totals: Label = game.ui.find_child("AttributeTotals", true, false)
-	check(totals != null and totals.text.contains("QI 01") and totals.text.contains("TRUST 02"), "Scene totals must refresh after gaining attributes")
+	check(totals != null and totals.text.contains("CONTROL 01") and totals.text.contains("DAO HEART 02"), "Scene totals must refresh after gaining attributes")
 	game._unhandled_key_input(shortcut)
 	_check_attribute_panel(game)
 	game._close_popup()
@@ -295,15 +296,15 @@ func _test_attribute_ui(game) -> void:
 	game._advance()
 	choice_button = game.choice_box.find_child("Choice_0", true, false)
 	choice_details = game.choice_box.find_child("ChoiceDetails_0", true, false)
-	check(choice_button != null and choice_button.disabled and choice_button.tooltip_text.contains("Qi 1/3"), "Locked choices must be disabled and explain their gate")
-	check(choice_details != null and choice_details.is_visible_in_tree() and choice_details.text.contains("Locked") and choice_details.text.contains("Qi 1/3") and choice_details.text.contains("Trust +1"), "Locked requirements and possible gains must remain visible")
+	check(choice_button != null and choice_button.disabled and choice_button.tooltip_text.contains("Qi Control 1/3"), "Locked choices must be disabled and explain their gate")
+	check(choice_details != null and choice_details.is_visible_in_tree() and choice_details.text.contains("Locked") and choice_details.text.contains("Qi Control 1/3") and choice_details.text.contains("Dao Heart +1"), "Locked requirements and possible gains must remain visible")
 	game.state.stats.qi = 3
 	game._scene()
 	game._advance()
 	choice_button = game.choice_box.find_child("Choice_0", true, false)
 	choice_details = game.choice_box.find_child("ChoiceDetails_0", true, false)
 	check(choice_button != null and not choice_button.disabled, "Reaching the threshold must unlock the rebuilt choice")
-	check(choice_details != null and choice_details.text.contains("Requires") and choice_details.text.contains("Qi 3/3"), "Satisfied requirements must refresh with current values")
+	check(choice_details != null and choice_details.text.contains("Requires") and choice_details.text.contains("Qi Control 3/3"), "Satisfied requirements must refresh with current values")
 	game._attributes()
 	_check_attribute_panel(game)
 	game._close_popup()
@@ -371,7 +372,7 @@ func _test_city_ui(game) -> void:
 	game._scene()
 	game._advance()
 	await process_frame
-	for index in range(3):
+	for index in range(2):
 		var blocked: Button = game.choice_box.find_child("Choice_" + str(index), true, false)
 		var summary: Label = game.choice_box.find_child("ChoiceDetails_" + str(index), true, false)
 		check(blocked != null and blocked.disabled, "Untrained city settlement choices must remain locked")
@@ -457,19 +458,27 @@ func _test_court_ui(game) -> void:
 	game._scene()
 	game._advance()
 	await process_frame
-	for index in range(3):
+	for index in [0, 2]:
 		var blocked: Button = game.choice_box.find_child("Choice_" + str(index), true, false)
 		var summary: Label = game.choice_box.find_child("ChoiceDetails_" + str(index), true, false)
 		check(blocked != null and blocked.disabled, "Untrained specialized court remedies must be locked in the UI")
 		check(summary != null and summary.text.contains("Locked") and summary.text.contains("0/4"), "Court remedy thresholds and gains must be visible")
+	var cooperative: Button = game.choice_box.find_child("Choice_1", true, false)
+	check(cooperative != null and not cooperative.disabled, "Already offered testimony cooperation must remain available without a score")
 	var fallback: Button = game.choice_box.find_child("Choice_3", true, false)
 	check(fallback != null and not fallback.disabled, "The dated court remand must remain available without training")
 	var before_stats: Dictionary = game.state.stats.duplicate()
 	var before_history: Array = game.state.history.duplicate(true)
 	game._choose(0)
 	check(game.state.current == "court_final_choice" and game.state.stats == before_stats and game.state.history == before_history, "A locked court UI remedy must preserve the journey")
+	game._choose(1)
+	check(game.state.current == "court_local_proposal" and game.state.stats.insight == 2, "Offered testimony must advance and credit Comprehension")
+	game.state.current = "court_final_choice"
+	game.state.stats = before_stats.duplicate()
+	game._scene()
+	game.dialogue.visible_characters = -1
 	game._choose(3)
-	check(game.state.current == "court_remand_proposal" and game.state.stats.resolve == 2, "The ungated court remedy must advance through the UI and apply Resolve")
+	check(game.state.current == "court_remand_proposal" and game.state.stats.trust == 2, "The ungated court remedy must advance through the UI and apply Dao Heart")
 
 func _court_world_size(game, id: String) -> Vector2:
 	for group in ["backgrounds", "npcs", "monsters"]:
@@ -611,3 +620,45 @@ func _test_foundry_ui(game) -> void:
 	check(game.atmosphere.clock > effect_clock, "The second-pair effect must resume when motion is enabled")
 	game.state.current = "arrival"
 	game._title()
+
+func _test_thunderfen_ui(game) -> void:
+	for sample in [{"node": "ridge_departure_002", "actor": "jiang_tao"},
+			{"node": "ridge_pool_001", "actor": "copperback_tortoise"},
+			{"node": "ridge_incident_cloudhound_001", "actor": "cloudhound"}]:
+		game.state.current = sample.node
+		game._scene()
+		check(game.actor.character == sample.actor and game.actor.sprite.texture != null, "Thunderfen originals must render in dialogue")
+		if game.actor.sprite.texture != null:
+			check(game.actor.sprite.texture.get_size() == Vector2(1024, 1536), "Thunderfen portraits must retain native detail")
+		check(game.background.texture != null and game.background.texture.get_size() == Vector2(1672, 941), "Thunderfen backgrounds must retain their native dimensions")
+
+	for event_id in ["ridge_weather_event", "ridge_incident_event"]:
+		game.state.current = event_id
+		game.state.journey_seed = 23
+		game._scene()
+		game._advance()
+		await process_frame
+		check(game.choice_box.get_child_count() == 0 and not game.choice_box.visible, "Chance must not expose selectable outcome cards")
+		check(game.continue_button.visible, "Chance must offer Continue after the line")
+		var predicted: String = game.state.encounter_target()
+		var before_stats: Dictionary = game.state.stats.duplicate()
+		var before_history: Array = game.state.history.duplicate(true)
+		game._choose(0)
+		check(game.state.current == event_id and game.state.history == before_history, "Number selection cannot alter a chance event")
+		game._advance()
+		check(game.state.current == predicted and game.state.encounters[event_id] == predicted, "UI Continue must resolve the saved-seed outcome")
+		check(game.state.stats == before_stats and game.state.history.size() == before_history.size() + 1, "Chance must record one transition without score gains")
+
+	game.state.current = "ridge_incident_surge_001"
+	game._scene()
+	check(game.atmosphere.effect == "storm_discharge", "The external discharge must select its own effect")
+	game._settings()
+	check(game.atmosphere.paused, "Panels must pause the storm effect")
+	game._close_popup()
+	game._motion_changed(true)
+	check(not game.atmosphere.enabled, "Reduced motion must remove the storm effect")
+	game._motion_changed(false)
+	game._items()
+	game._item_selected(game.world.items.size() - 1)
+	check(game.item_image.texture != null and game.item_image.texture.get_size() == Vector2(1024, 1536), "Storm compass inspection must retain native pixels")
+	game._close_popup()

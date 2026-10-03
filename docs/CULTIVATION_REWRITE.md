@@ -1,67 +1,63 @@
 # Cultivation rewrite production ledger
 
-Lin Yue begins as a mortal kiln worker with zero retained qi. She earns Body Tempering and the first three Qi Gathering stages through paid work, failed measurements, injuries, recovery and repeatable examinations. The pendant grants no cultivation.
+Lin Yue begins as a mortal kiln worker with zero retained qi. Paid work, failures, recovery and independent recovered examinations earn Body Tempering and Qi Gathering's first four stages. The pendant grants no cultivation. Books IX–XI practice the fourth stage without awarding a fifth.
 
 ## Delivered manuscript
 
 | Measure | Actual delivered |
 |---|---:|
-| Mortal-training expansion | 77 scenes / 5,182 words |
-| Rewritten original Book I | 36 scenes / 2,397 words |
-| Sluice apprenticeship | 131 scenes / 7,892 words |
-| Recast valley openings and power scenes | 22 scenes / 1,509 words |
-| Other branch, power and continuity repairs | 34 scenes / 2,825 words |
-| New ash-bridge foundry arc | 299 scenes / 22,177 words |
-| Total cultivation rewrite | **599 scenes / 41,982 words** |
-| Whole playable campaign | **1,905 scenes / 160,095 words** |
-| Inherited prose awaiting recast | 118,113 words |
+| Whole playable campaign | **2,335 scenes / 190,774 words** |
+| Credited cultivation rewrite | **1,091 scenes / 78,081 words** |
+| Inherited prose awaiting recast | **112,693 words** |
+| New storm ledger / salt-road scenes | **336 scenes / 24,617 words** |
+| Existing prose repaired in this batch | **53 root defects / 78 paragraphs** |
+| Existing-prose net word change | **+229 words** |
+| Net campaign word addition | **24,846 words** |
+| Remaining displayed words toward 1,000,001 | **809,227** |
+| Remaining credited rewrite words toward 1,000,001 | **921,920** |
 
-The prior [plot-hole review](PLOT_HOLE_REVIEW.md) repairs 41 existing scenes and adds four prerequisite scenes, producing **401 net displayed words** and **3,035 newly credited rewrite words**. Updated passages already credited are counted once. Metadata, canon, labels, outlines, documentation and art descriptions contribute zero manuscript credit.
+[Machine-readable accounting](CULTIVATION_PROGRESS.json) identifies each credited scene once. The world validator recomputes displayed, rewrite and inherited totals and rejects stale or duplicated credit. Titles, labels, outlines, metadata, documentation and artwork descriptions add no manuscript words.
 
-[The machine-readable ledger](CULTIVATION_PROGRESS.json) lists every credited scene. The world validator recomputes the total, rewrite and inherited counts and rejects stale, duplicated or unknown credit. The strict target remains **1,000,001 words**: 839,906 additional displayed words are needed, or **958,019 rewrite words** for the complete rewritten manuscript. The fourteen-volume 1,050,000-word architecture is a plan.
+[The continuation report](CONTINUATION_20261003.md) distinguishes the 53 new root prose defects from the prior PR's 115 corrections. The audits match complete original and corrected paragraphs; repeated manifestations remain grouped. New chapters and their editorial draft corrections receive no existing-content repair credit.
 
-## Earned progression
+The fourteen-volume, 1,050,000-word architecture remains a production plan. The complete recast and million-word campaign remain unfinished.
 
-The [foundry arc](FOUNDRY_EXPANSION.md) adds 22,177 new playable words and earns the second pair on Day Eighty through three independent recovered trials. Work and creature-response branches share findings before mandatory gates.
+## Earned progression and chronology
 
-The mortal opening reaches Qi Gathering stage one through three recovered retained-trace tests. During the repaired-road delay after Book I, Lin Yue works at the brine sluice for nearly three months. Stage two requires three calibrated six-unit overnight retention trials. Stage three requires three twelve-unit first-pair trials, compatible purity, interruption control and normal next-day sensation.
+The mortal opening earns stage one through three recovered retained-trace tests. Paid sluice work earns stage two through three calibrated six-unit overnight retention trials, then stage three through paired-meridian work, instrument-fault diagnosis, eleven rest days and three recovered twelve-unit examinations. Reserve, throughput, sampling discharge, purity and delivery loss remain separate.
 
-The arc separates reserve, route throughput, sampling discharge, delivery loss and ordinary fatigue. A salt bridge falsifies the caliper's return readings, prompting independent assessment, eleven rest days and a revised inspection. Reed-Step powers a rated cuff-to-sole stitch through the first arm pair; it never assumes an unopened leg channel works.
+[Foundry work](FOUNDRY_EXPANSION.md) spans 299 scenes and 22,198 current words. Warm-material failure and recovery precede three independent eighteen-unit trials; stage four is earned on Day Eighty. The current place ends on Day Eighty-four. The subsequent six-week bench term ends on Day One Hundred Twenty-six. Every [Thunderfen entrance](THUNDERFEN_EXPANSION.md) now departs on Day One Hundred Twenty-seven, after contracted work, keeping the two established arm pairs.
 
-Three work/recovery options rejoin before stage two. Three mantis-response options rejoin after source isolation and before the valley journey. Crews and separate fuel carry the large ward loads. Choice attributes remain proficiency, separate from authored realm labels.
+[Book X](STORM_LEDGER_EXPANSION.md) and [Book XI](SALT_ROAD_EXPANSION.md) continue all preceding outcomes. Their separate apparatus supplies, ordinary rescue, recovered control checks and finite water allocations develop experience without an unseen fifth-stage examination.
 
-[The canon](CULTIVATION_SYSTEM.md) defines all twelve gates and provides the local second/third-stage assessment table. Open **Attributes → Cultivation realms** in the game.
+The [cultivation canon](CULTIVATION_SYSTEM.md) defines anatomy, twelve gates, assessment, limits and recovery. The four [choice capacities](ATTRIBUTES.md) are Qi Control, Dao Heart, Comprehension and Physique; their ranks grant no realm, fuel or consent.
 
 ## Native generated art
 
-Nineteen cultivation masters are retained. The foundry continuation adds nine: three environments, three human portraits, one creature, one item and one interrupted-pair effect. The previous sluice batch added the **1536×1024 brine sluice workshop**, **1024×1536 RGBA Duan Zhi**, **1024×1536 RGBA brine mantis**, **1024×1536 RGBA meridian caliper**, and **1536×1024 RGBA paired-channel effect**.
+The twelve core 1024×1536 RGBA portrait masters remain independent originals copied byte for byte into runtime portraits. [Core provenance](../assets/art/CORE_PROVENANCE.md) records the cast and three outfits. The seven [Thunderfen originals](../assets/art/THUNDERFEN_PROVENANCE.md) retain native environment, portrait, object and effect bytes.
 
-The existing five cover the lower terrace, Han Mei, furnace mite, practice wick and first trace. [Provenance](../assets/art/CULTIVATION_PROVENANCE.md) records native generation. The image tool exposes no resolution parameter; requested maximum detail is reported at actual returned dimensions. No enlargement is credited.
+Four [new originals](../assets/art/STORM_SALT_PROVENANCE.md) add the 1774×887 warning observatory, 1672×941 watermill, 1024×1536 forewoman and 1024×1536 Salamander. Maximum native detail was requested; actual returned dimensions and portrait alpha are recorded. No enlargement is credited.
 
-The larger artwork library remains unfinished: eleven original-scope environments, 33 additional building interiors, eighteen human NPCs, nine monsters, five items and three effects are currently delivered. Effects do not count as world sprites.
+Catalog delivery is **14 original-scope backgrounds, 34 additional interiors, 20 human NPCs, 12 monsters, 6 items and 4 effects**. The original 100-background / 500-human / 501-beast targets and additional 100-interior target remain unfinished. Core wardrobe variants and effects do not inflate unique-world-sprite counts.
 
 ## Validation and remaining production
 
-The merged-data audit passes unique prose, the 100-word scene limit, character/art/stage references, actual gated reachability and every continuity checkpoint. All 1,905 scenes and 28 endings are reachable across 177,034 capped states. The campaign guards 45 mandatory continuity checkpoints. Books III–VII retain stage three; Book VIII earns stage four after its required recovered trials.
+All 2,335 scenes are graph-reachable with unique normalized prose, valid references and no scene over 100 words. The continuity ledger reviews eleven books, 167 facts and 51 mandatory checkpoint groups. The new graph tests separately protect 27 evidence, safety, recovery and funding prerequisites from each entrance.
 
-CI runs Python accounting and advancement regressions, native art and alpha checks, complete narration, Godot route/save/UI checks, fifty-nine actual viewport captures and standalone Linux launch. The final run and media commit are linked in the draft PR.
-
-The complete million-word cultivation recast and the large world-art quotas remain unfinished. The current authored progression reaches stage four; later inherited prose still awaits recast. The codex is detailed reference lore rather than a full dynamic cultivation economy.
+CI runs Python accounting/audit regressions, native-art checks, narration validation, Godot route/save/UI tests, **72 actual viewport captures**, timed body-bob checks and source-free Linux playback. The bundled report and workflow establish runtime/media success. Strict full-production acceptance remains enabled when the PR leaves draft.
 
 ```mermaid
 flowchart TD
-    Mortal["Mortal · zero retained qi"] --> Body["Skin → Sinew → Bone → Marrow"]
-    Body --> Trace["Three first-trace tests"]
-    Trace --> One["Qi Gathering 1 · Book I novice"]
-    One --> Sluice["Paid sluice apprenticeship"]
-    Sluice --> Retention["Three recovered six-unit trials"]
-    Retention --> Two["Qi Gathering 2 · Retention"]
-    Two --> Failure["Route failure · instrument fault · recovery"]
-    Failure --> Pair["Three recovered twelve-unit paired trials"]
-    Pair --> Three["Qi Gathering 3 · First pair"]
-    Three --> Work["Bounded mantis and valley work"]
-    Work --> Foundry["Paid foundry work; warm-material failure; recovery"]
-    Foundry --> Trials4["Three independent recovered eighteen-unit trials"]
-    Trials4 --> Four["Qi Gathering 4 · Second pair"]
-    Four --> Remaining["Later recast and million-word expansion"]
+    Mortal["Mortal · zero qi"] --> Trace["Training · three recovered trace tests"]
+    Trace --> One["Qi Gathering 1"]
+    One --> Retention["Paid sluice · six-unit retention trials"]
+    Retention --> Two["Qi Gathering 2"]
+    Two --> Recovery["Instrument fault · recovery · paired trials"]
+    Recovery --> Three["Qi Gathering 3"]
+    Three --> Foundry["Foundry failure · recovery · eighteen-unit trials"]
+    Foundry --> Four["Qi Gathering 4"]
+    Four --> Thunderfen["Bounded field practice · Day 127"]
+    Thunderfen --> Storm["Warning / relief investigation · ordinary rescue"]
+    Storm --> Salt["Finite water · rights · three allocation plans"]
+    Salt --> Future["Further recast and million-word production"]
 ```

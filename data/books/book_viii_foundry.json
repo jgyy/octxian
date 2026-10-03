@@ -181,7 +181,7 @@
         "realm": "qi_gathering",
         "stage": "3: First pair"
       },
-      "text": "The foundry admitted her to a paid bench place for six weeks, with extensions discussed before the term ended. Food, a dry bed and ordinary shifts came from the workshop account. Training fuel had a separate weekly allowance. An apprentice could spend that allowance quickly and learn nothing; she could not turn an empty socket into a debt against next month's meals. Yue pressed her thumb beside the terms and received a key with a chipped wooden tag. The key opened a drawer, not a secret realm.",
+      "text": "The foundry admitted her to a paid bench place for six weeks, with extensions discussed before the term ended. Food, a dry bed and ordinary shifts came from the workshop account. Training fuel had a separate weekly allowance, never a debt against next month's meals. The written terms also set aside two of her own copper as a refundable drawer deposit, returned after its key and condition check. Yue pressed her thumb beside the terms and received a chipped wooden key tag. It opened a drawer, not a secret realm.",
       "next": "foundry_arrival_013"
     },
     "foundry_arrival_013": {
@@ -220,7 +220,7 @@
         "realm": "qi_gathering",
         "stage": "3: First pair"
       },
-      "text": "The leaking cup belonged to nobody's practice circuit. Its foot had warped in a shelf too close to the furnace mouth. Zhen knew where the fault lay because he had spent three days sorting failures. Yue examined it and could not make the same judgment until he showed her the uneven contact. He had a lower realm and a skill she lacked. The realization relieved her, then stung. She had begun treating progress as a ladder on which every higher foot must stand above every lower hand.",
+      "text": "The leaking cup belonged to nobody's practice circuit. Its foot had warped in a shelf too close to the furnace mouth. Zhen knew where the fault lay because he had spent three days sorting failures. Yue examined it and could not make the same judgment until he showed her the uneven contact. He held a lower stage within Qi Gathering and a skill she lacked. The realization relieved her, then stung. She had begun treating progress as a ladder on which every higher foot must stand above every lower hand.",
       "next": "foundry_arrival_016"
     },
     "foundry_arrival_016": {
@@ -442,7 +442,8 @@
         "stage": "4: Second pair"
       },
       "text": "The next six-week term began beneath the same ash bridge. Yue's two tested pairs issued small commands while separate stone charges warmed the chamber. She checked every return and wrote the actual losses beside the useful tasks. At supper, the old work tablet lay next to the fourth-stage cord. No fifth-stage mark had appeared overnight. The open space beyond the second pair remained a future she could work toward. For now, the bench held an earned skill, an honest limit and enough rice to begin another day.",
-      "ending": "Two Routes at the Work Bench"
+      "ending": "Two Routes at the Work Bench",
+      "continuation": "ridge_from_bench"
     },
     "foundry_phase_001": {
       "chapter": "book_viii",
@@ -1019,7 +1020,7 @@
           "text": "Take the modest cup-sorting shifts.",
           "next": "foundry_wage_001",
           "effects": {
-            "resolve": 1
+            "insight": 1
           }
         },
         {
@@ -1033,7 +1034,7 @@
           "text": "Keep the lighter rota and recovered shoulder practice.",
           "next": "foundry_rest_001",
           "effects": {
-            "trust": 1
+            "resolve": 1
           }
         }
       ]
@@ -1204,7 +1205,7 @@
         "realm": "qi_gathering",
         "stage": "3: First pair"
       },
-      "text": "Zhen asked whether she regretted the smaller wage. Yue counted the supplies already covered by the ordinary account and admitted that a new cuff would have been welcome. The choice had a cost even when it was sensible. They mended the existing cuff after the wash station dried it. A patched item could serve its rated use; the patch would need inspection. Rest had not produced a better artifact from nothing.",
+      "text": "Zhen asked whether she regretted the smaller wage. Yue counted the supplies covered by the ordinary account and admitted that a new cuff would have been welcome. They mended the existing cuff after it dried. Su Yan checked the repaired conducting seam and repeated its dry grounding test before clearing later powered use. The patch retained an inspection mark and a specific rating. Rest had not produced a better artifact from nothing; two apprentices' ordinary repair had still needed qualification.",
       "next": "foundry_rest_004"
     },
     "foundry_rest_004": {
@@ -1347,7 +1348,7 @@
         "realm": "qi_gathering",
         "stage": "3: First pair"
       },
-      "text": "For eight days the new work advanced in fractions too small to look heroic. A clean morning could be followed by an ordinary day that tired the shoulder. A fresh material pad needed its own external comparison. Each delay threatened Yue's imagined schedule, though none violated the actual one. Zhen began saying 'another permitted attempt' when she said 'another lost day.' The phrase annoyed her until she heard how often her own language made the body seem disobedient.",
+      "text": "The eight-day preparation record included the earlier rota, external comparisons and these first tiny admissions. Each step remained too small to look heroic. An ordinary shift could tire the shoulder; a fresh material pad needed its own comparison. Yue kept treating delays as defeats even when they belonged within the agreed preparation window. Zhen began saying 'another permitted attempt' when she said 'another lost day.' The phrase annoyed her until she heard how often her own language made the body seem disobedient.",
       "next": "foundry_route_006"
     },
     "foundry_route_006": {
@@ -1919,7 +1920,7 @@
         "realm": "qi_gathering",
         "stage": "3: First pair"
       },
-      "text": "The foreman closed the upstream scrap feed with the ordinary shutter. A grounded waste strip isolated the storage cup's remaining contact from the main channel. The beast still held charge in its own armor; source isolation did not make that disappear. Su Yan kept the barrier between it and the stairs while a second worker opened the empty downstream sluice. The creature would have to find a path through stone and cooling water, not an invitation into the apprentice benches.",
+      "text": "The foreman closed the main upstream supply with its ordinary shutter. The separate scrap-feed shutter still needed seating from the recessed winch; the grounded waste strip isolated the storage cup's contact meanwhile. The beast held charge in its own armor, which source isolation could not remove. Su Yan kept the barrier between it and the stairs while a second worker opened the empty downstream sluice. The creature's available path led through stone and cooling water, away from the apprentice benches.",
       "next": "foundry_creature_008"
     },
     "foundry_creature_008": {
@@ -2017,7 +2018,7 @@
           "text": "Clear the upper access and account for departing workers.",
           "next": "foundry_access_001",
           "effects": {
-            "trust": 1
+            "insight": 1
           }
         }
       ]
@@ -2058,7 +2059,7 @@
         "realm": "qi_gathering",
         "stage": "3: First pair"
       },
-      "text": "The mark reached the agreed replacement line. Yue called it immediately, although the barrier still looked bright. A rested operator slid the next inspected socket into the rack while the frame remained supported. The used stone went to its discharge tray; it did not become a fresh reserve because the light had not quite died. Yue recorded the change and watched for the new settled reading.",
+      "text": "The mark reached the agreed replacement line. Yue called it immediately, although the barrier still looked bright. A rested operator connected the inspected replacement through the rack's rated, isolated standby feed. Only after its gauge accepted the load did she disconnect the spent socket; the supported frame stayed in place throughout. The used stone went to its discharge tray. Yue recorded both readings. Brief overlap spent charge from both sources; it did not create a fresh reserve from the old light.",
       "next": "foundry_gauge_004"
     },
     "foundry_gauge_004": {
@@ -2526,7 +2527,7 @@
         "realm": "qi_gathering",
         "stage": "3: First pair"
       },
-      "text": "At the end of the ninth week, she brought the complete record to the independent examiner who visited the foundry monthly. He was qualified for route assessment and had not supervised the practice. Su Yan supplied the material specifications and limits, including the failed warm-condition history. Yue supplied the reporting lapse. The visitor inspected the blanks and ordinary shoulder motion before scheduling a formal trial. Independence meant a different check of the evidence, not a guarantee of a favorable answer.",
+      "text": "At the end of the ninth week, Yue brought the record to the independent examiner who visited monthly. A separately approved assessment fee covered travel, lodging, three trial appointments and their next-day checks through Day Eighty. It bought his work, not a favorable judgment. Su Yan supplied the warm-condition specifications and failure history; Yue supplied her reporting lapse. The visitor inspected the blanks and ordinary shoulder motion before scheduling a trial. He could postpone it without charging Yue's meals or revoking completed wages.",
       "next": "foundry_resume_020"
     },
     "foundry_resume_020": {
@@ -2890,7 +2891,7 @@
         "realm": "qi_gathering",
         "stage": "4: Second pair"
       },
-      "text": "On Day Eighty-one, the examiner inspected the small furnace control station she had accepted. The physical heat source was a measured stone charge; the manual shutter could end its supply independently of Yue's cuff. Her task would be a stopped command at a rated socket, never holding the furnace's heat in her body. The socket's position required a transition between the two routes. That transition had not been part of the formal stage test and needed its own low-dose practice.",
+      "text": "On Day Eighty-one, the examiner inspected Yue's accepted control station. A measured stone charge powered the furnace; its manual shutter could stop supply independently of her cuff. The socket required a new transition between arm routes. Before live work, Su Yan scheduled dummy trials at the station's ordinary posture and highest permitted cuff temperature, with warming paid by the station account. The body's earlier assessment had not tested that hot workplace. Its new limits would need the returned timing and a recovered hand check.",
       "next": "foundry_aftermath_002"
     },
     "foundry_aftermath_002": {
@@ -3307,7 +3308,8 @@
         "stage": "4: Second pair"
       },
       "text": "The survey kit returned with unused fuel, permitted samples and a record of warm and cool comparisons. Yue's hands remained ordinary after the last night's sleep. At the ash bridge she read the new questions beside the failed pad that had once frightened her. The fourth stage had helped her ask them more precisely; it had not supplied every answer. Beyond the settling channel, a road climbed toward other workshops. She could follow it with food, a receiving place and limits that traveled as carefully as her ambition.",
-      "ending": "A Road with Measured Questions"
+      "ending": "A Road with Measured Questions",
+      "continuation": "ridge_from_survey"
     },
     "foundry_end_home": {
       "chapter": "book_viii",
@@ -3320,7 +3322,8 @@
         "stage": "4: Second pair"
       },
       "text": "At home, Yue set the spoon rest beneath an ordinary work brush. The fourth-stage certificate stayed dry beside the patched tablet. Her mother's repaired roof still needed inspection after rain, and rice still needed the right distance from the kiln vent. Cultivation had changed what Yue could carry through her two tested routes. It had not made the familiar household disappear. She slept with a plan for the next teacher, paid copper for the next journey and hands that could still take up tomorrow's work.",
-      "ending": "The Gate Brought Home"
+      "ending": "The Gate Brought Home",
+      "continuation": "ridge_from_home"
     },
     "foundry_home_007": {
       "chapter": "book_viii",

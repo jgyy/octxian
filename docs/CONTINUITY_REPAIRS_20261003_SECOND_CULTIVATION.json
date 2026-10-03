@@ -1,0 +1,178 @@
+{
+  "review_base": "feb4ec7500a1df2bf95b16265544553372c657ce",
+  "total_repairs": 7,
+  "explicit_continuity_conflicts": 1,
+  "bounded_continuity_omissions": 6,
+  "changed_scene_paragraphs": 8,
+  "counting_rule": "Distinct existing root defects only. Repeated occurrences share affected_passages. Excludes the original115, first53 incremental repairs, cosmetics, new BookXV material and unproved literary interpretations.",
+  "scope_note": "Seven defensible roots were retained; an eighth candidate about temperature phrasing was rejected as interpretive. Bounded omissions are distinguished from the one chronological contradiction.",
+  "validation": {
+    "matched_before_after_anchors": 8,
+    "non_text_fields_unchanged": true,
+    "all_assigned_nodes": 601,
+    "maximum_scene_words": 100,
+    "normalized_scene_paragraphs_unique": true,
+    "method": "In-memory JavaScript, not Python/Godot/audio execution.",
+    "files": [
+      {
+        "path": "data/books/book_ii_sluice.json",
+        "before_words": 7964,
+        "after_words": 7974,
+        "word_delta": 10,
+        "changed_nodes": [
+          "channels_028"
+        ]
+      },
+      {
+        "path": "data/books/book_viii_foundry.json",
+        "before_words": 22198,
+        "after_words": 22218,
+        "word_delta": 20,
+        "changed_nodes": [
+          "foundry_rest_003",
+          "foundry_route_005",
+          "foundry_resume_019",
+          "foundry_aftermath_001"
+        ]
+      },
+      {
+        "path": "data/books/book_ix_thunderfen.json",
+        "before_words": 5978,
+        "after_words": 6017,
+        "word_delta": 39,
+        "changed_nodes": [
+          "ridge_material_004",
+          "ridge_incident_surge_001",
+          "ridge_incident_surge_003"
+        ]
+      }
+    ]
+  },
+  "repairs": [
+    {
+      "id": "SCULT-001",
+      "path": "data/books/book_viii_foundry.json",
+      "node_id": "foundry_route_005",
+      "before": "For eight days the new work advanced in fractions too small to look heroic. A clean morning could be followed by an ordinary day that tired the shoulder. A fresh material pad needed its own external comparison. Each delay threatened Yue's imagined schedule, though none violated the actual one. Zhen began saying 'another permitted attempt' when she said 'another lost day.' The phrase annoyed her until she heard how often her own language made the body seem disobedient.",
+      "after": "The eight-day preparation record included the earlier rota, external comparisons and these first tiny admissions. Each step remained too small to look heroic. An ordinary shift could tire the shoulder; a fresh material pad needed its own comparison. Yue kept treating delays as defeats even when they belonged within the agreed preparation window. Zhen began saying 'another permitted attempt' when she said 'another lost day.' The phrase annoyed her until she heard how often her own language made the body seem disobedient.",
+      "reason": "The original sequential eight-day interval occurs after a late-third-week rota with four practice mornings and a further two recovered mornings, but the following scene returns to the end of week four before the fixed Day31 failure. Include the preceding rota within the eight-day preparation record rather than add eight further days.",
+      "evidence": [
+        "foundry_craft_018",
+        "foundry_rest_004",
+        "foundry_route_004",
+        "foundry_route_005",
+        "foundry_route_008",
+        "foundry_recovery_001"
+      ],
+      "category": "chronology",
+      "defect_type": "explicit_continuity_conflict"
+    },
+    {
+      "id": "SCULT-002",
+      "path": "data/books/book_ii_sluice.json",
+      "node_id": "channels_028",
+      "before": "Han Mei took the next readings while Duan inspected the caliper. A salt bridge had formed beneath one contact pad. It allowed part of the apparent return to pass outside Lin Yue's route. The notebook overstated her throughput. It did not explain away the numbness; a too-fast pulse could still have reached the tissue before the false return convinced them it was complete.",
+      "after": "Han Mei compared the caliper's external reference and blank without sending another pulse through Lin Yue. Duan then inspected its contacts. A salt bridge had formed beneath one pad, allowing part of the apparent return to pass outside her route. The notebook overstated her throughput. That discovery did not explain away the numbness; an earlier pulse could still have reached the tissue too quickly before the false return convinced them it was complete.",
+      "reason": "Route pulses are explicitly suspended, but the immediate diagnostic scene says Han Mei took the next readings without distinguishing external instrument work from another personal route test. Establish that the fault is tested with the external reference while the patient restriction remains active.",
+      "evidence": [
+        "channels_027",
+        "channels_028",
+        "channels_030",
+        "channels_031"
+      ],
+      "category": "bounded_procedural_continuity",
+      "defect_type": "bounded_continuity_omission"
+    },
+    {
+      "id": "SCULT-003",
+      "path": "data/books/book_viii_foundry.json",
+      "node_id": "foundry_rest_003",
+      "before": "Zhen asked whether she regretted the smaller wage. Yue counted the supplies already covered by the ordinary account and admitted that a new cuff would have been welcome. The choice had a cost even when it was sensible. They mended the existing cuff after the wash station dried it. A patched item could serve its rated use; the patch would need inspection. Rest had not produced a better artifact from nothing.",
+      "after": "Zhen asked whether she regretted the smaller wage. Yue counted the supplies covered by the ordinary account and admitted that a new cuff would have been welcome. They mended the existing cuff after it dried. Su Yan checked the repaired conducting seam and repeated its dry grounding test before clearing later powered use. The patch retained an inspection mark and a specific rating. Rest had not produced a better artifact from nothing; two apprentices' ordinary repair had still needed qualification.",
+      "reason": "The conducting cuff is patched by apprentices and described as capable of rated service, but its repaired electrical path is never qualified before subsequent internal-route work. Add the repair-specific grounding check and instructor clearance; visual sewing success alone cannot establish the old powered rating.",
+      "evidence": [
+        "foundry_rest_003",
+        "foundry_route_002",
+        "foundry_route_010",
+        "foundry_martial_005"
+      ],
+      "category": "bounded_procedural_continuity",
+      "defect_type": "bounded_continuity_omission"
+    },
+    {
+      "id": "SCULT-004",
+      "path": "data/books/book_viii_foundry.json",
+      "node_id": "foundry_aftermath_001",
+      "before": "On Day Eighty-one, the examiner inspected the small furnace control station she had accepted. The physical heat source was a measured stone charge; the manual shutter could end its supply independently of Yue's cuff. Her task would be a stopped command at a rated socket, never holding the furnace's heat in her body. The socket's position required a transition between the two routes. That transition had not been part of the formal stage test and needed its own low-dose practice.",
+      "after": "On Day Eighty-one, the examiner inspected Yue's accepted control station. A measured stone charge powered the furnace; its manual shutter could stop supply independently of her cuff. The socket required a new transition between arm routes. Before live work, Su Yan scheduled dummy trials at the station's ordinary posture and highest permitted cuff temperature, with warming paid by the station account. The body's earlier assessment had not tested that hot workplace. Its new limits would need the returned timing and a recovered hand check.",
+      "reason": "The task qualification describes a cold dummy and ordinary posture but then moves to a hot live furnace, despite the earlier demonstrated temperature-dependent pad failure. Make the live station's permitted thermal condition part of its dummy qualification and account for the warming separately.",
+      "evidence": [
+        "foundry_route_015",
+        "foundry_recovery_008",
+        "foundry_aftermath_001",
+        "foundry_aftermath_002",
+        "foundry_aftermath_004"
+      ],
+      "category": "bounded_procedural_continuity",
+      "defect_type": "bounded_continuity_omission"
+    },
+    {
+      "id": "SCULT-005",
+      "path": "data/books/book_viii_foundry.json",
+      "node_id": "foundry_resume_019",
+      "before": "At the end of the ninth week, she brought the complete record to the independent examiner who visited the foundry monthly. He was qualified for route assessment and had not supervised the practice. Su Yan supplied the material specifications and limits, including the failed warm-condition history. Yue supplied the reporting lapse. The visitor inspected the blanks and ordinary shoulder motion before scheduling a formal trial. Independence meant a different check of the evidence, not a guarantee of a favorable answer.",
+      "after": "At the end of the ninth week, Yue brought the record to the independent examiner who visited monthly. A separately approved assessment fee covered travel, lodging, three trial appointments and their next-day checks through Day Eighty. It bought his work, not a favorable judgment. Su Yan supplied the warm-condition specifications and failure history; Yue supplied her reporting lapse. The visitor inspected the blanks and ordinary shoulder motion before scheduling a trial. He could postpone it without charging Yue's meals or revoking completed wages.",
+      "reason": "The monthly visiting assessor subsequently attends trials and recovered checks spanning Days70–80, but the added attendance and its independence from the apprentice's food and wages have no stated scope or funding. Establish the bounded paid assessment before it is scheduled.",
+      "evidence": [
+        "foundry_resume_019",
+        "foundry_assessment_001",
+        "foundry_assessment_006",
+        "foundry_assessment_008",
+        "foundry_assessment_011",
+        "foundry_assessment_014",
+        "foundry_assessment_018"
+      ],
+      "category": "bounded_procedural_continuity",
+      "defect_type": "bounded_continuity_omission"
+    },
+    {
+      "id": "SCULT-006",
+      "path": "data/books/book_ix_thunderfen.json",
+      "node_id": "ridge_material_004",
+      "before": "The maker's retained tile used the same glaze fines beneath its polished surface. On the comparison tray, clean mortar broke the wet trail while mortar with those fines let it continue. Jiang repeated the water volume after drying both controls. Yue watched the result change with material, not with the order in which the pleasant-looking pieces were placed.",
+      "after": "The maker offered the retained tile for one external wet comparison, with no cutting and return afterward. Its glaze fines matched those beneath the polished surface. On separate trays, clean mortar broke the wet trail while mortar containing those fines let it continue. Jiang repeated the measured water volume after drying both controls. Yue kept the tile's custody terms beside the result; the maker's offered paper record alone had not authorized handling the original.",
+      "reason": "The preceding scene requests an offered batch record, while this one directly tests the maker's retained physical tile. Permission to read a document does not establish permission to handle that separate original. State the tile's own external-comparison offer and return limit.",
+      "evidence": [
+        "ridge_material_003",
+        "ridge_material_004",
+        "ridge_material_007"
+      ],
+      "category": "bounded_procedural_continuity",
+      "defect_type": "bounded_continuity_omission"
+    },
+    {
+      "id": "SCULT-007",
+      "path": "data/books/book_ix_thunderfen.json",
+      "node_id": "ridge_incident_surge_001",
+      "before": "A bright green thread appeared on the old rod's wet foot, outside the isolated frame. The permanent installation had remained mechanically separated from their trial, but the storm was its own supply. Jiang pulled the ordinary isolation handle from shelter and ordered the cart back. Yue watched the grounded indicator instead of reaching toward the light.",
+      "after": "A bright green thread appeared on the old rod's wet foot, outside the isolated frame. The permanent installation remained mechanically separate from their trial, but the storm supplied its own charge. Jiang closed the trial frame's ordinary isolation handle from shelter and ordered the cart back. That handle could stop their stone supply; it could not cut off the sky. Yue watched the grounded indicator instead of reaching toward the light.",
+      "reason": "The uncontrolled storm is identified as its own supply, yet the handle's isolation target is unspecified and the aftermath describes light ending after the emergency bed spends capacity. Distinguish closing the trial supply from ending the natural discharge, and remove the implication that an exhausted finite bed safely ends the storm.",
+      "evidence": [
+        "ridge_incident_surge_001",
+        "ridge_incident_surge_002",
+        "ridge_incident_surge_003"
+      ],
+      "category": "bounded_procedural_continuity",
+      "defect_type": "bounded_continuity_omission",
+      "affected_passages": [
+        {
+          "path": "data/books/book_ix_thunderfen.json",
+          "node_id": "ridge_incident_surge_003",
+          "before": "The light ended after the emergency bed had spent its recorded capacity. Jiang kept the spur closed and called the road keeper before inspecting anything. A scorch on the ordinary outer guard had frightened Yue more than the replica's neat glow. She admitted that fear without upgrading it to a diagnosis. The observed bypass supported the mechanism already tested; it did not predict the next storm.",
+          "after": "The visible thread faded. Jiang kept the spur closed and called the road keeper; the emergency bed stayed out of service pending its remaining-capacity inspection. A scorch on the outer guard frightened Yue more than the replica's neat glow. She admitted that fear without turning it into a diagnosis. They had witnessed a bounded discharge and used emergency protection. Neither the fading light nor the isolated trial predicted whether another storm pulse would arrive."
+        }
+      ]
+    }
+  ],
+  "source_base": "feb4ec7500a1df2bf95b16265544553372c657ce"
+}

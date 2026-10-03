@@ -1,0 +1,168 @@
+{
+  "source_base": "feb4ec7500a1df2bf95b16265544553372c657ce",
+  "scope": [
+    "data/books/book_vii.json",
+    "data/books/book_vii_archive.json",
+    "data/books/book_vii_marsh.json",
+    "data/books/book_vii_road.json"
+  ],
+  "review_date": "2026-10-03",
+  "total_repairs": 8,
+  "total_edited_nodes": 9,
+  "word_delta": -11,
+  "counting_rule": "One count per distinct root defect. Affected passages address repeated manifestations and add no repair counts. Most rows close bounded causality, authorization, or evidence omissions, rather than contradicting explicit facts.",
+  "repairs": [
+    {
+      "id": "SECOND-RING-001",
+      "path": "data/books/book_vii.json",
+      "node_id": "ring_jin_context",
+      "before": "After the keeper died, I asked her niece about my deposit. The custody page was missing, and the ring's outer reference could not be read. My counterfoil alone did not identify a covered ring. When Xiu told me about your spring inquiry, that gap remained. I kept my papers; nobody had taken my memory. This recovered R-3 repair entry is the first readable exterior link to compare with my receipt. I can offer the comparison without asking anyone to open the copy or trust a remembered melody.",
+      "after": "After the keeper died, I asked her niece about my deposit. Its custody page was missing, and the ring's outer reference was unreadable. My counterfoil alone could not identify it. The loose exterior note now gives R-3 as a lead; the older maintenance leaves still need retrieving from the high-bank case and comparison with this ring. Please distinguish those sources before calling the link recovered. I kept my papers and memory throughout. If the leaves confirm the connection, I can offer my receipt without opening the copy or asking you to trust a remembered melody.",
+      "reason": "The common scene calls the repair entry recovered before the route retrieves the older high-bank sleeve, without distinguishing the initial loose note from that later source. Name the loose-note lead and pending leaf comparison so discovery is not retroactively completed.",
+      "category": "source_provenance",
+      "evidence": [
+        "ring_from_remand",
+        "ring_old_agreement",
+        "ring_marsh_outer_boundary",
+        "ring_marsh_covers",
+        "ring_jin_context"
+      ],
+      "confidence": "bounded_causality_omission"
+    },
+    {
+      "id": "SECOND-RING-002",
+      "path": "data/books/book_vii_marsh.json",
+      "node_id": "ring_marsh_breath",
+      "before": "Lin Yue kept the trace inside her tested lower field and first arm pair. It reinforced no calf and opened no leg channel. As the hull tipped, she almost clenched her knees to keep a remembered sensation. Wei Xiu called hold. Lin Yue discharged the small trace and relaxed her ordinary stance. She repeated the balance exercise without qi, following the deck's rise and fall until she could stop on the word. The boat required attention even when her reservoir was quiet.",
+      "after": "Lin Yue checked her grounded practice lead and recorded a half-unit allowance, including delivery loss, for one quarter-unit closure exercise through her first arm pair. No qi entered a leg route. When Wei Xiu called hold, she discharged into the lead and entered the actual expenditure on her practice sheet. She repeated the balance exercise without qi until she could stop on the word. The later position light would need its own allowance after subtracting this practice and sampling costs. Ordinary knees still had to follow the deck.",
+      "reason": "The optional breath branch spends a qi trace before the half-unit position light, but its fuel is never measured or carried forward. Record its independent allowance and actual expenditure, preventing an optional practice from disappearing inside the later lamp budget.",
+      "category": "fuel_accounting",
+      "evidence": [
+        "ring_marsh_practice_choice",
+        "ring_marsh_breath",
+        "ring_marsh_drift",
+        "ring_marsh_weakness",
+        "data/cultivation.json:measurement_cost"
+      ],
+      "confidence": "bounded_causality_omission"
+    },
+    {
+      "id": "SECOND-RING-003",
+      "path": "data/books/book_vii_archive.json",
+      "node_id": "ring_archive_paused",
+      "before": "We stop here. The offered papers on the low table are safe, and the trapped bundles stay where they are until the support can be secured. No one goes beneath them. Shen, your power can hold the outside rail from the clear aisle if you can release it without a jerk. It cannot make the wall trustworthy. Yue, bring the empty reading bench along the floor. Mei, keep the lamp behind the doorway. We are protecting a room, not earning permission to read whichever packet happens to fall into our arms.",
+      "after": "We stop. The offered papers are safe; no one goes beneath the trapped bundles. Shen, name the limit of your learned brace hold before offering it. We have the grounded brace lead in the emergency chest, but no permission to improvise a stronger technique. The reading bench's marked support rating must cover the estimated load before Yue slides it beneath the accessible end. If either check fails, leave the aisle and wait for the carpenter. Mei, keep the lamp behind the doorway. A falling packet grants no reading permission.",
+      "reason": "The temporary rescue relies on sustained qi and an ordinary reading bench without establishing trained throughput, a delivery path or the bench's load rating. Require those independent bounds before the hold and substitute support.",
+      "category": "support_capacity",
+      "evidence": [
+        "ring_archive_scaffold",
+        "ring_archive_paused",
+        "ring_archive_qi_restraint",
+        "data/cultivation.json:throughput"
+      ],
+      "confidence": "bounded_causality_omission",
+      "affected_passages": [
+        {
+          "id": "SECOND-RING-003",
+          "path": "data/books/book_vii_archive.json",
+          "node_id": "ring_archive_qi_restraint",
+          "before": "Shen Qing braced the rail with a narrow thread of qi while Lin Yue slid the bench beneath its accessible end. The effort deepened a line beside his mouth. Holding a small unstable weight without moving it demanded more care than lifting something heavy into open air. An Ru set two wooden wedges from the table chest, checked the bench legs, and guided the thread's release. Nothing shone afterward. Shen sat down abruptly. Lin Yue offered water without asking whether a disciple of Azure Cloud ought to need it.",
+          "after": "Shen named his tested brace limit and checked the grounded lead from the clear aisle. The accessible rail load was within it, and the marked bench rating covered the estimated transferred weight. He recorded his bounded expenditure while Yue slid the bench beneath the end. An Ru placed wedges and checked the legs before signaling discharge. The lead went dark after the bench took the load. The wall remained untrusted and the room closed. Shen sat down, tired from the short hold; Yue brought water instead of asking him to repeat it.",
+          "reason": "Fulfill the preceding capacity checks, account for the bounded powered hold, and transfer weight completely before discharge. This is another manifestation of the same unsupported temporary-brace defect.",
+          "category": "support_capacity",
+          "evidence": [
+            "ring_archive_paused",
+            "ring_archive_qi_restraint",
+            "ring_archive_wet_papers"
+          ],
+          "confidence": "bounded_causality_omission"
+        }
+      ]
+    },
+    {
+      "id": "SECOND-RING-004",
+      "path": "data/books/book_vii_road.json",
+      "node_id": "ring_road_rollback",
+      "before": "Nobody pull. The branch will cut our line if we drag it uphill. Jin, keep what weight you have without adding any. Yue, lay your sword on the dry stones and move behind the second cord. Jin has seen the hollow widen and called a new margin; I will mark it before we move. You can be angry with the lost time afterward. Right now I would rather bring home an unfinished road than explain why a person was standing on ground our ferryman had already told them could give way. Let him choose our next move.",
+      "after": "Nobody pull. That branch will cut our line if we drag uphill. Jin, retain the present restraint without adding strain. Yue, sheath your sword on firm ground and carry it behind the second cord; do not leave it on the stones we may lose. Jin has seen the hollow widen. I will mark his new margin before anyone moves again. We can regret the delay later. Now I want an unfinished road and three people able to leave it. Let him choose the next move.",
+      "reason": "The blade is explicitly set on dry stones before the former standing area cracks and the platform collapses, then vanishes from custody until habitual equipment resumes. Keep it sheathed with its owner during the retreat instead of requiring an unrecorded recovery from failed ground.",
+      "category": "object_custody",
+      "evidence": [
+        "ring_road_splinter",
+        "ring_road_rollback",
+        "ring_road_pole",
+        "ring_road_wet_stone",
+        "ring_road_return"
+      ],
+      "confidence": "bounded_causality_omission"
+    },
+    {
+      "id": "SECOND-RING-005",
+      "path": "data/books/book_vii.json",
+      "node_id": "ring_return_board",
+      "before": "Wei Xiu tested the board with a weighted sack before setting the dry tray upon it. Shen Qing held the lamp beyond the working rope. The Mooring Eel waited while an ordinary ferry took two passengers out, then brought the covered ring to the board without crossing beneath their hull. Lin Yue steadied the tray with both hands. Its weight was smaller than the expectation she had carried. No melody rose from it, no forgotten teacher stood in the mist. Wei Jin stepped forward in the same wet boots he had worn all afternoon.",
+      "after": "Wei Xiu load-tested the board for the planned handoff before placing the tray. Lin Yue reported her grip after resting; the tender hand remained out of this task, and her sound hand steadied only the table edge. Xiu supported the tray herself. Shen held the lamp beyond the working rope. The Eel waited for an ordinary ferry to clear, then brought the covered ring without passing beneath its hull. Wei Jin stepped forward in his wet boots. No melody sounded, and the afternoon's injuries had not vanished merely because the owner was found.",
+      "reason": "The marsh route promises grip reassessment before further work and prohibits another load; the merged return nevertheless assigns both hands to the tray with no reassessment. Make the check explicit and keep the injured hand out of the transfer across all investigation routes.",
+      "category": "injury_continuity",
+      "evidence": [
+        "ring_marsh_weakness",
+        "ring_marsh_ache",
+        "ring_archive_bruise_common",
+        "ring_road_injury",
+        "ring_return_board"
+      ],
+      "confidence": "explicit_postcondition_gap"
+    },
+    {
+      "id": "SECOND-RING-006",
+      "path": "data/books/book_vii.json",
+      "node_id": "ring_jin_boundary",
+      "before": "All three arrangements are acceptable to me under the limits we have just stated. I have asked Yue to help choose which practical arrangement we can support tonight. That is permission for this logistics decision, not permission to choose what I feel about the melody. If we arrange a return, I will receive the closed ring. If we arrange a dated custody term, I will sign that term. If we record no return today, I will leave it covered. I am still free to request a different lawful arrangement later.",
+      "after": "All three arrangements are acceptable, and Yue may choose tonight's supported logistics. That gives her no authority over what I feel about the melody. The archive may retain one private comparison of the fields I offered; any public note may state identification and today's disposition, without naming my private description or deposit reference. My originals return to me. A closed handoff, a signed custody term, or no return today leaves the copy covered. I remain free to request a different lawful arrangement later.",
+      "reason": "Selected counterfoil fields are offered for reading and the Eel comparison, while the endings subsequently retain an archive comparison and publish a disposition record. Authorize those new retention/publication purposes explicitly and preserve their narrower scope.",
+      "category": "retention_permission",
+      "evidence": [
+        "ring_private_request",
+        "ring_counterfoil",
+        "ring_jin_boundary",
+        "ring_custody_copy",
+        "ring_refusal_public_note"
+      ],
+      "confidence": "bounded_authorization_omission"
+    },
+    {
+      "id": "SECOND-RING-007",
+      "path": "data/books/book_vii_road.json",
+      "node_id": "ring_road_first_rope",
+      "before": "This rope belongs to the current landing store. It is sound, and I will record any damage before it goes back. The dark rope on the willow belongs to the abandoned mooring. That one has spent the winter alternately wet and freezing. We do not pull against it. We catch the trunk with ours, take the strain on the inland posts, and cut the old line where you can reach it from the marked ground. If the trunk turns toward the bank instead of the drainage mouth, let your blade fall away and call it.",
+      "after": "Our sound rope comes from the current landing store; any damage goes in its return account. The winter rope on the willow is separate. Before this work, Lan checked the downstream debris bed from the high path; the landing crew acknowledged the temporary passage hold. That is where the trunk may settle, clear of working boats. We catch it on our inland rig before cutting the old line within the marked reach. If the receiving route changes or the trunk turns toward us, stop. A cleared ditch must not send our danger into somebody else's crossing.",
+      "reason": "The tree is deliberately released downstream, but the receiving debris bed and effects on working boats are only observed afterward. Establish a current safe receiving place and ordinary navigation acknowledgement before the release, independently of the rig's restraint mechanics.",
+      "category": "downstream_safety",
+      "evidence": [
+        "ring_road_first_rope",
+        "ring_road_release",
+        "ring_road_downstream",
+        "ring_road_notice"
+      ],
+      "confidence": "bounded_causality_omission"
+    },
+    {
+      "id": "SECOND-RING-008",
+      "path": "data/books/book_vii_marsh.json",
+      "node_id": "ring_marsh_first_page",
+      "before": "This is the outer maintenance hand, kept so a tired attendant could see which loop needed work. It numbers the entrusted rings by deposit token. The third ring is R-3 on these leaves. That number is a handling reference, not a personal name. The writer did not copy the owner line onto this repair page. I recognize the record's function and the token attached to the ring; I cannot supply the absent identity by recognizing the book. Read the work description, and keep its blank boundary visible in whatever account you take away.",
+      "after": "This is the outer maintenance hand. The landing book retains the three holders' original order; I have kept this third holder distinct through the other returns. This leaf assigns R-3 to that position, with the holder mark we can compare outside. The ring's rubbed reference remains unreadable; I am not recovering its lettering by looking harder. We will compare the loop construction separately. The leaf has no owner line. My custody account connects record and object, but neither it nor a common stitch identifies the depositor.",
+      "reason": "The source first establishes that the physical ring's exterior reference is unreadable, yet the report says the Eel recognizes the token attached to it without explaining how the recovered leaf is bound to this particular object. Supply the independent retained-holder custody chain while keeping the physical lettering unreadable.",
+      "category": "object_authentication",
+      "evidence": [
+        "ring_jin_context",
+        "ring_marsh_first_page",
+        "ring_marsh_seam",
+        "ring_shared_marsh_report",
+        "ring_eel_recognition",
+        "data/story.json:river_book"
+      ],
+      "confidence": "bounded_evidence_omission"
+    }
+  ]
+}

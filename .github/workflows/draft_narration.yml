@@ -1,0 +1,54 @@
+name: Draft narration
+on:
+  push:
+    branches: [codex/million-word-continuity-20261003]
+    paths:
+      - 'docs/DRAFT_BOOKS_20261003.json'
+      - 'data/books/book_xii_*.json'
+      - 'data/books/book_xiii_*.json'
+      - 'data/books/book_xiv_*.json'
+      - 'data/books/book_xv_*.json'
+      - 'data/books/book_xvi_*.json'
+      - 'data/books/book_xvii_*.json'
+      - 'tools/prebuild_voices.py'
+      - 'tools/prebuilt_voices.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: draft-narration-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  narration:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install narration dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+          python -m pip install -r requirements.txt
+      - uses: actions/cache/restore@v4
+        id: cache
+        with:
+          path: .cache/voice-prebuild
+          key: jade-vow-prebuild-v1-${{ github.ref_name }}-${{ github.sha }}-${{ github.run_id }}
+          restore-keys: |
+            jade-vow-prebuild-v1-${{ github.ref_name }}-
+      - uses: actions/cache@v4
+        with:
+          path: .cache/voice
+          key: jade-vow-piper-lessac-model-v1
+      - name: Narrate saved drafts without changing live story
+        run: timeout --kill-after=30s 270m python tools/prebuild_voices.py
+      - name: Preserve completed draft narration checkpoints
+        if: ${{ !cancelled() && hashFiles('.cache/voice-prebuild/assets/generated/voices/manifest.json') != '' }}
+        uses: actions/cache/save@v4
+        with:
+          path: .cache/voice-prebuild
+          key: jade-vow-prebuild-v1-${{ github.ref_name }}-${{ github.sha }}-${{ github.run_id }}

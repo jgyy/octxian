@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "source_commit": "feb4ec7500a1df2bf95b16265544553372c657ce",
+  "review_date": "2026-10-03",
+  "defect_count": 1,
+  "changed_scene_count": 1,
+  "scope": "One additional route chronology defect in the existing Book II ferry sequence. Completion of the earlier promised fare is an accompanying uncounted clarity edit.",
+  "repairs": [
+    {
+      "id": "SECOND-FERRY-001",
+      "path": "data/story.json",
+      "node_id": "ferry_return",
+      "before": "The ferry reached the village with no triumphant music and a leak that had grown an inch. Wei Jin charged them for three cups of tea. Su Lan paid for four and left one steaming by the crossing stone. Lin Yue carried the comparison beneath her robe, where the pendant could not mistake a document for a destiny.",
+      "after": "At the village landing, the ferry sat without triumphant music, its leak an inch longer. Su Lan paid the agreed passenger fare from her travel purse. Wei Jin then charged for three cups of tea; she bought four and left one steaming by the crossing stone. Lin Yue carried the comparison beneath her robe, where the pendant could not mistake a document for a destiny.",
+      "reason": "The wait branch already returns Wei Jin to the village landing in ferry_wait_cost, then gives Yue the comparison there in ferry_evidence. The common ferry_return narrates a second arrival without a new outward voyage. Place the common tea and handoff scene at the landing so all routes have one return.",
+      "category": "route_chronology",
+      "evidence": [
+        {
+          "node_id": "ferry_wait_cost",
+          "source_text": "They anchored three lanterns around the stone and drew its position on the map. The ferryman returned without reclaiming a single pan. At the landing, a worker called them useless. Su Lan handed her the map and listened until the anger had a shape. By midnight, the workers had planned a crossing of their own."
+        },
+        {
+          "node_id": "ferry_evidence",
+          "source_text": "Take this comparison copy to the tower. The crews transcribed both faces through our ordinary sighting mirror before we chose whether to lift the stone. The magistrate's grandfather signed the private refuge clause. My grandmother signed the common-water line. We have inherited both. I cannot make either ancestor answer for it. I can stand beside you when someone asks what I intend to do with my inheritance."
+        },
+        {
+          "node_id": "ferry_price",
+          "source_text": "You can pay me when you return. That makes you passengers rather than witnesses, according to the clerk who wrote this notice. I have carried the same families for thirty years. If I call them customers now, perhaps their homes will become real enough for the magistrate to tax them."
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "graph_metadata_preserved": true,
+    "exact_source_anchor": true,
+    "max_edited_words": 65,
+    "net_displayed_words": 7
+  },
+  "source_base": "feb4ec7500a1df2bf95b16265544553372c657ce"
+}

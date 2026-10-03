@@ -511,6 +511,168 @@
         1536,
         1024
       ]
+    },
+    {
+      "id": "thunderfen_ridge",
+      "name": "Thunderfen Ridge",
+      "path": "assets/art/world/thunderfen_ridge.png",
+      "native_size": [
+        1672,
+        941
+      ],
+      "description": "Basalt columns, copper seams and a checked lower path; the damaged upper spur remains closed."
+    },
+    {
+      "id": "thunderfen_night",
+      "name": "Thunderfen Survey Workshop",
+      "path": "assets/art/world/thunderfen_night.png",
+      "native_size": [
+        1672,
+        941
+      ],
+      "description": "A sheltered workshop overlooks the pools at dusk. The isolated frame and dry bench remain separate from the damaged permanent rod.",
+      "environment": "interior",
+      "collection": "building_interiors"
+    },
+    {
+      "id": "thunderfen_warning_observatory",
+      "name": "Thunderfen Warning Observatory",
+      "path": "assets/art/world/thunderfen_warning_observatory.png",
+      "native_size": [
+        1774,
+        887
+      ],
+      "description": "The ridge warning shelter after rain. A bronze bell, weather vanes and the ordinary walking route share no unlimited protection source."
+    },
+    {
+      "id": "salt_lantern_watermill",
+      "name": "Salt Lantern Water Mill",
+      "path": "assets/art/world/salt_lantern_watermill.png",
+      "native_size": [
+        1672,
+        941
+      ],
+      "description": "The dry-season water mill divides a finite canal flow among working gates and downstream fields; measurements and maintenance determine actual delivery."
+    },
+    {
+      "id": "canal_commons_lock",
+      "name": "Canal Commons Lock",
+      "path": "assets/art/world/canal_commons_lock.png",
+      "native_size": [
+        1672,
+        941
+      ],
+      "description": "An ordinary canal lock, measuring marks and a sheltered landing beside the water commons.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/canal_commons_lock.png",
+        "native_size": [
+          1672,
+          941
+        ],
+        "record": "assets/art/CONTINUATION_BOOKS_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "forest_winter_boundary",
+      "name": "Forest Winter Boundary",
+      "path": "assets/art/world/forest_winter_boundary.png",
+      "native_size": [
+        1672,
+        941
+      ],
+      "description": "Snow and evergreen shelter surround old boundary stones and a cold forest trail.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/forest_winter_boundary.png",
+        "native_size": [
+          1672,
+          941
+        ],
+        "record": "assets/art/CONTINUATION_BOOKS_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "harbor_quarantine_quay",
+      "name": "Harbor Quarantine Quay",
+      "path": "assets/art/world/harbor_quarantine_quay.png",
+      "native_size": [
+        1672,
+        941
+      ],
+      "description": "Cargo waits beside a roped quarantine landing; warehouses and tides shape the harbor's work.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/harbor_quarantine_quay.png",
+        "native_size": [
+          1672,
+          941
+        ],
+        "record": "assets/art/CONTINUATION_BOOKS_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "kiln_common_firing_hall",
+      "name": "Common Kiln Firing Hall",
+      "path": "assets/art/world/kiln_common_firing_hall.png",
+      "native_size": [
+        1672,
+        941
+      ],
+      "description": "A shared ceramic kiln hall with firing arches, cooling shelves and ordinary tools.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/kiln_common_firing_hall.png",
+        "native_size": [
+          1672,
+          941
+        ],
+        "record": "assets/art/CONTINUATION_BOOKS_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "salt_desert_survey_camp",
+      "name": "Salt Desert Survey Camp",
+      "path": "assets/art/world/salt_desert_survey_camp.png",
+      "native_size": [
+        1672,
+        941
+      ],
+      "description": "Survey stakes and a small camp mark a salt desert route whose water and shade must be carried.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/salt_desert_survey_camp.png",
+        "native_size": [
+          1672,
+          941
+        ],
+        "record": "assets/art/CONTINUATION_BOOKS_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "mountain_archive_winter_hall",
+      "name": "Mountain Archive Winter Hall",
+      "path": "assets/art/world/mountain_archive_winter_hall.png",
+      "native_size": [
+        1672,
+        941
+      ],
+      "description": "Snowlight enters a mountain archive's timber hall beside shelves, worktables and a stove.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/mountain_archive_winter_hall.png",
+        "native_size": [
+          1672,
+          941
+        ],
+        "record": "assets/art/CONTINUATION_BOOKS_PROVENANCE.md"
+      }
     }
   ],
   "npcs": [
@@ -873,6 +1035,246 @@
         ],
         "record": "assets/art/CULTIVATION_PROVENANCE.md"
       }
+    },
+    {
+      "id": "jiang_tao",
+      "name": "Jiang Tao",
+      "path": "assets/art/world/jiang_tao.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "A qualified formation surveyor who trains bounded control, keeps field and protection fuel separate, and ends work when conditions change.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/jiang_tao.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/THUNDERFEN_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "yuan_lian",
+      "name": "Yuan Lian",
+      "path": "assets/art/world/yuan_lian.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "A middle-aged water-mill forewoman in patched work robes. Ordinary measuring tools, gate maintenance and experience guide her decisions.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/yuan_lian.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/STORM_SALT_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "luo_zhen",
+      "name": "Luo Zhen",
+      "path": "assets/art/world/luo_zhen.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "A weathered canal lockkeeper with a reed cape, practical hands and an ordinary gate tally.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/luo_zhen.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/CONTINUATION_BOOKS_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "shi_lan",
+      "name": "Shi Lan",
+      "path": "assets/art/world/shi_lan.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "A forest worker whose patched winter clothes and measuring tools reflect years on the mountain.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/shi_lan.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/CONTINUATION_BOOKS_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "harbor_he_ming",
+      "name": "He Ming",
+      "path": "assets/art/world/harbor_he_ming.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "An experienced harbor rigger whose work coat and hands carry the wear of rope and weather.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/harbor_he_ming.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/CONTINUATION_BOOKS_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "peng_ai",
+      "name": "Peng Ai",
+      "path": "assets/art/world/peng_ai.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "A potter who teaches through ordinary clay, firing records and the pieces that fail.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/peng_ai.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/CONTINUATION_BOOKS_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "gao_ru",
+      "name": "Gao Ru",
+      "path": "assets/art/world/gao_ru.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "A desert surveyor whose covered clothing, compass and water flask suit long exposed routes.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/gao_ru.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/CONTINUATION_BOOKS_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "dai_shuren",
+      "name": "Dai Shuren",
+      "path": "assets/art/world/dai_shuren.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "An older mountain archivist in layered work robes, carrying a tied folio and a small lantern.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/dai_shuren.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/CONTINUATION_BOOKS_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "han_shou",
+      "name": "Han Shou",
+      "path": "assets/art/world/han_shou.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "A private-wharf merchant with a worn brown coat, a ledger and an ordinary brass key.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/han_shou.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/CONTINUATION_BOOKS_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "tian_min",
+      "name": "Tian Min",
+      "path": "assets/art/world/tian_min.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "A young towpath stitcher carries her household's concerns alongside a basket of thread and cloth.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/tian_min.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/CONTINUATION_BOOKS_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "pei_fen",
+      "name": "Pei Fen",
+      "path": "assets/art/world/pei_fen.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "A retired toll clerk with silver hair and a notebook held close to her aging eyes.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/pei_fen.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/CONTINUATION_BOOKS_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "bao_jun",
+      "name": "Bao Jun",
+      "path": "assets/art/world/bao_jun.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "A practical carpenter carries a wooden square and hammer in patched work clothes.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/bao_jun.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/CONTINUATION_BOOKS_PROVENANCE.md"
+      }
     }
   ],
   "monsters": [
@@ -1055,6 +1457,66 @@
         ],
         "record": "assets/art/CULTIVATION_PROVENANCE.md"
       }
+    },
+    {
+      "id": "copperback_tortoise",
+      "name": "The Copperback Tortoise",
+      "path": "assets/art/world/copperback_tortoise.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "A pool keeper whose observed shell taps are ordinary signals, not permission to sample its body or read private memories.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/copperback_tortoise.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/THUNDERFEN_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "cloudhound",
+      "name": "The Cloudhound",
+      "path": "assets/art/world/cloudhound.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "A territorial scree hunter. Retreat keeps the upper spur closed; seeing this beast establishes no intent or historical cause.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/cloudhound.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/THUNDERFEN_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "reedglass_salamander",
+      "name": "Reedglass Salamander",
+      "path": "assets/art/world/reedglass_salamander.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "An independent wetland amphibian with translucent jade skin and mineral reed fronds. Its movements reveal local habitat conditions, never private memories or future weather.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/reedglass_salamander.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/STORM_SALT_PROVENANCE.md"
+      }
     }
   ],
   "items": [
@@ -1107,6 +1569,16 @@
         1024,
         1536
       ]
+    },
+    {
+      "id": "storm_compass",
+      "name": "Jiang Tao's Storm Compass",
+      "path": "assets/art/world/storm_compass.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "Five calibrated crystal vanes show local weather conditions, not future events. Its separate fuel cell is measured before field readings."
     }
   ],
   "requested_additional": {
@@ -1145,6 +1617,17 @@
         1024
       ],
       "record": "assets/art/CULTIVATION_PROVENANCE.md"
+    },
+    {
+      "id": "storm_discharge",
+      "name": "Interrupted Storm Discharge",
+      "path": "assets/art/effects/storm_discharge.png",
+      "native_size": [
+        1536,
+        1024
+      ],
+      "description": "A storm filament follows the isolated external ground bed after a bounded circuit closes. No novice body supplies the protection load.",
+      "record": "assets/art/THUNDERFEN_PROVENANCE.md"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "characters": [
     "lin_yue",
     "shen_qing",
@@ -17,25 +17,37 @@
       "id": "sect",
       "name": "Sect Robes",
       "description": "Traditional layered silk robes.",
-      "source": "assets/art/cast.webp",
-      "poses": "assets/art/poses_sect.webp"
+      "portraits": {
+        "lin_yue": "assets/art/core/lin_yue.png",
+        "shen_qing": "assets/art/core/shen_qing.png",
+        "elder_yun": "assets/art/core/elder_yun.png",
+        "mo_ran": "assets/art/core/mo_ran.png"
+      }
     },
     {
       "id": "training",
       "name": "Light Training",
       "description": "Sleeveless wraps, open vests, bare waists and split skirts.",
-      "source": "assets/art/cast_training.webp",
-      "poses": "assets/art/poses_training.webp"
+      "portraits": {
+        "lin_yue": "assets/art/core/lin_yue_training.png",
+        "shen_qing": "assets/art/core/shen_qing_training.png",
+        "elder_yun": "assets/art/core/elder_yun_training.png",
+        "mo_ran": "assets/art/core/mo_ran_training.png"
+      }
     },
     {
       "id": "festival",
       "name": "Moon Festival",
       "description": "Open shoulders and backs, decorative silk and high side slits.",
-      "source": "assets/art/cast_festival.webp",
-      "poses": "assets/art/poses_festival.webp"
+      "portraits": {
+        "lin_yue": "assets/art/core/lin_yue_festival.png",
+        "shen_qing": "assets/art/core/shen_qing_festival.png",
+        "elder_yun": "assets/art/core/elder_yun_festival.png",
+        "mo_ran": "assets/art/core/mo_ran_festival.png"
+      }
     }
   ],
-  "seconds_per_cycle": 4.0,
+  "seconds_per_cycle": 4,
   "bob_pixels": {
     "idle": 6,
     "channeling": 8,
