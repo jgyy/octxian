@@ -46,7 +46,7 @@ GPT Images generated these original assets during this expansion:
 
 The files are the image tool's native PNG outputs and have not been upscaled. Native alpha and dimensions are validated in CI. They are new drawings, not recolors or copies of the existing cast. The image tool was asked for its highest native resolution; these are the returned dimensions, not a claim that a larger raster size contains more original detail.
 
-The requested final inventory is 100 original-scope backgrounds, 500 human NPC originals, 501 spirit-beast originals, plus 100 additional building-interior backgrounds. This draft delivers five original-scope backgrounds, 30 extra interiors, five human NPCs, three monsters, and two additional item paintings. See `data/world_assets.json` and `docs/EXPANSION.md` for exact counts and remaining scope.
+The requested final inventory is 100 original-scope backgrounds, 500 human NPC originals, 501 spirit-beast originals, plus 100 additional building-interior backgrounds. This draft delivers six original-scope backgrounds, 30 extra interiors, nine human NPCs, five monsters, and two additional item paintings. See `data/world_assets.json` and `docs/EXPANSION.md` for exact counts and remaining scope.
 
 The original Salt Lantern Valley view depicts the period before Azure Cloud's fate is decided. Shared later scenes use the bell-tower square, whose framing does not assume the mountain remains aloft. None of the new paintings is an atlas crop. Native sprites and items are displayed with uniform scaling.
 
@@ -67,4 +67,20 @@ The expanded target is **500 human portraits and 501 spirit beasts: 1,001 indepe
 
 These PNGs are the image tool's unmodified native outputs. The catalog points to each retained original and this creation record. CI checks alpha, dimensions, bytes, decoded painting fingerprints, and original source references. Such checks detect copying and repackaging; editorial inspection establishes distinct identities and species.
 
-Current original sprite delivery: **5 humans + 3 spirit beasts = 8**. The remaining sprite requirement is **495 humans + 498 spirit beasts = 993**.
+Current original sprite delivery: **9 humans + 5 spirit beasts = 14**. The remaining sprite requirement is **491 humans + 496 spirit beasts = 987**.
+
+## Book V originals · 2026-10-03
+
+Each following painting was generated independently with GPT Images. The sprite requests specified a single complete character on transparent alpha and the generator's highest native portrait resolution. The returned portraits are **1024×1536 RGBA**; the city painting is **1536×1024 RGB**. These dimensions describe actual native outputs. The unmodified PNG bytes are retained at the catalog paths.
+
+| ID / original file | Native size | Original Git blob | Independent design |
+|---|---|---|---|
+| `qiao_sen` · `world/qiao_sen.png` | 1024×1536 RGBA | `50e52ac3756587dd4a2062930e1ad1447fb2e6c5` | Adult mask maker: broad face and build, silver crown braid, ochre tunic, indigo tool apron, carved red mask and chisel. |
+| `mei_dulan` · `world/mei_dulan.png` | 1024×1536 RGBA | `69993801c29dfae58cfea2b6ce7b50239a9d0a98` | Mature registrar: silver braided updo, spectacles, charcoal-violet robes, ivory sleeves, folded archive slips. |
+| `tao_wen` · `world/tao_wen.png` | 1024×1536 RGBA | `ce492510b751b2e37207109e951d6356336fd876` | Adult courier: compact runner silhouette, black hair and orange headband, teal split coat, orange dispatch satchel. |
+| `fei_nuo` · `world/fei_nuo.png` | 1024×1536 RGBA | `876f7d324920ce7e1037f70fc6fd45f7a77e2030` | Adult perfumer: dark skin and long low braid, brick-red jacket, aqua skirt, scent vial and porcelain dish. |
+| `porcelain_courser` · `world/porcelain_courser.png` | 1024×1536 RGBA | `080a65e7582744c4b091ab44c507c81e4df4c622` | Equine courier spirit: four articulated hooves, blue-and-white porcelain plates, shard mane, pale flowing tail and delivery ledger. |
+| `glasswing_moth` · `world/glasswing_moth.png` | 1024×1536 RGBA | `6b210d2ddedf41d66884d29e389f41ecfdb58157` | Insect spirit: six jointed legs, feathery antennae, segmented body and four expansive copper-veined translucent wings. |
+| `borrowed_faces_market` · `world/borrowed_faces_market.png` | 1536×1024 RGB | `6a6bc847ecb0b10ff354db4182bcaaab18174f55` | Independent spring market environment: mask and mirror stalls, rain gutters, blue/saffron awnings and registry steps. |
+
+The four people and two beasts are separate new identities, not variants of the prior cast. They were inspected for complete silhouettes and distinct faces, costume, anatomy and painted detail. CI checks native dimensions, alpha, retained source references, file hashes and decoded painting fingerprints; rendered captures check their gameplay presentation. The market counts once toward the original background quota. The portraits add **4 humans + 2 spirit beasts**, bringing original sprite delivery to **14**; **987** remain.

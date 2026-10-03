@@ -756,7 +756,7 @@ func _capture() -> void:
 		_set_outfit(character, Wardrobe.DEFAULT_OUTFIT)
 
 	atmosphere.enabled = not reduced_motion
-	for sample in [{"id": "lantern_hub", "file": "quest_hub"}, {"id": "reed_voice", "file": "spirit_encounter"}, {"id": "ferry_price", "file": "ferry_encounter"}, {"id": "archive_copies", "file": "archive_encounter"}, {"id": "river_xiu", "file": "river_pilot"}, {"id": "river_spirit", "file": "river_spirit"}, {"id": "harbor_answer", "file": "river_harbor"}, {"id": "orchard_arrival", "file": "orchard_healer"}, {"id": "orchard_hart_answer", "file": "orchard_spirit"}, {"id": "orchard_resolution_choice", "file": "orchard_choices"}]:
+	for sample in [{"id": "lantern_hub", "file": "quest_hub"}, {"id": "reed_voice", "file": "spirit_encounter"}, {"id": "ferry_price", "file": "ferry_encounter"}, {"id": "archive_copies", "file": "archive_encounter"}, {"id": "river_xiu", "file": "river_pilot"}, {"id": "river_spirit", "file": "river_spirit"}, {"id": "harbor_answer", "file": "river_harbor"}, {"id": "orchard_arrival", "file": "orchard_healer"}, {"id": "orchard_hart_answer", "file": "orchard_spirit"}, {"id": "orchard_resolution_choice", "file": "orchard_choices"}, {"id": "city_arrival", "file": "city_market"}, {"id": "city_mask_studio", "file": "city_mask_maker"}, {"id": "city_registry_mei", "file": "city_archivist"}, {"id": "city_registry_tao", "file": "city_courier"}, {"id": "city_perfumer_workroom", "file": "city_perfumer"}, {"id": "city_courser_terms", "file": "city_courser"}, {"id": "city_perfumer_moth_terms", "file": "city_moth"}, {"id": "city_final_choice", "file": "city_choices"}]:
 		state.current = sample.id
 		_scene()
 		dialogue.visible_characters = -1
@@ -824,6 +824,24 @@ func _smoke_build() -> void:
 	_scene()
 	await get_tree().create_timer(0.2).timeout
 	valid = valid and actor.character == "frostroot_hart" and actor.sprite.texture != null and background.texture != null
+	state.current = "city_arrival"
+	_scene()
+	await get_tree().create_timer(0.2).timeout
+	valid = valid and background.texture != null and background.texture.get_size() == Vector2(1536, 1024)
+	for encounter in [
+		{"node": "city_mask_studio", "actor": "qiao_sen"},
+		{"node": "city_registry_mei", "actor": "mei_dulan"},
+		{"node": "city_registry_tao", "actor": "tao_wen"},
+		{"node": "city_perfumer_workroom", "actor": "fei_nuo"},
+		{"node": "city_courser_terms", "actor": "porcelain_courser"},
+		{"node": "city_perfumer_moth_terms", "actor": "glasswing_moth"}
+	]:
+		state.current = str(encounter.node)
+		_scene()
+		await get_tree().create_timer(0.2).timeout
+		valid = valid and actor.character == encounter.actor and actor.sprite.texture != null and audio.voice.stream != null
+		if actor.sprite.texture != null:
+			valid = valid and actor.sprite.texture.get_size() == Vector2(1024, 1536)
 	_interiors()
 	_interior_selected(_interior_entries().size() - 1)
 	valid = valid and interior_image.texture != null

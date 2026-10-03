@@ -11,6 +11,8 @@ func check(condition: bool, message: String) -> void:
 
 func _initialize() -> void:
 	_test_attributes()
+	_test_city_continuations()
+	_test_city_settlements()
 	var state = State.new()
 	check(state.current == "arrival", "Story should start at arrival")
 	check(state.story.get("chapters", {}).has("book_ii"), "Campaign chapters should load")
@@ -238,3 +240,60 @@ func _check_attribute_choice_rejected(choice: Dictionary, message: String, start
 	check(not state.can_choose(choice), message + ": disable selection")
 	check(not state.choose(0), message + ": refuse application")
 	check(state.current == "first_choice" and state.stats == before_stats and state.history == before_history, message + ": preserve scene, stats and journal")
+
+func _test_city_continuations() -> void:
+	var openings := {
+		"ending_orchard_breath": "city_from_breath",
+		"ending_orchard_care": "city_from_care",
+		"ending_orchard_funds": "city_from_funds",
+		"ending_orchard_pause": "city_from_pause"
+	}
+	var expected_stats := {"qi": 101, "trust": 202, "insight": 303, "resolve": 404}
+	for ending in openings:
+		var traveler = State.new()
+		traveler.current = ending
+		traveler.stats = expected_stats.duplicate()
+		check(traveler.advance() and traveler.current == openings[ending], "Every orchard settlement must retain its own city opening")
+		check(traveler.stats == expected_stats, "Continuing into Book V must preserve every long-campaign attribute")
+		check(not traveler.history.is_empty() and traveler.history.back().text == traveler.story.nodes[ending].text, "The previous settlement prose must remain in the city journal")
+		var expected_history: Array = traveler.history.duplicate(true)
+		check(traveler.save_game("user://city_checkpoint.json"), "A city continuation checkpoint must save")
+		var restored = State.new()
+		check(restored.load_game("user://city_checkpoint.json"), "A city continuation checkpoint must load")
+		check(restored.current == openings[ending] and restored.stats == expected_stats and restored.history == expected_history, "Book V saves must preserve the selected opening, attributes and prior outcome")
+		check(restored.advance() and restored.current == "city_arrival", "Every city opening must reach the same market without repeating an orchard settlement")
+	DirAccess.remove_absolute("user://city_checkpoint.json")
+
+func _test_city_settlements() -> void:
+	var gates := ["qi", "insight", "trust"]
+	var destinations := ["city_credit_bridge", "city_separate_ledgers", "city_license_pool", "city_batch_audit"]
+	var ending_nodes := ["ending_city_credit", "ending_city_ledgers", "ending_city_pool", "ending_city_audit"]
+	for index in range(4):
+		var traveler = State.new()
+		traveler.current = "city_final_choice"
+		if index < gates.size():
+			traveler.stats[gates[index]] = 2
+			var before_stats: Dictionary = traveler.stats.duplicate()
+			var before_history: Array = traveler.history.duplicate(true)
+			check(not traveler.can_choose(traveler.node().choices[index]) and not traveler.choose(index), "The city settlement gate must reject a value below its threshold")
+			check(traveler.current == "city_final_choice" and traveler.stats == before_stats and traveler.history == before_history, "A blocked city settlement must preserve stats, prose and location")
+			traveler.stats[gates[index]] = 3
+		else:
+			for locked in range(3):
+				check(not traveler.can_choose(traveler.node().choices[locked]), "Specialized city settlements must be locked at zero attributes")
+		check(traveler.choose(index) and traveler.current == destinations[index], "Every city settlement must be playable at its own threshold, including the untrained audit")
+		var steps := 0
+		while not traveler.node().has("ending") and steps < 12:
+			if not traveler.advance():
+				break
+			steps += 1
+		check(traveler.current == ending_nodes[index] and traveler.node().has("ending"), "Each city settlement must reach its distinct ending without another gated decision")
+
+	var investigation = State.new()
+	investigation.current = "city_investigation_choice"
+	var expected_entries := ["city_mask_entry", "city_registry_entry", "city_perfumer_entry"]
+	for index in range(expected_entries.size()):
+		check(investigation.can_choose(investigation.node().choices[index]), "Every city investigation must remain available at zero attributes")
+		var branch = State.new()
+		branch.current = investigation.current
+		check(branch.choose(index) and branch.current == expected_entries[index], "The city hub must open the selected investigation")

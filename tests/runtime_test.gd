@@ -192,6 +192,7 @@ func _run() -> void:
 	game.state.current = "orchard_hart_answer"
 	game._scene()
 	check(game.actor.character == "frostroot_hart" and game.actor.sprite.texture.get_size() == Vector2(1024, 1536), "Frostroot Hart must load its own native original")
+	await _test_city_ui(game)
 	game.state.current = "orchard_resolution_choice"
 	game._scene()
 	game.dialogue.visible_characters = -1
@@ -331,3 +332,49 @@ func _check_attribute_panel(game) -> void:
 		check(value_label != null and value_label.text == "%s · %d" % [profile.name, profile.value], "Every attribute card must show its current name and value")
 		check(rank_label != null and rank_label.text.contains(str(profile.rank)), "Every attribute card must show its current rank")
 		check(progress != null and progress.max_value > 0.0 and is_equal_approx(progress.value / progress.max_value, profile.progress), "Attribute progress bars must match the current rank")
+
+func _test_city_ui(game) -> void:
+	game.state.current = "city_arrival"
+	game._scene()
+	check(game.background.texture != null and game.background.texture.get_size() == Vector2(1536, 1024), "The city market must load its retained native painting")
+	var encounters := {
+		"city_mask_studio": "qiao_sen",
+		"city_registry_mei": "mei_dulan",
+		"city_registry_tao": "tao_wen",
+		"city_perfumer_workroom": "fei_nuo",
+		"city_courser_terms": "porcelain_courser",
+		"city_perfumer_moth_terms": "glasswing_moth"
+	}
+	for scene_id in encounters:
+		game.state.current = scene_id
+		game._scene()
+		var portrait: Texture2D = game.actor.sprite.texture
+		check(game.actor.character == encounters[scene_id] and portrait != null, "City encounters must load their own registered original: " + scene_id)
+		if portrait == null:
+			continue
+		check(portrait.get_size() == Vector2(1024, 1536), "City portraits must retain native resolution: " + scene_id)
+		check(is_equal_approx(game.actor.sprite.scale.x, game.actor.sprite.scale.y), "City portraits must fit without stretching: " + scene_id)
+		check(is_equal_approx(portrait.get_height() * game.actor.sprite.scale.y, 680.0), "City portraits must use the dialogue stage height: " + scene_id)
+		game.actor.display_height = 350.0
+		game.actor.show_character(str(encounters[scene_id]))
+		game._scene()
+		check(is_equal_approx(portrait.get_height() * game.actor.sprite.scale.y, 680.0), "Cached city portraits must resize when returning from previews: " + scene_id)
+
+	game.state.current = "city_final_choice"
+	game.state.stats = {"qi": 0, "trust": 0, "insight": 0, "resolve": 0}
+	game._scene()
+	game._advance()
+	await process_frame
+	for index in range(3):
+		var blocked: Button = game.choice_box.find_child("Choice_" + str(index), true, false)
+		var summary: Label = game.choice_box.find_child("ChoiceDetails_" + str(index), true, false)
+		check(blocked != null and blocked.disabled, "Untrained city settlement choices must remain locked")
+		check(summary != null and summary.text.contains("Locked"), "City settlement gates must be visible before choosing")
+	var fallback: Button = game.choice_box.find_child("Choice_3", true, false)
+	check(fallback != null and not fallback.disabled, "The city audit must remain available without attribute training")
+	var before_stats: Dictionary = game.state.stats.duplicate()
+	var before_history: Array = game.state.history.duplicate(true)
+	game._choose(0)
+	check(game.state.current == "city_final_choice" and game.state.stats == before_stats and game.state.history == before_history, "A locked city UI choice must preserve the journey")
+	game._choose(3)
+	check(game.state.current == "city_batch_audit", "The unrestricted city settlement must remain playable through the UI")

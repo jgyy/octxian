@@ -415,6 +415,16 @@
       "environment": "interior",
       "collection": "building_interiors",
       "description": "Rolled mats and a shared kettle furnish a refuge above the city streets."
+    },
+    {
+      "id": "borrowed_faces_market",
+      "name": "The Borrowed-Faces Market",
+      "path": "assets/art/world/borrowed_faces_market.png",
+      "native_size": [
+        1536,
+        1024
+      ],
+      "description": "Spring rain brightens the city stalls and registry steps. Licensed outward appearances remain useful; rented recognition gives no ownership of the person beneath."
     }
   ],
   "npcs": [
@@ -517,6 +527,86 @@
         ],
         "record": "assets/art/PROVENANCE.md"
       }
+    },
+    {
+      "id": "qiao_sen",
+      "name": "Qiao Sen",
+      "path": "assets/art/world/qiao_sen.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "A veteran mask maker who distinguishes useful appearance licenses from name-proof collateral. His own workshop seals preserve the order in which permit linings were altered.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/qiao_sen.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/PROVENANCE.md"
+      }
+    },
+    {
+      "id": "mei_dulan",
+      "name": "Mei Dulan",
+      "path": "assets/art/world/mei_dulan.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "A city registrar who keeps permanent name proofs separate from rented recognition. Certified extracts and a director-signed batch order make her case answerable to the people named.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/mei_dulan.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/PROVENANCE.md"
+      }
+    },
+    {
+      "id": "tao_wen",
+      "name": "Tao Wen",
+      "path": "assets/art/world/tao_wen.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "A young adult courier whose delayed wages expose a permit being used as a pay account. He supplies his own dispatch tags and decides separately how his testimony may be used.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/tao_wen.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/PROVENANCE.md"
+      }
+    },
+    {
+      "id": "fei_nuo",
+      "name": "Fei Nuo",
+      "path": "assets/art/world/fei_nuo.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "A perfumer who tests return wax on offered tags with separate controls. Her workshop gives the Glasswing Moth room to refuse volatile resin and offers workers a practical repair.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/fei_nuo.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/PROVENANCE.md"
+      }
     }
   ],
   "monsters": [
@@ -573,6 +663,46 @@
         "kind": "original_painting",
         "derivation": "none",
         "source_path": "assets/art/world/frostroot_hart.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/PROVENANCE.md"
+      }
+    },
+    {
+      "id": "porcelain_courser",
+      "name": "The Porcelain Courser",
+      "path": "assets/art/world/porcelain_courser.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "An independent courier spirit with a ledger of its own deliveries. Glazed plates protect a living horse-shaped body; a mask license creates no ownership oath and no permission to ride.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/porcelain_courser.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/PROVENANCE.md"
+      }
+    },
+    {
+      "id": "glasswing_moth",
+      "name": "The Glasswing Moth",
+      "path": "assets/art/world/glasswing_moth.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "A workshop tenant whose glass wings and antennae notice scents on supplied surfaces. It detects offered wax and ink, keeps its spring brood, and makes no claim to read thoughts or guilt.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/glasswing_moth.png",
         "native_size": [
           1024,
           1536
