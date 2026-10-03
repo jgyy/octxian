@@ -1,19 +1,19 @@
 {
   "displayed_scenes": 2335,
-  "displayed_words": 190774,
+  "displayed_words": 190890,
   "new_training_scenes": 77,
   "new_training_words": 5206,
   "rewritten_book_i_scenes": 37,
   "rewritten_book_i_words": 2519,
-  "rewrite_words": 78081,
+  "rewrite_words": 79911,
   "strict_word_target": 1000001,
   "planned_rewrite_words": 1050000,
   "reference_checks": "pass",
   "duplicate_prose_checks": "pass",
   "continuity_checkpoints": "pass",
-  "inherited_words": 112693,
-  "remaining_displayed_words": 809227,
-  "remaining_rewrite_words": 921920,
+  "inherited_words": 110979,
+  "remaining_displayed_words": 809111,
+  "remaining_rewrite_words": 920090,
   "native_art": [
     {
       "mime": "image/png",
@@ -320,6 +320,114 @@
         1536
       ],
       "git_blob": "23fec3a16be994ccb58c6959faa4af13145b3dcb"
+    },
+    {
+      "path": "assets/art/world/canal_commons_lock.png",
+      "mime": "image/png",
+      "size": [
+        1672,
+        941
+      ],
+      "git_blob": "30a99a5b421dedb86aa51919d5570067e05ec8eb"
+    },
+    {
+      "path": "assets/art/world/forest_winter_boundary.png",
+      "mime": "image/png",
+      "size": [
+        1672,
+        941
+      ],
+      "git_blob": "5c299a3aa0bc123440471c6e4d79888800ad7733"
+    },
+    {
+      "path": "assets/art/world/harbor_quarantine_quay.png",
+      "mime": "image/png",
+      "size": [
+        1672,
+        941
+      ],
+      "git_blob": "b739174b6e18f68fbfa16df210ea58c45d8b8aff"
+    },
+    {
+      "path": "assets/art/world/kiln_common_firing_hall.png",
+      "mime": "image/png",
+      "size": [
+        1672,
+        941
+      ],
+      "git_blob": "64b72469b88e4e06b632c444ab69ee9ab0335f82"
+    },
+    {
+      "path": "assets/art/world/salt_desert_survey_camp.png",
+      "mime": "image/png",
+      "size": [
+        1672,
+        941
+      ],
+      "git_blob": "29b21d2393579f772b536d2252fd84f71abf6fe2"
+    },
+    {
+      "path": "assets/art/world/luo_zhen.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "git_blob": "3b0f01ce69db0dea349b220b3e378644ace3bacd"
+    },
+    {
+      "path": "assets/art/world/shi_lan.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "git_blob": "8ff3084d50933c0b830c4feeef1450e3eec97896"
+    },
+    {
+      "path": "assets/art/world/mountain_archive_winter_hall.png",
+      "mime": "image/png",
+      "size": [
+        1672,
+        941
+      ],
+      "git_blob": "4b83f8f004b8aeb6a9cfae81c75c56ecb60efdf7"
+    },
+    {
+      "path": "assets/art/world/harbor_he_ming.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "git_blob": "f1d8ce1e7ed0525a2cf6320fe2948fd0e77f0386"
+    },
+    {
+      "path": "assets/art/world/peng_ai.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "git_blob": "f6ef90aab8a738212eb4f52c2bd1a6a4f778802c"
+    },
+    {
+      "path": "assets/art/world/gao_ru.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "git_blob": "f5d53cb74465b79dd7e237b75a0ce11268b6f01c"
+    },
+    {
+      "path": "assets/art/world/dai_shuren.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "git_blob": "453622486ea25a7c07e107f8eee1538dddd1db36"
     }
   ],
   "complete": false,
@@ -332,9 +440,10 @@
   "latest_batch": {
     "new_scenes": 336,
     "new_words": 24617,
-    "recast_scenes": 78,
+    "recast_scenes": 109,
     "recast_words": 6491,
-    "net_displayed_word_addition": 24846
+    "net_displayed_word_addition": 24962,
+    "existing_displayed_word_change": 345
   },
   "rewrite_scene_ids": [
     "arrival",
@@ -1427,9 +1536,30 @@
     "salt_purchase_005",
     "salt_purchase_006",
     "salt_purchase_007",
-    "salt_end_purchase"
+    "salt_end_purchase",
+    "river_interim",
+    "stair_funding_choice",
+    "return_later",
+    "city_mask_evidence",
+    "city_mask_samples",
+    "city_mask_fitting",
+    "city_return_tokens",
+    "city_mask_scrape",
+    "ending_city_pool",
+    "ring_archive_paused",
+    "ring_road_rollback",
+    "ring_return_board",
+    "ring_jin_boundary",
+    "ring_road_first_rope",
+    "ring_marsh_first_page",
+    "orchard_demonstration",
+    "lantern_bell",
+    "ending_bell",
+    "court_cost_space_reply",
+    "city_mask_stakes",
+    "ring_archive_qi_restraint"
   ],
-  "rewrite_scenes": 1091,
+  "rewrite_scenes": 1112,
   "plot_repair_scene_ids": [
     "tempering_after_007",
     "tempering_after_009",
@@ -1507,13 +1637,15 @@
   "thunderfen_words": 5978,
   "current_review": {
     "kind": "existing_prose_continuity",
-    "source_base": "8dd58078b349f27b228be1107599572bf850efdc",
-    "distinct_root_defects": 53,
-    "rewritten_existing_scenes": 78,
-    "existing_displayed_word_change": 229,
+    "distinct_root_defects": 82,
+    "first_round": 53,
+    "second_round": 29,
+    "second_round_source": "feb4ec7500a1df2bf95b16265544553372c657ce",
+    "rewritten_existing_scenes": 109,
+    "existing_displayed_word_change": 345,
     "prior_pr_anchored_corrections": 115,
-    "total_pr_anchored_corrections": 168,
-    "report": "docs/CONTINUATION_20261003.md"
+    "total_pr_anchored_corrections": 197,
+    "report": "docs/CONTINUATION_SECOND_20261003.md"
   },
   "previous_review": {
     "kind": "continuity_and_progression",

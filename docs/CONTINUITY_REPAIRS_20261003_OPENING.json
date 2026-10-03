@@ -8,15 +8,17 @@
   "verification": {
     "defects": 20,
     "changed_scenes": 25,
-    "delta": 122,
-    "displayed_words": 25816,
+    "delta": 129,
+    "displayed_words": 25881,
     "max_words": 96,
     "errors": [],
     "word_count_method": "Whitespace-delimited displayed node text; repository validator remains authoritative for production manuscript credit.",
     "metadata_preserved": true,
     "source_and_result_anchors_exact": true,
     "normalized_scene_prose_unique_within_file": true,
-    "prior_text_repairs_untouched": true
+    "prior_text_repairs_untouched": true,
+    "followup_note": "Current anchor includes the separate paid-return/arrival correction audited against feb4ec7500a1df2bf95b16265544553372c657ce; the historical first-stage delta was 122 words.",
+    "historical_displayed_file_words": 25816
   },
   "repairs": [
     {
@@ -194,7 +196,8 @@
           "path": "data/story.json",
           "node_id": "ferry_return",
           "before": "The ferry reached the village with no triumphant music and a leak that had grown an inch. Wei Jin charged them for three cups of tea. Su Lan paid for four and left one steaming by the crossing stone. Lin Yue carried the rubbing beneath her robe, where the pendant could not mistake a document for a destiny.",
-          "after": "The ferry reached the village with no triumphant music and a leak that had grown an inch. Wei Jin charged them for three cups of tea. Su Lan paid for four and left one steaming by the crossing stone. Lin Yue carried the comparison beneath her robe, where the pendant could not mistake a document for a destiny."
+          "after": "At the village landing, the ferry sat without triumphant music, its leak an inch longer. Su Lan paid the agreed passenger fare from her travel purse. Wei Jin then charged for three cups of tea; she bought four and left one steaming by the crossing stone. Lin Yue carried the comparison beneath her robe, where the pendant could not mistake a document for a destiny.",
+          "followup_audit": "docs/CONTINUITY_REPAIRS_20261003_SECOND_FERRY.json"
         },
         {
           "path": "data/story.json",

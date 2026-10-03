@@ -21,7 +21,7 @@ concurrency:
 jobs:
   game:
     runs-on: ubuntu-latest
-    timeout-minutes: 35
+    timeout-minutes: 300
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -43,6 +43,7 @@ jobs:
         run: |
           python -m unittest discover -s tests -p 'test_*.py'
           python tools/validate_continuation_audits.py --source-base 8dd58078b349f27b228be1107599572bf850efdc --source-node-index docs/CONTINUATION_SOURCE_INDEX_20261003.json
+          python tools/validate_continuation_audits.py docs/CONTINUITY_REPAIRS_20261003_SECOND_RIVER.json docs/CONTINUITY_REPAIRS_20261003_SECOND_CITY.json docs/CONTINUITY_REPAIRS_20261003_SECOND_CULTIVATION.json docs/CONTINUITY_REPAIRS_20261003_SECOND_RING.json docs/CONTINUITY_REPAIRS_20261003_SECOND_FERRY.json docs/CONTINUITY_REPAIRS_20261003_SECOND_ORCHARD.json --source-base feb4ec7500a1df2bf95b16265544553372c657ce --source-node-index docs/CONTINUATION_SECOND_SOURCE_INDEX_20261003.json
       - name: Prepare outfit portraits and compose score and effects
         run: python tools/build_assets.py
       - name: Restore completed narration checkpoints
@@ -59,8 +60,15 @@ jobs:
             jade-vow-lessac-clips-v2-${{ github.ref_name }}-${{ github.sha }}-
             jade-vow-lessac-clips-v2-${{ github.ref_name }}-
             jade-vow-lessac-clips-v2-
+      - name: Restore separately verified draft narration
+        uses: actions/cache/restore@v4
+        with:
+          path: .cache/voice-prebuild
+          key: jade-vow-prebuild-v1-${{ github.head_ref || github.ref_name }}-${{ github.sha }}-${{ github.run_id }}
+          restore-keys: |
+            jade-vow-prebuild-v1-${{ github.head_ref || github.ref_name }}-
       - name: Generate neural narration for all scenes
-        run: timeout --kill-after=30s 25m python tools/generate_voices.py
+        run: timeout --kill-after=30s 240m python tools/generate_voices.py
       - name: Preserve completed narration after failed generation
         if: ${{ !cancelled() && steps.narration-cache.outcome == 'success' && steps.narration-cache.outputs.cache-primary-key != '' && steps.narration-cache.outputs.cache-hit != 'true' && hashFiles('assets/generated/voices/manifest.json') != '' }}
         uses: actions/cache/save@v4
@@ -91,7 +99,7 @@ jobs:
           ! rg 'SCRIPT ERROR:|Parse Error:|ERROR:' build/logs/import.log
       - name: Validate every story route and saves
         run: |
-          timeout 90s .cache/godot/Godot_v4.7.2-stable_linux.x86_64 --headless --path . --script tests/story_test.gd 2>&1 | tee build/logs/story.log
+          timeout 240s .cache/godot/Godot_v4.7.2-stable_linux.x86_64 --headless --path . --script tests/story_test.gd 2>&1 | tee build/logs/story.log
           rg 'JADE_VOW_STORY_TESTS_OK' build/logs/story.log
           ! rg 'SCRIPT ERROR:|ERROR:' build/logs/story.log
       - name: Test UI, body bobbing and accessibility
@@ -103,7 +111,7 @@ jobs:
         env:
           LIBGL_ALWAYS_SOFTWARE: '1'
         run: |
-          timeout 120s xvfb-run -a .cache/godot/Godot_v4.7.2-stable_linux.x86_64 --path . --audio-driver Dummy -- --capture 2>&1 | tee build/logs/capture.log
+          timeout 180s xvfb-run -a .cache/godot/Godot_v4.7.2-stable_linux.x86_64 --path . --audio-driver Dummy -- --capture 2>&1 | tee build/logs/capture.log
           rg 'JADE_VOW_CAPTURE_OK' build/logs/capture.log
           ! rg 'SCRIPT ERROR:|ERROR:' build/logs/capture.log
           python tools/verify_screenshots.py

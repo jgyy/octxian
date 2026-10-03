@@ -1,0 +1,1113 @@
+{
+  "chapters": {},
+  "characters": {},
+  "nodes": {
+    "forest_04_001": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "village_council_room",
+      "text": "Pei's two teams prepared to leave. The office inquiry would expose how the buyers' promises and grain advances had been written, with Rong and Long present to answer. The field inquiry would test the upper cutting route and winter carriage road, alongside Wen and qualified survey workers. Both reports would return to the common meeting. Lin had one paid working day and one body. She chose where to spend them, knowing the choice would bring her closer to a different person's trouble.",
+      "choices": [
+        {
+          "text": "Work with the buyers and examine the terms people signed.",
+          "next": "forest_04_buyer_001",
+          "effects": {
+            "insight": 1
+          }
+        },
+        {
+          "text": "Follow Wen to the upper stand and inspect the winter road.",
+          "next": "forest_04_trail_001",
+          "effects": {
+            "insight": 1
+          }
+        }
+      ]
+    },
+    "forest_04_buyer_001": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Lin stayed in the office. The first task was disappointingly physical: move the tall account bundles to a table wide enough to compare them. Rong's clerk had tied each bundle with a perfect knot. Long's clerk had tied his so tightly that a knife was needed. Pei watched the knife with apprehension until its owner slid a board beneath the string. A good beginning, Lin thought, was sometimes no more than not cutting the paper one had come to inspect.",
+      "background": "village_council_room",
+      "next": "forest_04_buyer_002"
+    },
+    "forest_04_buyer_002": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Rong Sui placed his employer's instructions on one side of the table and his field letters on the other. The clerk, a young man with a carefully oiled fringe, stood between them. His pay included a fee for securing signed supply commitments. The fee was calculated when a commitment was accepted, not when lawful dry fuel arrived. Long raised his eyebrows. Rong said the arrangement was common. Pei asked whether common arrangements could still encourage foolish behavior.",
+      "background": "village_council_room",
+      "next": "forest_04_buyer_003"
+    },
+    "forest_04_buyer_003": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "rong_sui",
+      "actor": "rong_sui",
+      "text": "They can. The fee was meant to reward difficult travel and negotiation. It gave a man reason to bring back a large promise before he had tested its foundation. I did not write the pay schedule, but I sent him under it and praised his first return. You may write that beside his explanation. I want to know whether he altered any condition. I do not want him blamed for incentives that were printed clearly above his name.",
+      "background": "village_council_room",
+      "next": "forest_04_buyer_004"
+    },
+    "forest_04_buyer_004": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The clerk produced a note from the foreman estimating the northern stand's yield. Beneath the estimate, Rong had written that the town needed reassurance before frost. The clerk said he had understood this to mean a signed remedy was urgent. Rong said reassurance should have meant a conditional proposal. The clerk asked why the return letter congratulated him on securing repayment. Silence spread around the table. Lin could hear someone chopping kindling in the yard.",
+      "background": "village_council_room",
+      "next": "forest_04_buyer_005"
+    },
+    "forest_04_buyer_005": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "Can we compare the date of the congratulations with the date you received the actual advance agreement? If the letter was sent before you saw its northern clause, that tells us one thing. If it was sent afterward, it tells us another. I am not asking which sentence sounds kinder. I am asking which paper reached you first. We have the messenger's receipts here, and he has offered to confirm the route.",
+      "background": "village_council_room",
+      "next": "forest_04_buyer_006"
+    },
+    "forest_04_buyer_006": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The dates showed that Rong's praise had gone out before the agreement arrived, based on the clerk's short report. The report said repayment was secured against expected eastern output, with additional licensed work available if needed. The disputed northern stand was not identified. Rong stared at the phrase additional licensed work. The clerk stared at his own signature. The omission could no longer be described merely as a difference between hopeful and cautious listeners.",
+      "background": "village_council_room",
+      "next": "forest_04_buyer_007"
+    },
+    "forest_04_buyer_007": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The clerk said he had expected the licence to be granted. Pei asked why he had written licensed rather than proposed. He answered that the foreman said the old marker allowed cutting. Rong asked why permission was listed as pending in the yield sheet attached to the same report. The clerk lowered his head. He had not wanted the office to delay the advance while the crew ran out of flour. That explanation made the act comprehensible and left it false.",
+      "background": "village_council_room",
+      "next": "forest_04_buyer_008"
+    },
+    "forest_04_buyer_008": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "rong_sui",
+      "actor": "rong_sui",
+      "text": "You should have told me the crew needed flour before permission could be settled. Then I would have had to decide whether to advance against the eastern order alone or decline. You decided for me by changing the description. You also decided for the foreman, who now carries a debt whose remedy cannot be used. I will not let the office recover your fee by taking food from his sister. Your employment review is a separate matter.",
+      "background": "village_council_room",
+      "next": "forest_04_buyer_009"
+    },
+    "forest_04_buyer_009": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The clerk's face tightened at the mention of his review. He had a mother and two younger brothers, he said; he had not been trying to steal. Rong did not answer the claim about motive. He asked him to write the sequence in his own words and offered an opportunity to correct it after reading. Lin disliked how easily the clerk's fear made her want to soften the documented falsehood. She also disliked how easily the falsehood made Long look satisfied.",
+      "background": "village_council_room",
+      "next": "forest_04_buyer_010"
+    },
+    "forest_04_buyer_010": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "long_qian",
+      "actor": "long_qian",
+      "text": "Do not look at me as though I have never advanced grain against uncertain work. I have. I usually keep the pledge narrow because a household with no room to recover will stop buying anything. That is business arithmetic before it is generosity. Rong's clerk made his arithmetic larger than the stand. Mine made an unmarried woman's grain purchase reach into her intended husband's contract. We can be angry about both without pretending they are identical.",
+      "background": "village_council_room",
+      "next": "forest_04_buyer_011"
+    },
+    "forest_04_buyer_011": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Long's clerk opened the winter credit book. Several household pledges contained the same future-charcoal language Wen's sister had refused. Three had been accepted before the commission arrived. Long said the clause guaranteed repayment where cash wages were irregular. Pei asked whether each signer had been told it bound future charcoal sales. The clerk pointed to the signed lines. Pei asked her question again. A signature showed acceptance of a page; it did not answer what had been explained aloud.",
+      "background": "village_council_room",
+      "next": "forest_04_buyer_012"
+    },
+    "forest_04_buyer_012": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Two of the three households agreed to come that afternoon. The third asked to send its own written account after discussing the pledge at home. Long accepted that timing reluctantly. Lin carried the invitations and found herself explaining that the commission was asking about the credit terms, not summoning debtors for failure to pay. One woman still closed the door halfway. Lin left the invitation where requested and did not try to rescue it from the woman's suspicion.",
+      "background": "village_council_room",
+      "next": "forest_04_buyer_013"
+    },
+    "forest_04_buyer_013": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "At the second house, an elderly couple were sorting dried beans by the light of a window. The man had understood the pledge as a first claim on his own charcoal earnings, not his daughter's future work after marriage. The woman had asked about that difference at the counter and remembered being told the clause was only ordinary wording. Their daughter was away carrying fuel. They wanted her present before answering for the household. Lin changed the proposed meeting time.",
+      "background": "village_council_room",
+      "next": "forest_04_buyer_014"
+    },
+    "forest_04_buyer_014": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Returning to the office, Lin passed the kitchen's ordinary fuel test. The cook had two matched pots, two repaired stove doors, and a helper timing when the grain reached the usual texture. She offered Lin a spoonful from each pot. One was still hard. No magical gauge was needed to notice. Long's manager recorded the fuel and cooking times while pretending not to hear the cook explain how many earlier figures had been taken with the doors gaping open.",
+      "background": "village_council_room",
+      "next": "forest_04_buyer_015"
+    },
+    "forest_04_buyer_015": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "long_qian",
+      "actor": "long_qian",
+      "text": "I paid to repair those doors last month. The work was marked complete. I did not check whether the latch held after a full fire. The cook wedged it with a stone and kept serving meals. My manager counted the fuel needed under that condition. If today's corrected use is lower, that saving is real. I wish it had appeared before I signed for so much charcoal. I do not get to make the kitchen keep wasting fuel to defend my order.",
+      "background": "village_council_room",
+      "next": "forest_04_buyer_016"
+    },
+    "forest_04_buyer_016": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The first household arrived with the daughter, who had soot on her cheek and no patience for ceremonial greetings. She asked whether Long had advanced grain to her father or bought her next season's work. He said he had advanced grain. She asked him to cross out the phrase that made the second answer possible. The clerk began explaining the standard form. Long stopped him and asked what repayment proposal the household could actually sustain.",
+      "background": "village_council_room",
+      "next": "forest_04_buyer_017"
+    },
+    "forest_04_buyer_017": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Their proposal used a fixed portion of the father's already contracted paid work, with a limited repayment term and no claim on the daughter. It would repay more slowly than Long's preferred schedule. He calculated the difference, rubbed his thumb along the bead frame, and offered a smaller service charge if the dates were met. The daughter rejected the conditional reduction as another trap after a missed shift. Her father looked horrified. She kept looking at Long.",
+      "background": "village_council_room",
+      "next": "forest_04_buyer_018"
+    },
+    "forest_04_buyer_018": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "long_qian",
+      "actor": "long_qian",
+      "text": "Very well. A fixed charge, written now, and the stated repayment dates. If a scheduled wage fails because the employer defaults, you may ask for review before the next collection. That will not erase the debt automatically. It will prevent my clerk from treating every lost workday as refusal. Read the crossed-out sentence before you sign the amendment. I would prefer not to meet you here next week discovering that we have misunderstood each other in a newer fashion.",
+      "background": "village_council_room",
+      "next": "forest_04_buyer_019"
+    },
+    "forest_04_buyer_019": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The daughter read slowly, asking her father to follow each changed line. Lin admired her enough to feel embarrassed about the admiration. The woman was not performing confidence for an audience; she was trying to keep her next season from being sold in her absence. After signing, she asked whether the grain house needed a carrier tomorrow. Long referred her to the ordinary hiring clerk. The question of debt did not prevent her from choosing paid work at the same door.",
+      "background": "village_council_room",
+      "next": "forest_04_buyer_020"
+    },
+    "forest_04_buyer_020": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The second household's account was less tidy. One signer remembered a clear explanation, the other remembered only the amount of grain. They disagreed in front of Long, then looked ashamed of disagreeing. Pei asked them to separate what each had heard rather than settle it by force. Their amendment removed the broader pledge because both parties now accepted a narrower repayment plan. It did not require the office to declare one spouse truthful and the other foolish.",
+      "background": "village_council_room",
+      "next": "forest_04_buyer_021"
+    },
+    "forest_04_buyer_021": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "At midday, Rong's clerk completed his written account and asked to speak to Lin outside. He wanted her to tell the council he had meant to keep the crew fed. She said she could confirm that he had offered that explanation; she could not make it the only consequence of the altered report. He kicked at a lump of frozen mud and split it in two. For a moment he looked as young as the brothers he had invoked.",
+      "background": "village_council_room",
+      "next": "forest_04_buyer_022"
+    },
+    "forest_04_buyer_022": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "I have wanted a good intention to rescue my own mistakes. It never rescued the people who had to live with them. You can write why you changed the phrase and what you feared would happen if you did not. That is yours to say. The council can hear it beside the false phrase, not in place of it. If you are afraid of losing your pay, ask Rong about your wages directly. Do not make the crew your argument.",
+      "background": "village_council_room",
+      "next": "forest_04_buyer_023"
+    },
+    "forest_04_buyer_023": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The clerk nodded without looking comforted. He returned inside and asked Rong whether his completed travel wages would be withheld. Rong said those wages would be paid, while the commitment fee was disputed under the employment terms and would receive a separate review. The clerk sat down. Long's clerk, who had watched all morning from the safer side of the table, quietly fetched him tea. Lin found that small act more persuasive than either employer's speech.",
+      "background": "village_council_room",
+      "next": "forest_04_buyer_024"
+    },
+    "forest_04_buyer_024": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The office compared the seasonal orders. Each buyer held a confirmed allocation request for one hundred eighty bags and a proposed extension of sixty. Together they sought four hundred eighty against a licensed ceiling of three hundred sixty. The confirmed requests had never guaranteed the full ceiling's actual yield. The extensions relied on the disputed northern stand. Pei wrote confirmed request and guaranteed delivery on different lines because the agreements themselves had used both phrases in different places.",
+      "background": "village_council_room",
+      "next": "forest_04_buyer_025"
+    },
+    "forest_04_buyer_025": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "rong_sui",
+      "actor": "rong_sui",
+      "text": "My town office sold its first heating contracts against the confirmed request, as though the full amount would certainly arrive. That was a commercial risk we accepted. It does not become a cutting permit when the winter grows colder. I will ask the town customers about substitute fuel and staged delivery. I expect some to reject it. If they do, the refund or breach claim returns to my office. It does not travel uphill and acquire roots.",
+      "background": "village_council_room",
+      "next": "forest_04_buyer_026"
+    },
+    "forest_04_buyer_026": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Long objected that his kitchens could not simply wait for refunded money. The cook entered with the completed stove comparison and asked whether they wanted to inspect the results before continuing to predict disaster. After latch repair, the tested meal used less fuel, but damp split wood had prolonged cooking beyond the service interval. Dry split wood worked at the measured mix. The result offered a reduction for the tested kitchens, not permission to generalize it to every stove in the valley.",
+      "background": "village_council_room",
+      "next": "forest_04_buyer_027"
+    },
+    "forest_04_buyer_027": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "They went to the kitchen. Steam clouded the window, and the helper had marked each trial's time on a board already used for shopping lists. Long tasted the grain, asked about the pot size, and inspected the repaired latch. Rong pretended the grain was too ordinary to interest him and asked for a second spoonful. Lin ate the last of her bread with the test meal. For several minutes the dispute consisted of people chewing carefully.",
+      "background": "village_council_room",
+      "next": "forest_04_buyer_028"
+    },
+    "forest_04_buyer_028": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "long_qian",
+      "actor": "long_qian",
+      "text": "We can reduce the tested kitchen share if the dry wood arrives at the measured condition and the other kitchen trials agree. I will not reduce household heating orders on the strength of a cooking pot. Bring the stove numbers separately. I will pay the cooks' trial time at their ordinary rate. They have already spent enough unpaid effort making my broken latches appear functional. Put that last sentence in the expense request if it helps my manager understand.",
+      "background": "village_council_room",
+      "next": "forest_04_buyer_029"
+    },
+    "forest_04_buyer_029": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Back at the office, the third indebted household sent its account. The signer had understood the broad pledge and wanted to retain it because it secured a longer repayment interval. His partner disagreed. Pei asked them to return with a mutually accepted proposal, and Long placed collection under the short stated review hold rather than choosing between their accounts. The other amendments would not automatically rewrite this household's choice. Lin was learning how often fairness required leaving an uncomfortable question open.",
+      "background": "village_council_room",
+      "next": "forest_04_buyer_030"
+    },
+    "forest_04_buyer_030": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Rong's clerk found a second discrepancy in the advance report while rereading it. The licensed eastern crew had promised seventy bags, but the short summary called its first delivery eighty. He said he had rounded the projected output upward because the town office preferred lots of twenty. The original signed promise still said seventy. Rong did not shout. His silence was worse. Lin moved the kettle away from the papers again and wished everyone would stop needing that particular service.",
+      "background": "village_council_room",
+      "next": "forest_04_buyer_031"
+    },
+    "forest_04_buyer_031": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "rong_sui",
+      "actor": "rong_sui",
+      "text": "Do not call ten promised bags a rounding. A bag is twelve kilograms of fuel somebody expects to receive. If you rounded the ink, you enlarged the promise. Write the correction to the town office before the afternoon messenger leaves. I will sign my acknowledgment that I relied on your summary without comparing the original. You will sign yours. Neither signature needs an essay about how busy we were. The messenger already knows we are busy.",
+      "background": "village_council_room",
+      "next": "forest_04_buyer_032"
+    },
+    "forest_04_buyer_032": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The correction left with the messenger. The foreman's seventy-bag agreement remained disputed only in its repayment remedy and delivery timing, not secretly expanded to eighty. Long watched the exchange and crossed a number out of his own planning sheet. He had counted the clerk's eighty as evidence that the eastern crew possessed spare output. The mistake had crossed employers' desks, gathering certainty every time someone copied it. Lin drew an arrow between the sheets, then put her pen down.",
+      "background": "village_council_room",
+      "next": "forest_04_buyer_033"
+    },
+    "forest_04_buyer_033": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "During the afternoon break, Pei took Lin to the rear porch. The old keeper's hands trembled slightly while she opened a packet of roasted chestnuts. She said that admitting her marker confusion had not made the confusion smaller. Lin said no, but it had made the next question possible. Pei snorted. She had expected a more comforting apprentice. Lin offered to invent one. Pei gave her a chestnut instead and told her to peel it before it cooled.",
+      "background": "village_council_room",
+      "next": "forest_04_buyer_034"
+    },
+    "forest_04_buyer_034": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "pei_yun",
+      "actor": "pei_yun",
+      "text": "I have been keeper long enough that people stop asking whether I remember correctly. They ask what I remember and write it down. It is pleasant to be useful and dangerous to become furniture nobody tests. If I turn stubborn tomorrow, ask the awkward question anyway. Not every awkward question is right. You will survive being wrong. I am less certain this office will survive everyone deciding that age has made me a reliable landmark.",
+      "background": "village_council_room",
+      "next": "forest_04_buyer_035"
+    },
+    "forest_04_buyer_035": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The office inquiry ended with three actions and several unsettled claims. Rong would correct his town report and submit substitute-fuel options. Long would finish the kitchen and heating checks and review the remaining broad household pledge. The licence office would compare the application language against the certified road order. No commission member pretended that a corrected phrase had paid a debt. The injured worker's wages, the crew advance, and the disputed logs remained on their separate review dates.",
+      "background": "village_council_room",
+      "next": "forest_04_buyer_036"
+    },
+    "forest_04_buyer_036": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Lin helped return the bundles to their owners' chosen custody. The oiled fringe of Rong's clerk had fallen into his eyes, and he no longer bothered to smooth it. He thanked Long's clerk for the tea. The two men walked to the door together and began arguing about which messenger route reached town fastest in snow. Their employers stayed inside. Lin watched ordinary professional pride recover a little space from shame.",
+      "background": "village_council_room",
+      "next": "forest_04_buyer_037"
+    },
+    "forest_04_buyer_037": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Rong remained after the others left. He asked Lin whether she thought his clerk could be trusted again. She said that was not hers to decide. He asked what she had noticed. She told him the clerk had found the second error himself while rereading, after the first had been exposed. Rong considered that for a long time. He said he would include it in the employment review. His face looked older without anyone left to impress.",
+      "background": "village_council_room",
+      "next": "forest_04_buyer_038"
+    },
+    "forest_04_buyer_038": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "rong_sui",
+      "actor": "rong_sui",
+      "text": "My own first employer praised me for making people sign quickly. I thought the praise meant I understood business. Later I learned how many of those people had understood the pages differently. I remember that lesson with great solemnity whenever somebody else needs it. Today I have been less impressive at remembering it while examining my own letters. You may keep that observation to yourself. I suspect Pei Yun has already made it.",
+      "background": "village_council_room",
+      "next": "forest_04_buyer_039"
+    },
+    "forest_04_buyer_039": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "At dusk, the field team returned with ice on its gaiters and a broken wheel spoke carried as an example. Wen wanted hot water before explanations. Shi Lan wanted the district road keeper called before dark. The outside supplier's winter carriage route had a damaged crossing and an alternate path too narrow for the quoted loaded wagon. Lin had spent the day among words that traveled too easily. Their report concerned a road on which real weight could no longer travel as promised.",
+      "background": "village_council_room",
+      "next": "forest_04_buyer_040"
+    },
+    "forest_04_buyer_040": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Lin wrote her offered account of the office inquiry and read it aloud to the people whose words it contained. The clerk corrected one sequence; Long corrected the scope of the cooking result. Then she set the account beside the field team's report. She would hear what had happened beyond the upper marker at the common meeting. For now, Wen pushed a hot cup into her hands and asked whether the office had contained any onions.",
+      "background": "village_council_room",
+      "next": "forest_04_report_001"
+    },
+    "forest_04_trail_001": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Lin joined the field team. Wen handed her a parcel of bean cakes and said his sister had improved the edges. Shi Lan checked everyone's gloves, then discovered she had left her own inside. Nobody mentioned it until she returned. Wen asked whether wardens received a special allowance for inspecting their empty pockets. She said the allowance consisted of making the most talkative worker carry the measuring pins. He accepted the bundle with theatrical injury.",
+      "background": "forest_winter_boundary",
+      "next": "forest_04_trail_002"
+    },
+    "forest_04_trail_002": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The upper path climbed beneath firs whose lower branches held last night's snow in crooked shelves. The measuring assistant walked first, setting a pace slow enough to keep his breath steady. Lin felt the difference between a hill climbed for practice and one climbed with a day's labor waiting above it. She shortened her steps. Wen shortened his too, though he had been pretending not to watch her. Shi Lan noticed both and said nothing.",
+      "background": "forest_winter_boundary",
+      "next": "forest_04_trail_003"
+    },
+    "forest_04_trail_003": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "wen_cai",
+      "actor": "wen_cai",
+      "text": "My sister says I talk too much around you because I want you to think I am less ordinary than a man who carries sacks. I told her sack carrying contains depths she has never respected. Then she asked whether I meant the sacks or the conversation. I have not answered. She will ask again tonight. If I discover something profound today, please warn me before I announce it and make her unbearably pleased with herself.",
+      "background": "forest_winter_boundary",
+      "next": "forest_04_trail_004"
+    },
+    "forest_04_trail_004": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "At the first high clearing, the crew had left a cart under a lean-to. Its wheels were blocked against rolling. One shaft had cracked near the harness pin. Wen knew the cart: his uncle had repaired it twice, each time warning that the timber would not tolerate another full winter. A foreman could have replaced it before signing larger deliveries. A foreman could also find more immediate uses for the money. The cracked shaft had outlasted both explanations.",
+      "background": "forest_winter_boundary",
+      "next": "forest_04_trail_005"
+    },
+    "forest_04_trail_005": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "shi_lan",
+      "actor": "shi_lan",
+      "text": "We will note the cart condition because carriage is part of the proposed supply. We will not load it today. Tell the crew keeper where it is and ask whether the owner has already ordered a repair. If he has, that matters. If he has not, that matters too. Neither possibility requires us to give a broken shaft a motive. Wen, keep your uncle's workmanship out of the argument. He warned about this wood before it cracked.",
+      "background": "forest_winter_boundary",
+      "next": "forest_04_trail_006"
+    },
+    "forest_04_trail_006": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The prospective northern trees wore blue marks at different heights. Some marks were old enough to have cracked with the bark; others looked fresher. Shi Lan explained that coppice selection could be marked before permission, provided no one mistook planning for approval. The assistant compared the trees against the sheet found in the cupboard. Four marked trunks were missing from its list. Their cuts had not yet been made. Someone had enlarged the planned lot after the first count.",
+      "background": "forest_winter_boundary",
+      "next": "forest_04_trail_007"
+    },
+    "forest_04_trail_007": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Wen found the four additions along the easier cart approach. They were thicker trees, attractive to a crew trying to promise more output with fewer loads. The district forester's deputy examined their species and condition. Two sheltered the wet hollow's edge; their roots held soil above the winter passage. The deputy would not approve them under the existing coppice plan. Wen looked at the smooth trunks and then at the ground below. A valuable tree could be expensive to remove.",
+      "background": "forest_winter_boundary",
+      "next": "forest_04_trail_008"
+    },
+    "forest_04_trail_008": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "The sheet gives us a starting count, not the whole story. Could the deputy mark these four as withheld from the current proposal while the person who added them explains the change? I would rather ask why they were chosen than have someone quietly erase the blue strokes tomorrow. The trees are still standing. That gives us time to make the question less dramatic than it will be if we return to four fresh stumps.",
+      "background": "forest_winter_boundary",
+      "next": "forest_04_trail_009"
+    },
+    "forest_04_trail_009": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The deputy recorded the additional marks and added the authorized temporary hold tags without cutting the bark. Shi Lan kept a lookout along the hollow. There were no Harts in sight, only reeds bent into a broad tunnel and pale hairs caught on one branch. The animals had used the newly cleared passage overnight. Their tracks did not make the four trees sacred. They made the route below them less hypothetical than it had been on the application form.",
+      "background": "forest_winter_boundary",
+      "next": "forest_04_trail_010"
+    },
+    "forest_04_trail_010": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "At noon, they reached the ridge shelter. Its stone walls enclosed a bench, an old stove, and a window small enough to resemble a defensive opinion. The keeper had left dry kindling and a notice asking visitors to replace what they used from the authorized shelter supply. Shi Lan checked the flue before lighting the stove. Lin removed one boot to inspect a sore heel. Wen looked away, then offered the folded cloth his sister had put around the cakes.",
+      "background": "village_council_room",
+      "next": "forest_04_trail_011"
+    },
+    "forest_04_trail_011": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "wen_cai",
+      "actor": "wen_cai",
+      "text": "She said you would pretend a blister was beneath the dignity of someone who had survived a storm. I told her I had seen you complain about cold tea. She said complaints are not the same as taking care of the thing complained about. There was no useful answer to that either. Use the cloth. It was washed. If you tell her it saved the survey, she will start issuing equipment to the entire commission.",
+      "background": "village_council_room",
+      "next": "forest_04_trail_012"
+    },
+    "forest_04_trail_012": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Lin wrapped the heel and adjusted her lacing. The assistant warmed the waxed cord without bringing it close enough to soften its markings. The deputy made a rough estimate of the still-standing licensed billets' likely dry yield, clearly separating it from the disputed trees. That estimate would need a retort trial and drying checks. Wen asked whether there was any number today they could simply trust. The deputy pointed to the four people eating his bean cakes.",
+      "background": "village_council_room",
+      "next": "forest_04_trail_013"
+    },
+    "forest_04_trail_013": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "After lunch, they descended toward the winter carriage crossing used in the outside supplier's quotation. The path became a road wide enough for one wagon and too narrow for two to pass. Old wheel ruts froze into rails. Shi Lan sent the assistant ahead on foot only where the surface was visible and stable. Lin walked beside Wen. He stopped joking when they reached a bend above the river, where the downhill edge had slumped behind a thin screen of snow.",
+      "background": "forest_winter_boundary",
+      "next": "forest_04_trail_014"
+    },
+    "forest_04_trail_014": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The crossing had a timber deck over a stone culvert. One support timber hung lower than the others, its end dark with rot. A cart track ran onto the approach and stopped. Beside it, someone had dragged an empty wagon backward, leaving two long scratches. The deputy kept the team off the deck. The road keeper's posted limit had been amended with a temporary closure notice, but the closure sheet had torn loose from its top nail.",
+      "background": "forest_winter_boundary",
+      "next": "forest_04_trail_015"
+    },
+    "forest_04_trail_015": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "shi_lan",
+      "actor": "shi_lan",
+      "text": "No loaded crossing until the district road crew clears it. We can replace the closure notice on this bank and send a messenger to the other approach. I want the quotation office told the route is presently unusable at its stated load. That is not a judgment on the supplier's honesty; the road may have failed after the quotation. We will ask when the driver last crossed, and the road keeper will answer for the inspection.",
+      "background": "forest_winter_boundary",
+      "next": "forest_04_trail_016"
+    },
+    "forest_04_trail_016": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Wen climbed the bank to reach the old footpath around the culvert. He returned with mud on his knees. The footpath passed above a rock pinch too narrow for the supplier's wagon. Pack carriers could use it in small loads when the ice was treated, but that was a different transport plan with different labor. Lin could see the river through a gap in the road. It looked much less interested in their commercial shortage than either buyer did.",
+      "background": "forest_winter_boundary",
+      "next": "forest_04_trail_017"
+    },
+    "forest_04_trail_017": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "A driver emerged from the opposite approach leading an empty mule cart. He had seen the fallen notice too late to continue safely and was looking for a messenger. They called across the water until the river swallowed half their words. Shi Lan asked him to stay back from the deck. He held up a broken wheel spoke from the cart he had tried to reverse. His gesture needed no translation. The road had already begun charging people for its silence.",
+      "background": "forest_winter_boundary",
+      "next": "forest_04_trail_018"
+    },
+    "forest_04_trail_018": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The driver used the footpath to meet them without the cart. His hands were shaking from cold and anger. He had returned empty after delivering goods below the ridge; the damaged spoke had broken while he backed off the approach. He agreed to leave it with the road report after his own claim was recorded. Wen examined the break, then gave it back for the man to describe. His uncle's cart was not the only winter vehicle held together by optimism.",
+      "background": "forest_winter_boundary",
+      "next": "forest_04_trail_019"
+    },
+    "forest_04_trail_019": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The assistant sketched the damaged approach from safe ground. The deputy inspected the reachable support face with a long probe, without placing weight on the deck. They could identify an immediate hazard, not certify the remaining structure. Shi Lan sent the fastest rested messenger by the footpath to the district station with the closure request and a copy of the sketch. The messenger had a paid route and a daylight return plan. He did not set off as a heroic favor.",
+      "background": "forest_winter_boundary",
+      "next": "forest_04_trail_020"
+    },
+    "forest_04_trail_020": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "While waiting for the messenger to clear the bend, Wen found a coil of ordinary repair wire tucked behind the road keeper's shelter. It resembled the snare wire in color, as most iron wire did after winter damp. He showed it to Shi Lan. She noted its location and asked the road keeper about its use. A convenient resemblance could become a cruel accusation if they let it outrun the examination. Wen looked disappointed and then relieved.",
+      "background": "forest_winter_boundary",
+      "next": "forest_04_trail_021"
+    },
+    "forest_04_trail_021": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The road keeper arrived from his lower round carrying a bucket of grit. He cursed the torn notice, then cursed his own decision to use one nail. He had reported the sagging support two days earlier and closed the crossing pending the crew. The quotation supplier's driver had last crossed a week before that. The chronology explained why an honest quotation could now require revision. It also made replacing the missing warning a task that should not have waited for them.",
+      "background": "forest_winter_boundary",
+      "next": "forest_04_trail_022"
+    },
+    "forest_04_trail_022": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The road keeper drove four nails through the replacement notice and added a crosspiece to keep the wind from tearing it free. Wen helped from the bank while Lin held the board. The words were blunt: no carts, no loaded crossing, district inspection pending. The keeper read them aloud and asked the driver whether a man arriving tired would understand. The driver said he would understand better if the notice stood ten paces farther back. They moved it.",
+      "background": "forest_winter_boundary",
+      "next": "forest_04_trail_023"
+    },
+    "forest_04_trail_023": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The repair wire belonged to a fence-mending kit, the keeper explained. He showed where its longer pieces held the grit shed's door frame together. That use did not establish the origin of every short piece in the valley. Shi Lan recorded it and left the coil with him. Wen rubbed the iron stain from his thumb. He had briefly wanted a discovery important enough to justify how frightened he had felt beside the road. The fear did not require a culprit to be real.",
+      "background": "forest_winter_boundary",
+      "next": "forest_04_trail_024"
+    },
+    "forest_04_trail_024": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "wen_cai",
+      "actor": "wen_cai",
+      "text": "When the marker was wrong, I could point to the marker. When the shutter was shut, I could point to the tie. Here the support rotted while someone reported it and someone else planned to arrive. I want the person who made the waiting happen. Perhaps there is one. Perhaps there are three offices and a bad snow week. I hate that answer more than a dishonest man. A dishonest man at least knows where he lives.",
+      "background": "forest_winter_boundary",
+      "next": "forest_04_trail_025"
+    },
+    "forest_04_trail_025": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "shi_lan",
+      "actor": "shi_lan",
+      "text": "Ask who received the report and what the repair schedule was. That is how you find whether the waiting was unavoidable or convenient for somebody. Anger can keep you walking to the station. It cannot tell you which desk failed. I have gone to the wrong desk with magnificent anger before. The man there was frightened of me and entirely unable to mend the thing I had come about. It was an impressive waste of an afternoon.",
+      "background": "forest_winter_boundary",
+      "next": "forest_04_trail_026"
+    },
+    "forest_04_trail_026": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The driver decided to lodge at the road station and return for his cart after the crew advised a safe recovery. The commission paid only the witness waiting time it had requested; his vehicle claim and lodging request went to the road office. He accepted a shared bowl from the keeper while the details were written. Lin had feared they would leave him alone beside the closed bridge with a sheet of instructions. The station's ordinary bed mattered more than the sheet.",
+      "background": "forest_winter_boundary",
+      "next": "forest_04_trail_027"
+    },
+    "forest_04_trail_027": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The team took the footpath back, one person at a time through the rock pinch. The assistant went first, carrying no long rod where it could catch. Wen passed the rods through after reaching stable ground. Lin's heel complained at every step. She concentrated on the next placement rather than the growing wish to finish. Behind her, Shi Lan hummed a tune so softly that it seemed more like measured breathing than music.",
+      "background": "forest_winter_boundary",
+      "next": "forest_04_trail_028"
+    },
+    "forest_04_trail_028": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "On the second icy turn, Wen slid. He dropped the pin bundle onto the uphill bank rather than clutch it while falling. His knee struck the ground, and he swore loudly enough to alarm everyone. Shi Lan stopped the line. He could bear weight but limped. They inspected the swelling, adjusted the pace, and used the longer lower return instead of the exposed shortcut. Wen apologized for delaying them. Lin told him the rods had survived their noble abandonment.",
+      "background": "forest_winter_boundary",
+      "next": "forest_04_trail_029"
+    },
+    "forest_04_trail_029": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "I will make you a certificate for outstanding service to measuring pins. Your knee does not have to compete with them. Let the assistant take the bundle. You can tell us where the lower path turns, which is work I cannot do from memory. If it hurts more, say so before you begin protecting us from the inconvenience of hearing it. I have attempted that kindness often enough. Its admirers tend to be imaginary.",
+      "background": "forest_winter_boundary",
+      "next": "forest_04_trail_030"
+    },
+    "forest_04_trail_030": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Wen let the assistant take the pins. At the next rest he admitted the knee was worse when straightened quickly. Shi Lan arranged a clinic check on return and gave him a shorter walking turn tomorrow pending that advice. He looked worried about his wage. The paid field assignment covered the day already worked; medical limits would determine the next task, not erase the finished one. His uncle's silence after the foreman's threat had taught him to expect losses before explanations.",
+      "background": "forest_winter_boundary",
+      "next": "forest_04_trail_031"
+    },
+    "forest_04_trail_031": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The lower return passed the hollow where the Harts had crossed. They stayed on the wider bend. The smaller hoof prints now showed a more even rhythm, though one still dragged at the edge. Shi Lan did not call that recovery. It could reflect firmer snow or slower movement. Lin found comfort in the tracks despite the qualification. An animal had continued walking after their retreat. The forest's next event had not depended on them being present to admire it.",
+      "background": "forest_winter_boundary",
+      "next": "forest_04_trail_032"
+    },
+    "forest_04_trail_032": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "They found the narrow passage clear and the disputed logs stacked above it. The foreman had finished the remaining crosspiece removal after they left yesterday. He had also moved the loading ropes out of the walking line. Wen stood looking at the tidy stack, his anger losing one of its simplest shapes. Shi Lan inspected the braces and left an acknowledgment for the crew. She could recognize a completed task while the foreman's unauthorized cut remained under inquiry.",
+      "background": "forest_winter_boundary",
+      "next": "forest_04_trail_033"
+    },
+    "forest_04_trail_033": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "At the cabbage pit, the farmer was building a small bell onto the repaired fence. It would warn him if the boards moved, not drive the Hart away. He wanted the watch told what sound to expect. The rope hung low enough for a child to pull, so Shi Lan asked him to shorten it. He grumbled, then did. Lin helped test the bell with the watchman present. The sound was thin and anxious, much like its owner.",
+      "background": "forest_winter_boundary",
+      "next": "forest_04_trail_034"
+    },
+    "forest_04_trail_034": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The farmer offered preserved greens from his replacement portions. Wen accepted a taste and said the Hart had improved the winter menu. The farmer stared at him until Wen apologized. Then he admitted the greens were better than two of the cabbages he had lost. He still preferred vegetables not purchased through disaster. Lin agreed. The farmer gave her a second taste anyway, perhaps because agreement required less effort than defending a beast beside a cabbage hole.",
+      "background": "forest_winter_boundary",
+      "next": "forest_04_trail_035"
+    },
+    "forest_04_trail_035": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Snow began to fall as they reached the gate. The watchman's lantern lit each flake from below, making the air look crowded with small rising things. Wen limped toward the clinic with the deputy. Lin and Shi Lan carried the field papers inside. Pei was waiting beside a table covered in correspondence. Her office team had found an altered description in the advance report and a delivery promise rounded from seventy bags to eighty. Their day had produced trouble of a different weight.",
+      "background": "village_council_room",
+      "next": "forest_04_trail_036"
+    },
+    "forest_04_trail_036": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Lin gave her field account with the road keeper's report dates, the four added tree marks, the current hold, and the safer walking return. Pei asked whether the wire coil had been taken. Lin said no and described its offered repair use. The district animal keeper would compare the actual snare separately. Pei nodded. A careless accusation about the coil could have made the road keeper less willing to help precisely when the damaged crossing needed his cooperation.",
+      "background": "village_council_room",
+      "next": "forest_04_trail_037"
+    },
+    "forest_04_trail_037": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "shi_lan",
+      "actor": "shi_lan",
+      "text": "The outside quotation cannot be accepted at its original wagon load and date. The supplier may offer another route or a smaller carried quantity after the road office replies. We will not count those bags as present because the quotation remains cheap. The four added trees stay outside the current proposal until the deputy's assessment is answered. The licensed retort trial can proceed. Its crew needs to know that Wen's knee will not be available for uphill carrying tomorrow.",
+      "background": "village_council_room",
+      "next": "forest_04_trail_038"
+    },
+    "forest_04_trail_038": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "After filing the account, Lin went to the clinic. Wen sat on a bench with his leg raised, looking offended by the towel wrapped around it. The assistant expected a short rest from steep carrying, with another check if swelling or pain worsened. Wen's sister arrived before Lin could offer to fetch her. She asked why everyone in the family insisted on injuring the part that carried things. He said their eyebrows were underemployed. She laughed despite her annoyance.",
+      "background": "village_council_room",
+      "next": "forest_04_trail_039"
+    },
+    "forest_04_trail_039": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "wen_cai",
+      "actor": "wen_cai",
+      "text": "I thought you would be bored by the upper route. Instead, you got a blister, I got a knee, and the assistant got all the pins. An excellent distribution of opportunity. I am glad you came. That is the sentence I was trying to avoid under the jokes. It would also have been useful if you had stayed in the office. I cannot make the day less ordinary by pretending it needed you uniquely. It was better company with you here.",
+      "background": "village_council_room",
+      "next": "forest_04_trail_040"
+    },
+    "forest_04_trail_040": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Lin took the cup his sister offered and sat on the bench's dry end. Outside, the carts creaked into their evening places. The office team was preparing its report for the same common meeting. Whatever the papers said, they would have to fit a valley containing a closed road, a sore knee, an injured worker, and people still expecting dinner. Wen asked whether she had brought the remaining bean cake. She produced it. Its improved edge had survived the entire journey.",
+      "background": "village_council_room",
+      "next": "forest_04_report_001"
+    },
+    "forest_04_report_001": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "At the common meeting, each team read its offered report. Rong's clerk had described proposed northern work as licensed and enlarged a seventy-bag promise to eighty in his summary; the signed agreement remained seventy. Long's broad grain pledges were under household review. The field team had found four added tree marks and a damaged carriage crossing, with the original wagon quotation unusable. Lin heard both accounts before the council planned its next work. Her chosen day supplied experience, not private authority over the other team's findings.",
+      "background": "village_council_room",
+      "next": "forest_04_report_002"
+    },
+    "forest_04_report_002": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "pei_yun",
+      "actor": "pei_yun",
+      "text": "The papers and the ground have caught up with each other enough to plan a trial. They have not made the season's output certain. The licensed ceiling is three hundred sixty bags. The confirmed allocation requests total the same; the two proposed sixty-bag extensions have no approved northern source. The retort keeper will measure ordinary yield from approved stock. The kitchens will finish their fuel checks. Then we can reduce promises with facts instead of competing predictions of misery.",
+      "background": "village_council_room",
+      "next": "forest_04_report_003"
+    },
+    "forest_04_report_003": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The council funded the small retort trial, the stove checks, and the necessary district road inquiry within the renewed interval. Wen received a ground-level sorting task consistent with the clinic's advice. Rong sent his corrected report before seeking another customer deposit. Long kept the disputed household collection on its stated review hold. Lin walked past the locked drying shed on her way to bed. Tomorrow they would light a lawful, carefully tended fire and discover how much winter its heat could actually buy.",
+      "background": "village_council_room",
+      "next": "forest_05_001"
+    }
+  }
+}

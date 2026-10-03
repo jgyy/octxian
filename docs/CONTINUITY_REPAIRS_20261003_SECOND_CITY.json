@@ -1,0 +1,186 @@
+{
+  "version": 1,
+  "source_commit": "feb4ec7500a1df2bf95b16265544553372c657ce",
+  "review_date": "2026-10-03",
+  "defect_count": 6,
+  "changed_scene_count": 7,
+  "scope": "Six additional city continuity or evidence defects in existing Book V. No new-book drafting errors, training changes, or prior repair roots are counted. The review found fewer than the requested eight defensible additional roots.",
+  "verification": {
+    "repairs": 6,
+    "changed": 7,
+    "max": 95,
+    "delta": -36,
+    "errors": [],
+    "exact_source_and_result_anchors": true,
+    "metadata_preserved": true,
+    "prior_repair_roots_excluded": true,
+    "word_count_method": "Whitespace-delimited displayed scene prose"
+  },
+  "repairs": [
+    {
+      "id": "SECOND-CITY-20261003-001",
+      "path": "data/story.json",
+      "node_id": "city_mask_evidence",
+      "before": "The fittings came before these collars were substituted. My signed schedule and the original seals agree. The copied authorization has a reversed cord weave and a different wash beneath it; the face shells still work as designed. Bian Hui's fitting was reed-seven. Tao Min the performer's was reed-nine. Their separate return tokens both became reed-seven. The workshop recorded no replacement reed-seven shell. Keep those statements distinct. They show a faulty authorization and duplicated return mark. They do not show whose fingers made the substitution.",
+      "after": "Bian's shell seal agrees with my signed fitting schedule. Her collar carries an added authorization, reversed weave and altered paste. Tao Min the performer's schedule records reed-nine; Bian Hui's records reed-seven. Their separate return tokens both repeat reed-seven, with no workshop replacement entry. Keep those findings distinct. We examined Bian's offered lining. Tao's duplicated token establishes a return-record discrepancy; it does not establish every concealed join in his collar. Neither comparison identifies the hand responsible.",
+      "reason": "The shared hearing asserts substituted collars and original seals in the plural. On seam/date paths only Bian's physical collar and shell are offered and inspected; Tao's different workshop entry and loaned token establish a second account, not a second examined lining.",
+      "category": "exhibit_scope",
+      "evidence": [
+        {
+          "path": "data/story.json",
+          "node_id": "city_mask_samples",
+          "source_text": "Bian tipped the contents of her cloth bag onto the table: the collar, a rental slip, and two return tokens. Both tokens bore reed-seven, although one came from her own return and the other from Tao Min's. Qiao's schedule gave Tao reed-nine; their punched corners differed. Qiao laid the genuine studio sample beside them. Its red closing knot was flat and narrow; Bian's lining covered a thicker joint. The portrait shell and its signed seal matched his fitting notes. Someone had kept the useful face while changing the part that told a clerk what it authorized."
+        },
+        {
+          "path": "data/story.json",
+          "node_id": "city_mask_rejoin",
+          "source_text": "Qiao lifted Bian's sound shell from the changed collar. Its signed seal matched her original task. With her permission, he folded back the lining's already loose edge without cutting it. Under an ordinary bench lens he traced the extra loop to the copied return mark and permanent-name pledge, then drew the observed joins. Lin Yue sealed each token separately, leaving reed-seven visible through a cut square. The pair established a copied number. Identifying who pasted the lining would take other evidence. Qiao labeled the sleeves."
+        },
+        {
+          "path": "data/story.json",
+          "node_id": "city_mask_workers",
+          "source_text": "Bian returned after closing her vat, with a blue cloth over one arm. Tao came in stage paint and apologized for the powder on his boots. In the dressing room they each fitted the plain practice collar Qiao offered, then showed where the returned collars had pulled. Bian touched the left clasp; Tao touched the right. Their accounts matched different workshop notches. Both remembered a new strip being pasted in at the rental return desk. Neither had been told that a work receipt would stand as permanent name proof."
+        },
+        {
+          "path": "data/story.json",
+          "node_id": "city_mask_evidence",
+          "source_text": "The fittings came before these collars were substituted. My signed schedule and the original seals agree. The copied authorization has a reversed cord weave and a different wash beneath it; the face shells still work as designed. Bian Hui's fitting was reed-seven. Tao Min the performer's was reed-nine. Their separate return tokens both became reed-seven. The workshop recorded no replacement reed-seven shell. Keep those statements distinct. They show a faulty authorization and duplicated return mark. They do not show whose fingers made the substitution."
+        }
+      ],
+      "affected_passages": [
+        {
+          "path": "data/story.json",
+          "node_id": "city_mask_stakes",
+          "before": "Tao has lost a week's bookings because the register treats the shared number as a shared permanent name. Bian's guild has held back her practice credit. Neither needs us to declare all masks wicked. They need their two returns separated and the extra pledge removed from these collars. If I close every rental, the market carriers lose work before anyone checks a single slip. I can set this batch aside while we measure it. I cannot pay every worker to wait for a grand answer.",
+          "after": "Tao has lost a week's bookings because the register treats the shared number as a shared permanent name. Bian's guild has held back her practice credit. They need their returns separated and the unauthorized registry pledges removed. Bian's examined collar needs repair; each further collar needs its own check. Closing every rental would stop unaffected carriers before anyone examined their slips. I can set this batch aside. I cannot pay every worker to wait for a grand answer."
+        }
+      ]
+    },
+    {
+      "id": "SECOND-CITY-20261003-002",
+      "path": "data/story.json",
+      "node_id": "city_mask_samples",
+      "before": "Bian tipped the contents of her cloth bag onto the table: the collar, a rental slip, and two return tokens. Both tokens bore reed-seven, although one came from her own return and the other from Tao Min's. Qiao's schedule gave Tao reed-nine; their punched corners differed. Qiao laid the genuine studio sample beside them. Its red closing knot was flat and narrow; Bian's lining covered a thicker joint. The portrait shell and its signed seal matched his fitting notes. Someone had kept the useful face while changing the part that told a clerk what it authorized.",
+      "after": "Bian placed her changed collar, rental slip, and two return tokens on the table. Tao Min had lent his token for this comparison, with a signed note allowing its serial to be shown at the hearing. Both bore reed-seven, though Qiao's schedule gave Tao reed-nine; their punched corners differed. Qiao laid his genuine studio sample beside them. Its flat red knot differed from Bian's thicker pasted join. Her portrait shell and signed seal matched his fitting notes. The added lining changed what a clerk might believe the return authorized.",
+      "reason": "Tao Min's token appears in Bian's bag before the optional worker visit or later hearing permissions. Its provenance and the permitted examination are unstated, although the token exposes another worker's return serial and is used as an exhibit.",
+      "category": "offered_token_custody",
+      "evidence": [
+        {
+          "path": "data/story.json",
+          "node_id": "city_mask_samples",
+          "source_text": "Bian tipped the contents of her cloth bag onto the table: the collar, a rental slip, and two return tokens. Both tokens bore reed-seven, although one came from her own return and the other from Tao Min's. Qiao's schedule gave Tao reed-nine; their punched corners differed. Qiao laid the genuine studio sample beside them. Its red closing knot was flat and narrow; Bian's lining covered a thicker joint. The portrait shell and its signed seal matched his fitting notes. Someone had kept the useful face while changing the part that told a clerk what it authorized."
+        },
+        {
+          "path": "data/story.json",
+          "node_id": "city_mask_workers",
+          "source_text": "Bian returned after closing her vat, with a blue cloth over one arm. Tao came in stage paint and apologized for the powder on his boots. In the dressing room they each fitted the plain practice collar Qiao offered, then showed where the returned collars had pulled. Bian touched the left clasp; Tao touched the right. Their accounts matched different workshop notches. Both remembered a new strip being pasted in at the rental return desk. Neither had been told that a work receipt would stand as permanent name proof."
+        },
+        {
+          "path": "data/story.json",
+          "node_id": "city_mask_packet",
+          "source_text": "At the safe house, Lin Yue folded the drawings around a board so their edges would stay flat. Qiao signed the fitting schedule and three direct comparisons: collar joins, paste, and weave. Bian and Tao chose to have their separate accounts read at the hearing; Nian and Fu supplied short statements about their own work. The collars remained sealed as exhibits. Qiao listed the batch held for inspection and the unaffected rentals still open. A page left blank at the back would record what the hearing decided, after it heard them."
+        }
+      ]
+    },
+    {
+      "id": "SECOND-CITY-20261003-003",
+      "path": "data/story.json",
+      "node_id": "city_mask_fitting",
+      "before": "Qiao led them to the dressing room, where Bian sat before a bronze mirror. He fitted the plain shell first and asked her to turn, chew, and look down at her hands. Only then did he fasten its collar. The porter's smile rose over her features like color crossing a wet brush. Bian tested one low note and stopped; the sound rasped. Qiao loosened a reed by a hair's width. When she spoke again, the voice had warmth without taking the words away from her.",
+      "after": "Qiao led them to the dressing room. Bian sat before a bronze mirror while he checked a plain fitting form, asking her to turn, chew and look down. After those ordinary checks he replaced the form with her original painted shell, checking its signed seal before attaching the returned collar. The porter's smile rose over her features. Bian tried one low note; it rasped. Qiao loosened a reed by a hair's width. When she spoke again, the changed timbre left her own words intact.",
+      "reason": "The fitting scene keeps the plain trial shell in place and immediately produces the porter's portrait. The preceding craft scene says the painted face sits outside the lattice; the story never replaces the plain fitting form with Bian's licensed painted shell.",
+      "category": "fitting_sequence",
+      "evidence": [
+        {
+          "path": "data/story.json",
+          "node_id": "city_mask_layers",
+          "source_text": "First I steam the shell, let it cool on this form, and scrape both sides. Rice paste binds the silk mesh inside. Three coats, each dry before the next; rain can add a day. The painted face sits outside the lattice. My signed shell seal states the chosen work and term. The removable collar carries the rental-return mark. Those are separate jobs. A fine portrait cannot cure a bad joint, and a beautiful voice does not make a license true. Touch this edge. It should feel smooth with the lamp out."
+        },
+        {
+          "path": "data/story.json",
+          "node_id": "city_mask_fitting",
+          "source_text": "Qiao led them to the dressing room, where Bian sat before a bronze mirror. He fitted the plain shell first and asked her to turn, chew, and look down at her hands. Only then did he fasten its collar. The porter's smile rose over her features like color crossing a wet brush. Bian tested one low note and stopped; the sound rasped. Qiao loosened a reed by a hair's width. When she spoke again, the voice had warmth without taking the words away from her."
+        },
+        {
+          "path": "data/story.json",
+          "node_id": "city_mask_samples",
+          "source_text": "Bian tipped the contents of her cloth bag onto the table: the collar, a rental slip, and two return tokens. Both tokens bore reed-seven, although one came from her own return and the other from Tao Min's. Qiao's schedule gave Tao reed-nine; their punched corners differed. Qiao laid the genuine studio sample beside them. Its red closing knot was flat and narrow; Bian's lining covered a thicker joint. The portrait shell and its signed seal matched his fitting notes. Someone had kept the useful face while changing the part that told a clerk what it authorized."
+        }
+      ]
+    },
+    {
+      "id": "SECOND-CITY-20261003-004",
+      "path": "data/story.json",
+      "node_id": "city_return_tokens",
+      "before": "The hearing clerk placed the two return tokens on clean cloth, far enough apart for the waiting workers to see they were separate objects. Their matching rental marks pointed to one original entry, although the workshop schedule showed two different authorized fittings. The copied collars had collapsed those returns into a duplicate. A worker asked whether admitting possession meant admitting fraud. Mei wrote the distinction into the minutes before proceeding. Possession explained which account had been charged; the comparison explained why its altered return authorization could not be trusted.",
+      "after": "The clerk placed the return tokens apart on clean cloth. Both rental marks pointed to one entry; the workshop schedule recorded two authorized fittings. The altered return records had merged their serials. A worker asked whether holding a token meant admitting fraud. Mei recorded that Bian could carry Tao's offered token without becoming his account owner. The permitted original work-account records identified which bill had been charged. The tokens supplied the duplicated mark. Possession alone proved neither ownership nor responsibility for the alteration.",
+      "reason": "The hearing says possession explains which account was charged, although Bian holds both her own and Tao Min's tokens. Holding another worker's loaned token cannot identify its carrier as the account owner. The paired workshop and billing records, rather than possession, establish the charged accounts.",
+      "category": "carrier_account_inference",
+      "evidence": [
+        {
+          "path": "data/story.json",
+          "node_id": "city_mask_samples",
+          "source_text": "Bian tipped the contents of her cloth bag onto the table: the collar, a rental slip, and two return tokens. Both tokens bore reed-seven, although one came from her own return and the other from Tao Min's. Qiao's schedule gave Tao reed-nine; their punched corners differed. Qiao laid the genuine studio sample beside them. Its red closing knot was flat and narrow; Bian's lining covered a thicker joint. The portrait shell and its signed seal matched his fitting notes. Someone had kept the useful face while changing the part that told a clerk what it authorized."
+        },
+        {
+          "path": "data/story.json",
+          "node_id": "city_mask_ledger",
+          "source_text": "My schedule records the blank, the drying days, the fitting, and the collar I attached. This spring batch was fitted before the posted registry notice began treating rental returns as name proof. I signed beside each worker's work account, never beside a pledge of their permanent name. Yesterday an officer said my seal made me answerable for every borrowed face still in use. I asked which seal he meant. He pointed at a collar I had not tied. That is why I kept the schedule open."
+        },
+        {
+          "path": "data/story.json",
+          "node_id": "city_return_tokens",
+          "source_text": "The hearing clerk placed the two return tokens on clean cloth, far enough apart for the waiting workers to see they were separate objects. Their matching rental marks pointed to one original entry, although the workshop schedule showed two different authorized fittings. The copied collars had collapsed those returns into a duplicate. A worker asked whether admitting possession meant admitting fraud. Mei wrote the distinction into the minutes before proceeding. Possession explained which account had been charged; the comparison explained why its altered return authorization could not be trusted."
+        }
+      ]
+    },
+    {
+      "id": "SECOND-CITY-20261003-005",
+      "path": "data/story.json",
+      "node_id": "city_mask_scrape",
+      "before": "We can test the loose offcut, not scrape away the collar we must show. This paste goes cloudy in warm water because someone washed it with alum. Mine stays milky and lifts in a skin. The new lining was softened, laid over the dry old knot, and fixed again. That explains the long scrape Nian saw. A repair can look like this too; the wash alone proves no false pledge. Joined to the extra mark and the paired tokens, it establishes how the substitution could have been made.",
+      "after": "Bian offered the loose offcut from her changed lining; the collar itself would stay intact. Qiao labelled it beside his original paste and a retained alum-washed practice sample. In equal warm-water cups, the offered paste clouded like the washed reference; his original lifted in a milky skin. 'Compatible with that wash,' he said, 'not a unique identification. A repair could leave a similar surface.' The extra pledge and repeated tokens remained separate evidence. The material test suggested a preparation method; it proved no handler or intention.",
+      "reason": "The warm-water test identifies alum washing as a fact and reconstructs preparation from cloudiness alone. No reagent control or exclusive chemical identification has been established, unlike the bounded material comparisons elsewhere in the city. The edited claim adds identified reference controls and retains uncertainty.",
+      "category": "material_inference",
+      "evidence": [
+        {
+          "path": "data/story.json",
+          "node_id": "city_mask_scrape",
+          "source_text": "We can test the loose offcut, not scrape away the collar we must show. This paste goes cloudy in warm water because someone washed it with alum. Mine stays milky and lifts in a skin. The new lining was softened, laid over the dry old knot, and fixed again. That explains the long scrape Nian saw. A repair can look like this too; the wash alone proves no false pledge. Joined to the extra mark and the paired tokens, it establishes how the substitution could have been made."
+        },
+        {
+          "path": "data/story.json",
+          "node_id": "city_mask_loft",
+          "source_text": "In the silk loft, Fu Wen set aside a half-woven crimson sash. At forty-nine she could find a missed thread by running a thumbnail across it. She counted the genuine lining's warp, then the pasted strip's. Qiao ordered an uneven count so the cloth would settle around the jaw. The substituted strip had an even count and a reversed border. Fu sold that ordinary weave to many shops. She would confirm the material difference, but refused to turn a common bolt of silk into an accusation against its last buyer."
+        },
+        {
+          "path": "data/story.json",
+          "node_id": "city_perfumer_bounded_claim",
+          "source_text": "The submitted fragments behave like my amber-violet return wax within this comparison. My supply book records that blend for the exchange return desk after the fitting dates on the offered tags. It says where I sent the jar; it does not tell me whose hand later heated it. Compare the courier's dispatch record, Qiao's retained studio papers, and the registry's original rental terms before deciding what happened. I will answer for the formula and these observations. Half the control stock remains upstairs for a repeat test."
+        }
+      ]
+    },
+    {
+      "id": "SECOND-CITY-20261003-006",
+      "path": "data/story.json",
+      "node_id": "ending_city_pool",
+      "before": "The first pool meeting lasted until the tea turned cold. Members reduced the proposed contribution, hired a clerk for fewer hours, and left two costly licenses outside the fund. A performer declined to join and kept her separate contract. Qiao repaired her collar at the posted price. Tao carried the orchard's jars, then returned to argue about the pool's delivery rule. Their minutes contained the argument. When a court messenger asked who spoke for the city, the clerk sent the chosen delegates' names and a second list of people who had chosen nobody.",
+      "after": "The first pool meeting lasted until tea cooled. Members reduced contributions, hired a clerk for fewer hours, and set their first review for seven days later. Two costly licenses stayed outside the fund. A performer declined to join and kept her separate contract; Qiao repaired her collar at the posted price. Tao delivered the orchard jars, then returned to dispute the delivery rule. The minutes kept his objection. When the court requested representatives, the clerk sent the chosen delegates and a second list of people who had chosen nobody.",
+      "reason": "The licensing-pool proposal explicitly requires the contributing members to choose a first review date. Its adopted ending hires their clerk and changes contributions but never completes that stated condition, leaving the new fund without its promised initial review term.",
+      "category": "required_review_term",
+      "evidence": [
+        {
+          "path": "data/story.json",
+          "node_id": "city_license_pool",
+          "source_text": "The workers want a pool for licenses they choose to share, with models' permissions checked separately. I can offer inspected shells at a stated repair price. Members set a small mutual fund, a ceiling on each contribution, and a way to leave without surrendering public proof. The fund covers only the losses its account can actually pay. Joining buys no control over another person's face or testimony. We need a clerk and a first review date. Let the people paying the contributions choose them, including those who disagree with me."
+        },
+        {
+          "path": "data/story.json",
+          "node_id": "ending_city_pool",
+          "source_text": "The first pool meeting lasted until the tea turned cold. Members reduced the proposed contribution, hired a clerk for fewer hours, and left two costly licenses outside the fund. A performer declined to join and kept her separate contract. Qiao repaired her collar at the posted price. Tao carried the orchard's jars, then returned to argue about the pool's delivery rule. Their minutes contained the argument. When a court messenger asked who spoke for the city, the clerk sent the chosen delegates' names and a second list of people who had chosen nobody."
+        }
+      ]
+    }
+  ],
+  "source_base": "feb4ec7500a1df2bf95b16265544553372c657ce"
+}

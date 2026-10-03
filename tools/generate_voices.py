@@ -12,9 +12,11 @@ from piper import PiperVoice, SynthesisConfig
 if __package__:
     from .story_data import load_story
     from .voice_assets import NODE_ID, audio_metadata, clip_entry, reusable_clip
+    from .prebuilt_voices import load_prebuilt, adopt_prebuilt
 else:
     from story_data import load_story
     from voice_assets import NODE_ID, audio_metadata, clip_entry, reusable_clip
+    from prebuilt_voices import load_prebuilt, adopt_prebuilt
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 CACHE = ROOT / ".cache/voice"
@@ -69,6 +71,7 @@ def main():
     card = download("MODEL_CARD")
     voice = PiperVoice.load(str(model))
     model_digest = hashlib.sha256(model.read_bytes()).hexdigest()
+    prebuilt_root, prebuilt_lines = load_prebuilt(ROOT, model_digest)
     old_path = OUT / "manifest.json"
     old = json.loads(old_path.read_text()) if old_path.exists() else {"lines": {}}
     old_lines = old.get("lines", {}) if old.get("model_sha256") == model_digest else {}
@@ -96,13 +99,18 @@ def main():
                             if metadata["format"] == "ogg" else "Retained legacy PCM16")
             status = "Reused"
         else:
-            output = OUT / f"{node_id}.ogg"
-            metadata = render_clip(voice, text, output, timing.get(node["speaker"], 1.04))
+            cached = adopt_prebuilt(ROOT, prebuilt_root, node_id, text, prebuilt_lines.get(node_id, {}))
+            if cached is not None:
+                output, metadata = cached
+                status = "Adopted"
+            else:
+                output = OUT / f"{node_id}.ogg"
+                metadata = render_clip(voice, text, output, timing.get(node["speaker"], 1.04))
+                status = "Generated"
             encoding = "ffmpeg libvorbis, mono, 16000 Hz, quality 0"
-            status = "Generated"
         manifest["lines"][node_id] = {**clip_entry(ROOT, output, digest, metadata),
                                       "encoding": encoding}
-        if status == "Generated":
+        if status != "Reused":
             # Long runs must resume completed clips after interruption or failure.
             _write_manifest(old_path, manifest)
         # Changed lines must not leave stale WAVs that can be played by fallback.

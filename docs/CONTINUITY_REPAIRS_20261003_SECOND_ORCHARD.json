@@ -1,0 +1,78 @@
+{
+  "review_base": "feb4ec7500a1df2bf95b16265544553372c657ce",
+  "total_repairs": 4,
+  "review_scope": "Existing orchard and Lantern Lake bell routes, plus independent court cost inquiry; no new forest draft defects counted.",
+  "excluded_audits": [
+    "docs/CONTINUITY_REPAIRS_20261003.json",
+    "docs/CONTINUITY_REPAIRS_20261003_OPENING.json",
+    "docs/CONTINUITY_REPAIRS_20261003_COURT.json"
+  ],
+  "repairs": [
+    {
+      "id": "FOREST-REVIEW-001",
+      "path": "data/story.json",
+      "node_id": "orchard_demonstration",
+      "after": "The exchange moves sensation, not injury. The aunt still needs her splint and medicine. The niece may sleep after carrying pain; sleep proves no harmlessness. The treatment circuit draws from a separately metered stone, within today's fixed allowance, not from either patient's suffering. Watch the copper channel between the couches. Each breath narrows it. The matron is closing today's connection gradually so neither body takes the whole change at once. We will not test the old mark by asking this girl to endure another demonstration.",
+      "reason": "A live exchange operates and stops in the common arrival, but the only explicit fuel later named is expressly isolated diagnostic fuel that powers neither treatment couches nor winter command. A finite separate treatment source makes the active medical load causal and bounded.",
+      "evidence_nodes": [
+        "orchard_arrival",
+        "orchard_demonstration",
+        "orchard_stop",
+        "orchard_circuit"
+      ],
+      "before": "The exchange moves sensation, not injury. The aunt still needs her splint and medicine. Her niece may sleep after carrying the pain, but sleep is not proof that the work cost her nothing. Watch the copper channel between the couches. Each breath narrows it. The matron is closing today's connection gradually so neither body takes the whole change at once. We will not test the old mark by asking this girl to endure one more demonstration.",
+      "words": 85,
+      "category": "continuity"
+    },
+    {
+      "id": "FOREST-REVIEW-002",
+      "path": "data/story.json",
+      "node_id": "lantern_bell",
+      "after": "Su Lan has agreed to lend her clapper under her supervision until sunset. I will strike once for every restored name and wait until someone answers. If no one answers, I will wait longer. A boundary that cannot bear a pause has no right to tell a living person where to stand.",
+      "reason": "The Listener asks for Su Lan's removed clapper and the next scene rings it, although the explicit keeper-only loan condition never receives Su Lan's agreement. State the actual supervised keeper grant rather than treating the repair choice as transfer of custody.",
+      "evidence_nodes": [
+        "lantern_empty_bell",
+        "lantern_bell",
+        "ending_bell"
+      ],
+      "catalog_evidence": "data/world_assets.json items bronze_clapper: keeper lends it only when she agrees.",
+      "before": "Give me the clapper until sunset. I will strike once for every name and wait until someone answers. If no one answers, I will wait longer. A boundary that cannot bear a pause has no right to tell a living person where to stand.",
+      "words": 52,
+      "category": "continuity"
+    },
+    {
+      "id": "FOREST-REVIEW-003",
+      "path": "data/story.json",
+      "node_id": "ending_bell",
+      "after": "The ward crew installed the answering rule with enforcement isolated. Using its existing stone supply and dummy records, they verified answered boundaries and unanswered holds before enabling the revised link. The nineteen restored entries remained intact. The twentieth note belonged to the Listener, whose own name no one yet knew. Su Lan left a blank line for it. This time the blank was room to arrive. She reclaimed her clapper at sunset. Lin Yue listened beside the tower until the reeds answered in the evening wind.",
+      "reason": "The hearing isolates enforcement and the final option proposes an answering rule; the chosen route only rings names. The next book asserts that rule actually controls the ward throughout winter. Qualified installation and isolated answered/unanswered checks bridge the proposed ritual to operational ward behavior.",
+      "evidence_nodes": [
+        "lantern_conclave",
+        "lantern_final_choice",
+        "lantern_bell",
+        "ending_bell",
+        "river_from_bell"
+      ],
+      "before": "Nineteen names returned to the register before the bell sounded its twentieth note. That final note belonged to the Listener, whose own name no one yet knew. Su Lan left a blank line for it. This time the blank was room to arrive. Lin Yue listened beside the tower until the reeds answered in the evening wind.",
+      "words": 86,
+      "category": "continuity"
+    },
+    {
+      "id": "FOREST-REVIEW-004",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_cost_space_reply",
+      "after": "The custodian's assistant answered about the extra bay. It could be reserved conditionally because another case's objects were scheduled for collection on Day5. Known changes would be reported before the Day3 hearing; later changes would be reported immediately. No objects would move into that bay before its vacancy was confirmed. Unavailable space would trigger the accepted fallback and release unused charges. An offered inspection's scope remained unchanged. Dai added those conditions to the reserve page. An apparently simple extension depended on other people finishing their own tasks.",
+      "reason": "This branch promises to report any change to a future Day5 collection before the common Day3 hearing, which cannot cover changes arising after Day3. Preserve conditional reserve but distinguish pre-hearing knowledge from later notice and require confirmed vacancy before intake.",
+      "evidence_nodes": [
+        "court_entry",
+        "court_cost_space_reply",
+        "court_cost_space_terms",
+        "court_cost_review"
+      ],
+      "before": "The custodian's assistant returned with an answer about the extra bay. It could be reserved conditionally for a few nights because another case's objects were scheduled for collection on Day5. If that collection changed, the assistant would notify the court before the common hearing authorized spending. The available space would not enlarge the scope of any offered inspection. Dai added both conditions to the reserve page. An apparently simple extension depended on other people finishing their own tasks. Lin Yue could see why immortal patience was not the same thing as a dependable schedule.",
+      "words": 87,
+      "category": "continuity"
+    }
+  ],
+  "source_base": "feb4ec7500a1df2bf95b16265544553372c657ce"
+}

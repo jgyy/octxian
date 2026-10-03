@@ -1,8 +1,8 @@
 # Storm ledger and salt-road continuation — 2026-10-03
 
-The playable manuscript contains **2,335 scenes / 190,774 displayed words** across eleven books, with 37 endings. This batch adds **336 scenes / 24,617 original displayed words**, plus 229 net words from existing-content repairs: **24,846 net added words**.
+The playable manuscript contains **2,335 scenes / 190,890 displayed words** across eleven books, with 37 endings. This batch adds **336 scenes / 24,617 original displayed words**, plus 229 net words from existing-content repairs: **24,846 net added words**.
 
-Only displayed node text earns manuscript credit. The strict target remains 1,000,001; **809,227 displayed words remain**. Full-production artwork quotas also remain unfinished and the PR stays draft.
+Only displayed node text earns manuscript credit. The strict target remains 1,000,001; **809,111 displayed words remain**. Full-production artwork quotas also remain unfinished and the PR stays draft.
 
 ## New story
 
@@ -14,7 +14,7 @@ Lin Yue remains at earned Qi Gathering **4: Second pair**. New apparatus work an
 
 ## Existing-content repairs
 
-The prior PR audit records 115 corrections: 102 choice-causality/progression issues and thirteen prose passages. This continuation adds **53 distinct root continuity or causality defects across 78 existing paragraphs**. Repeated occurrences of one defect are grouped under one root record. New-scene draft revisions, art, documentation and renamed labels receive no repair credit. The PR therefore contains **168 audited existing-content corrections**; those categories are more precise than claiming 168 separate literary mysteries.
+The prior PR audit records 115 corrections: 102 choice-causality/progression issues and thirteen prose passages. This continuation adds **53 distinct root continuity or causality defects across 78 existing paragraphs**. Repeated occurrences of one defect are grouped under one root record. New-scene draft revisions, art, documentation and renamed labels receive no repair credit. The PR therefore contains **168 audited existing-content corrections at this first milestone**; those categories are more precise than claiming 168 separate literary mysteries.
 
 | Audit | New root defects | Existing paragraphs | Word delta |
 |---|---:|---:|---:|
@@ -56,3 +56,5 @@ In-memory preflight checked all 2,335 reachable scenes, 37 endings, eleven chapt
 The new audit validator has nineteen fixture regressions. Five integration tests protect chapter transitions, meaningful evidence/recovery prerequisites, earned stage, ungated completion and actual use of all four originals. Independent editorial reviewers examined both new books and their chronology, resources, knowledge and custody.
 
 CI generates and hash-validates narration, runs Python and Godot traversal/save/UI checks, captures **72 actual game views**, validates timed body motion, exports Linux and launches the package without the source checkout. Publication of source precedes these checks; runtime and synthesized-media success is established by the linked workflow and its bundled report, not by the in-memory preflight alone.
+
+A [second review](CONTINUATION_SECOND_20261003.md) adds 29 further roots / 32 paragraphs / 116 net words, bringing this request to 82 new roots and the PR overall to 197 categorized audited corrections. The playable counts above reflect that later repair; the first-batch additions and table remain historical.

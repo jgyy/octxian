@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "review_date": "2026-10-03",
+  "source_commit": "feb4ec7500a1df2bf95b16265544553372c657ce",
+  "scope": "Book III only. Three additional distinct causal or funding roots; a separate uncounted terminology clarification is recorded without increasing the plot-defect count.",
+  "defect_count": 3,
+  "repairs": [
+    {
+      "id": "SECOND-RIVER-001",
+      "source_path": "data/story.json",
+      "node_id": "river_interim",
+      "before": "Before we start, I have sounded the sheltered reach beside this landing. The Eel agrees to wait there; the keeper's stop clause permits that. Two crews accepted temporary watches, paid from my route reserve. This buys eight days. We must review any extension before those watches expire. Nobody's repair plan is permission to let the spirit tire itself out meantime.",
+      "after": "Before we start, I have sounded the sheltered reach. The Eel accepts its permitted safe stop there. Two crews accepted temporary watches, paid from my route reserve for eight days; review any extension before they expire. An Ru has sent Luo Fen her receipt number, a request for her own return choice and this landing's reply address. No contents were requested. Nobody's repair plan permits us to tire the spirit meanwhile.",
+      "reason": "The shared return and stair branches later receive replies to an initial message, including stair_luofen's explicit statement that Luo Fen received it before they departed. Neither branch nor the preceding shared sequence dispatches that message. The only authored dispatch is harbor_letters on the mutually exclusive harbor route.",
+      "evidence": [
+        "stair_luofen: 'she received our first message before we left'",
+        "return_common anticipates Luo Fen's reply; return_letter receives it",
+        "harbor_letters sends the initial invitation only on the harbor branch"
+      ],
+      "path": "data/story.json",
+      "category": "continuity"
+    },
+    {
+      "id": "SECOND-RIVER-002",
+      "source_path": "data/story.json",
+      "node_id": "stair_funding_choice",
+      "before": "We can build the accessible ramp in stages using paid local shifts, or ask the upriver boat association for an advance against agreed maintenance work. Either can succeed. The first takes longer; the second binds a season of wages. Choose the cost we should put before the people who will bear it.",
+      "after": "The shrine meeting approved the ferry-access share; the clerk separated it from Mo Ran's receiving-case payment. The remaining ramp work needs its own funding. We can build in paid local stages using money actually released, or ask the upriver boat association for an advance against agreed maintenance work. The first takes longer; the second binds a season of wages. No stage begins on an anticipated grant. Choose the cost to put before the people who will bear it.",
+      "reason": "stair_money says the shrine household meeting must authorize its ferry-access allocation, but the next scene offers construction funding routes and the paid build proceeds without recording that authorization. An asserted intended request cannot serve as the actual approval on either route.",
+      "evidence": [
+        "stair_money: 'I will ask the household meeting to authorize the part serving that access'",
+        "stair_stages_cost pays workers and stair_completion refers to the approved work budget",
+        "stair_advance_cost begins a timber-funded construction stage"
+      ],
+      "path": "data/story.json",
+      "category": "continuity"
+    },
+    {
+      "id": "SECOND-RIVER-003",
+      "source_path": "data/story.json",
+      "node_id": "return_later",
+      "before": "Eight days, then we ask again. I will pay for a harbor watch during that time. If the keeper cannot bear another day, the case can come to me sealed before the date. Waiting is a request I can make; it is not an order I can give the river. Put that beside my name, where I will have to read it.",
+      "after": "Eight days from today, then we ask again. Credit the already paid interim turns before calculating my additional watch payment; the clerk will record its start, end and net cost. I will cover only that new coverage, with unused money returned. If the keeper cannot bear another day, the case can come to me sealed before the date. Waiting is a request, not an order to the river. Put that beside my name.",
+      "reason": "river_interim already pays two crews for eight days from the pilot's route reserve. The later return branch accepts Mo Ran's payment for an eight-day harbor watch without defining its overlap, identifying only additional coverage or crediting already funded turns. The owner-funded later term must be reconciled with the same common interim watches.",
+      "evidence": [
+        "river_interim pays two accepted crew watches for eight days",
+        "return_later_cost accepts payment for the arranged watch",
+        "harbor_review explicitly credits unused earlier offers on the separate harbor route"
+      ],
+      "path": "data/story.json",
+      "category": "continuity"
+    }
+  ],
+  "verification": {
+    "graph_preserved": true,
+    "chapter_actor_speaker_cultivation_preserved": true,
+    "exact_fixed_source_anchors": true,
+    "max_edited_scene_words": 78,
+    "audited_word_delta": 48,
+    "uncounted_editorial_word_delta": 2
+  },
+  "uncounted_editorial_changes": [
+    {
+      "source_path": "data/story.json",
+      "node_id": "stair_test",
+      "before": "Before the old ferry approached, Wei Xiu tested an ordinary boat with secured sand ballast equal to its rated load and no passengers. She turned it along the surveyed route while two crew members watched from shore. Luo Fen carried two sand sacks over the ramp; the carpenter checked deflection and fasteners separately. Su Lan tested the rail. Lin Yue kept her field closed. Unfueled joints had to carry the design load after every visitor left. A successful turn did not replace the carpenter's signed structural check.",
+      "after": "Before the old ferry approached, Wei Xiu tested an ordinary boat with secured sand ballast equal to its rated load and no passengers. She turned it along the surveyed route while two crew members watched from shore. Luo Fen carried two sand sacks over the ramp; the carpenter checked deflection and fasteners separately. Su Lan tested the rail. Lin Yue kept her earned arm routes discharged. Unfueled joints had to carry the design load after every visitor left. A successful turn did not replace the carpenter's signed structural check.",
+      "reason": "Clarifies that Yue contributes no reinforcement during the structural test. The original wording shows a closed field and grants no actual additional power, so this terminology change is not counted as a plot defect."
+    }
+  ],
+  "source_base": "feb4ec7500a1df2bf95b16265544553372c657ce"
+}

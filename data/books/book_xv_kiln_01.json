@@ -1,0 +1,921 @@
+{
+  "chapters": {
+    "book_xv_kiln": {
+      "label": "BOOK XV",
+      "title": "The Kiln That Kept Its Ashes"
+    }
+  },
+  "characters": {},
+  "nodes": {
+    "kiln_start": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kiln_common_firing_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Six weeks after the harbor closed its last account, Yue arrived at a kiln town with the pack she carried on ordinary roads. Cold wind moved ash across the gate's lower hinge. She had no borrowed harbor tool, no promised place and no new route inside her body. A fourth-stage practitioner could still be turned away by an ordinary clerk. She stood aside while a cart entered, watched its wheels sink into the same ruts, and read the notice nailed above them.",
+      "next": "kiln_p01_002"
+    },
+    "kiln_p01_002": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kiln_common_firing_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The notice offered nine weeks of archive work and ordinary inspection. Its smaller line promised access to supervised study after a current route check. Somebody had scraped the wage figure away and written another above it. Yue could not tell which was current. She asked the carter where an applicant should inquire. He pointed through the gate, then shook his head when she offered to help with his load. The axle was cracked; another pair of willing hands would not make it safe.",
+      "next": "kiln_p01_003"
+    },
+    "kiln_p01_003": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "peng_ai",
+      "background": "kiln_common_firing_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The wage office occupied an old drying room. Shallow grooves crossed the floor where clay slabs had once rested, and a desk stood on bricks to keep damp from its legs. Behind it, a woman was sewing a loose paper cover rather than writing. Yue waited until the needle passed through. The woman looked up at her fourth-stage cord and then at her boots. \"Which work have you come to ask about?\" she said. It was a better beginning than asking what Yue could break.",
+      "next": "kiln_p01_004"
+    },
+    "kiln_p01_004": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kiln_common_firing_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "\"The archive place,\" Yue answered. \"I can copy a firing ledger and compare a permitted external sample. I cannot certify a kiln, repair somebody else's meridians, or make a wet batch fit a dry schedule.\" The woman laid the needle beside its folded cloth. \"Peng Ai. I keep completed work, disputed credit and the failures people would rather call preparation.\" She pointed to the notice through the window. \"The lower wage figure belongs to last year's half shifts. We should have removed it properly.\"",
+      "next": "kiln_p01_005"
+    },
+    "kiln_p01_005": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "peng_ai",
+      "background": "kiln_common_firing_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Peng took the old notice down herself. A square of clean wood remained behind it, pale enough to show how long the conflicting figures had been there. She did not ask Yue to accept an explanation instead of a corrected offer. At the desk, she wrote the full-shift rate on a fresh sheet and dated it. Yue watched the practical annoyance in her face. Corrections were work here too. A person could welcome a question and still wish the question had not arrived before breakfast.",
+      "next": "kiln_p01_006"
+    },
+    "kiln_p01_006": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "peng_ai",
+      "background": "kiln_common_firing_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The new offer paid thirty-six copper for six completed ordinary shifts, with a shorter shift priced before it began. Food and a dry bed came from the kiln's employment account throughout the accepted term, including assigned recovery days. Personal study fuel occupied another column. Neither a lost practice session nor a failed examination would become a meal debt. Yue read each line aloud. Peng corrected her where she had confused earned wages with the separate provision of rice, and waited while she began again.",
+      "next": "kiln_p01_007"
+    },
+    "kiln_p01_007": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kiln_common_firing_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "There would be a trial day before Yue accepted the nine weeks. It paid the ordinary day rate whether they offered the place afterward or not. The trial used cold specimens, numbered copies and a short walk through the receiving yard. No live socket and no internal route attempt belonged to it. Yue asked who could stop the task. \"You, its supervisor, or the person responsible for the place where you are working,\" Peng said. \"A disagreement pauses the work. It does not require three people to agree that you hurt.\"",
+      "next": "kiln_p01_008"
+    },
+    "kiln_p01_008": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "luo_sheng",
+      "background": "kiln_common_firing_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Outside, the cracked cart had reached the unloading stand. Two workers lifted the sacks off while a third braced the wheel with ordinary timber. The carter watched his axle as if looking hard enough might return yesterday's sound wood. A foreman came out wearing a coat scorched at one cuff. He asked the weight of each sack before asking what delay would cost. His name was Luo Sheng. Yue could see impatience in him and a practiced order of questions that kept impatience from choosing the first lift.",
+      "next": "kiln_p01_009"
+    },
+    "kiln_p01_009": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "luo_sheng",
+      "background": "kiln_common_firing_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Luo wanted the receiving yard cleared before the next delivery. Peng wanted the trial applicant kept outside the lifting line. Both wishes occupied the same patch of mud. They settled it by moving the copying board under the roof, where Yue could see the sacks without standing beside them. She copied the carter's numbers as provisional, not verified weights. Luo signed the unloading instruction and took the receipt back to the scale. For a little while the town's urgent work became slower and more legible.",
+      "next": "kiln_p01_010"
+    },
+    "kiln_p01_010": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kiln_common_firing_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "One sack had a different seam. Its cloth looked new while the other sacks were dark with repeated rain. The carter said the merchant had replaced a split cover at the last depot. Yue wrote his account beside the observed seam without turning either into a conclusion about the clay. Peng asked what else she would need. \"The depot record, if it exists, and a weighed sample under the keeper's terms,\" Yue said. \"I cannot inspect a firing history through a patch of dry cloth.\"",
+      "next": "kiln_p01_011"
+    },
+    "kiln_p01_011": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kiln_common_firing_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The carter laughed once, without much pleasure. \"People usually inspect my honesty before they inspect a merchant's sack.\" He gave the name of the depot clerk and asked that his original transport slip stay with him until payment. Peng agreed. Yue copied only the delivery number and the line he offered. The receipt did not become their possession because they had a desk. When the carter folded it away, she noticed the old crease crossed the space where his thumb had covered an unpaid toll.",
+      "next": "kiln_p01_012"
+    },
+    "kiln_p01_012": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "phase_comparison_room",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "They left the sacks for the receiving crew's actual weighing. Peng led Yue along a covered passage to the specimen room. Each shelf carried broken bowls, tile fragments and small packets of ash. Some labels had names; others had only firing dates. A bucket sat beneath a roof stain, empty today. Yue stopped before touching a glazed fragment with a bright rim. Peng handed her an unpowered wooden pointer instead. \"The rim is beautiful,\" she said. \"That is one reason this shelf requires a keeper.\"",
+      "next": "kiln_p01_013"
+    },
+    "kiln_p01_013": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "phase_comparison_room",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "A line through the fragment's foot widened when Peng turned it beneath ordinary side light. The glaze on top was continuous. Luo had once accepted its batch after a surface comparison, the tag said; later ordinary carrying opened a crack hidden inside the body. No qi had caused that crack. Yue had seen different failures at the ash bridge, and the resemblance tempted her to explain this one too quickly. She made herself read the whole tag before describing what she could presently see.",
+      "next": "kiln_p01_014"
+    },
+    "kiln_p01_014": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "phase_comparison_room",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The tag recorded the intended use, clay source, shelf position and the task during which the crack appeared. A fifth field, cooling interval, was blank. Yue asked whether that meant no cooling instruction had existed. Peng shook her head. \"It means this specimen's copied record has no interval. We may find one elsewhere. We may not.\" Yue put a small square beside the field on her trial page. She was allowed to make an absence visible without filling it from the kind of answer the room seemed built to expect.",
+      "next": "kiln_p01_015"
+    },
+    "kiln_p01_015": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "peng_ai",
+      "background": "phase_comparison_room",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The trial task was to match twelve specimens to their numbered copying slips. Four matches were simple. Three needed the original tag turned over. Two slips described pieces that remained with another keeper. The last three had similar glaze colors and different body marks. Yue wanted to finish them before Peng returned. Instead she left those three unmatched, with the questions beside them. A quick row of complete numbers would have looked competent until somebody tried to repeat her work from the wrong fragments.",
+      "next": "kiln_p01_016"
+    },
+    "kiln_p01_016": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "peng_ai",
+      "background": "phase_comparison_room",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Peng came back carrying a bowl of millet and two spoons. They ate at a clean table outside the specimen room. Yue's ordinary hunger made the uncompleted rows seem less shameful. Peng explained that one of the absent specimens had been returned to its maker for a permitted comparison, and another had never belonged to this archive. Their copying slips stayed because the inquiry had used them. Custody was not a mistake to correct by gathering every object into the room with the neatest shelves.",
+      "next": "kiln_p01_017"
+    },
+    "kiln_p01_017": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "phase_comparison_room",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The three similar fragments belonged to different firings. One carried a shallow comb mark under its foot; another had a round thumb depression; the third's maker mark was broken away. Peng supplied a literal drawing of the missing edge without guessing the name. Yue matched the first two and retained uncertainty on the third. Nine specimens, two external holdings and one unresolved identity: the trial account no longer looked like twelve identical accomplishments. It gave the next worker twelve different things they could actually check.",
+      "next": "kiln_p01_018"
+    },
+    "kiln_p01_018": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "phase_comparison_room",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "At noon, Luo arrived with a receiving weight sheet. The patched sack was lighter than its listed gross weight. Its net clay weight, after allowance for the new cloth, remained within the delivery tolerance. Yue entered both quantities instead of preserving only the surprising one. The sack still needed its composition check before use. The difference had explained a weighing discrepancy; it had not approved an entire batch. Luo thanked her for keeping the distinction short enough that he could read it while the next cart waited.",
+      "next": "kiln_p01_019"
+    },
+    "kiln_p01_019": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "jian_rong",
+      "background": "phase_comparison_room",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The next cart carried charcoal under an oilcloth. A boy walking behind it had a practice tablet tucked into his waistband and soot across his nose. He asked Peng whether yesterday's evening work would count toward his apprenticeship term. \"We will look at the actual hours after unloading,\" she said. The boy's face closed. He had wanted a word that settled the matter while he stood there. Yue recognized the desire, and the danger of promising an answer before anybody had opened the record it depended on.",
+      "next": "kiln_p01_020"
+    },
+    "kiln_p01_020": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "peng_ai",
+      "background": "phase_comparison_room",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "His name was Jian Rong. He carried empty sacks to a dry hook and came back for the tablet when his hands were clean. Its first two weeks had signatures. The third had a broad line through it and no explanation on the tablet itself. Peng gave him a receiving time for the following morning and wrote it on a separate appointment slip. She did not turn Yue's trial day into an unoffered examination of another apprentice's whole history. Jian read the time twice and left without thanking her.",
+      "next": "kiln_p01_021"
+    },
+    "kiln_p01_021": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "peng_ai",
+      "background": "phase_comparison_room",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "After he had gone, Yue asked what she should write about the encounter. \"That he asked and that I gave him a meeting time, if your trial record needs to explain the interruption,\" Peng said. \"The tablet was not offered for your copying task.\" The restraint felt awkward after the boy's visible distress. Yue could imagine a helpful story about discovering injustice on her first day. She wrote the smaller facts. If she later joined his credit inquiry, it would begin with his terms rather than with this glimpse.",
+      "next": "kiln_p01_022"
+    },
+    "kiln_p01_022": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "luo_sheng",
+      "background": "kiln_common_firing_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The afternoon walk began at the cold firing hall. Three furnace mouths faced a floor swept into dark stripes. Old heat had polished the brick edges where pots passed. Luo showed Yue the ordinary stops, the separate stone socket and the evacuation door whose latch had recently been repaired. She followed each physical path without opening her field. The kiln was cold, yet it could still hurt somebody with a leaning stack or a falling counterweight. Cultivation had not made ordinary inspection preliminary to the real world.",
+      "next": "kiln_p01_023"
+    },
+    "kiln_p01_023": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "luo_sheng",
+      "background": "kiln_common_firing_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "A work bell hung from a timber beam at the hall's far end. Its rope was new above a knot and old below it. Luo pulled once, then asked Yue what the sound had told her. \"That this bell can be heard here,\" she answered. \"I do not know whether a worker beside the running fan would hear it.\" He pointed to the fan's unpowered housing. Tomorrow's check would include that location. A cold demonstration could establish a beginning without quietly claiming the test it had not performed.",
+      "next": "kiln_p01_024"
+    },
+    "kiln_p01_024": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "luo_sheng",
+      "background": "kiln_common_firing_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The ordinary fan turned by a wheel and belt; the supplementary heated-air array had its own fuel cage. Luo opened the empty cage for the trial visit. Slots were numbered, and one carried a wax mark where a damaged holder had been taken out of service. Yue counted the usable holders rather than the total outlines. \"Eight places,\" she said, \"seven currently available.\" Luo nodded. He did not put a charged stone into the missing place to make the display symmetrical for an applicant who wanted to see power.",
+      "next": "kiln_p01_025"
+    },
+    "kiln_p01_025": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kiln_common_firing_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "A stack of finished cups waited behind a chalk boundary. Their contract required dry storage, ordinary hand carrying and no rapid reheating. On a neighboring board, another order used the same trade name for cups intended to hold charged teaching traces. Yue asked whether they came from the same tested process. \"That is a question for the contract room,\" Luo said. His mouth tightened before he looked away. Peng wrote the receiving time for that room on Yue's trial sheet, beside the task rather than instead of it.",
+      "next": "kiln_p01_026"
+    },
+    "kiln_p01_026": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "tan_ning",
+      "background": "phase_comparison_room",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The contract room smelled of orange peel and old paste. Tan Ning, its clerk, had hung the peel above a brazier that held more grey ash than fire. He was younger than Yue expected, with a careful collar and a patch hidden inside one elbow. When Luo laid the two orders before him, Tan smoothed their edges together. The titles matched. Their uses did not. \"The purchaser wants consistency,\" he said. Peng pulled the sheets apart again. \"Which kind?\"",
+      "next": "kiln_p01_027"
+    },
+    "kiln_p01_027": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "tan_ning",
+      "background": "phase_comparison_room",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Tan tapped the delivery date. Forty storage cups were due before the first deep frost, with another four hundred to follow if the purchaser accepted them. A separate line called the later four hundred teaching vessels. The price had not changed between the two lines. Luo's thumb remained on the first order. \"Dry stores are one firing,\" he said. \"Fast teaching cycles are another.\" Tan looked toward the door, as though the missing answer might arrive carrying an official seal.",
+      "next": "kiln_p01_028"
+    },
+    "kiln_p01_028": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "tan_ning",
+      "background": "phase_comparison_room",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The clerk found a third page. Its top corner had been folded into a small triangular flag. Under that flag, a written condition referred to a retained sample from the purchaser's earlier order. There was no sample number. Peng asked when the page had reached the room. Tan named yesterday's courier and showed the receiving line. His signature was below it. Yue did not need to suspect the man in order to notice that he had accepted a condition nobody in the room could yet match.",
+      "next": "kiln_p01_029"
+    },
+    "kiln_p01_029": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "luo_sheng",
+      "background": "phase_comparison_room",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Luo took his hand from the papers and rubbed the scorched cuff. \"I can burn a trial shelf,\" he said. \"I cannot burn a missing sentence into a finished cup.\" Tan's mouth twitched before he stopped it. For a moment the room held an ordinary joke instead of a dispute. Then he asked whether the purchaser would pay for that shelf. Nobody answered immediately. Beyond the wall, the yard bell struck twice, and Luo turned toward work whose cost would not wait for their answer.",
+      "next": "kiln_p01_030"
+    },
+    "kiln_p01_030": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "peng_ai",
+      "background": "phase_comparison_room",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Peng kept the pages on separate boards. The storage order could be read. The teaching order needed its sample condition resolved before a production schedule could be agreed. Yue expected Tan to argue. He asked instead whether she could copy both orders clearly enough for a maker with poor sight. His politeness made refusal more difficult than a demand would have. She said she could finish two legible copies within the trial's remaining hour. He found a broad brush, and offered it handle first.",
+      "next": "kiln_p01_031"
+    },
+    "kiln_p01_031": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "phase_comparison_room",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The brush was badly worn. Its outer hairs separated whenever Yue turned a corner. She remembered repairing kiln ledgers at home, where the fastest scribe always left the largest uncertainty in the amount column. She used the old brush for headings and a finer borrowed one for the conditions. Tan watched her stop at the missing sample number. \"Leave it visible,\" he said. She could not tell whether the instruction pleased or burdened him. She left an outlined space large enough to interrupt a hurried reader.",
+      "next": "kiln_p01_032"
+    },
+    "kiln_p01_032": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "tan_ning",
+      "background": "phase_comparison_room",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "While the ink dried, Peng took Tan aside by the brazier. Their voices stayed low. Yue heard only a phrase about an advance already promised and another about the last winter's account. She looked back at the copies before hearing more. The purchaser's name was the Common Vessel Association. It sounded generous until she imagined how many different people could hide behind the word common. She copied the actual receiving address, whose plain street and door number could eventually answer a question.",
+      "next": "kiln_p01_033"
+    },
+    "kiln_p01_033": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kiln_common_firing_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Luo returned wearing a wool cap over his ears. A wind had come through the north door and lifted the ash from the cold furnace floor. He wanted a cover put across the exposed shelves before evening damp settled. Yue's trial work had ended; she offered to help carry the clean cloth after they recorded its new task. Peng looked at her hands, then at Luo. He selected the lighter roll without making a speech about it. Together they walked toward the sudden white flutter at the hall's entrance.",
+      "next": "kiln_p01_034"
+    },
+    "kiln_p01_034": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "zhu_yan",
+      "background": "kiln_common_firing_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The cloth dragged a line through dry ash before Luo caught it. He swore at himself, not at Yue, and lifted the dirty edge away from the finished cups. They spread another cover over the waiting shelves, moving backward so the weave would not catch a rim. Yue's last corner refused to lie flat. A young woman brought two smooth tiles and weighed it down. \"Cloth likes to argue where people can see it,\" she said. Her name was Zhu Yan, and she had a laugh roughened by furnace dust.",
+      "next": "kiln_p01_035"
+    },
+    "kiln_p01_035": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "zhu_yan",
+      "background": "kiln_common_firing_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Zhu showed Yue a narrow space between the covered shelves and the wall. \"Leave that breathing,\" she said. \"The old men like a room sealed tight enough to flatter them. Then everything sweats.\" She worked with her left hand while the right rested against her apron. Yue noticed the choice without asking about it in front of Luo. When they had finished, Zhu offered her the smooth tile that would not be needed until morning. It was only a weight, but Yue liked the exact smallness of the loan.",
+      "next": "kiln_p01_036"
+    },
+    "kiln_p01_036": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "peng_ai",
+      "background": "kiln_common_firing_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "At the wage desk, Peng counted six copper for the completed trial day. The trial had been slower than Luo's usual work and clearer than the old copying board. Both appeared in its assessment. The nine-week place remained available. Yue did not sign immediately. She asked to see the bed, the ordinary work roster and the route study times before answering in the morning. Peng put the new offer under a paper weight. \"A night is a useful length for finding out whether a promise has a roof.\"",
+      "next": "kiln_p01_037"
+    },
+    "kiln_p01_037": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "west_kiln_home",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The lodging house stood behind a bakery whose chimney warmed one side of the wall. An old caretaker led Yue upstairs and showed her the room available under the kiln account. Its latch held. The roof stain above the empty pallet was dry, but the caretaker set a bowl beneath it before leaving. She could sleep there for the trial's single night. Yue laid her pack against the opposite wall and loosened her boots, feeling the day finally arrive in the muscles that had carried it.",
+      "next": "kiln_p01_038"
+    },
+    "kiln_p01_038": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "west_kiln_home",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "There were four pallets and three occupied hooks. The nearest worker had hung a pair of patched socks beside a little drawing of a crane. On the farther wall, somebody had counted nights in chalk and rubbed out most of the marks. Yue left her own hook bare until she had chosen whether to stay. A small packet of roasted chestnuts rested on the table under a note from the bakery: broken ones, for the upstairs people. She ate one before she discovered how tired she was.",
+      "next": "kiln_p01_039"
+    },
+    "kiln_p01_039": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "west_kiln_home",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Two roommates arrived arguing about a bowl. One had left it beside the hot oven door, and the other had found porridge burned onto its rim. They stopped when they saw Yue, then continued with fewer accusations and more laughter. \"We will ask her,\" the first said. \"She looks like somebody who understands bowls.\" Yue lifted the bowl, turned its blackened edge toward the lamp and said she understood an evening badly enough to know the porridge was lost. Both women laughed, and gave her the clean third bowl.",
+      "next": "kiln_p01_040"
+    },
+    "kiln_p01_040": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "west_kiln_home",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Supper was bean soup, dark bread and pickled greens from a jar whose lid needed two hands. The roommates worked at the trimming benches. Neither cared what stage Yue had reached until she asked where she could rinse her practice cloth without wetting the bedding. One pointed to the downstairs wash place. The other told her which taps froze first. In exchange Yue showed them how to scrape the burned bowl after soaking it. By the meal's end, nobody had asked her to demonstrate anything that shone.",
+      "next": "kiln_p01_041"
+    },
+    "kiln_p01_041": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "west_kiln_home",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "She washed the bowl while the others told her about the town. The north road belonged to charcoal carts, the river steps to clay boats, and the market square to everybody who pretended their prices were simple. Luo had once carried a finished cup home in both hands for his mother's birthday. Peng sang badly when she thought the archive was empty. Tan's sister lived upriver and sent dried peel in every parcel. The people from the trial rooms acquired small lives that did not fit their work titles.",
+      "next": "kiln_p01_042"
+    },
+    "kiln_p01_042": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "west_kiln_home",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The talk quieted when Jian Rong's name came up. One roommate had seen him cutting empty sacks into strips after the late shift. The other said he was making a hanging bed for his younger brother. Nobody knew whether the bed had been finished. Yue pictured the broad line across his third week and wanted to ask more. Instead she asked whether he took meals in the common hall. \"When he comes before the pots empty,\" the first woman said. That answer was troubling enough without a history invented around it.",
+      "next": "kiln_p01_043"
+    },
+    "kiln_p01_043": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "west_kiln_home",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "After supper, Yue went downstairs with her grounding tail and the fourth-stage record. The caretaker showed her a cold room beside the wash place, with an ordinary bench and no practice array. Yue checked the dry lead and used only a quiet retention observation already within her travel allowance. She made no attempt at a third pair. The window rattled once as the bakery door closed. Her reserve was below its best foundry result; the day had involved walking, lifting cloth and meeting more people than her solitude had prepared for.",
+      "next": "kiln_p01_044"
+    },
+    "kiln_p01_044": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "west_kiln_home",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "She put the number away and listened to the bakery's late work. Dough struck wood. A woman called for more flour. Someone dropped a metal scoop and laughed before the sound finished ringing. Yue had once imagined training places as rooms built beyond such ordinary noise. This room had a cracked bench and a smell of bread moving through its wall. She could want the next stage here. It would have to grow alongside the people who would wake hungry while she was deciding whether another practice mattered.",
+      "next": "kiln_p01_045"
+    },
+    "kiln_p01_045": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "west_kiln_home",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "In bed, she read the offer once more by the roommates' shared lamp. Thirty-six copper for six full shifts. Nine weeks, with review before the last one. Study access after present route checks, not a promised promotion. She wrote a short letter to her mother saying she had found a possible place and had not yet accepted it. The pen paused over a sentence about the future. She crossed it out and described Zhu Yan's laughing voice instead. It was a fact from the day she wanted to keep.",
+      "next": "kiln_p01_046"
+    },
+    "kiln_p01_046": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "west_kiln_home",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Before dawn, a loaf knocked against the bakery wall as somebody tested its crust. Yue woke without needing the work bell. Frost traced the window corners, leaving the middle clear enough to show the kiln roofs. She dressed quietly, folded the trial bedding and went down for hot water. The caretaker asked whether she had slept. \"Enough,\" Yue said, then considered the word. She had woken twice. The answer changed to a fuller one, and the caretaker pointed her toward the breakfast pot before asking about the job.",
+      "next": "kiln_p01_047"
+    },
+    "kiln_p01_047": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "peng_ai",
+      "background": "kiln_common_firing_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Peng was waiting at the wage desk with the amended notice visible beside yesterday's copies. Yue accepted the nine-week place after checking the roster. Peng countersigned it and gave her a drawer whose key had a red thread through its hole. There was no private instrument inside, only space for a work record and spare paper. Yue's first ordinary shift began at the trimming room. Her local route check would happen two days later, after sleep and work had told the examiner more than a travel-day performance could.",
+      "next": "kiln_p01_048"
+    },
+    "kiln_p01_048": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kiln_common_firing_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The trimming room was warmer than the hall and louder than the archive. Wet clay curled away under wire, falling into flat spirals that workers gathered for reuse. A man with a missing front tooth showed Yue how to place a foot on the board without crushing its drying edge. She had shaped stove repairs, not these thin teaching cups. Her first attempt leaned toward the hand doing the trimming. The man turned it around and let the lean embarrass itself in ordinary window light.",
+      "next": "kiln_p01_049"
+    },
+    "kiln_p01_049": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kiln_common_firing_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "She cut too much from the second cup. Its foot became elegant and weak. The man set it beside the thicker first attempt, then gave her a lump of clay instead of another nearly finished vessel. \"You keep trying to save the ugly one by making it prettier,\" he said. \"Make something that can stand first.\" His name was Han Ke. He had no cultivation cord at all. Yue rolled the clay between her palms and began a little stand that would never enter anybody's examination.",
+      "next": "kiln_p01_050"
+    },
+    "kiln_p01_050": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "zhu_yan",
+      "background": "kiln_common_firing_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The stand collapsed when she lifted it. Han Ke's laugh brought two other workers to the table. One asked whether the famous fourth stage could intimidate wet clay into remaining upright. Yue held up her empty palm. \"It has already refused me.\" The workers laughed harder at that, and Han showed her how to leave support beneath the foot while its body stiffened. When the stand finally stayed, it looked squat and stubborn. She liked it more than she would have liked an object that proved the joke wrong.",
+      "next": "kiln_p01_051"
+    },
+    "kiln_p01_051": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "zhu_yan",
+      "background": "kiln_common_firing_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Zhu Yan came through the room carrying an empty tray against her hip. She saw Yue's stand and declared it a portrait of Luo before his first bowl of tea. Han Ke objected that the portrait lacked a scorched cuff. Zhu pressed a tiny dent into its side with her good hand. Nobody put the joke into the kiln order. They left the stand on an ordinary drying board, where it could fail without taking anybody's paid vessel with it. Yue worked more easily after that.",
+      "next": "kiln_p01_052"
+    },
+    "kiln_p01_052": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kiln_common_firing_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "By the end of the morning, she could trim a plain foot without thinning it below Han's sample. She completed fewer pieces than the practiced workers. Peng recorded the smaller number beside the actual allowed task, while Han marked the pieces he had checked. The record did not require Yue to defend every slow movement. It showed where she would need teaching tomorrow. The cups went onto a drying shelf, and the clay curls returned to a different bin whose lid was already heavy with yesterday's wet scraps.",
+      "next": "kiln_p01_053"
+    },
+    "kiln_p01_053": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kiln_common_firing_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The scrap bin contained several colors. Han lifted a redder lump with the handle of his tool and asked Yue which receiving batch it belonged to. She could not tell. He showed her the label: mixed trimming waste, ordinary reclaim only until tested. Behind it stood another bin labeled fresh clay. Its lower edge carried the same red stain. Yue asked when it had been cleaned. Han stopped smiling. He called Luo rather than letting her spend her first paid day inventing an answer around a dirty corner.",
+      "next": "kiln_p01_054"
+    },
+    "kiln_p01_054": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "luo_sheng",
+      "background": "kiln_common_firing_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Luo opened the fresh bin and found a broken scoop buried near its side. He knew that scoop; it belonged at the reclaim tub. The scoop's presence did not establish how much reclaim had entered the fresh material. It did mean the bin needed to be set aside while they checked. Han swore at the lost morning's preparation. Yue felt the cost of an unproved question in the stopped wire and the silent table. This interruption was not a lesson arranged for her. People had expected to earn completed work from those cups.",
+      "next": "kiln_p01_055"
+    },
+    "kiln_p01_055": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "luo_sheng",
+      "background": "phase_comparison_room",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Peng found a place for the interrupted workers at the uncharged storage shelf. The shift continued at a slower task. Han muttered that Tan would ask why nobody had noticed the scoop yesterday. Luo said he would answer for his own receiving check. \"You answer for what you see today.\" The words did not soothe Han, but he took his tools to the other bench. Yue helped carry the dry boards through a clear path, keeping the small stand on its own shelf. One thing could continue while another remained unresolved.",
+      "next": "kiln_p01_056"
+    },
+    "kiln_p01_056": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "phase_comparison_room",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "At the receiving yard, the patched sacks waited in a covered row. The weighing crew had finished its records. A white marker identified the accepted net weights; a black one marked composition still awaiting comparison. Yue matched their delivery numbers to her trial copy. One number belonged to two sacks that had come on different carts. She checked her own ink first, then the weighed records. Both repeated the same number. Peng asked her to bring the sources to the desk, where a clerical mistake could be examined without opening anybody's clay.",
+      "next": "kiln_p01_057"
+    },
+    "kiln_p01_057": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "tan_ning",
+      "background": "phase_comparison_room",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Tan arrived carrying a cup of tea that had gone cold. He looked at the repeated number and said the merchant sometimes divided an order between carts. That could explain the delivery number, Peng agreed. It did not explain why both sacks had a complete charge rather than a divided weight. Tan put the tea down too quickly and splashed the board's edge. Yue moved the drying copy away. A blot spread beside the total, making the room's first reaction visible without proving what the reaction meant.",
+      "next": "kiln_p01_058"
+    },
+    "kiln_p01_058": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "tan_ning",
+      "background": "phase_comparison_room",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The original invoices stayed dry. One charged for fresh clay delivered by river, the other for prepared clay delivered from the northern depot. Their weights were equal. Their receiving dates were one day apart. Tan said the second might have replaced a rejected first lot. Luo said he had rejected no lot of that number. The room acquired a silence larger than the table. Yue knew how easily people could mistake that silence for the moment truth arrived. Peng asked for the merchant's return receipt instead.",
+      "next": "kiln_p01_059"
+    },
+    "kiln_p01_059": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "tan_ning",
+      "background": "phase_comparison_room",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "There was no return receipt in Tan's drawer. He searched another bundle, then a shallow box under the desk. Some papers were stuck together by old paste. He separated them slowly while Luo watched the window. Yue helped only when he handed her a folded cover to hold. At last he found an instruction saying the earlier lot should be kept for ordinary reclaim. It had no disposal entry and no signature from the receiving crew. Luo read it once and asked where the earlier lot now stood.",
+      "next": "kiln_p01_060"
+    },
+    "kiln_p01_060": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "tan_ning",
+      "background": "phase_comparison_room",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "They went to the bins with Tan beside them. The fresh bin remained sealed from use, and the reclaim tub had its ordinary label. Neither carried the earlier lot's number. Han recognized the instruction's handwriting as Tan's but knew nothing about receiving it. Tan said he had copied a purchaser's message. Peng asked him to retain that source for the morning inquiry. For now, the actual finding was clay whose identity could not be matched to the two payments. It was enough to keep the suspect bin from a teaching vessel.",
+      "next": "kiln_p01_061"
+    },
+    "kiln_p01_061": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "jian_rong",
+      "background": "kiln_common_firing_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Jian Rong appeared at the passage entrance, still holding his appointment slip. The morning meeting about his credit had been delayed by the receiving problem. Peng set a new time before the end of his shift. Jian looked at Tan and then at the sealed bin. \"You found that today?\" he asked. Luo told him not to touch it. The boy's face took on a sharp satisfaction that Yue did not understand. He went away before anybody could ask whether he had seen the bin yesterday.",
+      "next": "kiln_p01_062"
+    },
+    "kiln_p01_062": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "zhu_yan",
+      "background": "kiln_common_firing_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The inquiry had not canceled the need for lunch. Zhu Yan brought a basket of warm flatbread to the trimming room and made Han remove his clay-coated glove before reaching. She handed Yue the least scorched piece with a solemn bow. \"For our visiting authority on burned porridge.\" Yue laughed, then discovered she was close to tears from the morning's tension. Zhu pretended not to notice. They sat on opposite sides of an empty bench, with the bad scoop kept away from the food in its own tray.",
+      "next": "kiln_p01_063"
+    },
+    "kiln_p01_063": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "zhu_yan",
+      "background": "kiln_common_firing_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Zhu's right hand did not close easily around the bread. She tore pieces with the left. When Yue asked whether she needed help carrying the basket back, Zhu said yes before pride could complicate the answer. The old injury came from a loading door, she explained as they walked. It had healed badly and still needed a brace for long carrying. She wanted the ordinary work that her hand could finish. \"If you pity me into a task I cannot do, I will make you trim all my ugly cups.\"",
+      "next": "kiln_p01_064"
+    },
+    "kiln_p01_064": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "zhu_yan",
+      "background": "kiln_common_firing_hall",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Yue said she would prefer to trim the cups Zhu had chosen to make ugly. Zhu looked at her sideways, then laughed until she had to stop walking. They rested at the warm brick outside the bakery. The town's noon smoke moved low under the roofs, white where steam met it. For a moment Yue could imagine a life here that did not consist entirely of proving she deserved its next lesson. Friendship arrived before any stage, carrying a basket that still needed to be returned.",
+      "next": "kiln_p01_065"
+    },
+    "kiln_p01_065": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "peng_ai",
+      "background": "phase_comparison_room",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Peng met Jian in the archive after his shift. Yue had been asked to copy the offered attendance fields, and he agreed after reading the scope himself. His night work had been recorded in the wage book but not the apprenticeship book. The wage entry named ordinary cleaning. His study agreement promised credit for supervised kiln preparation, whose meaning depended on which task he had actually performed. Jian pushed both books toward Peng. \"They knew what it meant when they needed me to do it,\" he said.",
+      "next": "kiln_p01_066"
+    },
+    "kiln_p01_066": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "peng_ai",
+      "background": "phase_comparison_room",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Peng asked him to describe that night from the beginning. He had moved empty shelf frames, cleaned the fan housing and helped mark a cooling schedule. Tan had told him the preparation would count. Luo had signed the wage task but not the credit line. Jian's voice rose as he reached that difference. Peng let him finish before asking who had watched the schedule marking. The boy named a worker currently on the river delivery. His claim would not be erased while they waited for that person's account.",
+      "next": "kiln_p01_067"
+    },
+    "kiln_p01_067": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "peng_ai",
+      "background": "phase_comparison_room",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Yue copied the claimed tasks in separate lines. Cleaning the housing, moving frames and marking the schedule were different acts, although the same tired boy had finished them. Jian read the copy and changed one word from carried to helped carry. He hated making the smaller claim visible. Yue admired him for it and did not say so while he was still angry. Peng promised a written interim answer by the next evening, with the missing witness listed. Jian took his tablet away without the broad line being rubbed out yet.",
+      "next": "kiln_p01_068"
+    },
+    "kiln_p01_068": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "peng_ai",
+      "background": "phase_comparison_room",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "When the archive closed, Peng showed Yue the ordinary key rack. Each hook had a room name and a return mark. The specimen-room hook was empty; Luo still had the key for the clay inquiry. Peng wrote that temporary holding on the board and locked the outer door herself. Then she asked whether Yue's first paid day had changed her answer about staying. \"It has changed what I expect to learn,\" Yue said. Peng smiled with one corner of her mouth. \"That is a less expensive answer than knowing already.\"",
+      "next": "kiln_p01_069"
+    },
+    "kiln_p01_069": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "west_kiln_home",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Yue went back through the bakery's warm passage with the wage copy and her own practice record. On the upstairs table, one roommate had set the rescued porridge bowl upright beside a fresh loaf. It had no blackened edge now. Yue told them about Han's little stand, leaving Jian's private claim inside the closed work cover. The story ended with Luo's missing cuff dent. Her roommates laughed as though the joke belonged to a town she might soon know well enough to tell it badly herself.",
+      "next": "kiln_p01_070"
+    },
+    "kiln_p01_070": {
+      "chapter": "book_xv_kiln",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "west_kiln_home",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "That night, wind drove dry leaves against the kiln gate. Yue measured only the quiet reserve she had permission to maintain, then put the lead away. Her local examination was still tomorrow's appointment, and the third-pair page still held a question rather than a route. She slept with the nine-week agreement beneath her plain work tablet. In the yard, two paid clay lots waited behind one disputed number. By morning, somebody would need to explain how both had reached a room with only one fresh bin.",
+      "next": "kiln_p02_001"
+    }
+  }
+}
