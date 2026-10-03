@@ -1,7 +1,7 @@
 {
   "version": 1,
   "requested": {
-    "backgrounds": 100,
+    "backgrounds": 200,
     "npcs": 100,
     "monsters": 100
   },
@@ -55,6 +55,126 @@
         941
       ],
       "description": "A high-bank mooring offers rest without opening a single entrusted echo. Flood marks make a promise answerable to the river."
+    },
+    {
+      "id": "bell_keeper_workshop",
+      "name": "Bell Keeper's Workshop",
+      "path": "assets/art/world/interiors/bell_keeper_workshop.png",
+      "native_size": [
+        1672,
+        941
+      ],
+      "environment": "interior",
+      "collection": "building_interiors",
+      "description": "Clappers, cords, and worn tools wait in the room where the valley's bells are maintained."
+    },
+    {
+      "id": "ferry_ticket_house",
+      "name": "Ferry Ticket House",
+      "path": "assets/art/world/interiors/ferry_ticket_house.png",
+      "native_size": [
+        1672,
+        941
+      ],
+      "environment": "interior",
+      "collection": "building_interiors",
+      "description": "Bamboo passes and a low counter make room for travelers arranging passage."
+    },
+    {
+      "id": "high_bank_boathouse",
+      "name": "High-Bank Boathouse",
+      "path": "assets/art/world/interiors/high_bank_boathouse.png",
+      "native_size": [
+        1672,
+        941
+      ],
+      "environment": "interior",
+      "collection": "building_interiors",
+      "description": "An unfinished ferry rests above the old flood line among ropes and hull frames."
+    },
+    {
+      "id": "stone_carvers_hall",
+      "name": "Stone Carvers' Hall",
+      "path": "assets/art/world/interiors/stone_carvers_hall.png",
+      "native_size": [
+        1672,
+        941
+      ],
+      "environment": "interior",
+      "collection": "building_interiors",
+      "description": "Carvers measure replacement landing stones beside a ramp through their workshop."
+    },
+    {
+      "id": "reed_case_workroom",
+      "name": "Reed-Case Workroom",
+      "path": "assets/art/world/interiors/reed_case_workroom.png",
+      "native_size": [
+        1672,
+        941
+      ],
+      "environment": "interior",
+      "collection": "building_interiors",
+      "description": "Dry reeds and folded cloth line a room used for making protective cases."
+    },
+    {
+      "id": "archive_copy_room",
+      "name": "Archive Copy Room",
+      "path": "assets/art/world/interiors/archive_copy_room.png",
+      "native_size": [
+        1672,
+        941
+      ],
+      "environment": "interior",
+      "collection": "building_interiors",
+      "description": "Copying desks stand apart so readers can work without exposing a neighbor's papers."
+    },
+    {
+      "id": "archive_consent_room",
+      "name": "Archive Consent Room",
+      "path": "assets/art/world/interiors/archive_consent_room.png",
+      "native_size": [
+        1672,
+        941
+      ],
+      "environment": "interior",
+      "collection": "building_interiors",
+      "description": "Closed boxes and a screened table offer space for discussing records in private."
+    },
+    {
+      "id": "village_council_room",
+      "name": "Village Council Room",
+      "path": "assets/art/world/interiors/village_council_room.png",
+      "native_size": [
+        1672,
+        940
+      ],
+      "environment": "interior",
+      "collection": "building_interiors",
+      "description": "An open circle of stools leaves every household a place in the meeting."
+    },
+    {
+      "id": "salt_merchant_store",
+      "name": "Salt Merchant's Store",
+      "path": "assets/art/world/interiors/salt_merchant_store.png",
+      "native_size": [
+        1672,
+        941
+      ],
+      "environment": "interior",
+      "collection": "building_interiors",
+      "description": "Scales, sealed jars, and raised stores preserve the valley's salt through damp weather."
+    },
+    {
+      "id": "winter_grain_house",
+      "name": "Winter Grain House",
+      "path": "assets/art/world/interiors/winter_grain_house.png",
+      "native_size": [
+        1672,
+        941
+      ],
+      "environment": "interior",
+      "collection": "building_interiors",
+      "description": "Millet bins and wicker scoops mark the food held for the coming winter."
     }
   ],
   "npcs": [
@@ -142,5 +262,8 @@
       ],
       "description": "A returned echo can remain sealed. The case preserves a volunteered copy of a memory, not a missing piece of the owner's mind. Receiving it grants nobody else permission to listen."
     }
-  ]
+  ],
+  "requested_additional": {
+    "building_interiors": 100
+  }
 }

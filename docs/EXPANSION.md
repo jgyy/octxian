@@ -6,20 +6,23 @@
 - Book I: 36 scenes, 942 words, three endings.
 - Book II: 73 scenes, 4,000 words, three investigations, nine approaches, four endings.
 - Book III: 87 scenes, 5,332 words, four spring continuations, three river routes, six settlement approaches, three endings.
-- Five painted backgrounds at native 1672×941.
+- Five original-scope painted backgrounds at native 1672×941.
+- 10 additional building-interior paintings preserved at their individual native sizes; [inventory](INTERIORS.md).
 - Four human NPCs and two spirit beasts at native 1024×1536 with alpha.
 - Two inspectable item paintings: clapper at 1024×1536 and echo case at 1536×1024.
 - Rain, reed light, soft bell ripples, and qi effects, paused by panels and stopped by reduced motion.
 - Continuity ledger plus required-knowledge and safety checkpoints.
-- Sixteen rendered viewport screenshots, complete narration coverage, and Linux package validation.
+- Seventeen rendered viewport screenshots, complete narration coverage, and Linux package validation.
 
-These are exact delivered counts. This draft does **not** fulfill the requested 100 backgrounds, 100 human NPCs, 100 monsters, or a manuscript longer than one million words. An image-generation prompt is not a delivered asset. A plot outline, word budget, alternate playthrough, or repeated paragraph is not an authored word.
+These are exact delivered counts. This draft does **not** fulfill the requested original 100 backgrounds, 100 human NPCs, 100 monsters, the extra 100 interior backgrounds, or a manuscript longer than one million words. An image-generation prompt is not a delivered asset. A plot outline, word budget, alternate playthrough, or repeated paragraph is not an authored word.
 
 ## Production target
 
 The requested final manuscript must contain at least **1,000,001 displayed prose words**, counted once per authored scene. Choice captions, character biographies, README text, outlines, and the number of possible routes are excluded. The current counting convention is whitespace-delimited words, applied to the current scene text, including editorial revisions.
 
-`python tools/validate_world.py` writes the actual inventory and manuscript size to `build/content_report.json`. Structural validation passes independently of the production target; a passing draft CI run does not mean the target is fulfilled.
+`python tools/validate_world.py` writes the actual inventory and manuscript size to `build/content_report.json`. Structural validation passes independently of the production target; a passing draft CI run does not mean the target is fulfilled. Run `python tools/validate_world.py --require-complete` to require all deliverables. The command writes the report and exits unsuccessfully while any quota remains unmet. The manually dispatched CI workflow exposes the same check through its `require_complete` input.
+
+The continuation request adds **100 building-interior backgrounds** to the original 100 backgrounds: **200 backgrounds total**. Only paintings explicitly assigned to the `building_interiors` collection count toward the extra quota; those paintings do not also satisfy the original background quota. The existing valley archive remains part of the original five. Exact repeated scene prose is rejected instead of counted again.
 
 Native image dimensions are recorded per asset. Keep the original generated file. Do not satisfy “highest possible resolution” by enlarging a smaller file, cropping many tiny atlas cells, or copying one drawing under multiple names.
 
@@ -130,4 +133,4 @@ River echoes are volunteered external copies, not missing pieces of minds. Three
 
 These structural checks supplement an editorial reading of every new scene. They do not certify that every possible literary inconsistency has been eliminated.
 
-The manuscript still needs **989,727** additional authored prose words to reach 1,000,001. The original art quotas still need **95 backgrounds, 96 human NPCs, and 98 monsters**. The two item paintings are additional assets and do not count toward those quotas.
+The manuscript still needs **989,727** additional authored prose words to reach 1,000,001. The original art quotas still need **95 backgrounds, 96 human NPCs, and 98 monsters**. The two item paintings are additional assets and do not count toward those quotas. The extra interior quota has 10 delivered paintings and 90 remaining. These future-campaign locations are available in the gallery; their existence does not claim that the outlined books have been written.
