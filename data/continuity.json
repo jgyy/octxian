@@ -1251,10 +1251,62 @@
         "ring_road_notice",
         "ring_qi_temptation"
       ]
+    },
+    {
+      "id": "mortal_origin",
+      "statement": "Lin Yue starts mortal, with zero retained qi and an unmeasured ordinary mixed root. The pendant stores an offered memory and gives no skill, realm, root or reserve.",
+      "anchors": [
+        "arrival",
+        "mortal_008",
+        "mortal_rejoin_004",
+        "truth",
+        "memory"
+      ]
+    },
+    {
+      "id": "earned_first_trace",
+      "statement": "The training arc spans repeated weeks of work, failed tests, injury and recovery; Body Tempering assessments precede three separate retained-trace tests. Lin Yue enters Qi Gathering stage 1 only after clean release and recovered hands.",
+      "anchors": [
+        "tempering_006",
+        "tempering_013",
+        "tempering_after_004",
+        "tempering_after_011",
+        "tempering_after_012",
+        "tempering_after_013"
+      ]
+    },
+    {
+      "id": "novice_capacity",
+      "statement": "All later Book I preparations and endings keep Lin Yue at Qi Gathering stage 1. Choice attributes measure familiarity, not reserve or realm. Experts and separately fueled arrays bear the main mountain load; the novice uses a tripped relay or ordinary evacuation work.",
+      "anchors": [
+        "breath",
+        "fracture",
+        "shared",
+        "covenant",
+        "release",
+        "ending_shared",
+        "ending_covenant",
+        "ending_release"
+      ]
     }
   ],
   "review_policy": "Review each new chapter's chronology, custody, character knowledge, and alternate outcomes before updating this ledger. Structural checks supplement editorial review; they do not prove the absence of all possible plot holes.",
   "checkpoints": [
+    {
+      "id": "training_before_upper_gate",
+      "required": [
+        "mortal_005",
+        "mortal_rejoin_002",
+        "tempering_006",
+        "tempering_013",
+        "tempering_after_004",
+        "tempering_after_005",
+        "tempering_after_011",
+        "tempering_after_012",
+        "tempering_after_013"
+      ],
+      "before": "pendant"
+    },
     {
       "id": "household_knowledge",
       "required": [
