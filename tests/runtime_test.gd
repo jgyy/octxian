@@ -545,5 +545,25 @@ func _test_cultivation_ui(game) -> void:
 	game._item_selected(2)
 	check(game.item_image.texture != null and game.item_image.texture.get_size() == Vector2(1024, 1536), "Practice wick must be inspectable at native size")
 	game._close_popup()
+	for sample in [{"node": "sluice_005", "actor": "duan_zhi"}, {"node": "reed_step_011", "actor": "brine_mantis"}]:
+		game.state.current = sample.node
+		game._scene()
+		check(game.actor.character == sample.actor and game.actor.sprite.texture != null, "Sluice characters must render native portraits")
+		if game.actor.sprite.texture != null:
+			check(game.actor.sprite.texture.get_size() == Vector2(1024, 1536), "Sluice sprites must retain full native detail")
+		check(game.background.texture != null and game.background.texture.get_size() == Vector2(1536, 1024), "Sluice scenes must use their own environment")
+	game.state.current = "channels_044"
+	game._scene()
+	var first_pair: String = game._cultivation_label(game.state.node())
+	check(first_pair.contains("3: First pair") and game.atmosphere.effect == "paired_trace", "The earned pair must select its authored realm and native effect")
+	game.state.stats.qi = game.StoryState.MAX_STAT
+	check(game._cultivation_label(game.state.node()) == first_pair, "A high attribute score cannot skip the first-pair stage")
+	game.state.stats = before_stats
+	game._items()
+	game._item_selected(3)
+	check(game.item_image.texture != null and game.item_image.texture.get_size() == Vector2(1024, 1536), "Meridian caliper must be inspectable at native size")
+	check(game.atmosphere.paused, "Inspection must pause the paired-channel effect")
+	game._close_popup()
+	check(not game.atmosphere.paused, "Closing inspection must resume the paired-channel scene")
 	game.state.current = "arrival"
 	game._title()

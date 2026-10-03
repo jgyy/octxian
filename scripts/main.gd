@@ -849,7 +849,7 @@ func _capture() -> void:
 		_set_outfit(character, Wardrobe.DEFAULT_OUTFIT)
 
 	atmosphere.enabled = not reduced_motion
-	for sample in [{"id": "arrival", "file": "mortal_arrival"}, {"id": "han_mei_shift", "file": "mortal_han_mei"}, {"id": "mortal_mite_choice", "file": "mortal_mite"}, {"id": "tempering_after_013", "file": "first_trace"}, {"id": "lantern_hub", "file": "quest_hub"}, {"id": "reed_voice", "file": "spirit_encounter"}, {"id": "ferry_price", "file": "ferry_encounter"}, {"id": "archive_copies", "file": "archive_encounter"}, {"id": "river_xiu", "file": "river_pilot"}, {"id": "river_spirit", "file": "river_spirit"}, {"id": "harbor_answer", "file": "river_harbor"}, {"id": "orchard_arrival", "file": "orchard_healer"}, {"id": "orchard_hart_answer", "file": "orchard_spirit"}, {"id": "orchard_resolution_choice", "file": "orchard_choices"}, {"id": "city_arrival", "file": "city_market"}, {"id": "city_mask_studio", "file": "city_mask_maker"}, {"id": "city_registry_mei", "file": "city_archivist"}, {"id": "city_registry_tao", "file": "city_courier"}, {"id": "city_perfumer_workroom", "file": "city_perfumer"}, {"id": "city_courser_terms", "file": "city_courser"}, {"id": "city_perfumer_moth_terms", "file": "city_moth"}, {"id": "city_final_choice", "file": "city_choices"}, {"id": "court_upper_bench", "file": "court_upper_bench"}, {"id": "court_luo_shan", "file": "court_luo_shan"}, {"id": "court_bai_qun", "file": "court_bai_qun"}, {"id": "court_du_heng", "file": "court_du_heng"}, {"id": "court_rain_heron", "file": "court_rain_heron"}, {"id": "court_investigation_choice", "file": "court_investigation_choice"}, {"id": "court_final_choice", "file": "court_final_choice"}, {"id": "court_weather_setup", "file": "court_weather_setup"}]:
+	for sample in [{"id": "arrival", "file": "mortal_arrival"}, {"id": "han_mei_shift", "file": "mortal_han_mei"}, {"id": "mortal_mite_choice", "file": "mortal_mite"}, {"id": "tempering_after_013", "file": "first_trace"}, {"id": "sluice_005", "file": "sluice_examiner"}, {"id": "sluice_040", "file": "sluice_retention"}, {"id": "channels_044", "file": "paired_channel"}, {"id": "reed_step_011", "file": "brine_mantis"}, {"id": "lantern_hub", "file": "quest_hub"}, {"id": "reed_voice", "file": "spirit_encounter"}, {"id": "ferry_price", "file": "ferry_encounter"}, {"id": "archive_copies", "file": "archive_encounter"}, {"id": "river_xiu", "file": "river_pilot"}, {"id": "river_spirit", "file": "river_spirit"}, {"id": "harbor_answer", "file": "river_harbor"}, {"id": "orchard_arrival", "file": "orchard_healer"}, {"id": "orchard_hart_answer", "file": "orchard_spirit"}, {"id": "orchard_resolution_choice", "file": "orchard_choices"}, {"id": "city_arrival", "file": "city_market"}, {"id": "city_mask_studio", "file": "city_mask_maker"}, {"id": "city_registry_mei", "file": "city_archivist"}, {"id": "city_registry_tao", "file": "city_courier"}, {"id": "city_perfumer_workroom", "file": "city_perfumer"}, {"id": "city_courser_terms", "file": "city_courser"}, {"id": "city_perfumer_moth_terms", "file": "city_moth"}, {"id": "city_final_choice", "file": "city_choices"}, {"id": "court_upper_bench", "file": "court_upper_bench"}, {"id": "court_luo_shan", "file": "court_luo_shan"}, {"id": "court_bai_qun", "file": "court_bai_qun"}, {"id": "court_du_heng", "file": "court_du_heng"}, {"id": "court_rain_heron", "file": "court_rain_heron"}, {"id": "court_investigation_choice", "file": "court_investigation_choice"}, {"id": "court_final_choice", "file": "court_final_choice"}, {"id": "court_weather_setup", "file": "court_weather_setup"}]:
 		state.current = sample.id
 		_scene()
 		dialogue.visible_characters = -1
@@ -968,6 +968,21 @@ func _smoke_build() -> void:
 	state.current = "mortal_mite_choice"
 	_scene()
 	valid = valid and actor.character == "furnace_mite" and actor.sprite.texture != null
+	# The packaged sluice arc must retain native art and authored advancement.
+	for encounter in [{"node": "sluice_005", "actor": "duan_zhi"}, {"node": "reed_step_011", "actor": "brine_mantis"}]:
+		state.current = str(encounter.node)
+		_scene()
+		valid = valid and actor.character == encounter.actor and actor.sprite.texture != null
+		valid = valid and background.texture != null and background.texture.get_size() == Vector2(1536, 1024)
+		valid = valid and audio.voice.stream is AudioStreamOggVorbis
+	state.current = "channels_044"
+	_scene()
+	valid = valid and _cultivation_label(state.node()).contains("3: First pair")
+	valid = valid and atmosphere.effect == "paired_trace"
+	_items()
+	_item_selected(3)
+	valid = valid and item_image.texture != null and item_image.texture.get_size() == Vector2(1024, 1536)
+	_close_popup()
 	var retained_stats: Dictionary = state.stats.duplicate()
 	state.stats = {"qi": 0, "trust": 0, "insight": 0, "resolve": 0}
 	state.current = "court_final_choice"
