@@ -8,7 +8,8 @@
     "book_v",
     "book_vi",
     "book_vii",
-    "book_viii"
+    "book_viii",
+    "book_ix"
   ],
   "facts": [
     {
@@ -1674,6 +1675,96 @@
         "foundry_nights_014",
         "foundry_recovery_015"
       ]
+    },
+    {
+      "id": "ridge_six_week_preparation",
+      "statement": "Every foundry ending has a distinct six-week opening before the shared Thunderfen departure; no offscreen stage is awarded.",
+      "anchors": [
+        "ridge_from_bench",
+        "ridge_from_survey",
+        "ridge_from_home",
+        "ridge_departure_001"
+      ]
+    },
+    {
+      "id": "ridge_bounded_commission",
+      "statement": "Seven field days cost sixteen task copper and four journey copper, with meals and reserved return fare stated before work; waiting is paid within the same bounded term.",
+      "anchors": [
+        "ridge_departure_002",
+        "ridge_return_004"
+      ]
+    },
+    {
+      "id": "ridge_earned_two_pairs",
+      "statement": "All Thunderfen scenes remain Qi Gathering stage four. Recovered control tests use the two established arm pairs and grant no new route.",
+      "anchors": [
+        "ridge_departure_009",
+        "ridge_findings_005",
+        "ridge_findings_007",
+        "ridge_return_006",
+        "ridge_return_007"
+      ]
+    },
+    {
+      "id": "ridge_monster_signals",
+      "statement": "Shell taps are observed signals, not private memory reading or automatic permission; no keeper body part is sampled.",
+      "anchors": [
+        "ridge_departure_010",
+        "ridge_pool_002",
+        "ridge_pool_003",
+        "ridge_pool_004"
+      ]
+    },
+    {
+      "id": "ridge_shared_method_findings",
+      "statement": "Regardless of the selected investigation, qualified independent reports identify wet bypass, conductive glaze fines and unsafe pool geometry before the trial.",
+      "anchors": [
+        "ridge_investigation_choice",
+        "ridge_findings_001",
+        "ridge_findings_002",
+        "ridge_findings_005"
+      ]
+    },
+    {
+      "id": "ridge_random_interruptions",
+      "statement": "Chance changes weather or incident observations, while earned realm, wages, permissions and barrier fuel rules remain the same.",
+      "anchors": [
+        "ridge_weather_event",
+        "ridge_incident_event",
+        "ridge_return_001",
+        "ridge_return_004"
+      ]
+    },
+    {
+      "id": "ridge_separate_power",
+      "statement": "Field and return-protection stones have separate tasks; Lin Yue supplies bounded commands and never carries the storm or barrier load.",
+      "anchors": [
+        "ridge_departure_002",
+        "ridge_findings_004",
+        "ridge_replica_002",
+        "ridge_incident_surge_002"
+      ]
+    },
+    {
+      "id": "ridge_recovery_before_new_work",
+      "statement": "The interruption precedes clinician review, commission closure, reduced work and recovered route checks before the final offers.",
+      "anchors": [
+        "ridge_return_002",
+        "ridge_return_004",
+        "ridge_return_006",
+        "ridge_return_007",
+        "ridge_final_choice"
+      ]
+    },
+    {
+      "id": "ridge_repair_not_reopening",
+      "statement": "Replica success and a material finding do not reopen the original road; qualified crews require independent dry and wet load tests.",
+      "anchors": [
+        "ridge_findings_005",
+        "ridge_return_005",
+        "ridge_model_003",
+        "ridge_route_003"
+      ]
     }
   ],
   "review_policy": "Review each new chapter's chronology, custody, character knowledge, and alternate outcomes before updating this ledger. Structural checks supplement editorial review; they do not prove the absence of all possible plot holes.",
@@ -2219,6 +2310,45 @@
         "foundry_aftermath_009"
       ],
       "before": "foundry_final_choice"
+    },
+    {
+      "id": "ridge_foundry_certification_before_departure",
+      "required": [
+        "foundry_assessment_018",
+        "foundry_final_choice"
+      ],
+      "before": "ridge_departure_001"
+    },
+    {
+      "id": "ridge_terms_and_weather_before_investigation",
+      "required": [
+        "ridge_departure_002",
+        "ridge_weather_event",
+        "ridge_pool_003",
+        "ridge_pool_004"
+      ],
+      "before": "ridge_investigation_choice"
+    },
+    {
+      "id": "ridge_independent_reports_and_controls_before_incident",
+      "required": [
+        "ridge_findings_001",
+        "ridge_findings_002",
+        "ridge_findings_004",
+        "ridge_findings_005"
+      ],
+      "before": "ridge_incident_event"
+    },
+    {
+      "id": "ridge_recovery_and_terms_before_endings",
+      "required": [
+        "ridge_incident_event",
+        "ridge_return_002",
+        "ridge_return_004",
+        "ridge_return_006",
+        "ridge_return_007"
+      ],
+      "before": "ridge_final_choice"
     }
   ]
 }
