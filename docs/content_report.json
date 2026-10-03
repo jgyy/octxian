@@ -1,23 +1,23 @@
 {
-  "scenes": 353,
-  "authored_words": 23615,
+  "scenes": 1137,
+  "authored_words": 98705,
   "word_target": 1000001,
   "word_target_met": false,
   "delivered_art": {
-    "backgrounds": 36,
-    "npcs": 9,
-    "monsters": 5
+    "backgrounds": 39,
+    "npcs": 13,
+    "monsters": 6
   },
   "delivered_original_art": {
-    "backgrounds": 6,
-    "npcs": 9,
-    "monsters": 5
+    "backgrounds": 7,
+    "npcs": 13,
+    "monsters": 6
   },
   "delivered_additional_art": {
-    "building_interiors": 30
+    "building_interiors": 32
   },
   "delivered_items": 2,
-  "delivered_unique_sprites": 14,
+  "delivered_unique_sprites": 19,
   "sprite_target": 1001,
   "sprite_target_met": false,
   "minimum_sprite_native_size": [
@@ -39,13 +39,14 @@
   },
   "art_targets_met": false,
   "remaining": {
-    "authored_words": 976386,
-    "backgrounds": 94,
-    "npcs": 491,
-    "monsters": 496,
-    "building_interiors": 70,
-    "unique_sprites": 987
+    "authored_words": 901296,
+    "backgrounds": 93,
+    "npcs": 487,
+    "monsters": 495,
+    "building_interiors": 68,
+    "unique_sprites": 982
   },
   "complete": false,
-  "originality_validation": "Retained original sources, native dimensions, file hashes, and decoded pixels are checked. Distinct designs require editorial review; poses, recolors, mirrors, and other derivatives do not qualify as independent originals."
+  "originality_validation": "Retained original sources, native dimensions, file hashes, and decoded pixels are checked. Distinct designs require editorial review; poses, recolors, mirrors, and other derivatives do not qualify as independent originals.",
+  "rendered_screenshots": 38
 }
