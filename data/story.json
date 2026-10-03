@@ -629,7 +629,7 @@
       }
     },
     "lantern_shared": {
-      "speaker": "shen_qing",
+      "speaker": "narrator",
       "actor": "shen_qing",
       "text": "Three hundred lanterns held one willing star, but Lin Yue's own field still holds only its first trace. The valley road remains under repair. Shen Qing brings a commission for the salt villages and a workshop placement for the waiting weeks. Before she can help carry any promise downhill, she must learn what her reserve can retain through an ordinary night.",
       "chapter": "book_ii",
@@ -641,7 +641,7 @@
       }
     },
     "lantern_covenant": {
-      "speaker": "elder_yun",
+      "speaker": "narrator",
       "actor": "elder_yun",
       "text": "The star accepted its covenant. The displaced valley paths still need engineers, meals and patient repairs. Elder Yun gives Lin Yue a future place on the listening commission, with no promotion attached. For now she can earn wages at the brine sluice and practice under its examiner. Her mother's offered memory supplies neither fuel nor a finished meridian.",
       "chapter": "book_ii",
@@ -653,7 +653,7 @@
       }
     },
     "lantern_release": {
-      "speaker": "mo_ran",
+      "speaker": "narrator",
       "actor": "mo_ran",
       "text": "The released mountain has roots, and the drainage channels beneath it need rebuilding before the valley road opens. Mo Ran asks Lin Yue to join the later survey. Today she remains a first-stage novice whose field leaks during sleep. He directs her to a paid sluice placement, where useful work and slow cultivation can share the waiting weeks.",
       "chapter": "book_ii",
@@ -667,10 +667,14 @@
     "lantern_arrival": {
       "speaker": "narrator",
       "actor": "su_lan",
-      "text": "The road down from Azure Cloud ended at a lake black enough to hold every lantern twice. Salt terraces stepped out into the water. Beyond them, a bell tower stood silent among reeds that gleamed like broken porcelain. Lin Yue had expected the village to welcome news of the mountain's deliverance. Instead, every gate bore a strip of blank paper.",
+      "text": "The road ended at a lake black enough to hold every lantern twice. Lin Yue tested her travel thread in shade before approaching the bell tower. Salt wind changed its blank by a small interval; she wrote the correction instead of claiming another breakthrough. Her field held third-stage charge. The village's enormous boundary ward drew power from buried stones, while every gate bore a strip of blank paper.",
       "chapter": "book_ii",
       "background": "bell_tower_square",
-      "next": "lantern_clapper"
+      "next": "lantern_clapper",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "lantern_clapper": {
       "speaker": "su_lan",
@@ -678,15 +682,23 @@
       "text": "Do not write your name on those slips. They are not invitations. Last winter the lake took nineteen names from our register, and the magistrate decided that people with no names could not own land. We leave the paper empty so visitors will ask before lending us another pretty solution.",
       "chapter": "book_ii",
       "background": "bell_tower_square",
-      "next": "lantern_introduction"
+      "next": "lantern_introduction",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "lantern_introduction": {
       "speaker": "lin_yue",
       "actor": "lin_yue",
-      "text": "I brought a pendant, a sword, and several reasons to think I understood a promise. None of them tells me how to return a name. Tell me where to start, Keeper. I can promise to hear the answer. I cannot promise that the first thing I try will be wise.",
+      "text": "I am Lin Yue, third-stage Qi Gathering under Azure Cloud's first-pair method. I brought a calibrated thread, a grounding tail and a limited reserve. None returns a household name. If there is a rated relay I may test it under supervision; if there is ordinary work, I can take my share. First I need to hear what the boundary actually does.",
       "chapter": "book_ii",
       "background": "bell_tower_square",
-      "next": "lantern_empty_bell"
+      "next": "lantern_empty_bell",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "lantern_empty_bell": {
       "speaker": "su_lan",
@@ -694,15 +706,23 @@
       "text": "Su Lan. Keeper is a job that pays in complaints. The bell has no clapper because I took it down. Each time it sounded, another household vanished from the register. People said the beast in the reeds was eating our names. People also said the magistrate was saving us. Both stories were very convenient.",
       "chapter": "book_ii",
       "background": "bell_tower_square",
-      "next": "lantern_map"
+      "next": "lantern_map",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "lantern_map": {
       "speaker": "narrator",
       "actor": "su_lan",
-      "text": "Su Lan spread a salt-stained map across the inn table, with the nineteen household names beside it. Lin Yue read Wei Xiu's name at the north landing. A ferry route stopped halfway through the lake. A marsh trail led to a roofless shrine. Beside the tower, the archive had been crossed out and drawn again. Three roads, three explanations, and one village preparing to become a blank page.",
+      "text": "Su Lan spread a salt-stained map beside the nineteen household names. Wei Xiu's north landing lay across a ferry route. The marsh trail reached a roofless shrine; the archive had been crossed out and drawn again. Copper marks identified the ward's buried fuel stations. Lin Yue recognized a distribution circuit too large for her field and asked who inspected it. Su Lan wrote those workers beside the map's existing witnesses.",
       "chapter": "book_ii",
       "background": "bell_tower_square",
-      "next": "lantern_hub"
+      "next": "lantern_hub",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "lantern_hub": {
       "speaker": "su_lan",
@@ -732,7 +752,11 @@
             "resolve": 1
           }
         }
-      ]
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ferry_departure": {
       "speaker": "narrator",
@@ -740,7 +764,11 @@
       "text": "Wei Jin's ferry was held together by rope, lacquer, and the stubbornness of a man who could mend everything except an official letter. He kept a pot of ginger tea beneath the tiller. On the landing, a carved stone named the lake a public crossing. A fresh seal declared every crossing a trespass.",
       "chapter": "book_ii",
       "background": "bell_tower_square",
-      "next": "ferry_price"
+      "next": "ferry_price",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ferry_price": {
       "speaker": "wei_jin",
@@ -748,7 +776,11 @@
       "text": "You can pay me when you return. That makes you passengers rather than witnesses, according to the clerk who wrote this notice. I have carried the same families for thirty years. If I call them customers now, perhaps their homes will become real enough for the magistrate to tax them.",
       "chapter": "book_ii",
       "background": "bell_tower_square",
-      "next": "ferry_mark"
+      "next": "ferry_mark",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ferry_mark": {
       "speaker": "su_lan",
@@ -756,15 +788,23 @@
       "text": "His daughter carved the crossing stone. Her household was one of the nineteen. Her name is Wei Xiu; she is alive, working at the north landing. Saying it does not restore her deed, but I say it whenever I pass. Be careful with the word missing. Sometimes it describes a person; sometimes it describes what somebody has chosen to stop seeing.",
       "chapter": "book_ii",
       "background": "bell_tower_square",
-      "next": "ferry_water"
+      "next": "ferry_water",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ferry_water": {
       "speaker": "narrator",
       "actor": "su_lan",
-      "text": "They pushed into the lake. Beneath the hull, terraces slid past like pale stairs descending into an unlit house. At the old boundary, Lin Yue felt the pendant answer a pulse below the water. The drowned stone carried two inscriptions. One faced the village. The newer one had been carved on the side that no villager could read.",
+      "text": "Terraces slid beneath the hull like pale stairs into an unlit house. Lin Yue kept the pendant closed against her robe and lowered an unpowered sighting mirror beside the drowned boundary stone. Wei Jin steadied it with a rope. Two inscriptions came into view: an older face toward the village and a newer clause turned inward beneath the water. Her first pair supplied no sight through stone; the ordinary mirror supplied the angle.",
       "chapter": "book_ii",
       "background": "bell_tower_square",
-      "next": "ferry_discovery"
+      "next": "ferry_discovery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ferry_discovery": {
       "speaker": "lin_yue",
@@ -772,15 +812,23 @@
       "text": "Someone turned the boundary inward. The village side says common water. The submerged side says private refuge. Last winter, the revised register let the ward enforce that hidden inscription against the nineteen households. It did not steal the fields by accident. It obeyed an old instruction once the new ink classified the owners as strangers.",
       "chapter": "book_ii",
       "background": "bell_tower_square",
-      "next": "ferry_warning"
+      "next": "ferry_warning",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ferry_warning": {
       "speaker": "wei_jin",
       "actor": "wei_jin",
-      "text": "Then turn it back. I have a lever, and you have more qi than this boat deserves. But the ward is holding the storm away from our winter pans. Turn it too quickly and there will be no harvest to return. Knowing who made a wrong thing does not tell you what can survive its removal.",
+      "text": "A lever and two ferry capstans can raise the stone without rotating it. My crews know the lifting load. Su Lan knows the ward's isolation latch. Your qi can test its small relay through a rated adapter, if your blank stays stable. The stone's shelter runs on buried fuel, not your body. Turning it too quickly could expose the winter pans even if every rope holds.",
       "chapter": "book_ii",
       "background": "bell_tower_square",
-      "next": "ferry_choice"
+      "next": "ferry_choice",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ferry_choice": {
       "speaker": "su_lan",
@@ -811,26 +859,39 @@
             "insight": 2
           }
         }
-      ]
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ferry_raise": {
       "speaker": "lin_yue",
       "actor": "lin_yue",
-      "text": "I will lift it, but not turn it. Let everyone read both faces while the shelter still holds. If the truth changes nothing, we will have learned something uglier than theft. If it changes anything, the hands that change it should be the hands that must live beside it.",
+      "text": "Let the crews lift the stone while Su Lan holds the isolation latch. I can send one quarter-unit through its rated status relay after checking the blank, then discharge. I will not take the lifting load through an unfinished route. Once both faces are visible, everyone can read them while the separately fueled shelter remains. That gives the village evidence before any decision to rotate the boundary.",
       "chapter": "book_ii",
       "background": "bell_tower_square",
       "next": "ferry_raise_cost",
       "animation": "channeling",
       "sfx": "qi",
-      "effect": "qi"
+      "effect": "paired_trace",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ferry_raise_cost": {
       "speaker": "narrator",
       "actor": "su_lan",
-      "text": "Qi shivered along the ferry ropes. The stone rose until its hidden inscription broke the surface. Lin Yue's palms blistered before the ward settled around it. Across the lake, salt workers stopped to read. One woman laughed once, without amusement. Another began copying the letters onto the blank paper at her gate.",
+      "text": "Capstans creaked and the hidden inscription broke the surface. Lin Yue's small pulse crossed the adapter; its reference showed the ward still drawing from the buried stones. She discharged before the crews changed the rope load. Salt caught an existing crack in her glove and stung her palm. She replaced the glove and stopped testing. Across the lake, workers copied both exposed clauses while Su Lan maintained the latch.",
       "chapter": "book_ii",
       "background": "bell_tower_square",
-      "next": "ferry_evidence"
+      "next": "ferry_evidence",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      },
+      "effect": "paired_trace"
     },
     "ferry_share": {
       "speaker": "wei_jin",
@@ -838,15 +899,23 @@
       "text": "I will ask the west-bank crews. You ask the east. Do not say that good people must agree, and do not let the magistrate stand beside you while you ask. A yes given in front of a seal can be another kind of no. Bring me the refusals as carefully as the promises.",
       "chapter": "book_ii",
       "background": "bell_tower_square",
-      "next": "ferry_share_cost"
+      "next": "ferry_share_cost",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ferry_share_cost": {
       "speaker": "narrator",
       "actor": "su_lan",
-      "text": "Five crews offered lantern oil. Two offered ropes. Three refused because winter had already emptied their stores. Su Lan wrote every answer down. The ward widened unevenly, following each freely given thread. It left a cold gap along one shore. Lin Yue covered that gap herself, and understood why asking was harder than commanding.",
+      "text": "Five crews offered oil, two ropes, and three refused because winter had emptied their stores. Su Lan recorded each answer and mapped the gaps before changing any ward link. The crews fueled a temporary shelter with separately inspected stones; the unconnected shore remained protected by the existing arrangement. Lin Yue tested one low-load relay, then stopped. Her finite field could measure an allowed connection; it could not cover the missing shore.",
       "chapter": "book_ii",
       "background": "bell_tower_square",
-      "next": "ferry_evidence"
+      "next": "ferry_evidence",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ferry_wait": {
       "speaker": "su_lan",
@@ -854,7 +923,11 @@
       "text": "Then our work tonight is evidence. We will mark where the common water ended and where the private refuge began. The villagers will decide what to move. Waiting can be cowardice, Yue, but sometimes it is the courage to let another person arrive at an answer you cannot predict.",
       "chapter": "book_ii",
       "background": "bell_tower_square",
-      "next": "ferry_wait_cost"
+      "next": "ferry_wait_cost",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ferry_wait_cost": {
       "speaker": "narrator",
@@ -862,7 +935,11 @@
       "text": "They anchored three lanterns around the stone and drew its position on the map. The ferryman returned without reclaiming a single pan. At the landing, a worker called them useless. Su Lan handed her the map and listened until the anger had a shape. By midnight, the workers had planned a crossing of their own.",
       "chapter": "book_ii",
       "background": "bell_tower_square",
-      "next": "ferry_evidence"
+      "next": "ferry_evidence",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ferry_evidence": {
       "speaker": "wei_jin",
@@ -870,7 +947,11 @@
       "text": "Take this rubbing to the tower. The magistrate's grandfather signed the private refuge clause. My grandmother signed the common-water line. We have inherited both. I cannot make either ancestor answer for it. I can stand beside you when someone asks what I intend to do with my inheritance.",
       "chapter": "book_ii",
       "background": "bell_tower_square",
-      "next": "ferry_return"
+      "next": "ferry_return",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ferry_return": {
       "speaker": "narrator",
@@ -878,7 +959,11 @@
       "text": "The ferry reached the village with no triumphant music and a leak that had grown an inch. Wei Jin charged them for three cups of tea. Su Lan paid for four and left one steaming by the crossing stone. Lin Yue carried the rubbing beneath her robe, where the pendant could not mistake a document for a destiny.",
       "chapter": "book_ii",
       "background": "bell_tower_square",
-      "next": "lantern_conclave"
+      "next": "lantern_conclave",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "reed_approach": {
       "speaker": "narrator",
@@ -887,7 +972,11 @@
       "chapter": "book_ii",
       "background": "bell_tower_square",
       "next": "reed_old_wound",
-      "effect": "reed_light"
+      "effect": "reed_light",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "reed_old_wound": {
       "speaker": "su_lan",
@@ -896,16 +985,24 @@
       "chapter": "book_ii",
       "background": "bell_tower_square",
       "next": "reed_nest",
-      "effect": "reed_light"
+      "effect": "reed_light",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "reed_nest": {
       "speaker": "narrator",
       "actor": "reed_listener",
-      "text": "At the roofless shrine, a creature stood among nests woven from paper. Its feathers were the color of wet slate; salt reeds grew along its spine. A small bronze bell hung at its throat. Inside each nest rested an unmarked household tablet. The creature shielded them with its body when Lin Yue reached for her sword.",
+      "text": "At the roofless shrine stood a creature with wet-slate feathers and salt reeds along its spine. A bronze bell hung at its throat. Paper nests held unmarked household tablets. Lin Yue's copper reference case clicked against her belt, and the Listener shielded the nests. She closed the case at once. A measuring instrument, like a blade, could be a threat when brought into another being's shelter without asking.",
       "chapter": "book_ii",
       "background": "bell_tower_square",
       "next": "reed_voice",
-      "effect": "reed_light"
+      "effect": "reed_light",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "reed_voice": {
       "speaker": "reed_listener",
@@ -914,7 +1011,11 @@
       "chapter": "book_ii",
       "background": "bell_tower_square",
       "next": "reed_question",
-      "effect": "reed_light"
+      "effect": "reed_light",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "reed_question": {
       "speaker": "lin_yue",
@@ -923,7 +1024,11 @@
       "chapter": "book_ii",
       "background": "bell_tower_square",
       "next": "reed_answer",
-      "effect": "reed_light"
+      "effect": "reed_light",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "reed_answer": {
       "speaker": "reed_listener",
@@ -932,7 +1037,11 @@
       "chapter": "book_ii",
       "background": "bell_tower_square",
       "next": "reed_hunger",
-      "effect": "reed_light"
+      "effect": "reed_light",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "reed_hunger": {
       "speaker": "narrator",
@@ -941,7 +1050,11 @@
       "chapter": "book_ii",
       "background": "bell_tower_square",
       "next": "reed_choice",
-      "effect": "reed_light"
+      "effect": "reed_light",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "reed_choice": {
       "speaker": "lin_yue",
@@ -972,7 +1085,11 @@
           }
         }
       ],
-      "effect": "reed_light"
+      "effect": "reed_light",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "reed_escort": {
       "speaker": "reed_listener",
@@ -981,7 +1098,11 @@
       "chapter": "book_ii",
       "background": "bell_tower_square",
       "next": "reed_escort_cost",
-      "effect": "reed_light"
+      "effect": "reed_light",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "reed_escort_cost": {
       "speaker": "narrator",
@@ -990,26 +1111,38 @@
       "chapter": "book_ii",
       "background": "bell_tower_square",
       "next": "reed_memory",
-      "effect": "reed_light"
+      "effect": "reed_light",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "reed_rewrite": {
       "speaker": "lin_yue",
       "actor": "lin_yue",
-      "text": "The old ward says keep what the register recognizes. We will add a question: who keeps the register honest? I do not know how to carve that into a bell. Teach me the rhythm you hear before a name disappears. We can search for a pause large enough to hold an answer.",
+      "text": "The command links a recognized name to an enforced boundary. I can trace its low-power test copy; I cannot carry the lake's ward load or carve a new spiritual law into this bell. Will you describe the rhythm before a name disappears? Su Lan can isolate the test circuit, and we can search for an interruption that leaves a household time to answer.",
       "chapter": "book_ii",
       "background": "bell_tower_square",
       "next": "reed_rewrite_cost",
       "animation": "channeling",
-      "effect": "reed_light"
+      "effect": "reed_light",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "reed_rewrite_cost": {
       "speaker": "narrator",
       "actor": "reed_listener",
-      "text": "The Listener tapped a reed against the shrine stone. Lin Yue answered with the clapper. Their first rhythm broke a nest. Their second made the lake colder. Su Lan stopped them before the third and read the nineteen names aloud. This time they waited for each echo. In the waiting, the ward made room for a voice that was not an order.",
+      "text": "The Listener tapped a rhythm on an unpowered shrine tile. Su Lan copied it into a blank test strip, safely separated from the nests. The first simulation rejected its dummy name; the second overfilled its small fuel channel. Lin Yue grounded the strip and stopped. At the third, Su Lan left a pause for the spoken reply. The simulation accepted it without drawing more than its allotted stone charge. No real tablet had been risked.",
       "chapter": "book_ii",
       "background": "bell_tower_square",
       "next": "reed_memory",
-      "effect": "reed_light"
+      "effect": "reed_light",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "reed_families": {
       "speaker": "su_lan",
@@ -1018,7 +1151,11 @@
       "chapter": "book_ii",
       "background": "bell_tower_square",
       "next": "reed_families_cost",
-      "effect": "reed_light"
+      "effect": "reed_light",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "reed_families_cost": {
       "speaker": "narrator",
@@ -1027,7 +1164,11 @@
       "chapter": "book_ii",
       "background": "bell_tower_square",
       "next": "reed_memory",
-      "effect": "reed_light"
+      "effect": "reed_light",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "reed_memory": {
       "speaker": "reed_listener",
@@ -1036,7 +1177,11 @@
       "chapter": "book_ii",
       "background": "bell_tower_square",
       "next": "reed_return",
-      "effect": "reed_light"
+      "effect": "reed_light",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "reed_return": {
       "speaker": "narrator",
@@ -1045,7 +1190,11 @@
       "chapter": "book_ii",
       "background": "bell_tower_square",
       "next": "lantern_conclave",
-      "effect": "reed_light"
+      "effect": "reed_light",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "archive_door": {
       "speaker": "narrator",
@@ -1053,7 +1202,11 @@
       "text": "The archive door had been sealed with wet ink. An Ru opened it from inside using a kettle, a knife, and a patience Lin Yue immediately envied. Shelves leaned under rolls of household records. On the reading table lay nineteen cards, each bearing a name. At first glance nothing was missing. Then Lin Yue noticed the dates.",
       "chapter": "book_ii",
       "background": "valley_archive",
-      "next": "archive_copies"
+      "next": "archive_copies",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "archive_copies": {
       "speaker": "an_ru",
@@ -1061,7 +1214,11 @@
       "text": "These are copies made yesterday. The missing families appear as newcomers requesting permission to settle land their grandparents farmed. The magistrate offered to restore their names if they signed. He called it mercy. I kept the originals because mercy should survive comparison with the document it replaces.",
       "chapter": "book_ii",
       "background": "valley_archive",
-      "next": "archive_ancestry"
+      "next": "archive_ancestry",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "archive_ancestry": {
       "speaker": "su_lan",
@@ -1069,7 +1226,11 @@
       "text": "My husband is on that card. It says he arrived this spring. He died seven winters ago, standing in the water to rescue a ferry rope. The clerk copied his name from my complaint without copying the reason I had written it. So there he is, applying for a home he had already left feet first.",
       "chapter": "book_ii",
       "background": "valley_archive",
-      "next": "archive_dilemma"
+      "next": "archive_dilemma",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "archive_dilemma": {
       "speaker": "an_ru",
@@ -1077,15 +1238,23 @@
       "text": "The originals prove the village's claim, but they also record debts. Wei Jin's family owes the shrine seventeen years of maintenance. The keeper's house borrowed seed salt during the famine. If we publish everything, the magistrate will demand payment. If we hide the debts, he will call the entire archive forged.",
       "chapter": "book_ii",
       "background": "valley_archive",
-      "next": "archive_reading"
+      "next": "archive_reading",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "archive_reading": {
       "speaker": "narrator",
       "actor": "su_lan",
-      "text": "Lin Yue read until the ink blurred. Each debt had a witness, a date, and an exception written in a smaller hand. The village owed salt when the harvest exceeded its needs. Maintenance was shared when the ferry carried shrine visitors. The magistrate's copies preserved the numbers and omitted every condition that made a number human.",
+      "text": "Lin Yue read the land conditions beside maintenance entries for the ward's fuel stations. Debts had witnesses, dates and exceptions: salt only after a harvest surplus, shared maintenance when the ferry carried shrine visitors. The new copies kept the numbers and removed the conditions. She recognized the same distortion as an examination that reported reserve but hid sampling loss. Here it could erase a household's claim, not merely flatter a novice's result.",
       "chapter": "book_ii",
       "background": "valley_archive",
-      "next": "archive_question"
+      "next": "archive_question",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "archive_question": {
       "speaker": "lin_yue",
@@ -1093,7 +1262,11 @@
       "text": "He has made generosity look like a failed bargain. We can expose the full ledger, restore the exceptions first, or ask each household what it permits us to reveal. There is no clean page waiting behind these pages. There are only people who have to live together after we put the book down.",
       "chapter": "book_ii",
       "background": "valley_archive",
-      "next": "archive_choice"
+      "next": "archive_choice",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "archive_choice": {
       "speaker": "an_ru",
@@ -1123,7 +1296,11 @@
             "trust": 2
           }
         }
-      ]
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "archive_publish": {
       "speaker": "lin_yue",
@@ -1131,7 +1308,11 @@
       "text": "We will take the whole ledger so the originals can be checked. Public copies will include the land clauses and every condition beside them; personal debts need their households' permission before a reading. I will stay through the hearing. If anyone uses a debt to erase a household's right to speak, I will ask them to read its exception out loud.",
       "chapter": "book_ii",
       "background": "valley_archive",
-      "next": "archive_publish_cost"
+      "next": "archive_publish_cost",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "archive_publish_cost": {
       "speaker": "narrator",
@@ -1139,7 +1320,11 @@
       "text": "An Ru wrapped the ledger in oilcloth. Su Lan stopped at a page bearing her husband's mark and stood very still. It recorded a loan she had never known he made. The discovery did not diminish the years they had shared, but it changed their edges. Truth had arrived as grief before it could become evidence.",
       "chapter": "book_ii",
       "background": "valley_archive",
-      "next": "archive_witness"
+      "next": "archive_witness",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "archive_compare": {
       "speaker": "an_ru",
@@ -1147,7 +1332,11 @@
       "text": "Then we need two columns, not an accusation. Here is what the village agreed. Here is what the copy claims. I will put my own name beneath the comparison. People should be able to question the person who assembled their proof, even if that questioning makes the proof harder to use.",
       "chapter": "book_ii",
       "background": "valley_archive",
-      "next": "archive_compare_cost"
+      "next": "archive_compare_cost",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "archive_compare_cost": {
       "speaker": "narrator",
@@ -1155,7 +1344,11 @@
       "text": "They copied until the kettle went cold. Twice Lin Yue read a clause too quickly; twice An Ru made her start again. One exception favored the magistrate's own house, whose winter roof had been rebuilt without charge. Su Lan insisted they preserve that line too. A fair ledger could not begin by finding a new household to erase.",
       "chapter": "book_ii",
       "background": "valley_archive",
-      "next": "archive_witness"
+      "next": "archive_witness",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "archive_consent": {
       "speaker": "su_lan",
@@ -1163,7 +1356,11 @@
       "text": "We will knock on doors before we open this book in the square. A household can refuse us, and we will record the refusal without inventing a reason. We will explain that silence may weaken the case. Then we will leave the door open long enough for the answer to belong to them.",
       "chapter": "book_ii",
       "background": "valley_archive",
-      "next": "archive_consent_cost"
+      "next": "archive_consent_cost",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "archive_consent_cost": {
       "speaker": "narrator",
@@ -1171,7 +1368,11 @@
       "text": "Seven households permitted every page. Six permitted the land records but kept their debts private. Four asked An Ru to read for them. Two refused. Lin Yue wanted to argue with the last two until Su Lan pointed out how closely her helpful speech resembled the magistrate's offer of mercy.",
       "chapter": "book_ii",
       "background": "bell_tower_square",
-      "next": "archive_witness"
+      "next": "archive_witness",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "archive_witness": {
       "speaker": "an_ru",
@@ -1179,7 +1380,11 @@
       "text": "Take my seal, Yue. It proves that the comparison came from this room. It does not prove that you must agree with me. If the magistrate asks who authorized the reading, say the people whose names were on the door. If he asks who authorized my work, say that I did, and bring him here.",
       "chapter": "book_ii",
       "background": "valley_archive",
-      "next": "archive_return"
+      "next": "archive_return",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "archive_return": {
       "speaker": "narrator",
@@ -1187,15 +1392,23 @@
       "text": "They left the archive with paper heavier than any sword. An Ru remained behind to make copies for the households who had asked. The blank slips at the gates began to fill: a name, a question, a date, a refusal. The village did not speak with one voice. Lin Yue began to think that might be the first good sign.",
       "chapter": "book_ii",
       "background": "bell_tower_square",
-      "next": "lantern_conclave"
+      "next": "lantern_conclave",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "lantern_conclave": {
       "speaker": "narrator",
       "actor": "su_lan",
-      "text": "At the bell tower, lanterns gathered in uneven rings. Su Lan placed her clapper on the steps. The magistrate arrived carrying a clean register and an offer to make everything simple. Lin Yue had returned with enough evidence to make simplicity impossible. Now she had to decide whether to seek victory or a settlement people could keep.",
+      "text": "At the tower, Su Lan isolated the bell's enforcement link while crews checked the existing shelter's stones. Lanterns gathered in uneven rings. The magistrate arrived with a clean register and an offer to simplify the claims. Lin Yue kept her field closed; this hearing needed witnesses before power. She had enough evidence to expose the omissions and enough cultivation experience to distrust a clean number with its operating conditions removed.",
       "chapter": "book_ii",
       "background": "bell_tower_square",
-      "next": "assembly_ferry"
+      "next": "assembly_ferry",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "lantern_magistrate": {
       "speaker": "su_lan",
@@ -1203,7 +1416,11 @@
       "text": "You may speak first, Yue. But before you speak for this village, look at it. There are people who agreed with you, people who refused you, and people whose problem you did not have time to visit. A beautiful answer can still leave someone standing outside its light.",
       "chapter": "book_ii",
       "background": "bell_tower_square",
-      "next": "lantern_final_choice"
+      "next": "lantern_final_choice",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "lantern_final_choice": {
       "speaker": "lin_yue",
@@ -1237,7 +1454,11 @@
           "text": "Begin a public ledger and return the decisions to the village.",
           "next": "lantern_ledger"
         }
-      ]
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "lantern_crossing": {
       "speaker": "wei_jin",
@@ -1245,7 +1466,11 @@
       "text": "I will sail the first crossing at dawn. After that, the crews will choose their own turns. The people who refused the ward still have the right to use the landing. If we start charging agreement as a fare, we have learned nothing from the stone under the water.",
       "chapter": "book_ii",
       "background": "bell_tower_square",
-      "next": "ending_crossing"
+      "next": "ending_crossing",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ending_crossing": {
       "speaker": "narrator",
@@ -1254,7 +1479,11 @@
       "chapter": "book_ii",
       "background": "bell_tower_square",
       "ending": "The Open Crossing",
-      "continuation": "river_from_crossing"
+      "continuation": "river_from_crossing",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "lantern_bell": {
       "speaker": "reed_listener",
@@ -1263,7 +1492,11 @@
       "chapter": "book_ii",
       "background": "bell_tower_square",
       "next": "ending_bell",
-      "effect": "bell"
+      "effect": "bell",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ending_bell": {
       "speaker": "narrator",
@@ -1273,27 +1506,39 @@
       "background": "bell_tower_square",
       "ending": "An Unstruck Bell",
       "effect": "bell",
-      "continuation": "river_from_bell"
+      "continuation": "river_from_bell",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "lantern_seed": {
       "speaker": "lin_yue",
       "actor": "lin_yue",
-      "text": "The names will return through the hearing, with the clapper silent until their owners can answer. I will spend my qi on the shrine's future shelter. No household must live beneath it. No name will bind a person to its roots. If the salt kills the first seed, we will learn from the soil before asking anyone to call our failure a sacrifice.",
+      "text": "The hearing returns the names while the clapper remains isolated. For future shelter, I can test one nursery relay through a rated pot; its stone supplies the charge and ordinary hands supply water. My first pair guides a bounded pulse. It cannot make salt harmless or force roots to grow. Nobody's claim will wait for a leaf, and the carpenter's roof work continues whichever seed succeeds.",
       "chapter": "book_ii",
       "background": "bell_tower_square",
       "next": "ending_seed",
       "animation": "channeling",
       "sfx": "qi",
-      "effect": "qi"
+      "effect": "paired_trace",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ending_seed": {
       "speaker": "narrator",
       "actor": "su_lan",
-      "text": "The hearing restored the nineteen household records. The first orange seed failed; the second survived in a pot beside Su Lan's door. In winter, villagers moved it from house to house, sharing the warmth it needed. Lin Yue returned in spring to find three leaves and a record of every night it had been tended. The shrine still needed a roof. Its future shelter was alive.",
+      "text": "The hearing restored all nineteen records. The first seed failed in brackish soil; the second survived after a measured clean-water wash and a different pot. Lin Yue kept the failed readings beside the surviving nursery relay's fuel account. Through winter, villagers shared the ordinary warmth and tending. In spring she found three leaves, still no fourth-stage claim, and a roof repaired by paid carpenters. The future grove remained a small living experiment.",
       "chapter": "book_ii",
       "background": "bell_tower_square",
       "ending": "A Seed of Winter",
-      "continuation": "river_from_seed"
+      "continuation": "river_from_seed",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "lantern_ledger": {
       "speaker": "an_ru",
@@ -1301,7 +1546,11 @@
       "text": "We will begin with the changes, the disagreements, and the names of the people who made them. A ledger is useful only if another hand can correct it. I will keep the first copy. The second belongs in the square. The third should travel with someone willing to return when it is challenged.",
       "chapter": "book_ii",
       "background": "bell_tower_square",
-      "next": "ending_ledger"
+      "next": "ending_ledger",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "ending_ledger": {
       "speaker": "narrator",
@@ -1310,7 +1559,11 @@
       "chapter": "book_ii",
       "background": "bell_tower_square",
       "ending": "The Common Ledger",
-      "continuation": "river_from_ledger"
+      "continuation": "river_from_ledger",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "assembly_ferry": {
       "speaker": "wei_jin",
@@ -1318,7 +1571,11 @@
       "text": "I went to the boundary, with the west-bank crews if you were elsewhere. This rubbing records both faces of the stone. My grandmother signed the common-water line. The magistrate's grandfather signed the private refuge clause. Neither signature gives a living person permission to erase another. I have brought the crews so you can question our account.",
       "next": "assembly_archive",
       "chapter": "book_ii",
-      "background": "bell_tower_square"
+      "background": "bell_tower_square",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "assembly_archive": {
       "speaker": "an_ru",
@@ -1326,7 +1583,11 @@
       "text": "I brought a comparison of the land clauses. The personal debts remain covered unless their households have permitted a reading. Here are the dates and the exceptions missing from the new copies. You may check them against the originals in my room. A copied accusation deserves the same scrutiny as a copied defense.",
       "next": "assembly_listener",
       "chapter": "book_ii",
-      "background": "bell_tower_square"
+      "background": "bell_tower_square",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "assembly_listener": {
       "speaker": "reed_listener",
@@ -1334,15 +1595,23 @@
       "text": "The families brought these nests, and I followed. The keeper's message asked us to come to the tower; it did not command us to surrender the tablets. Each nest holds a household's name beyond the bell's recognition. No person was swallowed. When the ward can hear them safely, their owners will decide how the tablets return.",
       "next": "assembly_test",
       "chapter": "book_ii",
-      "background": "bell_tower_square"
+      "background": "bell_tower_square",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "assembly_test": {
       "speaker": "narrator",
       "actor": "lin_yue",
-      "text": "An Ru laid a disputed copy beneath the rubbing. A salt worker named her household while Su Lan held the clapper still. The old register recognized her; the new one did not. The Listener uncovered the corresponding nest without giving it away. Lin Yue watched the same omission appear in three different kinds of evidence.",
+      "text": "An Ru placed a disputed copy beside the rubbing. Su Lan held the clapper still and kept the enforcement circuit isolated. A salt worker named her household; the old register recognized it, the new copy did not. The Listener uncovered the matching nest without surrendering it. Lin Yue observed the same omission in three records. No pulse through her first pair could replace that comparison, and no bright instrument could authorize a private reading.",
       "next": "assembly_magistrate",
       "chapter": "book_ii",
-      "background": "bell_tower_square"
+      "background": "bell_tower_square",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "assembly_magistrate": {
       "speaker": "an_ru",
@@ -1350,23 +1619,35 @@
       "text": "The magistrate says a single register prevents conflicting claims. That is true. He also says only his copies can settle a conflict. That is the part we dispute. He may answer each discrepancy here, with the witnesses present. No one is being asked to exchange a land claim for agreement with our proposed repairs.",
       "next": "assembly_provisional",
       "chapter": "book_ii",
-      "background": "bell_tower_square"
+      "background": "bell_tower_square",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "assembly_provisional": {
       "speaker": "su_lan",
       "actor": "su_lan",
-      "text": "The magistrate disputes our interpretation, but the original dates can be checked. He has agreed to suspend sealing until the hearing ends. I will keep the clapper down. The crews maintain the existing shelter; disputed households may enter without signing new claims. That buys time, not justice. Each owner must have a chance to answer before we settle the register.",
+      "text": "The original dates can be checked, and sealing is suspended until this hearing ends. I have isolated the bell's enforcement link. The crews inspect the existing shelter's fuel every watch; disputed households may enter without signing new claims. That buys a measured interval of safety. It does not settle ownership. Each household still gets an answer before we reconnect any revised command to the boundary.",
       "next": "assembly_shelter",
       "chapter": "book_ii",
-      "background": "bell_tower_square"
+      "background": "bell_tower_square",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "assembly_shelter": {
       "speaker": "wei_jin",
       "actor": "wei_jin",
-      "text": "The roofless shrine needs shelter as well. Its old orange grove died when salt reached the roots. I saved two seeds from the last fruit; here they are. The names will leave the Listener's care before we experiment with those seeds. Whatever you propose, Yue, nobody's right to a home should depend on whether your tree grows. The carpenter can repair the roof separately.",
+      "text": "The shrine's old orange grove died when salt reached the roots. I saved two seeds. No name will remain in the Listener's care merely to power a seed experiment. The carpenter can repair a roof separately, and our fuel workers can shelter that work. If you propose a growing ward, state its water, soil and stone costs. A right to a home cannot depend on whether a novice's first tree survives.",
       "next": "lantern_magistrate",
       "chapter": "book_ii",
-      "background": "bell_tower_square"
+      "background": "bell_tower_square",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "3: First pair"
+      }
     },
     "river_from_crossing": {
       "speaker": "wei_jin",
