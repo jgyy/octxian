@@ -1,19 +1,19 @@
 {
-  "displayed_scenes": 1858,
-  "displayed_words": 156792,
+  "displayed_scenes": 1874,
+  "displayed_words": 157901,
   "new_training_scenes": 77,
   "new_training_words": 5182,
   "rewritten_book_i_scenes": 36,
   "rewritten_book_i_words": 2397,
-  "rewrite_words": 38679,
+  "rewrite_words": 39788,
   "strict_word_target": 1000001,
   "planned_rewrite_words": 1050000,
   "reference_checks": "pass",
   "duplicate_prose_checks": "pass",
   "continuity_checkpoints": "pass",
   "inherited_words": 118113,
-  "remaining_displayed_words": 843209,
-  "remaining_rewrite_words": 961322,
+  "remaining_displayed_words": 842100,
+  "remaining_rewrite_words": 960213,
   "native_art": [
     {
       "mime": "image/png",
@@ -789,9 +789,25 @@
     "foundry_end_home",
     "foundry_home_007",
     "foundry_home_008",
-    "foundry_home_009"
+    "foundry_home_009",
+    "foundry_refinery_001",
+    "foundry_refinery_002",
+    "foundry_refinery_003",
+    "foundry_refinery_004",
+    "foundry_refinery_005",
+    "foundry_refinery_006",
+    "foundry_refinery_007",
+    "foundry_refinery_008",
+    "foundry_refinery_009",
+    "foundry_refinery_010",
+    "foundry_refinery_011",
+    "foundry_refinery_012",
+    "foundry_refinery_013",
+    "foundry_refinery_014",
+    "foundry_refinery_015",
+    "foundry_refinery_016"
   ],
-  "rewrite_scenes": 552,
+  "rewrite_scenes": 568,
   "plot_repair_scene_ids": [
     "tempering_after_007",
     "tempering_after_009",
@@ -855,14 +871,12 @@
     "rewrite_word_change": 3035,
     "report": "docs/PLOT_HOLE_REVIEW.md"
   },
-  "foundry_scenes": 252,
-  "foundry_words": 18874,
+  "foundry_scenes": 268,
+  "foundry_words": 19983,
   "current_expansion": {
     "name": "Ash Bridge Foundry",
-    "new_scenes": 252,
-    "new_words": 18874,
-    "complete": true,
-    "highest_earned_stage": "4: Second pair",
-    "report": "docs/FOUNDRY_EXPANSION.md"
+    "new_scenes": 268,
+    "new_words": 19983,
+    "complete": false
   }
 }
