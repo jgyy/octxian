@@ -32,7 +32,7 @@ If your Godot executable is named `godot4`, replace `godot` with `godot4` in bot
 
 The playable script contains **196 scenes and 10,274 authored words** across three books, with cultivation stats and gated choices. Book I has three endings; each continues into Book II, which has three investigations and four settlements. Every settlement continues into Book III, with three river routes, six settlement approaches, and three endings.
 
-This draft expansion currently adds **five original-scope backgrounds, 10 extra building-interior backgrounds, four human NPC sprites, two spirit-beast sprites, and two inspectable item paintings** at their native generated sizes. The original 100-background quota, 100 NPCs, 100 monsters and more than one million words remain unfinished. The separate extra 100-interior quota has 10 delivered paintings. Run `python tools/validate_world.py --require-complete` to check all quotas. CI writes exact delivery counts to `build/content_report.json`.
+This draft expansion currently adds **five original-scope backgrounds, 30 extra building-interior backgrounds, four human NPC sprites, two spirit-beast sprites, and two inspectable item paintings** at their native generated sizes. The original 100-background quota, 100 NPCs, 100 monsters and more than one million words remain unfinished. The separate extra 100-interior quota has 30 delivered paintings. Run `python tools/validate_world.py --require-complete` to check all quotas. CI writes exact delivery counts to `build/content_report.json`.
 
 ![Branching dialogue](docs/screenshots/dialogue.png)
 
@@ -103,7 +103,7 @@ The twelve resting portraits come from the original GPT artwork. Body bobbing pr
 | Asset | Delivered |
 |---|---|
 | GPT Images artwork | 24 gesture key poses, twelve outfit reference portraits, one mountain-sect environment |
-| New world paintings | 5 original backgrounds + 10 extra interiors, 4 human NPCs, 2 spirit beasts, 2 items |
+| New world paintings | 5 original backgrounds + 30 extra interiors, 4 human NPCs, 2 spirit beasts, 2 items |
 | Character portraits | **12 intact portraits**: 4 characters × 3 outfits |
 | Animation playback | Sprite2D whole-body bobbing on a four-second loop |
 | Music | Original 48-second pentatonic plucked-string composition |
