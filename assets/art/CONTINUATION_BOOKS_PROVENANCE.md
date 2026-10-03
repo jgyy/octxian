@@ -51,5 +51,8 @@ Each retained PNG is a new image-generation output. Maximum native detail was re
 | harbor_qin_shuo | 1024×1536 | RGBA | `eeb46421fef1ec02d8158a1ea76731ef1d992b1d` |
 | mountain_archive_spring_courtyard | 1672×941 | RGB | `bb335a00ebe38f3fd1814a55d7ceba9f7d1b3079` |
 | mountain_archive_winter_workshop_fire | 1672×941 | RGB | `b8a69690a8fd5760ecd23a8a7443689b6532e65c` |
+| harbor_packing_partnership_room | 1672×941 | RGB | `27d3ec16bb4efb818ad5e3071643f8a3e7cffccf` |
+| onion_hollow_cistern_court | 1672×941 | RGB | `2b0755464844bb61fc57d0b1a5233455dd43b69b` |
+| bitter_wells_town_clinic | 1672×941 | RGB | `1372438049a052349b70d58c6de48bfee5ea9b2e` |
 
-Thirty principal cast portraits and seventeen environments are retained. The rejected Sun Nian output placed her cloudy eye on the wrong side and is excluded. The retained independent original has the cloudy anatomical left eye, on the viewer's right. The thirty cast originals and sixteen preceding environments passed native/artwork validation at source checkpoint da7bc2435090afb47ba656d926f4fa29acacf4b3. The newly retained independent winter-workshop fire awaits its changed-source checks. Actual playable use and rendered captures will be verified at complete book integration.
+Thirty principal cast portraits and twenty environments are retained. The rejected wrong-eye Sun Nian candidate is excluded; the retained independent original has the cloudy anatomical left eye on the viewer's right. All thirty portraits and seventeen preceding environments passed native/artwork validation at source 86dd2763784b25e3464c9bee0ebb8f09231f0845. The new packing room, cistern court and town clinic await this changed-source validation. Actual playable use and rendered captures will be verified at complete book integration.
