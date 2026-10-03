@@ -1,0 +1,147 @@
+{
+  "version": 5,
+  "generator": "native-portrait-bob-v2",
+  "baker_sha256": "e7edcb79cd39689fe4d725176fa96a2a7166ce2b53593b13f0224abb7b75f697",
+  "source": "GPT Images",
+  "derivation": "Native original bytes retained; whole-body bobbing in Godot",
+  "portrait_count": 12,
+  "cell": [
+    1024,
+    1536
+  ],
+  "catalog_sha256": "f376299462f6c4f044da4b4fc9870cfdbb9bef593868d4729243e44759bffb85",
+  "outfits": {
+    "sect": {
+      "characters": {
+        "lin_yue": {
+          "path": "assets/generated/sprites/lin_yue.png",
+          "sha256": "0abaee715714199f29ec5377fe0e47d39318282e6fc683954aa81b6fd6eb7347",
+          "source": "assets/art/core/lin_yue.png",
+          "source_sha256": "0abaee715714199f29ec5377fe0e47d39318282e6fc683954aa81b6fd6eb7347",
+          "native_size": [
+            1024,
+            1536
+          ]
+        },
+        "shen_qing": {
+          "path": "assets/generated/sprites/shen_qing.png",
+          "sha256": "00e8cce3f45e6a254fb4d589db4d63a8740f0817eb3a5d29b57b0518f05414b7",
+          "source": "assets/art/core/shen_qing.png",
+          "source_sha256": "00e8cce3f45e6a254fb4d589db4d63a8740f0817eb3a5d29b57b0518f05414b7",
+          "native_size": [
+            1024,
+            1536
+          ]
+        },
+        "elder_yun": {
+          "path": "assets/generated/sprites/elder_yun.png",
+          "sha256": "31de17fdcd55d363a935e07eb230f177f6bc0e1be609920f5a15295cf663c6fe",
+          "source": "assets/art/core/elder_yun.png",
+          "source_sha256": "31de17fdcd55d363a935e07eb230f177f6bc0e1be609920f5a15295cf663c6fe",
+          "native_size": [
+            1024,
+            1536
+          ]
+        },
+        "mo_ran": {
+          "path": "assets/generated/sprites/mo_ran.png",
+          "sha256": "df255bfeb392d03b8a6da49467f6b63b1390f48dc4adb341905bda66a80f183b",
+          "source": "assets/art/core/mo_ran.png",
+          "source_sha256": "df255bfeb392d03b8a6da49467f6b63b1390f48dc4adb341905bda66a80f183b",
+          "native_size": [
+            1024,
+            1536
+          ]
+        }
+      }
+    },
+    "training": {
+      "characters": {
+        "lin_yue": {
+          "path": "assets/generated/sprites/lin_yue_training.png",
+          "sha256": "fdade6115e9395927addcb94d6adc80c2b3bcd27ff569bdd827e0b31f9f44d18",
+          "source": "assets/art/core/lin_yue_training.png",
+          "source_sha256": "fdade6115e9395927addcb94d6adc80c2b3bcd27ff569bdd827e0b31f9f44d18",
+          "native_size": [
+            1024,
+            1536
+          ]
+        },
+        "shen_qing": {
+          "path": "assets/generated/sprites/shen_qing_training.png",
+          "sha256": "fe38732c6df5155719f0316c58ac0129d7b8867343998433357bf256938e789f",
+          "source": "assets/art/core/shen_qing_training.png",
+          "source_sha256": "fe38732c6df5155719f0316c58ac0129d7b8867343998433357bf256938e789f",
+          "native_size": [
+            1024,
+            1536
+          ]
+        },
+        "elder_yun": {
+          "path": "assets/generated/sprites/elder_yun_training.png",
+          "sha256": "993e204aa505c917a88193565c21360a53f310204c4db5ea19c5cb5946aa45a5",
+          "source": "assets/art/core/elder_yun_training.png",
+          "source_sha256": "993e204aa505c917a88193565c21360a53f310204c4db5ea19c5cb5946aa45a5",
+          "native_size": [
+            1024,
+            1536
+          ]
+        },
+        "mo_ran": {
+          "path": "assets/generated/sprites/mo_ran_training.png",
+          "sha256": "5131f97128b7835c52a557962c7fede7d3fb315b9181569780d6e13f23a8c3b8",
+          "source": "assets/art/core/mo_ran_training.png",
+          "source_sha256": "5131f97128b7835c52a557962c7fede7d3fb315b9181569780d6e13f23a8c3b8",
+          "native_size": [
+            1024,
+            1536
+          ]
+        }
+      }
+    },
+    "festival": {
+      "characters": {
+        "lin_yue": {
+          "path": "assets/generated/sprites/lin_yue_festival.png",
+          "sha256": "ea7dcefdbe89ab576cf3bdb5c72e9da0466c3d92b20f0ce64e31d75b9b0d3347",
+          "source": "assets/art/core/lin_yue_festival.png",
+          "source_sha256": "ea7dcefdbe89ab576cf3bdb5c72e9da0466c3d92b20f0ce64e31d75b9b0d3347",
+          "native_size": [
+            1024,
+            1536
+          ]
+        },
+        "shen_qing": {
+          "path": "assets/generated/sprites/shen_qing_festival.png",
+          "sha256": "35607b7956db47886accb8f9c9105634c98786d07f05698ff2b6a7f12eb77cc3",
+          "source": "assets/art/core/shen_qing_festival.png",
+          "source_sha256": "35607b7956db47886accb8f9c9105634c98786d07f05698ff2b6a7f12eb77cc3",
+          "native_size": [
+            1024,
+            1536
+          ]
+        },
+        "elder_yun": {
+          "path": "assets/generated/sprites/elder_yun_festival.png",
+          "sha256": "843a207fa051691b3b023325c5561ecaf16d99b4c52b5da693accdfe2b1c4e72",
+          "source": "assets/art/core/elder_yun_festival.png",
+          "source_sha256": "843a207fa051691b3b023325c5561ecaf16d99b4c52b5da693accdfe2b1c4e72",
+          "native_size": [
+            1024,
+            1536
+          ]
+        },
+        "mo_ran": {
+          "path": "assets/generated/sprites/mo_ran_festival.png",
+          "sha256": "71c29d3f91221c098f41f310315dc54323be85452fade630586e733adba7934c",
+          "source": "assets/art/core/mo_ran_festival.png",
+          "source_sha256": "71c29d3f91221c098f41f310315dc54323be85452fade630586e733adba7934c",
+          "native_size": [
+            1024,
+            1536
+          ]
+        }
+      }
+    }
+  }
+}
