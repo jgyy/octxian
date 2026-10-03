@@ -11,18 +11,18 @@ Lin Yue begins as a mortal kiln worker with zero retained qi. She earns Body Tem
 | Sluice apprenticeship | 131 scenes / 7,892 words |
 | Recast valley openings and power scenes | 22 scenes / 1,509 words |
 | Other branch, power and continuity repairs | 34 scenes / 2,825 words |
-| New ash-bridge foundry arc | 252 scenes / 18,874 words |
-| Total cultivation rewrite | **552 scenes / 38,679 words** |
-| Whole playable campaign | **1,858 scenes / 156,792 words** |
+| New ash-bridge foundry arc | 299 scenes / 22,177 words |
+| Total cultivation rewrite | **599 scenes / 41,982 words** |
+| Whole playable campaign | **1,905 scenes / 160,095 words** |
 | Inherited prose awaiting recast | 118,113 words |
 
 The prior [plot-hole review](PLOT_HOLE_REVIEW.md) repairs 41 existing scenes and adds four prerequisite scenes, producing **401 net displayed words** and **3,035 newly credited rewrite words**. Updated passages already credited are counted once. Metadata, canon, labels, outlines, documentation and art descriptions contribute zero manuscript credit.
 
-[The machine-readable ledger](CULTIVATION_PROGRESS.json) lists every credited scene. The world validator recomputes the total, rewrite and inherited counts and rejects stale, duplicated or unknown credit. The strict target remains **1,000,001 words**: 843,209 additional displayed words are needed, or **961,322 rewrite words** for the complete rewritten manuscript. The fourteen-volume 1,050,000-word architecture is a plan.
+[The machine-readable ledger](CULTIVATION_PROGRESS.json) lists every credited scene. The world validator recomputes the total, rewrite and inherited counts and rejects stale, duplicated or unknown credit. The strict target remains **1,000,001 words**: 839,906 additional displayed words are needed, or **958,019 rewrite words** for the complete rewritten manuscript. The fourteen-volume 1,050,000-word architecture is a plan.
 
 ## Earned progression
 
-The [foundry arc](FOUNDRY_EXPANSION.md) adds 18,874 new playable words and earns the second pair on Day Eighty through three independent recovered trials. Work and creature-response branches share findings before mandatory gates.
+The [foundry arc](FOUNDRY_EXPANSION.md) adds 22,177 new playable words and earns the second pair on Day Eighty through three independent recovered trials. Work and creature-response branches share findings before mandatory gates.
 
 The mortal opening reaches Qi Gathering stage one through three recovered retained-trace tests. During the repaired-road delay after Book I, Lin Yue works at the brine sluice for nearly three months. Stage two requires three calibrated six-unit overnight retention trials. Stage three requires three twelve-unit first-pair trials, compatible purity, interruption control and normal next-day sensation.
 
@@ -42,7 +42,7 @@ The larger artwork library remains unfinished: eleven original-scope environment
 
 ## Validation and remaining production
 
-The merged-data audit passes unique prose, the 100-word scene limit, character/art/stage references, actual gated reachability and every continuity checkpoint. All 1,858 scenes and 28 endings are reachable across 172,945 capped states. The campaign guards 45 mandatory continuity checkpoints. Books III–VII retain stage three; Book VIII earns stage four after its required recovered trials.
+The merged-data audit passes unique prose, the 100-word scene limit, character/art/stage references, actual gated reachability and every continuity checkpoint. All 1,905 scenes and 28 endings are reachable across 177,034 capped states. The campaign guards 45 mandatory continuity checkpoints. Books III–VII retain stage three; Book VIII earns stage four after its required recovered trials.
 
 CI runs Python accounting and advancement regressions, native art and alpha checks, complete narration, Godot route/save/UI checks, fifty-nine actual viewport captures and standalone Linux launch. The final run and media commit are linked in the draft PR.
 

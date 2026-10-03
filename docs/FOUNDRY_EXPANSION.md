@@ -1,8 +1,10 @@
 # Ash Bridge Foundry expansion
 
-The continuation adds **252 playable scenes / 18,874 unique displayed words**, from every Book VII arrangement. Lin Yue arrives at Qi Gathering 3 and earns stage 4 through failed practice, recovery and independent tests. All word credit comes from playable node text.
+The continuation adds **299 playable scenes / 22,177 unique displayed words**, from every Book VII arrangement. Lin Yue arrives at Qi Gathering 3 and earns stage 4 through failed practice, recovery and independent tests. All word credit comes from playable node text.
 
 ## Cultivation and consequence
+
+The refining lessons distinguish raw admission, compatible qi, useful output and loss. A sealed Foundation owner's fluid supplies an observation, never a shortcut to condensation. Ordinary sparring and one rated Reed-Step teach timing under the existing first pair, without sword aura or internal leg routes. Rest includes doubt, ordinary repair and controlled external observation, with no hidden advancement.
 
 The six-contact comb compares five external phase wells and a sixth blank; it does not directly see a soul or open six meridians. Compatible quantity, conversion, rate, duration, warm-material behavior and delivery loss are distinct. Reference stones power external comparisons, while personal samples and route tasks debit personal reserve.
 
@@ -18,7 +20,8 @@ All three final outcomes preserve stage four. Furnace commands need task-specifi
 flowchart TD
     River["Every Book VII arrangement"] --> Baseline["Local first-pair baseline; paid place"]
     Baseline --> Material["Five-phase external sampling; blanks; thermal limits"]
-    Material --> Work["Sorting, batch records or lighter rota"]
+    Material --> Martial["Closed-field sparring; one rated prepared step"]
+    Martial --> Work["Sorting, batch records or lighter rota"]
     Work --> Shared["Common findings; ordinary shoulder preparation"]
     Shared --> Failure["Day 31: warmed material tail; delayed warning; stop"]
     Failure --> Rest["Fourteen-day rest; Day 40 funded renewal"]
@@ -57,6 +60,6 @@ Nine independent native generations are retained, without enlargement:
 
 Six Python regressions guard common continuation, independent certification, shared branch findings, recovery, all three formal trials and ungated final options. Godot checks the new participants, environments, fourth-stage label, inspectable comb and effect pause/reduced-motion behavior. CI renders fifty-nine actual viewport captures, including ten new foundry/home/comb views.
 
-The merged-data audit checks unique prose, at most one hundred words per scene, all references, 145 anchored facts and 45 required checkpoints. **1,858 scenes and 28 endings remain reachable across 172,945 capped attribute states.** Final CI and media evidence are linked in draft PR #3.
+The merged-data audit checks unique prose, at most one hundred words per scene, all references, 148 anchored facts and 45 required checkpoints. **1,905 scenes and 28 endings remain reachable across 177,034 capped attribute states.** Final CI and media evidence are linked in draft PR #3.
 
-Whole campaign: **156,792 words**. Credited cultivation recast: **38,679 words / 552 scenes**. Inherited prose awaiting recast: **118,113 words**. The strict target is **1,000,001 words**; **843,209 displayed words** or **961,322 recast words** remain. This is a completed chapter toward that unfinished production goal.
+Whole campaign: **160,095 words**. Credited cultivation recast: **41,982 words / 599 scenes**. Inherited prose awaiting recast: **118,113 words**. The strict target is **1,000,001 words**; **839,906 displayed words** or **958,019 recast words** remain. This is a completed chapter toward that unfinished production goal.
