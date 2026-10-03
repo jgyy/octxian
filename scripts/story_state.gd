@@ -160,7 +160,10 @@ func load_game(path: String = "user://jade_vow_save.json") -> bool:
 	var checkpoint := _read_checkpoint_file(checkpoint_path)
 	if not checkpoint.ok:
 		return false
-	var data = JSON.parse_string(checkpoint.bytes.get_string_from_utf8())
+	var parser := JSON.new()
+	if parser.parse(checkpoint.bytes.get_string_from_utf8()) != OK:
+		return false
+	var data = parser.data
 	if not data is Dictionary or data.get("version", -1) != SAVE_VERSION:
 		return false
 	if not story["nodes"].has(data.get("current", "")):
