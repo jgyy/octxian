@@ -5,19 +5,19 @@
   "word_target_met": false,
   "delivered_art": {
     "backgrounds": 61,
-    "npcs": 36,
+    "npcs": 50,
     "monsters": 12
   },
   "delivered_original_art": {
     "backgrounds": 24,
-    "npcs": 36,
+    "npcs": 50,
     "monsters": 12
   },
   "delivered_additional_art": {
     "building_interiors": 37
   },
   "delivered_items": 6,
-  "delivered_unique_sprites": 48,
+  "delivered_unique_sprites": 62,
   "sprite_target": 1001,
   "sprite_target_met": false,
   "minimum_sprite_native_size": [
@@ -41,10 +41,10 @@
   "remaining": {
     "authored_words": 809126,
     "backgrounds": 76,
-    "npcs": 464,
+    "npcs": 450,
     "monsters": 489,
     "building_interiors": 63,
-    "unique_sprites": 953
+    "unique_sprites": 939
   },
   "complete": false,
   "originality_validation": "Retained original sources, native dimensions, file hashes, and decoded pixels are checked. Distinct designs require editorial review; poses, recolors, mirrors, and other derivatives do not qualify as independent originals.",
