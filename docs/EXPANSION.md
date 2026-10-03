@@ -145,3 +145,9 @@ Every river ending continues into the same spring while preserving its own echo-
 The inherited winter demand is removed while the safe closing rhythm remains. Choose a limited breathing trial, paid care rota, separate relief funding, or a reviewed pause with ordinary care. All four outcomes preserve injuries, resource limits, and individual choices. The unidentified third river ring remains sealed.
 
 This delivered chapter adds **2,885** displayed words. It does not fulfill the book's planned 51,000-word budget. The current entire manuscript is **13,159** words, with **986,842** more required. Original sprite delivery is **8**, with **993** more required. The PR remains a draft until the full manuscript, 500/501 sprite allocation, and both background quotas pass production acceptance.
+
+## Verified orchard delivery
+
+[PR CI](https://github.com/jgyy/octxian/actions/runs/37085436772) and [branch CI](https://github.com/jgyy/octxian/actions/runs/37085431753) passed on source commit `c7067d19`. Twenty Python tests pass; Godot reaches all 234 scenes and 14 endings across 19,159 capped states. Narration covers every scene. The native originals, alpha, provenance, decoded image fingerprints, continuity checkpoints, UI, 22 viewport captures, Linux export, and standalone playback pass. The two new portraits were also inspected in the actual rendered game.
+
+The generated delivery report matches the audited totals: 13,159 words, 5 human originals, and 3 spirit-beast originals. It reports `complete: false`; draft test success is validation of delivered content and does not satisfy the full production targets.
