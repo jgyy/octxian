@@ -9,8 +9,10 @@ from PIL import Image
 
 if __package__:
     from .story_data import authored_word_count, load_story
+    from .cultivation import load_canon, validate_progress
 else:
     from story_data import authored_word_count, load_story
+    from cultivation import load_canon, validate_progress
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 STAT_KEYS = {"qi", "trust", "insight", "resolve"}
@@ -149,6 +151,7 @@ def reachable_without(story, omitted):
 def inspect(root):
     world = json.loads((root / "data/world_assets.json").read_text())
     story = load_story(root)
+    validate_progress(load_canon(root), story)
     assert world["requested"] == {"backgrounds": 200, "npcs": 500, "monsters": 501}, "Preserve background quotas and 1001 original sprites"
     assert world["requested_additional"] == ADDITIONAL_ART_TARGETS, "Preserve the 100 extra interiors"
     ids, paths, hashes, pixel_hashes, sprite_sources = set(), set(), set(), set(), set()
