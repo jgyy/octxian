@@ -6,17 +6,18 @@ Lin Yue begins as a mortal kiln worker with zero retained qi. She earns Body Tem
 
 | Measure | Actual delivered |
 |---|---:|
-| Original mortal-training expansion | 77 scenes / 5,151 words |
-| Rewritten original Book I | 36 scenes / 2,341 words |
-| New sluice apprenticeship | 131 scenes / 7,860 words |
-| Recast valley openings and power scenes | 21 scenes / 1,418 words |
-| Total cultivation rewrite | **265 scenes / 16,770 words** |
-| Whole playable campaign | **1,602 scenes / 137,517 words** |
-| Inherited prose awaiting recast | 120,747 words |
+| Mortal-training expansion | 77 scenes / 5,182 words |
+| Rewritten original Book I | 36 scenes / 2,397 words |
+| Sluice apprenticeship | 131 scenes / 7,892 words |
+| Recast valley openings and power scenes | 22 scenes / 1,509 words |
+| Other branch, power and continuity repairs | 34 scenes / 2,825 words |
+| Total cultivation rewrite | **300 scenes / 19,805 words** |
+| Whole playable campaign | **1,606 scenes / 137,918 words** |
+| Inherited prose awaiting recast | 118,113 words |
 
-This continuation delivers **9,278 cultivation rewrite words**, including 7,860 added training words and 1,418 recast words. Replacing older passages produces a net campaign increase of 8,085 words. Only playable node text counts. Canon, labels, outlines, documentation and art descriptions contribute zero manuscript credit.
+The latest [plot-hole review](PLOT_HOLE_REVIEW.md) repairs 41 existing scenes and adds four prerequisite scenes, producing **401 net displayed words** and **3,035 newly credited rewrite words**. Updated passages already credited are counted once. Metadata, canon, labels, outlines, documentation and art descriptions contribute zero manuscript credit.
 
-[The machine-readable ledger](CULTIVATION_PROGRESS.json) lists every credited scene. The world validator recomputes the total, rewrite and inherited counts and rejects stale, duplicated or unknown credit. The strict target remains **1,000,001 words**: 862,484 additional displayed words are needed, or **983,231 rewrite words** for the complete rewritten manuscript. The fourteen-volume 1,050,000-word architecture is a plan.
+[The machine-readable ledger](CULTIVATION_PROGRESS.json) lists every credited scene. The world validator recomputes the total, rewrite and inherited counts and rejects stale, duplicated or unknown credit. The strict target remains **1,000,001 words**: 862,083 additional displayed words are needed, or **980,196 rewrite words** for the complete rewritten manuscript. The fourteen-volume 1,050,000-word architecture is a plan.
 
 ## Earned progression
 
@@ -38,7 +39,7 @@ The larger artwork library remains unfinished: nine original-scope environments,
 
 ## Validation and remaining production
 
-The merged-data audit passes unique prose, the 100-word scene limit, character/art/stage references, actual gated reachability and every continuity checkpoint. All 1,602 scenes and 25 endings are reachable across 150,807 capped states.
+The merged-data audit passes unique prose, the 100-word scene limit, character/art/stage references, actual gated reachability and every continuity checkpoint. All 1,606 scenes and 25 endings are reachable across 151,435 capped states. The plot review guards 39 mandatory continuity checkpoints; later books explicitly retain the last earned Qi Gathering stage three.
 
 CI runs Python accounting and advancement regressions, native art and alpha checks, complete narration, Godot route/save/UI checks, forty-nine actual viewport captures and standalone Linux launch. The final run and media commit are linked in the draft PR.
 

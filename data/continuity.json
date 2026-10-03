@@ -1500,6 +1500,14 @@
         "ending_shared",
         "lantern_shared"
       ]
+    },
+    {
+      "id": "plot_root_sessions_not_room_count",
+      "statement": "Root classification requires three recovered independent sessions, with calibrated stones and blanks in each. Three rooms during one session would not satisfy that rule; admission permission follows the third result.",
+      "anchors": [
+        "tempering_after_005",
+        "tempering_after_006"
+      ]
     }
   ],
   "review_policy": "Review each new chapter's chronology, custody, character knowledge, and alternate outcomes before updating this ledger. Structural checks supplement editorial review; they do not prove the absence of all possible plot holes.",
