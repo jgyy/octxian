@@ -1,6 +1,6 @@
-# Continuity review through Book V
+# Continuity review through Book VI
 
-The manuscript currently contains 353 scenes and 23,615 authored prose words. This review records the delivered chapters; the million-word campaign remains unfinished.
+The manuscript currently contains 1,137 scenes and 98,705 authored prose words. This review records the delivered chapters; the million-word campaign remains unfinished.
 
 | Topic | Established fact | Editorial correction or guard |
 |---|---|---|
@@ -19,7 +19,7 @@ The manuscript currently contains 353 scenes and 23,615 authored prose words. Th
 
 The unidentified third owner is an intentional open question. Later chapters must find an identity through permitted records, and retain the owner's authority over the echo. An unfinished question must not silently become proof of abandonment.
 
-`data/continuity.json` contains fact anchors and 69 required-scene checks. `tools/validate_world.py` rejects structural paths that skip those knowledge or safety scenes; Godot route tests separately check the actual stat gates. These checks support, rather than replace, an editorial reading.
+`data/continuity.json` contains fact anchors and 158 required-scene checks. `tools/validate_world.py` rejects structural paths that skip those knowledge or safety scenes; Godot route tests separately check the actual stat gates. These checks support, rather than replace, an editorial reading.
 
 ```mermaid
 flowchart TD
@@ -60,5 +60,19 @@ Mei's retained conversion order shows temporary recognition-use licenses copied 
 
 Fei compares offered cloth fragments with plain amber and retained amber-violet wax. Original tags stay sealed. The Porcelain Courser and Fei separately permit the relevant redacted consignment link, providing independent timing corroboration. Scent and material findings show product/source comparisons, never guilt or an unseen handler. The Moth completes its offered-fragment comparison and declines a further hearing test; it does not retroactively leave an invented scrap untested.
 
-Lin Yue visits one route; the other teams report evidence before settlement. All four endings preserve corrected rights and genuine disputed costs. Existing volunteered credit is capped and closes after three nights; separate ledgers need paid staff; the worker pool requires distinct model permissions and allows exit; Tuesday's audit is a review rather than automatic clearance. No city route opens the third river ring or claims the next court chapter is already delivered.
+Lin Yue visits one route; the other teams report evidence before settlement. All four endings preserve corrected rights and genuine disputed costs. Existing volunteered credit is capped and closes after three nights; separate ledgers need paid staff; the worker pool requires distinct model permissions and allows exit; Tuesday's audit is a review rather than automatic clearance. No city route opens the third river ring. Each city ending announces a court request; the next chapter establishes its own permissions and bounded findings.
 
+
+## Book VI · court editorial review
+
+The court is founded on a separate fixed cliff. Day Zero arrival follows the goods-sling accident by two days; inquiry occupies Days Zero through Two, the common hearing is Day Three, possible canal closure is an uncertain Day Five forecast, and extension review is Day Seven. He Lian visits the lower waiting room for initial petitions. Bai's Day One and Du's Day Two assisted trips use independently supervised carrying chairs on a covered path; Day Three uses separately approved records and contacts rather than unbudgeted repeat ascents. The damaged goods lift stays closed.
+
+Bai Qun is a forty-four-year-old woman whose daily landing, guide and mooring-pin remit is separate from lift staff's brake and counterweight duties. Du Heng is a thirty-one-year-old man with an injured right shoulder. His original statement and correction retain the difference between not seeing a safety rope before the jolt and proving its installation time. Ordinary care, restricted lifting and separately supported injury claims remain necessary.
+
+Current gauge pours establish a present collection problem without reconstructing accident-day rain. The support replacement is dated Day Minus One. Present clock differences do not become exact Day Minus Two offsets. The Rain Heron's two log extracts are one source, with an inner-rail location distinct from the unobserved outer spur. Its bounded five-copper arrangement includes one separately agreed safe message flight; no dangerous flight, repeated attendance or seasonal obligation follows.
+
+The docket preserves original judgments, shortened annexes, copying and review acts. The bench's own summary approval is visible. Establishing who copied or checked a page does not establish hidden mechanical cause or criminal intent. The unsupported broad assessment is set aside as filed, already corrected city proofs stay admitted, and genuine particular claims remain answerable with notice and reply.
+
+The ninety-six-copper access appropriation reserves sixty-four for two trips, four bounded participation allocations, two certified extracts, six storage nights, and two handcart/attendant services. Thirty-two funds exactly one final plan. Reserved, paid, canceled and conditional custody amounts remain distinct. Each plan specifies actual work, permissions, uncertainty, source return, failure reporting and Day Seven review without making corrected rights conditional on success.
+
+Peer review corrected gender and relative-day slips, separated initial local petitions and approved hearing records from extra physical visits, kept a controlled gauge fixture unchanged during bottle readings, and framed route packet drafts before the real common hearing. Every new scene was reviewed against the shared chronology and the other inquiry routes. The merged continuity ledger contains 106 facts, 506 anchors and 27 checkpoints with 158 mandatory scene checks. Structural checks supplement the editorial review.

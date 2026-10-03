@@ -16,6 +16,7 @@ func _run() -> void:
 	var game = scene.instantiate()
 	root.add_child(game)
 	await process_frame
+	await _test_narration_formats(game)
 	check(not game.is_reading, "Game should open on title")
 	await _test_attribute_ui(game)
 	game._begin()
@@ -193,6 +194,7 @@ func _run() -> void:
 	game._scene()
 	check(game.actor.character == "frostroot_hart" and game.actor.sprite.texture.get_size() == Vector2(1024, 1536), "Frostroot Hart must load its own native original")
 	await _test_city_ui(game)
+	await _test_court_ui(game)
 	game.state.current = "orchard_resolution_choice"
 	game._scene()
 	game.dialogue.visible_characters = -1
@@ -379,3 +381,96 @@ func _test_city_ui(game) -> void:
 	check(game.state.current == "city_final_choice" and game.state.stats == before_stats and game.state.history == before_history, "A locked city UI choice must preserve the journey")
 	game._choose(3)
 	check(game.state.current == "city_batch_audit", "The unrestricted city settlement must remain playable through the UI")
+
+
+func _test_narration_formats(game) -> void:
+	var manifest = JSON.parse_string(FileAccess.get_file_as_string("res://assets/generated/voices/manifest.json"))
+	check(manifest is Dictionary and manifest.get("lines") is Dictionary, "Narration records must be available at runtime")
+	if not manifest is Dictionary or not manifest.get("lines") is Dictionary:
+		return
+	var enabled_before: bool = game.audio.enabled
+	game.audio.enabled = true
+	for extension in ["wav", "ogg"]:
+		for id in manifest.lines:
+			if not str(manifest.lines[id].get("file", "")).ends_with("." + extension):
+				continue
+			game.audio.speak(id)
+			await process_frame
+			var stream = game.audio.voice.stream
+			check(stream != null, "The audio director must load authored %s narration" % extension)
+			if stream != null:
+				check(stream.get_length() > 0.0, "Narration playback must have a real duration")
+				if extension == "ogg":
+					check(stream is AudioStreamOggVorbis, "New narration must load as native Vorbis audio")
+				else:
+					check(stream is AudioStreamWAV, "Legacy narration must retain WAV playback")
+			game.audio.voice.stop()
+			game.audio.voice.stream = null
+			break
+	game.audio.enabled = enabled_before
+
+
+func _test_court_ui(game) -> void:
+	check(game.state.story.chapters.has("book_vi"), "The runtime must load the modular court chapter")
+	var encounters := {
+		"court_upper_bench": "he_lian",
+		"court_luo_shan": "luo_shan",
+		"court_bai_qun": "bai_qun",
+		"court_du_heng": "du_heng",
+		"court_rain_heron": "rain_heron"
+	}
+	for scene_id in encounters:
+		game.state.current = scene_id
+		game._scene()
+		var portrait: Texture2D = game.actor.sprite.texture
+		var expected_size := _court_world_size(game, str(encounters[scene_id]))
+		check(game.actor.character == encounters[scene_id] and portrait != null, "Every court participant must load its own registered original: " + scene_id)
+		check(expected_size != Vector2.ZERO, "Court participants must retain their native catalog record: " + scene_id)
+		if portrait != null:
+			check(portrait.get_size() == expected_size, "Court portraits must retain their actual native pixels: " + scene_id)
+			check(is_equal_approx(game.actor.sprite.scale.x, game.actor.sprite.scale.y), "Court portraits must fit without stretching: " + scene_id)
+			check(is_equal_approx(portrait.get_height() * game.actor.sprite.scale.y, 680.0), "Court portraits must use the dialogue stage height: " + scene_id)
+		var background_id := str(game.state.node().background)
+		check(game.background.texture != null and game.background.texture.get_size() == _court_world_size(game, background_id), "Court scenes must load their registered native environment: " + scene_id)
+
+	game.state.current = "court_weather_setup"
+	game._scene()
+	check(game.actor.character == "lin_yue", "The weather setup must stage Lin Yue's demonstration")
+	check(game.background.texture != null and game.background.texture.get_size() == _court_world_size(game, "rain_court_terrace"), "The ordinary signal demonstration must use the sheltered terrace painting")
+
+	game.state.current = "court_investigation_choice"
+	game.state.stats = {"qi": 0, "trust": 0, "insight": 0, "resolve": 0}
+	game._scene()
+	game._advance()
+	await process_frame
+	check(game.choice_box.get_child_count() == 4, "The court inquiry hub must display four independent teams")
+	for index in range(4):
+		var available: Button = game.choice_box.find_child("Choice_" + str(index), true, false)
+		check(available != null and not available.disabled, "Every court investigation must remain available in the untrained UI")
+	for card in game.choice_box.get_children():
+		check(card.get_global_rect().end.y <= 568.0, "All four court routes must clear the dialogue")
+
+	game.state.current = "court_final_choice"
+	game._scene()
+	game._advance()
+	await process_frame
+	for index in range(3):
+		var blocked: Button = game.choice_box.find_child("Choice_" + str(index), true, false)
+		var summary: Label = game.choice_box.find_child("ChoiceDetails_" + str(index), true, false)
+		check(blocked != null and blocked.disabled, "Untrained specialized court remedies must be locked in the UI")
+		check(summary != null and summary.text.contains("Locked") and summary.text.contains("0/4"), "Court remedy thresholds and gains must be visible")
+	var fallback: Button = game.choice_box.find_child("Choice_3", true, false)
+	check(fallback != null and not fallback.disabled, "The dated court remand must remain available without training")
+	var before_stats: Dictionary = game.state.stats.duplicate()
+	var before_history: Array = game.state.history.duplicate(true)
+	game._choose(0)
+	check(game.state.current == "court_final_choice" and game.state.stats == before_stats and game.state.history == before_history, "A locked court UI remedy must preserve the journey")
+	game._choose(3)
+	check(game.state.current == "court_remand_proposal" and game.state.stats.resolve == 2, "The ungated court remedy must advance through the UI and apply Resolve")
+
+func _court_world_size(game, id: String) -> Vector2:
+	for group in ["backgrounds", "npcs", "monsters"]:
+		for entry in game.world.get(group, []):
+			if entry.id == id:
+				return Vector2(entry.native_size[0], entry.native_size[1])
+	return Vector2.ZERO

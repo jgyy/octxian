@@ -2,6 +2,7 @@ extends SceneTree
 
 const State = preload("res://scripts/story_state.gd")
 const Attributes = preload("res://scripts/attributes.gd")
+const StoryData = preload("res://scripts/story_data.gd")
 var failures: Array[String] = []
 
 func check(condition: bool, message: String) -> void:
@@ -10,9 +11,12 @@ func check(condition: bool, message: String) -> void:
 		push_error(message)
 
 func _initialize() -> void:
+	_test_story_loading()
 	_test_attributes()
 	_test_city_continuations()
 	_test_city_settlements()
+	_test_court_continuations()
+	_test_court_routes_and_remedies()
 	var state = State.new()
 	check(state.current == "arrival", "Story should start at arrival")
 	check(state.story.get("chapters", {}).has("book_ii"), "Campaign chapters should load")
@@ -297,3 +301,131 @@ func _test_city_settlements() -> void:
 		var branch = State.new()
 		branch.current = investigation.current
 		check(branch.choose(index) and branch.current == expected_entries[index], "The city hub must open the selected investigation")
+
+
+func _test_story_loading() -> void:
+	var loaded := StoryData.load_campaign()
+	check(loaded.error.is_empty() and loaded.story.nodes.has("arrival"), "The complete book manifest must load atomically")
+	var injected := {
+		"start": "fixture", "characters": {"narrator": {"name": "Narrator"}},
+		"chapters": {}, "nodes": {"fixture": {"speaker": "narrator", "text": "Injected traversal prose.", "ending": "fixture"}},
+		"books": ["data/books/intentionally_missing.json"]
+	}
+	var traveler = State.new(injected)
+	check(traveler.current == "fixture" and traveler.story.nodes.size() == 1, "Injected merged campaigns must bypass disk loading")
+	var missing := StoryData.load_campaign("user://missing_story_fixture.json")
+	check(not missing.error.is_empty() and missing.story.is_empty(), "Missing campaigns must not produce partial stories")
+	var fixture_path := "user://invalid_story_fixture.json"
+	var file := FileAccess.open(fixture_path, FileAccess.WRITE)
+	file.store_string(JSON.stringify({"start": "fixture", "characters": {}, "chapters": {}, "nodes": {"fixture": {}}, "books": ["data/books/../escape.json"]}))
+	file.close()
+	var unsafe := StoryData.load_campaign(fixture_path)
+	check(not unsafe.error.is_empty() and unsafe.story.is_empty(), "Book manifests must reject path escapes before reading")
+	file = FileAccess.open(fixture_path, FileAccess.WRITE)
+	file.store_string("{malformed")
+	file.close()
+	var malformed := StoryData.load_campaign(fixture_path)
+	check(not malformed.error.is_empty() and malformed.story.is_empty(), "Malformed campaign JSON must fail explicitly")
+	DirAccess.remove_absolute(fixture_path)
+
+
+func _test_court_continuations() -> void:
+	var campaign: Dictionary = State.new().story
+	check(campaign.chapters.has("book_vi"), "The delivered modular campaign must contain Book VI")
+	check(campaign.get("books", []).has("data/books/book_vi.json"), "Book VI must be loaded through the explicit book manifest")
+	var openings := {
+		"ending_city_credit": "court_from_credit",
+		"ending_city_ledgers": "court_from_ledgers",
+		"ending_city_pool": "court_from_pool",
+		"ending_city_audit": "court_from_audit"
+	}
+	var expected_stats := {"qi": 101, "trust": 202, "insight": 303, "resolve": 404}
+	for ending in openings:
+		var traveler = State.new(campaign)
+		traveler.current = ending
+		traveler.stats = expected_stats.duplicate()
+		check(traveler.advance() and traveler.current == openings[ending], "Every city remedy must retain its own court opening")
+		check(traveler.stats == expected_stats, "Book VI continuations must preserve every long-campaign attribute")
+		check(traveler.history.size() == 1 and traveler.history.back().text == campaign.nodes[ending].text, "The selected city outcome must remain in the court journal")
+		var expected_history: Array = traveler.history.duplicate(true)
+		check(traveler.save_game("user://court_checkpoint.json"), "Modular court checkpoints must remain version-1 saves")
+		var restored = State.new(campaign)
+		check(restored.load_game("user://court_checkpoint.json"), "Modular court checkpoints must round trip")
+		check(restored.current == openings[ending] and restored.stats == expected_stats and restored.history == expected_history, "Court saves must retain source-independent IDs, attributes and prior prose")
+		check(restored.advance() and restored.current == "court_arrival", "Each route-specific court opening must reach the same cliff without repeating a city settlement")
+	DirAccess.remove_absolute("user://court_checkpoint.json")
+
+func _test_court_routes_and_remedies() -> void:
+	var campaign: Dictionary = State.new().story
+	var entries := ["court_witness_entry", "court_rain_entry", "court_cost_entry", "court_docket_entry"]
+	var gains := ["trust", "qi", "resolve", "insight"]
+	for index in range(entries.size()):
+		var traveler = State.new(campaign)
+		traveler.current = "court_investigation_choice"
+		check(traveler.node().choices.size() == 4, "Book VI must offer its four independent investigation teams")
+		check(traveler.can_choose(traveler.node().choices[index]), "Every court investigation must be available without prior training")
+		check(traveler.choose(index) and traveler.current == entries[index], "The court hub must open the selected investigation only")
+		check(traveler.stats[gains[index]] == 1, "Joining a court inquiry must apply its declared attribute gain")
+		var visited := {}
+		var steps := 0
+		while traveler.current != "court_findings" and steps < 500:
+			visited[traveler.current] = true
+			check(traveler.node().get("chapter") == "book_vi", "Court inquiries must remain in their authored chapter")
+			if traveler.node().has("choices"):
+				var chosen := false
+				for option in range(traveler.node().choices.size()):
+					if traveler.can_choose(traveler.node().choices[option]):
+						chosen = traveler.choose(option)
+						break
+				check(chosen, "Every reached court inquiry decision must have an available route")
+				if not chosen:
+					break
+			elif not traveler.advance():
+				break
+			steps += 1
+		check(traveler.current == "court_findings", "Every finite court investigation must return to the common findings")
+		for other in entries:
+			if other != entries[index]:
+				check(not visited.has(other), "Lin Yue must follow one court investigation rather than all four at once")
+		steps = 0
+		while traveler.current != "court_final_choice" and steps < 80:
+			visited[traveler.current] = true
+			if not traveler.advance():
+				break
+			steps += 1
+		check(traveler.current == "court_final_choice", "Common reports and protections must precede every court remedy")
+		for required in ["court_witness_report", "court_rain_report", "court_cost_report", "court_docket_report", "court_scope_test", "court_no_cause_verdict", "court_public_rights", "court_remaining_fund", "court_permission_review", "court_failure_clause"]:
+			check(visited.has(required), "Selected inquiries must still receive all bounded findings and unconditional protections: " + required)
+		check(traveler.can_choose(traveler.node().choices[3]), "The dated remand must remain available after every investigation")
+
+	var gates := ["qi", "trust", "insight"]
+	var destinations := ["court_weather_proposal", "court_local_proposal", "court_staged_proposal", "court_remand_proposal"]
+	var endings := ["ending_court_weather", "ending_court_local", "ending_court_staged", "ending_court_remand"]
+	var expected_after := [
+		{"qi": 5, "trust": 0, "insight": 1, "resolve": 0},
+		{"qi": 0, "trust": 5, "insight": 0, "resolve": 1},
+		{"qi": 0, "trust": 1, "insight": 5, "resolve": 0},
+		{"qi": 0, "trust": 0, "insight": 0, "resolve": 2}
+	]
+	for index in range(destinations.size()):
+		var traveler = State.new(campaign)
+		traveler.current = "court_final_choice"
+		check(traveler.node().choices.size() == 4, "The finite court fund must offer four bounded remedy plans")
+		if index < gates.size():
+			traveler.stats[gates[index]] = 3
+			var before_stats: Dictionary = traveler.stats.duplicate()
+			var before_history: Array = traveler.history.duplicate(true)
+			check(not traveler.can_choose(traveler.node().choices[index]) and not traveler.choose(index), "A court remedy must reject attributes below its four-point threshold")
+			check(traveler.current == "court_final_choice" and traveler.stats == before_stats and traveler.history == before_history, "A rejected court remedy must preserve the journey atomically")
+			traveler.stats[gates[index]] = 4
+		else:
+			for locked in range(gates.size()):
+				check(not traveler.can_choose(traveler.node().choices[locked]), "Specialized court remedies must stay locked at zero attributes")
+		check(traveler.choose(index) and traveler.current == destinations[index], "Each court remedy must open at its stated threshold, including the ungated remand")
+		check(traveler.stats == expected_after[index], "Court remedy gains must match their explicit playable design")
+		var steps := 0
+		while not traveler.node().has("ending") and steps < 12:
+			if not traveler.advance():
+				break
+			steps += 1
+		check(traveler.current == endings[index] and traveler.node().has("ending"), "Every bounded court remedy must reach its distinct authored outcome")
