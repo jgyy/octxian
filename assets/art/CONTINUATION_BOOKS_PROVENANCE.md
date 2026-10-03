@@ -16,3 +16,7 @@ Each retained PNG is a new image-generation output. Maximum native detail was re
 | peng_ai | 1024×1536 | RGBA | `f6ef90aab8a738212eb4f52c2bd1a6a4f778802c` |
 | gao_ru | 1024×1536 | RGBA | `f5d53cb74465b79dd7e237b75a0ce11268b6f01c` |
 | dai_shuren | 1024×1536 | RGBA | `453622486ea25a7c07e107f8eee1538dddd1db36` |
+| han_shou | 1024×1536 | RGBA | `edb1215c5cba0392c2da0ab476fcde7e22ca420a` |
+| tian_min | 1024×1536 | RGBA | `655691cffa71d17884bdc7c9b16ab249afd3267c` |
+| pei_fen | 1024×1536 | RGBA | `6b4d55e1e62768b7734342b6af801a5c07412b05` |
+| bao_jun | 1024×1536 | RGBA | `4770b45c6c4341babb3857d8a559794cbb17a031` |
