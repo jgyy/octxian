@@ -255,7 +255,7 @@ func _test_attribute_ui(game) -> void:
 	var choice_details: Label = game.choice_box.find_child("ChoiceDetails_0", true, false)
 	check(game.choice_box.get_child_count() == 3 and game.choice_box.get_child(0) is VBoxContainer, "Each choice must have its own card")
 	check(choice_button != null and not choice_button.disabled, "Playable choices must remain enabled")
-	check(choice_details != null and choice_details.is_visible_in_tree() and choice_details.text.contains("Qi +1") and choice_details.text.contains("Trust +2"), "Choice gains must be visible before selection")
+	check(choice_details != null and choice_details.is_visible_in_tree() and choice_details.text.contains("Qi Control +1") and choice_details.text.contains("Dao Heart +2"), "Choice gains must be visible before selection")
 
 	game.dialogue.visible_characters = 1
 	game.text_clock = 1.0
@@ -283,7 +283,7 @@ func _test_attribute_ui(game) -> void:
 	game._advance()
 	game._choose(0)
 	check(game.state.current == "trust" and game.state.stats.qi == 1 and game.state.stats.trust == 2, "Closing attributes must restore choice interaction")
-	check(game.status_label.text.contains("Qi +1") and game.status_label.text.contains("Trust +2"), "Choice gains must appear on the resulting scene")
+	check(game.status_label.text.contains("Qi Control +1") and game.status_label.text.contains("Dao Heart +2"), "Choice gains must appear on the resulting scene")
 	var totals: Label = game.ui.find_child("AttributeTotals", true, false)
 	check(totals != null and totals.text.contains("QI 01") and totals.text.contains("TRUST 02"), "Scene totals must refresh after gaining attributes")
 	game._unhandled_key_input(shortcut)
@@ -295,15 +295,15 @@ func _test_attribute_ui(game) -> void:
 	game._advance()
 	choice_button = game.choice_box.find_child("Choice_0", true, false)
 	choice_details = game.choice_box.find_child("ChoiceDetails_0", true, false)
-	check(choice_button != null and choice_button.disabled and choice_button.tooltip_text.contains("Qi 1/3"), "Locked choices must be disabled and explain their gate")
-	check(choice_details != null and choice_details.is_visible_in_tree() and choice_details.text.contains("Locked") and choice_details.text.contains("Qi 1/3") and choice_details.text.contains("Trust +1"), "Locked requirements and possible gains must remain visible")
+	check(choice_button != null and choice_button.disabled and choice_button.tooltip_text.contains("Qi Control 1/3"), "Locked choices must be disabled and explain their gate")
+	check(choice_details != null and choice_details.is_visible_in_tree() and choice_details.text.contains("Locked") and choice_details.text.contains("Qi Control 1/3") and choice_details.text.contains("Dao Heart +1"), "Locked requirements and possible gains must remain visible")
 	game.state.stats.qi = 3
 	game._scene()
 	game._advance()
 	choice_button = game.choice_box.find_child("Choice_0", true, false)
 	choice_details = game.choice_box.find_child("ChoiceDetails_0", true, false)
 	check(choice_button != null and not choice_button.disabled, "Reaching the threshold must unlock the rebuilt choice")
-	check(choice_details != null and choice_details.text.contains("Requires") and choice_details.text.contains("Qi 3/3"), "Satisfied requirements must refresh with current values")
+	check(choice_details != null and choice_details.text.contains("Requires") and choice_details.text.contains("Qi Control 3/3"), "Satisfied requirements must refresh with current values")
 	game._attributes()
 	_check_attribute_panel(game)
 	game._close_popup()

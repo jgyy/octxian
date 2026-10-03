@@ -229,7 +229,7 @@ func _scene() -> void:
 	_label(str(chapter.get("title", "The star beneath the mountain")), Vector2(77, 174), 27, PALE)
 	var background_path := str(background_paths.get(node.get("background", ""), "res://assets/art/azure_cloud.webp"))
 	background.texture = load(background_path)
-	var totals := _label("QI %02d    TRUST %02d    INSIGHT %02d    RESOLVE %02d" % [state.stats.qi, state.stats.trust, state.stats.insight, state.stats.resolve], Vector2(78, 222), 14, JADE)
+	var totals := _label("CONTROL %02d    DAO HEART %02d    COMPREHENSION %02d    PHYSIQUE %02d" % [state.stats.qi, state.stats.trust, state.stats.insight, state.stats.resolve], Vector2(78, 222), 14, JADE)
 	totals.name = "AttributeTotals"
 	var realm_label := _label(_cultivation_label(node), Vector2(78, 246), 13, GOLD)
 	realm_label.name = "CultivationRealm"
@@ -1002,7 +1002,7 @@ func _smoke_build() -> void:
 	_close_popup()
 	_attributes()
 	var attribute_value: Label = popup.find_child("AttributeValue_trust", true, false)
-	valid = valid and attribute_value != null and attribute_value.text == "Trust · 2"
+	valid = valid and attribute_value != null and attribute_value.text == "Dao Heart · 2"
 	_close_popup()
 	if valid:
 		print("JADE_VOW_PACKAGE_OK: standalone story, world art, object inspection and narration")

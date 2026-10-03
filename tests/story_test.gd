@@ -223,9 +223,9 @@ func _test_attributes() -> void:
 	var before_stats: Dictionary = gated.stats.duplicate()
 	var before_history: Array = gated.history.duplicate(true)
 	var details: Dictionary = gated.choice_details(choice)
-	check(details.effects == PackedStringArray(["Qi +1", "Trust +2", "Resolve +1"]), "Effect previews must follow the canonical attribute order")
-	check(details.requirements == PackedStringArray(["Qi 3/3", "Trust 0/1", "Resolve 2/2"]), "Requirements must display both satisfied and unmet thresholds")
-	check(details.missing == PackedStringArray(["Trust 0/1"]), "Missing requirements must contain only unmet thresholds")
+	check(details.effects == PackedStringArray(["Qi Control +1", "Dao Heart +2", "Physique +1"]), "Effect previews must follow the canonical attribute order")
+	check(details.requirements == PackedStringArray(["Qi Control 3/3", "Dao Heart 0/1", "Physique 2/2"]), "Requirements must display both satisfied and unmet thresholds")
+	check(details.missing == PackedStringArray(["Dao Heart 0/1"]), "Missing requirements must contain only unmet thresholds")
 	check(not details.available and not gated.can_choose(choice) and not gated.choose(0), "Preview and application must agree on locked choices")
 	check(gated.stats == before_stats and gated.history == before_history and gated.current == "first_choice", "Locked choices must preserve the journey")
 	gated.stats.trust = 1
@@ -247,7 +247,7 @@ func _test_attributes() -> void:
 	spending.current = "first_choice"
 	spending.stats.qi = 1
 	spending.story.nodes.first_choice.choices[0] = {"next": "trust", "effects": {"trust": 2, "qi": -1}}
-	check(spending.choice_details(spending.node().choices[0]).effects == PackedStringArray(["Qi -1", "Trust +2"]), "Valid decreases must have an accurate signed preview")
+	check(spending.choice_details(spending.node().choices[0]).effects == PackedStringArray(["Qi Control -1", "Dao Heart +2"]), "Valid decreases must have an accurate signed preview")
 	check(spending.choose(0) and spending.stats.qi == 0 and spending.stats.trust == 2, "Valid decreases must remain playable")
 
 	var legacy_path := "user://attribute_legacy_test.json"
