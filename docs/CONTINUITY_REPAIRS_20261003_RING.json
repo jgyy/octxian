@@ -1,0 +1,68 @@
+{
+  "review_base": "8dd58078b349f27b228be1107599572bf850efdc",
+  "scope": [
+    "data/books/book_vii.json",
+    "data/books/book_vii_archive.json",
+    "data/books/book_vii_marsh.json",
+    "data/books/book_vii_road.json"
+  ],
+  "total_repairs": 4,
+  "changed_passages": 5,
+  "authored_word_delta": 4,
+  "counting_rule": "Count one distinct root continuity or causality defect. Multiple rewritten passages that repair the same rig mechanism remain one repair. No prior audited repair, choice, stat, metadata or new prose node is counted.",
+  "validation": {
+    "exact_before_anchors": true,
+    "prose_only": true,
+    "node_ids_and_graph_unchanged": true,
+    "max_scene_words": 100,
+    "unique_normalized_owned_paragraphs": true
+  },
+  "repairs": [
+    {
+      "id": "RING-001",
+      "path": "data/books/book_vii.json",
+      "node_id": "ring_limits",
+      "before": "A permit identifies a ferry charter. A repair identifies a construction. A deposit token identifies an entry in a custody system. None of them alone lets us assign a person's private echo. Together they give us a reason to ask Wei Jin about his offered receipt, with the Eel present. We should first make room for a refusal. The grain crossing has been completed, the return fare is already paid, and the ordinary landing work continues. Nobody's food or passage will depend on agreeing that these papers tell one story.",
+      "after": "A permit identifies a ferry charter. A repair identifies a construction. A deposit token identifies a custody entry. None alone assigns a private echo. Together they justify asking Wei Jin about his receipt here, then requesting a separate comparison at the Eel's berth. The spirit has stayed there with the ring; it has not attended this room. We should first make room for a refusal. The grain crossing is complete, the return fare paid, and ordinary landing work continues. Nobody's food or passage depends on making these papers tell one story.",
+      "reason": "The indoor findings claim the Eel is present even though ring_findings and the later request keep it at the sheltered berth. Separate the indoor receipt question from the later outdoor comparison.",
+      "category": "location"
+    },
+    {
+      "id": "RING-002",
+      "path": "data/books/book_vii.json",
+      "node_id": "ring_cover_opened",
+      "before": "Wei Jin untied his own receipt cover. Inside, a narrow keeper's counterfoil had been folded around a plain reed sliver. He covered its lower lines with clean paper and pointed to the references he had offered. An Ru read R-3 and LR-6 aloud, then copied the issue date and return terms for the proposed exterior comparison. Wei Xiu sat beside the door. She had chosen to attend and had asked to hear no playback of the copied moment. Across the water, the bronze ring remained covered with the Eel at its sheltered berth.",
+      "after": "They entered the sheltered side room Wei Jin had requested; the common tables remained outside. He untied his receipt cover himself. A keeper's counterfoil lay folded around a plain reed sliver. He covered its lower lines and pointed to the offered references. An Ru read R-3 and LR-6 aloud, then copied the issue date and return terms for the proposed comparison. Wei Xiu sat beside the door by choice, declining playback. Only the approved readers attended. Across the water, the bronze ring remained covered with the Eel at its sheltered berth.",
+      "reason": "The road offer reserves the counterfoil interior for the private room, but the merged path opens it at the common findings without moving into that room. Add the promised screened reading and named-reader scope.",
+      "category": "privacy"
+    },
+    {
+      "id": "RING-003",
+      "path": "data/books/book_vii_archive.json",
+      "node_id": "ring_archive_repair_cost",
+      "before": "Mei asked whether the account stub might show who paid. An Ru lifted the permission note, read it, and shook her head. Only the repair item, public crossing reference, alias, and permit serial had been released. Mei looked toward the guarded amount long enough for Lin Yue to notice. Then she wrote a question for the household instead of reaching for the page. Her brush paused before the final word. Asking would delay them, and delay had consequences. The room offered no elegant excuse for pretending either fact away.",
+      "after": "Mei asked whether the account stub might show who paid. An Ru read its permission note and shook her head. The repair item, crossing reference, alias, permit serial, repair date, and copied signer's mark were released. The payer and amount were not. Mei looked toward the guarded sum, then wrote a question for the household instead of reaching for the page. Her brush paused before the final word. Asking would delay them, and delay had consequences. The room offered no excuse for pretending either fact away.",
+      "reason": "The restrictive release list excludes the date read in ring_archive_repair_date and the signer's mark released in ring_archive_first_sheet and discussed in ring_archive_signatures. State those authorized fields while retaining guarded payer and sum.",
+      "category": "authorization"
+    },
+    {
+      "id": "RING-004",
+      "path": "data/books/book_vii_road.json",
+      "node_id": "ring_road_anchor",
+      "before": "Their new rope slips beneath the willow on a pole, then comes back over its narrower end. Wei Jin coaxes the loop into a natural fork with short movements rather than a hard pull. Lin Yue feeds him slack from the inland side. Su Lan watches the block and calls each change in its lean. When the rope finally sits, the three stop speaking for a breath. A kingfisher flashes across the far reeds. Water takes up the unfinished noise beneath them. Wei Jin lifts his empty hand, and they begin taking the weight together.",
+      "after": "Their new rope passes beneath the willow on a pole and returns over its narrower end. Wei Jin seats the loop in a natural fork without a hard pull. Lin Yue feeds slack from inland while Su Lan watches the block. Jin lays holding turns around the padded post guides and tests his releasable hitch before transferring the load. The posts carry it; the loose tail only assists preparation. He alone controls the loaded line at its guide. Lin Yue clears the slack from their feet before he calls the cutting task.",
+      "reason": "The rig later calls its tail unloaded while using it to pay out a loaded trunk. Establish where the live rope is restrained and who controls it; the slack tail does not bear or govern the load.",
+      "category": "mechanics",
+      "affected_passages": [
+        {
+          "path": "data/books/book_vii_road.json",
+          "node_id": "ring_road_release",
+          "before": "Su Lan counted the water pulses while Wei Jin watched the trunk turn toward the open ditch. At his signal, Lin Yue paid out the free control tail through the guide from firm ground. The posts and rig carried the weight; no sustained qi or body anchor held it. They let the crown pass without scraping the surviving posts. Wei Jin released the loop with his pole. The rope returned empty, and Lan marked the downstream debris bed for the next ordinary survey.",
+          "after": "Su Lan counts the water pulses while Wei Jin watches the trunk turn toward the open ditch. Lin Yue lays the slack tail clear and stands back. Jin eases his hitch with the pole, feeding the loaded rope through its holding turns a little at a time. The posts and guides carry the weight. Once the crown settles in the marked debris bed, the line slackens; he lifts the loop from the fork and draws it back empty. Lan records the downstream position for tomorrow's survey. No body or sustained qi holds the willow.",
+          "reason": "An explicitly unloaded free tail cannot regulate a loaded rig. Transfer payout to Jin at the restrained live line, then recover the loop only after the trunk settles and tension is gone.",
+          "category": "mechanics"
+        }
+      ]
+    }
+  ]
+}
