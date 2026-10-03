@@ -2,13 +2,14 @@
 
 ## Delivered in this draft
 
-- **1,137 playable scenes and 98,705 authored prose words** across six books.
+- **1,394 playable scenes and 122,882 authored prose words** across seven books.
 - Book I: 36 scenes, 942 words, three endings.
 - Book II: 73 scenes, 4,000 words, three investigations, nine approaches, four endings.
 - Book III: 87 scenes, 5,332 words, four spring continuations, three river routes, six settlement approaches, three endings.
 - Book IV: 38 scenes, 2,885 words, three investigations, four settlements, and route-specific river continuations.
 - Book V: 119 scenes, 10,456 words, three investigations, four resolutions, and four orchard-outcome continuations.
 - Book VI: 784 scenes, 75,090 words, four investigations with local choices, four remedies, and four city-outcome continuations.
+- Book VII: 257 scenes, 24,177 words, three investigations with local choices, three owner-approved arrangements, and four court-outcome continuations.
 - Seven original-scope painted backgrounds: five at native 1672×941 and the market and court terrace at native 1536×1024.
 - 32 additional building-interior paintings preserved at their individual native sizes; [inventory](INTERIORS.md).
 - Thirteen human NPCs and six spirit beasts at native 1024×1536 with alpha.
@@ -185,3 +186,15 @@ Four teams investigate witness accounts, present rain-gauge and clock comparison
 A ninety-six-copper access fund reserves sixty-four for specified baseline services, leaving thirty-two for exactly one remedy. Weather observations, local testimony, staged docket checks, and a limited remand have separate budgets, permissions, return dates and failure reports. Corrected rights and ordinary care do not depend on choosing a specialized remedy. The remand remains available at zero attributes.
 
 This chapter adds **784 playable scenes and 75,090 authored words**. Four new humans and one new beast bring sprite delivery to **19**. The original court terrace and two extra interiors retain native **1536×1024** paintings. Portraits retain native **1024×1536 RGBA** paintings. The new modular loader and compressed narration support continued manuscript growth without duplicating scene prose or invalidating existing saves. Source validation and rendered acceptance are recorded separately when CI completes.
+
+## Book VII · The circle that kept a crossing
+
+Three days after the court's Day Seven review, the party returns to the river's sealed third echo ring. Wei Xiu and the Reed Listener examine an offered outer maintenance sleeve; An Ru, Mei Dulan and Shen Qing compare volunteered charter extracts; Wei Jin and Su Lan walk the damaged old ferry approach. Lin Yue follows one route. The other teams present independent reports before any identification.
+
+R-3 is a custody token and LR-6 a ferry permit. The repaired reed-cloth retaining loop is separate from the bronze ring's intact seal. Neither common workmanship nor a charter name alone assigns ownership. Wei Jin separately offers fields from his own keeper's counterfoil; the Eel accepts an additional comparison at its sheltered berth. The matched receipt/custody references and voluntary present account establish a living owner without playing the echo. Its departure melody is an external copy of his own practice, not a removed memory or resurrection.
+
+Wei Jin explicitly accepts and delegates tonight's practical choice among a closed return, three paid custody watches with review before expiry, and no return today under existing protection. No choice grants listening permission. Original records return to their keepers; other echoes and earlier court, city, orchard and river arrangements retain separate authority. Qi use, damaged rope, paid cart work and ordinary injuries retain their costs.
+
+This batch adds **257 individually authored playable scenes and 24,177 displayed prose words**. The manuscript now contains **122,882 words**, leaving **877,119** toward the strict 1,000,001-word minimum. No additional painting is claimed in this chapter. The complete manuscript and artwork quotas remain unfinished.
+
+The same update fixes modal transitions leaving effects paused, protects saves with verified staging and recoverable backups, rejects duplicate JSON keys consistently, and checkpoints completed narration clips. CI caches validated clip checkpoints after failed generation; a bounded generation step lets a later retry resume completed work. Native Python/Godot and packaging results are reported in the PR after its checks finish.

@@ -51,6 +51,15 @@ def render_clip(voice, text, output, length_scale):
     return metadata
 
 
+def _write_manifest(path, manifest):
+    """Commit completed clips without exposing a partially written checkpoint."""
+    path = pathlib.Path(path)
+    with tempfile.TemporaryDirectory(prefix=".manifest-", dir=path.parent) as folder:
+        temporary = pathlib.Path(folder) / "manifest.json"
+        temporary.write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
+        temporary.replace(path)
+
+
 def main():
     CACHE.mkdir(parents=True, exist_ok=True)
     OUT.mkdir(parents=True, exist_ok=True)
@@ -67,7 +76,9 @@ def main():
                 "model_url": f"{BASE}/{MODEL}", "model_sha256": model_digest,
                 "model_card": card.read_text(),
                 "encoding": "New clips: mono Vorbis quality 3; valid legacy PCM16 retained",
-                "lines": {}}
+                # Retain unprocessed records until their scenes are checked.
+                "lines": {node_id: info for node_id, info in old_lines.items()
+                          if node_id in story["nodes"]}}
     timing = {"narrator": 1.04, "lin_yue": .96, "shen_qing": 1.00,
               "elder_yun": 1.12, "mo_ran": 1.08}
     for node_id, node in story["nodes"].items():
@@ -91,17 +102,20 @@ def main():
             status = "Generated"
         manifest["lines"][node_id] = {**clip_entry(ROOT, output, digest, metadata),
                                       "encoding": encoding}
+        if status == "Generated":
+            # Long runs must resume completed clips after interruption or failure.
+            _write_manifest(old_path, manifest)
         # Changed lines must not leave stale WAVs that can be played by fallback.
         for extension in (".wav", ".ogg"):
             obsolete = OUT / (node_id + extension)
             if obsolete != output and obsolete.exists():
                 obsolete.unlink()
         print(f"{status} neural voice: {node_id} ({metadata['seconds']:.1f}s, {metadata['format']})")
+    _write_manifest(old_path, manifest)
     expected = {ROOT / info["file"] for info in manifest["lines"].values()}
     for path in list(OUT.glob("*.wav")) + list(OUT.glob("*.ogg")):
         if path not in expected:
             path.unlink()
-    old_path.write_text(json.dumps(manifest, indent=2) + "\n")
     (OUT / "MODEL_CARD").write_text(card.read_text())
     print(f"Verified {len(manifest['lines'])} neural narration clips.")
 

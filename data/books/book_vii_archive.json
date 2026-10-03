@@ -1,0 +1,648 @@
+{
+  "chapters": {},
+  "characters": {},
+  "nodes": {
+    "ring_archive_entry": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Three days after the court's Day Seven review, the archive smelled of drying paper and spring earth. An Ru had opened only the shutters facing the lane. Those beside the salt yard remained closed against its drifting dust. Lin Yue arrived with Shen Qing and Mei Dulan while a kettle muttered beneath the reading table. The ring they sought was elsewhere, sealed in the Mooring Eel's custody. Nothing on the desks could answer for its contents. An Ru greeted them by handing each a cloth for their damp sleeves.",
+      "chapter": "book_vii",
+      "background": "valley_archive",
+      "effect": "none",
+      "next": "ring_archive_door"
+    },
+    "ring_archive_door": {
+      "speaker": "an_ru",
+      "actor": "an_ru",
+      "text": "You have come at an awkward hour. I promised the reading room to the ferry records, but the roof has begun losing its argument with the rain. We can examine the offered copies on the low tables. We cannot climb among the upper bundles today. Before anyone tells me that cultivators do not fall, look at the people beneath the ladder. Most disasters in this room begin with someone thinking their own balance will protect everything they reach for. Put your sword on the dry bench, Yue, if you please.",
+      "chapter": "book_vii",
+      "background": "valley_archive",
+      "effect": "none",
+      "next": "ring_archive_return_work"
+    },
+    "ring_archive_return_work": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Lin Yue unbuckled the sword and laid it beside a chipped inkstone. Last autumn An Ru had presented this archive's comparison at the tower, giving every listener room to question its clauses. The tables now held corrected household extracts waiting for collection, including two disputed boundaries marked for further reply. The nineteen households retained their restored records. Their neighbors still disagreed about ordinary things. An Ru moved one pending packet aside to make room, leaving its ribbon visible. Continuing work occupied the place where Lin Yue had expected a monument.",
+      "chapter": "book_vii",
+      "background": "archive_copy_room",
+      "effect": "none",
+      "next": "ring_archive_city_visit"
+    },
+    "ring_archive_city_visit": {
+      "speaker": "mei_dulan",
+      "actor": "mei_dulan",
+      "text": "I brought my own approved city comparison, and it will stay wrapped unless something here requires it. This is a ferry inquiry, not an extension of the mask dispute. I know how easily a registrar starts collecting one kind of record with another kind of authority. My city seal certifies my copies. It gives me no claim on An Ru's shelves. I asked to join because a name carried under an old license can remain legible long after officials cease admitting it. I also asked because I have done that admitting badly.",
+      "chapter": "book_vii",
+      "background": "archive_copy_room",
+      "effect": "none",
+      "next": "ring_archive_boundary"
+    },
+    "ring_archive_boundary": {
+      "speaker": "an_ru",
+      "actor": "an_ru",
+      "text": "The families offered these redacted charter copies for one question: whether a former public crossing name can lead us to someone who is alive. They did not offer their debts, private household notes, or the old echoes. My access to the originals does not turn their permission into yours. If a necessary line is covered, we stop and ask for that line. We do not hold the sheet toward the lamp until the covering becomes transparent. A copy can be generous without offering every life that happened beside its ink.",
+      "chapter": "book_vii",
+      "background": "archive_consent_room",
+      "effect": "none",
+      "next": "ring_archive_volunteered"
+    },
+    "ring_archive_volunteered": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "She placed the offered sheets in a shallow tray. Paper guards covered the personal account columns; the public crossing clauses remained visible from heading to seal. A separate wrapper held a correction Wei Jin had voluntarily supplied for the inquiry. Lin Yue saw his angular signature before she read anything else. It belonged to the ferryman who had presented the common water rubbing and invited questions before the assembled village. The signature seemed almost indecently ordinary beside the mystery of the closed ring. Mei waited until An Ru unfolded the wrapper.",
+      "chapter": "book_vii",
+      "background": "archive_consent_room",
+      "effect": "none",
+      "next": "ring_archive_private_copy"
+    },
+    "ring_archive_private_copy": {
+      "speaker": "shen_qing",
+      "actor": "shen_qing",
+      "text": "There is a rubbed space beside the charter heading. I can see the pressure left by the old brush through the fibers, but I cannot read what was removed. Qi would make the impressions brighter. That sounds useful until I remember that pressure survives beneath the guarded columns too. I will keep my hands off the sheet. If you need a brighter ordinary lamp, I can carry one. If the light reveals something the people covered, tell me before we decide that discovering it was merely an accident of workmanship.",
+      "chapter": "book_vii",
+      "background": "archive_consent_room",
+      "effect": "none",
+      "next": "ring_archive_mortality"
+    },
+    "ring_archive_mortality": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "An Ru accepted the lamp and adjusted its wick herself. Shen Qing watched the small ceremony with the discomfort of a disciple whose useful power had become an inconvenience. Lin Yue understood it too well. She had once dried a whole basket of soaked rice with qi and congratulated herself before finding the middle grains cooked into paste. Her mother had made them eat that paste for supper. The memory arrived without a bronze ring or another person's witness. It belonged to the ordinary labor she had mistaken for an obstacle.",
+      "chapter": "book_vii",
+      "background": "archive_copy_room",
+      "effect": "none",
+      "next": "ring_archive_occupied"
+    },
+    "ring_archive_occupied": {
+      "speaker": "an_ru",
+      "actor": "an_ru",
+      "text": "This public clause names occupied houses serving the lower crossing. Occupied means people lived there when the charter was made. Its later deletion removed their recorded standing; it did not empty the houses or remove the people from their lives. Remember Wei Xiu. Her household vanished from the register, and she remained at the landing, working. We are looking for another public line that may have been treated the same way. If it names someone, we must first ask whether we are seeing a living neighbor through an official omission.",
+      "chapter": "book_vii",
+      "background": "archive_copy_room",
+      "effect": "none",
+      "next": "ring_archive_missing_line"
+    },
+    "ring_archive_missing_line": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The clean copy had compressed three occupancy lines into one sentence about vacant river frontage. Beneath it, the older offered extract listed a dwelling, a work shelter, and a berth associated with the lower reed crossing. Someone had ruled through the dwelling entry before shortening the paragraph. The ink did not resemble a door shutting. It resembled the impatient stroke Lin Yue used to dismiss a mistaken sum. She studied its uneven beginning, wondering how many people had learned the shape of their exclusion from a clerk's hurried hand.",
+      "chapter": "book_vii",
+      "background": "archive_copy_room",
+      "effect": "none",
+      "next": "ring_archive_correction"
+    },
+    "ring_archive_correction": {
+      "speaker": "mei_dulan",
+      "actor": "mei_dulan",
+      "text": "Wei Jin's offered correction identifies him as the person formerly entered under the charter name Jin of the Lower Reed. He gives the crossing dwelling and the old ferry permit serial, LR-6. It is a statement he chose to make now. We can compare those details with the public extracts. We cannot call the correction the missing ring's receipt, because it is not one. Nor should we describe him as recovered. Wei Jin has been speaking under his own name while the charter refused to keep up with his life.",
+      "chapter": "book_vii",
+      "background": "archive_copy_room",
+      "effect": "none",
+      "next": "ring_archive_father"
+    },
+    "ring_archive_father": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Lin Yue read the correction twice. It named Wei Xiu as his living daughter only where the household link was necessary to distinguish the dwelling. An Ru had covered the rest of the domestic paragraph at Wei Jin's request. A small note allowed that limited relationship to be reported with the public occupancy match. Lin Yue remembered the crossing stone Wei Xiu had carved and the way she introduced herself after others had told her history. A daughter could help identify a record without becoming an exhibit for all her father's unfinished obligations.",
+      "chapter": "book_vii",
+      "background": "archive_copy_room",
+      "effect": "none",
+      "next": "ring_archive_witness_limit"
+    },
+    "ring_archive_witness_limit": {
+      "speaker": "an_ru",
+      "actor": "an_ru",
+      "text": "He permits us to report the charter link and the permit number, and to show the comparison at the common findings. He has not permitted a public account of why he used the charter name, or anything he once entrusted to the Eel. This correction is an offered present statement, not proof that every old entry was his. I should say that plainly before the evidence begins to feel persuasive. A convincing pattern makes people impatient with the person whose answer they still need to hear for themselves later.",
+      "chapter": "book_vii",
+      "background": "archive_copy_room",
+      "effect": "none",
+      "next": "ring_archive_qi_window"
+    },
+    "ring_archive_qi_window": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "A gust rattled the shutter latch. The lamp stretched its flame sideways and dimmed. Shen Qing took one step toward the window, then stopped to ask how it fastened. An Ru pointed to the worn wooden catch. He pressed it home without lighting the carved ward above it. The ward had once kept a whole shelf dry by drawing heat from the room; now half its channel was cracked. In an archive full of incomplete instructions, Lin Yue found comfort in a repair whose entire purpose fitted beneath one thumb.",
+      "chapter": "book_vii",
+      "background": "archive_copy_room",
+      "effect": "none",
+      "next": "ring_archive_ask_help"
+    },
+    "ring_archive_ask_help": {
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "We have the offered correction and the public occupancy extracts, but I am moving too quickly between them. An Ru knows the charter's arrangement; Mei knows how permit numbers travel between offices. I can ask either to slow this first comparison until I understand the link. Both will remain at the table, and neither answer decides whose interpretation we keep. Shen, leave the lamp where we can all read. I would rather admit which part confuses me while the first sheet is open than become confident because everyone else is tired.",
+      "chapter": "book_vii",
+      "background": "archive_copy_room",
+      "effect": "none",
+      "choices": [
+        {
+          "text": "Ask An Ru to explain the public occupancy section.",
+          "next": "ring_archive_charter_lesson",
+          "effects": {
+            "insight": 1
+          }
+        },
+        {
+          "text": "Ask Mei Dulan to explain the ferry permit comparison.",
+          "next": "ring_archive_permit_lesson",
+          "effects": {
+            "resolve": 1
+          }
+        }
+      ]
+    },
+    "ring_archive_bench_join": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "They drew the stools closer without pulling the papers together. An Ru kept a finger on the occupancy extract while Mei laid an empty strip beside the permit field. The unfilled strip mattered. No one had yet found the older permit in the offered records. Shen Qing placed a plain cup at each table corner so a sudden draft would not scatter them. The cups had different glaze colors and equally useful weight. Lin Yue found herself grateful for the mismatched set, and then embarrassed to have made even cups into a lesson.",
+      "chapter": "book_vii",
+      "background": "archive_copy_room",
+      "effect": "none",
+      "next": "ring_archive_first_sheet"
+    },
+    "ring_archive_first_sheet": {
+      "speaker": "an_ru",
+      "actor": "an_ru",
+      "text": "Here is the former charter name in a repair extract, plainly written rather than recovered from scraped ink: Jin of the Lower Reed. The offered heading places the repair at the public crossing shelter. The expense column is guarded. We can inspect the item description and the signer's mark because those lines were separately released for this inquiry. Do not infer that every repair paid for at the shelter served the ferry. The roof covered travelers waiting for several kinds of passage, including people who never stepped aboard Wei Jin's boat.",
+      "chapter": "book_vii",
+      "background": "archive_copy_room",
+      "effect": "none",
+      "next": "ring_archive_alias_ink"
+    },
+    "ring_archive_alias_ink": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The name followed the curve of the older occupancy line almost exactly, although the repair copy used darker ink. An Ru refused Lin Yue's suggestion that the same hand made both entries. A copying clerk could preserve the form of a name without meeting its bearer. Across the table, Mei smiled at the correction and then lost the smile when An Ru looked at her. There was no triumph in refusing a convenient conclusion. For a moment the room held only the sound of Shen Qing turning a cold cup between his palms.",
+      "chapter": "book_vii",
+      "background": "archive_copy_room",
+      "effect": "none",
+      "next": "ring_archive_permit_serial"
+    },
+    "ring_archive_permit_serial": {
+      "speaker": "mei_dulan",
+      "actor": "mei_dulan",
+      "text": "This offered permit extract carries LR-6 beside the lower crossing berth. Its renewal notation names Wei Jin. The previous charter designation is not visible here; it appears in the separate correction he supplied. Together they give us a reason to compare the repair stub, not a completed chain. The serial can distinguish this permit from neighboring berths. It cannot tell us which ring the Eel holds. A ferry permit licensed work on the crossing. It was never permission to store, hear, return, or assign someone else's memory echo at will.",
+      "chapter": "book_vii",
+      "background": "archive_copy_room",
+      "effect": "none",
+      "next": "ring_archive_serial_caution"
+    },
+    "ring_archive_serial_caution": {
+      "speaker": "shen_qing",
+      "actor": "shen_qing",
+      "text": "Then the numbers are useful because they keep us from joining two convenient names just because they sound alike. I can understand that. Azure Cloud has registers that repeat a disciple's title after the person changes tasks. A younger student once delivered my practice blades to the watchtower because the copy named my old post. Nobody intended to imprison me in the old entry. Still, I spent a whole morning answering an obligation I had left. Here, the morning belongs to people who cannot recover it with a longer life later.",
+      "chapter": "book_vii",
+      "background": "archive_copy_room",
+      "effect": "none",
+      "next": "ring_archive_split_folio"
+    },
+    "ring_archive_split_folio": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The repair extract ended at a broken fold. Its continuation was still in the offered packet, but An Ru had placed it in a different sleeve because the loose edge shed fibers. Lin Yue resisted the wish to fit the two pieces together with her fingers. Through the gap she could see a worm channel shaped like a bent path. The insect had crossed a clause, a margin, and a signature with perfect indifference. An Ru slid an empty support sheet beneath the fragment and began to turn the separate sleeve.",
+      "chapter": "book_vii",
+      "background": "archive_copy_room",
+      "effect": "none",
+      "next": "ring_archive_repair_date"
+    },
+    "ring_archive_repair_date": {
+      "speaker": "an_ru",
+      "actor": "an_ru",
+      "text": "The repair preceded the winter revision that erased the households' recorded claims. The permitted extract dates it in the old charter period; the exact private payment schedule remains covered. This lets us say that the alias was used before the suppression. It does not let us say how long Wei Jin used it, or why he changed the way he introduced himself. When dates have different precision, I write their limits beside them. Otherwise the neatest date on the table quietly begins speaking for every page in the room.",
+      "chapter": "book_vii",
+      "background": "archive_copy_room",
+      "effect": "none",
+      "next": "ring_archive_repair_cost"
+    },
+    "ring_archive_repair_cost": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Mei asked whether the account stub might show who paid. An Ru lifted the permission note, read it, and shook her head. Only the repair item, public crossing reference, alias, and permit serial had been released. Mei looked toward the guarded amount long enough for Lin Yue to notice. Then she wrote a question for the household instead of reaching for the page. Her brush paused before the final word. Asking would delay them, and delay had consequences. The room offered no elegant excuse for pretending either fact away.",
+      "chapter": "book_vii",
+      "background": "archive_copy_room",
+      "effect": "none",
+      "next": "ring_archive_grandmother"
+    },
+    "ring_archive_grandmother": {
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "Wei Jin told us his grandmother signed the common water line. I remember how calmly he said that beside the rubbing of the other clause. He did not offer her as a guarantee that his whole inheritance was good. I want to keep that voice in mind while we read his old charter designation. If the repair served common water, that matters. If another clause imposed a debt, we cannot erase it to make him a simpler person. We also cannot expose a guarded debt because complexity appeals to us today.",
+      "chapter": "book_vii",
+      "background": "archive_copy_room",
+      "effect": "none",
+      "next": "ring_archive_apprenticeship"
+    },
+    "ring_archive_apprenticeship": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "An Ru reached beneath the desk for a measuring thread and found a spool whose end had vanished into its windings. Lin Yue offered to pull it loose with the sword tip, then remembered where the sword lay. As a mortal apprentice in her mother's kitchen, she had learned to search for a thread by turning the spool slowly against the light. The work returned to her hands before she described it. Shen Qing watched her find the end, looking curious about a skill that required no meridian to open.",
+      "chapter": "book_vii",
+      "background": "archive_copy_room",
+      "effect": "none",
+      "next": "ring_archive_mortal_pace"
+    },
+    "ring_archive_mortal_pace": {
+      "speaker": "shen_qing",
+      "actor": "shen_qing",
+      "text": "When you said apprentice, I thought you meant your first sword teacher. You looked different just now. At the mountain we count progress by what becomes unnecessary: a crutch, a hearth, sleep after a long ascent. You turned a spool as though remembering something valuable precisely because it still needed doing. I have been standing here with enough qi to dry a roof and very little idea how to help this table. Show me where to place the support sheet. I can learn a task without making it disappear first.",
+      "chapter": "book_vii",
+      "background": "archive_copy_room",
+      "effect": "none",
+      "next": "ring_archive_scaffold"
+    },
+    "ring_archive_scaffold": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "They moved the supported extracts to the lower central table. Above it, a narrow shelf bowed beneath bundles that had absorbed damp from the leaking roof. An Ru saw its movement before the others heard the peg crack. She pushed the lamp away from the table and ordered them into the clear aisle. Shen Qing raised his palm, but the shelf carried paper loose enough to scatter under a ward. The second peg began to slide from the wall. Lin Yue caught his wrist before light reached his fingers.",
+      "chapter": "book_vii",
+      "background": "valley_archive",
+      "effect": "none",
+      "next": "ring_archive_latch_falls"
+    },
+    "ring_archive_latch_falls": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The shelf dropped a hand's breadth and struck the support rail below it. Dust burst into the aisle. A wooden label skittered across the floor while the bundles remained caught between the rail and the tilted board. An Ru checked that no one stood under the load, then shut the room door to keep visitors outside. Lin Yue heard her own pulse before she heard the settling wood. There was no grand collapse to master. There was a shelf that might fall farther if a brave hand touched it carelessly.",
+      "chapter": "book_vii",
+      "background": "valley_archive",
+      "effect": "none",
+      "next": "ring_archive_paused"
+    },
+    "ring_archive_paused": {
+      "speaker": "an_ru",
+      "actor": "an_ru",
+      "text": "We stop here. The offered papers on the low table are safe, and the trapped bundles stay where they are until the support can be secured. No one goes beneath them. Shen, your power can hold the outside rail from the clear aisle if you can release it without a jerk. It cannot make the wall trustworthy. Yue, bring the empty reading bench along the floor. Mei, keep the lamp behind the doorway. We are protecting a room, not earning permission to read whichever packet happens to fall into our arms.",
+      "chapter": "book_vii",
+      "background": "valley_archive",
+      "effect": "none",
+      "next": "ring_archive_qi_restraint"
+    },
+    "ring_archive_qi_restraint": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Shen Qing braced the rail with a narrow thread of qi while Lin Yue slid the bench beneath its accessible end. The effort deepened a line beside his mouth. Holding a small unstable weight without moving it demanded more care than lifting something heavy into open air. An Ru set two wooden wedges from the table chest, checked the bench legs, and guided the thread's release. Nothing shone afterward. Shen sat down abruptly. Lin Yue offered water without asking whether a disciple of Azure Cloud ought to need it.",
+      "chapter": "book_vii",
+      "background": "valley_archive",
+      "effect": "none",
+      "next": "ring_archive_wet_papers"
+    },
+    "ring_archive_wet_papers": {
+      "speaker": "mei_dulan",
+      "actor": "mei_dulan",
+      "text": "I will record the interruption so nobody mistakes our shorter search for a complete one. The upper bundles remain unexamined. A supported shelf is still closed to us today, and no finding may claim we searched every surviving charter. I wanted the account stub quickly. That does not entitle me to turn a near fall into a reason for greater access. An Ru, tell me if the offered sheets need time away from the lamp. I have watched too many offices protect a document's usefulness before protecting the document itself from heat.",
+      "chapter": "book_vii",
+      "background": "archive_copy_room",
+      "effect": "none",
+      "next": "ring_archive_finding_bound"
+    },
+    "ring_archive_finding_bound": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "An Ru checked the offered pages in the copy room and found their edges dry. The account stub was already among them; nobody needed the upper shelf to reach it. Lin Yue felt relief sharpen into embarrassment. She had imagined that danger might be the necessary price of a missing clue. Instead, the clue waited in the modest tray they had brought downstairs. Shen Qing leaned his head against the wall, eyes closed. Mei wrote the search boundary in large enough characters to survive an impatient reader's first glance.",
+      "chapter": "book_vii",
+      "background": "archive_copy_room",
+      "effect": "none",
+      "next": "ring_archive_object_difference"
+    },
+    "ring_archive_object_difference": {
+      "speaker": "an_ru",
+      "actor": "an_ru",
+      "text": "The shelf contains charters. The tray contains volunteered extracts from particular charters. Neither contains the ring. We can damage all three by forgetting the difference. If a page mentions an entrusted echo, that mention still has its own scope. If the Eel later returns a closed case to its owner, the return still gives an audience no permission to listen. Keep those distinctions even when they sound tedious. The original memories remain with their owners; the external copies are confidences, not missing minds that our inquiry has a duty to complete.",
+      "chapter": "book_vii",
+      "background": "archive_copy_room",
+      "effect": "none",
+      "next": "ring_archive_account_stub"
+    },
+    "ring_archive_account_stub": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The account stub fitted across An Ru's palm. Its released item described patching the lower crossing shelter and renewing a guide rope beside the berth. The heading used Jin of the Lower Reed; the margin carried LR-6. An ordinary work reference had survived where the cleaner charter copy omitted the public occupancy line. Lin Yue stared at the stub's blunt corners. She had expected a secret to announce itself through forbidden ink or a hidden chamber. This one had survived because somebody needed to remember which rope was mended.",
+      "chapter": "book_vii",
+      "background": "archive_copy_room",
+      "effect": "none",
+      "next": "ring_archive_signatures"
+    },
+    "ring_archive_signatures": {
+      "speaker": "mei_dulan",
+      "actor": "mei_dulan",
+      "text": "The correction, permit extract, and repair stub agree on the serial. The public occupancy location agrees with the correction's dwelling reference. Those matches support Wei Jin's account of his former charter name. The repair stub is not independent testimony about a deposit with the keeper; its item is repairs. Even its signature comes through an offered copy. We should name the documents separately rather than multiplying the stub into three witnesses. A chain can be strong within its own question and still end before the question everyone most wants answered today.",
+      "chapter": "book_vii",
+      "background": "archive_copy_room",
+      "effect": "none",
+      "next": "ring_archive_copy_gap"
+    },
+    "ring_archive_copy_gap": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Mei set the comparison strips apart. Between the charter link and an empty strip for any deposit evidence lay a clear span of bare wood. Lin Yue wanted to bridge it with the word therefore. She could feel the word waiting behind her teeth. An Ru pressed a fingertip into the gap as though testing a crack in a boat. Nobody spoke for several breaths. From outside came a wheel squeaking along the lane, followed by the ordinary complaint of someone whose basket had caught against a doorpost.",
+      "chapter": "book_vii",
+      "background": "archive_copy_room",
+      "effect": "none",
+      "next": "ring_archive_released_folio"
+    },
+    "ring_archive_released_folio": {
+      "speaker": "an_ru",
+      "actor": "an_ru",
+      "text": "This is where our present authority ends. We can carry the released extracts and Wei Jin's limited correction to the common findings. Another team may bring a separately permitted record linking an old deposit to this name or permit. We have not seen such a record here. We must not borrow its imagined contents just because somebody else was asked to investigate it. If their report disagrees, the gap stays open. The purpose of sharing findings is to let separate evidence arrive, not to rehearse agreement before the other witnesses enter the room.",
+      "chapter": "book_vii",
+      "background": "archive_copy_room",
+      "effect": "none",
+      "next": "ring_archive_reconsider"
+    },
+    "ring_archive_reconsider": {
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "I was about to say that we had found him. We have found a way a public record called Wei Jin, and a reason to compare that way with other evidence. The difference sounds smaller when I am eager. He has helped keep the crossing open for families. That makes him familiar, not automatically the owner of an unread echo. I will write the sentence you can defend, An Ru. Then I will leave room beside it for him to answer in his own present voice later.",
+      "chapter": "book_vii",
+      "background": "archive_copy_room",
+      "effect": "none",
+      "next": "ring_archive_meal"
+    },
+    "ring_archive_meal": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "An Ru uncovered the rice cakes she had hidden from the damp. There were four, folded around greens with a trace of bitter salt. Mei protested that she had brought food of her own until An Ru pointed out that nobody had accused her of arriving empty handed. They ate at the bench away from the extracts. Shen Qing held his cake for a moment, apparently waiting for instruction, and then laughed at himself. Lin Yue watched crumbs fall into his palm and remembered that meals could finish without becoming evidence of anyone's character.",
+      "chapter": "book_vii",
+      "background": "archive_copy_room",
+      "effect": "none",
+      "next": "ring_archive_mei_admission"
+    },
+    "ring_archive_mei_admission": {
+      "speaker": "mei_dulan",
+      "actor": "mei_dulan",
+      "text": "I want the link to be decisive because I know what a refused public proof costs. In the city I helped approve a summary that should have remained a temporary license. People paid for that neatness with wages and standing. Here I look at an erased occupancy line and want to mend the whole injury before supper. That impulse does not certify the next page. It only tells you why I might read too fast. Please correct me while I can still answer a correction, rather than praising me after I have hurried somebody else.",
+      "chapter": "book_vii",
+      "background": "archive_copy_room",
+      "effect": "none",
+      "next": "ring_archive_city_shadow"
+    },
+    "ring_archive_city_shadow": {
+      "speaker": "an_ru",
+      "actor": "an_ru",
+      "text": "I will correct you. I would also like you to correct me when preservation becomes an excuse for leaving a person without usable proof. It is easy to be the careful keeper of a locked room. The people outside still need to cross water, buy grain, and collect a wage. Today's offered correction is useful now, even if it cannot identify a ring by itself. Let us give Wei Jin the full benefit of the public comparison he authorized. Keeping its limit clear should not make us ashamed to say what it actually shows.",
+      "chapter": "book_vii",
+      "background": "archive_copy_room",
+      "effect": "none",
+      "next": "ring_archive_quiet_choice"
+    },
+    "ring_archive_quiet_choice": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The last rice cake left a dark green stain on Lin Yue's thumb. Shen Qing looked more rested, though he still sat where the wall supported his back. The comparison could wait for the kettle to warm. Lin Yue could use the pause to ask about An Ru's first copying work or sit quietly with Shen while his hands stopped trembling. Neither would change the released evidence. Both offered a kind of attention the afternoon's urgency had nearly spent. Mei took the kettle off its hook and left the choice open between them.",
+      "chapter": "book_vii",
+      "background": "archive_copy_room",
+      "effect": "none",
+      "choices": [
+        {
+          "text": "Ask An Ru about her first copying work.",
+          "next": "ring_archive_apprentice_pause",
+          "effects": {
+            "insight": 1
+          }
+        },
+        {
+          "text": "Sit quietly with Shen Qing while he rests.",
+          "next": "ring_archive_quiet_pause",
+          "effects": {
+            "trust": 1
+          }
+        }
+      ]
+    },
+    "ring_archive_bruise_common": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "When the cups were filled again, the room had lost its brittle silence. Shen Qing flexed his fingers and said he could walk home without leaning on anyone. An Ru answered that she had not asked him to prove it. Lin Yue found a bruise blooming across her wrist where she had caught his hand near the failing shelf. He noticed it and began to apologize; she showed him the cup she could still lift. They agreed to stop assigning each other an injury's meaning before the owner had finished describing it.",
+      "chapter": "book_vii",
+      "background": "archive_copy_room",
+      "effect": "none",
+      "next": "ring_archive_vocation"
+    },
+    "ring_archive_vocation": {
+      "speaker": "an_ru",
+      "actor": "an_ru",
+      "text": "My first good copy took longer than the document deserved. That was what my teacher said, anyway. I had left spaces after uncertain words instead of making the lines look finished. People laughed at the gaps until one petitioner brought the missing clause herself. Then the page could receive her answer without pretending it had known it all along. I still like a beautiful hand. I simply trust it less when beauty leaves nowhere for an interruption. The space between our charter evidence and a deposit record is serving us well today.",
+      "chapter": "book_vii",
+      "background": "archive_copy_room",
+      "effect": "none",
+      "next": "ring_archive_apprentice_record"
+    },
+    "ring_archive_apprentice_record": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Lin Yue turned her draft sideways and left a wider margin. She had learned letters by copying herb labels, sometimes adding a leaf shape when she could not yet remember the proper stroke. Her mother had objected to the shapes only when two plants looked alike. Accuracy had begun as a question of supper and poison, long before it became a vow. Looking at the repair stub, she recognized the same severity in its humble wording. A guide rope was a guide rope. Calling it a rescued memory would not improve the knot.",
+      "chapter": "book_vii",
+      "background": "archive_copy_room",
+      "effect": "none",
+      "next": "ring_archive_record_scope"
+    },
+    "ring_archive_record_scope": {
+      "speaker": "shen_qing",
+      "actor": "shen_qing",
+      "text": "I can carry the offered packet to the findings if An Ru permits it, but I will carry the search note beside it. Someone seeing my robe may think Azure Cloud has certified what is inside. I can say I witnessed these copies being examined, and that I helped protect the room when the shelf shifted. I cannot certify the old clerk's hand or Wei Jin's unstated reasons. The robe does not improve those limits. If anybody asks for my seal, I will explain what it could actually witness before making an impressive mark.",
+      "chapter": "book_vii",
+      "background": "archive_copy_room",
+      "effect": "none",
+      "next": "ring_archive_public_not_private"
+    },
+    "ring_archive_public_not_private": {
+      "speaker": "mei_dulan",
+      "actor": "mei_dulan",
+      "text": "For the report I propose reading the former charter designation, permit LR-6, the public occupancy match, and the released repair reference. The covered account amounts stay covered, along with the domestic details Wei Jin did not release. A verifier who needs an original comparison can ask through An Ru under the recorded scope. That is different from reading private debts into the common room. We have already learned that distinction in the valley. Repeating a mistake in a more polished report would not make it new, or make it acceptable to the families whose papers we borrowed.",
+      "chapter": "book_vii",
+      "background": "archive_copy_room",
+      "effect": "none",
+      "next": "ring_archive_erasure_repair"
+    },
+    "ring_archive_erasure_repair": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "An Ru marked the suppressed occupancy entry with a narrow paper arrow. The arrow lay above the sheet and left no adhesive behind. Restoring a line on an offered comparison did not amend the charter itself. Mei drafted a separate request for the proper correction process, subject to Wei Jin's approval. Lin Yue was surprised by her own impatience at the extra page. They had proved the useful match; why could the world not move with them? Then she remembered nineteen households asked to accept new settlement forms for land they already held.",
+      "chapter": "book_vii",
+      "background": "archive_copy_room",
+      "effect": "none",
+      "next": "ring_archive_no_accident"
+    },
+    "ring_archive_no_accident": {
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "This repair account belongs to the crossing shelter. We should say that clearly. It tells us nothing about the court's goods sling, its brake, or the accident's cause. The court's Day Seven review remains its own work, and the damaged lift stays closed. I do not want the fact that we just came from that inquiry to give every rope in this archive a new meaning. Wei Jin's old guide rope led people to a ferry berth. It was someone's ordinary duty long before our recent questions made ropes sound ominous to us.",
+      "chapter": "book_vii",
+      "background": "archive_copy_room",
+      "effect": "none",
+      "next": "ring_archive_discrepancy"
+    },
+    "ring_archive_discrepancy": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "A copying date on the permit extract differed from the date beside the released repair item. Mei circled neither. The permit had been copied during a later renewal; the repair item recorded earlier work. An Ru could explain that arrangement from the headings, but no offered line gave an exact day on which the alias ceased to be used. Lin Yue crossed out a sentence that had assumed both events occurred together. The correction left a rough place in the draft. It also left the older ferryman enough years to have lived between the papers.",
+      "chapter": "book_vii",
+      "background": "archive_copy_room",
+      "effect": "none",
+      "next": "ring_archive_evening_light"
+    },
+    "ring_archive_evening_light": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Late light slid under the shutters and brightened the unused edge of the table. The rain had stopped without resolving the roof. Across the lane, someone shook water from a mat, sending a brief silver cloud past the doorway. Lin Yue looked up too slowly to see the person's face. The movement was enough. People were returning to the hour in which clothes had to dry and cooking fires had to catch. Her investigation had occupied their neighborhood all afternoon, while the neighborhood kept making room for things that no investigation could settle.",
+      "chapter": "book_vii",
+      "background": "archive_copy_room",
+      "effect": "none",
+      "next": "ring_archive_permit_correction"
+    },
+    "ring_archive_permit_correction": {
+      "speaker": "an_ru",
+      "actor": "an_ru",
+      "text": "Wei Jin's present correction supplies the connection from the suppressed charter designation to his own name. The surviving permit and repair extracts corroborate the public details he chose to offer. I will not write that the parchment recognized him. People make and maintain recognition; parchment carries what survives their choices. If he later challenges our reading, the copies and their limits must let him do so. He has lived through one office replacing his standing with a convenient version. Our desire to restore it does not free us to invent a version he cannot correct.",
+      "chapter": "book_vii",
+      "background": "archive_copy_room",
+      "effect": "none",
+      "next": "ring_archive_private_witness"
+    },
+    "ring_archive_private_witness": {
+      "speaker": "mei_dulan",
+      "actor": "mei_dulan",
+      "text": "The packet has a private contact note for arranging a reply with him. It will stay inside this screened wrapper rather than on the common table. We can announce the permitted public comparison and invite a response without publishing where he sleeps tonight or the hours his ferry is unattended. Those details are useful to people arranging care, and useful to people who might intrude. I have copied his chosen contact method exactly. Being an available witness does not require a living person to become available to every stranger who hears a finding.",
+      "chapter": "book_vii",
+      "background": "archive_consent_room",
+      "effect": "none",
+      "next": "ring_archive_no_identification_yet"
+    },
+    "ring_archive_no_identification_yet": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The screened wrapper closed with a soft scrape. Outside it, the released comparison named the link and its limits in equal sized script. Lin Yue read the phrase possible owner aloud, then changed it to candidate requiring independent deposit evidence and present reply. The longer wording felt less triumphant and more accurate. Shen Qing pointed out that the common report might make the shorter phrase justified later. Lin Yue agreed. She left the sentence unfinished for that later evidence, resisting the urge to lend herself knowledge merely because the others were bringing it toward her.",
+      "chapter": "book_vii",
+      "background": "archive_consent_room",
+      "effect": "none",
+      "next": "ring_archive_own_memory"
+    },
+    "ring_archive_own_memory": {
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "When I remembered learning the spool, nobody had to return that morning to me. I had it already, though I had neglected it. Whatever Wei Jin entrusted, if the third ring is his, would be an external copy kept under its own permission. Finding a charter name cannot repair a mind that was never missing. I want him to hear that distinction before anyone offers a cure he did not ask for. We can help a confidence reach its owner, perhaps. We should not arrive claiming that the owner has been incomplete until we came.",
+      "chapter": "book_vii",
+      "background": "archive_consent_room",
+      "effect": "none",
+      "next": "ring_archive_consent_ledger"
+    },
+    "ring_archive_consent_ledger": {
+      "speaker": "an_ru",
+      "actor": "an_ru",
+      "text": "I have recorded each offered scope beside its source, including the correction's permission for the common comparison. A later request to return or hear an echo will need its own answer. Nothing we read today automatically grants it. The Eel keeps the third ring sealed while the inquiry proceeds. We are not transferring its custody to this archive, and a familiar name gives us no right to call it abandoned while waiting for reply. Even a person who declines an invitation remains a person who can decide what happens to their confidence afterward.",
+      "chapter": "book_vii",
+      "background": "archive_consent_room",
+      "effect": "none",
+      "next": "ring_archive_report_draft"
+    },
+    "ring_archive_report_draft": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Mei read the draft while An Ru checked it against the offered lines. Their voices caught on different weaknesses. Mei disliked a vague phrase about old authority; An Ru disliked a definite phrase about the same hand. Shen Qing noticed that Lin Yue had left the shelf interruption out of the public summary, though it remained in the working note. She added the search limitation in one sentence. The paragraph grew plainer with each change. It began to sound like people who expected a question and meant to remain in the room for the answer.",
+      "chapter": "book_vii",
+      "background": "archive_copy_room",
+      "effect": "none",
+      "next": "ring_archive_objections"
+    },
+    "ring_archive_objections": {
+      "speaker": "shen_qing",
+      "actor": "shen_qing",
+      "text": "What if somebody says the covered columns would prove more? We can tell them the released lines already support the match we report. If they have a specific question that needs another line, they can ask its keeper and the people named. We cannot promise permission will follow. Nor should we apologize for bringing a useful comparison because it does not reveal everything. A guarded account is not an empty account. I think I understand that better now that the upper shelf has frightened me into seeing how much a careless reach can disturb.",
+      "chapter": "book_vii",
+      "background": "archive_copy_room",
+      "effect": "none",
+      "next": "ring_archive_incomplete_chain"
+    },
+    "ring_archive_incomplete_chain": {
+      "speaker": "mei_dulan",
+      "actor": "mei_dulan",
+      "text": "There are still ordinary alternatives to test. A permit can be renewed, a charter designation can be copied forward, and a repair item can mention a berth without describing an echo deposit. We have answered the public name question as far as the volunteered records allow. At the findings I will ask for the other evidence before drawing the owner conclusion. If the chain breaks, Wei Jin's public correction remains valid within its own scope. We must not withdraw an already supported occupancy link merely because it fails to give us the ring answer we hoped for today.",
+      "chapter": "book_vii",
+      "background": "archive_copy_room",
+      "effect": "none",
+      "next": "ring_archive_custody_separate"
+    },
+    "ring_archive_custody_separate": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "An Ru wrapped the offered extracts between smooth boards. Nothing inside made a sound. Lin Yue thought of bronze rings resting against wood at the sheltered reach, where keeping a confidence no longer demanded endless circuits. The archive packet and the Eel's custody were separate burdens with separate keepers. A name might eventually help them meet. Until then, both could remain supported without being forced open. She tied the cloth with a plain knot Shen Qing had just learned, leaving the ends long enough for hands less steady than hers to undo it.",
+      "chapter": "book_vii",
+      "background": "archive_copy_room",
+      "effect": "none",
+      "next": "ring_archive_learning"
+    },
+    "ring_archive_learning": {
+      "speaker": "shen_qing",
+      "actor": "shen_qing",
+      "text": "I thought the hard part would be understanding a suppressed name. Today the hard part was letting a page remain a page when I wanted it to become an answer. I also learned a knot badly enough that Yue had to untie it twice. Both facts may belong in my account of the afternoon. An Ru, I will return tomorrow to help carry the empty shelf boards if you still want help. That is an offer for that work alone. It does not enroll this room in some invisible season of gratitude to Azure Cloud.",
+      "chapter": "book_vii",
+      "background": "archive_copy_room",
+      "effect": "none",
+      "next": "ring_archive_pack"
+    },
+    "ring_archive_pack": {
+      "speaker": "an_ru",
+      "actor": "an_ru",
+      "text": "Tomorrow's shelf work can wait for a fresh look at the wall. I accept help carrying the boards if the room is safe, and I reserve the right to send you away if it is not. For tonight, carry only this released packet to the findings. Mei will carry the source and permission list; I will bring the working note. The private contact wrapper stays with me until a reply is arranged. There is no prize for carrying everything at once. We are leaving this archive with a comparison, not emptying it into the common room.",
+      "chapter": "book_vii",
+      "background": "archive_copy_room",
+      "effect": "none",
+      "next": "ring_archive_threshold"
+    },
+    "ring_archive_threshold": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Lin Yue retrieved her sword from beside the chipped inkstone. It felt lighter than the wrapped packet, although the packet held only a few sheets. The failing shelf remained behind a closed inner door, visibly marked for repair. Outside, the spring lane smelled of wet wood and supper smoke. Shen Qing waited until An Ru locked the reading room before offering his arm; she declined it and handed him the kettle instead. Mei laughed without turning the refusal into a judgment. Four people stepped into the ordinary evening carrying things they had agreed to carry.",
+      "chapter": "book_vii",
+      "background": "valley_archive",
+      "effect": "none",
+      "next": "ring_archive_exit"
+    },
+    "ring_archive_exit": {
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "At the common findings we will say what this afternoon supports: Jin of the Lower Reed is a suppressed public charter designation Wei Jin has voluntarily linked to himself, corroborated by occupancy, permit LR-6, and the released repair stub. We still need the other teams' permitted deposit evidence and his present answer before naming the third ring's owner. I have not visited their roads or heard their reports. The ring stays sealed with the Mooring Eel. Let us arrive with the gap visible, so the next voice can enter it without having to break our certainty first.",
+      "chapter": "book_vii",
+      "background": "bell_tower_square",
+      "effect": "none",
+      "next": "ring_findings"
+    },
+    "ring_archive_charter_lesson": {
+      "speaker": "an_ru",
+      "actor": "an_ru",
+      "text": "Read the heading before the name. The occupancy section concerns who held the dwelling and work shelter under the public crossing charter. The adjoining account section concerns what was owed under separate terms. Officials shortened the first without preserving its people, then let the second sound like proof that those people were strangers. Today's released occupancy line can establish a public record match without opening the debts beside it. I will guide your finger along the margin, Yue. You should be able to find the distinction again without needing me to pronounce it for you.",
+      "chapter": "book_vii",
+      "background": "archive_copy_room",
+      "effect": "none",
+      "next": "ring_archive_bench_join"
+    },
+    "ring_archive_permit_lesson": {
+      "speaker": "mei_dulan",
+      "actor": "mei_dulan",
+      "text": "Start with the office and berth, then the serial, then the renewal notation. LR-6 belongs to the lower crossing permit here; a similar number in another office might mean something else. Wei Jin's offered correction gives the old designation and this serial, but we still need the permitted repair extract to compare its use. I will not draw a single arrow through all the sheets yet. Put one beside each actual match, and leave the next place blank. The blank will tell you which conclusion has not received its support today.",
+      "chapter": "book_vii",
+      "background": "archive_copy_room",
+      "effect": "none",
+      "next": "ring_archive_bench_join"
+    },
+    "ring_archive_apprentice_pause": {
+      "speaker": "an_ru",
+      "actor": "an_ru",
+      "text": "I began by copying notices that nobody important wanted to read twice. Ferry times, repair days, which corner of a square had to stay clear for carts. A beautiful mistake could put a cart beneath a hanging beam. I learned to check those notices before copying the elaborate seals above them. It was ordinary work, and I wanted grander work. Now I wish grander work remembered where the carts needed to go. Do not improve that wish into an official maxim, Yue. I have eaten, and for once I refuse to copy myself carefully.",
+      "chapter": "book_vii",
+      "background": "archive_copy_room",
+      "effect": "none",
+      "next": "ring_archive_bruise_common"
+    },
+    "ring_archive_quiet_pause": {
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Lin Yue sat beside Shen Qing without offering him a breathing exercise. The room's small sounds returned one by one: water meeting clay, a stool leg dragging, An Ru folding the food cloth. Shen kept his eyes on the floor until his hands grew still. He asked whether she minded the silence. She shook her head and placed her cup where he could reach it without turning. No remembered voice spoke between them. The time belonged to two people who could share a bench without explaining what they were recovering from together.",
+      "chapter": "book_vii",
+      "background": "archive_copy_room",
+      "effect": "none",
+      "next": "ring_archive_bruise_common"
+    }
+  }
+}
