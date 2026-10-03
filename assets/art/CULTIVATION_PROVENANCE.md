@@ -60,3 +60,8 @@ The workshop prompt requested settling pools, copper calibration blanks, finite 
 ## Zhen · ash-bridge expansion
 
 `assets/art/world/zhen.png` is an original native 1024×1536 PNG master with RGBA transparency. The prompt specified an independent adult ceramic worker with a faded olive headcloth, patched indigo apron, blue-stained fingers, ordinary brush, spoon rest and fully visible tied work shoes. The retained output is not enlarged. Display scaling preserves its proportions. This independent generation is not a recolor or pose variant. 
+
+
+## Phase Comparison Room · ash-bridge expansion
+
+`assets/art/world/phase_comparison_room.png` is an original native 1536×1024 PNG master. The prompt specified an independent stone-and-timber building interior with shuttered windows, separated copper references, finite-fuel shutters, sand-pot grounds, shoulder-practice ring and a physical heat-sink assembly. The retained output is not enlarged. Display scaling preserves its proportions. This independent generation is not a recolor or pose variant. 
