@@ -1,0 +1,432 @@
+{
+  "version": 1,
+  "title": "The Twelve Gates of Cultivation",
+  "status": "Canon for the rewrite. Only the opening training arc is authored in this batch; later realms are not gameplay unlocks.",
+  "protagonist": {
+    "name": "Lin Yue",
+    "starting_realm": "mortal",
+    "starting_qi": 0,
+    "root": "Ordinary mixed five-phase root, initially too faint to measure.",
+    "principle": "No reincarnation, secret bloodline, automatic inheritance or pendant-granted cultivation. Measured work changes what Lin Yue can sustain."
+  },
+  "measures": {
+    "breath_unit": "One breath-unit is the qi needed to keep a standard copper thread illuminated for one calm exhalation. Measurements use the same thread and ambient ward; numbers cannot be compared without calibration.",
+    "reserve": "Usable stored qi, separately measured from structural capacity. A large empty reservoir does no work.",
+    "capacity": "Maximum safe reserve measured after recovery. Capacity cannot be increased by exhausting the reserve.",
+    "purity": "Fraction of stored qi matching the practitioner's stable cycle. High reserve at low purity can damage a meridian.",
+    "strain": "Accumulated pressure and fatigue. Strain rises with throughput, incompatible phases, injury and forced seals. Rest, nutrition and appropriate treatment reduce it.",
+    "control": "Repeatable direction, release and interruption. The ability to stop a technique is tested before its power.",
+    "comprehension": "An explanation demonstrated under changed conditions, rather than reciting a manual.",
+    "affinity": "Wood, fire, earth, metal and water are process affinities, not moral traits. Mixed roots learn slowly but permit flexible cycles."
+  },
+  "anatomy": [
+    {
+      "id": "lower_dantian",
+      "name": "Lower dantian",
+      "function": "Storage and refinement below the navel. Mortals have the anatomical locus but no stable spiritual reservoir.",
+      "failure": "Forced gathering before closure gives abdominal heat, nausea and qi leakage."
+    },
+    {
+      "id": "middle_dantian",
+      "name": "Middle dantian",
+      "function": "Balances circulation with breath and heartbeat. Opened gradually during Foundation; it is not an extra free reservoir.",
+      "failure": "Premature compression causes rhythm disturbances and unreliable technique timing."
+    },
+    {
+      "id": "upper_dantian",
+      "name": "Upper dantian",
+      "function": "Anchors spiritual perception and later soul formation.",
+      "failure": "Flooding it before a stable core creates false sensations and fractured attention."
+    },
+    {
+      "id": "twelve_channels",
+      "name": "Twelve paired meridians",
+      "function": "Organ channels carry circulation through limbs and trunk. Body Tempering prepares tissue; Qi Gathering opens paired routes in sequence.",
+      "failure": "One strong route cannot compensate for a damaged partner."
+    },
+    {
+      "id": "eight_vessels",
+      "name": "Eight extraordinary vessels",
+      "function": "Distribute surplus, bridge the paired meridians and regulate the small and great heavenly circuits.",
+      "failure": "Opening all at once produces crossflow. Each bridge must close cleanly before another opens."
+    },
+    {
+      "id": "root",
+      "name": "Spiritual root",
+      "function": "A conversion pattern that admits ambient qi. It influences efficiency, not worth, intelligence or entitlement.",
+      "failure": "Root tests can read environmental noise. Three sessions with a blank and calibrated stone are required."
+    }
+  ],
+  "cycle": [
+    {
+      "step": 1,
+      "name": "Prepare",
+      "rule": "Eat, recover, inspect injuries and calibrate the practice room. A depleted body cannot substitute determination for fuel."
+    },
+    {
+      "step": 2,
+      "name": "Sense",
+      "rule": "Distinguish ambient qi from pulse, warmth and breath. Use a blank instrument and repeat after the instrument is removed."
+    },
+    {
+      "step": 3,
+      "name": "Admit",
+      "rule": "Draw a measured trace through the root. Begin below the safe load measured that week."
+    },
+    {
+      "step": 4,
+      "name": "Refine",
+      "rule": "Separate compatible qi from grit and mismatched phases. Purification consumes time and fuel."
+    },
+    {
+      "step": 5,
+      "name": "Circulate",
+      "rule": "Guide the trace through established paired routes. Never force a blocked channel with added pressure."
+    },
+    {
+      "step": 6,
+      "name": "Store",
+      "rule": "Close the circuit into the lower dantian; record retained reserve after ordinary walking."
+    },
+    {
+      "step": 7,
+      "name": "Release",
+      "rule": "Discharge safely into a grounded practice wick. The exit stroke is learned before the entry stroke."
+    },
+    {
+      "step": 8,
+      "name": "Recover",
+      "rule": "Measure next-day tremor, pain, sleep and retention. The next attempt depends on recovery, not a daily streak."
+    }
+  ],
+  "realms": [
+    {
+      "id": "mortal",
+      "name": "Mortal",
+      "stages": [
+        "Unsensed",
+        "Conditioned",
+        "First perception"
+      ],
+      "mechanism": "No retained qi; ordinary food, tools and muscles perform work.",
+      "admission": "Lin Yue begins here, with zero reserve and no reliable spiritual sensation.",
+      "practice": "Posture, literacy, breath without retention, load management and observation. A sensation that cannot survive a blank comparison is recorded as uncertain.",
+      "breakthrough": "Enter Body Tempering only after repeatable ordinary exercises, healed practice injuries and a stable rhythm under load.",
+      "capabilities": "Ordinary craft, travel, sword drills and study. No qi technique, flight, ward binding or spiritual healing.",
+      "limits": "Being stubborn does not create qi. A gift or auspicious object cannot perform the required exercises.",
+      "failure": "Dehydration, overwork and confusing a racing pulse with spiritual perception.",
+      "recovery": "Food, water, sleep, reduced work and treatment when needed.",
+      "span": "Ordinary human lifespan."
+    },
+    {
+      "id": "body_tempering",
+      "name": "Body Tempering",
+      "stages": [
+        "Skin",
+        "Sinew",
+        "Bone",
+        "Marrow"
+      ],
+      "mechanism": "Prepare tissue to withstand a future circuit using graded ordinary loads and carefully supervised external washes.",
+      "admission": "Mortal conditioning is repeatable and the aspirant can release tension before pain changes their gait.",
+      "practice": "Skin: repeated friction and recovery. Sinew: aligned load and deliberate release. Bone: progressive support without impact shortcuts. Marrow: circulation and rest through a whole workday.",
+      "breakthrough": "Complete four assessments over separate recovered days, sense qi reliably, admit a trace, circulate one prepared pair and retain three breath-units overnight without tremor.",
+      "capabilities": "Greater endurance, controlled falls and a steady training stance. External medicinal qi does not become personal reserve.",
+      "limits": "No sword aura, ward command or healing others. Stage names describe demonstrated resilience, not indestructibility.",
+      "failure": "Hidden fractures, damaged tendons, toxic washes and missing meals. Pain is a reason to inspect, not proof of progress.",
+      "recovery": "Step back to the last tolerated load; repair takes weeks or months and can reduce capacity.",
+      "span": "No guaranteed lifespan extension."
+    },
+    {
+      "id": "qi_gathering",
+      "name": "Qi Gathering",
+      "stages": [
+        "1: Trace",
+        "2: Retention",
+        "3: First pair",
+        "4: Second pair",
+        "5: Four pairs",
+        "6: Six pairs",
+        "7: Small circuit",
+        "8: Balanced reservoir",
+        "9: Great circuit"
+      ],
+      "mechanism": "Admit, refine and retain ambient qi in the lower dantian.",
+      "admission": "Three breath-units retained overnight on three tests, clean release and no next-day tremor.",
+      "practice": "Early stages stabilize a trace; middle stages balance six paired channels; late stages bridge governing and conception vessels before the great circuit. Record usable reserve separately from purity.",
+      "breakthrough": "Ninth stage, at least 90% compatible purity, a great circuit that survives interrupted breath, and three separate stable compression trials under supervision.",
+      "capabilities": "Stage 1 lights a wick briefly; stage 3 reinforces one prepared movement; stage 6 maintains a small talisman; stage 9 sustains a local ward relay.",
+      "limits": "Early stages cannot fly, shatter a mountain or cure an injury. Qi reserve must be replenished. Wards amplify a permitted input but cannot remove their fuel budget.",
+      "failure": "Leakage, phase grit, reflux at a bridge and overconfidence after the first successful trace.",
+      "recovery": "Safe discharge, channel rest, compatible food and low-load recirculation. A damaged route can make a former stage temporarily unusable.",
+      "span": "Healthy practice may reach roughly 120 years; injury and ordinary disease still matter."
+    },
+    {
+      "id": "foundation",
+      "name": "Foundation Establishment",
+      "stages": [
+        "Platform",
+        "Pillars",
+        "Joined foundation"
+      ],
+      "mechanism": "Condense gaseous qi into a liquid reservoir anchored to balanced extraordinary vessels.",
+      "admission": "All Qi Gathering breakthrough tests, a prepared grounding circle and fuel for three days of supervised recovery.",
+      "practice": "Platform stabilizes liquid droplets; Pillars bind the eight vessel bridges one at a time; Joined foundation transfers load across all bridges without cracking the reservoir.",
+      "breakthrough": "Hold a circulating liquid reservoir through sleeping, walking and interrupted practice for ninety recovered days; formulate a stable core seed with a named compatible method.",
+      "capabilities": "Sustained reinforcement, a short supported glide using a prepared artifact, durable local arrays and limited spiritual perception.",
+      "limits": "Artifact flight consumes its own fuel and the user's control. Foundation is not Golden Core, even with an expensive pill.",
+      "failure": "Unequal pillars, borrowed incompatible qi and cracks hidden by sedatives.",
+      "recovery": "Rebuild the damaged pillar, sometimes returning to gaseous reserve. A Foundation pill assists condensation but cannot supply control.",
+      "span": "Approximately 180–250 healthy years, subject to method and injury."
+    },
+    {
+      "id": "golden_core",
+      "name": "Golden Core",
+      "stages": [
+        "Seed",
+        "Nine turns",
+        "Sealed core"
+      ],
+      "mechanism": "Crystallize the liquid reservoir around a personal stable circulation law.",
+      "admission": "Joined foundation and ninety-day stability; compatible core seed, recovery reserve and a protected site for the nine turns.",
+      "practice": "Each turn increases coherence while expelling grit. Crack inspection follows every turn. The ninth seals a repeating cycle without external pressure.",
+      "breakthrough": "A sealed core that sustains its own circulation, accurate spiritual reflection and a prepared soul cradle. Pass a three-part core tribulation testing load, control and contradiction.",
+      "capabilities": "Independent short flight, stronger arrays, sustained sword aura and perception across a bounded landscape.",
+      "limits": "A core does not produce unlimited qi. Rushed or cracked cores limit throughput. Core quality is coherence and repairability, not color or social prestige.",
+      "failure": "Core cracking, runaway heat or choosing a law one can recite but cannot maintain under conflict.",
+      "recovery": "Unload the core, bind cracks, rebuild turns. Shattering can end cultivation; survival does not guarantee restoration.",
+      "span": "Approximately 400–600 healthy years."
+    },
+    {
+      "id": "nascent_soul",
+      "name": "Nascent Soul",
+      "stages": [
+        "Cradle",
+        "Awakening",
+        "Embodiment"
+      ],
+      "mechanism": "Form a spiritual self supported by the core and upper dantian without consuming ordinary identity.",
+      "admission": "Sealed core, soul cradle and stable reflection; separate understanding of copied memory versus lived personhood.",
+      "practice": "Cradle aligns attention; Awakening sustains coherent perception outside one sensory channel; Embodiment returns perception reliably to the body.",
+      "breakthrough": "Maintain three independent soul tasks without losing recall or bodily control; survive a mirror trial confronting a real unresolved contradiction.",
+      "capabilities": "Brief soul projection, remote sensing through an established anchor and coordinated multiple techniques.",
+      "limits": "Projection leaves the body vulnerable and drains reserve. Memory echoes do not create extra souls. A destroyed body cannot be replaced casually.",
+      "failure": "Anchor severance, false doubles, overstretched attention and projection beyond the known return range.",
+      "recovery": "Withdraw projection, restore anchors and rehearse a single task. Lost spiritual structure may remain lost.",
+      "span": "Approximately 800–1,200 healthy years."
+    },
+    {
+      "id": "spirit_transformation",
+      "name": "Spirit Transformation",
+      "stages": [
+        "Attunement",
+        "Resonance",
+        "True spirit"
+      ],
+      "mechanism": "Bring body, core and soul into one repeatable response to a chosen environmental principle.",
+      "admission": "Embodied Nascent Soul, a comprehended principle and stable return from projection.",
+      "practice": "Study the principle under hostile conditions; gradually align bodily channels, core cycle and soul attention. Contradictory conditions are measured explicitly.",
+      "breakthrough": "Demonstrate a principle that still functions when its favored environment is removed; establish a bounded domain seed.",
+      "capabilities": "Change an existing process within an area: guide rain already present, carry an existing sound or redirect available heat.",
+      "limits": "No creation from nothing, absolute mind control or universal immunity. Range and expenditure grow together.",
+      "failure": "Environmental dependence, eroded personal perception and bodily mismatch.",
+      "recovery": "Separate the aligned systems, relearn ordinary sensation and repair one interface at a time.",
+      "span": "Approximately 1,500–2,000 healthy years."
+    },
+    {
+      "id": "void_refinement",
+      "name": "Void Refinement",
+      "stages": [
+        "Boundary",
+        "Passage",
+        "Return"
+      ],
+      "mechanism": "Refine the limits between local spaces using known paired anchors.",
+      "admission": "True spirit and a domain seed that can be closed without abandoning an active technique.",
+      "practice": "Boundary measures distance through the domain; Passage joins two prepared anchors; Return closes the seam and accounts for every traveler and consumed anchor.",
+      "breakthrough": "Three maintained passages across changing conditions, no unresolved seam, and a fully embodied domain boundary.",
+      "capabilities": "Short anchored spatial travel, protected storage spaces and greater domain control.",
+      "limits": "Unknown destinations cannot be selected safely. A passage consumes prepared anchors; storage is not infinite or outside time.",
+      "failure": "Seam collapse, anchor drift, trapped technique load and returning to an altered site.",
+      "recovery": "Ground the seam, recover the nearest intact anchor and rebuild local distance measurements.",
+      "span": "Approximately 3,000–4,000 healthy years."
+    },
+    {
+      "id": "integration",
+      "name": "Integration",
+      "stages": [
+        "Body-domain",
+        "Soul-domain",
+        "Whole domain"
+      ],
+      "mechanism": "Integrate the practitioner with a bounded domain while keeping exits and independent identity intact.",
+      "admission": "Void Return and a closed domain whose upkeep the practitioner can actually fund.",
+      "practice": "Body-domain shares physical load; Soul-domain shares perception; Whole domain balances both during conflict and deliberate withdrawal.",
+      "breakthrough": "Sustain the domain through a seasonal cycle, release every borrowed resource cleanly and identify a flaw that cannot be solved by more power.",
+      "capabilities": "Large coordinated arrays, controlled weather within measured bounds and defense across an inhabited region.",
+      "limits": "A domain still needs fuel. People within it retain independent wills. Borrowed land or labor can be withdrawn.",
+      "failure": "Domain dependence, concealed resource debt and carrying more territory than the core can release.",
+      "recovery": "Shrink the boundary, repay loads and restore bodily independence before expanding again.",
+      "span": "Approximately 5,000–6,000 healthy years."
+    },
+    {
+      "id": "mahayana",
+      "name": "Mahayana",
+      "stages": [
+        "Law seed",
+        "Law body",
+        "Mature law"
+      ],
+      "mechanism": "Hold a consistent principle across body and domain without relying on a single favorable world condition.",
+      "admission": "Whole domain, seasonal stability and a concrete acknowledged flaw.",
+      "practice": "Resolve the flaw through changed action; test the law in another region and with independent observers. A convenient explanation cannot replace a changed technique.",
+      "breakthrough": "A mature law, ordinary-world obligations accounted for and a prepared route through the ninefold ascension trial.",
+      "capabilities": "Vast but bounded transformations of existing processes and long-range anchored travel.",
+      "limits": "Law is not omnipotence. Contradictory laws and unavailable resources still impose limits.",
+      "failure": "Brittle law, hidden exceptions and treating domination as comprehension.",
+      "recovery": "Withdraw the law, rebuild its premise and accept a smaller domain when necessary.",
+      "span": "Approximately 8,000–10,000 healthy years."
+    },
+    {
+      "id": "tribulation",
+      "name": "Tribulation Crossing",
+      "stages": [
+        "Body trial",
+        "Core trial",
+        "Soul trial",
+        "Domain trial",
+        "Law trial",
+        "Debt trial",
+        "Separation trial",
+        "Return trial",
+        "Ascension"
+      ],
+      "mechanism": "Reconcile the mature law with a world that cannot absorb unlimited spiritual load.",
+      "admission": "Mature Mahayana law, a protected trial site, evacuation plan and an ascension path with known return limits.",
+      "practice": "Nine distinct trials test endurance, circulation, identity, boundaries, contradiction, debts, independence, closure and transition. Earlier damage changes later trials.",
+      "breakthrough": "Complete all nine while protecting bystanders and closing abandoned domain anchors; ascension changes the energy environment, not the person's moral worth.",
+      "capabilities": "Brief contact with immortal qi and preparation for the environmental transition.",
+      "limits": "No sudden victory by shouting conviction. External protectors may shelter bystanders but cannot complete personal tests.",
+      "failure": "Burned anchors, law rupture, loss of core coherence and leaving harmful loads behind.",
+      "recovery": "Survive and rebuild at the last sustainable realm; some wounds or failed transitions are permanent.",
+      "span": "No additional guaranteed years while crossing."
+    },
+    {
+      "id": "true_immortal",
+      "name": "True Immortal",
+      "stages": [
+        "Adaptation",
+        "Immortal circulation",
+        "Established path"
+      ],
+      "mechanism": "Rebuild mortal circulation for a denser immortal environment while preserving a coherent identity.",
+      "admission": "Completed ascension with closed former anchors and enough compatible reserve to survive adaptation.",
+      "practice": "Admit immortal qi in traces, inspect changed channels and rebuild a stable closed circuit. The first immortal day returns Lin Yue to careful measurement.",
+      "breakthrough": "This manuscript ends at an established immortal path; further realms remain outside its canon.",
+      "capabilities": "Immortal circulation and lifespan without ordinary senescence while the core and soul remain coherent.",
+      "limits": "Violence, resource starvation, spiritual injury and mistakes can still kill. Ascension does not resurrect the dead or erase past consequences.",
+      "failure": "Immortal qi contamination, adaptation shock and assuming old capacity measurements still apply.",
+      "recovery": "Shelter, compatible fuel, reduced intake and a rebuilt calibration protocol.",
+      "span": "Indefinite potential, conditional on continued coherence and survival."
+    }
+  ],
+  "techniques": [
+    {
+      "name": "Empty Bowl Breath",
+      "minimum": "Mortal",
+      "steps": "Relax the jaw; breathe normally; observe pulse without holding air; stop when dizzy.",
+      "cost": "Time and attention; no qi.",
+      "failure": "Mistaking oxygen deprivation for sensing.",
+      "growth": "Provides reproducible calm; never grants a realm by itself."
+    },
+    {
+      "name": "Copper Wick Admission",
+      "minimum": "Body Tempering: Marrow",
+      "steps": "Calibrate a blank copper thread; admit a trace; ground it through a release stroke; measure after walking.",
+      "cost": "Practice wick, supervised time and recovered physical strength.",
+      "failure": "Touch warmth produces false positives.",
+      "growth": "Proves repeatable sensing and closure before Qi Gathering."
+    },
+    {
+      "name": "Reed-Step Reinforcement",
+      "minimum": "Qi Gathering 3",
+      "steps": "Circulate the first paired route; reinforce one aligned step; discharge before changing direction.",
+      "cost": "One measured pulse of reserve per step.",
+      "failure": "Reinforcing a twisted knee worsens injury.",
+      "growth": "Later stages permit repeated steps through additional opened pairs."
+    },
+    {
+      "name": "Nine-Turn Sword Thread",
+      "minimum": "Golden Core: Nine turns",
+      "steps": "Project a controlled qi edge through a grounded blade; begin below the last inspected turn's throughput.",
+      "cost": "Core reserve proportional to edge length and duration.",
+      "failure": "A damaged turn reflects load into the sword arm.",
+      "growth": "Power improves through coherent turns and edge control, not multiplying named attacks."
+    },
+    {
+      "name": "Returning Lantern Anchor",
+      "minimum": "Nascent Soul: Embodiment",
+      "steps": "Set a known return lantern; project one sensory task; verify the body remains supported; return before reserve crosses its floor.",
+      "cost": "Prepared lantern, soul attention and reserve.",
+      "failure": "An extinguished anchor makes the return uncertain.",
+      "growth": "Additional tasks demand independent control and measured safe range."
+    }
+  ],
+  "crafts": [
+    {
+      "name": "Alchemy",
+      "rule": "Ingredients carry compatible phases, contaminants and finite potency. A pill assists a process whose control is already learned; tolerance, toxicity and recovery are recorded.",
+      "opening_use": "Lin Yue can wash vessels and identify ingredients before handling spiritual fire."
+    },
+    {
+      "name": "Talisman craft",
+      "rule": "A stroke specifies direction, load and release. Pigment and backing limit throughput. Copying the entry stroke without the release stroke creates a trap.",
+      "opening_use": "Mortal copying exercises teach the release stroke with ordinary ink."
+    },
+    {
+      "name": "Array craft",
+      "rule": "Nodes distribute load through anchors, fuel and operators. Every array needs rated capacity, failure isolation and a shutdown path.",
+      "opening_use": "The mountain crisis uses an existing array; Lin Yue contributes one small grounded relay."
+    },
+    {
+      "name": "Artifact forging",
+      "rule": "Material purity, vessel geometry and inscription compatibility determine ratings. An artifact's stored energy never becomes the user's realm.",
+      "opening_use": "A dull practice sword remains useful for alignment."
+    },
+    {
+      "name": "Beast cultivation",
+      "rule": "Spirit beasts have species-specific channels, diets and advancement trials. Their cores are not consequence-free human pills; peaceful teaching and trade are viable routes.",
+      "opening_use": "A furnace mite is dangerous through hot grit, not because it matches a human realm exactly."
+    }
+  ],
+  "resources": [
+    {
+      "name": "Ordinary grain",
+      "use": "Physical recovery and labor.",
+      "limit": "Missing meals slows training; spirit stones do not replace nutrition."
+    },
+    {
+      "name": "Low-grade spirit stone",
+      "use": "Fuel a calibrated practice circle.",
+      "limit": "Finite stored energy, impurities and regional prices. No fixed conversion from money to personal realm."
+    },
+    {
+      "name": "Channel wash",
+      "use": "Support externally supervised Body Tempering.",
+      "limit": "Dose depends on tissue tolerance; an expensive wash can still injure."
+    },
+    {
+      "name": "Foundation reagent",
+      "use": "Assist liquid condensation after all control tests.",
+      "limit": "Provides compatible material, not the foundation's bridges."
+    },
+    {
+      "name": "Recovery reserve",
+      "use": "Food, treatment, accommodation and fuel after a breakthrough.",
+      "limit": "Spending every resource on the attempt can make a technically successful breakthrough unsustainable."
+    }
+  ],
+  "combat": "Compare realm, stable stage, reserve, injury, terrain, preparation and willingness to sustain the cost. Large realm gaps matter; clever plans can permit escape or a specific local success, not routine unexplained victories.",
+  "gameplay_contract": "Qi, Trust, Insight and Resolve remain choice attributes. Their numerical ranks are not cultivation realms. Current realm is authored scene metadata; no threshold in those attributes grants a realm. This batch adds an in-game reference codex, not a complete resource simulation.",
+  "editorial_contract": "Every breakthrough needs prior practice, a measured test, a cost, a failure possibility and recovery scenes. Show elapsed seasons and livelihood. No technique should gain unexplained range between scenes."
+}
