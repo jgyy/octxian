@@ -70,3 +70,8 @@ The workshop prompt requested settling pools, copper calibration blanks, finite 
 ## West Village Kiln Home · ash-bridge expansion
 
 `assets/art/world/west_kiln_home.png` is an original native 1536×1024 PNG master. The prompt specified an independent mortal household beside a wood-fired village kiln, patched roof tiles, ordinary kitchen geography, work shelves, vegetable plot and no sect array or floating mountain. The retained output is not enlarged. Display scaling preserves its proportions. This independent generation is not a recolor or pose variant. 
+
+
+## Lin Yue's Mother · ash-bridge expansion
+
+`assets/art/world/yue_mother.png` is an original native 1024×1536 PNG master with RGBA transparency. The prompt specified an independently painted fifty-nine-year-old village kiln worker with grey-streaked hair, repaired brown robe and blue-grey apron, a cautious shoulder and an ordinary covered rice bowl, without aura or lineage insignia. The retained output is not enlarged. Display scaling preserves its proportions. This independent generation is not a recolor or pose variant. 
