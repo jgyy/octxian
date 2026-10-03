@@ -30,31 +30,35 @@ If your Godot executable is named `godot4`, replace `godot` with `godot4` in bot
 - **S:** save. **L:** open the dialogue journal. **C:** open attributes. **Esc:** close a panel or open settings.
 - The interface provides save/load, auto reading, fast text, an animated wardrobe gallery, audio levels, and reduced motion.
 
-The playable script contains **1,471 scenes and 129,432 authored words** across seven books, with cultivation stats and gated choices. Book I has three endings; each continues into Book II, which has three investigations and four settlements. Every settlement continues into Book III, with three river routes, six settlement approaches, and three endings. Each continues into Book IV's orchard, with three investigations and four settlements. Every orchard outcome continues into Book V, with three city investigations and four resolutions. Each city resolution continues into Book VI, with four investigations, local branch choices and four bounded court remedies. Every court outcome continues into Book VII's three river investigations and three owner-approved arrangements.
+The playable script contains **1,602 scenes and 137,517 authored words** across seven books, with cultivation stats and gated choices. Book I has three endings; each continues into Book II, which has three investigations and four settlements. Every settlement continues into Book III, with three river routes, six settlement approaches, and three endings. Each continues into Book IV's orchard, with three investigations and four settlements. Every orchard outcome continues into Book V, with three city investigations and four resolutions. Each city resolution continues into Book VI, with four investigations, local branch choices and four bounded court remedies. Every court outcome continues into Book VII's three river investigations and three owner-approved arrangements.
 
-This draft expansion currently adds **eight original-scope backgrounds, 32 extra building-interior backgrounds, fourteen human NPC sprites, seven spirit-beast sprites, and three inspectable item paintings** at their native generated sizes. The original 100-background quota, 500 human NPCs, 501 spirit beasts and more than one million words remain unfinished. The separate extra 100-interior quota has 32 delivered paintings. Run `python tools/validate_world.py --require-complete` to check all quotas. CI writes exact delivery counts to `build/content_report.json`.
+This draft expansion currently adds **nine original-scope backgrounds, 32 extra building-interior backgrounds, fifteen human NPC sprites, eight spirit-beast sprites, four inspectable item paintings, and two cultivation effects** at their native generated sizes. The original 100-background quota, 500 human NPCs, 501 spirit beasts and more than one million words remain unfinished. The separate extra 100-interior quota has 32 delivered paintings. Run `python tools/validate_world.py --require-complete` to check all quotas. CI writes exact delivery counts to `build/content_report.json`.
 
 ## Cultivation rewrite (draft)
 
-The rewritten opening adds **77 original training scenes and 5,151 words**, and replaces the original 36 Book I scenes with **2,341 new words**. Total cultivation rewrite delivery is **7,492 words across 113 scenes**. The whole campaign contains **129,432 displayed words**; Books II–VII still contain inherited prose awaiting recast. The full million-word rewrite is unfinished.
+The cultivation rewrite currently delivers **16,770 words across 265 scenes**. The mortal opening contains 77 new training scenes and 36 recast Book I scenes. The next arc adds **131 sluice-apprenticeship scenes / 7,860 words**, and recasts 21 valley scenes / 1,418 words to respect the novice's power limits. The whole campaign contains **137,517 displayed words**; 120,747 inherited words still await recast.
 
-The [cultivation canon](docs/CULTIVATION_SYSTEM.md) defines twelve gates from Mortal to True Immortal, detailed meridians, reserve and purity measures, breakthrough tests, failures, recovery, techniques, crafts and resource costs. Open **Attributes → Cultivation realms** for its in-game reference. Choice attribute ranks do not award realms. Lin Yue earns Qi Gathering stage one after repeated recovered-day tests and remains a novice through Book I.
+Lin Yue earns Qi Gathering stage two through three calibrated overnight retention trials, then stage three through slow paired-meridian work, a misleading instrument fault, eleven rest days and three recovered examinations. Reserve, throughput, purity, sampling discharge and technique delivery loss are distinct. Reed-Step powers an external conducting stitch through the first arm pair; crews and separate stones carry the larger ward loads.
 
-Five new native art masters cover the lower terrace, ash-room technician Han Mei, a furnace mite, a copper practice wick and the first qi trace. The environment is **1672×941**, the human, monster and item are **1024×1536**, and the effect is **1536×1024**. [Provenance](assets/art/CULTIVATION_PROVENANCE.md) records original generation and the mite's single-design replacement. No enlargement is credited.
+The [cultivation canon](docs/CULTIVATION_SYSTEM.md) defines twelve gates, anatomy, tests, recovery, techniques, crafts and resources. Open **Attributes → Cultivation realms** for its in-game reference. Choice attribute ranks never award realms.
 
-The fourteen-volume architecture budgets **1,050,000 original words**. The [production ledger](docs/CULTIVATION_REWRITE.md) separates actual rewrite delivery, inherited prose, planned volumes and remaining work.
+Ten native generated masters cover two environments, two human NPCs, two monsters, two items and two effects. This continuation adds the **1536×1024 sluice**, **1024×1536 Duan Zhi, brine mantis and caliper**, and **1536×1024 paired trace**. [Provenance](assets/art/CULTIVATION_PROVENANCE.md) records their native dimensions; no enlargement is credited.
+
+The fourteen-volume architecture budgets 1,050,000 original words. The [production ledger](docs/CULTIVATION_REWRITE.md) and [verified scene accounting](docs/CULTIVATION_PROGRESS.json) distinguish delivered rewrite, inherited prose and the **983,231 rewrite words still needed**. The PR remains a draft.
 
 ![Mortal recruitment and zero qi](docs/screenshots/mortal_arrival.jpg)
 
 ![Cultivation realm reference](docs/screenshots/cultivation_codex.jpg)
 
-![Han Mei on the lower training terrace](docs/screenshots/mortal_han_mei.jpg)
+![Duan Zhi at the brine sluice](docs/screenshots/sluice_examiner.jpg)
 
-![Furnace mite encounter](docs/screenshots/mortal_mite.jpg)
+![Earned second-stage retention](docs/screenshots/sluice_retention.jpg)
 
-![First retained qi trace](docs/screenshots/first_trace.jpg)
+![Earned first paired meridian route](docs/screenshots/paired_channel.jpg)
 
-![Copper practice wick inspection](docs/screenshots/object_copper_practice_wick.jpg)
+![Brine mantis response choices](docs/screenshots/brine_mantis.jpg)
+
+![Bronze meridian caliper inspection](docs/screenshots/object_meridian_caliper.jpg)
 
 ## Character attributes
 

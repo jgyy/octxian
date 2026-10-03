@@ -38,3 +38,29 @@ def validate_progress(canon, story):
 
 def load_canon(root=ROOT):
     return json.loads((pathlib.Path(root) / "data/cultivation.json").read_text(encoding="utf-8"))
+
+def validate_delivery(progress, story):
+    """Recompute manuscript credit from uniquely identified playable prose."""
+    identifiers = progress["rewrite_scene_ids"]
+    if len(identifiers) != len(set(identifiers)):
+        raise ValueError("Duplicate rewrite scene credit")
+    if not set(identifiers) <= set(story["nodes"]):
+        raise ValueError("Unknown rewrite scene credit")
+    words = lambda node: len(node["text"].split())
+    total = sum(words(node) for node in story["nodes"].values())
+    rewritten = sum(words(story["nodes"][identifier]) for identifier in identifiers)
+    expected = {
+        "displayed_scenes": len(story["nodes"]),
+        "displayed_words": total,
+        "rewrite_scenes": len(identifiers),
+        "rewrite_words": rewritten,
+        "inherited_words": total - rewritten,
+        "remaining_displayed_words": max(0, progress["strict_word_target"] - total),
+        "remaining_rewrite_words": max(0, progress["strict_word_target"] - rewritten),
+    }
+    for field, actual in expected.items():
+        if progress.get(field) != actual:
+            raise ValueError(f"Stale manuscript accounting: {field}")
+    if progress["strict_word_target"] != 1000001:
+        raise ValueError("Preserve the strict million-plus manuscript target")
+    return expected
