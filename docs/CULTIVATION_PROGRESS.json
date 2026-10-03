@@ -1,19 +1,19 @@
 {
-  "displayed_scenes": 1743,
-  "displayed_words": 148600,
+  "displayed_scenes": 1776,
+  "displayed_words": 150891,
   "new_training_scenes": 77,
   "new_training_words": 5182,
   "rewritten_book_i_scenes": 36,
   "rewritten_book_i_words": 2397,
-  "rewrite_words": 30487,
+  "rewrite_words": 32778,
   "strict_word_target": 1000001,
   "planned_rewrite_words": 1050000,
   "reference_checks": "pass",
   "duplicate_prose_checks": "pass",
   "continuity_checkpoints": "pass",
   "inherited_words": 118113,
-  "remaining_displayed_words": 851401,
-  "remaining_rewrite_words": 969514,
+  "remaining_displayed_words": 849110,
+  "remaining_rewrite_words": 967223,
   "native_art": [
     {
       "mime": "image/png",
@@ -188,6 +188,17 @@
       "bytes": 1885266,
       "pngColorType": 6,
       "commit": "8aab0c35723f6e0a036fbcd46b5599bbf83c117c"
+    },
+    {
+      "path": "assets/art/world/phase_comparison_room.png",
+      "mime": "image/png",
+      "size": [
+        1536,
+        1024
+      ],
+      "bytes": 2987493,
+      "pngColorType": 2,
+      "commit": "50a520ee9ea33340910cb65a3e9cd28044c53bc9"
     }
   ],
   "complete": false,
@@ -641,9 +652,42 @@
     "foundry_recovery_019",
     "foundry_recovery_020",
     "foundry_recovery_021",
-    "foundry_recovery_022"
+    "foundry_recovery_022",
+    "foundry_creature_001",
+    "foundry_creature_002",
+    "foundry_creature_003",
+    "foundry_creature_004",
+    "foundry_creature_005",
+    "foundry_creature_006",
+    "foundry_creature_007",
+    "foundry_creature_008",
+    "foundry_creature_009",
+    "foundry_creature_010",
+    "foundry_creature_011",
+    "foundry_creature_012",
+    "foundry_creature_choice",
+    "foundry_gauge_001",
+    "foundry_gauge_002",
+    "foundry_gauge_003",
+    "foundry_gauge_004",
+    "foundry_shutter_001",
+    "foundry_shutter_002",
+    "foundry_shutter_003",
+    "foundry_shutter_004",
+    "foundry_access_001",
+    "foundry_access_002",
+    "foundry_access_003",
+    "foundry_access_004",
+    "foundry_creature_rejoin_001",
+    "foundry_creature_rejoin_002",
+    "foundry_creature_rejoin_003",
+    "foundry_creature_rejoin_004",
+    "foundry_creature_rejoin_005",
+    "foundry_creature_rejoin_006",
+    "foundry_creature_rejoin_007",
+    "foundry_creature_rejoin_008"
   ],
-  "rewrite_scenes": 437,
+  "rewrite_scenes": 470,
   "plot_repair_scene_ids": [
     "tempering_after_007",
     "tempering_after_009",
@@ -707,12 +751,12 @@
     "rewrite_word_change": 3035,
     "report": "docs/PLOT_HOLE_REVIEW.md"
   },
-  "foundry_scenes": 137,
-  "foundry_words": 10682,
+  "foundry_scenes": 170,
+  "foundry_words": 12973,
   "current_expansion": {
     "name": "Ash Bridge Foundry",
-    "new_scenes": 137,
-    "new_words": 10682,
+    "new_scenes": 170,
+    "new_words": 12973,
     "complete": false
   }
 }
