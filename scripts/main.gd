@@ -503,6 +503,7 @@ func _attributes() -> void:
 		progress.name = "AttributeProgress_" + key
 		progress.custom_minimum_size.y = 8
 		progress.max_value = 1.0
+		progress.step = 0.0
 		progress.value = profile.progress
 		progress.show_percentage = false
 		content.add_child(progress)
