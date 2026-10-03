@@ -1,19 +1,19 @@
 {
-  "displayed_scenes": 1606,
-  "displayed_words": 137918,
+  "displayed_scenes": 1638,
+  "displayed_words": 140591,
   "new_training_scenes": 77,
   "new_training_words": 5182,
   "rewritten_book_i_scenes": 36,
   "rewritten_book_i_words": 2397,
-  "rewrite_words": 19805,
+  "rewrite_words": 22478,
   "strict_word_target": 1000001,
   "planned_rewrite_words": 1050000,
   "reference_checks": "pass",
   "duplicate_prose_checks": "pass",
   "continuity_checkpoints": "pass",
   "inherited_words": 118113,
-  "remaining_displayed_words": 862083,
-  "remaining_rewrite_words": 980196,
+  "remaining_displayed_words": 859410,
+  "remaining_rewrite_words": 977523,
   "native_art": [
     {
       "mime": "image/png",
@@ -122,6 +122,28 @@
       "bytes": 1534552,
       "pngColorType": 6,
       "commit": "ac8f8e9ab6388f85c776d9c7fde26dbab7538bab"
+    },
+    {
+      "path": "assets/art/world/ash_bridge_foundry.png",
+      "mime": "image/png",
+      "size": [
+        1536,
+        1024
+      ],
+      "bytes": 3460655,
+      "pngColorType": 2,
+      "commit": "df6198710fc529fc26815b6a6e728bd269438d26"
+    },
+    {
+      "path": "assets/art/world/su_yan.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 1986319,
+      "pngColorType": 6,
+      "commit": "9dd7df8dde6d6b05a96d23f6f3f10e68888edd3c"
     }
   ],
   "complete": false,
@@ -438,9 +460,41 @@
     "court_rain_qi_lamp",
     "court_rain_qi_signal",
     "court_rain_trace_light",
-    "court_docket_dry_cover"
+    "court_docket_dry_cover",
+    "foundry_arrival_001",
+    "foundry_arrival_002",
+    "foundry_arrival_003",
+    "foundry_arrival_004",
+    "foundry_arrival_005",
+    "foundry_arrival_006",
+    "foundry_arrival_007",
+    "foundry_arrival_008",
+    "foundry_arrival_009",
+    "foundry_arrival_010",
+    "foundry_arrival_011",
+    "foundry_arrival_012",
+    "foundry_arrival_013",
+    "foundry_arrival_014",
+    "foundry_arrival_015",
+    "foundry_arrival_016",
+    "foundry_arrival_017",
+    "foundry_arrival_018",
+    "foundry_arrival_019",
+    "foundry_arrival_020",
+    "foundry_arrival_021",
+    "foundry_arrival_022",
+    "foundry_arrival_023",
+    "foundry_arrival_024",
+    "foundry_arrival_025",
+    "foundry_arrival_026",
+    "foundry_arrival_027",
+    "foundry_arrival_028",
+    "foundry_arrival_029",
+    "foundry_arrival_030",
+    "foundry_arrival_031",
+    "foundry_end_bench"
   ],
-  "rewrite_scenes": 300,
+  "rewrite_scenes": 332,
   "plot_repair_scene_ids": [
     "tempering_after_007",
     "tempering_after_009",
@@ -503,5 +557,13 @@
     "displayed_word_change": 401,
     "rewrite_word_change": 3035,
     "report": "docs/PLOT_HOLE_REVIEW.md"
+  },
+  "foundry_scenes": 32,
+  "foundry_words": 2673,
+  "current_expansion": {
+    "name": "Ash Bridge Foundry",
+    "new_scenes": 32,
+    "new_words": 2673,
+    "complete": false
   }
 }
