@@ -40,3 +40,8 @@ The workshop prompt requested settling pools, copper calibration blanks, finite 
 ## Su Yan · ash-bridge expansion
 
 `assets/art/world/su_yan.png` is an original native 1024×1536 PNG master with RGBA transparency. The prompt specified an independent fifty-seven-year-old woman with a jaw burn scar, iron-grey braided hair, an ash-grey robe, saffron work apron, teal gloves, ceramic slate and copper stylus, on a full transparent portrait canvas. The retained output is not enlarged. Display scaling preserves its proportions. This independent generation is not a recolor or pose variant. 
+
+
+## Voidglass Centipede · ash-bridge expansion
+
+`assets/art/world/voidglass_centipede.png` is an original native 1024×1536 PNG master with RGBA transparency. The prompt specified a full sinuous segmented creature with many mineral legs, violet glass stress lines, copper joints, sensory filaments and a flattened split-glass tail, independently designed from the existing mantis and kiln mite. The retained output is not enlarged. Display scaling preserves its proportions. This independent generation is not a recolor or pose variant. 
