@@ -1,50 +1,60 @@
 # Cultivation rewrite production ledger
 
-The draft rewrites Jade Vow around cultivation. Lin Yue begins as a mortal kiln worker with no retained qi, then earns Body Tempering assessments and his first Qi Gathering trace through practice, failure, paid work, recovery and repeated tests. The pendant grants no cultivation.
+Lin Yue begins as a mortal kiln worker with zero retained qi. She earns Body Tempering and the first three Qi Gathering stages through paid work, failed measurements, injuries, recovery and repeatable examinations. The pendant grants no cultivation.
 
-## Delivered manuscript in this batch
+## Delivered manuscript
 
 | Measure | Actual delivered |
 |---|---:|
-| New training scenes | 77 |
-| New training words | 5,151 |
-| Rewritten original Book I scenes | 36 |
-| Rewritten original Book I words | 2,341 |
-| Cultivation rewrite words | 7,492 |
-| Whole playable campaign words, including inherited prose | 129,432 |
-| Whole playable campaign scenes | 1,471 |
+| Original mortal-training expansion | 77 scenes / 5,151 words |
+| Rewritten original Book I | 36 scenes / 2,341 words |
+| New sluice apprenticeship | 131 scenes / 7,860 words |
+| Recast valley openings and power scenes | 21 scenes / 1,418 words |
+| Total cultivation rewrite | **265 scenes / 16,770 words** |
+| Whole playable campaign | **1,602 scenes / 137,517 words** |
+| Inherited prose awaiting recast | 120,747 words |
 
-Only displayed node text counts. The inherited Books II–VII contain 121,940 words awaiting recast. Outlines, realm codex entries, choice labels, budgets, documentation, repeated passages and asset descriptions contribute zero manuscript words.
+This continuation delivers **9,278 cultivation rewrite words**, including 7,860 added training words and 1,418 recast words. Replacing older passages produces a net campaign increase of 8,085 words. Only playable node text counts. Canon, labels, outlines, documentation and art descriptions contribute zero manuscript credit.
 
-The strict playable word target remains **1,000,001**. The current campaign is **870,569 words short**. Counting only cultivation rewrite prose, **992,509 words remain** toward a completely rewritten million-word manuscript. The fourteen-volume budget is **1,050,000 words**, a plan rather than delivered prose.
+[The machine-readable ledger](CULTIVATION_PROGRESS.json) lists every credited scene. The world validator recomputes the total, rewrite and inherited counts and rejects stale, duplicated or unknown credit. The strict target remains **1,000,001 words**: 862,484 additional displayed words are needed, or **983,231 rewrite words** for the complete rewritten manuscript. The fourteen-volume 1,050,000-word architecture is a plan.
 
-## Cultivation system and presentation
+## Earned progression
 
-[The detailed canon](CULTIVATION_SYSTEM.md) defines twelve gates, six anatomy concepts, eight practice steps, five techniques, five crafts and five resource classes. It records admission, capabilities, limits, failure, recovery and breakthrough tests for every realm. **Attributes → Cultivation realms** opens the reference codex. Authored realm labels remain separate from Qi, Trust, Insight and Resolve point ranks.
+The mortal opening reaches Qi Gathering stage one through three recovered retained-trace tests. During the repaired-road delay after Book I, Lin Yue works at the brine sluice for nearly three months. Stage two requires three calibrated six-unit overnight retention trials. Stage three requires three twelve-unit first-pair trials, compatible purity, interruption control and normal next-day sensation.
 
-The opening includes food and work decisions, failed bowl comparisons, tendon injury, reduced practice, examinations under changed conditions, an ordinary-tool response to a furnace mite and three recovered retained-trace measurements. Book I's mountain crisis uses expert operators and independently fueled arrays; the novice performs a bounded relay or evacuation task.
+The arc separates reserve, route throughput, sampling discharge, delivery loss and ordinary fatigue. A salt bridge falsifies the caliper's return readings, prompting independent assessment, eleven rest days and a revised inspection. Reed-Step powers a rated cuff-to-sole stitch through the first arm pair; it never assumes an unopened leg channel works.
+
+Three work/recovery options rejoin before stage two. Three mantis-response options rejoin after source isolation and before the valley journey. Crews and separate fuel carry the large ward loads. Choice attributes remain proficiency, separate from authored realm labels.
+
+[The canon](CULTIVATION_SYSTEM.md) defines all twelve gates and provides the local second/third-stage assessment table. Open **Attributes → Cultivation realms** in the game.
 
 ## Native generated art
 
-Five masters are committed: a 1672×941 terrace environment; 1024×1536 Han Mei, furnace mite and copper wick portraits; and a 1536×1024 first-trace effect. See [creation provenance](../assets/art/CULTIVATION_PROVENANCE.md). The image tool exposes no resolution control. Actual native dimensions are recorded; enlargement is never credited as added detail.
+Ten cultivation masters are retained. This continuation adds the **1536×1024 brine sluice workshop**, **1024×1536 RGBA Duan Zhi**, **1024×1536 RGBA brine mantis**, **1024×1536 RGBA meridian caliper**, and **1536×1024 RGBA paired-channel effect**.
 
-These are one additional background, one human NPC, one monster, one item and one effect. The existing large artwork quotas remain unfinished. The replacement mite composition counts as one design.
+The existing five cover the lower terrace, Han Mei, furnace mite, practice wick and first trace. [Provenance](../assets/art/CULTIVATION_PROVENANCE.md) records native generation. The image tool exposes no resolution parameter; requested maximum detail is reported at actual returned dimensions. No enlargement is credited.
+
+The larger artwork library remains unfinished: nine original-scope environments, 32 additional building interiors, fifteen human NPCs, eight monsters, four items and two effects are currently delivered. Effects do not count as world sprites.
 
 ## Validation and remaining production
 
-The direct merged-data audit passes scene links, reachable scenes, unique paragraphs, ≤100-word scene text, defined realm/stage references and all continuity checkpoints. CI is responsible for Python regression tests, native-pixel and alpha validation, complete narration generation, Godot traversal, UI tests, standalone packaging and forty-four actual viewport captures. Rendering status must be checked on the final source state before screenshots are described as current.
+The merged-data audit passes unique prose, the 100-word scene limit, character/art/stage references, actual gated reachability and every continuity checkpoint. All 1,602 scenes and 25 endings are reachable across 150,807 capped states.
 
-Remaining work includes rewriting and expanding Books II–VII and all later volumes, reaching more than one million unique cultivation manuscript words, generating the remaining world library and implementing any full dynamic cultivation-resource simulation. The present codex is reference lore, with only the opening's advancement authored in gameplay. The PR stays a draft.
+CI runs Python accounting and advancement regressions, native art and alpha checks, complete narration, Godot route/save/UI checks, forty-nine actual viewport captures and standalone Linux launch. The final run and media commit are linked in the draft PR.
+
+The complete million-word cultivation recast and the large world-art quotas remain unfinished. The current authored progression reaches stage three; later inherited prose still awaits recast. The codex is detailed reference lore rather than a full dynamic cultivation economy.
 
 ```mermaid
 flowchart TD
-    Mortal["Mortal · zero retained qi"] --> Labor["Wages, meals and ordinary conditioning"]
-    Labor --> Failure["Failed perception and tendon injury"]
-    Failure --> Recovery["Reduced load and recorded recovery"]
-    Recovery --> Body["Skin → Sinew → Bone → Marrow"]
-    Body --> Tests["Three recovered trace tests"]
-    Tests --> Qi["Qi Gathering 1 · bounded novice tasks"]
-    Qi --> Upper["Rewritten Book I crisis"]
-    Upper --> Recast["Books II–VII awaiting cultivation recast"]
-    Recast --> Later["Fourteen-volume 1.05M-word plan"]
+    Mortal["Mortal · zero retained qi"] --> Body["Skin → Sinew → Bone → Marrow"]
+    Body --> Trace["Three first-trace tests"]
+    Trace --> One["Qi Gathering 1 · Book I novice"]
+    One --> Sluice["Paid sluice apprenticeship"]
+    Sluice --> Retention["Three recovered six-unit trials"]
+    Retention --> Two["Qi Gathering 2 · Retention"]
+    Two --> Failure["Route failure · instrument fault · recovery"]
+    Failure --> Pair["Three recovered twelve-unit paired trials"]
+    Pair --> Three["Qi Gathering 3 · First pair"]
+    Three --> Work["Bounded mantis and valley work"]
+    Work --> Remaining["Later recast and million-word expansion"]
 ```

@@ -9,10 +9,10 @@ from PIL import Image
 
 if __package__:
     from .story_data import authored_word_count, load_story
-    from .cultivation import load_canon, validate_progress
+    from .cultivation import load_canon, validate_progress, validate_delivery
 else:
     from story_data import authored_word_count, load_story
-    from cultivation import load_canon, validate_progress
+    from cultivation import load_canon, validate_progress, validate_delivery
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 STAT_KEYS = {"qi", "trust", "insight", "resolve"}
@@ -241,7 +241,10 @@ def inspect(root):
                 f"Continuity checkpoint {checkpoint['id']} bypasses {required}"
             )
     words = authored_word_count(story)
-    return delivery_report(world, words, len(story["nodes"]))
+    report = delivery_report(world, words, len(story["nodes"]))
+    progress = json.loads((root / "docs/CULTIVATION_PROGRESS.json").read_text())
+    report["cultivation_rewrite"] = validate_delivery(progress, story)
+    return report
 
 
 def main(argv=None):

@@ -1,8 +1,10 @@
 """Cultivation is earned through mandatory practice, not choice-point thresholds."""
 import copy
+import json
+import pathlib
 import unittest
 
-from tools.cultivation import load_canon, validate_progress
+from tools.cultivation import load_canon, validate_progress, validate_delivery
 from tools.story_data import load_story
 
 
@@ -116,6 +118,29 @@ class CultivationTests(unittest.TestCase):
                     self.assertEqual(target["cultivation"], node["cultivation"])
                     current = target["next"]
                 self.assertEqual(len(seen), 2)
+
+    def test_delivery_credits_only_unique_displayed_rewrite_prose(self):
+        path = pathlib.Path(__file__).resolve().parents[1] / "docs/CULTIVATION_PROGRESS.json"
+        progress = json.loads(path.read_text())
+        actual = validate_delivery(progress, self.story)
+        self.assertEqual(actual["displayed_words"],
+                         actual["rewrite_words"] + actual["inherited_words"])
+        story = copy.deepcopy(self.story)
+        story["nodes"][progress["rewrite_scene_ids"][0]]["text"] += " Extra prose."
+        with self.assertRaisesRegex(ValueError, "Stale manuscript"):
+            validate_delivery(progress, story)
+
+    def test_delivery_rejects_duplicate_or_unknown_rewrite_credit(self):
+        path = pathlib.Path(__file__).resolve().parents[1] / "docs/CULTIVATION_PROGRESS.json"
+        progress = json.loads(path.read_text())
+        duplicate = copy.deepcopy(progress)
+        duplicate["rewrite_scene_ids"].append(duplicate["rewrite_scene_ids"][0])
+        with self.assertRaisesRegex(ValueError, "Duplicate rewrite"):
+            validate_delivery(duplicate, self.story)
+        unknown = copy.deepcopy(progress)
+        unknown["rewrite_scene_ids"].append("outline_is_not_prose")
+        with self.assertRaisesRegex(ValueError, "Unknown rewrite"):
+            validate_delivery(unknown, self.story)
 
 
 if __name__ == "__main__":

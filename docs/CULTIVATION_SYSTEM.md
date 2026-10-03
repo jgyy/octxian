@@ -438,3 +438,39 @@ flowchart TD
     Legacy --> Audit
     Audit --> Ledger["Rewrite credit stays separate from inherited prose"]
 ```
+
+## Delivered sluice method: second and third stages
+
+The playable workshop arc now specifies Azure Cloud's local assessment standards. These thresholds describe this method and calibrated equipment; a spirit stone price never converts directly into a realm.
+
+| Test | Stage 2: Retention | Stage 3: First pair |
+|---|---|---|
+| Overnight usable reserve | Six breath-units | Twelve breath-units |
+| Compatible fraction | At least 80% | At least 85% |
+| Route requirement | Stable closure and clean grounded release | First inward/outward arm pair carries a quarter-unit pulse and stops on command |
+| Repetition | Three recovered calibrated trials | Three recovered calibrated trials |
+| Recovery evidence | No tremor after discharge | Normal next-day hand sensation |
+| Known costs | Sampling discharge and ordinary activity | Sampling, route delivery loss and ordinary activity |
+
+Reserve is stored energy. Throughput is the tested flow a particular route can carry per breath. The caliper compares an input and surface return; it cannot see souls or bypass next-day tissue checks. Independent blanks, shade, temperature matching and lifted contacts identify false readings. The new arc includes a hidden salt bridge, an independent assessment, eleven rest days and a revised inspection sheet.
+
+Reed-Step at this stage uses the completed arm pair to power a rated cuff-to-sole conducting stitch. It supports one ordinarily aligned step, with a slack safety line during training. It does not open or secretly use an internal leg channel. Useful quarter-unit support currently spends a half-unit including delivery loss. Turning follows full discharge.
+
+The mantis encounter isolates the practice source, tests residual charge, lowers ordinary water pressure and opens an exit. The chosen novice task is only part of that repair. Valley stone lifting uses crew capstans; ward shelter has separate buried fuel; command revisions are first tested on isolated dummy strips.
+
+```mermaid
+flowchart TD
+    Trace["Stage 1 · first retained trace"] --> Work["Paid sluice work and calibrated blanks"]
+    Work --> Leakage["Overnight leakage and false warmth"]
+    Leakage --> Retention["Three six-unit recovered trials"]
+    Retention --> Two["Stage 2 · Retention"]
+    Two --> Pair["Slow first-pair route pulses"]
+    Pair --> Fault["Hidden salt bridge and numbness"]
+    Fault --> Rest["Independent assessment · eleven rest days"]
+    Rest --> Repair["Instrument repair and lower flow"]
+    Repair --> Trials["Three twelve-unit paired-route trials"]
+    Trials --> Three["Stage 3 · First pair"]
+    Three --> Step["Rated cuff-to-sole step"]
+    Step --> Mantis["Isolate source · lower pressure · open exit"]
+    Mantis --> Valley["Valley work within novice limits"]
+```
