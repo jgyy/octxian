@@ -533,6 +533,26 @@
       "description": "A sheltered workshop overlooks the pools at dusk. The isolated frame and dry bench remain separate from the damaged permanent rod.",
       "environment": "interior",
       "collection": "building_interiors"
+    },
+    {
+      "id": "thunderfen_warning_observatory",
+      "name": "Thunderfen Warning Observatory",
+      "path": "assets/art/world/thunderfen_warning_observatory.png",
+      "native_size": [
+        1774,
+        887
+      ],
+      "description": "The ridge warning shelter after rain. A bronze bell, weather vanes and the ordinary walking route share no unlimited protection source."
+    },
+    {
+      "id": "salt_lantern_watermill",
+      "name": "Salt Lantern Water Mill",
+      "path": "assets/art/world/salt_lantern_watermill.png",
+      "native_size": [
+        1672,
+        941
+      ],
+      "description": "The dry-season water mill divides a finite canal flow among working gates and downstream fields; measurements and maintenance determine actual delivery."
     }
   ],
   "npcs": [
@@ -915,6 +935,26 @@
         ],
         "record": "assets/art/THUNDERFEN_PROVENANCE.md"
       }
+    },
+    {
+      "id": "yuan_lian",
+      "name": "Yuan Lian",
+      "path": "assets/art/world/yuan_lian.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "A middle-aged water-mill forewoman in patched work robes. Ordinary measuring tools, gate maintenance and experience guide her decisions.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/yuan_lian.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/STORM_SALT_PROVENANCE.md"
+      }
     }
   ],
   "monsters": [
@@ -1136,6 +1176,26 @@
           1536
         ],
         "record": "assets/art/THUNDERFEN_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "reedglass_salamander",
+      "name": "Reedglass Salamander",
+      "path": "assets/art/world/reedglass_salamander.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "An independent wetland amphibian with translucent jade skin and mineral reed fronds. Its movements reveal local habitat conditions, never private memories or future weather.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/reedglass_salamander.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/STORM_SALT_PROVENANCE.md"
       }
     }
   ],
