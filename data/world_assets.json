@@ -479,6 +479,28 @@
         1024
       ],
       "description": "Settling pools, copper blanks and an ordinary hand winch support a paid cultivation apprenticeship. Each novice borrows a timed share of finite practice fuel."
+    },
+    {
+      "id": "ash_bridge_foundry",
+      "name": "Ash Bridge Foundry",
+      "path": "assets/art/world/ash_bridge_foundry.png",
+      "description": "Practical annealing bays, grounded calibration benches and a finite-fuel cultivation workshop beneath a stone ash bridge.",
+      "native_size": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "phase_comparison_room",
+      "name": "Phase Comparison Room",
+      "path": "assets/art/world/phase_comparison_room.png",
+      "collection": "building_interiors",
+      "environment": "interior",
+      "description": "An independent foundry testing interior with separated external comparison benches, warm-condition samples, visible grounds and a quiet recovered-practice space.",
+      "native_size": [
+        1536,
+        1024
+      ]
     }
   ],
   "npcs": [
@@ -781,6 +803,46 @@
         ],
         "record": "assets/art/CULTIVATION_PROVENANCE.md"
       }
+    },
+    {
+      "id": "su_yan",
+      "name": "Su Yan",
+      "path": "assets/art/world/su_yan.png",
+      "description": "A fifty-seven-year-old ninth-stage Qi Gathering furnace examiner. Her practical craft instruction separates usable reserve, material compatibility and safe channel throughput.",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/su_yan.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/CULTIVATION_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "zhen",
+      "name": "Zhen",
+      "path": "assets/art/world/zhen.png",
+      "description": "A twenty-five-year-old paid ceramic worker and second-stage apprentice. His ordinary batch marking and glaze inspection often teach Lin Yue skills that realm rank alone does not supply.",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/zhen.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/CULTIVATION_PROVENANCE.md"
+      }
     }
   ],
   "monsters": [
@@ -943,6 +1005,26 @@
         ],
         "record": "assets/art/CULTIVATION_PROVENANCE.md"
       }
+    },
+    {
+      "id": "voidglass_centipede",
+      "name": "Voidglass Centipede",
+      "path": "assets/art/world/voidglass_centipede.png",
+      "description": "An independent many-segmented furnace-seam spirit with obsidian-violet glass armor and copper joints. It consumes residual charge trapped in cooling glaze; its shed plates require analysis rather than granting a realm.",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/voidglass_centipede.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/CULTIVATION_PROVENANCE.md"
+      }
     }
   ],
   "items": [
@@ -985,6 +1067,16 @@
         1536
       ],
       "description": "Two mineral lenses compare a controlled outgoing trace and its return. Independent blanks, lifted-contact checks and next-day sensation tests bound its claims. Salt bridges can falsify a reading; the tool measures surface response and cannot see a soul."
+    },
+    {
+      "id": "phase_comb",
+      "name": "Six-contact Phase Comb",
+      "path": "assets/art/world/phase_comb.png",
+      "description": "A workshop-owned comparison instrument with five phase wells and a sixth blank. Each external contact has a separate return; viewing its painting grants neither custody nor an internal meridian.",
+      "native_size": [
+        1024,
+        1536
+      ]
     }
   ],
   "requested_additional": {
@@ -1011,6 +1103,17 @@
         1024
       ],
       "description": "A muted jade admission filament and amber return with separate release tips. Used only for earned first-pair demonstrations; panels pause its motion and reduced motion hides it.",
+      "record": "assets/art/CULTIVATION_PROVENANCE.md"
+    },
+    {
+      "id": "second_pair_trace",
+      "name": "Interrupted Second-pair Trace",
+      "path": "assets/art/effects/second_pair_trace.png",
+      "description": "Four distinct open filaments show the two separately tested pairs and their interruption gaps. The visual remains quiet, pauses with panels and is hidden by reduced motion.",
+      "native_size": [
+        1536,
+        1024
+      ],
       "record": "assets/art/CULTIVATION_PROVENANCE.md"
     }
   ]
