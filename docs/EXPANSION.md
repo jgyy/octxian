@@ -7,7 +7,7 @@
 - Book II: 73 scenes, 4,000 words, three investigations, nine approaches, four endings.
 - Book III: 87 scenes, 5,332 words, four spring continuations, three river routes, six settlement approaches, three endings.
 - Five original-scope painted backgrounds at native 1672×941.
-- 10 additional building-interior paintings preserved at their individual native sizes; [inventory](INTERIORS.md).
+- 30 additional building-interior paintings preserved at their individual native sizes; [inventory](INTERIORS.md).
 - Four human NPCs and two spirit beasts at native 1024×1536 with alpha.
 - Two inspectable item paintings: clapper at 1024×1536 and echo case at 1536×1024.
 - Rain, reed light, soft bell ripples, and qi effects, paused by panels and stopped by reduced motion.
@@ -133,4 +133,4 @@ River echoes are volunteered external copies, not missing pieces of minds. Three
 
 These structural checks supplement an editorial reading of every new scene. They do not certify that every possible literary inconsistency has been eliminated.
 
-The manuscript still needs **989,727** additional authored prose words to reach 1,000,001. The original art quotas still need **95 backgrounds, 96 human NPCs, and 98 monsters**. The two item paintings are additional assets and do not count toward those quotas. The extra interior quota has 10 delivered paintings and 90 remaining. These future-campaign locations are available in the gallery; their existence does not claim that the outlined books have been written.
+The manuscript still needs **989,727** additional authored prose words to reach 1,000,001. The original art quotas still need **95 backgrounds, 96 human NPCs, and 98 monsters**. The two item paintings are additional assets and do not count toward those quotas. The extra interior quota has 30 delivered paintings and 70 remaining. These future-campaign locations are available in the gallery; their existence does not claim that the outlined books have been written.
