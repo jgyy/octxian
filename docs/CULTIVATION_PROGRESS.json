@@ -1,19 +1,19 @@
 {
-  "displayed_scenes": 1638,
-  "displayed_words": 140591,
+  "displayed_scenes": 1662,
+  "displayed_words": 142523,
   "new_training_scenes": 77,
   "new_training_words": 5182,
   "rewritten_book_i_scenes": 36,
   "rewritten_book_i_words": 2397,
-  "rewrite_words": 22478,
+  "rewrite_words": 24410,
   "strict_word_target": 1000001,
   "planned_rewrite_words": 1050000,
   "reference_checks": "pass",
   "duplicate_prose_checks": "pass",
   "continuity_checkpoints": "pass",
   "inherited_words": 118113,
-  "remaining_displayed_words": 859410,
-  "remaining_rewrite_words": 977523,
+  "remaining_displayed_words": 857478,
+  "remaining_rewrite_words": 975591,
   "native_art": [
     {
       "mime": "image/png",
@@ -144,6 +144,17 @@
       "bytes": 1986319,
       "pngColorType": 6,
       "commit": "9dd7df8dde6d6b05a96d23f6f3f10e68888edd3c"
+    },
+    {
+      "path": "assets/art/world/voidglass_centipede.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 2422822,
+      "pngColorType": 6,
+      "commit": "ee6f199c8f8e7e0039f36684ee85a75c787d14aa"
     }
   ],
   "complete": false,
@@ -492,9 +503,33 @@
     "foundry_arrival_029",
     "foundry_arrival_030",
     "foundry_arrival_031",
-    "foundry_end_bench"
+    "foundry_end_bench",
+    "foundry_phase_001",
+    "foundry_phase_002",
+    "foundry_phase_003",
+    "foundry_phase_004",
+    "foundry_phase_005",
+    "foundry_phase_006",
+    "foundry_phase_007",
+    "foundry_phase_008",
+    "foundry_phase_009",
+    "foundry_phase_010",
+    "foundry_phase_011",
+    "foundry_phase_012",
+    "foundry_phase_013",
+    "foundry_phase_014",
+    "foundry_phase_015",
+    "foundry_phase_016",
+    "foundry_phase_017",
+    "foundry_phase_018",
+    "foundry_phase_019",
+    "foundry_phase_020",
+    "foundry_phase_021",
+    "foundry_phase_022",
+    "foundry_phase_023",
+    "foundry_phase_024"
   ],
-  "rewrite_scenes": 332,
+  "rewrite_scenes": 356,
   "plot_repair_scene_ids": [
     "tempering_after_007",
     "tempering_after_009",
@@ -558,12 +593,12 @@
     "rewrite_word_change": 3035,
     "report": "docs/PLOT_HOLE_REVIEW.md"
   },
-  "foundry_scenes": 32,
-  "foundry_words": 2673,
+  "foundry_scenes": 56,
+  "foundry_words": 4605,
   "current_expansion": {
     "name": "Ash Bridge Foundry",
-    "new_scenes": 32,
-    "new_words": 2673,
+    "new_scenes": 56,
+    "new_words": 4605,
     "complete": false
   }
 }
