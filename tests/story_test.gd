@@ -1,6 +1,7 @@
 extends SceneTree
 
 const State = preload("res://scripts/story_state.gd")
+const Attributes = preload("res://scripts/attributes.gd")
 var failures: Array[String] = []
 
 func check(condition: bool, message: String) -> void:
@@ -9,6 +10,7 @@ func check(condition: bool, message: String) -> void:
 		push_error(message)
 
 func _initialize() -> void:
+	_test_attributes()
 	var state = State.new()
 	check(state.current == "arrival", "Story should start at arrival")
 	check(state.story.get("chapters", {}).has("book_ii"), "Campaign chapters should load")
@@ -140,3 +142,86 @@ func _initialize() -> void:
 	if failures.is_empty():
 		print("JADE_VOW_STORY_TESTS_OK: all routes, gates and save validation")
 	quit(0 if failures.is_empty() else 1)
+
+func _test_attributes() -> void:
+	var samples := [
+		[0, 0, 3, 3, 0.0], [2, 0, 3, 1, 2.0 / 3.0],
+		[3, 3, 6, 3, 0.0], [5, 3, 6, 1, 2.0 / 3.0],
+		[6, 6, 10, 4, 0.0], [9, 6, 10, 1, 0.75],
+		[10, 10, -1, 0, 1.0], [State.MAX_STAT, 10, -1, 0, 1.0]
+	]
+	for key in Attributes.KEYS:
+		for sample in samples:
+			var profile: Dictionary = Attributes.profile(key, sample[0])
+			check(profile.value == sample[0], "Profiles must retain the full attribute value")
+			check(profile.rank_minimum == sample[1] and profile.next_minimum == sample[2], "Attribute rank boundaries must match their thresholds")
+			check(profile.remaining == sample[3] and is_equal_approx(profile.progress, sample[4]), "Rank progress and remaining points must agree")
+			check(profile.rank == Attributes.profile(key, sample[1]).rank, "Values within a rank must retain the same rank")
+			check(not str(profile.description).is_empty() and not str(profile.growth).is_empty(), "Every attribute must explain its meaning and growth")
+		check(Attributes.profile(key, 2).rank != Attributes.profile(key, 3).rank, "Three points must advance the first rank")
+		check(Attributes.profile(key, 5).rank != Attributes.profile(key, 6).rank, "Six points must advance the second rank")
+		check(Attributes.profile(key, 9).rank != Attributes.profile(key, 10).rank, "Ten points must advance the final rank")
+
+	var gated = State.new()
+	gated.current = "first_choice"
+	gated.stats = {"qi": 3, "trust": 0, "insight": 7, "resolve": 2}
+	var choice := {
+		"next": "trust",
+		"effects": {"resolve": 1, "trust": 2, "qi": 1},
+		"requires": {"resolve": 2, "trust": 1, "qi": 3}
+	}
+	gated.story.nodes.first_choice.choices[0] = choice
+	var before_stats: Dictionary = gated.stats.duplicate()
+	var before_history: Array = gated.history.duplicate(true)
+	var details: Dictionary = gated.choice_details(choice)
+	check(details.effects == PackedStringArray(["Qi +1", "Trust +2", "Resolve +1"]), "Effect previews must follow the canonical attribute order")
+	check(details.requirements == PackedStringArray(["Qi 3/3", "Trust 0/1", "Resolve 2/2"]), "Requirements must display both satisfied and unmet thresholds")
+	check(details.missing == PackedStringArray(["Trust 0/1"]), "Missing requirements must contain only unmet thresholds")
+	check(not details.available and not gated.can_choose(choice) and not gated.choose(0), "Preview and application must agree on locked choices")
+	check(gated.stats == before_stats and gated.history == before_history and gated.current == "first_choice", "Locked choices must preserve the journey")
+	gated.stats.trust = 1
+	before_stats = gated.stats.duplicate()
+	details = gated.choice_details(choice)
+	check(details.available and gated.can_choose(choice), "Meeting every requirement must enable the choice")
+	check(gated.stats == before_stats, "Available previews must not apply their effects")
+	check(gated.choose(0) and gated.current == "trust", "An available preview must permit the same transition")
+	check(gated.stats == {"qi": 4, "trust": 3, "insight": 7, "resolve": 3} and gated.history.size() == 1, "Applied effects must match the preview and record one transition")
+
+	for requirement in [[], "qi", {"unknown": 0}, {"qi": true}, {"qi": "1"}, {"qi": 1.5}, {"qi": INF}, {"qi": NAN}, {"qi": -1}, {"qi": State.MAX_STAT + 1}]:
+		_check_attribute_choice_rejected({"next": "trust", "requires": requirement, "effects": {"trust": 1}}, "Malformed requirements must be rejected")
+	for effect in [[], "qi", {"unknown": 1}, {"qi": true}, {"qi": "1"}, {"qi": 1.5}, {"qi": INF}, {"qi": NAN}, {"qi": 1, "trust": -1}]:
+		_check_attribute_choice_rejected({"next": "trust", "effects": effect}, "Malformed or underflowing effects must be rejected")
+	_check_attribute_choice_rejected({"next": "missing", "effects": {"qi": 1}}, "Missing destinations must disable the preview")
+	_check_attribute_choice_rejected({"next": "trust", "effects": {"qi": 1}}, "Overflow must disable the preview", {"qi": State.MAX_STAT})
+
+	var spending = State.new()
+	spending.current = "first_choice"
+	spending.stats.qi = 1
+	spending.story.nodes.first_choice.choices[0] = {"next": "trust", "effects": {"trust": 2, "qi": -1}}
+	check(spending.choice_details(spending.node().choices[0]).effects == PackedStringArray(["Qi -1", "Trust +2"]), "Valid decreases must have an accurate signed preview")
+	check(spending.choose(0) and spending.stats.qi == 0 and spending.stats.trust == 2, "Valid decreases must remain playable")
+
+	var legacy_path := "user://attribute_legacy_test.json"
+	var legacy_stats := {"qi": State.MAX_STAT, "trust": 101, "insight": 6, "resolve": 10}
+	var legacy_file := FileAccess.open(legacy_path, FileAccess.WRITE)
+	legacy_file.store_string(JSON.stringify({"version": 1, "current": "first_choice", "stats": legacy_stats, "history": []}))
+	legacy_file.close()
+	var legacy = State.new()
+	check(legacy.load_game(legacy_path) and legacy.stats == legacy_stats, "Version-1 saves must preserve long campaign values exactly")
+	check(legacy.save_game(legacy_path), "Loaded attribute values must remain saveable")
+	var round_trip = State.new()
+	check(round_trip.load_game(legacy_path) and round_trip.stats == legacy_stats, "Ranks must not clamp persisted values")
+	DirAccess.remove_absolute(legacy_path)
+
+func _check_attribute_choice_rejected(choice: Dictionary, message: String, starting_stats: Dictionary = {}) -> void:
+	var state = State.new()
+	state.current = "first_choice"
+	state.stats.merge(starting_stats, true)
+	state.story.nodes.first_choice.choices[0] = choice
+	var before_stats: Dictionary = state.stats.duplicate()
+	var before_history: Array = state.history.duplicate(true)
+	var details: Dictionary = state.choice_details(choice)
+	check(not details.available and not str(details.reason).is_empty(), message + ": explain why")
+	check(not state.can_choose(choice), message + ": disable selection")
+	check(not state.choose(0), message + ": refuse application")
+	check(state.current == "first_choice" and state.stats == before_stats and state.history == before_history, message + ": preserve scene, stats and journal")

@@ -17,6 +17,7 @@ func _run() -> void:
 	root.add_child(game)
 	await process_frame
 	check(not game.is_reading, "Game should open on title")
+	await _test_attribute_ui(game)
 	game._begin()
 	check(game.is_reading and game.dialogue != null, "Begin should display dialogue")
 	game._advance()
@@ -213,3 +214,108 @@ func _run() -> void:
 	if failures.is_empty():
 		print("JADE_VOW_RUNTIME_TESTS_OK: UI, saved wardrobes, accessibility, voices and 48 whole-body bob combinations")
 	call_deferred("quit", 0 if failures.is_empty() else 1)
+
+func _test_attribute_ui(game) -> void:
+	var shortcut := InputEventKey.new()
+	shortcut.keycode = KEY_C
+	shortcut.pressed = true
+	check(game.ui.find_child("AttributesButton", true, false) != null, "Title must offer the attributes panel")
+	game._unhandled_key_input(shortcut)
+	_check_attribute_panel(game)
+	await process_frame
+	check(game.popup.get_global_rect().end.y <= 900.0, "Attribute cards must fit inside the viewport")
+	check(not game.is_reading and game.state.current == "arrival", "Opening attributes from the title must preserve the journey")
+	game._close_popup()
+	check(not game.atmosphere.paused, "Closing attributes must resume scene effects")
+
+	game._begin()
+	game.state.current = "first_choice"
+	game._scene()
+	game._advance()
+	var choice_button: Button = game.choice_box.find_child("Choice_0", true, false)
+	var choice_details: Label = game.choice_box.find_child("ChoiceDetails_0", true, false)
+	check(game.choice_box.get_child_count() == 3 and game.choice_box.get_child(0) is VBoxContainer, "Each choice must have its own card")
+	check(choice_button != null and not choice_button.disabled, "Playable choices must remain enabled")
+	check(choice_details != null and choice_details.is_visible_in_tree() and choice_details.text.contains("Qi +1") and choice_details.text.contains("Trust +2"), "Choice gains must be visible before selection")
+
+	game.dialogue.visible_characters = 1
+	game.text_clock = 1.0
+	game.auto_clock = 1.25
+	game.auto_read = true
+	game.fast_read = true
+	var before_stats: Dictionary = game.state.stats.duplicate()
+	var before_history: Array = game.state.history.duplicate(true)
+	var attributes_button: Button = game.ui.find_child("AttributesButton", true, false)
+	check(attributes_button != null, "Reading must offer the attributes panel")
+	if attributes_button != null:
+		attributes_button.emit_signal("pressed")
+	_check_attribute_panel(game)
+	var effect_clock: float = game.atmosphere.clock
+	game._process(3.0)
+	game.atmosphere._process(3.0)
+	game._advance()
+	game._choose(0)
+	check(game.state.current == "first_choice" and game.state.stats == before_stats and game.state.history == before_history, "The attributes modal must block story choices and advancement")
+	check(game.dialogue.visible_characters == 1 and game.text_clock == 1.0 and game.auto_clock == 1.25, "The attributes modal must pause typewriter, fast and automatic reading")
+	check(game.atmosphere.clock == effect_clock, "The attributes modal must freeze scene effects")
+	game._close_popup()
+	game.auto_read = false
+	game.fast_read = false
+	game._advance()
+	game._choose(0)
+	check(game.state.current == "trust" and game.state.stats.qi == 1 and game.state.stats.trust == 2, "Closing attributes must restore choice interaction")
+	check(game.status_label.text.contains("Qi +1") and game.status_label.text.contains("Trust +2"), "Choice gains must appear on the resulting scene")
+	var totals: Label = game.ui.find_child("AttributeTotals", true, false)
+	check(totals != null and totals.text.contains("QI 01") and totals.text.contains("TRUST 02"), "Scene totals must refresh after gaining attributes")
+	game._unhandled_key_input(shortcut)
+	_check_attribute_panel(game)
+	game._close_popup()
+
+	game.state.current = "final_choice"
+	game._scene()
+	game._advance()
+	choice_button = game.choice_box.find_child("Choice_0", true, false)
+	choice_details = game.choice_box.find_child("ChoiceDetails_0", true, false)
+	check(choice_button != null and choice_button.disabled and choice_button.tooltip_text.contains("Qi 1/3"), "Locked choices must be disabled and explain their gate")
+	check(choice_details != null and choice_details.is_visible_in_tree() and choice_details.text.contains("Locked") and choice_details.text.contains("Qi 1/3") and choice_details.text.contains("Trust +1"), "Locked requirements and possible gains must remain visible")
+	game.state.stats.qi = 3
+	game._scene()
+	game._advance()
+	choice_button = game.choice_box.find_child("Choice_0", true, false)
+	choice_details = game.choice_box.find_child("ChoiceDetails_0", true, false)
+	check(choice_button != null and not choice_button.disabled, "Reaching the threshold must unlock the rebuilt choice")
+	check(choice_details != null and choice_details.text.contains("Requires") and choice_details.text.contains("Qi 3/3"), "Satisfied requirements must refresh with current values")
+	game._attributes()
+	_check_attribute_panel(game)
+	game._close_popup()
+
+	# Check the actual containers after Godot has laid out every authored choice.
+	for id in game.state.story.nodes:
+		if not game.state.story.nodes[id].has("choices"):
+			continue
+		game.state.current = id
+		game._scene()
+		game._advance()
+		await process_frame
+		for card in game.choice_box.get_children():
+			check(card.get_global_rect().end.y <= 568.0, "Choice cards and attribute summaries must clear the dialogue: " + id)
+	game._begin()
+	check(game.state.history.is_empty() and game.state.stats == {"qi": 0, "trust": 0, "insight": 0, "resolve": 0}, "A new journey must reset attribute gains and history")
+	game._attributes()
+	_check_attribute_panel(game)
+	game._close_popup()
+	game._title()
+
+func _check_attribute_panel(game) -> void:
+	check(game.popup != null and game.popup.name == "AttributePanel", "Attributes must open the named modal")
+	if game.popup == null:
+		return
+	check(game.atmosphere.paused, "Attributes must pause scene effects")
+	for key in game.StoryState.Attributes.KEYS:
+		var profile: Dictionary = game.StoryState.Attributes.profile(key, game.state.stats[key])
+		var value_label: Label = game.popup.find_child("AttributeValue_" + key, true, false)
+		var rank_label: Label = game.popup.find_child("AttributeRank_" + key, true, false)
+		var progress: ProgressBar = game.popup.find_child("AttributeProgress_" + key, true, false)
+		check(value_label != null and value_label.text == "%s · %d" % [profile.name, profile.value], "Every attribute card must show its current name and value")
+		check(rank_label != null and rank_label.text.contains(str(profile.rank)), "Every attribute card must show its current rank")
+		check(progress != null and progress.max_value > 0.0 and is_equal_approx(progress.value / progress.max_value, profile.progress), "Attribute progress bars must match the current rank")
