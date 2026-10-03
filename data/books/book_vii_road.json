@@ -133,7 +133,7 @@
           "text": "Spread the anchor load with Wei Jin.",
           "next": "ring_road_brace_bank",
           "effects": {
-            "qi": 1
+            "insight": 1
           }
         },
         {
@@ -152,7 +152,7 @@
     "ring_road_brace_bank": {
       "speaker": "narrator",
       "actor": "lin_yue",
-      "text": "Lin Yue kneels beside Wei Jin at the inland posts. His hands are broad and work-darkened; hers have calluses placed by another trade. Together they lay a padded sling round each post and join the ropes where neither knot will drag across stone. He asks her to tighten the second loop while he watches the first. When both take weight evenly, they ease them again. Across the cut, Su Lan finishes marking the crown's possible swing. The work leaves a quiet certainty in Lin Yue's chest: she knows what their anchor can actually hold.",
+      "text": "Wei Jin showed Lin Yue the two inland posts and their padded guides. She carried slack line to the second guide on firm ground while he retained control. Neither person became a body anchor. She checked the angle against Su Lan's mark and reported a chafing edge before any load transfer. Jin adjusted the ordinary padding, then returned the rope to its rated path. Yue's field stayed closed. The preparation improved their rig and her understanding of it; it taught no new qi technique.",
       "chapter": "book_vii",
       "background": "north_landing",
       "next": "ring_road_anchor",
@@ -659,7 +659,7 @@
           "text": "Mend your sleeve while Wei Jin writes his limits.",
           "next": "ring_road_terms_silence",
           "effects": {
-            "resolve": 1
+            "trust": 1
           }
         }
       ],

@@ -1019,7 +1019,7 @@
           "text": "Take the modest cup-sorting shifts.",
           "next": "foundry_wage_001",
           "effects": {
-            "resolve": 1
+            "insight": 1
           }
         },
         {
@@ -1033,7 +1033,7 @@
           "text": "Keep the lighter rota and recovered shoulder practice.",
           "next": "foundry_rest_001",
           "effects": {
-            "trust": 1
+            "resolve": 1
           }
         }
       ]
@@ -2017,7 +2017,7 @@
           "text": "Clear the upper access and account for departing workers.",
           "next": "foundry_access_001",
           "effects": {
-            "trust": 1
+            "insight": 1
           }
         }
       ]

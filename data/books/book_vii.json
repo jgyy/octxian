@@ -188,7 +188,7 @@
           "text": "Take the reed channel with Wei Xiu and the offered custody record.",
           "next": "ring_marsh_entry",
           "effects": {
-            "qi": 1
+            "insight": 1
           }
         },
         {
@@ -202,7 +202,7 @@
           "text": "Walk the former ferry approach with Wei Jin.",
           "next": "ring_road_entry",
           "effects": {
-            "trust": 1
+            "resolve": 1
           }
         }
       ],
@@ -321,7 +321,7 @@
       "actor": "lin_yue",
       "background": "sheltered_reach",
       "effect": "none",
-      "text": "Lin Yue rested her hands on the dry board beside the sheltered berth. Across the narrow gap, the Eel still held the covered ring. A faint vibration traveled through the water and wood; the pendant answered with a warmth she knew too well. For an instant she imagined one thread of qi recovering the whole departure: its water, its voice, a man's first winter. She put both hands behind her back. The warmth faded into the ordinary afternoon. She did not need to prove her strength against a closed thing. Wei Jin had already spoken clearly enough.",
+      "text": "Lin Yue rested her hands on the dry board beside the covered ring. A vibration traveled through wood and water. The pendant warmed, but its known memory was her mother's offered afternoon, not Wei Jin's winter. She imagined a thread of qi supplying the missing departure and recognized the wish before acting. No learned technique could produce that account, and no listening had been offered. She put her hands behind her back. The warmth faded. Wei Jin's ordinary words were already enough for tonight's arrangement.",
       "next": "ring_yun_lesson",
       "cultivation": {
         "realm": "qi_gathering",
