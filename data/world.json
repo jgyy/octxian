@@ -1,0 +1,1553 @@
+{
+  "version": 1,
+  "requested": {
+    "backgrounds": 200,
+    "npcs": 500,
+    "monsters": 501
+  },
+  "backgrounds": [
+    {
+      "id": "salt_lantern_valley",
+      "name": "Salt Lantern Valley",
+      "path": "assets/art/world/salt_lantern_valley.webp",
+      "native_size": [
+        1672,
+        941
+      ],
+      "description": "Salt Lantern Valley viewed before Azure Cloud's fate is decided. The suspended mountain belongs to the opening period; later shared scenes use the tower square."
+    },
+    {
+      "id": "valley_archive",
+      "name": "The Valley Archive",
+      "path": "assets/art/world/valley_archive.webp",
+      "native_size": [
+        1672,
+        941
+      ],
+      "description": "Original household ledgers wait beside the edited copies. Warm lamplight reveals the conditions a clean register omitted."
+    },
+    {
+      "id": "north_landing",
+      "name": "The North Landing",
+      "path": "assets/art/world/north_landing.webp",
+      "native_size": [
+        1672,
+        941
+      ],
+      "description": "Spring rain washes a public jetty. Beyond the crossing stone, a ferry route enters fog that keeps a passenger's memories."
+    },
+    {
+      "id": "bell_tower_square",
+      "name": "The Bell-Tower Square",
+      "path": "assets/art/world/bell_tower_square.webp",
+      "native_size": [
+        1672,
+        941
+      ],
+      "description": "A public square beneath autumn lanterns. This view faces grounded ridges and remains consistent with all three outcomes for Azure Cloud."
+    },
+    {
+      "id": "sheltered_reach",
+      "name": "The Sheltered Reach",
+      "path": "assets/art/world/sheltered_reach.webp",
+      "native_size": [
+        1672,
+        941
+      ],
+      "description": "A high-bank mooring offers rest without opening a single entrusted echo. Flood marks make a promise answerable to the river."
+    },
+    {
+      "id": "bell_keeper_workshop",
+      "name": "Bell Keeper's Workshop",
+      "path": "assets/art/world/interiors/bell_keeper_workshop.webp",
+      "native_size": [
+        1672,
+        941
+      ],
+      "environment": "interior",
+      "collection": "building_interiors",
+      "description": "Clappers, cords, and worn tools wait in the room where the valley's bells are maintained."
+    },
+    {
+      "id": "ferry_ticket_house",
+      "name": "Ferry Ticket House",
+      "path": "assets/art/world/interiors/ferry_ticket_house.webp",
+      "native_size": [
+        1672,
+        941
+      ],
+      "environment": "interior",
+      "collection": "building_interiors",
+      "description": "Bamboo passes and a low counter make room for travelers arranging passage."
+    },
+    {
+      "id": "high_bank_boathouse",
+      "name": "High-Bank Boathouse",
+      "path": "assets/art/world/interiors/high_bank_boathouse.webp",
+      "native_size": [
+        1672,
+        941
+      ],
+      "environment": "interior",
+      "collection": "building_interiors",
+      "description": "An unfinished ferry rests above the old flood line among ropes and hull frames."
+    },
+    {
+      "id": "stone_carvers_hall",
+      "name": "Stone Carvers' Hall",
+      "path": "assets/art/world/interiors/stone_carvers_hall.webp",
+      "native_size": [
+        1672,
+        941
+      ],
+      "environment": "interior",
+      "collection": "building_interiors",
+      "description": "Carvers measure replacement landing stones beside a ramp through their workshop."
+    },
+    {
+      "id": "reed_case_workroom",
+      "name": "Reed-Case Workroom",
+      "path": "assets/art/world/interiors/reed_case_workroom.webp",
+      "native_size": [
+        1672,
+        941
+      ],
+      "environment": "interior",
+      "collection": "building_interiors",
+      "description": "Dry reeds and folded cloth line a room used for making protective cases."
+    },
+    {
+      "id": "archive_copy_room",
+      "name": "Archive Copy Room",
+      "path": "assets/art/world/interiors/archive_copy_room.webp",
+      "native_size": [
+        1672,
+        941
+      ],
+      "environment": "interior",
+      "collection": "building_interiors",
+      "description": "Copying desks stand apart so readers can work without exposing a neighbor's papers."
+    },
+    {
+      "id": "archive_consent_room",
+      "name": "Archive Consent Room",
+      "path": "assets/art/world/interiors/archive_consent_room.webp",
+      "native_size": [
+        1672,
+        941
+      ],
+      "environment": "interior",
+      "collection": "building_interiors",
+      "description": "Closed boxes and a screened table offer space for discussing records in private."
+    },
+    {
+      "id": "village_council_room",
+      "name": "Village Council Room",
+      "path": "assets/art/world/interiors/village_council_room.webp",
+      "native_size": [
+        1672,
+        940
+      ],
+      "environment": "interior",
+      "collection": "building_interiors",
+      "description": "An open circle of stools leaves every household a place in the meeting."
+    },
+    {
+      "id": "salt_merchant_store",
+      "name": "Salt Merchant's Store",
+      "path": "assets/art/world/interiors/salt_merchant_store.webp",
+      "native_size": [
+        1672,
+        941
+      ],
+      "environment": "interior",
+      "collection": "building_interiors",
+      "description": "Scales, sealed jars, and raised stores preserve the valley's salt through damp weather."
+    },
+    {
+      "id": "winter_grain_house",
+      "name": "Winter Grain House",
+      "path": "assets/art/world/interiors/winter_grain_house.webp",
+      "native_size": [
+        1672,
+        941
+      ],
+      "environment": "interior",
+      "collection": "building_interiors",
+      "description": "Millet bins and wicker scoops mark the food held for the coming winter."
+    },
+    {
+      "id": "orchard_healing_hall",
+      "name": "Orchard Healing Hall",
+      "path": "assets/art/world/interiors/orchard_healing_hall.webp",
+      "native_size": [
+        1672,
+        941
+      ],
+      "environment": "interior",
+      "collection": "building_interiors",
+      "description": "Treatment couches surround an old plum tree beneath a square of open sky."
+    },
+    {
+      "id": "orchard_apothecary",
+      "name": "Orchard Apothecary",
+      "path": "assets/art/world/interiors/orchard_apothecary.webp",
+      "native_size": [
+        1672,
+        941
+      ],
+      "environment": "interior",
+      "collection": "building_interiors",
+      "description": "Roots, bowls, and sorting trays fill the orchard's medicine room."
+    },
+    {
+      "id": "pain_exchange_chamber",
+      "name": "Pain-Exchange Chamber",
+      "path": "assets/art/world/interiors/pain_exchange_chamber.webp",
+      "native_size": [
+        1672,
+        941
+      ],
+      "environment": "interior",
+      "collection": "building_interiors",
+      "description": "Two treatment platforms face each other across a faintly lit copper channel."
+    },
+    {
+      "id": "herbal_steam_room",
+      "name": "Herbal Steam Room",
+      "path": "assets/art/world/interiors/herbal_steam_room.webp",
+      "native_size": [
+        1672,
+        940
+      ],
+      "environment": "interior",
+      "collection": "building_interiors",
+      "description": "Steam rises from covered herb pots beneath a high roof vent."
+    },
+    {
+      "id": "orchard_sickroom",
+      "name": "Orchard Sickroom",
+      "path": "assets/art/world/interiors/orchard_sickroom.webp",
+      "native_size": [
+        1672,
+        941
+      ],
+      "environment": "interior",
+      "collection": "building_interiors",
+      "description": "A low bed and wide doorway make an orchard sickroom easy to enter."
+    },
+    {
+      "id": "orchard_seed_vault",
+      "name": "Orchard Seed Vault",
+      "path": "assets/art/world/interiors/orchard_seed_vault.webp",
+      "native_size": [
+        1672,
+        941
+      ],
+      "environment": "interior",
+      "collection": "building_interiors",
+      "description": "Earthenware jars keep orchard seeds in a dry chamber beneath the ground."
+    },
+    {
+      "id": "grafting_workshop",
+      "name": "Grafting Workshop",
+      "path": "assets/art/world/interiors/grafting_workshop.webp",
+      "native_size": [
+        1672,
+        941
+      ],
+      "environment": "interior",
+      "collection": "building_interiors",
+      "description": "Rootstocks, knives, and twine wait beneath an oiled-paper roof."
+    },
+    {
+      "id": "orchard_dining_hall",
+      "name": "Orchard Dining Hall",
+      "path": "assets/art/world/interiors/orchard_dining_hall.webp",
+      "native_size": [
+        1672,
+        941
+      ],
+      "environment": "interior",
+      "collection": "building_interiors",
+      "description": "Long tables and mismatched bowls provide a shared meal after orchard work."
+    },
+    {
+      "id": "winter_blossom_pavilion",
+      "name": "Winter Blossom Pavilion",
+      "path": "assets/art/world/interiors/winter_blossom_pavilion.webp",
+      "native_size": [
+        1672,
+        941
+      ],
+      "environment": "interior",
+      "collection": "building_interiors",
+      "description": "A white plum flowers beside the enclosed pavilion's winter hearth."
+    },
+    {
+      "id": "orchard_night_watch",
+      "name": "Orchard Night-Watch Room",
+      "path": "assets/art/world/interiors/orchard_night_watch.webp",
+      "native_size": [
+        1672,
+        941
+      ],
+      "environment": "interior",
+      "collection": "building_interiors",
+      "description": "A sand timer and small stove keep company during the orchard's night watch."
+    },
+    {
+      "id": "mask_makers_studio",
+      "name": "Mask Makers' Studio",
+      "path": "assets/art/world/interiors/mask_makers_studio.webp",
+      "native_size": [
+        1672,
+        941
+      ],
+      "environment": "interior",
+      "collection": "building_interiors",
+      "description": "Unpainted wooden faces await carving on the studio's drying racks."
+    },
+    {
+      "id": "identity_exchange_hall",
+      "name": "Identity Exchange Hall",
+      "path": "assets/art/world/interiors/identity_exchange_hall.webp",
+      "native_size": [
+        1672,
+        941
+      ],
+      "environment": "interior",
+      "collection": "building_interiors",
+      "description": "Screened counters surround a dais in the city's identity exchange."
+    },
+    {
+      "id": "borrowed_face_dressing_room",
+      "name": "Borrowed-Face Dressing Room",
+      "path": "assets/art/world/interiors/borrowed_face_dressing_room.webp",
+      "native_size": [
+        1672,
+        941
+      ],
+      "environment": "interior",
+      "collection": "building_interiors",
+      "description": "Bronze mirrors and empty robes fill a chamber for preparing borrowed appearances."
+    },
+    {
+      "id": "city_registry_office",
+      "name": "City Registry Office",
+      "path": "assets/art/world/interiors/city_registry_office.webp",
+      "native_size": [
+        1672,
+        941
+      ],
+      "environment": "interior",
+      "collection": "building_interiors",
+      "description": "Counters and sealed cabinets hold the city's identity records."
+    },
+    {
+      "id": "mirror_repair_shop",
+      "name": "Mirror Repair Shop",
+      "path": "assets/art/world/interiors/mirror_repair_shop.webp",
+      "native_size": [
+        1672,
+        941
+      ],
+      "environment": "interior",
+      "collection": "building_interiors",
+      "description": "Cracked bronze mirrors rest on felt beside the polishing wheel."
+    },
+    {
+      "id": "silk_weavers_loft",
+      "name": "Silk Weavers' Loft",
+      "path": "assets/art/world/interiors/silk_weavers_loft.webp",
+      "native_size": [
+        1672,
+        941
+      ],
+      "environment": "interior",
+      "collection": "building_interiors",
+      "description": "Jade and crimson threads stretch across the loft's wooden looms."
+    },
+    {
+      "id": "tea_house_private_room",
+      "name": "Tea House Private Room",
+      "path": "assets/art/world/interiors/tea_house_private_room.webp",
+      "native_size": [
+        1672,
+        941
+      ],
+      "environment": "interior",
+      "collection": "building_interiors",
+      "description": "A celadon tea set waits behind shutters closed against city rain."
+    },
+    {
+      "id": "city_bathhouse",
+      "name": "City Bathhouse",
+      "path": "assets/art/world/interiors/city_bathhouse.webp",
+      "native_size": [
+        1672,
+        941
+      ],
+      "environment": "interior",
+      "collection": "building_interiors",
+      "description": "Warm pools and bamboo screens fill the quiet bathhouse."
+    },
+    {
+      "id": "perfumer_workroom",
+      "name": "Perfumer's Workroom",
+      "path": "assets/art/world/interiors/perfumer_workroom.webp",
+      "native_size": [
+        1672,
+        940
+      ],
+      "environment": "interior",
+      "collection": "building_interiors",
+      "description": "Dried blossoms and resin trays line the perfumer's small workroom."
+    },
+    {
+      "id": "city_safe_house",
+      "name": "City Safe House",
+      "path": "assets/art/world/interiors/city_safe_house.webp",
+      "native_size": [
+        1672,
+        941
+      ],
+      "environment": "interior",
+      "collection": "building_interiors",
+      "description": "Rolled mats and a shared kettle furnish a refuge above the city streets."
+    },
+    {
+      "id": "borrowed_faces_market",
+      "name": "The Borrowed-Faces Market",
+      "path": "assets/art/world/borrowed_faces_market.webp",
+      "native_size": [
+        1536,
+        1024
+      ],
+      "description": "Spring rain brightens the city stalls and registry steps. Licensed outward appearances remain useful; rented recognition gives no ownership of the person beneath."
+    },
+    {
+      "id": "rain_court_terrace",
+      "name": "The Rain Court Terrace",
+      "path": "assets/art/world/rain_court_terrace.webp",
+      "native_size": [
+        1536,
+        1024
+      ],
+      "description": "The cliff court stands above a spring rain valley on fixed rock foundations. A grounded terrace and goods-lift landing remain separate from Azure Cloud's fate."
+    },
+    {
+      "id": "rain_court_hearing_hall",
+      "name": "The Rain Court Hearing Hall",
+      "path": "assets/art/world/interiors/rain_court_hearing_hall.webp",
+      "native_size": [
+        1536,
+        1024
+      ],
+      "description": "A low bench faces movable witness seats and separately covered exhibits. The open central aisle gives every speaker a path to the hearing.",
+      "environment": "interior",
+      "collection": "building_interiors"
+    },
+    {
+      "id": "rain_court_witness_room",
+      "name": "The Rain Court Witness Room",
+      "path": "assets/art/world/interiors/rain_court_witness_room.webp",
+      "native_size": [
+        1536,
+        1024
+      ],
+      "description": "A sheltered room offers a kettle, spare blankets, private writing tables, and room to rest between testimony and ordinary care.",
+      "environment": "interior",
+      "collection": "building_interiors"
+    },
+    {
+      "id": "lower_training_terrace",
+      "name": "The Lower Training Terrace",
+      "path": "assets/art/world/lower_training_terrace.png",
+      "native_size": [
+        1672,
+        941
+      ],
+      "description": "Rain-dark work sheds and ordinary training tools lie below a floating sect. Lin Yue earns meals here while learning to hold her first qi trace."
+    },
+    {
+      "id": "brine_sluice_workshop",
+      "name": "Brine Sluice Workshop",
+      "path": "assets/art/world/brine_sluice_workshop.png",
+      "native_size": [
+        1536,
+        1024
+      ],
+      "description": "Settling pools, copper blanks and an ordinary hand winch support a paid cultivation apprenticeship. Each novice borrows a timed share of finite practice fuel."
+    },
+    {
+      "id": "ash_bridge_foundry",
+      "name": "Ash Bridge Foundry",
+      "path": "assets/art/world/ash_bridge_foundry.png",
+      "description": "Practical annealing bays, grounded calibration benches and a finite-fuel cultivation workshop beneath a stone ash bridge.",
+      "native_size": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "phase_comparison_room",
+      "name": "Phase Comparison Room",
+      "path": "assets/art/world/phase_comparison_room.png",
+      "collection": "building_interiors",
+      "environment": "interior",
+      "description": "An independent foundry testing interior with separated external comparison benches, warm-condition samples, visible grounds and a quiet recovered-practice space.",
+      "native_size": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "west_kiln_home",
+      "name": "West Village Kiln Home",
+      "path": "assets/art/world/west_kiln_home.png",
+      "description": "Lin Yue's modest kiln-worker household, with ordinary cooking kept away from the hot vent and roof repairs still requiring inspection.",
+      "native_size": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "thunderfen_ridge",
+      "name": "Thunderfen Ridge",
+      "path": "assets/art/world/thunderfen_ridge.png",
+      "native_size": [
+        1672,
+        941
+      ],
+      "description": "Basalt columns, copper seams and a checked lower path; the damaged upper spur remains closed."
+    },
+    {
+      "id": "thunderfen_night",
+      "name": "Thunderfen Survey Workshop",
+      "path": "assets/art/world/thunderfen_night.png",
+      "native_size": [
+        1672,
+        941
+      ],
+      "description": "A sheltered workshop overlooks the pools at dusk. The isolated frame and dry bench remain separate from the damaged permanent rod.",
+      "environment": "interior",
+      "collection": "building_interiors"
+    },
+    {
+      "id": "thunderfen_warning_observatory",
+      "name": "Thunderfen Warning Observatory",
+      "path": "assets/art/world/thunderfen_warning_observatory.png",
+      "native_size": [
+        1774,
+        887
+      ],
+      "description": "The ridge warning shelter after rain. A bronze bell, weather vanes and the ordinary walking route share no unlimited protection source."
+    },
+    {
+      "id": "salt_lantern_watermill",
+      "name": "Salt Lantern Water Mill",
+      "path": "assets/art/world/salt_lantern_watermill.png",
+      "native_size": [
+        1672,
+        941
+      ],
+      "description": "The dry-season water mill divides a finite canal flow among working gates and downstream fields; measurements and maintenance determine actual delivery."
+    },
+    {
+      "id": "canal_commons_lock",
+      "name": "Canal Commons Lock",
+      "path": "assets/art/world/canal_commons_lock.png",
+      "native_size": [
+        1672,
+        941
+      ],
+      "description": "An ordinary canal lock, measuring marks and a sheltered landing beside the water commons.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/canal_commons_lock.png",
+        "native_size": [
+          1672,
+          941
+        ],
+        "record": "assets/art/CONTINUATION_BOOKS_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "forest_winter_boundary",
+      "name": "Forest Winter Boundary",
+      "path": "assets/art/world/forest_winter_boundary.png",
+      "native_size": [
+        1672,
+        941
+      ],
+      "description": "Snow and evergreen shelter surround old boundary stones and a cold forest trail.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/forest_winter_boundary.png",
+        "native_size": [
+          1672,
+          941
+        ],
+        "record": "assets/art/CONTINUATION_BOOKS_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "harbor_quarantine_quay",
+      "name": "Harbor Quarantine Quay",
+      "path": "assets/art/world/harbor_quarantine_quay.png",
+      "native_size": [
+        1672,
+        941
+      ],
+      "description": "Cargo waits beside a roped quarantine landing; warehouses and tides shape the harbor's work.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/harbor_quarantine_quay.png",
+        "native_size": [
+          1672,
+          941
+        ],
+        "record": "assets/art/CONTINUATION_BOOKS_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "kiln_common_firing_hall",
+      "name": "Common Kiln Firing Hall",
+      "path": "assets/art/world/kiln_common_firing_hall.png",
+      "native_size": [
+        1672,
+        941
+      ],
+      "description": "A shared ceramic kiln hall with firing arches, cooling shelves and ordinary tools.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/kiln_common_firing_hall.png",
+        "native_size": [
+          1672,
+          941
+        ],
+        "record": "assets/art/CONTINUATION_BOOKS_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "salt_desert_survey_camp",
+      "name": "Salt Desert Survey Camp",
+      "path": "assets/art/world/salt_desert_survey_camp.png",
+      "native_size": [
+        1672,
+        941
+      ],
+      "description": "Survey stakes and a small camp mark a salt desert route whose water and shade must be carried.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/salt_desert_survey_camp.png",
+        "native_size": [
+          1672,
+          941
+        ],
+        "record": "assets/art/CONTINUATION_BOOKS_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "mountain_archive_winter_hall",
+      "name": "Mountain Archive Winter Hall",
+      "path": "assets/art/world/mountain_archive_winter_hall.png",
+      "native_size": [
+        1672,
+        941
+      ],
+      "description": "Snowlight enters a mountain archive's timber hall beside shelves, worktables and a stove.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/mountain_archive_winter_hall.png",
+        "native_size": [
+          1672,
+          941
+        ],
+        "record": "assets/art/CONTINUATION_BOOKS_PROVENANCE.md"
+      }
+    }
+  ],
+  "npcs": [
+    {
+      "id": "su_lan",
+      "name": "Su Lan",
+      "path": "assets/art/world/su_lan.webp",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "The bell keeper has stopped ringing a ward that erases households. She remembers how her own certainty helped the injustice begin.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/su_lan.webp",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/PROVENANCE.md"
+      }
+    },
+    {
+      "id": "wei_jin",
+      "name": "Wei Jin",
+      "path": "assets/art/world/wei_jin.webp",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "A veteran ferryman keeps the disputed crossing open. He asks whose winter harvest will bear the cost of repairing a wrong boundary.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/wei_jin.webp",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/PROVENANCE.md"
+      }
+    },
+    {
+      "id": "an_ru",
+      "name": "An Ru",
+      "path": "assets/art/world/an_ru.webp",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "An archivist preserves the original household ledger. Her seal identifies the evidence without asking the village to accept her conclusions.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/an_ru.webp",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/PROVENANCE.md"
+      }
+    },
+    {
+      "id": "wei_xiu",
+      "name": "Wei Xiu",
+      "path": "assets/art/world/wei_xiu.webp",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "A living ferry pilot and stone carver whose household was erased from the register. She charts a route without claiming the memories it carries.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/wei_xiu.webp",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/PROVENANCE.md"
+      }
+    },
+    {
+      "id": "ren_qiao",
+      "name": "Ren Qiao",
+      "path": "assets/art/world/ren_qiao.webp",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "An orchard healer who keeps the transfer bowl closed until patient and carrier understand the price. His staff and medicine satchel have outlasted several confident cures.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/ren_qiao.webp",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/PROVENANCE.md"
+      }
+    },
+    {
+      "id": "qiao_sen",
+      "name": "Qiao Sen",
+      "path": "assets/art/world/qiao_sen.webp",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "A veteran mask maker who distinguishes useful appearance licenses from name-proof collateral. His own workshop seals preserve the order in which permit linings were altered.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/qiao_sen.webp",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/PROVENANCE.md"
+      }
+    },
+    {
+      "id": "mei_dulan",
+      "name": "Mei Dulan",
+      "path": "assets/art/world/mei_dulan.webp",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "A city registrar who keeps permanent name proofs separate from rented recognition. Certified extracts and a director-signed batch order make her case answerable to the people named.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/mei_dulan.webp",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/PROVENANCE.md"
+      }
+    },
+    {
+      "id": "tao_wen",
+      "name": "Tao Wen",
+      "path": "assets/art/world/tao_wen.webp",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "A young adult courier whose delayed wages expose a permit being used as a pay account. He supplies his own dispatch tags and decides separately how his testimony may be used.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/tao_wen.webp",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/PROVENANCE.md"
+      }
+    },
+    {
+      "id": "fei_nuo",
+      "name": "Fei Nuo",
+      "path": "assets/art/world/fei_nuo.webp",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "A perfumer who tests return wax on offered tags with separate controls. Her workshop gives the Glasswing Moth room to refuse volatile resin and offers workers a practical repair.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/fei_nuo.webp",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/PROVENANCE.md"
+      }
+    },
+    {
+      "id": "he_lian",
+      "name": "He Lian",
+      "path": "assets/art/world/he_lian.webp",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "An immortal bench magistrate whose long verification calendar has costs for mortal witnesses. She admits corrected public proofs while preserving disputed duties, cause, and individual responsibility.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/he_lian.webp",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/PROVENANCE.md"
+      }
+    },
+    {
+      "id": "luo_shan",
+      "name": "Luo Shan",
+      "path": "assets/art/world/luo_shan.webp",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "A mortal petition writer who translates the court's long calendars into dates working people can meet. He records limited testimony and keeps disputed claims separate from already restored standing.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/luo_shan.webp",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/PROVENANCE.md"
+      }
+    },
+    {
+      "id": "bai_qun",
+      "name": "Bai Qun",
+      "path": "assets/art/world/bai_qun.webp",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "A forty-four-year-old stonebinder responsible for landing and guide checks, whose own duties must be distinguished from the lift staff's brake and counterweight work. Her copied account proves neither neglect nor guilt.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/bai_qun.webp",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/PROVENANCE.md"
+      }
+    },
+    {
+      "id": "du_heng",
+      "name": "Du Heng",
+      "path": "assets/art/world/du_heng.webp",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "A thirty-one-year-old porter whose right shoulder remains injured after the descending goods sling slipped. Ordinary care, paid access, and the limits of what he saw remain separate from compensation and blame.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/du_heng.webp",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/PROVENANCE.md"
+      }
+    },
+    {
+      "id": "han_mei",
+      "name": "Han Mei",
+      "path": "assets/art/world/han_mei.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "A senior ash-room technician at Body Tempering's Bone stage. An old shoulder injury changed her training, while her skilled work continues to keep novices safe.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/han_mei.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/CULTIVATION_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "duan_zhi",
+      "name": "Duan Zhi",
+      "path": "assets/art/world/duan_zhi.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "A stage-six Qi Gathering examiner and sluice mechanic. His old leg injury limits his stance; he teaches with calibrated blanks, independent tests and a plain wooden cane.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/duan_zhi.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/CULTIVATION_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "su_yan",
+      "name": "Su Yan",
+      "path": "assets/art/world/su_yan.png",
+      "description": "A fifty-seven-year-old ninth-stage Qi Gathering furnace examiner. Her practical craft instruction separates usable reserve, material compatibility and safe channel throughput.",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/su_yan.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/CULTIVATION_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "zhen",
+      "name": "Zhen",
+      "path": "assets/art/world/zhen.png",
+      "description": "A twenty-five-year-old paid ceramic worker and second-stage apprentice. His ordinary batch marking and glaze inspection often teach Lin Yue skills that realm rank alone does not supply.",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/zhen.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/CULTIVATION_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "yue_mother",
+      "name": "Lin Yue's Mother",
+      "path": "assets/art/world/yue_mother.png",
+      "description": "A fifty-nine-year-old kiln worker whose old lake technique left a lasting cultivation cost. She uses ordinary household craft; her daughter's earned progress restores neither the damaged route nor the lost years.",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/yue_mother.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/CULTIVATION_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "jiang_tao",
+      "name": "Jiang Tao",
+      "path": "assets/art/world/jiang_tao.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "A qualified formation surveyor who trains bounded control, keeps field and protection fuel separate, and ends work when conditions change.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/jiang_tao.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/THUNDERFEN_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "yuan_lian",
+      "name": "Yuan Lian",
+      "path": "assets/art/world/yuan_lian.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "A middle-aged water-mill forewoman in patched work robes. Ordinary measuring tools, gate maintenance and experience guide her decisions.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/yuan_lian.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/STORM_SALT_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "luo_zhen",
+      "name": "Luo Zhen",
+      "path": "assets/art/world/luo_zhen.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "A weathered canal lockkeeper with a reed cape, practical hands and an ordinary gate tally.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/luo_zhen.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/CONTINUATION_BOOKS_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "shi_lan",
+      "name": "Shi Lan",
+      "path": "assets/art/world/shi_lan.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "A forest worker whose patched winter clothes and measuring tools reflect years on the mountain.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/shi_lan.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/CONTINUATION_BOOKS_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "harbor_he_ming",
+      "name": "He Ming",
+      "path": "assets/art/world/harbor_he_ming.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "An experienced harbor rigger whose work coat and hands carry the wear of rope and weather.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/harbor_he_ming.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/CONTINUATION_BOOKS_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "peng_ai",
+      "name": "Peng Ai",
+      "path": "assets/art/world/peng_ai.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "A potter who teaches through ordinary clay, firing records and the pieces that fail.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/peng_ai.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/CONTINUATION_BOOKS_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "gao_ru",
+      "name": "Gao Ru",
+      "path": "assets/art/world/gao_ru.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "A desert surveyor whose covered clothing, compass and water flask suit long exposed routes.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/gao_ru.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/CONTINUATION_BOOKS_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "dai_shuren",
+      "name": "Dai Shuren",
+      "path": "assets/art/world/dai_shuren.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "An older mountain archivist in layered work robes, carrying a tied folio and a small lantern.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/dai_shuren.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/CONTINUATION_BOOKS_PROVENANCE.md"
+      }
+    }
+  ],
+  "monsters": [
+    {
+      "id": "reed_listener",
+      "name": "The Reed Listener",
+      "path": "assets/art/world/reed_listener.webp",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "A spirit beast shelters nineteen stolen names in paper nests, spending its own memories to protect strangers.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/reed_listener.webp",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/PROVENANCE.md"
+      }
+    },
+    {
+      "id": "mooring_eel",
+      "name": "The Mooring Eel",
+      "path": "assets/art/world/mooring_eel.webp",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "A river spirit holds memories entrusted by ferry passengers. It can keep an echo, but cannot read unoffered thoughts or replace a living witness.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/mooring_eel.webp",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/PROVENANCE.md"
+      }
+    },
+    {
+      "id": "frostroot_hart",
+      "name": "The Frostroot Hart",
+      "path": "assets/art/world/frostroot_hart.webp",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "A living winter spirit whose crystal antlers shelter dormant plum buds. Root braids remember the burdens it carried; consent is renewed before another pain is transferred.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/frostroot_hart.webp",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/PROVENANCE.md"
+      }
+    },
+    {
+      "id": "porcelain_courser",
+      "name": "The Porcelain Courser",
+      "path": "assets/art/world/porcelain_courser.webp",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "An independent courier spirit with a ledger of its own deliveries. Glazed plates protect a living horse-shaped body; a mask license creates no ownership oath and no permission to ride.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/porcelain_courser.webp",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/PROVENANCE.md"
+      }
+    },
+    {
+      "id": "glasswing_moth",
+      "name": "The Glasswing Moth",
+      "path": "assets/art/world/glasswing_moth.webp",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "A workshop tenant whose glass wings and antennae notice scents on supplied surfaces. It detects offered wax and ink, keeps its spring brood, and makes no claim to read thoughts or guilt.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/glasswing_moth.webp",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/PROVENANCE.md"
+      }
+    },
+    {
+      "id": "rain_heron",
+      "name": "The Rain Heron",
+      "path": "assets/art/world/rain_heron.webp",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "An independent cliff-court weather witness with a finite watch and observations of its own. Rain marks do not reconstruct unseen actions, exact accident times, or guilt.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/rain_heron.webp",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/PROVENANCE.md"
+      }
+    },
+    {
+      "id": "furnace_mite",
+      "name": "The Furnace Mite",
+      "path": "assets/art/world/furnace_mite.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "A defensive kiln spirit with terracotta plates and hot grit. Its danger has a specific source; a novice survives by using rated tools and leaving it a route to the furnace grate.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/furnace_mite.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/CULTIVATION_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "brine_mantis",
+      "name": "The Brine Mantis",
+      "path": "assets/art/world/brine_mantis.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "A salt-sluice spirit with translucent chitin and mineral comb forearms. Its defensive brine spray contaminates practice conductors; trained workers use shutters and leave an exit to a settling pool.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/brine_mantis.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/CULTIVATION_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "voidglass_centipede",
+      "name": "Voidglass Centipede",
+      "path": "assets/art/world/voidglass_centipede.png",
+      "description": "An independent many-segmented furnace-seam spirit with obsidian-violet glass armor and copper joints. It consumes residual charge trapped in cooling glaze; its shed plates require analysis rather than granting a realm.",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/voidglass_centipede.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/CULTIVATION_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "copperback_tortoise",
+      "name": "The Copperback Tortoise",
+      "path": "assets/art/world/copperback_tortoise.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "A pool keeper whose observed shell taps are ordinary signals, not permission to sample its body or read private memories.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/copperback_tortoise.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/THUNDERFEN_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "cloudhound",
+      "name": "The Cloudhound",
+      "path": "assets/art/world/cloudhound.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "A territorial scree hunter. Retreat keeps the upper spur closed; seeing this beast establishes no intent or historical cause.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/cloudhound.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/THUNDERFEN_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "reedglass_salamander",
+      "name": "Reedglass Salamander",
+      "path": "assets/art/world/reedglass_salamander.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "An independent wetland amphibian with translucent jade skin and mineral reed fronds. Its movements reveal local habitat conditions, never private memories or future weather.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/reedglass_salamander.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/STORM_SALT_PROVENANCE.md"
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "bronze_clapper",
+      "name": "Su Lan's Bronze Clapper",
+      "path": "assets/art/world/bronze_clapper.webp",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "Su Lan removed this clapper when the ward began enforcing altered records. Its silence is a deliberate safeguard. Inspection does not transfer custody: the keeper lends it only when she agrees."
+    },
+    {
+      "id": "sealed_echo_case",
+      "name": "A Sealed Echo Case",
+      "path": "assets/art/world/sealed_echo_case.webp",
+      "native_size": [
+        1536,
+        1024
+      ],
+      "description": "A returned echo can remain sealed. The case preserves a volunteered copy of a memory, not a missing piece of the owner's mind. Receiving it grants nobody else permission to listen."
+    },
+    {
+      "id": "copper_practice_wick",
+      "name": "Copper Practice Wick",
+      "path": "assets/art/world/copper_practice_wick.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "Three copper chambers calibrate the qi retained through a calm exhalation. The grounded release tail makes a failed attempt safer. Its faint light measures a trace, not a cultivation realm; inspection grants no new ability."
+    },
+    {
+      "id": "meridian_caliper",
+      "name": "Bronze Meridian Caliper",
+      "path": "assets/art/world/meridian_caliper.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "Two mineral lenses compare a controlled outgoing trace and its return. Independent blanks, lifted-contact checks and next-day sensation tests bound its claims. Salt bridges can falsify a reading; the tool measures surface response and cannot see a soul."
+    },
+    {
+      "id": "phase_comb",
+      "name": "Six-contact Phase Comb",
+      "path": "assets/art/world/phase_comb.png",
+      "description": "A workshop-owned comparison instrument with five phase wells and a sixth blank. Each external contact has a separate return; viewing its painting grants neither custody nor an internal meridian.",
+      "native_size": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "id": "storm_compass",
+      "name": "Jiang Tao's Storm Compass",
+      "path": "assets/art/world/storm_compass.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "Five calibrated crystal vanes show local weather conditions, not future events. Its separate fuel cell is measured before field readings."
+    }
+  ],
+  "requested_additional": {
+    "building_interiors": 100
+  },
+  "effects": [
+    {
+      "id": "first_qi_trace",
+      "name": "First Qi Trace",
+      "path": "assets/art/effects/first_qi_trace.png",
+      "native_size": [
+        1536,
+        1024
+      ],
+      "description": "An open faint filament for first-stage admission and clean release. It pauses with panels and disappears with reduced motion.",
+      "record": "assets/art/CULTIVATION_PROVENANCE.md"
+    },
+    {
+      "id": "paired_channel_trace",
+      "name": "Paired Channel Trace",
+      "path": "assets/art/effects/paired_channel_trace.png",
+      "native_size": [
+        1536,
+        1024
+      ],
+      "description": "A muted jade admission filament and amber return with separate release tips. Used only for earned first-pair demonstrations; panels pause its motion and reduced motion hides it.",
+      "record": "assets/art/CULTIVATION_PROVENANCE.md"
+    },
+    {
+      "id": "second_pair_trace",
+      "name": "Interrupted Second-pair Trace",
+      "path": "assets/art/effects/second_pair_trace.png",
+      "description": "Four distinct open filaments show the two separately tested pairs and their interruption gaps. The visual remains quiet, pauses with panels and is hidden by reduced motion.",
+      "native_size": [
+        1536,
+        1024
+      ],
+      "record": "assets/art/CULTIVATION_PROVENANCE.md"
+    },
+    {
+      "id": "storm_discharge",
+      "name": "Interrupted Storm Discharge",
+      "path": "assets/art/effects/storm_discharge.png",
+      "native_size": [
+        1536,
+        1024
+      ],
+      "description": "A storm filament follows the isolated external ground bed after a bounded circuit closes. No novice body supplies the protection load.",
+      "record": "assets/art/THUNDERFEN_PROVENANCE.md"
+    }
+  ]
+}
