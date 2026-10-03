@@ -1,6 +1,6 @@
 # Book IX: The ridge beneath the thunder
 
-Book IX adds **94 original scenes and 5,921 displayed prose words**, bringing the campaign to **1,999 scenes / 165,928 words**. It continues each foundry ending through its own six-week opening. Lin Yue remains at Qi Gathering **4: Second pair** throughout; field competence and a paid commission do not grant another stage.
+Book IX contains **94 scenes and 5,978 current displayed words** after continuity corrections. It continues each foundry ending through its own preparation period. The paid place ends on Day 84; the following six-week bench term ends on Day 126. All three entrances depart on Day 127, the forty-seventh morning after fourth-stage certification. Lin Yue remains at Qi Gathering **4: Second pair** throughout; field competence and a paid commission do not grant another stage.
 
 Jiang Tao leads a seven-day Thunderfen survey. The team separates a scaled circuit replica, conductive glaze-fines examination and a checked ordinary ground route. Qualified investigators report independent findings before the common recovery checks, repair contract and paid closure. Wet glaze fines form a bypass in the permanent storm rod. The temporary replica and protection fuel remain separate; the damaged upper spur remains closed in every ending.
 
@@ -15,9 +15,9 @@ A per-journey seed and event records make chance persistent across saving before
 ```mermaid
 flowchart TD
     Bench["Foundry bench ending"] --> FromBench["Six weeks of bench practice"]
-    Survey["Foundry survey ending"] --> FromSurvey["Six weeks of bounded surveys"]
+    Survey["Foundry survey ending"] --> FromSurvey["Short survey · ordinary shifts until Day 126"]
     Home["Foundry household ending"] --> FromHome["Six weeks of home practice"]
-    FromBench --> Departure["Paid seven-day commission · stage four"]
+    FromBench --> Departure["Day 127 · paid seven-day commission · stage four"]
     FromSurvey --> Departure
     FromHome --> Departure
     Departure --> Weather{"Saved-seed weather"}
@@ -51,6 +51,8 @@ flowchart TD
 
 Seven independently generated masters add two locations, Jiang Tao, two monsters, a storm compass and an interrupted discharge. Native dimensions and retained blobs are recorded in [Thunderfen provenance](../assets/art/THUNDERFEN_PROVENANCE.md). Their actual game captures include the weather Continue UI, both creatures, surveyor, effect, final choices and object inspection.
 
-Python regressions check mandatory findings/recovery, outcome continuity, unchanged earned stage, audit accuracy and chance alternatives. Godot validates seeded events, save compatibility, all possible routes, runtime resources and the standalone package. CI validates native art and narration, captures 66 viewports, and bundles the verified media on the feature branch.
+Python regressions check mandatory findings/recovery, outcome continuity, unchanged earned stage, audit accuracy and chance alternatives. Godot validates seeded events, save compatibility, all possible routes, runtime resources and the standalone package. CI validates native art and narration, captures 72 viewports, and bundles the verified media on the feature branch.
 
-The strict 1,000,001-word target remains **834,073 displayed words away**. This chapter is a delivered continuation in an unfinished larger manuscript.
+The strict 1,000,001-word target remains **809,227 displayed words away**. This chapter is a delivered continuation in an unfinished larger manuscript.
+
+All three outcomes now continue to [Book X's storm ledger](STORM_LEDGER_EXPANSION.md), followed by [Book XI's finite water commission](SALT_ROAD_EXPANSION.md). The full campaign now contains 2,335 scenes and 190,774 displayed words.

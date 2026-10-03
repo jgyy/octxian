@@ -34,7 +34,7 @@ python tools/verify_screenshots.py
 godot --headless --path . --export-pack Linux build/jade-vow.pck
 ```
 
-Capture mode writes sixty-six viewport screenshots to `build/screenshots` and sixteen timed viewport frames to `build/animations/rendered`. Screenshot verification creates compact JPEG previews, `rendered_game.webp`, and a sampled game-frame sheet. Timed capture fixes the character's initial frame and disables atmospheric background animation so that measured changes reflect the character.
+Capture mode writes seventy-two viewport screenshots to `build/screenshots` and sixteen timed viewport frames to `build/animations/rendered`. Screenshot verification creates compact JPEG previews, `rendered_game.webp`, and a sampled game-frame sheet. Timed capture fixes the character's initial frame and disables atmospheric background animation so that measured changes reflect the character.
 
 The packaged executable discovers `jade-vow.pck` beside it. CI uses Xvfb with dummy audio for desktop capture and standalone playback. It runs the exported package from a folder without the source checkout and checks logs for errors, missing resources, and clean shutdown.
 
@@ -66,7 +66,7 @@ Portrait preparation reuses unchanged, verified files. The feature-branch bundle
 
 Reading scenes use a 680-pixel portrait height with room for the whole bob beneath the navigation bar and above the footer. Title portraits use 730 pixels; wardrobe previews use 350. Uniform scaling preserves proportions. Changing `display_height` updates a cached portrait's scale immediately.
 
-The stateful Godot route traversal includes continuations across all nine books and all authored endings. Test travelers reuse one parsed campaign. With nonnegative stat effects, values at or above the greatest gate are equivalent for reachability; capped states are deduplicated. Overflow and corrupt saves are checked separately at full values. The default `StoryState.new()` still parses its own story, keeping mutated corruption fixtures isolated.
+The stateful Godot route traversal includes continuations across all eleven books and all authored endings. Test travelers reuse one parsed campaign. With nonnegative stat effects, values at or above the greatest gate are equivalent for reachability; capped states are deduplicated. Overflow and corrupt saves are checked separately at full values. The default `StoryState.new()` still parses its own story, keeping mutated corruption fixtures isolated.
 
 `data/continuity.json` must list every delivered chapter as reviewed and keep its fact anchors valid. Its checkpoints name scenes that must lie on every path to a later decision. The validator removes each required scene in turn and rejects a still-reachable decision, catching shortcuts that bypass knowledge or safety work. Editorial review also covers chronology, custody, privacy, and alternate world outcomes.
 
@@ -74,7 +74,7 @@ Scene effects draw at the current control size. Panels pause their clock; reduce
 
 ## Scope
 
-This draft continues through Book IX; its exact authored count remains far below the requested million-word target. Narration uses one neural timbre with character pacing. Animation is a gentle whole-body bob of each intact portrait. Additional chapters, voices, and outfit portraits can extend the existing data and asset pipeline.
+This draft continues through Book XI; its exact authored count remains far below the requested million-word target. Narration uses one neural timbre with character pacing. Animation is a gentle whole-body bob of each intact portrait. Additional chapters, voices, and outfit portraits can extend the existing data and asset pipeline.
 
 ## Extra interior collection
 
@@ -95,3 +95,7 @@ Historical source paintings use lossless WebP with exact RGBA pixels and native 
 The new core masters and Thunderfen originals retain their native PNG bytes. Do not run compression over catalogued originals without updating source paths, provenance and checksums together. Narration generation already emits compact Vorbis clips. Validate all decoded assets before committing.
 
 Git history was compacted by removing binary media from old commits and retaining optimized media at each branch tip. Earlier source commits remain, but their removed media requires regeneration or recovery from the original bundle. Collaborators should clone the rewritten repository again.
+
+## Storm and salt-road continuation
+
+Books X and XI continue all three prior endings while keeping the earned fourth stage. The source audits identify 53 distinct existing-content defects, with 78 exact current anchors and an original-node index. Run `python tools/validate_continuation_audits.py --source-base 8dd58078b349f27b228be1107599572bf850efdc --source-node-index docs/CONTINUATION_SOURCE_INDEX_20261003.json`. CI runs this validator alongside regression tests and adds six actual captures, bringing the total to 72. The source-free smoke test loads both new chapters, their two portrait originals, native environment dimensions and generated Vorbis narration. [Current scope and accounting](CONTINUATION_20261003.md).

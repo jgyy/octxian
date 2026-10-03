@@ -1,61 +1,63 @@
 # Cultivation rewrite production ledger
 
-Lin Yue begins as a mortal kiln worker with zero retained qi. She earns Body Tempering and the first four Qi Gathering stages through paid work, failures, recovery and independent recovered examinations. The pendant grants no cultivation. Book IX practices the fourth stage without awarding a fifth.
+Lin Yue begins as a mortal kiln worker with zero retained qi. Paid work, failures, recovery and independent recovered examinations earn Body Tempering and Qi Gathering's first four stages. The pendant grants no cultivation. Books IX–XI practice the fourth stage without awarding a fifth.
 
 ## Delivered manuscript
 
 | Measure | Actual delivered |
 |---|---:|
-| Whole playable campaign | **1,999 scenes / 165,928 words** |
-| Credited cultivation rewrite | **705 scenes / 48,905 words** |
-| Inherited prose awaiting recast | **117,023 words** |
-| Book IX Thunderfen continuation | **94 scenes / 5,921 words** |
-| Existing prose passages recast in this batch | **13 scenes / 1086 current words** |
-| Existing choice-causality corrections | **102 distinct choices; no prose credit** |
-| Net displayed-word addition in this batch | **5,833 words** |
-| Remaining displayed words toward 1,000,001 | **834,073** |
-| Remaining credited rewrite words toward 1,000,001 | **951,096** |
+| Whole playable campaign | **2,335 scenes / 190,774 words** |
+| Credited cultivation rewrite | **1,091 scenes / 78,081 words** |
+| Inherited prose awaiting recast | **112,693 words** |
+| New storm ledger / salt-road scenes | **336 scenes / 24,617 words** |
+| Existing prose repaired in this batch | **53 root defects / 78 paragraphs** |
+| Existing-prose net word change | **+229 words** |
+| Net campaign word addition | **24,846 words** |
+| Remaining displayed words toward 1,000,001 | **809,227** |
+| Remaining credited rewrite words toward 1,000,001 | **921,920** |
 
-The 13 prose rewrites change existing displayed text by −88 words. Previously credited passages remain counted once, so they and the new chapter add 6,923 words to rewrite credit. The [115-entry audit](CONTINUITY_REPAIRS_20261003.md) distinguishes choice-causality issues from prose contradictions; new chapters, renaming, metadata, labels, outlines, documentation and art descriptions contribute zero repair credit.
+[Machine-readable accounting](CULTIVATION_PROGRESS.json) identifies each credited scene once. The world validator recomputes displayed, rewrite and inherited totals and rejects stale or duplicated credit. Titles, labels, outlines, metadata, documentation and artwork descriptions add no manuscript words.
 
-[The machine-readable ledger](CULTIVATION_PROGRESS.json) identifies every credited scene. The world validator recomputes displayed, rewrite and inherited words and rejects stale, duplicated or unknown credit. The fourteen-volume **1,050,000-word** architecture is a plan; the complete recast remains unfinished.
+[The continuation report](CONTINUATION_20261003.md) distinguishes the 53 new root prose defects from the prior PR's 115 corrections. The audits match complete original and corrected paragraphs; repeated manifestations remain grouped. New chapters and their editorial draft corrections receive no existing-content repair credit.
 
-## Earned progression
+The fourteen-volume, 1,050,000-word architecture remains a production plan. The complete recast and million-word campaign remain unfinished.
 
-The mortal opening earns stage one with three recovered retained-trace tests. The paid sluice apprenticeship earns stage two with three calibrated six-unit overnight retention trials, then stage three with paired-meridian work, an instrument fault, eleven rest days and three recovered twelve-unit examinations. Reserve, throughput, sampling discharge, purity and delivery loss remain separate.
+## Earned progression and chronology
 
-The [foundry arc](FOUNDRY_EXPANSION.md) delivers 299 scenes and 22,177 words. Warm-material failure and recovery precede three independent recovered eighteen-unit trials; stage four is earned on Day Eighty. The [Thunderfen arc](THUNDERFEN_EXPANSION.md) continues all three outcomes six weeks later and keeps that stage fixed. Ordinary tools, qualified crews and separate fuel carry the large protection loads.
+The mortal opening earns stage one through three recovered retained-trace tests. Paid sluice work earns stage two through three calibrated six-unit overnight retention trials, then stage three through paired-meridian work, instrument-fault diagnosis, eleven rest days and three recovered twelve-unit examinations. Reserve, throughput, sampling discharge, purity and delivery loss remain separate.
 
-The [cultivation canon](CULTIVATION_SYSTEM.md) defines anatomy, twelve gates, assessment, limits and recovery. Open **Attributes → Cultivation realms** in the game. The four [choice capacities](ATTRIBUTES.md) are Qi Control, Dao Heart, Comprehension and Physique; their ranks award no realm, fuel or consent.
+[Foundry work](FOUNDRY_EXPANSION.md) spans 299 scenes and 22,198 current words. Warm-material failure and recovery precede three independent eighteen-unit trials; stage four is earned on Day Eighty. The current place ends on Day Eighty-four. The subsequent six-week bench term ends on Day One Hundred Twenty-six. Every [Thunderfen entrance](THUNDERFEN_EXPANSION.md) now departs on Day One Hundred Twenty-seven, after contracted work, keeping the two established arm pairs.
+
+[Book X](STORM_LEDGER_EXPANSION.md) and [Book XI](SALT_ROAD_EXPANSION.md) continue all preceding outcomes. Their separate apparatus supplies, ordinary rescue, recovered control checks and finite water allocations develop experience without an unseen fifth-stage examination.
+
+The [cultivation canon](CULTIVATION_SYSTEM.md) defines anatomy, twelve gates, assessment, limits and recovery. The four [choice capacities](ATTRIBUTES.md) are Qi Control, Dao Heart, Comprehension and Physique; their ranks grant no realm, fuel or consent.
 
 ## Native generated art
 
-The twelve core portraits have been completely regenerated as independent **1024×1536 RGBA** masters; runtime copies preserve their original bytes. [Core provenance](../assets/art/CORE_PROVENANCE.md) records all four characters and three outfits. Legacy sheets and small derived portraits were removed.
+The twelve core 1024×1536 RGBA portrait masters remain independent originals copied byte for byte into runtime portraits. [Core provenance](../assets/art/CORE_PROVENANCE.md) records the cast and three outfits. The seven [Thunderfen originals](../assets/art/THUNDERFEN_PROVENANCE.md) retain native environment, portrait, object and effect bytes.
 
-Seven new [Thunderfen originals](../assets/art/THUNDERFEN_PROVENANCE.md) cover two locations, one surveyor, two monsters, an item and an effect. Backgrounds retain 1672×941, portraits and item retain 1024×1536, and the effect retains 1536×1024. The image tool exposes no resolution setting; requests use maximum supported native detail and records state actual returned dimensions. No enlargement is credited.
+Four [new originals](../assets/art/STORM_SALT_PROVENANCE.md) add the 1774×887 warning observatory, 1672×941 watermill, 1024×1536 forewoman and 1024×1536 Salamander. Maximum native detail was requested; actual returned dimensions and portrait alpha are recorded. No enlargement is credited.
 
-Current catalog delivery is **12 original-scope backgrounds, 34 additional interiors, 19 human NPCs, 11 monsters, 6 items and 4 effects**. The original 100-background / 500-human / 501-beast targets and the additional 100-interior target remain unfinished. Core wardrobe variants and effects do not inflate unique world-sprite counts.
+Catalog delivery is **14 original-scope backgrounds, 34 additional interiors, 20 human NPCs, 12 monsters, 6 items and 4 effects**. The original 100-background / 500-human / 501-beast targets and additional 100-interior target remain unfinished. Core wardrobe variants and effects do not inflate unique-world-sprite counts.
 
 ## Validation and remaining production
 
-All 1,999 scenes are graph-reachable with unique normalized prose and no scene over 100 words. The continuity ledger records all nine books, 157 facts and 49 mandatory checkpoints. Actual gated state traversal, save compatibility and all chance alternatives are checked in Godot CI; graph reachability alone does not substitute for those tests.
+All 2,335 scenes are graph-reachable with unique normalized prose, valid references and no scene over 100 words. The continuity ledger reviews eleven books, 167 facts and 51 mandatory checkpoint groups. The new graph tests separately protect 27 evidence, safety, recovery and funding prerequisites from each entrance.
 
-CI runs Python accounting and advancement regressions, retained native-art/alpha checks, narration validation, Godot route/save/UI tests, **66 actual viewport captures** and source-free Linux playback. The final validated run and bundled screenshots are linked in the draft PR. Marking the PR ready invokes strict full-production acceptance, so this continuation remains a draft.
+CI runs Python accounting/audit regressions, native-art checks, narration validation, Godot route/save/UI tests, **72 actual viewport captures**, timed body-bob checks and source-free Linux playback. The bundled report and workflow establish runtime/media success. Strict full-production acceptance remains enabled when the PR leaves draft.
 
 ```mermaid
 flowchart TD
-    Mortal["Mortal · zero retained qi"] --> Body["Skin → Sinew → Bone → Marrow"]
-    Body --> Trace["Three recovered first-trace tests"]
+    Mortal["Mortal · zero qi"] --> Trace["Training · three recovered trace tests"]
     Trace --> One["Qi Gathering 1"]
-    One --> Sluice["Paid sluice apprenticeship"]
-    Sluice --> Retention["Three recovered six-unit trials"]
-    Retention --> Two["Qi Gathering 2 · Retention"]
-    Two --> Failure["Route failure · instrument fault · recovery"]
-    Failure --> Pair["Three recovered twelve-unit paired trials"]
-    Pair --> Three["Qi Gathering 3 · First pair"]
-    Three --> Foundry["Foundry work · warm-material failure · recovery"]
-    Foundry --> Trials4["Three recovered eighteen-unit trials"]
-    Trials4 --> Four["Qi Gathering 4 · Second pair"]
-    Four --> Thunderfen["Bounded Thunderfen field practice · saved chance"]
-    Thunderfen --> Remaining["Later recast and million-word expansion"]
+    One --> Retention["Paid sluice · six-unit retention trials"]
+    Retention --> Two["Qi Gathering 2"]
+    Two --> Recovery["Instrument fault · recovery · paired trials"]
+    Recovery --> Three["Qi Gathering 3"]
+    Three --> Foundry["Foundry failure · recovery · eighteen-unit trials"]
+    Foundry --> Four["Qi Gathering 4"]
+    Four --> Thunderfen["Bounded field practice · Day 127"]
+    Thunderfen --> Storm["Warning / relief investigation · ordinary rescue"]
+    Storm --> Salt["Finite water · rights · three allocation plans"]
+    Salt --> Future["Further recast and million-word production"]
 ```

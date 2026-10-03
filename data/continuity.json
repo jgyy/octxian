@@ -9,7 +9,9 @@
     "book_vi",
     "book_vii",
     "book_viii",
-    "book_ix"
+    "book_ix",
+    "book_x_storm_ledger",
+    "book_xi_salt_road"
   ],
   "facts": [
     {
@@ -1678,7 +1680,7 @@
     },
     {
       "id": "ridge_six_week_preparation",
-      "statement": "Every foundry ending has a distinct six-week opening before the shared Thunderfen departure; no offscreen stage is awarded.",
+      "statement": "Fourth-stage certification occurs on Day 80 and the current paid place ends on Day 84. The further six-week bench term runs afterward through Day 126; the home opening dates its six weeks Day 85 through Day 126, while the short survey is followed by ordinary shifts. All three routes depart for Thunderfen on Day 127, the forty-seventh morning after certification; no offscreen stage is awarded.",
       "anchors": [
         "ridge_from_bench",
         "ridge_from_survey",
@@ -1764,6 +1766,107 @@
         "ridge_return_005",
         "ridge_model_003",
         "ridge_route_003"
+      ]
+    },
+    {
+      "id": "storm_fourth_stage_preserved",
+      "statement": "The storm investigation and all three outcomes keep Lin Yue at earned Qi Gathering stage four; isolated commands, ordinary rescue and recovery checks do not award a fifth stage.",
+      "anchors": [
+        "storm_from_model",
+        "storm_from_route",
+        "storm_from_home",
+        "storm_compare_008",
+        "storm_settle_008",
+        "storm_final_choice"
+      ]
+    },
+    {
+      "id": "storm_relief_accounting",
+      "statement": "The 180-copper relief chest contains 102 actual net payments, 38 diverted copper and 40 remaining. False expenses disguise the same 38, including the widow's unauthorized levy. A 31-copper refund and seven from the steward restore 38; four corrections of ten, eight, eight and twelve leave 140 legitimately paid and 40 in the chest. Later injury and grain claims remain separate.",
+      "anchors": [
+        "storm_arrival_002",
+        "storm_compare_002",
+        "storm_settle_004"
+      ]
+    },
+    {
+      "id": "storm_separate_work_funding",
+      "statement": "The twelve-day investigation's eighteen-copper wages and meals come from the independent road fund. Ordinary maintenance allocations fund warning hardware, repairs, stones and keeper checks separately from the contested relief chest.",
+      "anchors": [
+        "storm_arrival_005",
+        "storm_compare_008",
+        "storm_warning_001"
+      ]
+    },
+    {
+      "id": "storm_rescue_has_rated_external_power",
+      "statement": "The rescue uses checked ordinary paving, a trolley, named handbell signals and an arrived trained road crew. Jiang's four-stone barrier shields a short withdrawal against fragments within its rating; it supplies neither floodwater protection nor Lin Yue's qi.",
+      "anchors": [
+        "storm_warning_007",
+        "storm_warning_008",
+        "storm_after_001"
+      ]
+    },
+    {
+      "id": "storm_bounded_culpability",
+      "statement": "A failed warning chain, a weak wall and the documented relief diversion retain their separate evidence and limits. The ledger correction does not price all roof damage against one attendant, settle unrelated injury claims or prove the seller knew the money's source.",
+      "anchors": [
+        "storm_compare_002",
+        "storm_warning_006",
+        "storm_warning_hearing_003",
+        "storm_settle_004"
+      ]
+    },
+    {
+      "id": "salt_existing_rights_persist",
+      "statement": "Nineteen household entries stay restored. The water-turn book is a separately uncorrected copy; correcting access requires no second name surrender, confession or player attribute score.",
+      "anchors": [
+        "salt_arrival_001",
+        "salt_arrival_002",
+        "salt_findings_004",
+        "salt_final_choice"
+      ]
+    },
+    {
+      "id": "salt_finite_usable_water",
+      "statement": "Usable reserve starts at 1640 ten-litre jars. Two inspection days at 120 usable spring jars against 150 essential demand reduce it to 1580. Independently cleared repaired flow conservatively supplies 145. Twenty-one days of five-jar essential deficits plus at most ninety trial jars and 340 later optional jars leave at least 1045; the twenty-fourth closure day's five-jar essential draw leaves at least 1040, above the protected 1000 floor without invented rain. Optional uses stop if yield or essential needs consume contingency.",
+      "anchors": [
+        "salt_arrival_004",
+        "salt_findings_001",
+        "salt_findings_010",
+        "salt_water_clearance",
+        "salt_recovery_011",
+        "salt_final_choice"
+      ]
+    },
+    {
+      "id": "salt_water_quality_precedes_delivery",
+      "statement": "Mechanical separation, discarded initial flush and an independent check against village drinking criteria precede counting the repaired clean outlet as household water; brackish lake water and waste-pool contact cannot substitute for that clearance.",
+      "anchors": [
+        "salt_channels_017",
+        "salt_water_clearance",
+        "salt_findings_002"
+      ]
+    },
+    {
+      "id": "salt_permissions_and_habitat",
+      "statement": "The Listener offers only bounded observed habitat information and a limited agreed watch; the independently encountered Salamander supplies visible shelter behavior, not hidden histories. The far-bank habitat and private household accounts remain outside the near repair's permission.",
+      "anchors": [
+        "salt_households_012",
+        "salt_households_013",
+        "salt_recovery_005",
+        "salt_recovery_011"
+      ]
+    },
+    {
+      "id": "salt_fourth_stage_and_obligations",
+      "statement": "Lin Yue remains at earned fourth stage throughout the twenty-four-day commission. Recovered small control and ordinary paid work grant no new arm route. Orchard appointments are reviewed only under the arrangement actually retained; later jobs cannot silently fulfill an overdue personal visit.",
+      "anchors": [
+        "salt_arrival_003",
+        "salt_findings_012",
+        "salt_recovery_013",
+        "salt_recovery_014",
+        "salt_final_choice"
       ]
     }
   ],
@@ -2349,6 +2452,45 @@
         "ridge_return_007"
       ],
       "before": "ridge_final_choice"
+    },
+    {
+      "id": "storm_independent_accounting_and_recovery_before_offer",
+      "required": [
+        "storm_arrival_005",
+        "storm_compare_002",
+        "storm_compare_008",
+        "storm_warning_007",
+        "storm_after_001",
+        "storm_settle_004",
+        "storm_settle_008"
+      ],
+      "before": "storm_final_choice"
+    },
+    {
+      "id": "salt_independent_reports_and_floor_before_plan",
+      "required": [
+        "salt_arrival_012",
+        "salt_arrival_016",
+        "salt_findings_001",
+        "salt_findings_002",
+        "salt_water_clearance",
+        "salt_findings_003",
+        "salt_findings_004",
+        "salt_findings_005",
+        "salt_findings_006",
+        "salt_grain_invoice",
+        "salt_findings_010",
+        "salt_findings_011",
+        "salt_findings_012",
+        "salt_findings_013",
+        "salt_findings_016",
+        "salt_recovery_009",
+        "salt_recovery_010",
+        "salt_recovery_011",
+        "salt_recovery_012",
+        "salt_recovery_014"
+      ],
+      "before": "salt_final_choice"
     }
   ]
 }
