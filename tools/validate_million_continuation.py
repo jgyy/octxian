@@ -71,6 +71,23 @@ def validate(root=ROOT, verify_source=False):
         queue.extend(node[field] for field in ("next", "continuation") if field in node)
         queue.extend(c["next"] for c in node.get("choices", []))
     assert seen == set(story["nodes"]), "All integrated scenes must be reachable"
+    incoming = dict.fromkeys(story["nodes"], 0)
+    def destinations(node):
+        return ([node[f] for f in ("next", "continuation") if f in node]
+                + [c["next"] for c in node.get("choices", [])])
+    for node in story["nodes"].values():
+        for destination in destinations(node):
+            incoming[destination] += 1
+    ready = deque(k for k, count in incoming.items() if not count)
+    processed = 0
+    while ready:
+        key = ready.popleft()
+        processed += 1
+        for destination in destinations(story["nodes"][key]):
+            incoming[destination] -= 1
+            if incoming[destination] == 0:
+                ready.append(destination)
+    assert processed == len(story["nodes"]), "Completion-aware capped traversal requires an acyclic campaign"
     assert authored_word_count(story) >= 1000001
     assert len(story["chapters"]) == 17
     for key in ("forest_24_005", "desert_p24_005", "archive_25_006"):

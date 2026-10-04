@@ -65,6 +65,15 @@ func _run() -> void:
 	for portrait in game.stage_companions:
 		check(portrait.reduced_motion and portrait.sprite.position.is_zero_approx(), "Reduced motion must stop all companions")
 	check(not game.atmosphere.enabled, "Reduced motion must suppress every background layer")
+	game.state.current = "forest_24_005"
+	game.state.stats = {"qi": 0, "trust": 0, "insight": 0, "resolve": 0}
+	game._scene()
+	game.dialogue.visible_characters = -1
+	var key_event := InputEventKey.new()
+	key_event.keycode = KEY_5
+	key_event.pressed = true
+	game._unhandled_key_input(key_event)
+	check(game.state.current == "forest_24_role_help", "The ungated fifth role must be keyboard-accessible")
 	game.state.current = "first_choice"
 	game._scene()
 	var selected_scene: String = game.state.current

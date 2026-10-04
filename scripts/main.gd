@@ -465,7 +465,7 @@ func _unhandled_key_input(event: InputEvent) -> void:
 			_save()
 		elif event.keycode == KEY_L:
 			_journal()
-		elif event.keycode >= KEY_1 and event.keycode <= KEY_4:
+		elif event.keycode >= KEY_1 and event.keycode <= KEY_9:
 			_choose(event.keycode - KEY_1)
 
 func _make_popup(title: String) -> VBoxContainer:
