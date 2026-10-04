@@ -273,7 +273,10 @@
         "realm": "qi_gathering",
         "stage": "4: Second pair"
       },
-      "next": "harbor_p06_022"
+      "next": "harbor_p06_022",
+      "effects": [
+        "sea_spray"
+      ]
     },
     "harbor_p06_022": {
       "chapter": "book_xiv_harbor",
