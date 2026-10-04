@@ -588,24 +588,15 @@
       "choices": [
         {
           "text": "Finish the public comparison copies and their receiving.",
-          "next": "canal_p24_046",
-          "effects": {
-            "insight": 1
-          }
+          "next": "canal_p24_046"
         },
         {
           "text": "Leave a clear dry fault index with the actual workshop keepers.",
-          "next": "canal_p24_056",
-          "effects": {
-            "resolve": 1
-          }
+          "next": "canal_p24_056"
         },
         {
           "text": "Take the priced brief west-kiln home stop on the booked road.",
-          "next": "canal_p24_066",
-          "effects": {
-            "trust": 1
-          }
+          "next": "canal_p24_066"
         }
       ]
     },
@@ -1011,7 +1002,10 @@
       },
       "text": "On the fifty-ninth morning Yue reached the orchard pavilion's approach with her habitual pack and Qi Gathering stage four. The canal's local comparisons had been received; its traveling copy belonged to the paid carrier and the clerk tracking actual delivery. Ren's accepted full review waited inside the orchard, with the real retained arrangement and any physical return still to be completed. Yue looked at the familiar roof through autumn mist. She had left a public record behind. Now she would enter a conversation that required her own presence.",
       "ending": "The Common Copy",
-      "continuation": "forest_start"
+      "continuation": "forest_start",
+      "earned": {
+        "insight": 1
+      }
     },
     "canal_end_repair": {
       "chapter": "book_xii_canal",
@@ -1025,7 +1019,10 @@
       },
       "text": "On the fifty-ninth morning Yue reached the orchard pavilion's approach with her habitual pack and Qi Gathering stage four. The canal frame remained disconnected with its selected charge intact, fault index received, and custody held by the named keepers. Ren's accepted full review waited inside the orchard under the real retained arrangement; any owed physical return still required today's work in person. Yue heard someone moving a stool beneath the pavilion roof. She had left useful stopping words behind. Here she would begin by listening before proposing another repair.",
       "ending": "The Unlit Workshop",
-      "continuation": "forest_start"
+      "continuation": "forest_start",
+      "earned": {
+        "insight": 1
+      }
     },
     "canal_end_home": {
       "chapter": "book_xii_canal",
@@ -1039,7 +1036,10 @@
       },
       "text": "On the fifty-ninth morning Yue reached the orchard pavilion's approach with her habitual pack and Qi Gathering stage four. The paid brief kiln stop had fitted the two confirmed travel days, leaving no new borrowed object or vague promise on the road. Ren's accepted full review waited inside under the real retained arrangement, with any owed physical return still to be completed by arrival and work. Yue brushed a last trace of clay dust from her sleeve. Home had let her return once. The pavilion doorway asked her to do it again.",
       "ending": "The Road Through Home",
-      "continuation": "forest_start"
+      "continuation": "forest_start",
+      "earned": {
+        "trust": 1
+      }
     }
   }
 }

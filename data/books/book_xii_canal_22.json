@@ -380,24 +380,15 @@
       "choices": [
         {
           "text": "Read the households' contribution agreements before payment.",
-          "next": "canal_p22_030",
-          "effects": {
-            "trust": 1
-          }
+          "next": "canal_p22_030"
         },
         {
           "text": "Compare the charter with the completed labor annex.",
-          "next": "canal_p22_040",
-          "effects": {
-            "resolve": 1
-          }
+          "next": "canal_p22_040"
         },
         {
           "text": "Check the bounded upstream findings and penalty receipt.",
-          "next": "canal_p22_050",
-          "effects": {
-            "insight": 1
-          }
+          "next": "canal_p22_050"
         }
       ]
     },
@@ -529,7 +520,10 @@
         "stage": "4: Second pair"
       },
       "text": "By the end of Yue's interval the household agreements were readable, the nine coins disbursed, and the chosen public descriptions approved. The gardener walked home with his witness. The reed household carried its copy in a dry wrapper. The stall's nephew left with the summary contact and a small paid bowl for his aunt. Yue went back beneath the awning feeling tired in a way no brief qi practice could improve. She drank ordinary water and waited for the other tables' reports. The work had changed what three households could afford tomorrow without claiming to restore yesterday.",
-      "next": "canal_p22_060"
+      "next": "canal_p22_060",
+      "earned": {
+        "trust": 1
+      }
     },
     "canal_p22_040": {
       "chapter": "book_xii_canal",
@@ -659,7 +653,10 @@
         "stage": "4: Second pair"
       },
       "text": "Tian took the plain comparison to the public board after the clerk checked it. It showed old pledge completed, current jobs finite, valid debt bounded, and private gear distinct from common routes. Nobody would need to read the faded original to learn the immediate consequence. Yue helped hold the board while Tian tied it under the dry eave. A passerby asked if this meant the canal was free. Tian said it meant posted use charges and actual tasks remained, without an inherited back underneath them. The man read the next line and said the toll still seemed too high.",
-      "next": "canal_p22_060"
+      "next": "canal_p22_060",
+      "earned": {
+        "insight": 1
+      }
     },
     "canal_p22_050": {
       "chapter": "book_xii_canal",
@@ -789,7 +786,10 @@
         "stage": "4: Second pair"
       },
       "text": "By evening the bounded findings showed the permit breach, accepted correction, actual penalty, connected high-water risk, and limits on assigning individual loss shares. The household contribution had its separate four-three-two receipts; the charter clauses still awaited final approval after review. Yue returned the source sketches to their actual holders and kept the approved copies with the commission folder. Nothing in the hearing advanced her cultivation. She had learned to hear more without commanding more. At the safe landing the ordinary canal made the same low sound it had made before anyone offered to explain it.",
-      "next": "canal_p22_060"
+      "next": "canal_p22_060",
+      "earned": {
+        "insight": 1
+      }
     },
     "canal_p22_060": {
       "chapter": "book_xii_canal",

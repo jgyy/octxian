@@ -380,24 +380,15 @@
       "choices": [
         {
           "text": "Perform the prepared side-drain response, then rebook the test.",
-          "next": "canal_p10_030",
-          "effects": {
-            "resolve": 1
-          }
+          "next": "canal_p10_030"
         },
         {
           "text": "Hold the feed closed and compare the gauge from stable ground.",
-          "next": "canal_p10_040",
-          "effects": {
-            "insight": 1
-          }
+          "next": "canal_p10_040"
         },
         {
           "text": "End live work today and examine the emptied pocket.",
-          "next": "canal_p10_050",
-          "effects": {
-            "trust": 1
-          }
+          "next": "canal_p10_050"
         }
       ]
     },
@@ -529,7 +520,10 @@
         "stage": "4: Second pair"
       },
       "text": "Yue sent the follow-up through the appointed landing receiver before joining the common review. Her arms needed recovery after the fresh command, and she took ordinary notes slowly. Bao had the cord fragments wrapped beside the corrected ruler drawing. Tian brought the viewing-place report, including the spectator's mistaken claim that nothing useful happened. Yue did not want that claim erased from everybody's memory by a speech. She wanted the actual sequence available, where a person who cared could see what changed between two mornings.",
-      "next": "canal_p10_060"
+      "next": "canal_p10_060",
+      "earned": {
+        "resolve": 1
+      }
     },
     "canal_p10_040": {
       "chapter": "book_xii_canal",
@@ -659,7 +653,10 @@
         "stage": "4: Second pair"
       },
       "text": "Yue joined the common review with the approved supply count, corrected ruler drawing and actual worker ending preserved. She had made one small live command, then let the ordinary follow-up remain ordinary. Bao wrapped the cord fragments beside the report. Luo prepared the garden visit's current route notes. The trial had ended within its resources and actual time, leaving a useful acceptance and an unfinished wider question. Yue could accept both without trying to turn the day into a threshold her body or the channel had not crossed.",
-      "next": "canal_p10_060"
+      "next": "canal_p10_060",
+      "earned": {
+        "insight": 1
+      }
     },
     "canal_p10_050": {
       "chapter": "book_xii_canal",
@@ -789,7 +786,10 @@
         "stage": "4: Second pair"
       },
       "text": "Yue joined the common review with her route recovering and the case holding two hundred four actual units. The bank had accepted this bounded pocket and side-release, while the larger garden route remained closed. Bao placed the old cord fragments beside the corrected ruler drawing. Tian carried the approved public viewing note. Yue knew the extra day had cost two short cargo holds and different worker availability. She would preserve those consequences even though the final response now looked like the result everybody wanted at first light.",
-      "next": "canal_p10_060"
+      "next": "canal_p10_060",
+      "earned": {
+        "trust": 1
+      }
     },
     "canal_p10_060": {
       "chapter": "book_xii_canal",

@@ -380,24 +380,15 @@
       "choices": [
         {
           "text": "Carry the corrections to households",
-          "next": "canal_p05_030",
-          "effects": {
-            "trust": 1
-          }
+          "next": "canal_p05_030"
         },
         {
           "text": "Inspect the drain with Bao",
-          "next": "canal_p05_040",
-          "effects": {
-            "resolve": 1
-          }
+          "next": "canal_p05_040"
         },
         {
           "text": "Compare the receiving references with Pei",
-          "next": "canal_p05_050",
-          "effects": {
-            "insight": 1
-          }
+          "next": "canal_p05_050"
         }
       ]
     },
@@ -529,7 +520,10 @@
         "stage": "4: Second pair"
       },
       "text": "Yue returned with a torn pouch, two remaining pears and the reed cutter's chosen collection arrangement. Tian reported that one household wanted a correction read at its usual courtyard meal, while another preferred no public reading. They gave those requests to the clerk instead of treating every unopened door as a rejection. The delivery walk had produced no new legal finding. It had changed how the finding would reach people, and Yue felt the difference in the smaller stack still awaiting its proper moment.",
-      "next": "canal_p05_060"
+      "next": "canal_p05_060",
+      "earned": {
+        "trust": 1
+      }
     },
     "canal_p05_040": {
       "chapter": "book_xii_canal",
@@ -659,7 +653,10 @@
         "stage": "4: Second pair"
       },
       "text": "At the evening counter, Bao submitted the inspection with its current water marks and agreed access hatch. The clerk paired it with the scheduled gate shift, including the ordinary tools already within the repair allocation. Yue brought the resident's conditional request about moving her shelf. It would remain her choice after the result. The drain had become a specific job with a possible further fault, not a convenient symbol of a dispute solved by finding an old heading. Yue hoped it would be the simpler blockage.",
-      "next": "canal_p05_060"
+      "next": "canal_p05_060",
+      "earned": {
+        "insight": 1
+      }
     },
     "canal_p05_050": {
       "chapter": "book_xii_canal",
@@ -789,7 +786,10 @@
         "stage": "4: Second pair"
       },
       "text": "Yue and Pei brought the completed comparisons into the evening light. The clerk now had the corrected personal name, the spelling variation left visible and the narrow request for a missing counterfoil. Tian took the extra family copy for the ridge messenger. Pei rested her eyes while Yue read the posting draft. It contained enough certainty to release the old claim and enough open space for the bank's unfinished memory. The room beyond the counter smelled of supper, and nobody wanted to lose that hour to another speech.",
-      "next": "canal_p05_060"
+      "next": "canal_p05_060",
+      "earned": {
+        "insight": 1
+      }
     },
     "canal_p05_060": {
       "chapter": "book_xii_canal",

@@ -13,6 +13,8 @@ var history: Array = []
 var recovered_checkpoint := false
 var journey_seed: int = randi_range(1, 2147483646)
 var encounters: Dictionary = {}
+# Practice credit follows completed scenes and is awarded once per journey.
+var completed_practice: Dictionary = {}
 
 func _init(source: Dictionary = {}) -> void:
 	# Injected traversal campaigns are already merged; never reload their book files.
@@ -129,6 +131,12 @@ func advance() -> bool:
 func go(target: String) -> bool:
 	if not story.get("nodes", {}).has(target):
 		return false
+	if node().has("earned") and not completed_practice.has(current):
+		var reward := choice_details({"next": target, "effects": node().earned})
+		if not reward.available:
+			return false
+		stats = reward.updated_stats
+		completed_practice[current] = true
 	history.append({"speaker": node().get("speaker", "narrator"), "text": node().get("text", "")})
 	current = target
 	return true
@@ -166,7 +174,7 @@ func _commit_checkpoint(temporary_path: String, path: String) -> int:
 func save_game(path: String = "user://jade_vow_save.json") -> bool:
 	var temporary_path := path + ".tmp"
 	var backup_path := path + ".bak"
-	var bytes := JSON.stringify({"version": SAVE_VERSION, "current": current, "stats": stats, "history": history, "journey_seed": journey_seed, "encounters": encounters}).to_utf8_buffer()
+	var bytes := JSON.stringify({"version": SAVE_VERSION, "current": current, "stats": stats, "history": history, "journey_seed": journey_seed, "encounters": encounters, "completed_practice": completed_practice}).to_utf8_buffer()
 	if not _write_verified_checkpoint(temporary_path, bytes):
 		if FileAccess.file_exists(temporary_path):
 			DirAccess.remove_absolute(temporary_path)
@@ -234,6 +242,15 @@ func load_game(path: String = "user://jade_vow_save.json") -> bool:
 			if not valid_target or not data.encounters[event_id] is String:
 				return false
 		validated_encounters = data.encounters.duplicate(true)
+	var validated_practice: Dictionary = {}
+	if data.has("completed_practice"):
+		if not data.completed_practice is Dictionary:
+			return false
+		for practice_id in data.completed_practice:
+			if not story.nodes.has(practice_id) or not story.nodes[practice_id].has("earned") or not data.completed_practice[practice_id] is bool or data.completed_practice[practice_id] != true:
+				return false
+		validated_practice = data.completed_practice.duplicate(true)
+	completed_practice = validated_practice
 	journey_seed = validated_seed
 	encounters = validated_encounters
 	current = data["current"]

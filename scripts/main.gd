@@ -14,6 +14,7 @@ const PALE := Color("#e5e7da")
 var state = StoryState.new()
 var ui := Control.new()
 var actor = Character.new()
+var stage_companions: Array = []
 var wardrobe = Wardrobe.new()
 var wardrobe_previews := {}
 var audio = AudioDirector.new()
@@ -73,6 +74,11 @@ func _ready() -> void:
 	add_child(actor)
 	actor.position = Vector2(1175, 485)
 	actor.show_character("lin_yue")
+	for slot in range(2):
+		var companion = Character.new()
+		companion.visible = false
+		add_child(companion)
+		stage_companions.append(companion)
 	atmosphere.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	add_child(atmosphere)
 	add_child(audio)
@@ -112,6 +118,8 @@ func _build_theme() -> void:
 func _clear() -> void:
 	# Menu, Load and scene rebuilds can replace a modal without its Close button.
 	atmosphere.paused = false
+	for companion in stage_companions:
+		companion.visible = false
 	wardrobe_previews.clear()
 	world_previews.clear()
 	for child in ui.get_children():
@@ -217,13 +225,9 @@ func _resume() -> void:
 func _scene() -> void:
 	_clear()
 	_header()
-	actor.display_height = 680.0
-	actor.position = Vector2(1205, 474)
 	var node: Dictionary = state.node()
-	atmosphere.set_effect(str(node.get("effect", "lanterns")))
-	var actor_id := str(node.get("actor", "lin_yue"))
-	actor.show_character(actor_id, str(node.get("animation", "idle")), wardrobe.selected(actor_id))
-	actor.set_reduced_motion(reduced_motion)
+	atmosphere.set_effects(node.get("effects", [str(node.get("effect", "lanterns"))]))
+	_stage_cast(node)
 	var chapter: Dictionary = state.story.get("chapters", {}).get(node.get("chapter", "book_i"), {})
 	_label(str(chapter.get("label", "BOOK I")), Vector2(77, 146), 13, GOLD)
 	_label(str(chapter.get("title", "The star beneath the mountain")), Vector2(77, 174), 27, PALE)
@@ -268,11 +272,16 @@ func _scene() -> void:
 	ui.add_child(dialogue)
 	text_clock = 0.0
 	auto_clock = 0.0
+	var choice_scroll := ScrollContainer.new()
+	choice_scroll.position = Vector2(78, 268)
+	choice_scroll.size = Vector2(850, 288)
+	choice_scroll.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
+	ui.add_child(choice_scroll)
 	choice_box = VBoxContainer.new()
-	choice_box.position = Vector2(78, 268)
-	choice_box.size = Vector2(850, 288)
+	choice_box.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	choice_box.custom_minimum_size = Vector2(826, 0)
 	choice_box.add_theme_constant_override("separation", 6)
-	ui.add_child(choice_box)
+	choice_scroll.add_child(choice_box)
 	choice_box.visible = false
 	var choices: Array = [] if node.get("random_event", false) else node.get("choices", [])
 	for i in range(choices.size()):
@@ -287,7 +296,7 @@ func _scene() -> void:
 		button.alignment = HORIZONTAL_ALIGNMENT_LEFT
 		button.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 		button.add_theme_font_size_override("font_size", 18)
-		button.custom_minimum_size = Vector2(850, 44)
+		button.custom_minimum_size = Vector2(826, 44)
 		for kind in ["normal", "hover", "pressed", "focus", "disabled"]:
 			var style: StyleBoxFlat = get_theme_stylebox(kind, "Button").duplicate()
 			style.content_margin_top = 6
@@ -324,9 +333,34 @@ func _scene() -> void:
 	_button("Menu", Vector2(1227, 844), 110, _title)
 	_button("Voice: " + ("on" if audio.enabled else "off"), Vector2(1352, 844), 170, _toggle_voice)
 	status_label = _label("", Vector2(406, 857), 13, GOLD)
+	if node.has("earned") and not state.completed_practice.has(state.current):
+		var credit: Dictionary = state.choice_details({"next": str(node.get("next", node.get("continuation", state.current))), "effects": node.earned})
+		_label("Completed practice · " + ", ".join(credit.effects) + " on Continue", Vector2(78, 540), 14, JADE)
 	audio.speak(state.current)
 	if node.has("sfx"):
 		audio.effect(str(node.sfx))
+
+# Up to three intact native portraits fit to the right of the choice cards.
+func _stage_cast(node: Dictionary) -> void:
+	var ids: Array[String] = [str(node.get("actor", "lin_yue"))]
+	for id in node.get("cast", []):
+		if not ids.has(str(id)) and ids.size() < 3:
+			ids.append(str(id))
+	var portraits: Array = [actor]
+	portraits.append_array(stage_companions)
+	var positions: Array = [Vector2(1205, 474)] if ids.size() == 1 else ([Vector2(1110, 356), Vector2(1390, 366)] if ids.size() == 2 else [Vector2(1060, 354), Vector2(1250, 356), Vector2(1440, 367)])
+	for slot in range(portraits.size()):
+		var portrait = portraits[slot]
+		portrait.visible = slot < ids.size()
+		if not portrait.visible:
+			continue
+		portrait.display_height = 680.0 if ids.size() == 1 else (420.0 if slot == 0 else 390.0)
+		portrait.position = positions[slot]
+		portrait.show_character(ids[slot], str(node.get("animation", "idle")), wardrobe.selected(ids[slot]))
+		portrait.set_reduced_motion(reduced_motion)
+		var speaking := ids[slot] == str(node.get("speaker", "narrator"))
+		var brightness := 1.0 if speaking or slot == 0 else 0.78
+		portrait.modulate = Color(brightness, brightness, brightness, portrait.modulate.a)
 
 func _choose(index: int) -> void:
 	if popup != null:
@@ -557,7 +591,7 @@ func _attributes() -> void:
 	column.get_child(0).add_child(codex_button)
 	column.add_theme_constant_override("separation", 12)
 	var hint := Label.new()
-	hint.text = "Choice attributes record practice and relationships. Cultivation realms require separate training and tests."
+	hint.text = "Practice earns attributes after completion. Your training changes which roles you can lead."
 	hint.add_theme_font_size_override("font_size", 16)
 	hint.add_theme_color_override("font_color", JADE)
 	column.add_child(hint)
@@ -754,6 +788,8 @@ func _motion_changed(value: bool) -> void:
 	reduced_motion = value
 	atmosphere.enabled = not value
 	actor.set_reduced_motion(value)
+	for companion in stage_companions:
+		companion.set_reduced_motion(value)
 	for preview in wardrobe_previews.values():
 		preview.set_reduced_motion(value)
 	_save_settings()
@@ -851,7 +887,7 @@ func _capture() -> void:
 		_set_outfit(character, Wardrobe.DEFAULT_OUTFIT)
 
 	atmosphere.enabled = not reduced_motion
-	for sample in [{"id": "arrival", "file": "mortal_arrival"}, {"id": "han_mei_shift", "file": "mortal_han_mei"}, {"id": "mortal_mite_choice", "file": "mortal_mite"}, {"id": "tempering_after_013", "file": "first_trace"}, {"id": "sluice_005", "file": "sluice_examiner"}, {"id": "sluice_040", "file": "sluice_retention"}, {"id": "channels_044", "file": "paired_channel"}, {"id": "reed_step_011", "file": "brine_mantis"}, {"id": "lantern_hub", "file": "quest_hub"}, {"id": "reed_voice", "file": "spirit_encounter"}, {"id": "ferry_price", "file": "ferry_encounter"}, {"id": "archive_copies", "file": "archive_encounter"}, {"id": "river_xiu", "file": "river_pilot"}, {"id": "river_spirit", "file": "river_spirit"}, {"id": "harbor_answer", "file": "river_harbor"}, {"id": "orchard_arrival", "file": "orchard_healer"}, {"id": "orchard_hart_answer", "file": "orchard_spirit"}, {"id": "orchard_resolution_choice", "file": "orchard_choices"}, {"id": "city_arrival", "file": "city_market"}, {"id": "city_mask_studio", "file": "city_mask_maker"}, {"id": "city_registry_mei", "file": "city_archivist"}, {"id": "city_registry_tao", "file": "city_courier"}, {"id": "city_perfumer_workroom", "file": "city_perfumer"}, {"id": "city_courser_terms", "file": "city_courser"}, {"id": "city_perfumer_moth_terms", "file": "city_moth"}, {"id": "city_final_choice", "file": "city_choices"}, {"id": "court_upper_bench", "file": "court_upper_bench"}, {"id": "court_luo_shan", "file": "court_luo_shan"}, {"id": "court_bai_qun", "file": "court_bai_qun"}, {"id": "court_du_heng", "file": "court_du_heng"}, {"id": "court_rain_heron", "file": "court_rain_heron"}, {"id": "court_investigation_choice", "file": "court_investigation_choice"}, {"id": "court_final_choice", "file": "court_final_choice"}, {"id": "court_weather_setup", "file": "court_weather_setup"}, {"id":"foundry_arrival_003","file":"foundry_examiner"}, {"id":"foundry_arrival_014","file":"foundry_friend"}, {"id":"foundry_phase_001","file":"foundry_phase_room"}, {"id":"foundry_route_010","file":"foundry_material_fault"}, {"id":"foundry_creature_002","file":"foundry_creature"}, {"id":"foundry_earned_002","file":"second_pair"}, {"id":"foundry_final_choice","file":"foundry_choices"}, {"id":"foundry_home_004","file":"foundry_home"}, {"id":"foundry_assessment_018","file":"foundry_certificate"}, {"id":"ridge_departure_002","file":"ridge_surveyor"}, {"id":"ridge_pool_001","file":"ridge_tortoise"}, {"id":"ridge_weather_event","file":"ridge_weather"}, {"id":"ridge_incident_cloudhound_001","file":"ridge_cloudhound"}, {"id":"ridge_incident_surge_001","file":"ridge_discharge"}, {"id":"ridge_final_choice","file":"ridge_choices"}, {"id":"storm_warning_001","file":"storm_observatory"}, {"id":"storm_final_choice","file":"storm_choices"}, {"id":"salt_channels_001","file":"salt_watermill"}, {"id":"salt_findings_003","file":"salt_forewoman"}, {"id":"salt_recovery_005","file":"salt_salamander"}, {"id":"salt_final_choice","file":"salt_choices"}]:
+	for sample in [{"id":"forest_24_005","file":"forest_ensemble"}, {"id":"forest_24_close_1","file":"lanternwing_crane"}, {"id":"desert_p24_005","file":"desert_attributes"}, {"id":"archive_25_006","file":"archive_ensemble"}, {"id":"archive_25_rejoin","file":"archive_courtyard"}, {"id": "arrival", "file": "mortal_arrival"}, {"id": "han_mei_shift", "file": "mortal_han_mei"}, {"id": "mortal_mite_choice", "file": "mortal_mite"}, {"id": "tempering_after_013", "file": "first_trace"}, {"id": "sluice_005", "file": "sluice_examiner"}, {"id": "sluice_040", "file": "sluice_retention"}, {"id": "channels_044", "file": "paired_channel"}, {"id": "reed_step_011", "file": "brine_mantis"}, {"id": "lantern_hub", "file": "quest_hub"}, {"id": "reed_voice", "file": "spirit_encounter"}, {"id": "ferry_price", "file": "ferry_encounter"}, {"id": "archive_copies", "file": "archive_encounter"}, {"id": "river_xiu", "file": "river_pilot"}, {"id": "river_spirit", "file": "river_spirit"}, {"id": "harbor_answer", "file": "river_harbor"}, {"id": "orchard_arrival", "file": "orchard_healer"}, {"id": "orchard_hart_answer", "file": "orchard_spirit"}, {"id": "orchard_resolution_choice", "file": "orchard_choices"}, {"id": "city_arrival", "file": "city_market"}, {"id": "city_mask_studio", "file": "city_mask_maker"}, {"id": "city_registry_mei", "file": "city_archivist"}, {"id": "city_registry_tao", "file": "city_courier"}, {"id": "city_perfumer_workroom", "file": "city_perfumer"}, {"id": "city_courser_terms", "file": "city_courser"}, {"id": "city_perfumer_moth_terms", "file": "city_moth"}, {"id": "city_final_choice", "file": "city_choices"}, {"id": "court_upper_bench", "file": "court_upper_bench"}, {"id": "court_luo_shan", "file": "court_luo_shan"}, {"id": "court_bai_qun", "file": "court_bai_qun"}, {"id": "court_du_heng", "file": "court_du_heng"}, {"id": "court_rain_heron", "file": "court_rain_heron"}, {"id": "court_investigation_choice", "file": "court_investigation_choice"}, {"id": "court_final_choice", "file": "court_final_choice"}, {"id": "court_weather_setup", "file": "court_weather_setup"}, {"id":"foundry_arrival_003","file":"foundry_examiner"}, {"id":"foundry_arrival_014","file":"foundry_friend"}, {"id":"foundry_phase_001","file":"foundry_phase_room"}, {"id":"foundry_route_010","file":"foundry_material_fault"}, {"id":"foundry_creature_002","file":"foundry_creature"}, {"id":"foundry_earned_002","file":"second_pair"}, {"id":"foundry_final_choice","file":"foundry_choices"}, {"id":"foundry_home_004","file":"foundry_home"}, {"id":"foundry_assessment_018","file":"foundry_certificate"}, {"id":"ridge_departure_002","file":"ridge_surveyor"}, {"id":"ridge_pool_001","file":"ridge_tortoise"}, {"id":"ridge_weather_event","file":"ridge_weather"}, {"id":"ridge_incident_cloudhound_001","file":"ridge_cloudhound"}, {"id":"ridge_incident_surge_001","file":"ridge_discharge"}, {"id":"ridge_final_choice","file":"ridge_choices"}, {"id":"storm_warning_001","file":"storm_observatory"}, {"id":"storm_final_choice","file":"storm_choices"}, {"id":"salt_channels_001","file":"salt_watermill"}, {"id":"salt_findings_003","file":"salt_forewoman"}, {"id":"salt_recovery_005","file":"salt_salamander"}, {"id":"salt_final_choice","file":"salt_choices"}]:
 		state.current = sample.id
 		_scene()
 		dialogue.visible_characters = -1

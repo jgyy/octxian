@@ -380,24 +380,15 @@
       "choices": [
         {
           "text": "Witness the private workboat's safe removal.",
-          "next": "canal_p21_030",
-          "effects": {
-            "resolve": 1
-          }
+          "next": "canal_p21_030"
         },
         {
           "text": "Compare the route and the tenant's receiving map.",
-          "next": "canal_p21_040",
-          "effects": {
-            "insight": 1
-          }
+          "next": "canal_p21_040"
         },
         {
           "text": "Walk the usable winter alternative with Luo Zhen.",
-          "next": "canal_p21_050",
-          "effects": {
-            "trust": 1
-          }
+          "next": "canal_p21_050"
         }
       ]
     },
@@ -529,7 +520,10 @@
         "stage": "4: Second pair"
       },
       "text": "Yue signed the current receiving note with the moved boat, clear old rope line, doubtful shore ring, and still-closed edge kept distinct. The officer would send the actual condition report to the ordinary route authority. The boat crew returned to its private work. At the landing the loose board had reached the sound bank and was recovered by the receiver's ordinary long hook without anyone entering the water. Yue watched him set it in the unidentified salvage place. It was not a prize. The morning had made a small reach less obstructed and left the next decision honestly visible.",
-      "next": "canal_p21_060"
+      "next": "canal_p21_060",
+      "earned": {
+        "insight": 1
+      }
     },
     "canal_p21_040": {
       "chapter": "book_xii_canal",
@@ -659,7 +653,10 @@
         "stage": "4: Second pair"
       },
       "text": "When the meeting ended, Yue helped the apprentice sweep the shavings only after he accepted the voluntary offer. She had completed her appointed comparison and was free to leave. He asked whether she was a surveyor or a cultivator. She said she was learning to be useful at a few things and making frequent errors in all of them. He considered this, then showed her the wrong cut hidden on the table leg's inner side. His employer had approved a sound correction. Yue looked at her mended coat and decided not to offer a competitive account of her own stitches.",
-      "next": "canal_p21_060"
+      "next": "canal_p21_060",
+      "earned": {
+        "insight": 1
+      }
     },
     "canal_p21_050": {
       "chapter": "book_xii_canal",
@@ -789,7 +786,10 @@
         "stage": "4: Second pair"
       },
       "text": "Luo asked whether Yue would remember this place after the forest road grew difficult. Yue said she would probably remember the geese before the map. The keeper looked satisfied. \"That is accurate authorship.\" They watched the afternoon light gather on the ordinary canal level. The storm had left damage, the correction had left inconveniences, and the walk had left nobody hungry enough to argue further. Yue took the empty food wrapper to the proper bin and returned to the office with the actual route report. Behind her, Luo began the shorter round she was genuinely paid to make.",
-      "next": "canal_p21_060"
+      "next": "canal_p21_060",
+      "earned": {
+        "trust": 1
+      }
     },
     "canal_p21_060": {
       "chapter": "book_xii_canal",

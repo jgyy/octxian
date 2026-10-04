@@ -380,24 +380,15 @@
       "choices": [
         {
           "text": "Inspect the private crane supports with Bao.",
-          "next": "canal_p03_030",
-          "effects": {
-            "resolve": 1
-          }
+          "next": "canal_p03_030"
         },
         {
           "text": "Compare the offered toll-book pages with An Ru.",
-          "next": "canal_p03_040",
-          "effects": {
-            "insight": 1
-          }
+          "next": "canal_p03_040"
         },
         {
           "text": "Help Tian clarify the private workers' wages and shifts.",
-          "next": "canal_p03_050",
-          "effects": {
-            "trust": 1
-          }
+          "next": "canal_p03_050"
         }
       ]
     },
@@ -529,7 +520,10 @@
         "stage": "4: Second pair"
       },
       "text": "At the office door, An Ru waited with the requested work packet. The household record showed a fourth-season reference the original annex search could follow. Tian had checked the workers' actual upcoming shifts, and no inventory list had acquired their gloves or wages. Yue added Bao's support map to the shared findings. The three jobs had narrowed a large frightening threat into particular goods, particular work and particular documents. Han still owed a deposit answer; the canal still needed its leaking gate repaired.",
-      "next": "canal_p03_060"
+      "next": "canal_p03_060",
+      "earned": {
+        "insight": 1
+      }
     },
     "canal_p03_040": {
       "chapter": "book_xii_canal",
@@ -659,7 +653,10 @@
         "stage": "4: Second pair"
       },
       "text": "At the office door, Bao brought the revised private crane-support map and Tian brought the workers' shift notes. The requested toll page had been copied, the incomplete annex heading identified and the original register located for tomorrow's archive journey. Yue added the receipt sequence to the shared findings. Their work would not settle everything today. It had made tomorrow's search precise enough that the missing seasons could finally become a document question rather than an endless argument about gratitude.",
-      "next": "canal_p03_060"
+      "next": "canal_p03_060",
+      "earned": {
+        "insight": 1
+      }
     },
     "canal_p03_050": {
       "chapter": "book_xii_canal",
@@ -789,7 +786,10 @@
         "stage": "4: Second pair"
       },
       "text": "At the office door, Bao brought the private support map and An Ru brought the matched household work sequence. The incomplete annex heading had led to a surviving archive register. Yue added Tian's wage and shift notes to the shared findings. Today's inventory could proceed without swallowing personal hooks or earned pay. The public path stayed open between cargo turns. Tomorrow's search would examine what the original four seasons meant, with workers able to leave this evening knowing how Friday would actually be paid.",
-      "next": "canal_p03_060"
+      "next": "canal_p03_060",
+      "earned": {
+        "trust": 1
+      }
     },
     "canal_p03_060": {
       "chapter": "book_xii_canal",

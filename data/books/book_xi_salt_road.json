@@ -1216,7 +1216,11 @@
       "actor": "yuan_lian",
       "text": "'I am Yuan Lian, forewoman of this mill,' the woman beside the wheel said. 'I signed the second operating check and will post the noon flow count. The miller's lost grinding hours are on the shutdown account; my workers will receive their ordinary wages. If the counted yield drops, optional turns stop first. A clerk will have to tell the cooperative that plainly instead of asking my crew to hide the shortfall in a nicer number.'",
       "background": "salt_lantern_watermill",
-      "next": "salt_findings_004"
+      "next": "salt_findings_004",
+      "cast": [
+        "yuan_lian",
+        "lin_yue"
+      ]
     },
     "salt_findings_004": {
       "chapter": "book_xi_salt_road",
@@ -2170,7 +2174,8 @@
       "actor": "yuan_lian",
       "background": "salt_lantern_watermill",
       "text": "Yuan Lian read the noon measure after Yue's cart had gone. The ordinary spring wheel turned; a reduced salt batch waited for its accepted turn. Nineteen restored households kept their tokens and their questions. On the porch, the forewoman left room beside the actual count for tomorrow's correction. Yue had helped make that room easier to use. It belonged to the people who would still be standing beside it.",
-      "ending": "The Measure That Stayed"
+      "ending": "The Measure That Stayed",
+      "continuation": "canal_from_rotation"
     },
     "salt_maintenance_001": {
       "chapter": "book_xi_salt_road",
@@ -2274,7 +2279,8 @@
       "actor": "lin_yue",
       "background": "bell_tower_square",
       "text": "On the departing cart, Yue listened to the empty cup knock softly against her bedding. The valley still needed a new season's decision. Its reserve now gave that decision a longer interval, and its carriers had tools they could find. She kept the paid shift tally beside her practice sheet, neither replacing the other. Ahead lay further opened routes if she could earn them. Behind lay ordinary work completed within the hours she had actually promised.",
-      "ending": "A Cup for the Next Visit"
+      "ending": "A Cup for the Next Visit",
+      "continuation": "canal_from_maintenance"
     },
     "salt_purchase_001": {
       "chapter": "book_xi_salt_road",
@@ -2378,7 +2384,8 @@
       "actor": "an_ru",
       "background": "valley_archive",
       "text": "An Ru filed the purchase packet beside the corrected turn book, leaving the old descriptions visible under their amendments. The water existed because a source had offered a bounded surplus, carriers had brought it, and someone had refused a dirty cover before counting it. Yue left with the copy she was actually permitted to keep. The valley's reserve held more time. No signature in the archive pretended to own the rain.",
-      "ending": "Water That Had Arrived"
+      "ending": "Water That Had Arrived",
+      "continuation": "canal_from_purchase"
     }
   }
 }

@@ -380,24 +380,15 @@
       "choices": [
         {
           "text": "Trace completed household labor and its receiving references.",
-          "next": "canal_p04_030",
-          "effects": {
-            "trust": 1
-          }
+          "next": "canal_p04_030"
         },
         {
           "text": "Compare the cash payments and returned-timber credit.",
-          "next": "canal_p04_040",
-          "effects": {
-            "insight": 1
-          }
+          "next": "canal_p04_040"
         },
         {
           "text": "Align the public plan with Luo's current boundary observations.",
-          "next": "canal_p04_050",
-          "effects": {
-            "resolve": 1
-          }
+          "next": "canal_p04_050"
         }
       ]
     },
@@ -529,7 +520,10 @@
         "stage": "4: Second pair"
       },
       "text": "At the courtyard table, Yue explained the provisional completion finding to An Ru while the timber-credit and boundary comparisons finished. The returned stock credit matched Han's old receipt; the common bed and seasonal spill remained excluded from his loan security. Her own work could now answer why four seasonal totals were accepted and where individual references still needed comparison. Tomorrow's receiver walk would carry those questions back to people who had lived beneath the numbers.",
-      "next": "canal_p04_060"
+      "next": "canal_p04_060",
+      "earned": {
+        "trust": 1
+      }
     },
     "canal_p04_040": {
       "chapter": "book_xii_canal",
@@ -659,7 +653,10 @@
         "stage": "4: Second pair"
       },
       "text": "At the courtyard table, Yue explained the payment sequence while the labor and boundary comparisons finished. The four-season maintenance pledge had a recorded completion certificate needing its receiving references checked; the bed and spill remained outside private title. Her own work could now show why eighty remained and why returned timber could not become another claim on the gate stock. Tomorrow's receiver walk would carry those distinct findings back to the creditor and households together.",
-      "next": "canal_p04_060"
+      "next": "canal_p04_060",
+      "earned": {
+        "insight": 1
+      }
     },
     "canal_p04_050": {
       "chapter": "book_xii_canal",
@@ -789,7 +786,10 @@
         "stage": "4: Second pair"
       },
       "text": "At the courtyard table, Yue explained the boundary comparison while the labor and payment checks finished. The four-season pledge had a completion certificate to verify; eighty copper remained under the toll term. Her own work could now show why private loading goods remained private and why the common diversion needed downstream people, not merely an old plan. Tomorrow's receiver walk would begin returning these findings to the canal, where every accurate clause still had to meet actual ground.",
-      "next": "canal_p04_060"
+      "next": "canal_p04_060",
+      "earned": {
+        "insight": 1
+      }
     },
     "canal_p04_060": {
       "chapter": "book_xii_canal",
