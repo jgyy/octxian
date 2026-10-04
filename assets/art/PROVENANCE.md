@@ -1,28 +1,12 @@
 # Art provenance
 
-GPT Images created the following source images for Jade Vow on 2026-10-02:
+## Current core character sources · 2026-10-03
 
-| Source | Contents |
-|---|---|
-| `cast.webp` | Four adult characters in Sect Robes |
-| `cast_training.webp` | Four Light Training outfit references |
-| `cast_festival.webp` | Four Moon Festival outfit references |
-| `poses_sect.webp` | Two distinct gesture poses for each character in Sect Robes |
-| `poses_training.webp` | Two distinct gesture poses for each character in Light Training clothing |
-| `poses_festival.webp` | Two distinct gesture poses for each character in Moon Festival clothing |
-| `azure_cloud.webp` | Mountain-sect environment |
+The six former cast/pose sheets and twelve small derived portraits were removed and replaced with twelve independently generated native **1024×1536 RGBA** portraits. [CORE_PROVENANCE.md](CORE_PROVENANCE.md) identifies the four characters, all three outfits and retained source blobs. The builder copies the new masters byte for byte; Godot supplies whole-body bobbing and still reduced-motion playback. The original `azure_cloud.webp` mountain environment remains.
 
-The cast is Lin Yue, Shen Qing, Elder Yun, and Mo Ran. All are adults. The outfit references and pose sheets use previous GPT artwork to maintain their identities. Light Training and Moon Festival show more shoulders, arms, chest, back, waist, or legs through sleeveless cuts, open martial vests, halter bodices, off-shoulder draping, and skirt slits.
+[THUNDERFEN_PROVENANCE.md](THUNDERFEN_PROVENANCE.md) records seven new Book IX originals. Historical world paintings and their creation evidence remain below. Counts attached to earlier batches describe those batches; the current catalog and `docs/content_report.json` give live delivery counts.
 
-There are twelve character/outfit appearances and **24 GPT-drawn poses**. Each pose sheet has four columns and two rows: a resting gesture and a raised cultivation gesture. The game uses the twelve intact resting portraits in the top rows.
-
-The portrait builder crops each complete resting drawing and fits it into a transparent 384×512 image while preserving its proportions. Godot applies a gentle whole-body vertical bob to the intact portrait at runtime.
-
-The idle, channeling, wind, and resolve labels select a gentle whole-body bob amplitude. The four-second loop runs in Godot and requires one portrait per appearance. The game does not perform lip sync.
-
-The generated manifest records source, catalog, builder-code, and portrait SHA-256 hashes. Animated WebP files and contact sheets under `docs/animations` preview the body bob; `rendered_game.webp` samples the running Godot viewport.
-
-Music and sound effects are original deterministic synthesis. Neural narration uses Piper's Lessac model; its source, hash, and upstream model card are bundled with generated voices. No person's voice is cloned. All characters share one narrator timbre with different pacing.
+Music and sound effects are original deterministic synthesis. Narration uses Piper Lessac with one narrator timbre and character pacing; the source, model hash and upstream model card are bundled with generated voices.
 
 ## World native paintings
 

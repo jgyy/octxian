@@ -539,21 +539,21 @@
           "text": "Follow the witnesses and make room for their finite days.",
           "next": "court_witness_entry",
           "effects": {
-            "trust": 1
+            "insight": 1
           }
         },
         {
           "text": "Examine the rain records, gauges, and clocks.",
           "next": "court_rain_entry",
           "effects": {
-            "qi": 1
+            "insight": 1
           }
         },
         {
           "text": "Trace access costs and the remaining assistance fund.",
           "next": "court_cost_entry",
           "effects": {
-            "resolve": 1
+            "insight": 1
           }
         },
         {
@@ -887,7 +887,7 @@
       "actor": "rain_heron",
       "background": "rain_court_hearing_hall",
       "effect": "none",
-      "text": "A station may help the next bulletin if it uses an agreed safe place and paid observers. It will not show the bench the past hidden inside today's rain. The proposed observer shifts must be separate from the lift keeper's ordinary safety duty, and no one may assume my attendance payment buys further work. I can discuss the copied log under its terms. Another observation requires another offer. Lin Yue's light could demonstrate a signal between sheltered posts. The later shifts must remain workable when she leaves, without a request that the sky obey the station's budget.",
+      "text": "A station can improve a future bulletin from a safe place with paid observers. It cannot reveal the past inside today's rain. Extra shifts remain separate from the lift keeper's ordinary duty and from my offered account. Lin Yue can demonstrate a grounded reference wick within her measured allowance. We must repeat the signal with a shuttered lantern before adopting it. Later observers inherit that ordinary method, not her continued attendance. Name the stopping conditions and missing views beside the price.",
       "next": "court_local_offer",
       "cultivation": {
         "realm": "qi_gathering",
@@ -900,7 +900,7 @@
       "actor": "du_heng",
       "background": "rain_court_hearing_hall",
       "effect": "none",
-      "text": "The lower landing is easier to reach than this room, provided the rented room is actually sheltered and somebody checks its access. Two local sessions could let a person correct a copied sentence without spending a day climbing. They would still cost time, and a person could still decline. I do not want the desk to label a local answer inferior merely because the witness stayed near home. I also do not want every neighbor required to speak because the room has been paid for. The approved transcript should show the offer, the answer, and the limits separately.",
+      "text": "I am answering from below. The lower landing is easier to reach than the upper hall, provided the rented room is actually sheltered and somebody checks its access. Two local sessions could let a person correct a copied sentence without spending a day climbing. They would still cost time, and a person could still decline. I do not want the desk to label a local answer inferior merely because the witness stayed near home. I also do not want every neighbor required to speak because the room has been paid for. The transcript should keep offer, answer, and limits separate.",
       "next": "court_staged_offer",
       "cultivation": {
         "realm": "qi_gathering",
@@ -1004,7 +1004,7 @@
       "actor": "mo_ran",
       "background": "rain_court_hearing_hall",
       "effect": "none",
-      "text": "Mo Ran checked the return dates on the permitted packets before the final decision. Some originals had never left their owners. Others had specific pickup arrangements. The extra storage reserves described copies and tasks within agreed custody, with renewal at the review where required. He wrote the dates on a separate carrying list so nobody would need to read the private contents to return the correct parcel. Beyond the open door, the rain had found a new rhythm on the tiles. It sounded decisive, though the canal forecast remained conditional and the hidden failure remained unknown.",
+      "text": "Mo Ran checked the permitted packets' return dates before the decision. Some originals had never left their owners; others had named pickup arrangements. Extra storage covered only agreed copies and tasks, with renewal where required. He put return dates on a carrying list which revealed no private contents. The Day Seven review would use approved accounts and named lower contacts; neither funded ascent was repeated. Lin Yue would carry the hearing copy. Rain found a new rhythm beyond the door, though canal closure remained conditional and the hidden failure unknown.",
       "next": "court_final_choice",
       "cultivation": {
         "realm": "qi_gathering",
@@ -1033,12 +1033,8 @@
         {
           "text": "Bring two separately agreed testimony sessions to the lower landing.",
           "next": "court_local_proposal",
-          "requires": {
-            "trust": 4
-          },
           "effects": {
-            "trust": 1,
-            "resolve": 1
+            "insight": 2
           }
         },
         {
@@ -1048,15 +1044,14 @@
             "insight": 4
           },
           "effects": {
-            "insight": 1,
-            "trust": 1
+            "insight": 2
           }
         },
         {
           "text": "Issue a dated limited remand for one independent reinspection.",
           "next": "court_remand_proposal",
           "effects": {
-            "resolve": 2
+            "trust": 2
           }
         }
       ],
@@ -1097,7 +1092,7 @@
       "actor": "lin_yue",
       "background": "rain_court_terrace",
       "effect": "none",
-      "text": "Lin Yue raised a thin green light above the inner measuring square. Shen could see it from the sheltered post without approaching the exposed spur. The observer timed the response, then repeated the exercise with an ordinary shuttered lantern. The second method was slower and still usable. They recorded both methods rather than preserving only the impressive one. The hired instrument's mount received its present check; no result was copied backward onto the accident date. Before Lin lowered the light, the observer asked her to repeat the ordinary signal. That was the one the station would actually inherit.",
+      "text": "Lin Yue fastened the grounded reference wick above the inner measuring square, with its lead clear of the gauge. She delivered one quarter-unit through the first arm pair and discharged. Shen timed the visible response from shelter. They repeated it with an ordinary shuttered lantern at the same height. The slower method remained usable without a cultivator. The instrument mount received its present check; neither signal reconstructed the accident. The observer kept the wick position on his drawing and the ordinary lantern for the station's later shifts.",
       "next": "court_weather_shift",
       "cultivation": {
         "realm": "qi_gathering",
@@ -1149,7 +1144,7 @@
       "actor": "du_heng",
       "background": "rain_court_terrace",
       "effect": "none",
-      "text": "At the review, Du presented the concise order with his left hand. His clinician's next instructions, not the station's clear columns, would determine when he could carry again. Bai received a particular maintenance question instead of the old whole-lift accusation. The closed equipment awaited its separate safety decision. Below the roof, an attendant used the new bulletin and left its uncertain interval uncovered. Lin Yue watched the station sheet returned to its keeper. The court had learned to date a useful warning without making it a verdict, and to keep its protection alive while the harder questions continued.",
+      "text": "On Day Seven, Du showed the concise order to the lower contact with his left hand; his approved response reached the bench. His clinician would determine when he could carry again. Bai received a particular maintenance question, and the equipment awaited its separate safety decision. An attendant used the dated bulletin with its uncertain interval visible. Lin Yue watched the station sheet return to its keeper. The review kept protection alive while harder questions continued. It received bounded records without demanding another climb or turning a weather warning into a verdict.",
       "ending": "The Sky with Its Dates",
       "continuation": "ring_from_weather",
       "cultivation": {
@@ -1241,7 +1236,7 @@
       "actor": "bai_qun",
       "background": "rain_court_terrace",
       "effect": "none",
-      "text": "At Day Seven's review, Bai kept her tools closed while the clerk read the next particular question. Du's injury claim remained open, with ordinary care and medical restrictions still necessary. The work proof stayed valid for those who had attended and those who had declined. The local minutes joined the original accounts without erasing them. Below the clouds, the hired room returned to its keeper after the paid sessions ended. Lin Yue left the receiving address with the lower gate. A voice could now reach the bench from nearer home, carrying its pauses and limits rather than paying for grandeur.",
+      "text": "At Day Seven's review, Bai kept her tools closed at the lower contact desk while its reader delivered the bench's next question. Du's injury claim stayed open, with ordinary care and medical restrictions necessary. Corrected proofs remained valid for those who attended and those who declined. The local minutes joined the original accounts without erasing them. The hired room returned to its keeper after its sessions. Lin Yue left the receiving address below. A voice could reach the bench near home, carrying pauses and limits without another funded ascent.",
       "ending": "The Testimony Below the Clouds",
       "continuation": "ring_from_local",
       "cultivation": {
@@ -1333,7 +1328,7 @@
       "actor": "lin_yue",
       "background": "rain_court_hearing_hall",
       "effect": "none",
-      "text": "The next hearing began with three named questions and their sources, not a broad demand that Bai explain the entire lift. Du's compensation claim had its own receiving post and still required a proper answer. The work proof correction and removal of the defective assessment remained effective. On the notice, the unsolved cause appeared without a decorative seal of certainty. Lin Yue left after checking the objection route with Luo. Outside, rain struck the covered path in uneven bursts. The docket had become smaller enough to use, and open enough to show where the court still owed its parties work.",
+      "text": "Day Seven's review began with three named questions and their sources, not a broad demand that Bai explain the entire lift. Du's compensation claim had its own receiving post and still required a proper answer. The work proof correction and removal of the defective assessment remained effective. On the notice, the unsolved cause appeared without a decorative seal of certainty. Lin Yue left after checking the objection route with Luo. Outside, rain struck the covered path in uneven bursts. The docket had become smaller enough to use, and open enough to show where the court still owed its parties work.",
       "ending": "A Question in Its Proper File",
       "continuation": "ring_from_staged",
       "cultivation": {
@@ -1425,7 +1420,7 @@
       "actor": "du_heng",
       "background": "rain_court_terrace",
       "effect": "none",
-      "text": "On Day Seven, the clerk read the reinspection's findings and its historical limits. The particular maintenance and injury questions remained under dated review. Du kept the order in his left coat pocket, apart from the note for his clinician. Bai knew which claim she might next be asked to answer and which whole-lift assignment had been rejected. The closed goods lift stayed closed pending its safety process. Lin Yue descended the covered path while rain gathered beneath the court. Behind her, an unanswered line remained visible beside a date and a responsible office, rather than sinking into seventy-five silent days.",
+      "text": "On Day Seven, the lower contact read the bench's response to the reinspection and its historical limits. Maintenance and injury questions stayed under dated review. Du kept the order in his left pocket, apart from his clinician's note. Bai knew which particular claim she might answer and which whole-lift assignment had been rejected. The goods lift stayed closed. Lin Yue descended after delivering the approved records. Behind her, an unanswered line remained beside a date and a responsible office; below, the parties received that answer without another ascent.",
       "ending": "The Stair Kept Under Review",
       "continuation": "ring_from_remand",
       "cultivation": {
@@ -1554,7 +1549,7 @@
       "chapter": "book_vi",
       "speaker": "narrator",
       "actor": "lin_yue",
-      "text": "The desk clerk offered a familiar explanation: witnesses often came early because they wanted favors. Su E set her basket on the counter and opened it. The remaining buns had collapsed under their damp cloth. She had brought them to sell while waiting, not to give to the court. He Lian asked the clerk to identify any request for a favor on the attendance form. There was none. The clerk drew a line through his inference and wrote that Su E arrived before the required hour, which still needed translation.",
+      "text": "The desk clerk offered a familiar explanation: witnesses often came early because they wanted favors. Su E set her basket on the counter and opened it. The remaining buns had collapsed under their damp cloth. She had brought them to sell while waiting, not to give to the court. He Lian asked the clerk to identify any request for a favor on the attendance form. There was none. The clerk drew a line through his inference and recorded Su E's actual arrival. The required hour still needed translation before an early or late comparison.",
       "background": "rain_court_witness_room",
       "effect": "none",
       "next": "court_witness_a1_08",
@@ -1608,7 +1603,7 @@
           "text": "Test rotating appointments around work.",
           "next": "court_witness_a1_rotating_1",
           "effects": {
-            "trust": 1
+            "insight": 1
           }
         }
       ],
@@ -1889,7 +1884,7 @@
           "text": "Check the lower-gate shelter.",
           "next": "court_witness_a2_shelter_1",
           "effects": {
-            "trust": 1
+            "insight": 1
           }
         },
         {
@@ -2026,7 +2021,7 @@
       "chapter": "book_vi",
       "speaker": "narrator",
       "actor": "lin_yue",
-      "text": "From the terrace, Lin Yue watched the covered footpath bend behind a ridge. The passenger carriers were placing removable grip mats at its wettest turn under the supervisor's inspection. Below, the closed goods lift remained motionless. The sight kept two safety questions separate. Improving witness access did not answer whether the old counterweight, brake, guide, or mooring pin had failed. The transport team would supply its own findings. Lin Yue left that space blank in the witness report and entered only the confirmed conditions for tomorrow's assisted passage.",
+      "text": "From the terrace, Lin Yue watched the covered footpath bend behind a ridge. The passenger carriers were placing removable grip mats at its wettest turn under the supervisor's inspection. Below, the closed goods lift remained motionless. The sight kept two safety questions separate. Improving witness access did not answer whether the old counterweight, brake, guide, or mooring pin had failed. The weather inquiry would carry the inspection staff's bounded notes. Lin Yue left that space blank in the witness report and entered only the confirmed conditions for tomorrow's assisted passage.",
       "background": "rain_court_terrace",
       "effect": "none",
       "next": "court_witness_a2_17",
@@ -2104,7 +2099,7 @@
       "chapter": "book_vi",
       "speaker": "narrator",
       "actor": "he_lian",
-      "text": "Sui Dan, the forty-seven-year-old liftkeeper, could attend between two safety duties. His supervisor offered to send him without replacing his post, leaving the lower service gate unstaffed. He Lian required a replacement from the existing duty roster before accepting the appointment. The five-copper attendance allocation covered the keeper's bounded participation, not a new unlimited staffing expense. If the roster could not spare someone, the statement would be taken during his later break. The magistrate's protection order had stayed a disputed assessment; it had not suspended the court's obligations to people still using its ordinary approaches.",
+      "text": "Sui Dan, the forty-seven-year-old liftkeeper, offered an hour after his normal shift. His supervisor proposed ending that shift early to fit the interview, without replacing him at the lower service gate. He Lian required a normal roster handover before any early departure. Otherwise the interview would wait until his scheduled shift ended. The five-copper allocation covered that off-shift explanation of offered entries. It supplied no replacement maintenance wage. The magistrate's stay had not suspended the court's duty to people still using its approaches.",
       "background": "rain_court_witness_room",
       "effect": "none",
       "next": "court_witness_a3_06",
@@ -2353,7 +2348,7 @@
       "chapter": "book_vi",
       "speaker": "narrator",
       "actor": "he_lian",
-      "text": "He Lian introduced herself as the bench magistrate and explained the distinction between today's statement and the later liability decision. Bai's corrected city work proof was admitted already; she did not need to purchase recognition again or defend her true name before speaking. The disputed assessment's collection and record-based work bar remained restricted under the receipt order. The goods lift was still closed. Bai listened to each sentence, then asked the writer to place them on the appointment copy. She wanted something she could show a foreman who had read only the old summary.",
+      "text": "He Lian distinguished today's statement from the later liability decision. Du's corrected city work proof was already admitted; Bai's offered contract established her assigned scope. Neither paper proved that its holder performed every duty. The disputed assessment and record-based work bar remained suspended under the receipt order. The goods lift stayed closed. Bai asked the writer to put those boundaries on the appointment copy. A foreman had read only the old summary; she needed the actual order to explain what had changed.",
       "background": "rain_court_witness_room",
       "effect": "none",
       "next": "court_witness_a4_03",
@@ -2472,7 +2467,7 @@
           "text": "Compare Bai’s written duty clauses.",
           "next": "court_witness_a4_remit_1",
           "effects": {
-            "resolve": 1
+            "insight": 1
           }
         }
       ],
@@ -2576,7 +2571,7 @@
       "chapter": "book_vi",
       "speaker": "narrator",
       "actor": "lin_yue",
-      "text": "A neighboring binder had sent a note calling Bai careful and honest. Bai wanted it included, then paused when Luo Shan asked what the neighbor actually saw on the accident morning. The neighbor had been working across town. His note described years of shared work rather than the disputed inspection. Bai kept it separate from the factual sequence. She did not withdraw the friendship or pretend it supplied an eyewitness. Lin Yue could hear how much she needed someone to stand beside her. The packet would preserve that support without turning it into another account of the landing.",
+      "text": "A neighboring binder had sent a note calling Bai careful and honest. Bai wanted it included, then paused when Luo Shan asked what the neighbor actually saw on the accident morning. The neighbor had been working across town. Her note described years of shared work rather than the disputed inspection. Bai kept it separate from the factual sequence. She did not withdraw the friendship or pretend it supplied an eyewitness. Lin Yue could hear how much she needed someone to stand beside her. The packet would preserve that support without turning it into another account of the landing.",
       "background": "rain_court_witness_room",
       "effect": "none",
       "next": "court_witness_a4_15",
@@ -2667,7 +2662,7 @@
       "chapter": "book_vi",
       "speaker": "narrator",
       "actor": "luo_shan",
-      "text": "The jolt came before Du understood the sling had shifted. He remembered the bundle's strap pulling across his right side and someone shouting. He could not count the order of every small movement within that moment. Luo Shan divided the description into what Du saw, what he felt, and what he learned afterward. None of those categories made the account worthless. They made it possible to ask the transport team which mechanism might fit, without claiming that a porter's bodily impression was a complete view of the hand brake and counterweight above his head.",
+      "text": "The jolt came before Du understood the sling had shifted. He remembered the bundle's strap pulling across his right side and someone shouting. He could not count the order of every small movement within that moment. Luo Shan divided the description into what Du saw, what he felt, and what he learned afterward. None of those categories made the account worthless. They made it possible to ask the authorized inspection staff which mechanisms might fit, without claiming that a porter's bodily impression was a complete view of the hand brake and counterweight above his head.",
       "background": "rain_court_witness_room",
       "effect": "none",
       "next": "court_witness_a5_05",
@@ -2864,7 +2859,7 @@
       "chapter": "book_vi",
       "speaker": "narrator",
       "actor": "lin_yue",
-      "text": "Bai had submitted one question for Du: could he identify whether the unusual movement began above or at the landing? The writer read it without showing Du her full statement. Du could not. He felt the movement through the strap and saw the nearest bundle shift; he did not see the upper mechanism begin it. His reply was added as a separate exchange with its source. Bai's question made an uncertainty explicit, but did not give either account authority over the other's unseen portion. The transport team's findings would still be needed at the common hearing.",
+      "text": "Bai had submitted one question for Du: could he identify whether the unusual movement began above or at the landing? The writer read it without showing Du her full statement. Du could not. He felt the movement through the strap and saw the nearest bundle shift; he did not see the upper mechanism begin it. His reply was added as a separate exchange with its source. Bai's question made an uncertainty explicit, but did not give either account authority over the other's unseen portion. The weather packet's permitted material findings would still be needed at the common hearing.",
       "background": "rain_court_witness_room",
       "effect": "none",
       "next": "court_witness_a5_15",
@@ -3041,7 +3036,7 @@
           "text": "Follow Su E’s bell and oven sequence.",
           "next": "court_witness_a6_baker_1",
           "effects": {
-            "trust": 1
+            "insight": 1
           }
         },
         {
@@ -3401,7 +3396,7 @@
       "chapter": "book_vi",
       "speaker": "narrator",
       "actor": "he_lian",
-      "text": "He Lian reviewed the corrected summary without using it as a verdict. She directed the hearing clerk to retain source phrases and timing limits when preparing questions for the third day. The hearing could ask for the transport and docket teams' independent findings, then identify what additional inquiry mattered. A provisional arrangement might protect access or preserve records while the cause remained disputed. The magistrate would not let a calendar deadline supply a missing fact merely because the file had grown difficult. The receipt order's seven-day extension created time for work, not certainty that every uncertainty would disappear before review.",
+      "text": "He Lian reviewed the corrected summary without using it as a verdict. She directed the hearing clerk to retain source phrases and timing limits when preparing questions for the third day. The hearing could ask for the weather and docket teams' independent findings, then identify what additional inquiry mattered. A provisional arrangement might protect access or preserve records while the cause remained disputed. The magistrate would not let a calendar deadline supply a missing fact merely because the file had grown difficult. The receipt order's seven-day extension created time for work, not certainty that every uncertainty would disappear before review.",
       "background": "rain_court_witness_room",
       "effect": "none",
       "next": "court_witness_a7_12",
@@ -3617,14 +3612,14 @@
           "text": "Lead with firsthand sources and their limits.",
           "next": "court_witness_a8_sources_1",
           "effects": {
-            "resolve": 1
+            "insight": 1
           }
         },
         {
           "text": "Lead with delivered access and remaining costs.",
           "next": "court_witness_a8_access_1",
           "effects": {
-            "resolve": 2
+            "insight": 2
           }
         }
       ],
@@ -3754,7 +3749,7 @@
       "chapter": "book_vi",
       "speaker": "he_lian",
       "actor": "he_lian",
-      "text": "The forecast threatens the canal on the fifth day, but it is still a forecast. We will hear the transport team's assessment before ordering a further journey or search. The current protections remain limited to the disputed assessment and recorded work bar; they do not reopen an unsafe goods lift. The seventh-day review remains on the calendar. If a final arrangement needs time or storage beyond the baseline, its cost must be named. The witnesses have supplied bounded records now. They should not bear an invented promise merely because the court prefers a tidy conclusion before weather complicates the work.",
+      "text": "The forecast threatens the canal on the fifth day, but it is still a forecast. We will consult weather and cost reports before ordering a further journey or search. The current protections remain limited to the disputed assessment and recorded work bar; they do not reopen an unsafe goods lift. The seventh-day review remains on the calendar. If a final arrangement needs time or storage beyond the baseline, its cost must be named. The witnesses have supplied bounded records now. They should not bear an invented promise merely because the court prefers a tidy conclusion before weather complicates the work.",
       "background": "rain_court_witness_room",
       "effect": "none",
       "next": "court_witness_a8_17",
@@ -3780,7 +3775,7 @@
       "chapter": "book_vi",
       "speaker": "narrator",
       "actor": "lin_yue",
-      "text": "On Day Three morning, the witness packet reached the hearing table beside spaces reserved for the docket, transport, and cost reports. Lin Yue identified which accounts this team had gathered and which work she had not personally examined. The clerk read the corrected attendance terms before opening the source matrix. Bai and Du's approved records were present without compelled journeys. Original reports, dated corrections, unpaid gaps, and unresolved clock comparisons remained in view. The hearing could now ask what these accounts established alongside the other findings, then choose further work with limits rather than a story assembled from missing people.",
+      "text": "On Day Three morning, the witness packet reached the hearing table beside spaces reserved for the docket, weather, and cost reports. Lin Yue identified which accounts this team had gathered and which work she had not personally examined. The clerk read the corrected attendance terms before opening the source matrix. Bai and Du's approved records were present without compelled journeys. Original reports, dated corrections, unpaid gaps, and unresolved clock comparisons remained in view. The hearing could now ask what these accounts established alongside the other findings, then choose further work with limits rather than a story assembled from missing people.",
       "background": "rain_court_hearing_hall",
       "effect": "none",
       "next": "court_findings",
@@ -3793,7 +3788,7 @@
       "chapter": "book_vi",
       "speaker": "narrator",
       "actor": "lin_yue",
-      "text": "The stair to the measuring terrace ended beneath a stone lip streaked with copper. Beyond it, clouds moved like wool being combed from opposite sides. A brass rain cup stood inside a low cage; three pale cords ran from its rim toward the court wall. Lin Yue stopped before the marked threshold. Water had gathered there despite the terrace roof, and a narrow warning board leaned against the gate. Someone had written CLOSED OUTER WALK in careful ink, then tied a fresh white ribbon through both hinges.",
+      "text": "The stair ended beneath a stone lip streaked with copper. Clouds moved beyond it like wool combed in opposite directions. Under the roof, a brass rain cup stood inside a low cage. Its ordinary roof intake fed local rainfall through a closeable chute; three pale cords ran from its rim toward the wall. Lin Yue stopped at the marked threshold. Water had gathered despite the terrace roof. A warning board read CLOSED OUTER WALK, and a fresh white ribbon tied both gate hinges. The cup could be reached from shelter without crossing that boundary.",
       "background": "rain_court_terrace",
       "effect": "rain",
       "next": "court_rain_closed_walk",
@@ -4079,7 +4074,7 @@
       "chapter": "book_vi",
       "speaker": "narrator",
       "actor": "lin_yue",
-      "text": "With the map protected and the drain running freely, they returned to the rain cup. Zhong Rui placed a shallow basin beneath its outlet so a controlled pour would not vanish into the terrace groove. Lin Yue checked that the basin was empty. The Heron remained on the inner rail, available to describe only the ordinary water test before it. Luo Shan drew three boxes for the coming results and left them unfilled. Whatever the test showed, those blank spaces would keep the group from pretending that an expected answer had already been observed.",
+      "text": "Zhong Rui closed the roof-intake shutter and emptied the rain cup before the controlled comparison. He kept the fixed mounting untouched. The delivering bottle would feed only measured water; a second bottle caught the outlet, while a separate shallow basin caught rim overflow. Lin Yue checked both collectors were empty and no roof water entered. The Heron watched from the inner rail. Luo Shan drew boxes for delivered water, outlet collection, overflow and residue. Their blank spaces kept an expected answer from becoming an observation.",
       "background": "rain_court_terrace",
       "effect": "rain",
       "next": "court_rain_volume_mark",
@@ -4124,19 +4119,14 @@
           "text": "Ask for a bounded assist during the paid instrument check.",
           "next": "court_rain_assistant_request",
           "effects": {
-            "trust": 1,
-            "insight": 1
-          },
-          "requires": {
-            "trust": 4
+            "insight": 2
           }
         },
         {
           "text": "Use steady daylight and record the delay.",
           "next": "court_rain_manual_light",
           "effects": {
-            "resolve": 1,
-            "insight": 1
+            "insight": 2
           }
         }
       ],
@@ -4279,7 +4269,7 @@
       "chapter": "book_vi",
       "speaker": "narrator",
       "actor": "lin_yue",
-      "text": "The bubble returned near the center in both directions after the adjustment. Zhong Rui tightened the lock, shook the empty cup gently, and checked it again. Its level held. A repair could itself introduce a new error if the supporting screw slipped under a filled cup, so they repeated the check with an ordinary bowl's weight placed beside the mounting. Nothing shifted visibly. Lin Yue wrote that this was a stability check under the tested weight, not permission to lean on the fixture or claim that every future storm would leave it unchanged.",
+      "text": "The bubble returned near the center in both directions after adjustment. Zhong Rui tightened the lock and gently shook the secured empty cup, then checked it again. To test its supports under the water load, he filled the cup to its ordinary capacity with the outlet temporarily closed. The bubble and collar marks held. He reopened the outlet, drained it, and emptied both collectors before the next measured pour. Lin Yue recorded the tested fill and the temporary closure. This check supplied no permission to lean on the fixture or certainty about every future storm.",
       "background": "rain_court_terrace",
       "effect": "rain",
       "next": "court_rain_corrected_pours",
@@ -4305,7 +4295,7 @@
       "chapter": "book_vi",
       "speaker": "shen_qing",
       "actor": "shen_qing",
-      "text": "These columns are worth keeping because another attendant can reproduce the comparison, Shen Qing said. The starting bottle, pour pace, screen, rim basin, and reading height all belong in the description. So does the fact that we tested under the roof. If a later group pours faster or tries it outside in wind, its numbers may differ without either group being dishonest. We should provide enough detail to explain a difference instead of demanding agreement with ours. I would also keep the bubble readings, since the collar adjustment is the change we actually made.",
+      "text": "These columns need a repeatable method, Shen Qing said. Record the starting bottle, pour pace, screen, separate outlet bottle and rim basin, reading height, and closed roof intake. We isolated the controlled water under shelter; natural rain was not part of these pours. Faster pouring or different handling may change the numbers without dishonesty. Keep the bubble readings too. The collar adjustment was the change between our tests. Open the roof intake only after the last comparison, and start a fresh interval for ordinary rain.",
       "background": "rain_court_terrace",
       "effect": "rain",
       "next": "court_rain_historical_limit",
@@ -4435,7 +4425,7 @@
       "chapter": "book_vi",
       "speaker": "narrator",
       "actor": "shen_qing",
-      "text": "Evening light dulled the copper streaks above the stair. Zhong Rui closed the gauge cage and entered the completed level check beside his earlier pending mark. The corrected cup would remain in ordinary use under its established inspection schedule. Lin Yue left the tested shade bracket where the attendants could find it. Their next inquiries would begin on Day one, after the lift staff had arranged a safe place to inspect the clock records. No one proposed reopening the outer spur for a better view. The white ribbon stayed tied through both hinges.",
+      "text": "Evening light dulled the copper streaks above the stair. Zhong Rui closed the gauge cage, entered the completed level check, and emptied the test water. He reopened the roof intake and marked a fresh rainfall interval. The corrected cup would stay in ordinary use under its inspection schedule. Lin Yue left the tested shade bracket for the attendants. Their next inquiries would begin on Day One, after lift staff arranged a safe place to inspect clock records. No one proposed reopening the outer spur. Its white ribbon stayed tied through both hinges.",
       "background": "rain_court_terrace",
       "effect": "rain",
       "next": "court_rain_clock_entry",
@@ -4545,19 +4535,14 @@
           "text": "Use the willing second keeper during the bounded check.",
           "next": "court_rain_second_keeper",
           "effects": {
-            "trust": 1,
-            "insight": 1
-          },
-          "requires": {
-            "trust": 4
+            "insight": 2
           }
         },
         {
           "text": "Use plain boards and preserve missed comparisons.",
           "next": "court_rain_board_signal",
           "effects": {
-            "resolve": 1,
-            "insight": 1
+            "insight": 2
           }
         }
       ],
@@ -4700,7 +4685,7 @@
       "chapter": "book_vi",
       "speaker": "narrator",
       "actor": "luo_shan",
-      "text": "A shift handoff sheet placed one worker's departure before another's arrival through adjacent signatures, without relying on a clock face. That sequence could help organize the questions even while its minutes remained uncertain. The authorized custodian offered a relevant extract with unrelated wages covered. Luo Shan read it alongside the bell account, asking what each document actually connected. The signatures established a recorded handoff; they did not show every action performed between them. Lin Yue noted that a useful sequence can be partial, with some events linked and others still floating in a wider interval.",
+      "text": "A shift sheet expressly recorded relief accepted before the outgoing worker left. Both workers signed that entry. Luo Shan copied its sequence as the sheet's account, not a fact established merely by adjacent signatures. Its minutes remained uncertain. The custodian offered the relevant passage with unrelated wages covered. Luo read it beside the bell account, asking which events each source connected. The sheet documented a claimed handover and accountable signers; it did not show every action between signatures. Lin Yue kept those limits beside the partial sequence.",
       "background": "rain_court_witness_room",
       "effect": "none",
       "next": "court_rain_lower_location",
@@ -4875,19 +4860,14 @@
           "text": "Invite a permitted independent reader for the scheduled interval.",
           "next": "court_rain_trace_reader",
           "effects": {
-            "trust": 1,
-            "insight": 1
-          },
-          "requires": {
-            "trust": 4
+            "insight": 2
           }
         },
         {
           "text": "Make two ordinary ruled sketches without consuming the sample.",
           "next": "court_rain_trace_drawing",
           "effects": {
-            "resolve": 1,
-            "insight": 1
+            "insight": 2
           }
         }
       ],
@@ -4952,7 +4932,7 @@
       "chapter": "book_vi",
       "speaker": "narrator",
       "actor": "shen_qing",
-      "text": "The stained board carried a darker track near one edge and scattered pale marks farther inward. From the protected arch, Shen Qing compared its labeled orientation with the landing sketch. Rain could have reached the outer edge, but runoff from a higher joint could also have followed that track. The inspector offered a charcoal rubbing made during collection, a simple record of the shapes visible then. It showed the same main track and fewer loose flecks. Lin Yue asked whether transport had shaken those flecks free before anyone assigned them to a sudden impact.",
+      "text": "The stained board carried a darker track near one edge and scattered pale marks farther inward. From the protected arch, Shen Qing compared its labeled orientation with the landing sketch. Rain could have reached the outer edge, but runoff from a higher joint could also have followed that track. The inspector offered a charcoal outline drawn during collection, recording the visible track and flecks. The collector's drawing showed the same main track and fewer loose flecks. Lin Yue asked whether transport had shaken those flecks free before anyone assigned them to a sudden impact.",
       "background": "rain_court_terrace",
       "effect": "rain",
       "next": "court_rain_fallen_grit",
@@ -5256,19 +5236,14 @@
           "text": "Read the complete passages with the Heron's bounded agreement.",
           "next": "court_rain_readback_statement",
           "effects": {
-            "trust": 1,
-            "insight": 1
-          },
-          "requires": {
-            "trust": 4
+            "insight": 2
           }
         },
         {
           "text": "Prepare a plain paired copy for the authorized source check.",
           "next": "court_rain_paired_copy",
           "effects": {
-            "resolve": 1,
-            "insight": 1
+            "insight": 2
           }
         }
       ],
@@ -5528,7 +5503,7 @@
       "chapter": "book_vi",
       "speaker": "shen_qing",
       "actor": "shen_qing",
-      "text": "The ordinary gauge is working after its level check, Shen Qing said. We can compare its current collection with the offered local reports, but there will still be a delay in learning what happens upstream. We could improve the safe reading screen with a small qi lamp, or ask the willing station keeper to confirm the next ordinary interval from his protected post. We can also wait for the usual gauge interval and send only the bounded result. Whatever we choose, a clearer local reading must remain local when it enters the forecast.",
+      "text": "The leveled gauge now works, Shen Qing said. Its present collection can be compared with offered local accounts; upstream news still takes time. One measured discharge into Yue's grounded reference wick can light a safe reading. The keeper can also confirm his scheduled interval, if he agrees, or we can wait and report the delay. None alters rainfall. Keep the wick away from the bottle and preserve its starting allowance. A clearer local mark remains local when the forecaster copies it.",
       "background": "rain_court_terrace",
       "effect": "rain",
       "next": "court_rain_forecast_choice",
@@ -5560,19 +5535,14 @@
           "text": "Request the keeper's bounded ordinary comparison.",
           "next": "court_rain_forecast_keeper",
           "effects": {
-            "trust": 1,
-            "insight": 1
-          },
-          "requires": {
-            "trust": 4
+            "insight": 2
           }
         },
         {
           "text": "Use the scheduled gauge interval and retain the delay.",
           "next": "court_rain_forecast_schedule",
           "effects": {
-            "resolve": 1,
-            "insight": 1
+            "insight": 2
           }
         }
       ],
@@ -5585,7 +5555,7 @@
       "chapter": "book_vi",
       "speaker": "narrator",
       "actor": "lin_yue",
-      "text": "Lin Yue held a low light beside the gauge scale while Zhong Rui read its ordinary interval. She watched the roof edge as carefully as the etched marks, ensuring that her hand stayed inside the covered line. The light shortened their reading delay but did not increase the gauge's collection or calm the gust. Zhong Rui confirmed the level and entered the method. Luo Shan noted the nearby current observation separately from the older controlled pour. The corrected instrument was now gathering actual local rain, whose direction and rate differed from the deliberate stream used in the test.",
+      "text": "Zhong Rui set the grounded reference wick beside the safe scale. Lin Yue checked its blank, delivered one quarter-unit through her first arm pair and closed admission. The light lasted only the scheduled reading. Her hand and the wick stayed inside the covered line, clear of the water. Zhong confirmed the level before she discharged. Luo recorded the dose, present interval and earlier controlled pour separately. Local rain had filled the gauge; a visitor's light had only made its divisions readable.",
       "background": "rain_court_terrace",
       "effect": "rain",
       "next": "court_rain_forecast_rejoin",
@@ -5720,19 +5690,14 @@
           "text": "Read the authorized notice with willing local posting keepers.",
           "next": "court_rain_notice_readers",
           "effects": {
-            "trust": 1,
-            "insight": 1
-          },
-          "requires": {
-            "trust": 4
+            "insight": 2
           }
         },
         {
           "text": "Send the complete notice through its ordinary route.",
           "next": "court_rain_notice_ordinary",
           "effects": {
-            "resolve": 1,
-            "insight": 1
+            "insight": 2
           }
         }
       ],
@@ -5932,19 +5897,14 @@
           "text": "Read back the findings with willing source keepers.",
           "next": "court_rain_source_readback",
           "effects": {
-            "trust": 1,
-            "insight": 1
-          },
-          "requires": {
-            "trust": 4
+            "insight": 2
           }
         },
         {
           "text": "Check receipts, source labels, and copy permissions in order.",
           "next": "court_rain_receipt_check",
           "effects": {
-            "resolve": 1,
-            "insight": 1
+            "insight": 2
           }
         }
       ],
@@ -6414,14 +6374,14 @@
           "text": "Compare the copying notices.",
           "next": "court_cost_begin_notices",
           "effects": {
-            "trust": 1
+            "insight": 1
           }
         },
         {
           "text": "Check authority over the reserve.",
           "next": "court_cost_begin_authority",
           "effects": {
-            "resolve": 1
+            "insight": 1
           }
         }
       ],
@@ -6525,7 +6485,7 @@
       "chapter": "book_vi",
       "speaker": "narrator",
       "actor": "lin_yue",
-      "text": "Bai's reservation could begin after the stone yard's morning count. The chair supervisor proposed a later ascent than the court's first invitation had named, leaving room for Bai to reach the lower landing without running. Her statement appointment would move with it. Lin Yue expected the clerk to complain about changing the court's hour. Instead, Dai found a blank afternoon space and wrote carefully between two existing appointments. The court had wanted Bai's account of an inspection. Making her miss another working obligation without asking would have been a poor way to obtain it.",
+      "text": "Bai's reservation could begin after the stone yard's morning count. The chair supervisor proposed a later ascent than the court's first invitation had named, leaving room for Bai to reach the lower landing without running. Her statement appointment would move with it. Lin Yue expected the clerk to complain about changing the court's hour. Instead, Dai found a later morning space and wrote carefully between two existing appointments. The court had wanted Bai's account of an inspection. Making her miss another working obligation without asking would have been a poor way to obtain it.",
       "background": "rain_court_terrace",
       "effect": "rain",
       "next": "court_cost_du_date",
@@ -6618,14 +6578,14 @@
           "text": "Observe the empty-chair transfer.",
           "next": "court_cost_cradle_check",
           "effects": {
-            "trust": 1
+            "insight": 1
           }
         },
         {
           "text": "Revise the appointment timetable.",
           "next": "court_cost_time_check",
           "effects": {
-            "resolve": 1
+            "insight": 1
           }
         }
       ],
@@ -6900,14 +6860,14 @@
           "text": "Check the annex correction history.",
           "next": "court_cost_copy_annex",
           "effects": {
-            "trust": 1
+            "insight": 1
           }
         },
         {
           "text": "Review the outgoing notices.",
           "next": "court_cost_copy_notices",
           "effects": {
-            "resolve": 1
+            "insight": 1
           }
         }
       ],
@@ -7182,14 +7142,14 @@
           "text": "Check the shelf and return calendar.",
           "next": "court_cost_shelf_check",
           "effects": {
-            "trust": 1
+            "insight": 1
           }
         },
         {
           "text": "Review completed key entries.",
           "next": "court_cost_key_check",
           "effects": {
-            "resolve": 1
+            "insight": 1
           }
         }
       ],
@@ -7280,7 +7240,7 @@
       "chapter": "book_vi",
       "speaker": "narrator",
       "actor": "lin_yue",
-      "text": "The custodian's assistant returned with an answer about the extra bay. It could be reserved conditionally for a few nights because another case's objects were scheduled for collection on Day5. If that collection changed, the assistant would notify the court before the common hearing authorized spending. The available space would not enlarge the scope of any offered inspection. Dai added both conditions to the reserve page. An apparently simple extension depended on other people finishing their own tasks. Lin Yue could see why immortal patience was not the same thing as a dependable schedule.",
+      "text": "The custodian's assistant answered about the extra bay. It could be reserved conditionally because another case's objects were scheduled for collection on Day5. Known changes would be reported before the Day3 hearing; later changes would be reported immediately. No objects would move into that bay before its vacancy was confirmed. Unavailable space would trigger the accepted fallback and release unused charges. An offered inspection's scope remained unchanged. Dai added those conditions to the reserve page. An apparently simple extension depended on other people finishing their own tasks.",
       "background": "rain_court_witness_room",
       "effect": "rain",
       "next": "court_cost_night_staff",
@@ -7490,14 +7450,14 @@
           "text": "Review bounded invitation terms.",
           "next": "court_cost_time_form",
           "effects": {
-            "trust": 1
+            "insight": 1
           }
         },
         {
           "text": "Ask about an interrupted appointment.",
           "next": "court_cost_time_interruption",
           "effects": {
-            "resolve": 1
+            "insight": 1
           }
         }
       ],
@@ -7707,14 +7667,14 @@
           "text": "Review the access-only clinician note.",
           "next": "court_cost_private_clinician",
           "effects": {
-            "trust": 1
+            "insight": 1
           }
         },
         {
           "text": "Distinguish yard work from court attendance.",
           "next": "court_cost_private_yard",
           "effects": {
-            "resolve": 1
+            "insight": 1
           }
         }
       ],
@@ -8041,14 +8001,14 @@
           "text": "Review correction and stopping terms.",
           "next": "court_cost_local_readback",
           "effects": {
-            "trust": 1
+            "insight": 1
           }
         },
         {
           "text": "Check the messenger's limited task.",
           "next": "court_cost_local_messenger",
           "effects": {
-            "resolve": 1
+            "insight": 1
           }
         }
       ],
@@ -8284,14 +8244,14 @@
           "text": "Explain optional local sessions first.",
           "next": "court_cost_emphasize_local",
           "effects": {
-            "trust": 1
+            "insight": 1
           }
         },
         {
           "text": "Explain staged source checking first.",
           "next": "court_cost_emphasize_docket",
           "effects": {
-            "resolve": 1
+            "insight": 1
           }
         }
       ],
@@ -8553,7 +8513,7 @@
           "text": "Open with the storage calendar gap.",
           "next": "court_cost_report_gap",
           "effects": {
-            "trust": 1
+            "insight": 1
           }
         }
       ],
@@ -8618,7 +8578,7 @@
       "chapter": "book_vi",
       "speaker": "narrator",
       "actor": "lin_yue",
-      "text": "The docket room occupied the court's oldest wing, where a brass gutter crossed the ceiling before descending through the clerk's desk. Water marked the arrival of each petition by tipping a balanced spoon. Luo Shan put the city packet on the dry side and asked Lin Yue to watch the spoon without assuming what its movement proved. A folded paper might arrive here long after somebody first sought help below. On the opposite wall, forty drawers bore the same inscription: awaiting a complete appearance. Several handles had acquired the pale shine of frequent touching.",
+      "text": "The docket room occupied the oldest wing. A brass gutter crossed its ceiling and descended beside the clerk's desk. For each accepted packet, the clerk opened a small tap; one measured trickle tipped a balanced spoon into a basin. The clerk paired that tip with the written intake entry. Luo Shan put the city packet on the dry side and asked Lin Yue to watch. This signal marked desk acceptance, not the earlier request below. Across the wall, forty drawers read awaiting a complete appearance, their handles polished by frequent touching.",
       "background": "rain_court_hearing_hall",
       "effect": "none",
       "next": "court_docket_threshold",
@@ -8776,10 +8736,7 @@
           "text": "Ask Cai about the visits",
           "next": "court_docket_assistant_path",
           "effects": {
-            "trust": 1
-          },
-          "requires": {
-            "trust": 2
+            "insight": 1
           }
         },
         {
@@ -9064,20 +9021,17 @@
           "text": "Ask the annex writer",
           "next": "court_docket_writer_path",
           "effects": {
-            "trust": 1
-          },
-          "requires": {
-            "trust": 2
+            "insight": 1
           }
         },
         {
           "text": "Trace the index stamp",
           "next": "court_docket_index_path",
           "effects": {
-            "resolve": 1
+            "insight": 1
           },
           "requires": {
-            "resolve": 3
+            "insight": 3
           }
         }
       ],
@@ -9365,20 +9319,17 @@
           "text": "Check the completeness requirement",
           "next": "court_docket_complete_path",
           "effects": {
-            "trust": 1
-          },
-          "requires": {
-            "trust": 2
+            "insight": 1
           }
         },
         {
           "text": "Test an invitation against a shift",
           "next": "court_docket_invitation_path",
           "effects": {
-            "resolve": 1
+            "insight": 1
           },
           "requires": {
-            "resolve": 3
+            "insight": 3
           }
         }
       ],
@@ -9638,7 +9589,7 @@
       "chapter": "book_vi",
       "speaker": "narrator",
       "actor": "lin_yue",
-      "text": "From the terrace, Lin Yue could see the goods lift's upper wheel but not the lower guide joint. The distance tempted a quick diagram with invented detail. Instead, she drew only what the terrace showed and marked the unseen area with a shaded rectangle. The equipment team would supply its permitted inspection notes. A separate rope closed the approach to the lift; the covered footpath remained available under staff checks. The two routes shared part of the cliff but served different purposes. Showing them separately prevented an argument about hearing access from becoming an argument for reopening unsafe goods equipment.",
+      "text": "From the terrace, Lin Yue could see the goods lift's upper wheel but not the lower guide joint. The distance tempted a quick diagram with invented detail. Instead, she drew only what the terrace showed and marked the unseen area with a shaded rectangle. The weather packet carries inspection staff's permitted notes. A separate rope closed the approach to the lift; the covered footpath remained available under staff checks. The two routes shared part of the cliff but served different purposes. Showing them separately prevented an argument about hearing access from becoming an argument for reopening unsafe goods equipment.",
       "background": "rain_court_terrace",
       "effect": "none",
       "next": "court_docket_duty_choice",
@@ -9666,20 +9617,17 @@
           "text": "Trace the maintenance signature",
           "next": "court_docket_signer_path",
           "effects": {
-            "trust": 1
-          },
-          "requires": {
-            "trust": 2
+            "insight": 1
           }
         },
         {
           "text": "Map the ordinary inspection view",
           "next": "court_docket_view_path",
           "effects": {
-            "resolve": 1
+            "insight": 1
           },
           "requires": {
-            "resolve": 3
+            "insight": 3
           }
         }
       ],
@@ -9692,7 +9640,7 @@
       "chapter": "book_vi",
       "speaker": "narrator",
       "actor": "lin_yue",
-      "text": "Bai read the offered contract passages and pointed to the reporting amendment. She said she accepted responsibility for noting visible guide obstructions and for her ordinary landing walk. She did not claim the contract exempted her from every possible contribution to an accident. She wanted the assessing office to identify the specific neglected act it alleged. Luo Shan wrote that request in her own terms and read it back. The original stayed with its keeper. Bai's clarification narrowed her objection without becoming an admission that she had seen an obstruction or failed to report one.",
+      "text": "After descending, Bai read the offered contract passages with the lower contact and indicated the reporting amendment. Her approved reply accepted responsibility for visible guide obstructions and the ordinary landing walk. It did not claim exemption from every possible contribution to an accident. She asked the assessing office to identify the neglected act it alleged. Luo Shan received the checked reply, preserving its contact route and readback. The original stayed with its keeper. Her clarification supplied no admission that she had seen an obstruction or failed to report one, and required no second ascent.",
       "background": "rain_court_witness_room",
       "effect": "none",
       "next": "court_docket_duty_rejoin",
@@ -9967,20 +9915,17 @@
           "text": "Check the offered source limits",
           "next": "court_docket_keepers_path",
           "effects": {
-            "trust": 1
-          },
-          "requires": {
-            "trust": 2
+            "insight": 1
           }
         },
         {
           "text": "Test record and witness counts",
           "next": "court_docket_reader_path",
           "effects": {
-            "resolve": 1
+            "insight": 1
           },
           "requires": {
-            "resolve": 3
+            "insight": 3
           }
         }
       ],
@@ -10123,7 +10068,7 @@
       "chapter": "book_vi",
       "speaker": "narrator",
       "actor": "lin_yue",
-      "text": "The packet now had source routes, dated corrections, and separate permissions instead of a single seal claiming completeness. Du's return cradle left by the covered path, and the keeper checked the storage list against the funded term. Lin Yue watched the brass gutter tip its spoon into the basin. It marked receipt faithfully, without knowing why a paper had arrived. The next inquiry would turn from custody to approval: who had shortened the authority annex, who had let the proposed checklist become a condition, and which responsibilities the court could acknowledge before it knew the accident's cause.",
+      "text": "The packet now had source routes, dated corrections, and separate permissions instead of a single seal claiming completeness. Du's return cradle left by the covered path, and the keeper checked the storage list against the funded term. Lin Yue watched the clerk release the intake trickle and enter its paired receipt. That desk signal explained nothing about the paper's earlier journey. The next inquiry would turn from custody to approval: who had shortened the authority annex, who had let the proposed checklist become a condition, and which responsibilities the court could acknowledge before it knew the accident's cause.",
       "background": "rain_court_witness_room",
       "effect": "none",
       "next": "court_docket_approval_desk",
@@ -10268,20 +10213,17 @@
           "text": "Examine the judge's recorded check",
           "next": "court_docket_judge_path",
           "effects": {
-            "trust": 1
-          },
-          "requires": {
-            "trust": 2
+            "insight": 1
           }
         },
         {
           "text": "Test the review handoff",
           "next": "court_docket_handoff_path",
           "effects": {
-            "resolve": 1
+            "insight": 1
           },
           "requires": {
-            "resolve": 3
+            "insight": 3
           }
         }
       ],
@@ -10569,20 +10511,17 @@
           "text": "Test the applicant's reply route",
           "next": "court_docket_applicant_rehearsal",
           "effects": {
-            "trust": 1
-          },
-          "requires": {
-            "trust": 2
+            "insight": 1
           }
         },
         {
           "text": "Read the proposed remand questions",
           "next": "court_docket_remand_rehearsal",
           "effects": {
-            "resolve": 1
+            "insight": 1
           },
           "requires": {
-            "resolve": 3
+            "insight": 3
           }
         }
       ],
@@ -10870,20 +10809,17 @@
           "text": "Check permission and storage routes",
           "next": "court_docket_permission_final",
           "effects": {
-            "trust": 1
-          },
-          "requires": {
-            "trust": 2
+            "insight": 1
           }
         },
         {
           "text": "Read the plain page for promises",
           "next": "court_docket_language_final",
           "effects": {
-            "resolve": 1
+            "insight": 1
           },
           "requires": {
-            "resolve": 3
+            "insight": 3
           }
         }
       ],

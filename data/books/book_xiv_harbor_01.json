@@ -1,0 +1,1064 @@
+{
+  "chapters": {
+    "book_xiv_harbor": {
+      "label": "BOOK XIV",
+      "title": "The Harbor of Unclaimed Names"
+    }
+  },
+  "characters": {},
+  "nodes": {
+    "harbor_start": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The ferry reached the harbor while ice still rested in the shaded mouths of the drains. Yue could see open water beyond it, moving with an assurance the shore had not yet acquired. She paid the ordinary fare from her remaining forest wages and waited for the rope barrier to open. Her bedding, cup, notes, wrapped pendant, and blade fitted the same habitual pack. Nobody from the forest accompanied her. The people crowding the quay had journeys of their own to finish.",
+      "background": "harbor_quarantine_quay",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_002"
+    },
+    "harbor_p01_002": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "A girl stood beside the landing scale with an empty basket balanced on her head. When the arriving passengers passed, she called six household names, then started again. Yue thought she was selling lodging until the girl asked a sailor whether his boat had carried anyone from Willow Reach. He answered that he carried sacks, not people. The girl did not argue. She lowered her basket and wrote a mark against his vessel on a strip of wood already crowded with marks.",
+      "background": "harbor_quarantine_quay",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_003"
+    },
+    "harbor_p01_003": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The tide left a narrow sound beneath the planking, as though someone were dragging a sleeve across a rough table. Yue moved away from the unloading lane before looking for a notice board. One board listed berths. Another advertised rooms. The third was covered by a quarantine order bearing the captain's seal and a date from the previous week. Beneath it, someone had pinned a wage notice so badly that its lower half folded behind the frame. She lifted the corner without removing the nail.",
+      "background": "harbor_quarantine_quay",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_004"
+    },
+    "harbor_p01_004": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The visible heading said UNCLAIMED HOUSEHOLDS. Below it, thirteen numbered entries had been entered in the same careful hand. Several lacked family names. An address column repeated Old Salt Yard, though the ferry road map showed that yard outside the present passenger district. At the bottom, a clerk had written that unresolved entries would be reviewed before any bond release. Yue let the paper fall back. The word unclaimed described the office's position. She did not yet know whether it described anyone standing nearby.",
+      "background": "harbor_quarantine_quay",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_005"
+    },
+    "harbor_p01_005": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "harbor_he_ming",
+      "actor": "harbor_he_ming",
+      "text": "If you are looking for work, ask at the north office after their meal bell. If you are looking for a missing person, keep the slip you receive. They lose people less easily when another person can show what was asked. I am not telling you they will find the answer today. Last month I believed a desk could know a thing simply because a boat had arrived. Now I ask which desk, and who carried the paper between them.",
+      "background": "harbor_quarantine_quay",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_006"
+    },
+    "harbor_p01_006": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The woman had salt whitening the seams of her coat and a saffron scarf tucked out of the wind. She introduced herself as He Ming, a packer awaiting wages from the Salt Lantern voyage. The vessel was in quarantine. Her household was one of the thirteen on the notice. She had collected three slips in six days, each accurate about a different question and none answering where her younger brother had disembarked. She unfolded them without offering Yue custody. Their corners had been repaired with thread.",
+      "background": "harbor_quarantine_quay",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_007"
+    },
+    "harbor_p01_007": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "text": "I have just arrived. I can read a notice with you, but I cannot promise access to another person's records or a place inside a quarantine fence. I have worked with wages and public replies elsewhere. That does not give me authority here. Show me which question each slip answered, if you wish. We can at least avoid asking the fourth clerk to solve something the first three were never asked. Your brother's name need not go on a public board for that.",
+      "background": "harbor_quarantine_quay",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_008"
+    },
+    "harbor_p01_008": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "He Ming studied Yue's hands before agreeing. Yue spread her own dry scarf across an overturned basket, and the woman laid the slips on it. One confirmed that wages remained under review. Another recorded a household's former address. The third said passenger inquiries belonged at the landing office. None named a vessel carrying He Ming's brother. Yue copied only the desk names into her practice book, asking first. He Ming kept the originals. At the unloading lane, a porter shouted, and their improvised table had to move.",
+      "background": "harbor_quarantine_quay",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_009"
+    },
+    "harbor_p01_009": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "They found shelter beside a shuttered tea stall. He Ming said her brother, He Jun, had worked the voyage's final packing shift and intended to bring their mother from Willow Reach when the thaw opened the creek. He had not been expected to live at Old Salt Yard. That address belonged to a hiring register. Yue marked the distinction in her own words and read it back. A work address could help locate a contract. It could also misdirect anyone looking for a household that had never slept there.",
+      "background": "harbor_quarantine_quay",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_010"
+    },
+    "harbor_p01_010": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The girl with the basket returned to the scale and called another six names. He Ming watched her but did not join the calling. The girl was asking about her father, whose surname differed from the shortened name used on his loading ticket. Her mother had died the previous summer. He Ming had given her meals but had no legal right to sign for her wages or search her father's packet. Sympathy had made them neighbors for a week. It had not made either woman the other's representative.",
+      "background": "harbor_quarantine_quay",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_011"
+    },
+    "harbor_p01_011": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Yue needed a bed before she could follow anybody's questions. The lodging notice offered a place above a repair shed, rented by the night without a work pledge. She inspected the stairs, asked to see the door latch, and paid for two nights from her own money. The keeper wrote the payment on a scrap with the room number. She tucked it beside her travel fare receipt. The harbor had not hired her. The smallest expense was still hers to accept or refuse.",
+      "background": "city_safe_house",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_012"
+    },
+    "harbor_p01_012": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "From the room, she could see a row of roof tiles held down by stones. Beyond them stood the quarantine fence, its red cloth tags hanging almost motionless. Nothing about it resembled the court above the rain. There was no promise that a patient inquiry would gather everybody in one room. Boats left. Salt spoiled. People took the first work they could find. Yue laid out her bedding and noticed that she was already arranging the harbor as a problem she might solve. She closed the notebook.",
+      "background": "city_safe_house",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_013"
+    },
+    "harbor_p01_013": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "At supper, the keeper's son asked whether her extra arms could carry four bowls at once. Yue said that her cultivation was not a kitchen appointment, then accepted the ordinary task of clearing two. He laughed at her solemn answer. His mother charged her for the meal and thanked her for the help without subtracting imaginary wages. That exchange steadied her. She had reached a town where she knew no one well enough to distinguish a friendly offer from a bargain she had accidentally begun.",
+      "background": "city_safe_house",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_014"
+    },
+    "harbor_p01_014": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The next morning brought sleet and a queue at the north office. Yue stood behind He Ming rather than moving to the front as a cultivator. A clerk came down the line to separate berth questions from wage claims and passenger searches. When he reached them, He Ming said she had all three. He handed her three colored strips. She asked which one preserved the first date she had applied. He stopped dividing the questions long enough to look at her earlier slips.",
+      "background": "harbor_quarantine_quay",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_015"
+    },
+    "harbor_p01_015": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Inside, Han Pei worked at a table scarred by the repeated lifting of a ledger chain. Her ink bottle rested in a wooden socket so an elbow could not knock it over. She listened to He Ming's question, inspected the three strips, and returned two unused ones. The wages ledger could receive the household inquiry as a linked question, she said, though it could not answer it alone. She wrote the earlier application date on the new receipt and signed beside the correction herself.",
+      "background": "city_registry_office",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_016"
+    },
+    "harbor_p01_016": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "harbor_han_pei",
+      "actor": "harbor_han_pei",
+      "text": "I can acknowledge the date without pretending this desk received the passenger question then. Your wage claim came here six days ago. The landing question went elsewhere. I will link those references so you need not tell the beginning again. If your brother receives wages under his own contract, I cannot give you his private account merely because you share a name. I can tell the landing clerk you have asked for a safe contact. That is something I can do today.",
+      "background": "city_registry_office",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_017"
+    },
+    "harbor_p01_017": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "He Ming's face tightened at the word private. She had imagined privacy as something enjoyed by people whose doors could be found. Han Pei waited while she looked through her slips, then added that a missing adult could have reasons not to reveal a lodging address. A request for contact need not force disclosure. He Ming finally asked the clerk to send her name and the quay collection point. Yue watched the two women negotiate that smaller request. Neither was pleased with how much uncertainty remained.",
+      "background": "city_registry_office",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_018"
+    },
+    "harbor_p01_018": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Han Pei asked Yue whether she was a relative, a hired advocate, or simply standing beside the claimant. Yue chose the last description. The clerk wrote no representative appointment. He Ming could later authorize a bounded task, but the wage clerk would not manufacture consent from their arrival together. Yue found the question more useful than a welcome. It prevented a friendly morning from giving her rights over a family's papers. Her notes remained observations shared with He Ming, not an official copy of the wage file.",
+      "background": "city_registry_office",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_019"
+    },
+    "harbor_p01_019": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "When the queue thinned, Yue asked what the public notice meant by unclaimed. Han Pei pointed to a rule requiring a recipient, address, and basis for each payment. Some missing items were clerical. Others concerned separate workers sharing a household number. She had refused to treat the list as abandoned wages. A bond custodian was due to review the unresolved entries in three days. Until then, the money remained held. The notice's awkward fold had hidden that last sentence from people reading in the rain.",
+      "background": "city_registry_office",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_020"
+    },
+    "harbor_p01_020": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "They went outside with permission to refasten the public notice. Han Pei supplied a second nail from the office's maintenance drawer and watched Yue move the corner onto the board's face. The list became readable without changing a word. A man waiting for a berth said the office had finally canceled the wages. He Ming pointed to the sentence about review. He shrugged and went back to the ship queue. Rumor could move faster than a correction, especially when the rumor sounded like something its listeners expected.",
+      "background": "harbor_quarantine_quay",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_021"
+    },
+    "harbor_p01_021": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "At noon, He Ming took Yue to the packing lane where she had worked before the ship sailed. The foreman would show the hiring board but would not open individual packets to an unknown visitor. Yue did not invoke her earlier commissions. He Ming identified her own entry and asked for its contract reference. The foreman copied the reference onto her receipt, adding his name and the date. He declined to certify what the shipping company owed across the whole voyage. His board recorded shifts at this yard.",
+      "background": "harbor_quarantine_quay",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_022"
+    },
+    "harbor_p01_022": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The girl's basket lay under a bench at the lane's end. Her name was Luo Fen, and she was seventeen. She had permission to wait outside the hiring office but kept leaving to question arriving sailors. He Ming introduced Yue without calling her an investigator. Fen asked whether cultivation could follow a father's breath across water. Yue said no. The answer made the girl turn away. A moment later, she asked whether Yue could read the smaller print on a loading ticket. That was a request Yue could accept.",
+      "background": "harbor_quarantine_quay",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_023"
+    },
+    "harbor_p01_023": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The ticket named Luo Jian as a shore loader, though Fen's father sometimes used Jian Luo when merchants copied his name into foreign order. A narrow line beneath the amount said wages payable on verified return or to a named recipient. The recipient space was blank. Yue read the line twice, then asked Fen who had retained the voyage contract. Fen said her father had carried his copy. The ticket could support a search for that contract. It could not make Fen the recipient by itself.",
+      "background": "harbor_quarantine_quay",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_024"
+    },
+    "harbor_p01_024": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Fen pressed her thumbnail into the edge of the ticket until it bent. She said she did not care about receiving anything if her father would return. He Ming did not tell her that money was unimportant. Rent had become part of their search. Every morning spent at the landing cost a morning she could have packed salt. Yue asked whether Fen wanted the office to record the spelling discrepancy. The girl said yes and took back the ticket. It was the only paper her father had left with her.",
+      "background": "harbor_quarantine_quay",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_025"
+    },
+    "harbor_p01_025": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "That afternoon, the quarantine captain met the harbor's ordinary ward keeper beside a locked store. Sui Yan wore no sword. Her coat's cuffs shone where oilcloth had been repaired repeatedly. Yue waited until their inspection ended before asking about the Salt Lantern. The captain said the cargo hold contained wet sacks, leaking brine tubs, and an unidentified residue found after arrival. Nobody had established an infectious illness. The quarantine restricted handling and transfer while the sampled material was tested. Fear had supplied more dramatic explanations than the order contained.",
+      "background": "harbor_quarantine_quay",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_026"
+    },
+    "harbor_p01_026": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "harbor_sui_yan",
+      "actor": "harbor_sui_yan",
+      "text": "People on the ship are not sealed cargo. The crew was examined at the landing and given separate shore instructions. We recorded who left the inspection lane. That record is held by the landing office, with private contact details protected. The fence you see keeps workers out of an unsafe hold and prevents the contents being sold before tests. It cannot answer who owns each tub. If I start deciding wages from the smell of brine, I will stop doing the work my license permits.",
+      "background": "harbor_quarantine_quay",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_027"
+    },
+    "harbor_p01_027": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "He Ming asked whether He Jun had passed the inspection lane. Sui Yan would not answer from memory. She offered to identify the proper keeper of the record and note that He Ming sought contact, subject to the same privacy limit Han Pei had explained. He Ming said she had already been told to ask there. The captain looked at the three receipts before replying. She wrote a referral naming the current keeper and her own office's relevant register. A specific route was better than another wave toward a building.",
+      "background": "harbor_quarantine_quay",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_028"
+    },
+    "harbor_p01_028": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Yue noticed a sealed sample tray behind the captain. Each jar carried a number, a collection place, and two initials. Sui Yan allowed her to read the blank public form, not the protected sample contents. A ward could help contain spray during a planned handling task, she explained. It could not tell clean water from harmful residue or supply a medical conclusion. Ordinary tests and trained hands remained necessary. Yue thought of the girl's question about breath across the sea and kept her own curiosity within the offered boundary.",
+      "background": "harbor_quarantine_quay",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_029"
+    },
+    "harbor_p01_029": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Near dusk, the rigger Yan Su walked the fence with a coil of approved work rope. He stopped two boys from stepping across a puddle onto the quarantine planks. One insisted he only meant to retrieve a dropped cap. Yan Su used a boat hook from the dry side, checked that the cap had not touched the marked residue, and returned it. He added the retrieval to the captain's work note. The boys left laughing at his caution. He waited until they were gone before allowing himself a smile.",
+      "background": "harbor_quarantine_quay",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_030"
+    },
+    "harbor_p01_030": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Yue asked whether he was the person responsible for the unsafe goods sling mentioned by a dock porter. Yan Su said this quay used a different arrangement. He would show a public repair notice, but she should not import another harbor's accident into his rigging. She accepted the correction. It was easy to recognize a familiar shape and assume a familiar cause. The crane here had a fixed boom, rated tackle, and a stopped hauling schedule. Its present fault was a cracked timber socket, not an invisible rope from an earlier story.",
+      "background": "harbor_quarantine_quay",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_031"
+    },
+    "harbor_p01_031": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "harbor_yan_su",
+      "actor": "harbor_yan_su",
+      "text": "The boom stays stopped until the carpenter and keeper approve it. Nobody gets to make the schedule whole by calling a cultivator stronger than timber. I have seen that bargain made. The person holding the load is praised until the thing falls, and afterward everybody discovers that praise was not a safety plan. If you join work here, tell me what you can do before I assign it. A useful pair of ordinary hands is easier to place than a reputation.",
+      "background": "harbor_quarantine_quay",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_032"
+    },
+    "harbor_p01_032": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "His plainness pleased Yue, then irritated her when she realized he expected an answer. She described her two earned pairs of qi arms and the limits of her current reserve. They could guide light objects within an agreed task. She would not hold a crane load or a person's weight. Yan Su asked about practice tests, rest, and warning signs, writing none of it as a harbor qualification yet. The conversation ended with an invitation to watch a dry rigging check from outside the work line.",
+      "background": "harbor_quarantine_quay",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_033"
+    },
+    "harbor_p01_033": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The dry check used a marked sack filled with sand and a wooden frame set well away from the sea edge. Ordinary riggers carried out the pulls. Yue watched their foreman stop a worker whose cuff had caught near a moving loop. Nobody called the interruption a failure of courage. Yan Su returned to the previous step after the cuff was secured. The sequence was slower than the harbor's impatience wanted. Its repetitions had a purpose she could see: each changed condition received a fresh check.",
+      "background": "harbor_quarantine_quay",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_034"
+    },
+    "harbor_p01_034": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "When Yue returned to the lodging shed, the keeper had heard that a visiting cultivator was investigating the missing households. Yue corrected the rumor and paid for a third night. The woman nodded, then asked whether the north office might hire her. Yue said it might not. She had enough for a modest room while deciding her route, but not enough to promise weeks of free work. That admission felt less impressive than the rumor. It also left her free to take another ordinary job if this one never existed.",
+      "background": "city_safe_house",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_035"
+    },
+    "harbor_p01_035": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "In her room, she reviewed only the notes she had permission to make. The harbor questions fell into three rough groups: wages, human contact, and restricted cargo. Their records overlapped without answering one another. She drew three circles, then crossed them out. Circles made overlap look tidier than it was. A family could need a wage before a passenger search succeeded. A tub could remain sealed after its owner's name was known. She replaced the drawing with a list of questions and people who could lawfully answer them.",
+      "background": "city_safe_house",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_036"
+    },
+    "harbor_p01_036": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The pendant remained wrapped beneath her spare shirt. Its presence had acquired stories in other places, and she did not need those stories here. She practiced two brief extensions of her qi arms without lifting anything, recorded the steady interval, and ended before the tremor that marked fatigue. Rest did not prove a larger reserve the following morning. It restored the same stage-four ability she had earned. Outside, somebody dropped a metal pan, and the sound brought every sleeper on the landing side awake.",
+      "background": "city_safe_house",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_037"
+    },
+    "harbor_p01_037": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The third morning began with a lost boat hook and an argument about who should pay for it. Yue stayed out of that argument. At the north office, Han Pei had received a short reply from the landing keeper: He Jun's name was not found under that spelling in the public departure index. The protected arrival register had not yet been searched. The difference mattered, but it did not soften He Ming's disappointment. She asked whether the clerk could search a hiring name used on his wage line.",
+      "background": "city_registry_office",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_038"
+    },
+    "harbor_p01_038": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Han Pei could link the alternative spelling as a supplied claim, not certify it as the same person. He Ming produced an old household letter in which her brother used both forms. She allowed the clerk to record the relevant names and date while keeping the private sentences covered. Han Pei made a witnessed note and returned the letter. Yue saw how much work sat between refusing a request and granting everything it implied. The narrow permission was laborious. It also belonged to the person whose family was being discussed.",
+      "background": "city_registry_office",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_039"
+    },
+    "harbor_p01_039": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Qin Shuo arrived after the meal bell with a ledger wrapped against the sleet. He had maintained the Salt Lantern wage bond through three voyages. The current deposit was seven hundred sixty copper, held separately from cargo accounts. The merchant wanted any unneeded remainder released after the wage review. Qin had not promised that release would occur on the proposed date. He asked Han Pei to show the unsettled claims list. She laid out thirteen household references alongside nineteen already verified claims, keeping their meanings separate.",
+      "background": "city_registry_office",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_040"
+    },
+    "harbor_p01_040": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "harbor_qin_shuo",
+      "actor": "harbor_qin_shuo",
+      "text": "The nineteen are not money available to the thirteen. They are completed wage entries under the same voyage record, with their own paid receipts. The unresolved list does not prove thirteen people, thirteen contracts, or thirteen equal shares. It records households through which individual claims came to us. I need the contracts and actual earlier payments before I can say what remains due. Seven hundred sixty is a guarantee deposit, not a prize for whoever speaks most convincingly at my table.",
+      "background": "city_registry_office",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_041"
+    },
+    "harbor_p01_041": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "He Ming asked whether the merchant could take the deposit while her brother remained missing. Qin said a missing person did not automatically freeze every unrelated account. Her own proven wage could be paid through the prescribed process. Her brother's entitlement required its own basis and recipient. Unresolved bond claims would be held for review, with notice and a route to challenge release. Yue watched He Ming listen without finding the reassurance she wanted. A precise answer could still leave somebody facing another night of rent.",
+      "background": "city_registry_office",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_042"
+    },
+    "harbor_p01_042": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The custodian's hands trembled slightly when he untied the ledger string. Han Pei moved the ink bottle closer and said nothing about age. Qin checked the seal, recorded the opening, and invited the wage clerk to compare the deposit entry with the keeper's receipt. Both showed seven hundred sixty. The number did not become wages merely because it was large enough to cover several claims. Its permitted use came from the harbor's wage guarantee rule, which Qin placed on the table for them to read.",
+      "background": "city_registry_office",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_043"
+    },
+    "harbor_p01_043": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The rule protected earned wages when a covered employer failed to pay. Claimants still needed notice, verification, and a chance for the employer to answer specific figures. It did not require them to prove cargo ownership or a ship captain's intent. Yue copied the public rule's reference, not Qin's ledger. The distinction made a task possible: someone could help assemble wage questions while the quarantine inquiry continued elsewhere. Han Pei said the clerk time required would exceed what her ordinary desk could presently provide.",
+      "background": "city_registry_office",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_044"
+    },
+    "harbor_p01_044": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "For the first time, an actual job entered the conversation. The north office had a small approved inquiry allowance for the voyage, originally intended for copying and household outreach. A visitor with experience might take bounded shifts under its written terms. Han Pei would not hire Yue alone. The harbor administrator needed to approve duties, and Qin needed to confirm that the allowance came from operations rather than the wage bond. The custodian inspected the appropriation reference before agreeing that the two accounts were separate.",
+      "background": "city_registry_office",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_045"
+    },
+    "harbor_p01_045": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Yue asked for the proposed terms before offering an answer. She had learned that a noble task could become an indefinite unpaid appointment if nobody wrote its end. Han Pei smiled for the first time that morning, briefly and without warmth. She had spent months refusing additions to her own desk that arrived as compliments. The administrator's clerk brought a form showing twelve weeks, twenty-four half-day inquiry shifts, and a total allowance of one hundred ninety-two copper. Not all of that allowance was Yue's pay.",
+      "background": "city_registry_office",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_046"
+    },
+    "harbor_p01_046": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "harbor_han_pei",
+      "actor": "harbor_han_pei",
+      "text": "Forty-eight copper pays the twenty-four half-day shifts at two each. Seventy-two covers the agreed bed and meals during the inquiry term. Twenty-four is the ferry ceiling, twenty-four the copying ceiling, and twenty-four the interpreter ceiling. Those are reimbursements or direct purchases, not a purse you may spend freely. Ordinary harbor staff keep their ordinary pay elsewhere. If a task needs more hours or an expense beyond these lines, we ask before doing it. We cannot quietly subtract it from somebody's wage claim.",
+      "background": "city_registry_office",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_047"
+    },
+    "harbor_p01_047": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Yue read the numbers with her own pencil: forty-eight plus seventy-two plus three twenty-four allowances made one hundred ninety-two. The lodging arrangement would use the repair shed at its negotiated term rate, paid directly by the office after her appointment began. Her first three private nights remained her own expense. The job did not authorize entry into the cargo fence, release of private passenger addresses, or decisions on wages. It authorized assembling questions, obtaining permitted copies, and reporting discrepancies to the named clerks who held those powers.",
+      "background": "city_registry_office",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_048"
+    },
+    "harbor_p01_048": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "She asked to add two conditions. Any use of her qi would need a separate safe task agreed with the responsible foreman; the office job bought inquiry time, not unlimited cultivation. Claimants could refuse her help without losing their place in the wage process. The administrator initialed both conditions after checking that they changed no official power. Yue signed. Han Pei entered the appointment's start after the meal bell and its end twelve weeks later. A job now existed where a rumor had existed yesterday.",
+      "background": "city_registry_office",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_049"
+    },
+    "harbor_p01_049": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "He Ming asked whether she should be grateful. Yue said she should decide whether the offered work helped. The woman looked offended until Han Pei added that gratitude was not on the contract. He Ming laughed once, sharply, and put away her slips. She would allow Yue to help compare her own wage documents and to carry a contact request for He Jun. She would not authorize access to every household paper. They wrote those limits on a simple appointment note and made a copy for each.",
+      "background": "city_registry_office",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_050"
+    },
+    "harbor_p01_050": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The first paid half-day began with a room that smelled of damp coats and glue. Han Pei showed Yue the public claim index and a separate restricted cabinet. Keys remained with the clerk. Yue received a loaned writing board, numbered pencils, and blank forms, all entered for return. Her own notebook remained personal. Official inquiry pages stayed in the office, where applicants could request their relevant copies. The arrangement was less convenient than carrying the whole problem upstairs. It made the problem less dependent on her being trustworthy in private.",
+      "background": "city_registry_office",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_051"
+    },
+    "harbor_p01_051": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "A ship agent named Miao Rong arrived before they finished arranging the table. He represented the merchant who had lodged the bond and wanted a single total for release. He produced a freight manifest and pointed to the cargo values as proof that the voyage had not earned enough to pay every claim. Qin told him the guarantee rule did not make wages conditional on resale. Miao asked to see the contracts being relied on. That request was recorded for the hearing, with private household material excluded.",
+      "background": "city_registry_office",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_052"
+    },
+    "harbor_p01_052": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Miao did not leave as a defeated villain. He had paid two workers from his own counter fund after arrival and believed those receipts should reduce the amount claimed. Han Pei agreed that proven earlier payments mattered. She required the receipts, dates, recipients, and the contract lines they discharged. Miao said he could produce them the next day. Yue wrote the promised delivery on the inquiry sheet. If the receipts were genuine and relevant, a fair account would include them even though his other argument had failed.",
+      "background": "city_registry_office",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_053"
+    },
+    "harbor_p01_053": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "He Ming had disliked him before he entered. His assertion about a failed voyage made her grip the table edge. After he left, she asked whether he would use the promise of receipts to delay her wages indefinitely. Qin identified the notice period and review date on the form. A request for evidence did not extend them by itself. He could decide a supported claim after considering the available response, while recording any later correction route. He would not tell her every difficulty had become easy because a cultivator was taking notes.",
+      "background": "city_registry_office",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_054"
+    },
+    "harbor_p01_054": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The office closed while the tide was still rising. Yue returned the loaned board to its numbered shelf and locked no cabinet herself. Han Pei checked the page count before placing the inquiry sheets inside. Outside, He Ming shared a hot cake she had bought with her own remaining money. Yue offered to pay half. The woman accepted. Their first easy exchange was an ordinary division of supper, with no fund involved and no paper needed except the wrapping they used to keep the crumbs off their clothes.",
+      "background": "harbor_quarantine_quay",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_055"
+    },
+    "harbor_p01_055": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "He Ming described the Salt Lantern's departure: crates moving under lantern light, her brother joking that he could recognize a tub by the complaints of the person carrying it. She had worked the shore packing shifts and had never sailed aboard. Her brother had taken a short crew contract for the last leg. The distinction was new to Yue and went into no official file until He Ming chose to report it. At supper, a person could remember a joke without being turned into a witness.",
+      "background": "tea_house_private_room",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_056"
+    },
+    "harbor_p01_056": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Later, Yue asked whether the quay girl had a place to sleep. He Ming said a tea seller allowed Fen to use a curtained storeroom, with meals paid through an ordinary neighborhood collection. It was temporary and crowded but not a detention. Fen could leave. The wage office did not own her care. He Ming feared that people would start treating the girl as a piece of the missing-household packet. Yue promised only to ask Fen herself before offering help. She could not make another woman's fear disappear.",
+      "background": "tea_house_private_room",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_057"
+    },
+    "harbor_p01_057": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "On the fourth morning, Han Pei assigned Yue a comparison she could finish within the shift: identify which of the thirteen household references lacked a contract number, which lacked a recipient, and which had an address problem only. The categories could overlap. Yue did not place people into permanent types. She marked missing fields on the current pages and wrote what source might supply each. Two household references contained three workers each. Another contained a single worker using an old hiring address. Equal numbers on a list concealed unequal work.",
+      "background": "city_registry_office",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_058"
+    },
+    "harbor_p01_058": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "A man named Tao Sen arrived with a contract folded around a small dried flower. He had kept the flower because his daughter pressed it there before he sailed. Yue asked whether he wanted it removed before copying. He did. The contract named his employer and daily rate, but a wet corner obscured the final working date. He remembered the date confidently. Han Pei would record his account and seek the corresponding shift sheet. The flower survived intact. His memory did not become a recovered printed numeral.",
+      "background": "city_registry_office",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_059"
+    },
+    "harbor_p01_059": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Tao complained that the office trusted a sheet more than his own head. Yue answered that a conflicting sheet would need examination too. They were trying to preserve his claim in a form the employer could answer and the custodian could decide. Tao considered that, then asked her to read his statement aloud before he signed. She did, including the distinction between the visible rate and the supplied date. He corrected one word about unloading. The correction cost several minutes and saved a false certainty from following his name.",
+      "background": "city_registry_office",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_060"
+    },
+    "harbor_p01_060": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Next came a woman carrying two receipts with the same amount. One was a true payment. The other acknowledged that her claim had been received. Their headings had worn thin, and she believed both would be subtracted from her wages. Yue asked Han Pei to inspect the original forms. The clerk identified their different purposes and marked the copies accordingly, without altering the originals. The payment still counted. The claim receipt did not. The woman left knowing what was being deducted and what merely proved she had asked.",
+      "background": "city_registry_office",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_061"
+    },
+    "harbor_p01_061": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Miao returned with two payment receipts as promised. One matched the worker and contract date exactly. The other used an abbreviated name and lacked the recipient's acknowledgment. Han Pei did not reject both because one was weaker. She entered the supported payment provisionally for claimant confirmation and requested the missing link on the other. Yue carried no receipt away. Qin would decide the wage total after the comparisons and notice period. Miao watched the careful separation with an expression that mixed relief and resentment.",
+      "background": "city_registry_office",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_062"
+    },
+    "harbor_p01_062": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "During the meal break, Han Pei admitted she had written the public heading unclaimed. It was the inherited ledger term, and she had been trying to prevent a release she thought premature. She had not imagined the word spoken at a room door as evidence that no household existed. Yue said the problem could not be solved by pretending the term had never been used. Han Pei looked toward the window. She wanted to defend the work she had done without defending every consequence of her words.",
+      "background": "city_registry_office",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_063"
+    },
+    "harbor_p01_063": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "harbor_han_pei",
+      "actor": "harbor_han_pei",
+      "text": "If I call them missing, somebody will say I have certified that a person disappeared at sea. If I call them pending, somebody will think the only problem is a slow clerk. I can add what the list means: wage recipients or addresses not yet verified, claims still open. That sentence is longer than the heading. Perhaps it should have been there from the beginning. I will propose it under my own name. You do not need to say you discovered the whole thing.",
+      "background": "city_registry_office",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_064"
+    },
+    "harbor_p01_064": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The administrator approved a clarifying line for the public list that afternoon. It stated that the thirteen references were open wage inquiries and did not establish abandonment or death. Individual names and protected addresses remained inside the files. Han Pei dated the addition rather than replacing the old notice without a trace. Yue helped hold the board while the clerk fastened it. He Ming read the line aloud to Fen. The girl asked whether it meant her father was alive. He Ming said it did not answer that question.",
+      "background": "harbor_quarantine_quay",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_065"
+    },
+    "harbor_p01_065": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Fen wanted Yue to use the paid inquiry shift to search for her father. Yue explained that the appointment covered permitted household contact work linked to wage claims, but that Fen still needed to authorize the particular request. Because her age affected who could receive private records or payment, the harbor's household support clerk would explain the applicable process without taking her father's ticket away. Fen scowled at another desk being added. Yue could not make age rules disappear by agreeing that she had already carried too much.",
+      "background": "tea_house_private_room",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_066"
+    },
+    "harbor_p01_066": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The support clerk met them at the tea seller's public table, not behind a locked office door. She explained that Fen could request a safe contact search and hold her own copies. If an absence later required a representative appointment or inheritance decision, that would need its own evidence and review. Nobody was making either finding today. Fen asked whether she had to move to a shelter to be believed. The clerk said no. Her lodging preference and the search for her father were separate questions.",
+      "background": "tea_house_private_room",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_067"
+    },
+    "harbor_p01_067": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Fen signed the contact request after hearing it read twice. Yue received permission to compare her father's two recorded name orders and carry the request to the landing keeper. The ticket stayed with Fen. An office copy was witnessed and marked as such, including the blank recipient field. He Ming did not sign as guardian. She signed only that she had seen the copy made. When they left, Fen followed them to the quay, then turned back to help the tea seller stack bowls for the evening trade.",
+      "background": "tea_house_private_room",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_068"
+    },
+    "harbor_p01_068": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "At the landing office, the current keeper was a woman named Lian Zhou. She showed Yue the public departure index and accepted the contact requests into the protected search queue. Neither request entitled Yue to read private destinations. She could receive the status of the search and carry a message if the located adult agreed. Lian supplied a dated receipt and an expected reply window of three working days. Yue asked what happened if that window passed. The keeper wrote the review desk on the same slip.",
+      "background": "city_registry_office",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_069"
+    },
+    "harbor_p01_069": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Lian also explained the index's limit. It covered ticketed departures from the main landing after arrival. Shore workers who went home without boarding another vessel might appear only in inspection or lodging records. Smaller creek boats kept separate lists. No absence from this index proved a person had remained aboard the Salt Lantern. Yue marked the limit on her inquiry copy and read it back before leaving. A useful search could begin with a narrow book, provided the search did not mistake that book for the whole harbor.",
+      "background": "city_registry_office",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_070"
+    },
+    "harbor_p01_070": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "On the fifth morning, the captain posted test results showing no immediate illness signal in the first collected samples. The cargo order remained because two residue samples and the condition of the damaged hold still needed review. A merchant tore down a rumor sheet claiming the vessel carried a curse. Sui Yan did not promise that every sack was now safe to sell. She identified which question the results answered. The notice brought relief, irritation, and a fresh argument from people who wanted a single word to end everything.",
+      "background": "harbor_quarantine_quay",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_071"
+    },
+    "harbor_p01_071": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Yan Su invited Yue to watch a meeting about the damaged crane socket. The invitation covered the dry inspection area only. The carpenter proposed a replacement timber; the keeper asked for its rating and the method of fastening. A ship agent asked whether they could borrow Yue's qi arms until the timber arrived. Yan Su repeated the limit she had given him. Yue confirmed it in her own voice. She found saying no in front of impatient men harder than saying it once beside an empty fence.",
+      "background": "harbor_quarantine_quay",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_072"
+    },
+    "harbor_p01_072": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The foreman offered a task within her limit instead: guide a light chalk marker during a stationary alignment check, with nobody beneath the frame and the ordinary stop line maintained. Yue asked to inspect the load and try it without the timber present. The test lasted one short measured interval. She used a small portion of her reserve, returned the marker to an ordinary hand, and stopped. Yan Su recorded the task and her stated recovery need. The successful check did not qualify her for a larger lift.",
+      "background": "harbor_quarantine_quay",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_073"
+    },
+    "harbor_p01_073": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Back at the wage desk, a letter from Willow Reach arrived for He Ming. Yue did not open it. The collection point clerk checked He Ming's receipt, handed it over, and entered delivery. The woman read it beneath the office awning while rain spotted her scarf. Her mother had not seen He Jun. She had received a message asking for another week before she traveled, written in his familiar hand but without a current address. The news proved recent contact. It did not show where he now slept.",
+      "background": "harbor_quarantine_quay",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_074"
+    },
+    "harbor_p01_074": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "He Ming wanted to take the letter straight to Sui Yan. Yue asked what she hoped the captain could do with it. The woman said she wanted somebody important to admit that her brother had not abandoned them. Yue thought about answering too quickly. Instead, she asked whether He Ming wanted the contact search updated with the letter's date and both name forms. She did. The private family sentences stayed covered. A dated, witnessed extract of relevant facts could support the search without turning her mother's worry into a public exhibit.",
+      "background": "harbor_quarantine_quay",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_075"
+    },
+    "harbor_p01_075": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "That evening, Fen told Yue that she had stopped calling names at the scale. Sailors had begun repeating guesses because they disliked seeing her wait. One described a man who sounded like her father until the age and coat changed. She had written the guess down anyway. Yue did not forbid her to ask. They agreed that any account should include who supplied it, when, and whether that person had seen the man directly. Fen erased no hopeful rumor. She separated them from the one witnessed sighting she already had.",
+      "background": "tea_house_private_room",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_076"
+    },
+    "harbor_p01_076": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The witnessed sighting came from a tea carrier who had seen Luo Jian walk toward the west creek after inspection. He had greeted him by the hiring name Jian Luo. Yue asked Fen's permission to take that question to the landing keeper. The girl nodded, then asked to come. The office allowed her presence for the public request. Her father's private information would still need its own basis for disclosure. Fen walked beside Yue rather than behind her, holding the ticket in a cloth she had borrowed from the tea seller.",
+      "background": "harbor_quarantine_quay",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_077"
+    },
+    "harbor_p01_077": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Lian Zhou received the added lead and linked it to the existing request, preserving its original date. She would ask the creek list keeper rather than repeat the main index search. The tea carrier's account remained a lead until checked. Fen thanked her with a formality that sounded borrowed from older people. Outside, she kicked a loose stone into the gutter. Yue waited through the girl's anger without calling the clerk slow or Fen unreasonable. Each had made a real effort. The father's whereabouts remained unknown.",
+      "background": "city_registry_office",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_078"
+    },
+    "harbor_p01_078": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "By the sixth day, Yue had completed two paid half-day shifts and one separately logged dry alignment task. The inquiry appointment did not expand every time somebody found her at the quay. Han Pei kept the next shift for wage comparison, and Yue took a rest morning. She washed her cup, mended a strap on her own pack, and slept after lunch. The harbor continued without her. That fact was both comforting and difficult for somebody who had learned to recognize a question wherever she looked.",
+      "background": "city_safe_house",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_079"
+    },
+    "harbor_p01_079": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "At dusk, He Ming brought a kettle to the repair shed and asked whether Yue would share tea. No official paper came with her. They spoke about ordinary things until the conversation found He Jun again. He Ming said she had once wanted him to leave Willow Reach and stop taking responsibility for everybody's meals. Now his absence felt like a punishment for that wish. Yue did not translate the confession into a search theory. She passed the kettle back and listened to the rain losing strength above the roof.",
+      "background": "city_safe_house",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_080"
+    },
+    "harbor_p01_080": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The first week's review took place in the north office with Han Pei, Qin Shuo, and the administrator's clerk. Yue reported the three kinds of inquiry separately. Wage verification had begun, two safe-contact requests had been received, and quarantine testing remained with Sui Yan. No final unpaid total had yet been certified. Thirteen open household references remained thirteen, though some missing fields now had leads. Qin asked what could be completed before the employer's response date. Yue named the contract comparisons rather than promising the return of missing people.",
+      "background": "city_registry_office",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p01_081"
+    },
+    "harbor_p01_081": {
+      "chapter": "book_xiv_harbor",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "After the review, Han Pei offered to show Yue the original voyage wage register under supervised access. The contract permitted that comparison, and Qin had approved the relevant pages. Neither woman could remove the bound book or copy unrelated workers' details. The clerk fetched a key and waited for Yue to clear the table. Outside, the tide had turned. Fen's basket no longer stood beside the scale. He Ming was back at a temporary packing shift. The harbor had begun to look less like a single mystery and more like lives interrupted at different points.",
+      "background": "city_registry_office",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "next": "harbor_p02_001"
+    }
+  }
+}

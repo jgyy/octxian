@@ -1,9 +1,10 @@
 extends Control
 
-const EFFECTS := ["lanterns", "rain", "reed_light", "bell", "qi", "first_trace", "paired_trace", "second_pair_trace", "none"]
+const EFFECTS := ["lanterns", "rain", "reed_light", "bell", "qi", "first_trace", "paired_trace", "second_pair_trace", "storm_discharge", "none"]
 const FIRST_TRACE = preload("res://assets/art/effects/first_qi_trace.png")
 const PAIRED_TRACE = preload("res://assets/art/effects/paired_channel_trace.png")
 const SECOND_PAIR_TRACE = preload("res://assets/art/effects/second_pair_trace.png")
+const STORM_DISCHARGE = preload("res://assets/art/effects/storm_discharge.png")
 var clock := 0.0
 var effect := "lanterns"
 var paused := false
@@ -31,7 +32,12 @@ func _draw() -> void:
 	if not enabled or effect == "none":
 		return
 	var stage := Vector2(maxf(size.x, 1.0), maxf(size.y, 1.0))
-	if effect == "first_trace" or effect == "paired_trace" or effect == "second_pair_trace":
+	if effect == "storm_discharge":
+		var extent := Vector2(540.0, 360.0) * (stage.x / 1600.0)
+		var center := stage * Vector2(0.41, 0.45)
+		var opacity := 0.56 + sin(clock * 0.8) * 0.08
+		draw_texture_rect(STORM_DISCHARGE, Rect2(center - extent / 2.0, extent), false, Color(1.0, 1.0, 1.0, opacity))
+	elif effect == "first_trace" or effect == "paired_trace" or effect == "second_pair_trace":
 		var extent := Vector2(360.0, 240.0) * (stage.x / 1600.0)
 		var center := stage * Vector2(0.76, 0.48)
 		var opacity := 0.24 + (sin(clock * 0.8) + 1.0) * 0.07

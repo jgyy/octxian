@@ -126,7 +126,7 @@
     "gate": {
       "speaker": "shen_qing",
       "actor": "shen_qing",
-      "text": "'Your measured load is enough for a grounded relay, if we use one,' Qing said. 'It is not enough to feed the main array. You will remain behind its isolation line.' The gate bell sounded without a hand. Qing checked a gauge fixed to the post. Its needle had crossed the safe mark. He closed the admission aperture before asking Yue to step through.",
+      "text": "'Your measured load is enough for a grounded relay, if we use one,' Qing said. 'It is not enough to feed the main array. You will remain behind its isolation line.' The gate bell sounded without a hand. Qing checked a gauge fixed to the post. Its needle had crossed the safe mark. He shut the qi-admission aperture before letting Yue through the gate's separate walking door.",
       "next": "introduction",
       "chapter": "book_i",
       "cultivation": {
@@ -169,7 +169,7 @@
           "text": "Keep the jade wrapped until its circuit is explained.",
           "next": "guard",
           "effects": {
-            "resolve": 2
+            "trust": 2
           }
         }
       ],
@@ -261,7 +261,7 @@
     "cultivation_choice": {
       "speaker": "elder_yun",
       "actor": "elder_yun",
-      "text": "Yun spread three preparation sheets on the pavilion table. The crisis had no room for a new realm. Yue could calibrate her small relay, compare the release inscription with the founder's plan, or rehearse the marked evacuation path. Each used skills she already possessed. The main array would remain isolated while they worked.",
+      "text": "Yun spread three preparation sheets on the pavilion table. The crisis had no room for a new realm. Yue could calibrate her small relay, compare the release inscription with the founder's plan, or rehearse the marked evacuation path. Each used skills she already possessed. Their preparation circuits would remain isolated from the live main array while they worked.",
       "choices": [
         {
           "text": "Calibrate the small relay at your safe load.",
@@ -343,7 +343,7 @@
     "accusation": {
       "speaker": "shen_qing",
       "actor": "shen_qing",
-      "text": "'Your sentence forbids this stair,' Qing said. 'The outer pressure seal was disturbed this morning.' Mo Ran kept his hands away from the console. 'Disturbed after the reservoir reflux, not before. Check the gauge times. If they contradict me, I will wait outside.' Qing compared the plates. The earlier disturbance belonged to the lifting field. He opened the marked work area without withdrawing the unresolved accusation.",
+      "text": "'Your sentence forbids this stair,' Qing said. 'The outer pressure seal was disturbed this morning.' Mo Ran kept his hands away from the console. 'After the reservoir reflux. Check the gauge times; if they contradict me, I will wait outside.' Qing checked the sequence. The field disturbance came first, without settling responsibility for every seal. Yun signed a temporary emergency-maintenance pass within Mo Ran's injury limit. Qing admitted him under that pass. The original sentence and unresolved accusation remained recorded.",
       "next": "exile_truth",
       "chapter": "book_i",
       "cultivation": {
@@ -371,8 +371,7 @@
           "text": "Ask the exile what the star wants.",
           "next": "star_wants",
           "effects": {
-            "insight": 2,
-            "trust": 1
+            "insight": 3
           }
         },
         {
@@ -386,8 +385,7 @@
           "text": "Ask Elder Yun why she waited.",
           "next": "waiting",
           "effects": {
-            "resolve": 2,
-            "insight": 1
+            "trust": 3
           }
         }
       ],
@@ -520,10 +518,10 @@
           "text": "Signal the mountain's controlled landing.",
           "next": "release",
           "effects": {
-            "resolve": 1
+            "trust": 1
           },
           "requires": {
-            "resolve": 3
+            "insight": 3
           }
         },
         {
@@ -559,7 +557,7 @@
       "actor": "lin_yue",
       "animation": "channeling",
       "sfx": "qi",
-      "text": "Yue traced the missing release stroke on a copy and showed where it must meet the grounding mark. Yun performed the main inscription with her established core control. Qing verified that the exit worked before reconnecting support. The covenant allowed the star to choose a bounded return with a clear departure. Understanding the stroke let Yue assist. It did not give her hand the power needed to carve it.",
+      "text": "Yue showed where the missing release stroke met the grounding mark. Yun inscribed it with established core control; Qing tested the exit. Engineers measured additional sect-reserve charge for the star's interval outside until sunset, retaining enough for a controlled landing. Operators accepted those bounded turns. If the star declined return, landing would begin before the reserve floor. The covenant preserved the star's departure choice. Yue's understanding let her assist; the carving power and support fuel came from elsewhere.",
       "next": "ending_covenant",
       "effect": "qi",
       "chapter": "book_i",
@@ -573,7 +571,7 @@
       "actor": "lin_yue",
       "animation": "resolve",
       "sfx": "sword",
-      "text": "Yue followed the chalked route to the landing console. Qing and Yun sequenced the earthward anchors while Mo Ran kept the return load below his injury limit. The ordinary sword stayed sheathed. Yue carried a signal between sheltered stations and watched the descent by measured stages. The already isolated source intake stayed closed. Only after the supports secured the mountain on earth did Yun retire the temporary lifting anchors. The star departed through the open conduit without bearing the landing load.",
+      "text": "Yue followed the marked evacuation route to the landing console. Qing and Yun sequenced the earthward anchors while Mo Ran kept the return load below his injury limit. The ordinary sword stayed sheathed. Yue carried a signal between sheltered stations and watched the descent by measured stages. The already isolated source intake stayed closed. Only after the supports secured the mountain on earth did Yun retire the temporary lifting anchors. The star departed through the open conduit without bearing the landing load.",
       "next": "ending_release",
       "chapter": "book_i",
       "cultivation": {
@@ -584,7 +582,7 @@
     "together": {
       "speaker": "shen_qing",
       "actor": "shen_qing",
-      "text": "Qing called the established emergency teams. Yue read the corrected release sheet aloud while Yun opened the separately fueled support branches. The novice remained outside the main load. Operators checked their ratings, accepted or declined turns and kept the grounding path available. The star rested as its intake fell. Asking for help had not advanced Yue's realm. It had kept her limited capacity inside a workable plan.",
+      "text": "Qing called the established emergency teams. Yue read the corrected release sheet aloud while Yun opened the separately fueled support branches. Operators accepted or declined rated turns and kept the grounding path available. After the branches stabilized, Yun restored only the star's confirmed lower draw, retaining its stop signal and manual escape. Yue remained outside the main load. Asking for help had not advanced her realm. It had kept her limited capacity inside a workable plan.",
       "next": "ending_shared",
       "chapter": "book_i",
       "cultivation": {
@@ -735,7 +733,7 @@
           "text": "Follow the ferry and find who moved the boundary.",
           "next": "ferry_departure",
           "effects": {
-            "trust": 1
+            "insight": 1
           }
         },
         {
@@ -749,7 +747,7 @@
           "text": "Visit the archive and trace the missing names.",
           "next": "archive_door",
           "effects": {
-            "resolve": 1
+            "insight": 1
           }
         }
       ],
@@ -841,8 +839,7 @@
           "text": "Raise the stone publicly, keeping its protective ward intact.",
           "next": "ferry_raise",
           "effects": {
-            "qi": 1,
-            "resolve": 1
+            "qi": 2
           }
         },
         {
@@ -944,7 +941,7 @@
     "ferry_evidence": {
       "speaker": "wei_jin",
       "actor": "wei_jin",
-      "text": "Take this rubbing to the tower. The magistrate's grandfather signed the private refuge clause. My grandmother signed the common-water line. We have inherited both. I cannot make either ancestor answer for it. I can stand beside you when someone asks what I intend to do with my inheritance.",
+      "text": "Take this comparison copy to the tower. The crews transcribed both faces through our ordinary sighting mirror before we chose whether to lift the stone. The magistrate's grandfather signed the private refuge clause. My grandmother signed the common-water line. We have inherited both. I cannot make either ancestor answer for it. I can stand beside you when someone asks what I intend to do with my inheritance.",
       "chapter": "book_ii",
       "background": "bell_tower_square",
       "next": "ferry_return",
@@ -956,7 +953,7 @@
     "ferry_return": {
       "speaker": "narrator",
       "actor": "su_lan",
-      "text": "The ferry reached the village with no triumphant music and a leak that had grown an inch. Wei Jin charged them for three cups of tea. Su Lan paid for four and left one steaming by the crossing stone. Lin Yue carried the rubbing beneath her robe, where the pendant could not mistake a document for a destiny.",
+      "text": "At the village landing, the ferry sat without triumphant music, its leak an inch longer. Su Lan paid the agreed passenger fare from her travel purse. Wei Jin then charged for three cups of tea; she bought four and left one steaming by the crossing stone. Lin Yue carried the comparison beneath her robe, where the pendant could not mistake a document for a destiny.",
       "chapter": "book_ii",
       "background": "bell_tower_square",
       "next": "lantern_conclave",
@@ -1160,7 +1157,7 @@
     "reed_families_cost": {
       "speaker": "narrator",
       "actor": "reed_listener",
-      "text": "The families arrived with lanterns, food, and two farm hooks carried as weapons. A child asked whether the Listener ate fish. An old man asked why it had not explained itself sooner. The creature could answer only one question at a time. Lin Yue stayed beside the litter until dawn, learning how long a safe meeting could take.",
+      "text": "The families arrived with lanterns, food, and two farm hooks carried as weapons. A child asked whether the Listener ate fish. An old man asked why it had not explained itself sooner. The creature could answer only one question at a time. Lin Yue stayed beside the sheltered nests until dawn, learning how long a safe meeting could take.",
       "chapter": "book_ii",
       "background": "bell_tower_square",
       "next": "reed_memory",
@@ -1279,7 +1276,7 @@
           "text": "Publish the original land clauses and every condition, preserving private debts.",
           "next": "archive_publish",
           "effects": {
-            "resolve": 2
+            "trust": 2
           }
         },
         {
@@ -1377,7 +1374,7 @@
     "archive_witness": {
       "speaker": "an_ru",
       "actor": "an_ru",
-      "text": "Take my seal, Yue. It proves that the comparison came from this room. It does not prove that you must agree with me. If the magistrate asks who authorized the reading, say the people whose names were on the door. If he asks who authorized my work, say that I did, and bring him here.",
+      "text": "Take my seal, Yue. It proves that these extracts came from this room. It does not prove that you must agree with me. If the magistrate asks who authorized a private reading, show the permission recorded for that page. A household's name on a door is no permission; a refusal remains a refusal. Public land clauses can be checked separately. If he asks who authorized my work, say that I did, and bring him here.",
       "chapter": "book_ii",
       "background": "valley_archive",
       "next": "archive_return",
@@ -1425,16 +1422,13 @@
     "lantern_final_choice": {
       "speaker": "lin_yue",
       "actor": "lin_yue",
-      "text": "We can make the lake a common crossing, change the bell so it must hear a name before judging it, rebuild the shrine's shelter, or begin a public ledger that anyone may question. None will mend every wound tonight. Which work are we ready to remain for after the lanterns go out?",
+      "text": "The magistrate could not reconcile the new dates with the witnessed originals. He countersigned corrections restoring all nineteen household entries; the clerk gave each household its copy. Separate boundary disputes remained open. With enforcement still isolated, the owners could decide their tablets' return. Now we can make a common crossing, change the bell's answering rule, rebuild the shrine's shelter, or begin a public ledger anyone may question. None will mend every wound tonight. Which work are we ready to remain for after the lanterns go out?",
       "chapter": "book_ii",
       "background": "bell_tower_square",
       "choices": [
         {
           "text": "Open the crossing and share responsibility for its ward.",
-          "next": "lantern_crossing",
-          "requires": {
-            "trust": 3
-          }
+          "next": "lantern_crossing"
         },
         {
           "text": "Teach the bell to wait for an answer before enforcing a boundary.",
@@ -1488,7 +1482,7 @@
     "lantern_bell": {
       "speaker": "reed_listener",
       "actor": "reed_listener",
-      "text": "Give me the clapper until sunset. I will strike once for every name and wait until someone answers. If no one answers, I will wait longer. A boundary that cannot bear a pause has no right to tell a living person where to stand.",
+      "text": "Su Lan has agreed to lend her clapper under her supervision until sunset. I will strike once for every restored name and wait until someone answers. If no one answers, I will wait longer. A boundary that cannot bear a pause has no right to tell a living person where to stand.",
       "chapter": "book_ii",
       "background": "bell_tower_square",
       "next": "ending_bell",
@@ -1501,7 +1495,7 @@
     "ending_bell": {
       "speaker": "narrator",
       "actor": "su_lan",
-      "text": "Nineteen names returned to the register before the bell sounded its twentieth note. That final note belonged to the Listener, whose own name no one yet knew. Su Lan left a blank line for it. This time the blank was room to arrive. Lin Yue listened beside the tower until the reeds answered in the evening wind.",
+      "text": "The ward crew installed the answering rule with enforcement isolated. Using its existing stone supply and dummy records, they verified answered boundaries and unanswered holds before enabling the revised link. The nineteen restored entries remained intact. The twentieth note belonged to the Listener, whose own name no one yet knew. Su Lan left a blank line for it. This time the blank was room to arrive. She reclaimed her clapper at sunset. Lin Yue listened beside the tower until the reeds answered in the evening wind.",
       "chapter": "book_ii",
       "background": "bell_tower_square",
       "ending": "An Unstruck Bell",
@@ -1568,7 +1562,7 @@
     "assembly_ferry": {
       "speaker": "wei_jin",
       "actor": "wei_jin",
-      "text": "I went to the boundary, with the west-bank crews if you were elsewhere. This rubbing records both faces of the stone. My grandmother signed the common-water line. The magistrate's grandfather signed the private refuge clause. Neither signature gives a living person permission to erase another. I have brought the crews so you can question our account.",
+      "text": "I went to the boundary, with the west-bank crews if you were elsewhere. This comparison records both faces of the stone. My grandmother signed the common-water line. The magistrate's grandfather signed the private refuge clause. Neither signature gives a living person permission to erase another. I have brought the crews so you can question our account.",
       "next": "assembly_archive",
       "chapter": "book_ii",
       "background": "bell_tower_square",
@@ -1604,7 +1598,7 @@
     "assembly_test": {
       "speaker": "narrator",
       "actor": "lin_yue",
-      "text": "An Ru placed a disputed copy beside the rubbing. Su Lan held the clapper still and kept the enforcement circuit isolated. A salt worker named her household; the old register recognized it, the new copy did not. The Listener uncovered the matching nest without surrendering it. Lin Yue observed the same omission in three records. No pulse through her first pair could replace that comparison, and no bright instrument could authorize a private reading.",
+      "text": "An Ru placed a disputed copy beside the crossing comparison. Su Lan held the clapper still and kept the enforcement circuit isolated. A salt worker named her household; the old register recognized it, the new copy did not. The Listener uncovered the matching nest without surrendering it. Lin Yue observed the same omission in three records. No pulse through her first pair could replace that comparison, and no bright instrument could authorize a private reading.",
       "next": "assembly_magistrate",
       "chapter": "book_ii",
       "background": "bell_tower_square",
@@ -1717,7 +1711,7 @@
     "river_xiu": {
       "speaker": "wei_xiu",
       "actor": "wei_xiu",
-      "text": "My father told you my name before you met me. I am grateful that he kept saying it. I would also like to introduce myself without becoming proof of what happened to us. I pilot this landing, cut lettering when work is scarce, and dislike ginger tea. The boat I need you to see belongs to none of those facts.",
+      "text": "My father kept saying my name when the register stopped recognizing our household. I am grateful for that. I would also like to introduce myself without becoming proof of what happened to us. I am Wei Xiu. I pilot this landing, cut lettering when work is scarce, and dislike ginger tea. The boat I need you to see belongs to none of those facts.",
       "next": "river_chart",
       "chapter": "book_iii",
       "background": "north_landing",
@@ -1869,7 +1863,7 @@
           "text": "Let Mo Ran identify himself and offer his receipt.",
           "next": "river_call",
           "effects": {
-            "trust": 1
+            "insight": 1
           }
         },
         {
@@ -1883,7 +1877,7 @@
           "text": "Listen at the boundary without crossing it.",
           "next": "river_listen",
           "effects": {
-            "resolve": 1
+            "insight": 1
           }
         }
       ],
@@ -2073,7 +2067,7 @@
           "text": "Negotiate a new return place with the owner and spirit.",
           "next": "river_return_terms",
           "effects": {
-            "trust": 1
+            "insight": 1
           }
         },
         {
@@ -2087,7 +2081,7 @@
           "text": "Arrange a temporary harbor while every owner is contacted.",
           "next": "river_harbor_terms",
           "effects": {
-            "resolve": 1
+            "insight": 1
           }
         }
       ],
@@ -2180,7 +2174,7 @@
     "return_berth": {
       "speaker": "narrator",
       "actor": "lin_yue",
-      "text": "Wei Xiu brought the ordinary boat alongside the landing without inviting the old ferry after it. She tested two mooring posts; one moved under her hand. Lin Yue had been preparing the words of a new covenant. Now she held a hammer while the pilot replaced a rotten pin. The spirit waited beyond the marker, keeping the boat still enough for its own fins to shake.",
+      "text": "Wei Xiu brought the ordinary boat alongside the landing without inviting the old ferry after it. She tested two mooring posts; one moved under her hand. Lin Yue had been preparing the words of a new covenant. Now she held a hammer while the pilot replaced a rotten pin. The Eel rested at the funded sheltered mooring. Nobody asked it to hold the old ferry against the current while they repaired this different berth.",
       "next": "return_cost",
       "chapter": "book_iii",
       "background": "north_landing",
@@ -2261,7 +2255,7 @@
           "text": "Reserve a supported watch and a date to reconsider.",
           "next": "return_later",
           "effects": {
-            "resolve": 1
+            "trust": 1
           }
         }
       ],
@@ -2299,7 +2293,7 @@
     "return_later": {
       "speaker": "mo_ran",
       "actor": "mo_ran",
-      "text": "Eight days, then we ask again. I will pay for a harbor watch during that time. If the keeper cannot bear another day, the case can come to me sealed before the date. Waiting is a request I can make; it is not an order I can give the river. Put that beside my name, where I will have to read it.",
+      "text": "Eight days from today, then we ask again. Credit the already paid interim turns before calculating my additional watch payment; the clerk will record its start, end and net cost. I will cover only that new coverage, with unused money returned. If the keeper cannot bear another day, the case can come to me sealed before the date. Waiting is a request, not an order to the river. Put that beside my name.",
       "next": "return_later_cost",
       "chapter": "book_iii",
       "background": "north_landing",
@@ -2468,7 +2462,7 @@
     "stair_funding_choice": {
       "speaker": "wei_xiu",
       "actor": "wei_xiu",
-      "text": "We can build the accessible ramp in stages using paid local shifts, or ask the upriver boat association for an advance against agreed maintenance work. Either can succeed. The first takes longer; the second binds a season of wages. Choose the cost we should put before the people who will bear it.",
+      "text": "The shrine meeting approved the ferry-access share; the clerk separated it from Mo Ran's receiving-case payment. The remaining ramp work needs its own funding. We can build in paid local stages using money actually released, or ask the upriver boat association for an advance against agreed maintenance work. The first takes longer; the second binds a season of wages. No stage begins on an anticipated grant. Choose the cost to put before the people who will bear it.",
       "chapter": "book_iii",
       "background": "sheltered_reach",
       "effect": "none",
@@ -2535,7 +2529,7 @@
     "stair_advance_cost": {
       "speaker": "narrator",
       "actor": "lin_yue",
-      "text": "The association accepted a smaller advance with a longer schedule. Wei Xiu crossed out the first amount rather than tearing up its record. Luo Fen kept a copy beside her tools. The work began sooner, but the pilots would spend part of summer tending posts instead of carrying goods. When Lin Yue praised the bargain, Wei Xiu showed her the hours that praise had left out.",
+      "text": "The association accepted a smaller advance with a longer schedule. Wei Xiu crossed out the first amount rather than tearing up its record. Luo Fen kept a copy beside her tools. The advance bought the first timber delivery before the shifts began; the first construction stage took six days. Pilots would spend part of summer tending posts instead of carrying goods. When Lin Yue praised the bargain, Wei Xiu showed her the hours that praise had left out.",
       "next": "stair_charter",
       "chapter": "book_iii",
       "background": "sheltered_reach",
@@ -2561,7 +2555,7 @@
     "stair_test": {
       "speaker": "narrator",
       "actor": "lin_yue",
-      "text": "Before the old ferry approached, Wei Xiu brought an empty boat down the route and turned it under full load. Luo Fen walked the ramp carrying two sacks of sand. Su Lan tested the rail with her whole weight. Lin Yue wanted to lend qi to the joints. The carpenter refused: the platform had to remain safe on a day when no cultivator visited.",
+      "text": "Before the old ferry approached, Wei Xiu tested an ordinary boat with secured sand ballast equal to its rated load and no passengers. She turned it along the surveyed route while two crew members watched from shore. Luo Fen carried two sand sacks over the ramp; the carpenter checked deflection and fasteners separately. Su Lan tested the rail. Lin Yue kept her field closed. Unfueled joints had to carry the design load after every visitor left. A successful turn did not replace the carpenter's signed structural check.",
       "next": "stair_spirit",
       "chapter": "book_iii",
       "background": "sheltered_reach",
@@ -2700,7 +2694,7 @@
           "text": "Fund eight days, with a reserve for moving to safety.",
           "next": "harbor_eight_days",
           "effects": {
-            "resolve": 1
+            "trust": 1
           }
         },
         {
@@ -2849,7 +2843,7 @@
     "river_interim": {
       "speaker": "wei_xiu",
       "actor": "wei_xiu",
-      "text": "Before we start, I have sounded the sheltered reach beside this landing. The Eel agrees to wait there; the keeper's stop clause permits that. Two crews accepted temporary watches, paid from my route reserve. This buys eight days. We must review any extension before those watches expire. Nobody's repair plan is permission to let the spirit tire itself out meantime.",
+      "text": "Before we start, I have sounded the sheltered reach. The Eel accepts its permitted safe stop there. Two crews accepted temporary watches, paid from my route reserve for eight days; review any extension before they expire. An Ru has sent Luo Fen her receipt number, a request for her own return choice and this landing's reply address. No contents were requested. Nobody's repair plan permits us to tire the spirit meanwhile.",
       "next": "river_resolution_choice",
       "chapter": "book_iii",
       "background": "north_landing",
@@ -2954,7 +2948,7 @@
       "chapter": "book_iv",
       "speaker": "elder_yun",
       "actor": "elder_yun",
-      "text": "The exchange moves sensation, not injury. The aunt still needs her splint and medicine. Her niece may sleep after carrying the pain, but sleep is not proof that the work cost her nothing. Watch the copper channel between the couches. Each breath narrows it. The matron is closing today's connection gradually so neither body takes the whole change at once. We will not test the old mark by asking this girl to endure one more demonstration.",
+      "text": "The exchange moves sensation, not injury. The aunt still needs her splint and medicine. The niece may sleep after carrying pain; sleep proves no harmlessness. The treatment circuit draws from a separately metered stone, within today's fixed allowance, not from either patient's suffering. Watch the copper channel between the couches. Each breath narrows it. The matron is closing today's connection gradually so neither body takes the whole change at once. We will not test the old mark by asking this girl to endure another demonstration.",
       "next": "orchard_stop",
       "background": "pain_exchange_chamber",
       "effect": "none",
@@ -2999,24 +2993,21 @@
           "text": "Trace the disconnected circuit with a measured breath.",
           "next": "orchard_circuit",
           "effects": {
-            "qi": 2,
-            "resolve": 1
+            "qi": 3
           }
         },
         {
           "text": "Share the patients' meal and hear what they need.",
           "next": "orchard_meal",
           "effects": {
-            "trust": 2,
-            "resolve": 1
+            "trust": 3
           }
         },
         {
           "text": "Compare winter allocations with the original treatment terms.",
           "next": "orchard_ledger",
           "effects": {
-            "insight": 2,
-            "resolve": 1
+            "insight": 3
           }
         }
       ],
@@ -3149,7 +3140,7 @@
       "chapter": "book_iv",
       "speaker": "elder_yun",
       "actor": "elder_yun",
-      "text": "The assistants have finished their checks. The practice strip preserves a safe closing rhythm without household notches. At dinner, patients asked for relief, ordinary help, and the right to make different choices. The allocation books confirm that food was funded separately before the columns were combined. These findings agree on one repair: remove the inherited winter demand while keeping the measured closing pace. The matron will supervise; I will record my part in its making.",
+      "text": "The assistants have finished their checks. The practice strip closes safely without household notches. Patients asked for relief, ordinary help, and different choices. Food was funded separately before its columns were combined; the matron has released the three applications held for missing exchange turns. These findings support removing the inherited winter demand while keeping the measured closing pace. The matron will supervise. I will record my part in its making.",
       "next": "orchard_need",
       "background": "orchard_apothecary",
       "effect": "none",
@@ -3162,7 +3153,7 @@
       "chapter": "book_iv",
       "speaker": "narrator",
       "actor": "lin_yue",
-      "text": "With the contact still capped, the matron removed the winter stroke a shaving at a time. Elder Yun compared each cut with the practice strip. The frost loosened from the branch and fell into a shallow bowl. Nobody's pain vanished with it. In the sickroom, the aunt needed another poultice. Outside, six patients waited beneath a damp awning. The orchard had stopped assigning unwilling bodies. It still had to help the bodies already hurting.",
+      "text": "With patient contacts capped, the matron removed the winter stroke a shaving at a time. Elder Yun compared each cut with the practice strip. They tested the altered circuit on an isolated dummy load, checking gradual closure and interruption before approving any patient connection. The frost loosened from the branch. Nobody's pain vanished with it. The aunt needed another poultice; six patients waited beneath a damp awning. The orchard had stopped assigning unwilling bodies. It still had to help the bodies already hurting.",
       "next": "orchard_cost",
       "background": "pain_exchange_chamber",
       "effect": "none",
@@ -3205,19 +3196,14 @@
           "text": "Offer a paid rota that includes help beyond treatment.",
           "next": "orchard_care_rota",
           "effects": {
-            "trust": 1,
-            "resolve": 1
-          },
-          "requires": {
-            "trust": 4
+            "trust": 2
           }
         },
         {
           "text": "Separate relief funding and publish the new accounting.",
           "next": "orchard_fund_terms",
           "effects": {
-            "insight": 1,
-            "trust": 1
+            "insight": 2
           },
           "requires": {
             "insight": 4
@@ -3227,7 +3213,7 @@
           "text": "Pause exchanges for seven days and provide ordinary care.",
           "next": "orchard_pause",
           "effects": {
-            "resolve": 2
+            "trust": 2
           }
         }
       ],
@@ -3242,7 +3228,7 @@
       "chapter": "book_iv",
       "speaker": "narrator",
       "actor": "lin_yue",
-      "text": "Three patients agreed to a paced-breathing trial beside their ordinary care. Lin Yue set a grounded copper reference wick on the table, supplied one small timing pulse, and discharged. No qi entered a patient or the treatment contact. The matron led an easy ordinary rhythm. One person found the ache easier to bear for a quarter hour; another became dizzy and stopped; the aunt felt no change. Yun recorded all three results. The visible cue supplied timing, never spiritual healing or a guaranteed remedy.",
+      "text": "Three patients offered one short paced-breathing trial beside ordinary care. Lin Yue gave the grounded wick a quarter-unit timing pulse through the first arm pair and discharged. The matron led an easy rhythm without qi entering a patient. One person found the ache easier for a quarter hour. Another grew dizzy and stopped; the matron sat with them and recorded an interrupted trial. The aunt felt no change. Yun kept all three outcomes, the stopping time and the wick allowance. The cue established timing, not treatment or restored tissue.",
       "next": "orchard_breath_limits",
       "background": "orchard_healing_hall",
       "effect": "qi",
@@ -3749,24 +3735,21 @@
           "text": "Compare the masks, substituted collars, and return tokens.",
           "next": "city_mask_entry",
           "effects": {
-            "qi": 2,
-            "insight": 1
+            "insight": 3
           }
         },
         {
           "text": "Trace the recognition batch through licenses and courier charges.",
           "next": "city_registry_entry",
           "effects": {
-            "insight": 2,
-            "resolve": 1
+            "insight": 3
           }
         },
         {
           "text": "Test the offered wax traces against dispatch controls.",
           "next": "city_perfumer_entry",
           "effects": {
-            "trust": 2,
-            "insight": 1
+            "insight": 3
           }
         }
       ],
@@ -3792,7 +3775,7 @@
       "chapter": "book_v",
       "speaker": "qiao_sen",
       "actor": "qiao_sen",
-      "text": "The fittings came before these collars were substituted. My signed schedule and the original seals agree. The copied authorization has a reversed cord weave and a different wash beneath it; the face shells still work as designed. Bian Hui's fitting was reed-seven. Tao Min the performer's was reed-nine. Their separate return tokens both became reed-seven. The workshop recorded no replacement reed-seven shell. Keep those statements distinct. They show a faulty authorization and duplicated return mark. They do not show whose fingers made the substitution.",
+      "text": "Bian's shell seal agrees with my signed fitting schedule. Her collar carries an added authorization, reversed weave and altered paste. Tao Min the performer's schedule records reed-nine; Bian Hui's records reed-seven. Their separate return tokens both repeat reed-seven, with no workshop replacement entry. Keep those findings distinct. We examined Bian's offered lining. Tao's duplicated token establishes a return-record discrepancy; it does not establish every concealed join in his collar. Neither comparison identifies the hand responsible.",
       "background": "identity_exchange_hall",
       "effect": "none",
       "next": "city_return_tokens",
@@ -3805,7 +3788,7 @@
       "chapter": "book_v",
       "speaker": "narrator",
       "actor": "lin_yue",
-      "text": "The hearing clerk placed the two return tokens on clean cloth, far enough apart for the waiting workers to see they were separate objects. Their matching rental marks pointed to one original entry, although the workshop schedule showed two different authorized fittings. The copied collars had collapsed those returns into a duplicate. A worker asked whether admitting possession meant admitting fraud. Mei wrote the distinction into the minutes before proceeding. Possession explained which account had been charged; the comparison explained why its altered return authorization could not be trusted.",
+      "text": "The clerk placed the return tokens apart on clean cloth. Both rental marks pointed to one entry; the workshop schedule recorded two authorized fittings. The altered return records had merged their serials. A worker asked whether holding a token meant admitting fraud. Mei recorded that Bian could carry Tao's offered token without becoming his account owner. The permitted original work-account records identified which bill had been charged. The tokens supplied the duplicated mark. Possession alone proved neither ownership nor responsibility for the alteration.",
       "background": "identity_exchange_hall",
       "effect": "none",
       "next": "city_registry_evidence",
@@ -3943,11 +3926,10 @@
           "text": "Bridge three nights with voluntarily offered furnace-hour credit.",
           "next": "city_credit_bridge",
           "requires": {
-            "qi": 3
+            "insight": 3
           },
           "effects": {
-            "qi": 1,
-            "insight": 1
+            "insight": 2
           }
         },
         {
@@ -3957,26 +3939,21 @@
             "insight": 3
           },
           "effects": {
-            "insight": 1,
-            "trust": 1
+            "insight": 2
           }
         },
         {
           "text": "Help workers form their own limited licensing cooperative.",
           "next": "city_license_pool",
-          "requires": {
-            "trust": 3
-          },
           "effects": {
-            "trust": 1,
-            "resolve": 1
+            "trust": 2
           }
         },
         {
           "text": "Pause the disputed batch for a dated individual audit.",
           "next": "city_batch_audit",
           "effects": {
-            "resolve": 2
+            "trust": 2
           }
         }
       ],
@@ -4056,7 +4033,7 @@
       "chapter": "book_v",
       "speaker": "narrator",
       "actor": "lin_yue",
-      "text": "The first pool meeting lasted until the tea turned cold. Members reduced the proposed contribution, hired a clerk for fewer hours, and left two costly licenses outside the fund. A performer declined to join and kept her separate contract. Qiao repaired her collar at the posted price. Tao carried the orchard's jars, then returned to argue about the pool's delivery rule. Their minutes contained the argument. When a court messenger asked who spoke for the city, the clerk sent the chosen delegates' names and a second list of people who had chosen nobody.",
+      "text": "The first pool meeting lasted until tea cooled. Members reduced contributions, hired a clerk for fewer hours, and set their first review for seven days later. Two costly licenses stayed outside the fund. A performer declined to join and kept her separate contract; Qiao repaired her collar at the posted price. Tao delivered the orchard jars, then returned to dispute the delivery rule. The minutes kept his objection. When the court requested representatives, the clerk sent the chosen delegates and a second list of people who had chosen nobody.",
       "background": "tea_house_private_room",
       "effect": "none",
       "ending": "The Licenses of Working People",
@@ -4162,7 +4139,7 @@
       "chapter": "book_v",
       "speaker": "narrator",
       "actor": "qiao_sen",
-      "text": "Qiao led them to the dressing room, where Bian sat before a bronze mirror. He fitted the plain shell first and asked her to turn, chew, and look down at her hands. Only then did he fasten its collar. The porter's smile rose over her features like color crossing a wet brush. Bian tested one low note and stopped; the sound rasped. Qiao loosened a reed by a hair's width. When she spoke again, the voice had warmth without taking the words away from her.",
+      "text": "Qiao led them to the dressing room. Bian sat before a bronze mirror while he checked a plain fitting form, asking her to turn, chew and look down. After those ordinary checks he replaced the form with her original painted shell, checking its signed seal before attaching the returned collar. The porter's smile rose over her features. Bian tried one low note; it rasped. Qiao loosened a reed by a hair's width. When she spoke again, the changed timbre left her own words intact.",
       "background": "borrowed_face_dressing_room",
       "effect": "none",
       "next": "city_mask_expression",
@@ -4201,7 +4178,7 @@
       "chapter": "book_v",
       "speaker": "narrator",
       "actor": "qiao_sen",
-      "text": "Bian tipped the contents of her cloth bag onto the table: the collar, a rental slip, and two return tokens. Both tokens bore reed-seven, although one came from her own return and the other from Tao Min's. Qiao's schedule gave Tao reed-nine; their punched corners differed. Qiao laid the genuine studio sample beside them. Its red closing knot was flat and narrow; Bian's lining covered a thicker joint. The portrait shell and its signed seal matched his fitting notes. Someone had kept the useful face while changing the part that told a clerk what it authorized.",
+      "text": "Bian placed her changed collar, rental slip and two return tokens on the table. Tao Min had lent his token and rental slip, with a signed note allowing dates and serials at the hearing. Both tokens bore reed-seven, though Qiao's schedule gave Tao reed-nine; their punched corners differed. His genuine studio sample's flat red knot differed from Bian's thicker pasted join. Her portrait shell and signed seal matched his fitting notes. The added lining changed what a clerk might believe the return authorized.",
       "background": "mask_makers_studio",
       "effect": "none",
       "next": "city_mask_stakes",
@@ -4214,7 +4191,7 @@
       "chapter": "book_v",
       "speaker": "qiao_sen",
       "actor": "qiao_sen",
-      "text": "Tao has lost a week's bookings because the register treats the shared number as a shared permanent name. Bian's guild has held back her practice credit. Neither needs us to declare all masks wicked. They need their two returns separated and the extra pledge removed from these collars. If I close every rental, the market carriers lose work before anyone checks a single slip. I can set this batch aside while we measure it. I cannot pay every worker to wait for a grand answer.",
+      "text": "Tao has lost a week's bookings because the register treats the shared number as a shared permanent name. Bian's guild has held back her practice credit. They need their returns separated and the unauthorized registry pledges removed. Bian's examined collar needs repair; each further collar needs its own check. Closing every rental would stop unaffected carriers before anyone examined their slips. I can set this batch aside. I cannot pay every worker to wait for a grand answer.",
       "background": "mask_makers_studio",
       "effect": "none",
       "next": "city_mask_method",
@@ -4246,8 +4223,7 @@
           "text": "Compare the job dates and drying board.",
           "next": "city_mask_dates",
           "effects": {
-            "insight": 2,
-            "resolve": 1
+            "insight": 3
           },
           "requires": {
             "insight": 5
@@ -4257,8 +4233,7 @@
           "text": "Ask the workers to reconstruct their fittings.",
           "next": "city_mask_workers",
           "effects": {
-            "trust": 2,
-            "resolve": 1
+            "insight": 3
           }
         }
       ],
@@ -4271,7 +4246,7 @@
       "chapter": "book_v",
       "speaker": "narrator",
       "actor": "lin_yue",
-      "text": "Lin Yue set her palm beside the collar, leaving its clasp open. A small breath of qi ran through the practice strand Qiao had laid beneath it. Light reached the red knot and stopped, then caught again in a finer loop pasted across the gap. The loop had been added to an already closed lattice. She marked both ends on Qiao's drawing while the collar stayed dark. The useful seam was a map of joins; she did not need to wear the portrait to read it.",
+      "text": "Qiao laid an isolated practice strand beneath the offered collar. Lin Yue checked the blank, supplied a quarter-unit through her first arm pair and recorded the smaller delivered trace. The strand lit its own copied joins; no qi entered the mask. A red knot and pasted finer loop appeared on the ordinary comparison drawing. Yue marked their ends, then discharged before Qiao moved the collar. The drawing located an added join. It could not identify the hand that made it or certify the concealed material without another test.",
       "background": "mask_makers_studio",
       "effect": "none",
       "next": "city_mask_seam_result",
@@ -4285,7 +4260,7 @@
       "chapter": "book_v",
       "speaker": "qiao_sen",
       "actor": "qiao_sen",
-      "text": "That narrow bridge sends the closing pulse into two places. One is the return mark I fitted. The other sits under the pasted lining and repeats the mark beside a permanent-name pledge. Do you see why the voice sounded rough? The added loop tugs the lower reed frame when a wearer turns her head. I would never pass that through a fitting. We have found an extra circuit, not a second person hiding inside the mask. I will draw its joins and sign the sheet.",
+      "text": "The copied bridge predicts two destinations: the return mark I fitted and a repeated mark beside a permanent-name pledge. It maps what an added loop could do; it does not prove the concealed collar follows that drawing. Such a loop could tug the lower reed frame and explain the rough voice. Before sealing the exhibit, I will inspect its offered, loosened lining directly under my ordinary bench lens. We will submit observed joins separately from this test copy.",
       "background": "mask_makers_studio",
       "effect": "none",
       "next": "city_mask_rejoin",
@@ -4298,7 +4273,7 @@
       "chapter": "book_v",
       "speaker": "narrator",
       "actor": "lin_yue",
-      "text": "Qiao's drying board still held the spring batch in black ink. Lin Yue placed each rental slip under its date, then read the jobs in order. Bian's collar had dried on a Tuesday; Tao's on the following Thursday. The slips named different work accounts, reed-seven and reed-nine, and different return times. Both copied tokens claimed a single return after the registry's revision. A smear on Tao's slip was blue dye, not a corrected digit. Lin Yue left it visible in her copy because a neat page would hide the difference.",
+      "text": "Qiao's drying board still held the spring batch in black ink. Lin Yue placed each rental slip under its date, then read the jobs in order. Bian's collar had dried on Tuesday; Tao's on Thursday. The slips named different work accounts, reed-seven and reed-nine, and different return times. Both copied tokens claimed a single return after the registry's revision. A blue smear marked Tao's slip, but the relevant digits were legible. Lin Yue preserved it without claiming to know its material or cause.",
       "background": "mask_makers_studio",
       "effect": "none",
       "next": "city_mask_dates_result",
@@ -4350,7 +4325,7 @@
       "chapter": "book_v",
       "speaker": "narrator",
       "actor": "qiao_sen",
-      "text": "Qiao lifted Bian's sound shell from the changed collar. Its smile and voice still worked; the signed seal still authorized her original guild task. His fitting notes described two good joints and two separate accounts. Beneath the added paste, an extra loop fed a copied return mark and a permanent-name pledge. Lin Yue sealed each token in its own sleeve, leaving reed-seven visible through a cut square. The pair established a copied number. Identifying who pasted the lining would take other evidence. Qiao labeled the sleeves before they left.",
+      "text": "Qiao lifted Bian's sound shell from the changed collar. Its signed seal matched her original task. With her permission, he folded back the lining's already loose edge without cutting it. Under an ordinary bench lens he traced the extra loop to the copied return mark and permanent-name pledge, then drew the observed joins. Lin Yue sealed each token separately, leaving reed-seven visible through a cut square. The pair established a copied number. Identifying who pasted the lining would take other evidence. Qiao labeled the sleeves.",
       "background": "mask_makers_studio",
       "effect": "none",
       "next": "city_mask_mirror",
@@ -4376,7 +4351,7 @@
       "chapter": "book_v",
       "speaker": "qiao_sen",
       "actor": "qiao_sen",
-      "text": "We can test the loose offcut, not scrape away the collar we must show. This paste goes cloudy in warm water because someone washed it with alum. Mine stays milky and lifts in a skin. The new lining was softened, laid over the dry old knot, and fixed again. That explains the long scrape Nian saw. A repair can look like this too; the wash alone proves no false pledge. Joined to the extra mark and the paired tokens, it establishes how the substitution could have been made.",
+      "text": "Bian offered the loose offcut from her changed lining; the collar itself would stay intact. Qiao labelled it beside his original paste and a retained alum-washed practice sample. In equal warm-water cups, the offered paste clouded like the washed reference; his original lifted in a milky skin. 'Compatible with that wash,' he said, 'not a unique identification. A repair could leave a similar surface.' The extra pledge and repeated tokens remained separate evidence. The material test suggested a preparation method; it proved no handler or intention.",
       "background": "mirror_repair_shop",
       "effect": "none",
       "next": "city_mask_loft",
@@ -4415,7 +4390,7 @@
       "chapter": "book_v",
       "speaker": "narrator",
       "actor": "lin_yue",
-      "text": "At the safe house, Lin Yue folded the drawings around a board so their edges would stay flat. Qiao signed the fitting schedule and the three comparisons: seam, paste, and weave. Bian and Tao chose to have their separate accounts read at the hearing; Nian and Fu supplied short statements about their own work. The collars remained sealed as exhibits. Qiao listed the batch held for inspection and the unaffected rentals still open. A page left blank at the back would record what the hearing decided, after it heard them.",
+      "text": "At the safe house, Yue folded the drawings around a board. Qiao signed the fitting schedule and three direct comparisons: collar joins, paste and weave. Bian and Tao authorized their separate accounts for the hearing; Nian and Fu supplied statements about their own work. Bian's examined collar and both tokens remained separately sealed as exhibits. Tao's collar awaited its own physical check. Qiao listed the batch held for inspection and unaffected rentals still open. A blank page would record the hearing's decision.",
       "background": "city_safe_house",
       "effect": "none",
       "next": "city_mask_departure",
@@ -4503,7 +4478,7 @@
       "speaker": "mei_dulan",
       "actor": "mei_dulan",
       "background": "identity_exchange_hall",
-      "text": "The director ordered a batch conversion six days ago. Every temporary recognition-use entry was copied into the permanent collateral column. Here is the instruction number on Tao's form. When the account fails, the system holds the worker's name-proof certificate as security. That certificate is what employers request before releasing pay. A copied column has turned a disputed commercial charge into an obstacle to proving ordinary work. We must preserve the original permission beside the conversion order. A registry seal verifies which document we received; it cannot make an alteration fair.",
+      "text": "The director ordered a batch conversion six days ago. Every temporary recognition-use entry in that spring batch was copied into the permanent collateral column. Here is the instruction number on Tao's form. When its account fails, the system holds the worker's name-proof certificate as security. That certificate is what employers request before releasing pay. A copied column has turned a commercial dispute into an obstacle to proving ordinary work. Preserve the original permission beside the conversion order. A registry seal verifies receipt; it cannot make an alteration fair.",
       "next": "city_registry_rental",
       "cultivation": {
         "realm": "qi_gathering",
@@ -4536,27 +4511,21 @@
             "insight": 5
           },
           "effects": {
-            "insight": 2,
-            "resolve": 1
+            "insight": 3
           }
         },
         {
           "text": "Ask willing workers to confirm their receipts.",
           "next": "city_registry_witness_door",
-          "requires": {
-            "trust": 4
-          },
           "effects": {
-            "trust": 2,
-            "insight": 1
+            "insight": 3
           }
         },
         {
           "text": "Reconcile the payment slips Tao provides.",
           "next": "city_registry_charges_table",
           "effects": {
-            "resolve": 2,
-            "insight": 1
+            "insight": 3
           }
         }
       ],
@@ -4911,19 +4880,14 @@
           "text": "Invite willing workshop tenants to compare the coded trays.",
           "next": "city_perfumer_trust_compare",
           "effects": {
-            "trust": 1,
-            "insight": 1
-          },
-          "requires": {
-            "trust": 4
+            "insight": 2
           }
         },
         {
           "text": "Use the vacant loom bay for a slow strip comparison.",
           "next": "city_perfumer_drying_bay",
           "effects": {
-            "resolve": 1,
-            "insight": 1
+            "insight": 2
           }
         }
       ],
@@ -4950,7 +4914,7 @@
       "chapter": "book_v",
       "speaker": "fei_nuo",
       "actor": "fei_nuo",
-      "text": "The answer repeats. Plain amber lacks the violet finish. My retained return blend and both offered fragments share it, while fresh fitting stabilizer behaves differently. Here are two comparison strips, dried under their original tray numbers. We will attach the key and the warming readings. The workers' tags have a later wax trace along the return folds, but that placement needs the paper records beside it. I can identify my prepared material within this test. I cannot identify the hand that put it there.",
+      "text": "The answer repeats. Plain amber lacks the violet finish. My retained return blend and both offered fragments share it, while fresh fitting stabilizer behaves differently. Here are two comparison strips under their tray numbers. Attach the key and warming readings. The sealed tags supply permitted fitting dates, not a tested wax location or application time. My supply entry dates the blend's delivery; the courier's record must corroborate it. I can identify a material match within this test. I cannot identify the hand that applied it.",
       "background": "perfumer_workroom",
       "effect": "none",
       "next": "city_perfumer_qi_cost",
@@ -5067,7 +5031,7 @@
       "chapter": "book_v",
       "speaker": "glasswing_moth",
       "actor": "glasswing_moth",
-      "text": "Turn the numbered cards over once more. I will compare the cooled surfaces before you pack them. This one is plain amber. Those three have the violet finish: your original blend and the two offered fragments. Warmth made the trails stronger, but the grouping remains the same. Reveal the key and put my answer beside the others. Keep the sealed tags covered; I have finished with the permitted fragments. Fei, the sharp jar stays shut when I return to the loft. I still need to mend that tenant's torn thread.",
+      "text": "Read my numbered observation before you pack the cooled strips. Plain amber stood apart; my record grouped the original violet blend with the two offered fragments. Compare that written grouping with the tray key and retain any disagreement. It records the comparison I completed during my agreed turn. I decline a further cooled test; keep that limit beside my account. Leave the sealed tags covered. Fei, the sharp jar stays shut when I return to the loft. I still need to mend that tenant's torn thread.",
       "background": "perfumer_workroom",
       "effect": "none",
       "next": "city_perfumer_worker_story",
@@ -5194,6 +5158,9 @@
     "data/books/book_vii_marsh.json",
     "data/books/book_vii_archive.json",
     "data/books/book_vii_road.json",
-    "data/books/book_viii_foundry.json"
+    "data/books/book_viii_foundry.json",
+    "data/books/book_ix_thunderfen.json",
+    "data/books/book_x_storm_ledger.json",
+    "data/books/book_xi_salt_road.json"
   ]
 }

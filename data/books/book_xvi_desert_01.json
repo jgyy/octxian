@@ -1,0 +1,843 @@
+{
+  "chapters": {
+    "book_xvi_desert": {
+      "label": "BOOK XVI",
+      "title": "The Road Beneath the Salt"
+    }
+  },
+  "characters": {},
+  "nodes": {
+    "desert_start": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The wheel struck the lip of the street just as Lin Yue reached Bitter Wells. A water cart tilted; its driver threw himself against a barrel that was already moving. Yue dropped her pack and caught the trailing brake rope with both hands. The rope burned through the dust on her palms. Across the street a woman shouted for the children to get behind the stone trough. The cart settled crookedly against it, creaking. One broken jar emptied into the gutter. Nobody moved until the last wheel stopped.",
+      "background": "salt_desert_survey_camp",
+      "next": "desert_p01_002"
+    },
+    "desert_p01_002": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The driver kept saying that he had set the brake. He was young enough that each repetition sounded like a request to be older. Yue loosened her grip and looked at the wooden pawl hanging beside the axle. Its tip had snapped cleanly across an old dark crack. She pointed to it, but a broad man in a brown coat was already kneeling. He turned the broken piece toward the light, then put a hand on the driver's shoulder. The boy stopped trying to explain what his hands had done.",
+      "background": "salt_desert_survey_camp",
+      "next": "desert_p01_003"
+    },
+    "desert_p01_003": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "han_xun",
+      "actor": "han_xun",
+      "text": "'Bring another cart,' the man said. 'And keep the damaged one here until the wheelwright sees it.' A woman beside the trough asked who would pay for her broken jar. 'I will,' he answered. She asked his name. 'Han Xun.' She repeated it loudly enough for the shopkeepers to hear. He looked briefly embarrassed, then gave her a copper and asked whether she needed water carried home. Yue watched the ordinary offer become less easy when the woman said yes. He picked up her remaining jar himself.",
+      "background": "salt_desert_survey_camp",
+      "next": "desert_p01_004"
+    },
+    "desert_p01_004": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Only after the cart had been unloaded did Yue remember her pack. It lay beneath an awning, where a shopkeeper had dragged it out of the gutter. Her bowl and folded blanket were dry; the knot around her practice lead had loosened. The shopkeeper gave her a strip of clean cloth for her palms. 'You are the cultivator, then?' he asked, noticing the fifth-stage cord beneath her collar. Yue told him her name. He looked toward the cart and said that names were easier to remember after somebody had helped with a rope.",
+      "background": "salt_desert_survey_camp",
+      "next": "desert_p01_005"
+    },
+    "desert_p01_005": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Bitter Wells spread around three stone cisterns and a row of tamarisks whose roots had lifted the paving. Beyond the last roofs, white ground shone under the late-summer sun. Yue had expected sand. She found salt crust, dark ridges and a road so straight that its far end seemed drawn against the sky. The wind brought the smell of baking bread from one direction and wet leather from another. She stood in the shade to wrap her palms, wondering how a place with so little green could smell so much of work.",
+      "background": "salt_desert_survey_camp",
+      "next": "desert_p01_006"
+    },
+    "desert_p01_006": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "A boy came out of the bread shop carrying a tray higher than his chin. He offered Yue the cracked loaf on top at half price. When she reached for it, he explained that the crack had happened in the oven, not on the street. 'I saw the gutter water,' he said. 'People are going to ask all morning.' Yue bought the loaf and sat beneath the tamarisk. The bread was warm enough to sting the scraped skin of her thumb. She ate slowly while the square returned to its interrupted errands.",
+      "background": "salt_desert_survey_camp",
+      "next": "desert_p01_007"
+    },
+    "desert_p01_007": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The hiring board stood opposite the public well. Most notices wanted ordinary hands: drivers, leather workers, cooks who could make beans tolerable after six days. One called for a survey assistant on a caravan crossing the White Basin. Its pay was modest, its meals included, its return arrangements written in a separate paragraph. Yue read that paragraph first. A ninth-stage surveyor would supervise prepared instrument work. Applicants would take a paid trial before joining the road crew. She finished her bread, brushed the crumbs from her coat and looked for the receiving yard.",
+      "background": "salt_desert_survey_camp",
+      "next": "desert_p01_008"
+    },
+    "desert_p01_008": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The yard gate had no grand inscription. A weathered plank showed a mule lifting one ear above a crooked sun. Inside, three covered carts stood on level blocks while workers checked their harnesses. The man from the street was trying to wash gutter mud from his coat without wetting a bundle of papers tucked beneath it. Yue stopped at the gate. He recognized the cloth around her hands and raised an eyebrow. 'You follow a broken cart home?' he asked. She pointed to the notice. His expression changed from surprise to calculation.",
+      "background": "salt_desert_survey_camp",
+      "next": "desert_p01_009"
+    },
+    "desert_p01_009": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "han_xun",
+      "actor": "han_xun",
+      "text": "'I manage this caravan,' Han said. 'The trial money is the same whether we hire you afterward or not. Speak to Gao Ru before you promise me anything.' He took the papers from his coat and laid them on a dry crate. A dark mark remained on the outer sheet. 'I used to tell people to trust my word,' he added. 'Then I discovered how many different words a hot afternoon can make a man believe he said.' He asked a worker to bring Yue water before sending her across the yard.",
+      "background": "salt_desert_survey_camp",
+      "next": "desert_p01_010"
+    },
+    "desert_p01_010": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Gao Ru worked at a table beneath a patched blue canopy. Her short hair had gone grey at one temple; a loose black strand kept falling over her measuring slate. She pushed it back with the end of a pencil instead of her dusty fingers. On the table lay a level staff, a closed instrument case and two cups that looked identical. Yue introduced herself. Gao nodded toward a stool. 'Sit where you can see the shadow move,' she said. 'If you rush the first comparison, the next seven become excuses for it.'",
+      "background": "salt_desert_survey_camp",
+      "next": "desert_p01_011"
+    },
+    "desert_p01_011": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The cups held plain water. One sat on bare stone; the other rested on folded felt. Gao asked which would feel warmer after a short wait. Yue answered, then caught herself and asked how long both had been there. The surveyor smiled at that question rather than the prediction. They waited while a driver argued with a harness buckle nearby. At last Yue touched the outside of each cup and found the difference small. Gao wrote down the conditions. The trial had begun before any instrument came out of its case.",
+      "background": "salt_desert_survey_camp",
+      "next": "desert_p01_012"
+    },
+    "desert_p01_012": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "gao_ru",
+      "actor": "gao_ru",
+      "text": "'The basin makes people hungry for a clear sign,' Gao said. 'A shimmer becomes a lake. A cold stone becomes a spring. A line on somebody else's map becomes a road they believe they can finish before dark.' She turned the felt pad over to show the damp patch underneath. 'Here is one reason for your result. There may be others.' Yue looked back at the street, where the broken cart was being led toward the wheelwright. The same morning had already offered two objects that looked sound until somebody changed the view.",
+      "background": "salt_desert_survey_camp",
+      "next": "desert_p01_013"
+    },
+    "desert_p01_013": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Gao read Yue's latest examination record without touching the stage cord. Four paired routes, three recovered trials, the usable charge and compatibility threshold: she asked who had witnessed the final checks and listened to the names. Then she asked what work Yue had done since leaving the kiln. The answer was mostly walking. 'Good,' Gao said. 'Then we begin with the walking body you brought, not the one on the best page of your report.' She made a note about the remaining heavy-work limits and sent for the caravan's clinician.",
+      "background": "salt_desert_survey_camp",
+      "next": "desert_p01_014"
+    },
+    "desert_p01_014": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Bao Sun arrived with a cup of tea in one hand and a roll of clean bandage in the other. She looked at Yue's wrapped palms before greeting Gao. 'Somebody has already given you a practical examination,' she said. She washed the shallow rope grazes, asking Yue to move each finger while she watched. The water darkened with street dust. Bao's questions were plain and quick: pain, sleep, recent illness, the weight of the pack. Yue found herself answering more honestly because the clinician seemed interested in finishing before her tea cooled.",
+      "background": "salt_desert_survey_camp",
+      "next": "desert_p01_015"
+    },
+    "desert_p01_015": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "bao_sun",
+      "actor": "bao_sun",
+      "text": "'Your hands will need different work today,' Bao said. 'You can still eat with them, which is the task I recommend next.' Han appeared behind her with an expression that suggested he had been hoping for a shorter conclusion. Bao gave him the bandage roll. 'You may tie the knots. Slowly.' He did, with such concentration that Yue nearly laughed. Bao saw it and smiled. 'He is excellent at buying cloth,' she said. 'It is the corners of a human being that still surprise him.' Han said that cloth had fewer opinions.",
+      "background": "salt_desert_survey_camp",
+      "next": "desert_p01_016"
+    },
+    "desert_p01_016": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "A guide sat on an overturned bucket beside the nearest cart, mending the strap of a sandal. Her scarf had faded from indigo to the colour of a distant storm. When Han introduced her as Tuo Yin, she did not stand. She held the sandal up to Yue instead. 'People always look at the horizon first,' she said. 'The road begins here.' Yue examined the worn stitching. One side had been patched twice. Tuo asked whether the new stage made Yue proud. The question came so directly that Yue admitted it did.",
+      "background": "salt_desert_survey_camp",
+      "next": "desert_p01_017"
+    },
+    "desert_p01_017": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "tuo_yin",
+      "actor": "tuo_yin",
+      "text": "'Keep some of that,' Tuo said. 'Pride can get you out of bed when the mule has eaten your breakfast. Just make it share a tent with embarrassment.' She pulled the needle through the leather and bit off the thread. Han asked whether she was willing to take another assistant. Tuo looked at Yue's hands, her pack and the way she had chosen the shady side of the cart. 'If Gao takes her, I will teach her the road,' she said. 'The mules will decide what they intend to teach.'",
+      "background": "salt_desert_survey_camp",
+      "next": "desert_p01_018"
+    },
+    "desert_p01_018": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "One of those mules put its nose over the rail and began working at the knot on Han's sleeve. He pushed it away without looking, and it immediately tried the papers on the crate. Yue rescued the damp contract while Tuo laughed so hard that she had to set down her sandal. The mule's ears flicked at the sound. A driver explained that it stole anything a person appeared to value, including a stone once kept for sharpening knives. Gao closed her instrument case. The animal watched the latch as if considering a new profession.",
+      "background": "salt_desert_survey_camp",
+      "next": "desert_p01_019"
+    },
+    "desert_p01_019": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The trial's ordinary task was counting harness pieces against the cart list. Yue could do it without loading her grazed palms. A worker laid buckles, leather loops and repaired traces on a mat, then asked her to call the marks while he inspected each piece. She found two items that shared a painted number but had different repairs. The worker cursed quietly. A replaced trace had kept the old inventory mark. He fetched the maker's note from a drawer. Together they changed the list before either object went back on a mule.",
+      "background": "salt_desert_survey_camp",
+      "next": "desert_p01_020"
+    },
+    "desert_p01_020": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "At the far end of the yard, a tall older man was trying to keep a roll of paper from catching the wind. He had tied one end to a water jar and the other to his own chair. The paper still bowed between them like a sail. Han introduced him as Du She, the map compiler. Du regarded Yue's stage cord and asked whether she could read contour intervals. Before she answered, Tuo called across the yard that he should ask whether his contours had learned to read the ground. Du's smile vanished.",
+      "background": "salt_desert_survey_camp",
+      "next": "desert_p01_021"
+    },
+    "desert_p01_021": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "du_she",
+      "actor": "du_she",
+      "text": "'The ground has changed,' Du said. 'That is why a surveyor travels instead of living forever behind a handsome map.' He flattened the sheet with both hands. Yue saw old ink beneath newer blue corrections. A road curved around a basin, crossed a marked rise and ended at a small square labelled Crescent House. Du tapped that square. 'The caravan's work is there. The four-day approach uses the upper road.' His voice became more formal while Tuo stayed silent. Yue sensed that the map carried an argument older than the morning's hiring.",
+      "background": "salt_desert_survey_camp",
+      "next": "desert_p01_022"
+    },
+    "desert_p01_022": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Gao came over carrying the two water cups. She set one on Du's curling map and drank from the other. 'We will use your road distances as a starting account,' she said. 'Tuo's current markers and our survey checks will decide the day's travel.' Du looked at the cup, then at her. He had taught her once; that much was clear from the way he began to correct the angle of her pencil before stopping himself. Gao noticed the movement. She rotated the pencil deliberately and asked him for the upper-road revision date.",
+      "background": "salt_desert_survey_camp",
+      "next": "desert_p01_023"
+    },
+    "desert_p01_023": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The date was six weeks old. Du had received it from a courier who supplied a route sketch and two gate descriptions. He unfolded the courier's signed note beside the map. Tuo leaned closer when he reached the second gate. A post had been moved after a washout; the road now passed north of a shallow gully. 'Who walked that north line?' she asked. Du named the courier's guide. Tuo said she knew him. The disagreement did not disappear, but for the first time it had a particular person and a particular piece of ground.",
+      "background": "salt_desert_survey_camp",
+      "next": "desert_p01_024"
+    },
+    "desert_p01_024": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Yue asked whether she could copy the public road portion for her trial notes. Du gave her a loose practice sheet and told her to keep his private client list covered. The boundary was easy enough to follow. She copied the scale, the revision date and the two gate marks, then hesitated over the small square at Crescent House. Its label had been overwritten. Under the fresh ink she could see part of another word. Du pulled the original closer when she looked at it. 'A former name,' he said. 'Start with the road you can actually travel.'",
+      "background": "salt_desert_survey_camp",
+      "next": "desert_p01_025"
+    },
+    "desert_p01_025": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "At noon the cook rang a spoon against an empty pot. Workers drifted toward the shade with the immediate purpose of people who had spent the morning lifting things. Yue was given a bowl of beans, a wedge of bread and a seat beside a driver whose shirt had lost one sleeve. He asked whether she had come seeking desert treasures. She said she had come for paid work. He nodded solemnly. 'Most treasures begin with that explanation,' he said. Then he handed her the salt and warned that the beans required more courage than the crossing.",
+      "background": "salt_desert_survey_camp",
+      "next": "desert_p01_026"
+    },
+    "desert_p01_026": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The cook heard him and leaned around the pot. 'Tomorrow you may make them,' she said. His expression changed so rapidly that Yue choked on a bean. Bao slapped her gently between the shoulders and passed water. The whole table laughed, including the driver. For a moment the yard felt like the kiln at the end of a shift: tired hands, badly hidden affection, food defended as a matter of honour. Yue had missed that ordinary noise more than she had expected. Her examination had occupied months; the people after it were arriving one bowl at a time.",
+      "background": "salt_desert_survey_camp",
+      "next": "desert_p01_027"
+    },
+    "desert_p01_027": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Han ate standing beside the contracts until Bao ordered him onto a stool. A folded letter slipped from his coat when he sat. He caught it quickly, but Yue had already seen the child's drawing on its outer side: three wheels, a large sun and a person waving from a window. 'My daughter thinks every cart needs another wheel,' he said. Tuo answered that his bookkeeping often did. He smiled, then folded the letter along a worn crease. Yue noticed how carefully he kept the drawing away from the wet edge of his bowl.",
+      "background": "salt_desert_survey_camp",
+      "next": "desert_p01_028"
+    },
+    "desert_p01_028": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The driver beside Yue had a wife working in the dye yards west of Bitter Wells. He sent money home every second crossing and complained that his son could now beat him at counting stones. Another worker said he was saving for a roof, then admitted that he had been saving for the same roof for five years. Their stories crossed without asking Yue for her own. At last she offered a small memory of the west kiln, where damp firewood made everyone accuse the sky. The driver asked whether the sky had ever paid compensation.",
+      "background": "salt_desert_survey_camp",
+      "next": "desert_p01_029"
+    },
+    "desert_p01_029": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "After lunch, Tuo took Yue to the cistern steps. A woman was filling jars through a cloth strainer while an older collector checked the measure. People waited quietly until a child began asking why water had a price if rain fell on everyone. The older collector gave him a wooden scoop and told him to help lift it. He discovered the weight before she answered. Yue watched the two work together. The basin beyond the town shone white, almost beautiful enough to make her forget the jar that had shattered in the street.",
+      "background": "salt_desert_survey_camp",
+      "next": "desert_p01_030"
+    },
+    "desert_p01_030": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "tuo_yin",
+      "actor": "tuo_yin",
+      "text": "'This well belongs to the town,' Tuo said. 'The next safe one on our road does not. We carry enough for the journey we have agreed to make.' She spoke without the grandness Yue had heard in stories about desert guides. A woman in the queue asked whether Tuo had heard from her sister. They talked about an ordinary wedding, a badly fitted coat and a goat that had eaten the bride's flowers. Tuo returned to Yue still smiling. The road's guide was also somebody's aunt, and the fact made her warnings feel heavier.",
+      "background": "salt_desert_survey_camp",
+      "next": "desert_p01_031"
+    },
+    "desert_p01_031": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "They walked back beside the wall where the paving gave way to dry earth. Tuo stopped to examine a crack across the road's first milestone. It had been filled with pale dust, making the stone look unbroken from a distance. 'Touch it with the end of your pencil,' she said. Yue did. A narrow line of darkness reappeared beneath the powder. Tuo asked what the mark proved. Yue began to answer that the road had been neglected, then noticed the fresh support stones behind it. The guide waited until she changed her answer.",
+      "background": "salt_desert_survey_camp",
+      "next": "desert_p01_032"
+    },
+    "desert_p01_032": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The milestone had been repaired, but the visible face had cracked again. That was enough to write. Tuo nodded and led Yue through the yard gate. Gao had opened the instrument case at last. Inside lay a copper test thread, a grounded adapter and a small stone sleeved in cloth, each beside its recorded rating. The trial would resume in the cool workroom after Bao checked Yue's hands. Yue set down the borrowed map sheet. She had arrived wanting to learn a desert. By midafternoon, even its first milestone had demanded more attention than a beautiful horizon.",
+      "background": "salt_desert_survey_camp",
+      "next": "desert_p01_033"
+    },
+    "desert_p01_033": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The workroom smelled of dry wood and the bitter rind somebody had left beside a kettle. Bao checked Yue's bandages again, then asked Gao to keep the afternoon trial away from her hands. Gao moved the adapter to her own place without argument. Yue felt a foolish disappointment. She had travelled so far toward a stronger stage that sitting still seemed like arriving at the wrong door. Bao noticed her watching the lead. 'You can learn something while another person does the dangerous part,' she said. 'Most of us begin our best work that way.'",
+      "background": "ash_bridge_foundry",
+      "next": "desert_p01_034"
+    },
+    "desert_p01_034": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Gao used a sleeve of measured reference stone to supply the instrument's small comparison field. The thread shone, then darkened when she opened the release. She let Yue call the timing while she repeated the test under a cloth screen. Without the comforting light, the sound of Gao's fingers on the latch became much louder. Yue called the interruption too early. They tried again after changing the screen's position. This time she listened to the instrument rather than the person she expected to move it. Gao wrote down both results.",
+      "background": "ash_bridge_foundry",
+      "next": "desert_p01_035"
+    },
+    "desert_p01_035": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "gao_ru",
+      "actor": "gao_ru",
+      "text": "'I can teach you the sockets we use,' Gao said. 'You already know how to be honest about a stopped task. That is harder to teach.' She set the spent reference beside a fresh one instead of returning it to the same sleeve. 'We will assess your own input after your hands recover. Today I need your eyes.' Yue looked at the recorded error without wanting quite so desperately to rub it out. The little dark thread had given her no impressive work to describe. It had still changed the next question she would ask.",
+      "background": "ash_bridge_foundry",
+      "next": "desert_p01_036"
+    },
+    "desert_p01_036": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "For the next task, Gao placed three short route descriptions beside Du's map. Yue had to find which journeys used the same gate and which merely gave two gates similar names. One description counted distance from the market; another counted from the cistern; the third began beyond the last houses. The apparent disagreement shrank when she placed all three starting points on her copy. A real disagreement remained at a northward turn. Gao asked her to mark it in a different ink. The map looked untidier afterward and became considerably easier to use.",
+      "background": "ash_bridge_foundry",
+      "next": "desert_p01_037"
+    },
+    "desert_p01_037": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Du came in while Yue was marking that turn. He watched over her shoulder long enough that she could hear his breathing. At last he said the blue correction had been made from an experienced guide's report. Gao asked whether experience changed the report's starting point. He answered sharply, then saw the two marked cisterns and fell silent. Yue waited with her pencil lifted. She knew the awkwardness of a teacher discovering that an assistant had found something real. Du took another stool. 'Show me where your measure begins,' he said, more quietly.",
+      "background": "ash_bridge_foundry",
+      "next": "desert_p01_038"
+    },
+    "desert_p01_038": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "They spent the next half hour on a mistake smaller than the map's longest fold. Du had joined an old market distance to the courier's newer road distance without retaining the change of origin. The shape of the upper road was still supported; its total length needed correction. He drew a firm line through the old figure and signed beside the amended one. Yue expected Gao to look pleased. Instead the surveyor asked him for the courier's next receiving address. Even a corrected sum could not tell them whether the gate itself remained where the guide had seen it.",
+      "background": "ash_bridge_foundry",
+      "next": "desert_p01_039"
+    },
+    "desert_p01_039": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Outside, the wind had strengthened. Two workers were trying to lower the blue canopy while the mule watched from its rail. Yue tucked the practice map into its folder and helped hold an ordinary corner line with her uninjured forearm. She kept her bandaged hands loose. The cloth came down in a rush, shaking dust over everybody beneath it. Han sneezed into his own contract. The driver with one sleeve declared that the first desert storm had arrived early and brought a complete inventory of the yard. Gao told him to put the inventory back where it belonged.",
+      "background": "salt_desert_survey_camp",
+      "next": "desert_p01_040"
+    },
+    "desert_p01_040": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The cook swept the fallen dust out of the eating shade, uncovering a small button beneath a crate. Han recognized it and asked where she had found it. It belonged to a coat his daughter had worn on her last visit. He put it in the same pocket as her letter. The cook watched him for a moment before returning to the broom. Yue could feel a private story nearby, but she had learned to let people choose its doorway. She asked instead whether the evening beans would be worse than the noon ones. The cook looked offended on principle.",
+      "background": "salt_desert_survey_camp",
+      "next": "desert_p01_041"
+    },
+    "desert_p01_041": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Tuo returned from the road office with a narrow strip of paper rolled inside her scarf. The north gate would be attended during their planned crossing hours, but the road clerk wanted the caravan to present its current cart dimensions. Han began to complain about another fee. Tuo interrupted him. 'He asked for the width, not your money.' She laid the strip flat. It recorded the available opening after the repaired gatepost had been moved. Gao fetched the axle list. One cart's projecting tool rack would have to be folded before they reached it.",
+      "background": "salt_desert_survey_camp",
+      "next": "desert_p01_042"
+    },
+    "desert_p01_042": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Yue went with a driver to measure that rack. Its hinge had rusted against a wooden stop, and the driver was embarrassed to discover that he had been calling it folding equipment for months without folding it. He worked oil into the pin while Yue held the list where he could read it. A farrier came over and offered a smaller hammer. The hinge moved at last with an ugly little squeal. They laughed at the noise, then measured again. The caravan had gained no grand shortcut. It had gained the ability to pass through its first gate.",
+      "background": "salt_desert_survey_camp",
+      "next": "desert_p01_043"
+    },
+    "desert_p01_043": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "At the wheelwright's shed, the morning's damaged cart stood above a scatter of old wooden pawls. Han asked Yue to come because she had seen the failure before the cart was moved. The young driver hovered beside the doorway. The wheelwright showed them a dark seam inside the broken tip, hidden beneath a strip of reinforcing leather. The driver had not cut it that morning. Han asked when the part had last been inspected. Nobody answered quickly. The silence made his face look older than the road dust had.",
+      "background": "salt_desert_survey_camp",
+      "next": "desert_p01_044"
+    },
+    "desert_p01_044": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "han_xun",
+      "actor": "han_xun",
+      "text": "'Keep him on his wages while we settle the repair,' Han said at last. The driver started to thank him. Han shook his head. 'You set the brake. I paid for a cart whose brake should have held.' He turned to the wheelwright and asked for a sound replacement, then wrote the work order himself. Yue stood beneath the doorway while the shop's shavings blew against her boots. She had admired his quick payment for the broken jar. The slower answer here seemed to cost him more, although nobody in the square was watching.",
+      "background": "salt_desert_survey_camp",
+      "next": "desert_p01_045"
+    },
+    "desert_p01_045": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "On the walk back, Han asked whether she intended to accept the hire if Gao approved it. Yue said she wanted to see the full terms first. He nodded, but his pace quickened as if the question had become another task on an overfull day. At the yard he stopped beside a low door and called for a small ledger. A clerk brought it from the office. The cover had been repaired so often that no original corner remained. Han laid it open on the crate and found the line for the assistant's trial pay.",
+      "background": "salt_desert_survey_camp",
+      "next": "desert_p01_046"
+    },
+    "desert_p01_046": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "He paid that afternoon's trial before discussing the road. Yue counted the coins into her own purse and signed only the work she had already completed. The small certainty steadied her more than praise would have done. Gao came from the workroom with the marked map sheet. She wanted Yue on the survey crew if Bao cleared her for the departure tasks. Tuo wanted an assistant who would carry the guide's current observations back to the table without improving their story. Han asked whether both demands fitted inside one person. Yue said they would have to find out.",
+      "background": "salt_desert_survey_camp",
+      "next": "desert_p01_047"
+    },
+    "desert_p01_047": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The contract covered nine planned travel and survey days, with meals, a dry sleeping place when the road offered one, and a paid return arrangement. Weather stops would be recorded as paid waiting, while any added task needed a fresh agreement. Yue read the notice about the caravan's return fund twice. Han did not hurry her. Across the yard the young driver had begun fitting the replacement brake, calling for the wheelwright whenever a joint resisted. The sound of that work made the return paragraph feel less like a promise written only to get people through the gate.",
+      "background": "salt_desert_survey_camp",
+      "next": "desert_p01_048"
+    },
+    "desert_p01_048": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "There would be twelve adults on the road: the five principal workers, Yue, three cart drivers, the cook, the farrier and a camp hand. Six mules would pull three carts. Gao showed Yue where her own place sat on the crew list, beside observation and prepared instrument work. Heavy lifting was assigned to different turns. Yue asked whether she could change tasks after the first days. 'Ask after you know what those days have done to you,' Gao said. 'Ambition can come with us. It does not need to pack everybody else's tools.'",
+      "background": "salt_desert_survey_camp",
+      "next": "desert_p01_049"
+    },
+    "desert_p01_049": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The water account was a single page in the middle of Han's otherwise unruly ledger. The tanks would carry eighteen hundred eighty usable litres after filling checks. Two hundred belonged to an emergency compartment; the ordinary plan counted the expected needs of the people and animals separately. Gao pointed to the empty column where actual daily use would be entered. Yue looked at the figure, then at the six mules standing under their shade. The crossing had acquired a weight she could imagine: not a shining technique, but many jars lifted one after another.",
+      "background": "salt_desert_survey_camp",
+      "next": "desert_p01_050"
+    },
+    "desert_p01_050": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Tuo found her looking at that page and handed her an empty carrying jar. 'Walk to the cistern and back,' she said. Yue did, enjoying the lightness. Then Tuo filled it partway and asked her to repeat the turn. The difference reached her shoulders before she returned. The guide took it from her while her hands were still relaxed. 'That is why we travel early,' she said. 'The noon road makes every jar feel as if it has decided to hold somebody else's share too.' Yue set the empty one down with new respect for its handles.",
+      "background": "salt_desert_survey_camp",
+      "next": "desert_p01_051"
+    },
+    "desert_p01_051": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Bao asked Han for the camp's treatment inventory. He produced a list of cloth, splints, ordinary medicines and the water allowance already reserved for routine care. She crossed out a cracked basin that had been carried on the previous trip because it looked serviceable when stacked. A driver protested that it still held most of its water. Bao held it under the light until the seam showed. 'Then it can hold nails,' she said. The driver considered this, carried it toward the tool rack and returned with a sound basin from the supply room.",
+      "background": "salt_desert_survey_camp",
+      "next": "desert_p01_052"
+    },
+    "desert_p01_052": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Yue helped Bao wrap the clean bowls rather than testing her injured grip on a crate. As they worked, she asked what had brought the clinician to Bitter Wells. Bao said she had followed a patient, stayed through a bad summer and discovered that leaving would require more planning than arriving. She had a sister in the east who sent letters complaining about the same thing. Yue told her that ordinary work had delayed many of her own journeys. Bao tied the bundle and said ordinary work also gave a person somewhere worth returning to.",
+      "background": "salt_desert_survey_camp",
+      "next": "desert_p01_053"
+    },
+    "desert_p01_053": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Late light lay across the yard when Du collected his maps. He paused beside Yue's copy, where the changed origin and corrected distance were still visible. 'I was your age when somebody first found my mistake in public,' he said. Yue had not told him her age, but she understood the comparison he intended. He admitted that he had hated the person for an entire winter. She asked what happened in spring. 'The next map was better,' he answered. Then he smiled at the folded sheet as if he were willing, for a moment, to be that young again.",
+      "background": "salt_desert_survey_camp",
+      "next": "desert_p01_054"
+    },
+    "desert_p01_054": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Tuo heard the end of his story from the gate. 'And you still hated him,' she said. Du answered that he had learned to hate more accurately. Their laughter surprised Yue after the morning's sharpness. It lasted only a few breaths, but it changed the way the three stood together. Tuo asked for the latest gate note before Du packed it. He gave her the working copy without making her ask twice. The road between them had an old wound; it also had habits that had survived beside it. Yue was beginning to see both.",
+      "background": "salt_desert_survey_camp",
+      "next": "desert_p01_055"
+    },
+    "desert_p01_055": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "She found a bed in the hired workers' room above the supply shop. It was narrow, with a window looking onto the cistern square. Her habitual pack fitted beneath it without rearranging anybody else's belongings. She set her bowl on the sill and opened her blank notebook. The first page of desert notes contained a broken brake, a folding rack, a corrected starting point and the names of five people. For once she did not begin with the realm she hoped to reach next. The work had arrived in a shape too interesting to reduce to that one ambition.",
+      "background": "west_kiln_home",
+      "next": "desert_p01_056"
+    },
+    "desert_p01_056": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "From the room below came the sound of the supply keeper arguing over a shipment of onions. Above it, somewhere on the roof, a loose tile clicked in the wind. Yue flexed her fingers gently and felt the shallow grazes pull beneath their clean cloth. She would need Bao's morning check before choosing stronger work. The thought no longer seemed like the journey closing a door. Down in the square Han was carrying the old woman's paid replacement jar beside her. She pointed toward a lane, and he changed direction while she continued talking.",
+      "background": "west_kiln_home",
+      "next": "desert_p01_057"
+    },
+    "desert_p01_057": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "At supper, Gao asked Yue to describe the afternoon's map correction without using the words careless or foolish. Yue tried twice before finding a sentence that named the changed origin and the omitted conversion. Du listened from the other end of the table. He added the date of the courier's note. The cook asked whether anybody could describe beans without using those same two words. This time even Gao laughed. Yue ate the evening portion and found it better than the first. The cook noticed the empty bowl and accepted it as the only testimony she required.",
+      "background": "west_kiln_home",
+      "next": "desert_p01_058"
+    },
+    "desert_p01_058": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "After the others left, Tuo remained beside the extinguished cooking fire. She was turning the repaired sandal over in her lap. Yue sat nearby without opening the conversation. At last the guide said that the upper road passed a place where somebody she loved had failed to come home. The words were quiet enough that Yue almost mistook them for a comment about the leather. She asked whether Tuo wanted to tell her more. 'On the road,' the guide said. 'If I find that I do.' She put the sandal on and tested the new stitch.",
+      "background": "west_kiln_home",
+      "next": "desert_p01_059"
+    },
+    "desert_p01_059": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Han called Yue into the office before the lamps were lit. The final offer lay beside the trial receipt, Gao's work note and Bao's restrictions for the next morning. He had amended the task list rather than leaving the clinician's advice on a separate page. Yue noticed that the handwriting grew smaller where he had fitted in the changed duties. She asked for a fresh copy with the same words and enough space to read them. He sighed, reached for another sheet, and admitted that his daughter said the same thing about letters from the road.",
+      "background": "west_kiln_home",
+      "next": "desert_p01_060"
+    },
+    "desert_p01_060": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "While he copied, Yue looked through the office window at the white basin beyond the roofs. Its beauty had softened in the evening. Dark ribs of stone appeared inside it, and a distant ridge held a line of red light. She thought of the months spent opening the new paired routes, of the careful mornings when a small improvement had felt enormous. That work travelled with her now. It would have to find its place among carts, uncertain maps and people whose lives had started long before she entered their yard with bandaged hands.",
+      "background": "west_kiln_home",
+      "next": "desert_p01_061"
+    },
+    "desert_p01_061": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The fresh offer was easier to read. Yue asked about the return fund, the ordinary stop arrangements and the date on which a delayed crew would discuss any extra work. Han answered each question, occasionally calling Gao to the doorway rather than pretending he knew an instrument's limits. At the end he asked what Yue hoped to learn. She surprised herself by saying she wanted to understand how a road could be wrong on paper while still carrying somebody safely home. He watched her for a moment. 'Then you should keep speaking to the people who use it,' he said.",
+      "background": "west_kiln_home",
+      "next": "desert_p01_062"
+    },
+    "desert_p01_062": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "She accepted the bounded hire and kept her copy folded inside the notebook. The equipment would be issued in the yard the following day; tonight the only new thing she carried was work she had agreed to attempt. Gao offered to show her the survey pack after breakfast. Tuo told her to bring the sandals she actually walked in, rather than buying beautiful ones for the basin. Bao told her to sleep. Han added that the mule would steal breakfast from anybody who mistook those instructions for an invitation to arrive late.",
+      "background": "west_kiln_home",
+      "next": "desert_p01_063"
+    },
+    "desert_p01_063": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "At the workers' room, Yue put the trial coins away and loosened the cord at her throat. The fifth-stage knot remained where she could find it in the morning. Through the window she heard the cistern keeper closing the last shutter and a child asking whether the desert began at that gate. Somebody answered that it began wherever a person stopped expecting shade. Yue lay down smiling at the answer. Her hands throbbed a little. Below, the town settled around its stored water, and the road waited beyond the roofs without promising what kind of person would return.",
+      "background": "west_kiln_home",
+      "next": "desert_p01_064"
+    },
+    "desert_p01_064": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Before sleep, she remembered the moment when Han had put his hand on the frightened driver's shoulder. The cart was already safe by then. Nothing practical required that gesture, yet the boy had begun breathing properly after it. Yue had spent much of the afternoon learning what a map needed to record. There were things a record would miss even when every distance was right. She left the notebook closed beside her bowl. Tomorrow she would meet the caravan's tools, and the people who had learned to live with their weight, in the cool hours before the yard grew loud.",
+      "background": "west_kiln_home",
+      "next": "desert_p02_001"
+    }
+  }
+}

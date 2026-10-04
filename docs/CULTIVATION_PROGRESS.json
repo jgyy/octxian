@@ -1,19 +1,19 @@
 {
-  "displayed_scenes": 1905,
-  "displayed_words": 160095,
+  "displayed_scenes": 2335,
+  "displayed_words": 190875,
   "new_training_scenes": 77,
-  "new_training_words": 5182,
-  "rewritten_book_i_scenes": 36,
-  "rewritten_book_i_words": 2397,
-  "rewrite_words": 41982,
+  "new_training_words": 5206,
+  "rewritten_book_i_scenes": 37,
+  "rewritten_book_i_words": 2519,
+  "rewrite_words": 79896,
   "strict_word_target": 1000001,
   "planned_rewrite_words": 1050000,
   "reference_checks": "pass",
   "duplicate_prose_checks": "pass",
   "continuity_checkpoints": "pass",
-  "inherited_words": 118113,
-  "remaining_displayed_words": 839906,
-  "remaining_rewrite_words": 958019,
+  "inherited_words": 110979,
+  "remaining_displayed_words": 809126,
+  "remaining_rewrite_words": 920105,
   "native_art": [
     {
       "mime": "image/png",
@@ -221,21 +221,571 @@
       "bytes": 2037993,
       "pngColorType": 6,
       "commit": "fffa8f3f812faade1a820f9743dac8791218669b"
+    },
+    {
+      "path": "assets/art/world/thunderfen_ridge.png",
+      "mime": "image/png",
+      "size": [
+        1672,
+        941
+      ],
+      "git_blob": "27bcfb64485e164928f39b6b62d4e8e6e685f2b1"
+    },
+    {
+      "path": "assets/art/world/thunderfen_night.png",
+      "mime": "image/png",
+      "size": [
+        1672,
+        941
+      ],
+      "git_blob": "0fb7fdaa21524db5651d2deb0e363d4fab0418fe"
+    },
+    {
+      "path": "assets/art/world/jiang_tao.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "git_blob": "d7913b4bfb024ff38157340973254492644d4b2b"
+    },
+    {
+      "path": "assets/art/world/copperback_tortoise.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "git_blob": "eadc889dc259025f0dd61dc3d9284ad89c2e2b81"
+    },
+    {
+      "path": "assets/art/world/cloudhound.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "git_blob": "49633efb143eecc83f2f3e9a887cf06a87e770dd"
+    },
+    {
+      "path": "assets/art/world/storm_compass.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "git_blob": "923d281fc916e1372ffed8c6b653f174e29eee42"
+    },
+    {
+      "path": "assets/art/effects/storm_discharge.png",
+      "mime": "image/png",
+      "size": [
+        1536,
+        1024
+      ],
+      "git_blob": "37522d85cad672e3bf8e5ff655946b34094763de"
+    },
+    {
+      "path": "assets/art/world/thunderfen_warning_observatory.png",
+      "mime": "image/png",
+      "size": [
+        1774,
+        887
+      ],
+      "git_blob": "ec67209777034e7253048bd9bf6acfcad7ed7cf0"
+    },
+    {
+      "path": "assets/art/world/salt_lantern_watermill.png",
+      "mime": "image/png",
+      "size": [
+        1672,
+        941
+      ],
+      "git_blob": "c504260012d684d63e61c0c9eb00919f11014499"
+    },
+    {
+      "path": "assets/art/world/yuan_lian.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "git_blob": "1a6e94eef4148329627e3314ce2ac4866043c9ad"
+    },
+    {
+      "path": "assets/art/world/reedglass_salamander.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "git_blob": "23fec3a16be994ccb58c6959faa4af13145b3dcb"
+    },
+    {
+      "path": "assets/art/world/canal_commons_lock.png",
+      "mime": "image/png",
+      "size": [
+        1672,
+        941
+      ],
+      "git_blob": "30a99a5b421dedb86aa51919d5570067e05ec8eb"
+    },
+    {
+      "path": "assets/art/world/forest_winter_boundary.png",
+      "mime": "image/png",
+      "size": [
+        1672,
+        941
+      ],
+      "git_blob": "5c299a3aa0bc123440471c6e4d79888800ad7733"
+    },
+    {
+      "path": "assets/art/world/harbor_quarantine_quay.png",
+      "mime": "image/png",
+      "size": [
+        1672,
+        941
+      ],
+      "git_blob": "b739174b6e18f68fbfa16df210ea58c45d8b8aff"
+    },
+    {
+      "path": "assets/art/world/kiln_common_firing_hall.png",
+      "mime": "image/png",
+      "size": [
+        1672,
+        941
+      ],
+      "git_blob": "64b72469b88e4e06b632c444ab69ee9ab0335f82"
+    },
+    {
+      "path": "assets/art/world/salt_desert_survey_camp.png",
+      "mime": "image/png",
+      "size": [
+        1672,
+        941
+      ],
+      "git_blob": "29b21d2393579f772b536d2252fd84f71abf6fe2"
+    },
+    {
+      "path": "assets/art/world/luo_zhen.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "git_blob": "3b0f01ce69db0dea349b220b3e378644ace3bacd"
+    },
+    {
+      "path": "assets/art/world/shi_lan.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "git_blob": "8ff3084d50933c0b830c4feeef1450e3eec97896"
+    },
+    {
+      "path": "assets/art/world/mountain_archive_winter_hall.png",
+      "mime": "image/png",
+      "size": [
+        1672,
+        941
+      ],
+      "git_blob": "4b83f8f004b8aeb6a9cfae81c75c56ecb60efdf7"
+    },
+    {
+      "path": "assets/art/world/harbor_he_ming.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "git_blob": "f1d8ce1e7ed0525a2cf6320fe2948fd0e77f0386"
+    },
+    {
+      "path": "assets/art/world/peng_ai.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "git_blob": "f6ef90aab8a738212eb4f52c2bd1a6a4f778802c"
+    },
+    {
+      "path": "assets/art/world/gao_ru.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "git_blob": "f5d53cb74465b79dd7e237b75a0ce11268b6f01c"
+    },
+    {
+      "path": "assets/art/world/dai_shuren.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "git_blob": "453622486ea25a7c07e107f8eee1538dddd1db36"
+    },
+    {
+      "path": "assets/art/world/han_shou.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "git_blob": "edb1215c5cba0392c2da0ab476fcde7e22ca420a"
+    },
+    {
+      "path": "assets/art/world/tian_min.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "git_blob": "655691cffa71d17884bdc7c9b16ab249afd3267c"
+    },
+    {
+      "path": "assets/art/world/pei_fen.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "git_blob": "6b4d55e1e62768b7734342b6af801a5c07412b05"
+    },
+    {
+      "path": "assets/art/world/bao_jun.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "git_blob": "4770b45c6c4341babb3857d8a559794cbb17a031"
+    },
+    {
+      "path": "assets/art/world/rong_sui.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "git_blob": "1c5109064d6d1c6442ca9ee9596b540b61a74c23"
+    },
+    {
+      "path": "assets/art/world/long_qian.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "git_blob": "1512126bd8baa557aae565aa81c8a7c83204c33f"
+    },
+    {
+      "path": "assets/art/world/wen_cai.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "git_blob": "9e3ed31bbcc6331f24e1311dd157ab84adb23f3b"
+    },
+    {
+      "path": "assets/art/world/pei_yun.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "git_blob": "ddaaa8b0ed39dbd64277c56866d3195be7f3515b"
+    },
+    {
+      "path": "assets/art/world/luo_sheng.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "git_blob": "db304e0ba73dbe3e67bbf43fc0a0432dc403ead1"
+    },
+    {
+      "path": "assets/art/world/forest_autumn_boundary.png",
+      "mime": "image/png",
+      "size": [
+        1672,
+        941
+      ],
+      "git_blob": "bdfbcb3e65a8447e3ea8efe6952c64a5a53b245b"
+    },
+    {
+      "path": "assets/art/world/forest_kiln_workroom.png",
+      "mime": "image/png",
+      "size": [
+        1672,
+        941
+      ],
+      "git_blob": "4f0cfd5412fd1e4143e0cd7ee03e9099aaf7decf"
+    },
+    {
+      "path": "assets/art/world/forest_warden_lodge.png",
+      "mime": "image/png",
+      "size": [
+        1672,
+        941
+      ],
+      "git_blob": "00ae0609e29cbd60473ea6e3771243126bdb29d0"
+    },
+    {
+      "path": "assets/art/world/forest_boundary_map_room.png",
+      "mime": "image/png",
+      "size": [
+        1672,
+        941
+      ],
+      "git_blob": "78ccce64d2b389d273477d2877c7707a149abb6e"
+    },
+    {
+      "path": "assets/art/world/tan_ning.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "git_blob": "75799c3132be4c521e59297a5f8705b24777d56c"
+    },
+    {
+      "path": "assets/art/world/mountain_archive_autumn_courtyard.png",
+      "mime": "image/png",
+      "size": [
+        1672,
+        941
+      ],
+      "git_blob": "0a1cd6b8a351108409213acf1d2478812d5d7705"
+    },
+    {
+      "path": "assets/art/world/mountain_archive_winter_village.png",
+      "mime": "image/png",
+      "size": [
+        1672,
+        941
+      ],
+      "git_blob": "ce78e8ef72786f6ef14c5afd01851380e34d34e8"
+    },
+    {
+      "path": "assets/art/world/mountain_archive_winter_courtyard.png",
+      "mime": "image/png",
+      "size": [
+        1672,
+        941
+      ],
+      "git_blob": "92d603f3d121ec100df9f7f77cc728aa2260e7ae"
+    },
+    {
+      "path": "assets/art/world/kiln_understairs_archive.png",
+      "mime": "image/png",
+      "size": [
+        1672,
+        941
+      ],
+      "git_blob": "2007a424520749a67910b0d80f8044c58165f9b0"
+    },
+    {
+      "path": "assets/art/world/kiln_recovery_room.png",
+      "mime": "image/png",
+      "size": [
+        1672,
+        941
+      ],
+      "git_blob": "ccab70111ed10ec0ab8dacc2a77bda9e72d68de9"
+    },
+    {
+      "path": "assets/art/world/mountain_archive_spring_courtyard.png",
+      "mime": "image/png",
+      "size": [
+        1672,
+        941
+      ],
+      "git_blob": "bb335a00ebe38f3fd1814a55d7ceba9f7d1b3079"
+    },
+    {
+      "path": "assets/art/world/zhu_yan.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "git_blob": "9449ed5b9d79b44fbf4cde143de7bd8612cf5446"
+    },
+    {
+      "path": "assets/art/world/jian_rong.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "git_blob": "d6e7626bb9847c1420282811cb269df0d7c21cab"
+    },
+    {
+      "path": "assets/art/world/han_xun.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "git_blob": "35aec5e2c65173952b45fdfea23e7c94a21ba7ff"
+    },
+    {
+      "path": "assets/art/world/tuo_yin.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "git_blob": "5ba9a394b96d23815df7a042249dda78a0e56709"
+    },
+    {
+      "path": "assets/art/world/du_she.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "git_blob": "eff7e0d54364d1b9a1002e3fa2e4c3219b651443"
+    },
+    {
+      "path": "assets/art/world/bao_sun.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "git_blob": "6e73bf38f1866a43eaaba1fa42df127bf90bd484"
+    },
+    {
+      "path": "assets/art/world/luo_zhimo.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "git_blob": "cee6cb1f256879429b6c1b7ebb89e2673440066c"
+    },
+    {
+      "path": "assets/art/world/tan_ke.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "git_blob": "84471ab167cc1b09e5f0167b18a9ffb97b557394"
+    },
+    {
+      "path": "assets/art/world/he_xi.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "git_blob": "d5c259cc6b5197f337f4f055006baa5593dc88ae"
+    },
+    {
+      "path": "assets/art/world/sun_nian.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "git_blob": "1276bf2ed29fdfddf9065043b41f1d18e158a4e5"
+    },
+    {
+      "path": "assets/art/world/harbor_sui_yan.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "git_blob": "75fffc308548dc634612cc654adf93d7c7897983"
+    },
+    {
+      "path": "assets/art/world/harbor_han_pei.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "git_blob": "e82aefaccdc71f3dab6e8497ac61c44b5123189b"
+    },
+    {
+      "path": "assets/art/world/harbor_yan_su.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "git_blob": "432a7b5db97914ae33c060304052f124d405bea2"
+    },
+    {
+      "path": "assets/art/world/harbor_qin_shuo.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "git_blob": "eeb46421fef1ec02d8158a1ea76731ef1d992b1d"
+    },
+    {
+      "path": "assets/art/world/mountain_archive_winter_workshop_fire.png",
+      "mime": "image/png",
+      "size": [
+        1672,
+        941
+      ],
+      "git_blob": "b8a69690a8fd5760ecd23a8a7443689b6532e65c"
+    },
+    {
+      "path": "assets/art/world/harbor_packing_partnership_room.png",
+      "mime": "image/png",
+      "size": [
+        1672,
+        941
+      ],
+      "git_blob": "27d3ec16bb4efb818ad5e3071643f8a3e7cffccf"
+    },
+    {
+      "path": "assets/art/world/onion_hollow_cistern_court.png",
+      "mime": "image/png",
+      "size": [
+        1672,
+        941
+      ],
+      "git_blob": "2b0755464844bb61fc57d0b1a5233455dd43b69b"
+    },
+    {
+      "path": "assets/art/world/bitter_wells_town_clinic.png",
+      "mime": "image/png",
+      "size": [
+        1672,
+        941
+      ],
+      "git_blob": "1372438049a052349b70d58c6de48bfee5ea9b2e"
     }
   ],
   "complete": false,
   "runtime_validation_report": "docs/content_report.json",
   "runtime_validation_workflow": "https://github.com/jgyy/octxian/actions/workflows/ci.yml",
   "sluice_training_scenes": 131,
-  "sluice_training_words": 7892,
+  "sluice_training_words": 7964,
   "rewritten_valley_scenes": 22,
   "rewritten_valley_words": 1509,
   "latest_batch": {
-    "new_scenes": 131,
-    "new_words": 7860,
-    "recast_scenes": 21,
-    "recast_words": 1418,
-    "rewrite_words": 9278
+    "new_scenes": 336,
+    "new_words": 24617,
+    "recast_scenes": 109,
+    "recast_words": 9027,
+    "net_displayed_word_addition": 24947,
+    "existing_displayed_word_change": 330
   },
   "rewrite_scene_ids": [
     "arrival",
@@ -836,9 +1386,522 @@
     "foundry_nights_011",
     "foundry_nights_012",
     "foundry_nights_013",
-    "foundry_nights_014"
+    "foundry_nights_014",
+    "ring_marsh_ache",
+    "court_weather_setup",
+    "court_rain_forecast_lamp",
+    "city_mask_seam",
+    "ring_archive_private_copy",
+    "ring_archive_mortal_pace",
+    "stair_test",
+    "ring_qi_temptation",
+    "court_weather_offer",
+    "ring_marsh_practice_choice",
+    "court_rain_observation_options",
+    "ring_road_brace_bank",
+    "ridge_from_bench",
+    "ridge_from_survey",
+    "ridge_from_home",
+    "ridge_departure_001",
+    "ridge_departure_002",
+    "ridge_departure_003",
+    "ridge_departure_004",
+    "ridge_departure_005",
+    "ridge_departure_006",
+    "ridge_departure_007",
+    "ridge_departure_008",
+    "ridge_departure_009",
+    "ridge_departure_010",
+    "ridge_departure_011",
+    "ridge_departure_012",
+    "ridge_weather_event",
+    "ridge_weather_rain_001",
+    "ridge_weather_rain_002",
+    "ridge_weather_rain_003",
+    "ridge_weather_mist_001",
+    "ridge_weather_mist_002",
+    "ridge_weather_mist_003",
+    "ridge_weather_wind_001",
+    "ridge_weather_wind_002",
+    "ridge_weather_wind_003",
+    "ridge_pool_001",
+    "ridge_pool_002",
+    "ridge_pool_003",
+    "ridge_pool_004",
+    "ridge_pool_005",
+    "ridge_pool_006",
+    "ridge_pool_007",
+    "ridge_pool_008",
+    "ridge_investigation_choice",
+    "ridge_replica_001",
+    "ridge_replica_002",
+    "ridge_replica_003",
+    "ridge_replica_004",
+    "ridge_replica_005",
+    "ridge_replica_006",
+    "ridge_replica_007",
+    "ridge_replica_008",
+    "ridge_material_001",
+    "ridge_material_002",
+    "ridge_material_003",
+    "ridge_material_004",
+    "ridge_material_005",
+    "ridge_material_006",
+    "ridge_material_007",
+    "ridge_material_008",
+    "ridge_ground_001",
+    "ridge_ground_002",
+    "ridge_ground_003",
+    "ridge_ground_004",
+    "ridge_ground_005",
+    "ridge_ground_006",
+    "ridge_ground_007",
+    "ridge_ground_008",
+    "ridge_findings_001",
+    "ridge_findings_002",
+    "ridge_findings_003",
+    "ridge_findings_004",
+    "ridge_findings_005",
+    "ridge_findings_006",
+    "ridge_findings_007",
+    "ridge_findings_008",
+    "ridge_incident_event",
+    "ridge_incident_cloudhound_001",
+    "ridge_incident_cloudhound_002",
+    "ridge_incident_cloudhound_003",
+    "ridge_incident_rockfall_001",
+    "ridge_incident_rockfall_002",
+    "ridge_incident_rockfall_003",
+    "ridge_incident_surge_001",
+    "ridge_incident_surge_002",
+    "ridge_incident_surge_003",
+    "ridge_return_001",
+    "ridge_return_002",
+    "ridge_return_003",
+    "ridge_return_004",
+    "ridge_return_005",
+    "ridge_return_006",
+    "ridge_return_007",
+    "ridge_return_008",
+    "ridge_final_choice",
+    "ridge_model_001",
+    "ridge_model_002",
+    "ridge_model_003",
+    "ridge_route_001",
+    "ridge_route_002",
+    "ridge_route_003",
+    "ridge_home_001",
+    "ridge_home_002",
+    "ridge_home_003",
+    "ring_limits",
+    "ring_cover_opened",
+    "ring_archive_repair_cost",
+    "ring_road_anchor",
+    "river_xiu",
+    "reed_families_cost",
+    "return_berth",
+    "archive_witness",
+    "lantern_final_choice",
+    "orchard_accounts",
+    "orchard_need",
+    "city_registry_fees",
+    "city_perfumer_qi_source",
+    "city_perfumer_blind_labels",
+    "city_mask_dates",
+    "stair_advance_cost",
+    "ferry_evidence",
+    "ferry_return",
+    "assembly_ferry",
+    "city_mask_rejoin",
+    "city_mask_seam_result",
+    "city_mask_packet",
+    "court_witness_a4_02",
+    "court_cost_bai_date",
+    "court_witness_a4_14",
+    "court_local_offer",
+    "court_witness_a2_16",
+    "court_witness_a5_04",
+    "court_witness_a5_14",
+    "court_witness_a7_11",
+    "court_witness_a8_16",
+    "court_witness_handoff",
+    "court_docket_physical_boundary",
+    "court_witness_a3_05",
+    "court_docket_duties_path",
+    "court_witness_a1_07",
+    "court_rain_entry",
+    "court_rain_calibration_start",
+    "court_rain_repeat_conditions",
+    "court_rain_clock_approach",
+    "court_rain_support_repair",
+    "court_rain_water_stain",
+    "court_rain_handoff_record",
+    "court_docket_entry",
+    "court_docket_act_five_close",
+    "court_return_dates",
+    "ending_court_weather",
+    "ending_court_local",
+    "ending_court_staged",
+    "ending_court_remand",
+    "storm_from_model",
+    "storm_from_route",
+    "storm_from_home",
+    "storm_arrival_001",
+    "storm_arrival_002",
+    "storm_arrival_003",
+    "storm_arrival_004",
+    "storm_arrival_005",
+    "storm_arrival_006",
+    "storm_arrival_007",
+    "storm_arrival_008",
+    "storm_arrival_009",
+    "storm_arrival_010",
+    "storm_arrival_011",
+    "storm_arrival_012",
+    "storm_inquiry_choice",
+    "storm_paper_001",
+    "storm_paper_002",
+    "storm_paper_003",
+    "storm_paper_004",
+    "storm_paper_005",
+    "storm_paper_006",
+    "storm_paper_007",
+    "storm_paper_008",
+    "storm_paper_009",
+    "storm_paper_010",
+    "storm_route_001",
+    "storm_route_002",
+    "storm_route_003",
+    "storm_route_004",
+    "storm_route_005",
+    "storm_route_006",
+    "storm_route_007",
+    "storm_route_008",
+    "storm_route_009",
+    "storm_route_010",
+    "storm_households_001",
+    "storm_households_002",
+    "storm_households_003",
+    "storm_households_004",
+    "storm_households_005",
+    "storm_households_006",
+    "storm_households_007",
+    "storm_households_008",
+    "storm_households_009",
+    "storm_households_010",
+    "storm_compare_001",
+    "storm_compare_002",
+    "storm_compare_003",
+    "storm_compare_004",
+    "storm_compare_005",
+    "storm_compare_006",
+    "storm_compare_007",
+    "storm_compare_008",
+    "storm_compare_009",
+    "storm_compare_010",
+    "storm_test_choice",
+    "storm_relay_001",
+    "storm_relay_002",
+    "storm_relay_003",
+    "storm_relay_004",
+    "storm_relay_005",
+    "storm_relay_006",
+    "storm_lever_001",
+    "storm_lever_002",
+    "storm_lever_003",
+    "storm_lever_004",
+    "storm_lever_005",
+    "storm_lever_006",
+    "storm_handover_001",
+    "storm_handover_002",
+    "storm_handover_003",
+    "storm_handover_004",
+    "storm_handover_005",
+    "storm_handover_006",
+    "storm_warning_001",
+    "storm_warning_002",
+    "storm_warning_003",
+    "storm_warning_004",
+    "storm_warning_005",
+    "storm_warning_006",
+    "storm_warning_007",
+    "storm_warning_008",
+    "storm_rescue_choice",
+    "storm_ground_001",
+    "storm_ground_002",
+    "storm_ground_003",
+    "storm_ground_004",
+    "storm_ground_005",
+    "storm_ground_006",
+    "storm_trolley_001",
+    "storm_trolley_002",
+    "storm_trolley_003",
+    "storm_trolley_004",
+    "storm_trolley_005",
+    "storm_trolley_006",
+    "storm_signal_001",
+    "storm_signal_002",
+    "storm_signal_003",
+    "storm_signal_004",
+    "storm_signal_005",
+    "storm_signal_006",
+    "storm_after_001",
+    "storm_after_002",
+    "storm_after_003",
+    "storm_after_004",
+    "storm_after_005",
+    "storm_after_006",
+    "storm_after_007",
+    "storm_after_008",
+    "storm_after_009",
+    "storm_after_010",
+    "storm_after_011",
+    "storm_after_012",
+    "storm_hearing_choice",
+    "storm_trace_001",
+    "storm_trace_002",
+    "storm_trace_003",
+    "storm_trace_004",
+    "storm_trace_005",
+    "storm_warning_hearing_001",
+    "storm_warning_hearing_002",
+    "storm_warning_hearing_003",
+    "storm_warning_hearing_004",
+    "storm_warning_hearing_005",
+    "storm_claims_001",
+    "storm_claims_002",
+    "storm_claims_003",
+    "storm_claims_004",
+    "storm_claims_005",
+    "storm_settle_001",
+    "storm_settle_002",
+    "storm_settle_003",
+    "storm_settle_004",
+    "storm_settle_005",
+    "storm_settle_006",
+    "storm_settle_007",
+    "storm_settle_008",
+    "storm_settle_009",
+    "storm_settle_010",
+    "storm_final_choice",
+    "storm_public_001",
+    "storm_public_002",
+    "storm_public_003",
+    "storm_public_004",
+    "storm_public_005",
+    "storm_end_public",
+    "storm_workshop_001",
+    "storm_workshop_002",
+    "storm_workshop_003",
+    "storm_workshop_004",
+    "storm_workshop_005",
+    "storm_end_workshop",
+    "storm_home_001",
+    "storm_home_002",
+    "storm_home_003",
+    "storm_home_004",
+    "storm_home_005",
+    "storm_end_home",
+    "salt_from_public",
+    "salt_public_002",
+    "salt_public_003",
+    "salt_from_workshop",
+    "salt_workshop_002",
+    "salt_workshop_003",
+    "salt_from_home",
+    "salt_home_002",
+    "salt_home_003",
+    "salt_arrival_001",
+    "salt_arrival_002",
+    "salt_arrival_003",
+    "salt_arrival_004",
+    "salt_arrival_005",
+    "salt_arrival_006",
+    "salt_arrival_007",
+    "salt_arrival_008",
+    "salt_arrival_009",
+    "salt_arrival_010",
+    "salt_arrival_011",
+    "salt_arrival_012",
+    "salt_arrival_013",
+    "salt_arrival_014",
+    "salt_arrival_015",
+    "salt_arrival_016",
+    "salt_arrival_017",
+    "salt_arrival_018",
+    "salt_investigation_choice",
+    "salt_channels_001",
+    "salt_channels_002",
+    "salt_channels_003",
+    "salt_channels_004",
+    "salt_channels_005",
+    "salt_channels_006",
+    "salt_channels_007",
+    "salt_channels_008",
+    "salt_channels_009",
+    "salt_channels_010",
+    "salt_channels_011",
+    "salt_channels_012",
+    "salt_channels_013",
+    "salt_channels_014",
+    "salt_channels_015",
+    "salt_channels_016",
+    "salt_channels_017",
+    "salt_channels_018",
+    "salt_channels_019",
+    "salt_channels_020",
+    "salt_accounts_001",
+    "salt_accounts_002",
+    "salt_accounts_003",
+    "salt_accounts_004",
+    "salt_accounts_005",
+    "salt_accounts_006",
+    "salt_accounts_007",
+    "salt_accounts_008",
+    "salt_accounts_009",
+    "salt_accounts_010",
+    "salt_accounts_011",
+    "salt_accounts_012",
+    "salt_accounts_013",
+    "salt_accounts_014",
+    "salt_accounts_015",
+    "salt_accounts_016",
+    "salt_accounts_017",
+    "salt_accounts_018",
+    "salt_accounts_019",
+    "salt_accounts_020",
+    "salt_households_001",
+    "salt_households_002",
+    "salt_households_003",
+    "salt_households_004",
+    "salt_households_005",
+    "salt_households_006",
+    "salt_households_007",
+    "salt_households_008",
+    "salt_households_009",
+    "salt_households_010",
+    "salt_households_011",
+    "salt_households_012",
+    "salt_households_013",
+    "salt_households_014",
+    "salt_households_015",
+    "salt_households_016",
+    "salt_households_017",
+    "salt_households_018",
+    "salt_households_019",
+    "salt_households_020",
+    "salt_findings_001",
+    "salt_findings_002",
+    "salt_findings_003",
+    "salt_findings_004",
+    "salt_findings_005",
+    "salt_findings_006",
+    "salt_findings_007",
+    "salt_findings_008",
+    "salt_findings_009",
+    "salt_findings_010",
+    "salt_findings_011",
+    "salt_findings_012",
+    "salt_findings_013",
+    "salt_findings_014",
+    "salt_findings_015",
+    "salt_findings_016",
+    "salt_findings_017",
+    "salt_trial_choice",
+    "salt_water_clearance",
+    "salt_wash_trial_001",
+    "salt_wash_trial_002",
+    "salt_wash_trial_003",
+    "salt_wash_trial_004",
+    "salt_wash_trial_005",
+    "salt_wash_trial_006",
+    "salt_wash_trial_007",
+    "salt_wash_trial_008",
+    "salt_wash_trial_009",
+    "salt_wash_trial_010",
+    "salt_seed_trial_001",
+    "salt_seed_trial_002",
+    "salt_seed_trial_003",
+    "salt_seed_trial_004",
+    "salt_seed_trial_005",
+    "salt_seed_trial_006",
+    "salt_seed_trial_007",
+    "salt_seed_trial_008",
+    "salt_seed_trial_009",
+    "salt_seed_trial_010",
+    "salt_reserve_trial_001",
+    "salt_reserve_trial_002",
+    "salt_reserve_trial_003",
+    "salt_reserve_trial_004",
+    "salt_reserve_trial_005",
+    "salt_reserve_trial_006",
+    "salt_reserve_trial_007",
+    "salt_reserve_trial_008",
+    "salt_reserve_trial_009",
+    "salt_reserve_trial_010",
+    "salt_grain_invoice",
+    "salt_recovery_001",
+    "salt_recovery_002",
+    "salt_recovery_003",
+    "salt_recovery_004",
+    "salt_recovery_005",
+    "salt_recovery_006",
+    "salt_recovery_007",
+    "salt_recovery_008",
+    "salt_recovery_009",
+    "salt_recovery_010",
+    "salt_recovery_011",
+    "salt_recovery_012",
+    "salt_recovery_013",
+    "salt_recovery_014",
+    "salt_final_choice",
+    "salt_rotation_001",
+    "salt_rotation_002",
+    "salt_rotation_003",
+    "salt_rotation_004",
+    "salt_rotation_005",
+    "salt_rotation_006",
+    "salt_rotation_007",
+    "salt_end_rotation",
+    "salt_maintenance_001",
+    "salt_maintenance_002",
+    "salt_maintenance_003",
+    "salt_maintenance_004",
+    "salt_maintenance_005",
+    "salt_maintenance_006",
+    "salt_maintenance_007",
+    "salt_end_maintenance",
+    "salt_purchase_001",
+    "salt_purchase_002",
+    "salt_purchase_003",
+    "salt_purchase_004",
+    "salt_purchase_005",
+    "salt_purchase_006",
+    "salt_purchase_007",
+    "salt_end_purchase",
+    "river_interim",
+    "stair_funding_choice",
+    "return_later",
+    "city_mask_evidence",
+    "city_mask_samples",
+    "city_mask_fitting",
+    "city_return_tokens",
+    "city_mask_scrape",
+    "ending_city_pool",
+    "ring_archive_paused",
+    "ring_road_rollback",
+    "ring_return_board",
+    "ring_jin_boundary",
+    "ring_road_first_rope",
+    "ring_marsh_first_page",
+    "orchard_demonstration",
+    "lantern_bell",
+    "ending_bell",
+    "court_cost_space_reply",
+    "city_mask_stakes",
+    "ring_archive_qi_restraint"
   ],
-  "rewrite_scenes": 599,
+  "rewrite_scenes": 1112,
   "plot_repair_scene_ids": [
     "tempering_after_007",
     "tempering_after_009",
@@ -903,13 +1966,41 @@
     "report": "docs/PLOT_HOLE_REVIEW.md"
   },
   "foundry_scenes": 299,
-  "foundry_words": 22177,
+  "foundry_words": 22198,
   "current_expansion": {
-    "name": "Ash Bridge Foundry",
-    "new_scenes": 299,
-    "new_words": 22177,
+    "name": "The storm that signed twice / Water for the names that stayed",
+    "new_scenes": 336,
+    "new_words": 24617,
     "complete": true,
     "highest_earned_stage": "4: Second pair",
-    "report": "docs/FOUNDRY_EXPANSION.md"
-  }
+    "report": "docs/CONTINUATION_20261003.md"
+  },
+  "thunderfen_scenes": 94,
+  "thunderfen_words": 5978,
+  "current_review": {
+    "kind": "existing_prose_continuity",
+    "distinct_root_defects": 82,
+    "first_round": 53,
+    "second_round": 29,
+    "second_round_source": "feb4ec7500a1df2bf95b16265544553372c657ce",
+    "rewritten_existing_scenes": 109,
+    "existing_displayed_word_change": 330,
+    "prior_pr_anchored_corrections": 115,
+    "total_pr_anchored_corrections": 197,
+    "report": "docs/CONTINUATION_SECOND_20261003.md",
+    "second_round_paragraphs": 33,
+    "second_round_word_delta": 101
+  },
+  "previous_review": {
+    "kind": "continuity_and_progression",
+    "anchored_corrections": 115,
+    "choice_causality_corrections": 102,
+    "rewritten_existing_scenes": 13,
+    "existing_displayed_word_change": -88,
+    "report": "docs/CONTINUITY_REPAIRS_20261003.md"
+  },
+  "storm_ledger_scenes": 159,
+  "storm_ledger_words": 11961,
+  "salt_road_scenes": 177,
+  "salt_road_words": 12656
 }

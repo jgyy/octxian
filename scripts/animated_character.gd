@@ -67,12 +67,7 @@ func show_character(id: String, animation: String = "idle", clothing: String = "
 	if ResourceLoader.exists(path):
 		sprite.texture = load(path)
 	else:
-		var source: Texture2D = load(wardrobe.source_path(clothing))
-		var portrait := AtlasTexture.new()
-		portrait.atlas = source
-		var index: int = Wardrobe.CHARACTERS.find(id)
-		portrait.region = Rect2(index * source.get_width() / 4.0, 0, source.get_width() / 4.0, source.get_height())
-		sprite.texture = portrait
+		sprite.texture = load(wardrobe.source_path(clothing, id))
 	sprite.scale = Vector2.ONE * (display_height / sprite.texture.get_height())
 	if fade_tween and fade_tween.is_valid():
 		fade_tween.kill()

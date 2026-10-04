@@ -1,0 +1,996 @@
+{
+  "chapters": {},
+  "characters": {},
+  "nodes": {
+    "forest_13_001": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "By morning, all five Harts had reached the refuge's wider interior. The known pair kept apart from the newcomers, and none approached the village lane. The fresh upper snare remained in the investigator's custody. Its placement showed deliberate trapping after the day's watch check. It did not identify the trapper. Shi Lan called the gathering households, the qualified habitat observer, the commercial crews, and both buyers to plan the next week before a crowded crossing created another emergency.",
+      "background": "forest_boundary_map_room",
+      "next": "forest_13_002"
+    },
+    "forest_13_002": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The habitat observer found no safe basis for driving the newcomers back uphill during the hard freeze. Their old refuge remained iced, and forcing frightened bodies through the narrow ridge could injure animals and people. The existing shallow bank could carry them, but the commercial timber route crossed its approach. Manual handling crews used it during the same daylight hours as household gathering. Five bodies required more space and more patience than the former two-body arrangement allowed.",
+      "background": "forest_boundary_map_room",
+      "next": "forest_13_003"
+    },
+    "forest_13_003": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "long_qian",
+      "actor": "long_qian",
+      "text": "The households still need wood, and the kitchens still need the next accepted fuel. I will fund a workable change. I will not agree to an indefinite closure with no alternative delivery. If the answer is that every customer must wait until the animals feel like moving, I want the actual cost and the families named by need, not a speech about winter spirits. Some of those families have already waited more politely than their stoves can manage.",
+      "background": "forest_boundary_map_room",
+      "next": "forest_13_004"
+    },
+    "forest_13_004": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The deputy and road workers identified two possible bounded trials. Commercial hand hauling could use a longer checked route wholly within the licensed stand, avoiding the crowded bank for the peak week. Extra labor and gear would cost twenty-four copper from the buyers' accepted shares, and some work would arrive later. Alternatively, the present approach could remain open under watched movement windows, with a sheltered waiting point, added carrier support, and twelve copper of funded access work. That saved hauling expense but made daily timing less dependable.",
+      "background": "forest_boundary_map_room",
+      "next": "forest_13_005"
+    },
+    "forest_13_005": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "shi_lan",
+      "actor": "shi_lan",
+      "text": "The upper route is stable under the inspected load and current weather. It is longer, not a secret easy road. The timed bank plan has a clear stop whenever animals occupy the approach, and its waiting shelter has limited capacity. Neither plan removes the watch. Neither uses the absent household's land. The present two owners have reviewed the gathering changes. The council can authorize one limited trial, then review the actual work before extending it.",
+      "background": "forest_boundary_map_room",
+      "next": "forest_13_006"
+    },
+    "forest_13_006": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The commercial crews accepted the paid extra shifts if the upper route was chosen. The gathering representatives accepted the timed plan only with the earlier carrier turns maintained and no queue allowed in the narrow throat. Rong and Long approved their stated commercial shares for the higher-haul option; the council had the access allowance for the timed option. The difference was real: more commercial expense and labor, or more uncertainty borne by household schedules despite the offered support.",
+      "background": "forest_boundary_map_room",
+      "next": "forest_13_007"
+    },
+    "forest_13_007": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Lin had helped inspect both proposals but could not authorize either alone. Pei's deputy asked which bounded trial she recommended and where she would serve during it. Her answer would go into the council's decision beside the affected people's accepted terms. Wen favored the higher route after seeing the blocked passage. Long preferred the watched bank if it could preserve reliable meals. Shi Lan wanted the actual trial watched closely whichever way the council chose. Lin looked from the map to the people who would carry it.",
+      "background": "forest_boundary_map_room",
+      "next": "forest_13_008"
+    },
+    "forest_13_008": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "A larger corridor through the peak week would move commercial hauling to the longer upper route, buying room with paid labor and delayed handling. Keeping the bank shared would use watched windows and a sheltered queue, preserving shorter hauls while exposing household routines to animal timing. Both proposals had qualified checks and bounded funding. Lin chose which trial to recommend and join, accepting that the people least inconvenienced by her choice might not be the people who most needed to be heard.",
+      "background": "forest_boundary_map_room",
+      "choices": [
+        {
+          "text": "Recommend the paid upper haul, giving the Harts a wider continuous passage.",
+          "next": "forest_13_upper_001",
+          "effects": {
+            "insight": 1
+          }
+        },
+        {
+          "text": "Recommend watched crossing windows, keeping the shorter route shared.",
+          "next": "forest_13_bank_001",
+          "effects": {
+            "insight": 1
+          }
+        }
+      ]
+    },
+    "forest_13_upper_001": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The council accepted the upper-route trial for the peak week under the agreed terms. The buyers' twenty-four copper funded the extra labor and necessary gear in their recorded shares. The watch retained the wider animal passage, while household gathering used its reviewed turns and carrier support. Lin joined Wen and the qualified handling supervisor at the upper staging point. The path looked tolerable while empty. Its first lesson was how quickly empty could become an unreliable description.",
+      "background": "forest_winter_boundary",
+      "next": "forest_13_upper_002"
+    },
+    "forest_13_upper_002": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The supervisor loaded the first bundles below the inspected hand-carry limit and paired the heavier pieces. The extra carriers were rested and paid for the named shifts. Wen showed Lin where the old path narrowed between two leaning roots. She had walked it during inspection without a bundle and had not noticed how the bundle might catch. He moved one branch end through slowly. It cleared by a hand's breadth, enough if the carrier remembered where both hands were.",
+      "background": "forest_winter_boundary",
+      "next": "forest_13_upper_003"
+    },
+    "forest_13_upper_003": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "wen_cai",
+      "actor": "wen_cai",
+      "text": "Do not race this bend. The wood has already spent years becoming wood; it can endure another careful moment. I say this as a man who recently tried to impress measuring pins with his knee. The pins remained unimpressed. If you need to set down, use the flat place ahead, not the slope beside the root. I can point it out because my uncle complained about it for ten winters and accidentally taught me the route.",
+      "background": "forest_winter_boundary",
+      "next": "forest_13_upper_004"
+    },
+    "forest_13_upper_004": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The first loads reached the kiln staging yard late but intact. The supervisor compared actual travel time with the trial estimate. The upper route required more rest pauses under load than the empty survey walk suggested. Those pauses fitted the paid shift, but the daily quantity would be lower than the most optimistic planning figure. Lin felt the council's twenty-four copper grow heavier in her imagination. Choosing the humane-looking map had not made every other consequence gentle.",
+      "background": "forest_winter_boundary",
+      "next": "forest_13_upper_005"
+    },
+    "forest_13_upper_005": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Long's manager received the revised handling time with visible distress. The kitchen fuel stock still covered its current schedule, but the later turn would need careful dispatch. He asked whether the carriers could take one additional loaded trip after the shift. The supervisor said only if a separately authorized rested roster made it safe, which today's funding did not. The manager rubbed his face and asked for the actual safe quantity instead. Lin wrote it down beside the original estimate.",
+      "background": "forest_winter_boundary",
+      "next": "forest_13_upper_006"
+    },
+    "forest_13_upper_006": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "At the lower bank, the watch reported a quiet crossing by the known Hart pair and then the three newcomers. Their passage took longer than two crossings usually did because one adult paused to watch the other's antlers. No human queue filled the throat. The household elder reached her lot by the reviewed side turn and received the paid carrier help she had accepted. The first day had bought genuine room. It had also bought fewer timber trips than the buyers hoped.",
+      "background": "forest_winter_boundary",
+      "next": "forest_13_upper_007"
+    },
+    "forest_13_upper_007": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Rong met the handling crew at the second rest. He had come to see the longer route instead of describing its cost from the office. He carried a small unloaded bundle at the supervisor's invitation and regretted wearing his neat town cuffs. Wen offered no mockery until Rong's sleeve caught the leaning root. Then he said the path had a strict policy against fashionable visitors. Rong freed himself and asked whether the supervisor could arrange a safer orientation for the longer pieces.",
+      "background": "forest_winter_boundary",
+      "next": "forest_13_upper_008"
+    },
+    "forest_13_upper_008": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "rong_sui",
+      "actor": "rong_sui",
+      "text": "I approved the expense. I did not understand the wrist turn at this root until I tried it. The carriers should not pay for that gap in my understanding by hurrying the same bad turn all week. Can the qualified crew shorten the approved longer billets at the staging point without waste or a new stand cut? If it costs a little handling time now, compare it with the repeated delay here. I will consider the revised use within the authorized amount.",
+      "background": "forest_winter_boundary",
+      "next": "forest_13_upper_009"
+    },
+    "forest_13_upper_009": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The supervisor and keeper reviewed that adjustment. Shortening a subset of the approved billets at the proper work station would fit later kiln loading and reduce snagging without changing the licensed inventory. The paid preparation turn could be rearranged within the trial amount. Qualified saw workers did the cutting. Lin stacked the shortened pieces and found the next carry noticeably easier. The root remained where it was. A practical response had changed the load instead of treating the path as an enemy.",
+      "background": "forest_winter_boundary",
+      "next": "forest_13_upper_010"
+    },
+    "forest_13_upper_010": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "At lunch, the carriers argued over whether the easier pieces should count as an improvement or an insult to their earlier effort. Wen said they could count as both until the next trip. One woman laughed and announced that the wood had become civilized just as her shoulders had become barbaric. Lin passed her the water bottle. The woman's hands were blistered at two old spots despite sound gloves. The supervisor adjusted her next task after the ordinary check, keeping her paid hours intact.",
+      "background": "forest_winter_boundary",
+      "next": "forest_13_upper_011"
+    },
+    "forest_13_upper_011": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The second day's safe quantity improved with the shortened billets, though it remained below the original optimistic estimate. Long accepted a staged dispatch from current accepted stock rather than send a carrier beyond the reviewed shift. He told the kitchen manager which delivery would arrive later and confirmed the existing stock margin. The cook replied that the pots would survive, provided the manager stopped telling her three different arrival hours. Long crossed out two hours on the notice himself.",
+      "background": "forest_kiln_workroom",
+      "next": "forest_13_upper_012"
+    },
+    "forest_13_upper_012": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "During the afternoon return, Lin saw the adult Hart standing beyond the lower passage. It watched the empty human route, then looked toward the younger one's pale head among the reeds. Lin stayed at the marked distance. The animal said the quiet bank had helped. Its voice held relief without becoming gratitude large enough to repay the commercial cost. Lin had secretly wanted more praise. She heard that wish clearly and was glad the animal had not been asked to feed it.",
+      "background": "forest_winter_boundary",
+      "next": "forest_13_upper_013"
+    },
+    "forest_13_upper_013": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "frostroot_hart",
+      "actor": "frostroot_hart",
+      "text": "Today the small one crossed without turning back toward your carts. That is good. The other bodies still smell of the higher frost. They may quarrel again tonight. A clear bank gives them somewhere to move when they do. Tell the carriers I saw their bundles above the ridge. I know they did not become lighter because they were carried away from us. I can acknowledge that without promising a harmless winter.",
+      "background": "forest_winter_boundary",
+      "next": "forest_13_upper_014"
+    },
+    "forest_13_upper_014": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Lin carried the offered thanks to the staging yard in its actual modest words. The woman with blistered hands said she would rather the Hart keep the bank clear tomorrow, which was a reasonable wish and not a promise anybody could give her. Wen asked whether the shortened billets had made her last turn easier. They had. She accepted the rest task without making it a defeat. Lin found the crew's mixed answer more useful than the grateful procession she had almost imagined.",
+      "background": "forest_winter_boundary",
+      "next": "forest_13_upper_015"
+    },
+    "forest_13_upper_015": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "On the third morning, snow covered the upper path in a thin fresh layer. The qualified supervisor checked it before loaded work and delayed the first turn until the gritting crew treated the narrow bend. The paid trial had no spare race hidden in its schedule. Wen helped carry grit on the level approach. Lin set the first pin back after a boot knocked it sideways. The small delay preserved a workable path at the cost of another later arrival.",
+      "background": "forest_winter_boundary",
+      "next": "forest_13_upper_016"
+    },
+    "forest_13_upper_016": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Long came to the staging point angry about the repeated delivery changes. He did not ask for an unsafe trip. He asked why the upper route had been presented with such an optimistic quantity. The supervisor acknowledged that the empty inspection underestimated loaded rest time. Shi Lan included the correction in the trial review. Lin said she had recommended the trial under that estimate. Long looked at her directly for the first time that morning. Her admission did not satisfy him, but it stopped him arguing with an invisible planner.",
+      "background": "forest_winter_boundary",
+      "next": "forest_13_upper_017"
+    },
+    "forest_13_upper_017": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "long_qian",
+      "actor": "long_qian",
+      "text": "I accepted the extra cost because continuous passage would prevent a worse confrontation. I still accept that purpose. I want the next day's quantity stated at the conservative actual pace, not the pace everyone wishes the workers could keep. My kitchens can plan around an honest smaller arrival. They cannot plan around hope written three times before noon. If we extend this arrangement, I want the handling record and the customer timing reviewed together.",
+      "background": "forest_winter_boundary",
+      "next": "forest_13_upper_018"
+    },
+    "forest_13_upper_018": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The supervisor revised the remaining week's expected trips at the observed safe pace. The keeper arranged the accepted charcoal dispatches from current stock so the most immediate kitchen service remained covered. One later heating delivery moved under its customer's already accepted flexible interval. Rong reported that change to his office. The longer route's commercial cost had become visible in both copper and time. Lin no longer wanted its animal benefit to make those human consequences disappear.",
+      "background": "forest_winter_boundary",
+      "next": "forest_13_upper_019"
+    },
+    "forest_13_upper_019": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "At the household waiting point, the grandmother of the cold-injured boy collected her carried wood without crowding the Hart approach. She asked Lin whether the higher route was why the bank had become quiet. Lin said it was part of the trial. The grandmother said the quiet made her less afraid to send an adult neighbor, though she would not let the boy return yet. Lin accepted that narrower good result. The woman did not need to admire the whole policy to feel one benefit.",
+      "background": "forest_winter_boundary",
+      "next": "forest_13_upper_020"
+    },
+    "forest_13_upper_020": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The upper observer counted all five Harts at dusk. The newcomers fed along the refuge edge while the known pair rested farther down. Their movements remained uneasy, but the open bank let one adult back away from another without reaching the houses. The observation did not prove the route would always work. It showed why the wider space mattered. Lin stood beside the watch and felt the day's sore shoulders settle into a consequence she could see.",
+      "background": "forest_winter_boundary",
+      "next": "forest_13_upper_021"
+    },
+    "forest_13_upper_021": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "A fresh wind rose overnight. The preliminary fire observers ruled out another possible burn interval, while the handling supervisor kept the upper route open only after its separate morning checks. Two activities on the same hillside needed different decisions. Wen was assigned a shorter carry turn and a later sorting shift instead of the fullest route day. He disliked the smaller loaded work until the sorting task revealed a mistaken tag before a bag reached the wrong buyer. The day found more than one way to be useful.",
+      "background": "forest_winter_boundary",
+      "next": "forest_13_upper_022"
+    },
+    "forest_13_upper_022": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "wen_cai",
+      "actor": "wen_cai",
+      "text": "I am trying to stop believing the heaviest thing I carry is always the most real thing I do. I caught a wrong tag while sitting. It would have sent twelve kilograms east that belonged to the grain-house share. That is a result. My shoulders are pleased. My pride is sulking. If my uncle asks, say I worked hard. You may also say I sat down. I am not yet graceful enough to volunteer the second fact before he finishes asking.",
+      "background": "forest_winter_boundary",
+      "next": "forest_13_upper_023"
+    },
+    "forest_13_upper_023": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Lin told the uncle both facts at supper because he actually asked. He said a wrong tag could cost more than a tired shoulder and passed Wen the pickles. Wen looked astonished. The uncle said he had not become a fool during his thumb rest. Lin suspected that rest had taught him several unwelcome things. She let him claim them as ordinary wisdom. The family meal was warmer when nobody insisted on identifying who had learned the lesson last.",
+      "background": "forest_warden_lodge",
+      "next": "forest_13_upper_024"
+    },
+    "forest_13_upper_024": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "On the fifth trial day, the upper route produced its best safe quantity yet, helped by shortened billets and workers accustomed to the turn. The supervisor did not use it to raise the conservative forecast immediately. One good day could reflect favorable snow and rested hands. He recorded the conditions and maintained the next roster. Lin, who had wanted the trial to vindicate her recommendation, felt irritated by the restraint. Then she remembered the tree that had refused to become bonus fuel merely because a buyer needed it.",
+      "background": "forest_winter_boundary",
+      "next": "forest_13_upper_025"
+    },
+    "forest_13_upper_025": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The buyers' twenty-four-copper trial allotment covered the agreed extra labor and gear through the peak week. A damaged basket handle was mended within the gear provision; no household wood or council relief grain was taken to finish the work. The commercial crews would need a new accepted arrangement for any extension. Rong brought those terms to the review with the actual handling delays. Long brought the kitchen results. Neither could claim the animal benefit as an excuse for omitting his own cost.",
+      "background": "forest_warden_lodge",
+      "next": "forest_13_upper_026"
+    },
+    "forest_13_upper_026": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Before the review, Lin visited the resting tree with Shi Lan. The adult Hart stood across the clear bank, the younger one asleep behind it. The animal asked whether the human loads would return tomorrow. Shi Lan said the peak-week trial was ending and the council would review the movement evidence with the work record. The Hart listened. It did not offer to guarantee quiet if the route changed, and the warden did not ask for a pledge no frightened body could reliably keep.",
+      "background": "forest_winter_boundary",
+      "next": "forest_13_upper_027"
+    },
+    "forest_13_upper_027": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "frostroot_hart",
+      "actor": "frostroot_hart",
+      "text": "The three others have found another shallow turn inside the refuge. They may use it more when the next wind changes. I do not know when they will leave. I can tell you the bank has helped the small one rest. I cannot tell you that your carriers should climb forever for that rest. Bring the next plan where we can hear it. We will answer for our own bodies, not for the winter above us.",
+      "background": "forest_winter_boundary",
+      "next": "forest_13_upper_028"
+    },
+    "forest_13_upper_028": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Shi Lan recorded the offered movement information and arranged the next calm consultation before any route change. Lin noticed how different that felt from looking for a thankful animal. The Hart had become a participant with limits that inconvenienced both humans and other Harts. She could like it and still resent the extra work. She could resent the work and still want the bank clear. The mixed feelings had begun to feel less like failure and more like the actual shape of the valley.",
+      "background": "forest_winter_boundary",
+      "next": "forest_13_upper_029"
+    },
+    "forest_13_upper_029": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "At the staging yard, Wen collected the borrowed gear for return or renewal under its stated terms. The supervisor compared every item against the trial list. One pin was missing. Lin remembered moving it after a boot knocked it sideways and went back with the assigned partner before dusk. They found it under loose snow. She returned relieved and embarrassed. Wen said the most endangered object in the forest might be a pin in the care of an eager apprentice.",
+      "background": "forest_winter_boundary",
+      "next": "forest_13_upper_030"
+    },
+    "forest_13_upper_030": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The peak-week trial ended with no new human injury on the route and no close Hart encounter at the cleared bank. It had cost the authorized twenty-four copper and delayed some handling beyond the optimistic estimate. The review would decide its next form from that record, the current five-body movement, and the household needs. Lin submitted her account and sat beside Wen. Her recommendation had bought something real. It had not bought the right to stop listening to the people who paid for it.",
+      "background": "forest_winter_boundary",
+      "next": "forest_13_review_001"
+    },
+    "forest_13_bank_001": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The council accepted the watched-bank trial for the peak week, with the twelve-copper access work funded under the reviewed allowance. Existing watch coverage stayed in place; the added shifts and carrier support had specific times and limits. The waiting shelter opened at the lower widening. Lin joined Shi Lan there before the first gathering families arrived. The shorter timber haul would remain possible. Its convenience now depended on people stopping when a pale body occupied the ground they wanted to use.",
+      "background": "forest_winter_boundary",
+      "next": "forest_13_bank_002"
+    },
+    "forest_13_bank_002": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The first group reached the shelter early. The household elder brought her own cushion for the chair and informed Lin that official chairs always seemed designed by people who never sat in them. Lin helped fit the cushion. A mother set two empty baskets beside the wall and kept her child away from the exit. Wen's timber crew waited farther uphill with ordinary bundles. The watch had not yet cleared either crossing. Everyone could see the path and nobody could use it.",
+      "background": "forest_winter_boundary",
+      "next": "forest_13_bank_003"
+    },
+    "forest_13_bank_003": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "shi_lan",
+      "actor": "shi_lan",
+      "text": "The young newcomer is still beside the bank. We wait until the observer reports the whole approach clear, not merely until the animal steps behind a reed. Your carrier turn will remain available within its accepted interval. If the hold runs beyond it, we will tell you the actual alternative before you send someone ahead. Lin, keep the doorway clear. Watching people become impatient is part of today's task; becoming impatient with them will not shorten the animal.",
+      "background": "forest_winter_boundary",
+      "next": "forest_13_bank_004"
+    },
+    "forest_13_bank_004": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The young Hart finally followed an adult uphill. The observer checked the bank and signaled the human turn. The first families crossed in a small group with the watch at both ends. Nobody approached the resting reeds. Wen's crew moved its timber only after the household group reached the clear widening. The sequence worked. It took longer than an empty route, but the shorter haul remained shorter. Lin felt relieved enough to forget that the next turn might be entirely different.",
+      "background": "forest_winter_boundary",
+      "next": "forest_13_bank_005"
+    },
+    "forest_13_bank_005": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "It was. The known adult Hart returned as the second gathering group assembled, blocking the approach while the youngster drank. The watch held people at the shelter. A woman said she would miss her paid kitchen start. Her carrier slot could retrieve the bundle she needed, but she still had to reach the village by another way. The watched-bank plan saved commercial hauling time by making her morning more complicated. Lin heard that cost in a sharper form than the council's neat estimate.",
+      "background": "forest_winter_boundary",
+      "next": "forest_13_bank_006"
+    },
+    "forest_13_bank_006": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The woman took the offered alternate walk and asked that her actual delay be included in the review. Lin recorded it without telling her the animals had suffered more. The council's added carrier completed the family's accepted bundle turn once the bank cleared. Long's clerk informed the kitchen supervisor of the verified route delay, preventing it from being treated as unexplained lateness under the work terms. That helped the wage question. It did not return the lost half hour to the woman's feet.",
+      "background": "forest_winter_boundary",
+      "next": "forest_13_bank_007"
+    },
+    "forest_13_bank_007": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "long_qian",
+      "actor": "long_qian",
+      "text": "Keep that account. I favored the shorter route because it preserves fuel handling and avoids extra commercial cost. I need to hear whose time pays the difference. The kitchen can excuse a verified route delay today. It cannot rely on a whole winter of unpredictable starts without revising staffing. If this trial continues, I want those changes priced beside the hauling saved. Otherwise my office will call the cheapest visible column the cheapest plan.",
+      "background": "forest_winter_boundary",
+      "next": "forest_13_bank_008"
+    },
+    "forest_13_bank_008": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "At the shelter, Lin put a simple current-status board beside the posted windows: waiting, clear, or alternate route. The board did not promise when waiting would end. The elder asked her to hang it lower. A man complained that the blank time space looked incompetent. Lin said filling it with a guessed hour would look competent until somebody acted on it. He looked annoyed, then sat down. The child beside the baskets drew a clock with antlers on the floor dust.",
+      "background": "forest_winter_boundary",
+      "next": "forest_13_bank_009"
+    },
+    "forest_13_bank_009": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Wen arrived during the next clear turn with the first timber bundles. The shorter route let his crew complete its planned loads within the accepted shift, but the stop-and-start rhythm made the carriers restless. One began moving before the lower watch signaled. The supervisor called him back. He said the Hart had already gone. The observer said another stood behind the resting tree. The man's good eyesight had not extended through the trunk. Wen muttered that the tree had failed to publish its contents.",
+      "background": "forest_winter_boundary",
+      "next": "forest_13_bank_010"
+    },
+    "forest_13_bank_010": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The supervisor revised the staging position so bundles waited off the path and carriers saw the actual signal before lifting. That reduced premature starts. Lin helped move a marker while the bank was clear. The task looked absurdly small beside five living winter spirits, yet it changed where human impatience gathered. At the next turn, the crew waited without blocking the household exit. Shi Lan thanked the supervisor and asked the observer whether the new position troubled the animals. It did not, so far.",
+      "background": "forest_winter_boundary",
+      "next": "forest_13_bank_011"
+    },
+    "forest_13_bank_011": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "By noon, the trial had completed both scheduled household carrier turns and the first commercial handling sequence. One woman had lost time on the alternate walk, and two families had waited longer than they expected. No one had entered the narrow approach beside an occupied bank. The results were good enough to continue and imperfect enough to keep Lin awake over lunch. Wen said a plan could be usable without becoming a lullaby. She told him she had not requested poetry from a man holding pickles.",
+      "background": "forest_winter_boundary",
+      "next": "forest_13_bank_012"
+    },
+    "forest_13_bank_012": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "wen_cai",
+      "actor": "wen_cai",
+      "text": "I favor the upper route, but this one worked better than I feared this morning. I can admit that without surrendering my entire personality. The shorter haul helped my crew. The waiting woman paid for part of that help with her morning. I saw it. You should not feel obliged to defend the plan against every observation just because you recommended it. Tell me what you see. I will try to return the favor before I begin praising my preferred hillside.",
+      "background": "forest_winter_boundary",
+      "next": "forest_13_bank_013"
+    },
+    "forest_13_bank_013": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Lin promised the account. In the afternoon, a newcomer Hart lowered its antlers toward the shelter when someone laughed loudly at the doorway. The watch moved people back inside without a rush. The animal stepped forward two paces, then stopped when the human opening widened. Its crystal branches carried dormant buds pale as teeth. Lin's body wanted to brace against the door. She followed Shi Lan's instruction to leave the visible exit clear, making the shelter look less like a challenge.",
+      "background": "forest_winter_boundary",
+      "next": "forest_13_bank_014"
+    },
+    "forest_13_bank_014": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The Hart moved away after a tense minute. No one had been touched. The mother with the child demanded to know whether the shelter was truly safe. Shi Lan said its present position and barrier gave separation, but the incident justified shifting the waiting group farther from the direct antler line. The physical shelter could remain; the doorway gathering needed another marker. The mother inspected the new spot herself before sitting again. Her trust had become more specific, which made it harder to flatter and easier to use.",
+      "background": "forest_winter_boundary",
+      "next": "forest_13_bank_015"
+    },
+    "forest_13_bank_015": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "shi_lan",
+      "actor": "shi_lan",
+      "text": "We are changing where people stand because the actual encounter showed a weakness. The observer will review the shelter position before tomorrow. If it cannot provide adequate separation, this trial stops rather than turning your family into proof that we can endure another close approach. I can defend the purpose of sharing this route. I cannot defend every placement merely because I approved it yesterday. Bring the child inside the warm part for now. The next clear turn can wait.",
+      "background": "forest_winter_boundary",
+      "next": "forest_13_bank_016"
+    },
+    "forest_13_bank_016": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The qualified observer reviewed the shelter and moved the visible waiting point behind its solid side wall, leaving the exit and bank approach unobstructed. The protected route still functioned, but the small shelter's comfortable capacity was lower than the early notice implied. Lin changed the capacity board and arranged the ordinary larger overflow space at the grain house during its accepted loan interval. Long inspected the walk between them, then sent the clerk to carry the update. No one had bought an unlimited room with twelve copper.",
+      "background": "forest_winter_boundary",
+      "next": "forest_13_bank_017"
+    },
+    "forest_13_bank_017": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "At day's end, the households collected the actual delay accounts and next morning's revised arrangement. The commercial crews had completed the planned shorter hauls. The animals had crossed several times without injury, including one tense approach to the shelter. Lin submitted every part, resisting the urge to turn no injury into no problem. The twelve-copper trial budget had funded the named additions. More work or a longer extension would need a new accepted amount. Tomorrow could not simply inherit an inexhaustible version of today.",
+      "background": "forest_winter_boundary",
+      "next": "forest_13_bank_018"
+    },
+    "forest_13_bank_018": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Wen walked with her to the lodging. He said the mother had been right to ask about the shelter. Lin said she knew. He said she had looked hurt anyway. She admitted she had wanted the woman to see how hard they had tried. Wen said the woman had seen the antlers first, which seemed a fair ordering. Lin laughed despite herself. The laugh loosened something that defending the plan had tightened all afternoon.",
+      "background": "forest_warden_lodge",
+      "next": "forest_13_bank_019"
+    },
+    "forest_13_bank_019": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The niece had built a paper waiting shelter for the Hart and dog. She put both inside, leaving the human figures outside in the cold. Shi Lan asked where the people would warm themselves. The girl added a second shelter and complained that the table was too small. Lin looked at the crowded paper arrangement and said that was a genuine planning problem. Wen moved his cup so the second shelter could stand. The child's council had acquired more room at a remarkably low price.",
+      "background": "forest_warden_lodge",
+      "next": "forest_13_bank_020"
+    },
+    "forest_13_bank_020": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "On the second morning, the moved waiting point worked. The newcomer Hart watched from farther away and did not approach the doorway. The early carrier turn finished before the kitchen woman's revised start. She told Lin the arrangement was better, then asked how long it would last. Lin gave the trial's actual end and review date. The woman nodded without sounding satisfied by the uncertainty. A good morning had earned confidence in one morning, not permission to forget the week.",
+      "background": "forest_winter_boundary",
+      "next": "forest_13_bank_021"
+    },
+    "forest_13_bank_021": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "At the third clear turn, the adult known from the orchard spoke across the bank. It said the people were farther from the narrow approach now and the younger one's crossing had been easier. It also said the newcomer adults might return at an unpredictable hour after feeding uphill. Lin asked whether the watch's hold signal disturbed it. The Hart said the signal was tolerable when humans stayed where it pointed. The important sound was not the bell but the feet that followed it.",
+      "background": "forest_winter_boundary",
+      "next": "forest_13_bank_022"
+    },
+    "forest_13_bank_022": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "frostroot_hart",
+      "actor": "frostroot_hart",
+      "text": "The feet matter. Yesterday the child behind the wall stayed there while my head turned. I could move away instead of deciding which moving body would strike first. Today the small one did not hurry over the bank. That is good. It does not mean the other three will learn your hours. They have their own fear and their own winter. Keep watching the ground even when your board says it should be empty.",
+      "background": "forest_winter_boundary",
+      "next": "forest_13_bank_023"
+    },
+    "forest_13_bank_023": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The watch kept the bank occupied status until the animal's actual departure. Lin noticed a commercial carrier reading the time board and then checking the signal, a better sequence than yesterday's premature start. Wen's crew waited with the bundles staged clear of the exit. The shorter route was working because people kept accepting an inconvenient interruption. Lin understood that the trial's success depended on behavior as well as wood, walls, and a funded roster. Behavior tired too.",
+      "background": "forest_winter_boundary",
+      "next": "forest_13_bank_024"
+    },
+    "forest_13_bank_024": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "By the fourth day, one added carrier turn had run close to its accepted limit after a long Hart hold. The worker said he could finish one last bundle, but his paid interval was ending and he had another task elsewhere. Shi Lan arranged the remaining household delivery within the later regular turn after the family agreed. She did not take the offered extra labor as an invisible extension of the budget. The family disliked the delay. The worker kept his next job on time.",
+      "background": "forest_winter_boundary",
+      "next": "forest_13_bank_025"
+    },
+    "forest_13_bank_025": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Long reviewed the delay with his clerk and the kitchen supervisors. Verified access interruptions would remain excused under the trial terms, but the staffing needed a small staggered start to make meal service reliable. The affected workers accepted the stated change for the remaining trial days, with hours and pay retained. The cook inspected the roster and pronounced it less foolish. Lin wrote down the actual change, pleased that a criticism could become a working day rather than another defense of intentions.",
+      "background": "forest_boundary_map_room",
+      "next": "forest_13_bank_026"
+    },
+    "forest_13_bank_026": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "A young newcomer Hart slipped on the bank's icy edge that afternoon and scrambled uphill, sending the adult beside it abruptly toward the human approach. The watch held people behind the wall. The animal stopped before reaching the barrier, then turned after the youngster. Nobody chased it or shouted. The observer marked the slippery edge for habitat inspection during the next quiet interval. The incident showed a limit of the shared route: danger could arrive from a bad step even when everyone followed the timetable.",
+      "background": "forest_winter_boundary",
+      "next": "forest_13_bank_027"
+    },
+    "forest_13_bank_027": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The habitat worker treated the local human footing and lifted the loose icy debris without draining the refuge pool or cutting its living roots. The Hart approach remained under observation. Lin carried a small grit bucket to the shelter and watched the crew distinguish the two surfaces. A simple urge to grit every shining patch would have changed the animal bank in ways they had not assessed. She kept to the assigned human path. The smaller useful task was becoming less humiliating through practice.",
+      "background": "forest_winter_boundary",
+      "next": "forest_13_bank_028"
+    },
+    "forest_13_bank_028": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "At the fifth day's update, the watched-bank trial had preserved the shorter commercial handling schedule with several household delays, one revised shelter placement, and two close approaches without contact. The added access work remained within its twelve-copper amount. The records supported continuing only with the revised waiting point, staffing, and actual stop conditions, not with the simpler first notice. Rong asked whether those costs should be compared with the upper hauling proposal again. Long said yes before Lin could feel obliged to defend her recommendation.",
+      "background": "forest_winter_boundary",
+      "next": "forest_13_bank_029"
+    },
+    "forest_13_bank_029": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "wen_cai",
+      "actor": "wen_cai",
+      "text": "You chose a real trial, not a flag you have to carry until it breaks. It showed us things. The shorter haul helped my crew. The waiting point needed moving. The kitchen woman needed a different start. The icy step frightened everyone even when nobody disobeyed. Put those facts beside the upper route's checked costs. If the next plan uses part of each, that is not an insult to your choice. It means the valley has more than two colors.",
+      "background": "forest_winter_boundary",
+      "next": "forest_13_bank_030"
+    },
+    "forest_13_bank_030": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Lin submitted the final watched-bank account, including the household delays and the practical revisions. The council would compare it with the qualified upper-route survey and current migration observations before renewing any arrangement. The week had ended without a new injury at the shared bank, and that mattered. Its inconvenience had not been evenly carried, and that mattered too. Lin sat beside Wen at the review table, less eager to be vindicated than to hear what would make the next week usable.",
+      "background": "forest_winter_boundary",
+      "next": "forest_13_review_001"
+    },
+    "forest_13_review_001": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "At the review, the selected trial's complete record lay beside the qualified route surveys and the five Harts' current movement. The council did not pretend both possible operations had been tested. It used the actual experience of the chosen one and the checked limits of the other to authorize a smaller combined arrangement: some commercial loads would use the upper route while the bank remained watched for the busiest household turns. The affected crews and households reviewed the revised hours before the roster was issued.",
+      "background": "forest_boundary_map_room",
+      "next": "forest_13_review_002"
+    },
+    "forest_13_review_002": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The next bounded interval required eighteen copper of additional work: twelve from the buyers' accepted commercial handling shares and six from the council's reviewed access line. Existing watch and household carrier coverage remained funded under their own roster. The extension had an end and a review point. Lin read the accepted plan back to the people it affected. Nobody claimed it was the final shape of coexistence. It was the shape they could staff, pay, and examine now.",
+      "background": "forest_boundary_map_room",
+      "next": "forest_13_review_003"
+    },
+    "forest_13_review_003": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "Before the review ended, the district watch reported a man caught placing another wire loop near the old loading turn. Two qualified watchmen had approached from the safe path after seeing the actual placement. The man surrendered the tool and spool when stopped; no one had chased him among the Harts. His grey cap and red strap matched earlier descriptions, but the fresh witnessed act mattered more than the clothing. The wildlife investigator brought him to the lower office for the authorized inquiry.",
+      "background": "forest_boundary_map_room",
+      "next": "forest_13_review_004"
+    },
+    "forest_13_review_004": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "He was the visiting laborer whose pot had been recognized. He admitted setting the fresh loop and the upper snare removed on the wedding night. He said the promised antler premium had looked like one chance to earn more than a winter of hauling. He denied the earlier low snare until the investigator showed him its preserved stake. Then he described the stake's hidden crack before being told where it lay. The account would be checked against the independent records, not accepted merely because it made a convenient ending.",
+      "background": "forest_boundary_map_room",
+      "next": "forest_13_review_005"
+    },
+    "forest_13_review_005": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "The man had lit the unauthorized campfire, he said, and left when he heard the watch. The dealer had not directly ordered a trap, but had praised the value of unbroken pairs and asked whether the laborer knew the winter passage. The actual purchase terms and witness accounts would decide that commercial responsibility. The investigator preserved the man's statement, tools, and current custody under district procedure. Hunger explained why the premium tempted him. It did not make the wire less painful around the youngster's leg.",
+      "background": "forest_boundary_map_room",
+      "next": "forest_13_review_006"
+    },
+    "forest_13_review_006": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "shi_lan",
+      "actor": "shi_lan",
+      "text": "The inquiry will answer the man's acts and the dealer's part. The watch still needs to inspect the route, because one captured person does not remove every old wire or every future temptation. Tell the Hart what we can verify: the fresh traps are removed, and the witnessed setter is under district inquiry. Do not tell it the forest is safe now. Tell the households their accepted routes remain open under the revised plan. Their safety is part of the same work.",
+      "background": "forest_boundary_map_room",
+      "next": "forest_13_review_007"
+    },
+    "forest_13_review_007": {
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "effect": "none",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "text": "At the lodging, Wen's sister sent a final pot from the marriage meal to the night watch. The bride had kept enough for her own first ordinary supper with her husband. Lin helped divide the watch portions and then sat down with the others. The five Harts remained in the refuge, the trapper in district custody, and the valley inside a funded arrangement that still required attention. Tomorrow's work would turn toward the cold shelter and the winter water. The forest had not finished asking what warmth should cost.",
+      "background": "forest_warden_lodge",
+      "next": "forest_14_001"
+    }
+  }
+}

@@ -229,7 +229,7 @@ func _scene() -> void:
 	_label(str(chapter.get("title", "The star beneath the mountain")), Vector2(77, 174), 27, PALE)
 	var background_path := str(background_paths.get(node.get("background", ""), "res://assets/art/azure_cloud.webp"))
 	background.texture = load(background_path)
-	var totals := _label("QI %02d    TRUST %02d    INSIGHT %02d    RESOLVE %02d" % [state.stats.qi, state.stats.trust, state.stats.insight, state.stats.resolve], Vector2(78, 222), 14, JADE)
+	var totals := _label("CONTROL %02d    DAO HEART %02d    COMPREHENSION %02d    PHYSIQUE %02d" % [state.stats.qi, state.stats.trust, state.stats.insight, state.stats.resolve], Vector2(78, 222), 14, JADE)
 	totals.name = "AttributeTotals"
 	var realm_label := _label(_cultivation_label(node), Vector2(78, 246), 13, GOLD)
 	realm_label.name = "CultivationRealm"
@@ -274,7 +274,7 @@ func _scene() -> void:
 	choice_box.add_theme_constant_override("separation", 6)
 	ui.add_child(choice_box)
 	choice_box.visible = false
-	var choices: Array = node.get("choices", [])
+	var choices: Array = [] if node.get("random_event", false) else node.get("choices", [])
 	for i in range(choices.size()):
 		var choice: Dictionary = choices[i]
 		var details: Dictionary = state.choice_details(choice)
@@ -335,6 +335,8 @@ func _choose(index: int) -> void:
 		return
 	var choices: Array = state.node().get("choices", [])
 	var gains: PackedStringArray = []
+	if state.node().get("random_event", false):
+		return
 	if index >= 0 and index < choices.size():
 		gains = state.choice_details(choices[index]).effects
 	if state.choose(index):
@@ -349,7 +351,7 @@ func _advance() -> void:
 	if dialogue != null and dialogue.visible_characters >= 0 and dialogue.visible_characters < dialogue.get_total_character_count():
 		dialogue.visible_characters = -1
 		text_clock = dialogue.get_total_character_count()
-		choice_box.visible = true
+		choice_box.visible = choice_box.get_child_count() > 0
 		return
 	if state.node().has("ending"):
 		if state.node().has("continuation") and state.advance():
@@ -400,9 +402,9 @@ func _process(delta: float) -> void:
 		text_clock += delta * text_speed * (8.0 if fast_read else 1.0)
 		dialogue.visible_characters = mini(int(text_clock), total)
 	else:
-		choice_box.visible = true
+		choice_box.visible = choice_box.get_child_count() > 0
 		auto_clock += delta
-		if auto_read and auto_clock > 2.0 and not audio.voice.playing and state.node().has("next"):
+		if auto_read and auto_clock > 2.0 and not audio.voice.playing and (state.node().has("next") or state.node().get("random_event", false)):
 			_advance()
 
 func _unhandled_key_input(event: InputEvent) -> void:
@@ -849,7 +851,7 @@ func _capture() -> void:
 		_set_outfit(character, Wardrobe.DEFAULT_OUTFIT)
 
 	atmosphere.enabled = not reduced_motion
-	for sample in [{"id": "arrival", "file": "mortal_arrival"}, {"id": "han_mei_shift", "file": "mortal_han_mei"}, {"id": "mortal_mite_choice", "file": "mortal_mite"}, {"id": "tempering_after_013", "file": "first_trace"}, {"id": "sluice_005", "file": "sluice_examiner"}, {"id": "sluice_040", "file": "sluice_retention"}, {"id": "channels_044", "file": "paired_channel"}, {"id": "reed_step_011", "file": "brine_mantis"}, {"id": "lantern_hub", "file": "quest_hub"}, {"id": "reed_voice", "file": "spirit_encounter"}, {"id": "ferry_price", "file": "ferry_encounter"}, {"id": "archive_copies", "file": "archive_encounter"}, {"id": "river_xiu", "file": "river_pilot"}, {"id": "river_spirit", "file": "river_spirit"}, {"id": "harbor_answer", "file": "river_harbor"}, {"id": "orchard_arrival", "file": "orchard_healer"}, {"id": "orchard_hart_answer", "file": "orchard_spirit"}, {"id": "orchard_resolution_choice", "file": "orchard_choices"}, {"id": "city_arrival", "file": "city_market"}, {"id": "city_mask_studio", "file": "city_mask_maker"}, {"id": "city_registry_mei", "file": "city_archivist"}, {"id": "city_registry_tao", "file": "city_courier"}, {"id": "city_perfumer_workroom", "file": "city_perfumer"}, {"id": "city_courser_terms", "file": "city_courser"}, {"id": "city_perfumer_moth_terms", "file": "city_moth"}, {"id": "city_final_choice", "file": "city_choices"}, {"id": "court_upper_bench", "file": "court_upper_bench"}, {"id": "court_luo_shan", "file": "court_luo_shan"}, {"id": "court_bai_qun", "file": "court_bai_qun"}, {"id": "court_du_heng", "file": "court_du_heng"}, {"id": "court_rain_heron", "file": "court_rain_heron"}, {"id": "court_investigation_choice", "file": "court_investigation_choice"}, {"id": "court_final_choice", "file": "court_final_choice"}, {"id": "court_weather_setup", "file": "court_weather_setup"}, {"id":"foundry_arrival_003","file":"foundry_examiner"}, {"id":"foundry_arrival_014","file":"foundry_friend"}, {"id":"foundry_phase_001","file":"foundry_phase_room"}, {"id":"foundry_route_010","file":"foundry_material_fault"}, {"id":"foundry_creature_002","file":"foundry_creature"}, {"id":"foundry_earned_002","file":"second_pair"}, {"id":"foundry_final_choice","file":"foundry_choices"}, {"id":"foundry_home_004","file":"foundry_home"}, {"id":"foundry_assessment_018","file":"foundry_certificate"}]:
+	for sample in [{"id": "arrival", "file": "mortal_arrival"}, {"id": "han_mei_shift", "file": "mortal_han_mei"}, {"id": "mortal_mite_choice", "file": "mortal_mite"}, {"id": "tempering_after_013", "file": "first_trace"}, {"id": "sluice_005", "file": "sluice_examiner"}, {"id": "sluice_040", "file": "sluice_retention"}, {"id": "channels_044", "file": "paired_channel"}, {"id": "reed_step_011", "file": "brine_mantis"}, {"id": "lantern_hub", "file": "quest_hub"}, {"id": "reed_voice", "file": "spirit_encounter"}, {"id": "ferry_price", "file": "ferry_encounter"}, {"id": "archive_copies", "file": "archive_encounter"}, {"id": "river_xiu", "file": "river_pilot"}, {"id": "river_spirit", "file": "river_spirit"}, {"id": "harbor_answer", "file": "river_harbor"}, {"id": "orchard_arrival", "file": "orchard_healer"}, {"id": "orchard_hart_answer", "file": "orchard_spirit"}, {"id": "orchard_resolution_choice", "file": "orchard_choices"}, {"id": "city_arrival", "file": "city_market"}, {"id": "city_mask_studio", "file": "city_mask_maker"}, {"id": "city_registry_mei", "file": "city_archivist"}, {"id": "city_registry_tao", "file": "city_courier"}, {"id": "city_perfumer_workroom", "file": "city_perfumer"}, {"id": "city_courser_terms", "file": "city_courser"}, {"id": "city_perfumer_moth_terms", "file": "city_moth"}, {"id": "city_final_choice", "file": "city_choices"}, {"id": "court_upper_bench", "file": "court_upper_bench"}, {"id": "court_luo_shan", "file": "court_luo_shan"}, {"id": "court_bai_qun", "file": "court_bai_qun"}, {"id": "court_du_heng", "file": "court_du_heng"}, {"id": "court_rain_heron", "file": "court_rain_heron"}, {"id": "court_investigation_choice", "file": "court_investigation_choice"}, {"id": "court_final_choice", "file": "court_final_choice"}, {"id": "court_weather_setup", "file": "court_weather_setup"}, {"id":"foundry_arrival_003","file":"foundry_examiner"}, {"id":"foundry_arrival_014","file":"foundry_friend"}, {"id":"foundry_phase_001","file":"foundry_phase_room"}, {"id":"foundry_route_010","file":"foundry_material_fault"}, {"id":"foundry_creature_002","file":"foundry_creature"}, {"id":"foundry_earned_002","file":"second_pair"}, {"id":"foundry_final_choice","file":"foundry_choices"}, {"id":"foundry_home_004","file":"foundry_home"}, {"id":"foundry_assessment_018","file":"foundry_certificate"}, {"id":"ridge_departure_002","file":"ridge_surveyor"}, {"id":"ridge_pool_001","file":"ridge_tortoise"}, {"id":"ridge_weather_event","file":"ridge_weather"}, {"id":"ridge_incident_cloudhound_001","file":"ridge_cloudhound"}, {"id":"ridge_incident_surge_001","file":"ridge_discharge"}, {"id":"ridge_final_choice","file":"ridge_choices"}, {"id":"storm_warning_001","file":"storm_observatory"}, {"id":"storm_final_choice","file":"storm_choices"}, {"id":"salt_channels_001","file":"salt_watermill"}, {"id":"salt_findings_003","file":"salt_forewoman"}, {"id":"salt_recovery_005","file":"salt_salamander"}, {"id":"salt_final_choice","file":"salt_choices"}]:
 		state.current = sample.id
 		_scene()
 		dialogue.visible_characters = -1
@@ -941,6 +943,32 @@ func _smoke_build() -> void:
 		valid = valid and actor.character == encounter.actor and actor.sprite.texture != null and audio.voice.stream != null
 		if actor.sprite.texture != null:
 			valid = valid and actor.sprite.texture.get_size() == Vector2(1024, 1536)
+	# New encounters must be present in the source-free package.
+	valid = valid and state.story.chapters.has("book_ix")
+	for encounter in [{"node": "ridge_departure_002", "actor": "jiang_tao"}, {"node": "ridge_pool_001", "actor": "copperback_tortoise"}, {"node": "ridge_incident_cloudhound_001", "actor": "cloudhound"}]:
+		state.current = str(encounter.node)
+		_scene()
+		valid = valid and actor.character == encounter.actor and actor.sprite.texture != null
+		valid = valid and background.texture != null and audio.voice.stream is AudioStreamOggVorbis
+	# Later books and their native originals must load in the source-free package.
+	valid = valid and state.story.chapters.has("book_x_storm_ledger")
+	valid = valid and state.story.chapters.has("book_xi_salt_road")
+	for encounter in [{"node": "salt_findings_003", "actor": "yuan_lian"}, {"node": "salt_recovery_005", "actor": "reedglass_salamander"}]:
+		state.current = str(encounter.node)
+		_scene()
+		valid = valid and actor.character == encounter.actor and actor.sprite.texture != null
+		valid = valid and background.texture != null and audio.voice.stream is AudioStreamOggVorbis
+		if actor.sprite.texture != null:
+			valid = valid and actor.sprite.texture.get_size() == Vector2(1024, 1536)
+	for location in [{"node": "storm_warning_001", "size": Vector2(1774, 887)}, {"node": "salt_channels_001", "size": Vector2(1672, 941)}]:
+		state.current = str(location.node)
+		_scene()
+		valid = valid and background.texture != null and background.texture.get_size() == location.size
+		valid = valid and audio.voice.stream is AudioStreamOggVorbis
+	state.current = "ridge_weather_event"
+	_scene()
+	valid = valid and continue_button.visible and choice_box.get_child_count() == 0
+	valid = valid and state.advance() and state.current.begins_with("ridge_weather_")
 	# The standalone package must include modular book data, new art and Vorbis.
 	valid = valid and state.story.chapters.has("book_vi")
 	for encounter in [
@@ -989,7 +1017,7 @@ func _smoke_build() -> void:
 	_scene()
 	dialogue.visible_characters = -1
 	_choose(3)
-	valid = valid and state.current == "court_remand_proposal" and state.stats.resolve == 2
+	valid = valid and state.current == "court_remand_proposal" and state.stats.trust == 2
 	state.stats = retained_stats
 	_interiors()
 	_interior_selected(_interior_entries().size() - 1)
@@ -1002,7 +1030,7 @@ func _smoke_build() -> void:
 	_close_popup()
 	_attributes()
 	var attribute_value: Label = popup.find_child("AttributeValue_trust", true, false)
-	valid = valid and attribute_value != null and attribute_value.text == "Trust · 2"
+	valid = valid and attribute_value != null and attribute_value.text == "Dao Heart · 2"
 	_close_popup()
 	if valid:
 		print("JADE_VOW_PACKAGE_OK: standalone story, world art, object inspection and narration")

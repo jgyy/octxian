@@ -1,0 +1,1324 @@
+{
+  "chapters": {
+    "book_ix": {
+      "label": "BOOK IX",
+      "title": "The ridge that changed its answer"
+    }
+  },
+  "characters": {
+    "jiang_tao": {
+      "name": "Jiang Tao",
+      "title": "Surveyor of the Thunderfen formations",
+      "color": "#c8bb91"
+    },
+    "copperback_tortoise": {
+      "name": "The Copperback Tortoise",
+      "title": "Keeper of the basalt pools",
+      "color": "#b3c7a0"
+    },
+    "cloudhound": {
+      "name": "The Cloudhound",
+      "title": "Hunter of the upper scree",
+      "color": "#c4d0dd"
+    }
+  },
+  "nodes": {
+    "ridge_from_bench": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The six-week bench term ended with the chamber cool and Yue's final wages paid. Su Yan checked both established arm routes before closing the work book. She had improved her timing without earning another pair. Jiang Tao's field invitation had waited until that contracted work finished. On Day One Hundred Twenty-seven, the forty-seventh morning after the fourth-stage examination, Yue left with a sealed sampling kit, two weeks of food money and a letter naming where she could return if the survey stopped.",
+      "next": "ridge_departure_001"
+    },
+    "ridge_from_survey": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The cooling survey ended within its agreed term. For the remaining weeks Yue worked ordinary short shifts at the ash bridge and practiced only recovered loads through her two tested arm pairs. Su Yan renewed the route check before departure. On Day One Hundred Twenty-seven, the forty-seventh morning after the fourth-stage examination, Jiang Tao's invitation became a real road. The permitted specimens stayed at the foundry. Yue took their approved comparison sheet, not somebody else's jar, toward Thunderfen.",
+      "next": "ridge_departure_001"
+    },
+    "ridge_from_home": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "From Day Eighty-five through Day One Hundred Twenty-six, Yue spent six weeks at the west kiln, helping with ordinary household work and keeping established practice below its tested load. The roof passed its rain inspection. Her mother read Jiang Tao's invitation twice and asked where a failed journey would end. Yue pointed to the receiving workshop, then counted the fare home. Su Yan checked both arm pairs before the forty-seventh morning's departure. Neither the kiln nor her pendant had opened a third route while nobody watched.",
+      "next": "ridge_departure_001"
+    },
+    "ridge_departure_001": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Thunderfen began where the road lost its smooth paving. Black columns rose from pale grass, and copper seams greened their fractured faces. Yue could hear a slow tapping through the soles of her ordinary boots. She resisted calling it qi before identifying the sound. At the turn, Jiang Tao waited beside a handcart with a broken umbrella tied across its load. The surveyor looked at Yue's food bag before looking at her fourth-stage cord.",
+      "next": "ridge_departure_002"
+    },
+    "ridge_departure_002": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "'Seven days in the field,' Jiang said. 'Sixteen copper for your bounded sampling work, four for the journey, and the fare back reserved before we begin. Meals come from this crate. If the weather closes the ridge, paid waiting replaces dangerous work.' She showed Yue the receiving workshop and the route down. The cart carried six charged stones in separate sleeves. None belonged in Yue's body. The apprentice would supply small control traces while Jiang operated the field formation.",
+      "next": "ridge_departure_003"
+    },
+    "ridge_departure_003": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Jiang's own authority covered the inspection sockets and the isolated repair frame, not the entire mountain. She had qualified on those systems before accepting the commission. The quarry wanted a clean finding about a damaged storm rod. 'They would prefer a culprit to a mechanism,' she said. 'We will give them whichever the evidence earns.' Yue asked whether declining a sample would lose her wages. Jiang wrote the stop rule above the task list before loading the cart.",
+      "next": "ridge_departure_004"
+    },
+    "ridge_departure_004": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Shen Qing walked with them as far as the first marker. He had work at Azure Cloud and no paid field turn here. Elder Yun's letter offered a comparison diagram, not her presence on demand. Mo Ran sent a bag of dried mushrooms and an ordinary caution about wet rock. Yue placed the letter beneath the food rather than in the instrument case. She had learned from all three. This journey still required her own feet and a teacher who could say no.",
+      "next": "ridge_departure_005"
+    },
+    "ridge_departure_005": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The storm compass occupied a padded box. Five thin crystal vanes stood around a copper spindle; an ordinary latch froze their positions for reading. Jiang opened its cover on a dry stone. 'It compares local phase drift after we check the blank. It does not point toward luck, guilt or the future.' Yue turned the empty test ring through its notches. One vane stuck. They cleaned its pivot before accepting a single number from it.",
+      "next": "ridge_departure_006"
+    },
+    "ridge_departure_006": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "At the workshop, the quarry's steward brought a scarred storm rod and a replacement order. Two workers stood behind him without entering. One had been blamed for stealing a grounding strip. Yue asked to hear the task before the accusation. The steward wanted the road reopened before market day. Jiang pointed out that a closed road and a person's disputed wages needed separate answers. She accepted the offered rod for testing, leaving the road barrier in place.",
+      "next": "ridge_departure_007"
+    },
+    "ridge_departure_007": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The damaged rod had a copper foot, a ceramic collar and a dark seam beneath its glaze. A brighter mark crossed the seam like a shortcut on a map. The accused worker said the foot had hummed before he touched it. His partner remembered a smell of wet coins. Neither had seen the old grounding strip being fitted. Yue copied the exact limits of their accounts. The rod lay cold on the bench, offering none of the missing past by itself.",
+      "next": "ridge_departure_008"
+    },
+    "ridge_departure_008": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Jiang divided the sampling kit into a working portion and an untouched reference. Yue weighed each dry chip with ordinary balances before the storm compass came out. A dealer's seal on the package promised pure copper. Its appearance established who packed it, not the material's behavior under rain. The surveyor gave Yue two blank trays. A careful first question could consume less of their finite stock than a magnificent answer to the wrong one.",
+      "next": "ridge_departure_009"
+    },
+    "ridge_departure_009": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "That evening Yue practiced admission and closure through the first arm pair. The second pair remained empty while she checked its ordinary sensation. Her known reserve did not entitle her to fill both at once under field fatigue. Jiang timed the delivery and the smaller recovered trace, then asked for the next morning's hand check. Yue wanted to show the newest route. The surveyor wanted the route whose return she could actually read tonight.",
+      "next": "ridge_departure_010"
+    },
+    "ridge_departure_010": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Over supper, Jiang described the pool keeper. The Copperback Tortoise usually remained below the basalt shelf, tapping its shell against a hollow stone when carts approached its water. Its signals had been learned from repeated ordinary encounters, with refusals still sometimes unclear. 'Three taps usually asks us to wait,' Jiang said. 'Usually matters. We stop and observe before interpreting it as an invitation.' Yue packed the dry reference tray away from the animal's path.",
+      "next": "ridge_departure_011"
+    },
+    "ridge_departure_011": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The first night's sleep brought a dream of three shining arm routes. In the dream the third opened because everyone waited for her to become useful. Waking, Yue found two ordinary hands on the blanket and an unfinished circuit in the notebook. She wrote the dream on a private scrap instead of entering it as a sensation test. Jiang did not laugh when Yue mentioned it. 'A heart demon need not look monstrous to persuade you to falsify a result.'",
+      "next": "ridge_departure_012"
+    },
+    "ridge_departure_012": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Before dawn they counted every stone's remaining charge. Qualified road workers had returned the inspected rod from the workshop to its isolated fixture above the pool; the road keeper checked the lower path and kept the upper spur closed. Yue checked the cart's quick-release straps before retreat. Jiang put the unpaid repair order aside. Today was an observation day, with a return deadline before dusk. A different sky could change its work, but could not open the closed spur.",
+      "next": "ridge_weather_event"
+    },
+    "ridge_weather_event": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Morning pressed a different sky against the basalt. Jiang checked the visible markers before opening the cart. Yue kept the reference dry and waited for the road keeper's signal. The weather would decide which observation they could safely make first. It would not decide what qi she possessed or whose words they were entitled to hear.",
+      "random_event": true,
+      "choices": [
+        {
+          "text": "rain",
+          "next": "ridge_weather_rain_001"
+        },
+        {
+          "text": "mist",
+          "next": "ridge_weather_mist_001"
+        },
+        {
+          "text": "wind",
+          "next": "ridge_weather_wind_001"
+        }
+      ]
+    },
+    "ridge_weather_rain_001": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Rain arrived before the ridge opened. Water ran along the broken rod's copper foot, carrying green grit into the lowest pool. Jiang moved the cart beneath a stone roof and canceled exposed measurements. Yue tied the dry reference above the splash line. The keeper's three taps came through the rain, then stopped. They waited rather than declaring the silence agreement.",
+      "next": "ridge_weather_rain_002"
+    },
+    "ridge_weather_rain_002": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "From shelter, Yue watched a green thread appear on the wet glaze without any input from her. Jiang covered half the offered chip with an ordinary waxed cloth. The uncovered half changed first. That was a present observation under rain, not a reconstruction of the earlier failure. They preserved the covered half before the drizzle became a sheet.",
+      "next": "ridge_weather_rain_003"
+    },
+    "ridge_weather_rain_003": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The road remained closed that morning. Jiang paid the agreed waiting interval and sent the keeper a cloth signal from the checked inner post. Yue marked the exact sky and delay on their sheet. The wet comparison gave them a question for the bench. It did not grant a safe reason to climb after the storm.",
+      "next": "ridge_pool_001"
+    },
+    "ridge_weather_mist_001": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Low mist arrived in place of a clear morning. The nearest basalt columns remained visible, while the higher markers vanished. Jiang shortened their working boundary to the inner pair of posts. Yue could hear the pool keeper but could not count the shell taps confidently through dripping echoes. They waited for a visible answer at the bank.",
+      "next": "ridge_weather_mist_002"
+    },
+    "ridge_weather_mist_002": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The offered chip stayed dry beneath its cloth. Jiang collected ordinary moisture on a clean tile at the sheltered edge, then sealed it for a separate controlled comparison. Yue recorded that the ridge had provided no direct wet-glaze result today. A slower method was still a method; inventing a result from a promising sound would make it useless.",
+      "next": "ridge_weather_mist_003"
+    },
+    "ridge_weather_mist_003": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "By midday the mist thinned only below the first marker. Jiang canceled the upper instrument trip and used the paid waiting interval to check the compass blank again. Yue drew the visible boundary instead of completing the whole ridge outline from memory. Their later bench test would have to state how its water reached the sample.",
+      "next": "ridge_pool_001"
+    },
+    "ridge_weather_wind_001": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "A dry gust shook the tied umbrella flat against the cart. Jiang closed its ribs before they broke. Dust crossed the lower stones, and the pool keeper sheltered behind a basalt lip. Yue caught the loose observation sheet with an ordinary palm. The reference stayed sealed; no environmental qi reading was accepted while grit struck the compass vanes.",
+      "next": "ridge_weather_wind_002"
+    },
+    "ridge_weather_wind_002": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Jiang moved the table inside and let the compass settle. The clean offered chip showed no green thread in the dry air. Yue wrote that absence with the conditions beside it. The rod's earlier rain failure remained unanswered. A workshop pour could compare wet and dry surfaces later; this gust would not serve as proof that the material was sound.",
+      "next": "ridge_weather_wind_003"
+    },
+    "ridge_weather_wind_003": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The road keeper closed the upper spur for falling fragments. Jiang honored the paid waiting term, even though the sky looked bright enough for a heroic sketch. Yue cleaned the ordinary vane guard without opening the reference sleeve. A clear view and a safe working site had turned out to be different things.",
+      "next": "ridge_pool_001"
+    },
+    "ridge_pool_001": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "copperback_tortoise",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "On the next safe interval, the Copperback Tortoise surfaced beside the inner stone. Its shell carried raised green ridges like cooled metal, with old scratches between them. Three slow taps passed through the hollow bank. Jiang set the cart down and waited. Yue kept her fingers away from the water. Nothing about a creature's impressive shell made it theirs to sample.",
+      "next": "ridge_pool_002"
+    },
+    "ridge_pool_002": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "copperback_tortoise",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The keeper slid a loose stone toward the old rod's foot, then pressed its foreleg against the pool bank. Yue thought it meant the foot was poisoning the water. Jiang asked her to draw the two observed movements first. A proposed interpretation went underneath them. The Tortoise watched the brush move and tapped twice against the loose stone.",
+      "next": "ridge_pool_003"
+    },
+    "ridge_pool_003": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "copperback_tortoise",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Jiang laid out three objects at a distance: an ordinary water bowl, a dry cloth and the offered comparison tile. The keeper touched the bowl, then backed toward the downstream pool. They took that as a request to move their washing station, confirmed by removing it from the bank. The shell taps stopped. The site became calmer without a spoken confession from anything in the water.",
+      "next": "ridge_pool_004"
+    },
+    "ridge_pool_004": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "copperback_tortoise",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The quarry steward arrived carrying a sack labeled replacement copper. He proposed taking a shaving from the keeper's shell because it had weathered more storms than their instruments. Jiang declined before Yue reached for a tool. An animal's body was not a free calibration standard. The offered material and the damaged rod already supplied enough questions for the authorized test.",
+      "next": "ridge_pool_005"
+    },
+    "ridge_pool_005": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "copperback_tortoise",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Yue checked the rod's foot with an ordinary sight line. Its lowest seam faced the pool. The brighter shortcut under its collar ended there instead of at the rated ground bed. If that line conducted under rain, it could send a discharge toward the water. Jiang drew a dotted hypothesis, leaving the installed circuit isolated. A wrong path on a drawing was not yet a tested current.",
+      "next": "ridge_pool_006"
+    },
+    "ridge_pool_006": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "copperback_tortoise",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The steward said a missing strip explained everything. He had not brought the original fitting diagram. Jiang asked for it and continued with the material already offered. A theft allegation could account for an absent object; it could not by itself establish why the remaining ceramic had become conductive. Yue put the two questions on separate leaves before they were copied into one answer.",
+      "next": "ridge_pool_007"
+    },
+    "ridge_pool_007": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "copperback_tortoise",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "They had enough safe time for one close investigation. Yue could help Jiang examine an isolated replica, compare the supplier's offered material, or map the rod foot and pool from firm ground. The two tasks she did not join would receive their own authorized notes. Choosing a method would determine what she actually witnessed, not what the ridge was obliged to reveal.",
+      "next": "ridge_pool_008"
+    },
+    "ridge_pool_008": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "copperback_tortoise",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Jiang marked tomorrow's retreat path in ordinary chalk. The Copperback Tortoise remained below the shelf, leaving their offered tile untouched. Yue had expected a powerful keeper to make the road simple. Instead its presence had made several human shortcuts harder to excuse. She ate the mushrooms Mo Ran had packed and checked both hands before sleeping.",
+      "next": "ridge_investigation_choice"
+    },
+    "ridge_investigation_choice": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Jiang placed the three work sheets on the dry table. The isolated replica needed a checked control command. The material comparison needed coded observations. The safe map needed ordinary measurements without crossing the closed margin. Yue could join one task while qualified workers completed the others. All reports would return before any repair proposal.",
+      "choices": [
+        {
+          "text": "Control the isolated replica at your tested allowance.",
+          "next": "ridge_replica_001",
+          "effects": {
+            "qi": 1
+          }
+        },
+        {
+          "text": "Compare offered glaze fines against the clean control.",
+          "next": "ridge_material_001",
+          "effects": {
+            "insight": 1
+          }
+        },
+        {
+          "text": "Map the foot and pool from the checked inner stones.",
+          "next": "ridge_ground_001",
+          "effects": {
+            "resolve": 1
+          }
+        }
+      ]
+    },
+    "ridge_replica_001": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Jiang assembled the replica on a grounded tray inside the workshop. Its patient-looking coil came from an apparatus, not a living body. The original rod remained covered at its isolated pool fixture. Yue measured the dry blank before any field stone was connected. The brighter shortcut had been reproduced only on the removable test tile. If it failed, the damage would end there.",
+      "next": "ridge_replica_002"
+    },
+    "ridge_replica_002": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The surveyor rated Yue's input below the tested quarter-unit. The separate stone would supply the apparatus load. Yue admitted a trace through the first arm pair, delivered it into the isolated control socket and measured the smaller return. She discharged before Jiang opened the powered test. Nothing crossed Yue's unused channels because the replica looked like a meridian on the page.",
+      "next": "ridge_replica_003"
+    },
+    "ridge_replica_003": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Dry, the tile left the intended ground path dominant. Jiang closed the stone supply and waited for the tray's stored load to discharge into its rated bed. Yue checked the ordinary indicator before approaching. They then placed the same measured water volume along the glaze seam. The clean reference received an equal pour in a separate tray.",
+      "next": "ridge_replica_004"
+    },
+    "ridge_replica_004": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The wet shortcut answered sooner than the intended ground. Green light spread along the replica's lower seam toward the drawn pool line. Jiang shut the stone supply at the tested limit. Yue did not reach for the glow. The frame discharged through its own ground bed. A small quantity of wrong material had changed the path without anyone stealing a strip during this experiment.",
+      "next": "ridge_replica_005"
+    },
+    "ridge_replica_005": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Yue's second arm pair remained quiet through the demonstration. She was tempted to repeat the control with it just to prove she could. Jiang asked what question that would answer. The replica already had its result. Another body route would introduce a variable and spend recovery on vanity. Yue copied the cutoff instead of sending another pulse.",
+      "next": "ridge_replica_006"
+    },
+    "ridge_replica_006": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "After the tray cooled, they lifted the removable tile with ordinary tongs. The reference had no matching green seam under the same water volume. Their controls narrowed the material question, leaving the original fitting and older weather unresolved. Jiang wrote replica above the result. No careful rehearsal could claim it had watched the actual rod fail last week.",
+      "next": "ridge_replica_007"
+    },
+    "ridge_replica_007": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The worker accused of theft inspected the permitted diagram, not the original private commission. He recognized the foot orientation and corrected the pool's position. Jiang kept his correction beside the first drawing. The laboratory result would need that geometry before it could support a practical safety decision. Being accused had not made him less capable of identifying his own worksite.",
+      "next": "ridge_replica_008"
+    },
+    "ridge_replica_008": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Yue rested while Jiang checked the next-day sensation form. Her command dose, delivery loss and ordinary grip were recorded separately. She had controlled an earned route cleanly. The result counted as useful practice, not an independent fourth-stage examination or a step toward the fifth. The replica waited for another authorized operator to repeat it.",
+      "next": "ridge_findings_001"
+    },
+    "ridge_material_001": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Yue joined the supplier comparison at a dry bench. Each offered chip received a code before Jiang opened the packing sheet. The apprentice's first useful skill was ordinary weighing, learned at the kiln. One chip looked cleaner than its neighbors. She recorded the appearance without letting it select the comparison group.",
+      "next": "ridge_material_002"
+    },
+    "ridge_material_002": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Jiang shaved only the offered working portion with an ordinary file; the untouched reference stayed sealed. The bright grains differed in their response to an equal water drop. Yue had expected metal to tell a single story. The dark glaze carried fine green particles into a line thinner than the plain copper's wet stain.",
+      "next": "ridge_material_003"
+    },
+    "ridge_material_003": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The dealer's source sheet described recycled glaze fines as discarded packing material. The replacement invoice described the whole sack as clean conductor stock. Neither page showed who mixed the fines into the repair mortar. Yue copied the disagreement, then asked for the maker's offered batch record. Paper could identify a shipment without determining every later hand.",
+      "next": "ridge_material_004"
+    },
+    "ridge_material_004": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The maker offered the retained tile for one external wet comparison, with no cutting and return afterward. Its glaze fines matched those beneath the polished surface. On separate trays, clean mortar broke the wet trail while mortar containing those fines let it continue. Jiang repeated the measured water volume after drying both controls. Yue kept the tile's custody terms beside the result; the maker's offered paper record alone had not authorized handling the original.",
+      "next": "ridge_material_005"
+    },
+    "ridge_material_005": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The steward wanted Yue to name the dealer a saboteur. She could name the supplied mixture and the invoice's unsupported purity claim. Intent required more than a conductive seam. Jiang preserved the steward's request outside the finding. The damaged road deserved a mechanism it could survive, even if an accusation would travel through the village faster.",
+      "next": "ridge_material_006"
+    },
+    "ridge_material_006": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Ordinary fume checks and the rated grounded tray kept the filings away from their hands and food. No one swallowed a grain to discover its phase affinity. Yue's mixed root could admit compatible qi only through trained practice; it could not purify an unknown industrial sample inside her body. The compost jar stayed empty where a careless apprentice might have expected a miracle medicine.",
+      "next": "ridge_material_007"
+    },
+    "ridge_material_007": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Jiang packed the permitted working chips for repeat testing and left the untouched reference with its keeper. Yue checked the code key twice before the covers closed. They had evidence for the supplied mixture's wet behavior. They lacked proof of a stolen grounding strip, the exact old storm load and the hand that laid the repair. Each gap kept its own line.",
+      "next": "ridge_material_008"
+    },
+    "ridge_material_008": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The quarry worker asked whether the result would restore his withheld pay. Jiang said the overseer must review that allegation under its own terms; she would send the bounded finding without turning wages into a prize for laboratory success. Yue carried the approved summary to the common table. Her study had sharpened a question, not acquired a furnace inside her hands.",
+      "next": "ridge_findings_001"
+    },
+    "ridge_ground_001": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Yue followed the inner chalk marks with a sounding pole and an ordinary measuring cord. The upper spur stayed closed. Jiang watched from the second marker while the pool keeper remained below them. They measured the rod foot from firm rock rather than stepping onto the attractive pale crust at the waterline.",
+      "next": "ridge_ground_002"
+    },
+    "ridge_ground_002": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "A shallow channel led from the rod's ceramic seam to the pool. The installed ground bed lay farther inland, separated by a lip of repaired mortar. Yue drew both paths without claiming either carried charge today. A convenient distance on paper could conceal a dangerous slope on wet stone. She marked height as well as length.",
+      "next": "ridge_ground_003"
+    },
+    "ridge_ground_003": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The keeper tapped three times when the measuring cord neared its resting lip. Yue stopped before the cord touched the water. Jiang moved the endpoint to the approved dry marker and recorded the resulting gap. A longer estimate was better than a precise measurement taken across a refusal. The Tortoise settled after the cord came back.",
+      "next": "ridge_ground_004"
+    },
+    "ridge_ground_004": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "From the safe marker, Yue saw an ordinary cut strip lodged beneath a cart rail. It resembled the missing ground lead but had no readable fitting number. She photographed it in a charcoal sketch and left it where it was. Resemblance could support a recovery request. Pulling evidence from a closed site would not settle whose strip it had been.",
+      "next": "ridge_ground_005"
+    },
+    "ridge_ground_005": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The quarry carpenter brought the rated ground-bed diagram. Its original route matched the inland bed, not the pool channel. His repair sketch placed the brighter mortar across the intervening lip. Yue could now describe a plausible wet bypass. Jiang kept that possibility conditional until the separately offered material and isolated replica returned their results.",
+      "next": "ridge_ground_006"
+    },
+    "ridge_ground_006": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "A loose basalt plate shifted under the empty pole. Yue stepped back with ordinary footwork rather than locking herself to the rock with qi. The second arm pair did not extend into her legs. Jiang ended that measurement and moved the chalk boundary inward. The revised map was smaller and safer than the one the steward wanted posted by market day.",
+      "next": "ridge_ground_007"
+    },
+    "ridge_ground_007": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "They tested the cart's retreat with an empty load on the checked path. Yue kept its wheel clear of the narrow seam while Jiang held the ordinary brake. Practice taught balance and pacing, not a spiritual traction spell. They stopped after one pass because Yue's thighs trembled. A known route still needed an honest body to travel it.",
+      "next": "ridge_ground_008"
+    },
+    "ridge_ground_008": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The ground report returned with heights, closed margins and a request to recover the loose strip through qualified site work. It named no thief. The pool keeper's signals had changed where they stood, not revealed the earlier failure. Yue washed the ordinary measuring cord at the relocated inland washing station, catching the rinse in its basin instead of letting it run toward the pool. She took the dry map to the common comparison.",
+      "next": "ridge_findings_001"
+    },
+    "ridge_findings_001": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "All three reports reached the workshop by the fourth evening. The replica had demonstrated a wet bypass in the offered design. The material comparison had isolated the conductive glaze fines. The safe map put that bypass above the pool instead of the inland ground bed. Yue recognized the work she had joined; Jiang named the makers of the other notes before drawing them together.",
+      "next": "ridge_findings_002"
+    },
+    "ridge_findings_002": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The original fitting sheet arrived in a sealed courier cover. Its ground strip had been specified and later crossed out beside a repair instruction using a brighter mortar. The instruction's author confirmed the alteration. It did not prove that the loose strip on the closed spur was the same piece. It did establish that the installed design differed before the worker's later handling.",
+      "next": "ridge_findings_003"
+    },
+    "ridge_findings_003": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Jiang removed the theft allegation from the technical finding. The overseer separately restored the held base wages when his own record showed the strip had been removed under that earlier instruction. No compensation for every lost day appeared from the survey's purse. The worker kept the offered corrected notice and chose not to join the next inspection. His useful correction had not bought a permanent field duty.",
+      "next": "ridge_findings_004"
+    },
+    "ridge_findings_004": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The quarry had fuel for a bounded isolation trial and money for one safe repair survey. It did not have a commission to reopen the road today. Jiang placed two remaining charged stones in the frame sleeves and left the four reserved for return protection sealed. Yue could feel the temptation to treat six stones as six chances to become impressive. The separate sleeves made their actual jobs harder to forget.",
+      "next": "ridge_findings_005"
+    },
+    "ridge_findings_005": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "At dawn on Day Five, Jiang tested a fresh tile without the glaze fines. The isolated wet path returned to the rated ground bed. Yue gave one quarter-unit control pulse through the second arm pair, which had passed its morning check, and recorded delivery loss before discharge. A working replica supported a repair proposal. It did not make the unrepaired rod beside the pool safe by resemblance.",
+      "next": "ridge_findings_006"
+    },
+    "ridge_findings_006": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The compass then showed a growing local drift from metal toward wood phase. Jiang repeated the blank and checked the vanes for grit before accepting it. The readings described a present shift. The sky might become more dangerous; nobody could calculate an exact lightning strike from those five small crystals. They shortened the next work interval and moved the cart closer to retreat.",
+      "next": "ridge_findings_007"
+    },
+    "ridge_findings_007": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Yue asked whether field control through two routes was the beginning of stage five. Jiang pointed to the unopened routes on the anatomy sheet. 'It is better use of stage four. Your next advancement needs two further pairs, recovered trials and time we have not funded.' The answer disappointed Yue enough to matter. She wrote the useful delivery beside the blank advancement line instead of erasing the disappointment.",
+      "next": "ridge_findings_008"
+    },
+    "ridge_findings_008": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The sixth day's task would finish inside the isolated frame, then remove it before dusk. Jiang inspected the ground bed, return path and ordinary cutoff. The road keeper checked the lower route once more. Yue packed their unused reference above the food crate. Beyond the inner stones, the ridge remained a living place whose next interruption could arrive without reading their carefully prepared order.",
+      "next": "ridge_incident_event"
+    },
+    "ridge_incident_event": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_night",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The sixth day's last safe interval was almost finished. Yue checked the clock against the return deadline while Jiang prepared to close the frame. Then a sound reached them from beyond the inner stones. The road keeper took the ordinary brake. Their practiced retreat had to answer the interruption that actually arrived.",
+      "random_event": true,
+      "choices": [
+        {
+          "text": "cloudhound",
+          "next": "ridge_incident_cloudhound_001"
+        },
+        {
+          "text": "rockfall",
+          "next": "ridge_incident_rockfall_001"
+        },
+        {
+          "text": "surge",
+          "next": "ridge_incident_surge_001"
+        }
+      ]
+    },
+    "ridge_incident_cloudhound_001": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "cloudhound",
+      "background": "thunderfen_night",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "A Cloudhound appeared on the upper scree, pale mane bending against a wind they could not feel below. It watched the sealed food crate, then sprang onto the closed spur. Yue reached for the ordinary sword and stopped when Jiang signaled retreat. The animal had crossed their sight line, not the chalked working boundary.",
+      "next": "ridge_incident_cloudhound_002"
+    },
+    "ridge_incident_cloudhound_002": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "cloudhound",
+      "background": "thunderfen_night",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Jiang closed the frame supply before moving the cart. The four return-protection stones powered the already rated barrier for one bounded withdrawal. Yue held the ordinary latch from shelter without supplying its force. The Cloudhound struck the distant guard once, then turned after a falling fragment. No one pursued it onto the broken ground for a better ending.",
+      "next": "ridge_incident_cloudhound_003"
+    },
+    "ridge_incident_cloudhound_003": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "cloudhound",
+      "background": "thunderfen_night",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Inside the workshop they counted the barrier's used charge and the canceled measurement. The animal had given them no controlled test of its intentions. Jiang notified the road keeper of its position; tomorrow's crew would need that practical warning. Yue's unperformed sword stroke stayed unperformed in the account. Survival had required a closed supply and a usable retreat, not a new aura.",
+      "next": "ridge_return_001"
+    },
+    "ridge_incident_rockfall_001": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_night",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "A basalt fragment dropped beyond the inner marker and broke into sharp black leaves. The cart wheels remained on the checked path. Jiang closed the frame supply and waited for discharge before ordering retreat. Yue backed along the ordinary cord, carrying only the notebook. The untouched reference stayed strapped to the cart where rushing hands would not spill it.",
+      "next": "ridge_incident_rockfall_002"
+    },
+    "ridge_incident_rockfall_002": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_night",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The road keeper pulled the secured cart through the lower gate after its ordinary brake check. A small shard cut Yue's outer sleeve while she stayed behind shelter. She left it in the cloth until the wound could be inspected safely. The four return-protection stones covered the rated barrier's limited withdrawal. The mountain had provided no enemy whose defeat would make the spur stable.",
+      "next": "ridge_incident_rockfall_003"
+    },
+    "ridge_incident_rockfall_003": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_night",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "At the workshop they washed the shallow cut and removed the visible shard with ordinary tools. Jiang canceled further sampling until the clinician checked Yue's grip. The survey account recorded the interruption and the used barrier charge. It did not record failure of Yue's cultivation simply because falling stone could still reach a fourth-stage body.",
+      "next": "ridge_return_001"
+    },
+    "ridge_incident_surge_001": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_night",
+      "effect": "storm_discharge",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "A bright green thread appeared on the old rod's wet foot, outside the isolated frame. The permanent installation remained mechanically separate from their trial, but the storm supplied its own charge. Jiang closed the trial frame's ordinary isolation handle from shelter and ordered the cart back. That handle could stop their stone supply; it could not cut off the sky. Yue watched the grounded indicator instead of reaching toward the light.",
+      "next": "ridge_incident_surge_002"
+    },
+    "ridge_incident_surge_002": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_night",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The return barrier drew from its four sleeved stones while the old rod discharged into the rated emergency bed. Jiang had checked that bed before accepting the field commission. Yue held the sheltered latch only through its permitted travel. Her body took none of the storm load. The compass vanes struck their stops; she left them unread while withdrawal mattered more.",
+      "next": "ridge_incident_surge_003"
+    },
+    "ridge_incident_surge_003": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_night",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The visible thread faded. Jiang kept the spur closed and called the road keeper; the emergency bed stayed out of service pending its remaining-capacity inspection. A scorch on the outer guard frightened Yue more than the replica's neat glow. She admitted that fear without turning it into a diagnosis. They had witnessed a bounded discharge and used emergency protection. Neither the fading light nor the isolated trial predicted whether another storm pulse would arrive.",
+      "next": "ridge_return_001"
+    },
+    "ridge_return_001": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "thunderfen_night",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Back at the receiving workshop, the unperformed field work remained unperformed. Jiang entered the interruption and its observed consequences in the report, keeping unknown causes separate from facts they had witnessed. The field supply was closed. The road stayed barred. Yue sat where both hands could rest and checked the next-day sensation form before making any promise about returning.",
+      "next": "ridge_return_002"
+    },
+    "ridge_return_002": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "thunderfen_night",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The clinician inspected Yue's grip on Day Seven. She had ordinary strain and, where present, a shallow treated scratch. No personal qi entered the damaged road or the pool. Rest, wound care where needed and a later review came before another field load. The apprentice's fourth-stage record survived the interruption. It was neither a guarantee of an uninjured body nor a punishment that could be revoked by weather.",
+      "next": "ridge_return_003"
+    },
+    "ridge_return_003": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "thunderfen_night",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Jiang opened the departure notes from the ridge. The Copperback Tortoise had remained beyond the inner bank as the cart left; from the checked path, Jiang had shown the empty washing place and covered comparison tile before packing them. Three slow taps had followed. Yue kept the sequence without calling it thanks. The notes supplied a bounded account of that departure, not a reason to return after the interruption. The road crew would approach the keeper again under the site's ordinary rules.",
+      "next": "ridge_return_004"
+    },
+    "ridge_return_004": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "thunderfen_night",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "At the receiving workshop, the seven-day commission ended. Yue received the sixteen-copper task payment and four-copper travel allowance; paid weather waiting belonged within that agreed term. Return fare remained reserved separately until departure. Jiang counted the unused field and protection charge for their owner. Neither a frightening interruption nor a persuasive report created another unpaid day in the field.",
+      "next": "ridge_return_005"
+    },
+    "ridge_return_005": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "thunderfen_night",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The repair proposal removed the conductive fines, restored the rated inland ground path and required an independently checked dry and wet load trial before reopening. It also retained the closed spur and pool boundary while qualified workers recovered the loose strip. A small map of corrected material paths seemed inadequate beside the ridge. It was still more useful than naming a beast the road's enemy.",
+      "next": "ridge_return_006"
+    },
+    "ridge_return_006": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "thunderfen_night",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Three days of reduced ordinary work brought Yue's grip back to its checked baseline. Jiang repeated the recovered first-pair closure before allowing a short second-pair control test. Yue kept both within their established allowances. She found the uneventful return more difficult to celebrate than the storm. That difficulty belonged to Dao Heart practice: letting an ordinary result be enough when it was the result she had earned.",
+      "next": "ridge_return_007"
+    },
+    "ridge_return_007": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "thunderfen_night",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "On the repeat, Yue delivered a quarter-unit command and recorded the smaller useful trace. The apparatus supplied its own load. Clean discharge and next-day sensation followed at the receiving workshop. Jiang signed the practice sheet with the fourth stage unchanged. This was a recovered use of an earned route, not three independent examinations of routes they had never opened.",
+      "next": "ridge_return_008"
+    },
+    "ridge_return_008": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "thunderfen_night",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The teacher offered three bounded next steps. Yue could spend a short paid period studying the corrected phase model, help the checked cart route with ordinary recovered footwork, or take the fare home while qualified crews handled the repair. Each kept the road closed until its own independent checks. None was the price of keeping her wages or of having reported a stop honestly.",
+      "next": "ridge_final_choice"
+    },
+    "ridge_final_choice": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "jiang_tao",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Jiang offered study mornings, recovered cart practice, or the reserved journey home. Each had a defined end, and the repair crew's independent checks would proceed under their own commission. Yue could choose a useful next task without making it a condition of her already earned wages. The fifth stage still lay beyond unopened routes and examinations none of these offers contained.",
+      "choices": [
+        {
+          "text": "Study the corrected phase model at the receiving workshop.",
+          "next": "ridge_model_001",
+          "effects": {
+            "insight": 1
+          }
+        },
+        {
+          "text": "Practice the checked cart route after recovered grip review.",
+          "next": "ridge_route_001",
+          "effects": {
+            "resolve": 1
+          }
+        },
+        {
+          "text": "Take the reserved fare home and keep an honest account.",
+          "next": "ridge_home_001",
+          "effects": {
+            "trust": 1
+          }
+        }
+      ]
+    },
+    "ridge_model_001": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Yue accepted three workshop study mornings with their own paid scope. The field commission was already closed; Jiang did not bury new hours in its old total. They compared the corrected ceramic paths against the earlier failed tile, beginning with a fresh blank. The attractive green trail became an example of the route a formation should refuse, rather than the brightest mark it could produce.",
+      "next": "ridge_model_002"
+    },
+    "ridge_model_002": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "She drew the two opened arm pairs beside the model and left the next two pale. The anatomy did not become complete because the diagram looked balanced. Jiang showed how material phases affected a socket's return without asking Yue to swallow their impurities. The next apprenticeship would need food, room fees and independent recovered sessions. Comprehension gave the plan questions; it did not pay its costs.",
+      "next": "ridge_model_003"
+    },
+    "ridge_model_003": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "On the last morning, a courier brought notice that the qualified repair crew had postponed its wet-load test. Yue kept the model covered instead of announcing the road safe from their successful bench comparison. Beyond the window, Thunderfen's dark columns carried a changing sky. Her next teacher's address waited beside the fourth-stage cord, a place she could reach with a useful question and a fare.",
+      "ending": "A Question for the Next Teacher",
+      "continuation": "storm_from_model"
+    },
+    "ridge_route_001": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Yue accepted two ordinary cart mornings after the clinician's review and the keeper's current path check. Their work remained below the closed upper spur. She practiced setting weight through her boots, slowing before the narrow seam and stopping before her thighs locked. Jiang used the ordinary brake. Two arm routes accompanied her without moving into her legs because the hill was steep.",
+      "next": "ridge_route_002"
+    },
+    "ridge_route_002": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "A wheel peg slipped on the second morning. Yue stopped, set the empty cart down and helped the keeper replace it before repeating the route. They inspected the peg as ordinary wood. She felt stronger when she could finish the safe pass, but did not translate that sensation into a fifth-stage certificate. Physique had grown through recovered work. Qi Control still belonged to a different measured task.",
+      "next": "ridge_route_003"
+    },
+    "ridge_route_003": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "thunderfen_ridge",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The cart returned to the workshop with every wheel on checked ground. Farther up, the quarry's qualified repair crew still needed its independent wet-load trial. Yue paid her travel fare from the proper allowance and packed the route notes for the next apprentice who wanted to hurry. There was no aura around the ordinary brake. She had learned to stop a useful thing before it became a burden.",
+      "ending": "The Ordinary Brake",
+      "continuation": "storm_from_route"
+    },
+    "ridge_home_001": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "west_kiln_home",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Yue chose the reserved fare home. Jiang wrote the qualified repair crew's receiving address on the outer cover and left the uncertain completion date visible. The apprentice did not owe the ridge another demonstration to justify leaving. She carried only the approved study extract. Working specimens and the untouched reference remained with their keepers for the planned repeat.",
+      "next": "ridge_home_002"
+    },
+    "ridge_home_002": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "west_kiln_home",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "At the west kiln, her mother asked whether the beast had been defeated. Yue described a pool keeper, a dangerous interruption and a material path that needed repair. The answer made a less impressive supper story than victory. Her mother listened to it anyway, then handed her a bowl at the right distance from the ordinary vent. They ate before opening the next teacher's letter.",
+      "next": "ridge_home_003"
+    },
+    "ridge_home_003": {
+      "chapter": "book_ix",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "west_kiln_home",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The fourth-stage cord lay beside the repaired tablet. Yue's ambition still reached toward four paired routes, while her body possessed two. She could now describe the gap without calling it failure or filling it with a dream. Outside, rain tested the ordinary roof. Tomorrow's work would begin with checking it, and the long road toward a stronger circuit could begin from that honest morning.",
+      "ending": "Two Routes and a Morning",
+      "continuation": "storm_from_home"
+    }
+  }
+}

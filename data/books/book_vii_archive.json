@@ -83,7 +83,7 @@
     "ring_archive_private_copy": {
       "speaker": "shen_qing",
       "actor": "shen_qing",
-      "text": "There is a rubbed space beside the charter heading. I can see the pressure left by the old brush through the fibers, but I cannot read what was removed. Qi would make the impressions brighter. That sounds useful until I remember that pressure survives beneath the guarded columns too. I will keep my hands off the sheet. If you need a brighter ordinary lamp, I can carry one. If the light reveals something the people covered, tell me before we decide that discovering it was merely an accident of workmanship.",
+      "text": "The charter's heading has a rubbed space. Angled ordinary light shows pressure in the fibers, but I cannot read the missing strokes. Sending qi into this sheet would be an untested experiment on someone else's record. It might damage the paper or reveal a guarded column without permission. I will leave it covered and carry the lamp you approve. The visible indentation belongs in our note as an uncertain observation. It cannot become a recovered sentence just because we badly want one.",
       "chapter": "book_vii",
       "background": "archive_consent_room",
       "effect": "none",
@@ -203,7 +203,7 @@
           "text": "Ask Mei Dulan to explain the ferry permit comparison.",
           "next": "ring_archive_permit_lesson",
           "effects": {
-            "resolve": 1
+            "insight": 1
           }
         }
       ],
@@ -306,7 +306,7 @@
     "ring_archive_repair_cost": {
       "speaker": "narrator",
       "actor": "lin_yue",
-      "text": "Mei asked whether the account stub might show who paid. An Ru lifted the permission note, read it, and shook her head. Only the repair item, public crossing reference, alias, and permit serial had been released. Mei looked toward the guarded amount long enough for Lin Yue to notice. Then she wrote a question for the household instead of reaching for the page. Her brush paused before the final word. Asking would delay them, and delay had consequences. The room offered no elegant excuse for pretending either fact away.",
+      "text": "Mei asked whether the account stub might show who paid. An Ru read its permission note and shook her head. The repair item, crossing reference, alias, permit serial, repair date, and copied signer's mark were released. The payer and amount were not. Mei looked toward the guarded sum, then wrote a question for the household instead of reaching for the page. Her brush paused before the final word. Asking would delay them, and delay had consequences. The room offered no excuse for pretending either fact away.",
       "chapter": "book_vii",
       "background": "archive_copy_room",
       "effect": "none",
@@ -345,7 +345,7 @@
     "ring_archive_mortal_pace": {
       "speaker": "shen_qing",
       "actor": "shen_qing",
-      "text": "When you said apprentice, I thought you meant your first sword teacher. You looked different just now. At the mountain we count progress by what becomes unnecessary: a crutch, a hearth, sleep after a long ascent. You turned a spool as though remembering something valuable precisely because it still needed doing. I have been standing here with enough qi to dry a roof and very little idea how to help this table. Show me where to place the support sheet. I can learn a task without making it disappear first.",
+      "text": "When you said apprentice, I thought you meant your first sword teacher. At the mountain we sometimes count progress by the chores a fueled apparatus saves. Here the failed roof still needs a carpenter. I cannot make soaked timber safe by warming its surface, and our travel fuel is not a repair budget. You turned that spool as though a small task mattered on its own. Show me where to place the support sheet. I can help this table without promising a dry building.",
       "chapter": "book_vii",
       "background": "archive_copy_room",
       "effect": "none",
@@ -384,7 +384,7 @@
     "ring_archive_paused": {
       "speaker": "an_ru",
       "actor": "an_ru",
-      "text": "We stop here. The offered papers on the low table are safe, and the trapped bundles stay where they are until the support can be secured. No one goes beneath them. Shen, your power can hold the outside rail from the clear aisle if you can release it without a jerk. It cannot make the wall trustworthy. Yue, bring the empty reading bench along the floor. Mei, keep the lamp behind the doorway. We are protecting a room, not earning permission to read whichever packet happens to fall into our arms.",
+      "text": "We stop. The offered papers are safe; no one goes beneath the trapped bundles. Shen, name the limit of your learned brace hold before offering it. We have the grounded brace lead in the emergency chest, but no permission to improvise a stronger technique. The reading bench's marked support rating must cover the estimated load before Yue slides it beneath the accessible end. If either check fails, leave the aisle and wait for the carpenter. Mei, keep the lamp behind the doorway. A falling packet grants no reading permission.",
       "chapter": "book_vii",
       "background": "valley_archive",
       "effect": "none",
@@ -397,7 +397,7 @@
     "ring_archive_qi_restraint": {
       "speaker": "narrator",
       "actor": "lin_yue",
-      "text": "Shen Qing braced the rail with a narrow thread of qi while Lin Yue slid the bench beneath its accessible end. The effort deepened a line beside his mouth. Holding a small unstable weight without moving it demanded more care than lifting something heavy into open air. An Ru set two wooden wedges from the table chest, checked the bench legs, and guided the thread's release. Nothing shone afterward. Shen sat down abruptly. Lin Yue offered water without asking whether a disciple of Azure Cloud ought to need it.",
+      "text": "Shen named his tested brace limit and checked the grounded lead from the clear aisle. The accessible rail load was within it, and the marked bench rating covered the estimated transferred weight. He recorded his bounded expenditure while Yue slid the bench beneath the end. An Ru placed wedges and checked the legs before signaling discharge. The lead went dark after the bench took the load. The wall remained untrusted and the room closed. Shen sat down, tired from the short hold; Yue brought water instead of asking him to repeat it.",
       "chapter": "book_vii",
       "background": "valley_archive",
       "effect": "none",

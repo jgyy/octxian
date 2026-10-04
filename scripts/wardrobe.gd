@@ -38,11 +38,11 @@ func restore(saved: Variant) -> void:
 		for character in CHARACTERS:
 			select(character, str(saved.get(character, DEFAULT_OUTFIT)))
 
-func source_path(outfit: String) -> String:
+func source_path(outfit: String, character: String = "lin_yue") -> String:
 	for option in options():
 		if option["id"] == outfit:
-			return "res://" + str(option["source"])
-	return "res://assets/art/cast.webp"
+			return "res://" + str(option["portraits"][character])
+	return "res://assets/art/core/lin_yue.png"
 
 func portrait_path(character: String, outfit: String) -> String:
 	if not is_valid(character, outfit):

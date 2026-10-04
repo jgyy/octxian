@@ -5,27 +5,27 @@ const KEYS := ["qi", "trust", "insight", "resolve"]
 const RANK_THRESHOLDS := [0, 3, 6, 10]
 const DEFINITIONS := {
 	"qi": {
-		"name": "Qi",
-		"description": "Measured familiarity with qi practice and bounded ward tasks; points are not reserve or realm.",
+		"name": "Qi Control",
+		"description": "Precision of admission, circulation and clean discharge on already earned routes. Points never supply fuel or award a realm.",
 		"growth": "Grow through calibrated practice. Realm advancement needs its own tests and recovery.",
-		"ranks": ["Dormant", "Kindled", "Flowing", "Resonant"]
+		"ranks": ["Unpracticed", "Measured", "Controlled", "Precise"]
 	},
 	"trust": {
-		"name": "Trust",
-		"description": "The bonds that help people act together by choice.",
-		"growth": "Grow by listening, sharing responsibility, and honoring permission.",
-		"ranks": ["Unproven", "Open", "Reliable", "Steadfast"]
+		"name": "Dao Heart",
+		"description": "Steadiness against fear, greed and heart demons; expressed by honest limits and freely kept commitments.",
+		"growth": "Grow by resisting shortcuts, admitting mistakes and honoring another person\'s refusal. No rank buys consent.",
+		"ranks": ["Unexamined", "Grounded", "Steady", "Clear"]
 	},
 	"insight": {
-		"name": "Insight",
-		"description": "Understanding of old vows, hidden evidence, and possible solutions.",
+		"name": "Comprehension",
+		"description": "Ability to study techniques, formations and evidence, and distinguish a tested mechanism from an attractive guess.",
 		"growth": "Grow by asking questions, studying inscriptions, and comparing records.",
 		"ranks": ["Searching", "Observant", "Discerning", "Lucid"]
 	},
 	"resolve": {
-		"name": "Resolve",
-		"description": "The will to carry a promise through difficult decisions.",
-		"growth": "Grow through sword practice, protecting others, and keeping commitments.",
+		"name": "Physique",
+		"description": "Ordinary conditioning, balance and recovery under safe loads. Strength does not open an unearned meridian.",
+		"growth": "Grow through recovered conditioning, safe carrying and ordinary footwork. Paperwork and determination do not train tissue.",
 		"ranks": ["Untried", "Rooted", "Tempered", "Unshaken"]
 	}
 }

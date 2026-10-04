@@ -188,7 +188,7 @@
           "text": "Take the reed channel with Wei Xiu and the offered custody record.",
           "next": "ring_marsh_entry",
           "effects": {
-            "qi": 1
+            "insight": 1
           }
         },
         {
@@ -202,7 +202,7 @@
           "text": "Walk the former ferry approach with Wei Jin.",
           "next": "ring_road_entry",
           "effects": {
-            "trust": 1
+            "resolve": 1
           }
         }
       ],
@@ -230,7 +230,7 @@
       "actor": "lin_yue",
       "background": "high_bank_boathouse",
       "effect": "none",
-      "text": "A permit identifies a ferry charter. A repair identifies a construction. A deposit token identifies an entry in a custody system. None of them alone lets us assign a person's private echo. Together they give us a reason to ask Wei Jin about his offered receipt, with the Eel present. We should first make room for a refusal. The grain crossing has been completed, the return fare is already paid, and the ordinary landing work continues. Nobody's food or passage will depend on agreeing that these papers tell one story.",
+      "text": "A permit identifies a ferry charter. A repair identifies a construction. A deposit token identifies a custody entry. None alone assigns a private echo. Together they justify asking Wei Jin about his receipt here, then requesting a separate comparison at the Eel's berth. The spirit has stayed there with the ring; it has not attended this room. We should first make room for a refusal. The grain crossing is complete, the return fare paid, and ordinary landing work continues. Nobody's food or passage depends on making these papers tell one story.",
       "next": "ring_private_request",
       "cultivation": {
         "realm": "qi_gathering",
@@ -256,7 +256,7 @@
       "actor": "lin_yue",
       "background": "archive_consent_room",
       "effect": "none",
-      "text": "Wei Jin untied his own receipt cover. Inside, a narrow keeper's counterfoil had been folded around a plain reed sliver. He covered its lower lines with clean paper and pointed to the references he had offered. An Ru read R-3 and LR-6 aloud, then copied the issue date and return terms for the proposed exterior comparison. Wei Xiu sat beside the door. She had chosen to attend and had asked to hear no playback of the copied moment. Across the water, the bronze ring remained covered with the Eel at its sheltered berth.",
+      "text": "They entered the sheltered side room Wei Jin had requested; the common tables remained outside. He untied his receipt cover himself. A keeper's counterfoil lay folded around a plain reed sliver. He covered its lower lines and pointed to the offered references. An Ru read R-3 and LR-6 aloud, then copied the issue date and return terms for the proposed comparison. Wei Xiu sat beside the door by choice, declining playback. Only the approved readers attended. Across the water, the bronze ring remained covered with the Eel at its sheltered berth.",
       "next": "ring_counterfoil",
       "cultivation": {
         "realm": "qi_gathering",
@@ -321,7 +321,7 @@
       "actor": "lin_yue",
       "background": "sheltered_reach",
       "effect": "none",
-      "text": "Lin Yue rested her hands on the dry board beside the sheltered berth. Across the narrow gap, the Eel still held the covered ring. A faint vibration traveled through the water and wood; the pendant answered with a warmth she knew too well. For an instant she imagined one thread of qi recovering the whole departure: its water, its voice, a man's first winter. She put both hands behind her back. The warmth faded into the ordinary afternoon. She did not need to prove her strength against a closed thing. Wei Jin had already spoken clearly enough.",
+      "text": "Lin Yue rested her hands on the dry board beside the covered ring. A vibration traveled through wood and water. The pendant warmed, but its known memory was her mother's offered afternoon, not Wei Jin's winter. She imagined a thread of qi supplying the missing departure and recognized the wish before acting. No learned technique could produce that account, and no listening had been offered. She put her hands behind her back. The warmth faded. Wei Jin's ordinary words were already enough for tonight's arrangement.",
       "next": "ring_yun_lesson",
       "cultivation": {
         "realm": "qi_gathering",
@@ -360,7 +360,7 @@
       "actor": "wei_jin",
       "background": "sheltered_reach",
       "effect": "none",
-      "text": "All three arrangements are acceptable to me under the limits we have just stated. I have asked Yue to help choose which practical arrangement we can support tonight. That is permission for this logistics decision, not permission to choose what I feel about the melody. If we arrange a return, I will receive the closed ring. If we arrange a dated custody term, I will sign that term. If we record no return today, I will leave it covered. I am still free to request a different lawful arrangement later.",
+      "text": "All three arrangements are acceptable, and Yue may choose tonight's supported logistics. That gives her no authority over what I feel about the melody. The archive may retain one private comparison of the fields I offered; any public note may state identification and today's disposition, without naming my private description or deposit reference. My originals return to me. A closed handoff, a signed custody term, or no return today leaves the copy covered. I remain free to request a different lawful arrangement later.",
       "next": "ring_resources",
       "cultivation": {
         "realm": "qi_gathering",
@@ -425,7 +425,7 @@
       "actor": "lin_yue",
       "background": "sheltered_reach",
       "effect": "none",
-      "text": "Wei Xiu tested the board with a weighted sack before setting the dry tray upon it. Shen Qing held the lamp beyond the working rope. The Mooring Eel waited while an ordinary ferry took two passengers out, then brought the covered ring to the board without crossing beneath their hull. Lin Yue steadied the tray with both hands. Its weight was smaller than the expectation she had carried. No melody rose from it, no forgotten teacher stood in the mist. Wei Jin stepped forward in the same wet boots he had worn all afternoon.",
+      "text": "Wei Xiu load-tested the board for the planned handoff before placing the tray. Lin Yue reported her grip after resting; the tender hand remained out of this task, and her sound hand steadied only the table edge. Xiu supported the tray herself. Shen held the lamp beyond the working rope. The Eel waited for an ordinary ferry to clear, then brought the covered ring without passing beneath its hull. Wei Jin stepped forward in his wet boots. No melody sounded, and the afternoon's injuries had not vanished merely because the owner was found.",
       "next": "ring_return_handoff",
       "cultivation": {
         "realm": "qi_gathering",
@@ -711,7 +711,7 @@
     "ring_jin_context": {
       "speaker": "wei_jin",
       "actor": "wei_jin",
-      "text": "After the keeper died, I asked her niece about my deposit. The custody page was missing, and the ring's outer reference could not be read. My counterfoil alone did not identify a covered ring. When Xiu told me about your spring inquiry, that gap remained. I kept my papers; nobody had taken my memory. This recovered R-3 repair entry is the first readable exterior link to compare with my receipt. I can offer the comparison without asking anyone to open the copy or trust a remembered melody.",
+      "text": "After the keeper died, I asked her niece about my deposit. Its custody page was missing, and the ring's outer reference was unreadable. My counterfoil alone could not identify it. The loose exterior note now gives R-3 as a lead; the older maintenance leaves still need retrieving from the high-bank case and comparison with this ring. Please distinguish those sources before calling the link recovered. I kept my papers and memory throughout. If the leaves confirm the connection, I can offer my receipt without opening the copy or asking you to trust a remembered melody.",
       "chapter": "book_vii",
       "background": "north_landing",
       "cultivation": {

@@ -1,0 +1,785 @@
+{
+  "schema_version": 1,
+  "book_id": "book_xiv_harbor",
+  "title": "The Harbor of Unclaimed Names",
+  "review_base": "da7bc2435090afb47ba656d926f4fa29acacf4b3",
+  "entry": "harbor_start",
+  "final_choice": "harbor_final_choice",
+  "word_count": 158303,
+  "node_count": 1660,
+  "word_count_basis": "Whitespace-separated words in node.text only; excludes choices, metadata and documentation.",
+  "source_blobs": [
+    {
+      "path": "data/books/book_xiv_harbor_01.json",
+      "sha": "e599bd4a913268cffb3d40f97daa9d2dbeebb99c"
+    },
+    {
+      "path": "data/books/book_xiv_harbor_02.json",
+      "sha": "de42a10b2a91fd31569b87a91365f55e31ef4dc6"
+    },
+    {
+      "path": "data/books/book_xiv_harbor_03.json",
+      "sha": "121e1ec466264664d25416c2ffa8430567f6cdb0"
+    },
+    {
+      "path": "data/books/book_xiv_harbor_04.json",
+      "sha": "d0ee883dc54cab4303059746446ed151a62a3b03"
+    },
+    {
+      "path": "data/books/book_xiv_harbor_05.json",
+      "sha": "8f5cc84e16553f7d71084bfd8874684c0d904780"
+    },
+    {
+      "path": "data/books/book_xiv_harbor_06.json",
+      "sha": "15038c8d783abe14a858a4f177c6fb7e1166e753"
+    },
+    {
+      "path": "data/books/book_xiv_harbor_07.json",
+      "sha": "f60ec4db1bcf4b83fb9f4442590eea4b081efb3e"
+    },
+    {
+      "path": "data/books/book_xiv_harbor_08.json",
+      "sha": "0c26ba13baf349d72405435914f09d594d63e580"
+    },
+    {
+      "path": "data/books/book_xiv_harbor_09.json",
+      "sha": "2794d6a8bf383954ab4b11db9953b01e432de917"
+    },
+    {
+      "path": "data/books/book_xiv_harbor_10.json",
+      "sha": "04fd09a812756365885e6fedb17540a75faba5d5"
+    },
+    {
+      "path": "data/books/book_xiv_harbor_11.json",
+      "sha": "d362af5421d5dfe21b8d286175abd96502fae783"
+    },
+    {
+      "path": "data/books/book_xiv_harbor_12.json",
+      "sha": "776852df979f91d5f5ce3c4443adb2102a8eda52"
+    },
+    {
+      "path": "data/books/book_xiv_harbor_13.json",
+      "sha": "ec8ec9ad73c1249c250487ccd354bc664099f143"
+    },
+    {
+      "path": "data/books/book_xiv_harbor_14.json",
+      "sha": "1e0b08bca0559067264a84205ccea619aa8bca76"
+    },
+    {
+      "path": "data/books/book_xiv_harbor_15.json",
+      "sha": "81409c3fbcad692ca99c412adbb08264eafc876e"
+    },
+    {
+      "path": "data/books/book_xiv_harbor_16.json",
+      "sha": "47a3997501d4e822bb45149f9b65cc5fd7d609ec"
+    },
+    {
+      "path": "data/books/book_xiv_harbor_17.json",
+      "sha": "a0ed1b50a7d18b9e740ded14c8dd235cdc1a7ed6"
+    },
+    {
+      "path": "data/books/book_xiv_harbor_18.json",
+      "sha": "1c4bcd1e874043341014b0ec8920c2260bef7819"
+    },
+    {
+      "path": "data/books/book_xiv_harbor_19.json",
+      "sha": "5b538066fd2758941bf77b4a6c44628ff2664f1d"
+    },
+    {
+      "path": "data/books/book_xiv_harbor_20.json",
+      "sha": "0ac7e5f85f9ad888177c2c865c860ebe1366a031"
+    },
+    {
+      "path": "data/books/book_xiv_harbor_21.json",
+      "sha": "1764b346824dab7a6050ce69ee18ea71cd27aaab"
+    },
+    {
+      "path": "data/books/book_xiv_harbor_22.json",
+      "sha": "e39082cb09edeb7e524ddbab5712612b7a398369"
+    },
+    {
+      "path": "data/books/book_xiv_harbor_23.json",
+      "sha": "b8a293f28793960de811a828c7ef18cbbfbdc415"
+    },
+    {
+      "path": "data/books/book_xiv_harbor_24.json",
+      "sha": "b0a43a44262d64b4f3e47295a1adbfb3fc0f6224"
+    },
+    {
+      "path": "data/books/book_xiv_harbor_25.json",
+      "sha": "c05ac34a73db5fc88fd1073eb7c06ec176bc58db"
+    },
+    {
+      "path": "data/books/book_xiv_harbor_26.json",
+      "sha": "0e96d1d776e9699cd83b38452a1f05b54c10d85b"
+    },
+    {
+      "path": "data/books/book_xiv_harbor_27.json",
+      "sha": "7f663ceb3de0bbbe2e7e77e7ab3c9f92d1b48256"
+    }
+  ],
+  "facts": [
+    {
+      "id": "harbor_voyage_wages_and_fee_refunds",
+      "claim": "Earned voyage wages, the guarantee return, permit-fee refunds, grounding-interval crew wages and Rao's withheld completed-work wages retain separate sources and scopes.",
+      "values": {
+        "unit": "copper",
+        "earned_wages": 642,
+        "earlier_wages_paid": 96,
+        "guarantee_deposit": 760,
+        "guarantee_wages_paid": 546,
+        "guarantee_returned": 214,
+        "guarantee_balance": 0,
+        "permit_refunds_paid": 58,
+        "permit_payers": 29,
+        "permit_refund_balance": 0,
+        "grounding_interval_crew_payment": {
+          "total": 24,
+          "people": 6,
+          "per_person": 4,
+          "source": "barge crew contractor; original undisputed voyage pay already received"
+        },
+        "rao_completed_work_payment": {
+          "amount": 6,
+          "source": "Rao's own employer; broader roster retaliation allegation not established"
+        }
+      },
+      "evidence": [
+        {
+          "path": "data/books/book_xiv_harbor_04.json",
+          "node_id": "harbor_p04_052",
+          "excerpt": "Wages earned totaled six hundred forty-two, including the ninety-six paid earlier and five hundred forty-six now paid."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_07.json",
+          "node_id": "harbor_p07_035",
+          "excerpt": "The account closed at zero after five hundred forty-six wage payments and two hundred fourteen returned."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_10.json",
+          "node_id": "harbor_p10_003",
+          "excerpt": "Fifty-eight copper had now reached all twenty-nine identified payers. The refund account closed at zero under its own receipts."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_16.json",
+          "node_id": "harbor_p16_012",
+          "excerpt": "All six crew had received the original undisputed voyage wages; the grounding interval remained its own question. The contractor's first offer covered twelve copper, two for each crew member, without release of the rest under the written acceptance terms. They accepted that portion through the competent route. The comparison then found another twelve due under the interval provision, giving four each for the supported disputed period. Twenty-four in total came from the contractor's account."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_16.json",
+          "node_id": "harbor_p16_034",
+          "excerpt": "The witness confirmed the relevant words about stopping pay after the strap report, and the employer's shift sheet showed six copper withheld for completed work. The competent reviewer directed that six to be paid from the employer's own account and required the report route to remain available under the applicable employment terms."
+        }
+      ]
+    },
+    {
+      "id": "harbor_initial_appointment_closed",
+      "claim": "The first 192-copper appointment pays only completed wages and evidenced expenses, then returns 44 to operations.",
+      "values": {
+        "unit": "copper",
+        "authorized": 192,
+        "half_days": 24,
+        "wages_paid": 48,
+        "bed_and_meals": 72,
+        "copies": 10,
+        "interpretation": 12,
+        "ferries": 6,
+        "total_spent": 148,
+        "returned": 44,
+        "balance": 0
+      },
+      "evidence": [
+        {
+          "path": "data/books/book_xiv_harbor_10.json",
+          "node_id": "harbor_p10_008",
+          "excerpt": "The initial appropriation was one hundred ninety-two copper. Twenty-four half-days at two earned forty-eight wages when completed. Bed and meals over the twelve-week term totaled the agreed seventy-two. Copies used ten, interpreters twelve, ferries six."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_10.json",
+          "node_id": "harbor_p10_024",
+          "excerpt": "Total spending closed at one hundred forty-eight. Forty-four remained unspent operations authority."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_10.json",
+          "node_id": "harbor_p10_026",
+          "excerpt": "The administrator closed the original appropriation record with one hundred forty-eight spent and forty-four unspent returned to eligible operations control."
+        }
+      ]
+    },
+    {
+      "id": "harbor_second_appointment_and_private_stay",
+      "claim": "The separate 200-copper weeks-13–26 term ends after 28 paid half-days; its returned 16 and returned loans cannot pay the privately purchased week 27.",
+      "values": {
+        "unit": "copper",
+        "authorized": 200,
+        "term_weeks": [
+          13,
+          26
+        ],
+        "half_days": 28,
+        "wages_paid": 56,
+        "bed_and_meals": 84,
+        "ferries": 18,
+        "copies": 14,
+        "interpretation": 12,
+        "total_spent": 184,
+        "returned": 16,
+        "balance": 0,
+        "all_office_loans_returned": true,
+        "private_week": 27,
+        "private_nights": 7,
+        "private_bed_paid": 14,
+        "private_bed_source": "Yue's earned money; bed only"
+      },
+      "evidence": [
+        {
+          "path": "data/books/book_xiv_harbor_10.json",
+          "node_id": "harbor_p10_010",
+          "excerpt": "The proposed term ran fourteen weeks, from the thirteenth through the twenty-sixth harbor week. It offered twenty-eight half-days at two copper, fifty-six in wages."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_24.json",
+          "node_id": "harbor_p24_050",
+          "excerpt": "The operations keeper approved the final appointment account after twenty-eight completed half-days. Wages totaled fifty-six, bed and meals eighty-four, ferries eighteen, copying fourteen and interpretation twelve. Spending was one hundred eighty-four from the separately approved two hundred. The sixteen unspent returned to operations control: ferry six, copies four, interpretation six."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_24.json",
+          "node_id": "harbor_p24_019",
+          "excerpt": "The loan keeper read the checkout list against the objects returned: boards, task pencils, form supplies and permitted office packets. Used consumables were recorded as used; unused task stock returned to its actual store."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_24.json",
+          "node_id": "harbor_p24_053",
+          "excerpt": "Yue arranged seven more nights with the lodging keeper at the ordinary stated private price of fourteen copper for bed only. She paid from her own earned money before the new interval began in week twenty-seven."
+        }
+      ]
+    },
+    {
+      "id": "harbor_emergency_cash_fuel_and_personal_qi",
+      "claim": "The 240-copper safety reserve remains separate cash and port-owned fuel. The final 68 and four unused stones stay in custody; the screen and Yue's measured fourth-stage qi retain finite limits.",
+      "values": {
+        "unit": "copper",
+        "authorized": 240,
+        "original_categories": {
+          "care": 96,
+          "equipment_and_fuel": 60,
+          "extra_shifts": 48,
+          "message_boats": 36
+        },
+        "spent": 172,
+        "remaining": 68,
+        "remaining_categories": {
+          "care": 28,
+          "equipment_and_fuel": 16,
+          "extra_shifts": 12,
+          "message_boats": 12
+        },
+        "stones_bought": 8,
+        "stone_purchase_cost": 16,
+        "stones_exhausted_in_drill": 2,
+        "stones_exhausted_in_storm": 2,
+        "unused_stones": 4,
+        "screen_rating": "narrow fragments and spray; no people, tide restraint or heat wall",
+        "personal_stage": "4: Second pair",
+        "pendant_is_not_fuel": true
+      },
+      "evidence": [
+        {
+          "path": "data/books/book_xiv_harbor_11.json",
+          "node_id": "harbor_p11_018",
+          "excerpt": "The administrator proposed two hundred forty copper: ninety-six for shelters, care and emergency meals; sixty for equipment, repair and finite ward fuel; forty-eight for extra ordinary shifts; thirty-six for message boats. The source was the annual harbor safety appropriation."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_11.json",
+          "node_id": "harbor_p11_020",
+          "excerpt": "The ward keeper ordered eight rated port stones at two copper each from the licensed supplier, sixteen spent within the sixty equipment-and-fuel line. The stones were external fuel for the registered anchored screen, not Yue's reserve and not objects given to her."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_13.json",
+          "node_id": "harbor_p13_051",
+          "excerpt": "Shelter, care and meals had cost forty: twenty for meals, twelve for the activated overflow beds, eight for prescribed immediate care supplies and attendance. Equipment and ordinary temporary bracing cost twelve: eight for braces and four for replacement rope. Nine authorized extra half-shifts at two copper made eighteen. The warning circuit had cost twelve before closure."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_14.json",
+          "node_id": "harbor_p14_035",
+          "excerpt": "A hired pump cleared the last trapped water behind the shelter's approach, at six copper from the equipment category. Four authorized extra half-shifts at two copper cost eight for the final receiving and safe clearance work. The shelter's last checkable charges totaled twelve: six for overflow beds, four for meals and two for prescribed care supplies. With the six-copper message trip, the new reserve spending was thirty-two."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_17.json",
+          "node_id": "harbor_p17_051",
+          "excerpt": "The fire reserve's checked shelter and care charges totaled sixteen: eight for activated overflow beds, four for meals and four for the immediate prescribed care interval. Added to pump ten, extra shifts ten and boat six, this activation cost forty-two."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_27.json",
+          "node_id": "harbor_p27_004",
+          "excerpt": "Sui confirmed the port's current emergency account: one hundred seventy-two spent from two hundred forty, sixty-eight left in its four categories. Eight stones had been bought, two exhausted in drill and two in storm; four unused remained secured. Their screen rating covered narrow fragments and spray, never people, tides or heat."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_23.json",
+          "node_id": "harbor_p23_010",
+          "excerpt": "At a dry sheltered table she used one familiar qi hand briefly to hold the light blank cover while tying its cord, then released it within her measured reserve. The task asked no new reach, load or rank."
+        }
+      ]
+    },
+    {
+      "id": "harbor_private_packing_contracts",
+      "claim": "The packing venture earns its own money through four guaranteed batches. Two close before departure, reserve 14 remains separate, and the third advance never becomes its unearned balance.",
+      "values": {
+        "unit": "copper",
+        "guaranteed_batches": 4,
+        "business_weeks": 8,
+        "batch_price": 96,
+        "batch_materials": 24,
+        "batch_space": 16,
+        "batch_wages": 48,
+        "batch_margin_after_acceptance": 8,
+        "advance": 48,
+        "balance_after_acceptance": 48,
+        "workers_per_batch": 4,
+        "wage_per_worker": 12,
+        "lease_total": 64,
+        "batches_completed": 2,
+        "earned_margin": 16,
+        "tying_stock_spent": 2,
+        "reserve_remaining": 14,
+        "third_batch": "underway; later balance not earned",
+        "fourth_batch": "future",
+        "visitor_investment": 0,
+        "earlier_completed_contracts": [
+          {
+            "price": 28,
+            "materials": 6,
+            "space": 4,
+            "wages": 18
+          },
+          {
+            "price": 30,
+            "materials": 8,
+            "space": 4,
+            "wages": 18,
+            "private_assessment_contributions": {
+              "He_Ming": 1,
+              "Zhou_Yin": 1
+            },
+            "partners_retained": [
+              5,
+              5,
+              6
+            ]
+          },
+          {
+            "price": 48,
+            "materials": 12,
+            "space": 6,
+            "wages": 30,
+            "partners_wages": [
+              8,
+              8,
+              8
+            ],
+            "Wu_wages": 6
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "path": "data/books/book_xiv_harbor_21.json",
+          "node_id": "harbor_p21_008",
+          "excerpt": "The new agreement guaranteed four modest batches across eight weeks, with actual cancellation terms and separate checks for each. Each batch's ninety-six price covered materials twenty-four, rented space sixteen and wages forty-eight, leaving an eight margin only after completion and all costs. The three partners would receive twelve each; Ke's four paid half-days at three made twelve. The landlord's eight-week space term cost sixty-four across the four stated batch intervals, begun under the conditional sequence already agreed. They signed after the ordinary room check and buyer acceptance. No future margin was called cash they already held."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_21.json",
+          "node_id": "harbor_p21_009",
+          "excerpt": "The first forty-eight advance arrived through the buyer's own account. Twenty-four bought materials, sixteen paid the first space interval, and eight paid two initial wage copper to each of four workers. The later forty-eight balance would pay their remaining forty wages and leave the earned eight margin if the batch was accepted."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_24.json",
+          "node_id": "harbor_p24_011",
+          "excerpt": "The partnership's second guaranteed batch closed during this week under the same ninety-six structure. The advance and balance paid its actual materials twenty-four, space sixteen and wages forty-eight, leaving another earned eight margin. The first reserve had six remaining after tying stock; the new eight made fourteen. The partners kept it for bounded venture needs by agreement. The final two guaranteed batches remained future work, not earned cash. He Ming wrote the actual closeout while Ke counted the wage she was due."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_25.json",
+          "node_id": "harbor_p25_031",
+          "excerpt": "The third batch was still underway; its future balance remained due through acceptance, not available for buying everybody's meal. They used private shares for food and kept the business reserve fourteen untouched."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_25.json",
+          "node_id": "harbor_p25_032",
+          "excerpt": "She said she would not invest under an unmade agreement, nor make one simply because departure made refusal feel unkind."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_11.json",
+          "node_id": "harbor_p11_036",
+          "excerpt": "Twenty-eight total had arrived. Six materials, four space and eighteen labor exhausted it exactly. Each worker received six."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_14.json",
+          "node_id": "harbor_p14_009",
+          "excerpt": "The second contract paid thirty copper altogether. Its ordinary material purchases had been eight and its rented work space four. The remaining eighteen paid the same three partners six each. Two copper from those private wages, contributed by their agreement, bought the cord assessment and a small replacement wrapping bundle. No public reserve paid this business loss. After agreed one-copper contributions, He Ming and Zhou each kept five; An retained six."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_15.json",
+          "node_id": "harbor_p15_027",
+          "excerpt": "Twenty-four balance copper arrived. Eighteen completed the partners' wages at eight each in total, and six paid Wu's two half-days. The forty-eight contract closed against twelve materials, six space and thirty wages."
+        }
+      ]
+    },
+    {
+      "id": "harbor_warehouse_remedies_and_employer_liability",
+      "claim": "Warehouse repair, goods losses and the separate employer injury/tool payments use their own sources. Private remedy returns do not become pilot or emergency money.",
+      "values": {
+        "unit": "copper",
+        "repair_source": 136,
+        "repair_spent": 120,
+        "repair_returned": 16,
+        "repair_balance": 0,
+        "loss_source": 80,
+        "loss_paid": 64,
+        "loss_returned": 16,
+        "loss_balance": 0,
+        "bao_lost_earnings_paid": 18,
+        "bao_source": "warehouse employer injury liability",
+        "deren_lost_earnings_paid": 26,
+        "deren_source": "port employer liability",
+        "ke_partial_tool_payment": 6,
+        "ke_source": "yard employer liability; not a complete award for unsupported losses"
+      },
+      "evidence": [
+        {
+          "path": "data/books/book_xiv_harbor_21.json",
+          "node_id": "harbor_p21_051",
+          "excerpt": "Sixty-four had been paid from the eighty account. The sixteen remainder returned to Hao's trading account with the actual closure record, rather than becoming new building cash."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_22.json",
+          "node_id": "harbor_p22_036",
+          "excerpt": "Gross sources remained one hundred thirty-six, spending became one hundred twenty, and the sixteen balance returned to her repair deposit after that contract closed. The storage-loss account had already closed at sixty-four paid and sixteen returned to trading. Bao's eighteen injury payment belonged to the separate employer liability source."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_27.json",
+          "node_id": "harbor_p27_004",
+          "excerpt": "Deren's twenty-six lost earnings, Bao's eighteen and Ke's six partial tool payment came from their respective employer liability sources, not the pilot."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_22.json",
+          "node_id": "harbor_p22_012",
+          "excerpt": "The lost-work assessment identified thirteen scheduled half-days that Deren could not perform in the supported interval, at the actual two-copper rate. Twenty-six was due from the port employer's liability line under the board's current authorization."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_23.json",
+          "node_id": "harbor_p23_051",
+          "excerpt": "The assessed payment was six from the yard employer's liability account under the stated scope, not a full replacement of every remembered tool. She received the six without surrendering the actual further route described in the notice."
+        }
+      ]
+    },
+    {
+      "id": "harbor_ordinary_rescue_and_single_pilot_authority",
+      "claim": "Ordinary rated boats rescue the barge people. Later, one approved maintenance allocation launches only the confirmed plan, with actual purchased work, ordinary accepting keepers and future review duties.",
+      "values": {
+        "unit": "copper",
+        "barge_people": 23,
+        "barge_passengers": 17,
+        "barge_crew": 6,
+        "rescue_boat_capacity": 8,
+        "rescue_boat_operating_crew": 2,
+        "rescued_group_sizes": [
+          6,
+          6,
+          6,
+          5
+        ],
+        "yan_final_extra_seat": "eighth seat, outside the barge's 23",
+        "pilot_authorized": 64,
+        "pilot_spent_per_chosen_route": 64,
+        "pilot_remaining_per_chosen_route": 0,
+        "pilot_source": "authorized maintenance appropriation",
+        "yue_role": "unpaid voluntary recommendation from identified observations",
+        "authority": "committee confirmation, fiscal clerk and accepting keeper countersign",
+        "registry": {
+          "staff": 24,
+          "translation": 16,
+          "cabinet": 12,
+          "forms": 12
+        },
+        "repair": {
+          "fittings": 28,
+          "checks": 16,
+          "instruction": 12,
+          "bounded_followup": 8
+        },
+        "road": {
+          "four_return_fares": 24,
+          "interpretation": 12,
+          "protected_forms": 12,
+          "staff": 16
+        },
+        "unselected_plans": "eligible but unfunded",
+        "later_reviews_weeks_after_launch": [
+          4,
+          8
+        ],
+        "later_reviews_owners": "accepted ordinary keeper roles; visitor attendance not required"
+      },
+      "evidence": [
+        {
+          "path": "data/books/book_xiv_harbor_09.json",
+          "node_id": "harbor_p09_002",
+          "excerpt": "The barge master reported seventeen passengers and six crew, twenty-three people in all. The rescue craft was rated for eight including its own two operating crew, leaving six places per transfer."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_09.json",
+          "node_id": "harbor_p09_009",
+          "excerpt": "The final crossing carried the master and four barge crew, the rescue boat's two operators, and Yan in its eighth rated place. The receiving keeper reconciled the foreman's movement separately from the barge's twenty-three people."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_23.json",
+          "node_id": "harbor_p23_022",
+          "excerpt": "Sixty-four had been available within the authorized line and would be reserved once for one eligible plan. The committee approved that single reservation, subject to the final selection and named purchase checks."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_27.json",
+          "node_id": "harbor_p27_006",
+          "excerpt": "None had spent the reservation early. The committee could confirm any one after Yue's recommendation, and the fiscal clerk would check the countersigned order."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_27.json",
+          "node_id": "harbor_registry_005",
+          "excerpt": "Cabinet twelve, forms twelve, translation sixteen and staff twenty-four totaled sixty-four, with no cash remainder and no charge to emergency or old appointment returns."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_27.json",
+          "node_id": "harbor_repair_006",
+          "excerpt": "The four accepted purchases were twenty-eight, sixteen, twelve and eight: sixty-four spent, no remaining pilot cash. The separate four-week and eight-week reviews stayed on the ordinary keeper's calendar."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_27.json",
+          "node_id": "harbor_road_006",
+          "excerpt": "Those accepted costs joined twelve for interpretation and twelve for protected forms: sixty-four spent, zero launch cash left. The contact office keeper retained the receipt packet. The separate four-week review and eight-week closeout remained ordinary assigned responsibilities; their future labor had not been sold as completed work in this launch."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_09.json",
+          "node_id": "harbor_p09_008",
+          "excerpt": "The third group of six reached the shelter after the obstruction cleared and the pilot approved the approach again. Eighteen people were now ashore. The barge master and four other crew remained for the final crossing; the sixth crew member had traveled earlier with a passenger who needed help."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_27.json",
+          "node_id": "harbor_p27_001",
+          "excerpt": "The council had invited one unpaid recommendation from identified observations, then would confirm the chosen plan through its committee and accepting keeper."
+        }
+      ]
+    },
+    {
+      "id": "harbor_calendar_departure_and_recovery",
+      "claim": "The harbor term runs from early coastal thaw through week 27. All final routes leave independently, keep Yue at stage 4 with habitual belongings, and reach the kiln town six weeks after final checks without harbor equipment or commission.",
+      "values": {
+        "harbor_weeks": 27,
+        "initial_term_weeks": [
+          1,
+          12
+        ],
+        "second_term_weeks": [
+          13,
+          26
+        ],
+        "private_week": 27,
+        "travel_after_final_checks_weeks": 6,
+        "kiln_arrival_season": "cold weather beginning",
+        "cultivation": "4: Second pair",
+        "habitual_pack": [
+          "bedding",
+          "cup",
+          "personal notes",
+          "ordinary blade",
+          "wrapped pendant"
+        ],
+        "additional_carried": "earned money, ordinary personal travel papers and privately purchased consumable road food",
+        "no_optional_harbor_gear": true,
+        "no_compulsory_companion": true,
+        "no_promised_kiln_commission": true,
+        "personal_qi_recovery": "short measured fourth-stage exercise followed by rest",
+        "all_endings_continue_to": "kiln_start"
+      },
+      "evidence": [
+        {
+          "path": "data/books/book_xiv_harbor_01.json",
+          "node_id": "harbor_start",
+          "excerpt": "The ferry reached the harbor while ice still rested in the shaded mouths of the drains. Yue could see open water beyond it, moving with an assurance the shore had not yet acquired."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_27.json",
+          "node_id": "harbor_p27_001",
+          "excerpt": "The selection meeting opened late in the twenty-seventh week, while Yue's seven privately paid nights were nearly over."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_27.json",
+          "node_id": "harbor_road_016",
+          "excerpt": "She practiced one short measured fourth-stage exercise, rested afterward and repacked a strap that pinched."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_27.json",
+          "node_id": "harbor_end_registry",
+          "excerpt": "Six weeks after the harbor's final checks, Yue reached the kiln town by paid carts, walking and licensed ferries. Cold had begun to sharpen the morning air. She carried the habitual pack, personal notes, remaining earned money and a fourth-stage record, with no harbor equipment or promised commission."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_27.json",
+          "node_id": "harbor_end_repair",
+          "excerpt": "Six weeks after the harbor's final checks, Yue reached the kiln town as colder weather began. Paid carts, ordinary ferries and stretches on foot had brought her there with her habitual pack, some earned money and the fourth stage she had actually attained."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_27.json",
+          "node_id": "harbor_end_road",
+          "excerpt": "Six weeks after the final harbor checks, paid carts, ferries and walking brought Yue to the kiln town as cold weather began. She carried her habitual personal pack, earned money and the fourth stage she had earned, without borrowed harbor equipment or a promised commission."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_27.json",
+          "node_id": "harbor_road_016",
+          "excerpt": "Her bedding, cup, personal notes, ordinary blade and wrapped pendant fitted the habitual pack; all office loans and protected working files stayed returned. No boat fare from the completed pilot followed her onto the road."
+        }
+      ]
+    }
+  ],
+  "required_checkpoints": [
+    {
+      "id": "harbor_closed_rights_before_choice",
+      "target": "harbor_final_choice",
+      "logic": "all_of",
+      "required_anchors": [
+        {
+          "path": "data/books/book_xiv_harbor_07.json",
+          "node_id": "harbor_p07_035",
+          "excerpt": "The written decision authorized two hundred fourteen returned after ledger and notice checks. The designated recipient supplied the depositor's authority. Miao did not collect merely because he handled the voyage. Qin counted copper with the keeper and recorded transfer. The account closed at zero after five hundred forty-six wage payments and two hundred fourteen returned. Yue liked closed arithmetic and disliked how little closure it gave people around it. An account could end before consequences did. The keeper put the empty deposit box back onto its shelf, ready for another properly identified purpose someday."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_10.json",
+          "node_id": "harbor_p10_003",
+          "excerpt": "The located payer chose a scheduled collection route through the canal village office. The keeper verified his authorization and sent the two alongside an ordinary existing transfer. Its acknowledgment returned within the week. The other worker's current identity evidence matched the earlier charge through the full hiring reference and a witnessed account. He collected his two at the permit desk. Fifty-eight copper had now reached all twenty-nine identified payers. The refund account closed at zero under its own receipts. Zeng received the permitted completion notice, rather than an opportunity to reclaim someone else's uncollected share."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_27.json",
+          "node_id": "harbor_p27_005",
+          "excerpt": "The maintenance chair repeated the existing-rights clause. Paid voyage wages, permit refunds, household consent boundaries and the platform findings remained effective on every route. The warehouse's private repair and loss accounts were closed with their proper returns. The packing venture's paid work and future contracts belonged to its private terms, not a public prize. A pilot could improve one service without becoming the harbor's final judgment on who mattered. Yue saw Deren relax slightly at the words. He still wanted repair. He Ming still wanted road, and Han's eyes kept returning to the cabinet drawing."
+        }
+      ],
+      "verified_each_anchor_dominates_target": true
+    },
+    {
+      "id": "harbor_closed_appointments_and_loans_before_choice",
+      "target": "harbor_final_choice",
+      "logic": "all_of",
+      "required_anchors": [
+        {
+          "path": "data/books/book_xiv_harbor_10.json",
+          "node_id": "harbor_p10_026",
+          "excerpt": "The administrator closed the original appropriation record with one hundred forty-eight spent and forty-four unspent returned to eligible operations control. The newly reserved two hundred stood separately for the next term. The office did not describe the unspent forty-four as money recovered from claimants. No claimant had supplied it. He Ming asked to see the public aggregate because she wanted to understand the job she had urged Yue to keep. Han explained each purpose. The woman said it was remarkable how an office could avoid a wrong story simply by saying who paid before listing what it bought."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_24.json",
+          "node_id": "harbor_p24_019",
+          "excerpt": "The loan keeper read the checkout list against the objects returned: boards, task pencils, form supplies and permitted office packets. Used consumables were recorded as used; unused task stock returned to its actual store. Yue's personal cup, notebook, ordinary blade and wrapped pendant did not enter the office's property column. No portrait, cabinet, screen stone or demonstration tool became hers by association. The keeper accepted the reconciliation and gave the ordinary receipt. Yue tucked her own copy among personal travel papers. The returned board looked strangely bare in his hands, as if it had expected another morning at her table."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_24.json",
+          "node_id": "harbor_p24_050",
+          "excerpt": "The operations keeper approved the final appointment account after twenty-eight completed half-days. Wages totaled fifty-six, bed and meals eighty-four, ferries eighteen, copying fourteen and interpretation twelve. Spending was one hundred eighty-four from the separately approved two hundred. The sixteen unspent returned to operations control: ferry six, copies four, interpretation six. The old appointment's forty-four remained its own already closed return. No remainder funded the maintenance pilot or private travel. Yue received the last four wage copper for the week's two half-days, and the final six bed invoice was paid under the stated term."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_24.json",
+          "node_id": "harbor_p24_053",
+          "excerpt": "Yue arranged seven more nights with the lodging keeper at the ordinary stated private price of fourteen copper for bed only. She paid from her own earned money before the new interval began in week twenty-seven. Meals would be private purchases or invitations agreed by friends, not hidden in the former six-copper weekly bed-and-meal invoice. Her appointment had earned fifty-six in this term and forty-eight in the first, with earlier personal travel money kept separately. The private fourteen reduced her purse, not either public balance. She asked for the ordinary receipt and then went to buy supper."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_27.json",
+          "node_id": "harbor_p27_003",
+          "excerpt": "Han read Yue's completed appointment status only because the public summary still confused it with the pilot. The initial one hundred ninety-two had closed at one hundred forty-eight spent and forty-four returned. The new two hundred had closed after twenty-eight paid half-days at one hundred eighty-four spent and sixteen returned. All task loans and official packets were reconciled. Her personal notes, cup, bedding, ordinary blade and wrapped pendant remained hers. The private week cost fourteen for bed only, with food from her own purse or ordinary invitations. There was no hidden continuation of the visitor's contract."
+        }
+      ],
+      "verified_each_anchor_dominates_target": true
+    },
+    {
+      "id": "harbor_finite_resources_before_choice",
+      "target": "harbor_final_choice",
+      "logic": "all_of",
+      "required_anchors": [
+        {
+          "path": "data/books/book_xiv_harbor_11.json",
+          "node_id": "harbor_p11_020",
+          "excerpt": "The ward keeper ordered eight rated port stones at two copper each from the licensed supplier, sixteen spent within the sixty equipment-and-fuel line. The stones were external fuel for the registered anchored screen, not Yue's reserve and not objects given to her. The screen's rating covered fragments and spray over a narrow work face. It could not support people, hold back a whole tide or become a fireproof wall. The keeper checked the delivery and custody before any drill. Sixteen spent left two hundred twenty-four unspent across the reserve's remaining purposes, not eight stones appearing because a storm required atmosphere."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_13.json",
+          "node_id": "harbor_p13_025",
+          "excerpt": "Outside, the screen's two stones dimmed after their logged interval. The operator closed the passage while the ordinary crew checked that the latest roof debris had stopped. Both stones were exhausted and marked spent. Four unused stones remained in the locked store; no replacement was silently fitted. The wind angle had shifted beyond the frame's approved coverage, so Sui kept that lane closed and directed the remaining evacuees to the longer inland route. People complained about the distance. The shelter sent a wheeled chair and attendants for the two people who could not manage it unaided."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_24.json",
+          "node_id": "harbor_p24_007",
+          "excerpt": "The keeper opened the stock book and named four unused stones, four exhausted, eight bought for sixteen. The remaining emergency cash was sixty-eight in its distinct categories, not four stones priced into a second balance. Nothing in the final appointment returned that reserve to Yue's account. The technical keeper would carry readiness forward under the existing role and any future actual approval. Sui closed the book and asked whether the ordinary lane was clear. It was. She went outside to watch a rope task rather than make another speech about limited power. The tide had no need to applaud inventory."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_27.json",
+          "node_id": "harbor_p27_004",
+          "excerpt": "Sui confirmed the port's current emergency account: one hundred seventy-two spent from two hundred forty, sixty-eight left in its four categories. Eight stones had been bought, two exhausted in drill and two in storm; four unused remained secured. Their screen rating covered narrow fragments and spray, never people, tides or heat. Deren's twenty-six lost earnings, Bao's eighteen and Ke's six partial tool payment came from their respective employer liability sources, not the pilot. The captain gave the facts once, then sat down. Ordinary duty results and care continued whatever the committee selected."
+        }
+      ],
+      "verified_each_anchor_dominates_target": true
+    },
+    {
+      "id": "harbor_single_pilot_authority_before_choice",
+      "target": "harbor_final_choice",
+      "logic": "all_of",
+      "required_anchors": [
+        {
+          "path": "data/books/book_xiv_harbor_23.json",
+          "node_id": "harbor_p23_022",
+          "excerpt": "During the council meeting, the ordinary chair asked whether the harbor could afford another project after fire and injury payments. The financial keeper separated the sources: employer liability, private warehouse remedies and the existing safety reserve were not this maintenance appropriation. Sixty-four had been available within the authorized line and would be reserved once for one eligible plan. The committee approved that single reservation, subject to the final selection and named purchase checks. Yue attended only the public portion. The approval made one future action concrete. It did not turn every abandoned proposal into money somebody could borrow later."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_23.json",
+          "node_id": "harbor_p23_023",
+          "excerpt": "The council recorded Han's desk as registry keeper, the assigned technical officer as repair keeper and the contact office's route lead as road keeper if that plan was selected. Each had accepted the bounded role within the approved staff and task arrangement. The final choice would occur in the twenty-seventh week after ordinary handovers, with a first review four weeks after launch and a closure review eight weeks after launch. Unspent pilot copper would return to the maintenance line under the stated closeout. Existing wage, injury and household rights stayed effective whether their preferred pilot won or not."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_27.json",
+          "node_id": "harbor_p27_002",
+          "excerpt": "The fiscal clerk read the source aloud: one sixty-four reserved from the authorized maintenance appropriation. The old seven-hundred-sixty guarantee, permit refunds, two appointment returns, private warehouse remedies and emergency readiness were separate closed or bounded accounts. No money could be moved from them merely because a favorite plan needed more. Registry, repair and road each totaled sixty-four under current accepted quotes. The chosen keeper would order its work, verify delivery and retain receipts. The first formal review would occur four weeks after launch, closeout eight, with any unspent amount returned to the maintenance line."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_27.json",
+          "node_id": "harbor_p27_006",
+          "excerpt": "Each accepting keeper answered the last launch question. Registry had its paid staff and interpreter tasks, cabinet quote and form supply. Repair had checked cover fittings, independent signoff, crew instruction and bounded follow-up. Road had two collection and two reply journeys, actual workers, safe licensed route and permitted receiving forms. None had spent the reservation early. The committee could confirm any one after Yue's recommendation, and the fiscal clerk would check the countersigned order. The traveler looked at the three drawings, then at people whose days would contain the consequences long after her private bed receipt ended."
+        }
+      ],
+      "verified_each_anchor_dominates_target": true
+    }
+  ],
+  "validation": {
+    "words": 158303,
+    "nodes": 1660,
+    "parts": 27,
+    "max": 100,
+    "reachable": 1660,
+    "uniqueParagraphs": 1660,
+    "externals": [
+      "kiln_start"
+    ],
+    "endings": [
+      "harbor_end_registry",
+      "harbor_end_repair",
+      "harbor_end_road"
+    ],
+    "errors": [],
+    "evidence_matches_source": true,
+    "checkpoint_domination": "Each listed common anchor disconnects harbor_final_choice from harbor_start when removed.",
+    "alternative_final_route_evidence": "Only the selected route's purchases occur; later reviews are assigned future duties, not claims of completed attendance.",
+    "checked_arithmetic": [
+      "642 = 96 + 546; 760 = 546 + 214",
+      "192 = 148 + 44; 148 = 48 + 72 + 10 + 12 + 6",
+      "200 = 184 + 16; 184 = 56 + 84 + 18 + 14 + 12",
+      "240 = 172 + 68; 172 = 16 + 82 + 32 + 42",
+      "68 = 28 + 16 + 12 + 12; 8 stones = 2 drill + 2 storm + 4 unused",
+      "136 = 120 + 16; 80 = 64 + 16",
+      "96 = 24 + 16 + 48 + 8; 14 venture reserve = 8 + 8 - 2",
+      "64 registry = 24 + 16 + 12 + 12; 64 repair = 28 + 16 + 12 + 8; 64 road = 24 + 12 + 12 + 16"
+    ]
+  }
+}
