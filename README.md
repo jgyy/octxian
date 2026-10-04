@@ -4,7 +4,7 @@
 
 An original xianxia visual novel built in **Godot 4.7.2**. Lin Yue begins as a mortal kiln worker and earns her cultivation through practice, failures, recovery and independently witnessed trials. Work, evidence and freely made commitments shape the people she meets.
 
-The playable campaign contains **1,124,653 displayed prose words across 12,696 scenes and 17 books**. The count includes alternative playable branches; only dialogue prose counts toward the manuscript. Books XII–XVII are now connected through the campaign manifest, with completed forest, desert and archive closing sequences. [Current manuscript, source review and chapter counts](docs/MILLION_WORD_CONTINUATION.md).
+The playable campaign contains **1,124,725 displayed prose words across 12,697 scenes and 17 books**. The count includes alternative playable branches; only dialogue prose counts toward the manuscript. Books XII–XVII are now connected through the campaign manifest, with completed forest, desert and archive closing sequences. [Current manuscript, source review and chapter counts](docs/MILLION_WORD_CONTINUATION.md).
 
 ![Archive ensemble dialogue](docs/screenshots/archive_ensemble.jpg)
 
@@ -38,9 +38,9 @@ Scores develop trained capacities. Fuel remains measured separately; realms requ
 
 ## Ensemble sprites and layered atmosphere
 
-Authored dialogue can stage **up to three independent intact portraits at once**, with speaking-character emphasis, separate outfit choices and body bobbing. Ensemble portraits fit beside the choice cards and above the dialogue panel. 48 scenes use multiple portraits; panels pause atmosphere and reduced motion stops every cast member and hides the effects.
+Authored dialogue can stage **up to three independent intact portraits at once**, with speaking-character emphasis, separate outfit choices and body bobbing. Ensemble portraits fit beside the choice cards and above the dialogue panel. 49 scenes use multiple portraits; panels pause atmosphere and reduced motion stops every cast member and hides the effects.
 
-New effects include **snow, mist, dust, heat haze, embers, petals and sea spray**. Scenes can combine up to three layers. The new forest departure uses snow and mist; the desert closing uses dust and heat haze; the archive courtyard uses petals and mist. Choices scroll when a decision has more cards than the reading area can hold.
+New effects include **snow, mist, dust, heat haze, embers, petals and sea spray**. Scenes can combine up to three layers. The new forest departure uses snow and mist; the desert closing uses dust and heat haze; the archive courtyard uses petals and mist. Choices scroll when a decision has more cards than the reading area can hold. A visible cue lists the number shortcuts; key **5** selects the fifth option.
 
 ![Forest ensemble dialogue](docs/screenshots/forest_ensemble.jpg)
 
@@ -48,20 +48,22 @@ The core cast has three independently generated outfit portraits per adult chara
 
 ## Native artwork and production scope
 
-This continuation adds two independently generated originals: a **1536×1024 archive courtyard** and a **1024×1536 transparent Lanternwing Crane**. Both retain the returned native PNG bytes. The highest native output available through the image tool was requested; no enlarged image is counted as new detail. [New provenance](assets/art/MILLION_WORD_PROVENANCE.md) · [World art provenance](assets/art/PROVENANCE.md).
+This continuation adds three independently generated originals: a **1536×1024 archive courtyard**, a **1024×1536 transparent Lanternwing Crane**, and a **1024×1536 transparent lantern keeper portrait**. All retain the returned native PNG bytes. The highest native output available through the image tool was requested; no enlarged image is counted as new detail. [New provenance](assets/art/MILLION_WORD_PROVENANCE.md) · [World art provenance](assets/art/PROVENANCE.md).
 
 ![Lanternwing Crane in the rendered game](docs/screenshots/lanternwing_crane.jpg)
 
 ![Archive courtyard at dawn](docs/screenshots/archive_courtyard.jpg)
 
+![Lan Fen, the archive lantern keeper](docs/screenshots/archive_lantern_keeper.jpg)
+
 | Production quota | Delivered | Target |
 |---|---:|---:|
-| Displayed prose words | 1,124,653 | 1,000,001 |
+| Displayed prose words | 1,124,725 | 1,000,001 |
 | Original environments | 28 | 100 |
 | Extra building interiors | 41 | 100 |
-| Human NPC originals | 50 | 500 |
+| Human NPC originals | 51 | 500 |
 | Spirit-beast originals | 13 | 501 |
-| Unique world sprites | 63 | 1,001 |
+| Unique world sprites | 64 | 1,001 |
 
 The manuscript target is met. The independent artwork quotas remain unfinished, so the PR stays draft. Core outfit portraits, items and effects do not inflate world-sprite totals. **World → Interiors** previews delivered interiors; **Inspect objects** displays paintings without granting inventory custody.
 
@@ -100,7 +102,7 @@ python tools/validate_world.py
 .cache/godot/Godot_v4.7.2-stable_linux.x86_64 --headless --path . --script tests/continuation_test.gd
 ```
 
-The source audit requires its fixed base commit locally. Full CI checks native dimensions, alpha and provenance, authentic repair anchors, duplicate prose, every gated story route, saves, UI, all outfit motions, completed-practice persistence, ensemble bounds and motion settings. Xvfb captures **77 real viewport screenshots** and timed portrait animation. The Linux package is launched from a folder without the source checkout.
+The source audit requires its fixed base commit locally. Full CI checks native dimensions, alpha and provenance, authentic repair anchors, duplicate prose, every gated story route, saves, UI, all outfit motions, completed-practice persistence, ensemble bounds and motion settings. Xvfb captures **78 real viewport screenshots** and timed portrait animation. The Linux package is launched from a folder without the source checkout.
 
 Piper Lessac generates narration for every displayed scene, reusing clips only after text, byte and decoded-audio checks. Changed text is regenerated. CI can reuse independently verified prior draft narration. Music and sound effects are original synthesized audio.
 
