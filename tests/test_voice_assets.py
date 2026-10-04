@@ -286,5 +286,61 @@ class VoiceAssetTests(unittest.TestCase):
             self.root, "scene", self.text, clip_entry(self.root, output, self.digest)))
 
 
+    def test_parallel_completions_keep_scene_hashes_and_one_checkpoint_writer(self):
+        from tools import generate_voices
+        import os
+        import threading
+
+        texts = {"first": "First independent scene.", "second": "Second independent scene."}
+        model = self.root / "fixture_model.onnx"
+        model.write_bytes(b"fixture model, never used for synthesis")
+        card = self.root / "MODEL_CARD"
+        card.write_text("Test-only provenance.")
+        (self.root / "data").mkdir()
+        story = {"version": 1, "start": "first", "chapters": {},
+                 "characters": {"narrator": {"name": "Narrator"}},
+                 "nodes": {node_id: {"speaker": "narrator", "text": text,
+                                    "ending": "Fixture"}
+                           for node_id, text in texts.items()}}
+        (self.root / "data/story.json").write_text(json.dumps(story))
+        release_first = threading.Event()
+        checkpoints = []
+        writer_threads = []
+        original_write = generate_voices._write_manifest
+
+        def render(voice, text, output, length_scale):
+            if output.stem == "first" and not release_first.wait(5):
+                raise RuntimeError("Parallel renderer failed to checkpoint the second scene")
+            sf.write(output, self.samples, 22050, subtype="VORBIS")
+            return audio_metadata(output)
+
+        def checkpoint(path, manifest):
+            writer_threads.append(threading.get_ident())
+            original_write(path, manifest)
+            checkpoints.append(json.loads(path.read_text()))
+            if "second" in manifest["lines"]:
+                release_first.set()
+
+        with patch.object(generate_voices, "ROOT", self.root), \
+                patch.object(generate_voices, "OUT", self.folder), \
+                patch.object(generate_voices, "CACHE", self.root / "cache"), \
+                patch.object(generate_voices, "download",
+                             side_effect=lambda name: card if name == "MODEL_CARD" else model), \
+                patch.object(generate_voices, "load_renderer", return_value=object()), \
+                patch.object(generate_voices, "render_clip", side_effect=render), \
+                patch.object(generate_voices, "_write_manifest", side_effect=checkpoint), \
+                patch.dict(os.environ, {"JADE_VOW_VOICE_WORKERS": "4"}), \
+                contextlib.redirect_stdout(io.StringIO()):
+            generate_voices.main()
+        self.assertEqual(set(checkpoints[0]["lines"]), {"second"})
+        self.assertEqual(set(writer_threads), {threading.get_ident()})
+        final = json.loads((self.folder / "manifest.json").read_text())["lines"]
+        self.assertEqual(set(final), set(texts))
+        for node_id, text in texts.items():
+            self.assertIsNotNone(reusable_clip(self.root, node_id, text, final[node_id]))
+            self.assertEqual(final[node_id]["text_sha256"],
+                             hashlib.sha256(text.encode()).hexdigest())
+
+
 if __name__ == "__main__":
     unittest.main()
