@@ -273,6 +273,9 @@ func _scene() -> void:
 	text_clock = 0.0
 	auto_clock = 0.0
 	var choice_scroll := ScrollContainer.new()
+	choice_scroll.name = "ChoiceScroll"
+	choice_scroll.clip_contents = true
+	choice_scroll.follow_focus = true
 	choice_scroll.position = Vector2(78, 268)
 	choice_scroll.size = Vector2(850, 288)
 	choice_scroll.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
@@ -1024,6 +1027,23 @@ func _smoke_build() -> void:
 		await get_tree().create_timer(0.2).timeout
 		valid = valid and actor.character == encounter.actor and actor.sprite.texture != null
 		valid = valid and background.texture != null and audio.voice.stream is AudioStreamOggVorbis
+	# The integrated final books, new originals and ensemble narration must survive export.
+	valid = valid and state.story.chapters.size() == 17
+	for encounter in [{"node": "forest_24_close_1", "actor": "lanternwing_crane"}, {"node": "archive_25_rejoin", "actor": "sun_nian"}]:
+		state.current = str(encounter.node)
+		_scene()
+		valid = valid and actor.character == encounter.actor and actor.sprite.texture != null
+		valid = valid and background.texture != null and audio.voice.stream is AudioStreamOggVorbis
+		if actor.sprite.texture != null:
+			valid = valid and actor.sprite.texture.get_size() == Vector2(1024, 1536)
+	valid = valid and background.texture != null and background.texture.get_size() == Vector2(1536, 1024)
+	state.current = "archive_25_006"
+	_scene()
+	valid = valid and stage_companions[0].visible and stage_companions[1].visible
+	for companion in stage_companions:
+		valid = valid and companion.sprite.texture != null
+	valid = valid and background.texture != null and audio.voice.stream is AudioStreamOggVorbis
+	valid = valid and atmosphere.layers == ["lanterns"]
 	_cultivation()
 	_cultivation_selected(12)
 	var realm_selector: OptionButton = popup.find_child("CultivationSelector", true, false)
