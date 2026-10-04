@@ -257,7 +257,7 @@
         "stage": "5: Four pairs"
       },
       "text": "In the courtyard, the repaired handrail caught the morning light. Sun stopped beside the plum tree to hear a bird she could not see. Lin waited with her, whether she was staying for the next agreed appointment or making her final walk to the carriage. Neither needed to turn the quiet moment into evidence of a perfect ending.",
-      "next": "archive_25_close_1"
+      "next": "archive_25_lantern_keeper"
     },
     "archive_25_close_1": {
       "chapter": "book_xvii_archive",
@@ -296,6 +296,26 @@
       },
       "text": "Lin declined the new appointment after giving the current receiver a complete handover. Luo admitted he would miss her questions. She accepted his disappointment without promising two incompatible futures. The board retained responsibility for staffing the one funded post. Her current wages and own papers travelled with her; the archive's keys and entrusted collection stayed with their actual receiver.",
       "next": "archive_25_rejoin"
+    },
+    "archive_25_lantern_keeper": {
+      "chapter": "book_xvii_archive",
+      "speaker": "narrator",
+      "actor": "lan_fen",
+      "background": "archive_spring_courtyard_dawn",
+      "effects": [
+        "petals",
+        "mist"
+      ],
+      "cast": [
+        "lan_fen",
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "On the covered walk, lantern keeper Lan Fen was checking a cold lamp's latch. She asked Lin to hold the bronze body steady, then tested the hinge herself. Lin kept both hands on the base until the keeper finished. Lan wrote and signed the check on her maintenance tag before returning her own brushes to the leather pouch. She carried the lamp indoors; Lin went back to Sun beside the plum tree.",
+      "next": "archive_25_close_1"
     }
   }
 }

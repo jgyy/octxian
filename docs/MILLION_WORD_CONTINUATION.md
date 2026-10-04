@@ -1,6 +1,6 @@
 # Playable million-word continuation
 
-The campaign now has **1,124,653 displayed prose words, 12,696 reachable scenes and 17 books**. Previously playable: 190,875 words. This integrates 930,652 previously stored draft words and adds 3126 new words in 45 closing scenes. Only playable node text counts, including alternative branches. One journey does not display every branch.
+The campaign now has **1,124,725 displayed prose words, 12,697 reachable scenes and 17 books**. Previously playable: 190,875 words. This integrates 930,652 previously stored draft words and adds 3,198 new words in 46 closing scenes. Only playable node text counts, including alternative branches. One journey does not display every branch.
 
 The manuscript exceeds the strict 1,000,001-word target. The independent art quotas remain unfinished: 50 human originals, 13 spirit-beast originals, 28 original environments and 41 extra interiors.
 
@@ -22,7 +22,7 @@ The manuscript exceeds the strict 1,000,001-word target. The independent art quo
 | BOOK XIV · The Harbor of Unclaimed Names | 1660 | 158,303 |
 | BOOK XV · The Kiln That Kept Its Ashes | 1691 | 163,806 |
 | BOOK XVI · The Road Beneath the Salt | 1760 | 147,589 |
-| BOOK XVII · The Archive of Ordinary Rain | 1571 | 144,560 |
+| BOOK XVII · The Archive of Ordinary Rain | 1572 | 144,632 |
 
 ## Repairs
 
@@ -129,7 +129,7 @@ The timing defect previously granted practice on choosing to perform a task. Han
 | CAUSE-095 | kiln_final_choice · option 3 | The preference "Begin with the road's water, work and map questions." awards practice before any new teacher, reader or map investigation exists. The ending explicitly leaves that future opportunity unaccepted; remove the reward. |
 | TRANSITION-forest | forest_23_075 | The prior passage promised further closing work and linked to a nonexistent next scene. Supply the actual receiving, paid closure and departure before the next book; preserve stage, custody and local unresolved work. |
 | TRANSITION-desert | desert_p23_084 | The prior passage promised further closing work and linked to a nonexistent next scene. Supply the actual receiving, paid closure and departure before the next book; preserve stage, custody and local unresolved work. |
-| TRANSITION-archive | archive_24_060 | The prior passage promised further closing work and linked to a nonexistent next scene. Supply the actual receiving, paid closure and departure before the next book; preserve stage, custody and local unresolved work. |
+| TRANSITION-archive | archive_24_060 | The prior passage promised further closing work and linked to a nonexistent next scene. Supply the scheduled lesson, paid reading and final receiving before selecting one next post or the ordinary road home; preserve stage, custody and local unresolved work. |
 | TRANSITION-salt_end_rotation | salt_end_rotation | This completed salt-road outcome had no continuation, making its authored outcome-specific canal opening unreachable. Preserve its original prose and direct it to the matching opening. |
 | TRANSITION-salt_end_maintenance | salt_end_maintenance | This completed salt-road outcome had no continuation, making its authored outcome-specific canal opening unreachable. Preserve its original prose and direct it to the matching opening. |
 | TRANSITION-salt_end_purchase | salt_end_purchase | This completed salt-road outcome had no continuation, making its authored outcome-specific canal opening unreachable. Preserve its original prose and direct it to the matching opening. |
@@ -170,6 +170,6 @@ sequenceDiagram
 
 ## Review media and validation
 
-Five new actual viewport captures show forest and archive ensembles, the independent Lanternwing Crane, desert attribute roles and the new native courtyard painting. The capture verifier includes them in the measured report. Native originals retain returned PNG bytes: 1536×1024 courtyard and 1024×1536 transparent crane.
+Six new actual viewport captures show forest and archive ensembles, the independent Lanternwing Crane, desert attribute roles, the new native courtyard painting and Lan Fen's maintenance scene. The capture verifier includes them in the measured report. Native originals retain returned PNG bytes: a 1536×1024 courtyard, a 1024×1536 transparent crane and a 1024×1536 transparent lantern keeper.
 
 Run `python -m tools.validate_million_continuation --verify-source` with the fixed source commit available locally. This compares the exact original choices and transitions using Git and verifies completion anchors, uniqueness, connectivity and manuscript credit. Full CI also runs the existing Python tests, all gated Godot routes, save tests, runtime tests, ensemble/effect regressions, rendered capture checks and source-free Linux package playback. Draft checks preserve the unmet artwork quotas.

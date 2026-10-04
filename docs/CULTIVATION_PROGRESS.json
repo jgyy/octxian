@@ -1,6 +1,6 @@
 {
-  "displayed_scenes": 12696,
-  "displayed_words": 1124653,
+  "displayed_scenes": 12697,
+  "displayed_words": 1124725,
   "new_training_scenes": 77,
   "new_training_words": 5206,
   "rewritten_book_i_scenes": 37,
@@ -11,7 +11,7 @@
   "reference_checks": "pass",
   "duplicate_prose_checks": "pass",
   "continuity_checkpoints": "pass",
-  "inherited_words": 1044757,
+  "inherited_words": 1044829,
   "remaining_displayed_words": 0,
   "remaining_rewrite_words": 920105,
   "native_art": [
@@ -770,6 +770,16 @@
         941
       ],
       "git_blob": "1372438049a052349b70d58c6de48bfee5ea9b2e"
+    },
+    {
+      "path": "assets/art/world/lan_fen.png",
+      "mime": "image/png",
+      "size": [
+        1024,
+        1536
+      ],
+      "pngColorType": 6,
+      "git_blob": "be96f62957f46f35345503e13184bcb2db266043"
     }
   ],
   "complete": false,
