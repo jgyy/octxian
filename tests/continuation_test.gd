@@ -85,6 +85,10 @@ func _run() -> void:
 			companion_updated = portrait.outfit == "festival"
 	check(companion_updated and game.state.current == selected_scene and game.state.stats == selected_stats, "Companion clothing must update immediately without changing the journey")
 	game._set_outfit("shen_qing", "sect")
+	game._motion_changed(false)
+	check(game.atmosphere.enabled, "Disabling reduced motion must restore layered effects")
+	for portrait in [game.actor, game.stage_companions[0], game.stage_companions[1]]:
+		check(not portrait.reduced_motion, "Disabling reduced motion must restore every cast member")
 	game._title()
 	check(not game.stage_companions[0].visible and not game.stage_companions[1].visible, "Title must clear prior scene companions")
 	game.audio.music.stop()

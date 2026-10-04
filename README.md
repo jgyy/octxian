@@ -38,7 +38,7 @@ Scores develop trained capacities. Fuel remains measured separately; realms requ
 
 ## Ensemble sprites and layered atmosphere
 
-Authored dialogue can stage **up to three independent intact portraits at once**, with speaking-character emphasis, separate outfit choices and body bobbing. Ensemble portraits fit beside the choice cards and above the dialogue panel. 45 scenes use multiple portraits; panels pause atmosphere and reduced motion stops every cast member and hides the effects.
+Authored dialogue can stage **up to three independent intact portraits at once**, with speaking-character emphasis, separate outfit choices and body bobbing. Ensemble portraits fit beside the choice cards and above the dialogue panel. 48 scenes use multiple portraits; panels pause atmosphere and reduced motion stops every cast member and hides the effects.
 
 New effects include **snow, mist, dust, heat haze, embers, petals and sea spray**. Scenes can combine up to three layers. The new forest departure uses snow and mist; the desert closing uses dust and heat haze; the archive courtyard uses petals and mist. Choices scroll when a decision has more cards than the reading area can hold.
 
