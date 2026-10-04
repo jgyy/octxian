@@ -86,7 +86,11 @@
         "stage": "4: Second pair"
       },
       "text": "'Seven days in the field,' Jiang said. 'Sixteen copper for your bounded sampling work, four for the journey, and the fare back reserved before we begin. Meals come from this crate. If the weather closes the ridge, paid waiting replaces dangerous work.' She showed Yue the receiving workshop and the route down. The cart carried six charged stones in separate sleeves. None belonged in Yue's body. The apprentice would supply small control traces while Jiang operated the field formation.",
-      "next": "ridge_departure_003"
+      "next": "ridge_departure_003",
+      "cast": [
+        "jiang_tao",
+        "lin_yue"
+      ]
     },
     "ridge_departure_003": {
       "chapter": "book_ix",

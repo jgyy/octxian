@@ -1,0 +1,2432 @@
+{
+  "source_base": "a90350672fb0468b72fc176b22f3e3876c95febc",
+  "counting_policy": "101 identified choice-causality and interrupted-transition sites: 95 premature reward sites (92 deferred until completed work, 3 removed from preferences), 3 unfinished closing sequences, and 3 absent salt-to-canal transitions. This is a site count, not a claim of 101 independent underlying engine bugs.",
+  "repairs": [
+    {
+      "id": "CAUSE-001",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_01.json",
+      "node_id": "canal_p01_021",
+      "choice_index": 0,
+      "before": {
+        "text": "Walk the household towpath with Tian Min.",
+        "next": "canal_p01_022",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Walk the household towpath with Tian Min.",
+        "next": "canal_p01_022"
+      },
+      "completion_node": "canal_p01_029",
+      "completion_path": "data/books/book_xii_canal_01.json",
+      "earned": {
+        "trust": 1
+      },
+      "completion_text": "By noon, the walk had shown a bank with different hopes rather than twenty-eight interchangeable opponents. Some wanted release from a duty, some wanted recognition of work completed, some wanted a repaired drain badly enough to welcome a buyer. Yue returned with receipt numbers and ordinary repair locations. Tian returned with a harder task: represent households without pretending all of them wanted the same remedy. They stopped at her door to fold the linen before the afternoon rain touched it.",
+      "reason": "Selecting \"Walk the household towpath with Tian Min.\" previously awarded trust before the task took place. Award only on leaving canal_p01_029, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-002",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_01.json",
+      "node_id": "canal_p01_021",
+      "choice_index": 1,
+      "before": {
+        "text": "Compare the boundary marks with Luo Zhen.",
+        "next": "canal_p01_030",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Compare the boundary marks with Luo Zhen.",
+        "next": "canal_p01_030"
+      },
+      "completion_node": "canal_p01_037",
+      "completion_path": "data/books/book_xii_canal_01.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "Back at the shed, they placed the boundary plan beside the actual-use map. Public waterbed, private loading plot, swinging crane, common path and seasonal spill did not fit into one bright outline. The sale notice had made them a single lot because a single lot was easier to price. Yue's map grew less beautiful as it grew more accurate. Luo said an ugly useful map might keep them from replacing one simple story with another equally expensive one.",
+      "reason": "Selecting \"Compare the boundary marks with Luo Zhen.\" previously awarded insight before the task took place. Award only on leaving canal_p01_037, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-003",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_01.json",
+      "node_id": "canal_p01_021",
+      "choice_index": 2,
+      "before": {
+        "text": "Hear Han Shou's surviving loan history.",
+        "next": "canal_p01_038",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Hear Han Shou's surviving loan history.",
+        "next": "canal_p01_038"
+      },
+      "completion_node": "canal_p01_045",
+      "completion_path": "data/books/book_xii_canal_01.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "Outside, Yue found Mo Ran waiting with a root sack repaired in coarse thread. He asked whether Han was a monster. She said he was a man with a real debt, a pressured business and a notice that claimed too much. Mo Ran considered that a troublesome answer. 'Monsters sometimes make the paperwork easier,' he said. Yue laughed despite herself. Then she went back to the keeper's shed, where a canal gate still leaked regardless of how complicated its creditor had become.",
+      "reason": "Selecting \"Hear Han Shou's surviving loan history.\" previously awarded resolve before the task took place. Award only on leaving canal_p01_045, after its account of the completed work. This task develops source comparison rather than recovered bodily conditioning."
+    },
+    {
+      "id": "CAUSE-004",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_01.json",
+      "node_id": "canal_p01_071",
+      "choice_index": 0,
+      "before": {
+        "text": "Help Tian prepare the household reading.",
+        "next": "canal_p01_072",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Help Tian prepare the household reading.",
+        "next": "canal_p01_072"
+      },
+      "completion_node": "canal_p01_072",
+      "completion_path": "data/books/book_xii_canal_01.json",
+      "earned": {
+        "trust": 1
+      },
+      "completion_text": "Tian spread the household list over her sewing table. Yue helped compare each current resident with the old obligation line, leaving space for absent families to answer later. The seamstress kept working between names because a sail was due before dawn. She said a fair meeting should make room for people whose work could not pause merely because a notice declared a convenient hour. They added a second reading at the grain counter, then folded the list away from the lamp.",
+      "reason": "Selecting \"Help Tian prepare the household reading.\" previously awarded trust before the task took place. Award only on leaving canal_p01_072, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-005",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_01.json",
+      "node_id": "canal_p01_071",
+      "choice_index": 1,
+      "before": {
+        "text": "Help Pei Fen distinguish her memories and surviving entries.",
+        "next": "canal_p01_073",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Help Pei Fen distinguish her memories and surviving entries.",
+        "next": "canal_p01_073"
+      },
+      "completion_node": "canal_p01_073",
+      "completion_path": "data/books/book_xii_canal_01.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "Pei Fen opened a toll notebook with broad columns written before her eyesight weakened. Yue checked its dates against the clerk's calendar copy and helped make a readable extract for tomorrow. The retired clerk wanted to tell everyone what the original annex said. Yue asked her to distinguish memory from the entries they could actually show. Pei grumbled, then wrote 'I remember' above one passage. The phrase preserved her voice without disguising it as a surviving document.",
+      "reason": "Selecting \"Help Pei Fen distinguish her memories and surviving entries.\" previously awarded insight before the task took place. Award only on leaving canal_p01_073, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-006",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_01.json",
+      "node_id": "canal_p01_071",
+      "choice_index": 2,
+      "before": {
+        "text": "Help Bao present the gate's physical defect.",
+        "next": "canal_p01_074",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Help Bao present the gate's physical defect.",
+        "next": "canal_p01_074"
+      },
+      "completion_node": "canal_p01_074",
+      "completion_path": "data/books/book_xii_canal_01.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "Bao placed the worn gate seal beside a straight wooden model. Yue helped label the measured hollow and the binding edge for tomorrow's explanation. The carpenter said villagers sometimes listened better when a broken part sat on the table. He would still need to explain its limits: this seal showed a leak, not who owned the bank. Yue wrote that distinction beneath the diagram. Bao kept it, laughing that a piece of rotten wood was about to become more carefully introduced than he usually was.",
+      "reason": "Selecting \"Help Bao present the gate's physical defect.\" previously awarded resolve before the task took place. Award only on leaving canal_p01_074, after its account of the completed work. This task develops source comparison rather than recovered bodily conditioning."
+    },
+    {
+      "id": "CAUSE-007",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_02.json",
+      "node_id": "canal_p02_029",
+      "choice_index": 0,
+      "before": {
+        "text": "Help preserve and compare the household receipt.",
+        "next": "canal_p02_030",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Help preserve and compare the household receipt.",
+        "next": "canal_p02_030"
+      },
+      "completion_node": "canal_p02_039",
+      "completion_path": "data/books/book_xii_canal_02.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "At the grain counter, Yue gave Luo the two-copy packet. The keeper added it to the archive request while Bao reported that the rack could be repaired with Han's plank. Nobody's evening summary treated the damaged original as a magical answer. It had revealed a specific fourth-season work entry and a cross-household replacement practice. Those were enough to change tomorrow's search. Yue ate a broken biscuit and discovered she had been too absorbed to notice her own hunger.",
+      "reason": "Selecting \"Help preserve and compare the household receipt.\" previously awarded insight before the task took place. Award only on leaving canal_p02_039, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-008",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_02.json",
+      "node_id": "canal_p02_029",
+      "choice_index": 1,
+      "before": {
+        "text": "Help Bao move and repair the ordinary drying rack.",
+        "next": "canal_p02_040",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Help Bao move and repair the ordinary drying rack.",
+        "next": "canal_p02_040"
+      },
+      "completion_node": "canal_p02_049",
+      "completion_path": "data/books/book_xii_canal_02.json",
+      "earned": {
+        "resolve": 1
+      },
+      "completion_text": "At the grain counter, Bao reported the rack repair and Luo added a towpath-clearance sketch to the review packet. The clerk brought the dried household receipt and its earlier copy from the table. Yue listened to their differences while eating a broken biscuit. She had missed the fragile-paper work, but its results could still be brought into their shared investigation. The new rack held a blanket in morning light. Tomorrow's archive request would follow a fourth-season reference.",
+      "reason": "Selecting \"Help Bao move and repair the ordinary drying rack.\" previously awarded resolve before the task took place. Award only on leaving canal_p02_049, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-009",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_02.json",
+      "node_id": "canal_p02_029",
+      "choice_index": 2,
+      "before": {
+        "text": "Inspect the towline's contact path with Luo.",
+        "next": "canal_p02_050",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Inspect the towline's contact path with Luo.",
+        "next": "canal_p02_050"
+      },
+      "completion_node": "canal_p02_059",
+      "completion_path": "data/books/book_xii_canal_02.json",
+      "earned": {
+        "trust": 1
+      },
+      "completion_text": "At the grain counter, Luo laid the path sketch beside Bao's rack report and the clerk's two-copy receipt packet. Yue ate a broken biscuit while the others explained what she had missed. The new fourth-season reference would guide tomorrow's archive request. The guide's loaded trial would precede reopening. Han's board would return on time. The afternoon had produced several small obligations they could actually finish, and one older obligation they were finally learning how to examine.",
+      "reason": "Selecting \"Inspect the towline's contact path with Luo.\" previously awarded trust before the task took place. Award only on leaving canal_p02_059, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-010",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_03.json",
+      "node_id": "canal_p03_029",
+      "choice_index": 0,
+      "before": {
+        "text": "Inspect the private crane supports with Bao.",
+        "next": "canal_p03_030",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Inspect the private crane supports with Bao.",
+        "next": "canal_p03_030"
+      },
+      "completion_node": "canal_p03_039",
+      "completion_path": "data/books/book_xii_canal_03.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "At the office door, An Ru waited with the requested work packet. The household record showed a fourth-season reference the original annex search could follow. Tian had checked the workers' actual upcoming shifts, and no inventory list had acquired their gloves or wages. Yue added Bao's support map to the shared findings. The three jobs had narrowed a large frightening threat into particular goods, particular work and particular documents. Han still owed a deposit answer; the canal still needed its leaking gate repaired.",
+      "reason": "Selecting \"Inspect the private crane supports with Bao.\" previously awarded resolve before the task took place. Award only on leaving canal_p03_039, after its account of the completed work. This task develops source comparison rather than recovered bodily conditioning."
+    },
+    {
+      "id": "CAUSE-011",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_03.json",
+      "node_id": "canal_p03_029",
+      "choice_index": 1,
+      "before": {
+        "text": "Compare the offered toll-book pages with An Ru.",
+        "next": "canal_p03_040",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Compare the offered toll-book pages with An Ru.",
+        "next": "canal_p03_040"
+      },
+      "completion_node": "canal_p03_049",
+      "completion_path": "data/books/book_xii_canal_03.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "At the office door, Bao brought the revised private crane-support map and Tian brought the workers' shift notes. The requested toll page had been copied, the incomplete annex heading identified and the original register located for tomorrow's archive journey. Yue added the receipt sequence to the shared findings. Their work would not settle everything today. It had made tomorrow's search precise enough that the missing seasons could finally become a document question rather than an endless argument about gratitude.",
+      "reason": "Selecting \"Compare the offered toll-book pages with An Ru.\" previously awarded insight before the task took place. Award only on leaving canal_p03_049, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-012",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_03.json",
+      "node_id": "canal_p03_029",
+      "choice_index": 2,
+      "before": {
+        "text": "Help Tian clarify the private workers' wages and shifts.",
+        "next": "canal_p03_050",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Help Tian clarify the private workers' wages and shifts.",
+        "next": "canal_p03_050"
+      },
+      "completion_node": "canal_p03_059",
+      "completion_path": "data/books/book_xii_canal_03.json",
+      "earned": {
+        "trust": 1
+      },
+      "completion_text": "At the office door, Bao brought the private support map and An Ru brought the matched household work sequence. The incomplete annex heading had led to a surviving archive register. Yue added Tian's wage and shift notes to the shared findings. Today's inventory could proceed without swallowing personal hooks or earned pay. The public path stayed open between cargo turns. Tomorrow's search would examine what the original four seasons meant, with workers able to leave this evening knowing how Friday would actually be paid.",
+      "reason": "Selecting \"Help Tian clarify the private workers' wages and shifts.\" previously awarded trust before the task took place. Award only on leaving canal_p03_059, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-013",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_04.json",
+      "node_id": "canal_p04_029",
+      "choice_index": 0,
+      "before": {
+        "text": "Trace completed household labor and its receiving references.",
+        "next": "canal_p04_030",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Trace completed household labor and its receiving references.",
+        "next": "canal_p04_030"
+      },
+      "completion_node": "canal_p04_039",
+      "completion_path": "data/books/book_xii_canal_04.json",
+      "earned": {
+        "trust": 1
+      },
+      "completion_text": "At the courtyard table, Yue explained the provisional completion finding to An Ru while the timber-credit and boundary comparisons finished. The returned stock credit matched Han's old receipt; the common bed and seasonal spill remained excluded from his loan security. Her own work could now answer why four seasonal totals were accepted and where individual references still needed comparison. Tomorrow's receiver walk would carry those questions back to people who had lived beneath the numbers.",
+      "reason": "Selecting \"Trace completed household labor and its receiving references.\" previously awarded trust before the task took place. Award only on leaving canal_p04_039, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-014",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_04.json",
+      "node_id": "canal_p04_029",
+      "choice_index": 1,
+      "before": {
+        "text": "Compare the cash payments and returned-timber credit.",
+        "next": "canal_p04_040",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Compare the cash payments and returned-timber credit.",
+        "next": "canal_p04_040"
+      },
+      "completion_node": "canal_p04_049",
+      "completion_path": "data/books/book_xii_canal_04.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "At the courtyard table, Yue explained the payment sequence while the labor and boundary comparisons finished. The four-season maintenance pledge had a recorded completion certificate needing its receiving references checked; the bed and spill remained outside private title. Her own work could now show why eighty remained and why returned timber could not become another claim on the gate stock. Tomorrow's receiver walk would carry those distinct findings back to the creditor and households together.",
+      "reason": "Selecting \"Compare the cash payments and returned-timber credit.\" previously awarded insight before the task took place. Award only on leaving canal_p04_049, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-015",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_04.json",
+      "node_id": "canal_p04_029",
+      "choice_index": 2,
+      "before": {
+        "text": "Align the public plan with Luo's current boundary observations.",
+        "next": "canal_p04_050",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Align the public plan with Luo's current boundary observations.",
+        "next": "canal_p04_050"
+      },
+      "completion_node": "canal_p04_059",
+      "completion_path": "data/books/book_xii_canal_04.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "At the courtyard table, Yue explained the boundary comparison while the labor and payment checks finished. The four-season pledge had a completion certificate to verify; eighty copper remained under the toll term. Her own work could now show why private loading goods remained private and why the common diversion needed downstream people, not merely an old plan. Tomorrow's receiver walk would begin returning these findings to the canal, where every accurate clause still had to meet actual ground.",
+      "reason": "Selecting \"Align the public plan with Luo's current boundary observations.\" previously awarded resolve before the task took place. Award only on leaving canal_p04_059, after its account of the completed work. This task develops source comparison rather than recovered bodily conditioning."
+    },
+    {
+      "id": "CAUSE-016",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_05.json",
+      "node_id": "canal_p05_029",
+      "choice_index": 0,
+      "before": {
+        "text": "Carry the corrections to households",
+        "next": "canal_p05_030",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Carry the corrections to households",
+        "next": "canal_p05_030"
+      },
+      "completion_node": "canal_p05_039",
+      "completion_path": "data/books/book_xii_canal_05.json",
+      "earned": {
+        "trust": 1
+      },
+      "completion_text": "Yue returned with a torn pouch, two remaining pears and the reed cutter's chosen collection arrangement. Tian reported that one household wanted a correction read at its usual courtyard meal, while another preferred no public reading. They gave those requests to the clerk instead of treating every unopened door as a rejection. The delivery walk had produced no new legal finding. It had changed how the finding would reach people, and Yue felt the difference in the smaller stack still awaiting its proper moment.",
+      "reason": "Selecting \"Carry the corrections to households\" previously awarded trust before the task took place. Award only on leaving canal_p05_039, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-017",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_05.json",
+      "node_id": "canal_p05_029",
+      "choice_index": 1,
+      "before": {
+        "text": "Inspect the drain with Bao",
+        "next": "canal_p05_040",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Inspect the drain with Bao",
+        "next": "canal_p05_040"
+      },
+      "completion_node": "canal_p05_049",
+      "completion_path": "data/books/book_xii_canal_05.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "At the evening counter, Bao submitted the inspection with its current water marks and agreed access hatch. The clerk paired it with the scheduled gate shift, including the ordinary tools already within the repair allocation. Yue brought the resident's conditional request about moving her shelf. It would remain her choice after the result. The drain had become a specific job with a possible further fault, not a convenient symbol of a dispute solved by finding an old heading. Yue hoped it would be the simpler blockage.",
+      "reason": "Selecting \"Inspect the drain with Bao\" previously awarded resolve before the task took place. Award only on leaving canal_p05_049, after its account of the completed work. This task develops source comparison rather than recovered bodily conditioning."
+    },
+    {
+      "id": "CAUSE-018",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_05.json",
+      "node_id": "canal_p05_029",
+      "choice_index": 2,
+      "before": {
+        "text": "Compare the receiving references with Pei",
+        "next": "canal_p05_050",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Compare the receiving references with Pei",
+        "next": "canal_p05_050"
+      },
+      "completion_node": "canal_p05_059",
+      "completion_path": "data/books/book_xii_canal_05.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "Yue and Pei brought the completed comparisons into the evening light. The clerk now had the corrected personal name, the spelling variation left visible and the narrow request for a missing counterfoil. Tian took the extra family copy for the ridge messenger. Pei rested her eyes while Yue read the posting draft. It contained enough certainty to release the old claim and enough open space for the bank's unfinished memory. The room beyond the counter smelled of supper, and nobody wanted to lose that hour to another speech.",
+      "reason": "Selecting \"Compare the receiving references with Pei\" previously awarded insight before the task took place. Award only on leaving canal_p05_059, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-019",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_06.json",
+      "node_id": "canal_p06_029",
+      "choice_index": 0,
+      "before": {
+        "text": "Help Bao fit the replacement cap.",
+        "next": "canal_p06_030",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Help Bao fit the replacement cap.",
+        "next": "canal_p06_030"
+      },
+      "completion_node": "canal_p06_039",
+      "completion_path": "data/books/book_xii_canal_06.json",
+      "earned": {
+        "resolve": 1
+      },
+      "completion_text": "Yue left the cap covered on its dry bench and washed the old seal from her fingers. Bao entered the split peg's replacement and the successful dry fit in the day's report. The new pieces would wait for the qualified guide dressing tomorrow. Yue had learned something about timber, something uninvited about Bao's old hopes and something about her own urge to turn another person's choice into a lesson for herself. None of it made the gate close sooner, but the joint was ready.",
+      "reason": "Selecting \"Help Bao fit the replacement cap.\" previously awarded resolve before the task took place. Award only on leaving canal_p06_039, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-020",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_06.json",
+      "node_id": "canal_p06_029",
+      "choice_index": 1,
+      "before": {
+        "text": "Walk the passage notices with Luo.",
+        "next": "canal_p06_040",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Walk the passage notices with Luo.",
+        "next": "canal_p06_040"
+      },
+      "completion_node": "canal_p06_049",
+      "completion_path": "data/books/book_xii_canal_06.json",
+      "earned": {
+        "trust": 1
+      },
+      "completion_text": "At the shed, Yue gave the clerk the corrected month-long rumor and both landing crews' evening-update request. Luo kept the food stall's offered batch record for the later actual loss hearing. Their passage walk had not repaired the gate, but it had kept current travel choices from growing around an invented deadline. Yue washed the stair dust from her shoes. She could hear Bao working on the covered cap stock, and felt how many useful jobs happened beyond the task people called the important one.",
+      "reason": "Selecting \"Walk the passage notices with Luo.\" previously awarded trust before the task took place. Award only on leaving canal_p06_049, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-021",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_06.json",
+      "node_id": "canal_p06_029",
+      "choice_index": 2,
+      "before": {
+        "text": "Sort the removed materials with Tian.",
+        "next": "canal_p06_050",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Sort the removed materials with Tian.",
+        "next": "canal_p06_050"
+      },
+      "completion_node": "canal_p06_059",
+      "completion_path": "data/books/book_xii_canal_06.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "At the end of the shift, Tian gave Bao the salvage and disposal record, including the reduced strap kept for examination. The old seedling left with her, as Luo had agreed. Yue had stayed within ordinary hand work while her opened routes settled. She felt more rested than she expected after an afternoon that never touched the release selector. Tian offered to show her the plant later if it survived the transfer. Yue accepted without promising to be present for every new leaf.",
+      "reason": "Selecting \"Sort the removed materials with Tian.\" previously awarded insight before the task took place. Award only on leaving canal_p06_059, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-022",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_07.json",
+      "node_id": "canal_p07_029",
+      "choice_index": 0,
+      "before": {
+        "text": "Match actual toll entries with Luo.",
+        "next": "canal_p07_030",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Match actual toll entries with Luo.",
+        "next": "canal_p07_030"
+      },
+      "completion_node": "canal_p07_039",
+      "completion_path": "data/books/book_xii_canal_07.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "At dusk, Yue watched the final market boat leave with its owner standing beside the line. The day's corrected receipts went into the actual operating account. The conservative future toll schedule stayed a proposal, awaiting tomorrow's further comparisons and the sixteenth-day hearing. Luo thanked her for catching the canceled-payment error before the forecast grew around it. Yue said the porter had brought the missing connection. She wanted him named in the report, because the useful question had come from somebody remembering an earlier mistake.",
+      "reason": "Selecting \"Match actual toll entries with Luo.\" previously awarded insight before the task took place. Award only on leaving canal_p07_039, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-023",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_07.json",
+      "node_id": "canal_p07_029",
+      "choice_index": 1,
+      "before": {
+        "text": "Compare upkeep costs and changed jobs with Bao.",
+        "next": "canal_p07_040",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Compare upkeep costs and changed jobs with Bao.",
+        "next": "canal_p07_040"
+      },
+      "completion_node": "canal_p07_049",
+      "completion_path": "data/books/book_xii_canal_07.json",
+      "earned": {
+        "trust": 1
+      },
+      "completion_text": "At the counter, Bao gave Pei the old paid-check references, the new ordinary schedule and the unresolved future-employment question. Yue brought the check worker's permitted interest to Han's clerk, where it joined actual applications rather than a public promise. The proposed saving had gained practical conditions. When Tian arrived with invitations, Yue asked her to include the affected worker among people offered a speaking turn. His experience belonged in tomorrow's preparation even though he did not own a household on the bank.",
+      "reason": "Selecting \"Compare upkeep costs and changed jobs with Bao.\" previously awarded trust before the task took place. Award only on leaving canal_p07_049, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-024",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_07.json",
+      "node_id": "canal_p07_029",
+      "choice_index": 2,
+      "before": {
+        "text": "Read Han's proposed private broker terms.",
+        "next": "canal_p07_050",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Read Han's proposed private broker terms.",
+        "next": "canal_p07_050"
+      },
+      "completion_node": "canal_p07_059",
+      "completion_path": "data/books/book_xii_canal_07.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "Yue brought Pei only the offered comparison of the claim's actual toll limits; Han's private guarantee choices stayed under his own cover unless he chose to present them. At the counter, Tian was addressing the last absent household invitation. Han remained in his store, with two unsent signatures and one newly sent sale inquiry. The broker's offer had given him a real alternative without settling what he would accept. Yue could carry that uncertainty into the hearing rather than speaking as if she had rescued him from it.",
+      "reason": "Selecting \"Read Han's proposed private broker terms.\" previously awarded resolve before the task took place. Award only on leaving canal_p07_059, after its account of the completed work. This task develops source comparison rather than recovered bodily conditioning."
+    },
+    {
+      "id": "CAUSE-025",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_08.json",
+      "node_id": "canal_p08_029",
+      "choice_index": 0,
+      "before": {
+        "text": "Carry the amended decisions with Han.",
+        "next": "canal_p08_030",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Carry the amended decisions with Han.",
+        "next": "canal_p08_030"
+      },
+      "completion_node": "canal_p08_039",
+      "completion_path": "data/books/book_xii_canal_08.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "Yue finished the decision deliveries with Han's copied correction dry beneath its cover. One household would collect later through its chosen receiver, and the clerk recorded that arrangement. Han went back to his private store carrying less authority and twenty-four actual copper. Yue had seen him move crates, sign a correction and resist another speech about his mother. None of that purchased forgiveness. It made tomorrow's conversations begin from changed actions rather than the unchanged notice he first asked her to read in full.",
+      "reason": "Selecting \"Carry the amended decisions with Han.\" previously awarded resolve before the task took place. Award only on leaving canal_p08_039, after its account of the completed work. This task develops source comparison rather than recovered bodily conditioning."
+    },
+    {
+      "id": "CAUSE-026",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_08.json",
+      "node_id": "canal_p08_029",
+      "choice_index": 1,
+      "before": {
+        "text": "Arrange the actual loss-review visits.",
+        "next": "canal_p08_040",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Arrange the actual loss-review visits.",
+        "next": "canal_p08_040"
+      },
+      "completion_node": "canal_p08_049",
+      "completion_path": "data/books/book_xii_canal_08.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "Yue returned to the keeper's store with the agreed review dates, narrowed earlier-winter cause claim and offered copies left under their actual permissions. The clerk accepted the comparison questions for the fortieth day. The householder kept her originals and the large-column notice. She had not received a full payment this afternoon, and Yue did not call the appointment compensation. What she had gained was an open drain, a corrected current schedule and a hearing that would have to answer actual dated evidence when its promised day arrived.",
+      "reason": "Selecting \"Arrange the actual loss-review visits.\" previously awarded insight before the task took place. Award only on leaving canal_p08_049, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-027",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_08.json",
+      "node_id": "canal_p08_029",
+      "choice_index": 2,
+      "before": {
+        "text": "Help Tian invite present paid workers.",
+        "next": "canal_p08_050",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Help Tian invite present paid workers.",
+        "next": "canal_p08_050"
+      },
+      "completion_node": "canal_p08_059",
+      "completion_path": "data/books/book_xii_canal_08.json",
+      "earned": {
+        "trust": 1
+      },
+      "completion_text": "Tian gave the clerk the actual applicant replies, accepted tasks and remaining contacts. Yue kept the private reasons outside the public work board, as the speakers wanted. The young man went to his rope examination; the woman went to prepare her sister's room. The accepted future workers left with their own task copies. A job invitation had succeeded even when several people said no. The bank would have the hands it actually hired, and the people outside its schedule would keep their own days.",
+      "reason": "Selecting \"Help Tian invite present paid workers.\" previously awarded trust before the task took place. Award only on leaving canal_p08_059, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-028",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_09.json",
+      "node_id": "canal_p09_029",
+      "choice_index": 0,
+      "before": {
+        "text": "Check the stop's witness marks with Bao.",
+        "next": "canal_p09_030",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Check the stop's witness marks with Bao.",
+        "next": "canal_p09_030"
+      },
+      "completion_node": "canal_p09_039",
+      "completion_path": "data/books/book_xii_canal_09.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "Yue delivered the fixed witness marks, split pebble fragments and short seal replacement entry to the clerk. None altered the current test head or enlarged the pocket's permitted route. They made the prepared ordinary fitting more dependable. Bao would show Jiang the actual seated brace tomorrow. Yue washed dust from her hands and found she could remember the sound of the pebble breaking more vividly than any clause from the hearing. The work had begun teaching her through things that stayed changed after she stopped looking.",
+      "reason": "Selecting \"Check the stop's witness marks with Bao.\" previously awarded insight before the task took place. Award only on leaving canal_p09_039, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-029",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_09.json",
+      "node_id": "canal_p09_029",
+      "choice_index": 1,
+      "before": {
+        "text": "Walk the altered retreat notices with Luo.",
+        "next": "canal_p09_040",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Walk the altered retreat notices with Luo.",
+        "next": "canal_p09_040"
+      },
+      "completion_node": "canal_p09_049",
+      "completion_path": "data/books/book_xii_canal_09.json",
+      "earned": {
+        "resolve": 1
+      },
+      "completion_text": "Yue gave the clerk the path handover and the two offered contact changes. Luo asked whether she had walked the route with an actual load after the basket turn. Yue had, briefly, and recorded the experience without presenting it as a complete load test for every porter. The inner paving remained accepted at its posted ordinary use. The added rest point made it more usable. Tomorrow's apparatus operator would find fewer people guessing where they were supposed to stand when an ordinary test began.",
+      "reason": "Selecting \"Walk the altered retreat notices with Luo.\" previously awarded resolve before the task took place. Award only on leaving canal_p09_049, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-030",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_09.json",
+      "node_id": "canal_p09_029",
+      "choice_index": 2,
+      "before": {
+        "text": "Finish actual worker handovers with Tian.",
+        "next": "canal_p09_050",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Finish actual worker handovers with Tian.",
+        "next": "canal_p09_050"
+      },
+      "completion_node": "canal_p09_059",
+      "completion_path": "data/books/book_xii_canal_09.json",
+      "earned": {
+        "trust": 1
+      },
+      "completion_text": "At the counter, Yue gave the clerk the corrected address, changed accepted hour and specific worker reply. Tian went back to her stitching room without another canal stack. Their afternoon had left a bruise in the conversation and a better understanding of how easily useful help could become occupation. Yue promised to ask what help was actually wanted next time, then stopped before making the promise grander. She would practice it at the next ordinary table. Tonight Tian had her own work, and Yue would finish elsewhere.",
+      "reason": "Selecting \"Finish actual worker handovers with Tian.\" previously awarded trust before the task took place. Award only on leaving canal_p09_059, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-031",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_10.json",
+      "node_id": "canal_p10_029",
+      "choice_index": 0,
+      "before": {
+        "text": "Perform the prepared side-drain response, then rebook the test.",
+        "next": "canal_p10_030",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Perform the prepared side-drain response, then rebook the test.",
+        "next": "canal_p10_030"
+      },
+      "completion_node": "canal_p10_039",
+      "completion_path": "data/books/book_xii_canal_10.json",
+      "earned": {
+        "resolve": 1
+      },
+      "completion_text": "Yue sent the follow-up through the appointed landing receiver before joining the common review. Her arms needed recovery after the fresh command, and she took ordinary notes slowly. Bao had the cord fragments wrapped beside the corrected ruler drawing. Tian brought the viewing-place report, including the spectator's mistaken claim that nothing useful happened. Yue did not want that claim erased from everybody's memory by a speech. She wanted the actual sequence available, where a person who cared could see what changed between two mornings.",
+      "reason": "Selecting \"Perform the prepared side-drain response, then rebook the test.\" previously awarded resolve before the task took place. Award only on leaving canal_p10_039, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-032",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_10.json",
+      "node_id": "canal_p10_029",
+      "choice_index": 1,
+      "before": {
+        "text": "Hold the feed closed and compare the gauge from stable ground.",
+        "next": "canal_p10_040",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Hold the feed closed and compare the gauge from stable ground.",
+        "next": "canal_p10_040"
+      },
+      "completion_node": "canal_p10_049",
+      "completion_path": "data/books/book_xii_canal_10.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "Yue joined the common review with the approved supply count, corrected ruler drawing and actual worker ending preserved. She had made one small live command, then let the ordinary follow-up remain ordinary. Bao wrapped the cord fragments beside the report. Luo prepared the garden visit's current route notes. The trial had ended within its resources and actual time, leaving a useful acceptance and an unfinished wider question. Yue could accept both without trying to turn the day into a threshold her body or the channel had not crossed.",
+      "reason": "Selecting \"Hold the feed closed and compare the gauge from stable ground.\" previously awarded insight before the task took place. Award only on leaving canal_p10_049, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-033",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_10.json",
+      "node_id": "canal_p10_029",
+      "choice_index": 2,
+      "before": {
+        "text": "End live work today and examine the emptied pocket.",
+        "next": "canal_p10_050",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "End live work today and examine the emptied pocket.",
+        "next": "canal_p10_050"
+      },
+      "completion_node": "canal_p10_059",
+      "completion_path": "data/books/book_xii_canal_10.json",
+      "earned": {
+        "trust": 1
+      },
+      "completion_text": "Yue joined the common review with her route recovering and the case holding two hundred four actual units. The bank had accepted this bounded pocket and side-release, while the larger garden route remained closed. Bao placed the old cord fragments beside the corrected ruler drawing. Tian carried the approved public viewing note. Yue knew the extra day had cost two short cargo holds and different worker availability. She would preserve those consequences even though the final response now looked like the result everybody wanted at first light.",
+      "reason": "Selecting \"End live work today and examine the emptied pocket.\" previously awarded trust before the task took place. Award only on leaving canal_p10_059, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-034",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_11.json",
+      "node_id": "canal_p11_029",
+      "choice_index": 0,
+      "before": {
+        "text": "Examine the household cut with Bao.",
+        "next": "canal_p11_030",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Examine the household cut with Bao.",
+        "next": "canal_p11_030"
+      },
+      "completion_node": "canal_p11_039",
+      "completion_path": "data/books/book_xii_canal_11.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "At the landing discussion, Bao presented the cut's actual crossing, the buried lip and the uninspected outlet near the wall. Yue brought the two women's private millet-and-shelf agreement only to its agreed receiver, outside the public repair plan. The owner asked for the proposed spill crossing to preserve her ordinary drainage wherever the current checks allowed it. The design now had a person able to approve real work on her ground, and a limit nobody could erase by calling the whole place a flood problem.",
+      "reason": "Selecting \"Examine the household cut with Bao.\" previously awarded insight before the task took place. Award only on leaving canal_p11_039, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-035",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_11.json",
+      "node_id": "canal_p11_029",
+      "choice_index": 1,
+      "before": {
+        "text": "Walk the occupied lower hollow with Luo.",
+        "next": "canal_p11_040",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Walk the occupied lower hollow with Luo.",
+        "next": "canal_p11_040"
+      },
+      "completion_node": "canal_p11_049",
+      "completion_path": "data/books/book_xii_canal_11.json",
+      "earned": {
+        "resolve": 1
+      },
+      "completion_text": "Luo returned to the landing with the shelter relocation accepted, the soft depression marked and the return channel clear of the recovered trap. The gatherer would move his bed before any lower flow trial and keep his temporary shed space under its actual terms. Yue had heard his impatience, his fear and his useful knowledge without requiring them to become one friendly attitude. The larger route now ended at an occupied basin with a real exit, rather than the empty reeds she had first drawn.",
+      "reason": "Selecting \"Walk the occupied lower hollow with Luo.\" previously awarded resolve before the task took place. Award only on leaving canal_p11_049, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-036",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_11.json",
+      "node_id": "canal_p11_029",
+      "choice_index": 2,
+      "before": {
+        "text": "Hear the aunt's offered receiving history.",
+        "next": "canal_p11_050",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Hear the aunt's offered receiving history.",
+        "next": "canal_p11_050"
+      },
+      "completion_node": "canal_p11_059",
+      "completion_path": "data/books/book_xii_canal_11.json",
+      "earned": {
+        "trust": 1
+      },
+      "completion_text": "Yue sent Pei a message describing the offered matching exterior reference before the original copy journey. The actual attribution remained pending comparison against the public receiving page. The aunt would receive the result through her chosen niece rather than an unexpected public announcement. The visit had found a promising paper and an actual person's chosen name. It had also heard a work song beside exhaustion. Yue returned to the design discussion feeling how much richer an answer could become when it stopped demanding one clean emotion.",
+      "reason": "Selecting \"Hear the aunt's offered receiving history.\" previously awarded trust before the task took place. Award only on leaving canal_p11_059, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-037",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_12.json",
+      "node_id": "canal_p12_029",
+      "choice_index": 0,
+      "before": {
+        "text": "Check the nearer warning call with Luo.",
+        "next": "canal_p12_030",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Check the nearer warning call with Luo.",
+        "next": "canal_p12_030"
+      },
+      "completion_node": "canal_p12_039",
+      "completion_path": "data/books/book_xii_canal_12.json",
+      "earned": {
+        "trust": 1
+      },
+      "completion_text": "At the landing, Luo delivered the revised relay position, full spoken phrases and actual slower departure interval. Yue added the reseated apron stone and the light sack's agreed arrangement without listing the household's private objects. The grandmother kept her cup and medicine indoors until needed. Tomorrow's trial would use the checked call; a future warning would still require actual current conditions and response staff. The house now had words that meant two different actions, heard from a real stool rather than imagined from the path.",
+      "reason": "Selecting \"Check the nearer warning call with Luo.\" previously awarded trust before the task took place. Award only on leaving canal_p12_039, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-038",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_12.json",
+      "node_id": "canal_p12_029",
+      "choice_index": 1,
+      "before": {
+        "text": "Compare the repaired crossing with Bao.",
+        "next": "canal_p12_040",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Compare the repaired crossing with Bao.",
+        "next": "canal_p12_040"
+      },
+      "completion_node": "canal_p12_049",
+      "completion_path": "data/books/book_xii_canal_12.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "At the landing, Bao submitted the corrected shoulder dimensions, repeated level and small bucket result. Yue kept the displaced-staff correction visible in the exact field notes. The gardener accepted that the planned repeat would watch his bean boundary again. The bucket had supported a modest repair; it had not certified flood behavior. Yue washed the clay from her hands and felt pleased by a useful observation that belonged to ordinary water and ordinary ground. The larger questions could wait until they had a real test rather than a prettier sentence.",
+      "reason": "Selecting \"Compare the repaired crossing with Bao.\" previously awarded insight before the task took place. Award only on leaving canal_p12_049, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-039",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_12.json",
+      "node_id": "canal_p12_029",
+      "choice_index": 2,
+      "before": {
+        "text": "Carry the family-approved attribution copies.",
+        "next": "canal_p12_050",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Carry the family-approved attribution copies.",
+        "next": "canal_p12_050"
+      },
+      "completion_node": "canal_p12_059",
+      "completion_path": "data/books/book_xii_canal_12.json",
+      "earned": {
+        "resolve": 1
+      },
+      "completion_text": "At the landing, Yue gave the clerk's receiver the approved attribution and left the personal tune in the niece's chosen delivery cover. The niece would return home before supper rather than remain for every canal discussion. Qiao Lan's public name could now be restored, its exterior reference matching the accepted collective season. Yue had watched a family decide how much of its dead sister's story should enter the world. The choice gave the recovered line more dignity than the speed with which an eager apprentice might have announced it.",
+      "reason": "Selecting \"Carry the family-approved attribution copies.\" previously awarded resolve before the task took place. Award only on leaving canal_p12_059, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-040",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_13.json",
+      "node_id": "canal_p13_029",
+      "choice_index": 0,
+      "before": {
+        "text": "Check the covered control path with Jiang.",
+        "next": "canal_p13_030",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Check the covered control path with Jiang.",
+        "next": "canal_p13_030"
+      },
+      "completion_node": "canal_p13_039",
+      "completion_path": "data/books/book_xii_canal_13.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "At the counter, Jiang submitted the corrected cover tie, reachable contact fixing and actual hearing position. Yue added the walked retreat and kept the apparatus gauge at its true post-inspection count. No live command had been spent during this preparation branch. Her routes remained recovered for a later permitted task. She felt less prepared to do everything and more prepared to stop doing the wrong thing. Jiang accepted the handover, then went to her booked rest place before another discussion could eat its whole interval.",
+      "reason": "Selecting \"Check the covered control path with Jiang.\" previously awarded insight before the task took place. Award only on leaving canal_p13_039, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-041",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_13.json",
+      "node_id": "canal_p13_029",
+      "choice_index": 1,
+      "before": {
+        "text": "Compare actual weather messages with Luo.",
+        "next": "canal_p13_040",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Compare actual weather messages with Luo.",
+        "next": "canal_p13_040"
+      },
+      "completion_node": "canal_p13_049",
+      "completion_path": "data/books/book_xii_canal_13.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "At the counter, Yue submitted the ordered observation times, corrected current receiver and separate uncertain rumor. The local rise was now visible but below caution, matching the final keeper reading. Luo read the complete sequence and arranged the next actual update time. Their information branch had consumed ordinary message time and no apparatus charge. Yue watched a moth circle the lamp and thought how little a useful warning resembled prophecy. It needed dates, contacts, a voice and somebody willing to wait without calling uncertainty an answer.",
+      "reason": "Selecting \"Compare actual weather messages with Luo.\" previously awarded resolve before the task took place. Award only on leaving canal_p13_049, after its account of the completed work. This task develops source comparison rather than recovered bodily conditioning."
+    },
+    {
+      "id": "CAUSE-042",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_13.json",
+      "node_id": "canal_p13_029",
+      "choice_index": 2,
+      "before": {
+        "text": "Walk the lit ground route with the road crew.",
+        "next": "canal_p13_050",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Walk the lit ground route with the road crew.",
+        "next": "canal_p13_050"
+      },
+      "completion_node": "canal_p13_059",
+      "completion_path": "data/books/book_xii_canal_13.json",
+      "earned": {
+        "trust": 1
+      },
+      "completion_text": "At the counter, the road crew submitted the checked lamp positions, actual oil interval and repeated slower walk. Yue brought the readiness label and the nearer receiver's child-watching instruction. The dog had gone home; the grandmother had kept her sack indoors until a real departure call. No apparatus charge was used. Tomorrow's ground response would begin from a route people could actually see, and from a woman who had walked it with the people hired to stand beside her.",
+      "reason": "Selecting \"Walk the lit ground route with the road crew.\" previously awarded trust before the task took place. Award only on leaving canal_p13_059, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-043",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_14.json",
+      "node_id": "canal_p14_029",
+      "choice_index": 0,
+      "before": {
+        "text": "Complete the small release under Jiang's supervision.",
+        "next": "canal_p14_030",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Complete the small release under Jiang's supervision.",
+        "next": "canal_p14_030"
+      },
+      "completion_node": "canal_p14_039",
+      "completion_path": "data/books/book_xii_canal_14.json",
+      "earned": {
+        "qi": 1
+      },
+      "completion_text": "At the emergency receiver's desk, Yue delivered her completed sequence and actual recovery status. Jiang's gauge held the precise supply remainder, with twenty additional units used in this response. The isolated little pocket and clear retreat had been observed separately from the rising outer hollow. The person rescue and Bao's wrist incident remained their own accounts. Yue put down the pen and went to the booked rest place without reopening the apparatus merely because the rain made sitting still feel morally difficult.",
+      "reason": "Selecting \"Complete the small release under Jiang's supervision.\" previously awarded insight before the task took place. Award only on leaving canal_p14_039, after its account of the completed work. The supervised bounded release develops control, without adding fuel or a realm."
+    },
+    {
+      "id": "CAUSE-044",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_14.json",
+      "node_id": "canal_p14_029",
+      "choice_index": 1,
+      "before": {
+        "text": "Follow the ground observers as they move higher.",
+        "next": "canal_p14_040",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Follow the ground observers as they move higher.",
+        "next": "canal_p14_040"
+      },
+      "completion_node": "canal_p14_049",
+      "completion_path": "data/books/book_xii_canal_14.json",
+      "earned": {
+        "resolve": 1
+      },
+      "completion_text": "Yue delivered the completed ground response and received Jiang's sixteen-unit supply record from the small isolated pocket. The precise actual remainder stayed in the gauge account. Her own route remained unused and recovered in this branch. She had worked through feet, voices and current marks while the qualified operator completed the mechanism. The rain continued outside the receiving shelter. Yue sat where the gardener could find her if he wanted the current view repeated, without pretending she could make that view kinder by describing it a second way.",
+      "reason": "Selecting \"Follow the ground observers as they move higher.\" previously awarded resolve before the task took place. Award only on leaving canal_p14_049, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-045",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_14.json",
+      "node_id": "canal_p14_029",
+      "choice_index": 2,
+      "before": {
+        "text": "Deliver the actual closure to shelter receivers.",
+        "next": "canal_p14_050",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Deliver the actual closure to shelter receivers.",
+        "next": "canal_p14_050"
+      },
+      "completion_node": "canal_p14_059",
+      "completion_path": "data/books/book_xii_canal_14.json",
+      "earned": {
+        "trust": 1
+      },
+      "completion_text": "At the shelter receiver's desk, Yue delivered the current closure, last property sightings and actual small-pocket report with eighteen additional supply units used. Her own arm route remained unused and recovered in this branch. The people waiting now had specific open questions and their next receiving times. She had carried bad news honestly enough that the room stayed uncomfortable. Outside, the storm made the roof louder than every voice. Yue helped pour ordinary tea and let the next actual observation interrupt supper when it came.",
+      "reason": "Selecting \"Deliver the actual closure to shelter receivers.\" previously awarded trust before the task took place. Award only on leaving canal_p14_059, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-046",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_15.json",
+      "node_id": "canal_p15_029",
+      "choice_index": 0,
+      "before": {
+        "text": "Inspect the house approach and private outlet.",
+        "next": "canal_p15_030",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Inspect the house approach and private outlet.",
+        "next": "canal_p15_030"
+      },
+      "completion_node": "canal_p15_039",
+      "completion_path": "data/books/book_xii_canal_15.json",
+      "earned": {
+        "trust": 1
+      },
+      "completion_text": "At the landing, Yue reported the private outlet's restored ordinary function and the current closed interior. The owner agreed to arrange the mason's next assessment from her separate property maintenance funds, since the public channel repair did not purchase a private room's full post-flood certification. The family's offered guest nights would end before every room dried. She would pay the actual additional lodging through its agreed host rather than let the tenant's need become an unspoken favor. Yue felt the return plan gain both a task and a price.",
+      "reason": "Selecting \"Inspect the house approach and private outlet.\" previously awarded trust before the task took place. Award only on leaving canal_p15_039, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-047",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_15.json",
+      "node_id": "canal_p15_029",
+      "choice_index": 1,
+      "before": {
+        "text": "Map the gardener's actual visible loss.",
+        "next": "canal_p15_040",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Map the gardener's actual visible loss.",
+        "next": "canal_p15_040"
+      },
+      "completion_node": "canal_p15_049",
+      "completion_path": "data/books/book_xii_canal_15.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "At the landing, Yue submitted the approved current crop record and its remaining questions. The gardener took his daughter home by the higher route, carrying the little bean in a separate paper fold. The saved baskets would supply actual sales this week; the damaged outer bed would be inspected later. None of that removed his anger about the seasonal use. Yue had learned enough to stop asking his anger to vanish before his evidence became credible. The map remained uncomfortable, and that was one reason it could be useful.",
+      "reason": "Selecting \"Map the gardener's actual visible loss.\" previously awarded resolve before the task took place. Award only on leaving canal_p15_049, after its account of the completed work. This task develops source comparison rather than recovered bodily conditioning."
+    },
+    {
+      "id": "CAUSE-048",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_15.json",
+      "node_id": "canal_p15_029",
+      "choice_index": 2,
+      "before": {
+        "text": "Finish the wet apparatus handover with Jiang.",
+        "next": "canal_p15_050",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Finish the wet apparatus handover with Jiang.",
+        "next": "canal_p15_050"
+      },
+      "completion_node": "canal_p15_059",
+      "completion_path": "data/books/book_xii_canal_15.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "At the emergency receiver's desk, Jiang signed her completed current two-equivalent appointment and actual supply condition. Yue delivered the clean sequence of counts and the current device limits. The case would remain at its assigned commission store with no optional object following her personal pack. She felt sad to see Jiang gather her ordinary traveling things. The qualified operator had become a friend during several returns, and friendship had to survive an actual departure rather than keep asking a work order to extend itself.",
+      "reason": "Selecting \"Finish the wet apparatus handover with Jiang.\" previously awarded insight before the task took place. Award only on leaving canal_p15_059, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-049",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_16.json",
+      "node_id": "canal_p16_029",
+      "choice_index": 0,
+      "before": {
+        "text": "Compare offered losses with current observations.",
+        "next": "canal_p16_030",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Compare offered losses with current observations.",
+        "next": "canal_p16_030"
+      },
+      "completion_node": "canal_p16_039",
+      "completion_path": "data/books/book_xii_canal_16.json",
+      "earned": {
+        "trust": 1
+      },
+      "completion_text": "Yue finished the comparative loss packet with direct damage, actual price changes and future work consequences stated separately. The offered sources and remaining inspections stayed visible. The hearing receiver would use it on day forty, with each claimant able to answer its own lines. The gardener and stall owner left without promising to agree about common use. Their accounts no longer had to compete for one vague word called suffering. Yue took a deep breath and folded the packet, grateful for the ordinary limit of a page she could actually carry.",
+      "reason": "Selecting \"Compare offered losses with current observations.\" previously awarded trust before the task took place. Award only on leaving canal_p16_039, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-050",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_16.json",
+      "node_id": "canal_p16_029",
+      "choice_index": 1,
+      "before": {
+        "text": "Assemble the separate grain receiving account.",
+        "next": "canal_p16_040",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Assemble the separate grain receiving account.",
+        "next": "canal_p16_040"
+      },
+      "completion_node": "canal_p16_049",
+      "completion_path": "data/books/book_xii_canal_16.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "At the counter, Yue delivered the completed twelve-sack receiving account after the gatherer's second collection. One hundred twenty kilograms had reached the three accepted recipients, with the worn-seam top-up and remaining loose stock separately recorded. The public version followed their offered preferences. The food support stayed alongside unfinished claims. Yue had spent the afternoon moving nothing heavier than paper and still felt the weight of quantities that could disappear when a clerk called a held sack unneeded or a gift a debt.",
+      "reason": "Selecting \"Assemble the separate grain receiving account.\" previously awarded insight before the task took place. Award only on leaving canal_p16_049, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-051",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_16.json",
+      "node_id": "canal_p16_029",
+      "choice_index": 2,
+      "before": {
+        "text": "Prepare Han's limited private responsibility and delivery record.",
+        "next": "canal_p16_050",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Prepare Han's limited private responsibility and delivery record.",
+        "next": "canal_p16_050"
+      },
+      "completion_node": "canal_p16_059",
+      "completion_path": "data/books/book_xii_canal_16.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "At the counter, Yue submitted the limited public reimbursement, revised private cart route and conditional goods delivery plan. Han kept his private originals and the thirty-two set aside. The public hearing would hear his actual responsibility for the crossing without using it to erase his fifty-six toll claim or invent ownership over his other employees. The next private receiving check would decide whether sixteen new copper arrived. Yue felt unexpectedly protective of that distinction for a man whose first notice had tried to deny it to Tian.",
+      "reason": "Selecting \"Prepare Han's limited private responsibility and delivery record.\" previously awarded resolve before the task took place. Award only on leaving canal_p16_059, after its account of the completed work. This task develops source comparison rather than recovered bodily conditioning."
+    },
+    {
+      "id": "CAUSE-052",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_17.json",
+      "node_id": "canal_p17_029",
+      "choice_index": 0,
+      "before": {
+        "text": "Deliver the future operating handover with Luo.",
+        "next": "canal_p17_030",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Deliver the future operating handover with Luo.",
+        "next": "canal_p17_030"
+      },
+      "completion_node": "canal_p17_039",
+      "completion_path": "data/books/book_xii_canal_17.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "At the counter, Luo accepted the operating handovers under their named receivers and hung the public stick properly. The younger keeper returned his coat to the labeled dry peg. He thanked her for the goose lesson, and she said it was a recurring problem with poor prospects of reform. Yue laughed while the evening water moved quietly beneath them. The keeper's future work sheet had two winter mornings circled. Luo's own household stick leaned beside the door where she would remember to take it home.",
+      "reason": "Selecting \"Deliver the future operating handover with Luo.\" previously awarded insight before the task took place. Award only on leaving canal_p17_039, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-053",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_17.json",
+      "node_id": "canal_p17_029",
+      "choice_index": 1,
+      "before": {
+        "text": "Carry bounded loss findings to their claimants.",
+        "next": "canal_p17_040",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Carry bounded loss findings to their claimants.",
+        "next": "canal_p17_040"
+      },
+      "completion_node": "canal_p17_049",
+      "completion_path": "data/books/book_xii_canal_17.json",
+      "earned": {
+        "trust": 1
+      },
+      "completion_text": "At the counter, Yue delivered the bounded findings and review date acknowledgments. The recipients had accepted their current support without becoming identical in hope or anger. She had seen a patched roof, an empty mint jar, a smaller rice pot and a seed purchase still being discussed. The gardener's question went into the receiver's cover. The clerk sealed it after reading back the offered words. Yue kept none of their private originals, and walked to supper thinking mostly about the repaired room's clean smell.",
+      "reason": "Selecting \"Carry bounded loss findings to their claimants.\" previously awarded trust before the task took place. Award only on leaving canal_p17_049, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-054",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_17.json",
+      "node_id": "canal_p17_029",
+      "choice_index": 2,
+      "before": {
+        "text": "Compare Han's refund authority and release.",
+        "next": "canal_p17_050",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Compare Han's refund authority and release.",
+        "next": "canal_p17_050"
+      },
+      "completion_node": "canal_p17_059",
+      "completion_path": "data/books/book_xii_canal_17.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "At the counter, Yue delivered the verified refund authority and corrected security-release draft for the next morning's remittance. Han kept the forty-eight in its counted private box overnight. The agent had accepted the current receiver and signing time. Yue went upstairs after returning the offered originals. Below her room, someone tested a new shelf board by knocking it twice against a workbench. She hoped Han's wife won that small argument. The private bargain had become concrete enough that tomorrow could finally be boring in the best ordinary way.",
+      "reason": "Selecting \"Compare Han's refund authority and release.\" previously awarded resolve before the task took place. Award only on leaving canal_p17_059, after its account of the completed work. This task develops source comparison rather than recovered bodily conditioning."
+    },
+    {
+      "id": "CAUSE-055",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_18.json",
+      "node_id": "canal_p18_029",
+      "choice_index": 0,
+      "before": {
+        "text": "Walk the warning receivers with Luo Zhen.",
+        "next": "canal_p18_030",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Walk the warning receivers with Luo Zhen.",
+        "next": "canal_p18_030"
+      },
+      "completion_node": "canal_p18_039",
+      "completion_path": "data/books/book_xii_canal_18.json",
+      "earned": {
+        "resolve": 1
+      },
+      "completion_text": "The morning report contained the failed corner call and the changed doorway, rather than a statement that every household was covered. The repair clerk priced marking the loose edge within the remaining path task. Luo took the receiver corrections to the young keeper herself. Their conversation happened behind the gate shed; Yue heard one sharp reply, a pause, and then laughter at a remark she could not make out. When Luo emerged, she gave Yue the clean copy. There were still gaps in winter service, but one difficult conversation had actually occurred.",
+      "reason": "Selecting \"Walk the warning receivers with Luo Zhen.\" previously awarded resolve before the task took place. Award only on leaving canal_p18_039, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-056",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_18.json",
+      "node_id": "canal_p18_029",
+      "choice_index": 1,
+      "before": {
+        "text": "Witness Pei Fen's reserve examination.",
+        "next": "canal_p18_040",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Witness Pei Fen's reserve examination.",
+        "next": "canal_p18_040"
+      },
+      "completion_node": "canal_p18_049",
+      "completion_path": "data/books/book_xii_canal_18.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "The examination report preserved the wrong first entry, the corrected answer, and the interrupted exercise. Bao's contribution was a short statement about his private plane, paid only within the light observation interval already approved for him. He left before stiffness made the clinic's warning necessary again. Pei watched him go and put a broad mark beside the accepted record tasks. \"A person can be useful before becoming useful at everything,\" she said. Yue recognized the remark as partly meant for her. This time she allowed it to pass without an argument.",
+      "reason": "Selecting \"Witness Pei Fen's reserve examination.\" previously awarded insight before the task took place. Award only on leaving canal_p18_049, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-057",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_18.json",
+      "node_id": "canal_p18_029",
+      "choice_index": 2,
+      "before": {
+        "text": "Help Tian Min prepare the sail sample.",
+        "next": "canal_p18_050",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Help Tian Min prepare the sail sample.",
+        "next": "canal_p18_050"
+      },
+      "completion_node": "canal_p18_059",
+      "completion_path": "data/books/book_xii_canal_18.json",
+      "earned": {
+        "trust": 1
+      },
+      "completion_text": "When they brought the report to Pei, Tian read the exact result aloud herself. The clerk asked about the proposed Day Fifty-Five fitting and noted that the customer and loft still had to confirm it. Tian no longer treated that unanswered request as a verdict. She took a copy home to discuss the practical travel terms with her mother. Yue watched her cross the landing with the tube tucked inside her coat. The town had offered Tian a thousand ways to be needed. For the first time she carried an equally concrete possibility of going elsewhere.",
+      "reason": "Selecting \"Help Tian Min prepare the sail sample.\" previously awarded trust before the task took place. Award only on leaving canal_p18_059, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-058",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_19.json",
+      "node_id": "canal_p19_029",
+      "choice_index": 0,
+      "before": {
+        "text": "Walk the repaired warning route with Luo Zhen.",
+        "next": "canal_p19_030",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Walk the repaired warning route with Luo Zhen.",
+        "next": "canal_p19_030"
+      },
+      "completion_node": "canal_p19_039",
+      "completion_path": "data/books/book_xii_canal_19.json",
+      "earned": {
+        "resolve": 1
+      },
+      "completion_text": "The task report reached Pei before noon. Its additions were a shorter spoken distance, a cleared blanket, and a confirmed ordinary-paced withdrawal. No household acquired a standing job from answering a practice call. The closed old step stayed closed. Luo returned to her regular round carrying the board, with less reason to distrust it and no reason to worship it. Yue followed her as far as the lock, then let her go alone. The keeper would be the person remaining here. Today that fact felt like a responsibility shared honestly rather than a debt Yue could never finish paying.",
+      "reason": "Selecting \"Walk the repaired warning route with Luo Zhen.\" previously awarded resolve before the task took place. Award only on leaving canal_p19_039, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-059",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_19.json",
+      "node_id": "canal_p19_029",
+      "choice_index": 1,
+      "before": {
+        "text": "Witness the dry apparatus receiving.",
+        "next": "canal_p19_040",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Witness the dry apparatus receiving.",
+        "next": "canal_p19_040"
+      },
+      "completion_node": "canal_p19_049",
+      "completion_path": "data/books/book_xii_canal_19.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "The signed dry receiving report accepted the corrected bracket, intact stops, separate fuel custody, and readable selected readings. It authorized no new powered work. Any future appointment would need money, an actual operator, and the measured condition, not Yue's reputation left hanging on the wall. Luo carried the case to its shelf herself with the young keeper helping under the specified dry handling arrangement. Yue put away the unused reference rule. There was satisfaction in ending a task without a flash or a pulse. She would not have believed that when she first learned to command anything.",
+      "reason": "Selecting \"Witness the dry apparatus receiving.\" previously awarded insight before the task took place. Award only on leaving canal_p19_049, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-060",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_19.json",
+      "node_id": "canal_p19_029",
+      "choice_index": 2,
+      "before": {
+        "text": "Clear the private storage corner by agreement.",
+        "next": "canal_p19_050",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Clear the private storage corner by agreement.",
+        "next": "canal_p19_050"
+      },
+      "completion_node": "canal_p19_059",
+      "completion_path": "data/books/book_xii_canal_19.json",
+      "earned": {
+        "trust": 1
+      },
+      "completion_text": "Yue returned to the lock by the clear public walk. Behind her, the washerwoman's recovered barrel rolled with a pleasant hollow rhythm toward its own shed. Han's yard had become temporarily more crowded, while the route everyone needed was less so. No single heroic act had accomplished the exchange. The work had been a chain of actual requests, inspected lifts, dated arrangements, and people accepting inconvenience before passing it onward. Yue kept the report small enough to carry without grandeur. At the shed Luo asked whether the plum smell had followed her. It had.",
+      "reason": "Selecting \"Clear the private storage corner by agreement.\" previously awarded trust before the task took place. Award only on leaving canal_p19_059, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-061",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_20.json",
+      "node_id": "canal_p20_029",
+      "choice_index": 0,
+      "before": {
+        "text": "Help Pei Fen settle the finite winter record appointment.",
+        "next": "canal_p20_030",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Help Pei Fen settle the finite winter record appointment.",
+        "next": "canal_p20_030"
+      },
+      "completion_node": "canal_p20_039",
+      "completion_path": "data/books/book_xii_canal_20.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "The winter work report named the finite four-copper grant, the two accepted months, the old check worker's actual private inventory, and his remaining need for paid notices. It did not call the coming season solved. Yue took the signed page to Luo, who read the assistant's hours first and the funding second. \"Will she remind Pei to eat?\" the keeper asked. Yue said that was a question for people, not another contractual task. Luo nodded and put a slice of pear beside the folder anyway. A useful relationship could still grow outside its wage line without the line disappearing.",
+      "reason": "Selecting \"Help Pei Fen settle the finite winter record appointment.\" previously awarded insight before the task took place. Award only on leaving canal_p20_039, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-062",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_20.json",
+      "node_id": "canal_p20_029",
+      "choice_index": 1,
+      "before": {
+        "text": "Accompany Bao Jun to his ordinary recovery review.",
+        "next": "canal_p20_040",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Accompany Bao Jun to his ordinary recovery review.",
+        "next": "canal_p20_040"
+      },
+      "completion_node": "canal_p20_049",
+      "completion_path": "data/books/book_xii_canal_20.json",
+      "earned": {
+        "trust": 1
+      },
+      "completion_text": "The clinic report returned to the commission only as the necessary work restriction, with Bao's approval. His private examination details and household provision choices were not copied into the public hearing. The loaded ban continued; brief light observation remained allowed. His accepted ordinary pay and emergency reallocation stayed as recorded. Yue watched him head home beside his sister, coat awkwardly buttoned but no longer treated as an insult. She went back to the lock with an unfamiliar gratitude for a day on which nobody had asked her to command anything that moved.",
+      "reason": "Selecting \"Accompany Bao Jun to his ordinary recovery review.\" previously awarded trust before the task took place. Award only on leaving canal_p20_049, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-063",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_20.json",
+      "node_id": "canal_p20_029",
+      "choice_index": 2,
+      "before": {
+        "text": "Check the booked orchard journey with the passage agent.",
+        "next": "canal_p20_050",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Check the booked orchard journey with the passage agent.",
+        "next": "canal_p20_050"
+      },
+      "completion_node": "canal_p20_059",
+      "completion_path": "data/books/book_xii_canal_20.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "On returning to the lock Yue showed Luo the plain travel map. The keeper traced the ordinary walking stage and asked whether the hostel's kettle was clean. Yue admitted she had not examined it. Luo nodded with satisfaction at having found a flaw in the apprentice's preparation. Tian came in carrying a sample seam and said she would question the kettle next time. They laughed together over a plan whose essential parts were finally settled. Ren's accepted date stood ahead of them like a house with a real doorway, still requiring Yue to cross the distance and enter.",
+      "reason": "Selecting \"Check the booked orchard journey with the passage agent.\" previously awarded resolve before the task took place. Award only on leaving canal_p20_059, after its account of the completed work. This task develops source comparison rather than recovered bodily conditioning."
+    },
+    {
+      "id": "CAUSE-064",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_21.json",
+      "node_id": "canal_p21_029",
+      "choice_index": 0,
+      "before": {
+        "text": "Witness the private workboat's safe removal.",
+        "next": "canal_p21_030",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Witness the private workboat's safe removal.",
+        "next": "canal_p21_030"
+      },
+      "completion_node": "canal_p21_039",
+      "completion_path": "data/books/book_xii_canal_21.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "Yue signed the current receiving note with the moved boat, clear old rope line, doubtful shore ring, and still-closed edge kept distinct. The officer would send the actual condition report to the ordinary route authority. The boat crew returned to its private work. At the landing the loose board had reached the sound bank and was recovered by the receiver's ordinary long hook without anyone entering the water. Yue watched him set it in the unidentified salvage place. It was not a prize. The morning had made a small reach less obstructed and left the next decision honestly visible.",
+      "reason": "Selecting \"Witness the private workboat's safe removal.\" previously awarded resolve before the task took place. Award only on leaving canal_p21_039, after its account of the completed work. This task develops source comparison rather than recovered bodily conditioning."
+    },
+    {
+      "id": "CAUSE-065",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_21.json",
+      "node_id": "canal_p21_029",
+      "choice_index": 1,
+      "before": {
+        "text": "Compare the route and the tenant's receiving map.",
+        "next": "canal_p21_040",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Compare the route and the tenant's receiving map.",
+        "next": "canal_p21_040"
+      },
+      "completion_node": "canal_p21_049",
+      "completion_path": "data/books/book_xii_canal_21.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "When the meeting ended, Yue helped the apprentice sweep the shavings only after he accepted the voluntary offer. She had completed her appointed comparison and was free to leave. He asked whether she was a surveyor or a cultivator. She said she was learning to be useful at a few things and making frequent errors in all of them. He considered this, then showed her the wrong cut hidden on the table leg's inner side. His employer had approved a sound correction. Yue looked at her mended coat and decided not to offer a competitive account of her own stitches.",
+      "reason": "Selecting \"Compare the route and the tenant's receiving map.\" previously awarded insight before the task took place. Award only on leaving canal_p21_049, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-066",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_21.json",
+      "node_id": "canal_p21_029",
+      "choice_index": 2,
+      "before": {
+        "text": "Walk the usable winter alternative with Luo Zhen.",
+        "next": "canal_p21_050",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Walk the usable winter alternative with Luo Zhen.",
+        "next": "canal_p21_050"
+      },
+      "completion_node": "canal_p21_059",
+      "completion_path": "data/books/book_xii_canal_21.json",
+      "earned": {
+        "trust": 1
+      },
+      "completion_text": "Luo asked whether Yue would remember this place after the forest road grew difficult. Yue said she would probably remember the geese before the map. The keeper looked satisfied. \"That is accurate authorship.\" They watched the afternoon light gather on the ordinary canal level. The storm had left damage, the correction had left inconveniences, and the walk had left nobody hungry enough to argue further. Yue took the empty food wrapper to the proper bin and returned to the office with the actual route report. Behind her, Luo began the shorter round she was genuinely paid to make.",
+      "reason": "Selecting \"Walk the usable winter alternative with Luo Zhen.\" previously awarded trust before the task took place. Award only on leaving canal_p21_059, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-067",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_22.json",
+      "node_id": "canal_p22_029",
+      "choice_index": 0,
+      "before": {
+        "text": "Read the households' contribution agreements before payment.",
+        "next": "canal_p22_030",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Read the households' contribution agreements before payment.",
+        "next": "canal_p22_030"
+      },
+      "completion_node": "canal_p22_039",
+      "completion_path": "data/books/book_xii_canal_22.json",
+      "earned": {
+        "trust": 1
+      },
+      "completion_text": "By the end of Yue's interval the household agreements were readable, the nine coins disbursed, and the chosen public descriptions approved. The gardener walked home with his witness. The reed household carried its copy in a dry wrapper. The stall's nephew left with the summary contact and a small paid bowl for his aunt. Yue went back beneath the awning feeling tired in a way no brief qi practice could improve. She drank ordinary water and waited for the other tables' reports. The work had changed what three households could afford tomorrow without claiming to restore yesterday.",
+      "reason": "Selecting \"Read the households' contribution agreements before payment.\" previously awarded trust before the task took place. Award only on leaving canal_p22_039, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-068",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_22.json",
+      "node_id": "canal_p22_029",
+      "choice_index": 1,
+      "before": {
+        "text": "Compare the charter with the completed labor annex.",
+        "next": "canal_p22_040",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Compare the charter with the completed labor annex.",
+        "next": "canal_p22_040"
+      },
+      "completion_node": "canal_p22_049",
+      "completion_path": "data/books/book_xii_canal_22.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "Tian took the plain comparison to the public board after the clerk checked it. It showed old pledge completed, current jobs finite, valid debt bounded, and private gear distinct from common routes. Nobody would need to read the faded original to learn the immediate consequence. Yue helped hold the board while Tian tied it under the dry eave. A passerby asked if this meant the canal was free. Tian said it meant posted use charges and actual tasks remained, without an inherited back underneath them. The man read the next line and said the toll still seemed too high.",
+      "reason": "Selecting \"Compare the charter with the completed labor annex.\" previously awarded resolve before the task took place. Award only on leaving canal_p22_049, after its account of the completed work. This task develops source comparison rather than recovered bodily conditioning."
+    },
+    {
+      "id": "CAUSE-069",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_22.json",
+      "node_id": "canal_p22_029",
+      "choice_index": 2,
+      "before": {
+        "text": "Check the bounded upstream findings and penalty receipt.",
+        "next": "canal_p22_050",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Check the bounded upstream findings and penalty receipt.",
+        "next": "canal_p22_050"
+      },
+      "completion_node": "canal_p22_059",
+      "completion_path": "data/books/book_xii_canal_22.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "By evening the bounded findings showed the permit breach, accepted correction, actual penalty, connected high-water risk, and limits on assigning individual loss shares. The household contribution had its separate four-three-two receipts; the charter clauses still awaited final approval after review. Yue returned the source sketches to their actual holders and kept the approved copies with the commission folder. Nothing in the hearing advanced her cultivation. She had learned to hear more without commanding more. At the safe landing the ordinary canal made the same low sound it had made before anyone offered to explain it.",
+      "reason": "Selecting \"Check the bounded upstream findings and penalty receipt.\" previously awarded insight before the task took place. Award only on leaving canal_p22_059, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-070",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_23.json",
+      "node_id": "canal_p23_029",
+      "choice_index": 0,
+      "before": {
+        "text": "Attend Tian Min's actual sail fitting as her friend.",
+        "next": "canal_p23_030",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Attend Tian Min's actual sail fitting as her friend.",
+        "next": "canal_p23_030"
+      },
+      "completion_node": "canal_p23_039",
+      "completion_path": "data/books/book_xii_canal_23.json",
+      "earned": {
+        "trust": 1
+      },
+      "completion_text": "When Yue left, Tian and her mother were listing food for the downriver journey. The loft's acceptance reply still had to arrive, but Tian's own decision and successful assessment were real. She called Yue back from the doorway to say goodbye before tomorrow's public closing grew crowded. They embraced awkwardly around the sewing basket, then laughed at the handles between them. Yue promised no shared road she had not booked. Tian said, \"Come somewhere because you want to see me, one day.\" Yue answered that she wanted that, and would ask for an actual date when she could.",
+      "reason": "Selecting \"Attend Tian Min's actual sail fitting as her friend.\" previously awarded trust before the task took place. Award only on leaving canal_p23_039, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-071",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_23.json",
+      "node_id": "canal_p23_029",
+      "choice_index": 1,
+      "before": {
+        "text": "Visit Bao Jun for his sitting lesson and recovery review.",
+        "next": "canal_p23_040",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Visit Bao Jun for his sitting lesson and recovery review.",
+        "next": "canal_p23_040"
+      },
+      "completion_node": "canal_p23_049",
+      "completion_path": "data/books/book_xii_canal_23.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "The visit ended before Bao's wrist grew tired. He kept his clinic permission, accepted short drawing appointment, and actual paid work records at home. Yue kept only her personal travel leaf. The carpenter had not recovered full strength or given a loaded final demonstration. He had found a way to teach and accept a limited private task while waiting. At the lock Luo asked how he was. Yue gave the work restriction he had permitted her to share and said the tea was terrible. The keeper looked affronted on behalf of the entire district's kettles.",
+      "reason": "Selecting \"Visit Bao Jun for his sitting lesson and recovery review.\" previously awarded resolve before the task took place. Award only on leaving canal_p23_049, after its account of the completed work. This task develops source comparison rather than recovered bodily conditioning."
+    },
+    {
+      "id": "CAUSE-072",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_23.json",
+      "node_id": "canal_p23_029",
+      "choice_index": 2,
+      "before": {
+        "text": "Hear the private family page Han Shou chooses to share.",
+        "next": "canal_p23_050",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Hear the private family page Han Shou chooses to share.",
+        "next": "canal_p23_050"
+      },
+      "completion_node": "canal_p23_059",
+      "completion_path": "data/books/book_xii_canal_23.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "Yue returned to the lock with no family letter in her pack. Han retained his private page, valid claim, completed refund, and smaller uncertain business. Tian retained her own practical assessment and winter decision. Yue retained the afternoon's laughter, which was not a source needing a numbered shelf. Luo asked whether the pickles had been as good as expected. Yue said better. The keeper declared the choice justified and went back to her round. Beyond the shed ordinary water slid beneath the repaired cap, offering nobody a grander title for having learned to listen beside it.",
+      "reason": "Selecting \"Hear the private family page Han Shou chooses to share.\" previously awarded insight before the task took place. Award only on leaving canal_p23_059, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-073",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_24.json",
+      "node_id": "canal_p24_045",
+      "choice_index": 0,
+      "before": {
+        "text": "Finish the public comparison copies and their receiving.",
+        "next": "canal_p24_046",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Finish the public comparison copies and their receiving.",
+        "next": "canal_p24_046"
+      },
+      "completion_node": "canal_end_public",
+      "completion_path": "data/books/book_xii_canal_24.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "On the fifty-ninth morning Yue reached the orchard pavilion's approach with her habitual pack and Qi Gathering stage four. The canal's local comparisons had been received; its traveling copy belonged to the paid carrier and the clerk tracking actual delivery. Ren's accepted full review waited inside the orchard, with the real retained arrangement and any physical return still to be completed. Yue looked at the familiar roof through autumn mist. She had left a public record behind. Now she would enter a conversation that required her own presence.",
+      "reason": "Selecting \"Finish the public comparison copies and their receiving.\" previously awarded insight before the task took place. Award only on leaving canal_end_public, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-074",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_24.json",
+      "node_id": "canal_p24_045",
+      "choice_index": 1,
+      "before": {
+        "text": "Leave a clear dry fault index with the actual workshop keepers.",
+        "next": "canal_p24_056",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Leave a clear dry fault index with the actual workshop keepers.",
+        "next": "canal_p24_056"
+      },
+      "completion_node": "canal_end_repair",
+      "completion_path": "data/books/book_xii_canal_24.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "On the fifty-ninth morning Yue reached the orchard pavilion's approach with her habitual pack and Qi Gathering stage four. The canal frame remained disconnected with its selected charge intact, fault index received, and custody held by the named keepers. Ren's accepted full review waited inside the orchard under the real retained arrangement; any owed physical return still required today's work in person. Yue heard someone moving a stool beneath the pavilion roof. She had left useful stopping words behind. Here she would begin by listening before proposing another repair.",
+      "reason": "Selecting \"Leave a clear dry fault index with the actual workshop keepers.\" previously awarded resolve before the task took place. Award only on leaving canal_end_repair, after its account of the completed work. This task develops source comparison rather than recovered bodily conditioning."
+    },
+    {
+      "id": "CAUSE-075",
+      "category": "choice_causality",
+      "path": "data/books/book_xii_canal_24.json",
+      "node_id": "canal_p24_045",
+      "choice_index": 2,
+      "before": {
+        "text": "Take the priced brief west-kiln home stop on the booked road.",
+        "next": "canal_p24_066",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Take the priced brief west-kiln home stop on the booked road.",
+        "next": "canal_p24_066"
+      },
+      "completion_node": "canal_end_home",
+      "completion_path": "data/books/book_xii_canal_24.json",
+      "earned": {
+        "trust": 1
+      },
+      "completion_text": "On the fifty-ninth morning Yue reached the orchard pavilion's approach with her habitual pack and Qi Gathering stage four. The paid brief kiln stop had fitted the two confirmed travel days, leaving no new borrowed object or vague promise on the road. Ren's accepted full review waited inside under the real retained arrangement, with any owed physical return still to be completed by arrival and work. Yue brushed a last trace of clay dust from her sleeve. Home had let her return once. The pavilion doorway asked her to do it again.",
+      "reason": "Selecting \"Take the priced brief west-kiln home stop on the booked road.\" previously awarded trust before the task took place. Award only on leaving canal_end_home, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-076",
+      "category": "choice_causality",
+      "path": "data/books/book_xiii_forest_04.json",
+      "node_id": "forest_04_001",
+      "choice_index": 0,
+      "before": {
+        "text": "Work with the buyers and examine the terms people signed.",
+        "next": "forest_04_buyer_001",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Work with the buyers and examine the terms people signed.",
+        "next": "forest_04_buyer_001"
+      },
+      "completion_node": "forest_04_buyer_040",
+      "completion_path": "data/books/book_xiii_forest_04.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "Lin wrote her offered account of the office inquiry and read it aloud to the people whose words it contained. The clerk corrected one sequence; Long corrected the scope of the cooking result. Then she set the account beside the field team's report. She would hear what had happened beyond the upper marker at the common meeting. For now, Wen pushed a hot cup into her hands and asked whether the office had contained any onions.",
+      "reason": "Selecting \"Work with the buyers and examine the terms people signed.\" previously awarded insight before the task took place. Award only on leaving forest_04_buyer_040, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-077",
+      "category": "choice_causality",
+      "path": "data/books/book_xiii_forest_04.json",
+      "node_id": "forest_04_001",
+      "choice_index": 1,
+      "before": {
+        "text": "Follow Wen to the upper stand and inspect the winter road.",
+        "next": "forest_04_trail_001",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Follow Wen to the upper stand and inspect the winter road.",
+        "next": "forest_04_trail_001"
+      },
+      "completion_node": "forest_04_trail_040",
+      "completion_path": "data/books/book_xiii_forest_04.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "Lin took the cup his sister offered and sat on the bench's dry end. Outside, the carts creaked into their evening places. The office team was preparing its report for the same common meeting. Whatever the papers said, they would have to fit a valley containing a closed road, a sore knee, an injured worker, and people still expecting dinner. Wen asked whether she had brought the remaining bean cake. She produced it. Its improved edge had survived the entire journey.",
+      "reason": "Selecting \"Follow Wen to the upper stand and inspect the winter road.\" previously awarded insight before the task took place. Award only on leaving forest_04_trail_040, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-078",
+      "category": "choice_causality",
+      "path": "data/books/book_xiii_forest_13.json",
+      "node_id": "forest_13_008",
+      "choice_index": 0,
+      "before": {
+        "text": "Recommend the paid upper haul, giving the Harts a wider continuous passage.",
+        "next": "forest_13_upper_001",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Recommend the paid upper haul, giving the Harts a wider continuous passage.",
+        "next": "forest_13_upper_001"
+      },
+      "completion_node": "forest_13_upper_030",
+      "completion_path": "data/books/book_xiii_forest_13.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "The peak-week trial ended with no new human injury on the route and no close Hart encounter at the cleared bank. It had cost the authorized twenty-four copper and delayed some handling beyond the optimistic estimate. The review would decide its next form from that record, the current five-body movement, and the household needs. Lin submitted her account and sat beside Wen. Her recommendation had bought something real. It had not bought the right to stop listening to the people who paid for it.",
+      "reason": "Selecting \"Recommend the paid upper haul, giving the Harts a wider continuous passage.\" previously awarded insight before the task took place. Award only on leaving forest_13_upper_030, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-079",
+      "category": "choice_causality",
+      "path": "data/books/book_xiii_forest_13.json",
+      "node_id": "forest_13_008",
+      "choice_index": 1,
+      "before": {
+        "text": "Recommend watched crossing windows, keeping the shorter route shared.",
+        "next": "forest_13_bank_001",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Recommend watched crossing windows, keeping the shorter route shared.",
+        "next": "forest_13_bank_001"
+      },
+      "completion_node": "forest_13_bank_030",
+      "completion_path": "data/books/book_xiii_forest_13.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "Lin submitted the final watched-bank account, including the household delays and the practical revisions. The council would compare it with the qualified upper-route survey and current migration observations before renewing any arrangement. The week had ended without a new injury at the shared bank, and that mattered. Its inconvenience had not been evenly carried, and that mattered too. Lin sat beside Wen at the review table, less eager to be vindicated than to hear what would make the next week usable.",
+      "reason": "Selecting \"Recommend watched crossing windows, keeping the shorter route shared.\" previously awarded insight before the task took place. Award only on leaving forest_13_bank_030, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-080",
+      "category": "choice_causality",
+      "path": "data/books/book_xiii_forest_16.json",
+      "node_id": "forest_16_010",
+      "choice_index": 0,
+      "before": {
+        "text": "Keep the warnings and route signals clear at the message station.",
+        "next": "forest_16_signal_001",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Keep the warnings and route signals clear at the message station.",
+        "next": "forest_16_signal_001"
+      },
+      "completion_node": "forest_16_signal_027",
+      "completion_path": "data/books/book_xiii_forest_16.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "Lin left the message board with the qualified relief crew and went to the common review. She had seen the fire through reports, glimpses, and the words people needed in time. The water crew would tell its own part. The public watch would tell the waiting households' part. The operation would have one shared sequence without pretending any one observer had held the whole hillside inside a glance. She sat down, hands steady, and listened for the next offered account.",
+      "reason": "Selecting \"Keep the warnings and route signals clear at the message station.\" previously awarded insight before the task took place. Award only on leaving forest_16_signal_027, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-081",
+      "category": "choice_causality",
+      "path": "data/books/book_xiii_forest_16.json",
+      "node_id": "forest_16_010",
+      "choice_index": 1,
+      "before": {
+        "text": "Work the water handoff line under its supply supervisor.",
+        "next": "forest_16_water_001",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Work the water handoff line under its supply supervisor.",
+        "next": "forest_16_water_001"
+      },
+      "completion_node": "forest_16_water_027",
+      "completion_path": "data/books/book_xiii_forest_16.json",
+      "earned": {
+        "resolve": 1
+      },
+      "completion_text": "At the evening review, the water supervisor brought the accepted stock sheet and a separate description of the cart delay. The signal supervisor brought the times of the wind pause, spot report, and stop order. Lin heard the other crew's account with the rest of the room, learning details she had not witnessed. The leader set both accounts beside the ground inspections. The report would preserve a smaller completed operation, one controlled spot, an unlit strip, and continuing watches. It would offer no finished forest in exchange for a finished day.",
+      "reason": "Selecting \"Work the water handoff line under its supply supervisor.\" previously awarded insight before the task took place. Award only on leaving forest_16_water_027, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-082",
+      "category": "choice_causality",
+      "path": "data/books/book_xiii_forest_21.json",
+      "node_id": "forest_21_010",
+      "choice_index": 0,
+      "before": {
+        "text": "Recommend the raised lower footway and its funded maintenance term.",
+        "next": "forest_21_footway_001",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Recommend the raised lower footway and its funded maintenance term.",
+        "next": "forest_21_footway_001"
+      },
+      "completion_node": "forest_21_footway_025",
+      "completion_path": "data/books/book_xiii_forest_21.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "They walked past the marked footprint before darkness, seeing a route still under preparation, an animal gap still open, and a bench promised under a paid specification. Wen asked whether Lin felt pleased. She said yes, and worried about the people who would have preferred the upper improvement. He pointed to the current public contact board. \"Then leave them somewhere to complain when you are gone.\" She smiled. The board's letters were large. The next morning, the crew would ask the chosen work to bear actual weight.",
+      "reason": "Selecting \"Recommend the raised lower footway and its funded maintenance term.\" previously awarded insight before the task took place. Award only on leaving forest_21_footway_025, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-083",
+      "category": "choice_causality",
+      "path": "data/books/book_xiii_forest_21.json",
+      "node_id": "forest_21_010",
+      "choice_index": 1,
+      "before": {
+        "text": "Recommend upper improvements and ten weeks of staffed lower assistance.",
+        "next": "forest_21_assistance_001",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Recommend upper improvements and ten weeks of staffed lower assistance.",
+        "next": "forest_21_assistance_001"
+      },
+      "completion_node": "forest_21_assistance_025",
+      "completion_path": "data/books/book_xiii_forest_21.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "Lin and Wen passed the waiting point before dusk. The lower bank remained lightly marked, the upper preparation visible beyond it, and the helper's contact large on the new notice. A family carrier read it, asked a practical question about the first turn, and received the actual answer from the keeper. Wen said the package looked less impressive than a footway drawing. Lin watched the helper offer the elder a pole. \"It will have to become impressive one ordinary journey at a time,\" she said. They walked back toward the lodge, leaving the paid work to its accepted crew.",
+      "reason": "Selecting \"Recommend upper improvements and ten weeks of staffed lower assistance.\" previously awarded insight before the task took place. Award only on leaving forest_21_assistance_025, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-084",
+      "category": "choice_causality",
+      "path": "data/books/book_xiv_harbor_03.json",
+      "node_id": "harbor_p03_030",
+      "choice_index": 0,
+      "before": {
+        "text": "Work beside Han Pei at the comparison table.",
+        "next": "harbor_p03_031",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Work beside Han Pei at the comparison table.",
+        "next": "harbor_p03_031"
+      },
+      "completion_node": "harbor_p03_034",
+      "completion_path": "data/books/book_xiv_harbor_03.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "By the end of the table shift, the corrected household number and the tool-roll question had clear records. He Ming's ordinary queue assistant supplied the attendance notes, while Yan Su's relay clerk supplied the work-line account. Yue had not watched those tasks. Han Pei thanked her for helping catch the number before release. Yue understood something new about the clerk's guarded manner: defending a table could be an attempt to stay useful, especially when everyone arriving remembered only what the table had failed to give.",
+      "reason": "Selecting \"Work beside Han Pei at the comparison table.\" previously awarded insight before the task took place. Award only on leaving harbor_p03_034, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-085",
+      "category": "choice_causality",
+      "path": "data/books/book_xiv_harbor_03.json",
+      "node_id": "harbor_p03_030",
+      "choice_index": 1,
+      "before": {
+        "text": "Take Yan Su's dry work line.",
+        "next": "harbor_p03_035",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Take Yan Su's dry work line.",
+        "next": "harbor_p03_035"
+      },
+      "completion_node": "harbor_p03_038",
+      "completion_path": "data/books/book_xiv_harbor_03.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "At the shift's end, Han Pei supplied a signed correction note about a reused household number, and the queue assistant supplied the claimant account. Yue had not observed those exchanges. Yan Su recorded her stop call beside the harmless snag it addressed. He thanked her without calling her indispensable. On the walk to the office, Yue noticed her throat hurt from repeating instructions above the wind. She had learned a different kind of fatigue from the quiet table, and she did not confuse either with a higher cultivation stage.",
+      "reason": "Selecting \"Take Yan Su's dry work line.\" previously awarded insight before the task took place. Award only on leaving harbor_p03_038, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-086",
+      "category": "choice_causality",
+      "path": "data/books/book_xiv_harbor_03.json",
+      "node_id": "harbor_p03_030",
+      "choice_index": 2,
+      "before": {
+        "text": "Stand with He Ming at the claimant queue.",
+        "next": "harbor_p03_039",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Stand with He Ming at the claimant queue.",
+        "next": "harbor_p03_039"
+      },
+      "completion_node": "harbor_p03_042",
+      "completion_path": "data/books/book_xiv_harbor_03.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "The comparison table sent a signed correction about a reused household number; Yan Su sent a report of a stopped snag at the work line. Yue had observed neither. Her own shift ended with a six-copper interpreter charge entered against the twenty-four-copper ceiling, leaving eighteen available. He Ming thanked her for standing where people began. Yue said the queue would continue needing ordinary staff after her term. The woman agreed, then asked her to stay for supper anyway. The invitation belonged to a friendship rather than the appointment.",
+      "reason": "Selecting \"Stand with He Ming at the claimant queue.\" previously awarded insight before the task took place. Award only on leaving harbor_p03_042, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-087",
+      "category": "choice_causality",
+      "path": "data/books/book_xiv_harbor_12.json",
+      "node_id": "harbor_p12_012",
+      "choice_index": 0,
+      "before": {
+        "text": "Listen beside Han at the office help table.",
+        "next": "harbor_p12_013",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Listen beside Han at the office help table.",
+        "next": "harbor_p12_013"
+      },
+      "completion_node": "harbor_p12_018",
+      "completion_path": "data/books/book_xiv_harbor_12.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "When the ordinary relief clerk arrived, Yue handed over the remaining questions and left the table on time. Her own report named what she saw: a readable request helped a man who could not write; interpretation clarified a wage question; a referral nearly outran its assigned responder. Han thanked her for watching the awkward middle instead of only the courteous beginning. Yue understood why the office mattered to her friend in a new way. It could welcome a person sincerely and still fail at the next step unless someone checked whether another living person stood behind the promised answer.",
+      "reason": "Selecting \"Listen beside Han at the office help table.\" previously awarded insight before the task took place. Award only on leaving harbor_p12_018, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-088",
+      "category": "choice_causality",
+      "path": "data/books/book_xiv_harbor_12.json",
+      "node_id": "harbor_p12_012",
+      "choice_index": 1,
+      "before": {
+        "text": "Take the mobile collection route across the inner water.",
+        "next": "harbor_p12_019",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Take the mobile collection route across the inner water.",
+        "next": "harbor_p12_019"
+      },
+      "completion_node": "harbor_p12_024",
+      "completion_path": "data/books/book_xiv_harbor_12.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "At the landing, Yue returned the checked-out packet and original custody slips to the office keeper. Han read the mobile report and thanked her for preserving the far keeper's limited agreement. The work-line and office staff sent separate signed accounts. Yue knew their results through those sources, not firsthand. She wished it promised more, then remembered Rong Qu's real receipt. The limit did not erase that answer; it named the next task to fund.",
+      "reason": "Selecting \"Take the mobile collection route across the inner water.\" previously awarded insight before the task took place. Award only on leaving harbor_p12_024, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-089",
+      "category": "choice_causality",
+      "path": "data/books/book_xiv_harbor_12.json",
+      "node_id": "harbor_p12_012",
+      "choice_index": 2,
+      "before": {
+        "text": "Receive questions beside Yan's dry work line.",
+        "next": "harbor_p12_025",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Receive questions beside Yan's dry work line.",
+        "next": "harbor_p12_025"
+      },
+      "completion_node": "harbor_p12_030",
+      "completion_path": "data/books/book_xiv_harbor_12.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "The relief clerk arrived while Rao's follow-up remained active elsewhere. Yue handed over the post record and left within the agreed half-day. Her report named the long empty interval, the visibility concern and the specific stop-pay question. Han later read it alongside office and mobile accounts, each identifying its observer. He Ming asked the public-feedback clerk whether workers who stayed silent had another way to reach the route. The question belonged in the next test. Yue valued having seen the work line because it made the distance between announcing a service and receiving a vulnerable person's words impossible to ignore.",
+      "reason": "Selecting \"Receive questions beside Yan's dry work line.\" previously awarded insight before the task took place. Award only on leaving harbor_p12_030, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-090",
+      "category": "choice_causality",
+      "path": "data/books/book_xiv_harbor_27.json",
+      "node_id": "harbor_final_choice",
+      "choice_index": 0,
+      "before": {
+        "text": "Recommend the registry and its checked receiving index.",
+        "next": "harbor_registry_001",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Recommend the registry and its checked receiving index.",
+        "next": "harbor_registry_001"
+      },
+      "completion_node": "harbor_end_registry",
+      "completion_path": "data/books/book_xiv_harbor_27.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "Six weeks after the harbor's final checks, Yue reached the kiln town by paid carts, walking and licensed ferries. Cold had begun to sharpen the morning air. She carried the habitual pack, personal notes, remaining earned money and a fourth-stage record, with no harbor equipment or promised commission. The registry's later reviews belonged to Han and the accepted ordinary cover; Yue had made no paid claim to attend them. Inside the common firing hall she asked where a traveler could learn the actual work terms. She waited for the local answer.",
+      "reason": "Selecting \"Recommend the registry and its checked receiving index.\" previously awarded insight before the task took place. Award only on leaving harbor_end_registry, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-091",
+      "category": "choice_causality",
+      "path": "data/books/book_xiv_harbor_27.json",
+      "node_id": "harbor_final_choice",
+      "choice_index": 1,
+      "before": {
+        "text": "Recommend repair and independently checked fittings.",
+        "next": "harbor_repair_001",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Recommend repair and independently checked fittings.",
+        "next": "harbor_repair_001"
+      },
+      "completion_node": "harbor_end_repair",
+      "completion_path": "data/books/book_xiv_harbor_27.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "Six weeks after the harbor's final checks, Yue reached the kiln town as colder weather began. Paid carts, ordinary ferries and stretches on foot had brought her there with her habitual pack, some earned money and the fourth stage she had actually attained. The harbor's later reviews belonged to its accepting officers; she did not claim to have attended them from the road. She remembered Deren's dry joke when a worker pointed out a muddy passage inside the common firing hall. Her visit carried no harbor commission. She asked the local keeper who was taking inquiries about paid work.",
+      "reason": "Selecting \"Recommend repair and independently checked fittings.\" previously awarded insight before the task took place. Award only on leaving harbor_end_repair, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-092",
+      "category": "choice_causality",
+      "path": "data/books/book_xiv_harbor_27.json",
+      "node_id": "harbor_final_choice",
+      "choice_index": 2,
+      "before": {
+        "text": "Recommend road visits with permitted returning replies.",
+        "next": "harbor_road_001",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Recommend road visits with permitted returning replies.",
+        "next": "harbor_road_001"
+      },
+      "completion_node": "harbor_end_road",
+      "completion_path": "data/books/book_xiv_harbor_27.json",
+      "earned": {
+        "insight": 1
+      },
+      "completion_text": "Six weeks after the final harbor checks, paid carts, ferries and walking brought Yue to the kiln town as cold weather began. She carried her habitual personal pack, earned money and the fourth stage she had earned, without borrowed harbor equipment or a promised commission. The contact office's later reviews belonged to its accepting staff; the traveler had not performed them while absent. A worker inside the common firing hall asked where she had come from. Yue answered with the harbor's ordinary name, then asked who locally received inquiries about paid work and a place to stay.",
+      "reason": "Selecting \"Recommend road visits with permitted returning replies.\" previously awarded insight before the task took place. Award only on leaving harbor_end_road, after its account of the completed work. The reward represents the performed practice, not acceptance of a promise."
+    },
+    {
+      "id": "CAUSE-093",
+      "category": "choice_causality",
+      "path": "data/books/book_xv_kiln_27.json",
+      "node_id": "kiln_final_choice",
+      "choice_index": 0,
+      "before": {
+        "text": "Seek further qualified instruction when the next town offers a real opportunity.",
+        "next": "kiln_apprentice_001",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Seek further qualified instruction when the next town offers a real opportunity.",
+        "next": "kiln_apprentice_001"
+      },
+      "completion_node": null,
+      "completion_path": null,
+      "earned": null,
+      "completion_text": null,
+      "reason": "The preference \"Seek further qualified instruction when the next town offers a real opportunity.\" awards practice before any new teacher, reader or map investigation exists. The ending explicitly leaves that future opportunity unaccepted; remove the reward."
+    },
+    {
+      "id": "CAUSE-094",
+      "category": "choice_causality",
+      "path": "data/books/book_xv_kiln_27.json",
+      "node_id": "kiln_final_choice",
+      "choice_index": 1,
+      "before": {
+        "text": "Begin with the permitted shared craft account and an actual reader.",
+        "next": "kiln_community_001",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Begin with the permitted shared craft account and an actual reader.",
+        "next": "kiln_community_001"
+      },
+      "completion_node": null,
+      "completion_path": null,
+      "earned": null,
+      "completion_text": null,
+      "reason": "The preference \"Begin with the permitted shared craft account and an actual reader.\" awards practice before any new teacher, reader or map investigation exists. The ending explicitly leaves that future opportunity unaccepted; remove the reward."
+    },
+    {
+      "id": "CAUSE-095",
+      "category": "choice_causality",
+      "path": "data/books/book_xv_kiln_27.json",
+      "node_id": "kiln_final_choice",
+      "choice_index": 2,
+      "before": {
+        "text": "Begin with the road's water, work and map questions.",
+        "next": "kiln_road_001",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Begin with the road's water, work and map questions.",
+        "next": "kiln_road_001"
+      },
+      "completion_node": null,
+      "completion_path": null,
+      "earned": null,
+      "completion_text": null,
+      "reason": "The preference \"Begin with the road's water, work and map questions.\" awards practice before any new teacher, reader or map investigation exists. The ending explicitly leaves that future opportunity unaccepted; remove the reward."
+    },
+    {
+      "id": "TRANSITION-forest",
+      "category": "unfinished_closure",
+      "path": "data/books/book_xiii_forest_23.json",
+      "node_id": "forest_23_075",
+      "before_next": "forest_24_001",
+      "after_next": "forest_24_001",
+      "added_path": "data/books/book_xiii_forest_24.json",
+      "reason": "The prior passage promised further closing work and linked to a nonexistent next scene. Supply the actual receiving, paid closure and departure before the next book; preserve stage, custody and local unresolved work."
+    },
+    {
+      "id": "TRANSITION-desert",
+      "category": "unfinished_closure",
+      "path": "data/books/book_xvi_desert_23.json",
+      "node_id": "desert_p23_084",
+      "before_next": "desert_p24_001",
+      "after_next": "desert_p24_001",
+      "added_path": "data/books/book_xvi_desert_24.json",
+      "reason": "The prior passage promised further closing work and linked to a nonexistent next scene. Supply the actual receiving, paid closure and departure before the next book; preserve stage, custody and local unresolved work."
+    },
+    {
+      "id": "TRANSITION-archive",
+      "category": "unfinished_closure",
+      "path": "data/books/book_xvii_archive_24.json",
+      "node_id": "archive_24_060",
+      "before_next": "archive_25_001",
+      "after_next": "archive_25_001",
+      "added_path": "data/books/book_xvii_archive_25.json",
+      "reason": "The prior passage promised further closing work and linked to a nonexistent next scene. Supply the actual receiving, paid closure and departure before the next book; preserve stage, custody and local unresolved work."
+    },
+    {
+      "id": "TRANSITION-salt_end_rotation",
+      "category": "absent_continuation",
+      "path": "data/books/book_xi_salt_road.json",
+      "node_id": "salt_end_rotation",
+      "before_continuation": null,
+      "after_continuation": "canal_from_rotation",
+      "reason": "This completed salt-road outcome had no continuation, making its authored outcome-specific canal opening unreachable. Preserve its original prose and direct it to the matching opening."
+    },
+    {
+      "id": "TRANSITION-salt_end_maintenance",
+      "category": "absent_continuation",
+      "path": "data/books/book_xi_salt_road.json",
+      "node_id": "salt_end_maintenance",
+      "before_continuation": null,
+      "after_continuation": "canal_from_maintenance",
+      "reason": "This completed salt-road outcome had no continuation, making its authored outcome-specific canal opening unreachable. Preserve its original prose and direct it to the matching opening."
+    },
+    {
+      "id": "TRANSITION-salt_end_purchase",
+      "category": "absent_continuation",
+      "path": "data/books/book_xi_salt_road.json",
+      "node_id": "salt_end_purchase",
+      "before_continuation": null,
+      "after_continuation": "canal_from_purchase",
+      "reason": "This completed salt-road outcome had no continuation, making its authored outcome-specific canal opening unreachable. Preserve its original prose and direct it to the matching opening."
+    }
+  ]
+}

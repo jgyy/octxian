@@ -380,24 +380,15 @@
       "choices": [
         {
           "text": "Walk the repaired warning route with Luo Zhen.",
-          "next": "canal_p19_030",
-          "effects": {
-            "resolve": 1
-          }
+          "next": "canal_p19_030"
         },
         {
           "text": "Witness the dry apparatus receiving.",
-          "next": "canal_p19_040",
-          "effects": {
-            "insight": 1
-          }
+          "next": "canal_p19_040"
         },
         {
           "text": "Clear the private storage corner by agreement.",
-          "next": "canal_p19_050",
-          "effects": {
-            "trust": 1
-          }
+          "next": "canal_p19_050"
         }
       ]
     },
@@ -529,7 +520,10 @@
         "stage": "4: Second pair"
       },
       "text": "The task report reached Pei before noon. Its additions were a shorter spoken distance, a cleared blanket, and a confirmed ordinary-paced withdrawal. No household acquired a standing job from answering a practice call. The closed old step stayed closed. Luo returned to her regular round carrying the board, with less reason to distrust it and no reason to worship it. Yue followed her as far as the lock, then let her go alone. The keeper would be the person remaining here. Today that fact felt like a responsibility shared honestly rather than a debt Yue could never finish paying.",
-      "next": "canal_p19_060"
+      "next": "canal_p19_060",
+      "earned": {
+        "resolve": 1
+      }
     },
     "canal_p19_040": {
       "chapter": "book_xii_canal",
@@ -659,7 +653,10 @@
         "stage": "4: Second pair"
       },
       "text": "The signed dry receiving report accepted the corrected bracket, intact stops, separate fuel custody, and readable selected readings. It authorized no new powered work. Any future appointment would need money, an actual operator, and the measured condition, not Yue's reputation left hanging on the wall. Luo carried the case to its shelf herself with the young keeper helping under the specified dry handling arrangement. Yue put away the unused reference rule. There was satisfaction in ending a task without a flash or a pulse. She would not have believed that when she first learned to command anything.",
-      "next": "canal_p19_060"
+      "next": "canal_p19_060",
+      "earned": {
+        "insight": 1
+      }
     },
     "canal_p19_050": {
       "chapter": "book_xii_canal",
@@ -789,7 +786,10 @@
         "stage": "4: Second pair"
       },
       "text": "Yue returned to the lock by the clear public walk. Behind her, the washerwoman's recovered barrel rolled with a pleasant hollow rhythm toward its own shed. Han's yard had become temporarily more crowded, while the route everyone needed was less so. No single heroic act had accomplished the exchange. The work had been a chain of actual requests, inspected lifts, dated arrangements, and people accepting inconvenience before passing it onward. Yue kept the report small enough to carry without grandeur. At the shed Luo asked whether the plum smell had followed her. It had.",
-      "next": "canal_p19_060"
+      "next": "canal_p19_060",
+      "earned": {
+        "trust": 1
+      }
     },
     "canal_p19_060": {
       "chapter": "book_xii_canal",

@@ -380,24 +380,15 @@
       "choices": [
         {
           "text": "Deliver the future operating handover with Luo.",
-          "next": "canal_p17_030",
-          "effects": {
-            "insight": 1
-          }
+          "next": "canal_p17_030"
         },
         {
           "text": "Carry bounded loss findings to their claimants.",
-          "next": "canal_p17_040",
-          "effects": {
-            "trust": 1
-          }
+          "next": "canal_p17_040"
         },
         {
           "text": "Compare Han's refund authority and release.",
-          "next": "canal_p17_050",
-          "effects": {
-            "resolve": 1
-          }
+          "next": "canal_p17_050"
         }
       ]
     },
@@ -529,7 +520,10 @@
         "stage": "4: Second pair"
       },
       "text": "At the counter, Luo accepted the operating handovers under their named receivers and hung the public stick properly. The younger keeper returned his coat to the labeled dry peg. He thanked her for the goose lesson, and she said it was a recurring problem with poor prospects of reform. Yue laughed while the evening water moved quietly beneath them. The keeper's future work sheet had two winter mornings circled. Luo's own household stick leaned beside the door where she would remember to take it home.",
-      "next": "canal_p17_060"
+      "next": "canal_p17_060",
+      "earned": {
+        "insight": 1
+      }
     },
     "canal_p17_040": {
       "chapter": "book_xii_canal",
@@ -659,7 +653,10 @@
         "stage": "4: Second pair"
       },
       "text": "At the counter, Yue delivered the bounded findings and review date acknowledgments. The recipients had accepted their current support without becoming identical in hope or anger. She had seen a patched roof, an empty mint jar, a smaller rice pot and a seed purchase still being discussed. The gardener's question went into the receiver's cover. The clerk sealed it after reading back the offered words. Yue kept none of their private originals, and walked to supper thinking mostly about the repaired room's clean smell.",
-      "next": "canal_p17_060"
+      "next": "canal_p17_060",
+      "earned": {
+        "trust": 1
+      }
     },
     "canal_p17_050": {
       "chapter": "book_xii_canal",
@@ -789,7 +786,10 @@
         "stage": "4: Second pair"
       },
       "text": "At the counter, Yue delivered the verified refund authority and corrected security-release draft for the next morning's remittance. Han kept the forty-eight in its counted private box overnight. The agent had accepted the current receiver and signing time. Yue went upstairs after returning the offered originals. Below her room, someone tested a new shelf board by knocking it twice against a workbench. She hoped Han's wife won that small argument. The private bargain had become concrete enough that tomorrow could finally be boring in the best ordinary way.",
-      "next": "canal_p17_060"
+      "next": "canal_p17_060",
+      "earned": {
+        "insight": 1
+      }
     },
     "canal_p17_060": {
       "chapter": "book_xii_canal",

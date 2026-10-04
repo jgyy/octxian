@@ -6,12 +6,18 @@
     "book_iii",
     "book_iv",
     "book_v",
+    "book_ix",
     "book_vi",
     "book_vii",
     "book_viii",
-    "book_ix",
     "book_x_storm_ledger",
-    "book_xi_salt_road"
+    "book_xi_salt_road",
+    "book_xii_canal",
+    "book_xiii_forest",
+    "book_xiv_harbor",
+    "book_xv_kiln",
+    "book_xvi_desert",
+    "book_xvii_archive"
   ],
   "facts": [
     {
@@ -1868,6 +1874,243 @@
         "salt_recovery_014",
         "salt_final_choice"
       ]
+    },
+    {
+      "id": "integrated_canal_calendar",
+      "statement": "An eight-week canal commission closes on relative Day 56. All three outcomes use ordinary travel on Days 57–58 and reach the orchard pavilion approach for Ren's accepted Day 59 review. Tian's independent six-week paid trial begins on Day 70; she does not accompany Lin to the forest.",
+      "anchors": [
+        "canal_p01_053",
+        "canal_p23_061",
+        "canal_p24_001",
+        "canal_p24_034",
+        "canal_p24_037",
+        "canal_end_public",
+        "canal_end_repair",
+        "canal_end_home"
+      ]
+    },
+    {
+      "id": "integrated_canal_ordinary_and_emergency_work",
+      "statement": "The initial 120 copper splits into a 24-copper valid loan payment and 96 for repairs. Repairs cost 56 labor (28 ordinary equivalents at 2), 28 materials, and 12 for six charged stones. Separate emergency funding of 36 pays 24 labor (8 equivalents at 3), 8 materials, and 4 for two new stones. Lin earns 24 ordinary copper: 20 cumulative earlier payments plus 4 paid at closure, and 6 separate emergency copper.",
+      "anchors": [
+        "canal_p01_053",
+        "canal_p13_003",
+        "canal_p24_007",
+        "canal_p24_008",
+        "canal_p24_009",
+        "canal_p24_040",
+        "canal_p24_039"
+      ]
+    },
+    {
+      "id": "integrated_canal_operating_cash_and_winter_grant",
+      "statement": "Actual current operations receive 35 and spend 34, leaving 1. The separate 1-copper wrong-cart material reimbursement makes present maintenance cash 2. The 36-copper operating budget was a cap. A separate received 4-copper merchant grant funds two months of limited record work at 2 per month. Future monthly gross of 18 and its division into 8 operations, 6 reserve and 4 eligible debt remain forecasts.",
+      "anchors": [
+        "canal_p20_060",
+        "canal_p23_064",
+        "canal_p24_010",
+        "canal_p24_011",
+        "canal_p24_012",
+        "canal_p24_015"
+      ]
+    },
+    {
+      "id": "integrated_canal_private_property_and_debt",
+      "statement": "Han's private loading gear, shed and listed stores remain private; the common bed, marked routes and diversion use lie outside his title. Completed old labor of 240 worker-days does not revive with debt. The public loan is 240 minus 128 old cash, 32 returned unused timber credit and 24 current payment, leaving 56. The actual 48-copper private deposit refund uses 32 reserved (24 public payment plus 8 private receipts) and 16 from a private property sale; listed security is released.",
+      "anchors": [
+        "canal_p17_064",
+        "canal_p24_014",
+        "canal_p24_015",
+        "canal_p24_017",
+        "canal_p24_020"
+      ]
+    },
+    {
+      "id": "integrated_canal_fuel_and_cultivation",
+      "statement": "Eight commission stones hold 320 initial total charge: 240 original plus 80 new. Actual remaining charge is 216 minus selected trial draw plus 80 minus 2, minus selected storm draw, minus 12. Trial draws are 18, 10 or 12; storm draws are 20, 16 or 18, leaving a minimum of 244 and maximum of 256. No further draw occurs after the Part 15 test. Lin enters and exits stage 4, with no storm fuel, qi healing, unearned pair or imported commission object.",
+      "anchors": [
+        "canal_p10_060",
+        "canal_p13_018",
+        "canal_p14_060",
+        "canal_p15_023",
+        "canal_p24_005",
+        "canal_p24_022",
+        "canal_p24_043"
+      ]
+    },
+    {
+      "id": "integrated_canal_recovery_and_ground_escape",
+      "statement": "Bao sprains his wrist on Day 33 and remains barred from loaded gripping through closure despite improving motion. The authorized emergency transfer moves 0.75 equivalents to qualified road workers; a later ordinary transfer moves 0.25 closing carpentry equivalents to the mason. Clinical review permits brief light observation and seated drawing rather than full repair demonstrations. Ordinary ground withdrawal, checked crew gear, the small rated upper pocket and closed unsafe edges bound rescue and handover.",
+      "anchors": [
+        "canal_p14_022",
+        "canal_p14_024",
+        "canal_p18_021",
+        "canal_p18_067",
+        "canal_p18_068",
+        "canal_p23_062",
+        "canal_p24_023",
+        "canal_p24_025"
+      ]
+    },
+    {
+      "id": "integrated_canal_bounded_cause_and_household_support",
+      "statement": "The quarry finding proves permit outlet narrowing and bounded connected high-water risk and persistence, rather than the exact share of every storm loss. Its private correction is accepted; a separate 2-copper penalty reaches the regular authority. A private 9-copper contribution actually pays 4 to the garden household, 3 to the reed household and 2 to the stall. The earlier 10-copper hardship gift and 12 food sacks remain separate without a waiver. Partial losses and unsupported broader questions remain.",
+      "anchors": [
+        "canal_p22_061",
+        "canal_p22_062",
+        "canal_p22_064",
+        "canal_p24_013"
+      ]
+    },
+    {
+      "id": "integrated_canal_orchard_promise",
+      "statement": "Ren actually accepts the full Day 59 review after confirming patient and staff availability. The actual retained Chapter IV arrangement governs; any owed personal return remains unfinished until XIII's physical review. Lin pays the 3-copper ordinary fare from earned ordinary wages and holds 2 for beds and 2 for food. The optional home connection costs 1 extra personal copper within Days 57–58. No optional canal object, public record or companion is required at forest_start.",
+      "anchors": [
+        "canal_p01_007",
+        "canal_p20_008",
+        "canal_p20_010",
+        "canal_p20_013",
+        "canal_p24_034",
+        "canal_p24_035",
+        "canal_p24_036",
+        "canal_p24_037",
+        "canal_end_public",
+        "canal_end_repair",
+        "canal_end_home"
+      ]
+    },
+    {
+      "id": "integrated_harbor_voyage_wages_and_fee_refunds",
+      "statement": "Earned voyage wages, the guarantee return, permit-fee refunds, grounding-interval crew wages and Rao's withheld completed-work wages retain separate sources and scopes.",
+      "anchors": [
+        "harbor_p04_052",
+        "harbor_p07_035",
+        "harbor_p10_003",
+        "harbor_p16_012",
+        "harbor_p16_034"
+      ]
+    },
+    {
+      "id": "integrated_harbor_initial_appointment_closed",
+      "statement": "The first 192-copper appointment pays only completed wages and evidenced expenses, then returns 44 to operations.",
+      "anchors": [
+        "harbor_p10_008",
+        "harbor_p10_024",
+        "harbor_p10_026"
+      ]
+    },
+    {
+      "id": "integrated_harbor_second_appointment_and_private_stay",
+      "statement": "The separate 200-copper weeks-13–26 term ends after 28 paid half-days; its returned 16 and returned loans cannot pay the privately purchased week 27.",
+      "anchors": [
+        "harbor_p10_010",
+        "harbor_p24_050",
+        "harbor_p24_019",
+        "harbor_p24_053"
+      ]
+    },
+    {
+      "id": "integrated_harbor_emergency_cash_fuel_and_personal_qi",
+      "statement": "The 240-copper safety reserve remains separate cash and port-owned fuel. The final 68 and four unused stones stay in custody; the screen and Yue's measured fourth-stage qi retain finite limits.",
+      "anchors": [
+        "harbor_p11_018",
+        "harbor_p11_020",
+        "harbor_p13_051",
+        "harbor_p14_035",
+        "harbor_p17_051",
+        "harbor_p27_004",
+        "harbor_p23_010"
+      ]
+    },
+    {
+      "id": "integrated_harbor_private_packing_contracts",
+      "statement": "The packing venture earns its own money through four guaranteed batches. Two close before departure, reserve 14 remains separate, and the third advance never becomes its unearned balance.",
+      "anchors": [
+        "harbor_p21_008",
+        "harbor_p21_009",
+        "harbor_p24_011",
+        "harbor_p25_031",
+        "harbor_p25_032",
+        "harbor_p11_036",
+        "harbor_p14_009",
+        "harbor_p15_027"
+      ]
+    },
+    {
+      "id": "integrated_harbor_warehouse_remedies_and_employer_liability",
+      "statement": "Warehouse repair, goods losses and the separate employer injury/tool payments use their own sources. Private remedy returns do not become pilot or emergency money.",
+      "anchors": [
+        "harbor_p21_051",
+        "harbor_p22_036",
+        "harbor_p27_004",
+        "harbor_p22_012",
+        "harbor_p23_051"
+      ]
+    },
+    {
+      "id": "integrated_harbor_ordinary_rescue_and_single_pilot_authority",
+      "statement": "Ordinary rated boats rescue the barge people. Later, one approved maintenance allocation launches only the confirmed plan, with actual purchased work, ordinary accepting keepers and future review duties.",
+      "anchors": [
+        "harbor_p09_002",
+        "harbor_p09_009",
+        "harbor_p23_022",
+        "harbor_p27_006",
+        "harbor_registry_005",
+        "harbor_repair_006",
+        "harbor_road_006",
+        "harbor_p09_008",
+        "harbor_p27_001"
+      ]
+    },
+    {
+      "id": "integrated_harbor_calendar_departure_and_recovery",
+      "statement": "The harbor term runs from early coastal thaw through week 27. All final routes leave independently, keep Yue at stage 4 with habitual belongings, and reach the kiln town six weeks after final checks without harbor equipment or commission.",
+      "anchors": [
+        "harbor_start",
+        "harbor_p27_001",
+        "harbor_road_016",
+        "harbor_end_registry",
+        "harbor_end_repair",
+        "harbor_end_road"
+      ]
+    },
+    {
+      "id": "book_xiii_forest_closing",
+      "statement": "Actual completed receiving, paid closure and property handover precede departure or acceptance of one next post. Trained attributes determine Lin's role while ordinary qualified support remains available. Her existing stage is retained.",
+      "anchors": [
+        "forest_24_001",
+        "forest_24_005",
+        "forest_24_close_2"
+      ]
+    },
+    {
+      "id": "book_xvi_desert_closing",
+      "statement": "Actual completed receiving, paid closure and property handover precede departure or acceptance of one next post. Trained attributes determine Lin's role while ordinary qualified support remains available. Her existing stage is retained.",
+      "anchors": [
+        "desert_p24_001",
+        "desert_p24_005",
+        "desert_p24_close_2"
+      ]
+    },
+    {
+      "id": "book_xvii_archive_closing",
+      "statement": "Actual completed receiving, paid closure and property handover precede departure or acceptance of one next post. Trained attributes determine Lin's role while ordinary qualified support remains available. Her existing stage is retained.",
+      "anchors": [
+        "archive_25_001",
+        "archive_25_006",
+        "archive_25_close_1"
+      ]
+    },
+    {
+      "id": "kiln_fifth_stage_assessed_not_chosen",
+      "statement": "The kiln begins at fourth stage and closes with the fifth-stage record already earned by independent local trials and recovery. The final preference grants no additional practice, new teacher or realm.",
+      "anchors": [
+        "kiln_start",
+        "kiln_final_choice",
+        "kiln_end_apprentice",
+        "kiln_end_community",
+        "kiln_end_road"
+      ]
     }
   ],
   "review_policy": "Review each new chapter's chronology, custody, character knowledge, and alternate outcomes before updating this ledger. Structural checks supplement editorial review; they do not prove the absence of all possible plot holes.",
@@ -2491,6 +2734,118 @@
         "salt_recovery_014"
       ],
       "before": "salt_final_choice"
+    },
+    {
+      "id": "integrated_canal_report",
+      "required": [
+        "canal_p22_061",
+        "canal_p22_062",
+        "canal_p24_017"
+      ],
+      "before": "canal_p24_045"
+    },
+    {
+      "id": "integrated_canal_safety",
+      "required": [
+        "canal_p15_023",
+        "canal_p19_060",
+        "canal_p24_022",
+        "canal_p24_023"
+      ],
+      "before": "canal_p24_045"
+    },
+    {
+      "id": "integrated_canal_funding",
+      "required": [
+        "canal_p13_003",
+        "canal_p24_008",
+        "canal_p24_009",
+        "canal_p24_010",
+        "canal_p24_040"
+      ],
+      "before": "canal_p24_045"
+    },
+    {
+      "id": "integrated_canal_orchard_handoff",
+      "required": [
+        "canal_p20_008",
+        "canal_p20_010",
+        "canal_p24_034",
+        "canal_p24_035",
+        "canal_p24_036"
+      ],
+      "before": "canal_p24_045"
+    },
+    {
+      "id": "integrated_harbor_closed_rights_before_choice",
+      "required": [
+        "harbor_p07_035",
+        "harbor_p10_003",
+        "harbor_p27_005"
+      ],
+      "before": "harbor_final_choice"
+    },
+    {
+      "id": "integrated_harbor_closed_appointments_and_loans_before_choice",
+      "required": [
+        "harbor_p10_026",
+        "harbor_p24_019",
+        "harbor_p24_050",
+        "harbor_p24_053",
+        "harbor_p27_003"
+      ],
+      "before": "harbor_final_choice"
+    },
+    {
+      "id": "integrated_harbor_finite_resources_before_choice",
+      "required": [
+        "harbor_p11_020",
+        "harbor_p13_025",
+        "harbor_p24_007",
+        "harbor_p27_004"
+      ],
+      "before": "harbor_final_choice"
+    },
+    {
+      "id": "integrated_harbor_single_pilot_authority_before_choice",
+      "required": [
+        "harbor_p23_022",
+        "harbor_p23_023",
+        "harbor_p27_002",
+        "harbor_p27_006"
+      ],
+      "before": "harbor_final_choice"
+    },
+    {
+      "id": "book_xiii_forest_closing_before_role",
+      "required": [
+        "forest_24_001",
+        "forest_24_002",
+        "forest_24_003",
+        "forest_24_004"
+      ],
+      "before": "forest_24_005"
+    },
+    {
+      "id": "book_xvi_desert_closing_before_role",
+      "required": [
+        "desert_p24_001",
+        "desert_p24_002",
+        "desert_p24_003",
+        "desert_p24_004"
+      ],
+      "before": "desert_p24_005"
+    },
+    {
+      "id": "book_xvii_archive_closing_before_role",
+      "required": [
+        "archive_25_001",
+        "archive_25_002",
+        "archive_25_003",
+        "archive_25_004",
+        "archive_25_005"
+      ],
+      "before": "archive_25_006"
     }
   ]
 }

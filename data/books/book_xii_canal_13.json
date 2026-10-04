@@ -380,24 +380,15 @@
       "choices": [
         {
           "text": "Check the covered control path with Jiang.",
-          "next": "canal_p13_030",
-          "effects": {
-            "insight": 1
-          }
+          "next": "canal_p13_030"
         },
         {
           "text": "Compare actual weather messages with Luo.",
-          "next": "canal_p13_040",
-          "effects": {
-            "resolve": 1
-          }
+          "next": "canal_p13_040"
         },
         {
           "text": "Walk the lit ground route with the road crew.",
-          "next": "canal_p13_050",
-          "effects": {
-            "trust": 1
-          }
+          "next": "canal_p13_050"
         }
       ]
     },
@@ -529,7 +520,10 @@
         "stage": "4: Second pair"
       },
       "text": "At the counter, Jiang submitted the corrected cover tie, reachable contact fixing and actual hearing position. Yue added the walked retreat and kept the apparatus gauge at its true post-inspection count. No live command had been spent during this preparation branch. Her routes remained recovered for a later permitted task. She felt less prepared to do everything and more prepared to stop doing the wrong thing. Jiang accepted the handover, then went to her booked rest place before another discussion could eat its whole interval.",
-      "next": "canal_p13_060"
+      "next": "canal_p13_060",
+      "earned": {
+        "insight": 1
+      }
     },
     "canal_p13_040": {
       "chapter": "book_xii_canal",
@@ -659,7 +653,10 @@
         "stage": "4: Second pair"
       },
       "text": "At the counter, Yue submitted the ordered observation times, corrected current receiver and separate uncertain rumor. The local rise was now visible but below caution, matching the final keeper reading. Luo read the complete sequence and arranged the next actual update time. Their information branch had consumed ordinary message time and no apparatus charge. Yue watched a moth circle the lamp and thought how little a useful warning resembled prophecy. It needed dates, contacts, a voice and somebody willing to wait without calling uncertainty an answer.",
-      "next": "canal_p13_060"
+      "next": "canal_p13_060",
+      "earned": {
+        "insight": 1
+      }
     },
     "canal_p13_050": {
       "chapter": "book_xii_canal",
@@ -789,7 +786,10 @@
         "stage": "4: Second pair"
       },
       "text": "At the counter, the road crew submitted the checked lamp positions, actual oil interval and repeated slower walk. Yue brought the readiness label and the nearer receiver's child-watching instruction. The dog had gone home; the grandmother had kept her sack indoors until a real departure call. No apparatus charge was used. Tomorrow's ground response would begin from a route people could actually see, and from a woman who had walked it with the people hired to stand beside her.",
-      "next": "canal_p13_060"
+      "next": "canal_p13_060",
+      "earned": {
+        "trust": 1
+      }
     },
     "canal_p13_060": {
       "chapter": "book_xii_canal",

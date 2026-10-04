@@ -1,0 +1,319 @@
+{
+  "chapters": {},
+  "characters": {},
+  "nodes": {
+    "forest_24_001": {
+      "chapter": "book_xiii_forest",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "forest_boundary_map_room",
+      "effects": [
+        "snow",
+        "mist"
+      ],
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The older couple entered together, carrying the received housing sheet rather than the council's first promise. The deputy read the listed conditions aloud. Their new room had a working latch, a dry bed platform and the approach they had actually tried that morning. A roof alone had never answered their question. The woman asked who would take the next report if the step iced again. The deputy pointed to her own name. Lin watched the woman copy it, slowly, into the margin she had kept empty.",
+      "next": "forest_24_002"
+    },
+    "forest_24_002": {
+      "chapter": "book_xiii_forest",
+      "speaker": "narrator",
+      "actor": "wen_cai",
+      "background": "forest_boundary_map_room",
+      "effects": [
+        "snow",
+        "mist"
+      ],
+      "cast": [
+        "wen_cai",
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Food issue followed the present household roll. The cook counted what left the store before accepting the receiving signatures; projected deliveries stayed in the next column. Long Qian's buyer account and Rong Sui's private repayments remained separate from the public relief stock. Nobody treated a returned advance as another meal. Wen asked for the count to be read twice, then grinned when the cook made him read the second version himself. It contained the same numbers and considerably fewer flourishes.",
+      "next": "forest_24_003"
+    },
+    "forest_24_003": {
+      "chapter": "book_xiii_forest",
+      "speaker": "narrator",
+      "actor": "shi_lan",
+      "background": "forest_boundary_map_room",
+      "effects": [
+        "snow",
+        "mist"
+      ],
+      "cast": [
+        "shi_lan",
+        "lin_yue",
+        "wen_cai"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Pei's deputy accepted the actual boundary tools and the remaining appointments. Pei kept her own gloves and bean seeds. The erosion barrier still required its thaw visit, and the Harts' passage remained under the arrangement actually selected. Lin's departure could close her paid term without closing those living questions. Shi Lan set the next watch beside the receiving copy. Outside, a young Hart called once from the sheltered route, beyond the screened human path.",
+      "next": "forest_24_004"
+    },
+    "forest_24_004": {
+      "chapter": "book_xiii_forest",
+      "speaker": "narrator",
+      "actor": "shi_lan",
+      "background": "forest_boundary_map_room",
+      "effects": [
+        "snow",
+        "mist"
+      ],
+      "cast": [
+        "shi_lan",
+        "lin_yue",
+        "wen_cai"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Lin completed her last ordinary handover before asking about a farewell demonstration. The small reference lamp had its own measured stone and disconnected practice return. Shi Lan agreed to supervise after lunch, with the load cap unchanged. Wen wanted to see whether Lin could now teach him to notice the release instead of admiring the glow. Pei wanted a record she could read without holding it against her nose. Both requests could be useful without becoming a test of anyone's worth.",
+      "next": "forest_24_005"
+    },
+    "forest_24_005": {
+      "chapter": "book_xiii_forest",
+      "speaker": "narrator",
+      "actor": "shi_lan",
+      "background": "forest_boundary_map_room",
+      "effects": [
+        "snow",
+        "mist"
+      ],
+      "cast": [
+        "shi_lan",
+        "lin_yue",
+        "wen_cai"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "At the reference bench, Lin could demonstrate her calibrated closure, compare the two dated readings, carry the ordinary cold-weather kit, or ask the qualified team to lead while she recorded its limits. The paid receiving work was already complete. Her choice determined her own role in the farewell lesson, not whether the older couple received their room or the winter watch continued.",
+      "choices": [
+        {
+          "text": "Demonstrate the bounded reference-lamp closure.",
+          "next": "forest_24_role_qi",
+          "requires": {
+            "qi": 10
+          }
+        },
+        {
+          "text": "Teach the two-reading comparison.",
+          "next": "forest_24_role_insight",
+          "requires": {
+            "insight": 10
+          }
+        },
+        {
+          "text": "Carry the safe winter kit with Wen.",
+          "next": "forest_24_role_resolve",
+          "requires": {
+            "resolve": 10
+          }
+        },
+        {
+          "text": "Lead the handover with clear, finite commitments.",
+          "next": "forest_24_role_trust",
+          "requires": {
+            "trust": 10
+          }
+        },
+        {
+          "text": "Ask the qualified team to lead and record the limits.",
+          "next": "forest_24_role_help"
+        }
+      ]
+    },
+    "forest_24_role_qi": {
+      "chapter": "book_xiii_forest",
+      "speaker": "narrator",
+      "actor": "shi_lan",
+      "background": "forest_boundary_map_room",
+      "effects": [
+        "snow",
+        "mist"
+      ],
+      "cast": [
+        "shi_lan",
+        "lin_yue",
+        "wen_cai"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Lin admitted only the bench's rated control pulse, watched its separate return and closed at the marked interval. The lamp's stone supplied the visible light. Wen repeated the release signal under the supervisor's instruction; his first guess was late, and the lamp stayed disconnected until he corrected it. Lin had given him a usable comparison rather than an impression of limitless power. Her fourth stage stayed fourth stage.",
+      "next": "forest_24_rejoin",
+      "earned": {
+        "qi": 2
+      }
+    },
+    "forest_24_role_insight": {
+      "chapter": "book_xiii_forest",
+      "speaker": "narrator",
+      "actor": "shi_lan",
+      "background": "forest_boundary_map_room",
+      "effects": [
+        "snow",
+        "mist"
+      ],
+      "cast": [
+        "shi_lan",
+        "lin_yue",
+        "wen_cai"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Lin placed the frost-day reading beside today's one and left the missing thaw column empty. Pei asked whether the difference proved the barrier would fail. Lin showed which measured condition had changed and which claim still needed a visit. Pei copied the comparison in broad lettering. The useful result was a question the deputy could test later, instead of an impressive conclusion nobody could responsibly use.",
+      "next": "forest_24_rejoin",
+      "earned": {
+        "insight": 2
+      }
+    },
+    "forest_24_role_resolve": {
+      "chapter": "book_xiii_forest",
+      "speaker": "narrator",
+      "actor": "shi_lan",
+      "background": "forest_boundary_map_room",
+      "effects": [
+        "snow",
+        "mist"
+      ],
+      "cast": [
+        "shi_lan",
+        "lin_yue",
+        "wen_cai"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The ordinary kit stayed below Lin's recovered carrying limit. Wen checked the straps and walked beside her along the already open approach. At the receiving point she set it down before fatigue shortened her steps. The deputy counted its contents and returned the loaned sling. Carrying it safely saved one later trip; it did not reopen the damaged edge or give Lin a new meridian.",
+      "next": "forest_24_rejoin",
+      "earned": {
+        "resolve": 2
+      }
+    },
+    "forest_24_role_trust": {
+      "chapter": "book_xiii_forest",
+      "speaker": "narrator",
+      "actor": "shi_lan",
+      "background": "forest_boundary_map_room",
+      "effects": [
+        "snow",
+        "mist"
+      ],
+      "cast": [
+        "shi_lan",
+        "lin_yue",
+        "wen_cai"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Lin heard Wen's request for a longer lesson and Pei's wish to leave before the next frost. She named her own remaining hours before offering a shorter shared interval. Each person accepted their part without losing the option to decline. Shi Lan wrote the actual finish time and retained the qualified lamp work. Lin's steady heart let her hold a difficult limit while the conversation stayed warm.",
+      "next": "forest_24_rejoin",
+      "earned": {
+        "trust": 2
+      }
+    },
+    "forest_24_rejoin": {
+      "chapter": "book_xiii_forest",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "forest_winter_boundary",
+      "effects": [
+        "snow",
+        "mist"
+      ],
+      "cast": [
+        "shi_lan",
+        "lin_yue",
+        "wen_cai"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "On the second morning, Lin paid the booked ordinary fare after the last receiver confirmed her wages. No borrowed boundary tool went into her pack. Wen met her at the junction with a small parcel of bread he had bought himself. Pei had stayed for her final tool interval, and Shi Lan was on the appointed round. Their absence was a continuation of their work, not a missed obligation to give the traveller a beautiful farewell.",
+      "next": "forest_24_close_1"
+    },
+    "forest_24_close_1": {
+      "chapter": "book_xiii_forest",
+      "speaker": "narrator",
+      "actor": "lanternwing_crane",
+      "background": "forest_winter_boundary",
+      "effects": [
+        "snow",
+        "mist"
+      ],
+      "cast": [
+        "lanternwing_crane",
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "At the sheltered landing, a Lanternwing Crane stood beside the unused reed bed. Its folded feathers held small amber reflections from the morning, fading when it turned. Lin waited outside the keeper's marked wildlife gap. The bird stepped back into the reeds without offering an explanation. Seeing it gave her a memory of a living morning, not an omen certifying the voyage. The ferryman opened the ordinary boarding barrier.",
+      "next": "forest_24_close_2"
+    },
+    "forest_24_close_2": {
+      "chapter": "book_xiii_forest",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "forest_winter_boundary",
+      "effects": [
+        "snow",
+        "mist"
+      ],
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "The winter term ended with a received handover, paid work and particular follow-up dates. Lin boarded for the harbor at her earned fourth stage, with her own notes and belongings. The forest's selected passage and housing arrangements remained in the hands of their actual receivers. She could leave without making those alternatives identical. The boat moved out only when the pilot checked the clear channel.",
+      "ending": "The Winter in Other Hands",
+      "continuation": "harbor_start"
+    },
+    "forest_24_role_help": {
+      "chapter": "book_xiii_forest",
+      "speaker": "narrator",
+      "actor": "shi_lan",
+      "background": "forest_boundary_map_room",
+      "effects": [
+        "snow",
+        "mist"
+      ],
+      "cast": [
+        "shi_lan",
+        "lin_yue",
+        "wen_cai"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "text": "Lin told Wen she would rather preserve a useful lesson than improvise a performance beyond her preparation. Shi Lan led the lamp check; the deputy handled the kit. Lin recorded the named responsibilities and the still-required thaw visit. She had made her limitation visible before anyone depended on it. Wen complained that honesty produced fewer sparks, then asked for a copy of the record.",
+      "next": "forest_24_rejoin"
+    }
+  }
+}

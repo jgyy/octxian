@@ -380,24 +380,15 @@
       "choices": [
         {
           "text": "Inspect the house approach and private outlet.",
-          "next": "canal_p15_030",
-          "effects": {
-            "trust": 1
-          }
+          "next": "canal_p15_030"
         },
         {
           "text": "Map the gardener's actual visible loss.",
-          "next": "canal_p15_040",
-          "effects": {
-            "resolve": 1
-          }
+          "next": "canal_p15_040"
         },
         {
           "text": "Finish the wet apparatus handover with Jiang.",
-          "next": "canal_p15_050",
-          "effects": {
-            "insight": 1
-          }
+          "next": "canal_p15_050"
         }
       ]
     },
@@ -529,7 +520,10 @@
         "stage": "4: Second pair"
       },
       "text": "At the landing, Yue reported the private outlet's restored ordinary function and the current closed interior. The owner agreed to arrange the mason's next assessment from her separate property maintenance funds, since the public channel repair did not purchase a private room's full post-flood certification. The family's offered guest nights would end before every room dried. She would pay the actual additional lodging through its agreed host rather than let the tenant's need become an unspoken favor. Yue felt the return plan gain both a task and a price.",
-      "next": "canal_p15_060"
+      "next": "canal_p15_060",
+      "earned": {
+        "trust": 1
+      }
     },
     "canal_p15_040": {
       "chapter": "book_xii_canal",
@@ -659,7 +653,10 @@
         "stage": "4: Second pair"
       },
       "text": "At the landing, Yue submitted the approved current crop record and its remaining questions. The gardener took his daughter home by the higher route, carrying the little bean in a separate paper fold. The saved baskets would supply actual sales this week; the damaged outer bed would be inspected later. None of that removed his anger about the seasonal use. Yue had learned enough to stop asking his anger to vanish before his evidence became credible. The map remained uncomfortable, and that was one reason it could be useful.",
-      "next": "canal_p15_060"
+      "next": "canal_p15_060",
+      "earned": {
+        "insight": 1
+      }
     },
     "canal_p15_050": {
       "chapter": "book_xii_canal",
@@ -789,7 +786,10 @@
         "stage": "4: Second pair"
       },
       "text": "At the emergency receiver's desk, Jiang signed her completed current two-equivalent appointment and actual supply condition. Yue delivered the clean sequence of counts and the current device limits. The case would remain at its assigned commission store with no optional object following her personal pack. She felt sad to see Jiang gather her ordinary traveling things. The qualified operator had become a friend during several returns, and friendship had to survive an actual departure rather than keep asking a work order to extend itself.",
-      "next": "canal_p15_060"
+      "next": "canal_p15_060",
+      "earned": {
+        "insight": 1
+      }
     },
     "canal_p15_060": {
       "chapter": "book_xii_canal",

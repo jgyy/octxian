@@ -380,24 +380,15 @@
       "choices": [
         {
           "text": "Examine the household cut with Bao.",
-          "next": "canal_p11_030",
-          "effects": {
-            "insight": 1
-          }
+          "next": "canal_p11_030"
         },
         {
           "text": "Walk the occupied lower hollow with Luo.",
-          "next": "canal_p11_040",
-          "effects": {
-            "resolve": 1
-          }
+          "next": "canal_p11_040"
         },
         {
           "text": "Hear the aunt's offered receiving history.",
-          "next": "canal_p11_050",
-          "effects": {
-            "trust": 1
-          }
+          "next": "canal_p11_050"
         }
       ]
     },
@@ -529,7 +520,10 @@
         "stage": "4: Second pair"
       },
       "text": "At the landing discussion, Bao presented the cut's actual crossing, the buried lip and the uninspected outlet near the wall. Yue brought the two women's private millet-and-shelf agreement only to its agreed receiver, outside the public repair plan. The owner asked for the proposed spill crossing to preserve her ordinary drainage wherever the current checks allowed it. The design now had a person able to approve real work on her ground, and a limit nobody could erase by calling the whole place a flood problem.",
-      "next": "canal_p11_060"
+      "next": "canal_p11_060",
+      "earned": {
+        "insight": 1
+      }
     },
     "canal_p11_040": {
       "chapter": "book_xii_canal",
@@ -659,7 +653,10 @@
         "stage": "4: Second pair"
       },
       "text": "Luo returned to the landing with the shelter relocation accepted, the soft depression marked and the return channel clear of the recovered trap. The gatherer would move his bed before any lower flow trial and keep his temporary shed space under its actual terms. Yue had heard his impatience, his fear and his useful knowledge without requiring them to become one friendly attitude. The larger route now ended at an occupied basin with a real exit, rather than the empty reeds she had first drawn.",
-      "next": "canal_p11_060"
+      "next": "canal_p11_060",
+      "earned": {
+        "resolve": 1
+      }
     },
     "canal_p11_050": {
       "chapter": "book_xii_canal",
@@ -789,7 +786,10 @@
         "stage": "4: Second pair"
       },
       "text": "Yue sent Pei a message describing the offered matching exterior reference before the original copy journey. The actual attribution remained pending comparison against the public receiving page. The aunt would receive the result through her chosen niece rather than an unexpected public announcement. The visit had found a promising paper and an actual person's chosen name. It had also heard a work song beside exhaustion. Yue returned to the design discussion feeling how much richer an answer could become when it stopped demanding one clean emotion.",
-      "next": "canal_p11_060"
+      "next": "canal_p11_060",
+      "earned": {
+        "trust": 1
+      }
     },
     "canal_p11_060": {
       "chapter": "book_xii_canal",

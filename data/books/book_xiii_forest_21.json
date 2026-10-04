@@ -133,17 +133,11 @@
       "choices": [
         {
           "text": "Recommend the raised lower footway and its funded maintenance term.",
-          "next": "forest_21_footway_001",
-          "effects": {
-            "insight": 1
-          }
+          "next": "forest_21_footway_001"
         },
         {
           "text": "Recommend upper improvements and ten weeks of staffed lower assistance.",
-          "next": "forest_21_assistance_001",
-          "effects": {
-            "insight": 1
-          }
+          "next": "forest_21_assistance_001"
         }
       ]
     },
@@ -470,7 +464,10 @@
       "actor": "lin_yue",
       "text": "They walked past the marked footprint before darkness, seeing a route still under preparation, an animal gap still open, and a bench promised under a paid specification. Wen asked whether Lin felt pleased. She said yes, and worried about the people who would have preferred the upper improvement. He pointed to the current public contact board. \"Then leave them somewhere to complain when you are gone.\" She smiled. The board's letters were large. The next morning, the crew would ask the chosen work to bear actual weight.",
       "background": "forest_winter_boundary",
-      "next": "forest_21_review_001"
+      "next": "forest_21_review_001",
+      "earned": {
+        "insight": 1
+      }
     },
     "forest_21_assistance_001": {
       "chapter": "book_xiii_forest",
@@ -795,7 +792,10 @@
       "actor": "lin_yue",
       "text": "Lin and Wen passed the waiting point before dusk. The lower bank remained lightly marked, the upper preparation visible beyond it, and the helper's contact large on the new notice. A family carrier read it, asked a practical question about the first turn, and received the actual answer from the keeper. Wen said the package looked less impressive than a footway drawing. Lin watched the helper offer the elder a pole. \"It will have to become impressive one ordinary journey at a time,\" she said. They walked back toward the lodge, leaving the paid work to its accepted crew.",
       "background": "forest_winter_boundary",
-      "next": "forest_21_review_001"
+      "next": "forest_21_review_001",
+      "earned": {
+        "insight": 1
+      }
     },
     "forest_21_review_001": {
       "chapter": "book_xiii_forest",
