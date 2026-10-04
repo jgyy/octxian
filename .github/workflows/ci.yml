@@ -110,6 +110,10 @@ jobs:
             jade-vow-prebuild-v1-${{ github.head_ref || github.ref_name }}-
             jade-vow-prebuild-v1-codex/million-word-continuity-20261003-
       - name: Generate neural narration for all scenes
+        env:
+          JADE_VOW_VOICE_WORKERS: '4'
+          OMP_NUM_THREADS: '1'
+          OPENBLAS_NUM_THREADS: '1'
         run: timeout --kill-after=30s 240m python tools/generate_voices.py
       - name: Preserve completed narration after failed generation
         if: ${{ always() && steps.narration-cache.outcome == 'success' && steps.narration-cache.outputs.cache-primary-key != '' && steps.narration-cache.outputs.cache-hit != 'true' && hashFiles('assets/generated/voices/manifest.json') != '' }}
