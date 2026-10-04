@@ -1,72 +1,63 @@
-"""Extract intact character portraits; Godot supplies the whole-body bob."""
+"""Retain independent native portraits byte for byte; Godot supplies body bob."""
 import hashlib
 import json
 import pathlib
+import shutil
 
-import numpy as np
 from PIL import Image
 
-CELL = (384, 512)
-GENERATOR = "portrait-bob-v1"
+CELL = (1024, 1536)
+GENERATOR = "native-portrait-bob-v2"
 
 
 def digest(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
-def extract_portrait(sheet, index, columns):
-    """Use the complete resting pose in the top row, preserving its proportions."""
-    width, height = sheet.size
-    column = sheet.crop((index * width // columns, 0, (index + 1) * width // columns, height))
-    alpha = np.asarray(column.getchannel("A"))
-    mass = np.count_nonzero(alpha >= 32, axis=1)
-    candidates = np.arange(int(height * 0.46), int(height * 0.57))
-    quiet = candidates[mass[candidates] == mass[candidates].min()]
-    seam = int(quiet[np.argmin(np.abs(quiet - height / 2))])
-    portrait = column.crop((0, 0, column.width, seam))
-    box = portrait.getchannel("A").point(lambda value: 255 if value >= 32 else 0).getbbox()
-    if box is None:
-        raise ValueError(f"Missing resting portrait in column {index}")
-    portrait = portrait.crop((max(0, box[0] - 4), max(0, box[1] - 4),
-                              min(portrait.width, box[2] + 4), min(portrait.height, box[3] + 4)))
-    portrait.thumbnail((CELL[0] - 40, CELL[1] - 40), Image.Resampling.LANCZOS)
-    result = Image.new("RGBA", CELL)
-    result.alpha_composite(portrait, ((CELL[0] - portrait.width) // 2, CELL[1] - 20 - portrait.height))
-    return result
+def validate_native_portrait(path):
+    """Reject a low-resolution, flattened or empty source before delivery."""
+    with Image.open(path) as image:
+        image.load()
+        if image.size != CELL or image.mode != "RGBA":
+            raise ValueError(f"Expected native {CELL} RGBA portrait: {path}")
+        low, high = image.getchannel("A").getextrema()
+        if low != 0 or high < 160:
+            raise ValueError(f"Expected transparent margins and visible artwork: {path}")
 
 
 def bake_sprites(root, out, force=False):
-    catalog_bytes = (root / "data/wardrobe.json").read_bytes()
-    catalog = json.loads(catalog_bytes)
+    raw_catalog = (root / "data/wardrobe.json").read_bytes()
+    catalog = json.loads(raw_catalog)
     destination = out / "sprites"
     destination.mkdir(parents=True, exist_ok=True)
-    manifest_path = destination / "manifest.json"
-    previous = json.loads(manifest_path.read_text()) if manifest_path.exists() else {}
-    baker_hash = digest(pathlib.Path(__file__))
-    manifest = {"version": 4, "generator": GENERATOR, "baker_sha256": baker_hash,
-                "source": "GPT Images", "derivation": "intact resting portraits with whole-body bobbing in Godot",
-                "portrait_count": len(catalog["characters"]) * len(catalog["outfits"]), "cell": list(CELL),
-                "catalog_sha256": hashlib.sha256(catalog_bytes).hexdigest(), "outfits": {}}
+    manifest = {
+        "version": 5, "generator": GENERATOR, "baker_sha256": digest(pathlib.Path(__file__)),
+        "source": "GPT Images",
+        "derivation": "Native original bytes retained; whole-body bobbing in Godot",
+        "portrait_count": len(catalog["characters"]) * len(catalog["outfits"]),
+        "cell": list(CELL), "catalog_sha256": hashlib.sha256(raw_catalog).hexdigest(),
+        "outfits": {}
+    }
+    expected = set()
     for outfit in catalog["outfits"]:
-        outfit_id = outfit["id"]
-        source_hash = digest(root / outfit["poses"])
-        info = {"source": outfit["poses"], "source_sha256": source_hash, "characters": {}}
-        manifest["outfits"][outfit_id] = info
-        cached = previous.get("outfits", {}).get(outfit_id, {})
-        reusable = (previous.get("generator") == GENERATOR and previous.get("baker_sha256") == baker_hash
-                    and previous.get("catalog_sha256") == manifest["catalog_sha256"]
-                    and previous.get("cell") == list(CELL) and cached.get("source_sha256") == source_hash)
-        suffix = "" if outfit_id == "sect" else "_" + outfit_id
-        with Image.open(root / outfit["poses"]) as source:
-            sheet = source.convert("RGBA")
-        for index, character in enumerate(catalog["characters"]):
+        info = {"characters": {}}
+        manifest["outfits"][outfit["id"]] = info
+        suffix = "" if outfit["id"] == "sect" else "_" + outfit["id"]
+        for character in catalog["characters"]:
+            source = root / outfit["portraits"][character]
+            validate_native_portrait(source)
             path = destination / f"{character}{suffix}.png"
-            old = cached.get("characters", {}).get(character, {})
-            if not force and reusable and path.exists() and digest(path) == old.get("sha256"):
-                info["characters"][character] = old
-                continue
-            extract_portrait(sheet, index, len(catalog["characters"])).save(path, compress_level=9)
-            info["characters"][character] = {"path": str(path.relative_to(root)), "sha256": digest(path)}
-            print(f"Prepared intact portrait: {character}/{outfit_id}", flush=True)
-    manifest_path.write_text(json.dumps(manifest, indent=2) + "\n")
-    print(f"Wardrobe: {manifest['portrait_count']} portraits with runtime body bobbing.", flush=True)
+            expected.add(path)
+            source_hash = digest(source)
+            if force or not path.exists() or digest(path) != source_hash:
+                shutil.copyfile(source, path)
+            info["characters"][character] = {
+                "path": str(path.relative_to(root)), "sha256": source_hash,
+                "source": str(source.relative_to(root)), "source_sha256": source_hash,
+                "native_size": list(CELL)
+            }
+    for obsolete in destination.glob("*.png"):
+        if obsolete not in expected:
+            obsolete.unlink()
+    (destination / "manifest.json").write_text(json.dumps(manifest, indent=2) + "\n")
+    print(f"Wardrobe: {manifest['portrait_count']} independent native portraits; no resampling.")

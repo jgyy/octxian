@@ -1,0 +1,39 @@
+{
+  "source_base": "feb4ec7500a1df2bf95b16265544553372c657ce",
+  "characters": {
+    "harbor_sui_yan": {
+      "name": "Sui Yan",
+      "title": "Licensed harbor quarantine captain",
+      "color": "#83a4ae"
+    },
+    "harbor_han_pei": {
+      "name": "Han Pei",
+      "title": "Migrant wage clerk at the north quay",
+      "color": "#bcb393"
+    },
+    "harbor_yan_su": {
+      "name": "Yan Su",
+      "title": "Harbor rigger and ordinary rescue foreman",
+      "color": "#bf9171"
+    },
+    "harbor_qin_shuo": {
+      "name": "Qin Shuo",
+      "title": "Custodian of the harbor wage bond",
+      "color": "#9ea6b2"
+    },
+    "harbor_he_ming": {
+      "name": "He Ming",
+      "title": "Salt packer and migrant household delegate",
+      "color": "#bd9fa5"
+    }
+  },
+  "appearance": {
+    "harbor_sui_yan": "Sui Yan is a fifty-two-year-old mortal woman, the licensed quarantine captain. Silver strands cross one practical braid; dark blue oilcloth sleeves are worn at the cuffs. She has broad working hands, an old small burn on her right thumb, and a patient, unsentimental face. She carries paper quarantine tags and a plain writing board, not magical regalia.",
+    "harbor_han_pei": "Han Pei is a twenty-nine-year-old mortal woman and migrant wage clerk. She has a narrow face, short dark hair pinned behind one ear, a faded brown wool jacket and ink-stained left fingertips. A plain cord holds her sleeves above the wrist; her expression is alert and guarded, with warmth appearing when she laughs.",
+    "harbor_yan_su": "Yan Su is a thirty-six-year-old mortal man, licensed quay rigger and ordinary rescue foreman. He has a compact strong build, close-cropped black hair, a weathered round face, patched slate-gray work clothes and a clean rope callus across each palm. His tools are ordinary approved rigging tools; he wears no heroic weapon or cultivation aura.",
+    "harbor_qin_shuo": "Qin Shuo is a sixty-one-year-old mortal man, custodian of the harbor wage bond. His gray hair is tied neatly, his olive-brown clerk's coat is patched inside the elbows, and small reading spectacles hang on a cord. His lined face looks tired rather than severe; one ink-smudged finger rests on a closed ledger.",
+    "harbor_he_ming": "He Ming is a forty-three-year-old mortal woman, salt packer and migrant household delegate. She has a broad wind-reddened face, dark hair with a few gray strands gathered in a low bun, practical indigo wool clothes, cracked salt-working hands and a faded saffron scarf. Her stance is tired, steady and direct. A folded ordinary wage receipt sits in her hand."
+  },
+  "primary_portrait": "harbor_he_ming",
+  "definition_note": "Root registers these IDs exactly once in the campaign. Harbor part files use empty characters dictionaries to avoid duplicate definitions."
+}

@@ -1,0 +1,267 @@
+{
+  "review_base": "8dd58078b349f27b228be1107599572bf850efdc",
+  "review_scope": [
+    "data/books/book_i_mortal.json",
+    "data/books/book_ii_sluice.json",
+    "data/books/book_viii_foundry.json",
+    "data/books/book_ix_thunderfen.json"
+  ],
+  "total_repairs": 15,
+  "explicit_continuity_conflicts": 8,
+  "bounded_continuity_omissions": 7,
+  "changed_scene_paragraphs": 20,
+  "counting_rule": "One distinct root continuity defect is counted once. Repeated occurrences are affected_passages of the same repair. The earlier 115 audit entries, cosmetic edits, new prose and intentional literary questions receive no count in this incremental audit.",
+  "literary_mysteries": "Uncertain storm history, material intent, the creature signals and later cultivation gates remain bounded open questions; no invented solution is counted.",
+  "validation": {
+    "matched_before_after_anchors": 20,
+    "all_assigned_nodes": 601,
+    "maximum_scene_words": 100,
+    "non_text_node_fields_unchanged": true,
+    "assigned_normalized_scene_paragraphs_unique": true,
+    "method": "In-memory JavaScript comparison with the fixed review head. Counts use whitespace-delimited displayed text. This is not a claim that Python, Godot, audio or production quota validation ran.",
+    "files": [
+      {
+        "path": "data/books/book_i_mortal.json",
+        "before_words": 5182,
+        "after_words": 5206,
+        "word_delta": 24,
+        "changed_nodes": [
+          "mortal_rejoin_001",
+          "mortal_rejoin_008",
+          "tempering_after_012"
+        ]
+      },
+      {
+        "path": "data/books/book_ii_sluice.json",
+        "before_words": 7892,
+        "after_words": 7964,
+        "word_delta": 72,
+        "changed_nodes": [
+          "sluice_018",
+          "sluice_034",
+          "sluice_038",
+          "channels_040",
+          "channels_042"
+        ]
+      },
+      {
+        "path": "data/books/book_viii_foundry.json",
+        "before_words": 22177,
+        "after_words": 22198,
+        "word_delta": 21,
+        "changed_nodes": [
+          "foundry_arrival_012",
+          "foundry_arrival_015",
+          "foundry_creature_007",
+          "foundry_gauge_003"
+        ]
+      },
+      {
+        "path": "data/books/book_ix_thunderfen.json",
+        "before_words": 5921,
+        "after_words": 5978,
+        "word_delta": 57,
+        "changed_nodes": [
+          "ridge_from_bench",
+          "ridge_from_survey",
+          "ridge_from_home",
+          "ridge_departure_012",
+          "ridge_replica_001",
+          "ridge_ground_008",
+          "ridge_return_001",
+          "ridge_return_003"
+        ]
+      }
+    ]
+  },
+  "repairs": [
+    {
+      "id": "CULT-001",
+      "path": "data/books/book_i_mortal.json",
+      "node_id": "mortal_rejoin_001",
+      "before": "The next lesson began with the accounts. Every student named their available hours, ordinary expenses and recovery time. Qing made no ranking of sacrifice. One student could afford four afternoons. Another could attend one. Yue was told to build a plan she could repeat for eight weeks. For the first time, the schedule on the board looked like something that might reach the examination instead of merely promising it.",
+      "after": "The next lesson began with the accounts and an ordinary knee check for every route back to class. Yue's bruise no longer altered her gait; Qing kept standing loads reduced until that result held the following morning. Every student named available hours, expenses and recovery time. One could afford four afternoons, another one. Yue built an eight-week plan that included repaying any rice credit and protecting meals. For the first time, the schedule looked as though it might reach the examination.",
+      "reason": "The work and study branches leave the knee pain from mortal_009 and mortal_019 unresolved before common conditioning and Body Tempering assessments. A common gait check closes that bounded injury omission without requiring the optional clinic branch. Any rice credit stays conditional on the study branch.",
+      "category": "injury_continuity",
+      "defect_type": "bounded_continuity_omission"
+    },
+    {
+      "id": "CULT-002",
+      "path": "data/books/book_i_mortal.json",
+      "node_id": "mortal_rejoin_008",
+      "before": "Yue wanted the examiner to decide before sunset. She refused. At dawn, her hand had no new blister and the stroke was steadier. She marked Skin beside the first week of her conditioning record. The mark did not open a spiritual channel. It showed that the first load could be repeated. Yue read it five times before leaving, as if the ordinary ink might vanish when she stopped looking.",
+      "after": "Yue wanted the examiner to decide before sunset. She refused. At dawn, her hand had no new blister and the stroke was steadier. She marked Skin beside the current recovered assessment, leaving the earlier conditioning weeks unchanged. The mark did not open a spiritual channel. It showed that the first load could be repeated. Yue read it five times before leaving, as if the ordinary ink might vanish when she stopped looking.",
+      "reason": "mortal_rejoin_005 explicitly advances three weeks and mortal_rejoin_006 schedules the assessment for the following week. The award cannot be entered as a first-week result.",
+      "category": "chronology",
+      "defect_type": "explicit_continuity_conflict"
+    },
+    {
+      "id": "CULT-003",
+      "path": "data/books/book_i_mortal.json",
+      "node_id": "tempering_after_012",
+      "before": "The second test passed after rain made the practice room colder. The third passed after a morning walk changed her breathing. Between them, Yue had one session where nothing stayed, and two sessions canceled for fatigue. The record kept all five results. When Qing drew the line under the final comparison, the failures remained above it. They showed what conditions the success actually depended on.",
+      "after": "The second test passed after rain made the practice room colder. The third passed after a morning walk changed her breathing. Between them, Yue had one session where nothing stayed, and two sessions canceled for fatigue. The record kept all six entries: three qualifying tests, one unsuccessful session and two cancellations. When Qing drew the line under the final comparison, the failures remained above it. They showed what conditions the success actually depended on.",
+      "reason": "tempering_after_011 supplies the first successful test. Together with two later passes, one unsuccessful session and two cancellations, there are six entries, not five. Cancellations remain separate from attempted tests.",
+      "category": "measurement_record",
+      "defect_type": "explicit_continuity_conflict"
+    },
+    {
+      "id": "CULT-004",
+      "path": "data/books/book_ii_sluice.json",
+      "node_id": "sluice_018",
+      "before": "By evening, gray grains had gathered under her fingernails. Han Mei checked her gloves and showed her the small split at one seam. Lin Yue replaced them from the workshop rack, then entered the replacement on the board. The charge was for careless damage only. Worn equipment belonged to the work's cost, a distinction she had never seen honored at the kiln.",
+      "after": "By evening, gray grains had gathered under her fingernails. Han Mei stopped the work, checked her gloves and found a small split at one seam. Yue washed at the disposal basin; the rinse stayed in its lined catch tray, away from meals and practice. She replaced the gloves from the rack and entered the replacement. The charge was for careless damage only. Worn equipment belonged to the work's cost, a distinction she had never seen honored at the kiln.",
+      "reason": "sluice_017 identifies gray grains as incompatible charged residue and requires lined disposal. The damaged glove exposes Yue's skin; merely changing gloves leaves that residue present for the subsequent meal and personal practice. Add the missing ordinary cleaning and contained rinse.",
+      "category": "safety_causality",
+      "defect_type": "bounded_continuity_omission"
+    },
+    {
+      "id": "CULT-005",
+      "path": "data/books/book_ii_sluice.json",
+      "node_id": "sluice_034",
+      "before": "She returned empty-handed and found Shen Qing carrying two ordinary sacks of grain. He did not ask whether she had advanced. He asked whether the west pool's water had clouded after yesterday's rain. She answered from the basin records. It was the first useful thing she had told him that week, and it came from attention she had almost sold for a shortcut.",
+      "after": "She returned empty-handed and found Shen Qing carrying two ordinary sacks of grain. He did not ask whether she had advanced. He asked whether the west pool's water had clouded after yesterday's rain. Han Mei had posted the basin readings for every shift; Yue answered from that shared sheet, whether or not she had helped copy its source. It was the first useful thing she had told him that week, and it came from attention she had almost sold for a shortcut.",
+      "reason": "sluice_028 offers mutually exclusive sorting, copying and rest routes. Only sluice_records_001 narrates reading the basin records, yet the shared sluice_034 assumes that knowledge. A shared posted reading supplies a source on every route without inventing the optional copying work.",
+      "category": "branch_knowledge",
+      "defect_type": "explicit_continuity_conflict"
+    },
+    {
+      "id": "CULT-006",
+      "path": "data/books/book_ii_sluice.json",
+      "node_id": "sluice_038",
+      "before": "On the next recovered trial she retained six units exactly. A rain gust startled her during sampling; she stopped, grounded the instrument, and resumed after the blank settled. Duan counted the interruption in her favor because the safety route had remained available. The field had survived a small disturbance without requiring the world to become silent around her.",
+      "after": "On the next recovered trial she retained six units exactly, with eighty-one percent compatible charge. A rain gust startled her during sampling; she stopped, grounded the instrument, and resumed after the blank settled. Duan recorded clean release and the following morning's normal hand check before accepting the trial. The interruption showed that the safety route remained available. It did not replace the purity and recovery conditions required of every qualifying result.",
+      "reason": "sluice_030 and channels_039 require compatible fractions and recovered sensation checks for each qualifying trial. The middle trials are accepted later without either condition being recorded. Complete both middle-trial records; this is one bounded examination-evidence omission across two stage assessments.",
+      "category": "cultivation_progression",
+      "affected_passages": [
+        {
+          "path": "data/books/book_ii_sluice.json",
+          "node_id": "channels_042",
+          "before": "For the second assessment, Han Mei sealed the reference and Duan moved the bench into the shaded shed. Twelve units remained after the overnight and sampling corrections. A passerby dropped a bucket during the route test. Lin Yue interrupted, grounded, and restarted only after the blank settled. Her pair obeyed the stop sooner than her startled heartbeat did.",
+          "after": "For the second assessment, Han Mei sealed the reference and Duan moved the bench into the shaded shed. Twelve units remained after the overnight and sampling corrections, with eighty-six percent compatible charge. A passerby dropped a bucket during the route test. Lin Yue interrupted, grounded, and restarted only after the blank settled. Clean release and the next morning's normal sensation completed the qualifying record. Her pair obeyed the stop sooner than her startled heartbeat did."
+        }
+      ],
+      "defect_type": "bounded_continuity_omission"
+    },
+    {
+      "id": "CULT-007",
+      "path": "data/books/book_ii_sluice.json",
+      "node_id": "channels_040",
+      "before": "It took three more weeks to reach the twelve-unit reserve while keeping the route quiet. Lin Yue increased the target by half a unit only after a recovered retention test. When a working day returned less, she reduced the next practice load instead of chasing the missing amount. The workshop ledger recorded sixty-eight days since her arrival. None could be removed by a bright enough exhalation.",
+      "after": "It took three more weeks to reach the twelve-unit reserve while keeping the route quiet. Lin Yue increased the target by half a unit only after a recovered retention test. When a working day returned less, she reduced the next practice load instead of chasing the missing amount. The workshop ledger kept the dated retention lessons beside every route attempt and recovery interval. None could be removed by a bright enough exhalation.",
+      "reason": "By channels_026 route work is already in its fourth week; channels_031 adds eleven rest days, channels_034 another week, and channels_040 three more weeks. Even the earliest fourth-week placement, together with the preceding multi-day retention lessons and qualifying trials, exceeds the asserted sixty-eight-day total. Preserve the dated sequence instead of inventing another exact arrival total.",
+      "category": "chronology",
+      "defect_type": "explicit_continuity_conflict"
+    },
+    {
+      "id": "CULT-008",
+      "path": "data/books/book_viii_foundry.json",
+      "node_id": "foundry_arrival_015",
+      "before": "The leaking cup belonged to nobody's practice circuit. Its foot had warped in a shelf too close to the furnace mouth. Zhen knew where the fault lay because he had spent three days sorting failures. Yue examined it and could not make the same judgment until he showed her the uneven contact. He had a lower realm and a skill she lacked. The realization relieved her, then stung. She had begun treating progress as a ladder on which every higher foot must stand above every lower hand.",
+      "after": "The leaking cup belonged to nobody's practice circuit. Its foot had warped in a shelf too close to the furnace mouth. Zhen knew where the fault lay because he had spent three days sorting failures. Yue examined it and could not make the same judgment until he showed her the uneven contact. He held a lower stage within Qi Gathering and a skill she lacked. The realization relieved her, then stung. She had begun treating progress as a ladder on which every higher foot must stand above every lower hand.",
+      "reason": "foundry_arrival_014 establishes Zhen at Qi Gathering stage two and Yue at stage three. These are stages of the same realm, not different realms.",
+      "category": "cultivation_progression",
+      "defect_type": "explicit_continuity_conflict"
+    },
+    {
+      "id": "CULT-009",
+      "path": "data/books/book_viii_foundry.json",
+      "node_id": "foundry_arrival_012",
+      "before": "The foundry admitted her to a paid bench place for six weeks, with extensions discussed before the term ended. Food, a dry bed and ordinary shifts came from the workshop account. Training fuel had a separate weekly allowance. An apprentice could spend that allowance quickly and learn nothing; she could not turn an empty socket into a debt against next month's meals. Yue pressed her thumb beside the terms and received a key with a chipped wooden tag. The key opened a drawer, not a secret realm.",
+      "after": "The foundry admitted her to a paid bench place for six weeks, with extensions discussed before the term ended. Food, a dry bed and ordinary shifts came from the workshop account. Training fuel had a separate weekly allowance, never a debt against next month's meals. The written terms also set aside two of her own copper as a refundable drawer deposit, returned after its key and condition check. Yue pressed her thumb beside the terms and received a chipped wooden key tag. It opened a drawer, not a secret realm.",
+      "reason": "foundry_home_001 refunds a drawer deposit that the admission agreement never establishes. State its bounded amount, source and refund condition when the key is issued; meals remain covered by the separate workshop account. This is a contract-accounting omission.",
+      "category": "resource_accounting",
+      "defect_type": "bounded_continuity_omission"
+    },
+    {
+      "id": "CULT-010",
+      "path": "data/books/book_viii_foundry.json",
+      "node_id": "foundry_creature_007",
+      "before": "The foreman closed the upstream scrap feed with the ordinary shutter. A grounded waste strip isolated the storage cup's remaining contact from the main channel. The beast still held charge in its own armor; source isolation did not make that disappear. Su Yan kept the barrier between it and the stairs while a second worker opened the empty downstream sluice. The creature would have to find a path through stone and cooling water, not an invitation into the apprentice benches.",
+      "after": "The foreman closed the main upstream supply with its ordinary shutter. The separate scrap-feed shutter still needed seating from the recessed winch; the grounded waste strip isolated the storage cup's contact meanwhile. The beast held charge in its own armor, which source isolation could not remove. Su Yan kept the barrier between it and the stairs while a second worker opened the empty downstream sluice. The creature's available path led through stone and cooling water, away from the apprentice benches.",
+      "reason": "foundry_creature_007 already closes the upstream scrap feed, but foundry_shutter_001 through foundry_shutter_003 later present closing that same feed as Yue's unresolved task. Distinguish the completed main-source isolation from the separate scrap-feed closure that the winch branch performs.",
+      "category": "safety_causality",
+      "defect_type": "explicit_continuity_conflict"
+    },
+    {
+      "id": "CULT-011",
+      "path": "data/books/book_viii_foundry.json",
+      "node_id": "foundry_gauge_003",
+      "before": "The mark reached the agreed replacement line. Yue called it immediately, although the barrier still looked bright. A rested operator slid the next inspected socket into the rack while the frame remained supported. The used stone went to its discharge tray; it did not become a fresh reserve because the light had not quite died. Yue recorded the change and watched for the new settled reading.",
+      "after": "The mark reached the agreed replacement line. Yue called it immediately, although the barrier still looked bright. A rested operator connected the inspected replacement through the rack's rated, isolated standby feed. Only after its gauge accepted the load did she disconnect the spent socket; the supported frame stayed in place throughout. The used stone went to its discharge tray. Yue recorded both readings. Brief overlap spent charge from both sources; it did not create a fresh reserve from the old light.",
+      "reason": "The adult still strikes the live barrier during gauge replacement, but ordinary frame support alone cannot preserve its powered protection while its only described source is removed. Supply a rated isolated standby handoff and account for its overlap within the already recorded two finite socket charges. This closes a bounded power-transfer omission.",
+      "category": "safety_causality",
+      "defect_type": "bounded_continuity_omission"
+    },
+    {
+      "id": "CULT-012",
+      "path": "data/books/book_ix_thunderfen.json",
+      "node_id": "ridge_from_bench",
+      "before": "The six-week bench term ended with the chamber cool and Yue's final wages paid. Su Yan checked both established arm routes before closing the work book. She had improved her timing without earning another pair. Jiang Tao's field invitation had waited until that contracted work finished. On the forty-third morning after the fourth-stage examination, Yue left with a sealed sampling kit, two weeks of food money and a letter naming where she could return if the survey stopped.",
+      "after": "The six-week bench term ended with the chamber cool and Yue's final wages paid. Su Yan checked both established arm routes before closing the work book. She had improved her timing without earning another pair. Jiang Tao's field invitation had waited until that contracted work finished. On Day One Hundred Twenty-seven, the forty-seventh morning after the fourth-stage examination, Yue left with a sealed sampling kit, two weeks of food money and a letter naming where she could return if the survey stopped.",
+      "reason": "Book VIII's fourth-stage award is Day Eighty, the current term ends Day Eighty-four, and the bench continuation begins afterward for six weeks. Its final day is Day One Hundred Twenty-six. Book IX's original forty-third morning is Day One Hundred Twenty-three, before that term can end. Align all three departures to the following morning, Day One Hundred Twenty-seven, and state the home route's dated six-week interval.",
+      "category": "chronology",
+      "affected_passages": [
+        {
+          "path": "data/books/book_ix_thunderfen.json",
+          "node_id": "ridge_from_survey",
+          "before": "The cooling survey ended within its agreed term. For the remaining weeks Yue worked ordinary short shifts at the ash bridge and practiced only recovered loads through her two tested arm pairs. Su Yan renewed the route check before departure. On the forty-third morning after the fourth-stage examination, Jiang Tao's invitation became a real road. The permitted material specimens stayed at the foundry. Yue took their approved comparison sheet, not somebody else's jar, toward Thunderfen.",
+          "after": "The cooling survey ended within its agreed term. For the remaining weeks Yue worked ordinary short shifts at the ash bridge and practiced only recovered loads through her two tested arm pairs. Su Yan renewed the route check before departure. On Day One Hundred Twenty-seven, the forty-seventh morning after the fourth-stage examination, Jiang Tao's invitation became a real road. The permitted specimens stayed at the foundry. Yue took their approved comparison sheet, not somebody else's jar, toward Thunderfen."
+        },
+        {
+          "path": "data/books/book_ix_thunderfen.json",
+          "node_id": "ridge_from_home",
+          "before": "Yue spent six weeks at the west kiln, helping with ordinary household work and keeping her established practice below its tested load. The roof passed its rain inspection. Her mother read Jiang Tao's invitation twice and asked where a failed journey would end. Yue pointed to the receiving workshop, then counted the fare home. Su Yan checked both arm pairs before the forty-third morning's departure. Neither the familiar kiln nor her pendant had opened a third route while nobody watched.",
+          "after": "From Day Eighty-five through Day One Hundred Twenty-six, Yue spent six weeks at the west kiln, helping with ordinary household work and keeping established practice below its tested load. The roof passed its rain inspection. Her mother read Jiang Tao's invitation twice and asked where a failed journey would end. Yue pointed to the receiving workshop, then counted the fare home. Su Yan checked both arm pairs before the forty-seventh morning's departure. Neither the kiln nor her pendant had opened a third route while nobody watched."
+        }
+      ],
+      "defect_type": "explicit_continuity_conflict"
+    },
+    {
+      "id": "CULT-013",
+      "path": "data/books/book_ix_thunderfen.json",
+      "node_id": "ridge_departure_012",
+      "before": "Before dawn they counted every stone's remaining charge. The road keeper had inspected the lower path and left the upper spur closed. Yue loosened the cart straps so nobody would need to cut them during retreat. Jiang put the unpaid future repair order aside. Today was an observation day, with a return deadline before dusk. A different sky could change its work. It would not change the fourth-stage certificate or make a closed spur available.",
+      "after": "Before dawn they counted every stone's remaining charge. Qualified road workers had returned the inspected rod from the workshop to its isolated fixture above the pool; the road keeper checked the lower path and kept the upper spur closed. Yue checked the cart's quick-release straps before retreat. Jiang put the unpaid repair order aside. Today was an observation day, with a return deadline before dusk. A different sky could change its work, but could not open the closed spur.",
+      "reason": "ridge_departure_006 brings the original damaged rod to the workshop. Weather and pool scenes then inspect its foot beside the water, while ridge_replica_001 again leaves the original covered without a location. Establish qualified return to the isolated field fixture before weather observation and locate the covered original there during the workshop replica test. This is one object-custody defect.",
+      "category": "site_custody",
+      "affected_passages": [
+        {
+          "path": "data/books/book_ix_thunderfen.json",
+          "node_id": "ridge_replica_001",
+          "before": "Jiang assembled the replica on a grounded tray inside the workshop. Its patient-looking coil came from an apparatus, not a living body. The original rod remained covered. Yue measured the dry blank before any field stone was connected. The brighter shortcut had been reproduced only on the removable test tile. If it failed, the damage would end there.",
+          "after": "Jiang assembled the replica on a grounded tray inside the workshop. Its patient-looking coil came from an apparatus, not a living body. The original rod remained covered at its isolated pool fixture. Yue measured the dry blank before any field stone was connected. The brighter shortcut had been reproduced only on the removable test tile. If it failed, the damage would end there."
+        }
+      ],
+      "defect_type": "bounded_continuity_omission"
+    },
+    {
+      "id": "CULT-014",
+      "path": "data/books/book_ix_thunderfen.json",
+      "node_id": "ridge_return_001",
+      "before": "Before departing the ridge, the unperformed work remained unperformed. Jiang entered the interruption and its observed consequences in the report, keeping unknown causes separate from facts they had witnessed. The field supply was closed. The road stayed barred. Yue sat where both hands could rest and checked the next-day sensation form before making any promise about returning.",
+      "after": "Back at the receiving workshop, the unperformed field work remained unperformed. Jiang entered the interruption and its observed consequences in the report, keeping unknown causes separate from facts they had witnessed. The field supply was closed. The road stayed barred. Yue sat where both hands could rest and checked the next-day sensation form before making any promise about returning.",
+      "reason": "All incident branches retreat and report from the workshop, and ridge_return_002 examines Yue there on Day Seven. The original common return then says 'Before departing the ridge' and later shows the cart leaving the pool again. Keep the common sequence at the receiving workshop and frame the pool observation as the existing departure record, avoiding an unperformed extra trip after the incident.",
+      "category": "chronology",
+      "affected_passages": [
+        {
+          "path": "data/books/book_ix_thunderfen.json",
+          "node_id": "ridge_return_003",
+          "before": "The Copperback Tortoise remained beyond the inner bank as the cart left. Jiang showed the empty washing place and the covered comparison tile before packing them. Three taps followed, slow enough for Yue to count. She wrote the sequence without calling it thanks. The animal would have its water after their report, and the road crew would have to approach it again under the site's ordinary rules.",
+          "after": "Jiang opened the departure notes from the ridge. The Copperback Tortoise had remained beyond the inner bank as the cart left; from the checked path, Jiang had shown the empty washing place and covered comparison tile before packing them. Three slow taps had followed. Yue kept the sequence without calling it thanks. The notes supplied a bounded account of that departure, not a reason to return after the interruption. The road crew would approach the keeper again under the site's ordinary rules."
+        }
+      ],
+      "defect_type": "explicit_continuity_conflict"
+    },
+    {
+      "id": "CULT-015",
+      "path": "data/books/book_ix_thunderfen.json",
+      "node_id": "ridge_ground_008",
+      "before": "The ground report returned with heights, closed margins and a request to recover the loose strip through qualified site work. It named no thief. The pool keeper's signals had changed where they stood, not revealed the earlier failure. Yue washed the ordinary measuring cord above the waterline and took the map to the common comparison.",
+      "after": "The ground report returned with heights, closed margins and a request to recover the loose strip through qualified site work. It named no thief. The pool keeper's signals had changed where they stood, not revealed the earlier failure. Yue washed the ordinary measuring cord at the relocated inland washing station, catching the rinse in its basin instead of letting it run toward the pool. She took the dry map to the common comparison.",
+      "reason": "ridge_pool_003 establishes that the washing station is moved away from the keeper's bank. The map branch later washes equipment merely 'above the waterline,' leaving the agreed location and runoff boundary unaccounted for. Preserve the relocated station and contained rinse explicitly. This is a bounded site-operation omission.",
+      "category": "site_custody",
+      "defect_type": "bounded_continuity_omission"
+    }
+  ]
+}

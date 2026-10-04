@@ -1,0 +1,413 @@
+{
+  "schema_version": 1,
+  "chapter_id": "book_xii_canal",
+  "title": "The Canal That Could Not Be Sold",
+  "source_base": "feb4ec7500a1df2bf95b16265544553372c657ce",
+  "measurement": {
+    "displayed_manuscript_words": 166110,
+    "scenes": 1872,
+    "parts": 24,
+    "min_part_words": 6307,
+    "max_scene_words": 100,
+    "count_method": "Whitespace-delimited words in node.text only, all playable branches included; documentation, metadata and image prompts excluded."
+  },
+  "entries": {
+    "salt_end_rotation": "canal_from_rotation",
+    "salt_end_maintenance": "canal_from_maintenance",
+    "salt_end_purchase": "canal_from_purchase"
+  },
+  "final_choice": "canal_p24_045",
+  "outcomes": {
+    "canal_end_public": "forest_start",
+    "canal_end_repair": "forest_start",
+    "canal_end_home": "forest_start"
+  },
+  "facts": [
+    {
+      "id": "calendar",
+      "category": "calendar",
+      "assertion": "An eight-week canal commission closes on relative Day 56. All three outcomes use ordinary travel on Days 57–58 and reach the orchard pavilion approach for Ren's accepted Day 59 review. Tian's independent six-week paid trial begins on Day 70; she does not accompany Lin to the forest.",
+      "evidence": [
+        "canal_p01_053",
+        "canal_p23_061",
+        "canal_p24_001",
+        "canal_p24_034",
+        "canal_p24_037",
+        "canal_end_public",
+        "canal_end_repair",
+        "canal_end_home"
+      ]
+    },
+    {
+      "id": "ordinary_and_emergency_work",
+      "category": "money",
+      "assertion": "The initial 120 copper splits into a 24-copper valid loan payment and 96 for repairs. Repairs cost 56 labor (28 ordinary equivalents at 2), 28 materials, and 12 for six charged stones. Separate emergency funding of 36 pays 24 labor (8 equivalents at 3), 8 materials, and 4 for two new stones. Lin earns 24 ordinary copper: 20 cumulative earlier payments plus 4 paid at closure, and 6 separate emergency copper.",
+      "evidence": [
+        "canal_p01_053",
+        "canal_p13_003",
+        "canal_p24_007",
+        "canal_p24_008",
+        "canal_p24_009",
+        "canal_p24_040",
+        "canal_p24_039"
+      ]
+    },
+    {
+      "id": "operating_cash_and_winter_grant",
+      "category": "money",
+      "assertion": "Actual current operations receive 35 and spend 34, leaving 1. The separate 1-copper wrong-cart material reimbursement makes present maintenance cash 2. The 36-copper operating budget was a cap. A separate received 4-copper merchant grant funds two months of limited record work at 2 per month. Future monthly gross of 18 and its division into 8 operations, 6 reserve and 4 eligible debt remain forecasts.",
+      "evidence": [
+        "canal_p20_060",
+        "canal_p23_064",
+        "canal_p24_010",
+        "canal_p24_011",
+        "canal_p24_012",
+        "canal_p24_015"
+      ]
+    },
+    {
+      "id": "private_property_and_debt",
+      "category": "private_property",
+      "assertion": "Han's private loading gear, shed and listed stores remain private; the common bed, marked routes and diversion use lie outside his title. Completed old labor of 240 worker-days does not revive with debt. The public loan is 240 minus 128 old cash, 32 returned unused timber credit and 24 current payment, leaving 56. The actual 48-copper private deposit refund uses 32 reserved (24 public payment plus 8 private receipts) and 16 from a private property sale; listed security is released.",
+      "evidence": [
+        "canal_p17_064",
+        "canal_p24_014",
+        "canal_p24_015",
+        "canal_p24_017",
+        "canal_p24_020"
+      ]
+    },
+    {
+      "id": "fuel_and_cultivation",
+      "category": "fuel",
+      "assertion": "Eight commission stones hold 320 initial total charge: 240 original plus 80 new. Actual remaining charge is 216 minus selected trial draw plus 80 minus 2, minus selected storm draw, minus 12. Trial draws are 18, 10 or 12; storm draws are 20, 16 or 18, leaving a minimum of 244 and maximum of 256. No further draw occurs after the Part 15 test. Lin enters and exits stage 4, with no storm fuel, qi healing, unearned pair or imported commission object.",
+      "evidence": [
+        "canal_p10_060",
+        "canal_p13_018",
+        "canal_p14_060",
+        "canal_p15_023",
+        "canal_p24_005",
+        "canal_p24_022",
+        "canal_p24_043"
+      ]
+    },
+    {
+      "id": "recovery_and_ground_escape",
+      "category": "recovery",
+      "assertion": "Bao sprains his wrist on Day 33 and remains barred from loaded gripping through closure despite improving motion. The authorized emergency transfer moves 0.75 equivalents to qualified road workers; a later ordinary transfer moves 0.25 closing carpentry equivalents to the mason. Clinical review permits brief light observation and seated drawing rather than full repair demonstrations. Ordinary ground withdrawal, checked crew gear, the small rated upper pocket and closed unsafe edges bound rescue and handover.",
+      "evidence": [
+        "canal_p14_022",
+        "canal_p14_024",
+        "canal_p18_021",
+        "canal_p18_067",
+        "canal_p18_068",
+        "canal_p23_062",
+        "canal_p24_023",
+        "canal_p24_025"
+      ]
+    },
+    {
+      "id": "bounded_cause_and_household_support",
+      "category": "money",
+      "assertion": "The quarry finding proves permit outlet narrowing and bounded connected high-water risk and persistence, rather than the exact share of every storm loss. Its private correction is accepted; a separate 2-copper penalty reaches the regular authority. A private 9-copper contribution actually pays 4 to the garden household, 3 to the reed household and 2 to the stall. The earlier 10-copper hardship gift and 12 food sacks remain separate without a waiver. Partial losses and unsupported broader questions remain.",
+      "evidence": [
+        "canal_p22_061",
+        "canal_p22_062",
+        "canal_p22_064",
+        "canal_p24_013"
+      ]
+    },
+    {
+      "id": "orchard_promise",
+      "category": "orchard_promise",
+      "assertion": "Ren actually accepts the full Day 59 review after confirming patient and staff availability. The actual retained Chapter IV arrangement governs; any owed personal return remains unfinished until XIII's physical review. Lin pays the 3-copper ordinary fare from earned ordinary wages and holds 2 for beds and 2 for food. The optional home connection costs 1 extra personal copper within Days 57–58. No optional canal object, public record or companion is required at forest_start.",
+      "evidence": [
+        "canal_p01_007",
+        "canal_p20_008",
+        "canal_p20_010",
+        "canal_p20_013",
+        "canal_p24_034",
+        "canal_p24_035",
+        "canal_p24_036",
+        "canal_p24_037",
+        "canal_end_public",
+        "canal_end_repair",
+        "canal_end_home"
+      ]
+    }
+  ],
+  "required_anchor_sets": [
+    {
+      "id": "report",
+      "anchors": [
+        "canal_p22_061",
+        "canal_p22_062",
+        "canal_p24_017"
+      ],
+      "all_dominate_final_choice_from_each_entry": true
+    },
+    {
+      "id": "safety",
+      "anchors": [
+        "canal_p15_023",
+        "canal_p19_060",
+        "canal_p24_022",
+        "canal_p24_023"
+      ],
+      "all_dominate_final_choice_from_each_entry": true
+    },
+    {
+      "id": "funding",
+      "anchors": [
+        "canal_p13_003",
+        "canal_p24_008",
+        "canal_p24_009",
+        "canal_p24_010",
+        "canal_p24_040"
+      ],
+      "all_dominate_final_choice_from_each_entry": true
+    },
+    {
+      "id": "orchard_handoff",
+      "anchors": [
+        "canal_p20_008",
+        "canal_p20_010",
+        "canal_p24_034",
+        "canal_p24_035",
+        "canal_p24_036"
+      ],
+      "all_dominate_final_choice_from_each_entry": true
+    }
+  ],
+  "validation": {
+    "all_nodes_reachable": true,
+    "duplicate_node_ids": 0,
+    "duplicate_exact_passages": 0,
+    "duplicate_normalized_passages": 0,
+    "all_scenes_at_most_100_words": true,
+    "all_nodes_qi_gathering_stage4": true,
+    "chapter_defined_only_part01": true,
+    "navigation_exactly_one_next_choices_or_ending": true,
+    "external_target_only": "forest_start",
+    "ending_uses_continuation": true,
+    "runtime_ci": "Parent owns active wiring, narration/cache generation and runtime checks."
+  },
+  "parts": [
+    {
+      "path": "data/books/book_xii_canal_01.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0cadd2a4c138016c49681064b941c4771e0386d2",
+      "scenes": 78,
+      "words": 6376,
+      "max_scene_words": 88
+    },
+    {
+      "path": "data/books/book_xii_canal_02.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc2b26bbeff341aa9fea45dfd2bc848f239fc1ac",
+      "scenes": 78,
+      "words": 6405,
+      "max_scene_words": 90
+    },
+    {
+      "path": "data/books/book_xii_canal_03.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3e4c436563ef2791c31d907c467a9093c2f3f04",
+      "scenes": 78,
+      "words": 6453,
+      "max_scene_words": 90
+    },
+    {
+      "path": "data/books/book_xii_canal_04.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "903189bd590667a76b47e685bc41d6ca07c20e46",
+      "scenes": 78,
+      "words": 6307,
+      "max_scene_words": 92
+    },
+    {
+      "path": "data/books/book_xii_canal_05.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7f9980a205f3c3e775221a47c4469e11e9aa18a",
+      "scenes": 78,
+      "words": 6571,
+      "max_scene_words": 94
+    },
+    {
+      "path": "data/books/book_xii_canal_06.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1248fd80a385d6b505d07bfb6292c29f84bad4be",
+      "scenes": 78,
+      "words": 6694,
+      "max_scene_words": 93
+    },
+    {
+      "path": "data/books/book_xii_canal_07.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9143970db1a97e6bbc1af9fe9b60acecc2d52aaf",
+      "scenes": 78,
+      "words": 6732,
+      "max_scene_words": 93
+    },
+    {
+      "path": "data/books/book_xii_canal_08.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1e5b2c6f9568f4eb2ce5760d2a57caa2628e636",
+      "scenes": 78,
+      "words": 6848,
+      "max_scene_words": 93
+    },
+    {
+      "path": "data/books/book_xii_canal_09.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba182161e0d350d044b21c81c4427557a5fb78ea",
+      "scenes": 78,
+      "words": 6865,
+      "max_scene_words": 96
+    },
+    {
+      "path": "data/books/book_xii_canal_10.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1bde1b3b178ee875501e26e6474567a0ce64ae99",
+      "scenes": 78,
+      "words": 6927,
+      "max_scene_words": 96
+    },
+    {
+      "path": "data/books/book_xii_canal_11.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1fb74fda97fb850efdb9f9a2f0d549ca6dc374b",
+      "scenes": 78,
+      "words": 6825,
+      "max_scene_words": 95
+    },
+    {
+      "path": "data/books/book_xii_canal_12.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b8bdb2ff40e7a7286dcce77e3fbf8581e9c5644",
+      "scenes": 78,
+      "words": 6802,
+      "max_scene_words": 95
+    },
+    {
+      "path": "data/books/book_xii_canal_13.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "489347a9fc80f2d61ebbf9f2f876885821e48f10",
+      "scenes": 78,
+      "words": 6815,
+      "max_scene_words": 97
+    },
+    {
+      "path": "data/books/book_xii_canal_14.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3093000b642e7380183c41af1b464a05a1f997aa",
+      "scenes": 78,
+      "words": 6900,
+      "max_scene_words": 100
+    },
+    {
+      "path": "data/books/book_xii_canal_15.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b514ceb720e7096a846f8a61dbf50d6b883a1d0",
+      "scenes": 78,
+      "words": 6853,
+      "max_scene_words": 95
+    },
+    {
+      "path": "data/books/book_xii_canal_16.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b950c128139cb7b87832e45fc7240ca992de70a2",
+      "scenes": 78,
+      "words": 6799,
+      "max_scene_words": 94
+    },
+    {
+      "path": "data/books/book_xii_canal_17.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6181729c49fd21e162ac054b3eba05a5529aea06",
+      "scenes": 78,
+      "words": 6821,
+      "max_scene_words": 96
+    },
+    {
+      "path": "data/books/book_xii_canal_18.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9b1eac68c83dbc9e8dbf3e56f6daae2f27290d1",
+      "scenes": 78,
+      "words": 7138,
+      "max_scene_words": 100
+    },
+    {
+      "path": "data/books/book_xii_canal_19.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "835e891276d261289881856e7ded00736eeba218",
+      "scenes": 78,
+      "words": 7524,
+      "max_scene_words": 100
+    },
+    {
+      "path": "data/books/book_xii_canal_20.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a81305ec10153eb9166bdc9bfd60ed43ea1a25b1",
+      "scenes": 78,
+      "words": 7462,
+      "max_scene_words": 100
+    },
+    {
+      "path": "data/books/book_xii_canal_21.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3bc8367881c986e3a866084e61cee53ad77ffa4e",
+      "scenes": 78,
+      "words": 7555,
+      "max_scene_words": 100
+    },
+    {
+      "path": "data/books/book_xii_canal_22.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8be505778ac1db00eda7770c2d531e7fda8a5fe4",
+      "scenes": 78,
+      "words": 7476,
+      "max_scene_words": 100
+    },
+    {
+      "path": "data/books/book_xii_canal_23.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b2c2e3023e02de235c21cf841c43c94141e8eb5",
+      "scenes": 78,
+      "words": 7544,
+      "max_scene_words": 100
+    },
+    {
+      "path": "data/books/book_xii_canal_24.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a14a6bece7c72a59fbc849043cd5a23edf32c085",
+      "scenes": 78,
+      "words": 7418,
+      "max_scene_words": 100
+    }
+  ]
+}
