@@ -121,6 +121,10 @@ jobs:
             assets/generated/voices/manifest.json
             assets/generated/voices/MODEL_CARD
           key: ${{ steps.narration-cache.outputs.cache-primary-key }}
+      - name: Import completed narration
+        run: |
+          .cache/godot/Godot_v4.7.2-stable_linux.x86_64 --headless --path . --editor --import 2>&1 | tee build/logs/narration-import.log
+          ! rg 'SCRIPT ERROR:|Parse Error:|ERROR:' build/logs/narration-import.log
       - name: Verify intact portraits and audio provenance
         run: python tools/validate_assets.py
       - name: Package a playable Linux build

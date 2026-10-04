@@ -11,10 +11,10 @@ The manuscript exceeds the strict 1,000,001-word target. The independent art quo
 | BOOK III · The river without a shore | 89 | 5,648 |
 | BOOK IV · The orchard of unfinished winters | 38 | 2,937 |
 | BOOK V · The city of borrowed faces | 119 | 10,368 |
-| BOOK IX · The ridge that changed its answer | 94 | 6,017 |
 | BOOK VI · The court above the rain | 784 | 74,932 |
 | BOOK VII · The circle that kept a crossing | 258 | 24,045 |
 | BOOK VIII · The furnace beneath the ash bridge | 299 | 22,218 |
+| BOOK IX · The ridge that changed its answer | 94 | 6,017 |
 | BOOK X · The storm that signed twice | 159 | 11,961 |
 | BOOK XI · Water for the names that stayed | 177 | 12,656 |
 | BOOK XII · The Canal That Could Not Be Sold | 1872 | 166,110 |
