@@ -4,7 +4,7 @@
 
 An original xianxia visual novel built in **Godot 4.7.2**. Lin Yue begins as a mortal kiln worker and earns her cultivation through practice, failures, recovery and independently witnessed trials. Work, evidence and freely made commitments shape the people she meets.
 
-The playable campaign contains **1,124,172 displayed prose words across 12,690 scenes and 17 books**. The count includes alternative playable branches; only dialogue prose counts toward the manuscript. Books XII–XVII are now connected through the campaign manifest, with completed forest, desert and archive closing sequences. [Current manuscript, source review and chapter counts](docs/MILLION_WORD_CONTINUATION.md).
+The playable campaign contains **1,124,653 displayed prose words across 12,696 scenes and 17 books**. The count includes alternative playable branches; only dialogue prose counts toward the manuscript. Books XII–XVII are now connected through the campaign manifest, with completed forest, desert and archive closing sequences. [Current manuscript, source review and chapter counts](docs/MILLION_WORD_CONTINUATION.md).
 
 ![Archive ensemble dialogue](docs/screenshots/archive_ensemble.jpg)
 
@@ -56,7 +56,7 @@ This continuation adds two independently generated originals: a **1536×1024 arc
 
 | Production quota | Delivered | Target |
 |---|---:|---:|
-| Displayed prose words | 1,124,172 | 1,000,001 |
+| Displayed prose words | 1,124,653 | 1,000,001 |
 | Original environments | 28 | 100 |
 | Extra building interiors | 41 | 100 |
 | Human NPC originals | 50 | 500 |

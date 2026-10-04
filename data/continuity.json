@@ -2111,6 +2111,18 @@
         "kiln_end_community",
         "kiln_end_road"
       ]
+    },
+    {
+      "id": "forest_booked_home_visit_before_closure",
+      "statement": "In the eighteenth week, Lin leaves on the second morning, travels two days outward, spends the accepted day with her mother, and travels two days back before the seventh-day closure. Personal leave is not paid commission work. The separate harbor journey starts only after completed work, wages and receiving.",
+      "anchors": [
+        "forest_23_025",
+        "forest_24_leave_002",
+        "forest_24_leave_004",
+        "forest_24_leave_005",
+        "forest_24_leave_006",
+        "forest_24_rejoin"
+      ]
     }
   ],
   "review_policy": "Review each new chapter's chronology, custody, character knowledge, and alternate outcomes before updating this ledger. Structural checks supplement editorial review; they do not prove the absence of all possible plot holes.",
@@ -2822,7 +2834,13 @@
         "forest_24_001",
         "forest_24_002",
         "forest_24_003",
-        "forest_24_004"
+        "forest_24_004",
+        "forest_24_leave_001",
+        "forest_24_leave_002",
+        "forest_24_leave_003",
+        "forest_24_leave_004",
+        "forest_24_leave_005",
+        "forest_24_leave_006"
       ],
       "before": "forest_24_005"
     },

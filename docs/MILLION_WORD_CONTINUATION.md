@@ -1,6 +1,6 @@
 # Playable million-word continuation
 
-The campaign now has **1,124,172 displayed prose words, 12,690 reachable scenes and 17 books**. Previously playable: 190,875 words. This integrates 930,652 previously stored draft words and adds 2645 new words in 39 closing scenes. Only playable node text counts, including alternative branches. One journey does not display every branch.
+The campaign now has **1,124,653 displayed prose words, 12,696 reachable scenes and 17 books**. Previously playable: 190,875 words. This integrates 930,652 previously stored draft words and adds 3126 new words in 45 closing scenes. Only playable node text counts, including alternative branches. One journey does not display every branch.
 
 The manuscript exceeds the strict 1,000,001-word target. The independent art quotas remain unfinished: 50 human originals, 13 spirit-beast originals, 28 original environments and 41 extra interiors.
 
@@ -18,11 +18,11 @@ The manuscript exceeds the strict 1,000,001-word target. The independent art quo
 | BOOK X · The storm that signed twice | 159 | 11,961 |
 | BOOK XI · Water for the names that stayed | 177 | 12,656 |
 | BOOK XII · The Canal That Could Not Be Sold | 1872 | 166,110 |
-| BOOK XIII · The Forest With Two Winters | 1801 | 152,937 |
+| BOOK XIII · The Forest With Two Winters | 1807 | 153,410 |
 | BOOK XIV · The Harbor of Unclaimed Names | 1660 | 158,303 |
 | BOOK XV · The Kiln That Kept Its Ashes | 1691 | 163,806 |
 | BOOK XVI · The Road Beneath the Salt | 1760 | 147,589 |
-| BOOK XVII · The Archive of Ordinary Rain | 1571 | 144,552 |
+| BOOK XVII · The Archive of Ordinary Rain | 1571 | 144,560 |
 
 ## Repairs
 
@@ -136,7 +136,7 @@ The timing defect previously granted practice on choosing to perform a task. Han
 
 ## Closing sequences and attributes
 
-Forest closure receives the housing, food, tools and wages before ordinary departure. Desert closure returns the commission equipment and leaves the guide's actual settlement and clinical care with their local recipients before the northbound application. Archive closure performs the scheduled school lesson and Sun's paid two-sitting reading before the last handover and one possible next post. The new school allocation spends 3 + 2 and retains 5, without reopening the earlier purse.
+Forest closure receives housing and food, completes the booked home visit and return before the seventh-day receiving, and settles tools and wages before a separate harbor departure. Desert closure returns the commission equipment and leaves the guide's actual settlement and clinical care with their local recipients before the northbound application. Archive closure performs the scheduled school lesson and Sun's paid two-sitting reading before the last handover and one possible next post. The new school allocation spends 3 + 2 and retains 5, without reopening the earlier purse.
 
 Each new final decision offers four separately authored trained roles at 10 points, plus qualified support without a gate. Control leads bounded instrument work; comprehension leads source comparison; physique leads cleared ordinary movement; Dao Heart keeps a difficult finite commitment. Outcomes change Lin's role and future work. Scores do not create fuel, heal an injury, award a realm or purchase another person's permission.
 

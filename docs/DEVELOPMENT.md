@@ -74,7 +74,7 @@ Scene effects draw at the current control size. Panels pause their clock; reduce
 
 ## Scope
 
-This draft continues through Book XVII with 1,124,172 displayed prose words. The manuscript target is met; the independent artwork quotas remain incomplete. Narration uses one neural timbre with character pacing. Animation is a gentle whole-body bob of each intact portrait. Additional chapters, voices, and outfit portraits can extend the existing data and asset pipeline.
+This draft continues through Book XVII with 1,124,653 displayed prose words. The manuscript target is met; the independent artwork quotas remain incomplete. Narration uses one neural timbre with character pacing. Animation is a gentle whole-body bob of each intact portrait. Additional chapters, voices, and outfit portraits can extend the existing data and asset pipeline.
 
 ## Extra interior collection
 
@@ -105,3 +105,5 @@ Books X and XI continue all three prior endings while keeping the earned fourth 
 Books XII–XVII now load through the campaign manifest. Run `python -m tools.validate_million_continuation --verify-source` with source commit a90350672fb0468b72fc176b22f3e3876c95febc available. CI fetches that exact source and authenticates 101 choice/transition anchors. It reuses the prior branch's draft narration only after validating every clip against its actual playable text.
 
 Run `godot --headless --path . --script tests/continuation_test.gd` for once-only practice credit, saved completion records, invalid-save atomicity, all five late-role choices, ensemble portrait bounds and layered-motion behavior. New viewport captures are forest_ensemble, lanternwing_crane, desert_attributes, archive_ensemble and archive_courtyard. The feature-branch bundle publishes tested media after the full game job succeeds.
+
+The route traversal now retains nondominated capped score vectors at each scene. Because requirements are minima and effects are nonnegative, a stronger vector can take every choice of a weaker one. The source validator also verifies that the campaign is acyclic, making once-only completion history irrelevant to future route availability. This preserves scene and ending coverage while avoiding repeated traversal of the million-word campaign for weaker score variants. Exact saves, score overflow and corrupt input remain separate engine regressions.
