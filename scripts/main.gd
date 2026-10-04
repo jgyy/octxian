@@ -731,6 +731,10 @@ func _set_outfit(character: String, outfit: String) -> bool:
 	if actor.character == character:
 		actor.show_character(character, actor.motion, outfit)
 		actor.set_reduced_motion(reduced_motion)
+	for companion in stage_companions:
+		if companion.visible and companion.character == character:
+			companion.show_character(character, companion.motion, outfit)
+			companion.set_reduced_motion(reduced_motion)
 	_save_settings()
 	return true
 

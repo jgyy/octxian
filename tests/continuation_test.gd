@@ -53,6 +53,8 @@ func _run() -> void:
 		check(portrait.sprite.texture != null, "Every ensemble member must load native artwork")
 		check(portrait.position.y - portrait.display_height / 2.0 - 12.0 > 112.0, "Ensemble portraits must clear navigation")
 		check(portrait.position.y + portrait.display_height / 2.0 + 12.0 < 580.0, "Ensemble portraits must clear dialogue")
+	game.state.current = "archive_25_rejoin"
+	game._scene()
 	check(game.atmosphere.layers == ["petals", "mist"], "Authored atmosphere layers must render together")
 	game._attributes()
 	var clock: float = game.atmosphere.clock
@@ -63,6 +65,17 @@ func _run() -> void:
 	for portrait in game.stage_companions:
 		check(portrait.reduced_motion and portrait.sprite.position.is_zero_approx(), "Reduced motion must stop all companions")
 	check(not game.atmosphere.enabled, "Reduced motion must suppress every background layer")
+	game.state.current = "first_choice"
+	game._scene()
+	var selected_scene: String = game.state.current
+	var selected_stats: Dictionary = game.state.stats.duplicate()
+	check(game._set_outfit("shen_qing", "festival"), "Companion outfits must be selectable")
+	var companion_updated := false
+	for portrait in [game.actor, game.stage_companions[0], game.stage_companions[1]]:
+		if portrait.visible and portrait.character == "shen_qing":
+			companion_updated = portrait.outfit == "festival"
+	check(companion_updated and game.state.current == selected_scene and game.state.stats == selected_stats, "Companion clothing must update immediately without changing the journey")
+	game._set_outfit("shen_qing", "sect")
 	game._title()
 	check(not game.stage_companions[0].visible and not game.stage_companions[1].visible, "Title must clear prior scene companions")
 	game.audio.music.stop()
