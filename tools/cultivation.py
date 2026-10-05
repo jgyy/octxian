@@ -58,6 +58,10 @@ def validate_delivery(progress, story):
         "remaining_displayed_words": max(0, progress["strict_word_target"] - total),
         "remaining_rewrite_words": max(0, progress["strict_word_target"] - rewritten),
     }
+    if "requested_total_word_target" in progress:
+        if progress["requested_total_word_target"] != 2000000:
+            raise ValueError("Preserve the requested two-million total target")
+        expected["remaining_requested_words"] = max(0, progress["requested_total_word_target"] - total)
     for field, actual in expected.items():
         if progress.get(field) != actual:
             raise ValueError(f"Stale manuscript accounting: {field}")
