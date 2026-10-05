@@ -393,6 +393,12 @@ func _advance() -> void:
 		text_clock = dialogue.get_total_character_count()
 		choice_box.visible = choice_box.get_child_count() > 0
 		return
+	var credit_scene: String = state.current
+	var pending_credit: bool = state.node().has("earned") and not state.completed_practice.has(credit_scene)
+	var gains: PackedStringArray = []
+	if pending_credit:
+		var target: String = str(state.node().get("next", state.node().get("continuation", "")))
+		gains = state.choice_details({"next": target, "effects": state.node().earned}).effects
 	if state.node().has("ending"):
 		if state.node().has("continuation") and state.advance():
 			_scene()
@@ -401,6 +407,8 @@ func _advance() -> void:
 	elif state.advance():
 		audio.effect()
 		_scene()
+	if pending_credit and state.current != credit_scene and state.completed_practice.has(credit_scene) and not gains.is_empty():
+		_toast("Completed practice · " + " · ".join(gains))
 
 func _save() -> void:
 	_toast("Journey saved." if state.save_game() else "Could not write the save file.")
