@@ -484,24 +484,15 @@
       "choices": [
         {
           "text": "Control the isolated replica at your tested allowance.",
-          "next": "ridge_replica_001",
-          "effects": {
-            "qi": 1
-          }
+          "next": "ridge_replica_001"
         },
         {
           "text": "Compare offered glaze fines against the clean control.",
-          "next": "ridge_material_001",
-          "effects": {
-            "insight": 1
-          }
+          "next": "ridge_material_001"
         },
         {
           "text": "Map the foot and pool from the checked inner stones.",
-          "next": "ridge_ground_001",
-          "effects": {
-            "resolve": 1
-          }
+          "next": "ridge_ground_001"
         }
       ]
     },
@@ -607,7 +598,23 @@
         "stage": "4: Second pair"
       },
       "text": "Yue rested while Jiang checked the next-day sensation form. Her command dose, delivery loss and ordinary grip were recorded separately. She had controlled an earned route cleanly. The result counted as useful practice, not an independent fourth-stage examination or a step toward the fifth. The replica waited for another authorized operator to repeat it.",
-      "next": "ridge_findings_001"
+      "next": "ridge_findings_001",
+      "earned": {
+        "qi": 1
+      },
+      "legacy_credit": {
+        "choice_node": "ridge_investigation_choice",
+        "branch_nodes": [
+          "ridge_replica_001",
+          "ridge_replica_002",
+          "ridge_replica_003",
+          "ridge_replica_004",
+          "ridge_replica_005",
+          "ridge_replica_006",
+          "ridge_replica_007",
+          "ridge_replica_008"
+        ]
+      }
     },
     "ridge_material_001": {
       "chapter": "book_ix",
@@ -711,7 +718,23 @@
         "stage": "4: Second pair"
       },
       "text": "The quarry worker asked whether the result would restore his withheld pay. Jiang said the overseer must review that allegation under its own terms; she would send the bounded finding without turning wages into a prize for laboratory success. Yue carried the approved summary to the common table. Her study had sharpened a question, not acquired a furnace inside her hands.",
-      "next": "ridge_findings_001"
+      "next": "ridge_findings_001",
+      "earned": {
+        "insight": 1
+      },
+      "legacy_credit": {
+        "choice_node": "ridge_investigation_choice",
+        "branch_nodes": [
+          "ridge_material_001",
+          "ridge_material_002",
+          "ridge_material_003",
+          "ridge_material_004",
+          "ridge_material_005",
+          "ridge_material_006",
+          "ridge_material_007",
+          "ridge_material_008"
+        ]
+      }
     },
     "ridge_ground_001": {
       "chapter": "book_ix",
@@ -815,7 +838,23 @@
         "stage": "4: Second pair"
       },
       "text": "The ground report returned with heights, closed margins and a request to recover the loose strip through qualified site work. It named no thief. The pool keeper's signals had changed where they stood, not revealed the earlier failure. Yue washed the ordinary measuring cord at the relocated inland washing station, catching the rinse in its basin instead of letting it run toward the pool. She took the dry map to the common comparison.",
-      "next": "ridge_findings_001"
+      "next": "ridge_findings_001",
+      "earned": {
+        "resolve": 1
+      },
+      "legacy_credit": {
+        "choice_node": "ridge_investigation_choice",
+        "branch_nodes": [
+          "ridge_ground_001",
+          "ridge_ground_002",
+          "ridge_ground_003",
+          "ridge_ground_004",
+          "ridge_ground_005",
+          "ridge_ground_006",
+          "ridge_ground_007",
+          "ridge_ground_008"
+        ]
+      }
     },
     "ridge_findings_001": {
       "chapter": "book_ix",

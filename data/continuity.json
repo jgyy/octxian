@@ -2123,6 +2123,72 @@
         "forest_24_leave_006",
         "forest_24_rejoin"
       ]
+    },
+    {
+      "id": "desert_dilemma_origin_scope",
+      "statement": "A sum without an origin: each approach retains an explicit evidence limit and a visible cost; desert_p01_038 still supplies the original next observation, and preferences grant no immediate growth.",
+      "anchors": [
+        "desert_dilemma_origin",
+        "desert_dilemma_origin_1",
+        "desert_dilemma_origin_2",
+        "desert_dilemma_origin_3",
+        "desert_p01_038"
+      ]
+    },
+    {
+      "id": "desert_dilemma_causeway_scope",
+      "statement": "The price of waiting: each approach retains an explicit evidence limit and a visible cost; desert_p03_064 still supplies the original next observation, and preferences grant no immediate growth.",
+      "anchors": [
+        "desert_dilemma_causeway",
+        "desert_dilemma_causeway_1",
+        "desert_dilemma_causeway_2",
+        "desert_dilemma_causeway_3",
+        "desert_p03_064"
+      ]
+    },
+    {
+      "id": "desert_dilemma_exchange_scope",
+      "statement": "Two drawings, one inspection: each approach retains an explicit evidence limit and a visible cost; desert_p08_001 still supplies the original next observation, and preferences grant no immediate growth.",
+      "anchors": [
+        "desert_dilemma_exchange",
+        "desert_dilemma_exchange_1",
+        "desert_dilemma_exchange_2",
+        "desert_dilemma_exchange_3",
+        "desert_p08_001"
+      ]
+    },
+    {
+      "id": "desert_dilemma_grille_scope",
+      "statement": "The unreadable column: each approach retains an explicit evidence limit and a visible cost; desert_p08_045 still supplies the original next observation, and preferences grant no immediate growth.",
+      "anchors": [
+        "desert_dilemma_grille",
+        "desert_dilemma_grille_1",
+        "desert_dilemma_grille_2",
+        "desert_dilemma_grille_3",
+        "desert_p08_045"
+      ]
+    },
+    {
+      "id": "desert_dilemma_warning_scope",
+      "statement": "A warning that can travel wrongly: each approach retains an explicit evidence limit and a visible cost; desert_p11_053 still supplies the original next observation, and preferences grant no immediate growth.",
+      "anchors": [
+        "desert_dilemma_warning",
+        "desert_dilemma_warning_1",
+        "desert_dilemma_warning_2",
+        "desert_dilemma_warning_3",
+        "desert_p11_053"
+      ]
+    },
+    {
+      "id": "desert_dilemma_collateral_scope",
+      "statement": "A reserve that belongs to people: each approach retains an explicit evidence limit and a visible cost; desert_p13_010 still supplies the original next observation, and preferences grant no immediate growth.",
+      "anchors": [
+        "desert_dilemma_collateral",
+        "desert_dilemma_collateral_1",
+        "desert_dilemma_collateral_2",
+        "desert_dilemma_collateral_3",
+        "desert_p13_010"
+      ]
     }
   ],
   "review_policy": "Review each new chapter's chronology, custody, character knowledge, and alternate outcomes before updating this ledger. Structural checks supplement editorial review; they do not prove the absence of all possible plot holes.",
@@ -2864,6 +2930,54 @@
         "archive_25_005"
       ],
       "before": "archive_25_006"
+    },
+    {
+      "id": "desert_dilemma_origin_before_observation",
+      "required": [
+        "desert_p01_037",
+        "desert_dilemma_origin"
+      ],
+      "before": "desert_p01_038"
+    },
+    {
+      "id": "desert_dilemma_causeway_before_observation",
+      "required": [
+        "desert_p03_063",
+        "desert_dilemma_causeway"
+      ],
+      "before": "desert_p03_064"
+    },
+    {
+      "id": "desert_dilemma_exchange_before_observation",
+      "required": [
+        "desert_p07_073",
+        "desert_dilemma_exchange"
+      ],
+      "before": "desert_p08_001"
+    },
+    {
+      "id": "desert_dilemma_grille_before_observation",
+      "required": [
+        "desert_p08_044",
+        "desert_dilemma_grille"
+      ],
+      "before": "desert_p08_045"
+    },
+    {
+      "id": "desert_dilemma_warning_before_observation",
+      "required": [
+        "desert_p11_052",
+        "desert_dilemma_warning"
+      ],
+      "before": "desert_p11_053"
+    },
+    {
+      "id": "desert_dilemma_collateral_before_observation",
+      "required": [
+        "desert_p13_009",
+        "desert_dilemma_collateral"
+      ],
+      "before": "desert_p13_010"
     }
   ]
 }
