@@ -1,8 +1,10 @@
 # Playable million-word continuation
 
-The campaign now has **1,124,725 displayed prose words, 12,697 reachable scenes and 17 books**. Previously playable: 190,875 words. This integrates 930,652 previously stored draft words and adds 3,198 new words in 46 closing scenes. Only playable node text counts, including alternative branches. One journey does not display every branch.
+The campaign now has **1,126,752 displayed prose words, 12,721 reachable scenes and 17 books**. The [2026-10-05 narrative revision](NARRATIVE_REVISION_20261005.md) added 2,027 words in 24 scenes, six harder decisions, 101 additional causality repairs and three Bitter Wells originals.
 
-The manuscript exceeds the strict 1,000,001-word target. The independent art quotas remain unfinished: 50 human originals, 13 spirit-beast originals, 28 original environments and 41 extra interiors.
+The 2026-10-04 integration reached 1,124,725 words. Previously playable: 190,875 words. This integrates 930,652 previously stored draft words and adds 3,198 new words in 46 closing scenes. Only playable node text counts, including alternative branches. One journey does not display every branch.
+
+The manuscript exceeds the strict 1,000,001-word target. The independent art quotas remain unfinished: 51 human originals, 13 spirit-beast originals, 31 original environments and 41 extra interiors.
 
 | Book | Playable scenes | Displayed prose words |
 |---|---:|---:|
@@ -21,7 +23,7 @@ The manuscript exceeds the strict 1,000,001-word target. The independent art quo
 | BOOK XIII · The Forest With Two Winters | 1807 | 153,410 |
 | BOOK XIV · The Harbor of Unclaimed Names | 1660 | 158,303 |
 | BOOK XV · The Kiln That Kept Its Ashes | 1691 | 163,806 |
-| BOOK XVI · The Road Beneath the Salt | 1760 | 147,589 |
+| BOOK XVI · The Road Beneath the Salt | 1784 | 149,616 |
 | BOOK XVII · The Archive of Ordinary Rain | 1572 | 144,632 |
 
 ## Repairs
