@@ -1,0 +1,3084 @@
+{
+  "source_base": "c2f148d5b7c0bc22a19f93439d45fdfa1df28b63",
+  "repair_sites": 100,
+  "root_causes": [
+    "Growth paid before the selected branch's performed consequence"
+  ],
+  "save_rule_revision": 2,
+  "repairs": [
+    {
+      "id": "extra-causality-001",
+      "node_id": "first_choice",
+      "choice_index": 0,
+      "path": "data/story.json",
+      "before": {
+        "text": "Test the jade in the grounded cradle.",
+        "next": "trust",
+        "effects": {
+          "trust": 2,
+          "qi": 1
+        }
+      },
+      "after": {
+        "text": "Test the jade in the grounded cradle.",
+        "next": "trust"
+      },
+      "completion_node": "trust",
+      "completion_path": "data/story.json",
+      "completion_text": "Yue placed the jade in the cradle. Qing let her direct the small release trace she had practiced for weeks, then supplied the array's required fuel from a separate stone. The jade stopped trembling. 'Good closure,' Qing said. 'The memory response came from the object. The controlled trace came from you. Keep both measurements separate.' Yue retrieved the pendant before they left the gate.",
+      "earned": {
+        "trust": 2,
+        "qi": 1
+      },
+      "branch": [
+        "trust"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-002",
+      "node_id": "first_choice",
+      "choice_index": 1,
+      "path": "data/story.json",
+      "before": {
+        "text": "Read the gate's damaged pressure gauge.",
+        "next": "question",
+        "effects": {
+          "insight": 2
+        }
+      },
+      "after": {
+        "text": "Read the gate's damaged pressure gauge.",
+        "next": "question"
+      },
+      "completion_node": "question",
+      "completion_path": "data/story.json",
+      "completion_text": "The gauge recorded rising pressure from the mountain's lifting array. 'Our founder bound a living star below the reservoir,' Qing said. 'The array has drawn from it for nine hundred years. Three nights ago the return circuit stopped balancing the intake.' Yue read the rated load on the plate. Her own reserve would not move its smallest main valve. Finding the release path would matter more.",
+      "earned": {
+        "insight": 2
+      },
+      "branch": [
+        "question"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-003",
+      "node_id": "first_choice",
+      "choice_index": 2,
+      "path": "data/story.json",
+      "before": {
+        "text": "Keep the jade wrapped until its circuit is explained.",
+        "next": "guard",
+        "effects": {
+          "trust": 2
+        }
+      },
+      "after": {
+        "text": "Keep the jade wrapped until its circuit is explained.",
+        "next": "guard"
+      },
+      "completion_node": "guard",
+      "completion_path": "data/story.json",
+      "completion_text": "Yue kept the pendant wrapped. 'I will not connect it to a circuit whose closure I do not understand.' Qing nodded and opened the ordinary stair gate instead. 'Then we use the gauges until Yun explains the cradle. Keep your qi inside the load you have tested. Strange light in this corridor belongs to the field; it is not evidence that your realm has changed.'",
+      "earned": {
+        "trust": 2
+      },
+      "branch": [
+        "guard"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-004",
+      "node_id": "cultivation_choice",
+      "choice_index": 0,
+      "path": "data/story.json",
+      "before": {
+        "text": "Calibrate the small relay at your safe load.",
+        "next": "breath",
+        "effects": {
+          "qi": 3
+        }
+      },
+      "after": {
+        "text": "Calibrate the small relay at your safe load.",
+        "next": "breath"
+      },
+      "completion_node": "breath",
+      "completion_path": "data/story.json",
+      "completion_text": "Yue used the grounded practice wick from her examination. She admitted a trace, closed it and measured the release three times. Qing adjusted a relay so its input would trip below Yue's safe load. The preparation improved her familiarity with this circuit. Her lower dantian remained the same small reservoir she had brought up the stairs. She had earned a safer task, not another stage.",
+      "earned": {
+        "qi": 3
+      },
+      "branch": [
+        "breath"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-005",
+      "node_id": "cultivation_choice",
+      "choice_index": 1,
+      "path": "data/story.json",
+      "before": {
+        "text": "Compare the release inscription with the old plan.",
+        "next": "inscription",
+        "effects": {
+          "insight": 3
+        }
+      },
+      "after": {
+        "text": "Compare the release inscription with the old plan.",
+        "next": "inscription"
+      },
+      "completion_node": "inscription",
+      "completion_path": "data/story.json",
+      "completion_text": "Yue compared the founder's drawing to the array plate. The exit stroke ended short of its grounding mark, exactly where her first ordinary ink copies had failed. 'The shelter circuit was altered to hold its source,' she said. Yun checked her reading against the older rubbing. Her useful discovery came from a month of dull pages that had never once shone.",
+      "earned": {
+        "insight": 3
+      },
+      "branch": [
+        "inscription"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-006",
+      "node_id": "cultivation_choice",
+      "choice_index": 2,
+      "path": "data/story.json",
+      "before": {
+        "text": "Rehearse the marked evacuation path.",
+        "next": "sword",
+        "effects": {
+          "resolve": 3
+        }
+      },
+      "after": {
+        "text": "Rehearse the marked evacuation path.",
+        "next": "sword"
+      },
+      "completion_node": "sword",
+      "completion_path": "data/story.json",
+      "completion_text": "Yue walked the evacuation path with her ordinary blade sheathed. She checked the rail, the turn where two people could not pass and the signal for stopping the descent. Sword drills had taught her to move without crossing her feet. Today that skill would help someone follow her in darkness. The blade would not cut an ancient main seal. She marked the safe turn with white chalk.",
+      "earned": {
+        "resolve": 3
+      },
+      "branch": [
+        "sword"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-007",
+      "node_id": "listen_choice",
+      "choice_index": 0,
+      "path": "data/story.json",
+      "before": {
+        "text": "Ask the exile what the star wants.",
+        "next": "star_wants",
+        "effects": {
+          "insight": 3
+        }
+      },
+      "after": {
+        "text": "Ask the exile what the star wants.",
+        "next": "star_wants"
+      },
+      "completion_node": "star_wants",
+      "completion_path": "data/story.json",
+      "completion_text": "'It wants rest and a way to leave,' Mo Ran said. 'I asked through the conduit, then repeated the answer so it could correct me. It did. It does not want the village crushed as the price of leaving.' He pointed to the dormant support anchors on the plan. 'We may have an exit for everyone, if we stop treating the current arrangement as the only possible one.'",
+      "earned": {
+        "insight": 3
+      },
+      "branch": [
+        "star_wants"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-008",
+      "node_id": "listen_choice",
+      "choice_index": 1,
+      "path": "data/story.json",
+      "before": {
+        "text": "Ask Shen Qing who he is protecting.",
+        "next": "protection",
+        "effects": {
+          "trust": 3
+        }
+      },
+      "after": {
+        "text": "Ask Shen Qing who he is protecting.",
+        "next": "protection"
+      },
+      "completion_node": "protection",
+      "completion_path": "data/story.json",
+      "completion_text": "'Three hundred disciples and the village under the field,' Qing said. 'Most disciples are Body Tempering or early Qi Gathering. Counting names does not give us three hundred equal fuel sources. We need rated relays, independent stones, rest rotations and a closure if anyone withdraws. I have been guarding this gate for eleven years. I should have practiced the exit before tonight.'",
+      "earned": {
+        "trust": 3
+      },
+      "branch": [
+        "protection"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-009",
+      "node_id": "listen_choice",
+      "choice_index": 2,
+      "path": "data/story.json",
+      "before": {
+        "text": "Ask Elder Yun why she waited.",
+        "next": "waiting",
+        "effects": {
+          "trust": 3
+        }
+      },
+      "after": {
+        "text": "Ask Elder Yun why she waited.",
+        "next": "waiting"
+      },
+      "completion_node": "waiting",
+      "completion_path": "data/story.json",
+      "completion_text": "'Your mother reached the lake and helped the star survive another season,' Yun said. 'I accepted that postponement as if it were a repair. Her technique cost years of recovery she never regained. She brought back the jade and told me to change the seal. I kept the mountain running. Fear can look like duty while somebody else pays its cultivation cost.'",
+      "earned": {
+        "trust": 3
+      },
+      "branch": [
+        "waiting"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-010",
+      "node_id": "final_choice",
+      "choice_index": 0,
+      "path": "data/story.json",
+      "before": {
+        "text": "Coordinate support through rated willing relays.",
+        "next": "shared",
+        "effects": {
+          "trust": 1
+        },
+        "requires": {
+          "qi": 3
+        }
+      },
+      "after": {
+        "text": "Coordinate support through rated willing relays.",
+        "next": "shared",
+        "requires": {
+          "qi": 3
+        }
+      },
+      "completion_node": "shared",
+      "completion_path": "data/story.json",
+      "completion_text": "'Use my relay only within its tested load,' Yue said. Qing connected the separately fueled support branches; she supplied one small closure pulse. Yun restored only the lower source draw the star had confirmed, with its manual escape and stop signal available. Yue stopped at the relay's scheduled limit. Each willing operator had a rated turn and a replacement. Before dusk, the sect would review the auxiliary fuel instead of calling three hundred volunteers an inexhaustible supply.",
+      "earned": {
+        "trust": 1
+      },
+      "branch": [
+        "shared"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-011",
+      "node_id": "final_choice",
+      "choice_index": 1,
+      "path": "data/story.json",
+      "before": {
+        "text": "Help repair the covenant's missing release.",
+        "next": "covenant",
+        "effects": {
+          "insight": 1
+        },
+        "requires": {
+          "insight": 3
+        }
+      },
+      "after": {
+        "text": "Help repair the covenant's missing release.",
+        "next": "covenant",
+        "requires": {
+          "insight": 3
+        }
+      },
+      "completion_node": "covenant",
+      "completion_path": "data/story.json",
+      "completion_text": "Yue showed where the missing release stroke met the grounding mark. Yun inscribed it with established core control; Qing tested the exit. Engineers measured additional sect-reserve charge for the star's interval outside until sunset, retaining enough for a controlled landing. Operators accepted those bounded turns. If the star declined return, landing would begin before the reserve floor. The covenant preserved the star's departure choice. Yue's understanding let her assist; the carving power and support fuel came from elsewhere.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "covenant"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-012",
+      "node_id": "final_choice",
+      "choice_index": 2,
+      "path": "data/story.json",
+      "before": {
+        "text": "Signal the mountain's controlled landing.",
+        "next": "release",
+        "effects": {
+          "trust": 1
+        },
+        "requires": {
+          "insight": 3
+        }
+      },
+      "after": {
+        "text": "Signal the mountain's controlled landing.",
+        "next": "release",
+        "requires": {
+          "insight": 3
+        }
+      },
+      "completion_node": "release",
+      "completion_path": "data/story.json",
+      "completion_text": "Yue followed the marked evacuation route to the landing console. Qing and Yun sequenced the earthward anchors while Mo Ran kept the return load below his injury limit. The ordinary sword stayed sheathed. Yue carried a signal between sheltered stations and watched the descent by measured stages. The already isolated source intake stayed closed. Only after the supports secured the mountain on earth did Yun retire the temporary lifting anchors. The star departed through the open conduit without bearing the landing load.",
+      "earned": {
+        "trust": 1
+      },
+      "branch": [
+        "release"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-013",
+      "node_id": "final_choice",
+      "choice_index": 3,
+      "path": "data/story.json",
+      "before": {
+        "text": "Call the trained emergency teams together.",
+        "next": "together",
+        "effects": {
+          "trust": 2
+        }
+      },
+      "after": {
+        "text": "Call the trained emergency teams together.",
+        "next": "together"
+      },
+      "completion_node": "together",
+      "completion_path": "data/story.json",
+      "completion_text": "Qing called the established emergency teams. Yue read the corrected release sheet aloud while Yun opened the separately fueled support branches. Operators accepted or declined rated turns and kept the grounding path available. After the branches stabilized, Yun restored only the star's confirmed lower draw, retaining its stop signal and manual escape. Yue remained outside the main load. Asking for help had not advanced her realm. It had kept her limited capacity inside a workable plan.",
+      "earned": {
+        "trust": 2
+      },
+      "branch": [
+        "together"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-014",
+      "node_id": "lantern_hub",
+      "choice_index": 0,
+      "path": "data/story.json",
+      "before": {
+        "text": "Follow the ferry and find who moved the boundary.",
+        "next": "ferry_departure",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Follow the ferry and find who moved the boundary.",
+        "next": "ferry_departure"
+      },
+      "completion_node": "ferry_warning",
+      "completion_path": "data/story.json",
+      "completion_text": "A lever and two ferry capstans can raise the stone without rotating it. My crews know the lifting load. Su Lan knows the ward's isolation latch. Your qi can test its small relay through a rated adapter, if your blank stays stable. The stone's shelter runs on buried fuel, not your body. Turning it too quickly could expose the winter pans even if every rope holds.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "ferry_departure",
+        "ferry_price",
+        "ferry_mark",
+        "ferry_water",
+        "ferry_discovery",
+        "ferry_warning"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-015",
+      "node_id": "lantern_hub",
+      "choice_index": 1,
+      "path": "data/story.json",
+      "before": {
+        "text": "Enter the marsh and listen to the accused spirit.",
+        "next": "reed_approach",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Enter the marsh and listen to the accused spirit.",
+        "next": "reed_approach"
+      },
+      "completion_node": "reed_hunger",
+      "completion_path": "data/story.json",
+      "completion_text": "One nest trembled. A child's handwriting appeared on its tablet, then faded. The Listener lowered its head. Every name it sheltered cost a memory of its own. It no longer remembered whether it had once been a crane, a reed, or the first sound a ferryman heard on the lake. Its refuge would not survive another winter.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "reed_approach",
+        "reed_old_wound",
+        "reed_nest",
+        "reed_voice",
+        "reed_question",
+        "reed_answer",
+        "reed_hunger"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-016",
+      "node_id": "lantern_hub",
+      "choice_index": 2,
+      "path": "data/story.json",
+      "before": {
+        "text": "Visit the archive and trace the missing names.",
+        "next": "archive_door",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Visit the archive and trace the missing names.",
+        "next": "archive_door"
+      },
+      "completion_node": "archive_question",
+      "completion_path": "data/story.json",
+      "completion_text": "He has made generosity look like a failed bargain. We can expose the full ledger, restore the exceptions first, or ask each household what it permits us to reveal. There is no clean page waiting behind these pages. There are only people who have to live together after we put the book down.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "archive_door",
+        "archive_copies",
+        "archive_ancestry",
+        "archive_dilemma",
+        "archive_reading",
+        "archive_question"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-017",
+      "node_id": "ferry_choice",
+      "choice_index": 0,
+      "path": "data/story.json",
+      "before": {
+        "text": "Raise the stone publicly, keeping its protective ward intact.",
+        "next": "ferry_raise",
+        "effects": {
+          "qi": 2
+        }
+      },
+      "after": {
+        "text": "Raise the stone publicly, keeping its protective ward intact.",
+        "next": "ferry_raise"
+      },
+      "completion_node": "ferry_raise_cost",
+      "completion_path": "data/story.json",
+      "completion_text": "Capstans creaked and the hidden inscription broke the surface. Lin Yue's small pulse crossed the adapter; its reference showed the ward still drawing from the buried stones. She discharged before the crews changed the rope load. Salt caught an existing crack in her glove and stung her palm. She replaced the glove and stopped testing. Across the lake, workers copied both exposed clauses while Su Lan maintained the latch.",
+      "earned": {
+        "qi": 2
+      },
+      "branch": [
+        "ferry_raise",
+        "ferry_raise_cost"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-018",
+      "node_id": "ferry_choice",
+      "choice_index": 1,
+      "path": "data/story.json",
+      "before": {
+        "text": "Ask the boat crews to share the ward, one willing crew at a time.",
+        "next": "ferry_share",
+        "effects": {
+          "trust": 2
+        }
+      },
+      "after": {
+        "text": "Ask the boat crews to share the ward, one willing crew at a time.",
+        "next": "ferry_share"
+      },
+      "completion_node": "ferry_share_cost",
+      "completion_path": "data/story.json",
+      "completion_text": "Five crews offered oil, two ropes, and three refused because winter had emptied their stores. Su Lan recorded each answer and mapped the gaps before changing any ward link. The crews fueled a temporary shelter with separately inspected stones; the unconnected shore remained protected by the existing arrangement. Lin Yue tested one low-load relay, then stopped. Her finite field could measure an allowed connection; it could not cover the missing shore.",
+      "earned": {
+        "trust": 2
+      },
+      "branch": [
+        "ferry_share",
+        "ferry_share_cost"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-019",
+      "node_id": "ferry_choice",
+      "choice_index": 2,
+      "path": "data/story.json",
+      "before": {
+        "text": "Mark the boundary and let the village vote after seeing it.",
+        "next": "ferry_wait",
+        "effects": {
+          "insight": 2
+        }
+      },
+      "after": {
+        "text": "Mark the boundary and let the village vote after seeing it.",
+        "next": "ferry_wait"
+      },
+      "completion_node": "ferry_wait_cost",
+      "completion_path": "data/story.json",
+      "completion_text": "They anchored three lanterns around the stone and drew its position on the map. The ferryman returned without reclaiming a single pan. At the landing, a worker called them useless. Su Lan handed her the map and listened until the anger had a shape. By midnight, the workers had planned a crossing of their own.",
+      "earned": {
+        "insight": 2
+      },
+      "branch": [
+        "ferry_wait",
+        "ferry_wait_cost"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-020",
+      "node_id": "reed_choice",
+      "choice_index": 0,
+      "path": "data/story.json",
+      "before": {
+        "text": "Escort the tablets under the Listener's protection.",
+        "next": "reed_escort",
+        "effects": {
+          "resolve": 2
+        }
+      },
+      "after": {
+        "text": "Escort the tablets under the Listener's protection.",
+        "next": "reed_escort"
+      },
+      "completion_node": "reed_escort_cost",
+      "completion_path": "data/story.json",
+      "completion_text": "They carried the paper nests on a reed litter. At the shrine gate, a patrol demanded proof that the tablets belonged to living households. Lin Yue set her sword on the earth and asked the patrol captain to bring those households instead. The captain hesitated long enough for Su Lan to recognize him as a boy she had taught to read.",
+      "earned": {
+        "resolve": 2
+      },
+      "branch": [
+        "reed_escort",
+        "reed_escort_cost"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-021",
+      "node_id": "reed_choice",
+      "choice_index": 1,
+      "path": "data/story.json",
+      "before": {
+        "text": "Study the bell's command together and change its boundary.",
+        "next": "reed_rewrite",
+        "effects": {
+          "insight": 2
+        }
+      },
+      "after": {
+        "text": "Study the bell's command together and change its boundary.",
+        "next": "reed_rewrite"
+      },
+      "completion_node": "reed_rewrite_cost",
+      "completion_path": "data/story.json",
+      "completion_text": "The Listener tapped a rhythm on an unpowered shrine tile. Su Lan copied it into a blank test strip, safely separated from the nests. The first simulation rejected its dummy name; the second overfilled its small fuel channel. Lin Yue grounded the strip and stopped. At the third, Su Lan left a pause for the spoken reply. The simulation accepted it without drawing more than its allotted stone charge. No real tablet had been risked.",
+      "earned": {
+        "insight": 2
+      },
+      "branch": [
+        "reed_rewrite",
+        "reed_rewrite_cost"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-022",
+      "node_id": "reed_choice",
+      "choice_index": 2,
+      "path": "data/story.json",
+      "before": {
+        "text": "Bring the families here so each can reclaim their own name.",
+        "next": "reed_families",
+        "effects": {
+          "trust": 2
+        }
+      },
+      "after": {
+        "text": "Bring the families here so each can reclaim their own name.",
+        "next": "reed_families"
+      },
+      "completion_node": "reed_families_cost",
+      "completion_path": "data/story.json",
+      "completion_text": "The families arrived with lanterns, food, and two farm hooks carried as weapons. A child asked whether the Listener ate fish. An old man asked why it had not explained itself sooner. The creature could answer only one question at a time. Lin Yue stayed beside the sheltered nests until dawn, learning how long a safe meeting could take.",
+      "earned": {
+        "trust": 2
+      },
+      "branch": [
+        "reed_families",
+        "reed_families_cost"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-023",
+      "node_id": "archive_choice",
+      "choice_index": 0,
+      "path": "data/story.json",
+      "before": {
+        "text": "Publish the original land clauses and every condition, preserving private debts.",
+        "next": "archive_publish",
+        "effects": {
+          "trust": 2
+        }
+      },
+      "after": {
+        "text": "Publish the original land clauses and every condition, preserving private debts.",
+        "next": "archive_publish"
+      },
+      "completion_node": "archive_publish_cost",
+      "completion_path": "data/story.json",
+      "completion_text": "An Ru wrapped the ledger in oilcloth. Su Lan stopped at a page bearing her husband's mark and stood very still. It recorded a loan she had never known he made. The discovery did not diminish the years they had shared, but it changed their edges. Truth had arrived as grief before it could become evidence.",
+      "earned": {
+        "trust": 2
+      },
+      "branch": [
+        "archive_publish",
+        "archive_publish_cost"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-024",
+      "node_id": "archive_choice",
+      "choice_index": 1,
+      "path": "data/story.json",
+      "before": {
+        "text": "Build a comparison showing exactly which exceptions were removed.",
+        "next": "archive_compare",
+        "effects": {
+          "insight": 2
+        }
+      },
+      "after": {
+        "text": "Build a comparison showing exactly which exceptions were removed.",
+        "next": "archive_compare"
+      },
+      "completion_node": "archive_compare_cost",
+      "completion_path": "data/story.json",
+      "completion_text": "They copied until the kettle went cold. Twice Lin Yue read a clause too quickly; twice An Ru made her start again. One exception favored the magistrate's own house, whose winter roof had been rebuilt without charge. Su Lan insisted they preserve that line too. A fair ledger could not begin by finding a new household to erase.",
+      "earned": {
+        "insight": 2
+      },
+      "branch": [
+        "archive_compare",
+        "archive_compare_cost"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-025",
+      "node_id": "archive_choice",
+      "choice_index": 2,
+      "path": "data/story.json",
+      "before": {
+        "text": "Ask the households to choose what may be read in public.",
+        "next": "archive_consent",
+        "effects": {
+          "trust": 2
+        }
+      },
+      "after": {
+        "text": "Ask the households to choose what may be read in public.",
+        "next": "archive_consent"
+      },
+      "completion_node": "archive_consent_cost",
+      "completion_path": "data/story.json",
+      "completion_text": "Seven households permitted every page. Six permitted the land records but kept their debts private. Four asked An Ru to read for them. Two refused. Lin Yue wanted to argue with the last two until Su Lan pointed out how closely her helpful speech resembled the magistrate's offer of mercy.",
+      "earned": {
+        "trust": 2
+      },
+      "branch": [
+        "archive_consent",
+        "archive_consent_cost"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-026",
+      "node_id": "river_approach_choice",
+      "choice_index": 0,
+      "path": "data/story.json",
+      "before": {
+        "text": "Let Mo Ran identify himself and offer his receipt.",
+        "next": "river_call",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Let Mo Ran identify himself and offer his receipt.",
+        "next": "river_call"
+      },
+      "completion_node": "river_call_answer",
+      "completion_path": "data/story.json",
+      "completion_text": "The bronze rings beneath the ferry turned toward their boat. A shape rose between them, narrow-headed and long enough to curl twice around the stern. No voice played from the receipt. Mo Ran held it flat until rain threatened the ink; then Wei Xiu put a bowl over his hands. The spirit watched that small shelter before approaching.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "river_call",
+        "river_call_answer"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-027",
+      "node_id": "river_approach_choice",
+      "choice_index": 1,
+      "path": "data/story.json",
+      "before": {
+        "text": "Survey the circuit with Wei Xiu before speaking.",
+        "next": "river_survey",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Survey the circuit with Wei Xiu before speaking.",
+        "next": "river_survey"
+      },
+      "completion_node": "river_survey_answer",
+      "completion_path": "data/story.json",
+      "completion_text": "Wei Xiu laid three floating reeds across the current and timed their passage. The ferry slowed before every net marker, then hastened toward the vanished stair. Beneath its hull, bronze rings turned against the flow. A long slate body rose into view. Lin Yue saw the strain in its fins and lowered the sword she had not meant to draw.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "river_survey",
+        "river_survey_answer"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-028",
+      "node_id": "river_approach_choice",
+      "choice_index": 2,
+      "path": "data/story.json",
+      "before": {
+        "text": "Listen at the boundary without crossing it.",
+        "next": "river_listen",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Listen at the boundary without crossing it.",
+        "next": "river_listen"
+      },
+      "completion_node": "river_listen_answer",
+      "completion_path": "data/story.json",
+      "completion_text": "They waited through a circuit. The first ring sounded over empty water; the second trembled without striking the hull. Between them came a breath like rain caught in a gutter. Lin Yue asked whether the keeper could hear her. A narrow head surfaced beyond the ward, and an amber eye regarded the ordinary boat without crossing its side.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "river_listen",
+        "river_listen_answer"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-029",
+      "node_id": "river_resolution_choice",
+      "choice_index": 0,
+      "path": "data/story.json",
+      "before": {
+        "text": "Negotiate a new return place with the owner and spirit.",
+        "next": "river_return_terms",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Negotiate a new return place with the owner and spirit.",
+        "next": "river_return_terms"
+      },
+      "completion_node": "return_custodian",
+      "completion_path": "data/story.json",
+      "completion_text": "I will be the first contact at this landing. An Ru will keep the record; neither of us can replace the owner. If I leave or die, the work must pass through an explicit acceptance, not through my house keys. I learned that from the bell. A person can refuse a duty they inherit without abandoning the people who depend on it.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "river_return_terms",
+        "return_berth",
+        "return_cost",
+        "return_unknown",
+        "return_limit",
+        "return_custodian"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-030",
+      "node_id": "river_resolution_choice",
+      "choice_index": 1,
+      "path": "data/story.json",
+      "before": {
+        "text": "Survey a replacement stair with the pilot.",
+        "next": "river_stair_terms",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Survey a replacement stair with the pilot.",
+        "next": "river_stair_terms"
+      },
+      "completion_node": "stair_money",
+      "completion_path": "data/story.json",
+      "completion_text": "The shrine has maintenance money held through winter. Its terms cover ferry access for visitors. They do not cover every repair we can describe as kind. I will ask the household meeting to authorize the part serving that access. Mo Ran can pay for the separate receiving case. The rest must be named before a worker picks up a saw.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "river_stair_terms",
+        "stair_soundings",
+        "stair_luofen",
+        "stair_measure",
+        "stair_alternative",
+        "stair_tradeoff",
+        "stair_money"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-031",
+      "node_id": "river_resolution_choice",
+      "choice_index": 2,
+      "path": "data/story.json",
+      "before": {
+        "text": "Arrange a temporary harbor while every owner is contacted.",
+        "next": "river_harbor_terms",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Arrange a temporary harbor while every owner is contacted.",
+        "next": "river_harbor_terms"
+      },
+      "completion_node": "harbor_shortage",
+      "completion_path": "data/story.json",
+      "completion_text": "I can work, but I cannot promise that my hands replace a trained pilot. I can also give the money I set aside for going somewhere no one knows me. I had imagined that journey as freedom. Spending part of it here may be freedom too. Spending it all would leave me dependent on people who might prefer my gratitude to my answer.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "river_harbor_terms",
+        "harbor_site",
+        "harbor_rules",
+        "harbor_spirit",
+        "harbor_sulan",
+        "harbor_budget",
+        "harbor_shortage"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-032",
+      "node_id": "return_safety_choice",
+      "choice_index": 0,
+      "path": "data/story.json",
+      "before": {
+        "text": "Return the sealed case now; Mo Ran decides when to open it.",
+        "next": "return_now",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Return the sealed case now; Mo Ran decides when to open it.",
+        "next": "return_now"
+      },
+      "completion_node": "return_now_cost",
+      "completion_path": "data/story.json",
+      "completion_text": "An Ru found a clean reed case in her satchel. Mo Ran held it between both hands while the Eel touched its rim with a bronze ring. No voice escaped. The case grew heavier by less than a mouthful of water. Lin Yue signed the return line and noticed how little ink it took to make a boundary that people had spent eleven years avoiding.",
+      "earned": {
+        "trust": 1
+      },
+      "branch": [
+        "return_now",
+        "return_now_cost"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-033",
+      "node_id": "return_safety_choice",
+      "choice_index": 1,
+      "path": "data/story.json",
+      "before": {
+        "text": "Reserve a supported watch and a date to reconsider.",
+        "next": "return_later",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Reserve a supported watch and a date to reconsider.",
+        "next": "return_later"
+      },
+      "completion_node": "return_later_cost",
+      "completion_path": "data/story.json",
+      "completion_text": "They arranged the watch before accepting payment. Two crew members volunteered; a third declined because her father needed care. Wei Xiu wrote a replacement turn herself. The Eel brought the ring to the sheltered side of the marker and rested. On the eighth day, Mo Ran received the sealed case. Nobody applauded. A crew member handed him a bowl of rice that had gone cold.",
+      "earned": {
+        "trust": 1
+      },
+      "branch": [
+        "return_later",
+        "return_later_cost"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-034",
+      "node_id": "stair_funding_choice",
+      "choice_index": 0,
+      "path": "data/story.json",
+      "before": {
+        "text": "Build in paid stages, keeping an interim berth open.",
+        "next": "stair_stages",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Build in paid stages, keeping an interim berth open.",
+        "next": "stair_stages"
+      },
+      "completion_node": "stair_stages_cost",
+      "completion_path": "data/story.json",
+      "completion_text": "The first stage took six days. Lin Yue carried boards; Mo Ran sorted pegs; Luo Fen sent a crooked joint back three times. Wei Xiu kept the ordinary boats running from the temporary berth. At sunset she paid the workers in a line that moved more slowly than any sword lesson. Nobody described the extra days as failure. They described whose turn came tomorrow.",
+      "earned": {
+        "trust": 1
+      },
+      "branch": [
+        "stair_stages",
+        "stair_stages_cost"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-035",
+      "node_id": "stair_funding_choice",
+      "choice_index": 1,
+      "path": "data/story.json",
+      "before": {
+        "text": "Negotiate the advance with a fixed repayment ceiling.",
+        "next": "stair_advance",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Negotiate the advance with a fixed repayment ceiling.",
+        "next": "stair_advance"
+      },
+      "completion_node": "stair_advance_cost",
+      "completion_path": "data/story.json",
+      "completion_text": "The association accepted a smaller advance with a longer schedule. Wei Xiu crossed out the first amount rather than tearing up its record. Luo Fen kept a copy beside her tools. The advance bought the first timber delivery before the shifts began; the first construction stage took six days. Pilots would spend part of summer tending posts instead of carrying goods. When Lin Yue praised the bargain, Wei Xiu showed her the hours that praise had left out.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "stair_advance",
+        "stair_advance_cost"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-036",
+      "node_id": "harbor_watch_choice",
+      "choice_index": 0,
+      "path": "data/story.json",
+      "before": {
+        "text": "Fund eight days, with a reserve for moving to safety.",
+        "next": "harbor_eight_days",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Fund eight days, with a reserve for moving to safety.",
+        "next": "harbor_eight_days"
+      },
+      "completion_node": "harbor_eight_cost",
+      "completion_path": "data/story.json",
+      "completion_text": "Lin Yue sold the silver clasp from her travel bundle. It bought oil and one more night, not a permanent answer. Mo Ran kept enough money to leave if he chose. Su Lan declined to praise them as selfless. Instead she wrote their names beside the amounts, so the next meeting would know whose offer could be renewed and whose could not.",
+      "earned": {
+        "trust": 1
+      },
+      "branch": [
+        "harbor_eight_days",
+        "harbor_eight_cost"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-037",
+      "node_id": "harbor_watch_choice",
+      "choice_index": 1,
+      "path": "data/story.json",
+      "before": {
+        "text": "Offer a regular berth agreement the spirit may leave.",
+        "next": "harbor_association",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Offer a regular berth agreement the spirit may leave.",
+        "next": "harbor_association"
+      },
+      "completion_node": "harbor_association_cost",
+      "completion_path": "data/story.json",
+      "completion_text": "Four crews accepted inspection turns. Two offered only money, and one asked to be left out because its hull needed repair. The charter recorded all seven answers without assigning virtue. The Eel accepted the berth after hearing its limits. When the first inspection boat arrived, the spirit moved aside without being signaled. They had given each other a habit that did not require obedience.",
+      "earned": {
+        "trust": 1
+      },
+      "branch": [
+        "harbor_association",
+        "harbor_association_cost"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-038",
+      "node_id": "orchard_investigation_choice",
+      "choice_index": 0,
+      "path": "data/story.json",
+      "before": {
+        "text": "Trace the disconnected circuit with a measured breath.",
+        "next": "orchard_circuit",
+        "effects": {
+          "qi": 3
+        }
+      },
+      "after": {
+        "text": "Trace the disconnected circuit with a measured breath.",
+        "next": "orchard_circuit"
+      },
+      "completion_node": "orchard_circuit_find",
+      "completion_path": "data/story.json",
+      "completion_text": "The matron brought an apprentice practice strip whose copper tongue closed without a household notch. Lin Yue compared its timed light with the isolated test, keeping her own field shut after the earlier pulse. Elder Yun marked where the winter stroke lay outside the closing rhythm. The matron repeated the ordinary stopping sequence. Together the diagram and demonstration separated the inherited demand from the safe closure. Lin Yue could explain the distinction; she had not acquired the healer's capacity to alter it.",
+      "earned": {
+        "qi": 3
+      },
+      "branch": [
+        "orchard_circuit",
+        "orchard_circuit_limit",
+        "orchard_circuit_find"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-039",
+      "node_id": "orchard_investigation_choice",
+      "choice_index": 1,
+      "path": "data/story.json",
+      "before": {
+        "text": "Share the patients' meal and hear what they need.",
+        "next": "orchard_meal",
+        "effects": {
+          "trust": 3
+        }
+      },
+      "after": {
+        "text": "Share the patients' meal and hear what they need.",
+        "next": "orchard_meal"
+      },
+      "completion_node": "orchard_meal_find",
+      "completion_path": "data/story.json",
+      "completion_text": "The niece arrived after the soup cooled. She wanted medicine for her aunt, an afternoon in her own garden, and someone to help wash the bedding. She did not ask for a heroic substitute. Lin Yue wrote the three requests on separate slips. Around the table, people added tasks they could offer and hours they could not. The resulting pile was modest. It contained more usable help than the sweeping pledge painted above the door.",
+      "earned": {
+        "trust": 3
+      },
+      "branch": [
+        "orchard_meal",
+        "orchard_meal_question",
+        "orchard_meal_find"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-040",
+      "node_id": "orchard_investigation_choice",
+      "choice_index": 2,
+      "path": "data/story.json",
+      "before": {
+        "text": "Compare winter allocations with the original treatment terms.",
+        "next": "orchard_ledger",
+        "effects": {
+          "insight": 3
+        }
+      },
+      "after": {
+        "text": "Compare winter allocations with the original treatment terms.",
+        "next": "orchard_ledger"
+      },
+      "completion_node": "orchard_ledger_find",
+      "completion_path": "data/story.json",
+      "completion_text": "Lin Yue followed the payments beyond the exchange tally. Most winter grain had reached patients whether they volunteered or not, but three recent applications had been held for missing turns. The assistant brought the unopened applications to the matron. She authorized the meals immediately and kept the refusals for review. A correction small enough to fit beneath one signature changed what three people would eat tonight. The copper still needed work; supper did not have to wait.",
+      "earned": {
+        "insight": 3
+      },
+      "branch": [
+        "orchard_ledger",
+        "orchard_ledger_question",
+        "orchard_ledger_find"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-041",
+      "node_id": "orchard_resolution_choice",
+      "choice_index": 0,
+      "path": "data/story.json",
+      "before": {
+        "text": "Trial a short breathing practice with the matron watching.",
+        "next": "orchard_breath_trial",
+        "effects": {
+          "qi": 1,
+          "insight": 1
+        },
+        "requires": {
+          "qi": 4
+        }
+      },
+      "after": {
+        "text": "Trial a short breathing practice with the matron watching.",
+        "next": "orchard_breath_trial",
+        "requires": {
+          "qi": 4
+        }
+      },
+      "completion_node": "orchard_breath_limits",
+      "completion_path": "data/story.json",
+      "completion_text": "We offer this to people who want to try, beside medicine and rest. The matron sets the pace, watches for dizziness, and ends it when asked. I will teach the breathing rhythm while I am here, then return after a month to hear what changed. No one loses another treatment by finding this one useless. Please write that beside the instructions. I would dislike becoming a remedy people must praise in order to be believed.",
+      "earned": {
+        "qi": 1,
+        "insight": 1
+      },
+      "branch": [
+        "orchard_breath_trial",
+        "orchard_breath_limits"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-042",
+      "node_id": "orchard_resolution_choice",
+      "choice_index": 1,
+      "path": "data/story.json",
+      "before": {
+        "text": "Offer a paid rota that includes help beyond treatment.",
+        "next": "orchard_care_rota",
+        "effects": {
+          "trust": 2
+        }
+      },
+      "after": {
+        "text": "Offer a paid rota that includes help beyond treatment.",
+        "next": "orchard_care_rota"
+      },
+      "completion_node": "orchard_care_rest",
+      "completion_path": "data/story.json",
+      "completion_text": "The orchard agreed to sell a portion of its seed reserve for wages. Before the rota began, the matron named a replacement for each shift and one afternoon when no exchange would be offered. The niece went home to weed her own garden. Her aunt complained that the soup had too much ginger. Mo Ran received the complaint while folding clean bedding, then carried it to the kitchen without trying to turn gratitude into another household duty.",
+      "earned": {
+        "trust": 2
+      },
+      "branch": [
+        "orchard_care_rota",
+        "orchard_care_rest"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-043",
+      "node_id": "orchard_resolution_choice",
+      "choice_index": 2,
+      "path": "data/story.json",
+      "before": {
+        "text": "Separate relief funding and publish the new accounting.",
+        "next": "orchard_fund_terms",
+        "effects": {
+          "insight": 2
+        },
+        "requires": {
+          "insight": 4
+        }
+      },
+      "after": {
+        "text": "Separate relief funding and publish the new accounting.",
+        "next": "orchard_fund_terms",
+        "requires": {
+          "insight": 4
+        }
+      },
+      "completion_node": "orchard_fund_reading",
+      "completion_path": "data/story.json",
+      "completion_text": "They read the proposed figures in the dining hall. A gardener corrected the seed estimate. A cook asked why replacement shifts had been priced below the regular ones. The matron amended both lines. Elder Yun's payment covered the new copper and one assistant's training, leaving a visible gap beneath the medicine total. Lin Yue helped write the remaining need on the notice. The figures looked less reassuring afterward and gave each offered coin somewhere honest to go.",
+      "earned": {
+        "insight": 2
+      },
+      "branch": [
+        "orchard_fund_terms",
+        "orchard_fund_reading"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-044",
+      "node_id": "orchard_resolution_choice",
+      "choice_index": 3,
+      "path": "data/story.json",
+      "before": {
+        "text": "Pause exchanges for seven days and provide ordinary care.",
+        "next": "orchard_pause",
+        "effects": {
+          "trust": 2
+        }
+      },
+      "after": {
+        "text": "Pause exchanges for seven days and provide ordinary care.",
+        "next": "orchard_pause"
+      },
+      "completion_node": "orchard_pause_meals",
+      "completion_path": "data/story.json",
+      "completion_text": "Two patients left in a covered cart. Four remained, and one cried when she heard how slowly the herbs worked. Lin Yue sat beside her until the kettle boiled. She had no smaller sentence that made the delay kind. In the apothecary, Elder Yun practiced the repaired closing rhythm with the assistants. Mo Ran carried supper to the sickroom. The closed exchange chamber stood among busy rooms, neither forgotten nor required to prove its worth tonight.",
+      "earned": {
+        "trust": 2
+      },
+      "branch": [
+        "orchard_pause",
+        "orchard_pause_meals"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-045",
+      "node_id": "city_investigation_choice",
+      "choice_index": 0,
+      "path": "data/story.json",
+      "before": {
+        "text": "Compare the masks, substituted collars, and return tokens.",
+        "next": "city_mask_entry",
+        "effects": {
+          "insight": 3
+        }
+      },
+      "after": {
+        "text": "Compare the masks, substituted collars, and return tokens.",
+        "next": "city_mask_entry"
+      },
+      "completion_node": "city_mask_stakes",
+      "completion_path": "data/story.json",
+      "completion_text": "Tao has lost a week's bookings because the register treats the shared number as a shared permanent name. Bian's guild has held back her practice credit. They need their returns separated and the unauthorized registry pledges removed. Bian's examined collar needs repair; each further collar needs its own check. Closing every rental would stop unaffected carriers before anyone examined their slips. I can set this batch aside. I cannot pay every worker to wait for a grand answer.",
+      "earned": {
+        "insight": 3
+      },
+      "branch": [
+        "city_mask_entry",
+        "city_mask_studio",
+        "city_mask_grain",
+        "city_mask_layers",
+        "city_mask_voice",
+        "city_mask_fitting",
+        "city_mask_expression",
+        "city_mask_ledger",
+        "city_mask_samples",
+        "city_mask_stakes"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-046",
+      "node_id": "city_investigation_choice",
+      "choice_index": 1,
+      "path": "data/story.json",
+      "before": {
+        "text": "Trace the recognition batch through licenses and courier charges.",
+        "next": "city_registry_entry",
+        "effects": {
+          "insight": 3
+        }
+      },
+      "after": {
+        "text": "Trace the recognition batch through licenses and courier charges.",
+        "next": "city_registry_entry"
+      },
+      "completion_node": "city_registry_rental",
+      "completion_path": "data/story.json",
+      "completion_text": "I rented this face because some patrons will only hand their parcels to someone with its silver brows. The quieter voice helps me quote their instructions without starting an argument. I knew the daily price. I did not sell my right to receive wages under my own name. Yesterday an employer canceled a fourth delivery after I collected the parcel. The collection fee had already come from my bond. My bill charges it again. My mother needs medicine before the next caravan. I need the work paid, not another advance.",
+      "earned": {
+        "insight": 3
+      },
+      "branch": [
+        "city_registry_entry",
+        "city_registry_mei",
+        "city_registry_tao",
+        "city_registry_permit",
+        "city_registry_hall",
+        "city_registry_fees",
+        "city_registry_rental"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-047",
+      "node_id": "city_investigation_choice",
+      "choice_index": 2,
+      "path": "data/story.json",
+      "before": {
+        "text": "Test the offered wax traces against dispatch controls.",
+        "next": "city_perfumer_entry",
+        "effects": {
+          "insight": 3
+        }
+      },
+      "after": {
+        "text": "Test the offered wax traces against dispatch controls.",
+        "next": "city_perfumer_entry"
+      },
+      "completion_node": "city_perfumer_deadline",
+      "completion_path": "data/story.json",
+      "completion_text": "The clerk receives exhibits before the evening shutters close. The other teams will report independently. Fei has fuel for one kettle, two already charged warming cups and two clean test sheets. Each cup's stone has a separate finite charge. The drying bay is available until the Moth needs it. We can compare the wax while preserving half the controls for a repeat. Choose a method whose heat source and stopping point another tester can identify, rather than spending the reference to produce a brighter result.",
+      "earned": {
+        "insight": 3
+      },
+      "branch": [
+        "city_perfumer_entry",
+        "city_perfumer_workroom",
+        "city_perfumer_complaints",
+        "city_perfumer_moth_arrival",
+        "city_perfumer_moth_terms",
+        "city_perfumer_materials",
+        "city_perfumer_controls",
+        "city_perfumer_steam",
+        "city_perfumer_separation",
+        "city_perfumer_deadline"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-048",
+      "node_id": "city_final_choice",
+      "choice_index": 0,
+      "path": "data/story.json",
+      "before": {
+        "text": "Bridge three nights with voluntarily offered furnace-hour credit.",
+        "next": "city_credit_bridge",
+        "requires": {
+          "insight": 3
+        },
+        "effects": {
+          "insight": 2
+        }
+      },
+      "after": {
+        "text": "Bridge three nights with voluntarily offered furnace-hour credit.",
+        "next": "city_credit_bridge",
+        "requires": {
+          "insight": 3
+        }
+      },
+      "completion_node": "city_credit_bridge",
+      "completion_path": "data/story.json",
+      "completion_text": "The certificates hold existing unused furnace hours, offered by their owners. I can test one rated status relay at my measured load, then discharge. The licensed tender operates the regulator with its purchased fuel while clerks cancel and record transfers. We create no qi and spend no hour twice. Each lender's maximum loss is written beside the offer. This bridge ends after three nights; unused hours return, and extension needs a new offer. Public proofs and wages secure nothing. Read those limits before accepting a potter's slot.",
+      "earned": {
+        "insight": 2
+      },
+      "branch": [
+        "city_credit_bridge"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-049",
+      "node_id": "city_final_choice",
+      "choice_index": 1,
+      "path": "data/story.json",
+      "before": {
+        "text": "Separate permanent proofs from temporary recognition accounts.",
+        "next": "city_separate_ledgers",
+        "requires": {
+          "insight": 3
+        },
+        "effects": {
+          "insight": 2
+        }
+      },
+      "after": {
+        "text": "Separate permanent proofs from temporary recognition accounts.",
+        "next": "city_separate_ledgers",
+        "requires": {
+          "insight": 3
+        }
+      },
+      "completion_node": "city_separate_ledgers",
+      "completion_path": "data/story.json",
+      "completion_text": "The permanent registry will hold public name proofs. The commercial ledger will hold time-limited appearance and recognition permits, billed by their own serials and dated events. A private verified link can identify the account owner when required, without printing a household name on every borrowed face. Two clerks will reconcile existing entries before transferring them. We will correct duplicates by an appended note, preserving the earlier line for review. This takes paid hours we have little of. We begin with blocked wages, not a promise to rewrite the whole city tonight.",
+      "earned": {
+        "insight": 2
+      },
+      "branch": [
+        "city_separate_ledgers"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-050",
+      "node_id": "city_final_choice",
+      "choice_index": 2,
+      "path": "data/story.json",
+      "before": {
+        "text": "Help workers form their own limited licensing cooperative.",
+        "next": "city_license_pool",
+        "effects": {
+          "trust": 2
+        }
+      },
+      "after": {
+        "text": "Help workers form their own limited licensing cooperative.",
+        "next": "city_license_pool"
+      },
+      "completion_node": "city_license_pool",
+      "completion_path": "data/story.json",
+      "completion_text": "The workers want a pool for licenses they choose to share, with models' permissions checked separately. I can offer inspected shells at a stated repair price. Members set a small mutual fund, a ceiling on each contribution, and a way to leave without surrendering public proof. The fund covers only the losses its account can actually pay. Joining buys no control over another person's face or testimony. We need a clerk and a first review date. Let the people paying the contributions choose them, including those who disagree with me.",
+      "earned": {
+        "trust": 2
+      },
+      "branch": [
+        "city_license_pool"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-051",
+      "node_id": "city_final_choice",
+      "choice_index": 3,
+      "path": "data/story.json",
+      "before": {
+        "text": "Pause the disputed batch for a dated individual audit.",
+        "next": "city_batch_audit",
+        "effects": {
+          "trust": 2
+        }
+      },
+      "after": {
+        "text": "Pause the disputed batch for a dated individual audit.",
+        "next": "city_batch_audit"
+      },
+      "completion_node": "city_batch_audit",
+      "completion_path": "data/story.json",
+      "completion_text": "Keep this spring batch paused until Tuesday's account hearing. Inspect its collars and reconcile its receipts individually, beginning with people whose pay was blocked. Lawful licenses outside the batch remain usable after their ordinary checks. The exchange will post the available furnace slots and the money still missing, without attaching public proofs again. Workers can seek another supplier or decline a new rental. Tuesday is a review date, not an instruction to clear every entry. We will ask which charges were supported, which were corrected, and which still need an answer.",
+      "earned": {
+        "trust": 2
+      },
+      "branch": [
+        "city_batch_audit"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-052",
+      "node_id": "city_mask_method",
+      "choice_index": 0,
+      "path": "data/story.json",
+      "before": {
+        "text": "Trace the collar's seams with measured qi.",
+        "next": "city_mask_seam",
+        "effects": {
+          "qi": 2,
+          "insight": 1
+        },
+        "requires": {
+          "qi": 5
+        }
+      },
+      "after": {
+        "text": "Trace the collar's seams with measured qi.",
+        "next": "city_mask_seam",
+        "requires": {
+          "qi": 5
+        }
+      },
+      "completion_node": "city_mask_seam_result",
+      "completion_path": "data/story.json",
+      "completion_text": "The copied bridge predicts two destinations: the return mark I fitted and a repeated mark beside a permanent-name pledge. It maps what an added loop could do; it does not prove the concealed collar follows that drawing. Such a loop could tug the lower reed frame and explain the rough voice. Before sealing the exhibit, I will inspect its offered, loosened lining directly under my ordinary bench lens. We will submit observed joins separately from this test copy.",
+      "earned": {
+        "qi": 2,
+        "insight": 1
+      },
+      "branch": [
+        "city_mask_seam",
+        "city_mask_seam_result"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-053",
+      "node_id": "city_mask_method",
+      "choice_index": 1,
+      "path": "data/story.json",
+      "before": {
+        "text": "Compare the job dates and drying board.",
+        "next": "city_mask_dates",
+        "effects": {
+          "insight": 3
+        },
+        "requires": {
+          "insight": 5
+        }
+      },
+      "after": {
+        "text": "Compare the job dates and drying board.",
+        "next": "city_mask_dates",
+        "requires": {
+          "insight": 5
+        }
+      },
+      "completion_node": "city_mask_dates_result",
+      "completion_path": "data/story.json",
+      "completion_text": "Your two fittings were finished before this new return form existed. The shared mark cannot come from a shared appointment, and the old schedule gives each worker a separate account. We should bring the board itself as well as my copy; it has the holes where your drying pegs stood. A clerk may still argue that you copied the later pledge onto an old date. The physical collars will answer the next part. Dates establish the order of work. They cannot tell us whose hands changed it.",
+      "earned": {
+        "insight": 3
+      },
+      "branch": [
+        "city_mask_dates",
+        "city_mask_dates_result"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-054",
+      "node_id": "city_mask_method",
+      "choice_index": 2,
+      "path": "data/story.json",
+      "before": {
+        "text": "Ask the workers to reconstruct their fittings.",
+        "next": "city_mask_workers",
+        "effects": {
+          "insight": 3
+        }
+      },
+      "after": {
+        "text": "Ask the workers to reconstruct their fittings.",
+        "next": "city_mask_workers"
+      },
+      "completion_node": "city_mask_workers_result",
+      "completion_path": "data/story.json",
+      "completion_text": "They can give a useful account without agreeing about every small detail. Bian recalls a white pot; Tao recalls the clerk warming a brush. We shall write those separately. Both felt a pull that was absent at my fitting, and both saw the added strip at return. I will attach my own statement that the strips are not my work. A brush pot does not identify a forger. It tells us where to look for a procedure, and a procedure leaves more than someone's frightened recollection.",
+      "earned": {
+        "insight": 3
+      },
+      "branch": [
+        "city_mask_workers",
+        "city_mask_workers_result"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-055",
+      "node_id": "city_registry_choice",
+      "choice_index": 0,
+      "path": "data/story.json",
+      "before": {
+        "text": "Trace the dispatch and cancellation times.",
+        "next": "city_registry_dispatch_log",
+        "requires": {
+          "insight": 5
+        },
+        "effects": {
+          "insight": 3
+        }
+      },
+      "after": {
+        "text": "Trace the dispatch and cancellation times.",
+        "next": "city_registry_dispatch_log",
+        "requires": {
+          "insight": 5
+        }
+      },
+      "completion_node": "city_registry_dispatch_return",
+      "completion_path": "data/story.json",
+      "completion_text": "Keep the original route book with its keeper. We will take the extract she authorizes and mark who copied it, when, and from which numbered page. Cover the addresses again before anyone carries it downstairs. The hearing needs the order of collection, cancellation, and return; it does not need the contents of every parcel or a list of customers. Tao can correct our account if we have mistaken his route. For now, this shows that he performed paid collection work before the employer canceled. It leaves the return fee to be checked separately.",
+      "earned": {
+        "insight": 3
+      },
+      "branch": [
+        "city_registry_dispatch_log",
+        "city_registry_dispatch_order",
+        "city_registry_dispatch_return"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-056",
+      "node_id": "city_registry_choice",
+      "choice_index": 1,
+      "path": "data/story.json",
+      "before": {
+        "text": "Ask willing workers to confirm their receipts.",
+        "next": "city_registry_witness_door",
+        "effects": {
+          "insight": 3
+        }
+      },
+      "after": {
+        "text": "Ask willing workers to confirm their receipts.",
+        "next": "city_registry_witness_door"
+      },
+      "completion_node": "city_registry_witness_limit",
+      "completion_path": "data/story.json",
+      "completion_text": "The extract confirms receipt of the linen. We should say exactly that at the hearing. It does not establish every delivery on Tao's route, and the attendant has made no promise about fees charged elsewhere. I spent too many years accepting a seal because it spared me another question. Today we have a witness willing to answer one question carefully. Let that answer keep its size. Tao's own signed account, the other receipts, and the rental terms can supply the rest. Leave the storeroom stub here, where tomorrow's worker will need it.",
+      "earned": {
+        "insight": 3
+      },
+      "branch": [
+        "city_registry_witness_door",
+        "city_registry_witness_receipt",
+        "city_registry_witness_limit"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-057",
+      "node_id": "city_registry_choice",
+      "choice_index": 2,
+      "path": "data/story.json",
+      "before": {
+        "text": "Reconcile the payment slips Tao provides.",
+        "next": "city_registry_charges_table",
+        "effects": {
+          "insight": 3
+        }
+      },
+      "after": {
+        "text": "Reconcile the payment slips Tao provides.",
+        "next": "city_registry_charges_table"
+      },
+      "completion_node": "city_registry_charges_total",
+      "completion_path": "data/story.json",
+      "completion_text": "The two entries share collection receipt K-204. They cannot both be separate work. Removing the duplicate from the proposed account would change its balance, but I will not erase it from the evidence. We will show the charge and the correction side by side. The ordinary rental remains paid, and the legitimate price for returning a canceled parcel still needs agreement. Neither question grants the exchange permanent rights over Tao's name-proof. The batch form joined them because the columns fit. Our extract must show where the original terms stopped.",
+      "earned": {
+        "insight": 3
+      },
+      "branch": [
+        "city_registry_charges_table",
+        "city_registry_charges_need",
+        "city_registry_charges_total"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-058",
+      "node_id": "city_perfumer_choice",
+      "choice_index": 0,
+      "path": "data/story.json",
+      "before": {
+        "text": "Warm paired samples with a measured qi pulse.",
+        "next": "city_perfumer_qi_pulse",
+        "effects": {
+          "qi": 1,
+          "insight": 1
+        },
+        "requires": {
+          "qi": 4
+        }
+      },
+      "after": {
+        "text": "Warm paired samples with a measured qi pulse.",
+        "next": "city_perfumer_qi_pulse",
+        "requires": {
+          "qi": 4
+        }
+      },
+      "completion_node": "city_perfumer_qi_cost",
+      "completion_path": "data/story.json",
+      "completion_text": "I need water and a quiet seat before carrying anything. Record the command pulse, its delivery loss and both cups' consumed charge. We saved kettle fuel by using charged cups; we did not get free heat. Keep the rest for the agreed repeat comparison. While I rest, I can copy your offered delivery entry. The original remains with you. Another tester may use ordinary warmth at the recorded endpoint without needing my arm route or reopening anyone's mask.",
+      "earned": {
+        "qi": 1,
+        "insight": 1
+      },
+      "branch": [
+        "city_perfumer_qi_pulse",
+        "city_perfumer_qi_source",
+        "city_perfumer_qi_cost"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-059",
+      "node_id": "city_perfumer_choice",
+      "choice_index": 1,
+      "path": "data/story.json",
+      "before": {
+        "text": "Invite willing workshop tenants to compare the coded trays.",
+        "next": "city_perfumer_trust_compare",
+        "effects": {
+          "insight": 2
+        }
+      },
+      "after": {
+        "text": "Invite willing workshop tenants to compare the coded trays.",
+        "next": "city_perfumer_trust_compare"
+      },
+      "completion_node": "city_perfumer_trust_cost",
+      "completion_path": "data/story.json",
+      "completion_text": "Their interrupted work costs more than a friendly thank-you. I will pay the agreed break fee from this delivery account and bring fresh cups tomorrow. The dyer can keep the cleaned spare lining as a repair example; it carries no face pattern. We retain two numbered strips, the observation notes, and this copy of my supply entry. My amber-violet stock went to the exchange return desk after the offered fitting dates. A courier's independent consignment sheet should check that sequence before the hearing treats it as established.",
+      "earned": {
+        "insight": 2
+      },
+      "branch": [
+        "city_perfumer_trust_compare",
+        "city_perfumer_trust_reading",
+        "city_perfumer_trust_cost"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-060",
+      "node_id": "city_perfumer_choice",
+      "choice_index": 2,
+      "path": "data/story.json",
+      "before": {
+        "text": "Use the vacant loom bay for a slow strip comparison.",
+        "next": "city_perfumer_drying_bay",
+        "effects": {
+          "insight": 2
+        }
+      },
+      "after": {
+        "text": "Use the vacant loom bay for a slow strip comparison.",
+        "next": "city_perfumer_drying_bay"
+      },
+      "completion_node": "city_perfumer_drying_cost",
+      "completion_path": "data/story.json",
+      "completion_text": "The delayed order will leave on the next market cart. Fei has written the handling payment and told its buyer before closing the rack. I have copied the strip positions, drying time, and the Moth's stated limit. We can take two preserved comparison strips and a copy of the supply entry to the clerk; the remaining reference stock stays here for another test. Give me the broom again. Returning the bay clean is part of finishing this method, and the cocoons are already waiting by the shutter.",
+      "earned": {
+        "insight": 2
+      },
+      "branch": [
+        "city_perfumer_drying_bay",
+        "city_perfumer_drying_observation",
+        "city_perfumer_drying_cost"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-061",
+      "node_id": "mortal_first_choice",
+      "choice_index": 0,
+      "path": "data/books/book_i_mortal.json",
+      "before": {
+        "text": "Take the gutter shift and buy enough food for the week.",
+        "next": "mortal_work_001",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Take the gutter shift and buy enough food for the week.",
+        "next": "mortal_work_001"
+      },
+      "completion_node": "mortal_work_002",
+      "completion_path": "data/books/book_i_mortal.json",
+      "completion_text": "At supper, Yue tried to resent the absent practice hour. The fish made resentment difficult. She divided the grain into daily portions and left enough for one failed wage day. In her notebook she wrote: Worked instead of class. Then, after looking at the full jar, she added: Bought the chance to attend next week's classes without hunger.",
+      "earned": {
+        "resolve": 1
+      },
+      "branch": [
+        "mortal_work_001",
+        "mortal_work_002"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-062",
+      "node_id": "mortal_first_choice",
+      "choice_index": 1,
+      "path": "data/books/book_i_mortal.json",
+      "before": {
+        "text": "Attend observation practice and record uncertain sensations.",
+        "next": "mortal_study_001",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Attend observation practice and record uncertain sensations.",
+        "next": "mortal_study_001"
+      },
+      "completion_node": "mortal_study_002",
+      "completion_path": "data/books/book_i_mortal.json",
+      "completion_text": "She returned to a supper smaller than she wanted. Another worker sold her a portion of rice on credit, due after the next wage morning. Yue entered the debt beside the practice results. The lesson had bought clarity and cost a meal she had not yet paid for. She could see why wealthy applicants practiced more often. Knowing that did not change what her bowl had done.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "mortal_study_001",
+        "mortal_study_002"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-063",
+      "node_id": "mortal_first_choice",
+      "choice_index": 2,
+      "path": "data/books/book_i_mortal.json",
+      "before": {
+        "text": "Ask for a knee assessment and a lighter practice load.",
+        "next": "mortal_recover_001",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Ask for a knee assessment and a lighter practice load.",
+        "next": "mortal_recover_001"
+      },
+      "completion_node": "mortal_recover_002",
+      "completion_path": "data/books/book_i_mortal.json",
+      "completion_text": "For two days she carried half buckets. Other workers passed her on the steps. Shame moved more quickly than the pain, offering a dozen ways to prove she needed no concession. Yue used none of them. The swelling eased by the third morning. In her notebook, recovery took the space where she had wanted to put a new stage.",
+      "earned": {
+        "trust": 1
+      },
+      "branch": [
+        "mortal_recover_001",
+        "mortal_recover_002"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-064",
+      "node_id": "mortal_mite_choice",
+      "choice_index": 0,
+      "path": "data/books/book_i_mortal.json",
+      "before": {
+        "text": "Shield the retreat with a soaked ash cloth.",
+        "next": "mite_cloth_001",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Shield the retreat with a soaked ash cloth.",
+        "next": "mite_cloth_001"
+      },
+      "completion_node": "mite_cloth_002",
+      "completion_path": "data/books/book_i_mortal.json",
+      "completion_text": "Qing guided the mite toward the open grate with a small grounded talisman. The creature followed the stronger heat and disappeared behind the protected mesh. 'You used the cloth within its rating,' he said. 'We replace it before another shift. A tool that saved you once may have less protection left.' Yue marked the damage on the disposal sheet and resisted describing the cloth as a shield technique.",
+      "earned": {
+        "resolve": 1
+      },
+      "branch": [
+        "mite_cloth_001",
+        "mite_cloth_002"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-065",
+      "node_id": "mortal_mite_choice",
+      "choice_index": 1,
+      "path": "data/books/book_i_mortal.json",
+      "before": {
+        "text": "Use the long scoop to clear its path to the grate.",
+        "next": "mite_scoop_001",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Use the long scoop to clear its path to the grate.",
+        "next": "mite_scoop_001"
+      },
+      "completion_node": "mite_scoop_002",
+      "completion_path": "data/books/book_i_mortal.json",
+      "completion_text": "Yue wanted to keep the notched handle as evidence of her first victory. The supervisor told her to remove it from service. She wrote why on the repair tag: heat damage beyond the rated surface, strength uncertain. Her useful action had been moving an obstacle. The mite was alive, the corridor was clear, and the scoop needed repair. Those facts were enough for the report.",
+      "earned": {
+        "resolve": 1
+      },
+      "branch": [
+        "mite_scoop_001",
+        "mite_scoop_002"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-066",
+      "node_id": "mortal_mite_choice",
+      "choice_index": 2,
+      "path": "data/books/book_i_mortal.json",
+      "before": {
+        "text": "Warn the workers and keep the corridor empty.",
+        "next": "mite_warning_001",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Warn the workers and keep the corridor empty.",
+        "next": "mite_warning_001"
+      },
+      "completion_node": "mite_warning_002",
+      "completion_path": "data/books/book_i_mortal.json",
+      "completion_text": "The supervisor thanked her for keeping people away and assigned her the next morning's return check. Yue had imagined praise would feel like a door opening. This praise came with another small task. She did it. At breakfast she listened to someone describe Qing's talisman as the entire incident, then added the warning route to the written record where the next worker could use it.",
+      "earned": {
+        "trust": 1
+      },
+      "branch": [
+        "mite_warning_001",
+        "mite_warning_002"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-067",
+      "node_id": "sluice_028",
+      "choice_index": 0,
+      "path": "data/books/book_ii_sluice.json",
+      "before": {
+        "text": "Take only the rested morning sorting shift.",
+        "next": "sluice_work_001",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Take only the rested morning sorting shift.",
+        "next": "sluice_work_001"
+      },
+      "completion_node": "sluice_work_002",
+      "completion_path": "data/books/book_ii_sluice.json",
+      "completion_text": "You finished the assigned work and left the remainder legible. That is help. I can staff a shift around a declared limit; I cannot staff it around someone secretly collapsing. Record the morning's load beside tonight's practice result. If the result changes, we should know which ordinary labor helped produce the change.",
+      "earned": {
+        "resolve": 1
+      },
+      "branch": [
+        "sluice_work_001",
+        "sluice_work_002"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-068",
+      "node_id": "sluice_028",
+      "choice_index": 1,
+      "path": "data/books/book_ii_sluice.json",
+      "before": {
+        "text": "Copy the basin records and protect practice time.",
+        "next": "sluice_records_001",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Copy the basin records and protect practice time.",
+        "next": "sluice_records_001"
+      },
+      "completion_node": "sluice_records_002",
+      "completion_path": "data/books/book_ii_sluice.json",
+      "completion_text": "Good. A basin can be dirty even when your channels are sound. Keep environmental notes beside bodily notes. Similar symptoms can have different causes, and an expensive treatment for the wrong cause remains the wrong treatment. You have earned the copying wage. The clue earns our inspection, not a higher realm.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "sluice_records_001",
+        "sluice_records_002"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-069",
+      "node_id": "sluice_028",
+      "choice_index": 2,
+      "path": "data/books/book_ii_sluice.json",
+      "before": {
+        "text": "Let a rested worker take the shift and recover.",
+        "next": "sluice_rest_001",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Let a rested worker take the shift and recover.",
+        "next": "sluice_rest_001"
+      },
+      "completion_node": "sluice_rest_002",
+      "completion_path": "data/books/book_ii_sluice.json",
+      "completion_text": "The worker taking that shift wanted its wage and could bear its load. You did not steal a meal by admitting your own limit. We have a roster precisely because every body cannot be available at every bell. If tomorrow's hands are steadier, give the rest its proper credit. It was an action with a cost.",
+      "earned": {
+        "trust": 1
+      },
+      "branch": [
+        "sluice_rest_001",
+        "sluice_rest_002"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-070",
+      "node_id": "reed_step_011",
+      "choice_index": 0,
+      "path": "data/books/book_ii_sluice.json",
+      "before": {
+        "text": "Use one inspected Reed-Step to reach the dry latch.",
+        "next": "mantis_step_001",
+        "effects": {
+          "qi": 1
+        }
+      },
+      "after": {
+        "text": "Use one inspected Reed-Step to reach the dry latch.",
+        "next": "mantis_step_001"
+      },
+      "completion_node": "mantis_step_002",
+      "completion_path": "data/books/book_ii_sluice.json",
+      "completion_text": "The latch lifted with a modest scrape. She stepped back by the same dry boards without reinforcing the turn. The service flap gave the trapped debris somewhere to fall, and the rested gate workers took the water load. Lin Yue's field had spent the expected half-unit. Her hand remained warm. She stopped using the route while the larger repair continued.",
+      "earned": {
+        "qi": 1
+      },
+      "branch": [
+        "mantis_step_001",
+        "mantis_step_002"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-071",
+      "node_id": "reed_step_011",
+      "choice_index": 1,
+      "path": "data/books/book_ii_sluice.json",
+      "before": {
+        "text": "Help crank the west gate to reduce water pressure.",
+        "next": "mantis_gate_001",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Help crank the west gate to reduce water pressure.",
+        "next": "mantis_gate_001"
+      },
+      "completion_node": "mantis_gate_002",
+      "completion_path": "data/books/book_ii_sluice.json",
+      "completion_text": "As the pressure fell, Han Mei opened the service latch from its dry side. Debris slid clear of the screen. Lin Yue handed the crank to a rested replacement before her grip weakened. She had retained her qi and spent ordinary strength. Both facts went into the record; neither made the unchosen task disappear from the repair.",
+      "earned": {
+        "resolve": 1
+      },
+      "branch": [
+        "mantis_gate_001",
+        "mantis_gate_002"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-072",
+      "node_id": "reed_step_011",
+      "choice_index": 2,
+      "path": "data/books/book_ii_sluice.json",
+      "before": {
+        "text": "Clear the warning route and open the sheltered exit.",
+        "next": "mantis_exit_001",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Clear the warning route and open the sheltered exit.",
+        "next": "mantis_exit_001"
+      },
+      "completion_node": "mantis_exit_002",
+      "completion_path": "data/books/book_ii_sluice.json",
+      "completion_text": "She returned as the gate crew lowered the water pressure. Han Mei could open the latch now that the sheltered route was clear. The mantis turned toward it. Lin Yue's reserve had stayed closed throughout, while her breath ran fast from carrying the screen. She reported both her completed job and the fatigue, so the next job could belong to rested hands.",
+      "earned": {
+        "trust": 1
+      },
+      "branch": [
+        "mantis_exit_001",
+        "mantis_exit_002"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-073",
+      "node_id": "court_investigation_choice",
+      "choice_index": 0,
+      "path": "data/books/book_vi.json",
+      "before": {
+        "text": "Follow the witnesses and make room for their finite days.",
+        "next": "court_witness_entry",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Follow the witnesses and make room for their finite days.",
+        "next": "court_witness_entry"
+      },
+      "completion_node": "court_witness_a1_09",
+      "completion_path": "data/books/book_vi.json",
+      "completion_text": "Shen Qing found the robe keeper feeding charcoal into a shallow brazier. Each sleeve bore a different judge's embroidered seal, and the cloth had to be dry for the evening sitting. She rejected the terrace because rain blew under its canopy. The unused copy room had two windows, a safe hearth, and benches wide enough for hanging poles. Its paper stores would need covers. Shen Qing fetched the store steward rather than moving someone else's work without asking. The steward agreed to release the room after an inventory and a supervised transfer.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_witness_entry",
+        "court_witness_a1_01",
+        "court_witness_a1_02",
+        "court_witness_a1_03",
+        "court_witness_a1_04",
+        "court_witness_a1_05",
+        "court_witness_a1_06",
+        "court_witness_a1_07",
+        "court_witness_a1_08",
+        "court_witness_a1_09"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-074",
+      "node_id": "court_investigation_choice",
+      "choice_index": 1,
+      "path": "data/books/book_vi.json",
+      "before": {
+        "text": "Examine the rain records, gauges, and clocks.",
+        "next": "court_rain_entry",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Examine the rain records, gauges, and clocks.",
+        "next": "court_rain_entry"
+      },
+      "completion_node": "court_rain_volume_mark",
+      "completion_path": "data/books/book_vi.json",
+      "completion_text": "The measuring bottle had one hundred narrow divisions scratched beside its clear window. Zhong Rui filled it to the top mark, let the water settle, and asked everyone to read the level from the same height. Seen from above, the line appeared lower than it was. Seen from below, it appeared higher. Luo Shan moved his chair until his eyes aligned with the mark. They were establishing a comparison, not claiming that the old bottle was a perfect standard. Shen Qing wrote down the reading position so another group could repeat their ordinary precautions.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_rain_entry",
+        "court_rain_closed_walk",
+        "court_rain_inner_keeper",
+        "court_rain_petition_scope",
+        "court_rain_keeper_offer",
+        "court_rain_chalk_note",
+        "court_rain_heron_arrival",
+        "court_rain_heron_limit",
+        "court_rain_safe_platform",
+        "court_rain_heron_choice",
+        "court_rain_ordinary_tools",
+        "court_rain_level_reading",
+        "court_rain_mounting_diagram",
+        "court_rain_provisional_map",
+        "court_rain_map_permission",
+        "court_rain_weather_change",
+        "court_rain_clock_names",
+        "court_rain_attendant_cost",
+        "court_rain_bucket_return",
+        "court_rain_staff_limit",
+        "court_rain_first_questions",
+        "court_rain_dry_copies",
+        "court_rain_calibration_start",
+        "court_rain_volume_mark"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-075",
+      "node_id": "court_investigation_choice",
+      "choice_index": 2,
+      "path": "data/books/book_vi.json",
+      "before": {
+        "text": "Trace access costs and the remaining assistance fund.",
+        "next": "court_cost_entry",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Trace access costs and the remaining assistance fund.",
+        "next": "court_cost_entry"
+      },
+      "completion_node": "court_cost_clerk_resistance",
+      "completion_path": "data/books/book_vi.json",
+      "completion_text": "The estimating clerk, a woman named Dai, watched Luo Shan redraw the page. Dai had priced dozens of small hearings using the cheaper freight line because petitioners usually climbed alongside their bundles. She disliked being treated as careless for following the old worksheet. Luo Shan asked her to bring the board, not an apology. Dai fetched it herself. Its freight fare excluded occupied passenger service. Lin Yue placed the two timelines beside that sentence. Saving money would require a journey people could actually use, rather than a smaller number written over their lives.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_cost_entry",
+        "court_cost_board",
+        "court_cost_scope",
+        "court_cost_invitation",
+        "court_cost_he_lian",
+        "court_cost_old_price",
+        "court_cost_cashbox",
+        "court_cost_not_compensation",
+        "court_cost_porter",
+        "court_cost_witness_letters",
+        "court_cost_three_accounts",
+        "court_cost_writer_fee",
+        "court_cost_missing_assumptions",
+        "court_cost_clerk_resistance"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-076",
+      "node_id": "court_investigation_choice",
+      "choice_index": 3,
+      "path": "data/books/book_vi.json",
+      "before": {
+        "text": "Compare the docket's versions and correction authority.",
+        "next": "court_docket_entry",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Compare the docket's versions and correction authority.",
+        "next": "court_docket_entry"
+      },
+      "completion_node": "court_docket_scope_map",
+      "completion_path": "data/books/book_vi.json",
+      "completion_text": "They drew a map of offices rather than an accusation. The stair keeper controlled invitations and the handling of wet papers. The docket clerk classified a received packet as complete or incomplete. He Lian could order a hearing and review a classification within the court's jurisdiction. The city registrar retained authority over the public proofs already restored below. The exchange's commercial claims traveled in another column. Lin Yue marked several connecting arrows with question marks. The assistant had not yet explained whether those arrows described a rule, a shortcut, or a mistaken instruction.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_docket_entry",
+        "court_docket_threshold",
+        "court_docket_worktable",
+        "court_docket_living_queue",
+        "court_docket_petitioner",
+        "court_docket_roofmaker_terms",
+        "court_docket_first_dates",
+        "court_docket_stamping_guide",
+        "court_docket_queue_table",
+        "court_docket_keeper_limit",
+        "court_docket_scope_map"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-077",
+      "node_id": "court_final_choice",
+      "choice_index": 0,
+      "path": "data/books/book_vi.json",
+      "before": {
+        "text": "Fund a safe, bounded weather station and visible signal demonstration.",
+        "next": "court_weather_proposal",
+        "requires": {
+          "qi": 4
+        },
+        "effects": {
+          "qi": 1,
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Fund a safe, bounded weather station and visible signal demonstration.",
+        "next": "court_weather_proposal",
+        "requires": {
+          "qi": 4
+        }
+      },
+      "completion_node": "court_weather_close",
+      "completion_path": "data/books/book_vi.json",
+      "completion_text": "On Day Five, the observer closed the third shift and returned the rented instrument. The report listed performed intervals, canceled work, and the limits of the warning. It said whether the canal authority had acted, without pretending the station controlled that decision. The clerk checked expenses against the eighteen-copper shift allocation and the other budget lines. Further custody through the review depended on the permitted period; any unused reserve followed the appropriation's return rule. He Lian scheduled the Day Seven review with the injury claim still open. A completed observation plan was not a completed explanation of the sling.",
+      "earned": {
+        "qi": 1,
+        "insight": 1
+      },
+      "branch": [
+        "court_weather_proposal",
+        "court_weather_terms",
+        "court_weather_setup",
+        "court_weather_shift",
+        "court_weather_ink",
+        "court_weather_close"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-078",
+      "node_id": "court_final_choice",
+      "choice_index": 1,
+      "path": "data/books/book_vi.json",
+      "before": {
+        "text": "Bring two separately agreed testimony sessions to the lower landing.",
+        "next": "court_local_proposal",
+        "effects": {
+          "insight": 2
+        }
+      },
+      "after": {
+        "text": "Bring two separately agreed testimony sessions to the lower landing.",
+        "next": "court_local_proposal"
+      },
+      "completion_node": "court_local_record",
+      "completion_path": "data/books/book_vi.json",
+      "completion_text": "The messenger brought the approved local minutes with their sources and limits intact. Weather had delayed his departure, so the receipt recorded the actual arrival rather than the planned one. He Lian admitted the authorized account without treating its lower location as an inferior place to speak. The extra custody period remained subject to its agreed end and the review. The expense sheet showed two session allocations and the unused amounts, if any, rather than a fictional attendance total. The court now had a practical way to receive another limited correction without demanding another painful ascent.",
+      "earned": {
+        "insight": 2
+      },
+      "branch": [
+        "court_local_proposal",
+        "court_local_room",
+        "court_local_turn",
+        "court_local_absence",
+        "court_local_counter",
+        "court_local_record"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-079",
+      "node_id": "court_final_choice",
+      "choice_index": 2,
+      "path": "data/books/book_vi.json",
+      "before": {
+        "text": "Stage the evidence docket with paid source checks and handling.",
+        "next": "court_staged_proposal",
+        "requires": {
+          "insight": 4
+        },
+        "effects": {
+          "insight": 2
+        }
+      },
+      "after": {
+        "text": "Stage the evidence docket with paid source checks and handling.",
+        "next": "court_staged_proposal",
+        "requires": {
+          "insight": 4
+        }
+      },
+      "completion_node": "court_staged_delivery",
+      "completion_path": "data/books/book_vi.json",
+      "completion_text": "Mo Ran helped the messenger arrange the approved stage notices by recipient, leaving the private contents covered. Each person received the portions relevant to their reply. The storage reserve extended only the permitted custody and returned unused money when renewal was declined or unnecessary. At Day Seven, the clerk asked for the required authority rather than assuming a paid space entitled the court to keep a parcel. One keeper chose pickup. The list showed the returned item and the remaining approved copy. A better docket could follow both without treating the smaller evidence set as a disappearance.",
+      "earned": {
+        "insight": 2
+      },
+      "branch": [
+        "court_staged_proposal",
+        "court_staged_division",
+        "court_staged_check",
+        "court_staged_handling",
+        "court_staged_limit",
+        "court_staged_delivery"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-080",
+      "node_id": "court_final_choice",
+      "choice_index": 3,
+      "path": "data/books/book_vi.json",
+      "before": {
+        "text": "Issue a dated limited remand for one independent reinspection.",
+        "next": "court_remand_proposal",
+        "effects": {
+          "trust": 2
+        }
+      },
+      "after": {
+        "text": "Issue a dated limited remand for one independent reinspection.",
+        "next": "court_remand_proposal"
+      },
+      "completion_node": "court_remand_review",
+      "completion_path": "data/books/book_vi.json",
+      "completion_text": "At the review, we will compare the completed task with the instruction and name any remaining question. The custody reserve is money available within a limit, not permission which renews itself. Keepers may request return, and the office must obtain authority and agreement before using a further permitted period. If weather or access prevented completion, the notice will give the actual reason and a dated next step rather than marking the remand complete. Today's administrative findings survive that failure. A court which cannot finish a task on time still has the duty to make its unfinished work answerable.",
+      "earned": {
+        "trust": 2
+      },
+      "branch": [
+        "court_remand_proposal",
+        "court_remand_instruction",
+        "court_remand_inspection",
+        "court_remand_extract",
+        "court_remand_delay",
+        "court_remand_review"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-081",
+      "node_id": "court_cost_question_hub",
+      "choice_index": 0,
+      "path": "data/books/book_vi.json",
+      "before": {
+        "text": "Check the carrying-chair schedule.",
+        "next": "court_cost_begin_lift",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Check the carrying-chair schedule.",
+        "next": "court_cost_begin_lift"
+      },
+      "completion_node": "court_cost_begin_lift",
+      "completion_path": "data/books/book_vi.json",
+      "completion_text": "Lin Yue chose the chair board because the weather could close its covered path before the clerks closed their books. The porter took her to the path shelter and introduced the chair supervisor. Luo Shan sent Dai to verify the cashier's authority in parallel and kept the copying notices on his own desk. They agreed to bring their findings back before changing the hearing estimate. From the shelter, the covered path looked level and endless. Rain blowing beneath its roof was enough to remind Lin Yue that a line on paper had to survive wind.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_cost_begin_lift"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-082",
+      "node_id": "court_cost_question_hub",
+      "choice_index": 1,
+      "path": "data/books/book_vi.json",
+      "before": {
+        "text": "Compare the copying notices.",
+        "next": "court_cost_begin_notices",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Compare the copying notices.",
+        "next": "court_cost_begin_notices"
+      },
+      "completion_node": "court_cost_begin_notices",
+      "completion_path": "data/books/book_vi.json",
+      "completion_text": "Lin Yue chose the copying notices because one had already reached the city and might be paid before anyone corrected it. Luo Shan compared the dates while Dai took the authority question to the cashier. The porter agreed to obtain the chair timetable and bring back the supervisor's current fare. Nobody waited for Lin Yue to supervise an inquiry she had not chosen. The admission preparation notice used heavier paper than the registry receipt. Its impressive heading covered three small lines, one of which named a service the court's invitation had already promised.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_cost_begin_notices"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-083",
+      "node_id": "court_cost_question_hub",
+      "choice_index": 2,
+      "path": "data/books/book_vi.json",
+      "before": {
+        "text": "Check authority over the reserve.",
+        "next": "court_cost_begin_authority",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Check authority over the reserve.",
+        "next": "court_cost_begin_authority"
+      },
+      "completion_node": "court_cost_begin_authority",
+      "completion_path": "data/books/book_vi.json",
+      "completion_text": "Lin Yue chose the cashier's reserve authority because a cheap later plan was useless if the money could not lawfully pay for it. Dai led her to the appropriation desk with the previous monthly order. Luo Shan began checking the copying notices, and the porter went for the chair timetable. Before they separated, Lin Yue asked each to record unanswered questions alongside confirmed prices. The cashier greeted Dai by name. Her desk held many small petitions, all requesting modest sums that became substantial when stacked together. She cleared a space without removing anyone else's request.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_cost_begin_authority"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-084",
+      "node_id": "court_docket_first_choice",
+      "choice_index": 0,
+      "path": "data/books/book_vi.json",
+      "before": {
+        "text": "Read the full instructions",
+        "next": "court_docket_rules_path",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Read the full instructions",
+        "next": "court_docket_rules_path"
+      },
+      "completion_node": "court_docket_rules_path",
+      "completion_path": "data/books/book_vi.json",
+      "completion_text": "The rule booklet's earliest instruction requires a stable record of the offered statement. A later note recommends three dry evenings when water has damaged the paper. The newest desk card repeats the recommendation without the condition that made it useful. I have copied all three, because a shortened instruction can look older than the qualification it lost. We should ask who approved the desk card and whether clerks were told to apply it to dry originals too. The booklet alone does not establish how Deng's undamaged notice was handled on either visit.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_docket_rules_path"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-085",
+      "node_id": "court_docket_first_choice",
+      "choice_index": 1,
+      "path": "data/books/book_vi.json",
+      "before": {
+        "text": "Ask Cai about the visits",
+        "next": "court_docket_assistant_path",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Ask Cai about the visits",
+        "next": "court_docket_assistant_path"
+      },
+      "completion_node": "court_docket_assistant_path",
+      "completion_path": "data/books/book_vi.json",
+      "completion_text": "The assistant, a forty-seven-year-old woman named Cai Fen, remembered Deng's first visit because his kiln apron shed pale dust across the stair. She had pointed him toward the three-evening card after checking that his sleeve was dry. She had not examined the covered acknowledgment. Cai offered her own account and the time tally she kept for staffing, with unrelated visitors' names concealed. She had followed the desk card as an ordinary requirement. When Luo Shan showed her the longer condition, she asked whether the office would correct its public directions before the next queue formed.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_docket_assistant_path"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-086",
+      "node_id": "court_docket_first_choice",
+      "choice_index": 2,
+      "path": "data/books/book_vi.json",
+      "before": {
+        "text": "Walk the paper transfer route",
+        "next": "court_docket_paper_path",
+        "effects": {
+          "resolve": 1
+        },
+        "requires": {
+          "resolve": 3
+        }
+      },
+      "after": {
+        "text": "Walk the paper transfer route",
+        "next": "court_docket_paper_path",
+        "requires": {
+          "resolve": 3
+        }
+      },
+      "completion_node": "court_docket_paper_path",
+      "completion_path": "data/books/book_vi.json",
+      "completion_text": "The keeper carried a sample folded petition from the terrace to the receiving shelf. A roof channel sheltered most of the walk, but the last turn passed under a broken joint. He ordinarily tucked papers beneath his coat there. On busy days the assistant moved them in an open tray, following an older instruction to keep each visitor's bundle visible. The sample acquired three drops before reaching the shelf. Lin Yue recorded the route and its present condition. They had demonstrated a risk of damage, not proved that every damaged petition came through this particular joint.",
+      "earned": {
+        "resolve": 1
+      },
+      "branch": [
+        "court_docket_paper_path"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-087",
+      "node_id": "ring_investigation_choice",
+      "choice_index": 0,
+      "path": "data/books/book_vii.json",
+      "before": {
+        "text": "Take the reed channel with Wei Xiu and the offered custody record.",
+        "next": "ring_marsh_entry",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Take the reed channel with Wei Xiu and the offered custody record.",
+        "next": "ring_marsh_entry"
+      },
+      "completion_node": "ring_marsh_training",
+      "completion_path": "data/books/book_vii_marsh.json",
+      "completion_text": "Before we push off, practice stopping. Most visitors practice a grand movement and assume the stopping will happen afterward. Stand with one foot beside the bench and let the boat's motion reach your knees. If you brace everything, the force travels into the gunwale and spends my balance as well as yours. You can use a slow breath to soften that response, or learn the deck's movement by shifting your feet. Either practice takes attention. Neither makes you our pilot. When I call hold, let the movement end where it is.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "ring_marsh_entry",
+        "ring_marsh_remit",
+        "ring_marsh_xiu",
+        "ring_marsh_eel",
+        "ring_marsh_exterior_terms",
+        "ring_marsh_gear",
+        "ring_marsh_training"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-088",
+      "node_id": "ring_investigation_choice",
+      "choice_index": 1,
+      "path": "data/books/book_vii.json",
+      "before": {
+        "text": "Compare the volunteered charter papers with An Ru.",
+        "next": "ring_archive_entry",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Compare the volunteered charter papers with An Ru.",
+        "next": "ring_archive_entry"
+      },
+      "completion_node": "ring_archive_qi_window",
+      "completion_path": "data/books/book_vii_archive.json",
+      "completion_text": "A gust rattled the shutter latch. The lamp stretched its flame sideways and dimmed. Shen Qing took one step toward the window, then stopped to ask how it fastened. An Ru pointed to the worn wooden catch. He pressed it home without lighting the carved ward above it. The ward had once kept a whole shelf dry by drawing heat from the room; now half its channel was cracked. In an archive full of incomplete instructions, Lin Yue found comfort in a repair whose entire purpose fitted beneath one thumb.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "ring_archive_entry",
+        "ring_archive_door",
+        "ring_archive_return_work",
+        "ring_archive_city_visit",
+        "ring_archive_boundary",
+        "ring_archive_volunteered",
+        "ring_archive_private_copy",
+        "ring_archive_mortality",
+        "ring_archive_occupied",
+        "ring_archive_missing_line",
+        "ring_archive_correction",
+        "ring_archive_father",
+        "ring_archive_witness_limit",
+        "ring_archive_qi_window"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-089",
+      "node_id": "ring_investigation_choice",
+      "choice_index": 2,
+      "path": "data/books/book_vii.json",
+      "before": {
+        "text": "Walk the former ferry approach with Wei Jin.",
+        "next": "ring_road_entry",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Walk the former ferry approach with Wei Jin.",
+        "next": "ring_road_entry"
+      },
+      "completion_node": "ring_road_timber_warning",
+      "completion_path": "data/books/book_vii_road.json",
+      "completion_text": "A wave catches under the willow's split crown. One bare branch rises like a hand, striking the mooring block with a flat crack. Gravel spills into the ditch. Lin Yue pulls her sword clear by instinct, then holds the point down. The cutting place has shifted beyond her safe reach. Wei Jin calls a retreat. Su Lan lifts the red cord farther inland, leaving nobody between it and the water. They wait for the branch to settle. The old rope draws another thread from its fraying middle, and a brown splinter lands beside Wei Jin's boot.",
+      "earned": {
+        "resolve": 1
+      },
+      "branch": [
+        "ring_road_entry",
+        "ring_road_waterline",
+        "ring_road_daughter",
+        "ring_road_fare",
+        "ring_road_approach",
+        "ring_road_permit_question",
+        "ring_road_closed_ground",
+        "ring_road_soundings",
+        "ring_road_first_rope",
+        "ring_road_timber_warning"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-090",
+      "node_id": "ridge_final_choice",
+      "choice_index": 0,
+      "path": "data/books/book_ix_thunderfen.json",
+      "before": {
+        "text": "Study the corrected phase model at the receiving workshop.",
+        "next": "ridge_model_001",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Study the corrected phase model at the receiving workshop.",
+        "next": "ridge_model_001"
+      },
+      "completion_node": "ridge_model_002",
+      "completion_path": "data/books/book_ix_thunderfen.json",
+      "completion_text": "She drew the two opened arm pairs beside the model and left the next two pale. The anatomy did not become complete because the diagram looked balanced. Jiang showed how material phases affected a socket's return without asking Yue to swallow their impurities. The next apprenticeship would need food, room fees and independent recovered sessions. Comprehension gave the plan questions; it did not pay its costs.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "ridge_model_001",
+        "ridge_model_002"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-091",
+      "node_id": "ridge_final_choice",
+      "choice_index": 1,
+      "path": "data/books/book_ix_thunderfen.json",
+      "before": {
+        "text": "Practice the checked cart route after recovered grip review.",
+        "next": "ridge_route_001",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Practice the checked cart route after recovered grip review.",
+        "next": "ridge_route_001"
+      },
+      "completion_node": "ridge_route_002",
+      "completion_path": "data/books/book_ix_thunderfen.json",
+      "completion_text": "A wheel peg slipped on the second morning. Yue stopped, set the empty cart down and helped the keeper replace it before repeating the route. They inspected the peg as ordinary wood. She felt stronger when she could finish the safe pass, but did not translate that sensation into a fifth-stage certificate. Physique had grown through recovered work. Qi Control still belonged to a different measured task.",
+      "earned": {
+        "resolve": 1
+      },
+      "branch": [
+        "ridge_route_001",
+        "ridge_route_002"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-092",
+      "node_id": "ridge_final_choice",
+      "choice_index": 2,
+      "path": "data/books/book_ix_thunderfen.json",
+      "before": {
+        "text": "Take the reserved fare home and keep an honest account.",
+        "next": "ridge_home_001",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Take the reserved fare home and keep an honest account.",
+        "next": "ridge_home_001"
+      },
+      "completion_node": "ridge_home_002",
+      "completion_path": "data/books/book_ix_thunderfen.json",
+      "completion_text": "At the west kiln, her mother asked whether the beast had been defeated. Yue described a pool keeper, a dangerous interruption and a material path that needed repair. The answer made a less impressive supper story than victory. Her mother listened to it anyway, then handed her a bowl at the right distance from the ordinary vent. They ate before opening the next teacher's letter.",
+      "earned": {
+        "trust": 1
+      },
+      "branch": [
+        "ridge_home_001",
+        "ridge_home_002"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-093",
+      "node_id": "storm_inquiry_choice",
+      "choice_index": 0,
+      "path": "data/books/book_x_storm_ledger.json",
+      "before": {
+        "text": "Compare the receiving book with the warning copy.",
+        "next": "storm_paper_001",
+        "requires": {
+          "insight": 3
+        },
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Compare the receiving book with the warning copy.",
+        "next": "storm_paper_001",
+        "requires": {
+          "insight": 3
+        }
+      },
+      "completion_node": "storm_paper_010",
+      "completion_path": "data/books/book_x_storm_ledger.json",
+      "completion_text": "Yue carried the clerk's certified copy to the workshop, leaving the original beneath its weighted cloth. Shen stayed to finish the index. Outside, children were throwing pear seeds at the archive wall, pretending the marks were storm stars. One asked whether Yue had found the liar. She answered that she had found two sentences that could not both describe the same handover. The child looked disappointed. Yue understood the appetite behind that disappointment.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "storm_paper_001",
+        "storm_paper_002",
+        "storm_paper_003",
+        "storm_paper_004",
+        "storm_paper_005",
+        "storm_paper_006",
+        "storm_paper_007",
+        "storm_paper_008",
+        "storm_paper_009",
+        "storm_paper_010"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-094",
+      "node_id": "storm_inquiry_choice",
+      "choice_index": 1,
+      "path": "data/books/book_x_storm_ledger.json",
+      "before": {
+        "text": "Walk the lower message route with its keeper.",
+        "next": "storm_route_001",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Walk the lower message route with its keeper.",
+        "next": "storm_route_001"
+      },
+      "completion_node": "storm_route_010",
+      "completion_path": "data/books/book_x_storm_ledger.json",
+      "completion_text": "The second hourglass emptied after they reached the workshop. The walk and stops made the published after-midnight delivery implausible, but could not establish the actual hour. Yue handed Jiang the roster copy, the split spare-line sketch and the granary gate request. Her boots were muddy and her shoulders tired. She had used no qi on the path. The most valuable thing she brought back was another handover they had not known to ask about.",
+      "earned": {
+        "resolve": 1
+      },
+      "branch": [
+        "storm_route_001",
+        "storm_route_002",
+        "storm_route_003",
+        "storm_route_004",
+        "storm_route_005",
+        "storm_route_006",
+        "storm_route_007",
+        "storm_route_008",
+        "storm_route_009",
+        "storm_route_010"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-095",
+      "node_id": "storm_inquiry_choice",
+      "choice_index": 2,
+      "path": "data/books/book_x_storm_ledger.json",
+      "before": {
+        "text": "Hear the households before interpreting their receipts.",
+        "next": "storm_households_001",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Hear the households before interpreting their receipts.",
+        "next": "storm_households_001"
+      },
+      "completion_node": "storm_households_010",
+      "completion_path": "data/books/book_x_storm_ledger.json",
+      "completion_text": "At dusk, Yue totaled the copied receipts and left the uncertain memories in a separate envelope. Three payments agreed with the ledger; four showed differences; two expenses had apparently paid for privately purchased repairs. Jiang would reconcile the numbers against the originals. The widow sent a bundle of dry reeds for the workshop stove and asked to have her own name spelled correctly in the report. Yue wrote it again, checking every stroke with her.",
+      "earned": {
+        "trust": 1
+      },
+      "branch": [
+        "storm_households_001",
+        "storm_households_002",
+        "storm_households_003",
+        "storm_households_004",
+        "storm_households_005",
+        "storm_households_006",
+        "storm_households_007",
+        "storm_households_008",
+        "storm_households_009",
+        "storm_households_010"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-096",
+      "node_id": "storm_rescue_choice",
+      "choice_index": 0,
+      "path": "data/books/book_x_storm_ledger.json",
+      "before": {
+        "text": "Mark the raised ordinary escape strip.",
+        "next": "storm_ground_001",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Mark the raised ordinary escape strip.",
+        "next": "storm_ground_001"
+      },
+      "completion_node": "storm_ground_006",
+      "completion_path": "data/books/book_x_storm_ledger.json",
+      "completion_text": "Under the granary roof, Jiang closed the barrier supply and counted its remaining charge before packing. The path had worked within the observed storm interval; it was closed again pending inspection. Yue removed the flags only after everyone was accounted for. Her hands shook from cold and ordinary effort. She did not call the shaking reflux, and Jiang did not dismiss it as courage. They warmed her hands before deciding whether any route sensation needed clinical review.",
+      "earned": {
+        "resolve": 1
+      },
+      "branch": [
+        "storm_ground_001",
+        "storm_ground_002",
+        "storm_ground_003",
+        "storm_ground_004",
+        "storm_ground_005",
+        "storm_ground_006"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-097",
+      "node_id": "storm_rescue_choice",
+      "choice_index": 1,
+      "path": "data/books/book_x_storm_ledger.json",
+      "before": {
+        "text": "Help the trolley's brake crew after the keeper's path check.",
+        "next": "storm_trolley_001",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Help the trolley's brake crew after the keeper's path check.",
+        "next": "storm_trolley_001"
+      },
+      "completion_node": "storm_trolley_006",
+      "completion_path": "data/books/book_x_storm_ledger.json",
+      "completion_text": "Yue looked down at a blister beneath her thumb. She had made it with an ordinary wet handle, not a failed breakthrough. Jiang washed it, checked sensation and canceled the next day's trigger practice. The trolley needed its own wheel and brake inspection before reuse. The carter thanked Yue for the brake and the road worker for the lifting. Neither compliment changed the load tag or opened a third paired route in her arms.",
+      "earned": {
+        "trust": 1
+      },
+      "branch": [
+        "storm_trolley_001",
+        "storm_trolley_002",
+        "storm_trolley_003",
+        "storm_trolley_004",
+        "storm_trolley_005",
+        "storm_trolley_006"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-098",
+      "node_id": "storm_rescue_choice",
+      "choice_index": 2,
+      "path": "data/books/book_x_storm_ledger.json",
+      "before": {
+        "text": "Repeat the handbell signal from the sheltered station.",
+        "next": "storm_signal_001",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Repeat the handbell signal from the sheltered station.",
+        "next": "storm_signal_001"
+      },
+      "completion_node": "storm_signal_006",
+      "completion_path": "data/books/book_x_storm_ledger.json",
+      "completion_text": "At the granary bench, Yue wrapped the bell in a dry cloth with its clapper free. She could still hear its three strikes after the actual metal stopped. Jiang asked about finger pain and ordinary sensation before canceling tomorrow's trigger practice for everyone on the withdrawal. The sound did not leave Yue omniscient about the rescue. It left her with a station map that needed revision and two people she could count in the shelter.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "storm_signal_001",
+        "storm_signal_002",
+        "storm_signal_003",
+        "storm_signal_004",
+        "storm_signal_005",
+        "storm_signal_006"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-099",
+      "node_id": "storm_hearing_choice",
+      "choice_index": 0,
+      "path": "data/books/book_x_storm_ledger.json",
+      "before": {
+        "text": "Read the copper's documented path to the private cart.",
+        "next": "storm_trace_001",
+        "requires": {
+          "insight": 3
+        },
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Read the copper's documented path to the private cart.",
+        "next": "storm_trace_001",
+        "requires": {
+          "insight": 3
+        }
+      },
+      "completion_node": "storm_trace_005",
+      "completion_path": "data/books/book_x_storm_ledger.json",
+      "completion_text": "When Yue sat, her hands shook more than they had at the bell bench. She had wanted the numbers to protect her from anger. They had protected the scope of her claim, not the room's feelings. Shen poured her water while Jiang read the warning findings. Across the table, the widow mouthed her own name to make sure the clerk wrote it correctly. The hearing would succeed through several kinds of care, only one of them numerical.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "storm_trace_001",
+        "storm_trace_002",
+        "storm_trace_003",
+        "storm_trace_004",
+        "storm_trace_005"
+      ],
+      "legacy_rules_before": 2
+    },
+    {
+      "id": "extra-causality-100",
+      "node_id": "storm_hearing_choice",
+      "choice_index": 1,
+      "path": "data/books/book_x_storm_ledger.json",
+      "before": {
+        "text": "Explain each failed warning handover with its limits.",
+        "next": "storm_warning_hearing_001",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Explain each failed warning handover with its limits.",
+        "next": "storm_warning_hearing_001"
+      },
+      "completion_node": "storm_warning_hearing_005",
+      "completion_path": "data/books/book_x_storm_ledger.json",
+      "completion_text": "After the warning account, Shen presented the payment trace. The widow's two-copper levy appeared within the false fourteen-copper cover slip, not as extra money beyond the missing thirty-eight. The clerk read every net correction aloud. Yue listened with the other witnesses. Her own account had given the room a chain of actions to repair. The financial account gave it a debt to recover. Keeping both specific was harder than calling the whole storm a betrayal.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "storm_warning_hearing_001",
+        "storm_warning_hearing_002",
+        "storm_warning_hearing_003",
+        "storm_warning_hearing_004",
+        "storm_warning_hearing_005"
+      ],
+      "legacy_rules_before": 2
+    }
+  ]
+}

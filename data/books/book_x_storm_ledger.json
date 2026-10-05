@@ -219,24 +219,15 @@
           "next": "storm_paper_001",
           "requires": {
             "insight": 3
-          },
-          "effects": {
-            "insight": 1
           }
         },
         {
           "text": "Walk the lower message route with its keeper.",
-          "next": "storm_route_001",
-          "effects": {
-            "resolve": 1
-          }
+          "next": "storm_route_001"
         },
         {
           "text": "Hear the households before interpreting their receipts.",
-          "next": "storm_households_001",
-          "effects": {
-            "trust": 1
-          }
+          "next": "storm_households_001"
         }
       ]
     },
@@ -368,7 +359,26 @@
         "stage": "4: Second pair"
       },
       "text": "Yue carried the clerk's certified copy to the workshop, leaving the original beneath its weighted cloth. Shen stayed to finish the index. Outside, children were throwing pear seeds at the archive wall, pretending the marks were storm stars. One asked whether Yue had found the liar. She answered that she had found two sentences that could not both describe the same handover. The child looked disappointed. Yue understood the appetite behind that disappointment.",
-      "next": "storm_compare_001"
+      "next": "storm_compare_001",
+      "earned": {
+        "insight": 1
+      },
+      "legacy_credit": {
+        "choice_node": "storm_inquiry_choice",
+        "branch_nodes": [
+          "storm_paper_001",
+          "storm_paper_002",
+          "storm_paper_003",
+          "storm_paper_004",
+          "storm_paper_005",
+          "storm_paper_006",
+          "storm_paper_007",
+          "storm_paper_008",
+          "storm_paper_009",
+          "storm_paper_010"
+        ],
+        "rules_before": 2
+      }
     },
     "storm_route_001": {
       "chapter": "book_x_storm_ledger",
@@ -498,7 +508,26 @@
         "stage": "4: Second pair"
       },
       "text": "The second hourglass emptied after they reached the workshop. The walk and stops made the published after-midnight delivery implausible, but could not establish the actual hour. Yue handed Jiang the roster copy, the split spare-line sketch and the granary gate request. Her boots were muddy and her shoulders tired. She had used no qi on the path. The most valuable thing she brought back was another handover they had not known to ask about.",
-      "next": "storm_compare_001"
+      "next": "storm_compare_001",
+      "earned": {
+        "resolve": 1
+      },
+      "legacy_credit": {
+        "choice_node": "storm_inquiry_choice",
+        "branch_nodes": [
+          "storm_route_001",
+          "storm_route_002",
+          "storm_route_003",
+          "storm_route_004",
+          "storm_route_005",
+          "storm_route_006",
+          "storm_route_007",
+          "storm_route_008",
+          "storm_route_009",
+          "storm_route_010"
+        ],
+        "rules_before": 2
+      }
     },
     "storm_households_001": {
       "chapter": "book_x_storm_ledger",
@@ -628,7 +657,26 @@
         "stage": "4: Second pair"
       },
       "text": "At dusk, Yue totaled the copied receipts and left the uncertain memories in a separate envelope. Three payments agreed with the ledger; four showed differences; two expenses had apparently paid for privately purchased repairs. Jiang would reconcile the numbers against the originals. The widow sent a bundle of dry reeds for the workshop stove and asked to have her own name spelled correctly in the report. Yue wrote it again, checking every stroke with her.",
-      "next": "storm_compare_001"
+      "next": "storm_compare_001",
+      "earned": {
+        "trust": 1
+      },
+      "legacy_credit": {
+        "choice_node": "storm_inquiry_choice",
+        "branch_nodes": [
+          "storm_households_001",
+          "storm_households_002",
+          "storm_households_003",
+          "storm_households_004",
+          "storm_households_005",
+          "storm_households_006",
+          "storm_households_007",
+          "storm_households_008",
+          "storm_households_009",
+          "storm_households_010"
+        ],
+        "rules_before": 2
+      }
     },
     "storm_compare_001": {
       "chapter": "book_x_storm_ledger",
@@ -1183,24 +1231,15 @@
       "choices": [
         {
           "text": "Mark the raised ordinary escape strip.",
-          "next": "storm_ground_001",
-          "effects": {
-            "resolve": 1
-          }
+          "next": "storm_ground_001"
         },
         {
           "text": "Help the trolley's brake crew after the keeper's path check.",
-          "next": "storm_trolley_001",
-          "effects": {
-            "trust": 1
-          }
+          "next": "storm_trolley_001"
         },
         {
           "text": "Repeat the handbell signal from the sheltered station.",
-          "next": "storm_signal_001",
-          "effects": {
-            "insight": 1
-          }
+          "next": "storm_signal_001"
         }
       ]
     },
@@ -1280,7 +1319,22 @@
         "stage": "4: Second pair"
       },
       "text": "Under the granary roof, Jiang closed the barrier supply and counted its remaining charge before packing. The path had worked within the observed storm interval; it was closed again pending inspection. Yue removed the flags only after everyone was accounted for. Her hands shook from cold and ordinary effort. She did not call the shaking reflux, and Jiang did not dismiss it as courage. They warmed her hands before deciding whether any route sensation needed clinical review.",
-      "next": "storm_after_001"
+      "next": "storm_after_001",
+      "earned": {
+        "resolve": 1
+      },
+      "legacy_credit": {
+        "choice_node": "storm_rescue_choice",
+        "branch_nodes": [
+          "storm_ground_001",
+          "storm_ground_002",
+          "storm_ground_003",
+          "storm_ground_004",
+          "storm_ground_005",
+          "storm_ground_006"
+        ],
+        "rules_before": 2
+      }
     },
     "storm_trolley_001": {
       "chapter": "book_x_storm_ledger",
@@ -1358,7 +1412,22 @@
         "stage": "4: Second pair"
       },
       "text": "Yue looked down at a blister beneath her thumb. She had made it with an ordinary wet handle, not a failed breakthrough. Jiang washed it, checked sensation and canceled the next day's trigger practice. The trolley needed its own wheel and brake inspection before reuse. The carter thanked Yue for the brake and the road worker for the lifting. Neither compliment changed the load tag or opened a third paired route in her arms.",
-      "next": "storm_after_001"
+      "next": "storm_after_001",
+      "earned": {
+        "trust": 1
+      },
+      "legacy_credit": {
+        "choice_node": "storm_rescue_choice",
+        "branch_nodes": [
+          "storm_trolley_001",
+          "storm_trolley_002",
+          "storm_trolley_003",
+          "storm_trolley_004",
+          "storm_trolley_005",
+          "storm_trolley_006"
+        ],
+        "rules_before": 2
+      }
     },
     "storm_signal_001": {
       "chapter": "book_x_storm_ledger",
@@ -1436,7 +1505,22 @@
         "stage": "4: Second pair"
       },
       "text": "At the granary bench, Yue wrapped the bell in a dry cloth with its clapper free. She could still hear its three strikes after the actual metal stopped. Jiang asked about finger pain and ordinary sensation before canceling tomorrow's trigger practice for everyone on the withdrawal. The sound did not leave Yue omniscient about the rescue. It left her with a station map that needed revision and two people she could count in the shelter.",
-      "next": "storm_after_001"
+      "next": "storm_after_001",
+      "earned": {
+        "insight": 1
+      },
+      "legacy_credit": {
+        "choice_node": "storm_rescue_choice",
+        "branch_nodes": [
+          "storm_signal_001",
+          "storm_signal_002",
+          "storm_signal_003",
+          "storm_signal_004",
+          "storm_signal_005",
+          "storm_signal_006"
+        ],
+        "rules_before": 2
+      }
     },
     "storm_after_001": {
       "chapter": "book_x_storm_ledger",
@@ -1611,17 +1695,11 @@
           "next": "storm_trace_001",
           "requires": {
             "insight": 3
-          },
-          "effects": {
-            "insight": 1
           }
         },
         {
           "text": "Explain each failed warning handover with its limits.",
-          "next": "storm_warning_hearing_001",
-          "effects": {
-            "insight": 1
-          }
+          "next": "storm_warning_hearing_001"
         },
         {
           "text": "Check the household correction list beside the claimants.",
@@ -1695,7 +1773,21 @@
         "stage": "4: Second pair"
       },
       "text": "When Yue sat, her hands shook more than they had at the bell bench. She had wanted the numbers to protect her from anger. They had protected the scope of her claim, not the room's feelings. Shen poured her water while Jiang read the warning findings. Across the table, the widow mouthed her own name to make sure the clerk wrote it correctly. The hearing would succeed through several kinds of care, only one of them numerical.",
-      "next": "storm_settle_001"
+      "next": "storm_settle_001",
+      "earned": {
+        "insight": 1
+      },
+      "legacy_credit": {
+        "choice_node": "storm_hearing_choice",
+        "branch_nodes": [
+          "storm_trace_001",
+          "storm_trace_002",
+          "storm_trace_003",
+          "storm_trace_004",
+          "storm_trace_005"
+        ],
+        "rules_before": 2
+      }
     },
     "storm_warning_hearing_001": {
       "chapter": "book_x_storm_ledger",
@@ -1760,7 +1852,21 @@
         "stage": "4: Second pair"
       },
       "text": "After the warning account, Shen presented the payment trace. The widow's two-copper levy appeared within the false fourteen-copper cover slip, not as extra money beyond the missing thirty-eight. The clerk read every net correction aloud. Yue listened with the other witnesses. Her own account had given the room a chain of actions to repair. The financial account gave it a debt to recover. Keeping both specific was harder than calling the whole storm a betrayal.",
-      "next": "storm_settle_001"
+      "next": "storm_settle_001",
+      "earned": {
+        "insight": 1
+      },
+      "legacy_credit": {
+        "choice_node": "storm_hearing_choice",
+        "branch_nodes": [
+          "storm_warning_hearing_001",
+          "storm_warning_hearing_002",
+          "storm_warning_hearing_003",
+          "storm_warning_hearing_004",
+          "storm_warning_hearing_005"
+        ],
+        "rules_before": 2
+      }
     },
     "storm_claims_001": {
       "chapter": "book_x_storm_ledger",

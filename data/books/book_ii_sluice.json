@@ -345,24 +345,15 @@
       "choices": [
         {
           "text": "Take only the rested morning sorting shift.",
-          "next": "sluice_work_001",
-          "effects": {
-            "resolve": 1
-          }
+          "next": "sluice_work_001"
         },
         {
           "text": "Copy the basin records and protect practice time.",
-          "next": "sluice_records_001",
-          "effects": {
-            "insight": 1
-          }
+          "next": "sluice_records_001"
         },
         {
           "text": "Let a rested worker take the shift and recover.",
-          "next": "sluice_rest_001",
-          "effects": {
-            "trust": 1
-          }
+          "next": "sluice_rest_001"
         }
       ]
     },
@@ -533,7 +524,18 @@
         "realm": "qi_gathering",
         "stage": "1: Trace"
       },
-      "next": "sluice_029"
+      "next": "sluice_029",
+      "earned": {
+        "resolve": 1
+      },
+      "legacy_credit": {
+        "choice_node": "sluice_028",
+        "branch_nodes": [
+          "sluice_work_001",
+          "sluice_work_002"
+        ],
+        "rules_before": 2
+      }
     },
     "sluice_records_001": {
       "speaker": "narrator",
@@ -557,7 +559,18 @@
         "realm": "qi_gathering",
         "stage": "1: Trace"
       },
-      "next": "sluice_029"
+      "next": "sluice_029",
+      "earned": {
+        "insight": 1
+      },
+      "legacy_credit": {
+        "choice_node": "sluice_028",
+        "branch_nodes": [
+          "sluice_records_001",
+          "sluice_records_002"
+        ],
+        "rules_before": 2
+      }
     },
     "sluice_rest_001": {
       "speaker": "narrator",
@@ -581,7 +594,18 @@
         "realm": "qi_gathering",
         "stage": "1: Trace"
       },
-      "next": "sluice_029"
+      "next": "sluice_029",
+      "earned": {
+        "trust": 1
+      },
+      "legacy_credit": {
+        "choice_node": "sluice_028",
+        "branch_nodes": [
+          "sluice_rest_001",
+          "sluice_rest_002"
+        ],
+        "rules_before": 2
+      }
     },
     "channels_001": {
       "speaker": "narrator",
@@ -1258,24 +1282,15 @@
       "choices": [
         {
           "text": "Use one inspected Reed-Step to reach the dry latch.",
-          "next": "mantis_step_001",
-          "effects": {
-            "qi": 1
-          }
+          "next": "mantis_step_001"
         },
         {
           "text": "Help crank the west gate to reduce water pressure.",
-          "next": "mantis_gate_001",
-          "effects": {
-            "resolve": 1
-          }
+          "next": "mantis_gate_001"
         },
         {
           "text": "Clear the warning route and open the sheltered exit.",
-          "next": "mantis_exit_001",
-          "effects": {
-            "trust": 1
-          }
+          "next": "mantis_exit_001"
         }
       ]
     },
@@ -1578,7 +1593,18 @@
         "realm": "qi_gathering",
         "stage": "3: First pair"
       },
-      "next": "reed_step_012"
+      "next": "reed_step_012",
+      "earned": {
+        "qi": 1
+      },
+      "legacy_credit": {
+        "choice_node": "reed_step_011",
+        "branch_nodes": [
+          "mantis_step_001",
+          "mantis_step_002"
+        ],
+        "rules_before": 2
+      }
     },
     "mantis_gate_001": {
       "speaker": "narrator",
@@ -1602,7 +1628,18 @@
         "realm": "qi_gathering",
         "stage": "3: First pair"
       },
-      "next": "reed_step_012"
+      "next": "reed_step_012",
+      "earned": {
+        "resolve": 1
+      },
+      "legacy_credit": {
+        "choice_node": "reed_step_011",
+        "branch_nodes": [
+          "mantis_gate_001",
+          "mantis_gate_002"
+        ],
+        "rules_before": 2
+      }
     },
     "mantis_exit_001": {
       "speaker": "narrator",
@@ -1626,7 +1663,18 @@
         "realm": "qi_gathering",
         "stage": "3: First pair"
       },
-      "next": "reed_step_012"
+      "next": "reed_step_012",
+      "earned": {
+        "trust": 1
+      },
+      "legacy_credit": {
+        "choice_node": "reed_step_011",
+        "branch_nodes": [
+          "mantis_exit_001",
+          "mantis_exit_002"
+        ],
+        "rules_before": 2
+      }
     }
   }
 }

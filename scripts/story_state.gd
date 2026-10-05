@@ -174,7 +174,7 @@ func _commit_checkpoint(temporary_path: String, path: String) -> int:
 func save_game(path: String = "user://jade_vow_save.json") -> bool:
 	var temporary_path := path + ".tmp"
 	var backup_path := path + ".bak"
-	var bytes := JSON.stringify({"version": SAVE_VERSION, "current": current, "stats": stats, "history": history, "journey_seed": journey_seed, "encounters": encounters, "completed_practice": completed_practice, "practice_rules": 1}).to_utf8_buffer()
+	var bytes := JSON.stringify({"version": SAVE_VERSION, "current": current, "stats": stats, "history": history, "journey_seed": journey_seed, "encounters": encounters, "completed_practice": completed_practice, "practice_rules": 2}).to_utf8_buffer()
 	if not _write_verified_checkpoint(temporary_path, bytes):
 		if FileAccess.file_exists(temporary_path):
 			DirAccess.remove_absolute(temporary_path)
@@ -250,18 +250,21 @@ func load_game(path: String = "user://jade_vow_save.json") -> bool:
 			if not story.nodes.has(practice_id) or not story.nodes[practice_id].has("earned") or not data.completed_practice[practice_id] is bool or data.completed_practice[practice_id] != true:
 				return false
 		validated_practice = data.completed_practice.duplicate(true)
-	# Version-1 checkpoints predating deferred credit already received these
-	# gains when selecting the branch. Preserve those scores without paying twice.
+	# Different revisions defer different formerly prepaid branches.
+	# Preserve older paid credit while leaving newer pending work unclaimed.
 	var rules = data.get("practice_rules", 0)
-	if not (rules is int or rules is float) or (rules != 0 and rules != 1):
+	if not (rules is int or rules is float) or (rules != 0 and rules != 1 and rules != 2):
 		return false
-	if rules == 0:
+	if rules < 2:
 		var prior_texts := {}
 		for entry in data["history"]:
 			prior_texts[entry.text] = true
 		for practice_id in story.nodes:
 			var practice: Dictionary = story.nodes[practice_id]
 			if not practice.has("legacy_credit"):
+				continue
+			var introduced: int = int(practice.legacy_credit.get("rules_before", 1))
+			if rules >= introduced:
 				continue
 			var origin: String = practice.legacy_credit.choice_node
 			var branch: Array = practice.legacy_credit.branch_nodes
