@@ -1,0 +1,487 @@
+{
+  "source_commit": "7fb1d1bd74d9f2e7330f39dddeb5910b445a4816",
+  "target_total_words": 2000000,
+  "baseline_words": 1126752,
+  "baseline_scenes": 12721,
+  "episodes": [
+    {
+      "id": "xu_lin",
+      "source_file": "data/books/book_xii_canal_01.json",
+      "anchor": "canal_p01_018",
+      "original_next": "canal_p01_019",
+      "chapter": "book_xii_canal",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "common": [
+        "expansion_xu_lin_common_001",
+        "expansion_xu_lin_common_002",
+        "expansion_xu_lin_common_003",
+        "expansion_xu_lin_common_004",
+        "expansion_xu_lin_common_005",
+        "expansion_xu_lin_common_006",
+        "expansion_xu_lin_common_007",
+        "expansion_xu_lin_common_008"
+      ],
+      "choice": "expansion_xu_lin_choice",
+      "branches": [
+        [
+          "expansion_xu_lin_support_001",
+          "expansion_xu_lin_support_002",
+          "expansion_xu_lin_support_003"
+        ],
+        [
+          "expansion_xu_lin_record_001",
+          "expansion_xu_lin_record_002",
+          "expansion_xu_lin_record_003"
+        ],
+        [
+          "expansion_xu_lin_estimate_001",
+          "expansion_xu_lin_estimate_002",
+          "expansion_xu_lin_estimate_003"
+        ]
+      ],
+      "closing": [
+        "expansion_xu_lin_close_001",
+        "expansion_xu_lin_close_002"
+      ],
+      "cast": [
+        "lin_yue",
+        "xu_lin",
+        "bao_jun"
+      ],
+      "new_scene_ids": [
+        "expansion_xu_lin_common_001",
+        "expansion_xu_lin_common_002",
+        "expansion_xu_lin_common_003",
+        "expansion_xu_lin_common_004",
+        "expansion_xu_lin_common_005",
+        "expansion_xu_lin_common_006",
+        "expansion_xu_lin_common_007",
+        "expansion_xu_lin_common_008",
+        "expansion_xu_lin_choice",
+        "expansion_xu_lin_support_001",
+        "expansion_xu_lin_support_002",
+        "expansion_xu_lin_support_003",
+        "expansion_xu_lin_record_001",
+        "expansion_xu_lin_record_002",
+        "expansion_xu_lin_record_003",
+        "expansion_xu_lin_estimate_001",
+        "expansion_xu_lin_estimate_002",
+        "expansion_xu_lin_estimate_003",
+        "expansion_xu_lin_close_001",
+        "expansion_xu_lin_close_002"
+      ],
+      "before_anchor": {
+        "chapter": "book_xii_canal",
+        "speaker": "narrator",
+        "actor": "bao_jun",
+        "background": "north_landing",
+        "effect": "none",
+        "cultivation": {
+          "realm": "qi_gathering",
+          "stage": "4: Second pair"
+        },
+        "text": "At the far gate, Bao Jun measured the timber with a carpenter's square. He was thirty-one, broad in the shoulders and careful about where he rested his thumb. A saw accident had taught him to support a board before arguing over its cut. He showed Yue a hollow beneath the lower seal, then let her find the corresponding wear mark herself. The water escaped along a material gap. Neither the old loan nor the new auction notice had caused that particular leak.",
+        "next": "canal_p01_019"
+      }
+    },
+    {
+      "id": "tidemirror_otter",
+      "source_file": "data/books/book_xii_canal_01.json",
+      "anchor": "canal_p01_009",
+      "original_next": "canal_p01_010",
+      "chapter": "book_xii_canal",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "common": [
+        "expansion_tidemirror_otter_common_001",
+        "expansion_tidemirror_otter_common_002",
+        "expansion_tidemirror_otter_common_003",
+        "expansion_tidemirror_otter_common_004",
+        "expansion_tidemirror_otter_common_005"
+      ],
+      "choice": "expansion_tidemirror_otter_choice",
+      "branches": [
+        [
+          "expansion_tidemirror_otter_observe_001",
+          "expansion_tidemirror_otter_observe_002",
+          "expansion_tidemirror_otter_observe_003"
+        ],
+        [
+          "expansion_tidemirror_otter_memory_001",
+          "expansion_tidemirror_otter_memory_002",
+          "expansion_tidemirror_otter_memory_003"
+        ],
+        [
+          "expansion_tidemirror_otter_procedure_001",
+          "expansion_tidemirror_otter_procedure_002",
+          "expansion_tidemirror_otter_procedure_003"
+        ]
+      ],
+      "closing": [
+        "expansion_tidemirror_otter_close_001",
+        "expansion_tidemirror_otter_close_002"
+      ],
+      "cast": [
+        "lin_yue",
+        "tidemirror_otter"
+      ],
+      "new_scene_ids": [
+        "expansion_tidemirror_otter_common_001",
+        "expansion_tidemirror_otter_common_002",
+        "expansion_tidemirror_otter_common_003",
+        "expansion_tidemirror_otter_common_004",
+        "expansion_tidemirror_otter_common_005",
+        "expansion_tidemirror_otter_choice",
+        "expansion_tidemirror_otter_observe_001",
+        "expansion_tidemirror_otter_observe_002",
+        "expansion_tidemirror_otter_observe_003",
+        "expansion_tidemirror_otter_memory_001",
+        "expansion_tidemirror_otter_memory_002",
+        "expansion_tidemirror_otter_memory_003",
+        "expansion_tidemirror_otter_procedure_001",
+        "expansion_tidemirror_otter_procedure_002",
+        "expansion_tidemirror_otter_procedure_003",
+        "expansion_tidemirror_otter_close_001",
+        "expansion_tidemirror_otter_close_002"
+      ],
+      "before_anchor": {
+        "chapter": "book_xii_canal",
+        "speaker": "narrator",
+        "actor": "lin_yue",
+        "background": "north_landing",
+        "effect": "none",
+        "cultivation": {
+          "realm": "qi_gathering",
+          "stage": "4: Second pair"
+        },
+        "text": "The first defect was a child's wooden whistle caught beneath a floating gate shoe. Its owner watched from the bank, pale with the fear of being blamed for the stalled grain boat. Luo closed the upstream hand gate and showed Yue where the ordinary flow indicator settled. Only then did she use a hooked pole to lift the whistle free. The lock moved again. Yue gave it back with its split mouthpiece visible, refusing the child's first insistence that a beast had swallowed it.",
+        "next": "canal_p01_010"
+      }
+    },
+    {
+      "id": "cinderback_pangolin",
+      "source_file": "data/books/book_xiii_forest_01.json",
+      "anchor": "forest_01_023",
+      "original_next": "forest_01_024",
+      "chapter": "book_xiii_forest",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "common": [
+        "expansion_cinderback_pangolin_common_001",
+        "expansion_cinderback_pangolin_common_002",
+        "expansion_cinderback_pangolin_common_003",
+        "expansion_cinderback_pangolin_common_004",
+        "expansion_cinderback_pangolin_common_005",
+        "expansion_cinderback_pangolin_common_006"
+      ],
+      "choice": "expansion_cinderback_pangolin_choice",
+      "branches": [
+        [
+          "expansion_cinderback_pangolin_ground_001",
+          "expansion_cinderback_pangolin_ground_002",
+          "expansion_cinderback_pangolin_ground_003"
+        ],
+        [
+          "expansion_cinderback_pangolin_story_001",
+          "expansion_cinderback_pangolin_story_002",
+          "expansion_cinderback_pangolin_story_003"
+        ],
+        [
+          "expansion_cinderback_pangolin_roof_001",
+          "expansion_cinderback_pangolin_roof_002",
+          "expansion_cinderback_pangolin_roof_003"
+        ]
+      ],
+      "closing": [
+        "expansion_cinderback_pangolin_close_001",
+        "expansion_cinderback_pangolin_close_002"
+      ],
+      "cast": [
+        "lin_yue",
+        "cinderback_pangolin"
+      ],
+      "new_scene_ids": [
+        "expansion_cinderback_pangolin_common_001",
+        "expansion_cinderback_pangolin_common_002",
+        "expansion_cinderback_pangolin_common_003",
+        "expansion_cinderback_pangolin_common_004",
+        "expansion_cinderback_pangolin_common_005",
+        "expansion_cinderback_pangolin_common_006",
+        "expansion_cinderback_pangolin_choice",
+        "expansion_cinderback_pangolin_ground_001",
+        "expansion_cinderback_pangolin_ground_002",
+        "expansion_cinderback_pangolin_ground_003",
+        "expansion_cinderback_pangolin_story_001",
+        "expansion_cinderback_pangolin_story_002",
+        "expansion_cinderback_pangolin_story_003",
+        "expansion_cinderback_pangolin_roof_001",
+        "expansion_cinderback_pangolin_roof_002",
+        "expansion_cinderback_pangolin_roof_003",
+        "expansion_cinderback_pangolin_close_001",
+        "expansion_cinderback_pangolin_close_002"
+      ],
+      "before_anchor": {
+        "chapter": "book_xiii_forest",
+        "cultivation": {
+          "realm": "qi_gathering",
+          "stage": "4: Second pair"
+        },
+        "effect": "none",
+        "speaker": "narrator",
+        "actor": "lin_yue",
+        "text": "On the far bank, small roadside shrines held offerings of split sticks rather than flowers. Shi Lan said travelers left dry kindling for the next person who needed the shelter hearth. The kindling was useful only while someone kept its roof whole. A shrine near the turn had lost three tiles; rain had swollen the little woodpile beneath it. Yue marked the damaged shelter on her personal route sketch and left the wet sticks where they were.",
+        "background": "forest_autumn_boundary",
+        "next": "forest_01_024"
+      }
+    },
+    {
+      "id": "chen_rui",
+      "source_file": "data/books/book_xiv_harbor_01.json",
+      "anchor": "harbor_p01_023",
+      "original_next": "harbor_p01_024",
+      "chapter": "book_xiv_harbor",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "common": [
+        "expansion_chen_rui_common_001",
+        "expansion_chen_rui_common_002",
+        "expansion_chen_rui_common_003",
+        "expansion_chen_rui_common_004",
+        "expansion_chen_rui_common_005",
+        "expansion_chen_rui_common_006",
+        "expansion_chen_rui_common_007"
+      ],
+      "choice": "expansion_chen_rui_choice",
+      "branches": [
+        [
+          "expansion_chen_rui_example_001",
+          "expansion_chen_rui_example_002",
+          "expansion_chen_rui_example_003"
+        ],
+        [
+          "expansion_chen_rui_office_001",
+          "expansion_chen_rui_office_002",
+          "expansion_chen_rui_office_003"
+        ],
+        [
+          "expansion_chen_rui_pause_001",
+          "expansion_chen_rui_pause_002",
+          "expansion_chen_rui_pause_003"
+        ]
+      ],
+      "closing": [
+        "expansion_chen_rui_close_001",
+        "expansion_chen_rui_close_002"
+      ],
+      "cast": [
+        "lin_yue",
+        "chen_rui"
+      ],
+      "new_scene_ids": [
+        "expansion_chen_rui_common_001",
+        "expansion_chen_rui_common_002",
+        "expansion_chen_rui_common_003",
+        "expansion_chen_rui_common_004",
+        "expansion_chen_rui_common_005",
+        "expansion_chen_rui_common_006",
+        "expansion_chen_rui_common_007",
+        "expansion_chen_rui_choice",
+        "expansion_chen_rui_example_001",
+        "expansion_chen_rui_example_002",
+        "expansion_chen_rui_example_003",
+        "expansion_chen_rui_office_001",
+        "expansion_chen_rui_office_002",
+        "expansion_chen_rui_office_003",
+        "expansion_chen_rui_pause_001",
+        "expansion_chen_rui_pause_002",
+        "expansion_chen_rui_pause_003",
+        "expansion_chen_rui_close_001",
+        "expansion_chen_rui_close_002"
+      ],
+      "before_anchor": {
+        "chapter": "book_xiv_harbor",
+        "speaker": "narrator",
+        "actor": "lin_yue",
+        "text": "The ticket named Luo Jian as a shore loader, though Fen's father sometimes used Jian Luo when merchants copied his name into foreign order. A narrow line beneath the amount said wages payable on verified return or to a named recipient. The recipient space was blank. Yue read the line twice, then asked Fen who had retained the voyage contract. Fen said her father had carried his copy. The ticket could support a search for that contract. It could not make Fen the recipient by itself.",
+        "background": "harbor_quarantine_quay",
+        "effect": "none",
+        "cultivation": {
+          "realm": "qi_gathering",
+          "stage": "4: Second pair"
+        },
+        "next": "harbor_p01_024"
+      }
+    },
+    {
+      "id": "wu_zheng",
+      "source_file": "data/books/book_xv_kiln_01.json",
+      "anchor": "kiln_p01_023",
+      "original_next": "kiln_p01_024",
+      "chapter": "book_xv_kiln",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "4: Second pair"
+      },
+      "common": [
+        "expansion_wu_zheng_common_001",
+        "expansion_wu_zheng_common_002",
+        "expansion_wu_zheng_common_003",
+        "expansion_wu_zheng_common_004",
+        "expansion_wu_zheng_common_005",
+        "expansion_wu_zheng_common_006"
+      ],
+      "choice": "expansion_wu_zheng_choice",
+      "branches": [
+        [
+          "expansion_wu_zheng_signal_001",
+          "expansion_wu_zheng_signal_002",
+          "expansion_wu_zheng_signal_003"
+        ],
+        [
+          "expansion_wu_zheng_attribution_001",
+          "expansion_wu_zheng_attribution_002",
+          "expansion_wu_zheng_attribution_003"
+        ],
+        [
+          "expansion_wu_zheng_tools_001",
+          "expansion_wu_zheng_tools_002",
+          "expansion_wu_zheng_tools_003"
+        ]
+      ],
+      "closing": [
+        "expansion_wu_zheng_close_001",
+        "expansion_wu_zheng_close_002"
+      ],
+      "cast": [
+        "lin_yue",
+        "wu_zheng",
+        "luo_sheng"
+      ],
+      "new_scene_ids": [
+        "expansion_wu_zheng_common_001",
+        "expansion_wu_zheng_common_002",
+        "expansion_wu_zheng_common_003",
+        "expansion_wu_zheng_common_004",
+        "expansion_wu_zheng_common_005",
+        "expansion_wu_zheng_common_006",
+        "expansion_wu_zheng_choice",
+        "expansion_wu_zheng_signal_001",
+        "expansion_wu_zheng_signal_002",
+        "expansion_wu_zheng_signal_003",
+        "expansion_wu_zheng_attribution_001",
+        "expansion_wu_zheng_attribution_002",
+        "expansion_wu_zheng_attribution_003",
+        "expansion_wu_zheng_tools_001",
+        "expansion_wu_zheng_tools_002",
+        "expansion_wu_zheng_tools_003",
+        "expansion_wu_zheng_close_001",
+        "expansion_wu_zheng_close_002"
+      ],
+      "before_anchor": {
+        "chapter": "book_xv_kiln",
+        "speaker": "narrator",
+        "actor": "luo_sheng",
+        "background": "kiln_common_firing_hall",
+        "effect": "none",
+        "cultivation": {
+          "realm": "qi_gathering",
+          "stage": "4: Second pair"
+        },
+        "text": "A work bell hung from a timber beam at the hall's far end. Its rope was new above a knot and old below it. Luo pulled once, then asked Yue what the sound had told her. \"That this bell can be heard here,\" she answered. \"I do not know whether a worker beside the running fan would hear it.\" He pointed to the fan's unpowered housing. Tomorrow's check would include that location. A cold demonstration could establish a beginning without quietly claiming the test it had not performed.",
+        "next": "kiln_p01_024"
+      }
+    },
+    {
+      "id": "song_mei",
+      "source_file": "data/books/book_xvi_desert_01.json",
+      "anchor": "desert_p01_028",
+      "original_next": "desert_p01_029",
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "common": [
+        "expansion_song_mei_common_001",
+        "expansion_song_mei_common_002",
+        "expansion_song_mei_common_003",
+        "expansion_song_mei_common_004",
+        "expansion_song_mei_common_005",
+        "expansion_song_mei_common_006"
+      ],
+      "choice": "expansion_song_mei_choice",
+      "branches": [
+        [
+          "expansion_song_mei_rhythm_001",
+          "expansion_song_mei_rhythm_002",
+          "expansion_song_mei_rhythm_003"
+        ],
+        [
+          "expansion_song_mei_memory_001",
+          "expansion_song_mei_memory_002",
+          "expansion_song_mei_memory_003"
+        ],
+        [
+          "expansion_song_mei_rest_001",
+          "expansion_song_mei_rest_002",
+          "expansion_song_mei_rest_003"
+        ]
+      ],
+      "closing": [
+        "expansion_song_mei_close_001",
+        "expansion_song_mei_close_002"
+      ],
+      "cast": [
+        "lin_yue",
+        "song_mei"
+      ],
+      "new_scene_ids": [
+        "expansion_song_mei_common_001",
+        "expansion_song_mei_common_002",
+        "expansion_song_mei_common_003",
+        "expansion_song_mei_common_004",
+        "expansion_song_mei_common_005",
+        "expansion_song_mei_common_006",
+        "expansion_song_mei_choice",
+        "expansion_song_mei_rhythm_001",
+        "expansion_song_mei_rhythm_002",
+        "expansion_song_mei_rhythm_003",
+        "expansion_song_mei_memory_001",
+        "expansion_song_mei_memory_002",
+        "expansion_song_mei_memory_003",
+        "expansion_song_mei_rest_001",
+        "expansion_song_mei_rest_002",
+        "expansion_song_mei_rest_003",
+        "expansion_song_mei_close_001",
+        "expansion_song_mei_close_002"
+      ],
+      "before_anchor": {
+        "chapter": "book_xvi_desert",
+        "cultivation": {
+          "realm": "qi_gathering",
+          "stage": "5: Four pairs"
+        },
+        "effect": "none",
+        "speaker": "narrator",
+        "actor": "lin_yue",
+        "text": "The driver beside Yue had a wife working in the dye yards west of Bitter Wells. He sent money home every second crossing and complained that his son could now beat him at counting stones. Another worker said he was saving for a roof, then admitted that he had been saving for the same roof for five years. Their stories crossed without asking Yue for her own. At last she offered a small memory of the west kiln, where damp firewood made everyone accuse the sky. The driver asked whether the sky had ever paid compensation.",
+        "background": "bitter_wells_caravan_yard",
+        "next": "desert_p01_029"
+      }
+    }
+  ],
+  "added_words": 8630,
+  "added_scenes": 110,
+  "displayed_words": 1135382,
+  "displayed_scenes": 12831,
+  "remaining_words": 864618
+}

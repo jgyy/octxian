@@ -17,7 +17,7 @@ else:
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 STAT_KEYS = {"qi", "trust", "insight", "resolve"}
 BASE_ACTORS = {"lin_yue", "shen_qing", "elder_yun", "mo_ran"}
-WORD_TARGET = 1000001
+WORD_TARGET = 2000000
 SPRITE_TARGET = 1001
 MIN_SPRITE_NATIVE_SIZE = (1024, 1536)
 ORIGINAL_ART_TARGETS = {"backgrounds": 100, "npcs": 500, "monsters": 501}
@@ -268,7 +268,7 @@ def inspect(root):
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--require-complete", action="store_true",
-                        help="Require >1 million words, 500 human sprites, 501 beasts, and all background quotas")
+                        help="Require 2 million words, 500 human sprites, 501 beasts, and all background quotas")
     args = parser.parse_args(argv)
     report = inspect(ROOT)
     output = ROOT / "build/content_report.json"
