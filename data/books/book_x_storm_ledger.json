@@ -777,24 +777,15 @@
           "next": "storm_relay_001",
           "requires": {
             "qi": 3
-          },
-          "effects": {
-            "insight": 1
           }
         },
         {
           "text": "Rebuild and test the ordinary hand lever.",
-          "next": "storm_lever_001",
-          "effects": {
-            "insight": 1
-          }
+          "next": "storm_lever_001"
         },
         {
           "text": "Trace the warning through named receivers.",
-          "next": "storm_handover_001",
-          "effects": {
-            "trust": 1
-          }
+          "next": "storm_handover_001"
         }
       ]
     },
@@ -874,7 +865,21 @@
         "stage": "4: Second pair"
       },
       "text": "When the comparison ended, Jiang removed the practice stone and fitted the separately budgeted warning supply. The village keeper would own the charge checks. Yue gave him the blank result, the clipped-cycle example and the lever fallback. He asked whether the apprentice could remain nearby all season. She said the procedure had to work when she was home. The question sounded flattering until she recognized the old temptation to become a tool nobody could put down.",
-      "next": "storm_warning_001"
+      "next": "storm_warning_001",
+      "earned": {
+        "insight": 1
+      },
+      "legacy_credit": {
+        "choice_node": "storm_test_choice",
+        "branch_nodes": [
+          "storm_relay_001",
+          "storm_relay_002",
+          "storm_relay_003",
+          "storm_relay_004",
+          "storm_relay_005",
+          "storm_relay_006"
+        ]
+      }
     },
     "storm_lever_001": {
       "chapter": "book_x_storm_ledger",
@@ -952,7 +957,21 @@
         "stage": "4: Second pair"
       },
       "text": "Jiang completed the separate powered-socket tests and showed Yue the flag that fell after an incomplete cycle. The ordinary lever could sound the same three strikes without any qi operator. The keeper tried it wearing thick rain gloves, then asked a second adult to repeat. Yue entered the repeated result in the maintenance book. Her fourth-stage cord hung beside the workbench, unnecessary to this task and still part of the worker who had done it.",
-      "next": "storm_warning_001"
+      "next": "storm_warning_001",
+      "earned": {
+        "insight": 1
+      },
+      "legacy_credit": {
+        "choice_node": "storm_test_choice",
+        "branch_nodes": [
+          "storm_lever_001",
+          "storm_lever_002",
+          "storm_lever_003",
+          "storm_lever_004",
+          "storm_lever_005",
+          "storm_lever_006"
+        ]
+      }
     },
     "storm_handover_001": {
       "chapter": "book_x_storm_ledger",
@@ -1030,7 +1049,21 @@
         "stage": "4: Second pair"
       },
       "text": "When Jiang demonstrated the repaired frame, Yue watched the kitchen attendant instead of the bronze. She received the drill message, repeated its area and sent the runner. The lower watcher rang, then brought back a completed receipt strip. One household still misunderstood the grain instruction. They corrected the posted words and repeated the exercise. The system improved through another ordinary conversation, with the machine's successful tone supplying only one part of its success.",
-      "next": "storm_warning_001"
+      "next": "storm_warning_001",
+      "earned": {
+        "trust": 1
+      },
+      "legacy_credit": {
+        "choice_node": "storm_test_choice",
+        "branch_nodes": [
+          "storm_handover_001",
+          "storm_handover_002",
+          "storm_handover_003",
+          "storm_handover_004",
+          "storm_handover_005",
+          "storm_handover_006"
+        ]
+      }
     },
     "storm_warning_001": {
       "chapter": "book_x_storm_ledger",

@@ -819,7 +819,7 @@
       "actor": "lin_yue",
       "text": "Yue looked beyond the causeway toward the day's road. Yesterday it had been a line between named places. This morning its continuation depended on an old woman's knowledge, a loose shoe, quarry water, and people willing to wait while a stone was examined. She took out the field book and wrote the causeway's approach beside her sketch. There was room for another line beneath it. The woman had begun walking, her hat tilting back in the wind. Tuo followed. Gao motioned Yue to stay beside the carts until called. She obeyed, then began watching where the goats placed their feet.",
       "background": "salt_desert_survey_camp",
-      "next": "desert_p03_064"
+      "next": "desert_dilemma_causeway"
     },
     "desert_p03_064": {
       "chapter": "book_xvi_desert",
@@ -833,6 +833,74 @@
       "text": "One goat crossed the causeway's outer edge, paused at a clump of grass, and stepped around a darker patch. Its lightness could not certify a cart road, yet the movement made Yue look harder. Water stood against the stone's northern face, hidden from this approach. The surface carried thin streaks of pale sediment. She called Gao back before the surveyor crossed farther. Gao came, crouched beside the first stone, and followed her gaze. Tuo and the old woman waited at the middle. The delayed journey had found its next question in a place yesterday's map showed as a narrow line.",
       "background": "salt_desert_survey_camp",
       "next": "desert_p04_001"
+    },
+    "desert_dilemma_causeway_1": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "salt_desert_survey_camp",
+      "effect": "none",
+      "text": "Yue wrote that the carts were held pending a support inspection and gave no predicted reopening hour. The messenger left while the booking round was still open. Han retained a receiving slot only on the condition that he updated it after the inspection; another carrier took the earlier place. Yue watched the messenger disappear behind the rise. Her notice had protected the waiting crew from an invented timetable. It had also surrendered an advantage that a confident promise might have kept for one more hour.",
+      "next": "desert_p03_064"
+    },
+    "desert_dilemma_causeway_2": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "salt_desert_survey_camp",
+      "effect": "none",
+      "text": "Yue left the notice unfinished until Tuo called back the shifted stone's position. She could now distinguish an observed movement from an unexamined support beneath it. By the time the messenger departed, the booking round would already be closing. Han accepted that their receiving place might need renegotiation. The sharper account would help a later repair crew, but the waiting drivers would bear today's uncertainty. Yue entered the dispatch time beside the observation, keeping the useful detail and its delay on the same page.",
+      "next": "desert_p03_064"
+    },
+    "desert_dilemma_causeway_3": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "salt_desert_survey_camp",
+      "effect": "none",
+      "text": "Gao approved the short stable shoulder, and Yue walked it without approaching the loose stone. The second view showed where water stood against the causeway's face; it did not expose the buried support. She returned with an exterior sketch while Han dictated a provisional holding message. Preparing both cost their spare quiet interval before departure. Gao kept the sketch separate from the inspection verdict. Yue could offer another angle because she had trained for the ordinary walk, not because a fifth-stage cord let her stand on doubtful ground.",
+      "next": "desert_p03_064"
+    },
+    "desert_dilemma_causeway": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "salt_desert_survey_camp",
+      "effect": "none",
+      "text": "From beside the braked carts, Yue could see the causeway's surface and none of its buried support. Han needed a delay notice before the receiving yard's next booking round. Tuo and the old woman were already examining the middle stones. Yue could write a cautious holding notice now, wait for their specific observation, or gather a second exterior view from the checked shoulder. No option authorised a wheel to cross. They differed in who waited, what the notice could say, and whether a messenger carried it in time.",
+      "choices": [
+        {
+          "text": "Send the holding notice now, with support unverified.",
+          "next": "desert_dilemma_causeway_1"
+        },
+        {
+          "text": "Wait for Tuo's observed stone before describing the fault.",
+          "next": "desert_dilemma_causeway_2"
+        },
+        {
+          "text": "Take the checked shoulder view before drafting.",
+          "next": "desert_dilemma_causeway_3",
+          "requires": {
+            "resolve": 10
+          }
+        }
+      ]
     }
   }
 }

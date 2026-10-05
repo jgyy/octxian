@@ -1018,24 +1018,15 @@
       "choices": [
         {
           "text": "Take the modest cup-sorting shifts.",
-          "next": "foundry_wage_001",
-          "effects": {
-            "insight": 1
-          }
+          "next": "foundry_wage_001"
         },
         {
           "text": "Compare the disputed batch's cooling history.",
-          "next": "foundry_records_001",
-          "effects": {
-            "insight": 1
-          }
+          "next": "foundry_records_001"
         },
         {
           "text": "Keep the lighter rota and recovered shoulder practice.",
-          "next": "foundry_rest_001",
-          "effects": {
-            "resolve": 1
-          }
+          "next": "foundry_rest_001"
         }
       ]
     },
@@ -1102,7 +1093,20 @@
         "stage": "3: First pair"
       },
       "text": "The following morning she brought the wage entry and workload record to Su Yan. The examiner treated the extra labor as a condition to inspect, not a virtue that earned more qi. Yue's sleeping reserve stayed within its recent range. Her ordinary shoulder check stayed normal. The rota had bought supplies and practiced a useful judgment; it had not purchased the second pair.",
-      "next": "foundry_work_rejoin_001"
+      "next": "foundry_work_rejoin_001",
+      "earned": {
+        "insight": 1
+      },
+      "legacy_credit": {
+        "choice_node": "foundry_work_choice",
+        "branch_nodes": [
+          "foundry_wage_001",
+          "foundry_wage_002",
+          "foundry_wage_003",
+          "foundry_wage_004",
+          "foundry_wage_005"
+        ]
+      }
     },
     "foundry_records_001": {
       "chapter": "book_viii",
@@ -1167,7 +1171,20 @@
         "stage": "3: First pair"
       },
       "text": "At the morning examination she laid the limited extract beside her sleep and workload record. Hours at the copying table had spared her shoulder but tired her eyes. Su Yan shortened the visual comparison and kept the ordinary sensation check. Better evidence about the batch did not make Yue's own body more rested. She had gained a sharper question, not an automatic stage.",
-      "next": "foundry_work_rejoin_001"
+      "next": "foundry_work_rejoin_001",
+      "earned": {
+        "insight": 1
+      },
+      "legacy_credit": {
+        "choice_node": "foundry_work_choice",
+        "branch_nodes": [
+          "foundry_records_001",
+          "foundry_records_002",
+          "foundry_records_003",
+          "foundry_records_004",
+          "foundry_records_005"
+        ]
+      }
     },
     "foundry_rest_001": {
       "chapter": "book_viii",
@@ -1232,7 +1249,20 @@
         "stage": "3: First pair"
       },
       "text": "Yue brought the lighter rota's record to the common review. She had neither earned the extra sorting copper nor personally traced the batch's copied cooling hold. She had a recovered shoulder pattern and clearer ordinary limits to offer. Su Yan kept those facts distinct. Yue was learning to bring useful work to a table without needing every other person's useful work to become part of her own history.",
-      "next": "foundry_work_rejoin_001"
+      "next": "foundry_work_rejoin_001",
+      "earned": {
+        "resolve": 1
+      },
+      "legacy_credit": {
+        "choice_node": "foundry_work_choice",
+        "branch_nodes": [
+          "foundry_rest_001",
+          "foundry_rest_002",
+          "foundry_rest_003",
+          "foundry_rest_004",
+          "foundry_rest_005"
+        ]
+      }
     },
     "foundry_work_rejoin_001": {
       "chapter": "book_viii",
@@ -2002,24 +2032,15 @@
       "choices": [
         {
           "text": "Report the barrier's remaining fuel marks.",
-          "next": "foundry_gauge_001",
-          "effects": {
-            "insight": 1
-          }
+          "next": "foundry_gauge_001"
         },
         {
           "text": "Close the ordinary waste shutter from the dry winch.",
-          "next": "foundry_shutter_001",
-          "effects": {
-            "resolve": 1
-          }
+          "next": "foundry_shutter_001"
         },
         {
           "text": "Clear the upper access and account for departing workers.",
-          "next": "foundry_access_001",
-          "effects": {
-            "insight": 1
-          }
+          "next": "foundry_access_001"
         }
       ]
     },
@@ -2073,7 +2094,19 @@
         "stage": "3: First pair"
       },
       "text": "By the stop signal, the quench was complete and the scrap source had cooled below its allowed attraction range. Yue left the gauge to her named replacement and stepped back. Her hands shook from ordinary fear. The report had helped the defense; the shaking was not proof that she had secretly strained a meridian. She kept both facts for the later check.",
-      "next": "foundry_creature_rejoin_001"
+      "next": "foundry_creature_rejoin_001",
+      "earned": {
+        "insight": 1
+      },
+      "legacy_credit": {
+        "choice_node": "foundry_creature_choice",
+        "branch_nodes": [
+          "foundry_gauge_001",
+          "foundry_gauge_002",
+          "foundry_gauge_003",
+          "foundry_gauge_004"
+        ]
+      }
     },
     "foundry_shutter_001": {
       "chapter": "book_viii",
@@ -2125,7 +2158,19 @@
         "stage": "3: First pair"
       },
       "text": "At the stop signal, Yue released the winch to its lock and moved behind the upper rail. Her shoulder stayed ordinary; her forearms ached from the handle. She had completed one mechanical task inside a larger cultivation defense. Wanting it to have been a spectacular strike would have added nothing to the seated shutter.",
-      "next": "foundry_creature_rejoin_001"
+      "next": "foundry_creature_rejoin_001",
+      "earned": {
+        "resolve": 1
+      },
+      "legacy_credit": {
+        "choice_node": "foundry_creature_choice",
+        "branch_nodes": [
+          "foundry_shutter_001",
+          "foundry_shutter_002",
+          "foundry_shutter_003",
+          "foundry_shutter_004"
+        ]
+      }
     },
     "foundry_access_001": {
       "chapter": "book_viii",
@@ -2177,7 +2222,19 @@
         "stage": "3: First pair"
       },
       "text": "The stop signal brought the lower operators up through the path Yue had cleared. She handed the tally to the foreman and accepted relief from a rested worker. Her fear had not disappeared. It had acquired a task that could end. The count left nobody needing to perform another hazardous trip simply to satisfy an uncertain memory.",
-      "next": "foundry_creature_rejoin_001"
+      "next": "foundry_creature_rejoin_001",
+      "earned": {
+        "insight": 1
+      },
+      "legacy_credit": {
+        "choice_node": "foundry_creature_choice",
+        "branch_nodes": [
+          "foundry_access_001",
+          "foundry_access_002",
+          "foundry_access_003",
+          "foundry_access_004"
+        ]
+      }
     },
     "foundry_creature_rejoin_001": {
       "chapter": "book_viii",

@@ -4,9 +4,31 @@
 
 An original xianxia visual novel built in **Godot 4.7.2**. Lin Yue begins as a mortal kiln worker and earns her cultivation through practice, failures, recovery and independently witnessed trials. Work, evidence and freely made commitments shape the people she meets.
 
-The playable campaign contains **1,124,725 displayed prose words across 12,697 scenes and 17 books**. The count includes alternative playable branches; only dialogue prose counts toward the manuscript. Books XII–XVII are now connected through the campaign manifest, with completed forest, desert and archive closing sequences. [Current manuscript, source review and chapter counts](docs/MILLION_WORD_CONTINUATION.md).
+The playable campaign contains **1,126,752 displayed prose words across 12,721 scenes and 17 books**. The count includes alternative playable branches; only dialogue prose counts toward the manuscript. Books XII–XVII are now connected through the campaign manifest, with completed forest, desert and archive closing sequences. [Current manuscript, source review and chapter counts](docs/MILLION_WORD_CONTINUATION.md).
 
 ![Archive ensemble dialogue](docs/screenshots/archive_ensemble.jpg)
+
+## Harder desert decisions and completed growth
+
+Six new desert dilemmas add eighteen distinct consequences. Compare incompatible map origins, weigh a dispatch delay, question an old building plan, preserve an unreadable source, test a public warning and separate repair exposure from money already paid. Trained approaches require 10 Comprehension or Physique points. Every dilemma also has two ordinary approaches; those approaches expose their delays, missing evidence or rejected hypotheses in playable prose. No preference grants instant growth.
+
+This revision repairs **101 additional premature-growth choice sites** across Books VI–X. The same gains now follow the actual completed branch passage and are saved once. Version-1 checkpoints from before this change retain their scores and recognise credit already paid on selection. The audit counts 101 source sites affected by one recurring causality issue, alongside **70 geographic staging corrections**; it does not claim 171 unrelated root defects. [Exact source audit](docs/NARRATIVE_REPAIRS_20261005.json) · [Narrative review](docs/NARRATIVE_REVISION_20261005.md).
+
+Three independently generated **1536×1024 native PNG** paintings give Bitter Wells its caravan yard, workroom and workers' lodging. The highest supported native landscape output was requested, and the returned bytes are preserved. [Creation records](assets/art/NARRATIVE_20261005_PROVENANCE.md).
+
+![Bitter Wells workroom in Godot](docs/screenshots/bitter_wells_workroom.jpg)
+
+![Desert evidence dilemma in Godot](docs/screenshots/desert_dilemma.jpg)
+
+```mermaid
+flowchart LR
+  Preference["Select a task"] --> Work["Perform its exclusive branch"]
+  Work --> Completion["Finish the authored work"]
+  Completion --> Credit["Grant and save growth once"]
+  Credit --> Next["Continue to shared findings"]
+  Old["Old checkpoint with selection credit"] --> Migration["Recognise the prior payment"]
+  Migration --> Next
+```
 
 ## Continue the journey
 
@@ -58,8 +80,8 @@ This continuation adds three independently generated originals: a **1536×1024 a
 
 | Production quota | Delivered | Target |
 |---|---:|---:|
-| Displayed prose words | 1,124,725 | 1,000,001 |
-| Original environments | 28 | 100 |
+| Displayed prose words | 1,126,752 | 1,000,001 |
+| Original environments | 31 | 100 |
 | Extra building interiors | 41 | 100 |
 | Human NPC originals | 51 | 500 |
 | Spirit-beast originals | 13 | 501 |
@@ -102,7 +124,7 @@ python tools/validate_world.py
 .cache/godot/Godot_v4.7.2-stable_linux.x86_64 --headless --path . --script tests/continuation_test.gd
 ```
 
-The source audit requires its fixed base commit locally. Full CI checks native dimensions, alpha and provenance, authentic repair anchors, duplicate prose, every gated story route, saves, UI, all outfit motions, completed-practice persistence, ensemble bounds and motion settings. Xvfb captures **78 real viewport screenshots** and timed portrait animation. The Linux package is launched from a folder without the source checkout.
+The source audit requires its fixed base commit locally. Full CI checks native dimensions, alpha and provenance, authentic repair anchors, duplicate prose, every gated story route, saves, UI, all outfit motions, completed-practice persistence, ensemble bounds and motion settings. Xvfb captures **83 real viewport screenshots** and timed portrait animation. The Linux package is launched from a folder without the source checkout.
 
 Piper Lessac generates narration for every displayed scene, reusing clips only after text, byte and decoded-audio checks. Changed text is regenerated. CI can reuse independently verified prior draft narration. Music and sound effects are original synthesized audio.
 

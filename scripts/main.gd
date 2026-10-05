@@ -925,6 +925,17 @@ func _capture() -> void:
 		await RenderingServer.frame_post_draw
 		var object_id := str(world.items[index].id)
 		get_viewport().get_texture().get_image().save_png("res://build/screenshots/object_%s.png" % object_id)
+	_close_popup()
+	state.stats = {"qi": 0, "trust": 0, "insight": 0, "resolve": 0}
+	for sample in [{"id":"desert_p01_008","file":"bitter_wells_yard"}, {"id":"desert_p01_034","file":"bitter_wells_workroom"}, {"id":"desert_p01_058","file":"bitter_wells_lodging"}, {"id":"desert_dilemma_origin","file":"desert_dilemma"}, {"id":"court_rain_trace_reader","file":"completed_comparison"}]:
+		state.current = sample.id
+		_scene()
+		dialogue.visible_characters = -1
+		if state.node().has("choices"):
+			_advance()
+		await get_tree().create_timer(0.8).timeout
+		await RenderingServer.frame_post_draw
+		get_viewport().get_texture().get_image().save_png("res://build/screenshots/%s.png" % sample.file)
 	print("JADE_VOW_CAPTURE_OK")
 	_quit_game()
 

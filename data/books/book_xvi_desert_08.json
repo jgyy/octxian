@@ -572,7 +572,7 @@
       "actor": "lin_yue",
       "text": "Han said he would exercise that permission with enthusiasm. Du copied the nearest column and stepped back himself. The movement mattered more than the joke. Gao recorded the accessible viewpoint and the features that would require another inspection. They left the case behind its grille, with no pane broken to obtain a page. The cistern cap stayed secure. The lower exchange retained both water and records. Yue wondered whether returning later would feel like discovery or responsibility.",
       "background": "salt_desert_survey_camp",
-      "next": "desert_p08_045"
+      "next": "desert_dilemma_grille"
     },
     "desert_p08_045": {
       "chapter": "book_xvi_desert",
@@ -989,6 +989,74 @@
       "text": "The present note alone proved no surge. It did give them a reason to check the sky and the return approach while the cook finished the water. Yue took the red flag from its case.",
       "background": "salt_desert_survey_camp",
       "next": "desert_p09_001"
+    },
+    "desert_dilemma_grille_1": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "salt_desert_survey_camp",
+      "effect": "none",
+      "text": "Yue covered her first copy while Du wrote his. Their strokes agreed; their headings did not. The blind comparison showed that repeating a mark could preserve an interpretation error perfectly. Gao recorded both readings and the missing heading, ending the comparison when the accessible light changed. They had delayed packing without resolving the date. Yue kept the useful agreement and the unanswered question separate. The grille remained intact, and neither confident transcription became a certificate for the case behind it.",
+      "next": "desert_p08_045"
+    },
+    "desert_dilemma_grille_2": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "salt_desert_survey_camp",
+      "effect": "none",
+      "text": "Yue placed the disputed mark on a separate request sheet, naming the exact heading a custodian would need to examine. Han could carry the request without claiming to have received its answer. The current report would be thinner, and the later receiving office would have another appointment to arrange. Du disliked leaving the gap until Gao asked him what filled it now. He put his pencil away. The deferred question belonged to a reachable source, rather than to a hope that stronger concentration would read through stone.",
+      "next": "desert_p08_045"
+    },
+    "desert_dilemma_grille_3": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "salt_desert_survey_camp",
+      "effect": "none",
+      "text": "Yue wrote two conditional interpretations beside the same copied mark. A receiving date would change their proposed chronology; an index would merely identify another record. Neither interpretation altered the visible ground warning or the checked water observations. The report became longer and would require a patient reader. Gao approved the separation because it prevented one faint stroke from carrying every conclusion. Du kept the clean copy free of a preferred answer. The uncertainty travelled openly instead of arriving disguised as a settled date.",
+      "next": "desert_p08_045"
+    },
+    "desert_dilemma_grille": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "salt_desert_survey_camp",
+      "effect": "none",
+      "text": "Behind the intact grille, one copied column remained uncertain. Its faint mark could indicate a receiving date or a later index. Gao would preserve the accessible viewpoint whichever method Yue chose. She could make a second independent transcription, defer the mark to a custodian's authorised comparison, or put both readings into a conditional report. Each kept the case shut. The choice would spend copying time, postpone a documentary answer, or leave the receiving office a harder question. Raw water still had its separate collection record.",
+      "choices": [
+        {
+          "text": "Make a blind second copy from the permitted viewpoint.",
+          "next": "desert_dilemma_grille_1"
+        },
+        {
+          "text": "Defer the mark and request an authorised source comparison.",
+          "next": "desert_dilemma_grille_2"
+        },
+        {
+          "text": "Retain both readings and state what each would change.",
+          "next": "desert_dilemma_grille_3",
+          "requires": {
+            "insight": 10
+          }
+        }
+      ]
     }
   }
 }
