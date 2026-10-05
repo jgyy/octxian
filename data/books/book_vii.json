@@ -186,24 +186,15 @@
       "choices": [
         {
           "text": "Take the reed channel with Wei Xiu and the offered custody record.",
-          "next": "ring_marsh_entry",
-          "effects": {
-            "insight": 1
-          }
+          "next": "ring_marsh_entry"
         },
         {
           "text": "Compare the volunteered charter papers with An Ru.",
-          "next": "ring_archive_entry",
-          "effects": {
-            "insight": 1
-          }
+          "next": "ring_archive_entry"
         },
         {
           "text": "Walk the former ferry approach with Wei Jin.",
-          "next": "ring_road_entry",
-          "effects": {
-            "resolve": 1
-          }
+          "next": "ring_road_entry"
         }
       ],
       "cultivation": {

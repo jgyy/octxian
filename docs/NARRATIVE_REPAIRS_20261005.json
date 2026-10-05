@@ -1,0 +1,3583 @@
+{
+  "source_base": "13bae49f55c66c2cb16c956ca3be26491d10bbd6",
+  "repair_sites": 101,
+  "root_causes": [
+    "Growth awarded at task selection rather than completed practice"
+  ],
+  "repairs": [
+    {
+      "id": "completion-20261005-001",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_witness_a1_10",
+      "choice_index": 0,
+      "before": {
+        "text": "Test a fixed market-bell appointment.",
+        "next": "court_witness_a1_fixed_1",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Test a fixed market-bell appointment.",
+        "next": "court_witness_a1_fixed_1"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_witness_a1_fixed_2",
+      "completion_text": "This proposal asks for one shared hearing period, six chairs, covered transport from the lower gate, and a separate potter appointment. It keeps comparison between witnesses simple, but the court must not treat the exception as weaker evidence. I have put paid relief for Su E's assistant in the estimate instead of assuming the assistant will volunteer. The gate attendants need a departure hour too. If the session runs late, a messenger must warn the households waiting below. A fixed beginning is only useful when the return journey is considered.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_witness_a1_fixed_1",
+        "court_witness_a1_fixed_2"
+      ],
+      "reason": "Selecting \"Test a fixed market-bell appointment.\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_witness_a1_fixed_2 and is saved once."
+    },
+    {
+      "id": "completion-20261005-002",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_witness_a1_10",
+      "choice_index": 1,
+      "before": {
+        "text": "Test rotating appointments around work.",
+        "next": "court_witness_a1_rotating_1",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Test rotating appointments around work.",
+        "next": "court_witness_a1_rotating_1"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_witness_a1_rotating_2",
+      "completion_text": "The rotating plan needs more clerk hours and less time spent waiting without pay. Its transcripts must preserve questions as well as replies. If an account changes after someone sees another statement, we will retain the first and record the reason for correction. That can improve accuracy; it can also reveal a new influence that the hearing needs to examine. We cannot pretend staggered appointments are identical to a shared session. I will write those differences beside the estimate so the registrar can choose with the witnesses rather than merely choosing for us.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_witness_a1_rotating_1",
+        "court_witness_a1_rotating_2"
+      ],
+      "reason": "Selecting \"Test rotating appointments around work.\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_witness_a1_rotating_2 and is saved once."
+    },
+    {
+      "id": "completion-20261005-003",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_witness_a2_10",
+      "choice_index": 0,
+      "before": {
+        "text": "Check the lower-gate shelter.",
+        "next": "court_witness_a2_shelter_1",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Check the lower-gate shelter.",
+        "next": "court_witness_a2_shelter_1"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_witness_a2_shelter_2",
+      "completion_text": "There are three dry waiting places with blankets, and a fourth seat without one. The attendant knows which travelers are waiting for collection and when their next check is due. This is a small arrangement, with a named worker rather than a promise of constant attention from everyone. When her shift ends, she must hand over the list. We have also left a bell reachable from Ning Yu's seat. Write its purpose on the board. If later staff mistake it for an ornament, today's improvement will disappear without any furniture moving at all.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_witness_a2_shelter_1",
+        "court_witness_a2_shelter_2"
+      ],
+      "reason": "Selecting \"Check the lower-gate shelter.\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_witness_a2_shelter_2 and is saved once."
+    },
+    {
+      "id": "completion-20261005-004",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_witness_a2_10",
+      "choice_index": 1,
+      "before": {
+        "text": "Trace the remaining contact attempts.",
+        "next": "court_witness_a2_contact_1",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Trace the remaining contact attempts.",
+        "next": "court_witness_a2_contact_1"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_witness_a2_contact_2",
+      "completion_text": "We have reached the workshops, not yet every person. Their workers can pass along these notices, but they cannot accept a witness appointment on someone else's behalf. The return contact must stay open long enough for Bai and Chen to answer after work. I have asked the gate clerk to name the evening substitute, since his own shift ends earlier. If no substitute is provided, the notices should direct people to tomorrow's desk rather than imply an answer can be delivered tonight. An apparently generous deadline can become another inaccessible hour.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_witness_a2_contact_1",
+        "court_witness_a2_contact_2"
+      ],
+      "reason": "Selecting \"Trace the remaining contact attempts.\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_witness_a2_contact_2 and is saved once."
+    },
+    {
+      "id": "completion-20261005-005",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_witness_a3_10",
+      "choice_index": 0,
+      "before": {
+        "text": "Prepare bounded chronology questions.",
+        "next": "court_witness_a3_chronology_1",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Prepare bounded chronology questions.",
+        "next": "court_witness_a3_chronology_1"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_witness_a3_chronology_2",
+      "completion_text": "A short question can still contain a mistaken premise. We have removed one before Bai reaches us. When she answers, let us keep her distinctions instead of forcing each reply into a neat hour. If she remembers a sequence but not a bell, that is the evidence we have. We can ask whether a record helps, then keep memory and record identified separately. The prepared list saves time only if it prevents repeated confusion. It should never require Bai to accept our description merely because correcting it would make the appointment longer.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_witness_a3_chronology_1",
+        "court_witness_a3_chronology_2"
+      ],
+      "reason": "Selecting \"Prepare bounded chronology questions.\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_witness_a3_chronology_2 and is saved once."
+    },
+    {
+      "id": "completion-20261005-006",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_witness_a3_10",
+      "choice_index": 1,
+      "before": {
+        "text": "Prepare dictation with visible corrections.",
+        "next": "court_witness_a3_written_1",
+        "effects": {
+          "insight": 2
+        }
+      },
+      "after": {
+        "text": "Prepare dictation with visible corrections.",
+        "next": "court_witness_a3_written_1"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_witness_a3_written_2",
+      "completion_text": "An uninterrupted account can reveal which details the witness considers important. It can also miss a distinction the hearing needs, so we will ask bounded follow-up questions afterward. The first version remains legible beneath corrections. I have left space to mark whether a new sentence came from memory, a document, or something another person told her. Those sources should not be merged for smooth reading. Bai will inspect the final page herself. If the appointment ends early, the unanswered list travels with the statement rather than vanishing from its clean copy.",
+      "earned": {
+        "insight": 2
+      },
+      "branch": [
+        "court_witness_a3_written_1",
+        "court_witness_a3_written_2"
+      ],
+      "reason": "Selecting \"Prepare dictation with visible corrections.\" previously granted insight +2 before its displayed work. Credit now follows the completed passage court_witness_a3_written_2 and is saved once."
+    },
+    {
+      "id": "completion-20261005-007",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_witness_a4_10",
+      "choice_index": 0,
+      "before": {
+        "text": "Map Bai’s remembered walk.",
+        "next": "court_witness_a4_walk_1",
+        "effects": {
+          "insight": 2
+        }
+      },
+      "after": {
+        "text": "Map Bai’s remembered walk.",
+        "next": "court_witness_a4_walk_1"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_witness_a4_walk_2",
+      "completion_text": "Mo Ran asked Bai to mark uncertainty rather than stretch the line behind the cart. She shaded the obstructed corner. The resulting plan had less coverage than the first draft and a clearer account of why. Her duty to inspect the guide still required review; the diagram did not excuse anything automatically. It prevented the hearing from evaluating an inspection she had never claimed to perform. Bai wrote that a cart interfered with visibility, then declined to name its owner from a guess. The inquiry could seek the goods queue record through the proper team.",
+      "earned": {
+        "insight": 2
+      },
+      "branch": [
+        "court_witness_a4_walk_1",
+        "court_witness_a4_walk_2"
+      ],
+      "reason": "Selecting \"Map Bai’s remembered walk.\" previously granted insight +2 before its displayed work. Credit now follows the completed passage court_witness_a4_walk_2 and is saved once."
+    },
+    {
+      "id": "completion-20261005-008",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_witness_a4_10",
+      "choice_index": 1,
+      "before": {
+        "text": "Compare Bai’s written duty clauses.",
+        "next": "court_witness_a4_remit_1",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Compare Bai’s written duty clauses.",
+        "next": "court_witness_a4_remit_1"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_witness_a4_remit_2",
+      "completion_text": "This comparison gives the hearing two questions instead of one mistaken accusation. It can ask whether your landing and guide check met the written requirement, including any report you should have made. It can separately ask the lift staff about brake and counterweight maintenance. We have not answered either question by drawing the boundary. We have identified who must be asked and which records could help. Bai, check the copied clauses once more. If one word changes the duty, leave the correction visible and tell the writer before the court's summary repeats it again.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_witness_a4_remit_1",
+        "court_witness_a4_remit_2"
+      ],
+      "reason": "Selecting \"Compare Bai’s written duty clauses.\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_witness_a4_remit_2 and is saved once."
+    },
+    {
+      "id": "completion-20261005-009",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_witness_a5_10",
+      "choice_index": 0,
+      "before": {
+        "text": "Clarify Du’s sequence without reenactment.",
+        "next": "court_witness_a5_sequence_1",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Clarify Du’s sequence without reenactment.",
+        "next": "court_witness_a5_sequence_1"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_witness_a5_sequence_2",
+      "completion_text": "We now know which parts of your sequence are firm and which are grouped together. The rope belongs after you reached the bench in this account. That does not tell us when it was installed. The reported bell belongs to a later conversation and a dispatch receipt. We will ask about those sources separately rather than moving their time backward to the jolt. Du, the bracket stays. If another account later helps you recall something, we can add a dated correction with that influence stated. You do not need to fill the gap today.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_witness_a5_sequence_1",
+        "court_witness_a5_sequence_2"
+      ],
+      "reason": "Selecting \"Clarify Du’s sequence without reenactment.\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_witness_a5_sequence_2 and is saved once."
+    },
+    {
+      "id": "completion-20261005-010",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_witness_a5_10",
+      "choice_index": 1,
+      "before": {
+        "text": "Clarify Du’s view with a light diagram.",
+        "next": "court_witness_a5_view_1",
+        "effects": {
+          "insight": 2
+        }
+      },
+      "after": {
+        "text": "Clarify Du’s view with a light diagram.",
+        "next": "court_witness_a5_view_1"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_witness_a5_view_2",
+      "completion_text": "This diagram records your described position and obstructions, with the uncertain boundary left visible. It is not a measured reconstruction from the accident scene. The inspection team can compare it with the landing, if their work permits that, and report any mismatch. We should not quietly replace your memory with their later arrangement. Your view of the guide mouth remains relevant. Your inability to see the brake remains relevant too. Both facts travel together, so the hearing cannot quote the helpful part while hiding the limit that gives it an accurate meaning.",
+      "earned": {
+        "insight": 2
+      },
+      "branch": [
+        "court_witness_a5_view_1",
+        "court_witness_a5_view_2"
+      ],
+      "reason": "Selecting \"Clarify Du’s view with a light diagram.\" previously granted insight +2 before its displayed work. Credit now follows the completed passage court_witness_a5_view_2 and is saved once."
+    },
+    {
+      "id": "completion-20261005-011",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_witness_a6_10",
+      "choice_index": 0,
+      "before": {
+        "text": "Follow Su E’s bell and oven sequence.",
+        "next": "court_witness_a6_baker_1",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Follow Su E’s bell and oven sequence.",
+        "next": "court_witness_a6_baker_1"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_witness_a6_baker_2",
+      "completion_text": "A customer called from the awning while the writer read Su E's correction. She waited until the sentence about her unseen moment was finished, then answered the customer herself. The interruption showed why the short appointment mattered. She accepted the bounded record for the hearing and declined more questions that afternoon. Mo Ran wrote a contact time for a necessary later request. Su E returned to the oven, leaving the empty tray for the papers until they dried. Her participation was limited by real work; the limit was disclosed without turning it into a flaw in her honesty.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_witness_a6_baker_1",
+        "court_witness_a6_baker_2"
+      ],
+      "reason": "Selecting \"Follow Su E’s bell and oven sequence.\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_witness_a6_baker_2 and is saved once."
+    },
+    {
+      "id": "completion-20261005-012",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_witness_a6_10",
+      "choice_index": 1,
+      "before": {
+        "text": "Follow Chen’s limited coil observation.",
+        "next": "court_witness_a6_potter_1",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Follow Chen’s limited coil observation.",
+        "next": "court_witness_a6_potter_1"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_witness_a6_potter_2",
+      "completion_text": "Luo Shan read Chen's account beside the cooling kiln. Chen corrected two people carrying a rope to two people near a carried coil; he was sure of the coil and less sure both hands supported it. The original wording remained visible. He then asked the writer to end because the next vent needed attention. The assistance worker marked the stopping reason and offered a later written question if necessary. Chen kept his ordinary work moving. His correction reduced the scene's apparent precision and improved the record's fidelity to what one distracted passerby could actually recall.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_witness_a6_potter_1",
+        "court_witness_a6_potter_2"
+      ],
+      "reason": "Selecting \"Follow Chen’s limited coil observation.\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_witness_a6_potter_2 and is saved once."
+    },
+    {
+      "id": "completion-20261005-013",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_witness_a7_10",
+      "choice_index": 0,
+      "before": {
+        "text": "Trace local phrases through copied summaries.",
+        "next": "court_witness_a7_words_1",
+        "effects": {
+          "insight": 2
+        }
+      },
+      "after": {
+        "text": "Trace local phrases through copied summaries.",
+        "next": "court_witness_a7_words_1"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_witness_a7_words_2",
+      "completion_text": "Mei Rui read the revised sentence without pointing to her preferred wording, then asked Lin Yue what it claimed. Lin Yue answered that a passerby saw a coil carried after a shout. The interpreter asked whether it identified when the lift's safety rope was first installed. It did not. Luo Shan kept the original local phrase available for challenge, with the interpreter named and the correction explained. They had improved intelligibility rather than sealed the statement against questions. If Chen later disputed the translation, his own source words and the review trail would remain where the hearing could compare them.",
+      "earned": {
+        "insight": 2
+      },
+      "branch": [
+        "court_witness_a7_words_1",
+        "court_witness_a7_words_2"
+      ],
+      "reason": "Selecting \"Trace local phrases through copied summaries.\" previously granted insight +2 before its displayed work. Credit now follows the completed passage court_witness_a7_words_2 and is saved once."
+    },
+    {
+      "id": "completion-20261005-014",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_witness_a7_10",
+      "choice_index": 1,
+      "before": {
+        "text": "Separate present clock checks from historical timing.",
+        "next": "court_witness_a7_clocks_1",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Separate present clock checks from historical timing.",
+        "next": "court_witness_a7_clocks_1"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_witness_a7_clocks_2",
+      "completion_text": "The revised timing sheet used sequences where times remained uncertain. Bai's inspection preceded her later news of the injury. Du's jolt preceded his move to the bench and his view of a rope. Su E's counted market bell belonged to her baking task before she saw assistance. Chen's coil appeared after the shout he heard. The account did not force all those markers into exact simultaneous points. Luo Shan retained the source for each sequence and the requested historical clock records. A shared page helped comparison while still allowing its different rows to remain different kinds of evidence.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_witness_a7_clocks_1",
+        "court_witness_a7_clocks_2"
+      ],
+      "reason": "Selecting \"Separate present clock checks from historical timing.\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_witness_a7_clocks_2 and is saved once."
+    },
+    {
+      "id": "completion-20261005-015",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_witness_a8_10",
+      "choice_index": 0,
+      "before": {
+        "text": "Lead with firsthand sources and their limits.",
+        "next": "court_witness_a8_sources_1",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Lead with firsthand sources and their limits.",
+        "next": "court_witness_a8_sources_1"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_witness_a8_sources_2",
+      "completion_text": "This page now tells the hearing where each observation begins and ends. It includes Du's original rope sentence and the correction, rather than hiding the hard question until someone finds it. It identifies Bai's actual duty without declaring her inspection adequate. The next page covers access and costs, because the circumstances of obtaining these accounts also matter. We have not reduced a person to a credibility score or multiplied a copied sentence into several people. Read the introduction once more against the sources, then send it with the complete packet and its unanswered list.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_witness_a8_sources_1",
+        "court_witness_a8_sources_2"
+      ],
+      "reason": "Selecting \"Lead with firsthand sources and their limits.\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_witness_a8_sources_2 and is saved once."
+    },
+    {
+      "id": "completion-20261005-016",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_witness_a8_10",
+      "choice_index": 1,
+      "before": {
+        "text": "Lead with delivered access and remaining costs.",
+        "next": "court_witness_a8_access_1",
+        "effects": {
+          "insight": 2
+        }
+      },
+      "after": {
+        "text": "Lead with delivered access and remaining costs.",
+        "next": "court_witness_a8_access_1"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_witness_a8_access_2",
+      "completion_text": "This introduction should make it easier to reach the evidence, not make the evidence unnecessary. Put the source matrix directly behind it. The court corrected false absence labels and supplied finite assistance; those acts do not establish the accident's cause. The storage gap after the sixth-morning collection remains, as does the request for historical clock records. Thirty-two copper cannot already belong to every possible remedy. We have shown the hearing a real choice about further work. It can decide after hearing the other teams, rather than discovering that our helpful first page has spent the same balance three times.",
+      "earned": {
+        "insight": 2
+      },
+      "branch": [
+        "court_witness_a8_access_1",
+        "court_witness_a8_access_2"
+      ],
+      "reason": "Selecting \"Lead with delivered access and remaining costs.\" previously granted insight +2 before its displayed work. Credit now follows the completed passage court_witness_a8_access_2 and is saved once."
+    },
+    {
+      "id": "completion-20261005-017",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_rain_calibration_choice",
+      "choice_index": 0,
+      "before": {
+        "text": "Light the scale with a small, screened qi lamp.",
+        "next": "court_rain_qi_lamp",
+        "effects": {
+          "qi": 1,
+          "insight": 1
+        },
+        "requires": {
+          "qi": 4
+        }
+      },
+      "after": {
+        "text": "Light the scale with a small, screened qi lamp.",
+        "next": "court_rain_qi_lamp",
+        "requires": {
+          "qi": 4
+        }
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_rain_qi_glare",
+      "completion_text": "Write down the screen position as well as the lamp, Shen Qing said. If someone repeats this under brighter light, they may see a different edge unless they know how we removed the glare. Your qi has spared us a shifting shadow; it has not made our bottle infallible. We should read the starting level twice and let Zhong Rui read the finishing level himself. He keeps this instrument after we leave. A demonstration that depends on your presence alone would give him little help during the next ordinary maintenance round.",
+      "earned": {
+        "qi": 1,
+        "insight": 1
+      },
+      "branch": [
+        "court_rain_qi_lamp",
+        "court_rain_qi_glare"
+      ],
+      "reason": "Selecting \"Light the scale with a small, screened qi lamp.\" previously granted qi +1, insight +1 before its displayed work. Credit now follows the completed passage court_rain_qi_glare and is saved once."
+    },
+    {
+      "id": "completion-20261005-018",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_rain_calibration_choice",
+      "choice_index": 1,
+      "before": {
+        "text": "Ask for a bounded assist during the paid instrument check.",
+        "next": "court_rain_assistant_request",
+        "effects": {
+          "insight": 2
+        }
+      },
+      "after": {
+        "text": "Ask for a bounded assist during the paid instrument check.",
+        "next": "court_rain_assistant_request"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_rain_assistant_marks",
+      "completion_text": "Lin Yue waited until the clinging droplet ran into the bottle before accepting its level. Qiu Zhen held the shade without touching the measuring table. That separation mattered: a helpful hand pressing the tabletop could conceal the tilt they were trying to examine. Luo Shan noted her observation and the end of her four-minute interval. She then returned to her own work, leaving the shade fixed in its bracket. The comparison would continue under that bracket rather than stretching one small offer of help into an unspoken obligation to finish everything.",
+      "earned": {
+        "insight": 2
+      },
+      "branch": [
+        "court_rain_assistant_request",
+        "court_rain_assistant_marks"
+      ],
+      "reason": "Selecting \"Ask for a bounded assist during the paid instrument check.\" previously granted insight +2 before its displayed work. Credit now follows the completed passage court_rain_assistant_marks and is saved once."
+    },
+    {
+      "id": "completion-20261005-019",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_rain_calibration_choice",
+      "choice_index": 2,
+      "before": {
+        "text": "Use steady daylight and record the delay.",
+        "next": "court_rain_manual_light",
+        "effects": {
+          "insight": 2
+        }
+      },
+      "after": {
+        "text": "Use steady daylight and record the delay.",
+        "next": "court_rain_manual_light"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_rain_manual_wait",
+      "completion_text": "The shade settled, lifted once, and settled again. Shen Qing read the starting level during the second quiet interval, then asked Zhong Rui to confirm it before any water moved. The attendant found one line that had been counted from the wrong side of the etched mark. They corrected the reading together. Waiting had not made them automatically accurate. It had merely provided enough ordinary light to discover an error while the bottle was still full. Lin Yue recorded both the corrected level and the reason their first reading had been abandoned.",
+      "earned": {
+        "insight": 2
+      },
+      "branch": [
+        "court_rain_manual_light",
+        "court_rain_manual_wait"
+      ],
+      "reason": "Selecting \"Use steady daylight and record the delay.\" previously granted insight +2 before its displayed work. Credit now follows the completed passage court_rain_manual_wait and is saved once."
+    },
+    {
+      "id": "completion-20261005-020",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_rain_signal_choice",
+      "choice_index": 0,
+      "before": {
+        "text": "Mark the protected signal with a screened qi pulse.",
+        "next": "court_rain_qi_signal",
+        "effects": {
+          "qi": 1,
+          "insight": 1
+        },
+        "requires": {
+          "qi": 4
+        }
+      },
+      "after": {
+        "text": "Mark the protected signal with a screened qi pulse.",
+        "next": "court_rain_qi_signal",
+        "requires": {
+          "qi": 4
+        }
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_rain_qi_signal",
+      "completion_text": "Lin Yue pulsed the grounded reference wick behind the dark screen within its measured allowance. The keeper checked its appearance from the same room before relying on it. During the protected comparison, cloud twice hid the distant shutter; she spent no pulse on either missed view. She recorded the used charge and discharged after the last agreed signal. The light crossed no stone and rearranged no weather. Luo Shan kept the missed observations. Future checks would use ordinary signal boards, rather than inherit an unlimited qi watch.",
+      "earned": {
+        "qi": 1,
+        "insight": 1
+      },
+      "branch": [
+        "court_rain_qi_signal"
+      ],
+      "reason": "Selecting \"Mark the protected signal with a screened qi pulse.\" previously granted qi +1, insight +1 before its displayed work. Credit now follows the completed passage court_rain_qi_signal and is saved once."
+    },
+    {
+      "id": "completion-20261005-021",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_rain_signal_choice",
+      "choice_index": 1,
+      "before": {
+        "text": "Use the willing second keeper during the bounded check.",
+        "next": "court_rain_second_keeper",
+        "effects": {
+          "insight": 2
+        }
+      },
+      "after": {
+        "text": "Use the willing second keeper during the bounded check.",
+        "next": "court_rain_second_keeper"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_rain_second_keeper",
+      "completion_text": "The second keeper agreed to confirm the visible signal during the remaining ordinary check. He read the station names aloud first, correcting one copied abbreviation that would otherwise have assigned a lower-landing reading to the court hall. He then observed from the protected opening while Lin Yue noted the interval between his confirmation and the moving hand. Cloud hid one shutter movement. The keeper marked it unobserved. His presence added another pair of eyes to this current comparison, not a witness to the earlier accident or an obligation to take a future unsafe watch.",
+      "earned": {
+        "insight": 2
+      },
+      "branch": [
+        "court_rain_second_keeper"
+      ],
+      "reason": "Selecting \"Use the willing second keeper during the bounded check.\" previously granted insight +2 before its displayed work. Credit now follows the completed passage court_rain_second_keeper and is saved once."
+    },
+    {
+      "id": "completion-20261005-022",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_rain_signal_choice",
+      "choice_index": 2,
+      "before": {
+        "text": "Use plain boards and preserve missed comparisons.",
+        "next": "court_rain_board_signal",
+        "effects": {
+          "insight": 2
+        }
+      },
+      "after": {
+        "text": "Use plain boards and preserve missed comparisons.",
+        "next": "court_rain_board_signal"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_rain_board_signal",
+      "completion_text": "Shen Qing held the pale board behind the dark one and lifted the dark board only when the distant shutter was clearly seen. Lin Yue read their local clock over a short marked interval. Their method produced fewer usable comparisons because the reflected sky sometimes washed the boards together. They kept those failures on the page. The liftkeeper said the ordinary check was nearing its end, so they completed one final visible comparison and stopped. A smaller set gathered within permission was more useful than a larger set obtained by silently extending someone else's work.",
+      "earned": {
+        "insight": 2
+      },
+      "branch": [
+        "court_rain_board_signal"
+      ],
+      "reason": "Selecting \"Use plain boards and preserve missed comparisons.\" previously granted insight +2 before its displayed work. Credit now follows the completed passage court_rain_board_signal and is saved once."
+    },
+    {
+      "id": "completion-20261005-023",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_rain_trace_choice",
+      "choice_index": 0,
+      "before": {
+        "text": "Illuminate fibers with a low angled qi light.",
+        "next": "court_rain_trace_light",
+        "effects": {
+          "qi": 1,
+          "insight": 1
+        },
+        "requires": {
+          "qi": 4
+        }
+      },
+      "after": {
+        "text": "Illuminate fibers with a low angled qi light.",
+        "next": "court_rain_trace_light",
+        "requires": {
+          "qi": 4
+        }
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_rain_trace_light",
+      "completion_text": "The custodian set the offered tray behind a guard while Lin Yue angled her grounded wick beside it. One bounded pulse showed raised fibers against the ordinary ruled background. It passed through no sample and revealed no hidden memory. She discharged before the keeper moved the light to check glare. They drew what the surface showed and kept uncertainty where reflection obscured it. No fiber was cut, heated or wetted. Another reader could repeat the view with an ordinary lamp at the recorded angle.",
+      "earned": {
+        "qi": 1,
+        "insight": 1
+      },
+      "branch": [
+        "court_rain_trace_light"
+      ],
+      "reason": "Selecting \"Illuminate fibers with a low angled qi light.\" previously granted qi +1, insight +1 before its displayed work. Credit now follows the completed passage court_rain_trace_light and is saved once."
+    },
+    {
+      "id": "completion-20261005-024",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_rain_trace_choice",
+      "choice_index": 1,
+      "before": {
+        "text": "Invite a permitted independent reader for the scheduled interval.",
+        "next": "court_rain_trace_reader",
+        "effects": {
+          "insight": 2
+        }
+      },
+      "after": {
+        "text": "Invite a permitted independent reader for the scheduled interval.",
+        "next": "court_rain_trace_reader"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_rain_trace_reader",
+      "completion_text": "The keeper accepted a second reader within the scheduled exhibit interval. Luo Shan asked each reader to write a description before discussing it. One called the pale band continuous; the other saw two breaks. They compared their sketches and found that a loose fiber had hidden part of the band from one angle. The disagreement improved the drawing rather than becoming a contest over who was more trustworthy. Both descriptions remained attached with the corrected view. Their participation ended with the interval; it created no duty to attend every later inspection.",
+      "earned": {
+        "insight": 2
+      },
+      "branch": [
+        "court_rain_trace_reader"
+      ],
+      "reason": "Selecting \"Invite a permitted independent reader for the scheduled interval.\" previously granted insight +2 before its displayed work. Credit now follows the completed passage court_rain_trace_reader and is saved once."
+    },
+    {
+      "id": "completion-20261005-025",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_rain_trace_choice",
+      "choice_index": 2,
+      "before": {
+        "text": "Make two ordinary ruled sketches without consuming the sample.",
+        "next": "court_rain_trace_drawing",
+        "effects": {
+          "insight": 2
+        }
+      },
+      "after": {
+        "text": "Make two ordinary ruled sketches without consuming the sample.",
+        "next": "court_rain_trace_drawing"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_rain_trace_drawing",
+      "completion_text": "Shen Qing placed a ruled sheet behind the tray and drew the pale band one short section at a time. Lin Yue made a separate sketch from the other side. When they compared the drawings, the band aligned but a raised fiber appeared wider in Shen Qing's view. They turned the tray with the keeper's permission and saw the change in perspective. The ordinary method took patience, and the inspector had to wait before sealing the sample. Luo Shan entered that delay rather than pretending their slower work had no effect on the exhibit schedule.",
+      "earned": {
+        "insight": 2
+      },
+      "branch": [
+        "court_rain_trace_drawing"
+      ],
+      "reason": "Selecting \"Make two ordinary ruled sketches without consuming the sample.\" previously granted insight +2 before its displayed work. Credit now follows the completed passage court_rain_trace_drawing and is saved once."
+    },
+    {
+      "id": "completion-20261005-026",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_rain_bulletin_choice",
+      "choice_index": 0,
+      "before": {
+        "text": "Trace offered location phrases through their source references.",
+        "next": "court_rain_phrase_comparison",
+        "effects": {
+          "insight": 2
+        },
+        "requires": {
+          "insight": 4
+        }
+      },
+      "after": {
+        "text": "Trace offered location phrases through their source references.",
+        "next": "court_rain_phrase_comparison",
+        "requires": {
+          "insight": 4
+        }
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_rain_phrase_comparison",
+      "completion_text": "Lin Yue set three location phrases beneath the corresponding map marks. The offered log named inner rail. The complete revised bulletin preserved the roofed observation boundary. The expanded extract alone used outer terrace. She followed the ink from each phrase to its source, discovering that a heading had been carried across from an older form. That established a documentary route for the error without establishing deliberate deception. Luo Shan entered the source beside each correction. The corrected page would let a later reader repeat the comparison rather than merely accept Lin Yue's interpretation.",
+      "earned": {
+        "insight": 2
+      },
+      "branch": [
+        "court_rain_phrase_comparison"
+      ],
+      "reason": "Selecting \"Trace offered location phrases through their source references.\" previously granted insight +2 before its displayed work. Credit now follows the completed passage court_rain_phrase_comparison and is saved once."
+    },
+    {
+      "id": "completion-20261005-027",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_rain_bulletin_choice",
+      "choice_index": 1,
+      "before": {
+        "text": "Read the complete passages with the Heron's bounded agreement.",
+        "next": "court_rain_readback_statement",
+        "effects": {
+          "insight": 2
+        }
+      },
+      "after": {
+        "text": "Read the complete passages with the Heron's bounded agreement.",
+        "next": "court_rain_readback_statement"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_rain_readback_statement",
+      "completion_text": "Luo Shan read the offered passages in their complete order. The Heron interrupted once, asking him to distinguish a mark for observed rain from a mark for increasing pressure. He corrected the spoken reading and the draft statement. The bird then agreed that the statement accurately preserved its offered distinctions. It did not endorse the unrelated accident summary. The authorized clerk witnessed the scope and kept the readback within the agreed interval. Lin Yue saw relief in the Heron's lowered neck when the page finally stopped asking its weather marks to speak about unseen hands.",
+      "earned": {
+        "insight": 2
+      },
+      "branch": [
+        "court_rain_readback_statement"
+      ],
+      "reason": "Selecting \"Read the complete passages with the Heron's bounded agreement.\" previously granted insight +2 before its displayed work. Credit now follows the completed passage court_rain_readback_statement and is saved once."
+    },
+    {
+      "id": "completion-20261005-028",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_rain_bulletin_choice",
+      "choice_index": 2,
+      "before": {
+        "text": "Prepare a plain paired copy for the authorized source check.",
+        "next": "court_rain_paired_copy",
+        "effects": {
+          "insight": 2
+        }
+      },
+      "after": {
+        "text": "Prepare a plain paired copy for the authorized source check.",
+        "next": "court_rain_paired_copy"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_rain_paired_copy",
+      "completion_text": "Shen Qing made a plain paired copy of the disputed heading and the complete log passage. He left a wide margin for the authorized clerk's source check and used no interpretive title above the pair. The clerk verified the offered pages, then added the checked map reference. Luo Shan wrote the correction history separately. The plain method took another sheet and more copying time, but it required no additional live explanation from the Heron. When the bird turned toward the window, no one called it back merely to add a decorative signature to a boundary already recorded.",
+      "earned": {
+        "insight": 2
+      },
+      "branch": [
+        "court_rain_paired_copy"
+      ],
+      "reason": "Selecting \"Prepare a plain paired copy for the authorized source check.\" previously granted insight +2 before its displayed work. Credit now follows the completed passage court_rain_paired_copy and is saved once."
+    },
+    {
+      "id": "completion-20261005-029",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_rain_forecast_choice",
+      "choice_index": 0,
+      "before": {
+        "text": "Read the safe scale with a screened qi lamp.",
+        "next": "court_rain_forecast_lamp",
+        "effects": {
+          "qi": 1,
+          "insight": 1
+        },
+        "requires": {
+          "qi": 4
+        }
+      },
+      "after": {
+        "text": "Read the safe scale with a screened qi lamp.",
+        "next": "court_rain_forecast_lamp",
+        "requires": {
+          "qi": 4
+        }
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_rain_forecast_lamp",
+      "completion_text": "Zhong Rui set the grounded reference wick beside the safe scale. Lin Yue checked its blank, delivered one quarter-unit through her first arm pair and closed admission. The light lasted only the scheduled reading. Her hand and the wick stayed inside the covered line, clear of the water. Zhong confirmed the level before she discharged. Luo recorded the dose, present interval and earlier controlled pour separately. Local rain had filled the gauge; a visitor's light had only made its divisions readable.",
+      "earned": {
+        "qi": 1,
+        "insight": 1
+      },
+      "branch": [
+        "court_rain_forecast_lamp"
+      ],
+      "reason": "Selecting \"Read the safe scale with a screened qi lamp.\" previously granted qi +1, insight +1 before its displayed work. Credit now follows the completed passage court_rain_forecast_lamp and is saved once."
+    },
+    {
+      "id": "completion-20261005-030",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_rain_forecast_choice",
+      "choice_index": 1,
+      "before": {
+        "text": "Request the keeper's bounded ordinary comparison.",
+        "next": "court_rain_forecast_keeper",
+        "effects": {
+          "insight": 2
+        }
+      },
+      "after": {
+        "text": "Request the keeper's bounded ordinary comparison.",
+        "next": "court_rain_forecast_keeper"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_rain_forecast_keeper",
+      "completion_text": "The station keeper agreed to confirm the next ordinary reading from his protected post. He wrote his description before Luo Shan read the terrace result aloud. Their reports concerned different places and did not match exactly. Instead of choosing the larger figure, Luo Shan named each location and interval. The forecaster could consider the difference as a sign that the cliff distributed rain unevenly. The keeper returned to his scheduled work when the check ended. His limited agreement had added one current source, while leaving upstream conditions and the older accident minute unresolved.",
+      "earned": {
+        "insight": 2
+      },
+      "branch": [
+        "court_rain_forecast_keeper"
+      ],
+      "reason": "Selecting \"Request the keeper's bounded ordinary comparison.\" previously granted insight +2 before its displayed work. Credit now follows the completed passage court_rain_forecast_keeper and is saved once."
+    },
+    {
+      "id": "completion-20261005-031",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_rain_forecast_choice",
+      "choice_index": 2,
+      "before": {
+        "text": "Use the scheduled gauge interval and retain the delay.",
+        "next": "court_rain_forecast_schedule",
+        "effects": {
+          "insight": 2
+        }
+      },
+      "after": {
+        "text": "Use the scheduled gauge interval and retain the delay.",
+        "next": "court_rain_forecast_schedule"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_rain_forecast_schedule",
+      "completion_text": "They waited for the ordinary gauge interval under the roof. The delay gave the messenger time to finish his warm water and ask about the next passage check. Zhong Rui read the scale when its scheduled mark arrived, using the fixed shade and the corrected mounting. Shen Qing wrote the interval's beginning and end, with the named clock source. The result would reach the forecaster later than a special reading, and the revision noted that cost. No extra keeper was summoned. The method used an established task instead of creating an invisible unpaid duty to accelerate the visitors' page.",
+      "earned": {
+        "insight": 2
+      },
+      "branch": [
+        "court_rain_forecast_schedule"
+      ],
+      "reason": "Selecting \"Use the scheduled gauge interval and retain the delay.\" previously granted insight +2 before its displayed work. Credit now follows the completed passage court_rain_forecast_schedule and is saved once."
+    },
+    {
+      "id": "completion-20261005-032",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_rain_notice_choice",
+      "choice_index": 0,
+      "before": {
+        "text": "Check a concise public summary against each dated source.",
+        "next": "court_rain_notice_compare",
+        "effects": {
+          "insight": 2
+        },
+        "requires": {
+          "insight": 4
+        }
+      },
+      "after": {
+        "text": "Check a concise public summary against each dated source.",
+        "next": "court_rain_notice_compare",
+        "requires": {
+          "insight": 4
+        }
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_rain_notice_compare",
+      "completion_text": "Lin Yue drafted a short summary, then checked each sentence against the offered page that supported it. She removed a tempting phrase promising five clear days. The forecast had never offered that promise. She also separated present closed fittings from possible future canal restriction, and kept the review date on its own line. The authorized keeper checked the final public wording. Luo Shan retained the comparison marks in the working copy. The shorter notice saved reading time without saving words by discarding the conditions that made its advice trustworthy.",
+      "earned": {
+        "insight": 2
+      },
+      "branch": [
+        "court_rain_notice_compare"
+      ],
+      "reason": "Selecting \"Check a concise public summary against each dated source.\" previously granted insight +2 before its displayed work. Credit now follows the completed passage court_rain_notice_compare and is saved once."
+    },
+    {
+      "id": "completion-20261005-033",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_rain_notice_choice",
+      "choice_index": 1,
+      "before": {
+        "text": "Read the authorized notice with willing local posting keepers.",
+        "next": "court_rain_notice_readers",
+        "effects": {
+          "insight": 2
+        }
+      },
+      "after": {
+        "text": "Read the authorized notice with willing local posting keepers.",
+        "next": "court_rain_notice_readers"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_rain_notice_readers",
+      "completion_text": "Luo Shan read the revised notice with the willing local keepers during their ordinary posting interval. One asked whether possible closure canceled the evidence extension; another asked whether the damaged goods lift was being reopened. He pointed to the separate legal date and present safety rule. Their questions exposed ambiguities in his first short explanation, so he revised it before they carried it onward. The keepers agreed to relay the authorized notice within their existing route. They accepted no added dangerous journey and no obligation to answer technical questions the forecaster had not delegated to them.",
+      "earned": {
+        "insight": 2
+      },
+      "branch": [
+        "court_rain_notice_readers"
+      ],
+      "reason": "Selecting \"Read the authorized notice with willing local posting keepers.\" previously granted insight +2 before its displayed work. Credit now follows the completed passage court_rain_notice_readers and is saved once."
+    },
+    {
+      "id": "completion-20261005-034",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_rain_notice_choice",
+      "choice_index": 2,
+      "before": {
+        "text": "Send the complete notice through its ordinary route.",
+        "next": "court_rain_notice_ordinary",
+        "effects": {
+          "insight": 2
+        }
+      },
+      "after": {
+        "text": "Send the complete notice through its ordinary route.",
+        "next": "court_rain_notice_ordinary"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_rain_notice_ordinary",
+      "completion_text": "Shen Qing placed the complete authorized notice into the ordinary dispatch sleeve. The keeper recorded its expected route and warned that weather could slow delivery. Luo Shan added that limit to the court's receipt. A shorter summary might have traveled more quickly, but the complete version preserved the conditional wording and the separate decision rules. Lin Yue checked that no private log pages had slipped into the sleeve. The public notice did not need the Heron's unrelated observations or any patient's medical detail. It needed a reliable source, a date, and the boundaries of the advice offered.",
+      "earned": {
+        "insight": 2
+      },
+      "branch": [
+        "court_rain_notice_ordinary"
+      ],
+      "reason": "Selecting \"Send the complete notice through its ordinary route.\" previously granted insight +2 before its displayed work. Credit now follows the completed passage court_rain_notice_ordinary and is saved once."
+    },
+    {
+      "id": "completion-20261005-035",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_rain_final_check_choice",
+      "choice_index": 0,
+      "before": {
+        "text": "Trace every summary conclusion back to its offered exhibit.",
+        "next": "court_rain_conclusion_check",
+        "effects": {
+          "insight": 2
+        },
+        "requires": {
+          "insight": 4
+        }
+      },
+      "after": {
+        "text": "Trace every summary conclusion back to its offered exhibit.",
+        "next": "court_rain_conclusion_check",
+        "requires": {
+          "insight": 4
+        }
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_rain_conclusion_check",
+      "completion_text": "Lin Yue drew a line from each summary sentence to its supporting exhibit. One line crossed from current clock disagreement to the older accident time without an offered bridge. She removed the summary's suggestion that the old hour was probably late and replaced it with unsupported exact alignment. Another sentence called the rope wet during the slip; its source described wetness after securing. She corrected that interval too. The changes made the summary less sweeping and more faithful. Luo Shan preserved the rejected wording in the working draft, giving the authorized clerk a clear record of what had been corrected.",
+      "earned": {
+        "insight": 2
+      },
+      "branch": [
+        "court_rain_conclusion_check"
+      ],
+      "reason": "Selecting \"Trace every summary conclusion back to its offered exhibit.\" previously granted insight +2 before its displayed work. Credit now follows the completed passage court_rain_conclusion_check and is saved once."
+    },
+    {
+      "id": "completion-20261005-036",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_rain_final_check_choice",
+      "choice_index": 1,
+      "before": {
+        "text": "Read back the findings with willing source keepers.",
+        "next": "court_rain_source_readback",
+        "effects": {
+          "insight": 2
+        }
+      },
+      "after": {
+        "text": "Read back the findings with willing source keepers.",
+        "next": "court_rain_source_readback"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_rain_source_readback",
+      "completion_text": "Luo Shan read the short findings to willing source keepers within the agreed interval. Zhong Rui corrected a phrase that made the supply receipt sound like direct proof of installation. The Heron asked that its present comparisons not be folded into the older log. The liftkeeper confirmed the clock names but declined to endorse conclusions about the material samples, which he had not examined. Each response stayed beside its own source. Lin Yue revised the summary accordingly. Agreement did useful work when its scope was named, instead of allowing one signature to certify an entire investigation no signer had witnessed.",
+      "earned": {
+        "insight": 2
+      },
+      "branch": [
+        "court_rain_source_readback"
+      ],
+      "reason": "Selecting \"Read back the findings with willing source keepers.\" previously granted insight +2 before its displayed work. Credit now follows the completed passage court_rain_source_readback and is saved once."
+    },
+    {
+      "id": "completion-20261005-037",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_rain_final_check_choice",
+      "choice_index": 2,
+      "before": {
+        "text": "Check receipts, source labels, and copy permissions in order.",
+        "next": "court_rain_receipt_check",
+        "effects": {
+          "insight": 2
+        }
+      },
+      "after": {
+        "text": "Check receipts, source labels, and copy permissions in order.",
+        "next": "court_rain_receipt_check"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_rain_receipt_check",
+      "completion_text": "Shen Qing compared every packet sleeve with its receipt, working from the first page to the last. He found an offered-copy label missing from the log extract and a source reference hidden by a fold in the clock band. The clerk repaired both before closing the covers. This ordinary check did not require new witness attendance or a cultivated interpretation of the evidence. It caught handling mistakes that could later obscure permission and provenance. Luo Shan added the completed receipt check to the copying record, and Lin Yue kept the packet dry while the clerk prepared its ordinary receipt marks.",
+      "earned": {
+        "insight": 2
+      },
+      "branch": [
+        "court_rain_receipt_check"
+      ],
+      "reason": "Selecting \"Check receipts, source labels, and copy permissions in order.\" previously granted insight +2 before its displayed work. Credit now follows the completed passage court_rain_receipt_check and is saved once."
+    },
+    {
+      "id": "completion-20261005-038",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_cost_lift_choice",
+      "choice_index": 0,
+      "before": {
+        "text": "Walk the covered handcart route.",
+        "next": "court_cost_cart_check",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Walk the covered handcart route.",
+        "next": "court_cost_cart_check"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_cost_cart_check",
+      "completion_text": "Lin Yue walked the handcart route with its keeper. One corner had pooled rain deep enough to hide a broken paving edge. The keeper chose the covered detour and measured its extra length with ordinary strides. It remained within the quoted four copper, but required an earlier arrival at the path. Dai added that time to the invitation. No traveler had to perform this check for the court. When the keeper reached the waiting bench, he dried its seat with a cloth he carried for his own customers and showed where an attendant could stand without blocking the chair transfer.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_cost_cart_check"
+      ],
+      "reason": "Selecting \"Walk the covered handcart route.\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_cost_cart_check and is saved once."
+    },
+    {
+      "id": "completion-20261005-039",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_cost_lift_choice",
+      "choice_index": 1,
+      "before": {
+        "text": "Observe the empty-chair transfer.",
+        "next": "court_cost_cradle_check",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Observe the empty-chair transfer.",
+        "next": "court_cost_cradle_check"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_cost_cradle_check",
+      "completion_text": "Lin Yue watched the carrying team place its empty chair level beside the waiting bench. The supervisor demonstrated the supported transfer and identified who would lift, guide, and call a stop. The handcart attendant retained a separate lower-approach task. Nobody put a wounded person inside for a trial. This rehearsal concerned today's access service and left the earlier goods accident unresolved. Dai recorded the sequence beside the price. Eight copper now corresponded to actions they could check before payment, without touching the closed counterweighted equipment or asking it to carry a person.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_cost_cradle_check"
+      ],
+      "reason": "Selecting \"Observe the empty-chair transfer.\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_cost_cradle_check and is saved once."
+    },
+    {
+      "id": "completion-20261005-040",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_cost_lift_choice",
+      "choice_index": 2,
+      "before": {
+        "text": "Revise the appointment timetable.",
+        "next": "court_cost_time_check",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Revise the appointment timetable.",
+        "next": "court_cost_time_check"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_cost_time_check",
+      "completion_text": "Lin Yue sat beside Dai while she moved the appointments. Each traveler needed arrival time, a brief rest, one bounded statement hour, and the booked return. Luo Shan divided his assistance work accordingly. He would prepare questions beforehand, record what each person offered, and leave further requests for a separately scheduled response. The ordinary clerk would handle the transcript under the existing staff account. Dai changed the invitation from attend until released to attend within this appointment. Lin Yue watched that small revision turn an open-ended summons into a day someone could plan around.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_cost_time_check"
+      ],
+      "reason": "Selecting \"Revise the appointment timetable.\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_cost_time_check and is saved once."
+    },
+    {
+      "id": "completion-20261005-041",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_cost_copy_choice",
+      "choice_index": 0,
+      "before": {
+        "text": "Compare the offered incident log.",
+        "next": "court_cost_copy_log",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Compare the offered incident log.",
+        "next": "court_cost_copy_log"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_cost_copy_log",
+      "completion_text": "Lin Yue watched the log comparison from the side of the table. The keeper indicated the offered date heading, the incident entry, and the job-slip reference without surrendering unrelated pages. Ru Fang read the proposed extract back slowly. Where an abbreviation remained uncertain, he preserved it and added a descriptive note approved for that comparison. Neither clerk silently expanded it into a technical conclusion. Lin Yue understood less about the machine than before, but more about the limits of this paper. The hearing would receive the uncertainty rather than a polished sentence someone had invented to conceal it.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_cost_copy_log"
+      ],
+      "reason": "Selecting \"Compare the offered incident log.\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_cost_copy_log and is saved once."
+    },
+    {
+      "id": "completion-20261005-042",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_cost_copy_choice",
+      "choice_index": 1,
+      "before": {
+        "text": "Check the annex correction history.",
+        "next": "court_cost_copy_annex",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Check the annex correction history.",
+        "next": "court_cost_copy_annex"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_cost_copy_annex",
+      "completion_text": "Lin Yue joined Mei at the wage annex. She placed the corrected proof acknowledgment beside the earlier license reference and showed Ru Fang their distinct dates. The clerks copied the relevant entries in order. No worker's permanent proof became commercial collateral again because an older annex had repeated the wrong identifier. The extract retained that older error as history and marked the current admission status clearly. Lin Yue watched the copy dry before it was checked. A document could preserve the path of a mistake while making it difficult for the next clerk to repeat the mistake as present authority.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_cost_copy_annex"
+      ],
+      "reason": "Selecting \"Check the annex correction history.\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_cost_copy_annex and is saved once."
+    },
+    {
+      "id": "completion-20261005-043",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_cost_copy_choice",
+      "choice_index": 2,
+      "before": {
+        "text": "Review the outgoing notices.",
+        "next": "court_cost_copy_notices",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Review the outgoing notices.",
+        "next": "court_cost_copy_notices"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_cost_copy_notices",
+      "completion_text": "Lin Yue compared the old notice packet with the outgoing corrections. The new letter named the two four-copper extracts, stated that ordinary admission preparation required no private fee, and explained what appointed staff would do. Luo Shan removed an ornamental sentence that praised the court's generosity. The correction was owed because its own packet had been unclear. Dai wrote the addresses on the outside and asked Lin Yue to check them before sealing. No customer addresses from the wage annex were needed to send Bai and Du their personal replies. The clerks used the contact details each petitioner had supplied.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_cost_copy_notices"
+      ],
+      "reason": "Selecting \"Review the outgoing notices.\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_cost_copy_notices and is saved once."
+    },
+    {
+      "id": "completion-20261005-044",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_cost_storage_choice",
+      "choice_index": 0,
+      "before": {
+        "text": "Compare inventory and owner tags.",
+        "next": "court_cost_tag_check",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Compare inventory and owner tags.",
+        "next": "court_cost_tag_check"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_cost_tag_check",
+      "completion_text": "Lin Yue compared the accepted inventory with the owners' tags beside the custodian. One inventory line used a broad description that could include two separate pieces. Its owner's acknowledgment named only the offered outer fitting. The custodian narrowed the line and asked the keeper to confirm it before filing. No price changed. The correction reduced what the court appeared to hold. Lin Yue marked her own note as an inventory correction, not a discovery about the accident. A careful list could protect the offered evidence without turning the presence of an object into permission to investigate its entire history.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_cost_tag_check"
+      ],
+      "reason": "Selecting \"Compare inventory and owner tags.\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_cost_tag_check and is saved once."
+    },
+    {
+      "id": "completion-20261005-045",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_cost_storage_choice",
+      "choice_index": 1,
+      "before": {
+        "text": "Check the shelf and return calendar.",
+        "next": "court_cost_shelf_check",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Check the shelf and return calendar.",
+        "next": "court_cost_shelf_check"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_cost_shelf_check",
+      "completion_text": "Lin Yue checked the reserved shelf's number against the return schedule. The space was free through the morning of Day6. Another case had requested it afterward, and the custodian would need a different available bay for any renewed storage. A fund reserve alone did not create that bay. Luo Shan sent a conditional inquiry rather than promising the shelf to two hearings. The custodian could hold an answer until the common Day3 decision. Its price would remain two copper per authorized overnight interval if a space was available. Lin Yue wrote the condition beside the sum.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_cost_shelf_check"
+      ],
+      "reason": "Selecting \"Check the shelf and return calendar.\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_cost_shelf_check and is saved once."
+    },
+    {
+      "id": "completion-20261005-046",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_cost_storage_choice",
+      "choice_index": 2,
+      "before": {
+        "text": "Review completed key entries.",
+        "next": "court_cost_key_check",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Review completed key entries.",
+        "next": "court_cost_key_check"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_cost_key_check",
+      "completion_text": "Lin Yue read the key entries with Luo Shan. One access line ended without a closing time because the clerk had been interrupted by a messenger. The custodian checked the adjacent duty record and completed the entry with the clerk present, preserving the correction. It did not show an unexplained night visit or establish anyone's intent. Luo Shan asked why the first line had remained incomplete. The clerk answered plainly, and the answer joined the record. A small clerical error deserved repair at its own size rather than an accusation large enough to fill the whole hearing.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_cost_key_check"
+      ],
+      "reason": "Selecting \"Review completed key entries.\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_cost_key_check and is saved once."
+    },
+    {
+      "id": "completion-20261005-047",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_cost_time_choice",
+      "choice_index": 0,
+      "before": {
+        "text": "Check the attendance receipts.",
+        "next": "court_cost_time_receipt",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Check the attendance receipts.",
+        "next": "court_cost_time_receipt"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_cost_time_receipt",
+      "completion_text": "Lin Yue compared the four attendance receipt forms. Each named five copper and its bounded testimony task. Bai and Du's receipts contained no release of damages claims. Sui's named off-shift explanation of his offered entries, distinct from ordinary lift duty. The Rain Heron's named a limited account paid through the agreed fish invoice, distinct from its seasonal inspection contract. The cashier removed a copied phrase about satisfaction of all obligations. That phrase belonged to a closed supplier bill, not these appointments. She preserved the correction before the remaining receipts were used.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_cost_time_receipt"
+      ],
+      "reason": "Selecting \"Check the attendance receipts.\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_cost_time_receipt and is saved once."
+    },
+    {
+      "id": "completion-20261005-048",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_cost_time_choice",
+      "choice_index": 1,
+      "before": {
+        "text": "Review bounded invitation terms.",
+        "next": "court_cost_time_form",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Review bounded invitation terms.",
+        "next": "court_cost_time_form"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_cost_time_form",
+      "completion_text": "Lin Yue checked the appointment forms with Dai. The new text named expected arrival, rest, statement length, and return service, with safety and clinician limits where needed. It still left room for a witness to stop or ask a question. Dai removed a decorative instruction to attend promptly at any hour the court might require. Luo Shan said that sentence had served a different kind of proceeding and did not belong in these invitations. The corrected forms would not make every future hearing affordable. They would at least reveal its demands before someone accepted a day they could not spare.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_cost_time_form"
+      ],
+      "reason": "Selecting \"Review bounded invitation terms.\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_cost_time_form and is saved once."
+    },
+    {
+      "id": "completion-20261005-049",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_cost_time_choice",
+      "choice_index": 2,
+      "before": {
+        "text": "Ask about an interrupted appointment.",
+        "next": "court_cost_time_interruption",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Ask about an interrupted appointment.",
+        "next": "court_cost_time_interruption"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_cost_time_interruption",
+      "completion_text": "Lin Yue asked the cashier about an interrupted appointment. She pointed to the assistance order's attendance terms. The payment recognized reserved time and offered participation within the defined appointment; it was not a bounty for an uninterrupted recital. A witness who came and needed to stop would not owe the money back merely because the clerk wanted another answer. The appointment record would state what actually occurred. Luo Shan copied that rule onto the working sheet. The fund remained limited, but its limitation would not be enforced by pressuring a tired person to speak beyond the terms already agreed.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_cost_time_interruption"
+      ],
+      "reason": "Selecting \"Ask about an interrupted appointment.\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_cost_time_interruption and is saved once."
+    },
+    {
+      "id": "completion-20261005-050",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_cost_private_choice",
+      "choice_index": 0,
+      "before": {
+        "text": "Clarify proposed and completed repair work.",
+        "next": "court_cost_private_repair",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Clarify proposed and completed repair work.",
+        "next": "court_cost_private_repair"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_cost_private_repair",
+      "completion_text": "Lin Yue joined the source comparison for repair costs. The offered quote listed proposed tasks, while the completion acknowledgment named the tasks performed. Where they differed, the source keeper preserved both rather than rewriting the older estimate. Luo Shan recorded that no access payment had funded either paper. Their significance for the new incident would be reported to the maintenance inquiry. Lin Yue left without a neat culprit or a bill she could settle. She had a narrower useful finding: these records described different stages of work and should not be totaled as though every figure were money already spent.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_cost_private_repair"
+      ],
+      "reason": "Selecting \"Clarify proposed and completed repair work.\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_cost_private_repair and is saved once."
+    },
+    {
+      "id": "completion-20261005-051",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_cost_private_choice",
+      "choice_index": 1,
+      "before": {
+        "text": "Review the access-only clinician note.",
+        "next": "court_cost_private_clinician",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Review the access-only clinician note.",
+        "next": "court_cost_private_clinician"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_cost_private_clinician",
+      "completion_text": "Lin Yue reviewed the access note beside Luo Shan. They copied only the offered travel limits needed for appointment planning and left the wider treatment material within its separate permission. The medical bill remained a claim for actual services under its own terms, with liability questions outside the access worksheet. Luo Shan corrected one heading that called all papers supporting attendance. A bill could support another claim without becoming a journey expense. Lin Yue watched him file the note where the carrying-chair supervisor could receive its permitted instructions without obtaining Du's private medical history.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_cost_private_clinician"
+      ],
+      "reason": "Selecting \"Review the access-only clinician note.\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_cost_private_clinician and is saved once."
+    },
+    {
+      "id": "completion-20261005-052",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_cost_private_choice",
+      "choice_index": 2,
+      "before": {
+        "text": "Distinguish yard work from court attendance.",
+        "next": "court_cost_private_yard",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Distinguish yard work from court attendance.",
+        "next": "court_cost_private_yard"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_cost_private_yard",
+      "completion_text": "Lin Yue compared the stone-yard acknowledgment with Bai's court attendance receipt. The worker's payment covered a yard task; the court's five copper covered a bounded appointment. Both could exist without being duplicate wages for the same work. Whether the private replacement expense belonged in a recoverable claim remained for the hearing's evidence and authority. Luo Shan marked that unresolved question plainly. Lin Yue thought of Dai's first worksheet, where anything called time had threatened to collapse into one line. Different people had done different labor. A correct total needed to keep their tasks visible.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_cost_private_yard"
+      ],
+      "reason": "Selecting \"Distinguish yard work from court attendance.\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_cost_private_yard and is saved once."
+    },
+    {
+      "id": "completion-20261005-053",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_cost_local_choice",
+      "choice_index": 0,
+      "before": {
+        "text": "Check the hired room's threshold.",
+        "next": "court_cost_local_threshold",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Check the hired room's threshold.",
+        "next": "court_cost_local_threshold"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_cost_local_threshold",
+      "completion_text": "Lin Yue examined the room drawing with the carrying-chair supervisor. A narrow threshold was not automatically impassable, but it needed a transfer arrangement and space to rest without blocking the door. The supervisor suggested a different seat placement within the hired room. The cooper accepted that arrangement for the quoted session price. The attendant's four copper covered the defined local access task, not general medical care. Lin Yue marked the change for witness review. No one asked Du to demonstrate the transfer for the sake of proving a sketch could work.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_cost_local_threshold"
+      ],
+      "reason": "Selecting \"Check the hired room's threshold.\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_cost_local_threshold and is saved once."
+    },
+    {
+      "id": "completion-20261005-054",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_cost_local_choice",
+      "choice_index": 1,
+      "before": {
+        "text": "Review correction and stopping terms.",
+        "next": "court_cost_local_readback",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Review correction and stopping terms.",
+        "next": "court_cost_local_readback"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_cost_local_readback",
+      "completion_text": "Lin Yue read the minute-taker's sample beside Luo Shan. It preserved the participant's corrections visibly and marked an unanswered question as unanswered. The hired task did not require every participant to agree on the inspection time. Luo Shan requested that the actual sessions use the same correction procedure, including stopping rules. The writer accepted within the six-copper price. Lin Yue folded the sample separately from the case's offered statements. A useful example belonged in the service proposal. It was not evidence that any new account would necessarily be complete or truthful.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_cost_local_readback"
+      ],
+      "reason": "Selecting \"Review correction and stopping terms.\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_cost_local_readback and is saved once."
+    },
+    {
+      "id": "completion-20261005-055",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_cost_local_choice",
+      "choice_index": 2,
+      "before": {
+        "text": "Check the messenger's limited task.",
+        "next": "court_cost_local_messenger",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Check the messenger's limited task.",
+        "next": "court_cost_local_messenger"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_cost_local_messenger",
+      "completion_text": "Lin Yue reviewed the messenger service with Dai. Four copper covered the specified delivery of authorized session records along the available route, with an acknowledgment of receipt. It did not guarantee passage through unsafe weather or authorize the messenger to open private contents. A delayed delivery would carry its actual date rather than the date everyone hoped for. Luo Shan would include that condition in the hearing's comparison. A local session could spare an injured traveler a climb and still face ordinary transport uncertainty. The fund could pay for a defined attempt without buying impossible speed.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_cost_local_messenger"
+      ],
+      "reason": "Selecting \"Check the messenger's limited task.\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_cost_local_messenger and is saved once."
+    },
+    {
+      "id": "completion-20261005-056",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_cost_reserve_choice",
+      "choice_index": 0,
+      "before": {
+        "text": "Explain the short observation proposal first.",
+        "next": "court_cost_emphasize_weather",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Explain the short observation proposal first.",
+        "next": "court_cost_emphasize_weather"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_cost_emphasize_weather",
+      "completion_text": "Lin Yue began her draft with the observation proposal. It purchased new bounded information before the forecast window, not certainty about the old accident. She listed eighteen for three shifts, six for instruments, four for dated notices, and four for two storage nights. Then she wrote what it would not purchase: continuous watching, safe passage, a guilt finding, or unlimited retention. Luo Shan placed the local, docket, and remand packets immediately behind the page. Lin Yue wanted the report's first emphasis to remain an emphasis, rather than becoming the only proposal another hurried reader noticed.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_cost_emphasize_weather"
+      ],
+      "reason": "Selecting \"Explain the short observation proposal first.\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_cost_emphasize_weather and is saved once."
+    },
+    {
+      "id": "completion-20261005-057",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_cost_reserve_choice",
+      "choice_index": 1,
+      "before": {
+        "text": "Explain optional local sessions first.",
+        "next": "court_cost_emphasize_local",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Explain optional local sessions first.",
+        "next": "court_cost_emphasize_local"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_cost_emphasize_local",
+      "completion_text": "Lin Yue began her draft with the local sessions. She listed twenty-four for two twelve-copper appointments, four for the messenger, and four for two storage nights. The appointments would remain optional and separately offered, with no additional mandatory Bai or Du ascent. Their local records would not settle the accident simply because they were easier to obtain. Luo Shan placed the other three packets immediately behind the page. Lin Yue remembered Du's right shoulder and kept that memory out of the price column. It explained why access mattered without deciding which offered account the court should believe.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_cost_emphasize_local"
+      ],
+      "reason": "Selecting \"Explain optional local sessions first.\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_cost_emphasize_local and is saved once."
+    },
+    {
+      "id": "completion-20261005-058",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_cost_reserve_choice",
+      "choice_index": 2,
+      "before": {
+        "text": "Explain staged source checking first.",
+        "next": "court_cost_emphasize_docket",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Explain staged source checking first.",
+        "next": "court_cost_emphasize_docket"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_cost_emphasize_docket",
+      "completion_text": "Lin Yue began her draft with the staged docket. She listed twelve for six source-checking hours, eight for two specialist tasks, four for the messenger, and eight reserved for up to four storage nights. Later custody required the Day7 renewal rather than an assumption drawn from paid space. Ordinary clerks' work remained on their own account. Luo Shan placed weather, local sessions, and remand behind the page. The neat sequence appealed to Lin Yue, but she left room for the other inquiries to show that a source or traveler could not fit the proposed order.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_cost_emphasize_docket"
+      ],
+      "reason": "Selecting \"Explain staged source checking first.\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_cost_emphasize_docket and is saved once."
+    },
+    {
+      "id": "completion-20261005-059",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_cost_report_choice",
+      "choice_index": 0,
+      "before": {
+        "text": "Open with the corrected access total.",
+        "next": "court_cost_report_total",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Open with the corrected access total.",
+        "next": "court_cost_report_total"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_cost_report_total",
+      "completion_text": "Lin Yue's written opening named the ninety-six-copper authorization and sixty-four-copper baseline. She listed each service, its date, and its completed or continuing status before explaining the thirty-two uncommitted reserve. The arithmetic would give the common hearing a stable start after the independent factual summaries. Then her draft described unpurchased needs and Day6 collection before the Day7 review. Luo Shan kept the detailed sheets beside her for checking. Lin Yue recommended no final plan yet. A clear opening should make the evidence easier to assess, rather than hurry the court toward whichever proposal had the neatest sum.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_cost_report_total"
+      ],
+      "reason": "Selecting \"Open with the corrected access total.\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_cost_report_total and is saved once."
+    },
+    {
+      "id": "completion-20261005-060",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_cost_report_choice",
+      "choice_index": 1,
+      "before": {
+        "text": "Open with the storage calendar gap.",
+        "next": "court_cost_report_gap",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Open with the storage calendar gap.",
+        "next": "court_cost_report_gap"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_cost_report_gap",
+      "completion_text": "Lin Yue's alternative written opening named Day6 collection and Day7 review. That mismatch would draw attention to the calendar before prices. Her draft then explained ninety-six authorized copper, sixty-four baseline allocation, and thirty-two uncommitted. Four proposals offered different bounded next tasks with finite storage and explicit custody terms. None could solve every need. Luo Shan kept the original and corrected estimates ready for checking. The actual account would follow the independent factual summaries at the common hearing. Its opening order remained flexible; urgency about storage could not authorize spending before the whole record showed which work was useful.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_cost_report_gap"
+      ],
+      "reason": "Selecting \"Open with the storage calendar gap.\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_cost_report_gap and is saved once."
+    },
+    {
+      "id": "completion-20261005-061",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_docket_source_choice",
+      "choice_index": 0,
+      "before": {
+        "text": "Compare the city judgment",
+        "next": "court_docket_judgment_path",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Compare the city judgment",
+        "next": "court_docket_judgment_path"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_docket_judgment_path",
+      "completion_text": "Mei unfolded the correction warrant beneath a weighted glass corner. The original rental term authorized temporary public recognition for specified work. The correction restored public proofs and proper wage-account claims without deciding every return price. She pointed to the retained old entry, marked as corrected rather than scraped away. The court annex's phrasing came from that old entry, while the extract accompanying this packet showed its correction. Lin Yue recorded the mismatch and Mei's source limits. The city had supplied both pieces; someone at the court had chosen a shorter account of them.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_docket_judgment_path"
+      ],
+      "reason": "Selecting \"Compare the city judgment\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_docket_judgment_path and is saved once."
+    },
+    {
+      "id": "completion-20261005-062",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_docket_source_choice",
+      "choice_index": 1,
+      "before": {
+        "text": "Ask the annex writer",
+        "next": "court_docket_writer_path",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Ask the annex writer",
+        "next": "court_docket_writer_path"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_docket_writer_path",
+      "completion_text": "The annex writer, a fifty-six-year-old clerk named Rui Fang, offered her marked draft. Her instruction had been to identify the documents showing lawful work, and she had copied the first recognizable license heading before reading the correction. A supervisor had added the word corroboration during review. Rui retained both handwriting changes on the draft. She accepted that the completed annex omitted a relevant qualification. She did not claim to know whether that omission changed the later assessment. That question required the assessing office's own account, not an inference from her embarrassment at the table.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_docket_writer_path"
+      ],
+      "reason": "Selecting \"Ask the annex writer\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_docket_writer_path and is saved once."
+    },
+    {
+      "id": "completion-20261005-063",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_docket_source_choice",
+      "choice_index": 2,
+      "before": {
+        "text": "Trace the index stamp",
+        "next": "court_docket_index_path",
+        "effects": {
+          "insight": 1
+        },
+        "requires": {
+          "insight": 3
+        }
+      },
+      "after": {
+        "text": "Trace the index stamp",
+        "next": "court_docket_index_path",
+        "requires": {
+          "insight": 3
+        }
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_docket_index_path",
+      "completion_text": "The index keeper showed the stamp used for supporting documents. It counted separate sheets after they were folded and fastened, including copied extracts. The stamp's small boxes had no place to distinguish a copied statement from a fresh observation. He had put three marks on the landing cover because three document types arrived. Another clerk later read those marks as three confirmations. Luo Shan copied the keeper's explanation beside a sample stamp and asked the later reader to identify the sentence she had understood as confirmed. The stamp itself could not answer that question.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_docket_index_path"
+      ],
+      "reason": "Selecting \"Trace the index stamp\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_docket_index_path and is saved once."
+    },
+    {
+      "id": "completion-20261005-064",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_docket_calendar_choice",
+      "choice_index": 0,
+      "before": {
+        "text": "Read the adoption debate",
+        "next": "court_docket_minutes_path",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Read the adoption debate",
+        "next": "court_docket_minutes_path"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_docket_minutes_path",
+      "completion_text": "The adoption minutes preserved an argument between two judges. One feared that rapid decisions would silence a distant party; the other feared that repetitive appearances would exhaust an applicant before distant evidence arrived. Their agreement allowed local source checks during the long search and required reasons for withholding an interim reply. The desk summary had retained the search period and omitted the interim-reply instruction. Shen Qing copied the exchange without claiming either judge foresaw this particular landing case. The earlier disagreement offered a neglected tool, not an ancient endorsement of every change they might now propose.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_docket_minutes_path"
+      ],
+      "reason": "Selecting \"Read the adoption debate\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_docket_minutes_path and is saved once."
+    },
+    {
+      "id": "completion-20261005-065",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_docket_calendar_choice",
+      "choice_index": 1,
+      "before": {
+        "text": "Check the completeness requirement",
+        "next": "court_docket_complete_path",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Check the completeness requirement",
+        "next": "court_docket_complete_path"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_docket_complete_path",
+      "completion_text": "The completeness checklist asked for a lawful work identifier, a description of the disputed event, and a means of contacting the opposing office. A handwritten extra line required a fully corroborated duty account. No adoption mark accompanied that addition. The classification clerk said she used it because uncertain duties frequently led to repeated requests. Luo Shan preserved the practical explanation alongside the missing authority. It showed a workflow problem the clerk had tried to solve. It did not show that she possessed power to make a complete liability account a condition for admitting a claim about that very liability.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_docket_complete_path"
+      ],
+      "reason": "Selecting \"Check the completeness requirement\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_docket_complete_path and is saved once."
+    },
+    {
+      "id": "completion-20261005-066",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_docket_calendar_choice",
+      "choice_index": 2,
+      "before": {
+        "text": "Test an invitation against a shift",
+        "next": "court_docket_invitation_path",
+        "effects": {
+          "insight": 1
+        },
+        "requires": {
+          "insight": 3
+        }
+      },
+      "after": {
+        "text": "Test an invitation against a shift",
+        "next": "court_docket_invitation_path",
+        "requires": {
+          "insight": 3
+        }
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_docket_invitation_path",
+      "completion_text": "A visitor planning an afternoon shift compared the old invitation with Cai's proposed wording. The daylight interval allowed him to estimate the covered walk, while an explicit option to submit a signed statement spared another journey if his shift changed. He asked who would acknowledge that statement so it could not disappear beneath the stair. Cai added the receiving desk's name and a request for a dated receipt. Lin Yue noted the visitor's suggestion and its limit. This was a test of understandable directions, not evidence that every worker could attend within the same interval.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_docket_invitation_path"
+      ],
+      "reason": "Selecting \"Test an invitation against a shift\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_docket_invitation_path and is saved once."
+    },
+    {
+      "id": "completion-20261005-067",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_docket_duty_choice",
+      "choice_index": 0,
+      "before": {
+        "text": "Read Bai's accepted duties",
+        "next": "court_docket_duties_path",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Read Bai's accepted duties",
+        "next": "court_docket_duties_path"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_docket_duties_path",
+      "completion_text": "After descending, Bai read the offered contract passages with the lower contact and indicated the reporting amendment. Her approved reply accepted responsibility for visible guide obstructions and the ordinary landing walk. It did not claim exemption from every possible contribution to an accident. She asked the assessing office to identify the neglected act it alleged. Luo Shan received the checked reply, preserving its contact route and readback. The original stayed with its keeper. Her clarification supplied no admission that she had seen an obstruction or failed to report one, and required no second ascent.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_docket_duties_path"
+      ],
+      "reason": "Selecting \"Read Bai's accepted duties\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_docket_duties_path and is saved once."
+    },
+    {
+      "id": "completion-20261005-068",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_docket_duty_choice",
+      "choice_index": 1,
+      "before": {
+        "text": "Trace the maintenance signature",
+        "next": "court_docket_signer_path",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Trace the maintenance signature",
+        "next": "court_docket_signer_path"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_docket_signer_path",
+      "completion_text": "Yan Chao identified the maintenance signer as the worker who recorded his own brake check. He could confirm assigning that check, but he had not stood beside the worker throughout it. His earlier statement that the equipment was checked came from the completed entry. The worker had been sent the court's source questions and had not yet supplied an answer. Shen Qing preserved the foreman's confirmation of assignment and his limit on performance. The office now had two related sources, not two independent observations of the brake's condition at the moment the sling slipped.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_docket_signer_path"
+      ],
+      "reason": "Selecting \"Trace the maintenance signature\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_docket_signer_path and is saved once."
+    },
+    {
+      "id": "completion-20261005-069",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_docket_duty_choice",
+      "choice_index": 2,
+      "before": {
+        "text": "Map the ordinary inspection view",
+        "next": "court_docket_view_path",
+        "effects": {
+          "insight": 1
+        },
+        "requires": {
+          "insight": 3
+        }
+      },
+      "after": {
+        "text": "Map the ordinary inspection view",
+        "next": "court_docket_view_path",
+        "requires": {
+          "insight": 3
+        }
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_docket_view_path",
+      "completion_text": "An equipment clerk described the normal guide walk using an unoccupied demonstration route on the terrace. From one position, a worker could inspect the landing edge but not the brake housing below the wheel cover. From another, the housing opened only after an authorized keeper removed its fastening. Lin Yue recorded the demonstrated access limits. She did not enter the closed lift or claim the demonstration reproduced the accident's exact arrangement. The explanation helped interpret the contract's ordinary-view duty. It left open what each person saw that morning and whether an abnormal condition changed the usual view.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_docket_view_path"
+      ],
+      "reason": "Selecting \"Map the ordinary inspection view\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_docket_view_path and is saved once."
+    },
+    {
+      "id": "completion-20261005-070",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_docket_custody_choice",
+      "choice_index": 0,
+      "before": {
+        "text": "Trace a correction handoff",
+        "next": "court_docket_correction_path",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Trace a correction handoff",
+        "next": "court_docket_correction_path"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_docket_correction_path",
+      "completion_text": "A clerk received a practice correction attached to its first version, then entered the change in the amendment column. She initially filed only the corrected sheet in the viewing cover because the cover's label asked for current text. Luo Shan pointed to the retained-history instruction, and she added a source reference to the earlier version's storage cover. They repeated the handoff until both could be located from the viewing label. The rehearsal used invented practice content marked as such, never an accident statement. It exposed a handling weakness without altering a witness's actual testimony to test the system.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_docket_correction_path"
+      ],
+      "reason": "Selecting \"Trace a correction handoff\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_docket_correction_path and is saved once."
+    },
+    {
+      "id": "completion-20261005-071",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_docket_custody_choice",
+      "choice_index": 1,
+      "before": {
+        "text": "Check the offered source limits",
+        "next": "court_docket_keepers_path",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Check the offered source limits",
+        "next": "court_docket_keepers_path"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_docket_keepers_path",
+      "completion_text": "The incident-book keeper watched Shen Qing request the agreed entry and its adjoining date heading. When the request reached beyond the offered portion, the keeper stopped the page turn and asked what additional fact was needed. Shen explained the missing heading and sought a narrow extension of permission. The keeper agreed to that heading alone, leaving unrelated names covered. They wrote the extension beside the original permission. Lin Yue's source note described the exchange, not the hidden names. The check showed that a viewer could identify a real gap without treating an initial offer as unlimited access.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_docket_keepers_path"
+      ],
+      "reason": "Selecting \"Check the offered source limits\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_docket_keepers_path and is saved once."
+    },
+    {
+      "id": "completion-20261005-072",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_docket_custody_choice",
+      "choice_index": 2,
+      "before": {
+        "text": "Test record and witness counts",
+        "next": "court_docket_reader_path",
+        "effects": {
+          "insight": 1
+        },
+        "requires": {
+          "insight": 3
+        }
+      },
+      "after": {
+        "text": "Test record and witness counts",
+        "next": "court_docket_reader_path",
+        "requires": {
+          "insight": 3
+        }
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_docket_reader_path",
+      "completion_text": "The keeper gave Cai Fen a sample packet containing a statement, a copied attendance summary, and an index citing both. She first counted three records and then asked whether they contained three sources. The sample's arrows led back to one statement. Luo Shan added a source-line field to the demonstration cover and asked her to read it again. This time she separated record count from witness count immediately. The demonstration could not prove every clerk would do the same under pressure. It showed a specific improvement worth testing with the real packet while its distinct sources remained visible.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_docket_reader_path"
+      ],
+      "reason": "Selecting \"Test record and witness counts\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_docket_reader_path and is saved once."
+    },
+    {
+      "id": "completion-20261005-073",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_docket_approval_choice",
+      "choice_index": 0,
+      "before": {
+        "text": "Compare the marked approval draft",
+        "next": "court_docket_review_slip_path",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Compare the marked approval draft",
+        "next": "court_docket_review_slip_path"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_docket_review_slip_path",
+      "completion_text": "Rui and Ke Min compared the marked draft with the review slip with the keeper. Rui had copied the old classification; Ke Min had approved the shortened account and added the corroboration description. Neither disputed those handwriting identifications. They disagreed about whether Rui had been expected to flag the correction history before review. The desk instructions did not settle that expectation clearly. Luo Shan recorded the disagreement and the instruction gap. He did not transform a joint acknowledgment of words into agreement about all responsibility, and he did not let their remaining disagreement erase the words they both recognized.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_docket_review_slip_path"
+      ],
+      "reason": "Selecting \"Compare the marked approval draft\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_docket_review_slip_path and is saved once."
+    },
+    {
+      "id": "completion-20261005-074",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_docket_approval_choice",
+      "choice_index": 1,
+      "before": {
+        "text": "Examine the judge's recorded check",
+        "next": "court_docket_judge_path",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Examine the judge's recorded check",
+        "next": "court_docket_judge_path"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_docket_judge_path",
+      "completion_text": "Shen Qing traced the summary approval through the judge's book to the retained desk version. He Lian's note checked the long cycle and the seal practice but said nothing about interim replies. The complete minutes were available in the court library at the time. He Lian acknowledged that availability without claiming to remember every page she read that day. The source established an opportunity and a limited recorded check. It did not establish her unrecorded thoughts. Shen Qing left that distinction explicit, so the court would not mistake a sparse review note for proof of deliberate omission.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_docket_judge_path"
+      ],
+      "reason": "Selecting \"Examine the judge's recorded check\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_docket_judge_path and is saved once."
+    },
+    {
+      "id": "completion-20261005-075",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_docket_approval_choice",
+      "choice_index": 2,
+      "before": {
+        "text": "Test the review handoff",
+        "next": "court_docket_handoff_path",
+        "effects": {
+          "insight": 1
+        },
+        "requires": {
+          "insight": 3
+        }
+      },
+      "after": {
+        "text": "Test the review handoff",
+        "next": "court_docket_handoff_path",
+        "requires": {
+          "insight": 3
+        }
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_docket_handoff_path",
+      "completion_text": "The assessing officer explained that a reviewed annex ordinarily arrived with no request to revisit its source classification. The review desk expected technical assessment to check scope, while assessment treated the review mark as confirmation of lawful authority. A sample handoff showed that neither cover named who should compare the two. Lin Yue watched the demonstration using samples, then asked both offices where a disputed qualification should be referred. Their proposed answers differed. The gap was not repaired by exposing it. It would need a named receiving point and a response method that somebody had authority and time to maintain.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_docket_handoff_path"
+      ],
+      "reason": "Selecting \"Test the review handoff\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_docket_handoff_path and is saved once."
+    },
+    {
+      "id": "completion-20261005-076",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_docket_reply_choice",
+      "choice_index": 0,
+      "before": {
+        "text": "Rehearse a staged source reply",
+        "next": "court_docket_office_rehearsal",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Rehearse a staged source reply",
+        "next": "court_docket_office_rehearsal"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_docket_office_rehearsal",
+      "completion_text": "An assessing clerk read the practice source request and identified the local duty amendment she could verify. She could not promise the absent maintenance signer's answer before Day Three. The revised form allowed her to return the verified local point and list the remaining search. She asked whether a partial answer would be treated as evasion. Luo Shan wrote that a partial answer should be assessed by its accuracy and declared limit, while unexplained omissions could be questioned. The rehearsal made the expectation clearer without granting the office immunity from challenge or deciding the weight of any future reply.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_docket_office_rehearsal"
+      ],
+      "reason": "Selecting \"Rehearse a staged source reply\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_docket_office_rehearsal and is saved once."
+    },
+    {
+      "id": "completion-20261005-077",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_docket_reply_choice",
+      "choice_index": 1,
+      "before": {
+        "text": "Test the applicant's reply route",
+        "next": "court_docket_applicant_rehearsal",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Test the applicant's reply route",
+        "next": "court_docket_applicant_rehearsal"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_docket_applicant_rehearsal",
+      "completion_text": "The keeper tested the written reply route with a practice envelope addressed to the receiving desk. Cai signed its receipt and entered the time before opening it, then returned a matching acknowledgment through the agreed local collection point. No applicant's actual statement was used for the exercise. Lin Yue checked where the route depended on canal transport and where a local messenger could substitute if the forecasted closure occurred. Those alternatives required an available person and clear authorization. They were not a claim that any message would arrive safely merely because a plan had been drawn on paper.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_docket_applicant_rehearsal"
+      ],
+      "reason": "Selecting \"Test the applicant's reply route\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_docket_applicant_rehearsal and is saved once."
+    },
+    {
+      "id": "completion-20261005-078",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_docket_reply_choice",
+      "choice_index": 2,
+      "before": {
+        "text": "Read the proposed remand questions",
+        "next": "court_docket_remand_rehearsal",
+        "effects": {
+          "insight": 1
+        },
+        "requires": {
+          "insight": 3
+        }
+      },
+      "after": {
+        "text": "Read the proposed remand questions",
+        "next": "court_docket_remand_rehearsal",
+        "requires": {
+          "insight": 3
+        }
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_docket_remand_rehearsal",
+      "completion_text": "Shen Qing asked a clerk unfamiliar with the petition to read the proposed remand questions. She could identify the duty assignment and source explanation required, but she could not tell where an unanswered question should return. Luo Shan added the court's review desk and the relevant review date, subject to the final hearing's decision. She then asked whether the protective receipt remained effective while the office worked. The draft now stated that question explicitly rather than leaving it to implication. A remand that obscured present protection would create another dispute instead of narrowing the one already before the court.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_docket_remand_rehearsal"
+      ],
+      "reason": "Selecting \"Read the proposed remand questions\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_docket_remand_rehearsal and is saved once."
+    },
+    {
+      "id": "completion-20261005-079",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_docket_report_choice",
+      "choice_index": 0,
+      "before": {
+        "text": "Check retained source history",
+        "next": "court_docket_history_final",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Check retained source history",
+        "next": "court_docket_history_final"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_docket_history_final",
+      "completion_text": "Shen Qing traced the annex claim from retained draft through corrected copy to the report's source number. He found the earlier version reachable from each reference and the reason for change stated in ordinary words. The index still counted its sheets as records, while the report marked their shared source. He checked Du's correction in the same way without reopening the covered portions of his wage account. The final note identified these checks as handling verification. It did not certify the truth of every recollection within the packet, which was precisely the distinction their method had been designed to preserve.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_docket_history_final"
+      ],
+      "reason": "Selecting \"Check retained source history\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_docket_history_final and is saved once."
+    },
+    {
+      "id": "completion-20261005-080",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_docket_report_choice",
+      "choice_index": 1,
+      "before": {
+        "text": "Check permission and storage routes",
+        "next": "court_docket_permission_final",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Check permission and storage routes",
+        "next": "court_docket_permission_final"
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_docket_permission_final",
+      "completion_text": "The keeper compared the viewing permissions against the source-location list and storage term. One covering note had omitted the keeper's name for an offered wage entry. Luo Shan restored the name and contact route, with unrelated paid workers still concealed. The temporary storage list now led to a morning collection on Day Six, not an indefinite custody promise. Lin Yue checked that no permission for a surface or weather observation had become a demand for another unsafe journey. The packet could travel to the shared hearing with its agreed uses visible, while further requests still required their own answer.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_docket_permission_final"
+      ],
+      "reason": "Selecting \"Check permission and storage routes\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_docket_permission_final and is saved once."
+    },
+    {
+      "id": "completion-20261005-081",
+      "category": "choice_causality",
+      "path": "data/books/book_vi.json",
+      "node_id": "court_docket_report_choice",
+      "choice_index": 2,
+      "before": {
+        "text": "Read the plain page for promises",
+        "next": "court_docket_language_final",
+        "effects": {
+          "insight": 1
+        },
+        "requires": {
+          "insight": 3
+        }
+      },
+      "after": {
+        "text": "Read the plain page for promises",
+        "next": "court_docket_language_final",
+        "requires": {
+          "insight": 3
+        }
+      },
+      "completion_path": "data/books/book_vi.json",
+      "completion_node": "court_docket_language_final",
+      "completion_text": "Cai gave the plain page to an adult unfamiliar with the case and asked what he thought the court had decided. He understood that the charge was suspended but initially assumed the accident cause had been dismissed. Luo Shan changed the adjoining sentence to say cause undecided and source inquiry continuing. The visitor then described the distinction correctly. This small reading test did not prove universal clarity. It found a specific misleading sequence while there was time to repair it. The visitor's participation remained a reading exercise, with no entry of his private court business in the report.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "court_docket_language_final"
+      ],
+      "reason": "Selecting \"Read the plain page for promises\" previously granted insight +1 before its displayed work. Credit now follows the completed passage court_docket_language_final and is saved once."
+    },
+    {
+      "id": "completion-20261005-082",
+      "category": "choice_causality",
+      "path": "data/books/book_vii_archive.json",
+      "node_id": "ring_archive_ask_help",
+      "choice_index": 0,
+      "before": {
+        "text": "Ask An Ru to explain the public occupancy section.",
+        "next": "ring_archive_charter_lesson",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Ask An Ru to explain the public occupancy section.",
+        "next": "ring_archive_charter_lesson"
+      },
+      "completion_path": "data/books/book_vii_archive.json",
+      "completion_node": "ring_archive_charter_lesson",
+      "completion_text": "Read the heading before the name. The occupancy section concerns who held the dwelling and work shelter under the public crossing charter. The adjoining account section concerns what was owed under separate terms. Officials shortened the first without preserving its people, then let the second sound like proof that those people were strangers. Today's released occupancy line can establish a public record match without opening the debts beside it. I will guide your finger along the margin, Yue. You should be able to find the distinction again without needing me to pronounce it for you.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "ring_archive_charter_lesson"
+      ],
+      "reason": "Selecting \"Ask An Ru to explain the public occupancy section.\" previously granted insight +1 before its displayed work. Credit now follows the completed passage ring_archive_charter_lesson and is saved once."
+    },
+    {
+      "id": "completion-20261005-083",
+      "category": "choice_causality",
+      "path": "data/books/book_vii_archive.json",
+      "node_id": "ring_archive_ask_help",
+      "choice_index": 1,
+      "before": {
+        "text": "Ask Mei Dulan to explain the ferry permit comparison.",
+        "next": "ring_archive_permit_lesson",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Ask Mei Dulan to explain the ferry permit comparison.",
+        "next": "ring_archive_permit_lesson"
+      },
+      "completion_path": "data/books/book_vii_archive.json",
+      "completion_node": "ring_archive_permit_lesson",
+      "completion_text": "Start with the office and berth, then the serial, then the renewal notation. LR-6 belongs to the lower crossing permit here; a similar number in another office might mean something else. Wei Jin's offered correction gives the old designation and this serial, but we still need the permitted repair extract to compare its use. I will not draw a single arrow through all the sheets yet. Put one beside each actual match, and leave the next place blank. The blank will tell you which conclusion has not received its support today.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "ring_archive_permit_lesson"
+      ],
+      "reason": "Selecting \"Ask Mei Dulan to explain the ferry permit comparison.\" previously granted insight +1 before its displayed work. Credit now follows the completed passage ring_archive_permit_lesson and is saved once."
+    },
+    {
+      "id": "completion-20261005-084",
+      "category": "choice_causality",
+      "path": "data/books/book_vii_archive.json",
+      "node_id": "ring_archive_quiet_choice",
+      "choice_index": 0,
+      "before": {
+        "text": "Ask An Ru about her first copying work.",
+        "next": "ring_archive_apprentice_pause",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Ask An Ru about her first copying work.",
+        "next": "ring_archive_apprentice_pause"
+      },
+      "completion_path": "data/books/book_vii_archive.json",
+      "completion_node": "ring_archive_apprentice_pause",
+      "completion_text": "I began by copying notices that nobody important wanted to read twice. Ferry times, repair days, which corner of a square had to stay clear for carts. A beautiful mistake could put a cart beneath a hanging beam. I learned to check those notices before copying the elaborate seals above them. It was ordinary work, and I wanted grander work. Now I wish grander work remembered where the carts needed to go. Do not improve that wish into an official maxim, Yue. I have eaten, and for once I refuse to copy myself carefully.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "ring_archive_apprentice_pause"
+      ],
+      "reason": "Selecting \"Ask An Ru about her first copying work.\" previously granted insight +1 before its displayed work. Credit now follows the completed passage ring_archive_apprentice_pause and is saved once."
+    },
+    {
+      "id": "completion-20261005-085",
+      "category": "choice_causality",
+      "path": "data/books/book_vii_archive.json",
+      "node_id": "ring_archive_quiet_choice",
+      "choice_index": 1,
+      "before": {
+        "text": "Sit quietly with Shen Qing while he rests.",
+        "next": "ring_archive_quiet_pause",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Sit quietly with Shen Qing while he rests.",
+        "next": "ring_archive_quiet_pause"
+      },
+      "completion_path": "data/books/book_vii_archive.json",
+      "completion_node": "ring_archive_quiet_pause",
+      "completion_text": "Lin Yue sat beside Shen Qing without offering him a breathing exercise. The room's small sounds returned one by one: water meeting clay, a stool leg dragging, An Ru folding the food cloth. Shen kept his eyes on the floor until his hands grew still. He asked whether she minded the silence. She shook her head and placed her cup where he could reach it without turning. No remembered voice spoke between them. The time belonged to two people who could share a bench without explaining what they were recovering from together.",
+      "earned": {
+        "trust": 1
+      },
+      "branch": [
+        "ring_archive_quiet_pause"
+      ],
+      "reason": "Selecting \"Sit quietly with Shen Qing while he rests.\" previously granted trust +1 before its displayed work. Credit now follows the completed passage ring_archive_quiet_pause and is saved once."
+    },
+    {
+      "id": "completion-20261005-086",
+      "category": "choice_causality",
+      "path": "data/books/book_vii_road.json",
+      "node_id": "ring_road_brace_choice",
+      "choice_index": 0,
+      "before": {
+        "text": "Spread the anchor load with Wei Jin.",
+        "next": "ring_road_brace_bank",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Spread the anchor load with Wei Jin.",
+        "next": "ring_road_brace_bank"
+      },
+      "completion_path": "data/books/book_vii_road.json",
+      "completion_node": "ring_road_brace_bank",
+      "completion_text": "Wei Jin showed Lin Yue the two inland posts and their padded guides. She carried slack line to the second guide on firm ground while he retained control. Neither person became a body anchor. She checked the angle against Su Lan's mark and reported a chafing edge before any load transfer. Jin adjusted the ordinary padding, then returned the rope to its rated path. Yue's field stayed closed. The preparation improved their rig and her understanding of it; it taught no new qi technique.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "ring_road_brace_bank"
+      ],
+      "reason": "Selecting \"Spread the anchor load with Wei Jin.\" previously granted insight +1 before its displayed work. Credit now follows the completed passage ring_road_brace_bank and is saved once."
+    },
+    {
+      "id": "completion-20261005-087",
+      "category": "choice_causality",
+      "path": "data/books/book_vii_road.json",
+      "node_id": "ring_road_brace_choice",
+      "choice_index": 1,
+      "before": {
+        "text": "Mark the willow crown's likely swing with Su Lan.",
+        "next": "ring_road_brace_angle",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Mark the willow crown's likely swing with Su Lan.",
+        "next": "ring_road_brace_angle"
+      },
+      "completion_path": "data/books/book_vii_road.json",
+      "completion_node": "ring_road_brace_angle",
+      "completion_text": "Lin Yue follows the crown's outline with her eyes while Su Lan holds the pole along its visible length. A forked branch could sweep uphill if the trunk rolls. They place two cords beyond its longest reach, making a second margin visible from the posts. Wei Jin finishes padding the anchors, then asks Su Lan to check his knots against her bell-rope practice. She does so without ceremony. Lin Yue studies the new boundary until she could find it through rain. Having drawn the danger on the ground, she feels less tempted to imagine herself faster than it.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "ring_road_brace_angle"
+      ],
+      "reason": "Selecting \"Mark the willow crown's likely swing with Su Lan.\" previously granted insight +1 before its displayed work. Credit now follows the completed passage ring_road_brace_angle and is saved once."
+    },
+    {
+      "id": "completion-20261005-088",
+      "category": "choice_causality",
+      "path": "data/books/book_vii_road.json",
+      "node_id": "ring_road_terms_choice",
+      "choice_index": 0,
+      "before": {
+        "text": "Ask the permission questions aloud.",
+        "next": "ring_road_terms_questions",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Ask the permission questions aloud.",
+        "next": "ring_road_terms_questions"
+      },
+      "completion_path": "data/books/book_vii_road.json",
+      "completion_node": "ring_road_terms_questions",
+      "completion_text": "Lin Yue asks what may be read now, what may be copied, and what he wants reserved for the common room. He answers one question at a time. The old permit may be examined; its alias, number, marks, and damage may be drawn. His offered repair recollection may be reported with its limits. The receipt cover's exterior may be copied once he presents it. Its contents wait. The echo waits. Lan repeats the list and he approves her repetition. Hearing the boundaries in another voice helps him find a missing detail: he wants the original objects returned after comparison.",
+      "earned": {
+        "trust": 1
+      },
+      "branch": [
+        "ring_road_terms_questions"
+      ],
+      "reason": "Selecting \"Ask the permission questions aloud.\" previously granted trust +1 before its displayed work. Credit now follows the completed passage ring_road_terms_questions and is saved once."
+    },
+    {
+      "id": "completion-20261005-089",
+      "category": "choice_causality",
+      "path": "data/books/book_vii_road.json",
+      "node_id": "ring_road_terms_choice",
+      "choice_index": 1,
+      "before": {
+        "text": "Mend your sleeve while Wei Jin writes his limits.",
+        "next": "ring_road_terms_silence",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Mend your sleeve while Wei Jin writes his limits.",
+        "next": "ring_road_terms_silence"
+      },
+      "completion_path": "data/books/book_vii_road.json",
+      "completion_node": "ring_road_terms_silence",
+      "completion_text": "Lin Yue threads a needle with her uninjured hand and closes the tear in her sleeve. Across the table, Wei Jin writes slowly on a clean strip of paper. Each time his fingers shake, he rests the brush instead of pressing harder. Su Lan reads the finished limits while he watches her face. The permit, wrapping, and exterior cover mark may be compared; the interior waits, and the echo stays sealed. He adds that the originals come home with him. Lin Yue copies the approved list after stowing her needle, grateful for the space silence left in his own sentences.",
+      "earned": {
+        "trust": 1
+      },
+      "branch": [
+        "ring_road_terms_silence"
+      ],
+      "reason": "Selecting \"Mend your sleeve while Wei Jin writes his limits.\" previously granted trust +1 before its displayed work. Credit now follows the completed passage ring_road_terms_silence and is saved once."
+    },
+    {
+      "id": "completion-20261005-090",
+      "category": "choice_causality",
+      "path": "data/books/book_viii_foundry.json",
+      "node_id": "foundry_work_choice",
+      "choice_index": 0,
+      "before": {
+        "text": "Take the modest cup-sorting shifts.",
+        "next": "foundry_wage_001",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Take the modest cup-sorting shifts.",
+        "next": "foundry_wage_001"
+      },
+      "completion_path": "data/books/book_viii_foundry.json",
+      "completion_node": "foundry_wage_005",
+      "completion_text": "The following morning she brought the wage entry and workload record to Su Yan. The examiner treated the extra labor as a condition to inspect, not a virtue that earned more qi. Yue's sleeping reserve stayed within its recent range. Her ordinary shoulder check stayed normal. The rota had bought supplies and practiced a useful judgment; it had not purchased the second pair.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "foundry_wage_001",
+        "foundry_wage_002",
+        "foundry_wage_003",
+        "foundry_wage_004",
+        "foundry_wage_005"
+      ],
+      "reason": "Selecting \"Take the modest cup-sorting shifts.\" previously granted insight +1 before its displayed work. Credit now follows the completed passage foundry_wage_005 and is saved once."
+    },
+    {
+      "id": "completion-20261005-091",
+      "category": "choice_causality",
+      "path": "data/books/book_viii_foundry.json",
+      "node_id": "foundry_work_choice",
+      "choice_index": 1,
+      "before": {
+        "text": "Compare the disputed batch's cooling history.",
+        "next": "foundry_records_001",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Compare the disputed batch's cooling history.",
+        "next": "foundry_records_001"
+      },
+      "completion_path": "data/books/book_viii_foundry.json",
+      "completion_node": "foundry_records_005",
+      "completion_text": "At the morning examination she laid the limited extract beside her sleep and workload record. Hours at the copying table had spared her shoulder but tired her eyes. Su Yan shortened the visual comparison and kept the ordinary sensation check. Better evidence about the batch did not make Yue's own body more rested. She had gained a sharper question, not an automatic stage.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "foundry_records_001",
+        "foundry_records_002",
+        "foundry_records_003",
+        "foundry_records_004",
+        "foundry_records_005"
+      ],
+      "reason": "Selecting \"Compare the disputed batch's cooling history.\" previously granted insight +1 before its displayed work. Credit now follows the completed passage foundry_records_005 and is saved once."
+    },
+    {
+      "id": "completion-20261005-092",
+      "category": "choice_causality",
+      "path": "data/books/book_viii_foundry.json",
+      "node_id": "foundry_work_choice",
+      "choice_index": 2,
+      "before": {
+        "text": "Keep the lighter rota and recovered shoulder practice.",
+        "next": "foundry_rest_001",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Keep the lighter rota and recovered shoulder practice.",
+        "next": "foundry_rest_001"
+      },
+      "completion_path": "data/books/book_viii_foundry.json",
+      "completion_node": "foundry_rest_005",
+      "completion_text": "Yue brought the lighter rota's record to the common review. She had neither earned the extra sorting copper nor personally traced the batch's copied cooling hold. She had a recovered shoulder pattern and clearer ordinary limits to offer. Su Yan kept those facts distinct. Yue was learning to bring useful work to a table without needing every other person's useful work to become part of her own history.",
+      "earned": {
+        "resolve": 1
+      },
+      "branch": [
+        "foundry_rest_001",
+        "foundry_rest_002",
+        "foundry_rest_003",
+        "foundry_rest_004",
+        "foundry_rest_005"
+      ],
+      "reason": "Selecting \"Keep the lighter rota and recovered shoulder practice.\" previously granted resolve +1 before its displayed work. Credit now follows the completed passage foundry_rest_005 and is saved once."
+    },
+    {
+      "id": "completion-20261005-093",
+      "category": "choice_causality",
+      "path": "data/books/book_viii_foundry.json",
+      "node_id": "foundry_creature_choice",
+      "choice_index": 0,
+      "before": {
+        "text": "Report the barrier's remaining fuel marks.",
+        "next": "foundry_gauge_001",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Report the barrier's remaining fuel marks.",
+        "next": "foundry_gauge_001"
+      },
+      "completion_path": "data/books/book_viii_foundry.json",
+      "completion_node": "foundry_gauge_004",
+      "completion_text": "By the stop signal, the quench was complete and the scrap source had cooled below its allowed attraction range. Yue left the gauge to her named replacement and stepped back. Her hands shook from ordinary fear. The report had helped the defense; the shaking was not proof that she had secretly strained a meridian. She kept both facts for the later check.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "foundry_gauge_001",
+        "foundry_gauge_002",
+        "foundry_gauge_003",
+        "foundry_gauge_004"
+      ],
+      "reason": "Selecting \"Report the barrier's remaining fuel marks.\" previously granted insight +1 before its displayed work. Credit now follows the completed passage foundry_gauge_004 and is saved once."
+    },
+    {
+      "id": "completion-20261005-094",
+      "category": "choice_causality",
+      "path": "data/books/book_viii_foundry.json",
+      "node_id": "foundry_creature_choice",
+      "choice_index": 1,
+      "before": {
+        "text": "Close the ordinary waste shutter from the dry winch.",
+        "next": "foundry_shutter_001",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Close the ordinary waste shutter from the dry winch.",
+        "next": "foundry_shutter_001"
+      },
+      "completion_path": "data/books/book_viii_foundry.json",
+      "completion_node": "foundry_shutter_004",
+      "completion_text": "At the stop signal, Yue released the winch to its lock and moved behind the upper rail. Her shoulder stayed ordinary; her forearms ached from the handle. She had completed one mechanical task inside a larger cultivation defense. Wanting it to have been a spectacular strike would have added nothing to the seated shutter.",
+      "earned": {
+        "resolve": 1
+      },
+      "branch": [
+        "foundry_shutter_001",
+        "foundry_shutter_002",
+        "foundry_shutter_003",
+        "foundry_shutter_004"
+      ],
+      "reason": "Selecting \"Close the ordinary waste shutter from the dry winch.\" previously granted resolve +1 before its displayed work. Credit now follows the completed passage foundry_shutter_004 and is saved once."
+    },
+    {
+      "id": "completion-20261005-095",
+      "category": "choice_causality",
+      "path": "data/books/book_viii_foundry.json",
+      "node_id": "foundry_creature_choice",
+      "choice_index": 2,
+      "before": {
+        "text": "Clear the upper access and account for departing workers.",
+        "next": "foundry_access_001",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Clear the upper access and account for departing workers.",
+        "next": "foundry_access_001"
+      },
+      "completion_path": "data/books/book_viii_foundry.json",
+      "completion_node": "foundry_access_004",
+      "completion_text": "The stop signal brought the lower operators up through the path Yue had cleared. She handed the tally to the foreman and accepted relief from a rested worker. Her fear had not disappeared. It had acquired a task that could end. The count left nobody needing to perform another hazardous trip simply to satisfy an uncertain memory.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "foundry_access_001",
+        "foundry_access_002",
+        "foundry_access_003",
+        "foundry_access_004"
+      ],
+      "reason": "Selecting \"Clear the upper access and account for departing workers.\" previously granted insight +1 before its displayed work. Credit now follows the completed passage foundry_access_004 and is saved once."
+    },
+    {
+      "id": "completion-20261005-096",
+      "category": "choice_causality",
+      "path": "data/books/book_ix_thunderfen.json",
+      "node_id": "ridge_investigation_choice",
+      "choice_index": 0,
+      "before": {
+        "text": "Control the isolated replica at your tested allowance.",
+        "next": "ridge_replica_001",
+        "effects": {
+          "qi": 1
+        }
+      },
+      "after": {
+        "text": "Control the isolated replica at your tested allowance.",
+        "next": "ridge_replica_001"
+      },
+      "completion_path": "data/books/book_ix_thunderfen.json",
+      "completion_node": "ridge_replica_008",
+      "completion_text": "Yue rested while Jiang checked the next-day sensation form. Her command dose, delivery loss and ordinary grip were recorded separately. She had controlled an earned route cleanly. The result counted as useful practice, not an independent fourth-stage examination or a step toward the fifth. The replica waited for another authorized operator to repeat it.",
+      "earned": {
+        "qi": 1
+      },
+      "branch": [
+        "ridge_replica_001",
+        "ridge_replica_002",
+        "ridge_replica_003",
+        "ridge_replica_004",
+        "ridge_replica_005",
+        "ridge_replica_006",
+        "ridge_replica_007",
+        "ridge_replica_008"
+      ],
+      "reason": "Selecting \"Control the isolated replica at your tested allowance.\" previously granted qi +1 before its displayed work. Credit now follows the completed passage ridge_replica_008 and is saved once."
+    },
+    {
+      "id": "completion-20261005-097",
+      "category": "choice_causality",
+      "path": "data/books/book_ix_thunderfen.json",
+      "node_id": "ridge_investigation_choice",
+      "choice_index": 1,
+      "before": {
+        "text": "Compare offered glaze fines against the clean control.",
+        "next": "ridge_material_001",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Compare offered glaze fines against the clean control.",
+        "next": "ridge_material_001"
+      },
+      "completion_path": "data/books/book_ix_thunderfen.json",
+      "completion_node": "ridge_material_008",
+      "completion_text": "The quarry worker asked whether the result would restore his withheld pay. Jiang said the overseer must review that allegation under its own terms; she would send the bounded finding without turning wages into a prize for laboratory success. Yue carried the approved summary to the common table. Her study had sharpened a question, not acquired a furnace inside her hands.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "ridge_material_001",
+        "ridge_material_002",
+        "ridge_material_003",
+        "ridge_material_004",
+        "ridge_material_005",
+        "ridge_material_006",
+        "ridge_material_007",
+        "ridge_material_008"
+      ],
+      "reason": "Selecting \"Compare offered glaze fines against the clean control.\" previously granted insight +1 before its displayed work. Credit now follows the completed passage ridge_material_008 and is saved once."
+    },
+    {
+      "id": "completion-20261005-098",
+      "category": "choice_causality",
+      "path": "data/books/book_ix_thunderfen.json",
+      "node_id": "ridge_investigation_choice",
+      "choice_index": 2,
+      "before": {
+        "text": "Map the foot and pool from the checked inner stones.",
+        "next": "ridge_ground_001",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Map the foot and pool from the checked inner stones.",
+        "next": "ridge_ground_001"
+      },
+      "completion_path": "data/books/book_ix_thunderfen.json",
+      "completion_node": "ridge_ground_008",
+      "completion_text": "The ground report returned with heights, closed margins and a request to recover the loose strip through qualified site work. It named no thief. The pool keeper's signals had changed where they stood, not revealed the earlier failure. Yue washed the ordinary measuring cord at the relocated inland washing station, catching the rinse in its basin instead of letting it run toward the pool. She took the dry map to the common comparison.",
+      "earned": {
+        "resolve": 1
+      },
+      "branch": [
+        "ridge_ground_001",
+        "ridge_ground_002",
+        "ridge_ground_003",
+        "ridge_ground_004",
+        "ridge_ground_005",
+        "ridge_ground_006",
+        "ridge_ground_007",
+        "ridge_ground_008"
+      ],
+      "reason": "Selecting \"Map the foot and pool from the checked inner stones.\" previously granted resolve +1 before its displayed work. Credit now follows the completed passage ridge_ground_008 and is saved once."
+    },
+    {
+      "id": "completion-20261005-099",
+      "category": "choice_causality",
+      "path": "data/books/book_x_storm_ledger.json",
+      "node_id": "storm_test_choice",
+      "choice_index": 0,
+      "before": {
+        "text": "Compare the isolated trigger with a blank socket.",
+        "next": "storm_relay_001",
+        "requires": {
+          "qi": 3
+        },
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Compare the isolated trigger with a blank socket.",
+        "next": "storm_relay_001",
+        "requires": {
+          "qi": 3
+        }
+      },
+      "completion_path": "data/books/book_x_storm_ledger.json",
+      "completion_node": "storm_relay_006",
+      "completion_text": "When the comparison ended, Jiang removed the practice stone and fitted the separately budgeted warning supply. The village keeper would own the charge checks. Yue gave him the blank result, the clipped-cycle example and the lever fallback. He asked whether the apprentice could remain nearby all season. She said the procedure had to work when she was home. The question sounded flattering until she recognized the old temptation to become a tool nobody could put down.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "storm_relay_001",
+        "storm_relay_002",
+        "storm_relay_003",
+        "storm_relay_004",
+        "storm_relay_005",
+        "storm_relay_006"
+      ],
+      "reason": "Selecting \"Compare the isolated trigger with a blank socket.\" previously granted insight +1 before its displayed work. Credit now follows the completed passage storm_relay_006 and is saved once."
+    },
+    {
+      "id": "completion-20261005-100",
+      "category": "choice_causality",
+      "path": "data/books/book_x_storm_ledger.json",
+      "node_id": "storm_test_choice",
+      "choice_index": 1,
+      "before": {
+        "text": "Rebuild and test the ordinary hand lever.",
+        "next": "storm_lever_001",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Rebuild and test the ordinary hand lever.",
+        "next": "storm_lever_001"
+      },
+      "completion_path": "data/books/book_x_storm_ledger.json",
+      "completion_node": "storm_lever_006",
+      "completion_text": "Jiang completed the separate powered-socket tests and showed Yue the flag that fell after an incomplete cycle. The ordinary lever could sound the same three strikes without any qi operator. The keeper tried it wearing thick rain gloves, then asked a second adult to repeat. Yue entered the repeated result in the maintenance book. Her fourth-stage cord hung beside the workbench, unnecessary to this task and still part of the worker who had done it.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "storm_lever_001",
+        "storm_lever_002",
+        "storm_lever_003",
+        "storm_lever_004",
+        "storm_lever_005",
+        "storm_lever_006"
+      ],
+      "reason": "Selecting \"Rebuild and test the ordinary hand lever.\" previously granted insight +1 before its displayed work. Credit now follows the completed passage storm_lever_006 and is saved once."
+    },
+    {
+      "id": "completion-20261005-101",
+      "category": "choice_causality",
+      "path": "data/books/book_x_storm_ledger.json",
+      "node_id": "storm_test_choice",
+      "choice_index": 2,
+      "before": {
+        "text": "Trace the warning through named receivers.",
+        "next": "storm_handover_001",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Trace the warning through named receivers.",
+        "next": "storm_handover_001"
+      },
+      "completion_path": "data/books/book_x_storm_ledger.json",
+      "completion_node": "storm_handover_006",
+      "completion_text": "When Jiang demonstrated the repaired frame, Yue watched the kitchen attendant instead of the bronze. She received the drill message, repeated its area and sent the runner. The lower watcher rang, then brought back a completed receipt strip. One household still misunderstood the grain instruction. They corrected the posted words and repeated the exercise. The system improved through another ordinary conversation, with the machine's successful tone supplying only one part of its success.",
+      "earned": {
+        "trust": 1
+      },
+      "branch": [
+        "storm_handover_001",
+        "storm_handover_002",
+        "storm_handover_003",
+        "storm_handover_004",
+        "storm_handover_005",
+        "storm_handover_006"
+      ],
+      "reason": "Selecting \"Trace the warning through named receivers.\" previously granted trust +1 before its displayed work. Credit now follows the completed passage storm_handover_006 and is saved once."
+    }
+  ],
+  "locations": [
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_start",
+      "before": "salt_desert_survey_camp",
+      "after": "bitter_wells_caravan_yard",
+      "reason": "The arrival and hiring courtyard displayed an expedition camp instead of the town yard."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_002",
+      "before": "salt_desert_survey_camp",
+      "after": "bitter_wells_caravan_yard",
+      "reason": "The arrival and hiring courtyard displayed an expedition camp instead of the town yard."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_003",
+      "before": "salt_desert_survey_camp",
+      "after": "bitter_wells_caravan_yard",
+      "reason": "The arrival and hiring courtyard displayed an expedition camp instead of the town yard."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_004",
+      "before": "salt_desert_survey_camp",
+      "after": "bitter_wells_caravan_yard",
+      "reason": "The arrival and hiring courtyard displayed an expedition camp instead of the town yard."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_005",
+      "before": "salt_desert_survey_camp",
+      "after": "bitter_wells_caravan_yard",
+      "reason": "The arrival and hiring courtyard displayed an expedition camp instead of the town yard."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_006",
+      "before": "salt_desert_survey_camp",
+      "after": "bitter_wells_caravan_yard",
+      "reason": "The arrival and hiring courtyard displayed an expedition camp instead of the town yard."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_007",
+      "before": "salt_desert_survey_camp",
+      "after": "bitter_wells_caravan_yard",
+      "reason": "The arrival and hiring courtyard displayed an expedition camp instead of the town yard."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_008",
+      "before": "salt_desert_survey_camp",
+      "after": "bitter_wells_caravan_yard",
+      "reason": "The arrival and hiring courtyard displayed an expedition camp instead of the town yard."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_009",
+      "before": "salt_desert_survey_camp",
+      "after": "bitter_wells_caravan_yard",
+      "reason": "The arrival and hiring courtyard displayed an expedition camp instead of the town yard."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_010",
+      "before": "salt_desert_survey_camp",
+      "after": "bitter_wells_caravan_yard",
+      "reason": "The arrival and hiring courtyard displayed an expedition camp instead of the town yard."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_011",
+      "before": "salt_desert_survey_camp",
+      "after": "bitter_wells_caravan_yard",
+      "reason": "The arrival and hiring courtyard displayed an expedition camp instead of the town yard."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_012",
+      "before": "salt_desert_survey_camp",
+      "after": "bitter_wells_caravan_yard",
+      "reason": "The arrival and hiring courtyard displayed an expedition camp instead of the town yard."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_013",
+      "before": "salt_desert_survey_camp",
+      "after": "bitter_wells_caravan_yard",
+      "reason": "The arrival and hiring courtyard displayed an expedition camp instead of the town yard."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_014",
+      "before": "salt_desert_survey_camp",
+      "after": "bitter_wells_caravan_yard",
+      "reason": "The arrival and hiring courtyard displayed an expedition camp instead of the town yard."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_015",
+      "before": "salt_desert_survey_camp",
+      "after": "bitter_wells_caravan_yard",
+      "reason": "The arrival and hiring courtyard displayed an expedition camp instead of the town yard."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_016",
+      "before": "salt_desert_survey_camp",
+      "after": "bitter_wells_caravan_yard",
+      "reason": "The arrival and hiring courtyard displayed an expedition camp instead of the town yard."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_017",
+      "before": "salt_desert_survey_camp",
+      "after": "bitter_wells_caravan_yard",
+      "reason": "The arrival and hiring courtyard displayed an expedition camp instead of the town yard."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_018",
+      "before": "salt_desert_survey_camp",
+      "after": "bitter_wells_caravan_yard",
+      "reason": "The arrival and hiring courtyard displayed an expedition camp instead of the town yard."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_019",
+      "before": "salt_desert_survey_camp",
+      "after": "bitter_wells_caravan_yard",
+      "reason": "The arrival and hiring courtyard displayed an expedition camp instead of the town yard."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_020",
+      "before": "salt_desert_survey_camp",
+      "after": "bitter_wells_caravan_yard",
+      "reason": "The arrival and hiring courtyard displayed an expedition camp instead of the town yard."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_021",
+      "before": "salt_desert_survey_camp",
+      "after": "bitter_wells_caravan_yard",
+      "reason": "The arrival and hiring courtyard displayed an expedition camp instead of the town yard."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_022",
+      "before": "salt_desert_survey_camp",
+      "after": "bitter_wells_caravan_yard",
+      "reason": "The arrival and hiring courtyard displayed an expedition camp instead of the town yard."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_023",
+      "before": "salt_desert_survey_camp",
+      "after": "bitter_wells_caravan_yard",
+      "reason": "The arrival and hiring courtyard displayed an expedition camp instead of the town yard."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_024",
+      "before": "salt_desert_survey_camp",
+      "after": "bitter_wells_caravan_yard",
+      "reason": "The arrival and hiring courtyard displayed an expedition camp instead of the town yard."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_025",
+      "before": "salt_desert_survey_camp",
+      "after": "bitter_wells_caravan_yard",
+      "reason": "The arrival and hiring courtyard displayed an expedition camp instead of the town yard."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_026",
+      "before": "salt_desert_survey_camp",
+      "after": "bitter_wells_caravan_yard",
+      "reason": "The arrival and hiring courtyard displayed an expedition camp instead of the town yard."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_027",
+      "before": "salt_desert_survey_camp",
+      "after": "bitter_wells_caravan_yard",
+      "reason": "The arrival and hiring courtyard displayed an expedition camp instead of the town yard."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_028",
+      "before": "salt_desert_survey_camp",
+      "after": "bitter_wells_caravan_yard",
+      "reason": "The arrival and hiring courtyard displayed an expedition camp instead of the town yard."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_029",
+      "before": "salt_desert_survey_camp",
+      "after": "bitter_wells_caravan_yard",
+      "reason": "The arrival and hiring courtyard displayed an expedition camp instead of the town yard."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_030",
+      "before": "salt_desert_survey_camp",
+      "after": "bitter_wells_caravan_yard",
+      "reason": "The arrival and hiring courtyard displayed an expedition camp instead of the town yard."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_031",
+      "before": "salt_desert_survey_camp",
+      "after": "bitter_wells_caravan_yard",
+      "reason": "The arrival and hiring courtyard displayed an expedition camp instead of the town yard."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_032",
+      "before": "salt_desert_survey_camp",
+      "after": "bitter_wells_caravan_yard",
+      "reason": "The arrival and hiring courtyard displayed an expedition camp instead of the town yard."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_033",
+      "before": "ash_bridge_foundry",
+      "after": "bitter_wells_caravan_workroom",
+      "reason": "A Bitter Wells scene displayed an explicitly named workshop or home from an earlier region."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_034",
+      "before": "ash_bridge_foundry",
+      "after": "bitter_wells_caravan_workroom",
+      "reason": "A Bitter Wells scene displayed an explicitly named workshop or home from an earlier region."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_035",
+      "before": "ash_bridge_foundry",
+      "after": "bitter_wells_caravan_workroom",
+      "reason": "A Bitter Wells scene displayed an explicitly named workshop or home from an earlier region."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_036",
+      "before": "ash_bridge_foundry",
+      "after": "bitter_wells_caravan_workroom",
+      "reason": "A Bitter Wells scene displayed an explicitly named workshop or home from an earlier region."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_037",
+      "before": "ash_bridge_foundry",
+      "after": "bitter_wells_caravan_workroom",
+      "reason": "A Bitter Wells scene displayed an explicitly named workshop or home from an earlier region."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_038",
+      "before": "ash_bridge_foundry",
+      "after": "bitter_wells_caravan_workroom",
+      "reason": "A Bitter Wells scene displayed an explicitly named workshop or home from an earlier region."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_039",
+      "before": "salt_desert_survey_camp",
+      "after": "bitter_wells_caravan_yard",
+      "reason": "The arrival and hiring courtyard displayed an expedition camp instead of the town yard."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_040",
+      "before": "salt_desert_survey_camp",
+      "after": "bitter_wells_caravan_yard",
+      "reason": "The arrival and hiring courtyard displayed an expedition camp instead of the town yard."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_041",
+      "before": "salt_desert_survey_camp",
+      "after": "bitter_wells_caravan_yard",
+      "reason": "The arrival and hiring courtyard displayed an expedition camp instead of the town yard."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_042",
+      "before": "salt_desert_survey_camp",
+      "after": "bitter_wells_caravan_yard",
+      "reason": "The arrival and hiring courtyard displayed an expedition camp instead of the town yard."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_043",
+      "before": "salt_desert_survey_camp",
+      "after": "bitter_wells_caravan_yard",
+      "reason": "The arrival and hiring courtyard displayed an expedition camp instead of the town yard."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_044",
+      "before": "salt_desert_survey_camp",
+      "after": "bitter_wells_caravan_yard",
+      "reason": "The arrival and hiring courtyard displayed an expedition camp instead of the town yard."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_045",
+      "before": "salt_desert_survey_camp",
+      "after": "bitter_wells_caravan_yard",
+      "reason": "The arrival and hiring courtyard displayed an expedition camp instead of the town yard."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_046",
+      "before": "salt_desert_survey_camp",
+      "after": "bitter_wells_caravan_yard",
+      "reason": "The arrival and hiring courtyard displayed an expedition camp instead of the town yard."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_047",
+      "before": "salt_desert_survey_camp",
+      "after": "bitter_wells_caravan_yard",
+      "reason": "The arrival and hiring courtyard displayed an expedition camp instead of the town yard."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_048",
+      "before": "salt_desert_survey_camp",
+      "after": "bitter_wells_caravan_yard",
+      "reason": "The arrival and hiring courtyard displayed an expedition camp instead of the town yard."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_049",
+      "before": "salt_desert_survey_camp",
+      "after": "bitter_wells_caravan_yard",
+      "reason": "The arrival and hiring courtyard displayed an expedition camp instead of the town yard."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_050",
+      "before": "salt_desert_survey_camp",
+      "after": "bitter_wells_caravan_yard",
+      "reason": "The arrival and hiring courtyard displayed an expedition camp instead of the town yard."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_051",
+      "before": "salt_desert_survey_camp",
+      "after": "bitter_wells_caravan_yard",
+      "reason": "The arrival and hiring courtyard displayed an expedition camp instead of the town yard."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_052",
+      "before": "salt_desert_survey_camp",
+      "after": "bitter_wells_caravan_yard",
+      "reason": "The arrival and hiring courtyard displayed an expedition camp instead of the town yard."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_053",
+      "before": "salt_desert_survey_camp",
+      "after": "bitter_wells_caravan_yard",
+      "reason": "The arrival and hiring courtyard displayed an expedition camp instead of the town yard."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_054",
+      "before": "salt_desert_survey_camp",
+      "after": "bitter_wells_caravan_yard",
+      "reason": "The arrival and hiring courtyard displayed an expedition camp instead of the town yard."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_055",
+      "before": "west_kiln_home",
+      "after": "bitter_wells_workers_lodging",
+      "reason": "A Bitter Wells scene displayed an explicitly named workshop or home from an earlier region."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_056",
+      "before": "west_kiln_home",
+      "after": "bitter_wells_workers_lodging",
+      "reason": "A Bitter Wells scene displayed an explicitly named workshop or home from an earlier region."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_057",
+      "before": "west_kiln_home",
+      "after": "bitter_wells_workers_lodging",
+      "reason": "A Bitter Wells scene displayed an explicitly named workshop or home from an earlier region."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_058",
+      "before": "west_kiln_home",
+      "after": "bitter_wells_workers_lodging",
+      "reason": "A Bitter Wells scene displayed an explicitly named workshop or home from an earlier region."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_059",
+      "before": "west_kiln_home",
+      "after": "bitter_wells_workers_lodging",
+      "reason": "A Bitter Wells scene displayed an explicitly named workshop or home from an earlier region."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_060",
+      "before": "west_kiln_home",
+      "after": "bitter_wells_workers_lodging",
+      "reason": "A Bitter Wells scene displayed an explicitly named workshop or home from an earlier region."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_061",
+      "before": "west_kiln_home",
+      "after": "bitter_wells_workers_lodging",
+      "reason": "A Bitter Wells scene displayed an explicitly named workshop or home from an earlier region."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_062",
+      "before": "west_kiln_home",
+      "after": "bitter_wells_workers_lodging",
+      "reason": "A Bitter Wells scene displayed an explicitly named workshop or home from an earlier region."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_063",
+      "before": "west_kiln_home",
+      "after": "bitter_wells_workers_lodging",
+      "reason": "A Bitter Wells scene displayed an explicitly named workshop or home from an earlier region."
+    },
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "node_id": "desert_p01_064",
+      "before": "west_kiln_home",
+      "after": "bitter_wells_workers_lodging",
+      "reason": "A Bitter Wells scene displayed an explicitly named workshop or home from an earlier region."
+    },
+    {
+      "path": "data/books/book_xvi_desert_02.json",
+      "node_id": "desert_p02_029",
+      "before": "ash_bridge_foundry",
+      "after": "bitter_wells_caravan_workroom",
+      "reason": "A Bitter Wells scene displayed an explicitly named workshop or home from an earlier region."
+    },
+    {
+      "path": "data/books/book_xvi_desert_02.json",
+      "node_id": "desert_p02_030",
+      "before": "ash_bridge_foundry",
+      "after": "bitter_wells_caravan_workroom",
+      "reason": "A Bitter Wells scene displayed an explicitly named workshop or home from an earlier region."
+    },
+    {
+      "path": "data/books/book_xvi_desert_02.json",
+      "node_id": "desert_p02_031",
+      "before": "ash_bridge_foundry",
+      "after": "bitter_wells_caravan_workroom",
+      "reason": "A Bitter Wells scene displayed an explicitly named workshop or home from an earlier region."
+    },
+    {
+      "path": "data/books/book_xvi_desert_02.json",
+      "node_id": "desert_p02_061",
+      "before": "west_kiln_home",
+      "after": "bitter_wells_workers_lodging",
+      "reason": "A Bitter Wells scene displayed an explicitly named workshop or home from an earlier region."
+    },
+    {
+      "path": "data/books/book_xvi_desert_02.json",
+      "node_id": "desert_p02_062",
+      "before": "west_kiln_home",
+      "after": "bitter_wells_workers_lodging",
+      "reason": "A Bitter Wells scene displayed an explicitly named workshop or home from an earlier region."
+    },
+    {
+      "path": "data/books/book_xvi_desert_02.json",
+      "node_id": "desert_p02_063",
+      "before": "west_kiln_home",
+      "after": "bitter_wells_workers_lodging",
+      "reason": "A Bitter Wells scene displayed an explicitly named workshop or home from an earlier region."
+    }
+  ],
+  "decisions": [
+    {
+      "path": "data/books/book_xvi_desert_01.json",
+      "anchor": "desert_p01_037",
+      "before_next": "desert_p01_038",
+      "decision_id": "desert_dilemma_origin",
+      "title": "A sum without an origin",
+      "branches": [
+        "desert_dilemma_origin_1",
+        "desert_dilemma_origin_2",
+        "desert_dilemma_origin_3"
+      ],
+      "rejoin": "desert_p01_038"
+    },
+    {
+      "path": "data/books/book_xvi_desert_03.json",
+      "anchor": "desert_p03_063",
+      "before_next": "desert_p03_064",
+      "decision_id": "desert_dilemma_causeway",
+      "title": "The price of waiting",
+      "branches": [
+        "desert_dilemma_causeway_1",
+        "desert_dilemma_causeway_2",
+        "desert_dilemma_causeway_3"
+      ],
+      "rejoin": "desert_p03_064"
+    },
+    {
+      "path": "data/books/book_xvi_desert_07.json",
+      "anchor": "desert_p07_073",
+      "before_next": "desert_p08_001",
+      "decision_id": "desert_dilemma_exchange",
+      "title": "Two drawings, one inspection",
+      "branches": [
+        "desert_dilemma_exchange_1",
+        "desert_dilemma_exchange_2",
+        "desert_dilemma_exchange_3"
+      ],
+      "rejoin": "desert_p08_001"
+    },
+    {
+      "path": "data/books/book_xvi_desert_08.json",
+      "anchor": "desert_p08_044",
+      "before_next": "desert_p08_045",
+      "decision_id": "desert_dilemma_grille",
+      "title": "The unreadable column",
+      "branches": [
+        "desert_dilemma_grille_1",
+        "desert_dilemma_grille_2",
+        "desert_dilemma_grille_3"
+      ],
+      "rejoin": "desert_p08_045"
+    },
+    {
+      "path": "data/books/book_xvi_desert_11.json",
+      "anchor": "desert_p11_052",
+      "before_next": "desert_p11_053",
+      "decision_id": "desert_dilemma_warning",
+      "title": "A warning that can travel wrongly",
+      "branches": [
+        "desert_dilemma_warning_1",
+        "desert_dilemma_warning_2",
+        "desert_dilemma_warning_3"
+      ],
+      "rejoin": "desert_p11_053"
+    },
+    {
+      "path": "data/books/book_xvi_desert_13.json",
+      "anchor": "desert_p13_009",
+      "before_next": "desert_p13_010",
+      "decision_id": "desert_dilemma_collateral",
+      "title": "A reserve that belongs to people",
+      "branches": [
+        "desert_dilemma_collateral_1",
+        "desert_dilemma_collateral_2",
+        "desert_dilemma_collateral_3"
+      ],
+      "rejoin": "desert_p13_010"
+    }
+  ]
+}

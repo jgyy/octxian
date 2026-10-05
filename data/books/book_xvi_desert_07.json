@@ -949,7 +949,75 @@
       "actor": "lin_yue",
       "text": "Bao packed the remaining screening sets and the clean collection vessels. Han asked the drivers to keep departure gear ready while the small inspection group worked. Tuo sat with her foot raised, supplying one last description of the northern outcrop. Yue took the light staff and the book. They walked toward the lower exchange in cool shadow, ready to look at what the earth had made easy to mistake for a road.",
       "background": "salt_desert_survey_camp",
+      "next": "desert_dilemma_exchange"
+    },
+    "desert_dilemma_exchange_1": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "salt_desert_survey_camp",
+      "effect": "none",
+      "text": "Yue read the formal station label beside Tuo's local name, then asked Du which roof his standard plan described. The plan concerned an earlier arrangement, not a witnessed doorway in today's wall. Matching the building names used the first quiet minutes and left their detailed overlay unfinished. Gao nevertheless knew which uncertainty belonged to age and which belonged to location. Bao kept her sets closed until the water task began. They had spent time identifying the object of the question before trying to answer it.",
       "next": "desert_p08_001"
+    },
+    "desert_dilemma_exchange_2": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "salt_desert_survey_camp",
+      "effect": "none",
+      "text": "Yue drew the visible wall joints against the older outline and marked every place where the overlay depended on an unseen corner. One attractive access line stopped at a later buttress. Another remained a possibility beyond the observed face. Du folded back the unsupported part of his sheet so nobody would mistake it for a surveyed route. The detailed comparison cost their first rest interval. Gao called the next halt sooner rather than pretending careful desk work had required no concentration.",
+      "next": "desert_p08_001"
+    },
+    "desert_dilemma_exchange_3": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "salt_desert_survey_camp",
+      "effect": "none",
+      "text": "Yue pointed to the plan's likely access and asked Gao to compare it from the permitted ledge. The visible later wall interrupted the proposed line. They withdrew the hypothesis before assigning anyone to follow it, then returned to the northern outcrop with less cool time available. Du wrote the rejected line onto the comparison copy rather than erasing it. A later visitor could see why the appealing route had failed. Bao's screening task still came next; their failed question had bought no extra water.",
+      "next": "desert_p08_001"
+    },
+    "desert_dilemma_exchange": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "salt_desert_survey_camp",
+      "effect": "none",
+      "text": "On the approach, Gao stopped them within sight of the northern outcrop. The standard plan assumed a service chamber; Yue's exterior sketch showed later walls that might hide its access. They had time for one first comparison before Bao needed the water observations. Yue could establish the building's identity, locate every visible difference, or nominate the plan's most plausible access as a hypothesis. None permitted entry. A wrong first question could consume the cool interval without improving the collection decision. Du waited with the old sheet open.",
+      "choices": [
+        {
+          "text": "Establish which building each source actually names.",
+          "next": "desert_dilemma_exchange_1"
+        },
+        {
+          "text": "Compare the visible changes before accepting the plan.",
+          "next": "desert_dilemma_exchange_2",
+          "requires": {
+            "insight": 10
+          }
+        },
+        {
+          "text": "Test the old access line as a provisional hypothesis.",
+          "next": "desert_dilemma_exchange_3"
+        }
+      ]
     }
   }
 }

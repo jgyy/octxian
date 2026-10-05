@@ -393,6 +393,12 @@ func _advance() -> void:
 		text_clock = dialogue.get_total_character_count()
 		choice_box.visible = choice_box.get_child_count() > 0
 		return
+	var credit_scene: String = state.current
+	var pending_credit: bool = state.node().has("earned") and not state.completed_practice.has(credit_scene)
+	var gains: PackedStringArray = []
+	if pending_credit:
+		var target: String = str(state.node().get("next", state.node().get("continuation", "")))
+		gains = state.choice_details({"next": target, "effects": state.node().earned}).effects
 	if state.node().has("ending"):
 		if state.node().has("continuation") and state.advance():
 			_scene()
@@ -401,6 +407,8 @@ func _advance() -> void:
 	elif state.advance():
 		audio.effect()
 		_scene()
+	if pending_credit and state.current != credit_scene and state.completed_practice.has(credit_scene) and not gains.is_empty():
+		_toast("Completed practice · " + " · ".join(gains))
 
 func _save() -> void:
 	_toast("Journey saved." if state.save_game() else "Could not write the save file.")
@@ -897,7 +905,7 @@ func _capture() -> void:
 		_set_outfit(character, Wardrobe.DEFAULT_OUTFIT)
 
 	atmosphere.enabled = not reduced_motion
-	for sample in [{"id":"forest_24_005","file":"forest_ensemble"}, {"id":"forest_24_close_1","file":"lanternwing_crane"}, {"id":"desert_p24_005","file":"desert_attributes"}, {"id":"archive_25_006","file":"archive_ensemble"}, {"id":"archive_25_rejoin","file":"archive_courtyard"}, {"id":"archive_25_lantern_keeper","file":"archive_lantern_keeper"}, {"id": "arrival", "file": "mortal_arrival"}, {"id": "han_mei_shift", "file": "mortal_han_mei"}, {"id": "mortal_mite_choice", "file": "mortal_mite"}, {"id": "tempering_after_013", "file": "first_trace"}, {"id": "sluice_005", "file": "sluice_examiner"}, {"id": "sluice_040", "file": "sluice_retention"}, {"id": "channels_044", "file": "paired_channel"}, {"id": "reed_step_011", "file": "brine_mantis"}, {"id": "lantern_hub", "file": "quest_hub"}, {"id": "reed_voice", "file": "spirit_encounter"}, {"id": "ferry_price", "file": "ferry_encounter"}, {"id": "archive_copies", "file": "archive_encounter"}, {"id": "river_xiu", "file": "river_pilot"}, {"id": "river_spirit", "file": "river_spirit"}, {"id": "harbor_answer", "file": "river_harbor"}, {"id": "orchard_arrival", "file": "orchard_healer"}, {"id": "orchard_hart_answer", "file": "orchard_spirit"}, {"id": "orchard_resolution_choice", "file": "orchard_choices"}, {"id": "city_arrival", "file": "city_market"}, {"id": "city_mask_studio", "file": "city_mask_maker"}, {"id": "city_registry_mei", "file": "city_archivist"}, {"id": "city_registry_tao", "file": "city_courier"}, {"id": "city_perfumer_workroom", "file": "city_perfumer"}, {"id": "city_courser_terms", "file": "city_courser"}, {"id": "city_perfumer_moth_terms", "file": "city_moth"}, {"id": "city_final_choice", "file": "city_choices"}, {"id": "court_upper_bench", "file": "court_upper_bench"}, {"id": "court_luo_shan", "file": "court_luo_shan"}, {"id": "court_bai_qun", "file": "court_bai_qun"}, {"id": "court_du_heng", "file": "court_du_heng"}, {"id": "court_rain_heron", "file": "court_rain_heron"}, {"id": "court_investigation_choice", "file": "court_investigation_choice"}, {"id": "court_final_choice", "file": "court_final_choice"}, {"id": "court_weather_setup", "file": "court_weather_setup"}, {"id":"foundry_arrival_003","file":"foundry_examiner"}, {"id":"foundry_arrival_014","file":"foundry_friend"}, {"id":"foundry_phase_001","file":"foundry_phase_room"}, {"id":"foundry_route_010","file":"foundry_material_fault"}, {"id":"foundry_creature_002","file":"foundry_creature"}, {"id":"foundry_earned_002","file":"second_pair"}, {"id":"foundry_final_choice","file":"foundry_choices"}, {"id":"foundry_home_004","file":"foundry_home"}, {"id":"foundry_assessment_018","file":"foundry_certificate"}, {"id":"ridge_departure_002","file":"ridge_surveyor"}, {"id":"ridge_pool_001","file":"ridge_tortoise"}, {"id":"ridge_weather_event","file":"ridge_weather"}, {"id":"ridge_incident_cloudhound_001","file":"ridge_cloudhound"}, {"id":"ridge_incident_surge_001","file":"ridge_discharge"}, {"id":"ridge_final_choice","file":"ridge_choices"}, {"id":"storm_warning_001","file":"storm_observatory"}, {"id":"storm_final_choice","file":"storm_choices"}, {"id":"salt_channels_001","file":"salt_watermill"}, {"id":"salt_findings_003","file":"salt_forewoman"}, {"id":"salt_recovery_005","file":"salt_salamander"}, {"id":"salt_final_choice","file":"salt_choices"}]:
+	for sample in [{"id":"expansion_xu_lin_common_001","file":"xu_lin"}, {"id":"expansion_tidemirror_otter_common_001","file":"tidemirror_otter"}, {"id":"expansion_cinderback_pangolin_common_001","file":"cinderback_pangolin"}, {"id":"expansion_chen_rui_common_001","file":"chen_rui"}, {"id":"expansion_wu_zheng_common_001","file":"wu_zheng"}, {"id":"expansion_song_mei_common_001","file":"song_mei"}, {"id":"expansion_xu_lin_choice","file":"expanded_canal_choice"}, {"id":"forest_24_005","file":"forest_ensemble"}, {"id":"forest_24_close_1","file":"lanternwing_crane"}, {"id":"desert_p24_005","file":"desert_attributes"}, {"id":"archive_25_006","file":"archive_ensemble"}, {"id":"archive_25_rejoin","file":"archive_courtyard"}, {"id":"archive_25_lantern_keeper","file":"archive_lantern_keeper"}, {"id": "arrival", "file": "mortal_arrival"}, {"id": "han_mei_shift", "file": "mortal_han_mei"}, {"id": "mortal_mite_choice", "file": "mortal_mite"}, {"id": "tempering_after_013", "file": "first_trace"}, {"id": "sluice_005", "file": "sluice_examiner"}, {"id": "sluice_040", "file": "sluice_retention"}, {"id": "channels_044", "file": "paired_channel"}, {"id": "reed_step_011", "file": "brine_mantis"}, {"id": "lantern_hub", "file": "quest_hub"}, {"id": "reed_voice", "file": "spirit_encounter"}, {"id": "ferry_price", "file": "ferry_encounter"}, {"id": "archive_copies", "file": "archive_encounter"}, {"id": "river_xiu", "file": "river_pilot"}, {"id": "river_spirit", "file": "river_spirit"}, {"id": "harbor_answer", "file": "river_harbor"}, {"id": "orchard_arrival", "file": "orchard_healer"}, {"id": "orchard_hart_answer", "file": "orchard_spirit"}, {"id": "orchard_resolution_choice", "file": "orchard_choices"}, {"id": "city_arrival", "file": "city_market"}, {"id": "city_mask_studio", "file": "city_mask_maker"}, {"id": "city_registry_mei", "file": "city_archivist"}, {"id": "city_registry_tao", "file": "city_courier"}, {"id": "city_perfumer_workroom", "file": "city_perfumer"}, {"id": "city_courser_terms", "file": "city_courser"}, {"id": "city_perfumer_moth_terms", "file": "city_moth"}, {"id": "city_final_choice", "file": "city_choices"}, {"id": "court_upper_bench", "file": "court_upper_bench"}, {"id": "court_luo_shan", "file": "court_luo_shan"}, {"id": "court_bai_qun", "file": "court_bai_qun"}, {"id": "court_du_heng", "file": "court_du_heng"}, {"id": "court_rain_heron", "file": "court_rain_heron"}, {"id": "court_investigation_choice", "file": "court_investigation_choice"}, {"id": "court_final_choice", "file": "court_final_choice"}, {"id": "court_weather_setup", "file": "court_weather_setup"}, {"id":"foundry_arrival_003","file":"foundry_examiner"}, {"id":"foundry_arrival_014","file":"foundry_friend"}, {"id":"foundry_phase_001","file":"foundry_phase_room"}, {"id":"foundry_route_010","file":"foundry_material_fault"}, {"id":"foundry_creature_002","file":"foundry_creature"}, {"id":"foundry_earned_002","file":"second_pair"}, {"id":"foundry_final_choice","file":"foundry_choices"}, {"id":"foundry_home_004","file":"foundry_home"}, {"id":"foundry_assessment_018","file":"foundry_certificate"}, {"id":"ridge_departure_002","file":"ridge_surveyor"}, {"id":"ridge_pool_001","file":"ridge_tortoise"}, {"id":"ridge_weather_event","file":"ridge_weather"}, {"id":"ridge_incident_cloudhound_001","file":"ridge_cloudhound"}, {"id":"ridge_incident_surge_001","file":"ridge_discharge"}, {"id":"ridge_final_choice","file":"ridge_choices"}, {"id":"storm_warning_001","file":"storm_observatory"}, {"id":"storm_final_choice","file":"storm_choices"}, {"id":"salt_channels_001","file":"salt_watermill"}, {"id":"salt_findings_003","file":"salt_forewoman"}, {"id":"salt_recovery_005","file":"salt_salamander"}, {"id":"salt_final_choice","file":"salt_choices"}]:
 		state.current = sample.id
 		_scene()
 		dialogue.visible_characters = -1
@@ -925,6 +933,17 @@ func _capture() -> void:
 		await RenderingServer.frame_post_draw
 		var object_id := str(world.items[index].id)
 		get_viewport().get_texture().get_image().save_png("res://build/screenshots/object_%s.png" % object_id)
+	_close_popup()
+	state.stats = {"qi": 0, "trust": 0, "insight": 0, "resolve": 0}
+	for sample in [{"id":"desert_p01_008","file":"bitter_wells_yard"}, {"id":"desert_p01_034","file":"bitter_wells_workroom"}, {"id":"desert_p01_058","file":"bitter_wells_lodging"}, {"id":"desert_dilemma_origin","file":"desert_dilemma"}, {"id":"court_rain_trace_reader","file":"completed_comparison"}]:
+		state.current = sample.id
+		_scene()
+		dialogue.visible_characters = -1
+		if state.node().has("choices"):
+			_advance()
+		await get_tree().create_timer(0.8).timeout
+		await RenderingServer.frame_post_draw
+		get_viewport().get_texture().get_image().save_png("res://build/screenshots/%s.png" % sample.file)
 	print("JADE_VOW_CAPTURE_OK")
 	_quit_game()
 
@@ -954,6 +973,10 @@ func _smoke_build() -> void:
 	valid = valid and _set_outfit("shen_qing", "festival")
 	valid = valid and actor.outfit == "festival" and actor.sprite.texture != null
 	_set_outfit("shen_qing", Wardrobe.DEFAULT_OUTFIT)
+	valid = valid and state.stats.trust == 0 and state.stats.qi == 0
+	dialogue.visible_characters = -1
+	_advance()
+	valid = valid and state.stats.trust == 2 and state.stats.qi == 1 and state.completed_practice.has("trust")
 	state.current = "river_xiu"
 	_scene()
 	await get_tree().create_timer(0.2).timeout
@@ -1040,6 +1063,14 @@ func _smoke_build() -> void:
 		if actor.sprite.texture != null:
 			valid = valid and actor.sprite.texture.get_size() == Vector2(1024, 1536)
 	valid = valid and background.texture != null and background.texture.get_size() == Vector2(1536, 1024)
+	# Every new original and its authored encounter must survive standalone export.
+	for encounter in [{"node":"expansion_xu_lin_common_001","actor":"xu_lin"},{"node":"expansion_tidemirror_otter_common_001","actor":"tidemirror_otter"},{"node":"expansion_cinderback_pangolin_common_001","actor":"cinderback_pangolin"},{"node":"expansion_chen_rui_common_001","actor":"chen_rui"},{"node":"expansion_wu_zheng_common_001","actor":"wu_zheng"},{"node":"expansion_song_mei_common_001","actor":"song_mei"}]:
+		state.current = str(encounter.node)
+		_scene()
+		valid = valid and actor.character == encounter.actor and actor.sprite.texture != null
+		valid = valid and actor.sprite.texture.get_size() == Vector2(1024, 1536)
+		valid = valid and audio.voice.stream is AudioStreamOggVorbis
+		valid = valid and background.texture != null
 	state.current = "archive_25_006"
 	_scene()
 	valid = valid and stage_companions[0].visible and stage_companions[1].visible
@@ -1080,7 +1111,16 @@ func _smoke_build() -> void:
 	_scene()
 	dialogue.visible_characters = -1
 	_choose(3)
-	valid = valid and state.current == "court_remand_proposal" and state.stats.trust == 2
+	valid = valid and state.current == "court_remand_proposal" and state.stats.trust == 0
+	var remand_steps := 0
+	while state.current != "court_remand_review" and remand_steps < 12:
+		dialogue.visible_characters = -1
+		_advance()
+		remand_steps += 1
+	valid = valid and state.current == "court_remand_review" and state.stats.trust == 0
+	dialogue.visible_characters = -1
+	_advance()
+	valid = valid and state.stats.trust == 2 and state.completed_practice.has("court_remand_review")
 	state.stats = retained_stats
 	_interiors()
 	_interior_selected(_interior_entries().size() - 1)

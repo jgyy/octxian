@@ -182,6 +182,29 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "insight": 1
+      },
+      "legacy_credit": {
+        "choice_node": "ring_investigation_choice",
+        "branch_nodes": [
+          "ring_archive_entry",
+          "ring_archive_door",
+          "ring_archive_return_work",
+          "ring_archive_city_visit",
+          "ring_archive_boundary",
+          "ring_archive_volunteered",
+          "ring_archive_private_copy",
+          "ring_archive_mortality",
+          "ring_archive_occupied",
+          "ring_archive_missing_line",
+          "ring_archive_correction",
+          "ring_archive_father",
+          "ring_archive_witness_limit",
+          "ring_archive_qi_window"
+        ],
+        "rules_before": 2
       }
     },
     "ring_archive_ask_help": {
@@ -194,17 +217,11 @@
       "choices": [
         {
           "text": "Ask An Ru to explain the public occupancy section.",
-          "next": "ring_archive_charter_lesson",
-          "effects": {
-            "insight": 1
-          }
+          "next": "ring_archive_charter_lesson"
         },
         {
           "text": "Ask Mei Dulan to explain the ferry permit comparison.",
-          "next": "ring_archive_permit_lesson",
-          "effects": {
-            "insight": 1
-          }
+          "next": "ring_archive_permit_lesson"
         }
       ],
       "cultivation": {
@@ -560,17 +577,11 @@
       "choices": [
         {
           "text": "Ask An Ru about her first copying work.",
-          "next": "ring_archive_apprentice_pause",
-          "effects": {
-            "insight": 1
-          }
+          "next": "ring_archive_apprentice_pause"
         },
         {
           "text": "Sit quietly with Shen Qing while he rests.",
-          "next": "ring_archive_quiet_pause",
-          "effects": {
-            "trust": 1
-          }
+          "next": "ring_archive_quiet_pause"
         }
       ],
       "cultivation": {
@@ -875,6 +886,15 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "insight": 1
+      },
+      "legacy_credit": {
+        "choice_node": "ring_archive_ask_help",
+        "branch_nodes": [
+          "ring_archive_charter_lesson"
+        ]
       }
     },
     "ring_archive_permit_lesson": {
@@ -888,6 +908,15 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "insight": 1
+      },
+      "legacy_credit": {
+        "choice_node": "ring_archive_ask_help",
+        "branch_nodes": [
+          "ring_archive_permit_lesson"
+        ]
       }
     },
     "ring_archive_apprentice_pause": {
@@ -901,6 +930,15 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "insight": 1
+      },
+      "legacy_credit": {
+        "choice_node": "ring_archive_quiet_choice",
+        "branch_nodes": [
+          "ring_archive_apprentice_pause"
+        ]
       }
     },
     "ring_archive_quiet_pause": {
@@ -914,6 +952,15 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "trust": 1
+      },
+      "legacy_credit": {
+        "choice_node": "ring_archive_quiet_choice",
+        "branch_nodes": [
+          "ring_archive_quiet_pause"
+        ]
       }
     }
   }

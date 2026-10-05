@@ -1,7 +1,7 @@
 name: Godot CI
 on:
   push:
-    branches: [main, feat/jade-vow-godot, feat/expanded-world-quests, codex/cultivation-rewrite-20261003, codex/million-word-continuity-20261003, codex/million-word-ensemble-20261004]
+    branches: [main, feat/jade-vow-godot, feat/expanded-world-quests, codex/cultivation-rewrite-20261003, codex/million-word-continuity-20261003, codex/million-word-ensemble-20261004, codex/narrative-difficulty-20261005]
   pull_request:
     types: [opened, synchronize, reopened, ready_for_review, converted_to_draft]
   workflow_dispatch:
@@ -44,6 +44,10 @@ jobs:
         run: |
           git fetch --depth=1 origin a90350672fb0468b72fc176b22f3e3876c95febc
           python -m tools.validate_million_continuation --verify-source
+          git fetch --depth=1 origin 13bae49f55c66c2cb16c956ca3be26491d10bbd6
+          python -m tools.validate_narrative_revision --verify-source
+          git fetch --depth=1 origin c2f148d5b7c0bc22a19f93439d45fdfa1df28b63
+          python -m tools.validate_additional_repairs --verify-source
           python -m unittest discover -s tests -p 'test_*.py'
           python tools/validate_continuation_audits.py --source-base 8dd58078b349f27b228be1107599572bf850efdc --source-node-index docs/CONTINUATION_SOURCE_INDEX_20261003.json
           python tools/validate_continuation_audits.py docs/CONTINUITY_REPAIRS_20261003_SECOND_RIVER.json docs/CONTINUITY_REPAIRS_20261003_SECOND_CITY.json docs/CONTINUITY_REPAIRS_20261003_SECOND_CULTIVATION.json docs/CONTINUITY_REPAIRS_20261003_SECOND_RING.json docs/CONTINUITY_REPAIRS_20261003_SECOND_FERRY.json docs/CONTINUITY_REPAIRS_20261003_SECOND_ORCHARD.json --source-base feb4ec7500a1df2bf95b16265544553372c657ce --source-node-index docs/CONTINUATION_SECOND_SOURCE_INDEX_20261003.json
@@ -80,6 +84,16 @@ jobs:
           timeout 90s .cache/godot/Godot_v4.7.2-stable_linux.x86_64 --headless --path . --script tests/continuation_test.gd 2>&1 | tee build/logs/continuation.log
           rg 'JADE_VOW_CONTINUATION_TESTS_OK' build/logs/continuation.log
           ! rg 'SCRIPT ERROR:|ERROR:' build/logs/continuation.log
+      - name: Test deferred growth, old checkpoints and desert dilemmas
+        run: |
+          timeout 90s .cache/godot/Godot_v4.7.2-stable_linux.x86_64 --headless --path . --script tests/narrative_revision_test.gd 2>&1 | tee build/logs/narrative-revision.log
+          rg 'JADE_VOW_NARRATIVE_REVISION_TESTS_OK' build/logs/narrative-revision.log
+          ! rg 'SCRIPT ERROR:|ERROR:' build/logs/narrative-revision.log
+      - name: Test both causality revisions and legacy credit thresholds
+        run: |
+          timeout 90s .cache/godot/Godot_v4.7.2-stable_linux.x86_64 --headless --path . --script tests/additional_repairs_test.gd 2>&1 | tee build/logs/additional-repairs.log
+          rg 'JADE_VOW_ADDITIONAL_REPAIRS_TESTS_OK' build/logs/additional-repairs.log
+          ! rg 'SCRIPT ERROR:|ERROR:' build/logs/additional-repairs.log
       - name: Capture actual rendered game screenshots
         env:
           LIBGL_ALWAYS_SOFTWARE: '1'
@@ -90,6 +104,9 @@ jobs:
           python tools/verify_screenshots.py
       - name: Restore completed narration checkpoints
         id: narration-cache
+        # A checkpoint cache must not overwrite the integrated, committed baseline.
+        # The generator independently validates every retained clip against the text.
+        if: hashFiles('assets/generated/voices/archive_25_001.ogg') == ''
         uses: actions/cache/restore@v4
         with:
           path: |
@@ -176,7 +193,7 @@ jobs:
           name: jade-vow-generated-assets
           path: assets/generated
   bundle:
-    if: github.event_name == 'push' && (github.ref == 'refs/heads/feat/jade-vow-godot' || github.ref == 'refs/heads/feat/expanded-world-quests' || github.ref == 'refs/heads/codex/cultivation-rewrite-20261003' || github.ref == 'refs/heads/codex/million-word-continuity-20261003' || github.ref == 'refs/heads/codex/million-word-ensemble-20261004')
+    if: github.event_name == 'push' && (github.ref == 'refs/heads/feat/jade-vow-godot' || github.ref == 'refs/heads/feat/expanded-world-quests' || github.ref == 'refs/heads/codex/cultivation-rewrite-20261003' || github.ref == 'refs/heads/codex/million-word-continuity-20261003' || github.ref == 'refs/heads/codex/million-word-ensemble-20261004' || github.ref == 'refs/heads/codex/narrative-difficulty-20261005')
     needs: game
     runs-on: ubuntu-latest
     permissions:
@@ -210,7 +227,7 @@ jobs:
             review_unchanged=true
           fi
           missing_capture=false
-          for capture in title dialogue cast wardrobe_training wardrobe_festival outfit_dialogue quest_hub spirit_encounter world_gallery ferry_encounter archive_encounter river_pilot river_spirit river_harbor object_bronze_clapper object_sealed_echo_case interior_gallery attributes attribute_choices orchard_healer orchard_spirit orchard_choices city_market city_mask_maker city_archivist city_courier city_perfumer city_courser city_moth city_choices court_upper_bench court_luo_shan court_bai_qun court_du_heng court_rain_heron court_investigation_choice court_final_choice court_weather_setup ridge_surveyor ridge_tortoise ridge_weather ridge_cloudhound ridge_discharge ridge_choices object_storm_compass storm_observatory storm_choices salt_watermill salt_forewoman salt_salamander salt_choices forest_ensemble lanternwing_crane desert_attributes archive_ensemble archive_courtyard archive_lantern_keeper; do
+          for capture in title dialogue cast wardrobe_training wardrobe_festival outfit_dialogue quest_hub spirit_encounter world_gallery ferry_encounter archive_encounter river_pilot river_spirit river_harbor object_bronze_clapper object_sealed_echo_case interior_gallery attributes attribute_choices orchard_healer orchard_spirit orchard_choices city_market city_mask_maker city_archivist city_courier city_perfumer city_courser city_moth city_choices court_upper_bench court_luo_shan court_bai_qun court_du_heng court_rain_heron court_investigation_choice court_final_choice court_weather_setup ridge_surveyor ridge_tortoise ridge_weather ridge_cloudhound ridge_discharge ridge_choices object_storm_compass storm_observatory storm_choices salt_watermill salt_forewoman salt_salamander salt_choices forest_ensemble lanternwing_crane desert_attributes archive_ensemble archive_courtyard archive_lantern_keeper bitter_wells_yard bitter_wells_workroom bitter_wells_lodging desert_dilemma completed_comparison; do
             if [ ! -s "docs/screenshots/$capture.jpg" ]; then
               missing_capture=true
             fi

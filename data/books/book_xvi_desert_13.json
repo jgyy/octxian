@@ -117,7 +117,7 @@
       "actor": "han_xun",
       "text": "I want the tank examined before somebody decides the driver is the cheapest explanation. He stopped the pair straight, held the brake and gave the farrier room. We have his account and the other driver's account. The bent collar is in the workshop now. If it shows an inspection failure, the inspection belongs in the record. If it shows impact damage without a defect we could have seen, that belongs there too. My crew do not become a reserve fund merely because the water reserve ran short. I have already paid them under the terms I hired them on.",
       "background": "salt_desert_survey_camp",
-      "next": "desert_p13_010"
+      "next": "desert_dilemma_collateral"
     },
     "desert_p13_010": {
       "chapter": "book_xvi_desert",
@@ -1171,6 +1171,74 @@
       "text": "Her own hands had healed enough to hold the brush comfortably, though she could still feel the cover's rough edge when she thought of the spill. The new road would not begin with that edge. It would begin with people asking whether the water moving north knew where it was going, and with a journey to see.",
       "background": "salt_desert_survey_camp",
       "next": "desert_p14_001"
+    },
+    "desert_dilemma_collateral_1": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "salt_desert_survey_camp",
+      "effect": "none",
+      "text": "Yue showed the completed wage entries and stopped before treating them as evidence about the collar. They established what the crew had received. They did not show how much Han could absorb if a later finding assigned him repair liability. The chair kept that question open and asked for the separate repair invoice. Han looked relieved at the limited proof, then uneasy at its limit. Yue resisted adding a reassuring total she could not yet defend. Protecting a payment already made had not solved the next bill.",
+      "next": "desert_p13_010"
+    },
+    "desert_dilemma_collateral_2": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "salt_desert_survey_camp",
+      "effect": "none",
+      "text": "Yue placed the repair invoice beside the extra carrying entry and marked the different receivers. The surcharge concerned moving the returned casks; it could not also pay the tank workshop. Han supplied the actual paid references while leaving the disputed repair balance visible. The chair's pencil paused over a figure that had looked sufficient only when read twice. Yue had made the account harder to accept and easier to examine. The evidence concerning the bent collar remained in the workshop, beyond this arithmetic.",
+      "next": "desert_p13_010"
+    },
+    "desert_dilemma_collateral_3": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "salt_desert_survey_camp",
+      "effect": "none",
+      "text": "Yue asked for the workshop's receiving reference rather than summing the bills from their cover lines. Retrieving it would use another clerk interval, so the chair left the repair allocation pending. Han accepted the slower answer without moving any cost onto the drivers. The carrying surcharge could still be considered against its own receipt. Yue wrote which question the additional source would settle and which it would leave untouched. A postponed account could protect people today while leaving an uncomfortable debt visible tomorrow.",
+      "next": "desert_p13_010"
+    },
+    "desert_dilemma_collateral": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "salt_desert_survey_camp",
+      "effect": "none",
+      "text": "The repair investigation remained open and the crew's agreed wages had been paid. The chair wanted to see which costs Han could actually carry while the tank collar was examined. Yue could present the narrow paid-wage record, separate the repair exposure from the carrying surcharge, or request a second invoice comparison before answering. None would establish who had damaged the collar. Han's firmness could survive scrutiny only if the same copper was not offered twice. The chair waited while Yue chose the account's first question.",
+      "choices": [
+        {
+          "text": "Present the paid wages first; leave repair liability open.",
+          "next": "desert_dilemma_collateral_1"
+        },
+        {
+          "text": "Separate the repair exposure from the carrying surcharge.",
+          "next": "desert_dilemma_collateral_2",
+          "requires": {
+            "insight": 10
+          }
+        },
+        {
+          "text": "Request the second invoice comparison before answering.",
+          "next": "desert_dilemma_collateral_3"
+        }
+      ]
     }
   }
 }

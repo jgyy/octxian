@@ -275,6 +275,40 @@
       "age": 48,
       "appearance": "Dark hair in a practical bun; indigo and ochre work robes, cloth shoes, cold bronze lantern and leather brush pouch.",
       "interest": "Steady maintenance, written checks and care for tools she owns."
+    },
+    "xu_lin": {
+      "name": "Xu Lin",
+      "title": "Deaf river mechanic who signs bounded repair comparisons and retains her own tools.",
+      "color": "#97b4a1",
+      "age": 38
+    },
+    "chen_rui": {
+      "name": "Chen Rui",
+      "title": "Fallible contracted advocate and former examination scholar with his own interests.",
+      "color": "#b59c89",
+      "age": 27
+    },
+    "song_mei": {
+      "name": "Song Mei",
+      "title": "Travelling performer and independent oral witness who chooses which memories to share.",
+      "color": "#b599ad",
+      "age": 52
+    },
+    "wu_zheng": {
+      "name": "Wu Zheng",
+      "title": "Retired loom master who walks with an ordinary crutch and retains ownership of his designs and tools.",
+      "color": "#9faebe",
+      "age": 64
+    },
+    "tidemirror_otter": {
+      "name": "Tidemirror Otter",
+      "title": "Independent river spirit with its own refuge needs; its behaviour establishes no human intention or prophecy.",
+      "color": "#9cbcb6"
+    },
+    "cinderback_pangolin": {
+      "name": "Cinderback Pangolin",
+      "title": "Independent quarry creature whose habitat can be observed without treating its movements as omens.",
+      "color": "#bd9f85"
     }
   },
   "nodes": {
@@ -330,25 +364,15 @@
       "choices": [
         {
           "text": "Test the jade in the grounded cradle.",
-          "next": "trust",
-          "effects": {
-            "trust": 2,
-            "qi": 1
-          }
+          "next": "trust"
         },
         {
           "text": "Read the gate's damaged pressure gauge.",
-          "next": "question",
-          "effects": {
-            "insight": 2
-          }
+          "next": "question"
         },
         {
           "text": "Keep the jade wrapped until its circuit is explained.",
-          "next": "guard",
-          "effects": {
-            "trust": 2
-          }
+          "next": "guard"
         }
       ],
       "chapter": "book_i",
@@ -371,6 +395,17 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "1: Trace"
+      },
+      "earned": {
+        "trust": 2,
+        "qi": 1
+      },
+      "legacy_credit": {
+        "choice_node": "first_choice",
+        "branch_nodes": [
+          "trust"
+        ],
+        "rules_before": 2
       }
     },
     "question": {
@@ -382,6 +417,16 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "1: Trace"
+      },
+      "earned": {
+        "insight": 2
+      },
+      "legacy_credit": {
+        "choice_node": "first_choice",
+        "branch_nodes": [
+          "question"
+        ],
+        "rules_before": 2
       }
     },
     "guard": {
@@ -393,6 +438,16 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "1: Trace"
+      },
+      "earned": {
+        "trust": 2
+      },
+      "legacy_credit": {
+        "choice_node": "first_choice",
+        "branch_nodes": [
+          "guard"
+        ],
+        "rules_before": 2
       }
     },
     "courtyard": {
@@ -447,24 +502,15 @@
       "choices": [
         {
           "text": "Calibrate the small relay at your safe load.",
-          "next": "breath",
-          "effects": {
-            "qi": 3
-          }
+          "next": "breath"
         },
         {
           "text": "Compare the release inscription with the old plan.",
-          "next": "inscription",
-          "effects": {
-            "insight": 3
-          }
+          "next": "inscription"
         },
         {
           "text": "Rehearse the marked evacuation path.",
-          "next": "sword",
-          "effects": {
-            "resolve": 3
-          }
+          "next": "sword"
         }
       ],
       "chapter": "book_i",
@@ -489,6 +535,16 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "1: Trace"
+      },
+      "earned": {
+        "qi": 3
+      },
+      "legacy_credit": {
+        "choice_node": "cultivation_choice",
+        "branch_nodes": [
+          "breath"
+        ],
+        "rules_before": 2
       }
     },
     "inscription": {
@@ -500,6 +556,16 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "1: Trace"
+      },
+      "earned": {
+        "insight": 3
+      },
+      "legacy_credit": {
+        "choice_node": "cultivation_choice",
+        "branch_nodes": [
+          "inscription"
+        ],
+        "rules_before": 2
       }
     },
     "sword": {
@@ -513,6 +579,16 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "1: Trace"
+      },
+      "earned": {
+        "resolve": 3
+      },
+      "legacy_credit": {
+        "choice_node": "cultivation_choice",
+        "branch_nodes": [
+          "sword"
+        ],
+        "rules_before": 2
       }
     },
     "exile": {
@@ -555,24 +631,15 @@
       "choices": [
         {
           "text": "Ask the exile what the star wants.",
-          "next": "star_wants",
-          "effects": {
-            "insight": 3
-          }
+          "next": "star_wants"
         },
         {
           "text": "Ask Shen Qing who he is protecting.",
-          "next": "protection",
-          "effects": {
-            "trust": 3
-          }
+          "next": "protection"
         },
         {
           "text": "Ask Elder Yun why she waited.",
-          "next": "waiting",
-          "effects": {
-            "trust": 3
-          }
+          "next": "waiting"
         }
       ],
       "chapter": "book_i",
@@ -590,6 +657,16 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "1: Trace"
+      },
+      "earned": {
+        "insight": 3
+      },
+      "legacy_credit": {
+        "choice_node": "listen_choice",
+        "branch_nodes": [
+          "star_wants"
+        ],
+        "rules_before": 2
       }
     },
     "protection": {
@@ -601,6 +678,16 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "1: Trace"
+      },
+      "earned": {
+        "trust": 3
+      },
+      "legacy_credit": {
+        "choice_node": "listen_choice",
+        "branch_nodes": [
+          "protection"
+        ],
+        "rules_before": 2
       }
     },
     "waiting": {
@@ -612,6 +699,16 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "1: Trace"
+      },
+      "earned": {
+        "trust": 3
+      },
+      "legacy_credit": {
+        "choice_node": "listen_choice",
+        "branch_nodes": [
+          "waiting"
+        ],
+        "rules_before": 2
       }
     },
     "descent": {
@@ -683,9 +780,6 @@
         {
           "text": "Coordinate support through rated willing relays.",
           "next": "shared",
-          "effects": {
-            "trust": 1
-          },
           "requires": {
             "qi": 3
           }
@@ -693,9 +787,6 @@
         {
           "text": "Help repair the covenant's missing release.",
           "next": "covenant",
-          "effects": {
-            "insight": 1
-          },
           "requires": {
             "insight": 3
           }
@@ -703,19 +794,13 @@
         {
           "text": "Signal the mountain's controlled landing.",
           "next": "release",
-          "effects": {
-            "trust": 1
-          },
           "requires": {
             "insight": 3
           }
         },
         {
           "text": "Call the trained emergency teams together.",
-          "next": "together",
-          "effects": {
-            "trust": 2
-          }
+          "next": "together"
         }
       ],
       "chapter": "book_i",
@@ -736,6 +821,16 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "1: Trace"
+      },
+      "earned": {
+        "trust": 1
+      },
+      "legacy_credit": {
+        "choice_node": "final_choice",
+        "branch_nodes": [
+          "shared"
+        ],
+        "rules_before": 2
       }
     },
     "covenant": {
@@ -750,6 +845,16 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "1: Trace"
+      },
+      "earned": {
+        "insight": 1
+      },
+      "legacy_credit": {
+        "choice_node": "final_choice",
+        "branch_nodes": [
+          "covenant"
+        ],
+        "rules_before": 2
       }
     },
     "release": {
@@ -763,6 +868,16 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "1: Trace"
+      },
+      "earned": {
+        "trust": 1
+      },
+      "legacy_credit": {
+        "choice_node": "final_choice",
+        "branch_nodes": [
+          "release"
+        ],
+        "rules_before": 2
       }
     },
     "together": {
@@ -774,6 +889,16 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "1: Trace"
+      },
+      "earned": {
+        "trust": 2
+      },
+      "legacy_credit": {
+        "choice_node": "final_choice",
+        "branch_nodes": [
+          "together"
+        ],
+        "rules_before": 2
       }
     },
     "ending_shared": {
@@ -917,24 +1042,15 @@
       "choices": [
         {
           "text": "Follow the ferry and find who moved the boundary.",
-          "next": "ferry_departure",
-          "effects": {
-            "insight": 1
-          }
+          "next": "ferry_departure"
         },
         {
           "text": "Enter the marsh and listen to the accused spirit.",
-          "next": "reed_approach",
-          "effects": {
-            "insight": 1
-          }
+          "next": "reed_approach"
         },
         {
           "text": "Visit the archive and trace the missing names.",
-          "next": "archive_door",
-          "effects": {
-            "insight": 1
-          }
+          "next": "archive_door"
         }
       ],
       "cultivation": {
@@ -1012,6 +1128,21 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "insight": 1
+      },
+      "legacy_credit": {
+        "choice_node": "lantern_hub",
+        "branch_nodes": [
+          "ferry_departure",
+          "ferry_price",
+          "ferry_mark",
+          "ferry_water",
+          "ferry_discovery",
+          "ferry_warning"
+        ],
+        "rules_before": 2
       }
     },
     "ferry_choice": {
@@ -1023,24 +1154,15 @@
       "choices": [
         {
           "text": "Raise the stone publicly, keeping its protective ward intact.",
-          "next": "ferry_raise",
-          "effects": {
-            "qi": 2
-          }
+          "next": "ferry_raise"
         },
         {
           "text": "Ask the boat crews to share the ward, one willing crew at a time.",
-          "next": "ferry_share",
-          "effects": {
-            "trust": 2
-          }
+          "next": "ferry_share"
         },
         {
           "text": "Mark the boundary and let the village vote after seeing it.",
-          "next": "ferry_wait",
-          "effects": {
-            "insight": 2
-          }
+          "next": "ferry_wait"
         }
       ],
       "cultivation": {
@@ -1074,7 +1196,18 @@
         "realm": "qi_gathering",
         "stage": "3: First pair"
       },
-      "effect": "paired_trace"
+      "effect": "paired_trace",
+      "earned": {
+        "qi": 2
+      },
+      "legacy_credit": {
+        "choice_node": "ferry_choice",
+        "branch_nodes": [
+          "ferry_raise",
+          "ferry_raise_cost"
+        ],
+        "rules_before": 2
+      }
     },
     "ferry_share": {
       "speaker": "wei_jin",
@@ -1098,6 +1231,17 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "trust": 2
+      },
+      "legacy_credit": {
+        "choice_node": "ferry_choice",
+        "branch_nodes": [
+          "ferry_share",
+          "ferry_share_cost"
+        ],
+        "rules_before": 2
       }
     },
     "ferry_wait": {
@@ -1122,6 +1266,17 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "insight": 2
+      },
+      "legacy_credit": {
+        "choice_node": "ferry_choice",
+        "branch_nodes": [
+          "ferry_wait",
+          "ferry_wait_cost"
+        ],
+        "rules_before": 2
       }
     },
     "ferry_evidence": {
@@ -1237,6 +1392,22 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "insight": 1
+      },
+      "legacy_credit": {
+        "choice_node": "lantern_hub",
+        "branch_nodes": [
+          "reed_approach",
+          "reed_old_wound",
+          "reed_nest",
+          "reed_voice",
+          "reed_question",
+          "reed_answer",
+          "reed_hunger"
+        ],
+        "rules_before": 2
       }
     },
     "reed_choice": {
@@ -1248,24 +1419,15 @@
       "choices": [
         {
           "text": "Escort the tablets under the Listener's protection.",
-          "next": "reed_escort",
-          "effects": {
-            "resolve": 2
-          }
+          "next": "reed_escort"
         },
         {
           "text": "Study the bell's command together and change its boundary.",
-          "next": "reed_rewrite",
-          "effects": {
-            "insight": 2
-          }
+          "next": "reed_rewrite"
         },
         {
           "text": "Bring the families here so each can reclaim their own name.",
-          "next": "reed_families",
-          "effects": {
-            "trust": 2
-          }
+          "next": "reed_families"
         }
       ],
       "effect": "reed_light",
@@ -1298,6 +1460,17 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "resolve": 2
+      },
+      "legacy_credit": {
+        "choice_node": "reed_choice",
+        "branch_nodes": [
+          "reed_escort",
+          "reed_escort_cost"
+        ],
+        "rules_before": 2
       }
     },
     "reed_rewrite": {
@@ -1325,6 +1498,17 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "insight": 2
+      },
+      "legacy_credit": {
+        "choice_node": "reed_choice",
+        "branch_nodes": [
+          "reed_rewrite",
+          "reed_rewrite_cost"
+        ],
+        "rules_before": 2
       }
     },
     "reed_families": {
@@ -1351,6 +1535,17 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "trust": 2
+      },
+      "legacy_credit": {
+        "choice_node": "reed_choice",
+        "branch_nodes": [
+          "reed_families",
+          "reed_families_cost"
+        ],
+        "rules_before": 2
       }
     },
     "reed_memory": {
@@ -1449,6 +1644,21 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "insight": 1
+      },
+      "legacy_credit": {
+        "choice_node": "lantern_hub",
+        "branch_nodes": [
+          "archive_door",
+          "archive_copies",
+          "archive_ancestry",
+          "archive_dilemma",
+          "archive_reading",
+          "archive_question"
+        ],
+        "rules_before": 2
       }
     },
     "archive_choice": {
@@ -1460,24 +1670,15 @@
       "choices": [
         {
           "text": "Publish the original land clauses and every condition, preserving private debts.",
-          "next": "archive_publish",
-          "effects": {
-            "trust": 2
-          }
+          "next": "archive_publish"
         },
         {
           "text": "Build a comparison showing exactly which exceptions were removed.",
-          "next": "archive_compare",
-          "effects": {
-            "insight": 2
-          }
+          "next": "archive_compare"
         },
         {
           "text": "Ask the households to choose what may be read in public.",
-          "next": "archive_consent",
-          "effects": {
-            "trust": 2
-          }
+          "next": "archive_consent"
         }
       ],
       "cultivation": {
@@ -1507,6 +1708,17 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "trust": 2
+      },
+      "legacy_credit": {
+        "choice_node": "archive_choice",
+        "branch_nodes": [
+          "archive_publish",
+          "archive_publish_cost"
+        ],
+        "rules_before": 2
       }
     },
     "archive_compare": {
@@ -1531,6 +1743,17 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "insight": 2
+      },
+      "legacy_credit": {
+        "choice_node": "archive_choice",
+        "branch_nodes": [
+          "archive_compare",
+          "archive_compare_cost"
+        ],
+        "rules_before": 2
       }
     },
     "archive_consent": {
@@ -1555,6 +1778,17 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "trust": 2
+      },
+      "legacy_credit": {
+        "choice_node": "archive_choice",
+        "branch_nodes": [
+          "archive_consent",
+          "archive_consent_cost"
+        ],
+        "rules_before": 2
       }
     },
     "archive_witness": {
@@ -2047,24 +2281,15 @@
       "choices": [
         {
           "text": "Let Mo Ran identify himself and offer his receipt.",
-          "next": "river_call",
-          "effects": {
-            "insight": 1
-          }
+          "next": "river_call"
         },
         {
           "text": "Survey the circuit with Wei Xiu before speaking.",
-          "next": "river_survey",
-          "effects": {
-            "insight": 1
-          }
+          "next": "river_survey"
         },
         {
           "text": "Listen at the boundary without crossing it.",
-          "next": "river_listen",
-          "effects": {
-            "insight": 1
-          }
+          "next": "river_listen"
         }
       ],
       "cultivation": {
@@ -2096,6 +2321,17 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "insight": 1
+      },
+      "legacy_credit": {
+        "choice_node": "river_approach_choice",
+        "branch_nodes": [
+          "river_call",
+          "river_call_answer"
+        ],
+        "rules_before": 2
       }
     },
     "river_survey": {
@@ -2122,6 +2358,17 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "insight": 1
+      },
+      "legacy_credit": {
+        "choice_node": "river_approach_choice",
+        "branch_nodes": [
+          "river_survey",
+          "river_survey_answer"
+        ],
+        "rules_before": 2
       }
     },
     "river_listen": {
@@ -2148,6 +2395,17 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "insight": 1
+      },
+      "legacy_credit": {
+        "choice_node": "river_approach_choice",
+        "branch_nodes": [
+          "river_listen",
+          "river_listen_answer"
+        ],
+        "rules_before": 2
       }
     },
     "river_spirit": {
@@ -2251,24 +2509,15 @@
       "choices": [
         {
           "text": "Negotiate a new return place with the owner and spirit.",
-          "next": "river_return_terms",
-          "effects": {
-            "insight": 1
-          }
+          "next": "river_return_terms"
         },
         {
           "text": "Survey a replacement stair with the pilot.",
-          "next": "river_stair_terms",
-          "effects": {
-            "insight": 1
-          }
+          "next": "river_stair_terms"
         },
         {
           "text": "Arrange a temporary harbor while every owner is contacted.",
-          "next": "river_harbor_terms",
-          "effects": {
-            "insight": 1
-          }
+          "next": "river_harbor_terms"
         }
       ],
       "cultivation": {
@@ -2420,6 +2669,21 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "insight": 1
+      },
+      "legacy_credit": {
+        "choice_node": "river_resolution_choice",
+        "branch_nodes": [
+          "river_return_terms",
+          "return_berth",
+          "return_cost",
+          "return_unknown",
+          "return_limit",
+          "return_custodian"
+        ],
+        "rules_before": 2
       }
     },
     "return_safety_choice": {
@@ -2432,17 +2696,11 @@
       "choices": [
         {
           "text": "Return the sealed case now; Mo Ran decides when to open it.",
-          "next": "return_now",
-          "effects": {
-            "trust": 1
-          }
+          "next": "return_now"
         },
         {
           "text": "Reserve a supported watch and a date to reconsider.",
-          "next": "return_later",
-          "effects": {
-            "trust": 1
-          }
+          "next": "return_later"
         }
       ],
       "cultivation": {
@@ -2474,6 +2732,17 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "trust": 1
+      },
+      "legacy_credit": {
+        "choice_node": "return_safety_choice",
+        "branch_nodes": [
+          "return_now",
+          "return_now_cost"
+        ],
+        "rules_before": 2
       }
     },
     "return_later": {
@@ -2500,6 +2769,17 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "trust": 1
+      },
+      "legacy_credit": {
+        "choice_node": "return_safety_choice",
+        "branch_nodes": [
+          "return_later",
+          "return_later_cost"
+        ],
+        "rules_before": 2
       }
     },
     "return_common": {
@@ -2643,6 +2923,22 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "insight": 1
+      },
+      "legacy_credit": {
+        "choice_node": "river_resolution_choice",
+        "branch_nodes": [
+          "river_stair_terms",
+          "stair_soundings",
+          "stair_luofen",
+          "stair_measure",
+          "stair_alternative",
+          "stair_tradeoff",
+          "stair_money"
+        ],
+        "rules_before": 2
       }
     },
     "stair_funding_choice": {
@@ -2655,17 +2951,11 @@
       "choices": [
         {
           "text": "Build in paid stages, keeping an interim berth open.",
-          "next": "stair_stages",
-          "effects": {
-            "trust": 1
-          }
+          "next": "stair_stages"
         },
         {
           "text": "Negotiate the advance with a fixed repayment ceiling.",
-          "next": "stair_advance",
-          "effects": {
-            "insight": 1
-          }
+          "next": "stair_advance"
         }
       ],
       "cultivation": {
@@ -2697,6 +2987,17 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "trust": 1
+      },
+      "legacy_credit": {
+        "choice_node": "stair_funding_choice",
+        "branch_nodes": [
+          "stair_stages",
+          "stair_stages_cost"
+        ],
+        "rules_before": 2
       }
     },
     "stair_advance": {
@@ -2723,6 +3024,17 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "insight": 1
+      },
+      "legacy_credit": {
+        "choice_node": "stair_funding_choice",
+        "branch_nodes": [
+          "stair_advance",
+          "stair_advance_cost"
+        ],
+        "rules_before": 2
       }
     },
     "stair_charter": {
@@ -2866,6 +3178,22 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "insight": 1
+      },
+      "legacy_credit": {
+        "choice_node": "river_resolution_choice",
+        "branch_nodes": [
+          "river_harbor_terms",
+          "harbor_site",
+          "harbor_rules",
+          "harbor_spirit",
+          "harbor_sulan",
+          "harbor_budget",
+          "harbor_shortage"
+        ],
+        "rules_before": 2
       }
     },
     "harbor_watch_choice": {
@@ -2878,17 +3206,11 @@
       "choices": [
         {
           "text": "Fund eight days, with a reserve for moving to safety.",
-          "next": "harbor_eight_days",
-          "effects": {
-            "trust": 1
-          }
+          "next": "harbor_eight_days"
         },
         {
           "text": "Offer a regular berth agreement the spirit may leave.",
-          "next": "harbor_association",
-          "effects": {
-            "trust": 1
-          }
+          "next": "harbor_association"
         }
       ],
       "cultivation": {
@@ -2920,6 +3242,17 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "trust": 1
+      },
+      "legacy_credit": {
+        "choice_node": "harbor_watch_choice",
+        "branch_nodes": [
+          "harbor_eight_days",
+          "harbor_eight_cost"
+        ],
+        "rules_before": 2
       }
     },
     "harbor_association": {
@@ -2946,6 +3279,17 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "trust": 1
+      },
+      "legacy_credit": {
+        "choice_node": "harbor_watch_choice",
+        "branch_nodes": [
+          "harbor_association",
+          "harbor_association_cost"
+        ],
+        "rules_before": 2
       }
     },
     "harbor_letters": {
@@ -3177,24 +3521,15 @@
       "choices": [
         {
           "text": "Trace the disconnected circuit with a measured breath.",
-          "next": "orchard_circuit",
-          "effects": {
-            "qi": 3
-          }
+          "next": "orchard_circuit"
         },
         {
           "text": "Share the patients' meal and hear what they need.",
-          "next": "orchard_meal",
-          "effects": {
-            "trust": 3
-          }
+          "next": "orchard_meal"
         },
         {
           "text": "Compare winter allocations with the original treatment terms.",
-          "next": "orchard_ledger",
-          "effects": {
-            "insight": 3
-          }
+          "next": "orchard_ledger"
         }
       ],
       "background": "orchard_apothecary",
@@ -3242,6 +3577,18 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "qi": 3
+      },
+      "legacy_credit": {
+        "choice_node": "orchard_investigation_choice",
+        "branch_nodes": [
+          "orchard_circuit",
+          "orchard_circuit_limit",
+          "orchard_circuit_find"
+        ],
+        "rules_before": 2
       }
     },
     "orchard_meal": {
@@ -3281,6 +3628,18 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "trust": 3
+      },
+      "legacy_credit": {
+        "choice_node": "orchard_investigation_choice",
+        "branch_nodes": [
+          "orchard_meal",
+          "orchard_meal_question",
+          "orchard_meal_find"
+        ],
+        "rules_before": 2
       }
     },
     "orchard_ledger": {
@@ -3320,6 +3679,18 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "insight": 3
+      },
+      "legacy_credit": {
+        "choice_node": "orchard_investigation_choice",
+        "branch_nodes": [
+          "orchard_ledger",
+          "orchard_ledger_question",
+          "orchard_ledger_find"
+        ],
+        "rules_before": 2
       }
     },
     "orchard_accounts": {
@@ -3370,37 +3741,24 @@
         {
           "text": "Trial a short breathing practice with the matron watching.",
           "next": "orchard_breath_trial",
-          "effects": {
-            "qi": 1,
-            "insight": 1
-          },
           "requires": {
             "qi": 4
           }
         },
         {
           "text": "Offer a paid rota that includes help beyond treatment.",
-          "next": "orchard_care_rota",
-          "effects": {
-            "trust": 2
-          }
+          "next": "orchard_care_rota"
         },
         {
           "text": "Separate relief funding and publish the new accounting.",
           "next": "orchard_fund_terms",
-          "effects": {
-            "insight": 2
-          },
           "requires": {
             "insight": 4
           }
         },
         {
           "text": "Pause exchanges for seven days and provide ordinary care.",
-          "next": "orchard_pause",
-          "effects": {
-            "trust": 2
-          }
+          "next": "orchard_pause"
         }
       ],
       "background": "orchard_healing_hall",
@@ -3435,6 +3793,18 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "qi": 1,
+        "insight": 1
+      },
+      "legacy_credit": {
+        "choice_node": "orchard_resolution_choice",
+        "branch_nodes": [
+          "orchard_breath_trial",
+          "orchard_breath_limits"
+        ],
+        "rules_before": 2
       }
     },
     "ending_orchard_breath": {
@@ -3475,6 +3845,17 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "trust": 2
+      },
+      "legacy_credit": {
+        "choice_node": "orchard_resolution_choice",
+        "branch_nodes": [
+          "orchard_care_rota",
+          "orchard_care_rest"
+        ],
+        "rules_before": 2
       }
     },
     "ending_orchard_care": {
@@ -3515,6 +3896,17 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "insight": 2
+      },
+      "legacy_credit": {
+        "choice_node": "orchard_resolution_choice",
+        "branch_nodes": [
+          "orchard_fund_terms",
+          "orchard_fund_reading"
+        ],
+        "rules_before": 2
       }
     },
     "ending_orchard_funds": {
@@ -3555,6 +3947,17 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "trust": 2
+      },
+      "legacy_credit": {
+        "choice_node": "orchard_resolution_choice",
+        "branch_nodes": [
+          "orchard_pause",
+          "orchard_pause_meals"
+        ],
+        "rules_before": 2
       }
     },
     "ending_orchard_pause": {
@@ -3919,24 +4322,15 @@
       "choices": [
         {
           "text": "Compare the masks, substituted collars, and return tokens.",
-          "next": "city_mask_entry",
-          "effects": {
-            "insight": 3
-          }
+          "next": "city_mask_entry"
         },
         {
           "text": "Trace the recognition batch through licenses and courier charges.",
-          "next": "city_registry_entry",
-          "effects": {
-            "insight": 3
-          }
+          "next": "city_registry_entry"
         },
         {
           "text": "Test the offered wax traces against dispatch controls.",
-          "next": "city_perfumer_entry",
-          "effects": {
-            "insight": 3
-          }
+          "next": "city_perfumer_entry"
         }
       ],
       "cultivation": {
@@ -4113,9 +4507,6 @@
           "next": "city_credit_bridge",
           "requires": {
             "insight": 3
-          },
-          "effects": {
-            "insight": 2
           }
         },
         {
@@ -4123,24 +4514,15 @@
           "next": "city_separate_ledgers",
           "requires": {
             "insight": 3
-          },
-          "effects": {
-            "insight": 2
           }
         },
         {
           "text": "Help workers form their own limited licensing cooperative.",
-          "next": "city_license_pool",
-          "effects": {
-            "trust": 2
-          }
+          "next": "city_license_pool"
         },
         {
           "text": "Pause the disputed batch for a dated individual audit.",
-          "next": "city_batch_audit",
-          "effects": {
-            "trust": 2
-          }
+          "next": "city_batch_audit"
         }
       ],
       "cultivation": {
@@ -4164,6 +4546,16 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "insight": 2
+      },
+      "legacy_credit": {
+        "choice_node": "city_final_choice",
+        "branch_nodes": [
+          "city_credit_bridge"
+        ],
+        "rules_before": 2
       }
     },
     "ending_city_credit": {
@@ -4191,6 +4583,16 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "insight": 2
+      },
+      "legacy_credit": {
+        "choice_node": "city_final_choice",
+        "branch_nodes": [
+          "city_separate_ledgers"
+        ],
+        "rules_before": 2
       }
     },
     "ending_city_ledgers": {
@@ -4218,6 +4620,16 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "trust": 2
+      },
+      "legacy_credit": {
+        "choice_node": "city_final_choice",
+        "branch_nodes": [
+          "city_license_pool"
+        ],
+        "rules_before": 2
       }
     },
     "ending_city_pool": {
@@ -4245,6 +4657,16 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "trust": 2
+      },
+      "legacy_credit": {
+        "choice_node": "city_final_choice",
+        "branch_nodes": [
+          "city_batch_audit"
+        ],
+        "rules_before": 2
       }
     },
     "ending_city_audit": {
@@ -4389,6 +4811,25 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "insight": 3
+      },
+      "legacy_credit": {
+        "choice_node": "city_investigation_choice",
+        "branch_nodes": [
+          "city_mask_entry",
+          "city_mask_studio",
+          "city_mask_grain",
+          "city_mask_layers",
+          "city_mask_voice",
+          "city_mask_fitting",
+          "city_mask_expression",
+          "city_mask_ledger",
+          "city_mask_samples",
+          "city_mask_stakes"
+        ],
+        "rules_before": 2
       }
     },
     "city_mask_method": {
@@ -4402,10 +4843,6 @@
         {
           "text": "Trace the collar's seams with measured qi.",
           "next": "city_mask_seam",
-          "effects": {
-            "qi": 2,
-            "insight": 1
-          },
           "requires": {
             "qi": 5
           }
@@ -4413,19 +4850,13 @@
         {
           "text": "Compare the job dates and drying board.",
           "next": "city_mask_dates",
-          "effects": {
-            "insight": 3
-          },
           "requires": {
             "insight": 5
           }
         },
         {
           "text": "Ask the workers to reconstruct their fittings.",
-          "next": "city_mask_workers",
-          "effects": {
-            "insight": 3
-          }
+          "next": "city_mask_workers"
         }
       ],
       "cultivation": {
@@ -4462,6 +4893,18 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "qi": 2,
+        "insight": 1
+      },
+      "legacy_credit": {
+        "choice_node": "city_mask_method",
+        "branch_nodes": [
+          "city_mask_seam",
+          "city_mask_seam_result"
+        ],
+        "rules_before": 2
       }
     },
     "city_mask_dates": {
@@ -4488,6 +4931,17 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "insight": 3
+      },
+      "legacy_credit": {
+        "choice_node": "city_mask_method",
+        "branch_nodes": [
+          "city_mask_dates",
+          "city_mask_dates_result"
+        ],
+        "rules_before": 2
       }
     },
     "city_mask_workers": {
@@ -4514,6 +4968,17 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "insight": 3
+      },
+      "legacy_credit": {
+        "choice_node": "city_mask_method",
+        "branch_nodes": [
+          "city_mask_workers",
+          "city_mask_workers_result"
+        ],
+        "rules_before": 2
       }
     },
     "city_mask_rejoin": {
@@ -4690,6 +5155,22 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "insight": 3
+      },
+      "legacy_credit": {
+        "choice_node": "city_investigation_choice",
+        "branch_nodes": [
+          "city_registry_entry",
+          "city_registry_mei",
+          "city_registry_tao",
+          "city_registry_permit",
+          "city_registry_hall",
+          "city_registry_fees",
+          "city_registry_rental"
+        ],
+        "rules_before": 2
       }
     },
     "city_registry_choice": {
@@ -4704,24 +5185,15 @@
           "next": "city_registry_dispatch_log",
           "requires": {
             "insight": 5
-          },
-          "effects": {
-            "insight": 3
           }
         },
         {
           "text": "Ask willing workers to confirm their receipts.",
-          "next": "city_registry_witness_door",
-          "effects": {
-            "insight": 3
-          }
+          "next": "city_registry_witness_door"
         },
         {
           "text": "Reconcile the payment slips Tao provides.",
-          "next": "city_registry_charges_table",
-          "effects": {
-            "insight": 3
-          }
+          "next": "city_registry_charges_table"
         }
       ],
       "animation": "resolve",
@@ -4764,6 +5236,18 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "insight": 3
+      },
+      "legacy_credit": {
+        "choice_node": "city_registry_choice",
+        "branch_nodes": [
+          "city_registry_dispatch_log",
+          "city_registry_dispatch_order",
+          "city_registry_dispatch_return"
+        ],
+        "rules_before": 2
       }
     },
     "city_registry_witness_door": {
@@ -4800,6 +5284,18 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "insight": 3
+      },
+      "legacy_credit": {
+        "choice_node": "city_registry_choice",
+        "branch_nodes": [
+          "city_registry_witness_door",
+          "city_registry_witness_receipt",
+          "city_registry_witness_limit"
+        ],
+        "rules_before": 2
       }
     },
     "city_registry_charges_table": {
@@ -4836,6 +5332,18 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "insight": 3
+      },
+      "legacy_credit": {
+        "choice_node": "city_registry_choice",
+        "branch_nodes": [
+          "city_registry_charges_table",
+          "city_registry_charges_need",
+          "city_registry_charges_total"
+        ],
+        "rules_before": 2
       }
     },
     "city_registry_compare": {
@@ -5050,6 +5558,25 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "insight": 3
+      },
+      "legacy_credit": {
+        "choice_node": "city_investigation_choice",
+        "branch_nodes": [
+          "city_perfumer_entry",
+          "city_perfumer_workroom",
+          "city_perfumer_complaints",
+          "city_perfumer_moth_arrival",
+          "city_perfumer_moth_terms",
+          "city_perfumer_materials",
+          "city_perfumer_controls",
+          "city_perfumer_steam",
+          "city_perfumer_separation",
+          "city_perfumer_deadline"
+        ],
+        "rules_before": 2
       }
     },
     "city_perfumer_choice": {
@@ -5063,27 +5590,17 @@
         {
           "text": "Warm paired samples with a measured qi pulse.",
           "next": "city_perfumer_qi_pulse",
-          "effects": {
-            "qi": 1,
-            "insight": 1
-          },
           "requires": {
             "qi": 4
           }
         },
         {
           "text": "Invite willing workshop tenants to compare the coded trays.",
-          "next": "city_perfumer_trust_compare",
-          "effects": {
-            "insight": 2
-          }
+          "next": "city_perfumer_trust_compare"
         },
         {
           "text": "Use the vacant loom bay for a slow strip comparison.",
-          "next": "city_perfumer_drying_bay",
-          "effects": {
-            "insight": 2
-          }
+          "next": "city_perfumer_drying_bay"
         }
       ],
       "cultivation": {
@@ -5129,6 +5646,19 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "qi": 1,
+        "insight": 1
+      },
+      "legacy_credit": {
+        "choice_node": "city_perfumer_choice",
+        "branch_nodes": [
+          "city_perfumer_qi_pulse",
+          "city_perfumer_qi_source",
+          "city_perfumer_qi_cost"
+        ],
+        "rules_before": 2
       }
     },
     "city_perfumer_trust_compare": {
@@ -5168,6 +5698,18 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "insight": 2
+      },
+      "legacy_credit": {
+        "choice_node": "city_perfumer_choice",
+        "branch_nodes": [
+          "city_perfumer_trust_compare",
+          "city_perfumer_trust_reading",
+          "city_perfumer_trust_cost"
+        ],
+        "rules_before": 2
       }
     },
     "city_perfumer_drying_bay": {
@@ -5207,6 +5749,18 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "insight": 2
+      },
+      "legacy_credit": {
+        "choice_node": "city_perfumer_choice",
+        "branch_nodes": [
+          "city_perfumer_drying_bay",
+          "city_perfumer_drying_observation",
+          "city_perfumer_drying_cost"
+        ],
+        "rules_before": 2
       }
     },
     "city_perfumer_return": {
@@ -5507,6 +6061,7 @@
     "data/books/book_xvii_archive_24.json",
     "data/books/book_xiii_forest_24.json",
     "data/books/book_xvi_desert_24.json",
-    "data/books/book_xvii_archive_25.json"
+    "data/books/book_xvii_archive_25.json",
+    "data/books/existing_expansion_20261005.json"
   ]
 }

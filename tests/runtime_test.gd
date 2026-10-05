@@ -204,7 +204,9 @@ func _run() -> void:
 	game.dialogue.visible_characters = -1
 	var heart_before: int = game.state.stats.trust
 	game._choose(3)
-	check(game.state.current == "orchard_pause" and game.state.stats.trust == heart_before + 2, "Book IV must retain an available settlement and apply its attribute effects")
+	check(game.state.current == "orchard_pause" and game.state.stats.trust == heart_before, "Book IV retains an available settlement without unperformed credit")
+	_finish_ui_branch(game, "orchard_pause_meals")
+	check(game.state.stats.trust == heart_before + 2, "Completed orchard support earns its declared credit")
 	game.state.history.append({"speaker": "narrator", "text": "[b]literal[/b]"})
 	game._journal()
 	var logs: Array[Node] = game.popup.find_children("*", "RichTextLabel", true, false)
@@ -256,7 +258,7 @@ func _test_attribute_ui(game) -> void:
 	var choice_details: Label = game.choice_box.find_child("ChoiceDetails_0", true, false)
 	check(game.choice_box.get_child_count() == 3 and game.choice_box.get_child(0) is VBoxContainer, "Each choice must have its own card")
 	check(choice_button != null and not choice_button.disabled, "Playable choices must remain enabled")
-	check(choice_details != null and choice_details.is_visible_in_tree() and choice_details.text.contains("Qi Control +1") and choice_details.text.contains("Dao Heart +2"), "Choice gains must be visible before selection")
+	check(choice_details == null, "An intention without immediate gains must not advertise selection credit")
 
 	game.dialogue.visible_characters = 1
 	game.text_clock = 1.0
@@ -283,7 +285,10 @@ func _test_attribute_ui(game) -> void:
 	game.fast_read = false
 	game._advance()
 	game._choose(0)
-	check(game.state.current == "trust" and game.state.stats.qi == 1 and game.state.stats.trust == 2, "Closing attributes must restore choice interaction")
+	check(game.state.current == "trust" and game.state.stats == before_stats, "Closing attributes restores interaction without unperformed credit")
+	game.dialogue.visible_characters = -1
+	game._advance()
+	check(game.state.stats.qi == 1 and game.state.stats.trust == 2, "Completed work credits the displayed attributes")
 	check(game.status_label.text.contains("Qi Control +1") and game.status_label.text.contains("Dao Heart +2"), "Choice gains must appear on the resulting scene")
 	var totals: Label = game.ui.find_child("AttributeTotals", true, false)
 	check(totals != null and totals.text.contains("CONTROL 01") and totals.text.contains("DAO HEART 02"), "Scene totals must refresh after gaining attributes")
@@ -297,7 +302,7 @@ func _test_attribute_ui(game) -> void:
 	choice_button = game.choice_box.find_child("Choice_0", true, false)
 	choice_details = game.choice_box.find_child("ChoiceDetails_0", true, false)
 	check(choice_button != null and choice_button.disabled and choice_button.tooltip_text.contains("Qi Control 1/3"), "Locked choices must be disabled and explain their gate")
-	check(choice_details != null and choice_details.is_visible_in_tree() and choice_details.text.contains("Locked") and choice_details.text.contains("Qi Control 1/3") and choice_details.text.contains("Dao Heart +1"), "Locked requirements and possible gains must remain visible")
+	check(choice_details != null and choice_details.is_visible_in_tree() and choice_details.text.contains("Locked") and choice_details.text.contains("Qi Control 1/3") and not choice_details.text.contains("Dao Heart +1"), "Locked requirements remain visible without advertising deferred credit")
 	game.state.stats.qi = 3
 	game._scene()
 	game._advance()
@@ -482,13 +487,27 @@ func _test_court_ui(game) -> void:
 	game._choose(0)
 	check(game.state.current == "court_final_choice" and game.state.stats == before_stats and game.state.history == before_history, "A locked court UI remedy must preserve the journey")
 	game._choose(1)
-	check(game.state.current == "court_local_proposal" and game.state.stats.insight == 2, "Offered testimony must advance and credit Comprehension")
+	check(game.state.current == "court_local_proposal" and game.state.stats == before_stats, "A testimony proposal advances without unperformed credit")
+	_finish_ui_branch(game, "court_local_record")
+	check(game.state.stats.insight == 2, "Completing the local remedy credits Comprehension")
 	game.state.current = "court_final_choice"
 	game.state.stats = before_stats.duplicate()
 	game._scene()
 	game.dialogue.visible_characters = -1
 	game._choose(3)
-	check(game.state.current == "court_remand_proposal" and game.state.stats.trust == 2, "The ungated court remedy must advance through the UI and apply Dao Heart")
+	check(game.state.current == "court_remand_proposal" and game.state.stats == before_stats, "The ungated court proposal advances without delivery credit")
+	_finish_ui_branch(game, "court_remand_review")
+	check(game.state.stats.trust == 2, "Completing the remand credits Dao Heart")
+
+func _finish_ui_branch(game, completion: String) -> void:
+	var steps := 0
+	while game.state.current != completion and steps < 50:
+		game.dialogue.visible_characters = -1
+		game._advance()
+		steps += 1
+	check(game.state.current == completion, "The performed UI branch reaches its credit scene")
+	game.dialogue.visible_characters = -1
+	game._advance()
 
 func _court_world_size(game, id: String) -> Vector2:
 	for group in ["backgrounds", "npcs", "monsters"]:

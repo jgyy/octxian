@@ -91,6 +91,22 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "insight": 1
+      },
+      "legacy_credit": {
+        "choice_node": "ring_investigation_choice",
+        "branch_nodes": [
+          "ring_marsh_entry",
+          "ring_marsh_remit",
+          "ring_marsh_xiu",
+          "ring_marsh_eel",
+          "ring_marsh_exterior_terms",
+          "ring_marsh_gear",
+          "ring_marsh_training"
+        ],
+        "rules_before": 2
       }
     },
     "ring_marsh_practice_choice": {

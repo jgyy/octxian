@@ -66,13 +66,19 @@ class ThunderfenContinuityTests(unittest.TestCase):
                 self.assertFalse(self.nodes[identifier]["choices"][index].get("requires"))
 
     def test_paperwork_and_funding_cannot_condition_tissue_or_supply_qi(self):
-        for identifier, index in (("court_investigation_choice", 1),
-                                  ("court_investigation_choice", 2),
-                                  ("court_cost_time_choice", 2),
-                                  ("court_docket_source_choice", 2),
-                                  ("city_final_choice", 0)):
-            effects = self.nodes[identifier]["choices"][index]["effects"]
+        cases = (("court_investigation_choice", 1, "court_rain_volume_mark"),
+                 ("court_investigation_choice", 2, "court_cost_clerk_resistance"),
+                 ("court_cost_time_choice", 2, "court_cost_time_interruption"),
+                 ("court_docket_source_choice", 2, "court_docket_index_path"),
+                 ("city_final_choice", 0, "city_credit_bridge"))
+        for identifier, index, completion in cases:
+            choice = self.nodes[identifier]["choices"][index]
             with self.subTest(scene=identifier):
+                if completion is None:
+                    effects = choice["effects"]
+                else:
+                    self.assertNotIn("effects", choice)
+                    effects = self.nodes[completion]["earned"]
                 self.assertEqual(effects.get("qi", 0), 0)
                 self.assertEqual(effects.get("resolve", 0), 0)
         self.assertIn("pole moved the reeds", self.nodes["ring_marsh_ache"]["text"])

@@ -676,7 +676,7 @@
       "actor": "lin_yue",
       "text": "A complicated chain of copying was emerging, with several offices using old information for new purposes. It would be easy to choose one map man as the whole chain's face. It would be inaccurate too. The clerk worried that distributing the new damp-seam observation might start another rumour about the quarry poisoning water. Bao stated the narrower evidence: the caravan had observed dampness, the isolated roof store's checked samples had passed their limited screens, and the diverted channel water had not been analysed by this crew. They had not found proof of poisoning.",
       "background": "salt_desert_survey_camp",
-      "next": "desert_p11_053"
+      "next": "desert_dilemma_warning"
     },
     "desert_p11_053": {
       "chapter": "book_xvi_desert",
@@ -976,6 +976,71 @@
       "text": "The cook's onion softened in the pot, giving the meal a smell Yue associated with rooms rather than open gravel. Tuo settled into her chair with the foot raised. Du placed the new source accounts beside the older tracings, a growing bundle that would take more than one comfortable sentence to explain in town. Gao watched the north sky, where cloud still held beyond the ridge without rain over camp. Yue put the reed ring beside the fish stone. Two people outside the dispatch ledger had changed the map more than another hour at the glass case would have done.",
       "background": "salt_desert_survey_camp",
       "next": "desert_p12_001"
+    },
+    "desert_dilemma_warning_1": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "salt_desert_survey_camp",
+      "effect": "none",
+      "text": "Yue separated the isolated roof store from the diverted channel on the first page. Drawing the two sites delayed copying, but the worker at the kitchen wall could point to the ground warning without assigning it to every source of water. Bao checked the caption before the clerk issued it. Yue left an empty reference beside the unanalyzed channel. The diagram clarified what they knew at the cost of a slower notice, and its clean lines still could not tell them what an absent test would find.",
+      "next": "desert_p11_053"
+    },
+    "desert_dilemma_warning_2": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "salt_desert_survey_camp",
+      "effect": "none",
+      "text": "Yue asked the clerk to repeat the warning to a worker who had not heard the discussion. The worker said the cistern was unsafe to drink. Bao stopped the relay and restated the ground-support observation, the limited screens, and the separate untested channel. A second repetition preserved those boundaries. The exercise interrupted the worker's break, which Han restored before departure. The better wording came from discovering a real misunderstanding, with an ordinary person paying time for that discovery.",
+      "next": "desert_p11_053"
+    },
+    "desert_dilemma_warning_3": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "salt_desert_survey_camp",
+      "effect": "none",
+      "text": "Yue put the ground warning first, then named the untested channel and the office receiving corrections. The clerk's first heading, Water danger, was broader than the evidence beneath it. Yue rejected that heading before the copy left the room and used Ground support warning instead. The bulletin remained provisional and would need another source if its water claims changed. Their quick route had nearly created the very rumour it feared. The correction travelled with the retained first wording, so speed would not erase what had gone wrong.",
+      "next": "desert_p11_053"
+    },
+    "desert_dilemma_warning": {
+      "chapter": "book_xvi_desert",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "salt_desert_survey_camp",
+      "effect": "none",
+      "text": "The damp seam needed a public ground warning. The crew had no analysis establishing that the diverted channel water was poisoned. An urgent notice might lose that distinction when repeated beyond this table. Yue could begin with a diagram of the observed support, a checked spoken relay, or a provisional bulletin with an explicit correction address. One would travel slowly, one depended on receivers, and one risked an ambiguous first reading. The clerk would retain the narrower source record in every case.",
+      "choices": [
+        {
+          "text": "Lead with the two-site diagram and observed ground limits.",
+          "next": "desert_dilemma_warning_1"
+        },
+        {
+          "text": "Test a spoken relay with a receiver before dispatch.",
+          "next": "desert_dilemma_warning_2"
+        },
+        {
+          "text": "Issue a bounded provisional bulletin and a correction route.",
+          "next": "desert_dilemma_warning_3"
+        }
+      ]
     }
   }
 }
