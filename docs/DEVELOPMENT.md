@@ -34,7 +34,7 @@ python tools/verify_screenshots.py
 godot --headless --path . --export-pack Linux build/jade-vow.pck
 ```
 
-Capture mode writes seventy-eight viewport screenshots to `build/screenshots` and sixteen timed viewport frames to `build/animations/rendered`. Screenshot verification creates compact JPEG previews, `rendered_game.webp`, and a sampled game-frame sheet. Timed capture fixes the character's initial frame and disables atmospheric background animation so that measured changes reflect the character.
+Capture mode writes eighty-three viewport screenshots to `build/screenshots` and sixteen timed viewport frames to `build/animations/rendered`. Screenshot verification creates compact JPEG previews, `rendered_game.webp`, and a sampled game-frame sheet. Timed capture fixes the character's initial frame and disables atmospheric background animation so that measured changes reflect the character.
 
 The packaged executable discovers `jade-vow.pck` beside it. CI uses Xvfb with dummy audio for desktop capture and standalone playback. It runs the exported package from a folder without the source checkout and checks logs for errors, missing resources, and clean shutdown.
 
@@ -74,7 +74,7 @@ Scene effects draw at the current control size. Panels pause their clock; reduce
 
 ## Scope
 
-This draft continues through Book XVII with 1,124,725 displayed prose words. The manuscript target is met; the independent artwork quotas remain incomplete. Narration uses one neural timbre with character pacing. Animation is a gentle whole-body bob of each intact portrait. Additional chapters, voices, and outfit portraits can extend the existing data and asset pipeline.
+This draft continues through Book XVII with 1,126,752 displayed prose words. The manuscript target is met; the independent artwork quotas remain incomplete. Narration uses one neural timbre with character pacing. Animation is a gentle whole-body bob of each intact portrait. Additional chapters, voices, and outfit portraits can extend the existing data and asset pipeline.
 
 ## Extra interior collection
 
@@ -113,3 +113,11 @@ Full CI sets `JADE_VOW_VOICE_WORKERS=4` for independent narration clips. Each in
 The bundle job dispatches CI for its committed media head in a separate concurrency group. It checks matching open PRs and enables strict production quotas when any is no longer draft. That verification run never creates another media commit.
 
 Before the expanded clips are bundled, CI can bootstrap narration from successful integration run [37182354432](https://github.com/jgyy/octxian/actions/runs/37182354432). This optional artifact restore runs only while the first archive closing clip is absent; expired artifacts fall back to generation. Every adopted clip still undergoes model, text, byte and decoded-audio checks. Required validation and package playback remain mandatory.
+
+## Deferred growth and desert dilemmas (2026-10-05)
+
+Run `python -m tools.validate_narrative_revision --verify-source` with fixed source 13bae49f55c66c2cb16c956ca3be26491d10bbd6 fetched locally. It authenticates 101 additional selection/completion repairs, 70 geographic staging corrections and six inserted dilemmas. The six decisions add eighteen distinct consequences while retaining the original next observations and at least two ungated routes each.
+
+Run `godot --headless --path . --script tests/narrative_revision_test.gd` to exercise every deferred branch, new and migrated checkpoints, duplicate-credit prevention and all dilemma outcomes. New version-1 saves use `practice_rules: 1`; earlier saves recognise already-paid growth from their journal and exclusive current branch without changing scores.
+
+Five real captures show the Bitter Wells yard, workroom, lodging, a harder dilemma and completed comparison credit. Native art and proof records are linked in [the narrative review](NARRATIVE_REVISION_20261005.md). The original-picture files remain their independently returned 1536×1024 PNG bytes.
