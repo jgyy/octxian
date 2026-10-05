@@ -380,24 +380,15 @@
       "choices": [
         {
           "text": "Complete the small release under Jiang's supervision.",
-          "next": "canal_p14_030",
-          "effects": {
-            "insight": 1
-          }
+          "next": "canal_p14_030"
         },
         {
           "text": "Follow the ground observers as they move higher.",
-          "next": "canal_p14_040",
-          "effects": {
-            "resolve": 1
-          }
+          "next": "canal_p14_040"
         },
         {
           "text": "Deliver the actual closure to shelter receivers.",
-          "next": "canal_p14_050",
-          "effects": {
-            "trust": 1
-          }
+          "next": "canal_p14_050"
         }
       ]
     },
@@ -529,7 +520,10 @@
         "stage": "4: Second pair"
       },
       "text": "At the emergency receiver's desk, Yue delivered her completed sequence and actual recovery status. Jiang's gauge held the precise supply remainder, with twenty additional units used in this response. The isolated little pocket and clear retreat had been observed separately from the rising outer hollow. The person rescue and Bao's wrist incident remained their own accounts. Yue put down the pen and went to the booked rest place without reopening the apparatus merely because the rain made sitting still feel morally difficult.",
-      "next": "canal_p14_060"
+      "next": "canal_p14_060",
+      "earned": {
+        "qi": 1
+      }
     },
     "canal_p14_040": {
       "chapter": "book_xii_canal",
@@ -659,7 +653,10 @@
         "stage": "4: Second pair"
       },
       "text": "Yue delivered the completed ground response and received Jiang's sixteen-unit supply record from the small isolated pocket. The precise actual remainder stayed in the gauge account. Her own route remained unused and recovered in this branch. She had worked through feet, voices and current marks while the qualified operator completed the mechanism. The rain continued outside the receiving shelter. Yue sat where the gardener could find her if he wanted the current view repeated, without pretending she could make that view kinder by describing it a second way.",
-      "next": "canal_p14_060"
+      "next": "canal_p14_060",
+      "earned": {
+        "resolve": 1
+      }
     },
     "canal_p14_050": {
       "chapter": "book_xii_canal",
@@ -789,7 +786,10 @@
         "stage": "4: Second pair"
       },
       "text": "At the shelter receiver's desk, Yue delivered the current closure, last property sightings and actual small-pocket report with eighteen additional supply units used. Her own arm route remained unused and recovered in this branch. The people waiting now had specific open questions and their next receiving times. She had carried bad news honestly enough that the room stayed uncomfortable. Outside, the storm made the roof louder than every voice. Yue helped pour ordinary tea and let the next actual observation interrupt supper when it came.",
-      "next": "canal_p14_060"
+      "next": "canal_p14_060",
+      "earned": {
+        "trust": 1
+      }
     },
     "canal_p14_060": {
       "chapter": "book_xii_canal",

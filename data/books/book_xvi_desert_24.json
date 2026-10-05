@@ -1,0 +1,321 @@
+{
+  "chapters": {},
+  "characters": {},
+  "nodes": {
+    "desert_p24_001": {
+      "chapter": "book_xvi_desert",
+      "speaker": "narrator",
+      "actor": "gao_ru",
+      "background": "salt_desert_survey_camp",
+      "effects": [
+        "dust",
+        "heat_haze"
+      ],
+      "cast": [
+        "gao_ru",
+        "lin_yue",
+        "tuo_yin"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The final yard check took place in daylight. Gao read the returned survey flags against their issue numbers while the factor counted the wraps and loaned components. Lin's own cup, practice leads and notebook lay outside the commission tray. A missing tie cord was found beneath the packing mat before anybody signed. The receiver corrected the count in front of them. Leaving a desert should not require pretending that every small object had followed the first list perfectly.",
+      "next": "desert_p24_002"
+    },
+    "desert_p24_002": {
+      "chapter": "book_xvi_desert",
+      "speaker": "narrator",
+      "actor": "gao_ru",
+      "background": "salt_desert_survey_camp",
+      "effects": [
+        "dust",
+        "heat_haze"
+      ],
+      "cast": [
+        "gao_ru",
+        "lin_yue",
+        "tuo_yin"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Tuo checked the accepted settlement receipt himself. Its paid amount and the question still open before the ordinary reviewer remained separate. Bao Sun's clinical instructions stayed with the person who needed them; Lin carried no private patient account north. She asked where a later reply could actually reach the guide. Tuo gave the staffed receiving address and its present collection interval. An address was more useful than a solemn promise to remember.",
+      "next": "desert_p24_003"
+    },
+    "desert_p24_003": {
+      "chapter": "book_xvi_desert",
+      "speaker": "narrator",
+      "actor": "gao_ru",
+      "background": "salt_desert_survey_camp",
+      "effects": [
+        "dust",
+        "heat_haze"
+      ],
+      "cast": [
+        "gao_ru",
+        "lin_yue",
+        "tuo_yin"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The water keeper compared the departure vessels with the confirmed ordinary road stages. No drinking clearance came from an attractive instrument reading alone. Gao retained the survey measurements, and the factor's receiver took the remaining stores under the current count. Lin paid for her own road supply after the clerk settled the accepted wages. She could take the application address from the public board without calling that notice an appointment.",
+      "next": "desert_p24_004"
+    },
+    "desert_p24_004": {
+      "chapter": "book_xvi_desert",
+      "speaker": "narrator",
+      "actor": "gao_ru",
+      "background": "salt_desert_survey_camp",
+      "effects": [
+        "dust",
+        "heat_haze"
+      ],
+      "cast": [
+        "gao_ru",
+        "lin_yue",
+        "tuo_yin"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Before departure, Gao offered one small teaching interval at the disconnected comparison bench. Its charged reference stone had been weighed and remained commission property. The ordinary carrying rig stood beside it, adjusted to Lin's recovered limit. The lesson could close a measured control pulse, examine the map's unsupported edge, or demonstrate safe balance on an unloaded cart. None would change the desert's water clearance or grant a sixth-stage record.",
+      "next": "desert_p24_005"
+    },
+    "desert_p24_005": {
+      "chapter": "book_xvi_desert",
+      "speaker": "narrator",
+      "actor": "gao_ru",
+      "background": "salt_desert_survey_camp",
+      "effects": [
+        "dust",
+        "heat_haze"
+      ],
+      "cast": [
+        "gao_ru",
+        "lin_yue",
+        "tuo_yin"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Lin could lead a control demonstration, explain the bounded map comparison, show the ordinary balance exercise, or ask Gao to lead while she recorded what she still needed to learn. The choice concerned her preparation. The guide's settlement, returned equipment and paid departure account already had their actual receivers.",
+      "choices": [
+        {
+          "text": "Close the measured reference pulse.",
+          "next": "desert_p24_role_qi",
+          "requires": {
+            "qi": 10
+          }
+        },
+        {
+          "text": "Explain the map's unsupported edge.",
+          "next": "desert_p24_role_insight",
+          "requires": {
+            "insight": 10
+          }
+        },
+        {
+          "text": "Demonstrate the recovered balance exercise.",
+          "next": "desert_p24_role_resolve",
+          "requires": {
+            "resolve": 10
+          }
+        },
+        {
+          "text": "Lead the handover with clear, finite commitments.",
+          "next": "desert_p24_role_trust",
+          "requires": {
+            "trust": 10
+          }
+        },
+        {
+          "text": "Ask Gao to lead and record the uncertainty.",
+          "next": "desert_p24_role_help"
+        }
+      ]
+    },
+    "desert_p24_role_qi": {
+      "chapter": "book_xvi_desert",
+      "speaker": "narrator",
+      "actor": "gao_ru",
+      "background": "salt_desert_survey_camp",
+      "effects": [
+        "dust",
+        "heat_haze"
+      ],
+      "cast": [
+        "gao_ru",
+        "lin_yue",
+        "tuo_yin"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Lin kept the admitted pulse within the marked practice load and watched each earned return separately. When the third contact flickered, she stopped instead of borrowing reserve from another circuit. Gao found an ordinary loose connector. Repair and a new disconnected check came before the repeated pulse. Accurate control had made the fault visible; it had not solved the fault by wanting more power. Her earned fifth-stage record remained unchanged.",
+      "next": "desert_p24_rejoin",
+      "earned": {
+        "qi": 2
+      }
+    },
+    "desert_p24_role_insight": {
+      "chapter": "book_xvi_desert",
+      "speaker": "narrator",
+      "actor": "gao_ru",
+      "background": "salt_desert_survey_camp",
+      "effects": [
+        "dust",
+        "heat_haze"
+      ],
+      "cast": [
+        "gao_ru",
+        "lin_yue",
+        "tuo_yin"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Lin compared the two ground observations and circled the place neither party had visited. Du She's map could retain its source description without becoming proof of every road beyond it. Gao asked how she would label a usable detour. Lin gave the measured entry, current limits and named receiving point. The factor accepted that description because another worker could check it, not because Lin sounded confident.",
+      "next": "desert_p24_rejoin",
+      "earned": {
+        "insight": 2
+      }
+    },
+    "desert_p24_role_resolve": {
+      "chapter": "book_xvi_desert",
+      "speaker": "narrator",
+      "actor": "gao_ru",
+      "background": "salt_desert_survey_camp",
+      "effects": [
+        "dust",
+        "heat_haze"
+      ],
+      "cast": [
+        "gao_ru",
+        "lin_yue",
+        "tuo_yin"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The cart was unloaded and chocked, with the ordinary safety rail fixed in place. Lin demonstrated the recovered foot placement Bao Sun had cleared, stopping before her injured palms began to sting. Tuo corrected the sling angle for the next worker. The exercise improved a practical instruction and used no qi-powered legs. When the chocks were removed, the driver resumed his own ordinary work.",
+      "next": "desert_p24_rejoin",
+      "earned": {
+        "resolve": 2
+      }
+    },
+    "desert_p24_role_trust": {
+      "chapter": "book_xvi_desert",
+      "speaker": "narrator",
+      "actor": "gao_ru",
+      "background": "salt_desert_survey_camp",
+      "effects": [
+        "dust",
+        "heat_haze"
+      ],
+      "cast": [
+        "gao_ru",
+        "lin_yue",
+        "tuo_yin"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The factor asked Lin to take one more unpriced message on the road. She pointed to the completed paid term and asked whose responsibility the message now served. He arranged his own funded carrier instead. Tuo laughed that she had finally learned to leave a town without collecting all its loose ends. Her steadiness preserved a practical boundary and left the message with someone who had accepted it.",
+      "next": "desert_p24_rejoin",
+      "earned": {
+        "trust": 2
+      }
+    },
+    "desert_p24_rejoin": {
+      "chapter": "book_xvi_desert",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "salt_desert_survey_camp",
+      "effects": [
+        "dust",
+        "heat_haze"
+      ],
+      "cast": [
+        "gao_ru",
+        "lin_yue",
+        "tuo_yin"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The next morning Lin took the priced northbound carriage after the receiver signed the last returned component. Gao stayed for the survey's current appointments. Tuo returned to his own household, and Bao Sun went to the clinic's waiting patients. They had not been assigned as Lin's escort. Her road food, fare and personal notebook belonged to her, while the commission instruments stayed in their signed custody.",
+      "next": "desert_p24_close_1"
+    },
+    "desert_p24_close_1": {
+      "chapter": "book_xvi_desert",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "salt_desert_survey_camp",
+      "effects": [
+        "dust",
+        "heat_haze"
+      ],
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At the staffed stop, the northbound notice proved to be an invitation to apply. Lin described her actual copying and carrying experience and asked for the task conditions before accepting anything. The clerk supplied the northern receiving-house address and the ordinary next route. There was no promised archive post in her pocket. Dust settled over the carriage straps while the driver counted the passengers.",
+      "next": "desert_p24_close_2"
+    },
+    "desert_p24_close_2": {
+      "chapter": "book_xvi_desert",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "salt_desert_survey_camp",
+      "effects": [
+        "dust",
+        "heat_haze"
+      ],
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The desert term closed with its equipment received, wages settled and particular unanswered matters left with named local reviewers. Lin travelled north at her earned fifth stage. Her own small account retained what she had seen and what other people had reported. The road could lead to a new application without rewriting the guide's settlement or making the desert a finished thing.",
+      "ending": "An Address Beyond the Dust",
+      "continuation": "archive_start"
+    },
+    "desert_p24_role_help": {
+      "chapter": "book_xvi_desert",
+      "speaker": "narrator",
+      "actor": "gao_ru",
+      "background": "salt_desert_survey_camp",
+      "effects": [
+        "dust",
+        "heat_haze"
+      ],
+      "cast": [
+        "gao_ru",
+        "lin_yue",
+        "tuo_yin"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Lin named the part of the comparison she could not yet teach. Gao took that demonstration while she recorded its stopping condition and the loose connector's actual correction. Tuo said a traveller who could admit a blank space might finally make a useful map. Lin let the joke stand. She had made no new promise to know the whole desert before taking an ordinary road out of it.",
+      "next": "desert_p24_rejoin"
+    }
+  }
+}

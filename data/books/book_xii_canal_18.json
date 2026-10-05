@@ -380,24 +380,15 @@
       "choices": [
         {
           "text": "Walk the warning receivers with Luo Zhen.",
-          "next": "canal_p18_030",
-          "effects": {
-            "resolve": 1
-          }
+          "next": "canal_p18_030"
         },
         {
           "text": "Witness Pei Fen's reserve examination.",
-          "next": "canal_p18_040",
-          "effects": {
-            "insight": 1
-          }
+          "next": "canal_p18_040"
         },
         {
           "text": "Help Tian Min prepare the sail sample.",
-          "next": "canal_p18_050",
-          "effects": {
-            "trust": 1
-          }
+          "next": "canal_p18_050"
         }
       ]
     },
@@ -529,7 +520,10 @@
         "stage": "4: Second pair"
       },
       "text": "The morning report contained the failed corner call and the changed doorway, rather than a statement that every household was covered. The repair clerk priced marking the loose edge within the remaining path task. Luo took the receiver corrections to the young keeper herself. Their conversation happened behind the gate shed; Yue heard one sharp reply, a pause, and then laughter at a remark she could not make out. When Luo emerged, she gave Yue the clean copy. There were still gaps in winter service, but one difficult conversation had actually occurred.",
-      "next": "canal_p18_060"
+      "next": "canal_p18_060",
+      "earned": {
+        "resolve": 1
+      }
     },
     "canal_p18_040": {
       "chapter": "book_xii_canal",
@@ -659,7 +653,10 @@
         "stage": "4: Second pair"
       },
       "text": "The examination report preserved the wrong first entry, the corrected answer, and the interrupted exercise. Bao's contribution was a short statement about his private plane, paid only within the light observation interval already approved for him. He left before stiffness made the clinic's warning necessary again. Pei watched him go and put a broad mark beside the accepted record tasks. \"A person can be useful before becoming useful at everything,\" she said. Yue recognized the remark as partly meant for her. This time she allowed it to pass without an argument.",
-      "next": "canal_p18_060"
+      "next": "canal_p18_060",
+      "earned": {
+        "insight": 1
+      }
     },
     "canal_p18_050": {
       "chapter": "book_xii_canal",
@@ -789,7 +786,10 @@
         "stage": "4: Second pair"
       },
       "text": "When they brought the report to Pei, Tian read the exact result aloud herself. The clerk asked about the proposed Day Fifty-Five fitting and noted that the customer and loft still had to confirm it. Tian no longer treated that unanswered request as a verdict. She took a copy home to discuss the practical travel terms with her mother. Yue watched her cross the landing with the tube tucked inside her coat. The town had offered Tian a thousand ways to be needed. For the first time she carried an equally concrete possibility of going elsewhere.",
-      "next": "canal_p18_060"
+      "next": "canal_p18_060",
+      "earned": {
+        "trust": 1
+      }
     },
     "canal_p18_060": {
       "chapter": "book_xii_canal",

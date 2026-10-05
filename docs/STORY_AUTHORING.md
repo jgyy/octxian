@@ -29,3 +29,11 @@ The compressed format keeps each new batch practical without silently omitting n
 The export preset includes book JSON explicitly. Packaged-game validation loads the complete campaign manifest from the exported game, so missing book files fail the build even when the title screen still starts at arrival.
 
 Run the existing Python tests and world validator after an editorial batch. Full CI also generates and validates every clip, traverses all gated routes, tests saves and the UI, and checks the standalone package. Draft validation reports honest remaining quotas. The strict production check continues to require every requested word and artwork quota before the PR is complete.
+
+## Ensemble and completion fields
+
+Optional `cast` lists one to three unique registered portrait IDs, including the node's `actor`. Stage only people or creatures physically present in that scene; naming someone in a report does not put them in the room. Each portrait retains its native texture and its own wardrobe and motion setting.
+
+Optional `effects` lists up to three unique atmosphere names. It replaces the single `effect` for that scene while preserving old content. Snow, mist, dust, heat_haze, embers, petals and sea_spray join the existing effect names. Every layer shares the paused clock and reduced-motion suppression.
+
+Optional `earned` maps stat keys to positive integer gains after a completed task. Put it on the task's final existing passage with `next` or a continued ending, never on a choice node. `StoryState.go` validates destination and reward before mutation, grants it once and records the scene ID in saved `completed_practice`. A task selection must not award the same points in `effects`. When editing a completion passage, preserve its scene ID so a revisit cannot repeat credit.

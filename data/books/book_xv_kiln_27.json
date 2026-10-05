@@ -406,25 +406,20 @@
       "choices": [
         {
           "text": "Seek further qualified instruction when the next town offers a real opportunity.",
-          "next": "kiln_apprentice_001",
-          "effects": {
-            "insight": 1
-          }
+          "next": "kiln_apprentice_001"
         },
         {
           "text": "Begin with the permitted shared craft account and an actual reader.",
-          "next": "kiln_community_001",
-          "effects": {
-            "trust": 1
-          }
+          "next": "kiln_community_001"
         },
         {
           "text": "Begin with the road's water, work and map questions.",
-          "next": "kiln_road_001",
-          "effects": {
-            "insight": 1
-          }
+          "next": "kiln_road_001"
         }
+      ],
+      "cast": [
+        "lin_yue",
+        "peng_ai"
       ]
     },
     "kiln_apprentice_001": {

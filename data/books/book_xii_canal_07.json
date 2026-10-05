@@ -380,24 +380,15 @@
       "choices": [
         {
           "text": "Match actual toll entries with Luo.",
-          "next": "canal_p07_030",
-          "effects": {
-            "insight": 1
-          }
+          "next": "canal_p07_030"
         },
         {
           "text": "Compare upkeep costs and changed jobs with Bao.",
-          "next": "canal_p07_040",
-          "effects": {
-            "trust": 1
-          }
+          "next": "canal_p07_040"
         },
         {
           "text": "Read Han's proposed private broker terms.",
-          "next": "canal_p07_050",
-          "effects": {
-            "resolve": 1
-          }
+          "next": "canal_p07_050"
         }
       ]
     },
@@ -529,7 +520,10 @@
         "stage": "4: Second pair"
       },
       "text": "At dusk, Yue watched the final market boat leave with its owner standing beside the line. The day's corrected receipts went into the actual operating account. The conservative future toll schedule stayed a proposal, awaiting tomorrow's further comparisons and the sixteenth-day hearing. Luo thanked her for catching the canceled-payment error before the forecast grew around it. Yue said the porter had brought the missing connection. She wanted him named in the report, because the useful question had come from somebody remembering an earlier mistake.",
-      "next": "canal_p07_060"
+      "next": "canal_p07_060",
+      "earned": {
+        "insight": 1
+      }
     },
     "canal_p07_040": {
       "chapter": "book_xii_canal",
@@ -659,7 +653,10 @@
         "stage": "4: Second pair"
       },
       "text": "At the counter, Bao gave Pei the old paid-check references, the new ordinary schedule and the unresolved future-employment question. Yue brought the check worker's permitted interest to Han's clerk, where it joined actual applications rather than a public promise. The proposed saving had gained practical conditions. When Tian arrived with invitations, Yue asked her to include the affected worker among people offered a speaking turn. His experience belonged in tomorrow's preparation even though he did not own a household on the bank.",
-      "next": "canal_p07_060"
+      "next": "canal_p07_060",
+      "earned": {
+        "trust": 1
+      }
     },
     "canal_p07_050": {
       "chapter": "book_xii_canal",
@@ -789,7 +786,10 @@
         "stage": "4: Second pair"
       },
       "text": "Yue brought Pei only the offered comparison of the claim's actual toll limits; Han's private guarantee choices stayed under his own cover unless he chose to present them. At the counter, Tian was addressing the last absent household invitation. Han remained in his store, with two unsent signatures and one newly sent sale inquiry. The broker's offer had given him a real alternative without settling what he would accept. Yue could carry that uncertainty into the hearing rather than speaking as if she had rescued him from it.",
-      "next": "canal_p07_060"
+      "next": "canal_p07_060",
+      "earned": {
+        "insight": 1
+      }
     },
     "canal_p07_060": {
       "chapter": "book_xii_canal",

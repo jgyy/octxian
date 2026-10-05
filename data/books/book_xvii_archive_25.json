@@ -1,0 +1,321 @@
+{
+  "chapters": {},
+  "characters": {},
+  "nodes": {
+    "archive_25_001": {
+      "chapter": "book_xvii_archive",
+      "speaker": "narrator",
+      "actor": "dai_shuren",
+      "background": "archive_spring_courtyard_dawn",
+      "effects": [
+        "petals",
+        "mist"
+      ],
+      "cast": [
+        "dai_shuren",
+        "lin_yue",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Dai left on the booked carriage the next morning after her actual handover. Luo received the entrusted keys and the current request list with the deputy present. Her daughter would receive a mother carrying tea and clean stockings, not the archive's originals. Lin watched the carriage turn beyond the plum tree, then went back to the task that still belonged to her current appointment.",
+      "next": "archive_25_002"
+    },
+    "archive_25_002": {
+      "chapter": "book_xvii_archive",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "effects": [
+        "lanterns"
+      ],
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The clerk amended the resident roll after the departure was confirmed. Yesterday's count remained visible above the changed plan. The cook would record actual issues against the smaller roll instead of retroactively subtracting a meal from the one hundred and seventy-third. A pupil brought an empty cup to the kitchen and asked whether numbers became hungry. The cook told him hungry people made numbers important, then gave him his listed breakfast.",
+      "next": "archive_25_003"
+    },
+    "archive_25_003": {
+      "chapter": "book_xvii_archive",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "effects": [
+        "lanterns"
+      ],
+      "cast": [
+        "lin_yue",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "On the one hundred and seventy-seventh, Lin completed the accepted school lesson with its preparation already included in her paid interval. The pupils used the offered reading text and kept Sun's private notebook out of their copying exercise. The smallest child drew an umbrella above the source heading. Luo left the drawing there until its owner took it home. It was neither an accession nor an error in the household claim.",
+      "next": "archive_25_004"
+    },
+    "archive_25_004": {
+      "chapter": "book_xvii_archive",
+      "speaker": "narrator",
+      "actor": "sun_nian",
+      "background": "archive_copy_room",
+      "effects": [
+        "lanterns"
+      ],
+      "cast": [
+        "sun_nian",
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Sun's reading took place on the one hundred and eighty-seventh after she accepted the final terms. Dai had returned from her agreed eight-day visit. Sun spoke in two short sittings, with her chosen rest between them. Three copper paid her defined appearance, two paid the room attendant's added hours, and five remained with the school allocation. The old winter purse stayed closed. Lin attended during her agreed personal interval and heard a story whose ending did not owe the archive a record.",
+      "next": "archive_25_005"
+    },
+    "archive_25_005": {
+      "chapter": "book_xvii_archive",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "effects": [
+        "lanterns"
+      ],
+      "cast": [
+        "lin_yue",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At the present appointment's final receiving, Luo checked the completed task list before the wage clerk settled its remaining accepted amount. Lin's private letters and training notebook stayed hers. The corrected house right, paid compensation, actual key and continuing school-path checks retained their responsible local contacts. Leaving would not turn those results into three alternative worlds. The unchosen next post would remain a real staffing question for the board.",
+      "next": "archive_25_006"
+    },
+    "archive_25_006": {
+      "chapter": "book_xvii_archive",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "effects": [
+        "lanterns"
+      ],
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "tan_ke"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The board's one funded next post could support public reference work or collection stewardship. Both needed an honest account of Lin's trained capacities and the qualified cover for anything beyond them. Going home was also available after the completed term. The next appropriation could not hire both of her possible futures. Lin asked to make the selection with the final receiving sheet in front of her.",
+      "choices": [
+        {
+          "text": "Accept public reference work with checked source comparisons.",
+          "next": "archive_25_role_insight",
+          "requires": {
+            "insight": 10
+          }
+        },
+        {
+          "text": "Accept stewardship with bounded instrument checks.",
+          "next": "archive_25_role_qi",
+          "requires": {
+            "qi": 10
+          }
+        },
+        {
+          "text": "Accept stewardship with recovered movement duties.",
+          "next": "archive_25_role_resolve",
+          "requires": {
+            "resolve": 10
+          }
+        },
+        {
+          "text": "Accept public work with firm limits on the commitment.",
+          "next": "archive_25_role_trust",
+          "requires": {
+            "trust": 10
+          }
+        },
+        {
+          "text": "Decline the next post and take the ordinary road home.",
+          "next": "archive_25_role_help"
+        }
+      ]
+    },
+    "archive_25_role_insight": {
+      "chapter": "book_xvii_archive",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "effects": [
+        "lanterns"
+      ],
+      "cast": [
+        "lin_yue",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Lin accepted the public post's defined hours and preparation after demonstrating a two-source comparison with an explicit missing entry. Luo countersigned the one hundred and eighty-copper appropriation for that single appointment. A damaged original still went to Tan, and an unresolved private claim still went to its reviewer. Her comprehension changed the work she could lead, not whose family deserved an answer.",
+      "next": "archive_25_rejoin",
+      "earned": {
+        "insight": 2
+      }
+    },
+    "archive_25_role_qi": {
+      "chapter": "book_xvii_archive",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "effects": [
+        "lanterns"
+      ],
+      "cast": [
+        "lin_yue",
+        "tan_ke"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Lin demonstrated the archive lamp's small control closure on its disconnected, separately fuelled reference bench. Tan retained every conservation judgment and any repair outside her qualification. The board accepted her defined stewardship and countersigned the same one-person appropriation. She would help preserve usable custody and instrument records without calling her fifth stage a cure for damp paper or a title over the collection.",
+      "next": "archive_25_rejoin",
+      "earned": {
+        "qi": 2
+      }
+    },
+    "archive_25_role_resolve": {
+      "chapter": "book_xvii_archive",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "effects": [
+        "lanterns"
+      ],
+      "cast": [
+        "lin_yue",
+        "tan_ke"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Tan observed Lin's cleared ordinary carrying limit, the supported tray and the tested route between the rooms. She set the tray down at the named receiving table before fatigue changed her grip. The board accepted stewardship with qualified preservation cover and the single funded post. Safe movement would be her contribution. A heavy chest, damaged stair or disputed key would still require its own people and permission.",
+      "next": "archive_25_rejoin",
+      "earned": {
+        "resolve": 2
+      }
+    },
+    "archive_25_role_trust": {
+      "chapter": "book_xvii_archive",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "effects": [
+        "lanterns"
+      ],
+      "cast": [
+        "lin_yue",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Lin asked Luo and Tan to state the limits that made the public and stewardship posts bearable. She then accepted the public appointment's agreed hours, with preservation decisions remaining under Tan's qualified cover. The board countersigned the single one hundred and eighty-copper post. She would help readers persist through difficult questions without promising them a private conclusion. A steady heart could keep a commitment finite enough to honor.",
+      "next": "archive_25_rejoin",
+      "earned": {
+        "trust": 2
+      }
+    },
+    "archive_25_rejoin": {
+      "chapter": "book_xvii_archive",
+      "speaker": "narrator",
+      "actor": "sun_nian",
+      "background": "archive_spring_courtyard_dawn",
+      "effects": [
+        "petals",
+        "mist"
+      ],
+      "cast": [
+        "sun_nian",
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "In the courtyard, the repaired handrail caught the morning light. Sun stopped beside the plum tree to hear a bird she could not see. Lin waited with her, whether she was staying for the next agreed appointment or making her final walk to the carriage. Neither needed to turn the quiet moment into evidence of a perfect ending.",
+      "next": "archive_25_lantern_keeper"
+    },
+    "archive_25_close_1": {
+      "chapter": "book_xvii_archive",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "effects": [
+        "petals",
+        "mist"
+      ],
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The archive's winter question had reached a real house door, a usable school path and a family holding its own key. The next questions would have their own dates and people. Lin retained an earned fifth stage and a clearer account of what her four trained capacities could do. The collection belonged to its keepers and owners. Her next small action belonged to her.",
+      "ending": "The Key and the Next Morning"
+    },
+    "archive_25_role_help": {
+      "chapter": "book_xvii_archive",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "effects": [
+        "lanterns"
+      ],
+      "cast": [
+        "lin_yue",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Lin declined the new appointment after giving the current receiver a complete handover. Luo admitted he would miss her questions. She accepted his disappointment without promising two incompatible futures. The board retained responsibility for staffing the one funded post. Her current wages and own papers travelled with her; the archive's keys and entrusted collection stayed with their actual receiver.",
+      "next": "archive_25_rejoin"
+    },
+    "archive_25_lantern_keeper": {
+      "chapter": "book_xvii_archive",
+      "speaker": "narrator",
+      "actor": "lan_fen",
+      "background": "archive_spring_courtyard_dawn",
+      "effects": [
+        "petals",
+        "mist"
+      ],
+      "cast": [
+        "lan_fen",
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "On the covered walk, lantern keeper Lan Fen was checking a cold lamp's latch. She asked Lin to hold the bronze body steady, then tested the hinge herself. Lin kept both hands on the base until the keeper finished. Lan wrote and signed the check on her maintenance tag before returning her own brushes to the leather pouch. She carried the lamp indoors; Lin went back to Sun beside the plum tree.",
+      "next": "archive_25_close_1"
+    }
+  }
+}

@@ -974,6 +974,27 @@
         ],
         "record": "assets/art/CONTINUATION_BOOKS_PROVENANCE.md"
       }
+    },
+    {
+      "id": "archive_spring_courtyard_dawn",
+      "name": "Archive Courtyard at Dawn",
+      "path": "assets/art/world/archive_spring_courtyard_dawn.png",
+      "native_size": [
+        1536,
+        1024
+      ],
+      "description": "Native dawn painting of the repaired archive handrail, clear walking path, plum tree and quiet tea table.",
+      "environment": "exterior",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/archive_spring_courtyard_dawn.png",
+        "native_size": [
+          1536,
+          1024
+        ],
+        "record": "assets/art/MILLION_WORD_PROVENANCE.md"
+      }
     }
   ],
   "npcs": [
@@ -1976,6 +1997,26 @@
         ],
         "record": "assets/art/CONTINUATION_BOOKS_PROVENANCE.md"
       }
+    },
+    {
+      "id": "lan_fen",
+      "name": "Lan Fen",
+      "path": "assets/art/world/lan_fen.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "Archive lantern keeper who signs cold-lamp checks and retains her own maintenance tools.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/lan_fen.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/MILLION_WORD_PROVENANCE.md"
+      }
     }
   ],
   "monsters": [
@@ -2217,6 +2258,26 @@
           1536
         ],
         "record": "assets/art/STORM_SALT_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "lanternwing_crane",
+      "name": "Lanternwing Crane",
+      "path": "assets/art/world/lanternwing_crane.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "An independent wetland visitor with folded translucent jade feathers and fine silver tail. Its appearance certifies no omen, history or cultivated realm.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/lanternwing_crane.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/MILLION_WORD_PROVENANCE.md"
       }
     }
   ],

@@ -133,24 +133,15 @@
       "choices": [
         {
           "text": "Recommend the registry and its checked receiving index.",
-          "next": "harbor_registry_001",
-          "effects": {
-            "insight": 1
-          }
+          "next": "harbor_registry_001"
         },
         {
           "text": "Recommend repair and independently checked fittings.",
-          "next": "harbor_repair_001",
-          "effects": {
-            "insight": 1
-          }
+          "next": "harbor_repair_001"
         },
         {
           "text": "Recommend road visits with permitted returning replies.",
-          "next": "harbor_road_001",
-          "effects": {
-            "insight": 1
-          }
+          "next": "harbor_road_001"
         }
       ]
     },
@@ -387,7 +378,10 @@
         "stage": "4: Second pair"
       },
       "ending": "A Name at the Proper Window",
-      "continuation": "kiln_start"
+      "continuation": "kiln_start",
+      "earned": {
+        "insight": 1
+      }
     },
     "harbor_repair_001": {
       "chapter": "book_xiv_harbor",
@@ -622,7 +616,10 @@
         "stage": "4: Second pair"
       },
       "ending": "A Passage That Holds Its Work",
-      "continuation": "kiln_start"
+      "continuation": "kiln_start",
+      "earned": {
+        "insight": 1
+      }
     },
     "harbor_road_001": {
       "chapter": "book_xiv_harbor",
@@ -857,7 +854,10 @@
         "stage": "4: Second pair"
       },
       "ending": "The Reply That Comes Back",
-      "continuation": "kiln_start"
+      "continuation": "kiln_start",
+      "earned": {
+        "insight": 1
+      }
     }
   }
 }

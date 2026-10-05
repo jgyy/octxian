@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "purpose": "Narration cache for original authored parts not yet integrated into the playable campaign; no manuscript credit until integration.",
+  "purpose": "Historical source list for the now integrated Books XII–XVII; all listed parts now have playable manuscript credit. Retained for narration cache compatibility.",
   "parts": [
     "data/books/book_xii_canal_01.json",
     "data/books/book_xii_canal_02.json",
@@ -151,5 +151,7 @@
     "data/books/book_xvii_archive_23.json",
     "data/books/book_xvii_archive_24.json"
   ],
-  "draft_words": 930652
+  "draft_words": 930652,
+  "integrated": true,
+  "integration_report": "docs/MILLION_WORD_CONTINUATION.md"
 }

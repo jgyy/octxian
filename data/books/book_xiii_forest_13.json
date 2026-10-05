@@ -107,17 +107,11 @@
       "choices": [
         {
           "text": "Recommend the paid upper haul, giving the Harts a wider continuous passage.",
-          "next": "forest_13_upper_001",
-          "effects": {
-            "insight": 1
-          }
+          "next": "forest_13_upper_001"
         },
         {
           "text": "Recommend watched crossing windows, keeping the shorter route shared.",
-          "next": "forest_13_bank_001",
-          "effects": {
-            "insight": 1
-          }
+          "next": "forest_13_bank_001"
         }
       ]
     },
@@ -509,7 +503,10 @@
       "actor": "lin_yue",
       "text": "The peak-week trial ended with no new human injury on the route and no close Hart encounter at the cleared bank. It had cost the authorized twenty-four copper and delayed some handling beyond the optimistic estimate. The review would decide its next form from that record, the current five-body movement, and the household needs. Lin submitted her account and sat beside Wen. Her recommendation had bought something real. It had not bought the right to stop listening to the people who paid for it.",
       "background": "forest_winter_boundary",
-      "next": "forest_13_review_001"
+      "next": "forest_13_review_001",
+      "earned": {
+        "insight": 1
+      }
     },
     "forest_13_bank_001": {
       "chapter": "book_xiii_forest",
@@ -899,7 +896,10 @@
       "actor": "lin_yue",
       "text": "Lin submitted the final watched-bank account, including the household delays and the practical revisions. The council would compare it with the qualified upper-route survey and current migration observations before renewing any arrangement. The week had ended without a new injury at the shared bank, and that mattered. Its inconvenience had not been evenly carried, and that mattered too. Lin sat beside Wen at the review table, less eager to be vindicated than to hear what would make the next week usable.",
       "background": "forest_winter_boundary",
-      "next": "forest_13_review_001"
+      "next": "forest_13_review_001",
+      "earned": {
+        "insight": 1
+      }
     },
     "forest_13_review_001": {
       "chapter": "book_xiii_forest",

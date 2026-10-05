@@ -155,6 +155,7 @@ func _initialize() -> void:
 	var reached := {}
 	var endings := {}
 	var visited := {}
+	var frontiers: Dictionary = {}
 	var queue: Array = [{"current": campaign.start, "stats": {"qi": 0, "trust": 0, "insight": 0, "resolve": 0}}]
 	var cursor := 0
 	while cursor < queue.size():
@@ -166,6 +167,23 @@ func _initialize() -> void:
 			visit_key += ":" + str(entry.stats[key])
 		if visited.has(visit_key):
 			continue
+		# At the same scene, a stronger score vector can take every choice a
+		# weaker one can. Effects are nonnegative and this campaign is acyclic,
+		# so keeping nondominated vectors preserves all scene/ending coverage.
+		var frontier: Array = frontiers.get(entry.current, [])
+		var dominated := false
+		for prior in frontier:
+			if _stats_dominate(prior, entry.stats):
+				dominated = true
+				break
+		if dominated:
+			continue
+		var retained: Array = []
+		for prior in frontier:
+			if not _stats_dominate(entry.stats, prior):
+				retained.append(prior)
+		retained.append(entry.stats.duplicate())
+		frontiers[entry.current] = retained
 		visited[visit_key] = true
 		var traveler = State.new(campaign)
 		traveler.current = entry.current
@@ -670,3 +688,9 @@ func _test_encounters() -> void:
 	check(not restored.load_game("user://encounter_bad.json") and restored.current == before, "Invalid event records must reject the entire load atomically")
 	_remove_checkpoint("user://encounter_test.json")
 	_remove_checkpoint("user://encounter_bad.json")
+
+func _stats_dominate(stronger: Dictionary, weaker: Dictionary) -> bool:
+	for key in State.STAT_KEYS:
+		if int(stronger[key]) < int(weaker[key]):
+			return false
+	return true

@@ -380,24 +380,15 @@
       "choices": [
         {
           "text": "Compare offered losses with current observations.",
-          "next": "canal_p16_030",
-          "effects": {
-            "trust": 1
-          }
+          "next": "canal_p16_030"
         },
         {
           "text": "Assemble the separate grain receiving account.",
-          "next": "canal_p16_040",
-          "effects": {
-            "insight": 1
-          }
+          "next": "canal_p16_040"
         },
         {
           "text": "Prepare Han's limited private responsibility and delivery record.",
-          "next": "canal_p16_050",
-          "effects": {
-            "resolve": 1
-          }
+          "next": "canal_p16_050"
         }
       ]
     },
@@ -529,7 +520,10 @@
         "stage": "4: Second pair"
       },
       "text": "Yue finished the comparative loss packet with direct damage, actual price changes and future work consequences stated separately. The offered sources and remaining inspections stayed visible. The hearing receiver would use it on day forty, with each claimant able to answer its own lines. The gardener and stall owner left without promising to agree about common use. Their accounts no longer had to compete for one vague word called suffering. Yue took a deep breath and folded the packet, grateful for the ordinary limit of a page she could actually carry.",
-      "next": "canal_p16_060"
+      "next": "canal_p16_060",
+      "earned": {
+        "trust": 1
+      }
     },
     "canal_p16_040": {
       "chapter": "book_xii_canal",
@@ -659,7 +653,10 @@
         "stage": "4: Second pair"
       },
       "text": "At the counter, Yue delivered the completed twelve-sack receiving account after the gatherer's second collection. One hundred twenty kilograms had reached the three accepted recipients, with the worn-seam top-up and remaining loose stock separately recorded. The public version followed their offered preferences. The food support stayed alongside unfinished claims. Yue had spent the afternoon moving nothing heavier than paper and still felt the weight of quantities that could disappear when a clerk called a held sack unneeded or a gift a debt.",
-      "next": "canal_p16_060"
+      "next": "canal_p16_060",
+      "earned": {
+        "insight": 1
+      }
     },
     "canal_p16_050": {
       "chapter": "book_xii_canal",
@@ -789,7 +786,10 @@
         "stage": "4: Second pair"
       },
       "text": "At the counter, Yue submitted the limited public reimbursement, revised private cart route and conditional goods delivery plan. Han kept his private originals and the thirty-two set aside. The public hearing would hear his actual responsibility for the crossing without using it to erase his fifty-six toll claim or invent ownership over his other employees. The next private receiving check would decide whether sixteen new copper arrived. Yue felt unexpectedly protective of that distinction for a man whose first notice had tried to deny it to Tian.",
-      "next": "canal_p16_060"
+      "next": "canal_p16_060",
+      "earned": {
+        "insight": 1
+      }
     },
     "canal_p16_060": {
       "chapter": "book_xii_canal",

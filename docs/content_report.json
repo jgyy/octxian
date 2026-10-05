@@ -1,23 +1,23 @@
 {
-  "scenes": 2335,
-  "authored_words": 190875,
+  "scenes": 12697,
+  "authored_words": 1124725,
   "word_target": 1000001,
-  "word_target_met": false,
+  "word_target_met": true,
   "delivered_art": {
-    "backgrounds": 68,
-    "npcs": 50,
-    "monsters": 12
+    "backgrounds": 69,
+    "npcs": 51,
+    "monsters": 13
   },
   "delivered_original_art": {
-    "backgrounds": 27,
-    "npcs": 50,
-    "monsters": 12
+    "backgrounds": 28,
+    "npcs": 51,
+    "monsters": 13
   },
   "delivered_additional_art": {
     "building_interiors": 41
   },
   "delivered_items": 6,
-  "delivered_unique_sprites": 62,
+  "delivered_unique_sprites": 64,
   "sprite_target": 1001,
   "sprite_target_met": false,
   "minimum_sprite_native_size": [
@@ -39,23 +39,23 @@
   },
   "art_targets_met": false,
   "remaining": {
-    "authored_words": 809126,
-    "backgrounds": 73,
-    "npcs": 450,
-    "monsters": 489,
+    "authored_words": 0,
+    "backgrounds": 72,
+    "npcs": 449,
+    "monsters": 488,
     "building_interiors": 59,
-    "unique_sprites": 939
+    "unique_sprites": 937
   },
   "complete": false,
   "originality_validation": "Retained original sources, native dimensions, file hashes, and decoded pixels are checked. Distinct designs require editorial review; poses, recolors, mirrors, and other derivatives do not qualify as independent originals.",
   "cultivation_rewrite": {
-    "displayed_scenes": 2335,
-    "displayed_words": 190875,
+    "displayed_scenes": 12697,
+    "displayed_words": 1124725,
     "rewrite_scenes": 1112,
     "rewrite_words": 79896,
-    "inherited_words": 110979,
-    "remaining_displayed_words": 809126,
+    "inherited_words": 1044829,
+    "remaining_displayed_words": 0,
     "remaining_rewrite_words": 920105
   },
-  "rendered_screenshots": 72
+  "rendered_screenshots": 78
 }

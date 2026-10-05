@@ -380,24 +380,15 @@
       "choices": [
         {
           "text": "Help Pei Fen settle the finite winter record appointment.",
-          "next": "canal_p20_030",
-          "effects": {
-            "insight": 1
-          }
+          "next": "canal_p20_030"
         },
         {
           "text": "Accompany Bao Jun to his ordinary recovery review.",
-          "next": "canal_p20_040",
-          "effects": {
-            "trust": 1
-          }
+          "next": "canal_p20_040"
         },
         {
           "text": "Check the booked orchard journey with the passage agent.",
-          "next": "canal_p20_050",
-          "effects": {
-            "resolve": 1
-          }
+          "next": "canal_p20_050"
         }
       ]
     },
@@ -529,7 +520,10 @@
         "stage": "4: Second pair"
       },
       "text": "The winter work report named the finite four-copper grant, the two accepted months, the old check worker's actual private inventory, and his remaining need for paid notices. It did not call the coming season solved. Yue took the signed page to Luo, who read the assistant's hours first and the funding second. \"Will she remind Pei to eat?\" the keeper asked. Yue said that was a question for people, not another contractual task. Luo nodded and put a slice of pear beside the folder anyway. A useful relationship could still grow outside its wage line without the line disappearing.",
-      "next": "canal_p20_060"
+      "next": "canal_p20_060",
+      "earned": {
+        "insight": 1
+      }
     },
     "canal_p20_040": {
       "chapter": "book_xii_canal",
@@ -659,7 +653,10 @@
         "stage": "4: Second pair"
       },
       "text": "The clinic report returned to the commission only as the necessary work restriction, with Bao's approval. His private examination details and household provision choices were not copied into the public hearing. The loaded ban continued; brief light observation remained allowed. His accepted ordinary pay and emergency reallocation stayed as recorded. Yue watched him head home beside his sister, coat awkwardly buttoned but no longer treated as an insult. She went back to the lock with an unfamiliar gratitude for a day on which nobody had asked her to command anything that moved.",
-      "next": "canal_p20_060"
+      "next": "canal_p20_060",
+      "earned": {
+        "trust": 1
+      }
     },
     "canal_p20_050": {
       "chapter": "book_xii_canal",
@@ -789,7 +786,10 @@
         "stage": "4: Second pair"
       },
       "text": "On returning to the lock Yue showed Luo the plain travel map. The keeper traced the ordinary walking stage and asked whether the hostel's kettle was clean. Yue admitted she had not examined it. Luo nodded with satisfaction at having found a flaw in the apprentice's preparation. Tian came in carrying a sample seam and said she would question the kettle next time. They laughed together over a plan whose essential parts were finally settled. Ren's accepted date stood ahead of them like a house with a real doorway, still requiring Yue to cross the distance and enter.",
-      "next": "canal_p20_060"
+      "next": "canal_p20_060",
+      "earned": {
+        "insight": 1
+      }
     },
     "canal_p20_060": {
       "chapter": "book_xii_canal",

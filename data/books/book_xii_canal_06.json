@@ -380,24 +380,15 @@
       "choices": [
         {
           "text": "Help Bao fit the replacement cap.",
-          "next": "canal_p06_030",
-          "effects": {
-            "resolve": 1
-          }
+          "next": "canal_p06_030"
         },
         {
           "text": "Walk the passage notices with Luo.",
-          "next": "canal_p06_040",
-          "effects": {
-            "trust": 1
-          }
+          "next": "canal_p06_040"
         },
         {
           "text": "Sort the removed materials with Tian.",
-          "next": "canal_p06_050",
-          "effects": {
-            "insight": 1
-          }
+          "next": "canal_p06_050"
         }
       ]
     },
@@ -529,7 +520,10 @@
         "stage": "4: Second pair"
       },
       "text": "Yue left the cap covered on its dry bench and washed the old seal from her fingers. Bao entered the split peg's replacement and the successful dry fit in the day's report. The new pieces would wait for the qualified guide dressing tomorrow. Yue had learned something about timber, something uninvited about Bao's old hopes and something about her own urge to turn another person's choice into a lesson for herself. None of it made the gate close sooner, but the joint was ready.",
-      "next": "canal_p06_060"
+      "next": "canal_p06_060",
+      "earned": {
+        "resolve": 1
+      }
     },
     "canal_p06_040": {
       "chapter": "book_xii_canal",
@@ -659,7 +653,10 @@
         "stage": "4: Second pair"
       },
       "text": "At the shed, Yue gave the clerk the corrected month-long rumor and both landing crews' evening-update request. Luo kept the food stall's offered batch record for the later actual loss hearing. Their passage walk had not repaired the gate, but it had kept current travel choices from growing around an invented deadline. Yue washed the stair dust from her shoes. She could hear Bao working on the covered cap stock, and felt how many useful jobs happened beyond the task people called the important one.",
-      "next": "canal_p06_060"
+      "next": "canal_p06_060",
+      "earned": {
+        "trust": 1
+      }
     },
     "canal_p06_050": {
       "chapter": "book_xii_canal",
@@ -789,7 +786,10 @@
         "stage": "4: Second pair"
       },
       "text": "At the end of the shift, Tian gave Bao the salvage and disposal record, including the reduced strap kept for examination. The old seedling left with her, as Luo had agreed. Yue had stayed within ordinary hand work while her opened routes settled. She felt more rested than she expected after an afternoon that never touched the release selector. Tian offered to show her the plant later if it survived the transfer. Yue accepted without promising to be present for every new leaf.",
-      "next": "canal_p06_060"
+      "next": "canal_p06_060",
+      "earned": {
+        "insight": 1
+      }
     },
     "canal_p06_060": {
       "chapter": "book_xii_canal",

@@ -159,24 +159,15 @@
       "choices": [
         {
           "text": "Listen beside Han at the office help table.",
-          "next": "harbor_p12_013",
-          "effects": {
-            "insight": 1
-          }
+          "next": "harbor_p12_013"
         },
         {
           "text": "Take the mobile collection route across the inner water.",
-          "next": "harbor_p12_019",
-          "effects": {
-            "insight": 1
-          }
+          "next": "harbor_p12_019"
         },
         {
           "text": "Receive questions beside Yan's dry work line.",
-          "next": "harbor_p12_025",
-          "effects": {
-            "insight": 1
-          }
+          "next": "harbor_p12_025"
         }
       ]
     },
@@ -256,7 +247,10 @@
         "realm": "qi_gathering",
         "stage": "4: Second pair"
       },
-      "next": "harbor_p12_031"
+      "next": "harbor_p12_031",
+      "earned": {
+        "insight": 1
+      }
     },
     "harbor_p12_019": {
       "chapter": "book_xiv_harbor",
@@ -334,7 +328,10 @@
         "realm": "qi_gathering",
         "stage": "4: Second pair"
       },
-      "next": "harbor_p12_031"
+      "next": "harbor_p12_031",
+      "earned": {
+        "insight": 1
+      }
     },
     "harbor_p12_025": {
       "chapter": "book_xiv_harbor",
@@ -412,7 +409,10 @@
         "realm": "qi_gathering",
         "stage": "4: Second pair"
       },
-      "next": "harbor_p12_031"
+      "next": "harbor_p12_031",
+      "earned": {
+        "insight": 1
+      }
     },
     "harbor_p12_031": {
       "chapter": "book_xiv_harbor",

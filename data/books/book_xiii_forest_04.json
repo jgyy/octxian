@@ -16,18 +16,17 @@
       "choices": [
         {
           "text": "Work with the buyers and examine the terms people signed.",
-          "next": "forest_04_buyer_001",
-          "effects": {
-            "insight": 1
-          }
+          "next": "forest_04_buyer_001"
         },
         {
           "text": "Follow Wen to the upper stand and inspect the winter road.",
-          "next": "forest_04_trail_001",
-          "effects": {
-            "insight": 1
-          }
+          "next": "forest_04_trail_001"
         }
+      ],
+      "cast": [
+        "lin_yue",
+        "wen_cai",
+        "shi_lan"
       ]
     },
     "forest_04_buyer_001": {
@@ -548,7 +547,10 @@
       "actor": "lin_yue",
       "text": "Lin wrote her offered account of the office inquiry and read it aloud to the people whose words it contained. The clerk corrected one sequence; Long corrected the scope of the cooking result. Then she set the account beside the field team's report. She would hear what had happened beyond the upper marker at the common meeting. For now, Wen pushed a hot cup into her hands and asked whether the office had contained any onions.",
       "background": "forest_boundary_map_room",
-      "next": "forest_04_report_001"
+      "next": "forest_04_report_001",
+      "earned": {
+        "insight": 1
+      }
     },
     "forest_04_trail_001": {
       "chapter": "book_xiii_forest",
@@ -1068,7 +1070,10 @@
       "actor": "lin_yue",
       "text": "Lin took the cup his sister offered and sat on the bench's dry end. Outside, the carts creaked into their evening places. The office team was preparing its report for the same common meeting. Whatever the papers said, they would have to fit a valley containing a closed road, a sore knee, an injured worker, and people still expecting dinner. Wen asked whether she had brought the remaining bean cake. She produced it. Its improved edge had survived the entire journey.",
       "background": "forest_warden_lodge",
-      "next": "forest_04_report_001"
+      "next": "forest_04_report_001",
+      "earned": {
+        "insight": 1
+      }
     },
     "forest_04_report_001": {
       "chapter": "book_xiii_forest",
