@@ -91,8 +91,8 @@ This continuation adds three independently generated originals: a **1536×1024 a
 | Displayed prose words | 1,135,382 | 2,000,000 |
 | Original environments | 31 | 100 |
 | Extra building interiors | 41 | 100 |
-| Human NPC originals | 51 | 500 |
-| Spirit-beast originals | 13 | 501 |
+| Human NPC originals | 55 | 500 |
+| Spirit-beast originals | 15 | 501 |
 | Unique world sprites | 70 | 1,001 |
 
 The manuscript target is met. The independent artwork quotas remain unfinished, so the PR stays draft. Core outfit portraits, items and effects do not inflate world-sprite totals. **World → Interiors** previews delivered interiors; **Inspect objects** displays paintings without granting inventory custody.
