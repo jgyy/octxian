@@ -973,6 +973,10 @@ func _smoke_build() -> void:
 	valid = valid and _set_outfit("shen_qing", "festival")
 	valid = valid and actor.outfit == "festival" and actor.sprite.texture != null
 	_set_outfit("shen_qing", Wardrobe.DEFAULT_OUTFIT)
+	valid = valid and state.stats.trust == 0 and state.stats.qi == 0
+	dialogue.visible_characters = -1
+	_advance()
+	valid = valid and state.stats.trust == 2 and state.stats.qi == 1 and state.completed_practice.has("trust")
 	state.current = "river_xiu"
 	_scene()
 	await get_tree().create_timer(0.2).timeout
@@ -1059,6 +1063,14 @@ func _smoke_build() -> void:
 		if actor.sprite.texture != null:
 			valid = valid and actor.sprite.texture.get_size() == Vector2(1024, 1536)
 	valid = valid and background.texture != null and background.texture.get_size() == Vector2(1536, 1024)
+	# Every new original and its authored encounter must survive standalone export.
+	for encounter in [{"node":"expansion_xu_lin_common_001","actor":"xu_lin"},{"node":"expansion_tidemirror_otter_common_001","actor":"tidemirror_otter"},{"node":"expansion_cinderback_pangolin_common_001","actor":"cinderback_pangolin"},{"node":"expansion_chen_rui_common_001","actor":"chen_rui"},{"node":"expansion_wu_zheng_common_001","actor":"wu_zheng"},{"node":"expansion_song_mei_common_001","actor":"song_mei"}]:
+		state.current = str(encounter.node)
+		_scene()
+		valid = valid and actor.character == encounter.actor and actor.sprite.texture != null
+		valid = valid and actor.sprite.texture.get_size() == Vector2(1024, 1536)
+		valid = valid and audio.voice.stream is AudioStreamOggVorbis
+		valid = valid and background.texture != null
 	state.current = "archive_25_006"
 	_scene()
 	valid = valid and stage_companions[0].visible and stage_companions[1].visible
@@ -1099,7 +1111,16 @@ func _smoke_build() -> void:
 	_scene()
 	dialogue.visible_characters = -1
 	_choose(3)
-	valid = valid and state.current == "court_remand_proposal" and state.stats.trust == 2
+	valid = valid and state.current == "court_remand_proposal" and state.stats.trust == 0
+	var remand_steps := 0
+	while state.current != "court_remand_review" and remand_steps < 12:
+		dialogue.visible_characters = -1
+		_advance()
+		remand_steps += 1
+	valid = valid and state.current == "court_remand_review" and state.stats.trust == 0
+	dialogue.visible_characters = -1
+	_advance()
+	valid = valid and state.stats.trust == 2 and state.completed_practice.has("court_remand_review")
 	state.stats = retained_stats
 	_interiors()
 	_interior_selected(_interior_entries().size() - 1)
