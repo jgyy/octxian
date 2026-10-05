@@ -97,6 +97,9 @@ jobs:
           python tools/verify_screenshots.py
       - name: Restore completed narration checkpoints
         id: narration-cache
+        # A checkpoint cache must not overwrite the integrated, committed baseline.
+        # The generator independently validates every retained clip against the text.
+        if: hashFiles('assets/generated/voices/archive_25_001.ogg') == ''
         uses: actions/cache/restore@v4
         with:
           path: |
