@@ -1,10 +1,12 @@
 # Playable million-word continuation
 
-The campaign now has **1,126,752 displayed prose words, 12,721 reachable scenes and 17 books**. The [2026-10-05 narrative revision](NARRATIVE_REVISION_20261005.md) added 2,027 words in 24 scenes, six harder decisions, 101 additional causality repairs and three Bitter Wells originals.
+The campaign now has **1,135,382 displayed prose words, 12,831 reachable scenes and 17 books**. The [2026-10-05 narrative revision](NARRATIVE_REVISION_20261005.md) added 2,027 words in 24 scenes, six harder decisions, 101 additional causality repairs and three Bitter Wells originals.
+
+The [existing-volume expansion](EXISTING_VOLUME_EXPANSION_20261005.md) then adds 8,630 words and 110 passages with eighteen branch outcomes, six native character/creature sprites and another 100 authenticated reward-timing sites. The two 2026-10-05 reward audits cover 201 sites of one recurring causality defect.
 
 The 2026-10-04 integration reached 1,124,725 words. Previously playable: 190,875 words. This integrates 930,652 previously stored draft words and adds 3,198 new words in 46 closing scenes. Only playable node text counts, including alternative branches. One journey does not display every branch.
 
-The manuscript exceeds the strict 1,000,001-word target. The independent art quotas remain unfinished: 51 human originals, 13 spirit-beast originals, 31 original environments and 41 extra interiors.
+The manuscript exceeds the original strict 1,000,001-word target. The current requested total is 2,000,000 words, with 864,618 further words required. The independent art quotas remain unfinished: 55 human originals, 15 spirit-beast originals, 31 original environments and 41 extra interiors.
 
 | Book | Playable scenes | Displayed prose words |
 |---|---:|---:|
@@ -19,11 +21,11 @@ The manuscript exceeds the strict 1,000,001-word target. The independent art quo
 | BOOK IX · The ridge that changed its answer | 94 | 6,017 |
 | BOOK X · The storm that signed twice | 159 | 11,961 |
 | BOOK XI · Water for the names that stayed | 177 | 12,656 |
-| BOOK XII · The Canal That Could Not Be Sold | 1872 | 166,110 |
-| BOOK XIII · The Forest With Two Winters | 1807 | 153,410 |
-| BOOK XIV · The Harbor of Unclaimed Names | 1660 | 158,303 |
-| BOOK XV · The Kiln That Kept Its Ashes | 1691 | 163,806 |
-| BOOK XVI · The Road Beneath the Salt | 1784 | 149,616 |
+| BOOK XII · The Canal That Could Not Be Sold | 1,909 | 169,058 |
+| BOOK XIII · The Forest With Two Winters | 1,825 | 154,847 |
+| BOOK XIV · The Harbor of Unclaimed Names | 1,679 | 159,777 |
+| BOOK XV · The Kiln That Kept Its Ashes | 1,709 | 165,209 |
+| BOOK XVI · The Road Beneath the Salt | 1,802 | 150,984 |
 | BOOK XVII · The Archive of Ordinary Rain | 1572 | 144,632 |
 
 ## Repairs
