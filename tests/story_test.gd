@@ -62,8 +62,9 @@ func _initialize() -> void:
 	state.current = "first_choice"
 	check(not state.choose(-1) and not state.choose(9), "Out-of-range choices should fail")
 	check(state.choose(0), "Valid choice should succeed")
-	check(state.stats.trust == 2 and state.stats.qi == 1, "Choice effects should apply")
+	check(state.stats.trust == 0 and state.stats.qi == 0, "Selecting an intention must not award completed practice")
 	check(state.current == "trust", "Choice should follow its link")
+	check(state.advance() and state.stats.trust == 2 and state.stats.qi == 1, "Completing the selected exchange earns its stated credit")
 	state.current = "final_choice"
 	check(not state.choose(0), "Qi-gated choice should be disabled")
 	check(state.current == "final_choice", "Blocked choices must not advance")
@@ -90,11 +91,11 @@ func _initialize() -> void:
 	check(state.stats == snapshot_stats and state.history == snapshot_history and state.current == "first_choice", "Failed choices must leave stats, journal and scene untouched")
 	state = State.new()
 	state.current = "first_choice"
-	state.story.nodes.first_choice.choices[0].effects["unknown"] = 1
+	state.story.nodes.first_choice.choices[0]["effects"] = {"unknown": 1}
 	check(not state.choose(0) and state.stats.trust == 0, "Unknown effect stats must be rejected atomically")
 	state = State.new()
 	state.current = "first_choice"
-	state.story.nodes.first_choice.choices[0].effects.trust = 1.5
+	state.story.nodes.first_choice.choices[0]["effects"] = {"trust": 1.5}
 	check(not state.choose(0) and state.stats.trust == 0, "Fractional effects must not mutate stats")
 	state = State.new()
 	state.stats.qi = 101
@@ -102,6 +103,7 @@ func _initialize() -> void:
 	check(restored.load_game("user://test_save.json") and restored.stats.qi == 101, "Stats over 100 should round trip")
 	state.current = "first_choice"
 	state.stats.trust = state.MAX_STAT
+	state.story.nodes.first_choice.choices[0]["effects"] = {"trust": 1}
 	snapshot_stats = state.stats.duplicate()
 	check(not state.choose(0) and state.stats == snapshot_stats, "Overflowing effects must fail atomically")
 	state = State.new()
@@ -414,7 +416,7 @@ func _test_court_routes_and_remedies() -> void:
 		check(traveler.node().choices.size() == 4, "Book VI must offer its four independent investigation teams")
 		check(traveler.can_choose(traveler.node().choices[index]), "Every court investigation must be available without prior training")
 		check(traveler.choose(index) and traveler.current == entries[index], "The court hub must open the selected investigation only")
-		check(traveler.stats[gains[index]] == 1, "Joining a court inquiry must apply its declared attribute gain")
+		check(traveler.stats[gains[index]] == 0, "Joining a court inquiry leaves its work uncompleted")
 		var visited := {}
 		var steps := 0
 		while traveler.current != "court_findings" and steps < 500:
@@ -433,6 +435,7 @@ func _test_court_routes_and_remedies() -> void:
 				break
 			steps += 1
 		check(traveler.current == "court_findings", "Every finite court investigation must return to the common findings")
+		check(traveler.stats[gains[index]] >= 1, "A completed court inquiry receives its earned entry credit")
 		for other in entries:
 			if other != entries[index]:
 				check(not visited.has(other), "Lin Yue must follow one court investigation rather than all four at once")
@@ -470,14 +473,16 @@ func _test_court_routes_and_remedies() -> void:
 		else:
 			for locked in gates:
 				check(not traveler.can_choose(traveler.node().choices[locked]), "Specialized court remedies must stay locked at zero attributes")
+		var selection_stats: Dictionary = traveler.stats.duplicate()
 		check(traveler.choose(index) and traveler.current == destinations[index], "Each court remedy must open at its stated threshold, including the ungated remand")
-		check(traveler.stats == expected_after[index], "Court remedy gains must match their explicit playable design")
+		check(traveler.stats == selection_stats, "A proposed court remedy must not receive completed delivery credit")
 		var steps := 0
 		while not traveler.node().has("ending") and steps < 12:
 			if not traveler.advance():
 				break
 			steps += 1
 		check(traveler.current == endings[index] and traveler.node().has("ending"), "Every bounded court remedy must reach its distinct authored outcome")
+		check(traveler.stats == expected_after[index], "Completed court remedy gains must match their explicit playable design")
 
 func _test_atomic_saves() -> void:
 	var path := "user://atomic_save_test.json"
@@ -607,7 +612,7 @@ func _test_ring_campaign() -> void:
 		traveler.current = "ring_investigation_choice"
 		check(traveler.node().get("choices", []).size() == 3, "The ring investigation must offer three independent routes")
 		check(traveler.can_choose(traveler.node().choices[index]), "Every ring investigation must be playable with zero attributes")
-		check(traveler.choose(index) and traveler.current == entries[index] and traveler.stats[gains[index]] == 1, "The selected ring investigation must apply its stated gain and open its own route")
+		check(traveler.choose(index) and traveler.current == entries[index] and traveler.stats[gains[index]] == 0, "The selected ring investigation opens its route without unperformed credit")
 		var visited := {}
 		var steps := 0
 		while traveler.current != "ring_findings" and steps < campaign.nodes.size():
@@ -629,6 +634,7 @@ func _test_ring_campaign() -> void:
 				break
 			steps += 1
 		check(traveler.current == "ring_findings", "Every ring investigation must return to the common findings")
+		check(traveler.stats[gains[index]] >= 1, "A completed ring inquiry receives its earned entry credit")
 		for other in entries:
 			if other != entries[index]:
 				check(not visited.has(other), "An investigation must follow only its selected route")
