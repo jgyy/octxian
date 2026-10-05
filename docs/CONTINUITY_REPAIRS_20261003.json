@@ -1064,12 +1064,17 @@
       },
       "after": {
         "text": "Test rotating appointments around work.",
-        "next": "court_witness_a1_rotating_1",
-        "effects": {
-          "insight": 1
-        }
+        "next": "court_witness_a1_rotating_1"
       },
-      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+      "repair": {
+        "text": "Test rotating appointments around work.",
+        "next": "court_witness_a1_rotating_1"
+      },
+      "completion_node": "court_witness_a1_rotating_2",
+      "earned": {
+        "insight": 1
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROG-044",
@@ -1087,12 +1092,17 @@
       },
       "after": {
         "text": "Check the lower-gate shelter.",
-        "next": "court_witness_a2_shelter_1",
-        "effects": {
-          "insight": 1
-        }
+        "next": "court_witness_a2_shelter_1"
       },
-      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+      "repair": {
+        "text": "Check the lower-gate shelter.",
+        "next": "court_witness_a2_shelter_1"
+      },
+      "completion_node": "court_witness_a2_shelter_2",
+      "earned": {
+        "insight": 1
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROG-045",
@@ -1110,12 +1120,17 @@
       },
       "after": {
         "text": "Compare Bai’s written duty clauses.",
-        "next": "court_witness_a4_remit_1",
-        "effects": {
-          "insight": 1
-        }
+        "next": "court_witness_a4_remit_1"
       },
-      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+      "repair": {
+        "text": "Compare Bai’s written duty clauses.",
+        "next": "court_witness_a4_remit_1"
+      },
+      "completion_node": "court_witness_a4_remit_2",
+      "earned": {
+        "insight": 1
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROG-046",
@@ -1133,12 +1148,17 @@
       },
       "after": {
         "text": "Follow Su E’s bell and oven sequence.",
-        "next": "court_witness_a6_baker_1",
-        "effects": {
-          "insight": 1
-        }
+        "next": "court_witness_a6_baker_1"
       },
-      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+      "repair": {
+        "text": "Follow Su E’s bell and oven sequence.",
+        "next": "court_witness_a6_baker_1"
+      },
+      "completion_node": "court_witness_a6_baker_2",
+      "earned": {
+        "insight": 1
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROG-047",
@@ -1156,12 +1176,17 @@
       },
       "after": {
         "text": "Lead with firsthand sources and their limits.",
-        "next": "court_witness_a8_sources_1",
-        "effects": {
-          "insight": 1
-        }
+        "next": "court_witness_a8_sources_1"
       },
-      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+      "repair": {
+        "text": "Lead with firsthand sources and their limits.",
+        "next": "court_witness_a8_sources_1"
+      },
+      "completion_node": "court_witness_a8_sources_2",
+      "earned": {
+        "insight": 1
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROG-048",
@@ -1179,12 +1204,17 @@
       },
       "after": {
         "text": "Lead with delivered access and remaining costs.",
-        "next": "court_witness_a8_access_1",
-        "effects": {
-          "insight": 2
-        }
+        "next": "court_witness_a8_access_1"
       },
-      "repair": "Credit Comprehension 2 for this method; leave this offered approach available without a score gate."
+      "repair": {
+        "text": "Lead with delivered access and remaining costs.",
+        "next": "court_witness_a8_access_1"
+      },
+      "completion_node": "court_witness_a8_access_2",
+      "earned": {
+        "insight": 2
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROG-049",
@@ -1206,12 +1236,17 @@
       },
       "after": {
         "text": "Ask for a bounded assist during the paid instrument check.",
-        "next": "court_rain_assistant_request",
-        "effects": {
-          "insight": 2
-        }
+        "next": "court_rain_assistant_request"
       },
-      "repair": "Credit Comprehension 2 for this method; leave this offered approach available without a score gate."
+      "repair": {
+        "text": "Ask for a bounded assist during the paid instrument check.",
+        "next": "court_rain_assistant_request"
+      },
+      "completion_node": "court_rain_assistant_marks",
+      "earned": {
+        "insight": 2
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROG-050",
@@ -1230,12 +1265,17 @@
       },
       "after": {
         "text": "Use steady daylight and record the delay.",
-        "next": "court_rain_manual_light",
-        "effects": {
-          "insight": 2
-        }
+        "next": "court_rain_manual_light"
       },
-      "repair": "Credit Comprehension 2 for this method; leave this offered approach available without a score gate."
+      "repair": {
+        "text": "Use steady daylight and record the delay.",
+        "next": "court_rain_manual_light"
+      },
+      "completion_node": "court_rain_manual_wait",
+      "earned": {
+        "insight": 2
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROG-051",
@@ -1257,12 +1297,17 @@
       },
       "after": {
         "text": "Use the willing second keeper during the bounded check.",
-        "next": "court_rain_second_keeper",
-        "effects": {
-          "insight": 2
-        }
+        "next": "court_rain_second_keeper"
       },
-      "repair": "Credit Comprehension 2 for this method; leave this offered approach available without a score gate."
+      "repair": {
+        "text": "Use the willing second keeper during the bounded check.",
+        "next": "court_rain_second_keeper"
+      },
+      "completion_node": "court_rain_second_keeper",
+      "earned": {
+        "insight": 2
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROG-052",
@@ -1281,12 +1326,17 @@
       },
       "after": {
         "text": "Use plain boards and preserve missed comparisons.",
-        "next": "court_rain_board_signal",
-        "effects": {
-          "insight": 2
-        }
+        "next": "court_rain_board_signal"
       },
-      "repair": "Credit Comprehension 2 for this method; leave this offered approach available without a score gate."
+      "repair": {
+        "text": "Use plain boards and preserve missed comparisons.",
+        "next": "court_rain_board_signal"
+      },
+      "completion_node": "court_rain_board_signal",
+      "earned": {
+        "insight": 2
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROG-053",
@@ -1308,12 +1358,17 @@
       },
       "after": {
         "text": "Invite a permitted independent reader for the scheduled interval.",
-        "next": "court_rain_trace_reader",
-        "effects": {
-          "insight": 2
-        }
+        "next": "court_rain_trace_reader"
       },
-      "repair": "Credit Comprehension 2 for this method; leave this offered approach available without a score gate."
+      "repair": {
+        "text": "Invite a permitted independent reader for the scheduled interval.",
+        "next": "court_rain_trace_reader"
+      },
+      "completion_node": "court_rain_trace_reader",
+      "earned": {
+        "insight": 2
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROG-054",
@@ -1332,12 +1387,17 @@
       },
       "after": {
         "text": "Make two ordinary ruled sketches without consuming the sample.",
-        "next": "court_rain_trace_drawing",
-        "effects": {
-          "insight": 2
-        }
+        "next": "court_rain_trace_drawing"
       },
-      "repair": "Credit Comprehension 2 for this method; leave this offered approach available without a score gate."
+      "repair": {
+        "text": "Make two ordinary ruled sketches without consuming the sample.",
+        "next": "court_rain_trace_drawing"
+      },
+      "completion_node": "court_rain_trace_drawing",
+      "earned": {
+        "insight": 2
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROG-055",
@@ -1359,12 +1419,17 @@
       },
       "after": {
         "text": "Read the complete passages with the Heron's bounded agreement.",
-        "next": "court_rain_readback_statement",
-        "effects": {
-          "insight": 2
-        }
+        "next": "court_rain_readback_statement"
       },
-      "repair": "Credit Comprehension 2 for this method; leave this offered approach available without a score gate."
+      "repair": {
+        "text": "Read the complete passages with the Heron's bounded agreement.",
+        "next": "court_rain_readback_statement"
+      },
+      "completion_node": "court_rain_readback_statement",
+      "earned": {
+        "insight": 2
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROG-056",
@@ -1383,12 +1448,17 @@
       },
       "after": {
         "text": "Prepare a plain paired copy for the authorized source check.",
-        "next": "court_rain_paired_copy",
-        "effects": {
-          "insight": 2
-        }
+        "next": "court_rain_paired_copy"
       },
-      "repair": "Credit Comprehension 2 for this method; leave this offered approach available without a score gate."
+      "repair": {
+        "text": "Prepare a plain paired copy for the authorized source check.",
+        "next": "court_rain_paired_copy"
+      },
+      "completion_node": "court_rain_paired_copy",
+      "earned": {
+        "insight": 2
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROG-057",
@@ -1410,12 +1480,17 @@
       },
       "after": {
         "text": "Request the keeper's bounded ordinary comparison.",
-        "next": "court_rain_forecast_keeper",
-        "effects": {
-          "insight": 2
-        }
+        "next": "court_rain_forecast_keeper"
       },
-      "repair": "Credit Comprehension 2 for this method; leave this offered approach available without a score gate."
+      "repair": {
+        "text": "Request the keeper's bounded ordinary comparison.",
+        "next": "court_rain_forecast_keeper"
+      },
+      "completion_node": "court_rain_forecast_keeper",
+      "earned": {
+        "insight": 2
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROG-058",
@@ -1434,12 +1509,17 @@
       },
       "after": {
         "text": "Use the scheduled gauge interval and retain the delay.",
-        "next": "court_rain_forecast_schedule",
-        "effects": {
-          "insight": 2
-        }
+        "next": "court_rain_forecast_schedule"
       },
-      "repair": "Credit Comprehension 2 for this method; leave this offered approach available without a score gate."
+      "repair": {
+        "text": "Use the scheduled gauge interval and retain the delay.",
+        "next": "court_rain_forecast_schedule"
+      },
+      "completion_node": "court_rain_forecast_schedule",
+      "earned": {
+        "insight": 2
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROG-059",
@@ -1461,12 +1541,17 @@
       },
       "after": {
         "text": "Read the authorized notice with willing local posting keepers.",
-        "next": "court_rain_notice_readers",
-        "effects": {
-          "insight": 2
-        }
+        "next": "court_rain_notice_readers"
       },
-      "repair": "Credit Comprehension 2 for this method; leave this offered approach available without a score gate."
+      "repair": {
+        "text": "Read the authorized notice with willing local posting keepers.",
+        "next": "court_rain_notice_readers"
+      },
+      "completion_node": "court_rain_notice_readers",
+      "earned": {
+        "insight": 2
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROG-060",
@@ -1485,12 +1570,17 @@
       },
       "after": {
         "text": "Send the complete notice through its ordinary route.",
-        "next": "court_rain_notice_ordinary",
-        "effects": {
-          "insight": 2
-        }
+        "next": "court_rain_notice_ordinary"
       },
-      "repair": "Credit Comprehension 2 for this method; leave this offered approach available without a score gate."
+      "repair": {
+        "text": "Send the complete notice through its ordinary route.",
+        "next": "court_rain_notice_ordinary"
+      },
+      "completion_node": "court_rain_notice_ordinary",
+      "earned": {
+        "insight": 2
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROG-061",
@@ -1512,12 +1602,17 @@
       },
       "after": {
         "text": "Read back the findings with willing source keepers.",
-        "next": "court_rain_source_readback",
-        "effects": {
-          "insight": 2
-        }
+        "next": "court_rain_source_readback"
       },
-      "repair": "Credit Comprehension 2 for this method; leave this offered approach available without a score gate."
+      "repair": {
+        "text": "Read back the findings with willing source keepers.",
+        "next": "court_rain_source_readback"
+      },
+      "completion_node": "court_rain_source_readback",
+      "earned": {
+        "insight": 2
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROG-062",
@@ -1536,12 +1631,17 @@
       },
       "after": {
         "text": "Check receipts, source labels, and copy permissions in order.",
-        "next": "court_rain_receipt_check",
-        "effects": {
-          "insight": 2
-        }
+        "next": "court_rain_receipt_check"
       },
-      "repair": "Credit Comprehension 2 for this method; leave this offered approach available without a score gate."
+      "repair": {
+        "text": "Check receipts, source labels, and copy permissions in order.",
+        "next": "court_rain_receipt_check"
+      },
+      "completion_node": "court_rain_receipt_check",
+      "earned": {
+        "insight": 2
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROG-063",
@@ -1605,12 +1705,17 @@
       },
       "after": {
         "text": "Observe the empty-chair transfer.",
-        "next": "court_cost_cradle_check",
-        "effects": {
-          "insight": 1
-        }
+        "next": "court_cost_cradle_check"
       },
-      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+      "repair": {
+        "text": "Observe the empty-chair transfer.",
+        "next": "court_cost_cradle_check"
+      },
+      "completion_node": "court_cost_cradle_check",
+      "earned": {
+        "insight": 1
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROG-066",
@@ -1628,12 +1733,17 @@
       },
       "after": {
         "text": "Revise the appointment timetable.",
-        "next": "court_cost_time_check",
-        "effects": {
-          "insight": 1
-        }
+        "next": "court_cost_time_check"
       },
-      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+      "repair": {
+        "text": "Revise the appointment timetable.",
+        "next": "court_cost_time_check"
+      },
+      "completion_node": "court_cost_time_check",
+      "earned": {
+        "insight": 1
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROG-067",
@@ -1651,12 +1761,17 @@
       },
       "after": {
         "text": "Check the annex correction history.",
-        "next": "court_cost_copy_annex",
-        "effects": {
-          "insight": 1
-        }
+        "next": "court_cost_copy_annex"
       },
-      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+      "repair": {
+        "text": "Check the annex correction history.",
+        "next": "court_cost_copy_annex"
+      },
+      "completion_node": "court_cost_copy_annex",
+      "earned": {
+        "insight": 1
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROG-068",
@@ -1674,12 +1789,17 @@
       },
       "after": {
         "text": "Review the outgoing notices.",
-        "next": "court_cost_copy_notices",
-        "effects": {
-          "insight": 1
-        }
+        "next": "court_cost_copy_notices"
       },
-      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+      "repair": {
+        "text": "Review the outgoing notices.",
+        "next": "court_cost_copy_notices"
+      },
+      "completion_node": "court_cost_copy_notices",
+      "earned": {
+        "insight": 1
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROG-069",
@@ -1697,12 +1817,17 @@
       },
       "after": {
         "text": "Check the shelf and return calendar.",
-        "next": "court_cost_shelf_check",
-        "effects": {
-          "insight": 1
-        }
+        "next": "court_cost_shelf_check"
       },
-      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+      "repair": {
+        "text": "Check the shelf and return calendar.",
+        "next": "court_cost_shelf_check"
+      },
+      "completion_node": "court_cost_shelf_check",
+      "earned": {
+        "insight": 1
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROG-070",
@@ -1720,12 +1845,17 @@
       },
       "after": {
         "text": "Review completed key entries.",
-        "next": "court_cost_key_check",
-        "effects": {
-          "insight": 1
-        }
+        "next": "court_cost_key_check"
       },
-      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+      "repair": {
+        "text": "Review completed key entries.",
+        "next": "court_cost_key_check"
+      },
+      "completion_node": "court_cost_key_check",
+      "earned": {
+        "insight": 1
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROG-071",
@@ -1743,12 +1873,17 @@
       },
       "after": {
         "text": "Review bounded invitation terms.",
-        "next": "court_cost_time_form",
-        "effects": {
-          "insight": 1
-        }
+        "next": "court_cost_time_form"
       },
-      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+      "repair": {
+        "text": "Review bounded invitation terms.",
+        "next": "court_cost_time_form"
+      },
+      "completion_node": "court_cost_time_form",
+      "earned": {
+        "insight": 1
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROG-072",
@@ -1766,12 +1901,17 @@
       },
       "after": {
         "text": "Ask about an interrupted appointment.",
-        "next": "court_cost_time_interruption",
-        "effects": {
-          "insight": 1
-        }
+        "next": "court_cost_time_interruption"
       },
-      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+      "repair": {
+        "text": "Ask about an interrupted appointment.",
+        "next": "court_cost_time_interruption"
+      },
+      "completion_node": "court_cost_time_interruption",
+      "earned": {
+        "insight": 1
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROG-073",
@@ -1789,12 +1929,17 @@
       },
       "after": {
         "text": "Review the access-only clinician note.",
-        "next": "court_cost_private_clinician",
-        "effects": {
-          "insight": 1
-        }
+        "next": "court_cost_private_clinician"
       },
-      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+      "repair": {
+        "text": "Review the access-only clinician note.",
+        "next": "court_cost_private_clinician"
+      },
+      "completion_node": "court_cost_private_clinician",
+      "earned": {
+        "insight": 1
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROG-074",
@@ -1812,12 +1957,17 @@
       },
       "after": {
         "text": "Distinguish yard work from court attendance.",
-        "next": "court_cost_private_yard",
-        "effects": {
-          "insight": 1
-        }
+        "next": "court_cost_private_yard"
       },
-      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+      "repair": {
+        "text": "Distinguish yard work from court attendance.",
+        "next": "court_cost_private_yard"
+      },
+      "completion_node": "court_cost_private_yard",
+      "earned": {
+        "insight": 1
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROG-075",
@@ -1835,12 +1985,17 @@
       },
       "after": {
         "text": "Review correction and stopping terms.",
-        "next": "court_cost_local_readback",
-        "effects": {
-          "insight": 1
-        }
+        "next": "court_cost_local_readback"
       },
-      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+      "repair": {
+        "text": "Review correction and stopping terms.",
+        "next": "court_cost_local_readback"
+      },
+      "completion_node": "court_cost_local_readback",
+      "earned": {
+        "insight": 1
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROG-076",
@@ -1858,12 +2013,17 @@
       },
       "after": {
         "text": "Check the messenger's limited task.",
-        "next": "court_cost_local_messenger",
-        "effects": {
-          "insight": 1
-        }
+        "next": "court_cost_local_messenger"
       },
-      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+      "repair": {
+        "text": "Check the messenger's limited task.",
+        "next": "court_cost_local_messenger"
+      },
+      "completion_node": "court_cost_local_messenger",
+      "earned": {
+        "insight": 1
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROG-077",
@@ -1881,12 +2041,17 @@
       },
       "after": {
         "text": "Explain optional local sessions first.",
-        "next": "court_cost_emphasize_local",
-        "effects": {
-          "insight": 1
-        }
+        "next": "court_cost_emphasize_local"
       },
-      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+      "repair": {
+        "text": "Explain optional local sessions first.",
+        "next": "court_cost_emphasize_local"
+      },
+      "completion_node": "court_cost_emphasize_local",
+      "earned": {
+        "insight": 1
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROG-078",
@@ -1904,12 +2069,17 @@
       },
       "after": {
         "text": "Explain staged source checking first.",
-        "next": "court_cost_emphasize_docket",
-        "effects": {
-          "insight": 1
-        }
+        "next": "court_cost_emphasize_docket"
       },
-      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+      "repair": {
+        "text": "Explain staged source checking first.",
+        "next": "court_cost_emphasize_docket"
+      },
+      "completion_node": "court_cost_emphasize_docket",
+      "earned": {
+        "insight": 1
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROG-079",
@@ -1927,12 +2097,17 @@
       },
       "after": {
         "text": "Open with the storage calendar gap.",
-        "next": "court_cost_report_gap",
-        "effects": {
-          "insight": 1
-        }
+        "next": "court_cost_report_gap"
       },
-      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+      "repair": {
+        "text": "Open with the storage calendar gap.",
+        "next": "court_cost_report_gap"
+      },
+      "completion_node": "court_cost_report_gap",
+      "earned": {
+        "insight": 1
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROG-080",
@@ -1979,12 +2154,17 @@
       },
       "after": {
         "text": "Ask the annex writer",
-        "next": "court_docket_writer_path",
-        "effects": {
-          "insight": 1
-        }
+        "next": "court_docket_writer_path"
       },
-      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+      "repair": {
+        "text": "Ask the annex writer",
+        "next": "court_docket_writer_path"
+      },
+      "completion_node": "court_docket_writer_path",
+      "earned": {
+        "insight": 1
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROG-082",
@@ -2006,14 +2186,22 @@
       "after": {
         "text": "Trace the index stamp",
         "next": "court_docket_index_path",
-        "effects": {
-          "insight": 1
-        },
         "requires": {
           "insight": 3
         }
       },
-      "repair": "Credit Comprehension 1 for this method; keep only relevant requirements {\"insight\":3}."
+      "repair": {
+        "text": "Trace the index stamp",
+        "next": "court_docket_index_path",
+        "requires": {
+          "insight": 3
+        }
+      },
+      "completion_node": "court_docket_index_path",
+      "earned": {
+        "insight": 1
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROG-083",
@@ -2034,12 +2222,17 @@
       },
       "after": {
         "text": "Check the completeness requirement",
-        "next": "court_docket_complete_path",
-        "effects": {
-          "insight": 1
-        }
+        "next": "court_docket_complete_path"
       },
-      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+      "repair": {
+        "text": "Check the completeness requirement",
+        "next": "court_docket_complete_path"
+      },
+      "completion_node": "court_docket_complete_path",
+      "earned": {
+        "insight": 1
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROG-084",
@@ -2061,14 +2254,22 @@
       "after": {
         "text": "Test an invitation against a shift",
         "next": "court_docket_invitation_path",
-        "effects": {
-          "insight": 1
-        },
         "requires": {
           "insight": 3
         }
       },
-      "repair": "Credit Comprehension 1 for this method; keep only relevant requirements {\"insight\":3}."
+      "repair": {
+        "text": "Test an invitation against a shift",
+        "next": "court_docket_invitation_path",
+        "requires": {
+          "insight": 3
+        }
+      },
+      "completion_node": "court_docket_invitation_path",
+      "earned": {
+        "insight": 1
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROG-085",
@@ -2089,12 +2290,17 @@
       },
       "after": {
         "text": "Trace the maintenance signature",
-        "next": "court_docket_signer_path",
-        "effects": {
-          "insight": 1
-        }
+        "next": "court_docket_signer_path"
       },
-      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+      "repair": {
+        "text": "Trace the maintenance signature",
+        "next": "court_docket_signer_path"
+      },
+      "completion_node": "court_docket_signer_path",
+      "earned": {
+        "insight": 1
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROG-086",
@@ -2116,14 +2322,22 @@
       "after": {
         "text": "Map the ordinary inspection view",
         "next": "court_docket_view_path",
-        "effects": {
-          "insight": 1
-        },
         "requires": {
           "insight": 3
         }
       },
-      "repair": "Credit Comprehension 1 for this method; keep only relevant requirements {\"insight\":3}."
+      "repair": {
+        "text": "Map the ordinary inspection view",
+        "next": "court_docket_view_path",
+        "requires": {
+          "insight": 3
+        }
+      },
+      "completion_node": "court_docket_view_path",
+      "earned": {
+        "insight": 1
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROG-087",
@@ -2144,12 +2358,17 @@
       },
       "after": {
         "text": "Check the offered source limits",
-        "next": "court_docket_keepers_path",
-        "effects": {
-          "insight": 1
-        }
+        "next": "court_docket_keepers_path"
       },
-      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+      "repair": {
+        "text": "Check the offered source limits",
+        "next": "court_docket_keepers_path"
+      },
+      "completion_node": "court_docket_keepers_path",
+      "earned": {
+        "insight": 1
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROG-088",
@@ -2171,14 +2390,22 @@
       "after": {
         "text": "Test record and witness counts",
         "next": "court_docket_reader_path",
-        "effects": {
-          "insight": 1
-        },
         "requires": {
           "insight": 3
         }
       },
-      "repair": "Credit Comprehension 1 for this method; keep only relevant requirements {\"insight\":3}."
+      "repair": {
+        "text": "Test record and witness counts",
+        "next": "court_docket_reader_path",
+        "requires": {
+          "insight": 3
+        }
+      },
+      "completion_node": "court_docket_reader_path",
+      "earned": {
+        "insight": 1
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROG-089",
@@ -2199,12 +2426,17 @@
       },
       "after": {
         "text": "Examine the judge's recorded check",
-        "next": "court_docket_judge_path",
-        "effects": {
-          "insight": 1
-        }
+        "next": "court_docket_judge_path"
       },
-      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+      "repair": {
+        "text": "Examine the judge's recorded check",
+        "next": "court_docket_judge_path"
+      },
+      "completion_node": "court_docket_judge_path",
+      "earned": {
+        "insight": 1
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROG-090",
@@ -2226,14 +2458,22 @@
       "after": {
         "text": "Test the review handoff",
         "next": "court_docket_handoff_path",
-        "effects": {
-          "insight": 1
-        },
         "requires": {
           "insight": 3
         }
       },
-      "repair": "Credit Comprehension 1 for this method; keep only relevant requirements {\"insight\":3}."
+      "repair": {
+        "text": "Test the review handoff",
+        "next": "court_docket_handoff_path",
+        "requires": {
+          "insight": 3
+        }
+      },
+      "completion_node": "court_docket_handoff_path",
+      "earned": {
+        "insight": 1
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROG-091",
@@ -2254,12 +2494,17 @@
       },
       "after": {
         "text": "Test the applicant's reply route",
-        "next": "court_docket_applicant_rehearsal",
-        "effects": {
-          "insight": 1
-        }
+        "next": "court_docket_applicant_rehearsal"
       },
-      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+      "repair": {
+        "text": "Test the applicant's reply route",
+        "next": "court_docket_applicant_rehearsal"
+      },
+      "completion_node": "court_docket_applicant_rehearsal",
+      "earned": {
+        "insight": 1
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROG-092",
@@ -2281,14 +2526,22 @@
       "after": {
         "text": "Read the proposed remand questions",
         "next": "court_docket_remand_rehearsal",
-        "effects": {
-          "insight": 1
-        },
         "requires": {
           "insight": 3
         }
       },
-      "repair": "Credit Comprehension 1 for this method; keep only relevant requirements {\"insight\":3}."
+      "repair": {
+        "text": "Read the proposed remand questions",
+        "next": "court_docket_remand_rehearsal",
+        "requires": {
+          "insight": 3
+        }
+      },
+      "completion_node": "court_docket_remand_rehearsal",
+      "earned": {
+        "insight": 1
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROG-093",
@@ -2309,12 +2562,17 @@
       },
       "after": {
         "text": "Check permission and storage routes",
-        "next": "court_docket_permission_final",
-        "effects": {
-          "insight": 1
-        }
+        "next": "court_docket_permission_final"
       },
-      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+      "repair": {
+        "text": "Check permission and storage routes",
+        "next": "court_docket_permission_final"
+      },
+      "completion_node": "court_docket_permission_final",
+      "earned": {
+        "insight": 1
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROG-094",
@@ -2336,14 +2594,22 @@
       "after": {
         "text": "Read the plain page for promises",
         "next": "court_docket_language_final",
-        "effects": {
-          "insight": 1
-        },
         "requires": {
           "insight": 3
         }
       },
-      "repair": "Credit Comprehension 1 for this method; keep only relevant requirements {\"insight\":3}."
+      "repair": {
+        "text": "Read the plain page for promises",
+        "next": "court_docket_language_final",
+        "requires": {
+          "insight": 3
+        }
+      },
+      "completion_node": "court_docket_language_final",
+      "earned": {
+        "insight": 1
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROG-095",
@@ -2407,12 +2673,17 @@
       },
       "after": {
         "text": "Ask Mei Dulan to explain the ferry permit comparison.",
-        "next": "ring_archive_permit_lesson",
-        "effects": {
-          "insight": 1
-        }
+        "next": "ring_archive_permit_lesson"
       },
-      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+      "repair": {
+        "text": "Ask Mei Dulan to explain the ferry permit comparison.",
+        "next": "ring_archive_permit_lesson"
+      },
+      "completion_node": "ring_archive_permit_lesson",
+      "earned": {
+        "insight": 1
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROG-098",
@@ -2430,12 +2701,17 @@
       },
       "after": {
         "text": "Spread the anchor load with Wei Jin.",
-        "next": "ring_road_brace_bank",
-        "effects": {
-          "insight": 1
-        }
+        "next": "ring_road_brace_bank"
       },
-      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+      "repair": {
+        "text": "Spread the anchor load with Wei Jin.",
+        "next": "ring_road_brace_bank"
+      },
+      "completion_node": "ring_road_brace_bank",
+      "earned": {
+        "insight": 1
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROG-099",
@@ -2453,12 +2729,17 @@
       },
       "after": {
         "text": "Mend your sleeve while Wei Jin writes his limits.",
-        "next": "ring_road_terms_silence",
-        "effects": {
-          "trust": 1
-        }
+        "next": "ring_road_terms_silence"
       },
-      "repair": "Credit Dao Heart 1 for this method; leave this offered approach available without a score gate."
+      "repair": {
+        "text": "Mend your sleeve while Wei Jin writes his limits.",
+        "next": "ring_road_terms_silence"
+      },
+      "completion_node": "ring_road_terms_silence",
+      "earned": {
+        "trust": 1
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROG-100",
@@ -2476,12 +2757,17 @@
       },
       "after": {
         "text": "Take the modest cup-sorting shifts.",
-        "next": "foundry_wage_001",
-        "effects": {
-          "insight": 1
-        }
+        "next": "foundry_wage_001"
       },
-      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+      "repair": {
+        "text": "Take the modest cup-sorting shifts.",
+        "next": "foundry_wage_001"
+      },
+      "completion_node": "foundry_wage_005",
+      "earned": {
+        "insight": 1
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROG-101",
@@ -2499,12 +2785,17 @@
       },
       "after": {
         "text": "Keep the lighter rota and recovered shoulder practice.",
-        "next": "foundry_rest_001",
-        "effects": {
-          "resolve": 1
-        }
+        "next": "foundry_rest_001"
       },
-      "repair": "Credit Physique 1 for this method; leave this offered approach available without a score gate."
+      "repair": {
+        "text": "Keep the lighter rota and recovered shoulder practice.",
+        "next": "foundry_rest_001"
+      },
+      "completion_node": "foundry_rest_005",
+      "earned": {
+        "resolve": 1
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROG-102",
@@ -2522,12 +2813,17 @@
       },
       "after": {
         "text": "Clear the upper access and account for departing workers.",
-        "next": "foundry_access_001",
-        "effects": {
-          "insight": 1
-        }
+        "next": "foundry_access_001"
       },
-      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+      "repair": {
+        "text": "Clear the upper access and account for departing workers.",
+        "next": "foundry_access_001"
+      },
+      "completion_node": "foundry_access_004",
+      "earned": {
+        "insight": 1
+      },
+      "current_credit_note": "The 2026-10-05 revision retains this corrected attribute category and amount at actual completion instead of selection."
     },
     {
       "id": "PROSE-001",
