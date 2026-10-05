@@ -393,25 +393,21 @@
       "choices": [
         {
           "text": "Work beside Han Pei at the comparison table.",
-          "next": "harbor_p03_031",
-          "effects": {
-            "insight": 1
-          }
+          "next": "harbor_p03_031"
         },
         {
           "text": "Take Yan Su's dry work line.",
-          "next": "harbor_p03_035",
-          "effects": {
-            "insight": 1
-          }
+          "next": "harbor_p03_035"
         },
         {
           "text": "Stand with He Ming at the claimant queue.",
-          "next": "harbor_p03_039",
-          "effects": {
-            "insight": 1
-          }
+          "next": "harbor_p03_039"
         }
+      ],
+      "cast": [
+        "lin_yue",
+        "harbor_han_pei",
+        "harbor_yan_su"
       ]
     },
     "harbor_p03_031": {
@@ -464,7 +460,10 @@
         "realm": "qi_gathering",
         "stage": "4: Second pair"
       },
-      "next": "harbor_p03_043"
+      "next": "harbor_p03_043",
+      "earned": {
+        "insight": 1
+      }
     },
     "harbor_p03_035": {
       "chapter": "book_xiv_harbor",
@@ -516,7 +515,10 @@
         "realm": "qi_gathering",
         "stage": "4: Second pair"
       },
-      "next": "harbor_p03_043"
+      "next": "harbor_p03_043",
+      "earned": {
+        "insight": 1
+      }
     },
     "harbor_p03_039": {
       "chapter": "book_xiv_harbor",
@@ -568,7 +570,10 @@
         "realm": "qi_gathering",
         "stage": "4: Second pair"
       },
-      "next": "harbor_p03_043"
+      "next": "harbor_p03_043",
+      "earned": {
+        "insight": 1
+      }
     },
     "harbor_p03_043": {
       "chapter": "book_xiv_harbor",

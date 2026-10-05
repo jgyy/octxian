@@ -281,25 +281,21 @@
       "choices": [
         {
           "text": "Walk the household towpath with Tian Min.",
-          "next": "canal_p01_022",
-          "effects": {
-            "trust": 1
-          }
+          "next": "canal_p01_022"
         },
         {
           "text": "Compare the boundary marks with Luo Zhen.",
-          "next": "canal_p01_030",
-          "effects": {
-            "insight": 1
-          }
+          "next": "canal_p01_030"
         },
         {
           "text": "Hear Han Shou's surviving loan history.",
-          "next": "canal_p01_038",
-          "effects": {
-            "resolve": 1
-          }
+          "next": "canal_p01_038"
         }
+      ],
+      "cast": [
+        "lin_yue",
+        "luo_zhen",
+        "tian_min"
       ]
     },
     "canal_p01_022": {
@@ -404,7 +400,10 @@
         "stage": "4: Second pair"
       },
       "text": "By noon, the walk had shown a bank with different hopes rather than twenty-eight interchangeable opponents. Some wanted release from a duty, some wanted recognition of work completed, some wanted a repaired drain badly enough to welcome a buyer. Yue returned with receipt numbers and ordinary repair locations. Tian returned with a harder task: represent households without pretending all of them wanted the same remedy. They stopped at her door to fold the linen before the afternoon rain touched it.",
-      "next": "canal_p01_046"
+      "next": "canal_p01_046",
+      "earned": {
+        "trust": 1
+      }
     },
     "canal_p01_030": {
       "chapter": "book_xii_canal",
@@ -508,7 +507,10 @@
         "stage": "4: Second pair"
       },
       "text": "Back at the shed, they placed the boundary plan beside the actual-use map. Public waterbed, private loading plot, swinging crane, common path and seasonal spill did not fit into one bright outline. The sale notice had made them a single lot because a single lot was easier to price. Yue's map grew less beautiful as it grew more accurate. Luo said an ugly useful map might keep them from replacing one simple story with another equally expensive one.",
-      "next": "canal_p01_046"
+      "next": "canal_p01_046",
+      "earned": {
+        "insight": 1
+      }
     },
     "canal_p01_038": {
       "chapter": "book_xii_canal",
@@ -612,7 +614,10 @@
         "stage": "4: Second pair"
       },
       "text": "Outside, Yue found Mo Ran waiting with a root sack repaired in coarse thread. He asked whether Han was a monster. She said he was a man with a real debt, a pressured business and a notice that claimed too much. Mo Ran considered that a troublesome answer. 'Monsters sometimes make the paperwork easier,' he said. Yue laughed despite herself. Then she went back to the keeper's shed, where a canal gate still leaked regardless of how complicated its creditor had become.",
-      "next": "canal_p01_046"
+      "next": "canal_p01_046",
+      "earned": {
+        "insight": 1
+      }
     },
     "canal_p01_046": {
       "chapter": "book_xii_canal",
@@ -953,24 +958,15 @@
       "choices": [
         {
           "text": "Help Tian prepare the household reading.",
-          "next": "canal_p01_072",
-          "effects": {
-            "trust": 1
-          }
+          "next": "canal_p01_072"
         },
         {
           "text": "Help Pei Fen distinguish her memories and surviving entries.",
-          "next": "canal_p01_073",
-          "effects": {
-            "insight": 1
-          }
+          "next": "canal_p01_073"
         },
         {
           "text": "Help Bao present the gate's physical defect.",
-          "next": "canal_p01_074",
-          "effects": {
-            "resolve": 1
-          }
+          "next": "canal_p01_074"
         }
       ]
     },
@@ -985,7 +981,10 @@
         "stage": "4: Second pair"
       },
       "text": "Tian spread the household list over her sewing table. Yue helped compare each current resident with the old obligation line, leaving space for absent families to answer later. The seamstress kept working between names because a sail was due before dawn. She said a fair meeting should make room for people whose work could not pause merely because a notice declared a convenient hour. They added a second reading at the grain counter, then folded the list away from the lamp.",
-      "next": "canal_p01_075"
+      "next": "canal_p01_075",
+      "earned": {
+        "trust": 1
+      }
     },
     "canal_p01_073": {
       "chapter": "book_xii_canal",
@@ -998,7 +997,10 @@
         "stage": "4: Second pair"
       },
       "text": "Pei Fen opened a toll notebook with broad columns written before her eyesight weakened. Yue checked its dates against the clerk's calendar copy and helped make a readable extract for tomorrow. The retired clerk wanted to tell everyone what the original annex said. Yue asked her to distinguish memory from the entries they could actually show. Pei grumbled, then wrote 'I remember' above one passage. The phrase preserved her voice without disguising it as a surviving document.",
-      "next": "canal_p01_075"
+      "next": "canal_p01_075",
+      "earned": {
+        "insight": 1
+      }
     },
     "canal_p01_074": {
       "chapter": "book_xii_canal",
@@ -1011,7 +1013,10 @@
         "stage": "4: Second pair"
       },
       "text": "Bao placed the worn gate seal beside a straight wooden model. Yue helped label the measured hollow and the binding edge for tomorrow's explanation. The carpenter said villagers sometimes listened better when a broken part sat on the table. He would still need to explain its limits: this seal showed a leak, not who owned the bank. Yue wrote that distinction beneath the diagram. Bao kept it, laughing that a piece of rotten wood was about to become more carefully introduced than he usually was.",
-      "next": "canal_p01_075"
+      "next": "canal_p01_075",
+      "earned": {
+        "insight": 1
+      }
     },
     "canal_p01_075": {
       "chapter": "book_xii_canal",

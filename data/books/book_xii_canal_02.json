@@ -380,24 +380,15 @@
       "choices": [
         {
           "text": "Help preserve and compare the household receipt.",
-          "next": "canal_p02_030",
-          "effects": {
-            "insight": 1
-          }
+          "next": "canal_p02_030"
         },
         {
           "text": "Help Bao move and repair the ordinary drying rack.",
-          "next": "canal_p02_040",
-          "effects": {
-            "resolve": 1
-          }
+          "next": "canal_p02_040"
         },
         {
           "text": "Inspect the towline's contact path with Luo.",
-          "next": "canal_p02_050",
-          "effects": {
-            "trust": 1
-          }
+          "next": "canal_p02_050"
         }
       ]
     },
@@ -529,7 +520,10 @@
         "stage": "4: Second pair"
       },
       "text": "At the grain counter, Yue gave Luo the two-copy packet. The keeper added it to the archive request while Bao reported that the rack could be repaired with Han's plank. Nobody's evening summary treated the damaged original as a magical answer. It had revealed a specific fourth-season work entry and a cross-household replacement practice. Those were enough to change tomorrow's search. Yue ate a broken biscuit and discovered she had been too absorbed to notice her own hunger.",
-      "next": "canal_p02_060"
+      "next": "canal_p02_060",
+      "earned": {
+        "insight": 1
+      }
     },
     "canal_p02_040": {
       "chapter": "book_xii_canal",
@@ -659,7 +653,10 @@
         "stage": "4: Second pair"
       },
       "text": "At the grain counter, Bao reported the rack repair and Luo added a towpath-clearance sketch to the review packet. The clerk brought the dried household receipt and its earlier copy from the table. Yue listened to their differences while eating a broken biscuit. She had missed the fragile-paper work, but its results could still be brought into their shared investigation. The new rack held a blanket in morning light. Tomorrow's archive request would follow a fourth-season reference.",
-      "next": "canal_p02_060"
+      "next": "canal_p02_060",
+      "earned": {
+        "resolve": 1
+      }
     },
     "canal_p02_050": {
       "chapter": "book_xii_canal",
@@ -789,7 +786,10 @@
         "stage": "4: Second pair"
       },
       "text": "At the grain counter, Luo laid the path sketch beside Bao's rack report and the clerk's two-copy receipt packet. Yue ate a broken biscuit while the others explained what she had missed. The new fourth-season reference would guide tomorrow's archive request. The guide's loaded trial would precede reopening. Han's board would return on time. The afternoon had produced several small obligations they could actually finish, and one older obligation they were finally learning how to examine.",
-      "next": "canal_p02_060"
+      "next": "canal_p02_060",
+      "earned": {
+        "trust": 1
+      }
     },
     "canal_p02_060": {
       "chapter": "book_xii_canal",

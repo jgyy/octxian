@@ -34,7 +34,7 @@ python tools/verify_screenshots.py
 godot --headless --path . --export-pack Linux build/jade-vow.pck
 ```
 
-Capture mode writes seventy-two viewport screenshots to `build/screenshots` and sixteen timed viewport frames to `build/animations/rendered`. Screenshot verification creates compact JPEG previews, `rendered_game.webp`, and a sampled game-frame sheet. Timed capture fixes the character's initial frame and disables atmospheric background animation so that measured changes reflect the character.
+Capture mode writes seventy-eight viewport screenshots to `build/screenshots` and sixteen timed viewport frames to `build/animations/rendered`. Screenshot verification creates compact JPEG previews, `rendered_game.webp`, and a sampled game-frame sheet. Timed capture fixes the character's initial frame and disables atmospheric background animation so that measured changes reflect the character.
 
 The packaged executable discovers `jade-vow.pck` beside it. CI uses Xvfb with dummy audio for desktop capture and standalone playback. It runs the exported package from a folder without the source checkout and checks logs for errors, missing resources, and clean shutdown.
 
@@ -66,7 +66,7 @@ Portrait preparation reuses unchanged, verified files. The feature-branch bundle
 
 Reading scenes use a 680-pixel portrait height with room for the whole bob beneath the navigation bar and above the footer. Title portraits use 730 pixels; wardrobe previews use 350. Uniform scaling preserves proportions. Changing `display_height` updates a cached portrait's scale immediately.
 
-The stateful Godot route traversal includes continuations across all eleven books and all authored endings. Test travelers reuse one parsed campaign. With nonnegative stat effects, values at or above the greatest gate are equivalent for reachability; capped states are deduplicated. Overflow and corrupt saves are checked separately at full values. The default `StoryState.new()` still parses its own story, keeping mutated corruption fixtures isolated.
+The stateful Godot route traversal includes continuations across all seventeen books and all authored endings. Test travelers reuse one parsed campaign. With nonnegative stat effects, values at or above the greatest gate are equivalent for reachability; capped states are deduplicated. Overflow and corrupt saves are checked separately at full values. The default `StoryState.new()` still parses its own story, keeping mutated corruption fixtures isolated.
 
 `data/continuity.json` must list every delivered chapter as reviewed and keep its fact anchors valid. Its checkpoints name scenes that must lie on every path to a later decision. The validator removes each required scene in turn and rejects a still-reachable decision, catching shortcuts that bypass knowledge or safety work. Editorial review also covers chronology, custody, privacy, and alternate world outcomes.
 
@@ -74,7 +74,7 @@ Scene effects draw at the current control size. Panels pause their clock; reduce
 
 ## Scope
 
-This draft continues through Book XI; its exact authored count remains far below the requested million-word target. Narration uses one neural timbre with character pacing. Animation is a gentle whole-body bob of each intact portrait. Additional chapters, voices, and outfit portraits can extend the existing data and asset pipeline.
+This draft continues through Book XVII with 1,124,725 displayed prose words. The manuscript target is met; the independent artwork quotas remain incomplete. Narration uses one neural timbre with character pacing. Animation is a gentle whole-body bob of each intact portrait. Additional chapters, voices, and outfit portraits can extend the existing data and asset pipeline.
 
 ## Extra interior collection
 
@@ -99,3 +99,17 @@ Git history was compacted by removing binary media from old commits and retainin
 ## Storm and salt-road continuation
 
 Books X and XI continue all three prior endings while keeping the earned fourth stage. The source audits identify 53 distinct existing-content defects, with 78 exact current anchors and an original-node index. Run `python tools/validate_continuation_audits.py --source-base 8dd58078b349f27b228be1107599572bf850efdc --source-node-index docs/CONTINUATION_SOURCE_INDEX_20261003.json`. CI runs this validator alongside regression tests and adds six actual captures, bringing the total to 72. The source-free smoke test loads both new chapters, their two portrait originals, native environment dimensions and generated Vorbis narration. [Current scope and accounting](CONTINUATION_20261003.md).
+
+## Million-word integration
+
+Books XII–XVII now load through the campaign manifest. Run `python -m tools.validate_million_continuation --verify-source` with source commit a90350672fb0468b72fc176b22f3e3876c95febc available. CI fetches that exact source and authenticates 101 choice/transition anchors. It reuses the prior branch's draft narration only after validating every clip against its actual playable text.
+
+Run `godot --headless --path . --script tests/continuation_test.gd` for once-only practice credit, saved completion records, invalid-save atomicity, all five late-role choices, ensemble portrait bounds and layered-motion behavior. New viewport captures are forest_ensemble, lanternwing_crane, desert_attributes, archive_ensemble and archive_courtyard and archive_lantern_keeper. The feature-branch bundle publishes tested media after the full game job succeeds.
+
+The route traversal now retains nondominated capped score vectors at each scene. Because requirements are minima and effects are nonnegative, a stronger vector can take every choice of a weaker one. The source validator also verifies that the campaign is acyclic, making once-only completion history irrelevant to future route availability. This preserves scene and ending coverage while avoiding repeated traversal of the million-word campaign for weaker score variants. Exact saves, score overflow and corrupt input remain separate engine regressions.
+
+Full CI sets `JADE_VOW_VOICE_WORKERS=4` for independent narration clips. Each inference uses one CPU thread; Piper's phonemizer uses its own lock. A single coordinator writes atomic completion checkpoints and validates every clip. Local generation defaults to one worker. The parallel regression forces out-of-order completion and verifies each scene's text hash and the sole checkpoint writer.
+
+The bundle job dispatches CI for its committed media head in a separate concurrency group. It checks matching open PRs and enables strict production quotas when any is no longer draft. That verification run never creates another media commit.
+
+Before the expanded clips are bundled, CI can bootstrap narration from successful integration run [37182354432](https://github.com/jgyy/octxian/actions/runs/37182354432). This optional artifact restore runs only while the first archive closing clip is absent; expired artifacts fall back to generation. Every adopted clip still undergoes model, text, byte and decoded-audio checks. Required validation and package playback remain mandatory.

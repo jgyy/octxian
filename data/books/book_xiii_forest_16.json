@@ -133,17 +133,11 @@
       "choices": [
         {
           "text": "Keep the warnings and route signals clear at the message station.",
-          "next": "forest_16_signal_001",
-          "effects": {
-            "insight": 1
-          }
+          "next": "forest_16_signal_001"
         },
         {
           "text": "Work the water handoff line under its supply supervisor.",
-          "next": "forest_16_water_001",
-          "effects": {
-            "insight": 1
-          }
+          "next": "forest_16_water_001"
         }
       ]
     },
@@ -496,7 +490,10 @@
       "actor": "lin_yue",
       "text": "Lin left the message board with the qualified relief crew and went to the common review. She had seen the fire through reports, glimpses, and the words people needed in time. The water crew would tell its own part. The public watch would tell the waiting households' part. The operation would have one shared sequence without pretending any one observer had held the whole hillside inside a glance. She sat down, hands steady, and listened for the next offered account.",
       "background": "forest_winter_boundary",
-      "next": "forest_16_review_001"
+      "next": "forest_16_review_001",
+      "earned": {
+        "insight": 1
+      }
     },
     "forest_16_water_001": {
       "chapter": "book_xiii_forest",
@@ -847,7 +844,10 @@
       "actor": "lin_yue",
       "text": "At the evening review, the water supervisor brought the accepted stock sheet and a separate description of the cart delay. The signal supervisor brought the times of the wind pause, spot report, and stop order. Lin heard the other crew's account with the rest of the room, learning details she had not witnessed. The leader set both accounts beside the ground inspections. The report would preserve a smaller completed operation, one controlled spot, an unlit strip, and continuing watches. It would offer no finished forest in exchange for a finished day.",
       "background": "forest_boundary_map_room",
-      "next": "forest_16_review_001"
+      "next": "forest_16_review_001",
+      "earned": {
+        "resolve": 1
+      }
     },
     "forest_16_review_001": {
       "chapter": "book_xiii_forest",

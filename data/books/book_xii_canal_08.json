@@ -380,24 +380,15 @@
       "choices": [
         {
           "text": "Carry the amended decisions with Han.",
-          "next": "canal_p08_030",
-          "effects": {
-            "resolve": 1
-          }
+          "next": "canal_p08_030"
         },
         {
           "text": "Arrange the actual loss-review visits.",
-          "next": "canal_p08_040",
-          "effects": {
-            "insight": 1
-          }
+          "next": "canal_p08_040"
         },
         {
           "text": "Help Tian invite present paid workers.",
-          "next": "canal_p08_050",
-          "effects": {
-            "trust": 1
-          }
+          "next": "canal_p08_050"
         }
       ]
     },
@@ -529,7 +520,10 @@
         "stage": "4: Second pair"
       },
       "text": "Yue finished the decision deliveries with Han's copied correction dry beneath its cover. One household would collect later through its chosen receiver, and the clerk recorded that arrangement. Han went back to his private store carrying less authority and twenty-four actual copper. Yue had seen him move crates, sign a correction and resist another speech about his mother. None of that purchased forgiveness. It made tomorrow's conversations begin from changed actions rather than the unchanged notice he first asked her to read in full.",
-      "next": "canal_p08_060"
+      "next": "canal_p08_060",
+      "earned": {
+        "insight": 1
+      }
     },
     "canal_p08_040": {
       "chapter": "book_xii_canal",
@@ -659,7 +653,10 @@
         "stage": "4: Second pair"
       },
       "text": "Yue returned to the keeper's store with the agreed review dates, narrowed earlier-winter cause claim and offered copies left under their actual permissions. The clerk accepted the comparison questions for the fortieth day. The householder kept her originals and the large-column notice. She had not received a full payment this afternoon, and Yue did not call the appointment compensation. What she had gained was an open drain, a corrected current schedule and a hearing that would have to answer actual dated evidence when its promised day arrived.",
-      "next": "canal_p08_060"
+      "next": "canal_p08_060",
+      "earned": {
+        "insight": 1
+      }
     },
     "canal_p08_050": {
       "chapter": "book_xii_canal",
@@ -789,7 +786,10 @@
         "stage": "4: Second pair"
       },
       "text": "Tian gave the clerk the actual applicant replies, accepted tasks and remaining contacts. Yue kept the private reasons outside the public work board, as the speakers wanted. The young man went to his rope examination; the woman went to prepare her sister's room. The accepted future workers left with their own task copies. A job invitation had succeeded even when several people said no. The bank would have the hands it actually hired, and the people outside its schedule would keep their own days.",
-      "next": "canal_p08_060"
+      "next": "canal_p08_060",
+      "earned": {
+        "trust": 1
+      }
     },
     "canal_p08_060": {
       "chapter": "book_xii_canal",

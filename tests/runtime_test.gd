@@ -317,8 +317,18 @@ func _test_attribute_ui(game) -> void:
 		game._scene()
 		game._advance()
 		await process_frame
+		var choice_view: ScrollContainer = game.choice_box.get_parent()
+		var viewport_rect: Rect2 = choice_view.get_global_rect()
+		check(choice_view.clip_contents and viewport_rect.end.y <= 568.0, "Choice viewport must clip all cards above the dialogue: " + id)
+		var overflow: bool = game.choice_box.size.y > choice_view.size.y
 		for card in game.choice_box.get_children():
-			check(card.get_global_rect().end.y <= 568.0, "Choice cards and attribute summaries must clear the dialogue: " + id)
+			check(card.size.y <= viewport_rect.size.y, "Each whole choice and its attribute summary must fit in the viewport: " + id)
+			if overflow:
+				choice_view.ensure_control_visible(card)
+				await process_frame
+			var card_rect: Rect2 = card.get_global_rect()
+			check(card_rect.position.x >= viewport_rect.position.x and card_rect.end.x <= viewport_rect.end.x, "Choice text must remain horizontally visible: " + id)
+			check(card_rect.position.y >= viewport_rect.position.y - 1.0 and card_rect.end.y <= viewport_rect.end.y + 1.0, "Every choice and attribute summary must be reachable inside the clipped viewport: " + id)
 	game._begin()
 	check(game.state.history.is_empty() and game.state.stats == {"qi": 0, "trust": 0, "insight": 0, "resolve": 0}, "A new journey must reset attribute gains and history")
 	game._attributes()

@@ -380,24 +380,15 @@
       "choices": [
         {
           "text": "Check the stop's witness marks with Bao.",
-          "next": "canal_p09_030",
-          "effects": {
-            "insight": 1
-          }
+          "next": "canal_p09_030"
         },
         {
           "text": "Walk the altered retreat notices with Luo.",
-          "next": "canal_p09_040",
-          "effects": {
-            "resolve": 1
-          }
+          "next": "canal_p09_040"
         },
         {
           "text": "Finish actual worker handovers with Tian.",
-          "next": "canal_p09_050",
-          "effects": {
-            "trust": 1
-          }
+          "next": "canal_p09_050"
         }
       ]
     },
@@ -529,7 +520,10 @@
         "stage": "4: Second pair"
       },
       "text": "Yue delivered the fixed witness marks, split pebble fragments and short seal replacement entry to the clerk. None altered the current test head or enlarged the pocket's permitted route. They made the prepared ordinary fitting more dependable. Bao would show Jiang the actual seated brace tomorrow. Yue washed dust from her hands and found she could remember the sound of the pebble breaking more vividly than any clause from the hearing. The work had begun teaching her through things that stayed changed after she stopped looking.",
-      "next": "canal_p09_060"
+      "next": "canal_p09_060",
+      "earned": {
+        "insight": 1
+      }
     },
     "canal_p09_040": {
       "chapter": "book_xii_canal",
@@ -659,7 +653,10 @@
         "stage": "4: Second pair"
       },
       "text": "Yue gave the clerk the path handover and the two offered contact changes. Luo asked whether she had walked the route with an actual load after the basket turn. Yue had, briefly, and recorded the experience without presenting it as a complete load test for every porter. The inner paving remained accepted at its posted ordinary use. The added rest point made it more usable. Tomorrow's apparatus operator would find fewer people guessing where they were supposed to stand when an ordinary test began.",
-      "next": "canal_p09_060"
+      "next": "canal_p09_060",
+      "earned": {
+        "resolve": 1
+      }
     },
     "canal_p09_050": {
       "chapter": "book_xii_canal",
@@ -789,7 +786,10 @@
         "stage": "4: Second pair"
       },
       "text": "At the counter, Yue gave the clerk the corrected address, changed accepted hour and specific worker reply. Tian went back to her stitching room without another canal stack. Their afternoon had left a bruise in the conversation and a better understanding of how easily useful help could become occupation. Yue promised to ask what help was actually wanted next time, then stopped before making the promise grander. She would practice it at the next ordinary table. Tonight Tian had her own work, and Yue would finish elsewhere.",
-      "next": "canal_p09_060"
+      "next": "canal_p09_060",
+      "earned": {
+        "trust": 1
+      }
     },
     "canal_p09_060": {
       "chapter": "book_xii_canal",

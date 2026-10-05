@@ -380,24 +380,15 @@
       "choices": [
         {
           "text": "Check the nearer warning call with Luo.",
-          "next": "canal_p12_030",
-          "effects": {
-            "trust": 1
-          }
+          "next": "canal_p12_030"
         },
         {
           "text": "Compare the repaired crossing with Bao.",
-          "next": "canal_p12_040",
-          "effects": {
-            "insight": 1
-          }
+          "next": "canal_p12_040"
         },
         {
           "text": "Carry the family-approved attribution copies.",
-          "next": "canal_p12_050",
-          "effects": {
-            "resolve": 1
-          }
+          "next": "canal_p12_050"
         }
       ]
     },
@@ -529,7 +520,10 @@
         "stage": "4: Second pair"
       },
       "text": "At the landing, Luo delivered the revised relay position, full spoken phrases and actual slower departure interval. Yue added the reseated apron stone and the light sack's agreed arrangement without listing the household's private objects. The grandmother kept her cup and medicine indoors until needed. Tomorrow's trial would use the checked call; a future warning would still require actual current conditions and response staff. The house now had words that meant two different actions, heard from a real stool rather than imagined from the path.",
-      "next": "canal_p12_060"
+      "next": "canal_p12_060",
+      "earned": {
+        "trust": 1
+      }
     },
     "canal_p12_040": {
       "chapter": "book_xii_canal",
@@ -659,7 +653,10 @@
         "stage": "4: Second pair"
       },
       "text": "At the landing, Bao submitted the corrected shoulder dimensions, repeated level and small bucket result. Yue kept the displaced-staff correction visible in the exact field notes. The gardener accepted that the planned repeat would watch his bean boundary again. The bucket had supported a modest repair; it had not certified flood behavior. Yue washed the clay from her hands and felt pleased by a useful observation that belonged to ordinary water and ordinary ground. The larger questions could wait until they had a real test rather than a prettier sentence.",
-      "next": "canal_p12_060"
+      "next": "canal_p12_060",
+      "earned": {
+        "insight": 1
+      }
     },
     "canal_p12_050": {
       "chapter": "book_xii_canal",
@@ -789,7 +786,10 @@
         "stage": "4: Second pair"
       },
       "text": "At the landing, Yue gave the clerk's receiver the approved attribution and left the personal tune in the niece's chosen delivery cover. The niece would return home before supper rather than remain for every canal discussion. Qiao Lan's public name could now be restored, its exterior reference matching the accepted collective season. Yue had watched a family decide how much of its dead sister's story should enter the world. The choice gave the recovered line more dignity than the speed with which an eager apprentice might have announced it.",
-      "next": "canal_p12_060"
+      "next": "canal_p12_060",
+      "earned": {
+        "resolve": 1
+      }
     },
     "canal_p12_060": {
       "chapter": "book_xii_canal",

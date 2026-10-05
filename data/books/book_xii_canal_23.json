@@ -380,24 +380,15 @@
       "choices": [
         {
           "text": "Attend Tian Min's actual sail fitting as her friend.",
-          "next": "canal_p23_030",
-          "effects": {
-            "trust": 1
-          }
+          "next": "canal_p23_030"
         },
         {
           "text": "Visit Bao Jun for his sitting lesson and recovery review.",
-          "next": "canal_p23_040",
-          "effects": {
-            "resolve": 1
-          }
+          "next": "canal_p23_040"
         },
         {
           "text": "Hear the private family page Han Shou chooses to share.",
-          "next": "canal_p23_050",
-          "effects": {
-            "insight": 1
-          }
+          "next": "canal_p23_050"
         }
       ]
     },
@@ -529,7 +520,10 @@
         "stage": "4: Second pair"
       },
       "text": "When Yue left, Tian and her mother were listing food for the downriver journey. The loft's acceptance reply still had to arrive, but Tian's own decision and successful assessment were real. She called Yue back from the doorway to say goodbye before tomorrow's public closing grew crowded. They embraced awkwardly around the sewing basket, then laughed at the handles between them. Yue promised no shared road she had not booked. Tian said, \"Come somewhere because you want to see me, one day.\" Yue answered that she wanted that, and would ask for an actual date when she could.",
-      "next": "canal_p23_060"
+      "next": "canal_p23_060",
+      "earned": {
+        "trust": 1
+      }
     },
     "canal_p23_040": {
       "chapter": "book_xii_canal",
@@ -659,7 +653,10 @@
         "stage": "4: Second pair"
       },
       "text": "The visit ended before Bao's wrist grew tired. He kept his clinic permission, accepted short drawing appointment, and actual paid work records at home. Yue kept only her personal travel leaf. The carpenter had not recovered full strength or given a loaded final demonstration. He had found a way to teach and accept a limited private task while waiting. At the lock Luo asked how he was. Yue gave the work restriction he had permitted her to share and said the tea was terrible. The keeper looked affronted on behalf of the entire district's kettles.",
-      "next": "canal_p23_060"
+      "next": "canal_p23_060",
+      "earned": {
+        "insight": 1
+      }
     },
     "canal_p23_050": {
       "chapter": "book_xii_canal",
@@ -789,7 +786,10 @@
         "stage": "4: Second pair"
       },
       "text": "Yue returned to the lock with no family letter in her pack. Han retained his private page, valid claim, completed refund, and smaller uncertain business. Tian retained her own practical assessment and winter decision. Yue retained the afternoon's laughter, which was not a source needing a numbered shelf. Luo asked whether the pickles had been as good as expected. Yue said better. The keeper declared the choice justified and went back to her round. Beyond the shed ordinary water slid beneath the repaired cap, offering nobody a grander title for having learned to listen beside it.",
-      "next": "canal_p23_060"
+      "next": "canal_p23_060",
+      "earned": {
+        "insight": 1
+      }
     },
     "canal_p23_060": {
       "chapter": "book_xii_canal",

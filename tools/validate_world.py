@@ -206,7 +206,20 @@ def inspect(root):
             assert len(alternatives) >= 2 and len({c["next"] for c in alternatives}) == len(alternatives)
             assert all(not set(c) & {"effects", "requires"} for c in alternatives), "Chance does not award skills or gate rights"
         if "effect" in node:
-            assert node["effect"] in {"lanterns", "rain", "reed_light", "bell", "qi", "first_trace", "paired_trace", "second_pair_trace", "storm_discharge", "none"}
+            assert node["effect"] in {"lanterns", "rain", "reed_light", "bell", "qi", "first_trace", "paired_trace", "second_pair_trace", "storm_discharge", "snow", "mist", "dust", "heat_haze", "embers", "petals", "sea_spray", "none"}
+        if "effects" in node:
+            assert isinstance(node["effects"], list) and 1 <= len(node["effects"]) <= 3
+            assert len(set(node["effects"])) == len(node["effects"])
+            assert set(node["effects"]) <= {"lanterns", "rain", "reed_light", "bell", "qi", "first_trace", "paired_trace", "second_pair_trace", "storm_discharge", "snow", "mist", "dust", "heat_haze", "embers", "petals", "sea_spray", "none"}
+        if "cast" in node:
+            assert isinstance(node["cast"], list) and 1 <= len(node["cast"]) <= 3
+            assert len(set(node["cast"])) == len(node["cast"])
+            assert node["actor"] in node["cast"] and set(node["cast"]) <= actors
+        if "earned" in node:
+            assert "choices" not in node, "Completed practice belongs after decisions"
+            assert isinstance(node["earned"], dict) and node["earned"]
+            assert all(stat in STAT_KEYS and type(value) is int and 0 < value <= 10
+                       for stat, value in node["earned"].items())
         if "background" in node:
             assert node["background"] in backgrounds
         if "chapter" in node:
