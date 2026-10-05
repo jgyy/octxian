@@ -1,6 +1,6 @@
 # Book VI continuity repairs · 2026-10-03
 
-Review base: `8dd58078b349f27b228be1107599572bf850efdc`.
+Review base: `d2ce2851c8e47842104607ec5999ffba6fdabe1c`.
 
 This batch repairs **14 distinct source defects across 28 scene paragraphs**. Repeated manifestations count once. The court review did not find a defensible 25 new defects; no extra count is claimed.
 

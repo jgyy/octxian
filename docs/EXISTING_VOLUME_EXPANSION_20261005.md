@@ -14,7 +14,7 @@ The following original allocation accounts for the 873,248-word gap before this 
 
 The allocations can shift after editorial review while the measured total remains the acceptance criterion. The game keeps each displayed passage at 100 words or fewer; a longer scene therefore spans multiple connected passages. New branches rejoin before the original observation and must retain dates, wages, object custody, injuries, existing conclusions and earned cultivation limits. They should deepen character motives and adversarial evidence rather than multiply interchangeable paragraphs.
 
-The six new native sprites introduce independent human and creature designs for the existing regions. The second causality audit authenticates another 100 choices against `c2f148d5b7c0bc22a19f93439d45fdfa1df28b63`. Combined with the first revision, this PR repairs 201 source sites affected by premature choice rewards; that is a site count, not a claim of 201 unrelated root defects.
+The six new native sprites introduce independent human and creature designs for the existing regions. The second causality audit authenticates another 100 choices against `633047ddadf5ef18bd2a15dca9deebdec2ceff32`. Combined with the first revision, this PR repairs 201 source sites affected by premature choice rewards; that is a site count, not a claim of 201 unrelated root defects.
 
 ```mermaid
 flowchart LR

@@ -4,15 +4,16 @@ from concurrent.futures import ThreadPoolExecutor
 import hashlib
 import json
 import pathlib
+import shutil
 import subprocess
 import tempfile
 
 from PIL import Image
 
 if __package__:
-    from .voice_assets import audio_metadata, clip_entry
+    from .voice_assets import VOICE_ENCODING, voice_output_args, audio_metadata, clip_entry, clip_path
 else:
-    from voice_assets import audio_metadata, clip_entry
+    from voice_assets import VOICE_ENCODING, voice_output_args, audio_metadata, clip_entry, clip_path
 
 
 def digest(path):
@@ -99,53 +100,57 @@ def compact_art(root, workers):
 
 def compact_voices(root, workers):
     folder = root / "assets/generated/voices"
-    manifest_path = folder / "manifest.json"
-    manifest = json.loads(manifest_path.read_text())
-    encoding = "ffmpeg libvorbis, mono, 16000 Hz, quality 0"
+    manifest = json.loads((folder / "manifest.json").read_text())
+    # Encode into a complete replacement folder. Failed conversions leave every
+    # original clip and its manifest untouched; write the large manifest once.
+    with tempfile.TemporaryDirectory(prefix=".voices-", dir=folder.parent) as temporary:
+        staging = pathlib.Path(temporary) / "voices"
+        staging.mkdir()
+        for path in folder.iterdir():
+            if path.is_file() and path.suffix not in (".ogg", ".wav", ".tmp") and path.name != "manifest.json":
+                shutil.copyfile(path, staging / path.name)
 
-    def convert(item):
-        node_id, info = item
-        source = root / info["file"]
-        source_metadata = audio_metadata(source)
-        if digest(source) != info["sha256"]:
-            raise ValueError(f"Narration bytes changed before compression: {node_id}")
-        if source.suffix == ".ogg" and info.get("encoding") == encoding:
-            return node_id, info, source, source
-        output = folder / (node_id + ".ogg")
-        with tempfile.TemporaryDirectory(prefix=".compress-", dir=folder) as temporary:
-            compressed = pathlib.Path(temporary) / "voice.ogg"
+        def convert(item):
+            node_id, info = item
+            source = clip_path(root, node_id, info["file"])
+            source_metadata = audio_metadata(source)
+            if digest(source) != info["sha256"]:
+                raise ValueError(f"Narration bytes changed before compression: {node_id}")
+            output = staging / (node_id + ".ogg")
+            if source.suffix == ".ogg" and info.get("encoding") == VOICE_ENCODING:
+                shutil.copyfile(source, output)
+                return node_id, info
             subprocess.run(["ffmpeg", "-hide_banner", "-loglevel", "error", "-nostdin",
                             "-y", "-threads", "1", "-i", str(source), "-map_metadata", "-1",
-                            "-ac", "1", "-ar", "16000", "-c:a", "libvorbis", "-q:a", "0", "-threads", "1",
-                            str(compressed)], check=True)
-            metadata = audio_metadata(compressed)
+                            *voice_output_args(source), "-threads", "1", str(output)], check=True)
+            metadata = audio_metadata(output)
             if abs(metadata["seconds"] - source_metadata["seconds"]) > .011:
                 raise ValueError(f"Narration timing changed: {node_id}")
-            record = {**clip_entry(root, compressed, info["text_sha256"], metadata),
-                      "file": output.relative_to(root).as_posix(), "encoding": encoding,
+            record = {**info, **clip_entry(root, output, info["text_sha256"], metadata),
+                      "file": (folder / output.name).relative_to(root).as_posix(),
+                      "encoding": VOICE_ENCODING,
                       "compression_source": {"sha256": info["sha256"],
                                              "format": source_metadata["format"],
                                              "encoding": info.get("encoding", "unrecorded")}}
-            # The coordinator replaces files and checkpoints their new records together.
-            pending = folder / (node_id + ".ogg.tmp")
-            compressed.replace(pending)
-        return node_id, record, source, pending
+            if source.suffix != ".ogg":
+                (staging / (source.name + ".import")).unlink(missing_ok=True)
+            return node_id, record
 
-    items = list(manifest["lines"].items())
-    with ThreadPoolExecutor(max_workers=workers) as pool:
-        for count, (node_id, record, source, pending) in enumerate(pool.map(convert, items), 1):
-            output = folder / (node_id + ".ogg")
-            if pending != output:
-                pending.replace(output)
-            manifest["lines"][node_id] = record
-            write_json(manifest_path, manifest)
-            if source != output:
-                source.unlink()
-                pathlib.Path(str(source) + ".import").unlink(missing_ok=True)
-            if count % 100 == 0 or count == len(items):
-                print(f"Verified narration {count}/{len(items)}.", flush=True)
-    manifest["encoding"] = "All clips: 16000 Hz mono Vorbis quality 0; source encoding recorded per clip"
-    write_json(manifest_path, manifest)
+        items = list(manifest["lines"].items())
+        with ThreadPoolExecutor(max_workers=workers) as pool:
+            for count, (node_id, record) in enumerate(pool.map(convert, items), 1):
+                manifest["lines"][node_id] = record
+                if count % 100 == 0 or count == len(items):
+                    print(f"Verified narration {count}/{len(items)}.", flush=True)
+        manifest["encoding"] = "All clips: " + VOICE_ENCODING + "; source encoding recorded per clip"
+        write_json(staging / "manifest.json", manifest)
+        backup = pathlib.Path(temporary) / "original"
+        folder.replace(backup)
+        try:
+            staging.replace(folder)
+        except BaseException:
+            backup.replace(folder)
+            raise
 
 
 def compact_screenshots(root):
@@ -177,11 +182,15 @@ def main():
     parser.add_argument("--root", type=pathlib.Path,
                         default=pathlib.Path(__file__).resolve().parents[1])
     parser.add_argument("--workers", type=int, default=6)
+    parser.add_argument("--voices-only", action="store_true",
+                        help="Compress narration without changing artwork or review captures")
     args = parser.parse_args()
     root = args.root.resolve()
-    compact_art(root, args.workers)
+    if not args.voices_only:
+        compact_art(root, args.workers)
     compact_voices(root, args.workers)
-    compact_screenshots(root)
+    if not args.voices_only:
+        compact_screenshots(root)
 
 
 if __name__ == "__main__":

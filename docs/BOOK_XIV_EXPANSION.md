@@ -4,7 +4,7 @@ The complete manuscript contains **158,303 original displayed words in 1,660 sce
 
 The story is complete through all three endings. It begins at `harbor_start`, reaches the common `harbor_final_choice`, and ends at `harbor_end_registry`, `harbor_end_repair` or `harbor_end_road`. Each final node uses `ending` plus `continuation: kiln_start`, without `next`. The only external destination is `kiln_start`.
 
-The initial authoring source was feb4ec7500a1df2bf95b16265544553372c657ce. The parent checkpoint preceding the final five parts was da7bc2435090afb47ba656d926f4fa29acacf4b3. These files are saved as Git blobs; root integrates refs, manifests, chapter metadata, character definitions and assets. This document records completed source, rather than an unfinished quota or outline.
+The initial authoring source was c45164a3fc00c2a139158730b2f98f2db9926003. The parent checkpoint preceding the final five parts was 68865b47fffd273a49c1d02a6fb2f5dbe7e55f59. These files are saved as Git blobs; root integrates refs, manifests, chapter metadata, character definitions and assets. This document records completed source, rather than an unfinished quota or outline.
 
 ## Canonical source blobs
 

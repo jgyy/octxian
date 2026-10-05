@@ -1,6 +1,6 @@
 # Book VII continuity repairs · 3 October 2026
 
-Review base: `8dd58078b349f27b228be1107599572bf850efdc`.
+Review base: `d2ce2851c8e47842104607ec5999ffba6fdabe1c`.
 
 This batch fixes **4 distinct defects in 5 existing paragraphs**. It changes only displayed prose. All node IDs, speakers, actors, choice labels, effects, requirements and links stay intact. The existing 115-repair audit is excluded from this count.
 

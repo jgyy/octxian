@@ -26,12 +26,12 @@ The prior PR audit records 115 corrections: 102 choice-causality/progression iss
 
 Examples include a branch-only litter, rubbing or family introduction appearing on another route; private records opened without the promised room or permission; a loaded rope controlled through an explicitly unloaded tail; a filled-cup test that never loaded the cup; claims exceeding sealed-source observations; and a Thunderfen departure before the six-week bench contract ended.
 
-All 78 complete before paragraphs were independently matched against source commit `8dd58078b349f27b228be1107599572bf850efdc`; all after paragraphs match the delivered files. IDs, graph and choice metadata were preserved for the existing prose repairs. The historical source index contains the 1,999 original node IDs and their actual files, excluding new scenes from repair credit.
+All 78 complete before paragraphs were independently matched against source commit `d2ce2851c8e47842104607ec5999ffba6fdabe1c`; all after paragraphs match the delivered files. IDs, graph and choice metadata were preserved for the existing prose repairs. The historical source index contains the 1,999 original node IDs and their actual files, excluding new scenes from repair credit.
 
 Run:
 
 ```sh
-python tools/validate_continuation_audits.py --source-base 8dd58078b349f27b228be1107599572bf850efdc --source-node-index docs/CONTINUATION_SOURCE_INDEX_20261003.json
+python tools/validate_continuation_audits.py --source-base d2ce2851c8e47842104607ec5999ffba6fdabe1c --source-node-index docs/CONTINUATION_SOURCE_INDEX_20261003.json
 ```
 
 The validator checks current anchors, counted roots, duplicate passages, no-op claims, source membership and path ownership. It supplements the documented editorial/source review.

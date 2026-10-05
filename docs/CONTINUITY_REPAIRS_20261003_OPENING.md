@@ -1,6 +1,6 @@
 # Opening continuity repairs · 2026-10-03
 
-This batch repairs **20 distinct continuity or causality defects across 25 scenes** in Books I–V, against source commit `8dd58078b349f27b228be1107599572bf850efdc`. Related passages for one root defect are counted once. This is a focused editorial claim, not a claim that every literary uncertainty is a plot hole.
+This batch repairs **20 distinct continuity or causality defects across 25 scenes** in Books I–V, against source commit `d2ce2851c8e47842104607ec5999ffba6fdabe1c`. Related passages for one root defect are counted once. This is a focused editorial claim, not a claim that every literary uncertainty is a plot hole.
 
 Only scene prose changes. Scene IDs, characters, chapters, branch destinations, attributes, cultivation metadata, art references, and the book manifest remain at the source version. The parent integration may extend that manifest separately.
 

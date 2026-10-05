@@ -7,12 +7,12 @@ from piper import PiperVoice
 if __package__:
     from .generate_voices import ROOT, CACHE, MODEL, BASE, download, render_clip, _write_manifest
     from .story_data import load_story
-    from .voice_assets import VOICE_FOLDER, NODE_ID, clip_entry, reusable_clip
+    from .voice_assets import VOICE_FOLDER, VOICE_ENCODING, NODE_ID, clip_entry, reusable_clip
     from .prebuilt_voices import PREBUILD_FOLDER
 else:
     from generate_voices import ROOT, CACHE, MODEL, BASE, download, render_clip, _write_manifest
     from story_data import load_story
-    from voice_assets import VOICE_FOLDER, NODE_ID, clip_entry, reusable_clip
+    from voice_assets import VOICE_FOLDER, VOICE_ENCODING, NODE_ID, clip_entry, reusable_clip
     from prebuilt_voices import PREBUILD_FOLDER
 
 DRAFT_INDEX = ROOT / "docs/DRAFT_BOOKS_20261003.json"
@@ -77,7 +77,7 @@ def main():
             metadata = render_clip(voice, text, output, TIMING.get(node["speaker"], 1.04))
             status = "Generated"
         manifest["lines"][node_id] = {**clip_entry(cache_root, output, digest, metadata),
-                                      "encoding": "ffmpeg libvorbis, mono, 16000 Hz, quality 0"}
+                                      "encoding": VOICE_ENCODING}
         if status == "Generated":
             _write_manifest(manifest_path, manifest)
         print(f"{status} draft narration: {node_id} ({metadata['seconds']:.1f}s)", flush=True)

@@ -15,11 +15,11 @@ from piper.config import PiperConfig
 
 if __package__:
     from .story_data import load_story
-    from .voice_assets import NODE_ID, audio_metadata, clip_entry, reusable_clip
+    from .voice_assets import NODE_ID, VOICE_ENCODING, voice_output_args, audio_metadata, clip_entry, reusable_clip
     from .prebuilt_voices import load_prebuilt, adopt_prebuilt
 else:
     from story_data import load_story
-    from voice_assets import NODE_ID, audio_metadata, clip_entry, reusable_clip
+    from voice_assets import NODE_ID, VOICE_ENCODING, voice_output_args, audio_metadata, clip_entry, reusable_clip
     from prebuilt_voices import load_prebuilt, adopt_prebuilt
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
@@ -49,8 +49,8 @@ def render_clip(voice, text, output, length_scale):
                                  syn_config=SynthesisConfig(length_scale=length_scale))
         audio_metadata(source)
         subprocess.run(["ffmpeg", "-hide_banner", "-loglevel", "error", "-nostdin",
-                        "-y", "-i", str(source), "-map_metadata", "-1", "-ac", "1", "-ar", "16000",
-                        "-c:a", "libvorbis", "-q:a", "0", str(compressed)],
+                        "-y", "-i", str(source), "-map_metadata", "-1",
+                        *voice_output_args(source), str(compressed)],
                        check=True)
         metadata = audio_metadata(compressed)
         compressed.replace(output)
@@ -110,16 +110,18 @@ def main():
     manifest = {"engine": "Piper 1.3.0 (neural ONNX)", "voice": "en_US-lessac-medium",
                 "model_url": f"{BASE}/{MODEL}", "model_sha256": model_digest,
                 "model_card": card.read_text(),
-                "encoding": "New clips: 16000 Hz mono Vorbis quality 0; validated existing clips retained",
+                "encoding": "New clips: " + VOICE_ENCODING + "; validated existing clips retained",
                 # Retain unprocessed records until their scenes are checked.
                 "lines": {node_id: info for node_id, info in old_lines.items()
                           if node_id in story["nodes"]}}
     timing = {"narrator": 1.04, "lin_yue": .96, "shen_qing": 1.00,
               "elder_yun": 1.12, "mo_ran": 1.08}
-    generated_encoding = "ffmpeg libvorbis, mono, 16000 Hz, quality 0"
+    generated_encoding = VOICE_ENCODING
 
     def record(node_id, digest, output, metadata, encoding, status):
-        manifest["lines"][node_id] = {**clip_entry(ROOT, output, digest, metadata),
+        retained = (old_lines.get(node_id, {}) if status == "Reused" else
+                    prebuilt_lines.get(node_id, {}) if status == "Adopted" else {})
+        manifest["lines"][node_id] = {**retained, **clip_entry(ROOT, output, digest, metadata),
                                       "encoding": encoding}
         if status != "Reused":
             # Only this coordinator writes the atomic, resumable manifest.
@@ -153,7 +155,11 @@ def main():
                                    prebuilt_lines.get(node_id, {}))
             if cached is not None:
                 output, metadata = cached
-                record(node_id, digest, output, metadata, generated_encoding, "Adopted")
+                encoding = prebuilt_lines[node_id].get("encoding")
+                if not isinstance(encoding, str) or not encoding.strip():
+                    encoding = ("Retained Vorbis; original encoder settings unrecorded"
+                                if metadata["format"] == "ogg" else "Retained legacy PCM16")
+                record(node_id, digest, output, metadata, encoding, "Adopted")
                 continue
             output = OUT / f"{node_id}.ogg"
             length_scale = timing.get(node["speaker"], 1.04)

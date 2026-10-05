@@ -35,7 +35,7 @@ All files are `data/books/book_xii_canal_NN.json`, with NN from 01 through 24. O
 | 23 | 7,544 | 78 | 100 | `3b2c2e3023e02de235c21cf841c43c94141e8eb5` |
 | 24 | 7,418 | 78 | 100 | `a14a6bece7c72a59fbc849043cd5a23edf32c085` |
 
-The source base is `feb4ec7500a1df2bf95b16265544553372c657ce`. These are immutable source blobs only. No branch, reference or active story transition was mutated by the authoring agent.
+The source base is `c45164a3fc00c2a139158730b2f98f2db9926003`. These are immutable source blobs only. No branch, reference or active story transition was mutated by the authoring agent.
 
 ## Playable graph
 

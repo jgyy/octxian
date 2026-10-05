@@ -2,7 +2,7 @@
 
 The playable manuscript contains **2,335 scenes / 190,875 displayed words**. The strict target is 1,000,001; 809,126 displayed words remain. Saved draft parts are excluded from playable word credit until the complete routes are integrated.
 
-Two review rounds add **82 new root continuity/causality repairs**, separately from the PR's earlier 115 categorized progression/continuity corrections. The PR has **197 audited corrections overall**. The second review fixes 29 root defects across 33 paragraphs against source commit `feb4ec7500a1df2bf95b16265544553372c657ce`, adding 101 net displayed words. One ferry node had two different defects repaired in successive reviews; the first audit retains its historical before paragraph and links the later revision. No draft cleanup or terminology edits receive defect credit.
+Two review rounds add **82 new root continuity/causality repairs**, separately from the PR's earlier 115 categorized progression/continuity corrections. The PR has **197 audited corrections overall**. The second review fixes 29 root defects across 33 paragraphs against source commit `c45164a3fc00c2a139158730b2f98f2db9926003`, adding 101 net displayed words. One ferry node had two different defects repaired in successive reviews; the first audit retains its historical before paragraph and links the later revision. No draft cleanup or terminology edits receive defect credit.
 
 | Second review | Roots | Paragraphs | Net words |
 |---|---:|---:|---:|

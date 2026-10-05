@@ -10,7 +10,7 @@ from tools.validate_continuation_audits import (
     main, normalize_audit, validate_audits, validate_documents,
 )
 
-SOURCE = "8dd58078b349f27b228be1107599572bf850efdc"
+SOURCE = "d2ce2851c8e47842104607ec5999ffba6fdabe1c"
 
 
 def passage(node_id="arrival", path="data/story.json"):

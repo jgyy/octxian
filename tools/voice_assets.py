@@ -9,6 +9,16 @@ import soundfile as sf
 
 VOICE_FOLDER = pathlib.PurePosixPath("assets/generated/voices")
 NODE_ID = re.compile(r"[A-Za-z0-9_]+\Z")
+VOICE_ENCODING = "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+VOICE_FFMPEG_ARGS = ("-ac", "1", "-ar", "8000", "-c:a", "libvorbis",
+                     "-b:a", "10k", "-minrate", "10k", "-maxrate", "10k")
+
+
+def voice_output_args(source):
+    """Keep the decoded source length when resampling Vorbis encoder padding."""
+    with sf.SoundFile(source) as audio:
+        duration = audio.frames / audio.samplerate
+    return (*VOICE_FFMPEG_ARGS, "-t", str(duration))
 
 
 def audio_metadata(path):

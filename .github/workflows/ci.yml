@@ -42,15 +42,15 @@ jobs:
         run: python tools/bootstrap_godot.py
       - name: Check native portraits and continuity regressions
         run: |
-          git fetch --depth=1 origin a90350672fb0468b72fc176b22f3e3876c95febc
+          git fetch --depth=1 origin cc4bb2d558bcdb7deae656a76ae07abde30f7a6b
           python -m tools.validate_million_continuation --verify-source
-          git fetch --depth=1 origin 13bae49f55c66c2cb16c956ca3be26491d10bbd6
+          git fetch --depth=1 origin 2b431cb2c113608bb05e1c95edc1ef9b7879d01f
           python -m tools.validate_narrative_revision --verify-source
-          git fetch --depth=1 origin c2f148d5b7c0bc22a19f93439d45fdfa1df28b63
+          git fetch --depth=1 origin 633047ddadf5ef18bd2a15dca9deebdec2ceff32
           python -m tools.validate_additional_repairs --verify-source
           python -m unittest discover -s tests -p 'test_*.py'
-          python tools/validate_continuation_audits.py --source-base 8dd58078b349f27b228be1107599572bf850efdc --source-node-index docs/CONTINUATION_SOURCE_INDEX_20261003.json
-          python tools/validate_continuation_audits.py docs/CONTINUITY_REPAIRS_20261003_SECOND_RIVER.json docs/CONTINUITY_REPAIRS_20261003_SECOND_CITY.json docs/CONTINUITY_REPAIRS_20261003_SECOND_CULTIVATION.json docs/CONTINUITY_REPAIRS_20261003_SECOND_RING.json docs/CONTINUITY_REPAIRS_20261003_SECOND_FERRY.json docs/CONTINUITY_REPAIRS_20261003_SECOND_ORCHARD.json --source-base feb4ec7500a1df2bf95b16265544553372c657ce --source-node-index docs/CONTINUATION_SECOND_SOURCE_INDEX_20261003.json
+          python tools/validate_continuation_audits.py --source-base d2ce2851c8e47842104607ec5999ffba6fdabe1c --source-node-index docs/CONTINUATION_SOURCE_INDEX_20261003.json
+          python tools/validate_continuation_audits.py docs/CONTINUITY_REPAIRS_20261003_SECOND_RIVER.json docs/CONTINUITY_REPAIRS_20261003_SECOND_CITY.json docs/CONTINUITY_REPAIRS_20261003_SECOND_CULTIVATION.json docs/CONTINUITY_REPAIRS_20261003_SECOND_RING.json docs/CONTINUITY_REPAIRS_20261003_SECOND_FERRY.json docs/CONTINUITY_REPAIRS_20261003_SECOND_ORCHARD.json --source-base c45164a3fc00c2a139158730b2f98f2db9926003 --source-node-index docs/CONTINUATION_SECOND_SOURCE_INDEX_20261003.json
       - name: Prepare outfit portraits and compose score and effects
         run: python tools/build_assets.py
       - name: Validate world artwork, quest schema and manuscript accounting

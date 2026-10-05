@@ -30,7 +30,7 @@ The manuscript exceeds the original strict 1,000,001-word target. The current re
 
 ## Repairs
 
-[Source-anchored audit](CONTINUITY_REPAIRS_20261004.json) fixes **101 identified sites**: 95 choice-causality defects (92 rewards deferred until completed work; three rewards removed from future preferences), three missing closing sequences and three absent salt-to-canal continuations. These are individually evidenced sites, not 101 independent engine bugs. New scenes, missing speaker definitions, art and presentation changes are excluded from that count. Source: `a90350672fb0468b72fc176b22f3e3876c95febc`.
+[Source-anchored audit](CONTINUITY_REPAIRS_20261004.json) fixes **101 identified sites**: 95 choice-causality defects (92 rewards deferred until completed work; three rewards removed from future preferences), three missing closing sequences and three absent salt-to-canal continuations. These are individually evidenced sites, not 101 independent engine bugs. New scenes, missing speaker definitions, art and presentation changes are excluded from that count. Source: `cc4bb2d558bcdb7deae656a76ae07abde30f7a6b`.
 
 The timing defect previously granted practice on choosing to perform a task. Han's loan history and Bao's gate diagram could even condition tissue without bodily work. Completed-task rewards now follow actual branch completion, use the appropriate capacity and cannot be farmed by revisiting or reloading. Choosing a hoped-for kiln teacher grants no practice while that teacher remains hypothetical.
 

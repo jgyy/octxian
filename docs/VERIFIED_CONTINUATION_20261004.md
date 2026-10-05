@@ -2,9 +2,9 @@
 
 The playable campaign contains **1,124,725 prose words across 12,697 scenes and 17 books**. This connects 930,652 stored draft words and adds **3,198 new words in 46 closing scenes** to the previous 190,875-word campaign. Alternative playable branches count; menu labels, character biographies and documentation do not.
 
-Source commit `140d597edb311bd3fe58a0de5d09cec8515fda59` passed both [PR CI](https://github.com/jgyy/octxian/actions/runs/37188210424) and [feature-branch CI](https://github.com/jgyy/octxian/actions/runs/37188206781). Those checks cover the authenticated 101-site repair audit, Python regressions, every reachable gated scene, saves, menu scrolling, keyboard access, completed-practice persistence, ensemble layout, layered motion, native artwork, every narration clip, 78 rendered captures and standalone Linux package playback.
+Source commit `a9a513d3b78085053518a933c1e1d29b4a0c8dcf` passed both [PR CI](https://github.com/jgyy/octxian/actions/runs/37188210424) and [feature-branch CI](https://github.com/jgyy/octxian/actions/runs/37188206781). Those checks cover the authenticated 101-site repair audit, Python regressions, every reachable gated scene, saves, menu scrolling, keyboard access, completed-practice persistence, ensemble layout, layered motion, native artwork, every narration clip, 78 rendered captures and standalone Linux package playback.
 
-Media commit `52847c88d2ab2d93139a0390f865a4222896e5df` bundles the tested narration, screenshots and animation previews. The six new capture files were visually inspected at their actual **1280×720** resolution:
+Media commit `160b5ab9f4b8627a18f0b1dc36798b1228eb53f8` bundles the tested narration, screenshots and animation previews. The six new capture files were visually inspected at their actual **1280×720** resolution:
 
 | View | Review image |
 |---|---|

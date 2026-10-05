@@ -1,6 +1,6 @@
 # Incremental cultivation continuity repairs · 2026-10-03
 
-Reviewed head: `8dd58078b349f27b228be1107599572bf850efdc`. Scope: Books I, II, VIII and IX.
+Reviewed head: `d2ce2851c8e47842104607ec5999ffba6fdabe1c`. Scope: Books I, II, VIII and IX.
 
 This batch repairs **15 distinct continuity defects across 20 existing scene paragraphs**: **8 explicit continuity conflicts** and **7 bounded continuity omissions**. It does not recount the 115 items in the earlier audit. Repeated occurrences of one cause count once and are attached as affected passages in the JSON ledger.
 

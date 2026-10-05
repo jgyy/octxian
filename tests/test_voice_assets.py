@@ -107,6 +107,7 @@ class VoiceAssetTests(unittest.TestCase):
         path = self.write("ogg")
         original = path.read_bytes()
         record = clip_entry(self.root, path, self.digest)
+        record["compression_source"] = {"sha256": "retained original provenance"}
         model = self.root / "fixture_model.onnx"
         model.write_bytes(b"fixture model, never used for synthesis")
         card = self.root / "MODEL_CARD"
@@ -135,6 +136,7 @@ class VoiceAssetTests(unittest.TestCase):
         restored = json.loads(manifest_path.read_text())["lines"]["scene"]
         self.assertEqual(path.read_bytes(), original)
         self.assertEqual(restored["codec"], "vorbis")
+        self.assertEqual(restored["compression_source"], record["compression_source"])
         self.assertEqual(restored["encoding"],
                          "Retained Vorbis; original encoder settings unrecorded")
         self.assertNotIn("quality 3", restored["encoding"])
@@ -279,11 +281,51 @@ class VoiceAssetTests(unittest.TestCase):
 
         output = self.folder / "scene.ogg"
         metadata = render_clip(FixtureVoice(), self.text, output, 1.04)
+        self.assertEqual(metadata["sample_rate"], 8000)
         self.assertEqual(metadata["codec"], "vorbis")
         self.assertEqual(metadata["channels"], 1)
         self.assertEqual(list(self.folder.iterdir()), [output])
         self.assertIsNotNone(reusable_clip(
             self.root, "scene", self.text, clip_entry(self.root, output, self.digest)))
+
+    @unittest.skipUnless(shutil.which("ffmpeg"), "ffmpeg is installed in game CI")
+    def test_compression_retains_text_timing_and_model_provenance(self):
+        from tools.optimize_assets import compact_voices
+        from tools.voice_assets import VOICE_ENCODING
+
+        original = self.write(samples=np.tile(self.samples, 300))
+        record = clip_entry(self.root, original, self.digest)
+        manifest = {"model_sha256": "test model", "lines": {"scene": record}}
+        manifest_path = self.folder / "manifest.json"
+        manifest_path.write_text(json.dumps(manifest))
+        with contextlib.redirect_stdout(io.StringIO()):
+            compact_voices(self.root, 1)
+        compressed = json.loads(manifest_path.read_text())
+        path, metadata = validate_clip(self.root, "scene", self.text,
+                                       compressed["lines"]["scene"])
+        self.assertEqual(compressed["model_sha256"], "test model")
+        self.assertEqual(metadata["seconds"], record["seconds"])
+        self.assertEqual(metadata["sample_rate"], 8000)
+        self.assertEqual(compressed["lines"]["scene"]["encoding"], VOICE_ENCODING)
+        self.assertEqual(compressed["lines"]["scene"]["compression_source"]["sha256"],
+                         record["sha256"])
+        self.assertLess(path.stat().st_size, len(self.samples) * 300)
+        self.assertFalse(original.exists())
+
+    def test_failed_compression_preserves_the_original_folder_and_manifest(self):
+        from tools import optimize_assets
+
+        original = self.write()
+        manifest_path = self.folder / "manifest.json"
+        manifest_path.write_text(json.dumps({
+            "lines": {"scene": clip_entry(self.root, original, self.digest)}}))
+        before = {p.name: p.read_bytes() for p in self.folder.iterdir()}
+        with patch.object(optimize_assets.subprocess, "run",
+                          side_effect=RuntimeError("fixture encoder failure")):
+            with self.assertRaisesRegex(RuntimeError, "fixture encoder failure"):
+                optimize_assets.compact_voices(self.root, 1)
+        self.assertEqual({p.name: p.read_bytes() for p in self.folder.iterdir()}, before)
+        self.assertEqual(list(self.folder.parent.iterdir()), [self.folder])
 
 
     def test_parallel_completions_keep_scene_hashes_and_one_checkpoint_writer(self):

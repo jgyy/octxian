@@ -90,19 +90,19 @@ Book IV extends every river ending, retains scores and journal history, and adds
 
 ## Compact media storage
 
-Historical source paintings use lossless WebP with exact RGBA pixels and native dimensions recorded in `assets/art/compression.json`. Bundled narration uses 16000 Hz mono Vorbis quality 0; the manifest records text hashes, decoded timing, and previous file hashes and encodings. Review screenshots use the existing full-size JPEG captures. CI retains this encoding for new narration and bundles JPEG screenshots.
+Historical source paintings use lossless WebP with exact RGBA pixels and native dimensions recorded in `assets/art/compression.json`. Bundled narration uses 8000 Hz mono Vorbis constrained to 10000 bit/s; the manifest records text hashes, decoded timing, and previous file hashes and encodings. Review screenshots use the existing full-size JPEG captures. CI retains this encoding for new narration and bundles JPEG screenshots.
 
-The new core masters and Thunderfen originals retain their native PNG bytes. Do not run compression over catalogued originals without updating source paths, provenance and checksums together. Narration generation already emits compact Vorbis clips. Validate all decoded assets before committing.
+The new core masters and Thunderfen originals retain their native PNG bytes. Do not run compression over catalogued originals without updating source paths, provenance and checksums together. Narration generation emits the same compact Vorbis setting. Recompress voices alone with `python tools/optimize_assets.py --voices-only --workers 6`. This reduces audio fidelity to a 4 kHz speech bandwidth while retaining complete clips, timing and text hashes. All conversions are decoded and staged before the original voice folder is replaced. Validate all decoded assets before committing.
 
-Git history was compacted by removing binary media from old commits and retaining optimized media at each branch tip. Earlier source commits remain, but their removed media requires regeneration or recovery from the original bundle. Collaborators should clone the rewritten repository again.
+Git history was compacted by removing binary media from old commits and retaining optimized media at each branch tip. Earlier source commits remain, but their removed media requires regeneration or recovery from the original bundle. Collaborators should clone rewritten `main` with `git clone --single-branch --branch main git@github.com:jgyy/octxian.git`. Other remote branches retain their earlier history; fetching them will restore the old media objects. The compact checkout tracks only `main`.
 
 ## Storm and salt-road continuation
 
-Books X and XI continue all three prior endings while keeping the earned fourth stage. The source audits identify 53 distinct existing-content defects, with 78 exact current anchors and an original-node index. Run `python tools/validate_continuation_audits.py --source-base 8dd58078b349f27b228be1107599572bf850efdc --source-node-index docs/CONTINUATION_SOURCE_INDEX_20261003.json`. CI runs this validator alongside regression tests and adds six actual captures, bringing the total to 72. The source-free smoke test loads both new chapters, their two portrait originals, native environment dimensions and generated Vorbis narration. [Current scope and accounting](CONTINUATION_20261003.md).
+Books X and XI continue all three prior endings while keeping the earned fourth stage. The source audits identify 53 distinct existing-content defects, with 78 exact current anchors and an original-node index. Run `python tools/validate_continuation_audits.py --source-base d2ce2851c8e47842104607ec5999ffba6fdabe1c --source-node-index docs/CONTINUATION_SOURCE_INDEX_20261003.json`. CI runs this validator alongside regression tests and adds six actual captures, bringing the total to 72. The source-free smoke test loads both new chapters, their two portrait originals, native environment dimensions and generated Vorbis narration. [Current scope and accounting](CONTINUATION_20261003.md).
 
 ## Million-word integration
 
-Books XII–XVII now load through the campaign manifest. Run `python -m tools.validate_million_continuation --verify-source` with source commit a90350672fb0468b72fc176b22f3e3876c95febc available. CI fetches that exact source and authenticates 101 choice/transition anchors. It reuses the prior branch's draft narration only after validating every clip against its actual playable text.
+Books XII–XVII now load through the campaign manifest. Run `python -m tools.validate_million_continuation --verify-source` with source commit cc4bb2d558bcdb7deae656a76ae07abde30f7a6b available. CI fetches that exact source and authenticates 101 choice/transition anchors. It reuses the prior branch's draft narration only after validating every clip against its actual playable text.
 
 Run `godot --headless --path . --script tests/continuation_test.gd` for once-only practice credit, saved completion records, invalid-save atomicity, all five late-role choices, ensemble portrait bounds and layered-motion behavior. New viewport captures are forest_ensemble, lanternwing_crane, desert_attributes, archive_ensemble and archive_courtyard and archive_lantern_keeper. The feature-branch bundle publishes tested media after the full game job succeeds.
 
@@ -116,7 +116,7 @@ Before the expanded clips are bundled, CI can bootstrap narration from successfu
 
 ## Deferred growth and desert dilemmas (2026-10-05)
 
-Run `python -m tools.validate_narrative_revision --verify-source` with fixed source 13bae49f55c66c2cb16c956ca3be26491d10bbd6 fetched locally. It authenticates 101 additional selection/completion repairs, 70 geographic staging corrections and six inserted dilemmas. The six decisions add eighteen distinct consequences while retaining the original next observations and at least two ungated routes each.
+Run `python -m tools.validate_narrative_revision --verify-source` with fixed source 2b431cb2c113608bb05e1c95edc1ef9b7879d01f fetched locally. It authenticates 101 additional selection/completion repairs, 70 geographic staging corrections and six inserted dilemmas. The six decisions add eighteen distinct consequences while retaining the original next observations and at least two ungated routes each.
 
 Run `godot --headless --path . --script tests/narrative_revision_test.gd` to exercise every deferred branch, new and migrated checkpoints, duplicate-credit prevention and all dilemma outcomes. New version-1 saves use `practice_rules: 1`; earlier saves recognise already-paid growth from their journal and exclusive current branch without changing scores.
 
