@@ -91,11 +91,13 @@ func _run() -> void:
 		check(not portrait.reduced_motion, "Disabling reduced motion must restore every cast member")
 	game._title()
 	check(not game.stage_companions[0].visible and not game.stage_companions[1].visible, "Title must clear prior scene companions")
-	game.audio.music.stop()
-	game.audio.voice.stop()
-	game.audio.effects.stop()
+	game.audio.shutdown()
 	root.remove_child(game)
 	game.free()
+	scene = null
+	# Let audio and rendering release streams before the headless tree exits.
+	await process_frame
+	await process_frame
 	for path in ["user://continuation_test.json", "user://continuation_test.json.bak", "user://continuation_bad.json"]:
 		if FileAccess.file_exists(path):
 			DirAccess.remove_absolute(path)
