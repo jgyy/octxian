@@ -21,12 +21,14 @@
       },
       "after": {
         "text": "Keep the jade wrapped until its circuit is explained.",
-        "next": "guard",
-        "effects": {
-          "trust": 2
-        }
+        "next": "guard"
       },
-      "repair": "Credit Dao Heart 2 for this method; leave this offered approach available without a score gate."
+      "repair": "Credit Dao Heart 2 for this method; leave this offered approach available without a score gate.",
+      "completion_node": "guard",
+      "earned": {
+        "trust": 2
+      },
+      "current_credit_note": "Deferred by the second source-authenticated repair revision; original before evidence retained."
     },
     {
       "id": "PROG-002",
@@ -45,12 +47,14 @@
       },
       "after": {
         "text": "Ask the exile what the star wants.",
-        "next": "star_wants",
-        "effects": {
-          "insight": 3
-        }
+        "next": "star_wants"
       },
-      "repair": "Credit Comprehension 3 for this method; leave this offered approach available without a score gate."
+      "repair": "Credit Comprehension 3 for this method; leave this offered approach available without a score gate.",
+      "completion_node": "star_wants",
+      "earned": {
+        "insight": 3
+      },
+      "current_credit_note": "Deferred by the second source-authenticated repair revision; original before evidence retained."
     },
     {
       "id": "PROG-003",
@@ -69,12 +73,14 @@
       },
       "after": {
         "text": "Ask Elder Yun why she waited.",
-        "next": "waiting",
-        "effects": {
-          "trust": 3
-        }
+        "next": "waiting"
       },
-      "repair": "Credit Dao Heart 3 for this method; leave this offered approach available without a score gate."
+      "repair": "Credit Dao Heart 3 for this method; leave this offered approach available without a score gate.",
+      "completion_node": "waiting",
+      "earned": {
+        "trust": 3
+      },
+      "current_credit_note": "Deferred by the second source-authenticated repair revision; original before evidence retained."
     },
     {
       "id": "PROG-004",
@@ -96,14 +102,16 @@
       "after": {
         "text": "Signal the mountain's controlled landing.",
         "next": "release",
-        "effects": {
-          "trust": 1
-        },
         "requires": {
           "insight": 3
         }
       },
-      "repair": "Credit Dao Heart 1 for this method; keep only relevant requirements {\"insight\":3}."
+      "repair": "Credit Dao Heart 1 for this method; keep only relevant requirements {\"insight\":3}.",
+      "completion_node": "release",
+      "earned": {
+        "trust": 1
+      },
+      "current_credit_note": "Deferred by the second source-authenticated repair revision; original before evidence retained."
     },
     {
       "id": "PROG-005",
@@ -121,12 +129,14 @@
       },
       "after": {
         "text": "Follow the ferry and find who moved the boundary.",
-        "next": "ferry_departure",
-        "effects": {
-          "insight": 1
-        }
+        "next": "ferry_departure"
       },
-      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate.",
+      "completion_node": "ferry_warning",
+      "earned": {
+        "insight": 1
+      },
+      "current_credit_note": "Deferred by the second source-authenticated repair revision; original before evidence retained."
     },
     {
       "id": "PROG-006",
@@ -144,12 +154,14 @@
       },
       "after": {
         "text": "Visit the archive and trace the missing names.",
-        "next": "archive_door",
-        "effects": {
-          "insight": 1
-        }
+        "next": "archive_door"
       },
-      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate.",
+      "completion_node": "archive_question",
+      "earned": {
+        "insight": 1
+      },
+      "current_credit_note": "Deferred by the second source-authenticated repair revision; original before evidence retained."
     },
     {
       "id": "PROG-007",
@@ -168,12 +180,14 @@
       },
       "after": {
         "text": "Raise the stone publicly, keeping its protective ward intact.",
-        "next": "ferry_raise",
-        "effects": {
-          "qi": 2
-        }
+        "next": "ferry_raise"
       },
-      "repair": "Credit Qi Control 2 for this method; leave this offered approach available without a score gate."
+      "repair": "Credit Qi Control 2 for this method; leave this offered approach available without a score gate.",
+      "completion_node": "ferry_raise_cost",
+      "earned": {
+        "qi": 2
+      },
+      "current_credit_note": "Deferred by the second source-authenticated repair revision; original before evidence retained."
     },
     {
       "id": "PROG-008",
@@ -191,12 +205,14 @@
       },
       "after": {
         "text": "Publish the original land clauses and every condition, preserving private debts.",
-        "next": "archive_publish",
-        "effects": {
-          "trust": 2
-        }
+        "next": "archive_publish"
       },
-      "repair": "Credit Dao Heart 2 for this method; leave this offered approach available without a score gate."
+      "repair": "Credit Dao Heart 2 for this method; leave this offered approach available without a score gate.",
+      "completion_node": "archive_publish_cost",
+      "earned": {
+        "trust": 2
+      },
+      "current_credit_note": "Deferred by the second source-authenticated repair revision; original before evidence retained."
     },
     {
       "id": "PROG-009",
@@ -234,12 +250,14 @@
       },
       "after": {
         "text": "Let Mo Ran identify himself and offer his receipt.",
-        "next": "river_call",
-        "effects": {
-          "insight": 1
-        }
+        "next": "river_call"
       },
-      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate.",
+      "completion_node": "river_call_answer",
+      "earned": {
+        "insight": 1
+      },
+      "current_credit_note": "Deferred by the second source-authenticated repair revision; original before evidence retained."
     },
     {
       "id": "PROG-011",
@@ -257,12 +275,14 @@
       },
       "after": {
         "text": "Listen at the boundary without crossing it.",
-        "next": "river_listen",
-        "effects": {
-          "insight": 1
-        }
+        "next": "river_listen"
       },
-      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate.",
+      "completion_node": "river_listen_answer",
+      "earned": {
+        "insight": 1
+      },
+      "current_credit_note": "Deferred by the second source-authenticated repair revision; original before evidence retained."
     },
     {
       "id": "PROG-012",
@@ -280,12 +300,14 @@
       },
       "after": {
         "text": "Negotiate a new return place with the owner and spirit.",
-        "next": "river_return_terms",
-        "effects": {
-          "insight": 1
-        }
+        "next": "river_return_terms"
       },
-      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate.",
+      "completion_node": "return_custodian",
+      "earned": {
+        "insight": 1
+      },
+      "current_credit_note": "Deferred by the second source-authenticated repair revision; original before evidence retained."
     },
     {
       "id": "PROG-013",
@@ -303,12 +325,14 @@
       },
       "after": {
         "text": "Arrange a temporary harbor while every owner is contacted.",
-        "next": "river_harbor_terms",
-        "effects": {
-          "insight": 1
-        }
+        "next": "river_harbor_terms"
       },
-      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate.",
+      "completion_node": "harbor_shortage",
+      "earned": {
+        "insight": 1
+      },
+      "current_credit_note": "Deferred by the second source-authenticated repair revision; original before evidence retained."
     },
     {
       "id": "PROG-014",
@@ -326,12 +350,14 @@
       },
       "after": {
         "text": "Reserve a supported watch and a date to reconsider.",
-        "next": "return_later",
-        "effects": {
-          "trust": 1
-        }
+        "next": "return_later"
       },
-      "repair": "Credit Dao Heart 1 for this method; leave this offered approach available without a score gate."
+      "repair": "Credit Dao Heart 1 for this method; leave this offered approach available without a score gate.",
+      "completion_node": "return_later_cost",
+      "earned": {
+        "trust": 1
+      },
+      "current_credit_note": "Deferred by the second source-authenticated repair revision; original before evidence retained."
     },
     {
       "id": "PROG-015",
@@ -349,12 +375,14 @@
       },
       "after": {
         "text": "Fund eight days, with a reserve for moving to safety.",
-        "next": "harbor_eight_days",
-        "effects": {
-          "trust": 1
-        }
+        "next": "harbor_eight_days"
       },
-      "repair": "Credit Dao Heart 1 for this method; leave this offered approach available without a score gate."
+      "repair": "Credit Dao Heart 1 for this method; leave this offered approach available without a score gate.",
+      "completion_node": "harbor_eight_cost",
+      "earned": {
+        "trust": 1
+      },
+      "current_credit_note": "Deferred by the second source-authenticated repair revision; original before evidence retained."
     },
     {
       "id": "PROG-016",
@@ -373,12 +401,14 @@
       },
       "after": {
         "text": "Trace the disconnected circuit with a measured breath.",
-        "next": "orchard_circuit",
-        "effects": {
-          "qi": 3
-        }
+        "next": "orchard_circuit"
       },
-      "repair": "Credit Qi Control 3 for this method; leave this offered approach available without a score gate."
+      "repair": "Credit Qi Control 3 for this method; leave this offered approach available without a score gate.",
+      "completion_node": "orchard_circuit_find",
+      "earned": {
+        "qi": 3
+      },
+      "current_credit_note": "Deferred by the second source-authenticated repair revision; original before evidence retained."
     },
     {
       "id": "PROG-017",
@@ -397,12 +427,14 @@
       },
       "after": {
         "text": "Share the patients' meal and hear what they need.",
-        "next": "orchard_meal",
-        "effects": {
-          "trust": 3
-        }
+        "next": "orchard_meal"
       },
-      "repair": "Credit Dao Heart 3 for this method; leave this offered approach available without a score gate."
+      "repair": "Credit Dao Heart 3 for this method; leave this offered approach available without a score gate.",
+      "completion_node": "orchard_meal_find",
+      "earned": {
+        "trust": 3
+      },
+      "current_credit_note": "Deferred by the second source-authenticated repair revision; original before evidence retained."
     },
     {
       "id": "PROG-018",
@@ -421,12 +453,14 @@
       },
       "after": {
         "text": "Compare winter allocations with the original treatment terms.",
-        "next": "orchard_ledger",
-        "effects": {
-          "insight": 3
-        }
+        "next": "orchard_ledger"
       },
-      "repair": "Credit Comprehension 3 for this method; leave this offered approach available without a score gate."
+      "repair": "Credit Comprehension 3 for this method; leave this offered approach available without a score gate.",
+      "completion_node": "orchard_ledger_find",
+      "earned": {
+        "insight": 3
+      },
+      "current_credit_note": "Deferred by the second source-authenticated repair revision; original before evidence retained."
     },
     {
       "id": "PROG-019",
@@ -448,12 +482,14 @@
       },
       "after": {
         "text": "Offer a paid rota that includes help beyond treatment.",
-        "next": "orchard_care_rota",
-        "effects": {
-          "trust": 2
-        }
+        "next": "orchard_care_rota"
       },
-      "repair": "Credit Dao Heart 2 for this method; leave this offered approach available without a score gate."
+      "repair": "Credit Dao Heart 2 for this method; leave this offered approach available without a score gate.",
+      "completion_node": "orchard_care_rest",
+      "earned": {
+        "trust": 2
+      },
+      "current_credit_note": "Deferred by the second source-authenticated repair revision; original before evidence retained."
     },
     {
       "id": "PROG-020",
@@ -476,14 +512,16 @@
       "after": {
         "text": "Separate relief funding and publish the new accounting.",
         "next": "orchard_fund_terms",
-        "effects": {
-          "insight": 2
-        },
         "requires": {
           "insight": 4
         }
       },
-      "repair": "Credit Comprehension 2 for this method; keep only relevant requirements {\"insight\":4}."
+      "repair": "Credit Comprehension 2 for this method; keep only relevant requirements {\"insight\":4}.",
+      "completion_node": "orchard_fund_reading",
+      "earned": {
+        "insight": 2
+      },
+      "current_credit_note": "Deferred by the second source-authenticated repair revision; original before evidence retained."
     },
     {
       "id": "PROG-021",
@@ -501,12 +539,14 @@
       },
       "after": {
         "text": "Pause exchanges for seven days and provide ordinary care.",
-        "next": "orchard_pause",
-        "effects": {
-          "trust": 2
-        }
+        "next": "orchard_pause"
       },
-      "repair": "Credit Dao Heart 2 for this method; leave this offered approach available without a score gate."
+      "repair": "Credit Dao Heart 2 for this method; leave this offered approach available without a score gate.",
+      "completion_node": "orchard_pause_meals",
+      "earned": {
+        "trust": 2
+      },
+      "current_credit_note": "Deferred by the second source-authenticated repair revision; original before evidence retained."
     },
     {
       "id": "PROG-022",
@@ -525,12 +565,14 @@
       },
       "after": {
         "text": "Compare the masks, substituted collars, and return tokens.",
-        "next": "city_mask_entry",
-        "effects": {
-          "insight": 3
-        }
+        "next": "city_mask_entry"
       },
-      "repair": "Credit Comprehension 3 for this method; leave this offered approach available without a score gate."
+      "repair": "Credit Comprehension 3 for this method; leave this offered approach available without a score gate.",
+      "completion_node": "city_mask_stakes",
+      "earned": {
+        "insight": 3
+      },
+      "current_credit_note": "Deferred by the second source-authenticated repair revision; original before evidence retained."
     },
     {
       "id": "PROG-023",
@@ -549,12 +591,14 @@
       },
       "after": {
         "text": "Trace the recognition batch through licenses and courier charges.",
-        "next": "city_registry_entry",
-        "effects": {
-          "insight": 3
-        }
+        "next": "city_registry_entry"
       },
-      "repair": "Credit Comprehension 3 for this method; leave this offered approach available without a score gate."
+      "repair": "Credit Comprehension 3 for this method; leave this offered approach available without a score gate.",
+      "completion_node": "city_registry_rental",
+      "earned": {
+        "insight": 3
+      },
+      "current_credit_note": "Deferred by the second source-authenticated repair revision; original before evidence retained."
     },
     {
       "id": "PROG-024",
@@ -573,12 +617,14 @@
       },
       "after": {
         "text": "Test the offered wax traces against dispatch controls.",
-        "next": "city_perfumer_entry",
-        "effects": {
-          "insight": 3
-        }
+        "next": "city_perfumer_entry"
       },
-      "repair": "Credit Comprehension 3 for this method; leave this offered approach available without a score gate."
+      "repair": "Credit Comprehension 3 for this method; leave this offered approach available without a score gate.",
+      "completion_node": "city_perfumer_deadline",
+      "earned": {
+        "insight": 3
+      },
+      "current_credit_note": "Deferred by the second source-authenticated repair revision; original before evidence retained."
     },
     {
       "id": "PROG-025",
@@ -603,12 +649,14 @@
         "next": "city_credit_bridge",
         "requires": {
           "insight": 3
-        },
-        "effects": {
-          "insight": 2
         }
       },
-      "repair": "Credit Comprehension 2 for this method; keep only relevant requirements {\"insight\":3}."
+      "repair": "Credit Comprehension 2 for this method; keep only relevant requirements {\"insight\":3}.",
+      "completion_node": "city_credit_bridge",
+      "earned": {
+        "insight": 2
+      },
+      "current_credit_note": "Deferred by the second source-authenticated repair revision; original before evidence retained."
     },
     {
       "id": "PROG-026",
@@ -633,12 +681,14 @@
         "next": "city_separate_ledgers",
         "requires": {
           "insight": 3
-        },
-        "effects": {
-          "insight": 2
         }
       },
-      "repair": "Credit Comprehension 2 for this method; keep only relevant requirements {\"insight\":3}."
+      "repair": "Credit Comprehension 2 for this method; keep only relevant requirements {\"insight\":3}.",
+      "completion_node": "city_separate_ledgers",
+      "earned": {
+        "insight": 2
+      },
+      "current_credit_note": "Deferred by the second source-authenticated repair revision; original before evidence retained."
     },
     {
       "id": "PROG-027",
@@ -660,12 +710,14 @@
       },
       "after": {
         "text": "Help workers form their own limited licensing cooperative.",
-        "next": "city_license_pool",
-        "effects": {
-          "trust": 2
-        }
+        "next": "city_license_pool"
       },
-      "repair": "Credit Dao Heart 2 for this method; leave this offered approach available without a score gate."
+      "repair": "Credit Dao Heart 2 for this method; leave this offered approach available without a score gate.",
+      "completion_node": "city_license_pool",
+      "earned": {
+        "trust": 2
+      },
+      "current_credit_note": "Deferred by the second source-authenticated repair revision; original before evidence retained."
     },
     {
       "id": "PROG-028",
@@ -683,12 +735,14 @@
       },
       "after": {
         "text": "Pause the disputed batch for a dated individual audit.",
-        "next": "city_batch_audit",
-        "effects": {
-          "trust": 2
-        }
+        "next": "city_batch_audit"
       },
-      "repair": "Credit Dao Heart 2 for this method; leave this offered approach available without a score gate."
+      "repair": "Credit Dao Heart 2 for this method; leave this offered approach available without a score gate.",
+      "completion_node": "city_batch_audit",
+      "earned": {
+        "trust": 2
+      },
+      "current_credit_note": "Deferred by the second source-authenticated repair revision; original before evidence retained."
     },
     {
       "id": "PROG-029",
@@ -711,14 +765,16 @@
       "after": {
         "text": "Compare the job dates and drying board.",
         "next": "city_mask_dates",
-        "effects": {
-          "insight": 3
-        },
         "requires": {
           "insight": 5
         }
       },
-      "repair": "Credit Comprehension 3 for this method; keep only relevant requirements {\"insight\":5}."
+      "repair": "Credit Comprehension 3 for this method; keep only relevant requirements {\"insight\":5}.",
+      "completion_node": "city_mask_dates_result",
+      "earned": {
+        "insight": 3
+      },
+      "current_credit_note": "Deferred by the second source-authenticated repair revision; original before evidence retained."
     },
     {
       "id": "PROG-030",
@@ -737,12 +793,14 @@
       },
       "after": {
         "text": "Ask the workers to reconstruct their fittings.",
-        "next": "city_mask_workers",
-        "effects": {
-          "insight": 3
-        }
+        "next": "city_mask_workers"
       },
-      "repair": "Credit Comprehension 3 for this method; leave this offered approach available without a score gate."
+      "repair": "Credit Comprehension 3 for this method; leave this offered approach available without a score gate.",
+      "completion_node": "city_mask_workers_result",
+      "earned": {
+        "insight": 3
+      },
+      "current_credit_note": "Deferred by the second source-authenticated repair revision; original before evidence retained."
     },
     {
       "id": "PROG-031",
@@ -767,12 +825,14 @@
         "next": "city_registry_dispatch_log",
         "requires": {
           "insight": 5
-        },
-        "effects": {
-          "insight": 3
         }
       },
-      "repair": "Credit Comprehension 3 for this method; keep only relevant requirements {\"insight\":5}."
+      "repair": "Credit Comprehension 3 for this method; keep only relevant requirements {\"insight\":5}.",
+      "completion_node": "city_registry_dispatch_return",
+      "earned": {
+        "insight": 3
+      },
+      "current_credit_note": "Deferred by the second source-authenticated repair revision; original before evidence retained."
     },
     {
       "id": "PROG-032",
@@ -794,12 +854,14 @@
       },
       "after": {
         "text": "Ask willing workers to confirm their receipts.",
-        "next": "city_registry_witness_door",
-        "effects": {
-          "insight": 3
-        }
+        "next": "city_registry_witness_door"
       },
-      "repair": "Credit Comprehension 3 for this method; leave this offered approach available without a score gate."
+      "repair": "Credit Comprehension 3 for this method; leave this offered approach available without a score gate.",
+      "completion_node": "city_registry_witness_limit",
+      "earned": {
+        "insight": 3
+      },
+      "current_credit_note": "Deferred by the second source-authenticated repair revision; original before evidence retained."
     },
     {
       "id": "PROG-033",
@@ -818,12 +880,14 @@
       },
       "after": {
         "text": "Reconcile the payment slips Tao provides.",
-        "next": "city_registry_charges_table",
-        "effects": {
-          "insight": 3
-        }
+        "next": "city_registry_charges_table"
       },
-      "repair": "Credit Comprehension 3 for this method; leave this offered approach available without a score gate."
+      "repair": "Credit Comprehension 3 for this method; leave this offered approach available without a score gate.",
+      "completion_node": "city_registry_charges_total",
+      "earned": {
+        "insight": 3
+      },
+      "current_credit_note": "Deferred by the second source-authenticated repair revision; original before evidence retained."
     },
     {
       "id": "PROG-034",
@@ -845,12 +909,14 @@
       },
       "after": {
         "text": "Invite willing workshop tenants to compare the coded trays.",
-        "next": "city_perfumer_trust_compare",
-        "effects": {
-          "insight": 2
-        }
+        "next": "city_perfumer_trust_compare"
       },
-      "repair": "Credit Comprehension 2 for this method; leave this offered approach available without a score gate."
+      "repair": "Credit Comprehension 2 for this method; leave this offered approach available without a score gate.",
+      "completion_node": "city_perfumer_trust_cost",
+      "earned": {
+        "insight": 2
+      },
+      "current_credit_note": "Deferred by the second source-authenticated repair revision; original before evidence retained."
     },
     {
       "id": "PROG-035",
@@ -869,12 +935,14 @@
       },
       "after": {
         "text": "Use the vacant loom bay for a slow strip comparison.",
-        "next": "city_perfumer_drying_bay",
-        "effects": {
-          "insight": 2
-        }
+        "next": "city_perfumer_drying_bay"
       },
-      "repair": "Credit Comprehension 2 for this method; leave this offered approach available without a score gate."
+      "repair": "Credit Comprehension 2 for this method; leave this offered approach available without a score gate.",
+      "completion_node": "city_perfumer_drying_cost",
+      "earned": {
+        "insight": 2
+      },
+      "current_credit_note": "Deferred by the second source-authenticated repair revision; original before evidence retained."
     },
     {
       "id": "PROG-036",
@@ -892,12 +960,14 @@
       },
       "after": {
         "text": "Use the long scoop to clear its path to the grate.",
-        "next": "mite_scoop_001",
-        "effects": {
-          "resolve": 1
-        }
+        "next": "mite_scoop_001"
       },
-      "repair": "Credit Physique 1 for this method; leave this offered approach available without a score gate."
+      "repair": "Credit Physique 1 for this method; leave this offered approach available without a score gate.",
+      "completion_node": "mite_scoop_002",
+      "earned": {
+        "resolve": 1
+      },
+      "current_credit_note": "Deferred by the second source-authenticated repair revision; original before evidence retained."
     },
     {
       "id": "PROG-037",
@@ -915,12 +985,14 @@
       },
       "after": {
         "text": "Follow the witnesses and make room for their finite days.",
-        "next": "court_witness_entry",
-        "effects": {
-          "insight": 1
-        }
+        "next": "court_witness_entry"
       },
-      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate.",
+      "completion_node": "court_witness_a1_09",
+      "earned": {
+        "insight": 1
+      },
+      "current_credit_note": "Deferred by the second source-authenticated repair revision; original before evidence retained."
     },
     {
       "id": "PROG-038",
@@ -938,12 +1010,14 @@
       },
       "after": {
         "text": "Examine the rain records, gauges, and clocks.",
-        "next": "court_rain_entry",
-        "effects": {
-          "insight": 1
-        }
+        "next": "court_rain_entry"
       },
-      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate.",
+      "completion_node": "court_rain_volume_mark",
+      "earned": {
+        "insight": 1
+      },
+      "current_credit_note": "Deferred by the second source-authenticated repair revision; original before evidence retained."
     },
     {
       "id": "PROG-039",
@@ -961,12 +1035,14 @@
       },
       "after": {
         "text": "Trace access costs and the remaining assistance fund.",
-        "next": "court_cost_entry",
-        "effects": {
-          "insight": 1
-        }
+        "next": "court_cost_entry"
       },
-      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate.",
+      "completion_node": "court_cost_clerk_resistance",
+      "earned": {
+        "insight": 1
+      },
+      "current_credit_note": "Deferred by the second source-authenticated repair revision; original before evidence retained."
     },
     {
       "id": "PROG-040",
@@ -988,12 +1064,14 @@
       },
       "after": {
         "text": "Bring two separately agreed testimony sessions to the lower landing.",
-        "next": "court_local_proposal",
-        "effects": {
-          "insight": 2
-        }
+        "next": "court_local_proposal"
       },
-      "repair": "Credit Comprehension 2 for this method; leave this offered approach available without a score gate."
+      "repair": "Credit Comprehension 2 for this method; leave this offered approach available without a score gate.",
+      "completion_node": "court_local_record",
+      "earned": {
+        "insight": 2
+      },
+      "current_credit_note": "Deferred by the second source-authenticated repair revision; original before evidence retained."
     },
     {
       "id": "PROG-041",
@@ -1018,12 +1096,14 @@
         "next": "court_staged_proposal",
         "requires": {
           "insight": 4
-        },
-        "effects": {
-          "insight": 2
         }
       },
-      "repair": "Credit Comprehension 2 for this method; keep only relevant requirements {\"insight\":4}."
+      "repair": "Credit Comprehension 2 for this method; keep only relevant requirements {\"insight\":4}.",
+      "completion_node": "court_staged_delivery",
+      "earned": {
+        "insight": 2
+      },
+      "current_credit_note": "Deferred by the second source-authenticated repair revision; original before evidence retained."
     },
     {
       "id": "PROG-042",
@@ -1041,12 +1121,14 @@
       },
       "after": {
         "text": "Issue a dated limited remand for one independent reinspection.",
-        "next": "court_remand_proposal",
-        "effects": {
-          "trust": 2
-        }
+        "next": "court_remand_proposal"
       },
-      "repair": "Credit Dao Heart 2 for this method; leave this offered approach available without a score gate."
+      "repair": "Credit Dao Heart 2 for this method; leave this offered approach available without a score gate.",
+      "completion_node": "court_remand_review",
+      "earned": {
+        "trust": 2
+      },
+      "current_credit_note": "Deferred by the second source-authenticated repair revision; original before evidence retained."
     },
     {
       "id": "PROG-043",
@@ -1659,12 +1741,14 @@
       },
       "after": {
         "text": "Compare the copying notices.",
-        "next": "court_cost_begin_notices",
-        "effects": {
-          "insight": 1
-        }
+        "next": "court_cost_begin_notices"
       },
-      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate.",
+      "completion_node": "court_cost_begin_notices",
+      "earned": {
+        "insight": 1
+      },
+      "current_credit_note": "Deferred by the second source-authenticated repair revision; original before evidence retained."
     },
     {
       "id": "PROG-064",
@@ -1682,12 +1766,14 @@
       },
       "after": {
         "text": "Check authority over the reserve.",
-        "next": "court_cost_begin_authority",
-        "effects": {
-          "insight": 1
-        }
+        "next": "court_cost_begin_authority"
       },
-      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate.",
+      "completion_node": "court_cost_begin_authority",
+      "earned": {
+        "insight": 1
+      },
+      "current_credit_note": "Deferred by the second source-authenticated repair revision; original before evidence retained."
     },
     {
       "id": "PROG-065",
@@ -2128,12 +2214,14 @@
       },
       "after": {
         "text": "Ask Cai about the visits",
-        "next": "court_docket_assistant_path",
-        "effects": {
-          "insight": 1
-        }
+        "next": "court_docket_assistant_path"
       },
-      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate.",
+      "completion_node": "court_docket_assistant_path",
+      "earned": {
+        "insight": 1
+      },
+      "current_credit_note": "Deferred by the second source-authenticated repair revision; original before evidence retained."
     },
     {
       "id": "PROG-081",
@@ -2627,12 +2715,14 @@
       },
       "after": {
         "text": "Take the reed channel with Wei Xiu and the offered custody record.",
-        "next": "ring_marsh_entry",
-        "effects": {
-          "insight": 1
-        }
+        "next": "ring_marsh_entry"
       },
-      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate."
+      "repair": "Credit Comprehension 1 for this method; leave this offered approach available without a score gate.",
+      "completion_node": "ring_marsh_training",
+      "earned": {
+        "insight": 1
+      },
+      "current_credit_note": "Deferred by the second source-authenticated repair revision; original before evidence retained."
     },
     {
       "id": "PROG-096",
@@ -2650,12 +2740,14 @@
       },
       "after": {
         "text": "Walk the former ferry approach with Wei Jin.",
-        "next": "ring_road_entry",
-        "effects": {
-          "resolve": 1
-        }
+        "next": "ring_road_entry"
       },
-      "repair": "Credit Physique 1 for this method; leave this offered approach available without a score gate."
+      "repair": "Credit Physique 1 for this method; leave this offered approach available without a score gate.",
+      "completion_node": "ring_road_timber_warning",
+      "earned": {
+        "resolve": 1
+      },
+      "current_credit_note": "Deferred by the second source-authenticated repair revision; original before evidence retained."
     },
     {
       "id": "PROG-097",

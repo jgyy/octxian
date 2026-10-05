@@ -120,6 +120,25 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "resolve": 1
+      },
+      "legacy_credit": {
+        "choice_node": "ring_investigation_choice",
+        "branch_nodes": [
+          "ring_road_entry",
+          "ring_road_waterline",
+          "ring_road_daughter",
+          "ring_road_fare",
+          "ring_road_approach",
+          "ring_road_permit_question",
+          "ring_road_closed_ground",
+          "ring_road_soundings",
+          "ring_road_first_rope",
+          "ring_road_timber_warning"
+        ],
+        "rules_before": 2
       }
     },
     "ring_road_brace_choice": {

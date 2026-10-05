@@ -1222,24 +1222,15 @@
       "choices": [
         {
           "text": "Study the corrected phase model at the receiving workshop.",
-          "next": "ridge_model_001",
-          "effects": {
-            "insight": 1
-          }
+          "next": "ridge_model_001"
         },
         {
           "text": "Practice the checked cart route after recovered grip review.",
-          "next": "ridge_route_001",
-          "effects": {
-            "resolve": 1
-          }
+          "next": "ridge_route_001"
         },
         {
           "text": "Take the reserved fare home and keep an honest account.",
-          "next": "ridge_home_001",
-          "effects": {
-            "trust": 1
-          }
+          "next": "ridge_home_001"
         }
       ]
     },
@@ -1267,7 +1258,18 @@
         "stage": "4: Second pair"
       },
       "text": "She drew the two opened arm pairs beside the model and left the next two pale. The anatomy did not become complete because the diagram looked balanced. Jiang showed how material phases affected a socket's return without asking Yue to swallow their impurities. The next apprenticeship would need food, room fees and independent recovered sessions. Comprehension gave the plan questions; it did not pay its costs.",
-      "next": "ridge_model_003"
+      "next": "ridge_model_003",
+      "earned": {
+        "insight": 1
+      },
+      "legacy_credit": {
+        "choice_node": "ridge_final_choice",
+        "branch_nodes": [
+          "ridge_model_001",
+          "ridge_model_002"
+        ],
+        "rules_before": 2
+      }
     },
     "ridge_model_003": {
       "chapter": "book_ix",
@@ -1307,7 +1309,18 @@
         "stage": "4: Second pair"
       },
       "text": "A wheel peg slipped on the second morning. Yue stopped, set the empty cart down and helped the keeper replace it before repeating the route. They inspected the peg as ordinary wood. She felt stronger when she could finish the safe pass, but did not translate that sensation into a fifth-stage certificate. Physique had grown through recovered work. Qi Control still belonged to a different measured task.",
-      "next": "ridge_route_003"
+      "next": "ridge_route_003",
+      "earned": {
+        "resolve": 1
+      },
+      "legacy_credit": {
+        "choice_node": "ridge_final_choice",
+        "branch_nodes": [
+          "ridge_route_001",
+          "ridge_route_002"
+        ],
+        "rules_before": 2
+      }
     },
     "ridge_route_003": {
       "chapter": "book_ix",
@@ -1347,7 +1360,18 @@
         "stage": "4: Second pair"
       },
       "text": "At the west kiln, her mother asked whether the beast had been defeated. Yue described a pool keeper, a dangerous interruption and a material path that needed repair. The answer made a less impressive supper story than victory. Her mother listened to it anyway, then handed her a bowl at the right distance from the ordinary vent. They ate before opening the next teacher's letter.",
-      "next": "ridge_home_003"
+      "next": "ridge_home_003",
+      "earned": {
+        "trust": 1
+      },
+      "legacy_credit": {
+        "choice_node": "ridge_final_choice",
+        "branch_nodes": [
+          "ridge_home_001",
+          "ridge_home_002"
+        ],
+        "rules_before": 2
+      }
     },
     "ridge_home_003": {
       "chapter": "book_ix",

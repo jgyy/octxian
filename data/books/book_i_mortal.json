@@ -274,24 +274,15 @@
       "choices": [
         {
           "text": "Take the gutter shift and buy enough food for the week.",
-          "next": "mortal_work_001",
-          "effects": {
-            "resolve": 1
-          }
+          "next": "mortal_work_001"
         },
         {
           "text": "Attend observation practice and record uncertain sensations.",
-          "next": "mortal_study_001",
-          "effects": {
-            "insight": 1
-          }
+          "next": "mortal_study_001"
         },
         {
           "text": "Ask for a knee assessment and a lighter practice load.",
-          "next": "mortal_recover_001",
-          "effects": {
-            "trust": 1
-          }
+          "next": "mortal_recover_001"
         }
       ]
     },
@@ -319,7 +310,18 @@
         "realm": "mortal",
         "stage": "Unsensed"
       },
-      "next": "mortal_rejoin_001"
+      "next": "mortal_rejoin_001",
+      "earned": {
+        "resolve": 1
+      },
+      "legacy_credit": {
+        "choice_node": "mortal_first_choice",
+        "branch_nodes": [
+          "mortal_work_001",
+          "mortal_work_002"
+        ],
+        "rules_before": 2
+      }
     },
     "mortal_study_001": {
       "chapter": "book_i",
@@ -345,7 +347,18 @@
         "realm": "mortal",
         "stage": "Unsensed"
       },
-      "next": "mortal_rejoin_001"
+      "next": "mortal_rejoin_001",
+      "earned": {
+        "insight": 1
+      },
+      "legacy_credit": {
+        "choice_node": "mortal_first_choice",
+        "branch_nodes": [
+          "mortal_study_001",
+          "mortal_study_002"
+        ],
+        "rules_before": 2
+      }
     },
     "mortal_recover_001": {
       "chapter": "book_i",
@@ -371,7 +384,18 @@
         "realm": "mortal",
         "stage": "Unsensed"
       },
-      "next": "mortal_rejoin_001"
+      "next": "mortal_rejoin_001",
+      "earned": {
+        "trust": 1
+      },
+      "legacy_credit": {
+        "choice_node": "mortal_first_choice",
+        "branch_nodes": [
+          "mortal_recover_001",
+          "mortal_recover_002"
+        ],
+        "rules_before": 2
+      }
     },
     "mortal_rejoin_001": {
       "chapter": "book_i",
@@ -725,24 +749,15 @@
       "choices": [
         {
           "text": "Shield the retreat with a soaked ash cloth.",
-          "next": "mite_cloth_001",
-          "effects": {
-            "resolve": 1
-          }
+          "next": "mite_cloth_001"
         },
         {
           "text": "Use the long scoop to clear its path to the grate.",
-          "next": "mite_scoop_001",
-          "effects": {
-            "resolve": 1
-          }
+          "next": "mite_scoop_001"
         },
         {
           "text": "Warn the workers and keep the corridor empty.",
-          "next": "mite_warning_001",
-          "effects": {
-            "trust": 1
-          }
+          "next": "mite_warning_001"
         }
       ]
     },
@@ -770,7 +785,18 @@
         "realm": "body_tempering",
         "stage": "Sinew"
       },
-      "next": "tempering_after_001"
+      "next": "tempering_after_001",
+      "earned": {
+        "resolve": 1
+      },
+      "legacy_credit": {
+        "choice_node": "mortal_mite_choice",
+        "branch_nodes": [
+          "mite_cloth_001",
+          "mite_cloth_002"
+        ],
+        "rules_before": 2
+      }
     },
     "mite_scoop_001": {
       "chapter": "book_i",
@@ -796,7 +822,18 @@
         "realm": "body_tempering",
         "stage": "Sinew"
       },
-      "next": "tempering_after_001"
+      "next": "tempering_after_001",
+      "earned": {
+        "resolve": 1
+      },
+      "legacy_credit": {
+        "choice_node": "mortal_mite_choice",
+        "branch_nodes": [
+          "mite_scoop_001",
+          "mite_scoop_002"
+        ],
+        "rules_before": 2
+      }
     },
     "mite_warning_001": {
       "chapter": "book_i",
@@ -822,7 +859,18 @@
         "realm": "body_tempering",
         "stage": "Sinew"
       },
-      "next": "tempering_after_001"
+      "next": "tempering_after_001",
+      "earned": {
+        "trust": 1
+      },
+      "legacy_credit": {
+        "choice_node": "mortal_mite_choice",
+        "branch_nodes": [
+          "mite_warning_001",
+          "mite_warning_002"
+        ],
+        "rules_before": 2
+      }
     },
     "tempering_after_001": {
       "chapter": "book_i",

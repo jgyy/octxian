@@ -537,31 +537,19 @@
       "choices": [
         {
           "text": "Follow the witnesses and make room for their finite days.",
-          "next": "court_witness_entry",
-          "effects": {
-            "insight": 1
-          }
+          "next": "court_witness_entry"
         },
         {
           "text": "Examine the rain records, gauges, and clocks.",
-          "next": "court_rain_entry",
-          "effects": {
-            "insight": 1
-          }
+          "next": "court_rain_entry"
         },
         {
           "text": "Trace access costs and the remaining assistance fund.",
-          "next": "court_cost_entry",
-          "effects": {
-            "insight": 1
-          }
+          "next": "court_cost_entry"
         },
         {
           "text": "Compare the docket's versions and correction authority.",
-          "next": "court_docket_entry",
-          "effects": {
-            "insight": 1
-          }
+          "next": "court_docket_entry"
         }
       ],
       "cultivation": {
@@ -1024,35 +1012,22 @@
           "next": "court_weather_proposal",
           "requires": {
             "qi": 4
-          },
-          "effects": {
-            "qi": 1,
-            "insight": 1
           }
         },
         {
           "text": "Bring two separately agreed testimony sessions to the lower landing.",
-          "next": "court_local_proposal",
-          "effects": {
-            "insight": 2
-          }
+          "next": "court_local_proposal"
         },
         {
           "text": "Stage the evidence docket with paid source checks and handling.",
           "next": "court_staged_proposal",
           "requires": {
             "insight": 4
-          },
-          "effects": {
-            "insight": 2
           }
         },
         {
           "text": "Issue a dated limited remand for one independent reinspection.",
-          "next": "court_remand_proposal",
-          "effects": {
-            "trust": 2
-          }
+          "next": "court_remand_proposal"
         }
       ],
       "cultivation": {
@@ -1136,6 +1111,22 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "qi": 1,
+        "insight": 1
+      },
+      "legacy_credit": {
+        "choice_node": "court_final_choice",
+        "branch_nodes": [
+          "court_weather_proposal",
+          "court_weather_terms",
+          "court_weather_setup",
+          "court_weather_shift",
+          "court_weather_ink",
+          "court_weather_close"
+        ],
+        "rules_before": 2
       }
     },
     "ending_court_weather": {
@@ -1228,6 +1219,21 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "insight": 2
+      },
+      "legacy_credit": {
+        "choice_node": "court_final_choice",
+        "branch_nodes": [
+          "court_local_proposal",
+          "court_local_room",
+          "court_local_turn",
+          "court_local_absence",
+          "court_local_counter",
+          "court_local_record"
+        ],
+        "rules_before": 2
       }
     },
     "ending_court_local": {
@@ -1320,6 +1326,21 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "insight": 2
+      },
+      "legacy_credit": {
+        "choice_node": "court_final_choice",
+        "branch_nodes": [
+          "court_staged_proposal",
+          "court_staged_division",
+          "court_staged_check",
+          "court_staged_handling",
+          "court_staged_limit",
+          "court_staged_delivery"
+        ],
+        "rules_before": 2
       }
     },
     "ending_court_staged": {
@@ -1412,6 +1433,21 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "trust": 2
+      },
+      "legacy_credit": {
+        "choice_node": "court_final_choice",
+        "branch_nodes": [
+          "court_remand_proposal",
+          "court_remand_instruction",
+          "court_remand_inspection",
+          "court_remand_extract",
+          "court_remand_delay",
+          "court_remand_review"
+        ],
+        "rules_before": 2
       }
     },
     "ending_court_remand": {
@@ -1582,6 +1618,25 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "insight": 1
+      },
+      "legacy_credit": {
+        "choice_node": "court_investigation_choice",
+        "branch_nodes": [
+          "court_witness_entry",
+          "court_witness_a1_01",
+          "court_witness_a1_02",
+          "court_witness_a1_03",
+          "court_witness_a1_04",
+          "court_witness_a1_05",
+          "court_witness_a1_06",
+          "court_witness_a1_07",
+          "court_witness_a1_08",
+          "court_witness_a1_09"
+        ],
+        "rules_before": 2
       }
     },
     "court_witness_a1_10": {
@@ -4206,6 +4261,39 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "insight": 1
+      },
+      "legacy_credit": {
+        "choice_node": "court_investigation_choice",
+        "branch_nodes": [
+          "court_rain_entry",
+          "court_rain_closed_walk",
+          "court_rain_inner_keeper",
+          "court_rain_petition_scope",
+          "court_rain_keeper_offer",
+          "court_rain_chalk_note",
+          "court_rain_heron_arrival",
+          "court_rain_heron_limit",
+          "court_rain_safe_platform",
+          "court_rain_heron_choice",
+          "court_rain_ordinary_tools",
+          "court_rain_level_reading",
+          "court_rain_mounting_diagram",
+          "court_rain_provisional_map",
+          "court_rain_map_permission",
+          "court_rain_weather_change",
+          "court_rain_clock_names",
+          "court_rain_attendant_cost",
+          "court_rain_bucket_return",
+          "court_rain_staff_limit",
+          "court_rain_first_questions",
+          "court_rain_dry_copies",
+          "court_rain_calibration_start",
+          "court_rain_volume_mark"
+        ],
+        "rules_before": 2
       }
     },
     "court_rain_calibration_choice": {
@@ -6594,6 +6682,29 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "insight": 1
+      },
+      "legacy_credit": {
+        "choice_node": "court_investigation_choice",
+        "branch_nodes": [
+          "court_cost_entry",
+          "court_cost_board",
+          "court_cost_scope",
+          "court_cost_invitation",
+          "court_cost_he_lian",
+          "court_cost_old_price",
+          "court_cost_cashbox",
+          "court_cost_not_compensation",
+          "court_cost_porter",
+          "court_cost_witness_letters",
+          "court_cost_three_accounts",
+          "court_cost_writer_fee",
+          "court_cost_missing_assumptions",
+          "court_cost_clerk_resistance"
+        ],
+        "rules_before": 2
       }
     },
     "court_cost_question_hub": {
@@ -6606,24 +6717,15 @@
       "choices": [
         {
           "text": "Check the carrying-chair schedule.",
-          "next": "court_cost_begin_lift",
-          "effects": {
-            "insight": 1
-          }
+          "next": "court_cost_begin_lift"
         },
         {
           "text": "Compare the copying notices.",
-          "next": "court_cost_begin_notices",
-          "effects": {
-            "insight": 1
-          }
+          "next": "court_cost_begin_notices"
         },
         {
           "text": "Check authority over the reserve.",
-          "next": "court_cost_begin_authority",
-          "effects": {
-            "insight": 1
-          }
+          "next": "court_cost_begin_authority"
         }
       ],
       "cultivation": {
@@ -6642,6 +6744,16 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "insight": 1
+      },
+      "legacy_credit": {
+        "choice_node": "court_cost_question_hub",
+        "branch_nodes": [
+          "court_cost_begin_lift"
+        ],
+        "rules_before": 2
       }
     },
     "court_cost_begin_notices": {
@@ -6655,6 +6767,16 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "insight": 1
+      },
+      "legacy_credit": {
+        "choice_node": "court_cost_question_hub",
+        "branch_nodes": [
+          "court_cost_begin_notices"
+        ],
+        "rules_before": 2
       }
     },
     "court_cost_begin_authority": {
@@ -6668,6 +6790,16 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "insight": 1
+      },
+      "legacy_credit": {
+        "choice_node": "court_cost_question_hub",
+        "branch_nodes": [
+          "court_cost_begin_authority"
+        ],
+        "rules_before": 2
       }
     },
     "court_cost_reports_first": {
@@ -9094,6 +9226,26 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "insight": 1
+      },
+      "legacy_credit": {
+        "choice_node": "court_investigation_choice",
+        "branch_nodes": [
+          "court_docket_entry",
+          "court_docket_threshold",
+          "court_docket_worktable",
+          "court_docket_living_queue",
+          "court_docket_petitioner",
+          "court_docket_roofmaker_terms",
+          "court_docket_first_dates",
+          "court_docket_stamping_guide",
+          "court_docket_queue_table",
+          "court_docket_keeper_limit",
+          "court_docket_scope_map"
+        ],
+        "rules_before": 2
       }
     },
     "court_docket_first_choice": {
@@ -9106,24 +9258,15 @@
       "choices": [
         {
           "text": "Read the full instructions",
-          "next": "court_docket_rules_path",
-          "effects": {
-            "insight": 1
-          }
+          "next": "court_docket_rules_path"
         },
         {
           "text": "Ask Cai about the visits",
-          "next": "court_docket_assistant_path",
-          "effects": {
-            "insight": 1
-          }
+          "next": "court_docket_assistant_path"
         },
         {
           "text": "Walk the paper transfer route",
           "next": "court_docket_paper_path",
-          "effects": {
-            "resolve": 1
-          },
           "requires": {
             "resolve": 3
           }
@@ -9145,6 +9288,16 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "insight": 1
+      },
+      "legacy_credit": {
+        "choice_node": "court_docket_first_choice",
+        "branch_nodes": [
+          "court_docket_rules_path"
+        ],
+        "rules_before": 2
       }
     },
     "court_docket_assistant_path": {
@@ -9158,6 +9311,16 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "insight": 1
+      },
+      "legacy_credit": {
+        "choice_node": "court_docket_first_choice",
+        "branch_nodes": [
+          "court_docket_assistant_path"
+        ],
+        "rules_before": 2
       }
     },
     "court_docket_paper_path": {
@@ -9171,6 +9334,16 @@
       "cultivation": {
         "realm": "qi_gathering",
         "stage": "3: First pair"
+      },
+      "earned": {
+        "resolve": 1
+      },
+      "legacy_credit": {
+        "choice_node": "court_docket_first_choice",
+        "branch_nodes": [
+          "court_docket_paper_path"
+        ],
+        "rules_before": 2
       }
     },
     "court_docket_first_rejoin": {

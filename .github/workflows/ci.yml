@@ -46,6 +46,8 @@ jobs:
           python -m tools.validate_million_continuation --verify-source
           git fetch --depth=1 origin 13bae49f55c66c2cb16c956ca3be26491d10bbd6
           python -m tools.validate_narrative_revision --verify-source
+          git fetch --depth=1 origin c2f148d5b7c0bc22a19f93439d45fdfa1df28b63
+          python -m tools.validate_additional_repairs --verify-source
           python -m unittest discover -s tests -p 'test_*.py'
           python tools/validate_continuation_audits.py --source-base 8dd58078b349f27b228be1107599572bf850efdc --source-node-index docs/CONTINUATION_SOURCE_INDEX_20261003.json
           python tools/validate_continuation_audits.py docs/CONTINUITY_REPAIRS_20261003_SECOND_RIVER.json docs/CONTINUITY_REPAIRS_20261003_SECOND_CITY.json docs/CONTINUITY_REPAIRS_20261003_SECOND_CULTIVATION.json docs/CONTINUITY_REPAIRS_20261003_SECOND_RING.json docs/CONTINUITY_REPAIRS_20261003_SECOND_FERRY.json docs/CONTINUITY_REPAIRS_20261003_SECOND_ORCHARD.json --source-base feb4ec7500a1df2bf95b16265544553372c657ce --source-node-index docs/CONTINUATION_SECOND_SOURCE_INDEX_20261003.json
@@ -87,6 +89,11 @@ jobs:
           timeout 90s .cache/godot/Godot_v4.7.2-stable_linux.x86_64 --headless --path . --script tests/narrative_revision_test.gd 2>&1 | tee build/logs/narrative-revision.log
           rg 'JADE_VOW_NARRATIVE_REVISION_TESTS_OK' build/logs/narrative-revision.log
           ! rg 'SCRIPT ERROR:|ERROR:' build/logs/narrative-revision.log
+      - name: Test both causality revisions and legacy credit thresholds
+        run: |
+          timeout 90s .cache/godot/Godot_v4.7.2-stable_linux.x86_64 --headless --path . --script tests/additional_repairs_test.gd 2>&1 | tee build/logs/additional-repairs.log
+          rg 'JADE_VOW_ADDITIONAL_REPAIRS_TESTS_OK' build/logs/additional-repairs.log
+          ! rg 'SCRIPT ERROR:|ERROR:' build/logs/additional-repairs.log
       - name: Capture actual rendered game screenshots
         env:
           LIBGL_ALWAYS_SOFTWARE: '1'
