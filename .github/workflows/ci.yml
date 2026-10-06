@@ -1,7 +1,7 @@
 name: Godot CI
 on:
   push:
-    branches: [main, feat/jade-vow-godot, feat/expanded-world-quests, codex/cultivation-rewrite-20261003, codex/million-word-continuity-20261003, codex/million-word-ensemble-20261004, codex/narrative-difficulty-20261005, codex/storm-salt-continuity-20261006, codex/reed-crossing-20261006]
+    branches: [main, feat/jade-vow-godot, feat/expanded-world-quests, codex/cultivation-rewrite-20261003, codex/million-word-continuity-20261003, codex/million-word-ensemble-20261004, codex/narrative-difficulty-20261005, codex/storm-salt-continuity-20261006]
   pull_request:
     types: [opened, synchronize, reopened, ready_for_review, converted_to_draft]
   workflow_dispatch:
@@ -221,7 +221,7 @@ jobs:
           name: jade-vow-generated-assets
           path: assets/generated
   bundle:
-    if: github.event_name == 'push' && (github.ref == 'refs/heads/feat/jade-vow-godot' || github.ref == 'refs/heads/feat/expanded-world-quests' || github.ref == 'refs/heads/codex/cultivation-rewrite-20261003' || github.ref == 'refs/heads/codex/million-word-continuity-20261003' || github.ref == 'refs/heads/codex/million-word-ensemble-20261004' || github.ref == 'refs/heads/codex/narrative-difficulty-20261005' || github.ref == 'refs/heads/codex/storm-salt-continuity-20261006' || github.ref == 'refs/heads/codex/reed-crossing-20261006')
+    if: github.event_name == 'push' && (github.ref == 'refs/heads/feat/jade-vow-godot' || github.ref == 'refs/heads/feat/expanded-world-quests' || github.ref == 'refs/heads/codex/cultivation-rewrite-20261003' || github.ref == 'refs/heads/codex/million-word-continuity-20261003' || github.ref == 'refs/heads/codex/million-word-ensemble-20261004' || github.ref == 'refs/heads/codex/narrative-difficulty-20261005' || github.ref == 'refs/heads/codex/storm-salt-continuity-20261006')
     needs: game
     runs-on: ubuntu-latest
     permissions:
