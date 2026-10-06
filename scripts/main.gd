@@ -984,6 +984,23 @@ func _capture() -> void:
 		await get_tree().create_timer(0.8).timeout
 		await RenderingServer.frame_post_draw
 		get_viewport().get_texture().get_image().save_png("res://build/screenshots/consequence_%s.png" % ["house", "school", "lamp"][selection])
+	# Capture the actual gallery controls displaying each retained native original.
+	for painting in ["lark_pass_cliff_market", "outer_shoal_salvage_yard", "vermilion_hollows_inspection_gallery", "kestrel_basin_heat_court", "mirror_basin_reservoir_cloister", "chime_reach_relay_plaza", "qin_bo"]:
+		_world()
+		var group := "npcs" if painting == "qin_bo" else "backgrounds"
+		var selected := -1
+		for index in range(world.get(group, []).size()):
+			if world[group][index].id == painting:
+				selected = index
+		if selected < 0:
+			push_error("A continuation painting is missing from the real gallery: " + painting)
+			_quit_game(1)
+			return
+		_world_selected(selected, group)
+		await get_tree().create_timer(0.4).timeout
+		await RenderingServer.frame_post_draw
+		get_viewport().get_texture().get_image().save_png("res://build/screenshots/native_%s.png" % painting)
+		_close_popup()
 	print("JADE_VOW_CAPTURE_OK")
 	_quit_game()
 
