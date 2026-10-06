@@ -138,7 +138,7 @@ This continuation adds three independently generated originals: a **1536×1024 a
 | Production quota | Delivered | Target |
 |---|---:|---:|
 | Displayed prose words | 1,163,187 | 2,000,000 |
-| Original environments | 40 | 100 |
+| Original environments | 41 | 100 |
 | Extra building interiors | 43 | 100 |
 | Human NPC originals | 65 | 500 |
 | Spirit-beast originals | 15 | 501 |
@@ -181,7 +181,7 @@ python tools/validate_world.py
 .cache/godot/Godot_v4.7.2-stable_linux.x86_64 --headless --path . --script tests/continuation_test.gd
 ```
 
-The source audit requires its fixed base commit locally. Full CI checks native dimensions, alpha and provenance, authentic repair anchors, duplicate prose, every gated story route, saves, UI, all outfit motions, completed-practice persistence, ensemble bounds and motion settings. Xvfb captures **96 real viewport screenshots** and timed portrait animation. The Linux package is launched from a folder without the source checkout.
+The source audit requires its fixed base commit locally. Full CI checks native dimensions, alpha and provenance, authentic repair anchors, duplicate prose, every gated story route, saves, UI, all outfit motions, completed-practice persistence, ensemble bounds and motion settings. Xvfb captures **121 real viewport screenshots** and timed portrait animation. The Linux package is launched from a folder without the source checkout.
 
 Piper Lessac generates narration for every displayed scene, reusing clips only after text, byte and decoded-audio checks. Changed text is regenerated. Narration uses 8 kHz mono Vorbis capped at 10 kb/s to reduce downloads; this lowers audio fidelity while keeping complete speech and timing. CI can reuse independently verified prior draft narration. Music and sound effects are original synthesized audio.
 
@@ -208,4 +208,4 @@ Project code and original story: [MIT](LICENSE). Original artwork provenance is 
 
 The latest [source-backed continuity sweep](docs/SEMANTIC_SWEEP_20261006.md) repairs six additional underlying contradictions across 27 passages and adds a native Lark Pass location painting. The two-million-word and 1,000-verified-repair targets remain unfinished.
 
-Twenty-one new original paintings are retained at actual native resolution: ten location backgrounds at 1536 × 1024, the avalanche shelter at 1672 × 940, and ten transparent character portraits at 1024 × 1536. [Their creation record](assets/art/CONTINUATION_20261006_PROVENANCE.md) identifies each immutable original. The world now contains 83 backgrounds and 65 NPC paintings; unfinished prose is excluded from the delivered manuscript count.
+Twenty-one new original paintings are retained at actual native resolution: ten location backgrounds at 1536 × 1024, the avalanche shelter at 1672 × 940, and ten transparent character portraits at 1024 × 1536. [Their creation record](assets/art/CONTINUATION_20261006_PROVENANCE.md) identifies each immutable original. The world now contains 84 backgrounds and 65 NPC paintings; unfinished prose is excluded from the delivered manuscript count.
