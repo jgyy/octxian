@@ -3,6 +3,7 @@ extends RefCounted
 const Attributes = preload("res://scripts/attributes.gd")
 const StoryData = preload("res://scripts/story_data.gd")
 const SAVE_VERSION := 1
+const CURRENT_PRACTICE_RULES := 3
 # Long campaigns may exceed 100; enforce the same limit on play and load.
 const MAX_STAT := 2147483647
 const STAT_KEYS = Attributes.KEYS
@@ -13,6 +14,8 @@ var history: Array = []
 var recovered_checkpoint := false
 var journey_seed: int = randi_range(1, 2147483646)
 var encounters: Dictionary = {}
+# Record destinations rather than option numbers so revisions can reorder choices.
+var decisions: Dictionary = {}
 # Practice credit follows completed scenes and is awarded once per journey.
 var completed_practice: Dictionary = {}
 
@@ -31,6 +34,66 @@ func _init(source: Dictionary = {}) -> void:
 func node() -> Dictionary:
 	return story.get("nodes", {}).get(current, {})
 
+# Only actual player choices can support a delayed consequence.
+func _valid_decision_target(decision_id: String, selected: String, require_unique: bool = false) -> bool:
+	var nodes = story.get("nodes", {})
+	if not nodes is Dictionary or not nodes.has(decision_id) or not nodes.has(selected):
+		return false
+	var origin = nodes[decision_id]
+	if not origin is Dictionary or origin.get("random_event", false) or origin.has("earned"):
+		return false
+	var options = origin.get("choices", [])
+	if not options is Array or options.is_empty():
+		return false
+	var found := false
+	var destinations: Dictionary = {}
+	for option in options:
+		if not option is Dictionary or not option.get("next") is String or not nodes.has(option.next):
+			return false
+		if require_unique and destinations.has(option.next):
+			return false
+		destinations[option.next] = true
+		if option.next == selected:
+			found = true
+	return found
+
+# Validate the complete routing table before using any match or earning practice.
+# Old checkpoints have no decisions and retain the authored next fallback.
+func _route_target() -> Dictionary:
+	var scene := node()
+	var routes = scene.get("routes")
+	var fallback = scene.get("next")
+	var nodes = story.get("nodes", {})
+	if not nodes is Dictionary:
+		return {"ok": false, "target": ""}
+	if not routes is Array or routes.is_empty() or not fallback is String or not nodes.has(fallback):
+		return {"ok": false, "target": ""}
+	if scene.has("random_event") or scene.has("choices") or scene.has("ending") or scene.has("continuation"):
+		return {"ok": false, "target": ""}
+	var seen: Dictionary = {}
+	var target: String = fallback
+	var matched := false
+	for route in routes:
+		if not route is Dictionary or route.size() != 3:
+			return {"ok": false, "target": ""}
+		if not route.get("decision") is String or not route.get("selected") is String or not route.get("next") is String:
+			return {"ok": false, "target": ""}
+		if not _valid_decision_target(route.decision, route.selected, true) or not nodes.has(route.next):
+			return {"ok": false, "target": ""}
+		if not seen.has(route.decision):
+			seen[route.decision] = {}
+		if seen[route.decision].has(route.selected):
+			return {"ok": false, "target": ""}
+		seen[route.decision][route.selected] = true
+		if decisions.has(route.decision):
+			var selected = decisions[route.decision]
+			if not selected is String or not _valid_decision_target(route.decision, selected):
+				return {"ok": false, "target": ""}
+			if not matched and selected == route.selected:
+				target = route.next
+				matched = true
+	return {"ok": true, "target": target}
+
 # Preview and application share validation, including malformed requirements and overflow.
 func choice_details(choice: Dictionary) -> Dictionary:
 	var details := {
@@ -38,9 +101,20 @@ func choice_details(choice: Dictionary) -> Dictionary:
 		"effects": PackedStringArray(), "requirements": PackedStringArray(),
 		"missing": PackedStringArray(), "updated_stats": stats.duplicate()
 	}
-	if not story.get("nodes", {}).has(str(choice.get("next", ""))):
+	var target = choice.get("next", "")
+	if not target is String or not story.get("nodes", {}).has(target):
 		details.reason = "This choice has no valid destination."
 		return details
+	if node().has("choices") and not node().get("random_event", false) and not _valid_decision_target(current, target):
+		details.reason = "This choice has invalid decision data."
+		return details
+	if decisions.has(current):
+		if not decisions[current] is String or not _valid_decision_target(current, decisions[current]):
+			details.reason = "This scene has an invalid recorded decision."
+			return details
+		if decisions[current] != target:
+			details.reason = "This decision has already been made on this journey."
+			return details
 	var requirements = choice.get("requires", {})
 	var effects = choice.get("effects", {})
 	if not requirements is Dictionary or not effects is Dictionary:
@@ -88,14 +162,16 @@ func can_choose(choice: Dictionary) -> bool:
 func choose(index: int) -> bool:
 	if node().get("random_event", false):
 		return false
-	var choices: Array = node().get("choices", [])
-	if index < 0 or index >= choices.size():
+	var choices = node().get("choices", [])
+	if not choices is Array or index < 0 or index >= choices.size() or not choices[index] is Dictionary:
 		return false
 	var choice: Dictionary = choices[index]
+	var decision_id := current
 	var details := choice_details(choice)
 	if not details.available or not go(str(choice.get("next", ""))):
 		return false
 	stats = details.updated_stats
+	decisions[decision_id] = choice.next
 	return true
 
 func encounter_target() -> String:
@@ -119,6 +195,9 @@ func encounter_target() -> String:
 	return targets[generator.randi_range(0, targets.size() - 1)]
 
 func advance() -> bool:
+	if node().has("routes"):
+		var routed := _route_target()
+		return go(routed.target) if routed.ok else false
 	if node().get("random_event", false):
 		var event_id := current
 		var target := encounter_target()
@@ -174,7 +253,7 @@ func _commit_checkpoint(temporary_path: String, path: String) -> int:
 func save_game(path: String = "user://jade_vow_save.json") -> bool:
 	var temporary_path := path + ".tmp"
 	var backup_path := path + ".bak"
-	var bytes := JSON.stringify({"version": SAVE_VERSION, "current": current, "stats": stats, "history": history, "journey_seed": journey_seed, "encounters": encounters, "completed_practice": completed_practice, "practice_rules": 2}).to_utf8_buffer()
+	var bytes := JSON.stringify({"version": SAVE_VERSION, "current": current, "stats": stats, "history": history, "journey_seed": journey_seed, "encounters": encounters, "decisions": decisions, "completed_practice": completed_practice, "practice_rules": CURRENT_PRACTICE_RULES}).to_utf8_buffer()
 	if not _write_verified_checkpoint(temporary_path, bytes):
 		if FileAccess.file_exists(temporary_path):
 			DirAccess.remove_absolute(temporary_path)
@@ -242,6 +321,15 @@ func load_game(path: String = "user://jade_vow_save.json") -> bool:
 			if not valid_target or not data.encounters[event_id] is String:
 				return false
 		validated_encounters = data.encounters.duplicate(true)
+	var validated_decisions: Dictionary = {}
+	if data.has("decisions"):
+		if not data.decisions is Dictionary:
+			return false
+		for decision_id in data.decisions:
+			var selected = data.decisions[decision_id]
+			if not decision_id is String or not selected is String or not _valid_decision_target(decision_id, selected):
+				return false
+		validated_decisions = data.decisions.duplicate(true)
 	var validated_practice: Dictionary = {}
 	if data.has("completed_practice"):
 		if not data.completed_practice is Dictionary:
@@ -253,9 +341,9 @@ func load_game(path: String = "user://jade_vow_save.json") -> bool:
 	# Different revisions defer different formerly prepaid branches.
 	# Preserve older paid credit while leaving newer pending work unclaimed.
 	var rules = data.get("practice_rules", 0)
-	if not (rules is int or rules is float) or (rules != 0 and rules != 1 and rules != 2):
+	if not (rules is int or rules is float) or not is_finite(float(rules)) or rules != int(rules) or rules < 0 or rules > CURRENT_PRACTICE_RULES:
 		return false
-	if rules < 2:
+	if rules < CURRENT_PRACTICE_RULES:
 		var prior_texts := {}
 		for entry in data["history"]:
 			prior_texts[entry.text] = true
@@ -273,6 +361,7 @@ func load_game(path: String = "user://jade_vow_save.json") -> bool:
 	completed_practice = validated_practice
 	journey_seed = validated_seed
 	encounters = validated_encounters
+	decisions = validated_decisions
 	current = data["current"]
 	stats = validated_stats
 	history = data["history"].duplicate(true)

@@ -13,7 +13,19 @@
       "actor": "lin_yue",
       "text": "On the last morning of the seventeenth week, the independent receiving authority accepted the adopted access work against its actual specification and completed checks. The public release stated its ordinary-use conditions, closure limits, and funded support term. The carpenter's remaining capital balance was paid under the chosen contract, with the maintenance or assistance allocation retained for its stated work. The clerk reconciled one project against one grant. Lin watched the builder sign the receipt, then leave to the separate housing repair. The new arrangement had opened a route; it had not acquired permission to spend another household's roof money.",
       "background": "forest_boundary_map_room",
-      "next": "forest_23_002"
+      "next": "forest_23_002",
+      "routes": [
+        {
+          "decision": "forest_21_010",
+          "selected": "forest_21_footway_001",
+          "next": "aftermath_forest_footway_001"
+        },
+        {
+          "decision": "forest_21_010",
+          "selected": "forest_21_assistance_001",
+          "next": "aftermath_forest_assistance_001"
+        }
+      ]
     },
     "forest_23_002": {
       "chapter": "book_xiii_forest",

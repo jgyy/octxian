@@ -1,0 +1,1624 @@
+{
+  "chapters": {
+    "book_xviii_letters": {
+      "label": "BOOK XVIII",
+      "title": "The Letter That Arrived Late"
+    }
+  },
+  "characters": {},
+  "nodes": {
+    "letters_return_002": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Three fresh packets waited on the receiving table. The first described runoff beneath occupied doors after a new gutter had been installed. The second contained a school route drawn by pupils walking with their teacher. The third held cold-lamp inspection measurements recorded by Lan Fen under Tan's supervision. None contradicted the archive's earlier findings. They concerned things that had happened since. Luo had tied each packet with a different color of ordinary thread because, he admitted, the labels became indistinguishable when he was tired.",
+      "next": "letters_background_router"
+    },
+    "letters_return_entry": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The invitation reached Lin a season after the archive's winter inquiry. Its date stood beyond the last day of her previous agreement. It asked for one review afternoon and a possible later appointment, with no promise that both would become paid work. She answered before booking her journey. By the time she crossed the courtyard again, Sun still held her own house key, Tan still kept the entrusted originals, and the school path still had responsible local keepers. Returning gave Lin no authority to reopen those settled rights.",
+      "next": "letters_return_002"
+    },
+    "letters_background_router": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Lin put the invitation beside her own completed work record. The archive remembered which future she had actually chosen. A new visit could build on that experience without borrowing hours or wages from an expired agreement. She waited for Luo to retrieve the corresponding receiving note instead of supplying him with the version that would make this reunion easiest.",
+      "next": "letters_prepare_001",
+      "routes": [
+        {
+          "decision": "archive_25_006",
+          "selected": "archive_25_role_insight",
+          "next": "letters_prior_public_001"
+        },
+        {
+          "decision": "archive_25_006",
+          "selected": "archive_25_role_trust",
+          "next": "letters_prior_public_001"
+        },
+        {
+          "decision": "archive_25_006",
+          "selected": "archive_25_role_qi",
+          "next": "letters_prior_steward_001"
+        },
+        {
+          "decision": "archive_25_006",
+          "selected": "archive_25_role_resolve",
+          "next": "letters_prior_steward_001"
+        },
+        {
+          "decision": "archive_25_006",
+          "selected": "archive_25_role_help",
+          "next": "letters_prior_home_001"
+        }
+      ]
+    },
+    "letters_prior_public_001": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Luo found the public-work agreement first. Lin had completed its defined hours before leaving; the one hundred and eighty-copper appropriation had hired that appointment alone. Some readers still asked for her at the desk. Their habit pleased her until Luo showed her the present duty roll. Another reader now sat there, and his answers deserved to be heard without beginning as substitutes for hers. Lin greeted him by name and returned the chair she had almost claimed.",
+      "next": "letters_prior_public_002"
+    },
+    "letters_prior_public_002": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The public desk had taught her how a reader could leave with a correct answer and still be unable to use it. A woman carrying baskets had once asked whether a narrow footbridge counted as access when she could cross only sideways. Lin remembered explaining the map's scale. She remembered less clearly whether she had asked about the baskets. The new school packet made that omission uncomfortable. Familiar work gave her a question to carry into the review, not ownership of its answer.",
+      "next": "letters_prepare_001"
+    },
+    "letters_prior_steward_001": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "tan_ke"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Tan brought the stewardship receiving note. Lin had finished that agreement's defined duties and handed over the supported trays, instrument notes and entrusted keys before its final payment. The one hundred and eighty-copper appropriation had not hired a second public worker in secret. Her successor had changed the shelf labels to larger handwriting. Lin's first impulse was to defend the old arrangement. Then she read the new labels from the doorway and found the tray she wanted without stepping closer.",
+      "next": "letters_prior_steward_002"
+    },
+    "letters_prior_steward_002": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "tan_ke"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Stewardship had given Lin a respect for small failures that could remain invisible until a hurried hand met them. A latch could close while missing its seat; a record could look complete while omitting the conditions of a measurement. Lan Fen's new lamp packet lay beside the shelf. Tan asked Lin to leave it tied until the authorized reading interval. She did so, although she recognized the keeper's neat numerals through the thin outer paper. Recognition was not an additional key.",
+      "next": "letters_prepare_001"
+    },
+    "letters_prior_home_001": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "sun_nian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Luo's note recorded that Lin had declined the next archive post and gone home after her complete handover. The board had remained responsible for filling the funded place. Home had contained ordinary shifts, an argument about a leaking roof and mornings when her mother preferred her help with breakfast to another account of a successful trial. Lin had accepted this new invitation before purchasing her own ordinary coach journey. The review's four-copper travel allowance covered only its stated local carriage, not every road she had chosen.",
+      "next": "letters_prior_home_002"
+    },
+    "letters_prior_home_002": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "sun_nian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "She had brought a repaired cloth bag rather than an archive token. Her mother had sewn its torn handle during an evening when neither wanted to speak about the years already lost. Lin could still describe the archive's house findings precisely; she could no longer pretend that carrying them home had completed every conversation she owed. Sun greeted her with a warm hand and asked about the bag. Lin answered the question that had actually been asked.",
+      "next": "letters_prepare_001"
+    },
+    "letters_prepare_001": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "sun_nian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The new review purse held twenty-four copper. Twelve paid one paired copying and checking interval; six paid the ordinary receiving attendant's added hours; four covered the stated local carriage; two purchased return messages. It came from a separately approved neighborhood review allocation. The old winter purse and the former next-post appropriation stayed closed. Lin read the limits before she signed. The clerk offered no wages for today's invited attendance, and she had accepted that condition when answering the letter. She had already paid for her own two-night lodging around the offered walk.",
+      "next": "letters_prepare_002"
+    },
+    "letters_prepare_002": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "sun_nian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The twelve-copper interval could produce one complete accessible packet before tomorrow's engineering walk. The copier could enlarge cramped writing, while the checker compared every line with its permitted source. Dividing the interval among three packets would leave three incomplete readings. Their originals would still be available under their owners' terms, but the next full copying interval was six weeks away. Luo had printed that consequence on the invitation so urgency would not become a surprise imposed on the people arriving.",
+      "next": "letters_prepare_003"
+    },
+    "letters_prepare_003": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "sun_nian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Sun untied the green thread herself. Her new statement concerned runoff reaching three doorways after the gutter change. She had authorized a copy of her observations and two neighbors' countersigned lines; her private notebook was not included. Her existing house right and paid compensation were already settled. A younger clerk asked whether the new damp marks meant the old inquiry had failed. Sun told him houses went on having weather after inquiries ended. She sounded more amused than forgiving.",
+      "next": "letters_prepare_004"
+    },
+    "letters_prepare_004": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "sun_nian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The school packet was broader than Lin expected. Pupils had measured ordinary walking times with their teacher and drawn the route around a storehouse where carts now queued. One child had colored the queue red because it blocked the view of approaching wheels. Luo wanted the map enlarged before the engineers walked tomorrow. He also wanted the children credited for observations the adults had missed. The children's names could appear only in the form their families had agreed; the public map did not require private addresses.",
+      "next": "letters_prepare_005"
+    },
+    "letters_prepare_005": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "sun_nian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Lan placed the lamp packet beside the other two. A new cold reference lamp had disagreed with a separately checked measure after its base was moved. Tan had stopped its use pending a comparison; no living collection had been put at risk. Tomorrow's walk could include its covered reading station if the inspection chart were copied clearly. Without that chart, the crew would leave the station closed and book a later bench visit. Lan wanted the latch fault considered without calling every disagreement a latch fault.",
+      "next": "letters_prepare_006"
+    },
+    "letters_prepare_006": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "sun_nian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "'I would like you to choose the lamp,' Lan said. 'I am telling you because you should know whose delay you are buying.' Sun looked at her for a moment, then said she wanted the household statement copied. Luo wanted the map. Nobody pretended the interests were interchangeable. Lin could ask questions, but the two-hour place remained one place. She had been invited to recommend its use because she had worked with the sources, not because any claimant had surrendered the right to object.",
+      "next": "letters_prepare_007"
+    },
+    "letters_prepare_007": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "sun_nian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Lin asked what happened to an unchosen packet. Sun's statement would remain with Sun and its authorized receiver; the neighbors could still attend or send their permitted words. The school's map could still be used locally, though the engineering crew would lack a checked enlarged copy. Tan would retain the inspection chart and the lamp's closure. The six-week delay concerned this particular paired service and the resulting timetable. It did not erase evidence, close a claim or create a punishment for disagreeing with Lin.",
+      "next": "letters_prepare_008"
+    },
+    "letters_prepare_008": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "sun_nian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The clerk moved an empty copying tray into the middle of the table. Its scratched surface was large enough for one packet opened flat. Sun put a finger on the green thread, then withdrew it. Lan held her maintenance tag against her palm. Luo watched the window because the copier was due at the next bell. Lin saw three people rehearsing patience and understood that patience would cost each of them something different. Her recommendation would be written beneath their stated objections.",
+      "next": "letters_copy_choice"
+    },
+    "letters_copy_choice": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "sun_nian",
+        "lan_fen"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The paired copying place had to be assigned before its paid interval began. Lin would help the selected keeper proof one usable packet. The other two sources would remain intact and available under their existing permissions, while their complete accessible copies waited six weeks. Tomorrow's engineers could hear ordinary testimony, but they could not give three unfinished extracts the status of one checked reading.",
+      "choices": [
+        {
+          "text": "Copy the household observations; the school map and lamp chart wait six weeks.",
+          "next": "letters_copy_house"
+        },
+        {
+          "text": "Copy the school route map; the household extract and lamp chart wait six weeks.",
+          "next": "letters_copy_school"
+        },
+        {
+          "text": "Copy the cold-lamp chart; the household extract and school map wait six weeks.",
+          "next": "letters_copy_lamp"
+        }
+      ]
+    },
+    "letters_copy_house": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "sun_nian",
+      "background": "archive_copy_room",
+      "cast": [
+        "sun_nian",
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Sun untied the household packet and put her permitted statement in the tray. She checked the neighbors' authorized lines before the copier enlarged them. One described water reaching a doorstep; another described water crossing it. Lin had treated the phrases as equivalent on first reading. Sun stopped her at the threshold between them. The corrected copy would let the engineers distinguish an approach made difficult from a room actually entered by runoff. Two other neighbors had declined named inclusion, and their blanks remained blanks.",
+      "next": "letters_copy_house_002"
+    },
+    "letters_copy_house_002": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "sun_nian",
+      "background": "archive_copy_room",
+      "cast": [
+        "sun_nian",
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The copier asked whether the gutter sketch could be straightened. Sun wanted its awkward bend retained because she had drawn it around an old plum root that the survey plan omitted. Lin held the original beside the enlarged sheet until the checker marked the correspondence. The line looked less professional than Luo's map and carried a fact his map did not contain. Sun signed only after the checker read the completed extract aloud and gave her time to change one word.",
+      "next": "letters_copy_house_003"
+    },
+    "letters_copy_house_003": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "sun_nian",
+      "background": "archive_copy_room",
+      "cast": [
+        "sun_nian",
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Luo retied the school map. He would bring its original tomorrow if the weather allowed, but the engineering crew would not receive the larger checked version he had hoped for. Lan left the lamp closed and requested the later copying place. Neither congratulated Lin. Sun thanked her for taking the household packet seriously, then asked whether she would help carry chairs back after the copier left. Lin welcomed the plain task more than she wanted to admit.",
+      "next": "letters_copy_house_004"
+    },
+    "letters_copy_house_004": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "sun_nian",
+      "background": "archive_copy_room",
+      "cast": [
+        "sun_nian",
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The clerk paid the paired workers twelve copper against their completed interval and received the checked household extract. Its ownership and permitted scope were recorded separately. Lin copied the six-week waiting date for the other services onto the return slips. Her recommendation had not multiplied the place; the empty tray showed exactly how much it had accomplished. Sun kept the original. The copy went into the authorized walk folder, while the school map and cold-lamp chart stayed with their respective keepers.",
+      "next": "letters_copy_rejoin_001"
+    },
+    "letters_copy_school": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "luo_zhimo",
+      "background": "archive_copy_room",
+      "cast": [
+        "luo_zhimo",
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Luo opened the school map in the tray, and the copier asked which strokes belonged to measured routes. The children's red queue included a day when one wagon had stalled and a day when three had arrived together. Luo had written a single typical time beneath both. Lin asked him to preserve the difference. He winced at his own neat summary, then found the teacher's separate observations. The enlarged map would show a range and its dates instead of turning a convenient average into a daily promise.",
+      "next": "letters_copy_school_002"
+    },
+    "letters_copy_school_002": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "luo_zhimo",
+      "background": "archive_copy_room",
+      "cast": [
+        "luo_zhimo",
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "One pupil's lane ended against a blank wall. The teacher's note explained that the child had refused to walk through a private yard even when the owner waved her onward. Luo wanted to draw the permitted shortcut. Lin asked whose permission would survive after the owner went away. They retained the public longer route and marked the yard as a particular offered passage, not a new right. The copying worker used different line shapes so the distinction would remain visible without red ink.",
+      "next": "letters_copy_school_003"
+    },
+    "letters_copy_school_003": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "luo_zhimo",
+      "background": "archive_copy_room",
+      "cast": [
+        "luo_zhimo",
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Sun retied the household observations. Tomorrow she could still speak from her own statement, but the engineers would lack its enlarged checked copy. Lan requested the later lamp chart interval and left the reference station closed. Luo thanked Lin with an eagerness that made her uneasy. He saw a map finally large enough to be read across the table; she saw two other packets still tied. Both views belonged in the receiving note.",
+      "next": "letters_copy_school_004"
+    },
+    "letters_copy_school_004": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "luo_zhimo",
+      "background": "archive_copy_room",
+      "cast": [
+        "luo_zhimo",
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The paired workers received twelve copper after the map and its key had been checked. The authorized enlarged copy went into tomorrow's folder; the pupils' original stayed with the school keeper. Lin helped Luo make return slips naming the six-week waiting date for the unchosen copying work. He added a line to the map crediting the pupils' observations in their agreed form. No private address was imported from the household packet to make the school route look more complete.",
+      "next": "letters_copy_rejoin_001"
+    },
+    "letters_copy_lamp": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lan_fen",
+      "background": "archive_copy_room",
+      "cast": [
+        "lan_fen",
+        "tan_ke",
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Lan placed the cold-lamp chart in the copying tray. Its first reading had been made before the base moved; its second followed a different resting angle. The keeper had kept both, along with the separately checked comparison measure. Lin wanted to circle the latch observation because it matched the failure she understood. Tan told her to read the conditions column first. A copied chart that made her favorite explanation conspicuous could mislead more efficiently than the cramped original.",
+      "next": "letters_copy_lamp_002"
+    },
+    "letters_copy_lamp_002": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lan_fen",
+      "background": "archive_copy_room",
+      "cast": [
+        "lan_fen",
+        "tan_ke",
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The checker found an ambiguous numeral in the moved-base reading. Lan did not reconstruct it from the result she expected. She consulted the original tally she had retained and corrected the authorized chart before copying continued. Tan marked the correction's source and kept the previous numeral visible in the work record. Lin watched the page acquire an inconvenient extra line. That line would allow tomorrow's crew to see how the value had been recovered, and where its authority ended.",
+      "next": "letters_copy_lamp_003"
+    },
+    "letters_copy_lamp_003": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lan_fen",
+      "background": "archive_copy_room",
+      "cast": [
+        "lan_fen",
+        "tan_ke",
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Sun tied her household statement again; Luo folded the school map along its existing creases. Their sources remained available, but neither would have the complete enlarged reading promised by the selected place. Lan thanked Lin and asked whether the public reading station might reopen tomorrow. Tan said the copied inspection chart justified a fresh comparison, not reopening by itself. Lin had chosen a way to describe a fault. She had not supplied the missing test.",
+      "next": "letters_copy_lamp_004"
+    },
+    "letters_copy_lamp_004": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lan_fen",
+      "background": "archive_copy_room",
+      "cast": [
+        "lan_fen",
+        "tan_ke",
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Twelve copper paid the two workers after the authorized chart had been checked and received. Tan kept the originals and the lamp's closure tag. Lan booked the borrowed comparison bench for that afternoon's remaining dry interval. Lin wrote the six-week copying date on the household and school return slips. The chosen chart had gained a usable audience. The other packets had gained a definite delay, and their keepers had the right to say so.",
+      "next": "letters_copy_rejoin_001"
+    },
+    "letters_copy_rejoin_001": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "sun_nian",
+        "lan_fen"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The copying workers carried their tools out before the next bell. Lin felt the room grow quieter around the two unchosen packets. Luo had expected disappointment and had prepared a courteous phrase for it. Sun asked him to put away the phrase and fetch a second cushion. He laughed, then looked relieved. They could be disappointed without performing a hearing about disappointment. The clerk checked the paid receipt while Lin moved the chairs back against the wall.",
+      "next": "letters_copy_rejoin_002"
+    },
+    "letters_copy_rejoin_002": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "sun_nian",
+        "lan_fen"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The receiving attendant began the added hours covered by the six-copper allowance. Her post was at the sheltered table, where she would read permitted return slips and help people rest while waiting for their ordinary carriage. It did not purchase three outdoor guides. The four-copper local carriage remained booked for its agreed collecting and returning points. The final two copper reserved the two messages. Lin checked the arrangement because a purse that looked ample on paper could disappear inside unspoken duties.",
+      "next": "letters_copy_rejoin_003"
+    },
+    "letters_copy_rejoin_003": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "sun_nian",
+        "lan_fen"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Lan carried a borrowed comparison board toward the covered courtyard bench. Tan had cleared one fresh cold test before returning it to its lender. Sun wanted to visit her doorway with tomorrow's engineering walk; she planned to reach the nearer guest lodging before dusk so the morning journey would be short. Luo wanted an adult to check the pupils' longer route around the wagon queue. Each task would ordinarily fit inside the remaining afternoon. The rain arrived before any of them had begun.",
+      "next": "letters_copy_rejoin_004"
+    },
+    "letters_copy_rejoin_004": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "sun_nian",
+        "lan_fen"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The first gust laid plum petals against the courtyard wall. A porter stepped beneath the eaves and showed Luo water crossing the low lane. The carriage driver would still honor the dry collecting point, but he would not take wheels through the new current. Lan could stop the cold test safely; the borrowed board would leave tonight whether the measurement succeeded or failed. Sun folded her walking shawl over her knees. The three afternoon windows had narrowed into the same remaining hour.",
+      "next": "letters_copy_rejoin_005"
+    },
+    "letters_copy_rejoin_005": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "sun_nian",
+        "lan_fen"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Lin watched the receiving attendant keep her sheltered post. Pulling her away would leave Sun and the waiting visitors without the help they had actually been promised. Tan stayed responsible for the test's isolation and shutdown. Luo stayed with the school keeper and the return folder. Lin could take one outdoor role before the lane closed. Her fifth stage gave her no weather sense, water ward or extra pair of hands. The work would use ordinary shelter, walking limits and a route the porter had just inspected.",
+      "next": "letters_rain_choice"
+    },
+    "letters_rain_choice": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "sun_nian",
+        "lan_fen"
+      ],
+      "effects": [
+        "rain",
+        "mist"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Lin had one safe hour before the low lane closed. She could escort Sun along the checked covered approach to the booked carriage, shelter Tan's fresh comparison sheet while Lan secured the apparatus, or inspect the school's longer public alternative with the porter. The other adults kept their assigned posts. Choosing one task would leave the other two incomplete today; nobody was required to enter rising water to spare her that cost.",
+      "choices": [
+        {
+          "text": "Escort Sun to the booked carriage; the fresh test sheet and school check may be lost.",
+          "next": "letters_rain_sun"
+        },
+        {
+          "text": "Shelter the fresh test sheet; Sun postpones her walk and the school check waits.",
+          "next": "letters_rain_sheet"
+        },
+        {
+          "text": "Check the school's safe alternative; Sun postpones and the fresh test may be unreadable.",
+          "next": "letters_rain_path"
+        }
+      ]
+    },
+    "letters_rain_sun": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "sun_nian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Sun asked the porter to describe the covered approach before she stood. He named its two resting points and the dry turn to the carriage. Lin waited while Sun decided whether the route suited her. Escorting her would make tomorrow's doorway visit possible, but the invitation was not an order. Sun chose to go. She took her own key and statement, left the private notebook secured with her belongings, and asked Lin to walk where she could hear her ordinary footsteps.",
+      "next": "letters_rain_sun_002"
+    },
+    "letters_rain_sun_002": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "sun_nian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "They reached the first resting point without haste. Rain struck the roof hard enough to swallow conversation, and Lin repeated the turn instruction only when Sun asked. At the second stop, Sun wanted to tell her how the gutter had changed the sound at the doorway. Lin nearly wrote it down while Sun was still balancing her umbrella. She put the pencil away and held the ordinary rail clear instead. An observation could wait until its speaker had both feet where she wanted them.",
+      "next": "letters_rain_sun_003"
+    },
+    "letters_rain_sun_003": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "sun_nian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The driver received Sun at the agreed dry point and took her to the nearer booked lodging. Lin saw her settled with its ordinary attendant before returning along the still-cleared approach. The four-copper carriage charge remained the price of the stated booking, not an unlimited rescue service. By her return the porter had closed the low lane. Tan had shut down the test safely; Lan's fresh sheet was soaked through where the shifted rain had crossed the bench.",
+      "next": "letters_rain_sun_004"
+    },
+    "letters_rain_sun_004": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "sun_nian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Luo said the school alternative had not been checked. The teacher would keep the nearer indoor lesson tomorrow until someone could inspect it. Tan retained the earlier chart but rejected the blurred fresh measurements; the borrowed board left with its lender that evening. Sun's journey had succeeded. Two other opportunities had gone past. Lin wrote those results beside her chosen task without calling the losses proof that she should have chosen differently.",
+      "next": "letters_rain_rejoin_001"
+    },
+    "letters_rain_sheet": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "tan_ke",
+        "lan_fen"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Lin stayed at the covered bench while Lan locked the isolated apparatus. Tan directed her to hold the waxed hood above the fresh sheet without touching the measured board. Ordinary rainwater had begun crossing the table after the wind shifted. The hood kept that narrow writing surface dry long enough for Tan to mark the final reading and stop. Lin's arms ached before the keeper released her. She had protected a record, not powered the lamp or extended the test.",
+      "next": "letters_rain_sheet_002"
+    },
+    "letters_rain_sheet_002": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "tan_ke",
+        "lan_fen"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Tan compared the fresh entries with the checked reference before sealing the sheet. They showed that moving the lamp's base changed the apparent reading under the recorded conditions. The latch still needed its own inspection. Lan stared at the numbers, then looked away from them with an embarrassed smile. She had wanted the latch to explain everything because a latch could be repaired quickly. The saved sheet gave her a result she could use, together with a remaining question she could not dissolve.",
+      "next": "letters_rain_sheet_003"
+    },
+    "letters_rain_sheet_003": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "tan_ke",
+        "lan_fen"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Sun chose the archive's sheltered guest room rather than an unescorted attempt to reach the carriage. Its existing keeper received her; the added attendant kept the promised waiting help. She would miss tomorrow's doorway walk and could arrange a later visit through her own contact. Lin told her about the protected sheet. Sun said she was glad it had survived and still wished Lin had walked with her. Neither statement had to cancel the other.",
+      "next": "letters_rain_sheet_004"
+    },
+    "letters_rain_sheet_004": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "tan_ke",
+        "lan_fen"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The porter closed the low lane before anyone checked the school alternative. Luo told the teacher to retain the nearer indoor lesson tomorrow. The local carriage honored its other agreed collecting and returning points under the same four-copper booking; it had not carried Sun through the closed lane. Tan sent the borrowed comparison board home with its lender. One fresh record remained readable. Two people's afternoon plans had become definite delays.",
+      "next": "letters_rain_rejoin_001"
+    },
+    "letters_rain_path": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The porter led Lin along the longer public alternative while the low lane remained open. She carried a plain pole and wore ordinary rain shoes. At a narrow turning, a wagon had left a tilted board over the gutter. Lin would not call the board part of the path simply because she could step across it. They marked a longer turn on Luo's offered working sketch and checked the fixed rail beyond it. The route depended on public ground and existing supports, not a stranger's yard.",
+      "next": "letters_rain_path_002"
+    },
+    "letters_rain_path_002": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "They timed the two resting points without hurrying. The second stood beneath a roof where the rain fell off one broken corner; the dry place was three paces farther inward than the pupils' sketch showed. Lin wrote the difference while the porter watched the lane. She could report a checked sheltered alternative for today's conditions, with a morning recheck before children used it. She could not promise that the route would remain passable through any storm or that every pupil would require the same time.",
+      "next": "letters_rain_path_003"
+    },
+    "letters_rain_path_003": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Sun chose to remain in the archive's sheltered guest room under its ordinary keeper. The receiving attendant supplied the added waiting help already funded. Sun would miss tomorrow's doorway walk and arrange a later visit through her own contact. At the cold bench Tan completed a safe shutdown while Lan secured the apparatus. Shifted rain blurred the fresh sheet before either keeper could shelter it. The earlier inspection chart remained in custody; the fresh comparison would have to be made again.",
+      "next": "letters_rain_path_004"
+    },
+    "letters_rain_path_004": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Luo received Lin's marked sketch before the porter closed the low lane. He could now arrange a morning recheck of a specific alternative instead of cancelling the outdoor lesson without examination. Sun's missed journey remained missed. Tan refused to guess the washed-out numbers. Lin set the plain pole by the door and sat until her hands stopped trembling from the cold. The useful route note did not turn the other delays into small things.",
+      "next": "letters_rain_rejoin_001"
+    },
+    "letters_rain_rejoin_001": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "After the lane closure, Lin stayed in the lodging she had booked with her own money. The archive's guest keeper, carriage driver and receiving attendant completed their actual duties; nobody's unsafe extra hour was hidden inside her recommendation. Luo received the six-copper attendance receipt after the added post ended. The driver received four for the honored local booking. Sixteen copper had paid copying and travel, six had paid the receiving help, and two remained reserved for the messages.",
+      "next": "letters_rain_rejoin_002"
+    },
+    "letters_rain_rejoin_002": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "In her room Lin laid her wet shoes beneath the stool. The review's three threads had seemed tidy when she arrived. Now one packet had a complete copy, one outdoor task had reached its stated end, and the remaining requests had acquired dates or missing evidence. She wanted to draw arrows until the page looked deliberate. Instead she wrote what each person would need tomorrow. The rain kept striking the shutters after the writing was finished.",
+      "next": "letters_rain_rejoin_003"
+    },
+    "letters_rain_rejoin_003": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The engineering crew began its walk at the covered courtyard the next morning. Its clerk received the one checked copy and the other keepers' authorized originals under their existing terms. The storm had changed attendance and available fresh evidence, not ownership. No decision could be made from a lamp chart about a household's right. Lin carried her notes to the table and waited while the clerk recorded which sources were ready for examination.",
+      "next": "letters_walk_001"
+    },
+    "letters_walk_001": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Luo showed the crew the new gutter plan before introducing the packets. Its installation record confirmed work on the previous month's date, but the plan alone did not establish how water had moved yesterday. A crew member asked whether the archive wanted one recommendation covering the households, school and reading station. Luo said those needs might compete for work time without sharing a cause. Lin felt him make space for a complicated answer in a room that would have preferred a single defect.",
+      "next": "letters_walk_002"
+    },
+    "letters_walk_002": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The walk had a bounded morning interval. Its purpose was to record what could support a later approved repair or route arrangement; it brought no open purse for compensation or immediate construction. Original keepers could decline entry, and the crew would record that limit without treating it as a refusal to cooperate. Sun's house key remained hers. Tan's lamp closure remained Tan's judgment. The school could keep a lesson indoors even if the engineers found the longer route attractive.",
+      "next": "letters_walk_003"
+    },
+    "letters_walk_003": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Lin read the receiving note aloud before the clerk opened the selected copy. The choice made yesterday now determined which questions could be followed line by line across a page large enough for the whole table. The unchosen packets could still be heard and examined within their terms, but they would not receive the missing paired service by courtesy. The crew began with the completed work that had actually arrived.",
+      "next": "letters_copy_result_router"
+    },
+    "letters_copy_result_router": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The clerk checked yesterday's copying receipt against its received packet. A paid interval had produced one named, proofed copy; it could not be reassigned after the weather showed which need would have become easiest. Lin kept the earlier decision beside the present findings so the delayed result would remain visible to the people who had waited.",
+      "next": "letters_rain_result_router",
+      "routes": [
+        {
+          "decision": "letters_copy_choice",
+          "selected": "letters_copy_house",
+          "next": "letters_house_result_001"
+        },
+        {
+          "decision": "letters_copy_choice",
+          "selected": "letters_copy_school",
+          "next": "letters_school_result_001"
+        },
+        {
+          "decision": "letters_copy_choice",
+          "selected": "letters_copy_lamp",
+          "next": "letters_lamp_result_001"
+        }
+      ]
+    },
+    "letters_house_result_001": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The checked household extract let the crew separate three observations that the gutter plan had compressed into one edge. Water had reached one doorstep, crossed a second and collected below the third without entering. The old plum root remained visible in Sun's permitted sketch. The clerk assigned those differences to a specific followup question about the gutter outlet and the ground beneath it. The copy justified a closer inquiry; it did not establish that the contractor had caused every damp mark.",
+      "next": "letters_house_result_002"
+    },
+    "letters_house_result_002": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Luo's school map stayed in its keeper's hands, available for the crew's narrower reading but lacking the paired enlarged version. Tan retained the cold-lamp chart and its closure. The clerk put their complete copying requests on the six-week list rather than describing the whole table as ready. Sun's neighbors would receive the household question in readable form first. School planning and the lamp's fuller public explanation would have to work around the delay Lin had chosen.",
+      "next": "letters_house_result_003"
+    },
+    "letters_house_result_003": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Lin felt relief when the crew found the household distinctions useful. She also heard Luo ask for the later map place before it filled. There would be no second twelve-copper payment hiding beneath the first receipt. She showed him the dated request and kept his objection attached to her recommendation. A correct household copy could be valuable while the lost school opportunity remained real. The crew closed that part of the folder and turned to yesterday's interrupted outdoor work.",
+      "next": "letters_rain_result_router"
+    },
+    "letters_school_result_001": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "luo_zhimo",
+      "background": "archive_copy_room",
+      "cast": [
+        "luo_zhimo",
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The enlarged school map let the crew see the wagon queue and the pupils' longer public turn at the same scale. Its dated range prevented them from treating the slowest walk as a mistake made by a child. They marked a specific comparison between the queued crossing and the alternative's resting places. That comparison could support a route proposal after actual conditions were checked. It did not authorize a shortcut through the offered private yard.",
+      "next": "letters_school_result_002"
+    },
+    "letters_school_result_002": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "luo_zhimo",
+      "background": "archive_copy_room",
+      "cast": [
+        "luo_zhimo",
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The household observations remained with their authorized keeper and reader; the lamp chart stayed under Tan's closure terms. The clerk booked their complete enlarged readings for the six-week service instead of calling them lost. Luo's map would shape the crew's first written route question. Sun's doorway distinctions and Lan's instrument conditions would reach the same readable form later. The choice changed which people obtained a usable planning document now, even though all three original sources had survived.",
+      "next": "letters_school_result_003"
+    },
+    "letters_school_result_003": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "luo_zhimo",
+      "background": "archive_copy_room",
+      "cast": [
+        "luo_zhimo",
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Luo held the enlarged map against the window after the crew finished reading it. He wanted the children to see where their observations had entered the question. Lin asked him to retain the clerk's caution about the untested route beside that credit. He nodded, less quickly than before. He had won a place for the map, not a promise that the outdoor lesson could safely take place. The crew turned to the work yesterday's weather had allowed someone to complete.",
+      "next": "letters_rain_result_router"
+    },
+    "letters_lamp_result_001": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "tan_ke",
+      "background": "archive_copy_room",
+      "cast": [
+        "tan_ke",
+        "lan_fen",
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The checked lamp chart made the changed resting angle legible to the whole crew. Tan explained which readings preceded the move and which followed it. The crew recorded a specific comparison question rather than accepting the latch as the complete cause. Lan's maintenance observation entered the same record as a separate condition. The copied sheet gave the stopped reading station a precise path toward further examination without making its equipment safe by the act of description.",
+      "next": "letters_lamp_result_002"
+    },
+    "letters_lamp_result_002": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "tan_ke",
+      "background": "archive_copy_room",
+      "cast": [
+        "tan_ke",
+        "lan_fen",
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Sun's household observations and the school map remained available under their terms, but neither had the paired enlarged reading the crew would have used for a fuller table comparison. Their complete copying places went onto the six-week list. The first public account would therefore explain the lamp's limits more clearly than the doorstep differences or wagon-route range. Lan had asked for that priority and received it. Lin wrote down who would wait because of it.",
+      "next": "letters_lamp_result_003"
+    },
+    "letters_lamp_result_003": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "tan_ke",
+      "background": "archive_copy_room",
+      "cast": [
+        "tan_ke",
+        "lan_fen",
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Tan kept the closure tag beside the copied chart while the crew asked about yesterday's fresh test. Lin noticed that nobody could now substitute the older checked page for a missing new measurement. A good copy preserved its own conditions. It could not prove what the moved apparatus had done during the interrupted afternoon. Lan folded her hands to keep from pointing at the answer she hoped to hear. The crew opened the outdoor-work receiving note.",
+      "next": "letters_rain_result_router"
+    },
+    "letters_rain_result_router": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The porter supplied yesterday's lane-closure time. Lin supplied the task she had completed before it, and the keepers supplied the other two tasks' actual limits. The engineering walk would follow the surviving opportunity rather than assume that a careful recommendation had somehow completed every job. Its clerk turned the receiving note to the outdoor-work line.",
+      "next": "letters_findings_001",
+      "routes": [
+        {
+          "decision": "letters_rain_choice",
+          "selected": "letters_rain_sun",
+          "next": "letters_sun_result_001"
+        },
+        {
+          "decision": "letters_rain_choice",
+          "selected": "letters_rain_sheet",
+          "next": "letters_sheet_result_001"
+        },
+        {
+          "decision": "letters_rain_choice",
+          "selected": "letters_rain_path",
+          "next": "letters_path_result_001"
+        }
+      ]
+    },
+    "letters_sun_result_001": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "sun_nian",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "sun_nian",
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Sun arrived from the nearer lodging at the planned dry meeting point with its ordinary attendant. She chose to take the crew to her doorway and used her own key when she was ready. Lin's escort yesterday had made this particular attendance possible; it had bought no right to enter today. Inside, Sun showed the line left by the new runoff and the older mark she had excluded from her statement. The crew recorded both dates instead of making a single dramatic stain.",
+      "next": "letters_sun_result_002"
+    },
+    "letters_sun_result_002": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "sun_nian",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "sun_nian",
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At the doorway Sun asked Lin to stand aside while she spoke with the clerk. Lin did, and heard the distinction arrive more clearly without her help. The crew received Sun's permission for one later outlet inspection appointment to be arranged through her contact. Her ownership, settled compensation and private notebook stayed beyond this new task. Lin could carry the permitted question back to the table, but she could not carry Sun's answer to a visit that had not yet happened.",
+      "next": "letters_sun_result_003"
+    },
+    "letters_sun_result_003": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "sun_nian",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "sun_nian",
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Tan's fresh comparison sheet had been blurred by the shifted rain, so the lamp stayed closed pending a new borrowed-board session. Luo's school alternative had not been inspected; the teacher kept today's lesson indoors. Sun's attendance had yielded a directly observed doorway distinction and a permitted followup route. Lin watched the crew write those practical results beside the two delays. She could see the weight of her choice without asking Sun to justify its cost to everyone else.",
+      "next": "letters_findings_001"
+    },
+    "letters_sheet_result_001": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "tan_ke",
+      "background": "archive_copy_room",
+      "cast": [
+        "tan_ke",
+        "lan_fen",
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Tan laid the preserved fresh sheet beside the older chart. The crew could now compare the moved-base test with its recorded conditions rather than infer a result from the shape of the latch. The new readings supported isolating the base-angle question for a further bench check. They did not establish that the latch was sound or authorize reopening. Lan copied the resulting instruction onto her maintenance tag and retained the unresolved line that would make the next session slower.",
+      "next": "letters_sheet_result_002"
+    },
+    "letters_sheet_result_002": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "tan_ke",
+      "background": "archive_copy_room",
+      "cast": [
+        "tan_ke",
+        "lan_fen",
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Sun was still at the archive's sheltered guest room and did not attend a doorway walk that morning. Her statement could be received under its existing permission, but the crew could not enter her house or invent a new indoor observation. It recorded a later contact requirement for that task. Luo's uninspected school alternative remained a sketch, and the teacher retained the indoor lesson. Lin had protected usable measurements by giving up two particular forms of access.",
+      "next": "letters_sheet_result_003"
+    },
+    "letters_sheet_result_003": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "tan_ke",
+      "background": "archive_copy_room",
+      "cast": [
+        "tan_ke",
+        "lan_fen",
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Tan signed the fresh sheet's receiving before it returned to authorized custody. Lan said she wanted to show Lin the repaired latch when its inspection was complete. The invitation was tentative; the repair itself still needed its qualified people and parts. Lin accepted the possibility without turning it into a reward already received. She had made a future instrument conversation more specific while Sun and the school carried their actual delays into the six-week list.",
+      "next": "letters_findings_001"
+    },
+    "letters_path_result_001": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "luo_zhimo",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "luo_zhimo",
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The porter rechecked the longer public alternative at first light and confirmed that yesterday's marked resting places remained dry in the present conditions. The school keeper accepted those limited observations and chose a short outdoor route exercise, with the teacher's ordinary supervision. The pupils reached the roofed resting point by the turn Lin had marked. They did not cross the tilted wagon board or borrow the private yard. One child returned having found a rain sound missing from yesterday's drawing.",
+      "next": "letters_path_result_002"
+    },
+    "letters_path_result_002": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "luo_zhimo",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "luo_zhimo",
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The engineering crew added the checked alternative to its route comparison question, keeping the morning date and conditions visible. A possible useful turn had become an observed walk with a specific limit. Sun remained in the archive's sheltered guest room and did not provide an indoor doorway visit. Tan rejected the washed-out fresh lamp numbers and retained the station closure. Lin's afternoon work had kept a school opportunity open by letting two other opportunities close for now.",
+      "next": "letters_path_result_003"
+    },
+    "letters_path_result_003": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "luo_zhimo",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "luo_zhimo",
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Luo asked the pupils which turn had felt longest. Their answers differed from the porter's measured time because one child counted a waiting wagon and another counted the smell from the storehouse. He left both remarks beside the timed record instead of correcting them into agreement. Lin saw the route becoming useful to people who would use it for different reasons. The crew received the dated note. The household contact and fresh lamp test remained on the later list.",
+      "next": "letters_findings_001"
+    },
+    "letters_findings_001": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "lan_fen"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The clerk closed the morning receiving with separate findings for the households, school route and cold lamp. The chosen copy determined which matter had a complete accessible account at the table. Yesterday's outdoor role determined which fresh access or evidence survived the rain window. Neither choice could be moved afterward to make the results look evenly distributed. The unchosen sources and appointments retained their keepers, limits and dates. Lin signed her part of the receiving only after reading those differences.",
+      "next": "letters_findings_002"
+    },
+    "letters_findings_002": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "lan_fen"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The final two copper purchased the two authorized return messages: one to the neighborhood contact and one to the shared school-and-maintenance receiving desk. Their permitted extracts named the work done and the work still waiting. Private addresses and Sun's notebook were excluded. The clerk received the message receipts and closed the twenty-four-copper review allocation with nothing left to spend. Lin's own lodging and ordinary longer travel stayed in her personal account, where she had agreed to put them.",
+      "next": "letters_findings_003"
+    },
+    "letters_findings_003": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "lan_fen"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The board then offered a new, separately approved six-copper allowance for one two-hour session on the six-week date. Payment would follow completed work. Lin could help receive permitted household followup testimony, lead a school route-annotation lesson, or assist a cold bench session under Tan and Lan. She accepted one returning visit before selecting its work. Each keeper already had an ordinary service route; her presence would add one specific piece of work rather than make local care depend on her return.",
+      "next": "letters_findings_004"
+    },
+    "letters_findings_004": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "lan_fen"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Sun wanted the household session because unfamiliar questions became harder to answer when the person receiving them was new. Luo wanted the school lesson because the pupils had begun asking who wrote the maps adults treated as finished. Lan wanted help at the bench because repeating a narrow task with the same assistant would make its conditions easier to compare. Lin heard invitations with different kinds of trust inside them. Accepting one would disappoint people whose reasons she respected.",
+      "next": "letters_findings_005"
+    },
+    "letters_findings_005": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "lan_fen"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "She checked her ordinary calendar before answering. The return session would occupy a named two-hour interval and require travel she would arrange herself; six copper bought the work, not unlimited attendance or a cultivation lesson. Her current fifth stage and its four pairs remained unchanged. The board left the three descriptions open on the table. Lin could choose a real later commitment, and that commitment would decide whom she worked beside when she came back.",
+      "next": "letters_commitment_choice"
+    },
+    "letters_commitment_choice": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "sun_nian",
+        "lan_fen"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Lin chose one accepted two-hour session for the six-week date. The six-copper allowance would pay only its completed work. The other sessions would stay with their ordinary local services and later staffing questions. Saying yes here would reserve her own calendar and tell one keeper to prepare for her return; she could not use the same interval to honor all three invitations.",
+      "choices": [
+        {
+          "text": "Return for the household followup testimony; leave the school and bench sessions to local cover.",
+          "next": "letters_commit_house"
+        },
+        {
+          "text": "Return for the school route lesson; leave the household and bench sessions to local cover.",
+          "next": "letters_commit_school"
+        },
+        {
+          "text": "Return for the cold-bench work; leave the household and school sessions to local cover.",
+          "next": "letters_commit_lamp"
+        }
+      ]
+    },
+    "letters_commit_house": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "sun_nian",
+      "background": "archive_copy_room",
+      "cast": [
+        "sun_nian",
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Lin accepted the household session's defined work. Sun asked that its receiver have a place for corrections as well as statements. The board wrote that duty into the agreed two hours and kept review judgments with the actual reviewer. The six copper would be payable after Lin completed the session; signing purchased neither an advance wage nor a new household conclusion. Sun put the return date into her own calendar, beside a personal visit that would remain hers to keep.",
+      "next": "letters_commit_house_002"
+    },
+    "letters_commit_house_002": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "sun_nian",
+      "background": "archive_copy_room",
+      "cast": [
+        "sun_nian",
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Luo crossed Lin's name out of the school lesson preparation column and left the ordinary local teacher in place. Lan requested a different assistant for the cold bench and warned that its comparison conditions would need recording anew. Those requests did not accuse Lin of abandoning them. They changed what the keepers would now prepare. She could no longer arrive six weeks later expecting the pupils' lesson or the bench place to have waited privately for her.",
+      "next": "letters_commit_house_003"
+    },
+    "letters_commit_house_003": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "sun_nian",
+      "background": "archive_copy_room",
+      "cast": [
+        "sun_nian",
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Sun asked whether Lin would hear a draft of her new statement before leaving. Lin had enough time for one short reading and said so. Sun used the interval to remove a sentence claiming a neighbor's experience she had not witnessed. She wanted the sentence to be true; she wanted the receiver to know why it was absent. Lin listened without improving it into a more moving account. Their later appointment had begun as a calendar promise, while its actual paid work remained ahead.",
+      "next": "letters_departure_001"
+    },
+    "letters_commit_school": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "luo_zhimo",
+      "background": "archive_copy_room",
+      "cast": [
+        "luo_zhimo",
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Lin accepted the school route-annotation lesson's two hours, with Luo responsible for the offered materials and the local teacher responsible for the pupils' ordinary care. The separately approved six copper would pay after the lesson was completed. The agreement promised neither a new public shortcut nor children who all learned the same thing. Luo wrote a preparation question at its top: What must change on a map when the person using it carries something the mapper did not?",
+      "next": "letters_commit_school_002"
+    },
+    "letters_commit_school_002": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "luo_zhimo",
+      "background": "archive_copy_room",
+      "cast": [
+        "luo_zhimo",
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Sun booked the household session through its ordinary receiver instead of waiting for Lin. Lan requested another bench assistant and kept the conditions comparison as an open preparation task. Lin felt the household appointment leave her calendar more sharply than she had expected. Sun did not soften the change by saying it made no difference. She said she would send the permitted followup question through its proper contact. Their friendship could continue without storing a second paid session inside the first.",
+      "next": "letters_commit_school_003"
+    },
+    "letters_commit_school_003": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "luo_zhimo",
+      "background": "archive_copy_room",
+      "cast": [
+        "luo_zhimo",
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Luo brought out an unmarked sheet for the lesson and asked Lin to leave the first answer unwritten. She almost drew the longer turn from memory. Then she folded the sheet into her own bag with the accepted preparation note. Six weeks later the pupils would bring new observations and their own mistakes. She had chosen to be there when they compared them, which meant trusting a session she could prepare for without finishing before it happened.",
+      "next": "letters_departure_001"
+    },
+    "letters_commit_lamp": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lan_fen",
+      "background": "archive_copy_room",
+      "cast": [
+        "lan_fen",
+        "tan_ke",
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Lin accepted the cold-bench session's two hours under Tan's qualified direction, with Lan responsible for the maintenance record. Its separate six copper would be paid after her actual assistance was received. The agreement described ordinary handling, conditions recording and a supported reference check; it promised no live repair, new internal route or reopened reading station. Tan reserved the right to stop the session if its setup failed. Lin signed that limit before the hopeful part.",
+      "next": "letters_commit_lamp_002"
+    },
+    "letters_commit_lamp_002": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lan_fen",
+      "background": "archive_copy_room",
+      "cast": [
+        "lan_fen",
+        "tan_ke",
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Sun arranged the household followup through its ordinary receiver. Luo retained the local teacher for the route lesson and removed Lin from its expected attendance. Lan watched the two changes being written and said that the bench did not become more deserving because Lin had chosen it. She wanted the familiar assistant, and she had received her. The honesty made Lin smile. It also made the school invitation leaving her calendar impossible to treat as a harmless unused line.",
+      "next": "letters_commit_lamp_003"
+    },
+    "letters_commit_lamp_003": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lan_fen",
+      "background": "archive_copy_room",
+      "cast": [
+        "lan_fen",
+        "tan_ke",
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Before leaving, Lin helped Lan compare the planned handling steps with the maintenance tag. They found one instruction that assumed the table had not moved. Lan struck it through and wrote a condition to check on the actual day. The small correction pleased Tan more than an assurance of success would have. Lin put the accepted work note in her own bag. The future wage remained unpaid, the lamp's status remained governed by its tests, and one keeper would prepare for her return.",
+      "next": "letters_departure_001"
+    },
+    "letters_departure_001": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The clerk gave Lin a copy of her one accepted future session and kept the board's original. The review's paid receipts stayed together; the six-copper later allowance stayed in a different account with no completion recorded yet. Lin's carriage returned her to the agreed dry collecting point under its finished local booking. From there she used the ordinary longer journey she had already chosen and paid for. The archive did not send its keys or collection out in her bag.",
+      "next": "letters_departure_002"
+    },
+    "letters_departure_002": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At the courtyard gate, Luo pointed to the three colored threads still lying on the receiving table. Lin had mistaken them for a tidy solution when she arrived. They had merely helped people keep unlike requests apart long enough to choose between them. Some work had become readable, some opportunity had survived the rain, and one next visit had been accepted. The remaining people would carry on under their own arrangements. She could remember their disappointment without converting it into a promise she had not made.",
+      "next": "letters_review_end"
+    },
+    "letters_review_end": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The return letter went into Lin's training notebook beneath the completed review. Three decisions had left practical marks: a checked source reaching its readers, one rain-window task carried through, and a single later session reserved with its keeper. Her fifth stage had not changed. Sun's key, the collection's custody and the school's local responsibility remained with their owners. Six weeks lay between a promise made and the work that would let her keep it.",
+      "ending": "One Return, Three Unfinished Invitations",
+      "continuation": "letters_second_watch_entry"
+    }
+  }
+}

@@ -37,3 +37,23 @@ Optional `cast` lists one to three unique registered portrait IDs, including the
 Optional `effects` lists up to three unique atmosphere names. It replaces the single `effect` for that scene while preserving old content. Snow, mist, dust, heat_haze, embers, petals and sea_spray join the existing effect names. Every layer shares the paused clock and reduced-motion suppression.
 
 Optional `earned` maps stat keys to positive integer gains after a completed task. Put it on the task's final existing passage with `next` or a continued ending, never on a choice node. `StoryState.go` validates destination and reward before mutation, grants it once and records the scene ID in saved `completed_practice`. A task selection must not award the same points in `effects`. When editing a completion passage, preserve its scene ID so a revisit cannot repeat credit.
+
+## Saved decisions and delayed consequences
+
+Every successful ordinary choice records its scene ID and selected destination in the optional version-1 save field `decisions`. Keep both IDs stable. A recorded commitment cannot switch destinations on a revisit; loading an earlier checkpoint remains a way to explore a different journey. Random encounter records remain separate. Saves without this field load with no inferred decisions.
+
+A passage with `next` can optionally define `routes`:
+
+```json
+{
+  "next": "shared_receiving",
+  "routes": [
+    {"decision": "copy_choice", "selected": "copy_household", "next": "household_followup"},
+    {"decision": "copy_choice", "selected": "copy_school", "next": "school_followup"}
+  ]
+}
+```
+
+Each route must name a real ordinary choice and one of its distinct destinations. The first matching recorded decision selects the consequence. The complete table, fallback, records and pending practice are validated before any transition. Routes belong only on `next` passages. Missing legacy records use the common fallback and do not authorize a selected outcome.
+
+Write consequences that change later people, evidence, employment, access or services. Preserve what the unchosen work could not accomplish. Keep the common fallback free of claims that require a missing decision, and make it a shared scene also reached by real fresh journeys. Legacy-only paragraphs do not increase fresh-route word counts. Full route traversal now preserves relevant decision records until their last downstream use; the conditional campaign must remain acyclic.

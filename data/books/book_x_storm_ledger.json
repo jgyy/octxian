@@ -1703,10 +1703,7 @@
         },
         {
           "text": "Check the household correction list beside the claimants.",
-          "next": "storm_claims_001",
-          "effects": {
-            "trust": 1
-          }
+          "next": "storm_claims_001"
         }
       ]
     },
@@ -1931,7 +1928,21 @@
         "stage": "4: Second pair"
       },
       "text": "By the time Jiang finished the warning account, each claimant had checked the net sum beside their name. Agreement on a repayment list did not require them to endorse the steward's explanation or forgive the delay. Yue asked the clerk to leave room for a later complaint if the payment failed to arrive. The line looked small, but the widow tapped it with one fingernail. A new promise needed a place where its failure could be written.",
-      "next": "storm_settle_001"
+      "next": "storm_settle_001",
+      "earned": {
+        "trust": 1
+      },
+      "legacy_credit": {
+        "choice_node": "storm_hearing_choice",
+        "branch_nodes": [
+          "storm_claims_001",
+          "storm_claims_002",
+          "storm_claims_003",
+          "storm_claims_004",
+          "storm_claims_005"
+        ],
+        "rules_before": 3
+      }
     },
     "storm_settle_001": {
       "chapter": "book_x_storm_ledger",
@@ -2077,24 +2088,15 @@
       "choices": [
         {
           "text": "Help publish the corrected storm ledger and its evidence limits.",
-          "next": "storm_public_001",
-          "effects": {
-            "insight": 1
-          }
+          "next": "storm_public_001"
         },
         {
           "text": "Take the paid portable-bell workshop turn.",
-          "next": "storm_workshop_001",
-          "effects": {
-            "resolve": 1
-          }
+          "next": "storm_workshop_001"
         },
         {
           "text": "Go home with the corrected account and prepare for the valley road.",
-          "next": "storm_home_001",
-          "effects": {
-            "trust": 1
-          }
+          "next": "storm_home_001"
         }
       ]
     },
@@ -2175,7 +2177,22 @@
       },
       "text": "At the valley turn, Yue opened the extract only to check its wax tie. The hearing's result remained specific: thirty-eight copper recovered, four grants corrected, warning duties repaired and disputed testimony retained. That was enough to be useful without becoming a universal verdict. Duan Zhi's receiving address lay on the outer cover. She carried the account toward it, ready to discover where the next village's arithmetic and ordinary lives disagreed.",
       "ending": "An Account That Can Be Read",
-      "continuation": "salt_from_public"
+      "continuation": "salt_from_public",
+      "earned": {
+        "insight": 1
+      },
+      "legacy_credit": {
+        "choice_node": "storm_final_choice",
+        "branch_nodes": [
+          "storm_public_001",
+          "storm_public_002",
+          "storm_public_003",
+          "storm_public_004",
+          "storm_public_005",
+          "storm_end_public"
+        ],
+        "rules_before": 3
+      }
     },
     "storm_workshop_001": {
       "chapter": "book_x_storm_ledger",
@@ -2254,7 +2271,22 @@
       },
       "text": "The bell stayed covered along the valley road, its clapper secured for travel rather than forgotten beneath winter cord. Yue carried the service pack in a dry pocket and left the original storm ledger at the archive. The frame could mark public working intervals once the local crew chose their meaning. It could not decide who deserved water. That decision awaited gauges, names and a village whose story she had not yet heard.",
       "ending": "The Bell and Its Book",
-      "continuation": "salt_from_workshop"
+      "continuation": "salt_from_workshop",
+      "earned": {
+        "resolve": 1
+      },
+      "legacy_credit": {
+        "choice_node": "storm_final_choice",
+        "branch_nodes": [
+          "storm_workshop_001",
+          "storm_workshop_002",
+          "storm_workshop_003",
+          "storm_workshop_004",
+          "storm_workshop_005",
+          "storm_end_workshop"
+        ],
+        "rules_before": 3
+      }
     },
     "storm_home_001": {
       "chapter": "book_x_storm_ledger",
@@ -2333,7 +2365,22 @@
       },
       "text": "Her mother stood at the kiln gate until Yue reached the turn. The inland receipt carried a date, an amount and a vendor's claim about water. It carried no verdict about the valley. Yue touched the dry cover of her tablet and continued toward Duan Zhi's address. The storm had taught her to follow a payment far enough to answer its question. The next road would teach her which question this payment actually asked.",
       "ending": "A Receipt Beneath the Flour Shelf",
-      "continuation": "salt_from_home"
+      "continuation": "salt_from_home",
+      "earned": {
+        "trust": 1
+      },
+      "legacy_credit": {
+        "choice_node": "storm_final_choice",
+        "branch_nodes": [
+          "storm_home_001",
+          "storm_home_002",
+          "storm_home_003",
+          "storm_home_004",
+          "storm_home_005",
+          "storm_end_home"
+        ],
+        "rules_before": 3
+      }
     }
   }
 }

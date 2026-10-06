@@ -4,7 +4,7 @@
   "model_url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/lessac/medium/en_US-lessac-medium.onnx",
   "model_sha256": "5efe09e69902187827af646e1a6e9d269dee769f9877d17b16b1b46eeaaf019f",
   "model_card": "# Model card for lessac (medium)\n\n* Language: en_US (English, United States)\n* Speakers: 1\n* Quality: medium\n* Samplerate: 22,050Hz\n\n## Dataset\n\n* URL: https://www.cstr.ed.ac.uk/projects/blizzard/2013/lessac_blizzard2013/\n* License: https://www.cstr.ed.ac.uk/projects/blizzard/2013/lessac_blizzard2013/license.html\n\n## Training\n\nTrained from scratch.\n",
-  "encoding": "All clips: ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s; source encoding recorded per clip",
+  "encoding": "New clips: ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s; validated existing clips retained",
   "lines": {
     "arrival": {
       "file": "assets/generated/voices/arrival.ogg",
@@ -37004,15 +37004,10 @@
       "codec": "vorbis",
       "channels": 1,
       "sample_rate": 8000,
-      "seconds": 22.94,
-      "text_sha256": "e868077d9648ab299a2d32299c3b0851da8a5e494f63319737e8e9363182aa9d",
-      "sha256": "ad9df6c5a0617ca67a61e6bc12dae2f1f4e8e6e6de2694afb73b0665d506d567",
-      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s",
-      "compression_source": {
-        "sha256": "a122b18ffa5a8625679b4a09a227ef2befcaf526c62c014c8e8bc61668fd9893",
-        "format": "ogg",
-        "encoding": "ffmpeg libvorbis, mono, 16000 Hz, quality 0"
-      }
+      "seconds": 23.53,
+      "text_sha256": "3508591e0b66a27cef6c3205b357a32d09dd025b426fd92539d374f4b83a3fe7",
+      "sha256": "30f315486ad89358ae546a57f9c3834f7ebc0d69634878e1e490cf5a9a464883",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
     },
     "salt_rotation_003": {
       "file": "assets/generated/voices/salt_rotation_003.ogg",
@@ -37276,15 +37271,10 @@
       "codec": "vorbis",
       "channels": 1,
       "sample_rate": 8000,
-      "seconds": 26.48,
-      "text_sha256": "7cdeb5fcc7561025f31b6551253e9e43ea1d7065fb3ecd5ed86d98a8f17e9ce7",
-      "sha256": "e27076d999f533bef02087cd8775837a33277b51a1048f0e41b1e4b7e7bc7a74",
-      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s",
-      "compression_source": {
-        "sha256": "866394a0b351b979b56bc81acac8b098ab23deecb9268c0d5c8117d897032313",
-        "format": "ogg",
-        "encoding": "ffmpeg libvorbis, mono, 16000 Hz, quality 0"
-      }
+      "seconds": 26.4,
+      "text_sha256": "e3ba9fed9bc48f0fe30b9b637b8ec1d9b282e8f386858296400fb2d3ac47d76a",
+      "sha256": "6670730605fdae884bd91d0fb5365972aa0d56f4d6677c6693c2917de01dd629",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
     },
     "salt_purchase_004": {
       "file": "assets/generated/voices/salt_purchase_004.ogg",
@@ -82284,15 +82274,10 @@
       "codec": "vorbis",
       "channels": 1,
       "sample_rate": 8000,
-      "seconds": 26.98,
-      "text_sha256": "e7acb9b07e1328ae6d4e357637879a407ba7cf02912146a19d6245d4d484f09e",
-      "sha256": "150bc7a1dc424010b1438dc8d9128adc2800290ec4cafa4465bd0c74fe5ad015",
-      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s",
-      "compression_source": {
-        "sha256": "4db91f3c9981d6712f633166675c5e4591b98888b39701cfaa200efd1a539bae",
-        "format": "ogg",
-        "encoding": "ffmpeg libvorbis, mono, 16000 Hz, quality 0"
-      }
+      "seconds": 27.84,
+      "text_sha256": "73c39792fee9aaa056e5a0658c965c330ab4ce7103080e1edb75bacf3d6684c0",
+      "sha256": "ca9b8ac8cc709ac4b004ae8d912a1fa9e390c345bc433b0c219a1e4db1523e05",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
     },
     "forest_12_049": {
       "file": "assets/generated/voices/forest_12_049.ogg",
@@ -82316,15 +82301,10 @@
       "codec": "vorbis",
       "channels": 1,
       "sample_rate": 8000,
-      "seconds": 25.07,
-      "text_sha256": "a5472aadc9d7b92d9faacec75ab0f95ce999e5f0d4e1b6b19e4d94aaa44b8d33",
-      "sha256": "262e677de89c52d94113f3011621bf95d5dfe0b5e7f571336b71f8138128b370",
-      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s",
-      "compression_source": {
-        "sha256": "db612567c5085239260a36af06e0b67650de5271ed9975fe179cafbf1d95c2f9",
-        "format": "ogg",
-        "encoding": "ffmpeg libvorbis, mono, 16000 Hz, quality 0"
-      }
+      "seconds": 25.9,
+      "text_sha256": "68f904864183dc60654d3c21ff0fa2340b717d7935c91d95a16bf78c4485ba54",
+      "sha256": "b095c0c200c4de43ea2c0556d28a33ce7470258e3116ac6cc7e17b76287a4ebf",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
     },
     "forest_12_051": {
       "file": "assets/generated/voices/forest_12_051.ogg",
@@ -87948,15 +87928,10 @@
       "codec": "vorbis",
       "channels": 1,
       "sample_rate": 8000,
-      "seconds": 31.44,
-      "text_sha256": "eba1f242fa13f2190d28c738329f612df31c8d739276e646541622cd19c71d70",
-      "sha256": "c19fec701228f970627becddcf475a120624cb15e7f2436cde244ae7b08de436",
-      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s",
-      "compression_source": {
-        "sha256": "a2b9fd70278e3ae5daf35c30cf758ca1461aed027e425e2eb7986dbff30720d5",
-        "format": "ogg",
-        "encoding": "ffmpeg libvorbis, mono, 16000 Hz, quality 0"
-      }
+      "seconds": 31.49,
+      "text_sha256": "28601f5cedfdbd0bfd9d70064ff1934448c0d8005e53e1963fb56bd7e81b3369",
+      "sha256": "f6d0e4c750dc01bb6af07f746c960823586f894398c41e5295cba0de3b36ad4c",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
     },
     "forest_17_028": {
       "file": "assets/generated/voices/forest_17_028.ogg",
@@ -108556,15 +108531,10 @@
       "codec": "vorbis",
       "channels": 1,
       "sample_rate": 8000,
-      "seconds": 28.98,
-      "text_sha256": "87ce2086c50dcf80e36662170c67f8a28f81d649efca1438610c742debe23be0",
-      "sha256": "2e7ae0992c21f83cfc654b3d3e97c735a953617d27a23c130052254b005acdfa",
-      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s",
-      "compression_source": {
-        "sha256": "86e4adeb624e27d58f62a98fcdac060f03758def8d88607026791e9dcc212746",
-        "format": "ogg",
-        "encoding": "ffmpeg libvorbis, mono, 16000 Hz, quality 0"
-      }
+      "seconds": 29.07,
+      "text_sha256": "7acd98a5ee7553007386afda21b73dac16cd6690b8b714e2555f00c8b6aeac7b",
+      "sha256": "a68839f76b9d70185f7936bf3ac44fff03ebb6a31d014dd8c75873f8c00622bb",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
     },
     "harbor_p13_012": {
       "file": "assets/generated/voices/harbor_p13_012.ogg",
@@ -109644,15 +109614,10 @@
       "codec": "vorbis",
       "channels": 1,
       "sample_rate": 8000,
-      "seconds": 30.26,
-      "text_sha256": "011e42133e3a59232e01494f007b92349b3e77177025a7805405f0c31a09b511",
-      "sha256": "f4bcf8225034f87c443f01bb009e6976c912133ad5098d24ab6a0b6429eba44e",
-      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s",
-      "compression_source": {
-        "sha256": "9fc27b9a0f33a03cb2455d2fc30069d0ca6f8a61b9c978ef40f8dcdcc716bdce",
-        "format": "ogg",
-        "encoding": "ffmpeg libvorbis, mono, 16000 Hz, quality 0"
-      }
+      "seconds": 30.38,
+      "text_sha256": "e6a4aea0bc2efd5c09544d0d9c6bf59a93a60dd4c5ab48081c5d88eed473bb44",
+      "sha256": "2cb9f8c7355ffba7acd43189887d4974ff6e6fc2ef546a6620e76667605c8893",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
     },
     "harbor_p14_022": {
       "file": "assets/generated/voices/harbor_p14_022.ogg",
@@ -109660,15 +109625,10 @@
       "codec": "vorbis",
       "channels": 1,
       "sample_rate": 8000,
-      "seconds": 30.12,
-      "text_sha256": "d090a207199c3f3d67f69a86433aefb2cd5b6e03de6df50aec9a08a057903350",
-      "sha256": "345999db274c1da9ddfc89d113ad0fc01d22ec571e6df5c06f87e4cc14bd5997",
-      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s",
-      "compression_source": {
-        "sha256": "d8a897a79edf61213e15efd1ba5582114202d37778bddec5362f3ec18038229a",
-        "format": "ogg",
-        "encoding": "ffmpeg libvorbis, mono, 16000 Hz, quality 0"
-      }
+      "seconds": 29.66,
+      "text_sha256": "2bde30a6eb9d8ba853993bf8beb9c0caad665a67efe94ecb7c473d1c90afebbd",
+      "sha256": "1f6b30c84f71c8843b491c6248a8897ea2070d40fe79374542f1e826c612c36b",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
     },
     "harbor_p14_023": {
       "file": "assets/generated/voices/harbor_p14_023.ogg",
@@ -111212,15 +111172,10 @@
       "codec": "vorbis",
       "channels": 1,
       "sample_rate": 8000,
-      "seconds": 32.73,
-      "text_sha256": "73ea77f3d7c6f997f5e8fefff0861d5e7cee6295b47cbb7216ffabf3ffa88f32",
-      "sha256": "71db0ea4f81fd05beb004545cc74387cc916591d83c84f6bbc373588ec329b11",
-      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s",
-      "compression_source": {
-        "sha256": "883e4be37604ec5f8ca01bdfa6fedeace7c26fc9baf50e4939449a5cd52b940b",
-        "format": "ogg",
-        "encoding": "ffmpeg libvorbis, mono, 16000 Hz, quality 0"
-      }
+      "seconds": 32.08,
+      "text_sha256": "7469e841922ba2ba29c5ae5568dccfb274b6f284ebb196088fc4c5a91d4d4a02",
+      "sha256": "bbc8a288a694985ae5af78ab79ad366ac8b368a06e878c62324f6b9fa540b7e0",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
     },
     "harbor_p16_003": {
       "file": "assets/generated/voices/harbor_p16_003.ogg",
@@ -111228,15 +111183,10 @@
       "codec": "vorbis",
       "channels": 1,
       "sample_rate": 8000,
-      "seconds": 31.79,
-      "text_sha256": "e1a0dcc9baeef9b0ba72e921396a579e8b228df8582d66dcbf535ac8b100d15f",
-      "sha256": "509ca30643f4f1642cf4178aa87f6a89f437bd8771f6311c08cbe110f314b47e",
-      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s",
-      "compression_source": {
-        "sha256": "66838d104fbc517e13a8a2ed3c553a95681657dd431faef40f33d8a4366c67c5",
-        "format": "ogg",
-        "encoding": "ffmpeg libvorbis, mono, 16000 Hz, quality 0"
-      }
+      "seconds": 31.61,
+      "text_sha256": "ad9d79d22863a59f247b1d2528f643cc5639be95eece44acdf9a7a7de6a1d7f2",
+      "sha256": "346d46663aec05a39d180e72c929b86c995fedbfe17ea2ad1111e5981469bd90",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
     },
     "harbor_p16_004": {
       "file": "assets/generated/voices/harbor_p16_004.ogg",
@@ -111276,15 +111226,10 @@
       "codec": "vorbis",
       "channels": 1,
       "sample_rate": 8000,
-      "seconds": 34.16,
-      "text_sha256": "6e76cd1721ada733734a1fb8baf3a86acfbb370312fc9c3e191eafff0131da85",
-      "sha256": "d9e3c82d97da0134f89a3a1cef8c7ff01989de925e4d4a3308aac5b92bdb0518",
-      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s",
-      "compression_source": {
-        "sha256": "8a8c75db24687401eb81b97ccd1d356e4a760d9ded7ade6f85b80819d893dc35",
-        "format": "ogg",
-        "encoding": "ffmpeg libvorbis, mono, 16000 Hz, quality 0"
-      }
+      "seconds": 33.99,
+      "text_sha256": "b5d02fe8e75d72aa3ef7c24daf73be51684d9df9487e07a422df10813797317b",
+      "sha256": "d8338c6f724bc92b5027581a8fdb0e4a9f11c8810d43c9833da1f1d4d6f9d8bb",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
     },
     "harbor_p16_007": {
       "file": "assets/generated/voices/harbor_p16_007.ogg",
@@ -111324,15 +111269,10 @@
       "codec": "vorbis",
       "channels": 1,
       "sample_rate": 8000,
-      "seconds": 31.58,
-      "text_sha256": "f0778b228247742ac013dff52de7a7081ca729bb2890d20beaa837d234aa8c7c",
-      "sha256": "3194d18f3660629853d460c03be9c05d445b93d3ec14e222cf6a26a50c4f0bac",
-      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s",
-      "compression_source": {
-        "sha256": "19d76005e93fc442c0ca433a6bbdf3d829e59c8280f703f50616141f15f50bce",
-        "format": "ogg",
-        "encoding": "ffmpeg libvorbis, mono, 16000 Hz, quality 0"
-      }
+      "seconds": 31.36,
+      "text_sha256": "fd1a40ab6291139a0dd91a585dad814fd9108bbe55336b8b672cc471be61bdd0",
+      "sha256": "d916ac115de6857036e505d21c21b9529d2807d2674dcd582f3c99b808cc34c6",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
     },
     "harbor_p16_010": {
       "file": "assets/generated/voices/harbor_p16_010.ogg",
@@ -111356,15 +111296,10 @@
       "codec": "vorbis",
       "channels": 1,
       "sample_rate": 8000,
-      "seconds": 30.07,
-      "text_sha256": "8b52fd6f9ad551ff6e71b209b9e28273be90c0d43a210b554ef1aa124062ddaf",
-      "sha256": "942654e1da73a4d6c2f091f2c0751c62ea16b9d009d04e7f5dd184c3b0d2bc49",
-      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s",
-      "compression_source": {
-        "sha256": "ec83dbfae42ce5a81b6e09e086cd0dac68a54b458a867d3a598be694870dbc2d",
-        "format": "ogg",
-        "encoding": "ffmpeg libvorbis, mono, 16000 Hz, quality 0"
-      }
+      "seconds": 29.38,
+      "text_sha256": "ea0aeb2f7c639304218529489ed931a3117220ccb79d1b81142b48931d9ae4b1",
+      "sha256": "7ab8bbf8bede68c54dd833a4091bff7bf004c6327a271e9c8f568ff1c4dcbb09",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
     },
     "harbor_p16_012": {
       "file": "assets/generated/voices/harbor_p16_012.ogg",
@@ -111676,15 +111611,10 @@
       "codec": "vorbis",
       "channels": 1,
       "sample_rate": 8000,
-      "seconds": 33.54,
-      "text_sha256": "0ffc1ad24e49bed763ff09585a53b0f0c1c769aebc3300854355398820fc4fe1",
-      "sha256": "1bfa9024b4512f6cd58817bc26d841d3e156f6e554f72a6ea6df9f35ae2de15d",
-      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s",
-      "compression_source": {
-        "sha256": "be8561d14b8de05940a68dc628b5bae62d0924cb3cd77aa853f056320f3f3381",
-        "format": "ogg",
-        "encoding": "ffmpeg libvorbis, mono, 16000 Hz, quality 0"
-      }
+      "seconds": 33.6,
+      "text_sha256": "e887b339597692cb75838bb647db86db6e0899898922a5431567f1cb213bb700",
+      "sha256": "7eded427c2fbce93e7e4a90564963b9b1ad0f63cfc95bff6dc2004b7892a7b00",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
     },
     "harbor_p16_032": {
       "file": "assets/generated/voices/harbor_p16_032.ogg",
@@ -111692,15 +111622,10 @@
       "codec": "vorbis",
       "channels": 1,
       "sample_rate": 8000,
-      "seconds": 31.31,
-      "text_sha256": "69481180d093c1012cf980c80a516be776840354f693f4176d845ee671fd0424",
-      "sha256": "e3f1d70ba7324f12ff33d7f04aa67411384831a47e7c5edaf4fa560bf3d5b8e0",
-      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s",
-      "compression_source": {
-        "sha256": "37b6178e9a81310bce7e996e591bfa1527937ca3cabf5c8dceb7712aa54fa932",
-        "format": "ogg",
-        "encoding": "ffmpeg libvorbis, mono, 16000 Hz, quality 0"
-      }
+      "seconds": 31.03,
+      "text_sha256": "68867bdfd58884864c5271cfe86c8258e5878db8420e9a6327e59dd224df5044",
+      "sha256": "850f1f4f20d432f6596d470286075e7f431bcedc19023f7c4b4c564d58b7017f",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
     },
     "harbor_p16_033": {
       "file": "assets/generated/voices/harbor_p16_033.ogg",
@@ -113100,15 +113025,10 @@
       "codec": "vorbis",
       "channels": 1,
       "sample_rate": 8000,
-      "seconds": 31.6,
-      "text_sha256": "0306d4034af76437763499524b48dabb89207df464a13440b1e8d10a9a50d86a",
-      "sha256": "d06100314d9893ec028b23667e172bfee6c776c8cae9d190009e4f27cc99b179",
-      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s",
-      "compression_source": {
-        "sha256": "6f6ecd506896ad46c8e949a9fe5a81da2217cc60998b8b6a11e18e30e10be256",
-        "format": "ogg",
-        "encoding": "ffmpeg libvorbis, mono, 16000 Hz, quality 0"
-      }
+      "seconds": 31.23,
+      "text_sha256": "622bb788a3c8fceba37f7a3c2243cc268182bf3812db2ed6ad1c88fd90f787f9",
+      "sha256": "710de780daa7cd495fd01269b0070ca89d2bb023c8435e77307c809da6238bbe",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
     },
     "harbor_p18_007": {
       "file": "assets/generated/voices/harbor_p18_007.ogg",
@@ -113484,15 +113404,10 @@
       "codec": "vorbis",
       "channels": 1,
       "sample_rate": 8000,
-      "seconds": 31.92,
-      "text_sha256": "2beab257cf03eb31a5f8288fb0a84aa47a099c247f650cea125a95dd0d4c252b",
-      "sha256": "c2f5df880d23d3dfb72042eafb6e5c096c6a873cc4c5c575b4eaa3d1973fe7c0",
-      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s",
-      "compression_source": {
-        "sha256": "df0deaaa48d43352cd9169ce29a8a6802c71fcc5113a71f2875901858d4ee6d9",
-        "format": "ogg",
-        "encoding": "ffmpeg libvorbis, mono, 16000 Hz, quality 0"
-      }
+      "seconds": 31.96,
+      "text_sha256": "a8f9b05574f195525e85b263f41ff3087a963bcee634d71d5bbf2376edd839f0",
+      "sha256": "c3b9115f9950d2594465c683e8e31c2a98f43597a94832f198757db7bb3d7a9a",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
     },
     "harbor_p18_030": {
       "file": "assets/generated/voices/harbor_p18_030.ogg",
@@ -113628,15 +113543,10 @@
       "codec": "vorbis",
       "channels": 1,
       "sample_rate": 8000,
-      "seconds": 30.72,
-      "text_sha256": "705438c1e4f301ebe7221bd8f0d04d56b50d3d79d01bc2274f5d09bee6a459d7",
-      "sha256": "91df12b566585ba9dc73394a4300da30808222c77a8522b2ffbb884c80bc79f8",
-      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s",
-      "compression_source": {
-        "sha256": "5b49ffd68822d789f255cd68008f54555c936bcdce32d6e8c497542d02af6fa3",
-        "format": "ogg",
-        "encoding": "ffmpeg libvorbis, mono, 16000 Hz, quality 0"
-      }
+      "seconds": 30.3,
+      "text_sha256": "ff08747d29ff3737e7ceaba8cc5a1d3bfe4601b3a497ccfab6aabf3473506203",
+      "sha256": "214f17d83d811728b6e88f2ec5f33645cf2551f7d46703d19098ebd856b3c635",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
     },
     "harbor_p18_039": {
       "file": "assets/generated/voices/harbor_p18_039.ogg",
@@ -114044,15 +113954,10 @@
       "codec": "vorbis",
       "channels": 1,
       "sample_rate": 8000,
-      "seconds": 32.43,
-      "text_sha256": "7cbf8f571622a3ceecef65b80142c980abc2c45ad18bf0482327aeb22e30a562",
-      "sha256": "ee2fc7a904864c13928f8a192561d2187fbdadb5eec0cbc32d1a0c948341d085",
-      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s",
-      "compression_source": {
-        "sha256": "3e5b569a50999d2de1b0837f60f2a1cd7f7676a34c8882db85279bca356ca5cd",
-        "format": "ogg",
-        "encoding": "ffmpeg libvorbis, mono, 16000 Hz, quality 0"
-      }
+      "seconds": 32.62,
+      "text_sha256": "bf9d823e72aa744987f62c0d0262973bcdaa1802e94e83f2bf9d48c81c9f1767",
+      "sha256": "49f1fe3ab0f2150605d70818d5bc01012bb28b628fcf04a7cc32033b2e0e346b",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
     },
     "harbor_p19_006": {
       "file": "assets/generated/voices/harbor_p19_006.ogg",
@@ -114076,15 +113981,10 @@
       "codec": "vorbis",
       "channels": 1,
       "sample_rate": 8000,
-      "seconds": 30.69,
-      "text_sha256": "a7ec962851464c271b921485c14c26f4d97ce63df7956ae3ac92e878e9fd3df2",
-      "sha256": "31bab56db5e6bfcbb214f389ece9a84eac32cce6fab1aac63cabad7309768143",
-      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s",
-      "compression_source": {
-        "sha256": "ddeced9ee6eaae9b351c011eec33c8e63458cc2797e567328294129b209861f0",
-        "format": "ogg",
-        "encoding": "ffmpeg libvorbis, mono, 16000 Hz, quality 0"
-      }
+      "seconds": 30.33,
+      "text_sha256": "f95c72e0e55efc3d232a4453ead9453d7a87c7bf7b7175dd6347b0984308189f",
+      "sha256": "a18e67a09f75c2cc2fbe0a03a04a76bd4af7ffc544da3aa34c530ba09ff645de",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
     },
     "harbor_p19_008": {
       "file": "assets/generated/voices/harbor_p19_008.ogg",
@@ -116460,15 +116360,10 @@
       "codec": "vorbis",
       "channels": 1,
       "sample_rate": 8000,
-      "seconds": 30.19,
-      "text_sha256": "a0f84ef516923c1c45e6344a7a1a9d6205005d06ca4b9c0ec8bc1759aa91e989",
-      "sha256": "e0accb9fd9544b8b8dd746aadea7924c435c2b82b6233b3b373b4ef2011aacf7",
-      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s",
-      "compression_source": {
-        "sha256": "6a07391da68d6de3d4d5a9bac20547c26397610bc4727b3a6a9cc57f406f1e00",
-        "format": "ogg",
-        "encoding": "ffmpeg libvorbis, mono, 16000 Hz, quality 0"
-      }
+      "seconds": 30.51,
+      "text_sha256": "73a55c58e2b4cb8995b0c3d04127746cca87dd3ca7843dc36021d3190f0be337",
+      "sha256": "e76476bb116a73982d2986bcdca1bd29b6e49aeffb058e868303c148fb5972d0",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
     },
     "harbor_p21_040": {
       "file": "assets/generated/voices/harbor_p21_040.ogg",
@@ -118140,15 +118035,10 @@
       "codec": "vorbis",
       "channels": 1,
       "sample_rate": 8000,
-      "seconds": 23.27,
-      "text_sha256": "4348620ebb3ad4ebf0d3c64011bd44d0774e8ad2cecf9c7574cd7e6afb2b0166",
-      "sha256": "46ae9fb0241f07341027bd261934ad05ab1d27879315c5c4a55a2939e9687bc1",
-      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s",
-      "compression_source": {
-        "sha256": "2766590d7357278470b6176a8fa214cd0ad82ca14fae48013ed16f97baf05fbe",
-        "format": "ogg",
-        "encoding": "ffmpeg libvorbis, mono, 16000 Hz, quality 0"
-      }
+      "seconds": 23.39,
+      "text_sha256": "0743c8f803f95e1ff5999e852c18664a933ed8cead906cf8e5aec20d9ca2ee78",
+      "sha256": "c19cf19f592a9a0cae629e8bd3cc478e4ffb156cb0c56b59b0a458913c0b8f71",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
     },
     "harbor_p23_028": {
       "file": "assets/generated/voices/harbor_p23_028.ogg",
@@ -118156,15 +118046,10 @@
       "codec": "vorbis",
       "channels": 1,
       "sample_rate": 8000,
-      "seconds": 30.74,
-      "text_sha256": "66b0148ea5fbfb6a2f912ecdfb5b62c319f7954c909bca630eb749ad5d6ae55a",
-      "sha256": "7148d89889f0d649a6b5c074ed45b1c474ecf09d3be181a5756b6a30db777273",
-      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s",
-      "compression_source": {
-        "sha256": "7a483c93c97577093a94ded8d9a41067d6f83c756f00ad3641f55e67d433b3fb",
-        "format": "ogg",
-        "encoding": "ffmpeg libvorbis, mono, 16000 Hz, quality 0"
-      }
+      "seconds": 31.53,
+      "text_sha256": "26c32e8f0b1297d1b46d9cdab22d54a6ee568a4863e5c13ae3379144181ec191",
+      "sha256": "ce3202a9453bc2cc62466df2ed5baa74c13b5f044c0282ef461bdfa78c60bf5d",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
     },
     "harbor_p23_029": {
       "file": "assets/generated/voices/harbor_p23_029.ogg",
@@ -118172,15 +118057,10 @@
       "codec": "vorbis",
       "channels": 1,
       "sample_rate": 8000,
-      "seconds": 29.83,
-      "text_sha256": "feffc308aa9ec07028edefb637f3bafae03878fd8ca4f611317b0daa1c1032d9",
-      "sha256": "e848e5abd570ef02fbc7be10dc01a5cccb271463264934648df8a15cba011cbf",
-      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s",
-      "compression_source": {
-        "sha256": "437ad592fac90efc13280885af66e3899e6e5937a9babaec84349c2b54261491",
-        "format": "ogg",
-        "encoding": "ffmpeg libvorbis, mono, 16000 Hz, quality 0"
-      }
+      "seconds": 30.37,
+      "text_sha256": "c640790c079f482170c27a454abab31992520ebb64b2011b633e9d143b26dad0",
+      "sha256": "f5b2d00322cd67894293240a67a102902814398bb4aaa36b0a77f6e9d2614753",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
     },
     "harbor_p23_031": {
       "file": "assets/generated/voices/harbor_p23_031.ogg",
@@ -119020,15 +118900,10 @@
       "codec": "vorbis",
       "channels": 1,
       "sample_rate": 8000,
-      "seconds": 31.41,
-      "text_sha256": "9124ea96cc81efdfef86728a8a2897262b2c6a558ebf7eba72b78ea4d39f5331",
-      "sha256": "998e4a4bb87a55469beddfd78d65b413ad7a829acc0b9d7a91f02d609a447479",
-      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s",
-      "compression_source": {
-        "sha256": "3ef5362aaba4ed2ed1a69acac5b3caaa83a7498fe045fce5d10504dce955141e",
-        "format": "ogg",
-        "encoding": "ffmpeg libvorbis, mono, 16000 Hz, quality 0"
-      }
+      "seconds": 31.51,
+      "text_sha256": "6579c634e9c8fe9b9deb073b1045a37904c2ca3cde62addc56c985983aa1c7ce",
+      "sha256": "ea676e4ab70a7eeae543c8c01badd9734a0037d431f0fed7b7eb1fecbdc5cefe",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
     },
     "harbor_p24_025": {
       "file": "assets/generated/voices/harbor_p24_025.ogg",
@@ -119036,15 +118911,10 @@
       "codec": "vorbis",
       "channels": 1,
       "sample_rate": 8000,
-      "seconds": 30.51,
-      "text_sha256": "d41cc64ca12049a0caea2fd103ae16a654335b1e1631e5a35d8107504962d1bc",
-      "sha256": "2451ea3e60b0a4c7bbf023409b3ea80b1f9bc86599a9bc0e6eb3443ffa24fcce",
-      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s",
-      "compression_source": {
-        "sha256": "41c0dd6bb523a25d047ced3939312fcfed7eae9b5ea67b5c12ce874704296e23",
-        "format": "ogg",
-        "encoding": "ffmpeg libvorbis, mono, 16000 Hz, quality 0"
-      }
+      "seconds": 30.92,
+      "text_sha256": "b705c9ba4b2084aabd2fee26d6c4cf94032658816c28ded92409dc04d2f46125",
+      "sha256": "e7815916e90ed4d416dc19e0baa030783b1d0b1c7dcf256398e01552b0a6a70c",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
     },
     "harbor_p24_026": {
       "file": "assets/generated/voices/harbor_p24_026.ogg",
@@ -163068,15 +162938,10 @@
       "codec": "vorbis",
       "channels": 1,
       "sample_rate": 8000,
-      "seconds": 25.04,
-      "text_sha256": "0aadb39ab82138ee5cedb063cb4a63b7c2b525b3c70eb29e9b11437363875d84",
-      "sha256": "a957f1f859f662e787fc5970a48c1f51780a694c62a10401d0ec5f6d407f755a",
-      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s",
-      "compression_source": {
-        "sha256": "ddee8ef20288d770c06e197a99b16753f54d2b911646dcf98da4bc4e8d564fd1",
-        "format": "ogg",
-        "encoding": "ffmpeg libvorbis, mono, 16000 Hz, quality 0"
-      }
+      "seconds": 25.34,
+      "text_sha256": "17c70fbc1b0d1a6329f60a670a1f03efe835a02df2f49544b59cddd7ea2e3c8f",
+      "sha256": "eec6e549352739f0a537f5d241bcaeef31cfe06a5ba3b66c5be783d36654fca2",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
     },
     "desert_p12_063": {
       "file": "assets/generated/voices/desert_p12_063.ogg",
@@ -202844,15 +202709,10 @@
       "codec": "vorbis",
       "channels": 1,
       "sample_rate": 8000,
-      "seconds": 22.43,
-      "text_sha256": "7fa98e14f05917a0ac89fb341689cc1b44422b437191122357b96cec6f102621",
-      "sha256": "54e326002506705bcf130aa29e31f06b2b98cf191af1b17657f3105ad74af350",
-      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s",
-      "compression_source": {
-        "sha256": "66bbf96812cd6e34e2db0d4a0af16436e349d936894ede0d9e8d3e5f59115025",
-        "format": "ogg",
-        "encoding": "ffmpeg libvorbis, mono, 16000 Hz, quality 0"
-      }
+      "seconds": 21.35,
+      "text_sha256": "73d82973c65c14fbce08b8d0d3697d52016f350eac6f9919dd17f966a56897f6",
+      "sha256": "67a78e8e5727177ff9b58541cc1b926f3029164c56ccdc638572775153ce4e34",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
     },
     "desert_p24_role_trust": {
       "file": "assets/generated/voices/desert_p24_role_trust.ogg",
@@ -205301,6 +205161,2734 @@
         "format": "ogg",
         "encoding": "ffmpeg libvorbis, mono, 16000 Hz, quality 0"
       }
+    },
+    "aftermath_salt_wash_002": {
+      "file": "assets/generated/voices/aftermath_salt_wash_002.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 22.54,
+      "text_sha256": "3a899f6b0ed1858f0c9177699341735d2df8db562b00bb90262bdd5005e9630c",
+      "sha256": "e5969e8f0dfd2d284d3bef4a5140bdfc2e87c1566c1d97d3ab1a007c60486505",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_salt_wash_001": {
+      "file": "assets/generated/voices/aftermath_salt_wash_001.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 23.31,
+      "text_sha256": "e5bc7104aa6c02e4503b9fab480e6360c013d6575855be4305cea2253757060c",
+      "sha256": "d355c59f5f02b15900fb06e157adb198305b77db8c622e54dadee6284161ee5f",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_salt_wash_003": {
+      "file": "assets/generated/voices/aftermath_salt_wash_003.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 24.0,
+      "text_sha256": "80b8814d8eb539bc9db4c5cf4b115d31d2acc009cd9a31108c769f22bdaa4407",
+      "sha256": "c716295b72d94ac32de626cfc0fbe8e02274a57fdae9ffa4ffbfd6b0badeb95a",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_salt_seed_001": {
+      "file": "assets/generated/voices/aftermath_salt_seed_001.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 25.77,
+      "text_sha256": "41901ca5a7ef6bd9ba5a56dd7324637842e5fba4de1bc9034a6b2eb203affd10",
+      "sha256": "08fdb5e7a8365c3bfef254e3cd77b1abfc01aea8ade02cfcb8c5c6511eda2219",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_salt_seed_002": {
+      "file": "assets/generated/voices/aftermath_salt_seed_002.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 22.24,
+      "text_sha256": "49c6717784a1915cac74ca04dd74e8a5ba51e58cc16cc32db9ba4c798d7e6a5a",
+      "sha256": "1dafd9a8e32daba437f77759ef7fc2df606bbdc84707c2a8c4364d1d10a2b840",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_salt_seed_003": {
+      "file": "assets/generated/voices/aftermath_salt_seed_003.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 23.03,
+      "text_sha256": "b90de7946c6e9b6d0dfa4b37791f70a2ad692e956b9da8450ee6441dc37b33ea",
+      "sha256": "573a3bfc67b89c2cdc76856b423d1dda45c122118fcda9b24d6beabc2f8d6262",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_salt_reserve_001": {
+      "file": "assets/generated/voices/aftermath_salt_reserve_001.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 24.71,
+      "text_sha256": "0f82dfd03ad7134edc3938548ed9b0cb4b13fb9e811b2bbfa62795ddcf95c66f",
+      "sha256": "7c3ea7fe1a40926ce596b1004e798a18ccb730b73d41e5bec51b715821c5bc92",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_salt_reserve_002": {
+      "file": "assets/generated/voices/aftermath_salt_reserve_002.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 23.15,
+      "text_sha256": "2f7a901d8ca13ff862081f40f531c318356bba1e07b687c5835cdeeea6f020ac",
+      "sha256": "e5099115e1c3a7f76f0d61faa8057540aaab328a6bac9c591607a1e70e061d32",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_forest_footway_001": {
+      "file": "assets/generated/voices/aftermath_forest_footway_001.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 20.53,
+      "text_sha256": "c61c9113085f4d06908afb3baf00bc795a424b7d8ca7e69525e844756de4da4f",
+      "sha256": "2dd999dd7ce3045cb5242931f1a67c6572dbea93f1f0e7b0c2ea6a00cedb581d",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_salt_reserve_003": {
+      "file": "assets/generated/voices/aftermath_salt_reserve_003.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 24.5,
+      "text_sha256": "1f40e642fab7518a65acddac6567c2b40f6e0d8e1a7ceaff517c34cf9eb72e61",
+      "sha256": "e2af4dd0dfdddb2543bb4df12ffa7701654e12dca7a212f297d1657196dcf968",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_forest_footway_003": {
+      "file": "assets/generated/voices/aftermath_forest_footway_003.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 23.16,
+      "text_sha256": "ea7a212e76c7c6fe0d3e2a26ec388f53070f2752b5e88172bc421906f78b097d",
+      "sha256": "73e2315900c4f69e6a25bedcd3103c75f0b50a1667d9a76c2e4bfbc027a8f9d3",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_forest_footway_002": {
+      "file": "assets/generated/voices/aftermath_forest_footway_002.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 24.22,
+      "text_sha256": "3e2486e9af3a07628d92201cd32a570c8ce10f049ba007908d321a620b9a03cd",
+      "sha256": "4aef80a9e3d24f02109f3b515888e2226dcc955ac5ef8a6289eaeebf5ea27770",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_forest_assistance_001": {
+      "file": "assets/generated/voices/aftermath_forest_assistance_001.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 21.58,
+      "text_sha256": "feacb61c3669c6d509caa3d7dc3e6d74009bbe7b8e359920fecff3b83d8adb34",
+      "sha256": "4159c03258cacd5c9b9eecf0c3dcb391079f43195a1b7c22968aa487e220e610",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_forest_assistance_002": {
+      "file": "assets/generated/voices/aftermath_forest_assistance_002.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 21.61,
+      "text_sha256": "1cb41e7d5ccb696bbd813ced85e7b4b65683c56469566cbf110d747fb5b980ef",
+      "sha256": "fc184fcb6db437bd61dfd0980eae392c345893b33e9ec646bc5f1ab9b20138a0",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_forest_assistance_003": {
+      "file": "assets/generated/voices/aftermath_forest_assistance_003.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 24.3,
+      "text_sha256": "3395879643b58021cd1e902b553d6f053bc2fd386f1d2692cb6d25f1f6114c0b",
+      "sha256": "e31e51bbe5d0df04c42116976b2ef6080dbe3de9e154a86c53bfc363a80435f5",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_harbor_registry_001": {
+      "file": "assets/generated/voices/aftermath_harbor_registry_001.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 23.15,
+      "text_sha256": "92f1c923134767d6bf9897275e18444822987d87710b425e3a8ebab4d2cde2b6",
+      "sha256": "b09071caf2893afb75dc12649130c06a58aa34b7105b24669a20746812a52e14",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_harbor_registry_002": {
+      "file": "assets/generated/voices/aftermath_harbor_registry_002.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 23.3,
+      "text_sha256": "0ae0241428d2ec85cc47595c606c716d2be6c1390c520ad1835e3ef0b8c8e847",
+      "sha256": "9f916e040832045858bdad73ad5726fe60c0617917eb87764287c3971ea92d00",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_harbor_registry_003": {
+      "file": "assets/generated/voices/aftermath_harbor_registry_003.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 26.82,
+      "text_sha256": "3644a3ee472fe64d5ba20c2fb4d0682fe5a879f5cd472c55146f04177be3b826",
+      "sha256": "435c4d6efb1c602e3937f9a7696fcb81b405b9aea550e0ff3c7572dd75b7098a",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_harbor_repair_001": {
+      "file": "assets/generated/voices/aftermath_harbor_repair_001.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 24.76,
+      "text_sha256": "84f9d7ccb9c59375b0620b5cd295ba770c10e163e65d895df20ac1eb2f04064d",
+      "sha256": "db18ce1d1f3fbaff5aacb44a11154788b154fde9760614ff8153a28ac2919870",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_harbor_repair_002": {
+      "file": "assets/generated/voices/aftermath_harbor_repair_002.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 25.16,
+      "text_sha256": "f9b4ec365b1e3e4133da0a28a3fa1bcfc0c982d21c494603fea51057150b7148",
+      "sha256": "5067f34ebaaf1f895b16b41c86dcbd0b9f63e39df41256479cebfcead7b21268",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_harbor_repair_003": {
+      "file": "assets/generated/voices/aftermath_harbor_repair_003.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 22.81,
+      "text_sha256": "d16d0608b6d0d4bb95f41bed4b5497fdf2e5943ce1bfd9e57f6643d8f718c471",
+      "sha256": "4392756367b56e3878bf61f3ec8f7ee477f1be0d3938040a289c4ecf4991dba7",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_harbor_road_001": {
+      "file": "assets/generated/voices/aftermath_harbor_road_001.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 26.25,
+      "text_sha256": "14b7b9ab4dfe918811ba10dd775b880020f8fb74a22d484b86a42a9cff0a5583",
+      "sha256": "06d729330118eeb0a27624028042d558807db3c6714698ac7e5fc2f154ee6617",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_harbor_road_002": {
+      "file": "assets/generated/voices/aftermath_harbor_road_002.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 23.8,
+      "text_sha256": "2afb8a8c52b5bc53663ec7719c74e30d5ebe36da471d620a04de62600b173b64",
+      "sha256": "8b97087e338047bd56494f510d1f9708dced26d44d169bfb0a898d7fd3a99947",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_harbor_road_003": {
+      "file": "assets/generated/voices/aftermath_harbor_road_003.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 26.48,
+      "text_sha256": "e2f0a7ffe50fab15e1d1821ff076a7984f49adfc67188936686508e50f177ad6",
+      "sha256": "0d9355fb8d269173b3615c5296aaff8c4365d9949d84a0be0eb729760751a107",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_causeway_notice_001": {
+      "file": "assets/generated/voices/aftermath_causeway_notice_001.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 25.77,
+      "text_sha256": "db103750a7bd7b3a79c854a736228a56c3b1026bf21770fd8417e76d14d80674",
+      "sha256": "7a418a3aa0af5eb3b8259f28fd959f4f385b97e303230347ac14f102634b919c",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_causeway_notice_003": {
+      "file": "assets/generated/voices/aftermath_causeway_notice_003.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 22.5,
+      "text_sha256": "d80f1a9976d8867eea1448a89c263cbf64294b70b2197d1802f8c3f4351465dc",
+      "sha256": "58b2ed6dbd3adca91c4b5e479fe9f02bc11b5af6f21024be5cf774a4689c7243",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_causeway_notice_002": {
+      "file": "assets/generated/voices/aftermath_causeway_notice_002.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 24.13,
+      "text_sha256": "22954302bd46ba375b0f18308088d2d13dbd031daf715fbe30563d24e6b5bcd7",
+      "sha256": "2bd7b5f3e9bc34f4c9cb2ca4d0409a9d97c3b080f62f2a74e18f438e75ff3073",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_causeway_delay_001": {
+      "file": "assets/generated/voices/aftermath_causeway_delay_001.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 21.27,
+      "text_sha256": "b11d537581eaec75d70b5ae4b17915d09a960811dabeb8d8fbc73f88d2c5acad",
+      "sha256": "be568ed43a03d8a9c670adaadfd65c738ccc9473035512dca9368c14d9718b7e",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_causeway_delay_002": {
+      "file": "assets/generated/voices/aftermath_causeway_delay_002.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 25.33,
+      "text_sha256": "2f9ac55700a25e494b5183c8bbc580ae4e495494dbd6bc90bfd0ca6cee146180",
+      "sha256": "8e48011d3840bc3b1a5c57266331867a3dc6365ed924614326a2d88e25581190",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_causeway_delay_003": {
+      "file": "assets/generated/voices/aftermath_causeway_delay_003.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 23.05,
+      "text_sha256": "ee1ca8a520959dd66e72790f0de1cd10600009d77410e1d9c8052364a624c5d9",
+      "sha256": "ff6b155adc480fff70f302d91b3813037ad2d60fc9d2db326423db840bd55ead",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_causeway_sketch_001": {
+      "file": "assets/generated/voices/aftermath_causeway_sketch_001.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 23.13,
+      "text_sha256": "9897decf20acc5d06987cb054b4734521ccba1533f4820bf0cd10c2213be15e4",
+      "sha256": "a1dca5693c004cddde7feaa366a36384115f3a7a795113fc5b0f15435efbbcf4",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_causeway_sketch_002": {
+      "file": "assets/generated/voices/aftermath_causeway_sketch_002.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 24.9,
+      "text_sha256": "3bdcefbc04fbd93e32ac004f686437b1ce615ebc0da943e0d641e9509339320a",
+      "sha256": "313d296149f325adbd03b33f5ab75ef392f87fec899deec4e5b47dff23ee1489",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_causeway_sketch_003": {
+      "file": "assets/generated/voices/aftermath_causeway_sketch_003.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 23.99,
+      "text_sha256": "761a59ebd7bd5f75a5823937645cc59975d85655e37ab93cee209ff1d1756d35",
+      "sha256": "b510b2d2cd33af915d3827f4b58b3e35ecdd0ecde9e5f2ad31eb8d9466782a61",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_warning_diagram_002": {
+      "file": "assets/generated/voices/aftermath_warning_diagram_002.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 24.23,
+      "text_sha256": "e31303c47f65f56d0b63dcaba970c8cf0b361d67de9830c43ec9659fed54d239",
+      "sha256": "d77c68f3e1e17ae0608b62b565c38e556b36e8abd3a4e2a3523894be0a91c49b",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_warning_diagram_001": {
+      "file": "assets/generated/voices/aftermath_warning_diagram_001.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 24.16,
+      "text_sha256": "8fb49ce74beff00ba9ab45f20011a2dd26f9c8c266c4e917e1340b2defc04119",
+      "sha256": "62ec273db5134af17604a1ec1fd085e3fd500606fdce64012659d33f08e54137",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_warning_diagram_003": {
+      "file": "assets/generated/voices/aftermath_warning_diagram_003.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 23.12,
+      "text_sha256": "12edb8d1530084887b7e6bda7c8d0acb94824ce2c693f70fd252c339f4a505a9",
+      "sha256": "2c2cab3913937b02204a0232c8055971595980e7e7edb2020398db0f6bc652db",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_warning_relay_001": {
+      "file": "assets/generated/voices/aftermath_warning_relay_001.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 23.24,
+      "text_sha256": "29fca77b6da1de54fa3f3d0b1c23fdc8155eaa2d22e954bb4ea84954d3c86c2a",
+      "sha256": "4f1fd288de22d9fafbe694378303d26545a11920292ca8199c7cbf5ed98823e1",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_warning_relay_002": {
+      "file": "assets/generated/voices/aftermath_warning_relay_002.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 21.19,
+      "text_sha256": "e5d182377ef767bfc83193ccbf1b93280338709d503e54eab79cd3db147e4d3c",
+      "sha256": "0adc465db60304571eacdd3f6fa4c975193b3e7489b8d8ec4482945e0d931e55",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_warning_bulletin_001": {
+      "file": "assets/generated/voices/aftermath_warning_bulletin_001.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 20.58,
+      "text_sha256": "7d261120dbf98f176eca57f508740e3cbae65d149f7fc35872321407e25cc276",
+      "sha256": "19c137c6376abb68bf649de621d8796dc7ace62abc88e468b1bdfd2b9c96700b",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_warning_relay_003": {
+      "file": "assets/generated/voices/aftermath_warning_relay_003.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 24.1,
+      "text_sha256": "f6a3be473b6c4971a4887ea2e12939412d9d82e52901171472d8fc905b8c21e3",
+      "sha256": "8b832d4dc0b2f34a93bbaf6c015324ab55a35c30fb6651aaa6ac521020d37d7f",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_warning_bulletin_002": {
+      "file": "assets/generated/voices/aftermath_warning_bulletin_002.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 24.1,
+      "text_sha256": "cfc15c33b6079e81fe45506db16542aca5f6a28dec91aafb46741b2be6e17fc9",
+      "sha256": "9cb75eef458a703f21cbf7e95c76650665f4f20c5f07f58f7e4cadf85ea89ea7",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_archive_reference_002": {
+      "file": "assets/generated/voices/aftermath_archive_reference_002.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 24.14,
+      "text_sha256": "3bd763a16f45a7d70501f942af9fbf74cf489850ba55b9f963349603bce66a79",
+      "sha256": "b5ff13fc3295378f6095caaa6c95fc2a5c94183ce597b6939ed01931a3405fff",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_warning_bulletin_003": {
+      "file": "assets/generated/voices/aftermath_warning_bulletin_003.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 25.3,
+      "text_sha256": "e165614cace433b09324b17ceff210805dbe0dd0e9999245cb5fffed509885e2",
+      "sha256": "9840cfb1f34937242e6290f5e06c00a928e3576b49a7540e6384e809c95bea98",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_archive_reference_001": {
+      "file": "assets/generated/voices/aftermath_archive_reference_001.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 24.04,
+      "text_sha256": "ab78d08f95b6a481b6816dcba15bf2063a813b928cc3bf210e1cfe3499cf7081",
+      "sha256": "dfbb2395fad2a109351b4b858cdd0210cd58b588ec7036d8e269ac9232e80368",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_archive_reference_003": {
+      "file": "assets/generated/voices/aftermath_archive_reference_003.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 23.3,
+      "text_sha256": "565355106f3cf37ebd093d9f2ec32eebcacaa171a240bb0a4c24449f860e947d",
+      "sha256": "f5576d62c6791195f5804c56e568b0db2353c5e03979f81de5d7b4d90309fb3d",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_archive_instruments_003": {
+      "file": "assets/generated/voices/aftermath_archive_instruments_003.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 23.13,
+      "text_sha256": "3f70307ef0f0d47f369007280f5c6865013fbdb92dd991182ab4b09960caeaec",
+      "sha256": "a8290ab5f5352bdd76d48d8a9ff1a5fd91a3d27caca1b5dd61d14941c7ef7e9d",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_archive_instruments_001": {
+      "file": "assets/generated/voices/aftermath_archive_instruments_001.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 24.98,
+      "text_sha256": "4fbdf40f9013223bb9b50c6be5c9286e1efb06ca1a6f9c9bd8f230ed8e836832",
+      "sha256": "5bf1931845fe7c906d2d71b88229caf4b9ba71c70c6d4ab5fd84b4a4bcda4dd7",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_archive_instruments_002": {
+      "file": "assets/generated/voices/aftermath_archive_instruments_002.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 24.81,
+      "text_sha256": "88d299016f9b0a65801d8d3dba0853414b7f6603a51c782ca84ce90a18aa9e1e",
+      "sha256": "50568816162b4ca9765bd5f6b57926110b38d8130b052f49f4c20bc344c29ed1",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_archive_movement_001": {
+      "file": "assets/generated/voices/aftermath_archive_movement_001.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 22.22,
+      "text_sha256": "c16338d6adb64635f0d7c4e27ee50f300cc67b5c92dbf61d12a7e7bf4c279686",
+      "sha256": "faf7350ec9e622945d67e225d4a2b3d14672d7d1157c4092bafd9ececf1cd160",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_archive_movement_002": {
+      "file": "assets/generated/voices/aftermath_archive_movement_002.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 22.51,
+      "text_sha256": "a8fd8bb8eb376f7be768b205314b56aac88ad8cfc1ea16e1726de81a2511f987",
+      "sha256": "d0f83dbaca182e2d406f5405bd6d645c9283a4923cae1f376656fe793c188e1d",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_archive_movement_003": {
+      "file": "assets/generated/voices/aftermath_archive_movement_003.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 23.2,
+      "text_sha256": "56aab5c7c5742fdab5d7e2db11066a5be0aa5800fd45f17c569309d3a11618e6",
+      "sha256": "7d0479e115b92f072dcca5c7ccc135e306793ed0d84543c8a3258765bfa5fee5",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_archive_commitment_001": {
+      "file": "assets/generated/voices/aftermath_archive_commitment_001.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 24.88,
+      "text_sha256": "b35a1351ea0cef90eb7a2f20503ffc8d24ae219bb551ce791baa24b1a6b9d702",
+      "sha256": "46c4133f298804f6b871dd5280c0e2aec62f390084d77efc10c6c9d06262da4b",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_archive_commitment_002": {
+      "file": "assets/generated/voices/aftermath_archive_commitment_002.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 24.02,
+      "text_sha256": "9d78c6cb56063e1c8d340317d09fc186c8e04ad4f187dbf334c8111db4a9da98",
+      "sha256": "bde75b92471b48ac73474f6fafac658f57fb86ba0e55e21653a06898a9f1255d",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_archive_commitment_003": {
+      "file": "assets/generated/voices/aftermath_archive_commitment_003.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 22.08,
+      "text_sha256": "03612bcf902f19c82c1f62706c380adeafe3ca71379dfac255d972d564ef4067",
+      "sha256": "33011d865e807a4da7f574b0d71f986a41c36a641e6fd588bad2d69dc4c420c7",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_archive_home_001": {
+      "file": "assets/generated/voices/aftermath_archive_home_001.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 23.41,
+      "text_sha256": "c72c955a09945e50bce10418f042398fb17149fe78054f6b44d2936e2e4c40dd",
+      "sha256": "14f48f4df07b93557ccfd86406e87dee0843586bdcc4d70ca125af75a0cdaae6",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_archive_home_002": {
+      "file": "assets/generated/voices/aftermath_archive_home_002.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 25.86,
+      "text_sha256": "b553a4b42cfb7e1e7ab0472f0bcfc9ba6941ce798766a0d28f5be889b179107c",
+      "sha256": "368c823504dbd81a5810ffeeddf8441ccfaba3adb55d7121fc174d44e133cb15",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "aftermath_archive_home_003": {
+      "file": "assets/generated/voices/aftermath_archive_home_003.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 23.58,
+      "text_sha256": "a44918118a0972d3ee5e0e9738ff03214b742897dcb5858541594d1740bab263",
+      "sha256": "fbc21132ae00fee72b85d3769d52aea0c7a406ea1fe6c35e4c91f3af7ea0bd16",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_return_002": {
+      "file": "assets/generated/voices/letters_return_002.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 30.04,
+      "text_sha256": "b43a3be8a3065d8ad375a988b3c891688f63de6599d53ed1e4ad390acabcfe64",
+      "sha256": "42bdc2a706d56c9828534a2f30f012d0cf9d0d2bd8da6e8c0b5800a0ba38a918",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_background_router": {
+      "file": "assets/generated/voices/letters_background_router.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 19.9,
+      "text_sha256": "a0d4c9c5d8543817154ec16d4a102fc062f56a766ff2accf75675af1b79a397d",
+      "sha256": "de8bd118baeefae84ca628acbb37bdadcf3b13e8cda8deacb0b12934e1ee03aa",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_return_entry": {
+      "file": "assets/generated/voices/letters_return_entry.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 29.3,
+      "text_sha256": "65b27e143b49143a2987b31a04d327a1a9a601cffa52c204230671972131d1a7",
+      "sha256": "6a7f87a33bde671c18fff5619d427388242c6b9198f4b8cc7fb196fadd3a6e3a",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_prior_public_001": {
+      "file": "assets/generated/voices/letters_prior_public_001.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 25.43,
+      "text_sha256": "48787b7eecbf306e063223e40a4bcbeaad3484c66eddf392dff7941c83176719",
+      "sha256": "ec52e8d4a45c4a77dd50a74654d2c5299d9c1af2b8c4c586680b267b3fc68c4a",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_prior_public_002": {
+      "file": "assets/generated/voices/letters_prior_public_002.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 27.05,
+      "text_sha256": "3a8a17027c0fbd4a698d5048cce3eb5d4f299ee78ae50328867a267d0fa4e89b",
+      "sha256": "e12587bb17ad97b6d78b89fbfc234aacf93091cf81e521dcb1c7874bd2d3c47c",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_prior_steward_001": {
+      "file": "assets/generated/voices/letters_prior_steward_001.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 26.55,
+      "text_sha256": "fb555fba6354a89bfd503c5b1496eb24f015e812108766ca5bafb080eff96dec",
+      "sha256": "1dbb2b2ad22cdb0d7da82899eb6e13c215cb76eac319d35d7ab42f7a4d06f1ac",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_prior_steward_002": {
+      "file": "assets/generated/voices/letters_prior_steward_002.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 26.01,
+      "text_sha256": "98e23d1a48831f753aa4488eac639c15ba8bdcfc166d00e083ebbc2c8dd201f7",
+      "sha256": "32cf772af5cef40879cf821e9a72f4641479e390a7c55f7f799a7839b8690bd2",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_prior_home_001": {
+      "file": "assets/generated/voices/letters_prior_home_001.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 29.23,
+      "text_sha256": "5825d5ca5aebea4b6cddf1f901d97f6d9746f7a4d0b88a92fd5935c4883ceeff",
+      "sha256": "5dda3d44297358207b12e5b876739958a7082db2dde74cfd624526b38dfc9f16",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_prior_home_002": {
+      "file": "assets/generated/voices/letters_prior_home_002.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 23.28,
+      "text_sha256": "e291a12526e3cdc321bbfc7d2f653f1969c749a08c5bee506718280d000ec4c2",
+      "sha256": "a4f3114f3c3e889bca64cca27fe5582338ac001c05797ec7f2f105bf8926f2f0",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_prepare_002": {
+      "file": "assets/generated/voices/letters_prepare_002.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 27.76,
+      "text_sha256": "d106e7e5b329a6ebd3aea3f896cbd61b388c3622a01c2648b6dcc1e15d71241b",
+      "sha256": "ed76ff508d28407a9af4fe0162f14bf8c599e91e0724f8521dfa7c3410d1be92",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_prepare_001": {
+      "file": "assets/generated/voices/letters_prepare_001.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 33.2,
+      "text_sha256": "2c4a8701761bbb055533623df02ebe40f44a6bb65410580e7707ed2edc85d090",
+      "sha256": "37b033a9c6cc13c623db2517b50f702d824553da64a146ae1688f71d27ea6867",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_prepare_003": {
+      "file": "assets/generated/voices/letters_prepare_003.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 26.47,
+      "text_sha256": "37bda4c43eb9cbdcaee08e67e886be2adf6ffc4f6d14ac2c6d9a08e506a9321e",
+      "sha256": "db700e1aac12014a469d3fc1729dffa4bbe11d77aed92a57aeea6040325b4c1e",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_prepare_004": {
+      "file": "assets/generated/voices/letters_prepare_004.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 28.37,
+      "text_sha256": "0fde0224acc104ad91c7fa1717fa6a8892badfa0811a9c9ef8e2a74ed8d89c0a",
+      "sha256": "78f809a0d3102804934cbaf34780504924f3e8d05f6f15940ad988cba88f90f9",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_prepare_005": {
+      "file": "assets/generated/voices/letters_prepare_005.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 27.45,
+      "text_sha256": "633d086a5531938450e31fa05986dbad4547ceabc98dc5f61ba32f3285bdc2f9",
+      "sha256": "d5e72b594239e87afdb6fda2e25affbe63a7c81811203a56c108745717b90a18",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_prepare_006": {
+      "file": "assets/generated/voices/letters_prepare_006.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 24.96,
+      "text_sha256": "0715cee46597e46f495285e45dfd6ff58d7172da488750371f5f6af5633f97c7",
+      "sha256": "111de51526e2d75b24ba94da4f9ac853a96b2d8b450d88ec4d0b650b45add428",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_prepare_007": {
+      "file": "assets/generated/voices/letters_prepare_007.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 27.68,
+      "text_sha256": "c8c6797cd60d09919a4205f61e5e61742d1d10d8a30bfed13fe0cca880011478",
+      "sha256": "395c8f98fa1cb718b18e710706f6bec25c3ccc40ff9772abcb6ae9ba6574aff0",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_prepare_008": {
+      "file": "assets/generated/voices/letters_prepare_008.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 25.08,
+      "text_sha256": "d51d3eaf7554a1f6e5e7da7d7ae512a10d0165dce412f2a92614fa2587486711",
+      "sha256": "301205007436138fbfb08eed2fee8ef8614845772821818aab202065f33f2e71",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_copy_choice": {
+      "file": "assets/generated/voices/letters_copy_choice.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 22.08,
+      "text_sha256": "abfc80171928f02d0e4456d4269f3c28fe5e9eb092e2855f424692f6aefbdb2e",
+      "sha256": "4425bbb2f664b12220c7e4fa760b33c838660b7a3a04c6e3fbfe7dde3dab2469",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_copy_house": {
+      "file": "assets/generated/voices/letters_copy_house.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 28.71,
+      "text_sha256": "5ed275c2f075e40ab23d42da52cc539ec70037a9740de2c7ef162091b22234e5",
+      "sha256": "bb828c55701541057b2c6652d94d637b0282f77e1d31c4a74dc4a68def45b69e",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_copy_house_002": {
+      "file": "assets/generated/voices/letters_copy_house_002.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 25.15,
+      "text_sha256": "2a443377a03f83a9fd8c9cb62b1caafcd135718f2569cc49393d08e1284af1bc",
+      "sha256": "42482475f1e45db83c69506c6c8d52f7ed32582a146c58a52b55e5eafe1b9596",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_copy_house_003": {
+      "file": "assets/generated/voices/letters_copy_house_003.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 23.91,
+      "text_sha256": "2582c2a158705694db72d07cd0965b4dce5073297cf6e5fc9a4943be1fcc032d",
+      "sha256": "10833149bf454511f014c63523301762ab8f6d7cd54ce651842d7eb59e9aa58c",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_copy_house_004": {
+      "file": "assets/generated/voices/letters_copy_house_004.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 28.18,
+      "text_sha256": "edd1562249632fc032ef7e7d8c7becb58a846f7b9a3b5ce4023f44e46f4b5a2a",
+      "sha256": "10112286c70a3c39aa2f4a56f65fa6ed4399d2738e396dbde66edae99e68eeaf",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_copy_school": {
+      "file": "assets/generated/voices/letters_copy_school.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 26.63,
+      "text_sha256": "0ffa9a1abe6ff69300595f6b24414a6e2e16b40c19a45e1c989cd6363fe20ec2",
+      "sha256": "b094a7d445e935c0bcafb8425aa23398e21af3d5fe6c47adc89231ef5fb5765c",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_copy_school_002": {
+      "file": "assets/generated/voices/letters_copy_school_002.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 26.09,
+      "text_sha256": "d09e4e00da5224a51fee08e57c2c83eaaec035d593ff9768bbe22a1ebc9488ed",
+      "sha256": "152c4a2aa79195a1b5d1a5669e6a7aa106aeafffe09cfc01467c501eab4a184b",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_copy_school_003": {
+      "file": "assets/generated/voices/letters_copy_school_003.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 23.39,
+      "text_sha256": "65a6bce28773018f4cb5f17a41292ad88191ebfa9d3e1bd574863abed6dd9903",
+      "sha256": "cab47e22a6de4bd44dbba609faf1c4bff5dfd65dfc1df6e8b33f6994f1416607",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_copy_school_004": {
+      "file": "assets/generated/voices/letters_copy_school_004.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 25.37,
+      "text_sha256": "336afbd042ee7aeef52c7183417007f1ac61fc1bcca7ed95dcc40b784512bfd1",
+      "sha256": "ba67b1d99d00625460f1bbbf78b14ca7f8ba51f17beaa48fcb664536d7b5626a",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_copy_lamp": {
+      "file": "assets/generated/voices/letters_copy_lamp.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 26.15,
+      "text_sha256": "0403a8c53089ef11fc7c94911988b3027a4c13403382ad9308a1cdb430e39f96",
+      "sha256": "e1f223d5abf60ad4ec38414cbaa4ad8a6ac33370bb3119ca6a9425aa55946827",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_copy_lamp_002": {
+      "file": "assets/generated/voices/letters_copy_lamp_002.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 25.86,
+      "text_sha256": "af711d8dd409c8d5245ff099ee541462edf7a2f7786728a401e0e62f3d46ac6f",
+      "sha256": "d74c978fffdc64f4a305a90ecf830d03d6b0a598e71b92d5f2652d68c6bc61d3",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_copy_lamp_003": {
+      "file": "assets/generated/voices/letters_copy_lamp_003.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 25.94,
+      "text_sha256": "a24bb61f5f30b68d18f2b20c14ee1188129cd8d98b9af8167211359ad01c7637",
+      "sha256": "a83e4e572eece42b057499656d44c78e1cf687f45a0492812eabb9f0aacb8264",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_copy_lamp_004": {
+      "file": "assets/generated/voices/letters_copy_lamp_004.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 23.94,
+      "text_sha256": "b1703f7c704f8bd4fd129558211010177b7669692e698facabc0b46a63102c79",
+      "sha256": "f2a8f35cfeb6aff870db601b0977c3127ca055fb8dba87b58d8ff6561007bb8d",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_copy_rejoin_001": {
+      "file": "assets/generated/voices/letters_copy_rejoin_001.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 24.03,
+      "text_sha256": "604baef9f844177bea9f8c76d5fec2049af44bd839f349a091f8da90d9e82ad8",
+      "sha256": "d1f966a9ff35eec315dde798092d8d124cadb2316855cee747f15fd496179204",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_copy_rejoin_002": {
+      "file": "assets/generated/voices/letters_copy_rejoin_002.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 28.7,
+      "text_sha256": "d82a472c1780a7620ee31ee0d14936cec06217c4287e4a79bdef60b882de9a75",
+      "sha256": "457812af4eb7846b4c764ff57af717afc980094283af1a9666afe1dbe48ceb01",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_copy_rejoin_003": {
+      "file": "assets/generated/voices/letters_copy_rejoin_003.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 26.54,
+      "text_sha256": "9d9f4d3f444af53d3b5ae6a4fbabf739c7c1f7665a2cf3db424607939c3321d0",
+      "sha256": "53431c936f252db15cfc7f4ca0c71a0866ac7e478fecc2e162cce2fe2e5d1384",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_copy_rejoin_004": {
+      "file": "assets/generated/voices/letters_copy_rejoin_004.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 25.63,
+      "text_sha256": "62d704d6de15b357a8f0c3df7678bb611365f65c3268b289a85b38ff49cedc3b",
+      "sha256": "122f94992b50b2cd31f7eb897c25ee4297e96ca4856c3a14c001a296a43bd89d",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_copy_rejoin_005": {
+      "file": "assets/generated/voices/letters_copy_rejoin_005.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 27.16,
+      "text_sha256": "47b3bbb516c3e717d475f2dcc0071de9ae7cfa5547cc29928ffd147037da1b30",
+      "sha256": "a058a4ee311b7aca74bf27981d937b70609ec8e0ec0e1684fe1b319893c385e3",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_rain_choice": {
+      "file": "assets/generated/voices/letters_rain_choice.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 23.7,
+      "text_sha256": "0153779d91d3f42255cda966b30fbda7f85743dce08d919b003c8c5a0b68a712",
+      "sha256": "a05660efc5b88f2e9e163eb8c8d736848aa286382651e9ee44978c72f15f1360",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_rain_sun": {
+      "file": "assets/generated/voices/letters_rain_sun.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 24.78,
+      "text_sha256": "f622545e183258f9a27d642cc01239865dd3c7431f5ab0450e9e9b6371129970",
+      "sha256": "e76d249d25cd90a7f5f004e97f6eed2f9286f314d2ee54445dae1481d0c9a980",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_rain_sun_002": {
+      "file": "assets/generated/voices/letters_rain_sun_002.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 25.38,
+      "text_sha256": "fe3809b247ea240ba1a5caa3904b396d7d7fbdf0933d7ac3a3a63ed13156f777",
+      "sha256": "c3a3dd5cff9ad79c016407dd385c56aa691bcf970c32ffa49c7ad68d13b00b3c",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_rain_sun_003": {
+      "file": "assets/generated/voices/letters_rain_sun_003.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 24.43,
+      "text_sha256": "7a0caf74394e69844e4ab4aab6f70ccde9dcb4c7e8629196ffbee269eee8d476",
+      "sha256": "7f322d58690b84e28c61cb417cd4ef63e36a3c7cc95929e13abd4e70e233ffe0",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_rain_sun_004": {
+      "file": "assets/generated/voices/letters_rain_sun_004.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 24.26,
+      "text_sha256": "2d986c8ff82dde9e2f5f62e3d87e733950aae3e2d33a2b8a4c04f398ad3edf2f",
+      "sha256": "0e84f5ea2bca8f9c1e6ab0b44664660eb96e0989f7d20fc243539fde76ee26c8",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_rain_sheet": {
+      "file": "assets/generated/voices/letters_rain_sheet.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 24.75,
+      "text_sha256": "f281e9013744b79480031beb67ae1b7e3cb00083b340fb2f73368dbcf9d4aa7b",
+      "sha256": "cea87fea3be95d2abe34a0c70b8bdef94cbe24b527d85cfab261faf630347b84",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_rain_sheet_002": {
+      "file": "assets/generated/voices/letters_rain_sheet_002.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 25.43,
+      "text_sha256": "ac366d75e66354e233e7ad2e94790969b0aef4fb0d0195b6319f311fe9d54e50",
+      "sha256": "e7556a53a22f979bb1e289fd7c69347e3f2893d5032662e3e6277f93ff7eb054",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_rain_sheet_003": {
+      "file": "assets/generated/voices/letters_rain_sheet_003.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 23.2,
+      "text_sha256": "ffa9eab0fc443fcf58309c7e300e6eabb0a56eba34b5775f67973d48b7afdd0c",
+      "sha256": "02b608eb34a28fe51c62409737d35c5acb73bdc764afae60e97b7f6fd9d13a35",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_rain_sheet_004": {
+      "file": "assets/generated/voices/letters_rain_sheet_004.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 23.34,
+      "text_sha256": "a1d8e9b40c6054f3fa2d4264ee409bcbfc93dbe699c4f9288c643ac442682b5e",
+      "sha256": "a8e65a85262fdf28bc51a32bbdffe966a486ac6a5f5f07c93c9bed6d90073c5a",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_rain_path": {
+      "file": "assets/generated/voices/letters_rain_path.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 24.9,
+      "text_sha256": "32c117355705ed30a2bf266a3b94bea9ee16523bc185f1ff0671128ea580f925",
+      "sha256": "148d7c18d78947d7e166c69b857b8e687ce2cf39d7fce2fbd24fefbac812f342",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_rain_path_002": {
+      "file": "assets/generated/voices/letters_rain_path_002.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 25.5,
+      "text_sha256": "1698b8542bf80dc56867e8241f9c075024338cce25b1ec6e55f20da81ed0a7ee",
+      "sha256": "dac23fe93a84d3495ffeea5e813822df6c42558927f4966bf6c0420575b5ed14",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_rain_path_003": {
+      "file": "assets/generated/voices/letters_rain_path_003.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 27.21,
+      "text_sha256": "33d73f0ac071b1f9d5691209ab424c7570d058b949db6a61b4f2273385a98466",
+      "sha256": "1d7a791ff860f5f3b52d3a3ed47bd84a57fc494c81dd191836e07862d1c24d48",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_rain_path_004": {
+      "file": "assets/generated/voices/letters_rain_path_004.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 23.79,
+      "text_sha256": "7ed8d172ff5bf41b50ce5f8dd9773e3126116db706b38e7861757c005c66d52d",
+      "sha256": "766fb63108d3f148ecc024d4048f40a74ffc41250d5fe54743821bbd8865993c",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_rain_rejoin_002": {
+      "file": "assets/generated/voices/letters_rain_rejoin_002.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 23.31,
+      "text_sha256": "08ac7f95d338100150f5a35a9dec6ad1ab7e4c2c81db21f66f8115a83a8ef998",
+      "sha256": "64a08e18b14c961c953751679ede88ceefe46b9f6ab3628ffa8922a27f7c2262",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_rain_rejoin_001": {
+      "file": "assets/generated/voices/letters_rain_rejoin_001.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 27.21,
+      "text_sha256": "a507ada6368ea1807bcb1839dcdac2cf96e161457ca33eaa3f5b7f569a997367",
+      "sha256": "2f45d4cf22c130c147c6042532dbbef834046d4303ddad2c7eac8a7bfdc04b8d",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_rain_rejoin_003": {
+      "file": "assets/generated/voices/letters_rain_rejoin_003.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 23.13,
+      "text_sha256": "2929735a3b33219fa553294417a7a3972f3a384cabdc66caec9a09212ae8e89b",
+      "sha256": "8c2cfc6d174fa7ba31c54db119677307cbe691200717afe83860a145db4e8f68",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_walk_003": {
+      "file": "assets/generated/voices/letters_walk_003.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 21.87,
+      "text_sha256": "e1546b3af63a38d481a3a4d70104fc65d9cc4fdb4b1665352b8b03ef2a125060",
+      "sha256": "c95806afe659bd0bbb1ec88f795b3213dd658a307fb857d7d7b4a9894cc20f9f",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_walk_001": {
+      "file": "assets/generated/voices/letters_walk_001.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 27.5,
+      "text_sha256": "78144cff2832149127e55f5ad276b19c3366560e04094da7cb463d8d9f5bc722",
+      "sha256": "452fd67ae79ecd6c7d2a8bbfab1739b2a6dd1f251276660b7e05b87de9dbcfc6",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_walk_002": {
+      "file": "assets/generated/voices/letters_walk_002.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 27.07,
+      "text_sha256": "53cffe68de6a092c2618c49ac4319055d2c46e44c0690b589602005bdd077a7f",
+      "sha256": "4583f7f002f98dc029d64efa58b0e58b14049a5b1f1cb046fad4e89e2d05a0f2",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_copy_result_router": {
+      "file": "assets/generated/voices/letters_copy_result_router.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 18.7,
+      "text_sha256": "023a64fd388e04e56de2d6705ff4cdf530686e9085638bf5763bd1c12649e76e",
+      "sha256": "b58d5ed4a5de577d517f242bdf78ed4d6fbac86412e378e46350d9958238cc6f",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_house_result_001": {
+      "file": "assets/generated/voices/letters_house_result_001.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 26.6,
+      "text_sha256": "dc6b4c220b57e9682800eb145adf0fd7026f75363f84abdb0096ace6d1e12f95",
+      "sha256": "8b138b0598985feda4ef6240bf810f7ee9f6fa664e77687e6c157c2b39a9263f",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_house_result_002": {
+      "file": "assets/generated/voices/letters_house_result_002.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 24.76,
+      "text_sha256": "73e126828ea53827e1aacdc8b8c287230aee8138222a4d509117a69b5c628427",
+      "sha256": "52291c4a77f9975c794da49530a8241d8036fd8d215c5c69024cd0791a021c45",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_house_result_003": {
+      "file": "assets/generated/voices/letters_house_result_003.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 25.65,
+      "text_sha256": "9ea3dc4da54f87e6ab76486abadb23d5499030481d89612fb505433a26bb1ce2",
+      "sha256": "fe25e3a433c986756c2033e3a492921c1b21ce3ab8d8552b12afd8b57b0ae687",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_school_result_001": {
+      "file": "assets/generated/voices/letters_school_result_001.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 23.95,
+      "text_sha256": "2ba3caa0e85d8ff0289ab269d8696bf069e5d03642d6f97e150f0b0228ef1847",
+      "sha256": "43da37b7511842954ac8f4d11c790890cf5eeb4a86ac077f1fd501ebd903c470",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_school_result_003": {
+      "file": "assets/generated/voices/letters_school_result_003.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 23.56,
+      "text_sha256": "70bc4c04764fa31ab5d7dca1f817bb6aeb279630e5e81ded59ca7dd54dcc8657",
+      "sha256": "5bf9f747d0e85acb2176396c7a140a1ed0f722fe3ab0e70dcf77e8a34bffefe8",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_school_result_002": {
+      "file": "assets/generated/voices/letters_school_result_002.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 26.99,
+      "text_sha256": "b15ec1ac70e5294e0474a56d3cbf7ba93f2a9a898950d99bd3ba3e7213b54b4b",
+      "sha256": "6dfa7efda271b34db7c92532881fa76c485f00292a30aba119eaec2cdb0f7a95",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_lamp_result_001": {
+      "file": "assets/generated/voices/letters_lamp_result_001.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 25.45,
+      "text_sha256": "eb0ca8c44ccdb89c5dcde99fa310210ba6db3882ea39488aa27ef36b74c03f56",
+      "sha256": "5107bb44012347e3c46a7eb05525ee1ffc598c33b1cd7e29c8ba512fe377a56d",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_lamp_result_002": {
+      "file": "assets/generated/voices/letters_lamp_result_002.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 24.23,
+      "text_sha256": "4cfebb7a66fc77d4b24b273b5c05b0c0c62ac5ce29744b9167745af498a11449",
+      "sha256": "9a6d5abc56b3201c37a68b20147eb9ef45b575bf83cc7f87145760e79ca10ec1",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_rain_result_router": {
+      "file": "assets/generated/voices/letters_rain_result_router.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 19.6,
+      "text_sha256": "1212516fdbea9cccc135e8b9f9dd26c2fa4e7fdf614e88ec78bd15714980032c",
+      "sha256": "0d2e41d1628d0b4a870cb0eaf585b36d28b6eb84f6e5fe11f9fce52339882b37",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_lamp_result_003": {
+      "file": "assets/generated/voices/letters_lamp_result_003.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 24.47,
+      "text_sha256": "82a9573595e7381a45f67350ad613ee9178c188b238170a1b0277376fd8deedf",
+      "sha256": "39aa95a7ff2f7bad2a708fba9b639a8f36a4d219c5b3f428f0ccc86d0257190b",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_sun_result_001": {
+      "file": "assets/generated/voices/letters_sun_result_001.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 25.38,
+      "text_sha256": "54817f3eb6e41dc6c9bcad673f504f3dbb48e0fedbe9ef83792435d108f68201",
+      "sha256": "2549b94a80e79cec2abb08f0f37f78447f474c165f151c18b56c59c305cd294a",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_sun_result_002": {
+      "file": "assets/generated/voices/letters_sun_result_002.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 25.3,
+      "text_sha256": "7a8affc00b4fea0977af9bb8eb232271e851f54d0db2e7edcdc8c561a5705b7b",
+      "sha256": "dbcd65e94e63586e0b736bee04d56dc91dfd2509804602c1f7e0eeb5cee932c2",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_sun_result_003": {
+      "file": "assets/generated/voices/letters_sun_result_003.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 26.61,
+      "text_sha256": "378a1cf539a072c33e49e787639f3241086fd0fb952a3aad8ef05298dfc1cc64",
+      "sha256": "9512efb19bb310627b9cef1647521b633aa6f4b362443fbe01bdaaf60e9f74e2",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_sheet_result_001": {
+      "file": "assets/generated/voices/letters_sheet_result_001.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 24.81,
+      "text_sha256": "068f3d5133a6b653a625be5f2bb8050c57956c1d7892cda164e2f1b114a7d7ad",
+      "sha256": "97e91ecff149b64e065f7f2a9912d199d2a06e62a298db429ffc60a08f331be9",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_sheet_result_002": {
+      "file": "assets/generated/voices/letters_sheet_result_002.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 26.25,
+      "text_sha256": "92f57750fded47775c012c7da5fb4520b3b4bf21c0824cabe5c74a416eab6b8a",
+      "sha256": "f58183d47a8323bce37e549d5c7eec9400f328e90ea595e16ae048324c8fddc2",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_sheet_result_003": {
+      "file": "assets/generated/voices/letters_sheet_result_003.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 24.68,
+      "text_sha256": "becac5ce33c3f964cd1444cf096d1732fc98a120e04673f0cd37b7b088937643",
+      "sha256": "95209d997497220ccd148c1b8169acbdf5950d7b3210302ee8e171a78ce9a518",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_path_result_002": {
+      "file": "assets/generated/voices/letters_path_result_002.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 26.3,
+      "text_sha256": "50dce8ad5c2385a4c72741734240fbb028ffc654dabdc193a84a62982e28511a",
+      "sha256": "0725812cce958f9957b5e13ed34479d9e32cf91996b8f92d3887a6157206b37f",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_path_result_001": {
+      "file": "assets/generated/voices/letters_path_result_001.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 27.64,
+      "text_sha256": "3a4ab6fe93042aa87b643ecfdd8b7e3101269ef986688ff6d36309f18b4e091f",
+      "sha256": "63d64e9bc62553dc240b068f28001c3eef20f6c90feef8d34f2cba934f19afc5",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_path_result_003": {
+      "file": "assets/generated/voices/letters_path_result_003.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 24.56,
+      "text_sha256": "8cd926d5fa460aadd1574271facc4c7fd4a1b176044e26291c17db9dc8461bf8",
+      "sha256": "775088dead870682877cfe597b4dec7ed2054c9a943013372563eb44bb0dfa75",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_findings_001": {
+      "file": "assets/generated/voices/letters_findings_001.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 27.55,
+      "text_sha256": "10a82ed14d142a9ac0fe8353c981a4071b4e4c52d337641c982253846d9fd9f2",
+      "sha256": "03a53280eaf0e4701003d39519ae33df9c39d4ba6a3e809491dc6727dba5f4d5",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_findings_002": {
+      "file": "assets/generated/voices/letters_findings_002.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 26.94,
+      "text_sha256": "207d64272f5520e67a85a8e4dbbe6c990085c9ce840067068dfba5832a787902",
+      "sha256": "cb5e3c4bce7777083086d687ba88ed1f355b3ac656da2fc15eb264e56e1594ba",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_findings_003": {
+      "file": "assets/generated/voices/letters_findings_003.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 28.85,
+      "text_sha256": "608ca4a91a6b463b8e5160355888072828a200d673b914cec88906678088cf52",
+      "sha256": "098d6b16af2d39634d2c5d81df3800a2a67c60df4b6d387b29ea772c4b6b5573",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_findings_004": {
+      "file": "assets/generated/voices/letters_findings_004.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 26.98,
+      "text_sha256": "3d91ccbd8cd61b026a1085ed11005eefb837e9135ead8956eeee5af4bc06a7cb",
+      "sha256": "6603af0f886e1fd71ee2102554dbee27f5471f41f468a0cfac36a83128c277fc",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_findings_005": {
+      "file": "assets/generated/voices/letters_findings_005.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 25.4,
+      "text_sha256": "a9a5f908baef20aeb69390d3b52d912524ab1a7d657803d2b4ca1f9ed1da678c",
+      "sha256": "b04bbd74580c640567835c0b03e9ebac3a4f9cfafea5fdc0b62cfc4be6316a22",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_commitment_choice": {
+      "file": "assets/generated/voices/letters_commitment_choice.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 20.27,
+      "text_sha256": "085e3c2d3a8c099c9100a213e655078a228a4e7e5aca9efa4c8598a384fd1fe3",
+      "sha256": "4b0f8b76d10477521d6d7ee3d0509ec97eea36bdf9163d8a621f678603994d3b",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_commit_house": {
+      "file": "assets/generated/voices/letters_commit_house.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 24.94,
+      "text_sha256": "02b97d1edc0fce0c1fe3a9266be88cf0192755bf71ecfa12c56eed1a0743c208",
+      "sha256": "97527160340a589d6279aaa3e4b125df40f4aae26370ac2b0f0529183b3c0e31",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_commit_house_002": {
+      "file": "assets/generated/voices/letters_commit_house_002.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 24.61,
+      "text_sha256": "98566ea86ea091014ad913b7767dd223b9668a07c406e9eb4b85eb54e09cc96d",
+      "sha256": "96fd9dec7a3a5bd034b84935b1ad4e529f98f1e4cceacaee3aca61acffef11f4",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_commit_house_003": {
+      "file": "assets/generated/voices/letters_commit_house_003.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 25.07,
+      "text_sha256": "00fd2d676a086c29fa0fcc598d2834ef8060528e6475f6a9de9abbaa7f7f4807",
+      "sha256": "ee158c2fe11ccf57e0d9e5870ec42fee7f7396d7257fdb0b3bb8a8c997c56d0f",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_commit_school": {
+      "file": "assets/generated/voices/letters_commit_school.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 25.77,
+      "text_sha256": "372d79b33fae83c91cc56e1e422963ab0cc4ec1587195021287413313f4bee04",
+      "sha256": "8c9396c7cc8fbeebdd2a35add534066a7dcfb951849fa624d6f1feb8a17bbef1",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_commit_school_002": {
+      "file": "assets/generated/voices/letters_commit_school_002.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 26.1,
+      "text_sha256": "8cfee6f0ecd974592cd17279cf836c507db226e9c76fbda70efc6b80a7acf83f",
+      "sha256": "19b93f4b747b252dc098c013b7be620104df26a2ee9c83d1629a0526051baec3",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_commit_school_003": {
+      "file": "assets/generated/voices/letters_commit_school_003.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 22.19,
+      "text_sha256": "e01f0a0a3987348a0d55a53b10bb9908623be3d69ceaf9518e628c0367ad4e4b",
+      "sha256": "aa73fb86bc058752d2661894475500659f91c59f54b73222148b6e1e8d33e03a",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_commit_lamp": {
+      "file": "assets/generated/voices/letters_commit_lamp.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 27.07,
+      "text_sha256": "f38901880ba887f8d1c81969f7f5d115bee5e2986bb30c72dfedd9a794e46685",
+      "sha256": "43b754aba436869fba68f2b850a91838a26bcb61b7aff410cc286473a8f11460",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_commit_lamp_002": {
+      "file": "assets/generated/voices/letters_commit_lamp_002.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 26.19,
+      "text_sha256": "b80355aba0daa5b3cbb5fe8aa337f8ecb38dc882c453a1b7e756be8bac703f1c",
+      "sha256": "9a932835040abc8fd143fa09ddf72beca4fdfbbd1173d06037b6548d0da2bf3d",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_commit_lamp_003": {
+      "file": "assets/generated/voices/letters_commit_lamp_003.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 25.51,
+      "text_sha256": "35738010bc260434b60012941e9504f0e42e845732103b8d964f9133d637dd31",
+      "sha256": "5dfcb59419464c20a17a8da8ef05a1d781e6c229315dae302f791ea69b4389d8",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_departure_001": {
+      "file": "assets/generated/voices/letters_departure_001.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 24.85,
+      "text_sha256": "95d36f4eb397f54843a1e4fdbdf3f37cc364920962edd6631e0be4dc89c7c877",
+      "sha256": "4ec7d47208943ce4d38e23e09765d49ae92cf1c4192daaef12d400a2c5dd127f",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_departure_002": {
+      "file": "assets/generated/voices/letters_departure_002.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 26.54,
+      "text_sha256": "33c341c1fce4f748b92568fe95e0b9c751726007691c3093c85979b606ee4194",
+      "sha256": "d8e5188b6fd0556f291524159ec3b67d48964da6b4cedc53486ccb772173615c",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_review_end": {
+      "file": "assets/generated/voices/letters_review_end.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 24.58,
+      "text_sha256": "8287b84ec3b326237abb193a6a9ffcd4c5cc3115fbb9446dbd94a73cc1ab4e03",
+      "sha256": "83672b4601f3b61430c034873082af1c9d5d7c79b15f3eca5aae43fd691d7edf",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_second_watch_entry": {
+      "file": "assets/generated/voices/letters_second_watch_entry.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 25.9,
+      "text_sha256": "95b626d62b0fe0a20d0bfb8aa98ac7e0b1b6de9f8689a3bd71f4fc1ec1c07578",
+      "sha256": "30f11c512c1676633b3a153cf0a0636742412b111a69f4a559864bf2cc04ab94",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_house_01": {
+      "file": "assets/generated/voices/letters_watch_house_01.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 24.54,
+      "text_sha256": "34e76b95aa3ca6fbd0aaa5e2d40ae1b64a39d3a4d9d3fa5f6765c3733224ba48",
+      "sha256": "a5fe93b088f9c5a0486d5929ef9f29b89452d66d25e2eff9b50064d2646e700c",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_house_02": {
+      "file": "assets/generated/voices/letters_watch_house_02.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 25.51,
+      "text_sha256": "f4d5cdf360f3cf59e821dcecf35f7bb6207f57e6c6be9b1db052cca456a9df4c",
+      "sha256": "cb954609feb4193a8cc6cc465ebfce823e6c0aa4a4ad585d00c402cfd2da2e07",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_house_03": {
+      "file": "assets/generated/voices/letters_watch_house_03.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 24.07,
+      "text_sha256": "6f3d1e16fe8f0be547cb4b22156f46a7e2f772045d70fe39b811c5bf41df22ae",
+      "sha256": "ba0bbb48e9a29e162827e2b25f50444fa792decd83ec18e496b8df086b04688b",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_school_01": {
+      "file": "assets/generated/voices/letters_watch_school_01.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 23.52,
+      "text_sha256": "c846d439146619cd67643afe9f79f01a78be490452b0a046450a03b07676a60e",
+      "sha256": "8ccafc710d222dbd9ddfbc47c5f54299d3036e59a997a96b814dcbd5520f7f7d",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_school_02": {
+      "file": "assets/generated/voices/letters_watch_school_02.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 22.07,
+      "text_sha256": "0401aa98661decc6789c527dc732639840d5ac23dde0e20800d0e342f233d4ac",
+      "sha256": "ff0f808a96d3a59fdf43fb609b5b61b25664da7ddbfd9b5339e9b6c7878ee2bd",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_school_03": {
+      "file": "assets/generated/voices/letters_watch_school_03.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 21.55,
+      "text_sha256": "f78a18342195f2292e8e4c3116132d6f4052260d151a505edc9beaa619705028",
+      "sha256": "68acc1db258d2a3139f8cd619cb76c4bec645a8510ecf982e6a947d44f8bcce4",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_lamp_01": {
+      "file": "assets/generated/voices/letters_watch_lamp_01.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 22.41,
+      "text_sha256": "2994956d49cc52bc2be5a0c6ee5151ca1f1ab8d2f90078dde8fe3d86a9b606cd",
+      "sha256": "35ffda3d8c20454a71492eae79603f2a275ad668c551025ab6d1e6d3c004749a",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_lamp_03": {
+      "file": "assets/generated/voices/letters_watch_lamp_03.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 20.38,
+      "text_sha256": "7f08d515a0e6e91b8dd340bf77dfb25f4a457636ff742c4ae16b7fb3ac122e1d",
+      "sha256": "4aa74f3237ebe846a3489dd31ec90bdec919d7dd80b230c169701912280f06b0",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_lamp_02": {
+      "file": "assets/generated/voices/letters_watch_lamp_02.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 26.39,
+      "text_sha256": "8808144b5676dfc249a2dd868e329a10b1d27200048b63a33db6fe0c43e0c56a",
+      "sha256": "aeb06cf6648cde3e2eb741d4b2a0db3c2c32528bdacd4d7906ddf4752b864c53",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_arrival_01": {
+      "file": "assets/generated/voices/letters_watch_arrival_01.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 24.07,
+      "text_sha256": "87839efcd0a1b886850968df7022d5674e9462d05c838bbf04127e14c8c39198",
+      "sha256": "a6a9e37f3e2bc057861acbe55f0d8916474afee73f58f1afacd7530f3cf36946",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_arrival_02": {
+      "file": "assets/generated/voices/letters_watch_arrival_02.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 25.34,
+      "text_sha256": "c4e96a4663a277eec0600f40dde634a80c8a5fd465c5f3b949b3f61c2183eaad",
+      "sha256": "9f2eff97d97968c880ce572c43792bbb8693b42d4c70280fd688bd6345e228bc",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_arrival_03": {
+      "file": "assets/generated/voices/letters_watch_arrival_03.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 22.92,
+      "text_sha256": "d20b83da6b40e647f1ebc2f5851e42ef50f0e0491a9cd8f39f1f8446ab751e18",
+      "sha256": "fac8c3a51ed9e43a1519799dea197b3bbde9d2f64b4b9dd6e5b17299616489dd",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_arrival_04": {
+      "file": "assets/generated/voices/letters_watch_arrival_04.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 24.24,
+      "text_sha256": "1c6d72a57b2f57045d48d75792c526da0134e5e0c8c9dfaee1b2518e58c563e3",
+      "sha256": "ca59a3c0bd485ead7e8bae7c849e926e72969d6a414b90d41d524255efcfecba",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_arrival_05": {
+      "file": "assets/generated/voices/letters_watch_arrival_05.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 26.96,
+      "text_sha256": "e97e52c9ba2419d6cc3f0b9cf526e668e8775b37c9ef28f681f2f44f29986163",
+      "sha256": "0bffb9f84953719f0b2d7b0812c39d570813559862ae236017cf5de597d1ab48",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_arrival_07": {
+      "file": "assets/generated/voices/letters_watch_arrival_07.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 23.58,
+      "text_sha256": "cad50e54d755a622f4e2f988b6458c182fdc1f4800f7bc0556ad5389a842e09c",
+      "sha256": "cfa3dbfce384be20c1d6f7fdc9fbbd6416c1e93e203ce799b16ae26aaed653b5",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_arrival_06": {
+      "file": "assets/generated/voices/letters_watch_arrival_06.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 27.95,
+      "text_sha256": "0f458412ad47ae5bdc974c57909450a59278b0b0d317daa008608e16950b840e",
+      "sha256": "9a729356524b0fc56ee5a318405f44f455d13f49f5e48944da4919c30aa96968",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_arrival_08": {
+      "file": "assets/generated/voices/letters_watch_arrival_08.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 24.54,
+      "text_sha256": "4aeef925f7486c64ae01457c4db11a7618607576596a2615587963c0a382fc28",
+      "sha256": "1c7833c2ce664583ac1ce22b524e615f79168e0da35748916d4eca4812565f20",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_canvas_choice": {
+      "file": "assets/generated/voices/letters_watch_canvas_choice.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 24.22,
+      "text_sha256": "5fa8a67baafb603c79ae3654d9a6d40043130eb511e0fbfcd558878cb8275f35",
+      "sha256": "24bb8df41beab065fa58faed90dd33980c348790c1e46b6b907617098f268419",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_cover_books_01": {
+      "file": "assets/generated/voices/letters_watch_cover_books_01.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 22.73,
+      "text_sha256": "fd4802e67b301020cf6aba4e589f7ff0336b93180f3ddb226cb2427cece280c3",
+      "sha256": "b1e40b9084d56e767268405b0a06a1f18858efcccf1f51f884bc7a2bb3e373ae",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_cover_books_02": {
+      "file": "assets/generated/voices/letters_watch_cover_books_02.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 24.28,
+      "text_sha256": "f71ed5ebb5b929c9e27183383a8dcb91c47c459d9ec96b976c63de5fae7d1c10",
+      "sha256": "8759628bfa363a9c167de3db7a2960ad24c65c1ffd1875ca70720e4434ab63a2",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_cover_books_03": {
+      "file": "assets/generated/voices/letters_watch_cover_books_03.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 24.09,
+      "text_sha256": "dfeecc59332fde44a375a3d75c2a4103c805656744088fd64c5be277e5de0af1",
+      "sha256": "84938534f0b09603257ad400828b44e5aba5b3eb595cea659f94c66abaa3297a",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_cover_books_04": {
+      "file": "assets/generated/voices/letters_watch_cover_books_04.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 21.47,
+      "text_sha256": "628b5c77faa21a6df4cdcbe12c924e6c78c79dda35e88d2dfbca6372d165dfbe",
+      "sha256": "7dfc647323467616ee08ded3714111c9f728be524e9ba06c18dffed8104738b4",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_cover_books_05": {
+      "file": "assets/generated/voices/letters_watch_cover_books_05.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 25.18,
+      "text_sha256": "b3e9593632fd1ba4c554bf9615cfaa6ecc36a21d7cdac47e9d6b3f3b380d442c",
+      "sha256": "3bd0041cde886b4f61b187d9e599ebb6c7900aceee41401bff1d002c589488a3",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_cover_books_06": {
+      "file": "assets/generated/voices/letters_watch_cover_books_06.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 23.66,
+      "text_sha256": "3e422994965e8e66de1f6ba80b597bc01a5d012bcf5876437bf1e1dbde13a8a1",
+      "sha256": "b1a3a9017707aa245648a48435e75f6432647aa94e36facc1723023b5cb6032c",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_cover_books_07": {
+      "file": "assets/generated/voices/letters_watch_cover_books_07.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 25.62,
+      "text_sha256": "149d649fda21f6b2bfcc01d8396e69501b711823f03041f3162d3357811ae95a",
+      "sha256": "2ccd5701be318034f102f04e51bebe4dde624d582734ff97379277c13a66a8fc",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_cover_books_08": {
+      "file": "assets/generated/voices/letters_watch_cover_books_08.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 27.46,
+      "text_sha256": "c336562f63812199b4a2ff3d7553eae10e4d79aeca2ddf4ef187359d6c32d249",
+      "sha256": "bb604694ad058971167cdc375654d08c678231f9b801a8944dde36aa5f928811",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_cover_path_01": {
+      "file": "assets/generated/voices/letters_watch_cover_path_01.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 22.88,
+      "text_sha256": "45ab558e3442a2906387ec7da469614f148a393ae4eb9585f91d88961494fee3",
+      "sha256": "945be623870feba1fd7b3d548a1321502d4184309526a16cb55f986b530f33a8",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_cover_path_02": {
+      "file": "assets/generated/voices/letters_watch_cover_path_02.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 23.37,
+      "text_sha256": "a74796bfa5566e5288fd5538f720f912676c61b665ff25513d4441b3c8f6dbc1",
+      "sha256": "df597fea5a7276d6b172b99f5c806e9e7ba5f1793021af30a02386ffbda95e47",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_cover_path_03": {
+      "file": "assets/generated/voices/letters_watch_cover_path_03.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 22.37,
+      "text_sha256": "b4f0ee93507705d49703782806a2b3e8a7a5f53c4e91cb25ee8a43ba7159ee8f",
+      "sha256": "9d9c180138518f9a177462c694f926ff588836430e29e7030cf4994aa7415481",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_cover_path_04": {
+      "file": "assets/generated/voices/letters_watch_cover_path_04.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 22.44,
+      "text_sha256": "2ae2dba26b8a32ebdc06225c0386e190ff06ee2ac6f6bda313a84157e0927e6f",
+      "sha256": "d37387de5b509ba1ac33d9a1c05cac1ed8a14a66f65903aeeb59ac46c9cab1ed",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_cover_path_05": {
+      "file": "assets/generated/voices/letters_watch_cover_path_05.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 23.53,
+      "text_sha256": "3d48509c15223494727b860f752343e62ed20654b04f61ef5d81469aec591c71",
+      "sha256": "7fbddd7d61312595f39e1b18d199f765dc0aed45ae7ed800ff5437e85705f889",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_cover_path_06": {
+      "file": "assets/generated/voices/letters_watch_cover_path_06.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 21.48,
+      "text_sha256": "f67946aefd9421bd5d2257b65301b9517736ff69ea611911e2d2d6fbba0451ae",
+      "sha256": "8197943f99468a85a57b8c473fa4e5b4f1065e3e13b43d665339e76b7ff7e71d",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_cover_path_07": {
+      "file": "assets/generated/voices/letters_watch_cover_path_07.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 25.02,
+      "text_sha256": "eb27da0a9216958ba7d44dbb80ca0cdde81ee3b8ee0cd938a47540a3b069ca32",
+      "sha256": "7a2a6765f1039ac5a92ab09ef4fcd0281ef490c2ab1cacc3030f8a34aeaa350d",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_cover_path_08": {
+      "file": "assets/generated/voices/letters_watch_cover_path_08.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 24.97,
+      "text_sha256": "14af63f832aec3ba6780e86cd5445c87cf85fd2ff4cdce6d9e9ce833d2c94527",
+      "sha256": "084ba8813691f02b5db2014936a844780fd9f5af890e8424790ddc5a1305575b",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_cover_cart_01": {
+      "file": "assets/generated/voices/letters_watch_cover_cart_01.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 23.86,
+      "text_sha256": "1e5fe7143d421a7dd1470492c5be8bacfeb86057093229c18f568d9cccdcf8f1",
+      "sha256": "a320657bef7148b667814d45cb416b5c0e4700c354c255fdda091a6f93f300e5",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_cover_cart_02": {
+      "file": "assets/generated/voices/letters_watch_cover_cart_02.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 23.71,
+      "text_sha256": "1bfc228988e068f69fcb0b8c7a41f5f0021f6219e453e4d7a200d7b87fd85963",
+      "sha256": "a8459cc5f3f243b1e1185c30ffdcfc43b76126518cd7700cb9a6567385bb4ae4",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_cover_cart_03": {
+      "file": "assets/generated/voices/letters_watch_cover_cart_03.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 21.64,
+      "text_sha256": "c41b31767c22ed7947e51c7c3485698ac634e1241ab7db3720e964d58958f873",
+      "sha256": "7d60c93d540e97bbde57bf8ac3e076580ea6ef968b68ca98a8b3e04a20838c6b",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_cover_cart_04": {
+      "file": "assets/generated/voices/letters_watch_cover_cart_04.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 22.29,
+      "text_sha256": "5c8b9f9426faa09e0673f6668da9ce5ede1b70046f7fa7c8c9d2678938802e15",
+      "sha256": "7d5064917b337e1723291fda57a6464c84e8aef84edb0571ef9e6dbc883ec941",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_cover_cart_05": {
+      "file": "assets/generated/voices/letters_watch_cover_cart_05.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 23.28,
+      "text_sha256": "116810f796b442a4d0b56acc201143b31b66847aa0edcaa03f81a908a69ff850",
+      "sha256": "76582f1b851f10602e1dc9e6a99edd0dd7af60dbfcddfcb307bdc52d0466716d",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_cover_cart_06": {
+      "file": "assets/generated/voices/letters_watch_cover_cart_06.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 24.47,
+      "text_sha256": "3ab1a279c14b9bc46b4eb9dc65e57b6951a77c39196f3eba8054869da8df3285",
+      "sha256": "9c23855e737da9269bc91fa7eca91eeea0a1db95aa0aad3649ed976ef35dc93b",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_cover_cart_07": {
+      "file": "assets/generated/voices/letters_watch_cover_cart_07.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 26.22,
+      "text_sha256": "dc5d70ce030abb76553eacb3e6d836152459cbb2cd29d97a4da150b08aec8fdb",
+      "sha256": "bbe5d29ede8d00be2ce58f653f5cea875674ce7ba85c91a560f861c1f2e92916",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_cover_cart_08": {
+      "file": "assets/generated/voices/letters_watch_cover_cart_08.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 25.26,
+      "text_sha256": "245059cccbc51735ee87ed033b735faa3f119c04ab1ddc74d5e4919ccc347707",
+      "sha256": "1b968fd5c14de6948edad0e5bcd5dbd3b6e6c1f543dabde5f960e77f5f3b439e",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_after_storm_01": {
+      "file": "assets/generated/voices/letters_watch_after_storm_01.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 24.79,
+      "text_sha256": "27f545bb23aa91b173f1218c8f121480cee8ebc55cb0a010d61dea8d726ac411",
+      "sha256": "ff3dd8887468bb83f858a3a9ecfb2d84675ece025c7f55a0424df8b969bea019",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_after_storm_02": {
+      "file": "assets/generated/voices/letters_watch_after_storm_02.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 27.2,
+      "text_sha256": "2d9f0a35f963c0d1642e05b18d738d907ecb1466d70c9a1e3c761e56ba2f3f84",
+      "sha256": "68e73d39eaad89541cc949b0dc35d33c56b1bf09732a08f67e84293909d00ce1",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_after_storm_03": {
+      "file": "assets/generated/voices/letters_watch_after_storm_03.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 24.23,
+      "text_sha256": "99a109b2209866f5482ddc38f386bf99d5995c0f5cae7d669572ba68f647fb46",
+      "sha256": "ccd8cfd95e4349063f777eb07e6d5255323819327c77c7b4be4ea914d255b9d2",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_after_storm_04": {
+      "file": "assets/generated/voices/letters_watch_after_storm_04.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 26.81,
+      "text_sha256": "6dde669b3866754f8cfd8c1261634c02d7ff6e29f0740ec9f8fdb4d9e60a1188",
+      "sha256": "3196985c6fa635e630363c2fc69fa86d68d4343d1db2c886d388f1cdee8d92c2",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_after_storm_05": {
+      "file": "assets/generated/voices/letters_watch_after_storm_05.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 26.51,
+      "text_sha256": "6f32d7025af6c8fb71be7c7d6e176bce39907fd53828327330076fe457c81222",
+      "sha256": "3da48f7e2bd970861e549b048e4e433e58b80baffc9cb7cc4488b2e7089df72b",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_after_storm_06": {
+      "file": "assets/generated/voices/letters_watch_after_storm_06.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 22.79,
+      "text_sha256": "34116a764693918e3e2a99e4022952de349f2544c9014c5ffd5ae5cfaf5cdbb8",
+      "sha256": "b29ee2a0108914770dd117d8175c6bcc6427a38b23a9daf944de1e9124dd1163",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_copy_gate": {
+      "file": "assets/generated/voices/letters_watch_copy_gate.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 18.75,
+      "text_sha256": "cb1c50224db6dfa007ff1d35f7fd3da2a04cedb58991dcc7fd848e4358de284b",
+      "sha256": "bba49e070241f3eedd0fb7608769e592b1ed26b83f0c1c20d997b7bb32adae9b",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_copy_house_02": {
+      "file": "assets/generated/voices/letters_watch_copy_house_02.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 26.37,
+      "text_sha256": "783957287d755a84c2a41e18075e761be119deb4174a948b784366cc327320fa",
+      "sha256": "d83b2767011c4995edb204f992b1c0ee026d391fa909f683be36300342bda7ee",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_copy_house_01": {
+      "file": "assets/generated/voices/letters_watch_copy_house_01.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 29.55,
+      "text_sha256": "ed884f94868333997d3af6364038cdd5bad92987c7608a34a719f4ed7ab0b85d",
+      "sha256": "f752f98ccb78de1118d3ab851ea9c6f96b1e6c09b4ed1ea66caf5e1c221e961d",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_copy_school_01": {
+      "file": "assets/generated/voices/letters_watch_copy_school_01.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 25.94,
+      "text_sha256": "ab89fde4410d5dd841877225c8411c32f70acfa494d8bdaa8e720e612d0fdd14",
+      "sha256": "9e5381609e9f7814382c58da343de43c62f435ff07bc827ef71fe36b9fdb15b6",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_copy_school_02": {
+      "file": "assets/generated/voices/letters_watch_copy_school_02.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 25.91,
+      "text_sha256": "f84bc4cfe2cdc66e04365bba7d4f51d4db14afd58aac739ce4b733fa0406576d",
+      "sha256": "95e59391fce805dea4cc9d3392d69a48a325a7f6e03e859e8bbead28016b95f4",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_copy_lamp_02": {
+      "file": "assets/generated/voices/letters_watch_copy_lamp_02.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 24.35,
+      "text_sha256": "c232bbd3395a4dddc377be193c37af58d41046b3be8b5e2d8265df6483dfd350",
+      "sha256": "0130b009665eabfbf384a098a36875dcdfc0dac848a979708529991da137c92e",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_copy_lamp_01": {
+      "file": "assets/generated/voices/letters_watch_copy_lamp_01.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 27.36,
+      "text_sha256": "420c7c1fc75aa51fc2cb6b7ac9e2c1005259f67f7f7ecc9de80e3d706fa2abc6",
+      "sha256": "7c5471437a21f2e0b678baaa6c1f7bbb42131905f78f559ef7618a280bb069a8",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_service_choice": {
+      "file": "assets/generated/voices/letters_watch_service_choice.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 23.6,
+      "text_sha256": "7b738456d994ca970275fc0cee04497f17f66dba90a188e9230c6da1b91995e8",
+      "sha256": "707c610a3fbcbff5abc08d8cdacf12cbe6ca3060d7e2a5a266fec4a542ebeecc",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_close_01": {
+      "file": "assets/generated/voices/letters_watch_close_01.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 27.04,
+      "text_sha256": "d5cf2ed17d1cc7845d7a1edc698b4ec2920e59a08ceaab9b40699999431c5b46",
+      "sha256": "ad713169f0eed539429d1038690a5295fd96135c02ccacfc2a9c8725ee41151f",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_close_02": {
+      "file": "assets/generated/voices/letters_watch_close_02.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 23.1,
+      "text_sha256": "dff57f14138df86ad1ecbc9f9bef25b4b0bcccab3f2dfdf7213217125a44a691",
+      "sha256": "f21f73df7a2b709e27cdfa7e8a638d85f2236e477afc0448b50ce12c718b1c5a",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_close_03": {
+      "file": "assets/generated/voices/letters_watch_close_03.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 24.07,
+      "text_sha256": "8333488338d8c0106fc1dba280fbb9910e5c22c312b83da54175de0649d12870",
+      "sha256": "d7cd52b4e2ad34ca7e01d16cccf37813b85c0e880dd8eb64f9cc897aef309223",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_close_04": {
+      "file": "assets/generated/voices/letters_watch_close_04.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 25.77,
+      "text_sha256": "e1098e5d175ab044d4199d8e64a85efe3a583a5f41ada43fc1647bc2bba7edd9",
+      "sha256": "37256c7ebb66113b510eff241a3bd1613da68c69f6c070e2b8614257b043aab6",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_close_05": {
+      "file": "assets/generated/voices/letters_watch_close_05.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 24.85,
+      "text_sha256": "580d80d2564b15cb569f1959a9a336d819fe95f185ee23235468e043e1ab6ae4",
+      "sha256": "efc8dbd9aef52db74a3b1c14ae365e2aa04eff950692c6f35fffd2ac082a1955",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_close_06": {
+      "file": "assets/generated/voices/letters_watch_close_06.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 25.86,
+      "text_sha256": "82318567426729216564a169d150f3b225b1410b755353d5c43cc2316065cb5f",
+      "sha256": "74678ba29a0320b79d93155869218aeed100f0d8695da7bd1c83ae963eba96e7",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_reserve_01": {
+      "file": "assets/generated/voices/letters_watch_reserve_01.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 26.05,
+      "text_sha256": "567df4c276978c7a1d2a7137b6df958d6decad961694cef41fd886a34b7f2cd2",
+      "sha256": "0e76d24eb6b86a330af00fe31648bcf864df0718e6b5deae239071d9919f7bb0",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_reserve_02": {
+      "file": "assets/generated/voices/letters_watch_reserve_02.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 26.35,
+      "text_sha256": "ae8cc1dd3a60512a671c6c9cb1ba618d4f368c4e47d9e81f9567b1dd37d6abfb",
+      "sha256": "ad24a27eec22a20b9a5bb84d3f807f1dcbbe137260d5774003b75090698255a9",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_reserve_03": {
+      "file": "assets/generated/voices/letters_watch_reserve_03.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 26.61,
+      "text_sha256": "2a5f531d781b5ab32b0e72fea02cdee5230e26280533d29a475354e2cc842f83",
+      "sha256": "6247d3c44cec52ec1fd5bcf92eac2e024dc53b41d5bd8645d4fe6d6134210b2f",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_reserve_04": {
+      "file": "assets/generated/voices/letters_watch_reserve_04.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 23.96,
+      "text_sha256": "e40cb89dc6642771be1a9a6121ae2374fc1f7ca76a3b5ca8023a287b96bcb62a",
+      "sha256": "87277d705c429960be14ad9764138da020a26812a8b07cf65adca8c5218bdc97",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_reserve_05": {
+      "file": "assets/generated/voices/letters_watch_reserve_05.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 23.81,
+      "text_sha256": "7ecc07b13398bc7aabb4addb8b75ba432879c98ba945684083a48325dd0d80b7",
+      "sha256": "bec23363e109d33ae85427d8767059c911d7be6c1d7991e26a1a98a60fe9dba6",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_reserve_06": {
+      "file": "assets/generated/voices/letters_watch_reserve_06.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 28.72,
+      "text_sha256": "b0ccb8b54b29d47de344959145ac9294661577d940c49671759b7211247cb594",
+      "sha256": "38d8eec89bdf25f49a4d287e7d0e0273c1022812a51a0c152da1b18f50a1b829",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_school_transfer_01": {
+      "file": "assets/generated/voices/letters_watch_school_transfer_01.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 27.16,
+      "text_sha256": "6f42304e66062ed0d6dcbe78691eecfa9f284186244b138ce8a48db4583f788c",
+      "sha256": "76e66a283154e7b57d213f9e7cd69c241c5b2cd8441cd8578480afbec15bc968",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_school_transfer_02": {
+      "file": "assets/generated/voices/letters_watch_school_transfer_02.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 21.48,
+      "text_sha256": "426349e43a62c69b4485f9bdc1dfa812c911a4454048a0095cc4b2de0dd1a2c4",
+      "sha256": "b6bfc1416f30289fc1c1a7382a391c9e9b005de22521b498d9a935a5a40c996d",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_school_transfer_03": {
+      "file": "assets/generated/voices/letters_watch_school_transfer_03.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 28.13,
+      "text_sha256": "8451bd325b39cfd2dd1a1f26074468df5accf7248d71ac12e1d48dcd292bce53",
+      "sha256": "7d12100771ee0cadeb9d54eda9fb961d8bc6b345cf7fdc8e0b2214e284f269de",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_school_transfer_04": {
+      "file": "assets/generated/voices/letters_watch_school_transfer_04.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 25.63,
+      "text_sha256": "4363aed2fc2cc9ad4eaeadd7032f56d8585051b8b9382114c26211b0f827645f",
+      "sha256": "d879e7491d74621554f8affc424ee8820b6c6cd3ba214e9a70835e0d52e32848",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_school_transfer_05": {
+      "file": "assets/generated/voices/letters_watch_school_transfer_05.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 26.63,
+      "text_sha256": "1b526a82970cb77a06dc623eb30bb2f8c2a5d9c315baeff38727ca9e2611967d",
+      "sha256": "d0192a39205aaf76d6e8d90ec2f056adc43bcfa3a31fd65c82dd73096a3fad3a",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_school_transfer_06": {
+      "file": "assets/generated/voices/letters_watch_school_transfer_06.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 29.01,
+      "text_sha256": "8672b49492ee378986509a28d34c4bd638f4b66308b890ac67114671d56a2805",
+      "sha256": "525a654c539a48733bfecf9effa95e9ba473be826bb60aad17e2c1cb1f9ab545",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_settlement_01": {
+      "file": "assets/generated/voices/letters_watch_settlement_01.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 27.83,
+      "text_sha256": "947b6b95be86cd288427dffc694cc880c103fbc699350ba11e370a3271e7ef24",
+      "sha256": "2bb3908a455407074d748854769be14909c971e3b2b456a7f389385296876a8b",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_settlement_02": {
+      "file": "assets/generated/voices/letters_watch_settlement_02.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 24.74,
+      "text_sha256": "2261bb1ab290a518e6bf9016951fa68ff2c4b0a2679e22b9cbd0918887d53529",
+      "sha256": "854278b2cbcc91c2ab624cea0221f446c969a59e318247d40b45fd03a8f01dc4",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_settlement_03": {
+      "file": "assets/generated/voices/letters_watch_settlement_03.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 27.57,
+      "text_sha256": "2fbcc0a317c941cc8fe98fa22bade6fbaa6d0f335045a3cd6b3f81f87b9fb33d",
+      "sha256": "fe37ed327805c68d6c2708e593f5875d489e7ec0292f91d1ab437bb9b7ea0578",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_material_gate": {
+      "file": "assets/generated/voices/letters_watch_material_gate.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 19.41,
+      "text_sha256": "373069e4eeec683cc8233a2ad9edcbde3a42bcd5d5831ed8f90e0afdda947346",
+      "sha256": "ae696e056bc6ad62fad506ab127329abb6489179c36add27b772e34e307f7954",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_material_books_01": {
+      "file": "assets/generated/voices/letters_watch_material_books_01.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 24.61,
+      "text_sha256": "ad594d9375a351d1081960b306012acf78f31bea8ab0a47ba34aff8f9956cbe1",
+      "sha256": "75217bfb589e70f67eb450619a4b911103bf0b52144a99dcf838c1029fcb26dd",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_material_books_02": {
+      "file": "assets/generated/voices/letters_watch_material_books_02.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 23.39,
+      "text_sha256": "a358f633b5c73df4a61f36395fdccf04ea40aa4dce3162ea2317f48a9f587e0c",
+      "sha256": "40472cba05b0a5ffc54b577e9b8c0ec2705acb4205163ca4e73b78455be1df80",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_material_path_02": {
+      "file": "assets/generated/voices/letters_watch_material_path_02.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 23.52,
+      "text_sha256": "0cbe8de41a320f14c59da1e417db1b345ffb26df4b2d6c4024e0eb01c4f145c7",
+      "sha256": "dd3ccc620c08dedb98fd0a1a8a281c7bdaf2b6cb2c70d8371dfdcf9309bac8c4",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_material_path_01": {
+      "file": "assets/generated/voices/letters_watch_material_path_01.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 26.16,
+      "text_sha256": "6824a9ef9d60ce937a62d0908ffbc802357af186c14b9aa02e3ffae63df43a08",
+      "sha256": "bad4d96a557605daed9056db48b01600a6b80955ca5b1ffa5f74ec86b5b3fefe",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_material_cart_01": {
+      "file": "assets/generated/voices/letters_watch_material_cart_01.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 26.82,
+      "text_sha256": "7bb74625de36578976abd55e6d6fbe5751e7edc47b5b9efb539c5f123466c33b",
+      "sha256": "a2b76457c59dacc67f74610059fe4fe8ade51a8aaa9320c1465efed96d39a229",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_material_cart_02": {
+      "file": "assets/generated/voices/letters_watch_material_cart_02.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 23.16,
+      "text_sha256": "a02954b80b0ba5864be5362c85d1dc3c52d82f9db310ac4702ac192c2c56306f",
+      "sha256": "06061e39772ee89aca5c6da4cb9566f45dcf98c6b4acfcd35e24e7f146ef5f17",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_final_gate": {
+      "file": "assets/generated/voices/letters_watch_final_gate.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 18.4,
+      "text_sha256": "53fa2b00ed6327bc2c9ea6346015e640f3c0ba7127630fda25cf5921d23b0aba",
+      "sha256": "c4c361959f12acf6d7ef1cd163a1a27dc598c1c7127968cfded9499556532194",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_close_result": {
+      "file": "assets/generated/voices/letters_watch_close_result.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 22.84,
+      "text_sha256": "77f1adf5c7acabeb09441309860edfa3fab4eadb9bf77d92a6b29caf5cfdf65a",
+      "sha256": "14b825d4113a106b24146ad18fce4783b9d4a35b052ccac640bf4df41121b8fe",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_reserve_result": {
+      "file": "assets/generated/voices/letters_watch_reserve_result.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 25.39,
+      "text_sha256": "1215b32cf1203867d2b4bd5fca37196adb68a0a31f96c02dcc3525c4f9b22bf0",
+      "sha256": "fe19572e245a13555db072000d0b49f138c00158e80bacefc8195d514a9f8eca",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_end_books_close": {
+      "file": "assets/generated/voices/letters_watch_end_books_close.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 25.21,
+      "text_sha256": "8bd414ee8efc336ef3ea6cae6c04fbc52a7e1dbcb580927e9a012ca8e772fbab",
+      "sha256": "122074d3d6b09aabf11032bfdb9f4873fc8238c76fec0f31502118326320126f",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_transfer_result": {
+      "file": "assets/generated/voices/letters_watch_transfer_result.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 27.7,
+      "text_sha256": "e451042e41bd2eda0cba557c2033453ee1112df9bc0e988dda1bf94cb794995b",
+      "sha256": "d6c4bbdabc514215950a42a00b2b59106634f0a20492aa4c1c29e5d449c6d971",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_end_path_close": {
+      "file": "assets/generated/voices/letters_watch_end_path_close.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 23.85,
+      "text_sha256": "c57f5c1afd7f979275311ff30cdabf93a081490c9c8e0fdd7989f60dce3ecda7",
+      "sha256": "576e86c24df1c9f49efc7149b24b97e5a63b1d9182a5528118574f6f79c26499",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_end_cart_close": {
+      "file": "assets/generated/voices/letters_watch_end_cart_close.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 26.33,
+      "text_sha256": "e87b6cdf220cc16b34eb38527f220012c3f0bea4ebb43839c82bd9869333701c",
+      "sha256": "f625f4f53ad8d2bcf7b3a048a88d1bd2eaaa05d97cd56ef90a7d661d9ba0c4d5",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_end_books_reserve": {
+      "file": "assets/generated/voices/letters_watch_end_books_reserve.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 26.78,
+      "text_sha256": "f38168fb923131fb7228973bc362f40bcfde39b76301aae7996960396d3073e6",
+      "sha256": "4e581b189b2aea850945348aab7f2337efa6e3f63ce8ae26d8da8fbe52432aa7",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_end_path_reserve": {
+      "file": "assets/generated/voices/letters_watch_end_path_reserve.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 26.09,
+      "text_sha256": "cf6cfb4f9533cd76729ab086b37689f189eeaf0267df8fb0494b06f8b623131b",
+      "sha256": "99148edca54bcef1a3511a8977d6a20b7a84c45d7269cfc5eda6aeb766a0315d",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_end_cart_reserve": {
+      "file": "assets/generated/voices/letters_watch_end_cart_reserve.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 26.12,
+      "text_sha256": "e99eacfde3fca193ba3bb7d7cdc1bd16e2e7165317e5c008a9533796ec778839",
+      "sha256": "dbfee49822f14b479f2c36ca8b072814a9aa2d30ff1a4229ae20d70031627691",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_end_books_transfer": {
+      "file": "assets/generated/voices/letters_watch_end_books_transfer.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 27.97,
+      "text_sha256": "7b49b75aec55f7e1e85056da5ace4fcb748753a74de5c31a19ff6b69b61231fc",
+      "sha256": "15673243461fc64ea25476d132d450653200ab445ba3f8e2a1debf812ed7a3f7",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_end_cart_transfer": {
+      "file": "assets/generated/voices/letters_watch_end_cart_transfer.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 27.5,
+      "text_sha256": "06dc9d388f2cb2941b2d18b53dea8d18cbec1aab198697e14f6e3d08481496cd",
+      "sha256": "ae39bfb05833e92bca347309f5cdffaa5a8e41a489ebef3456edaf0a141df16c",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_end_path_transfer": {
+      "file": "assets/generated/voices/letters_watch_end_path_transfer.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 27.12,
+      "text_sha256": "89c0e5d9b2f9ca4d70a4500ed2ac198f148805f21b4e7c53acd9e1fab233693b",
+      "sha256": "d187a648bfccbca5ba62a95ac240bb77ba25978793f8d31350f1a5f6c112784b",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
+    },
+    "letters_watch_end": {
+      "file": "assets/generated/voices/letters_watch_end.ogg",
+      "format": "ogg",
+      "codec": "vorbis",
+      "channels": 1,
+      "sample_rate": 8000,
+      "seconds": 25.48,
+      "text_sha256": "b69d9d410fb5b0f6893ba8f7ee89553e8cc1e6a62a961798b5b92abb7226d487",
+      "sha256": "97a36fdf410eb97a70383b3e5bbe913619b39c9f9934f538e8e64c3ee6eeea89",
+      "encoding": "ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s"
     }
   }
 }

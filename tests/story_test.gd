@@ -38,6 +38,7 @@ func check(condition: bool, message: String) -> void:
 		push_error(message)
 
 func _initialize() -> void:
+	_test_route_coverage_projection()
 	_test_story_loading()
 	_test_attributes()
 	_test_encounters()
@@ -154,25 +155,33 @@ func _initialize() -> void:
 				caps[key] = maxi(caps[key], int(choice.requires[key]))
 			for effect in choice.get("effects", {}).values():
 				check(effect >= 0, "Capped traversal requires monotone stat effects")
+	var future_choices := _future_route_decisions(campaign)
 	var reached := {}
 	var endings := {}
 	var visited := {}
 	var frontiers: Dictionary = {}
-	var queue: Array = [{"current": campaign.start, "stats": {"qi": 0, "trust": 0, "insight": 0, "resolve": 0}}]
+	var queue: Array = [{"current": campaign.start, "stats": {"qi": 0, "trust": 0, "insight": 0, "resolve": 0}, "decisions": {}}]
 	var cursor := 0
 	while cursor < queue.size():
 		var entry: Dictionary = queue[cursor]
 		cursor += 1
-		var visit_key := str(entry.current)
+		entry.decisions = _live_route_decisions(entry.decisions, future_choices[entry.current])
+		var decision_keys: Array = entry.decisions.keys()
+		decision_keys.sort()
+		var decision_pairs: Array = []
+		for key in decision_keys:
+			decision_pairs.append([key, entry.decisions[key]])
+		var route_key := JSON.stringify([entry.current, decision_pairs])
+		var visit_key := route_key
 		for key in State.STAT_KEYS:
 			entry.stats[key] = mini(int(entry.stats[key]), int(caps[key]))
 			visit_key += ":" + str(entry.stats[key])
 		if visited.has(visit_key):
 			continue
-		# At the same scene, a stronger score vector can take every choice a
-		# weaker one can. Effects are nonnegative and this campaign is acyclic,
-		# so keeping nondominated vectors preserves all scene/ending coverage.
-		var frontier: Array = frontiers.get(entry.current, [])
+		# At the same scene with the same relevant decisions, a stronger score
+		# vector can take every choice a weaker one can. This campaign is acyclic
+		# and effects are nonnegative, so nondominated vectors preserve coverage.
+		var frontier: Array = frontiers.get(route_key, [])
 		var dominated := false
 		for prior in frontier:
 			if _stats_dominate(prior, entry.stats):
@@ -185,25 +194,27 @@ func _initialize() -> void:
 			if not _stats_dominate(entry.stats, prior):
 				retained.append(prior)
 		retained.append(entry.stats.duplicate())
-		frontiers[entry.current] = retained
+		frontiers[route_key] = retained
 		visited[visit_key] = true
 		var traveler = State.new(campaign)
 		traveler.current = entry.current
 		traveler.stats = entry.stats.duplicate()
+		traveler.decisions = entry.decisions.duplicate()
 		reached[traveler.current] = true
 		var node: Dictionary = traveler.node()
 		if node.has("ending"):
 			endings[node.ending] = true
 		if node.has("next") or node.has("continuation"):
 			if traveler.advance():
-				queue.append({"current": traveler.current, "stats": traveler.stats.duplicate()})
+				queue.append({"current": traveler.current, "stats": traveler.stats.duplicate(), "decisions": _live_route_decisions(traveler.decisions, future_choices[traveler.current])})
 		else:
 			for index in range(node.get("choices", []).size()):
 				var branch = State.new(campaign)
 				branch.current = entry.current
 				branch.stats = entry.stats.duplicate()
+				branch.decisions = entry.decisions.duplicate()
 				if (branch.go(str(node.choices[index].next)) if node.get("random_event", false) else branch.choose(index)):
-					queue.append({"current": branch.current, "stats": branch.stats.duplicate()})
+					queue.append({"current": branch.current, "stats": branch.stats.duplicate(), "decisions": _live_route_decisions(branch.decisions, future_choices[branch.current])})
 	check(reached.size() == campaign.nodes.size(), "Every scene should be reachable under its gates")
 	check(endings == expected_endings, "Every authored ending should be reachable")
 	print("Reachable scenes: %d; distinct capped states: %d" % [reached.size(), visited.size()])
@@ -700,3 +711,74 @@ func _stats_dominate(stronger: Dictionary, weaker: Dictionary) -> bool:
 		if int(stronger[key]) < int(weaker[key]):
 			return false
 	return true
+
+# A previous choice matters to coverage only while a later conditional route
+# can still read it. Propagate those references backwards through all edges.
+func _future_route_decisions(campaign: Dictionary) -> Dictionary:
+	var parents := {}
+	var relevant := {}
+	for key in campaign.nodes:
+		parents[key] = []
+		relevant[key] = {}
+		for route in campaign.nodes[key].get("routes", []):
+			relevant[key][route.decision] = true
+	for key in campaign.nodes:
+		var scene_node: Dictionary = campaign.nodes[key]
+		var targets: Array = []
+		for field in ["next", "continuation"]:
+			if scene_node.has(field):
+				targets.append(scene_node[field])
+		for choice in scene_node.get("choices", []):
+			targets.append(choice.next)
+		for route in scene_node.get("routes", []):
+			targets.append(route.next)
+		for target in targets:
+			if parents.has(target):
+				parents[target].append(key)
+	var queue: Array = []
+	for key in relevant:
+		if not relevant[key].is_empty():
+			queue.append(key)
+	var cursor := 0
+	while cursor < queue.size():
+		var target: String = queue[cursor]
+		cursor += 1
+		for parent in parents[target]:
+			var changed := false
+			var scene_node: Dictionary = campaign.nodes[parent]
+			for decision in relevant[target]:
+				if decision == parent and scene_node.has("choices") and not scene_node.get("random_event", false):
+					continue
+				if not relevant[parent].has(decision):
+					relevant[parent][decision] = true
+					changed = true
+			if changed:
+				queue.append(parent)
+	return relevant
+
+func _live_route_decisions(decisions: Dictionary, relevant: Dictionary) -> Dictionary:
+	var retained := {}
+	for key in decisions:
+		if relevant.has(key):
+			retained[key] = decisions[key]
+	return retained
+
+func _test_route_coverage_projection() -> void:
+	var fixture := {
+		"nodes": {
+			"unrelated": {"choices": [{"next": "decision"}]},
+			"decision": {"choices": [{"next": "left"}, {"next": "right"}]},
+			"left": {"next": "dispatch"}, "right": {"next": "dispatch"},
+			"dispatch": {"next": "finish", "routes": [
+				{"decision": "decision", "selected": "left", "next": "left_result"},
+				{"decision": "decision", "selected": "right", "next": "right_result"}
+			]},
+			"left_result": {"next": "finish"}, "right_result": {"next": "finish"},
+			"finish": {"ending": "Done"}
+		}
+	}
+	var relevant := _future_route_decisions(fixture)
+	check(relevant.unrelated.is_empty() and relevant.decision.is_empty(), "Coverage must not multiply states for a choice before it is recorded")
+	check(relevant.left == {"decision": true} and relevant.right == {"decision": true} and relevant.dispatch == {"decision": true}, "Coverage must retain each decision until its delayed consequence")
+	check(relevant.left_result.is_empty() and relevant.finish.is_empty(), "Coverage must discard decisions after their last consequence")
+	check(_live_route_decisions({"unrelated": "decision", "decision": "left"}, relevant.dispatch) == {"decision": "left"}, "Coverage must preserve the chosen destination without carrying unrelated history")

@@ -135,16 +135,111 @@ def delivery_report(world, words, scenes):
     }
 
 
-def reachable_without(story, omitted):
-    reached, queue = set(), deque([story["start"]])
-    while queue:
-        key = queue.popleft()
-        if key == omitted or key in reached:
+def validate_routes(story):
+    """A delayed consequence names a real ordinary choice and its destination."""
+    nodes = story["nodes"]
+    for key, node in nodes.items():
+        if "routes" not in node:
             continue
+        assert "next" in node and not set(node) & {"choices", "ending", "continuation", "random_event"}, (
+            f"Delayed routes require a next fallback: {key}"
+        )
+        assert node["next"] in nodes, f"Missing route fallback: {key}"
+        routes = node["routes"]
+        assert isinstance(routes, list) and routes, f"Routes must be a nonempty array: {key}"
+        pairs = set()
+        for route in routes:
+            assert isinstance(route, dict) and set(route) == {"decision", "selected", "next"}, (
+                f"Invalid delayed route fields: {key}"
+            )
+            assert all(isinstance(value, str) and value for value in route.values()), (
+                f"Delayed route IDs must be strings: {key}"
+            )
+            source = nodes.get(route["decision"], {})
+            assert (isinstance(source.get("choices"), list) and source["choices"]
+                    and all(isinstance(choice, dict) for choice in source["choices"])
+                    and "random_event" not in source and "earned" not in source), (
+                f"A delayed route must reference an ordinary choice: {key}"
+            )
+            destinations = [choice.get("next") for choice in source["choices"]]
+            assert all(isinstance(target, str) and target in nodes for target in destinations), (
+                f"A routed choice must have valid destinations: {key}"
+            )
+            assert len(destinations) == len(set(destinations)), (
+                f"A routed choice needs distinct destination identities: {key}"
+            )
+            assert route["selected"] in destinations, f"Unknown selected destination: {key}"
+            assert route["selected"] in nodes and route["next"] in nodes, (
+                f"Missing delayed route destination: {key}"
+            )
+            pair = route["decision"], route["selected"]
+            assert pair not in pairs, f"Repeated delayed route condition: {key}"
+            pairs.add(pair)
+
+
+def navigation_targets(node):
+    """Include conditional edges when finding which decisions remain relevant."""
+    targets = [node[field] for field in ("next", "continuation") if field in node]
+    targets.extend(choice["next"] for choice in node.get("choices", []))
+    targets.extend(route["next"] for route in node.get("routes", []))
+    return targets
+
+
+def future_decisions(story):
+    """Drop expired decisions in the independently validated acyclic campaign."""
+    nodes = story["nodes"]
+    parents = {key: set() for key in nodes}
+    relevant = {key: {route["decision"] for route in node.get("routes", [])}
+                for key, node in nodes.items()}
+    for key, node in nodes.items():
+        for target in navigation_targets(node):
+            parents[target].add(key)
+    queue = deque(key for key, decisions in relevant.items() if decisions)
+    while queue:
+        target = queue.popleft()
+        for parent in parents[target]:
+            inherited = relevant[target]
+            if nodes[parent].get("choices") and not nodes[parent].get("random_event", False):
+                # An acyclic journey has not yet made this source choice.
+                inherited = inherited - {parent}
+            added = inherited - relevant[parent]
+            if added:
+                relevant[parent].update(added)
+                queue.append(parent)
+    return relevant
+
+
+def reachable_without(story, omitted=None, relevant=None):
+    """Follow possible journeys, retaining only decisions later routes read."""
+    if relevant is None:
+        relevant = future_decisions(story)
+    reached, visited, queue = set(), set(), deque([(story["start"], ())])
+    while queue:
+        key, decisions_tuple = queue.popleft()
+        if key == omitted:
+            continue
+        decisions = {name: value for name, value in decisions_tuple
+                     if name in relevant[key]}
+        signature = key, tuple(sorted(decisions.items()))
+        if signature in visited:
+            continue
+        visited.add(signature)
         reached.add(key)
         node = story["nodes"][key]
-        queue.extend(node[field] for field in ("next", "continuation") if field in node)
-        queue.extend(choice["next"] for choice in node.get("choices", []))
+        if "choices" in node:
+            for choice in node["choices"]:
+                selected = dict(decisions)
+                if not node.get("random_event", False):
+                    selected[key] = choice["next"]
+                queue.append((choice["next"], tuple(sorted(selected.items()))))
+        else:
+            target = node.get("next", node.get("continuation"))
+            for route in node.get("routes", []):
+                if decisions.get(route["decision"]) == route["selected"]:
+                    target = route["next"]
+                    break
+            if target is not None:
+                queue.append((target, tuple(sorted(decisions.items()))))
     return reached
 
 
@@ -240,22 +335,16 @@ def inspect(root):
     for fact in continuity["facts"]:
         assert fact["statement"].strip() and fact["anchors"]
         assert set(fact["anchors"]) <= set(story["nodes"]), f"Missing continuity anchor: {fact['id']}"
-    reached, queue = set(), deque([story["start"]])
-    while queue:
-        key = queue.popleft()
-        if key in reached:
-            continue
-        reached.add(key)
-        node = story["nodes"][key]
-        queue.extend(node[field] for field in ("next", "continuation") if field in node)
-        queue.extend(choice["next"] for choice in node.get("choices", []))
-    assert reached == set(story["nodes"]), "Every scene must be reachable"
+    validate_routes(story)
+    relevant = future_decisions(story)
+    reached = reachable_without(story, relevant=relevant)
+    assert reached == set(story["nodes"]), "Every scene must be reachable on an actual choice history"
     for checkpoint in continuity.get("checkpoints", []):
         target = checkpoint["before"]
         assert target in story["nodes"]
         for required in checkpoint["required"]:
             assert required in story["nodes"]
-            assert target not in reachable_without(story, required), (
+            assert target not in reachable_without(story, required, relevant), (
                 f"Continuity checkpoint {checkpoint['id']} bypasses {required}"
             )
     words = authored_word_count(story)

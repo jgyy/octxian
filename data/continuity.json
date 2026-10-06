@@ -17,7 +17,8 @@
     "book_xiv_harbor",
     "book_xv_kiln",
     "book_xvi_desert",
-    "book_xvii_archive"
+    "book_xvii_archive",
+    "book_xviii_letters"
   ],
   "facts": [
     {
@@ -2189,6 +2190,128 @@
         "desert_dilemma_collateral_3",
         "desert_p13_010"
       ]
+    },
+    {
+      "id": "letters_prior_future_and_new_visit",
+      "statement": "The new review is one season after the winter inquiry and after the prior agreed term. Recorded public, stewardship or home futures remain distinct. Home funds its own coach; four copper is a separate local carriage allowance. Lin retains the earned fifth stage; Sun's key, original custody and school responsibility remain local.",
+      "anchors": [
+        "letters_return_entry",
+        "letters_background_router",
+        "letters_prior_home_001"
+      ]
+    },
+    {
+      "id": "letters_review_purse_and_later_allowance",
+      "statement": "A separate twenty-four copper review pays twelve for one complete copy, six for receiving, four for local carriage and two for messages. It does not reuse the old 180-copper post. A later six copper pays one completed two-hour session; signing alone pays nothing.",
+      "anchors": [
+        "letters_prepare_001",
+        "letters_rain_rejoin_001",
+        "letters_findings_002",
+        "letters_findings_003",
+        "letters_departure_001"
+      ]
+    },
+    {
+      "id": "letters_one_copy_changes_later_reading",
+      "statement": "One selected complete accessible copy determines the engineering crew's first supported comparison; the other complete copies wait six weeks while their permitted original sources remain intact.",
+      "anchors": [
+        "letters_copy_choice",
+        "letters_copy_result_router",
+        "letters_house_result_001",
+        "letters_school_result_001",
+        "letters_lamp_result_001"
+      ]
+    },
+    {
+      "id": "letters_rain_window_changes_attendance_evidence_access",
+      "statement": "One safe rain-window task enables Sun's attendance, preservation of fresh measurements, or a school route exercise after a new check. Other tasks incur actual delays or loss of fresh evidence, while settled rights and old source records persist.",
+      "anchors": [
+        "letters_rain_choice",
+        "letters_rain_result_router",
+        "letters_sun_result_001",
+        "letters_sheet_result_001",
+        "letters_path_result_001"
+      ]
+    },
+    {
+      "id": "letters_one_future_session_has_real_social_cost",
+      "statement": "One two-hour future session reserves Lin's calendar and a keeper's preparation. The other sessions retain local cover and remove her from their expected preparation; work and payment remain future until actual receiving.",
+      "anchors": [
+        "letters_commitment_choice",
+        "letters_commit_house",
+        "letters_commit_school",
+        "letters_commit_lamp",
+        "letters_review_end"
+      ]
+    },
+    {
+      "id": "salt_no_unchosen_salvage_result",
+      "statement": "The shared grain-house draw uses its checked request, without importing the seed trial's salvage finding into wash or reserve alternatives.",
+      "anchors": [
+        "salt_trial_choice",
+        "salt_recovery_001",
+        "salt_rotation_002"
+      ]
+    },
+    {
+      "id": "historical_choices_keep_delayed_material_results",
+      "statement": "Six earlier decisions retain selected water-testing opportunities, opening access arrangements, public funded-improvement reports, receiving slots, warning corrections and next-appointment work. Missing legacy decision records follow the pre-existing generic next scene without inventing a selected result.",
+      "anchors": [
+        "salt_trial_choice",
+        "salt_recovery_001",
+        "aftermath_salt_wash_001",
+        "forest_21_010",
+        "forest_23_001",
+        "aftermath_forest_footway_001",
+        "harbor_final_choice",
+        "kiln_p03_045",
+        "aftermath_harbor_registry_001",
+        "desert_dilemma_causeway",
+        "desert_p08_018",
+        "aftermath_causeway_notice_001",
+        "desert_dilemma_warning",
+        "desert_p12_003",
+        "aftermath_warning_diagram_001",
+        "archive_25_006",
+        "archive_25_lantern_keeper",
+        "aftermath_archive_reference_001"
+      ]
+    },
+    {
+      "id": "letters_second_watch_receives_selected_work",
+      "statement": "Only the selected household, school or cold-bench commitment is performed and paid six copper after its actual two-hour receiving. Sun's runoff testimony remains Sun's; older copied observations retain their source and date. A separate four-copper returns shift has its own receiving and does not prolong earlier posts.",
+      "anchors": [
+        "letters_second_watch_entry",
+        "letters_watch_house_03",
+        "letters_watch_school_03",
+        "letters_watch_lamp_03",
+        "letters_watch_arrival_03",
+        "letters_watch_settlement_01"
+      ]
+    },
+    {
+      "id": "letters_one_canvas_preserves_one_service",
+      "statement": "Two sound canvas sheets cover one selected job. Booklet cover preserves sixteen annotated public booklets; approach cover preserves inspected short access; cart cover preserves delivery and four-copper courier earnings. Other branches leave cancelled delivery's two-copper payment, lost teaching stock or washed-off tread coating unrecovered. Installed covers stay on frames under checks.",
+      "anchors": [
+        "letters_watch_canvas_choice",
+        "letters_watch_after_storm_03",
+        "letters_watch_material_gate",
+        "letters_watch_material_books_01",
+        "letters_watch_material_path_01",
+        "letters_watch_material_cart_01"
+      ]
+    },
+    {
+      "id": "letters_one_funded_storm_policy_persists",
+      "statement": "A separate twelve-copper storm grant funds one confirmed policy: closure spends ten and returns two; one inspected reserve reading spends twelve; school transfer spends twelve and begins three paid sessions. Nine combinations preserve both selected material losses and the actual continuing service. Lin retains her fifth stage, with household rights and private source custody intact.",
+      "anchors": [
+        "letters_watch_service_choice",
+        "letters_watch_close_06",
+        "letters_watch_reserve_06",
+        "letters_watch_school_transfer_06",
+        "letters_watch_final_gate",
+        "letters_watch_end"
+      ]
     }
   ],
   "review_policy": "Review each new chapter's chronology, custody, character knowledge, and alternate outcomes before updating this ledger. Structural checks supplement editorial review; they do not prove the absence of all possible plot holes.",
@@ -2978,6 +3101,79 @@
         "desert_dilemma_collateral"
       ],
       "before": "desert_p13_010"
+    },
+    {
+      "id": "letters_terms_and_permissions_before_copy",
+      "before": "letters_copy_choice",
+      "required": [
+        "letters_prepare_001",
+        "letters_prepare_002",
+        "letters_prepare_003",
+        "letters_prepare_004",
+        "letters_prepare_005",
+        "letters_prepare_007"
+      ]
+    },
+    {
+      "id": "letters_rain_boundaries_before_task",
+      "before": "letters_rain_choice",
+      "required": [
+        "letters_copy_choice",
+        "letters_copy_rejoin_002",
+        "letters_copy_rejoin_004",
+        "letters_copy_rejoin_005"
+      ]
+    },
+    {
+      "id": "letters_received_work_before_commitment",
+      "before": "letters_commitment_choice",
+      "required": [
+        "letters_copy_result_router",
+        "letters_rain_result_router",
+        "letters_findings_001",
+        "letters_findings_002",
+        "letters_findings_003",
+        "letters_findings_005"
+      ]
+    },
+    {
+      "id": "letters_single_commitment_before_second_watch",
+      "before": "letters_review_end",
+      "required": [
+        "letters_commitment_choice",
+        "letters_departure_001",
+        "letters_departure_002"
+      ]
+    },
+    {
+      "id": "letters_storm_limits_before_canvas",
+      "before": "letters_watch_canvas_choice",
+      "required": [
+        "letters_second_watch_entry",
+        "letters_watch_arrival_03",
+        "letters_watch_arrival_05",
+        "letters_watch_arrival_06"
+      ]
+    },
+    {
+      "id": "letters_received_canvas_and_grant_before_policy",
+      "before": "letters_watch_service_choice",
+      "required": [
+        "letters_watch_canvas_choice",
+        "letters_watch_after_storm_03",
+        "letters_watch_after_storm_05",
+        "letters_watch_copy_gate"
+      ]
+    },
+    {
+      "id": "letters_actual_policy_before_settlement",
+      "before": "letters_watch_end",
+      "required": [
+        "letters_watch_service_choice",
+        "letters_watch_settlement_01",
+        "letters_watch_material_gate",
+        "letters_watch_final_gate"
+      ]
     }
   ]
 }

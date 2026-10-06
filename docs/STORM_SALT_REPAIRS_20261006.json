@@ -1,0 +1,498 @@
+{
+  "source_base": "c90102c720c0fd97fe31559851c57ee38e976d55",
+  "repair_sites": 13,
+  "root_causes": 1,
+  "save_rule_revision": 3,
+  "requested_repair_sites": 100,
+  "unfulfilled_requested_repair_sites": 87,
+  "repairs": [
+    {
+      "id": "storm-salt-causality-001",
+      "node_id": "storm_hearing_choice",
+      "choice_index": 2,
+      "path": "data/books/book_x_storm_ledger.json",
+      "before": {
+        "text": "Check the household correction list beside the claimants.",
+        "next": "storm_claims_001",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Check the household correction list beside the claimants.",
+        "next": "storm_claims_001"
+      },
+      "completion_node": "storm_claims_005",
+      "completion_path": "data/books/book_x_storm_ledger.json",
+      "completion_text": "By the time Jiang finished the warning account, each claimant had checked the net sum beside their name. Agreement on a repayment list did not require them to endorse the steward's explanation or forgive the delay. Yue asked the clerk to leave room for a later complaint if the payment failed to arrive. The line looked small, but the widow tapped it with one fingernail. A new promise needed a place where its failure could be written.",
+      "earned": {
+        "trust": 1
+      },
+      "branch": [
+        "storm_claims_001",
+        "storm_claims_002",
+        "storm_claims_003",
+        "storm_claims_004",
+        "storm_claims_005"
+      ],
+      "legacy_rules_before": 3,
+      "reason": "Growth was paid for selecting future work before the exclusive authored branch had been completed."
+    },
+    {
+      "id": "storm-salt-causality-002",
+      "node_id": "storm_final_choice",
+      "choice_index": 0,
+      "path": "data/books/book_x_storm_ledger.json",
+      "before": {
+        "text": "Help publish the corrected storm ledger and its evidence limits.",
+        "next": "storm_public_001",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Help publish the corrected storm ledger and its evidence limits.",
+        "next": "storm_public_001"
+      },
+      "completion_node": "storm_end_public",
+      "completion_path": "data/books/book_x_storm_ledger.json",
+      "completion_text": "At the valley turn, Yue opened the extract only to check its wax tie. The hearing's result remained specific: thirty-eight copper recovered, four grants corrected, warning duties repaired and disputed testimony retained. That was enough to be useful without becoming a universal verdict. Duan Zhi's receiving address lay on the outer cover. She carried the account toward it, ready to discover where the next village's arithmetic and ordinary lives disagreed.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "storm_public_001",
+        "storm_public_002",
+        "storm_public_003",
+        "storm_public_004",
+        "storm_public_005",
+        "storm_end_public"
+      ],
+      "legacy_rules_before": 3,
+      "reason": "Growth was paid for selecting future work before the exclusive authored branch had been completed."
+    },
+    {
+      "id": "storm-salt-causality-003",
+      "node_id": "storm_final_choice",
+      "choice_index": 1,
+      "path": "data/books/book_x_storm_ledger.json",
+      "before": {
+        "text": "Take the paid portable-bell workshop turn.",
+        "next": "storm_workshop_001",
+        "effects": {
+          "resolve": 1
+        }
+      },
+      "after": {
+        "text": "Take the paid portable-bell workshop turn.",
+        "next": "storm_workshop_001"
+      },
+      "completion_node": "storm_end_workshop",
+      "completion_path": "data/books/book_x_storm_ledger.json",
+      "completion_text": "The bell stayed covered along the valley road, its clapper secured for travel rather than forgotten beneath winter cord. Yue carried the service pack in a dry pocket and left the original storm ledger at the archive. The frame could mark public working intervals once the local crew chose their meaning. It could not decide who deserved water. That decision awaited gauges, names and a village whose story she had not yet heard.",
+      "earned": {
+        "resolve": 1
+      },
+      "branch": [
+        "storm_workshop_001",
+        "storm_workshop_002",
+        "storm_workshop_003",
+        "storm_workshop_004",
+        "storm_workshop_005",
+        "storm_end_workshop"
+      ],
+      "legacy_rules_before": 3,
+      "reason": "Growth was paid for selecting future work before the exclusive authored branch had been completed."
+    },
+    {
+      "id": "storm-salt-causality-004",
+      "node_id": "storm_final_choice",
+      "choice_index": 2,
+      "path": "data/books/book_x_storm_ledger.json",
+      "before": {
+        "text": "Go home with the corrected account and prepare for the valley road.",
+        "next": "storm_home_001",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Go home with the corrected account and prepare for the valley road.",
+        "next": "storm_home_001"
+      },
+      "completion_node": "storm_end_home",
+      "completion_path": "data/books/book_x_storm_ledger.json",
+      "completion_text": "Her mother stood at the kiln gate until Yue reached the turn. The inland receipt carried a date, an amount and a vendor's claim about water. It carried no verdict about the valley. Yue touched the dry cover of her tablet and continued toward Duan Zhi's address. The storm had taught her to follow a payment far enough to answer its question. The next road would teach her which question this payment actually asked.",
+      "earned": {
+        "trust": 1
+      },
+      "branch": [
+        "storm_home_001",
+        "storm_home_002",
+        "storm_home_003",
+        "storm_home_004",
+        "storm_home_005",
+        "storm_end_home"
+      ],
+      "legacy_rules_before": 3,
+      "reason": "Growth was paid for selecting future work before the exclusive authored branch had been completed."
+    },
+    {
+      "id": "storm-salt-causality-005",
+      "node_id": "salt_investigation_choice",
+      "choice_index": 0,
+      "path": "data/books/book_xi_salt_road.json",
+      "before": {
+        "text": "Inspect the bypass with Duan Zhi's channel crew.",
+        "next": "salt_channels_001",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Inspect the bypass with Duan Zhi's channel crew.",
+        "next": "salt_channels_001"
+      },
+      "completion_node": "salt_channels_020",
+      "completion_path": "data/books/book_xi_salt_road.json",
+      "completion_text": "The crew returned the miller's key and added his lost hours to the commission's shutdown tally. The grain-house steward collected a flour order delayed by the inspection and complained that the seed team would now work late. Neither person praised the report. Yue carried it back anyway. Under the report's exact water claim were the hands that had kept the mill still, fed the crew and waited for work to begin again.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "salt_channels_001",
+        "salt_channels_002",
+        "salt_channels_003",
+        "salt_channels_004",
+        "salt_channels_005",
+        "salt_channels_006",
+        "salt_channels_007",
+        "salt_channels_008",
+        "salt_channels_009",
+        "salt_channels_010",
+        "salt_channels_011",
+        "salt_channels_012",
+        "salt_channels_013",
+        "salt_channels_014",
+        "salt_channels_015",
+        "salt_channels_016",
+        "salt_channels_017",
+        "salt_channels_018",
+        "salt_channels_019",
+        "salt_channels_020"
+      ],
+      "legacy_rules_before": 3,
+      "reason": "Growth was paid for selecting future work before the exclusive authored branch had been completed."
+    },
+    {
+      "id": "storm-salt-causality-006",
+      "node_id": "salt_investigation_choice",
+      "choice_index": 1,
+      "path": "data/books/book_xi_salt_road.json",
+      "before": {
+        "text": "Compare reserve purchases with An Ru's account team.",
+        "next": "salt_accounts_001",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Compare reserve purchases with An Ru's account team.",
+        "next": "salt_accounts_001"
+      },
+      "completion_node": "salt_accounts_020",
+      "completion_path": "data/books/book_xi_salt_road.json",
+      "completion_text": "At the square, the corrected price board stood beside the restored names. The merchant was answering a question about returning an intact jar. Yue carried a thinner packet than the stack she had first wanted to inspect. Its essential comparison survived without borrowed outrage from unrelated accounts. Across the room, Duan's crew had chalk on their sleeves and Xiu's team had a map of collection walks. The audit needed their findings before it could describe the shortage.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "salt_accounts_001",
+        "salt_accounts_002",
+        "salt_accounts_003",
+        "salt_accounts_004",
+        "salt_accounts_005",
+        "salt_accounts_006",
+        "salt_accounts_007",
+        "salt_accounts_008",
+        "salt_accounts_009",
+        "salt_accounts_010",
+        "salt_accounts_011",
+        "salt_accounts_012",
+        "salt_accounts_013",
+        "salt_accounts_014",
+        "salt_accounts_015",
+        "salt_accounts_016",
+        "salt_accounts_017",
+        "salt_accounts_018",
+        "salt_accounts_019",
+        "salt_accounts_020"
+      ],
+      "legacy_rules_before": 3,
+      "reason": "Growth was paid for selecting future work before the exclusive authored branch had been completed."
+    },
+    {
+      "id": "storm-salt-causality-007",
+      "node_id": "salt_investigation_choice",
+      "choice_index": 2,
+      "path": "data/books/book_xi_salt_road.json",
+      "before": {
+        "text": "Listen to household water collectors with Wei Xiu.",
+        "next": "salt_households_001",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Listen to household water collectors with Wei Xiu.",
+        "next": "salt_households_001"
+      },
+      "completion_node": "salt_households_020",
+      "completion_path": "data/books/book_xi_salt_road.json",
+      "completion_text": "Yue watched the last household collect without waiting for the team's report. She had once imagined help as a decisive arrival with the right question. Today it was a shelf, a spare peg, a collector allowed to decline, and a number that still had to fit the spring's supply. Xiu folded the map along its existing creases. They took it to the council without calling those modest repairs a complete return.",
+      "earned": {
+        "trust": 1
+      },
+      "branch": [
+        "salt_households_001",
+        "salt_households_002",
+        "salt_households_003",
+        "salt_households_004",
+        "salt_households_005",
+        "salt_households_006",
+        "salt_households_007",
+        "salt_households_008",
+        "salt_households_009",
+        "salt_households_010",
+        "salt_households_011",
+        "salt_households_012",
+        "salt_households_013",
+        "salt_households_014",
+        "salt_households_015",
+        "salt_households_016",
+        "salt_households_017",
+        "salt_households_018",
+        "salt_households_019",
+        "salt_households_020"
+      ],
+      "legacy_rules_before": 3,
+      "reason": "Growth was paid for selecting future work before the exclusive authored branch had been completed."
+    },
+    {
+      "id": "storm-salt-causality-008",
+      "node_id": "salt_trial_choice",
+      "choice_index": 0,
+      "path": "data/books/book_xi_salt_road.json",
+      "before": {
+        "text": "Use ninety optional jars to test reduced salt washing.",
+        "next": "salt_wash_trial_001",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Use ninety optional jars to test reduced salt washing.",
+        "next": "salt_wash_trial_001"
+      },
+      "completion_node": "salt_wash_trial_010",
+      "completion_path": "data/books/book_xi_salt_road.json",
+      "completion_text": "She returned with sample grades, the actual ninety-jar draw and a contract that could keep part of the nine-day order alive. It proved the reduced washing plan possible under its tested conditions. It did not prove that every sack could be saved or that the seed lot needed no water. The first optional turn had carried a real choice into people's wages; the next meeting would have to look at that consequence directly.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "salt_wash_trial_001",
+        "salt_wash_trial_002",
+        "salt_wash_trial_003",
+        "salt_wash_trial_004",
+        "salt_wash_trial_005",
+        "salt_wash_trial_006",
+        "salt_wash_trial_007",
+        "salt_wash_trial_008",
+        "salt_wash_trial_009",
+        "salt_wash_trial_010"
+      ],
+      "legacy_rules_before": 3,
+      "reason": "Growth was paid for selecting future work before the exclusive authored branch had been completed."
+    },
+    {
+      "id": "storm-salt-causality-009",
+      "node_id": "salt_trial_choice",
+      "choice_index": 1,
+      "path": "data/books/book_xi_salt_road.json",
+      "before": {
+        "text": "Use thirty optional jars to test the threatened seed lot.",
+        "next": "salt_seed_trial_001",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Use thirty optional jars to test the threatened seed lot.",
+        "next": "salt_seed_trial_001"
+      },
+      "completion_node": "salt_seed_trial_010",
+      "completion_path": "data/books/book_xi_salt_road.json",
+      "completion_text": "Yue carried the limited planting result, the thirty-jar draw and the updated seed request back to the council. The chosen trial had preserved some seed while showing that the original water demand was too broad. It had left the salt order to other negotiations for three days. She could describe both consequences without turning them into a contest about which worker cared more for the valley's future.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "salt_seed_trial_001",
+        "salt_seed_trial_002",
+        "salt_seed_trial_003",
+        "salt_seed_trial_004",
+        "salt_seed_trial_005",
+        "salt_seed_trial_006",
+        "salt_seed_trial_007",
+        "salt_seed_trial_008",
+        "salt_seed_trial_009",
+        "salt_seed_trial_010"
+      ],
+      "legacy_rules_before": 3,
+      "reason": "Growth was paid for selecting future work before the exclusive authored branch had been completed."
+    },
+    {
+      "id": "storm-salt-causality-010",
+      "node_id": "salt_trial_choice",
+      "choice_index": 2,
+      "path": "data/books/book_xi_salt_road.json",
+      "before": {
+        "text": "Use no optional jars; test essential delivery and reserve accounting.",
+        "next": "salt_reserve_trial_001",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Use no optional jars; test essential delivery and reserve accounting.",
+        "next": "salt_reserve_trial_001"
+      },
+      "completion_node": "salt_reserve_trial_010",
+      "completion_path": "data/books/book_xi_salt_road.json",
+      "completion_text": "Yue brought the conservative balance and the access changes to the shared meeting. The route worked better than it had at the trial's start. It had not made industrial work unnecessary, and it did not let the council promise that later water would arrive free of cost. Xiu set a worn carrier strap beside the report. Its new felt pad was an argument for continued paid attention, as concrete as any reserve number.",
+      "earned": {
+        "trust": 1
+      },
+      "branch": [
+        "salt_reserve_trial_001",
+        "salt_reserve_trial_002",
+        "salt_reserve_trial_003",
+        "salt_reserve_trial_004",
+        "salt_reserve_trial_005",
+        "salt_reserve_trial_006",
+        "salt_reserve_trial_007",
+        "salt_reserve_trial_008",
+        "salt_reserve_trial_009",
+        "salt_reserve_trial_010"
+      ],
+      "legacy_rules_before": 3,
+      "reason": "Growth was paid for selecting future work before the exclusive authored branch had been completed."
+    },
+    {
+      "id": "storm-salt-causality-011",
+      "node_id": "salt_final_choice",
+      "choice_index": 0,
+      "path": "data/books/book_xi_salt_road.json",
+      "before": {
+        "text": "Join the common water rotation and publish its actual draws.",
+        "next": "salt_rotation_001",
+        "effects": {
+          "trust": 1
+        }
+      },
+      "after": {
+        "text": "Join the common water rotation and publish its actual draws.",
+        "next": "salt_rotation_001"
+      },
+      "completion_node": "salt_end_rotation",
+      "completion_path": "data/books/book_xi_salt_road.json",
+      "completion_text": "Yuan Lian read the noon measure after Yue's cart had gone. The ordinary spring wheel turned; a reduced salt batch waited for its accepted turn. Nineteen restored households kept their tokens and their questions. On the porch, the forewoman left room beside the actual count for tomorrow's correction. Yue had helped make that room easier to use. It belonged to the people who would still be standing beside it.",
+      "earned": {
+        "trust": 1
+      },
+      "branch": [
+        "salt_rotation_001",
+        "salt_rotation_002",
+        "salt_rotation_003",
+        "salt_rotation_004",
+        "salt_rotation_005",
+        "salt_rotation_006",
+        "salt_rotation_007",
+        "salt_end_rotation"
+      ],
+      "legacy_rules_before": 3,
+      "reason": "Growth was paid for selecting future work before the exclusive authored branch had been completed."
+    },
+    {
+      "id": "storm-salt-causality-012",
+      "node_id": "salt_final_choice",
+      "choice_index": 1,
+      "path": "data/books/book_xi_salt_road.json",
+      "before": {
+        "text": "Protect the reserve and join the paid maintenance shifts.",
+        "next": "salt_maintenance_001",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Protect the reserve and join the paid maintenance shifts.",
+        "next": "salt_maintenance_001"
+      },
+      "completion_node": "salt_end_maintenance",
+      "completion_path": "data/books/book_xi_salt_road.json",
+      "completion_text": "On the departing cart, Yue listened to the empty cup knock softly against her bedding. The valley still needed a new season's decision. Its reserve now gave that decision a longer interval, and its carriers had tools they could find. She kept the paid shift tally beside her practice sheet, neither replacing the other. Ahead lay further opened routes if she could earn them. Behind lay ordinary work completed within the hours she had actually promised.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "salt_maintenance_001",
+        "salt_maintenance_002",
+        "salt_maintenance_003",
+        "salt_maintenance_004",
+        "salt_maintenance_005",
+        "salt_maintenance_006",
+        "salt_maintenance_007",
+        "salt_end_maintenance"
+      ],
+      "legacy_rules_before": 3,
+      "reason": "Growth was paid for selecting future work before the exclusive authored branch had been completed."
+    },
+    {
+      "id": "storm-salt-causality-013",
+      "node_id": "salt_final_choice",
+      "choice_index": 2,
+      "path": "data/books/book_xi_salt_road.json",
+      "before": {
+        "text": "Audit a limited outside purchase with the local draw ceiling.",
+        "next": "salt_purchase_001",
+        "effects": {
+          "insight": 1
+        }
+      },
+      "after": {
+        "text": "Audit a limited outside purchase with the local draw ceiling.",
+        "next": "salt_purchase_001"
+      },
+      "completion_node": "salt_end_purchase",
+      "completion_path": "data/books/book_xi_salt_road.json",
+      "completion_text": "An Ru filed the purchase packet beside the corrected turn book, leaving the old descriptions visible under their amendments. The water existed because a source had offered a bounded surplus, carriers had brought it, and someone had refused a dirty cover before counting it. Yue left with the copy she was actually permitted to keep. The valley's reserve held more time. No signature in the archive pretended to own the rain.",
+      "earned": {
+        "insight": 1
+      },
+      "branch": [
+        "salt_purchase_001",
+        "salt_purchase_002",
+        "salt_purchase_003",
+        "salt_purchase_004",
+        "salt_purchase_005",
+        "salt_purchase_006",
+        "salt_purchase_007",
+        "salt_end_purchase"
+      ],
+      "legacy_rules_before": 3,
+      "reason": "Growth was paid for selecting future work before the exclusive authored branch had been completed."
+    }
+  ]
+}

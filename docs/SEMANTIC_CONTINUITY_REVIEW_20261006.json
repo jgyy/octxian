@@ -1,0 +1,307 @@
+{
+  "schema_version": 1,
+  "title": "Pinned-head semantic continuity review of Books I–VI and original storm/salt",
+  "repository": "jgyy/octxian",
+  "pr": 7,
+  "reviewed_commit": "1bb309ba5cc8621673a041e80b91cf38414af8cb",
+  "review_date": "2026-10-06",
+  "mutation_scope": "Read-only source review. This artifact may be staged as an unreferenced Git blob; no branch ref is changed.",
+  "coverage": {
+    "fully_read_scenes": 1684,
+    "choice_scenes_read": 67,
+    "choice_options_read": 195,
+    "chapters": [
+      {
+        "chapter": "book_i",
+        "scenes": 114,
+        "decisions": 6,
+        "options": 19,
+        "files": [
+          "data/story.json",
+          "data/books/book_i_mortal.json"
+        ]
+      },
+      {
+        "chapter": "book_ii",
+        "scenes": 204,
+        "decisions": 7,
+        "options": 22,
+        "files": [
+          "data/story.json",
+          "data/books/book_ii_sluice.json"
+        ]
+      },
+      {
+        "chapter": "book_iii",
+        "scenes": 89,
+        "decisions": 5,
+        "options": 12,
+        "files": [
+          "data/story.json"
+        ]
+      },
+      {
+        "chapter": "book_iv",
+        "scenes": 38,
+        "decisions": 2,
+        "options": 7,
+        "files": [
+          "data/story.json"
+        ]
+      },
+      {
+        "chapter": "book_v",
+        "scenes": 119,
+        "decisions": 5,
+        "options": 16,
+        "files": [
+          "data/story.json"
+        ]
+      },
+      {
+        "chapter": "book_vi",
+        "scenes": 784,
+        "decisions": 34,
+        "options": 95,
+        "files": [
+          "data/books/book_vi.json"
+        ]
+      },
+      {
+        "chapter": "book_x_storm_ledger",
+        "scenes": 159,
+        "decisions": 5,
+        "options": 15,
+        "files": [
+          "data/books/book_x_storm_ledger.json"
+        ]
+      },
+      {
+        "chapter": "book_xi_salt_road",
+        "scenes": 177,
+        "decisions": 3,
+        "options": 9,
+        "files": [
+          "data/books/book_xi_salt_road.json"
+        ]
+      }
+    ],
+    "excluded": "Books VII–IX, Books XII and later, new continuation content, nine salt aftermath callbacks previously authored/reviewed in the earlier task, and any changes after the pinned commit.",
+    "counting": "Scenes and choice/options are source coverage counts, not defect counts. No per-scene or per-check fictional repair count is assigned."
+  },
+  "method": "Fetched exact-commit source files and continuity/cultivation authoring documents. Read every scene text in the stated scope, compared choice destinations and immediate convergence points, and checked injury status, qi capability versus external supply, elapsed days, measured resources, paid services, evidence scope, accountability and agency. Book VI was first screened for risk sentences, then all remaining full scene contexts were read.",
+  "confirmed_new_defects": [
+    {
+      "id": "SALT-PURCHASE-ACCEPTED-COUNT-20261006",
+      "classification": "confirmed_numeric_continuity_defect",
+      "severity": "material_resource_accounting",
+      "path": "data/books/book_xi_salt_road.json",
+      "reviewed_commit": "1bb309ba5cc8621673a041e80b91cf38414af8cb",
+      "scene": "salt_purchase_003",
+      "route": [
+        "salt_final_choice",
+        "salt_purchase_001",
+        "salt_purchase_002",
+        "salt_purchase_003"
+      ],
+      "evidence": [
+        {
+          "scene": "salt_arrival_004",
+          "text": "'The dry-season spring gives one hundred twenty counted jars each day,' Duan said. 'Drinking, cooking and the clinic require one hundred fifty. The reserve holds sixteen hundred forty. Each counted jar means ten litres on our checked measure. We subtract unusable bottom water and transfer loss before writing that number. The lake is brackish. A thousand jars must remain untouched unless the council declares a new emergency.'"
+        },
+        {
+          "scene": "salt_recovery_009",
+          "text": "The purchase plan's proposed seller had supplied a dated surplus statement after protecting its own local essential turns. That statement justified asking for a sale; it was not yet water in this reserve. The plan budgeted three forty-jar deliveries under separate carriage payments and current road checks. No household would have to pool its refund or disclose its private claim to fund them. The council's agreed commercial fund bore the purchase risk."
+        },
+        {
+          "scene": "salt_purchase_001",
+          "text": "The limited purchase plan opened no larger local ceiling while the external order travelled. Yue and An Ru checked the seller's certified surplus statement and the receiving contract at separate desks. The seller's own protected household turns came first; the sale covered forty surplus jars on each of three specified days. Their document review justified the order. It did not authorize drawing water from a village that had not made that offer."
+        },
+        {
+          "scene": "salt_purchase_002",
+          "text": "The first delivery arrived on two checked freight carts, with listed jar seals. A qualified inspector tested the water under the valley's drinking criteria before clean storage accepted it. One loose cover had collected road dust; those ten litres stayed outside the accepted count. The receiving contract required the seller to supply the replacement and pay its extra carriage. The carrier received payment for the actual journey. A refusal needed a funded receiving route, not a reassuring explanation."
+        },
+        {
+          "scene": "salt_purchase_003",
+          "text": "Yue wanted to accept the replacement on the driver's promise because the other jars had passed. An Ru kept the first receiving count at thirty accepted jars. The promise entered an owed-quantity column. The two later forty-jar deliveries passed their own checks, and the replacement arrived under a fourth checked carriage record charged to the seller. Only then did accepted outside supply reach one hundred twenty jars. The council's carriage budget still paid only the three agreed deliveries."
+        }
+      ],
+      "contradiction": "The ordered first delivery is 40 counted jars. Each counted jar is ten litres. One loose-cover jar, explicitly ten litres, is rejected. Therefore 39 jars are accepted, not 30. The two later deliveries add 80 jars and the one-jar replacement adds 1; 39 + 40 + 40 + 1 = 120. The original first-count text yields only 111 accepted jars for the stated final 120.",
+      "before": "Yue wanted to accept the replacement on the driver's promise because the other jars had passed. An Ru kept the first receiving count at thirty accepted jars. The promise entered an owed-quantity column. The two later forty-jar deliveries passed their own checks, and the replacement arrived under a fourth checked carriage record charged to the seller. Only then did accepted outside supply reach one hundred twenty jars. The council's carriage budget still paid only the three agreed deliveries.",
+      "minimal_proposed_after": "Yue wanted to accept the replacement on the driver's promise because the other jars had passed. An Ru kept the first receiving count at thirty-nine accepted jars. The promise entered an owed-quantity column. The two later forty-jar deliveries passed their own checks, and the replacement arrived under a fourth checked carriage record charged to the seller. Only then did accepted outside supply reach one hundred twenty jars. The council's carriage budget still paid only the three agreed deliveries.",
+      "repaired_amounts": {
+        "first_ordered": 40,
+        "rejected": 1,
+        "first_accepted": 39,
+        "later_deliveries": [
+          40,
+          40
+        ],
+        "replacement": 1,
+        "total_accepted": 120,
+        "counted_jar_litres": 10
+      },
+      "ownership": "Reported to root and consequence_engine. They independently identified the same case; count it once. This audit does not mutate the source or verify an unpublished repair."
+    }
+  ],
+  "confirmed_new_defect_count": 1,
+  "previous_repair_observed": {
+    "path": "data/books/book_xi_salt_road.json",
+    "scene": "salt_rotation_002",
+    "current_text": "On the fourth later day, the grain house asked for less water than its ceiling. The grain-house keeper's checked request stayed below the full seed allowance. Yuan Lian kept the unused jars in the reserve instead of offering them quietly to the cooperative. A salt worker protested, then read the common stop clause and asked the council to hear a revised request. Asking was permitted. Drawing before the reply was not.",
+    "classification": "Previously repaired unconditional seed-salvage assertion. Not counted as a newly found defect in this audit."
+  },
+  "checks": [
+    {
+      "topic": "Mortal injury and training",
+      "anchors": [
+        "mortal_rejoin_001",
+        "tempering_001",
+        "tempering_005"
+      ],
+      "result": "Work, study and recovery choices rejoin with ordinary knee assessment and paid/credited work conditions. No instant injury recovery or premature internal qi was substantiated."
+    },
+    {
+      "topic": "Sluice numbness and first-pair movement",
+      "anchors": [
+        "channels_027",
+        "channels_034",
+        "reed_step_014"
+      ],
+      "result": "Symptoms produce rest, reduced dose and checks. Mantis movement uses earned arm capability through an external cuff; it does not silently open a leg route."
+    },
+    {
+      "topic": "River temporary watch, construction and unknown owner",
+      "anchors": [
+        "river_interim",
+        "return_later",
+        "stair_completion",
+        "harbor_review",
+        "harbor_review_terms"
+      ],
+      "result": "The eight-day interim watch is explicitly extended before ten-day ramp completion. Old payments are credited, later night coverage has a finite new grant, and the unidentified ring stays closed."
+    },
+    {
+      "topic": "Orchard patient and creature agency",
+      "anchors": [
+        "orchard_demonstration",
+        "orchard_hart_answer",
+        "orchard_hart_terms",
+        "orchard_accounts",
+        "orchard_breath_trial",
+        "ending_orchard_pause"
+      ],
+      "result": "Pain exchange transfers sensation, not injury. External stone power and patient limits remain explicit. Ordinary food/treatment is unconditional, Hart's earlier consent does not authorize another exchange, and alternative investigations report before repair."
+    },
+    {
+      "topic": "City copied permits and genuine charges",
+      "anchors": [
+        "city_face_rule",
+        "city_registry_compare",
+        "city_mask_rejoin",
+        "city_provisional",
+        "city_hearing_cost"
+      ],
+      "result": "Masks do not grant identity, memory or skill. Teams share independently sourced evidence. C-17 and duplicated K-204 charges are distinguished; lawful debt and the fuel shortfall persist after the public-proof correction."
+    },
+    {
+      "topic": "Court injury and physical safety",
+      "anchors": [
+        "court_du_heng",
+        "court_clinician_note",
+        "court_witness_a5_09",
+        "court_cost_du_stop",
+        "court_existing_protection"
+      ],
+      "result": "Du's right-shoulder restriction persists. He uses supported seated travel and his left hand. Administrative relief does not reopen the goods lift or certify physical recovery."
+    },
+    {
+      "topic": "Court chronology and evidence boundaries",
+      "anchors": [
+        "court_day_plan",
+        "court_rain_chronology_summary",
+        "court_rain_slate_date",
+        "court_rain_signal_shared",
+        "court_docket_review_not_verdict"
+      ],
+      "result": "Accident Day minus two, gauge repair Day minus one, inquiries Days zero–two, hearing Day Three, uncertain closure Day Five and review Day Seven remain distinct. Present measurements are not asserted as a retrospective reconstruction."
+    },
+    {
+      "topic": "Court bounded fund and exclusive final tasks",
+      "anchors": [
+        "court_cost_final_sheet",
+        "court_cost_first_payment",
+        "court_cost_completed_baseline",
+        "court_weather_proposal",
+        "court_local_proposal",
+        "court_staged_proposal",
+        "court_remand_proposal"
+      ],
+      "result": "96 = 64 baseline + 32 remainder. Baseline 16 + 8 + 20 + 8 + 12 = 64. Each final proposal totals 32 and only the selected one is funded; staff salaries and ordinary chairs are not billed again."
+    },
+    {
+      "topic": "Court choice branches",
+      "anchors": [
+        "court_investigation_choice",
+        "court_witness_a1_10",
+        "court_rain_calibration_choice",
+        "court_cost_lift_choice",
+        "court_docket_duty_choice"
+      ],
+      "result": "All 32 inquiry decisions and their 138 option/convergence scenes were compared in full. Other named workers explicitly supply unchosen checks where a shared result depends on them. No additional mutually exclusive task result was proved to be falsely asserted."
+    },
+    {
+      "topic": "Storm money conservation and discipline",
+      "anchors": [
+        "storm_compare_002",
+        "storm_trace_002",
+        "storm_claims_001",
+        "storm_settle_003",
+        "storm_settle_004"
+      ],
+      "result": "180 opening - 102 genuine net payments - 38 diverted = 40 remaining. Recovering 31 + 7 and paying 10 + 8 + 8 + 12 restores legitimate payments to 140 while leaving 40. The two-copper levy is included in the 38, not double-counted. Official sanctions remain a separate dated process."
+    },
+    {
+      "topic": "Storm fracture, rescue and power sources",
+      "anchors": [
+        "storm_warning_004",
+        "storm_warning_006",
+        "storm_rescue_choice",
+        "storm_trolley_002",
+        "storm_after_001",
+        "storm_settle_008"
+      ],
+      "result": "The injured carter remains seated with a supported splint; trained workers handle transfer. External four-stone barrier charge and separate paths carry the rescue. Qi routes remain earned, independent and bounded."
+    },
+    {
+      "topic": "Salt reserve, trial branches and closure",
+      "anchors": [
+        "salt_findings_001",
+        "salt_findings_010",
+        "salt_wash_trial_008",
+        "salt_seed_trial_008",
+        "salt_reserve_trial_008",
+        "salt_recovery_014",
+        "salt_rotation_006",
+        "salt_maintenance_006",
+        "salt_purchase_006"
+      ],
+      "result": "1640 - 60 = 1580 after two inspection days. Trial balances are 1475/1535/1565. Worst combined optional draw and 21-day essential gap leave 1045 before closure; further five essential jars leave 1040. Ending-plan lower bounds retain the chosen early trial uncertainty. Money refunds are not counted as water."
+    },
+    {
+      "topic": "Salt delayed personal duty",
+      "anchors": [
+        "orchard_breath_limits",
+        "salt_findings_012",
+        "salt_recovery_002",
+        "salt_maintenance_006"
+      ],
+      "result": "The promised orchard return is explicitly overdue where applicable; an update or a new requested date does not silently satisfy it."
+    }
+  ],
+  "excluded_candidate": {
+    "scene": "reed_step_027",
+    "reason": "An array described above a crossing on the grounded-mountain path is ambiguous setting language. The text does not establish that Azure Cloud refloats, or that the powered array performs an impossible grounded-route task. No defect is counted."
+  },
+  "limits": "This review supports the stated source coverage and the one evidenced new count contradiction. It is not proof that all remaining campaign prose is free of defects. It does not support a claim of 1,000 distinct plot holes/plot-armor repairs. Engine, save and exhaustive playable-path validation are separate checks handled by the other agents."
+}

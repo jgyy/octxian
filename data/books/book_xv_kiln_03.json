@@ -585,7 +585,24 @@
         "stage": "4: Second pair"
       },
       "text": "Her mother's answer arrived after the snow cleared. The letter contained household news, a complaint about one stubborn kiln door and advice on judging ginger by its cut surface. It did not praise Yue's reserve. Her mother wrote that a bed provided by work should still be checked for damp along the wall, and that being paid on time was not an embarrassment to mention twice. Yue read those lines aloud to her roommates. One immediately inspected the new pipe. The other asked whether Yue's mother took students. Yue laughed until the letter shook in her hands.",
-      "next": "kiln_p03_046"
+      "next": "kiln_p03_046",
+      "routes": [
+        {
+          "decision": "harbor_final_choice",
+          "selected": "harbor_registry_001",
+          "next": "aftermath_harbor_registry_001"
+        },
+        {
+          "decision": "harbor_final_choice",
+          "selected": "harbor_repair_001",
+          "next": "aftermath_harbor_repair_001"
+        },
+        {
+          "decision": "harbor_final_choice",
+          "selected": "harbor_road_001",
+          "next": "aftermath_harbor_road_001"
+        }
+      ]
     },
     "kiln_p03_046": {
       "chapter": "book_xv_kiln",

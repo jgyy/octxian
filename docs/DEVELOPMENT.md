@@ -34,7 +34,7 @@ python tools/verify_screenshots.py
 godot --headless --path . --export-pack Linux build/jade-vow.pck
 ```
 
-Capture mode writes eighty-three viewport screenshots to `build/screenshots` and sixteen timed viewport frames to `build/animations/rendered`. Screenshot verification creates compact JPEG previews, `rendered_game.webp`, and a sampled game-frame sheet. Timed capture fixes the character's initial frame and disables atmospheric background animation so that measured changes reflect the character.
+Capture mode writes ninety-six viewport screenshots to `build/screenshots` and sixteen timed viewport frames to `build/animations/rendered`. Screenshot verification creates compact JPEG previews, `rendered_game.webp`, and a sampled game-frame sheet. Timed capture fixes the character's initial frame and disables atmospheric background animation so that measured changes reflect the character.
 
 The packaged executable discovers `jade-vow.pck` beside it. CI uses Xvfb with dummy audio for desktop capture and standalone playback. It runs the exported package from a folder without the source checkout and checks logs for errors, missing resources, and clean shutdown.
 
@@ -66,7 +66,7 @@ Portrait preparation reuses unchanged, verified files. The feature-branch bundle
 
 Reading scenes use a 680-pixel portrait height with room for the whole bob beneath the navigation bar and above the footer. Title portraits use 730 pixels; wardrobe previews use 350. Uniform scaling preserves proportions. Changing `display_height` updates a cached portrait's scale immediately.
 
-The stateful Godot route traversal includes continuations across all seventeen books and all authored endings. Test travelers reuse one parsed campaign. With nonnegative stat effects, values at or above the greatest gate are equivalent for reachability; capped states are deduplicated. Overflow and corrupt saves are checked separately at full values. The default `StoryState.new()` still parses its own story, keeping mutated corruption fixtures isolated.
+The stateful Godot route traversal includes continuations across all eighteen books and all authored endings. Test travelers reuse one parsed campaign. With nonnegative stat effects, values at or above the greatest gate are equivalent for reachability; capped states are deduplicated. Overflow and corrupt saves are checked separately at full values. The default `StoryState.new()` still parses its own story, keeping mutated corruption fixtures isolated.
 
 `data/continuity.json` must list every delivered chapter as reviewed and keep its fact anchors valid. Its checkpoints name scenes that must lie on every path to a later decision. The validator removes each required scene in turn and rejects a still-reachable decision, catching shortcuts that bypass knowledge or safety work. Editorial review also covers chronology, custody, privacy, and alternate world outcomes.
 
@@ -74,7 +74,7 @@ Scene effects draw at the current control size. Panels pause their clock; reduce
 
 ## Scope
 
-This draft continues through Book XVII with 1,126,752 displayed prose words. The manuscript target is met; the independent artwork quotas remain incomplete. Narration uses one neural timbre with character pacing. Animation is a gentle whole-body bob of each intact portrait. Additional chapters, voices, and outfit portraits can extend the existing data and asset pipeline.
+This draft continues through Book XVIII with 1,154,076 displayed prose words. The manuscript requires 845,924 additional displayed words to reach the 2,000,000-word target; the independent artwork quotas remain incomplete. Narration uses one neural timbre with character pacing. Animation is a gentle whole-body bob of each intact portrait. Additional chapters, voices, and outfit portraits can extend the existing data and asset pipeline.
 
 ## Extra interior collection
 
@@ -121,3 +121,17 @@ Run `python -m tools.validate_narrative_revision --verify-source` with fixed sou
 Run `godot --headless --path . --script tests/narrative_revision_test.gd` to exercise every deferred branch, new and migrated checkpoints, duplicate-credit prevention and all dilemma outcomes. New version-1 saves use `practice_rules: 1`; earlier saves recognise already-paid growth from their journal and exclusive current branch without changing scores.
 
 Five real captures show the Bitter Wells yard, workroom, lodging, a harder dilemma and completed comparison credit. Native art and proof records are linked in [the narrative review](NARRATIVE_REVISION_20261005.md). The original-picture files remain their independently returned 1536×1024 PNG bytes.
+
+## Storm and salt-road completion credit (2026-10-06)
+
+Run `python -m tools.validate_storm_salt_repairs --verify-source` with fixed source `c90102c720c0fd97fe31559851c57ee38e976d55` available. The audit authenticates thirteen additional selection/completion sites. Run `godot --headless --path . --script tests/storm_salt_repairs_test.gd` for rules 0–3, pending and completed saves, continued endings, overflow, duplicate credit and atomic rejection of unsupported revisions.
+
+New saves retain version 1 and use `practice_rules: 3`. Revision-2 checkpoints recognize credit actually paid on the newly deferred thirteen branches; pending work from the two earlier causality revisions stays pending. Two new real viewport captures show storm household completion and the seed-lot trial's completion. No displayed text or art was changed; the manuscript total remains 1,154,076.
+
+## Saved choices and Book XVIII (2026-10-06)
+
+The campaign contains 1,154,076 displayed words in 13,079 scenes and 18 books; 845,924 remain for two million. The source audit distinguishes one pre-existing inconsistent fact from six missing-followthrough improvements. It does not claim 1,000 literary repairs.
+
+Run `python -m tools.validate_consequence_revision --verify-source` with source commit `3530d7283d0f326771b8f3661c173ad222591898` available. The validator authenticates the original repair, six original decisions and unchanged fallback passages, exclusive callbacks and baseline scan counts. The world validator follows actual recorded-choice conditions, rather than accepting an impossible union of their edges.
+
+Run `godot --headless --path . --script tests/consequences_test.gd` for engine save, revisit and atomic-rejection fixtures and `tests/authored_consequences_test.gd` for real authored decision/save/routing contracts. The complete route test retains future-relevant decisions and checks reachable attribute gates. Four new actual capture names are consequence_choices, consequence_house, consequence_school and consequence_lamp. Their three delayed results come from real selected-path walks at identical attributes.

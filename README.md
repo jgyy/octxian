@@ -4,15 +4,37 @@
 
 An original xianxia visual novel built in **Godot 4.7.2**. Lin Yue begins as a mortal kiln worker and earns her cultivation through practice, failures, recovery and independently witnessed trials. Work, evidence and freely made commitments shape the people she meets.
 
-The playable campaign contains **1,135,382 displayed prose words across 12,831 scenes and 17 books**. The count includes alternative playable branches; only dialogue prose counts toward the manuscript. Books XII–XVII are now connected through the campaign manifest, with completed forest, desert and archive closing sequences. [Current manuscript, source review and chapter counts](docs/MILLION_WORD_CONTINUATION.md).
+The playable campaign contains **1,154,078 displayed prose words across 13,079 scenes and 18 books**. The count includes alternative playable branches; only dialogue prose counts toward the manuscript. Books XII–XVII are now connected through the campaign manifest, with completed forest, desert and archive closing sequences. [Current manuscript, source review and chapter counts](docs/MILLION_WORD_CONTINUATION.md).
 
 ![Archive ensemble dialogue](docs/screenshots/archive_ensemble.jpg)
+
+## Saved choices and Book XVIII · 2026-10-06
+
+Choices now retain selected destinations through saves and change later scenes. This revision adds **18,694 net prose words and 248 scenes**: six earlier followthroughs and Book XVIII, *The Letter That Arrived Late*. One copy place, a rain window, a future session, two canvas sheets and one service grant create real competing obligations. Nine final material-and-service combinations keep unchosen losses. [Consequences, source evidence, save diagram and actual captures](docs/CONSEQUENCE_REVISION_20261006.md).
+
+The exact audit verifies **one pre-existing branch inconsistency** and **six gameplay consequence improvements**. The requested 1,000 plot repairs are unverified; the manuscript still needs **845,922 words** for two million. Existing paintings cover the new locations.
+
+![Delayed household comparison at identical attributes](docs/screenshots/consequence_house.jpg)
+
+```mermaid
+flowchart LR
+  Choice["Choose one scarce resource"] --> Saved["Save selected destination"]
+  Saved --> Later["Later scene reads that choice"]
+  Later --> Result["Different people, evidence, access and services"]
+  Result --> Final["Keep material losses and chosen service"]
+```
+
+## Storm and salt-road completion credit · 2026-10-06
+
+Thirteen additional choices in Books X–XI now award growth after their exclusive work passages, including the household correction hearing, all three storm departures, all three water investigations, all three optional trials and all three valley settlements. Saves use practice rules 3; older rules retain already-paid selection credit and earlier deferred work remains pending. [Source audit and review](docs/STORM_SALT_REVISION_20261006.md).
+
+This batch fixes **13 source sites of one recurring causality issue**. It does not satisfy the request for 100 new repairs or add manuscript words. The current total remains **1,154,078**, with **845,922** required to reach two million.
 
 ## Existing-volume expansion toward two million words
 
 Six new encounters add **8,630 words, 110 passages and eighteen distinct branch outcomes** inside Books XII–XVI. Xu Lin, Chen Rui, Song Mei and Wu Zheng have their own work and interests; the tidemirror otter and cinderback pangolin appear as observed creatures rather than proof of human claims. Each decision offers a trained comparison and two ungated alternatives with different costs. Cultivation stages, original findings, object custody and the existing sequence remain intact.
 
-The requested total is **2,000,000 words**; **864,618 words remain**. The delivery report enforces that total independently from the original rewrite accounting. [Expansion and save diagrams](docs/EXISTING_VOLUME_EXPANSION_20261005.md) · [Episode placement audit](docs/EXPANSION_BRANCHES_20261005.json).
+The requested total is **2,000,000 words**; **845,922 words remain**. The delivery report enforces that total independently from the original rewrite accounting. [Expansion and save diagrams](docs/EXISTING_VOLUME_EXPANSION_20261005.md) · [Episode placement audit](docs/EXPANSION_BRANCHES_20261005.json).
 
 Six additional original **1024×1536 native PNG sprites** are retained at the dimensions delivered by image generation. [Creation records](assets/art/EXPANSION_20261005_PROVENANCE.md). Another **100 deferred-growth source sites** bring the two audits to **201 sites of the recurring causality issue**. Save rules 2 preserve pending revision-1 work and recognise only credit actually paid under older rules. [Additional exact-source audit](docs/ADDITIONAL_REPAIRS_20261005.json).
 
@@ -53,6 +75,7 @@ Use **Begin your journey** or load an existing checkpoint. The **→** button co
 | XV | The Kiln That Kept Its Ashes: retained failed firings, qualified practice and an earned fifth-stage record |
 | XVI | The Road Beneath the Salt: water, rival maps, ordinary rescue and a guide's own settlement |
 | XVII | The Archive of Ordinary Rain: recovered source papers, a family key, school access and one selected future |
+| XVIII | The Letter That Arrived Late: competing source copies, a rain window, completed return work and lasting material and service choices |
 
 ## Attributes change what Lin can lead
 
@@ -88,14 +111,14 @@ This continuation adds three independently generated originals: a **1536×1024 a
 
 | Production quota | Delivered | Target |
 |---|---:|---:|
-| Displayed prose words | 1,135,382 | 2,000,000 |
-| Original environments | 31 | 100 |
-| Extra building interiors | 41 | 100 |
-| Human NPC originals | 55 | 500 |
+| Displayed prose words | 1,154,078 | 2,000,000 |
+| Original environments | 40 | 100 |
+| Extra building interiors | 43 | 100 |
+| Human NPC originals | 65 | 500 |
 | Spirit-beast originals | 15 | 501 |
-| Unique world sprites | 70 | 1,001 |
+| Unique world sprites | 80 | 1,001 |
 
-The manuscript target is met. The independent artwork quotas remain unfinished, so the PR stays draft. Core outfit portraits, items and effects do not inflate world-sprite totals. **World → Interiors** previews delivered interiors; **Inspect objects** displays paintings without granting inventory custody.
+The manuscript is **845,922 words short of the 2,000,000-word target**. The independent artwork quotas also remain unfinished, so the PR stays draft. Core outfit portraits, items and effects do not inflate world-sprite totals. **World → Interiors** previews delivered interiors; **Inspect objects** displays paintings without granting inventory custody.
 
 ## Continuity review
 
@@ -132,7 +155,7 @@ python tools/validate_world.py
 .cache/godot/Godot_v4.7.2-stable_linux.x86_64 --headless --path . --script tests/continuation_test.gd
 ```
 
-The source audit requires its fixed base commit locally. Full CI checks native dimensions, alpha and provenance, authentic repair anchors, duplicate prose, every gated story route, saves, UI, all outfit motions, completed-practice persistence, ensemble bounds and motion settings. Xvfb captures **83 real viewport screenshots** and timed portrait animation. The Linux package is launched from a folder without the source checkout.
+The source audit requires its fixed base commit locally. Full CI checks native dimensions, alpha and provenance, authentic repair anchors, duplicate prose, every gated story route, saves, UI, all outfit motions, completed-practice persistence, ensemble bounds and motion settings. Xvfb captures **96 real viewport screenshots** and timed portrait animation. The Linux package is launched from a folder without the source checkout.
 
 Piper Lessac generates narration for every displayed scene, reusing clips only after text, byte and decoded-audio checks. Changed text is regenerated. Narration uses 8 kHz mono Vorbis capped at 10 kb/s to reduce downloads; this lowers audio fidelity while keeping complete speech and timing. CI can reuse independently verified prior draft narration. Music and sound effects are original synthesized audio.
 
@@ -140,7 +163,7 @@ Draft validation checks delivered content and reports quotas. `python tools/vali
 
 ```mermaid
 flowchart TD
-  Books["Manifest · 17 books · playable node prose"] --> State["Choices · completed practice · versioned saves"]
+  Books["Manifest · 18 books · playable node prose"] --> State["Choices · completed practice · versioned saves"]
   State --> Stage["Native ensemble portraits + layered atmosphere"]
   Books --> Voice["Hash-verified neural narration"]
   Voice --> Game["Godot game"]
@@ -156,3 +179,7 @@ See [development instructions](docs/DEVELOPMENT.md), [story authoring](docs/STOR
 ## License
 
 Project code and original story: [MIT](LICENSE). Original artwork provenance is recorded under `assets/art/`. Piper's model card and Godot's license notices are included in the Linux package.
+
+The latest [source-backed continuity sweep](docs/SEMANTIC_SWEEP_20261006.md) repairs six additional underlying contradictions across 27 passages and adds a native Lark Pass location painting. The two-million-word and 1,000-verified-repair targets remain unfinished.
+
+Twenty-one new original paintings are retained at actual native resolution: ten location backgrounds at 1536 × 1024, the avalanche shelter at 1672 × 940, and ten transparent character portraits at 1024 × 1536. [Their creation record](assets/art/CONTINUATION_20261006_PROVENANCE.md) identifies each immutable original. The world now contains 83 backgrounds and 65 NPC paintings; unfinished prose is excluded from the delivered manuscript count.

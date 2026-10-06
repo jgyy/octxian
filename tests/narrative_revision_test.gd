@@ -70,7 +70,7 @@ func _run() -> void:
     var bad = FileAccess.open("user://narrative_bad.json", FileAccess.WRITE)
     bad.store_string(JSON.stringify({"version": 1, "current": "arrival",
         "stats": {"qi": 0, "trust": 0, "insight": 0, "resolve": 0},
-        "history": [], "practice_rules": 3}))
+        "history": [], "practice_rules": State.CURRENT_PRACTICE_RULES + 1}))
     bad.close()
     var retained = State.new(campaign)
     retained.current = "pendant"

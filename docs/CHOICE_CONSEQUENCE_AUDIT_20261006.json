@@ -1,0 +1,676 @@
+{
+  "schema": 1,
+  "source_commit": "3530d7283d0f326771b8f3661c173ad222591898",
+  "source_pr": "https://github.com/jgyy/octxian/pull/7",
+  "scope": {
+    "authored_decision_nodes_scanned": 130,
+    "authored_scene_nodes_scanned": 12831,
+    "confirmed_plot_holes": 1,
+    "gameplay_consequence_improvements": 6,
+    "selected_callback_routes": 19,
+    "new_callback_scenes": 57,
+    "requested_plot_hole_target": 1000,
+    "target_verified": false,
+    "word_target": 2000000,
+    "target_verified_words": false
+  },
+  "new_book_path": "data/books/choice_aftermath_20261006.json",
+  "confirmed_repairs": [
+    {
+      "id": "PH-001",
+      "classification": "confirmed_inconsistent_branch_fact",
+      "source_path": "data/books/book_xi_salt_road.json",
+      "scene_id": "salt_rotation_002",
+      "before": {
+        "chapter": "book_xi_salt_road",
+        "cultivation": {
+          "realm": "qi_gathering",
+          "stage": "4: Second pair"
+        },
+        "effect": "none",
+        "speaker": "narrator",
+        "actor": "lin_yue",
+        "text": "On the fourth later day, the grain house asked for less water than its ceiling. The limited salvage lot did not justify all the planned seed allowance. Yuan Lian kept the unused jars in the reserve instead of offering them quietly to the cooperative. A salt worker protested, then read the common stop clause and asked the council to hear a revised request. Asking was permitted. Drawing before the reply was not.",
+        "background": "bell_tower_square",
+        "next": "salt_rotation_003"
+      },
+      "after": {
+        "chapter": "book_xi_salt_road",
+        "cultivation": {
+          "realm": "qi_gathering",
+          "stage": "4: Second pair"
+        },
+        "effect": "none",
+        "speaker": "narrator",
+        "actor": "lin_yue",
+        "text": "On the fourth later day, the grain house asked for less water than its ceiling. The grain-house keeper's checked request stayed below the full seed allowance. Yuan Lian kept the unused jars in the reserve instead of offering them quietly to the cooperative. A salt worker protested, then read the common stop clause and asked the council to hear a revised request. Asking was permitted. Drawing before the reply was not.",
+        "background": "bell_tower_square",
+        "next": "salt_rotation_003"
+      },
+      "evidence": {
+        "seed_only_result_scene": "salt_seed_trial_007",
+        "seed_only_result": "On the third morning, the salvage fraction passed its limited planting test. It was small enough to mark for a separate bed rather than mix through the general seed issue. Yue helped count packets while another worker verified the labels. The farmer who had offered livestock use returned to ask about wages for the trial garden. The grain house offered a paid short contract, with the uncertain yield written plainly.",
+        "shared_exclusion_scene": "salt_recovery_001",
+        "shared_exclusion": "On the evening after the three-day experiment, the chosen trial's signed report lay uppermost. Other crews brought only the work they had actually been permitted: dry sorting, source checks, carrier repairs and contract talks. Nobody invented an unchosen water test to make the packets equal. The reserve keeper copied the actual trial draw beside its starting count. The shared plan retained the ninety-jar ceiling as a conservative worst case, not a claim that all routes had spent it.",
+        "other_choices": [
+          "salt_wash_trial_001",
+          "salt_reserve_trial_001"
+        ]
+      },
+      "finding": "The unconditional reference to the limited salvage lot imports the selected seed trial's result into wash and reserve routes even though the common receiving paragraph explicitly excludes unchosen water tests.",
+      "fix": "Use the branch-independent checked request, preserving the smaller actual draw, stop clause and unused reserve."
+    }
+  ],
+  "consequence_improvements": [
+    {
+      "id": "CC-001",
+      "decision": "salt_trial_choice",
+      "gate": "salt_recovery_001",
+      "fallback": "salt_recovery_002",
+      "classification": "missing_downstream_consequence",
+      "finding": "Three materially different trials merge into a generic chosen-report paragraph. The actual 1475/1535/1565 balances and untested alternatives receive no distinct council followthrough before the next policy choice.",
+      "outcome": "Preserve the selected trial's tested result, real commercial/seed/access gain, absent other wet results and actual wage or delay costs before the common policy decision.",
+      "source_path": "data/books/book_xi_salt_road.json",
+      "decision_source_path": "data/books/book_xi_salt_road.json",
+      "decision_before": {
+        "chapter": "book_xi_salt_road",
+        "cultivation": {
+          "realm": "qi_gathering",
+          "stage": "4: Second pair"
+        },
+        "effect": "none",
+        "speaker": "lin_yue",
+        "actor": "lin_yue",
+        "background": "village_council_room",
+        "text": "The first optional allowance could support only one supervised three-day experiment. Essential supply, corrected turns and paid access work would proceed whichever experiment Yue joined. She could test whether ninety jars protected a reduced salt order, use thirty on the threatened seed lot, or draw no optional water while improving the essential carrier route. The later council would hear the chosen trial's result before adopting a longer allocation.",
+        "choices": [
+          {
+            "text": "Use ninety optional jars to test reduced salt washing.",
+            "next": "salt_wash_trial_001"
+          },
+          {
+            "text": "Use thirty optional jars to test the threatened seed lot.",
+            "next": "salt_seed_trial_001"
+          },
+          {
+            "text": "Use no optional jars; test essential delivery and reserve accounting.",
+            "next": "salt_reserve_trial_001"
+          }
+        ]
+      },
+      "gate_before": {
+        "chapter": "book_xi_salt_road",
+        "cultivation": {
+          "realm": "qi_gathering",
+          "stage": "4: Second pair"
+        },
+        "effect": "none",
+        "speaker": "narrator",
+        "actor": "lin_yue",
+        "text": "On the evening after the three-day experiment, the chosen trial's signed report lay uppermost. Other crews brought only the work they had actually been permitted: dry sorting, source checks, carrier repairs and contract talks. Nobody invented an unchosen water test to make the packets equal. The reserve keeper copied the actual trial draw beside its starting count. The shared plan retained the ninety-jar ceiling as a conservative worst case, not a claim that all routes had spent it.",
+        "background": "village_council_room",
+        "next": "salt_recovery_002"
+      },
+      "gate_after": {
+        "chapter": "book_xi_salt_road",
+        "cultivation": {
+          "realm": "qi_gathering",
+          "stage": "4: Second pair"
+        },
+        "effect": "none",
+        "speaker": "narrator",
+        "actor": "lin_yue",
+        "text": "On the evening after the three-day experiment, the chosen trial's signed report lay uppermost. Other crews brought only the work they had actually been permitted: dry sorting, source checks, carrier repairs and contract talks. Nobody invented an unchosen water test to make the packets equal. The reserve keeper copied the actual trial draw beside its starting count. The shared plan retained the ninety-jar ceiling as a conservative worst case, not a claim that all routes had spent it.",
+        "background": "village_council_room",
+        "next": "salt_recovery_002",
+        "routes": [
+          {
+            "decision": "salt_trial_choice",
+            "selected": "salt_wash_trial_001",
+            "next": "aftermath_salt_wash_001"
+          },
+          {
+            "decision": "salt_trial_choice",
+            "selected": "salt_seed_trial_001",
+            "next": "aftermath_salt_seed_001"
+          },
+          {
+            "decision": "salt_trial_choice",
+            "selected": "salt_reserve_trial_001",
+            "next": "aftermath_salt_reserve_001"
+          }
+        ]
+      },
+      "callback_scene_ids": [
+        "aftermath_salt_wash_001",
+        "aftermath_salt_wash_002",
+        "aftermath_salt_wash_003",
+        "aftermath_salt_seed_001",
+        "aftermath_salt_seed_002",
+        "aftermath_salt_seed_003",
+        "aftermath_salt_reserve_001",
+        "aftermath_salt_reserve_002",
+        "aftermath_salt_reserve_003"
+      ],
+      "fallback_policy": "Keep the exact pre-existing next destination. All new selected branches return to it. A missing decision uses the common source prose, creates no decision, makes no selected-route claims and grants no new reward."
+    },
+    {
+      "id": "CC-002",
+      "decision": "forest_21_010",
+      "gate": "forest_23_001",
+      "fallback": "forest_23_002",
+      "classification": "missing_downstream_consequence",
+      "finding": "The independent lower footway and ten-week staffed assistance become generic adopted-access prose at actual opening, despite distinct capital/support amounts and practical independence.",
+      "outcome": "Show separate opening journeys, availability of independent movement versus assistance windows, unfunded commercial/lower improvements and exact retained 26/50 copper support terms.",
+      "source_path": "data/books/book_xiii_forest_23.json",
+      "decision_source_path": "data/books/book_xiii_forest_21.json",
+      "decision_before": {
+        "chapter": "book_xiii_forest",
+        "cultivation": {
+          "realm": "qi_gathering",
+          "stage": "4: Second pair"
+        },
+        "effect": "none",
+        "speaker": "narrator",
+        "actor": "lin_yue",
+        "text": "Lin laid the two priced designs side by side. Ninety-four for the lower footway and twenty-six for its first maintenance term; seventy for upper improvements and fifty for the defined assistance term. Each used the same actual one hundred twenty. The council had agreed to weigh her recommendation with the inspected conditions and household tests before its recorded vote. She could favor ordinary independence on the lower passage, or the quieter bank with improved haul and staffed help. Whichever she recommended, the defeated preference would still belong to people she would see after the meeting.",
+        "background": "forest_boundary_map_room",
+        "choices": [
+          {
+            "text": "Recommend the raised lower footway and its funded maintenance term.",
+            "next": "forest_21_footway_001"
+          },
+          {
+            "text": "Recommend upper improvements and ten weeks of staffed lower assistance.",
+            "next": "forest_21_assistance_001"
+          }
+        ]
+      },
+      "gate_before": {
+        "chapter": "book_xiii_forest",
+        "cultivation": {
+          "realm": "qi_gathering",
+          "stage": "4: Second pair"
+        },
+        "effect": "none",
+        "speaker": "narrator",
+        "actor": "lin_yue",
+        "text": "On the last morning of the seventeenth week, the independent receiving authority accepted the adopted access work against its actual specification and completed checks. The public release stated its ordinary-use conditions, closure limits, and funded support term. The carpenter's remaining capital balance was paid under the chosen contract, with the maintenance or assistance allocation retained for its stated work. The clerk reconciled one project against one grant. Lin watched the builder sign the receipt, then leave to the separate housing repair. The new arrangement had opened a route; it had not acquired permission to spend another household's roof money.",
+        "background": "forest_boundary_map_room",
+        "next": "forest_23_002"
+      },
+      "gate_after": {
+        "chapter": "book_xiii_forest",
+        "cultivation": {
+          "realm": "qi_gathering",
+          "stage": "4: Second pair"
+        },
+        "effect": "none",
+        "speaker": "narrator",
+        "actor": "lin_yue",
+        "text": "On the last morning of the seventeenth week, the independent receiving authority accepted the adopted access work against its actual specification and completed checks. The public release stated its ordinary-use conditions, closure limits, and funded support term. The carpenter's remaining capital balance was paid under the chosen contract, with the maintenance or assistance allocation retained for its stated work. The clerk reconciled one project against one grant. Lin watched the builder sign the receipt, then leave to the separate housing repair. The new arrangement had opened a route; it had not acquired permission to spend another household's roof money.",
+        "background": "forest_boundary_map_room",
+        "next": "forest_23_002",
+        "routes": [
+          {
+            "decision": "forest_21_010",
+            "selected": "forest_21_footway_001",
+            "next": "aftermath_forest_footway_001"
+          },
+          {
+            "decision": "forest_21_010",
+            "selected": "forest_21_assistance_001",
+            "next": "aftermath_forest_assistance_001"
+          }
+        ]
+      },
+      "callback_scene_ids": [
+        "aftermath_forest_footway_001",
+        "aftermath_forest_footway_002",
+        "aftermath_forest_footway_003",
+        "aftermath_forest_assistance_001",
+        "aftermath_forest_assistance_002",
+        "aftermath_forest_assistance_003"
+      ],
+      "fallback_policy": "Keep the exact pre-existing next destination. All new selected branches return to it. A missing decision uses the common source prose, creates no decision, makes no selected-route claims and grants no new reward."
+    },
+    {
+      "id": "CC-003",
+      "decision": "harbor_final_choice",
+      "gate": "kiln_p03_045",
+      "fallback": "kiln_p03_046",
+      "classification": "missing_downstream_consequence",
+      "finding": "Three exclusive 64-copper improvement purchases end in distinct launch passages but share kiln arrival; the scheduled later review never gives the departed player a sourced result or unresolved cost.",
+      "outcome": "Carry permitted public four-week results into the kiln by paid correspondence, keep the other two purchases unfunded, and leave any eight-week result unknown rather than inventing an offscreen visit.",
+      "source_path": "data/books/book_xv_kiln_03.json",
+      "decision_source_path": "data/books/book_xiv_harbor_27.json",
+      "decision_before": {
+        "chapter": "book_xiv_harbor",
+        "speaker": "narrator",
+        "actor": "lin_yue",
+        "text": "Yue rose with the three comparisons visible and her own observed sources named. One maintenance fund could buy the index work, the inspection improvements or the scheduled returning visits. The committee had found all three eligible; its confirmation and the keeper's countersign would make one order actual. She would not select who deserved wages, care or an address, since those rights already stood. She could choose which bounded improvement to recommend from the harbor she had learned. The room waited, full of people whose preference was not an error the traveler had to correct before leaving.",
+        "background": "city_registry_office",
+        "effect": "none",
+        "cultivation": {
+          "realm": "qi_gathering",
+          "stage": "4: Second pair"
+        },
+        "choices": [
+          {
+            "text": "Recommend the registry and its checked receiving index.",
+            "next": "harbor_registry_001"
+          },
+          {
+            "text": "Recommend repair and independently checked fittings.",
+            "next": "harbor_repair_001"
+          },
+          {
+            "text": "Recommend road visits with permitted returning replies.",
+            "next": "harbor_road_001"
+          }
+        ]
+      },
+      "gate_before": {
+        "chapter": "book_xv_kiln",
+        "speaker": "narrator",
+        "actor": "lin_yue",
+        "background": "west_kiln_home",
+        "effect": "none",
+        "cultivation": {
+          "realm": "qi_gathering",
+          "stage": "4: Second pair"
+        },
+        "text": "Her mother's answer arrived after the snow cleared. The letter contained household news, a complaint about one stubborn kiln door and advice on judging ginger by its cut surface. It did not praise Yue's reserve. Her mother wrote that a bed provided by work should still be checked for damp along the wall, and that being paid on time was not an embarrassment to mention twice. Yue read those lines aloud to her roommates. One immediately inspected the new pipe. The other asked whether Yue's mother took students. Yue laughed until the letter shook in her hands.",
+        "next": "kiln_p03_046"
+      },
+      "gate_after": {
+        "chapter": "book_xv_kiln",
+        "speaker": "narrator",
+        "actor": "lin_yue",
+        "background": "west_kiln_home",
+        "effect": "none",
+        "cultivation": {
+          "realm": "qi_gathering",
+          "stage": "4: Second pair"
+        },
+        "text": "Her mother's answer arrived after the snow cleared. The letter contained household news, a complaint about one stubborn kiln door and advice on judging ginger by its cut surface. It did not praise Yue's reserve. Her mother wrote that a bed provided by work should still be checked for damp along the wall, and that being paid on time was not an embarrassment to mention twice. Yue read those lines aloud to her roommates. One immediately inspected the new pipe. The other asked whether Yue's mother took students. Yue laughed until the letter shook in her hands.",
+        "next": "kiln_p03_046",
+        "routes": [
+          {
+            "decision": "harbor_final_choice",
+            "selected": "harbor_registry_001",
+            "next": "aftermath_harbor_registry_001"
+          },
+          {
+            "decision": "harbor_final_choice",
+            "selected": "harbor_repair_001",
+            "next": "aftermath_harbor_repair_001"
+          },
+          {
+            "decision": "harbor_final_choice",
+            "selected": "harbor_road_001",
+            "next": "aftermath_harbor_road_001"
+          }
+        ]
+      },
+      "callback_scene_ids": [
+        "aftermath_harbor_registry_001",
+        "aftermath_harbor_registry_002",
+        "aftermath_harbor_registry_003",
+        "aftermath_harbor_repair_001",
+        "aftermath_harbor_repair_002",
+        "aftermath_harbor_repair_003",
+        "aftermath_harbor_road_001",
+        "aftermath_harbor_road_002",
+        "aftermath_harbor_road_003"
+      ],
+      "fallback_policy": "Keep the exact pre-existing next destination. All new selected branches return to it. A missing decision uses the common source prose, creates no decision, makes no selected-route claims and grants no new reward."
+    },
+    {
+      "id": "CC-004",
+      "decision": "desert_dilemma_causeway",
+      "gate": "desert_p08_018",
+      "fallback": "desert_p08_019",
+      "classification": "missing_downstream_consequence",
+      "finding": "One-paragraph alternatives establish a conditional retained booking, a potentially missed booking or lost quiet time with an exterior sketch, then merge. Later receiving-house correspondence does not resolve those opportunities.",
+      "outcome": "Use the actual returning rider to establish conditional receiving capacity, loss of the next handling opportunity, or a limited sketch-backed request and finite recovery cost; never certify doubtful support.",
+      "source_path": "data/books/book_xvi_desert_08.json",
+      "decision_source_path": "data/books/book_xvi_desert_03.json",
+      "decision_before": {
+        "chapter": "book_xvi_desert",
+        "cultivation": {
+          "realm": "qi_gathering",
+          "stage": "5: Four pairs"
+        },
+        "speaker": "narrator",
+        "actor": "lin_yue",
+        "background": "salt_desert_survey_camp",
+        "effect": "none",
+        "text": "From beside the braked carts, Yue could see the causeway's surface and none of its buried support. Han needed a delay notice before the receiving yard's next booking round. Tuo and the old woman were already examining the middle stones. Yue could write a cautious holding notice now, wait for their specific observation, or gather a second exterior view from the checked shoulder. No option authorised a wheel to cross. They differed in who waited, what the notice could say, and whether a messenger carried it in time.",
+        "choices": [
+          {
+            "text": "Send the holding notice now, with support unverified.",
+            "next": "desert_dilemma_causeway_1"
+          },
+          {
+            "text": "Wait for Tuo's observed stone before describing the fault.",
+            "next": "desert_dilemma_causeway_2"
+          },
+          {
+            "text": "Take the checked shoulder view before drafting.",
+            "next": "desert_dilemma_causeway_3",
+            "requires": {
+              "resolve": 10
+            }
+          }
+        ]
+      },
+      "gate_before": {
+        "chapter": "book_xvi_desert",
+        "cultivation": {
+          "realm": "qi_gathering",
+          "stage": "5: Four pairs"
+        },
+        "effect": "none",
+        "speaker": "narrator",
+        "actor": "lin_yue",
+        "text": "It was the first thing Yue had seen all morning that seemed entirely certain about where its feet belonged. The rider had come from Bitter Wells with letters for Han and the carrier commission. He had heard the quarry's report of the guide rescue from the fast receiving-house messenger, but no personal clinical details. The transport wagon still travelled at its gentler pace. He offered a sealed cooperative letter and a separate note from Han's daughter. Han took the family note first, then looked embarrassed and put it safely inside his coat before opening the business letter.",
+        "background": "salt_desert_survey_camp",
+        "next": "desert_p08_019"
+      },
+      "gate_after": {
+        "chapter": "book_xvi_desert",
+        "cultivation": {
+          "realm": "qi_gathering",
+          "stage": "5: Four pairs"
+        },
+        "effect": "none",
+        "speaker": "narrator",
+        "actor": "lin_yue",
+        "text": "It was the first thing Yue had seen all morning that seemed entirely certain about where its feet belonged. The rider had come from Bitter Wells with letters for Han and the carrier commission. He had heard the quarry's report of the guide rescue from the fast receiving-house messenger, but no personal clinical details. The transport wagon still travelled at its gentler pace. He offered a sealed cooperative letter and a separate note from Han's daughter. Han took the family note first, then looked embarrassed and put it safely inside his coat before opening the business letter.",
+        "background": "salt_desert_survey_camp",
+        "next": "desert_p08_019",
+        "routes": [
+          {
+            "decision": "desert_dilemma_causeway",
+            "selected": "desert_dilemma_causeway_1",
+            "next": "aftermath_causeway_notice_001"
+          },
+          {
+            "decision": "desert_dilemma_causeway",
+            "selected": "desert_dilemma_causeway_2",
+            "next": "aftermath_causeway_delay_001"
+          },
+          {
+            "decision": "desert_dilemma_causeway",
+            "selected": "desert_dilemma_causeway_3",
+            "next": "aftermath_causeway_sketch_001"
+          }
+        ]
+      },
+      "callback_scene_ids": [
+        "aftermath_causeway_notice_001",
+        "aftermath_causeway_notice_002",
+        "aftermath_causeway_notice_003",
+        "aftermath_causeway_delay_001",
+        "aftermath_causeway_delay_002",
+        "aftermath_causeway_delay_003",
+        "aftermath_causeway_sketch_001",
+        "aftermath_causeway_sketch_002",
+        "aftermath_causeway_sketch_003"
+      ],
+      "fallback_policy": "Keep the exact pre-existing next destination. All new selected branches return to it. A missing decision uses the common source prose, creates no decision, makes no selected-route claims and grants no new reward."
+    },
+    {
+      "id": "CC-005",
+      "decision": "desert_dilemma_warning",
+      "gate": "desert_p12_003",
+      "fallback": "desert_p12_004",
+      "classification": "missing_downstream_consequence",
+      "finding": "Diagram delay, receiver-tested speech and corrected provisional bulletin are distinct single passages, but the grass village later receives one generic report with no differentiated arrival or correction work.",
+      "outcome": "Show slow diagram arrival, useful but fallible spoken relay, or copied rejected-heading rumour and actual correction route, keeping ground hazard separate from untested water quality and crop claims.",
+      "source_path": "data/books/book_xvi_desert_12.json",
+      "decision_source_path": "data/books/book_xvi_desert_11.json",
+      "decision_before": {
+        "chapter": "book_xvi_desert",
+        "cultivation": {
+          "realm": "qi_gathering",
+          "stage": "5: Four pairs"
+        },
+        "speaker": "narrator",
+        "actor": "lin_yue",
+        "background": "salt_desert_survey_camp",
+        "effect": "none",
+        "text": "The damp seam needed a public ground warning. The crew had no analysis establishing that the diverted channel water was poisoned. An urgent notice might lose that distinction when repeated beyond this table. Yue could begin with a diagram of the observed support, a checked spoken relay, or a provisional bulletin with an explicit correction address. One would travel slowly, one depended on receivers, and one risked an ambiguous first reading. The clerk would retain the narrower source record in every case.",
+        "choices": [
+          {
+            "text": "Lead with the two-site diagram and observed ground limits.",
+            "next": "desert_dilemma_warning_1"
+          },
+          {
+            "text": "Test a spoken relay with a receiver before dispatch.",
+            "next": "desert_dilemma_warning_2"
+          },
+          {
+            "text": "Issue a bounded provisional bulletin and a correction route.",
+            "next": "desert_dilemma_warning_3"
+          }
+        ]
+      },
+      "gate_before": {
+        "chapter": "book_xvi_desert",
+        "cultivation": {
+          "realm": "qi_gathering",
+          "stage": "5: Four pairs"
+        },
+        "effect": "none",
+        "speaker": "narrator",
+        "actor": "lin_yue",
+        "text": "There was someone here who renewed warnings before breakfast. At the drying yard the mat maker greeted them with the relief people show when an expected return becomes actual faces. He noticed Tuo's foot and wisely postponed the dance jokes. Han asked for the collective representatives before unloading the report case. Two women and a young man joined the table, bringing the unanswered quarry letters and a map marked with the spill's edge. Auntie Reed's northern work explained her absence; the others could speak for the present causeway and crop.",
+        "background": "salt_desert_survey_camp",
+        "next": "desert_p12_004"
+      },
+      "gate_after": {
+        "chapter": "book_xvi_desert",
+        "cultivation": {
+          "realm": "qi_gathering",
+          "stage": "5: Four pairs"
+        },
+        "effect": "none",
+        "speaker": "narrator",
+        "actor": "lin_yue",
+        "text": "There was someone here who renewed warnings before breakfast. At the drying yard the mat maker greeted them with the relief people show when an expected return becomes actual faces. He noticed Tuo's foot and wisely postponed the dance jokes. Han asked for the collective representatives before unloading the report case. Two women and a young man joined the table, bringing the unanswered quarry letters and a map marked with the spill's edge. Auntie Reed's northern work explained her absence; the others could speak for the present causeway and crop.",
+        "background": "salt_desert_survey_camp",
+        "next": "desert_p12_004",
+        "routes": [
+          {
+            "decision": "desert_dilemma_warning",
+            "selected": "desert_dilemma_warning_1",
+            "next": "aftermath_warning_diagram_001"
+          },
+          {
+            "decision": "desert_dilemma_warning",
+            "selected": "desert_dilemma_warning_2",
+            "next": "aftermath_warning_relay_001"
+          },
+          {
+            "decision": "desert_dilemma_warning",
+            "selected": "desert_dilemma_warning_3",
+            "next": "aftermath_warning_bulletin_001"
+          }
+        ]
+      },
+      "callback_scene_ids": [
+        "aftermath_warning_diagram_001",
+        "aftermath_warning_diagram_002",
+        "aftermath_warning_diagram_003",
+        "aftermath_warning_relay_001",
+        "aftermath_warning_relay_002",
+        "aftermath_warning_relay_003",
+        "aftermath_warning_bulletin_001",
+        "aftermath_warning_bulletin_002",
+        "aftermath_warning_bulletin_003"
+      ],
+      "fallback_policy": "Keep the exact pre-existing next destination. All new selected branches return to it. A missing decision uses the common source prose, creates no decision, makes no selected-route claims and grants no new reward."
+    },
+    {
+      "id": "CC-006",
+      "decision": "archive_25_006",
+      "gate": "archive_25_lantern_keeper",
+      "fallback": "archive_25_close_1",
+      "classification": "missing_downstream_consequence",
+      "finding": "Public work, qualified stewardship and departure differ in one acceptance paragraph, then converge into the same courtyard and terminal outcome before the next funded post has any playable operating consequence.",
+      "outcome": "Give each selected role or home departure a distinct next morning, including what is available, what remains understaffed, the personal journey deferred or completed and the single 180-copper appointment's actual boundary.",
+      "source_path": "data/books/book_xvii_archive_25.json",
+      "decision_source_path": "data/books/book_xvii_archive_25.json",
+      "decision_before": {
+        "chapter": "book_xvii_archive",
+        "speaker": "narrator",
+        "actor": "lin_yue",
+        "background": "archive_copy_room",
+        "effects": [
+          "lanterns"
+        ],
+        "cast": [
+          "lin_yue",
+          "luo_zhimo",
+          "tan_ke"
+        ],
+        "cultivation": {
+          "realm": "qi_gathering",
+          "stage": "5: Four pairs"
+        },
+        "text": "The board's one funded next post could support public reference work or collection stewardship. Both needed an honest account of Lin's trained capacities and the qualified cover for anything beyond them. Going home was also available after the completed term. The next appropriation could not hire both of her possible futures. Lin asked to make the selection with the final receiving sheet in front of her.",
+        "choices": [
+          {
+            "text": "Accept public reference work with checked source comparisons.",
+            "next": "archive_25_role_insight",
+            "requires": {
+              "insight": 10
+            }
+          },
+          {
+            "text": "Accept stewardship with bounded instrument checks.",
+            "next": "archive_25_role_qi",
+            "requires": {
+              "qi": 10
+            }
+          },
+          {
+            "text": "Accept stewardship with recovered movement duties.",
+            "next": "archive_25_role_resolve",
+            "requires": {
+              "resolve": 10
+            }
+          },
+          {
+            "text": "Accept public work with firm limits on the commitment.",
+            "next": "archive_25_role_trust",
+            "requires": {
+              "trust": 10
+            }
+          },
+          {
+            "text": "Decline the next post and take the ordinary road home.",
+            "next": "archive_25_role_help"
+          }
+        ]
+      },
+      "gate_before": {
+        "chapter": "book_xvii_archive",
+        "speaker": "narrator",
+        "actor": "lan_fen",
+        "background": "archive_spring_courtyard_dawn",
+        "effects": [
+          "petals",
+          "mist"
+        ],
+        "cast": [
+          "lan_fen",
+          "lin_yue"
+        ],
+        "cultivation": {
+          "realm": "qi_gathering",
+          "stage": "5: Four pairs"
+        },
+        "text": "On the covered walk, lantern keeper Lan Fen was checking a cold lamp's latch. She asked Lin to hold the bronze body steady, then tested the hinge herself. Lin kept both hands on the base until the keeper finished. Lan wrote and signed the check on her maintenance tag before returning her own brushes to the leather pouch. She carried the lamp indoors; Lin went back to Sun beside the plum tree.",
+        "next": "archive_25_close_1"
+      },
+      "gate_after": {
+        "chapter": "book_xvii_archive",
+        "speaker": "narrator",
+        "actor": "lan_fen",
+        "background": "archive_spring_courtyard_dawn",
+        "effects": [
+          "petals",
+          "mist"
+        ],
+        "cast": [
+          "lan_fen",
+          "lin_yue"
+        ],
+        "cultivation": {
+          "realm": "qi_gathering",
+          "stage": "5: Four pairs"
+        },
+        "text": "On the covered walk, lantern keeper Lan Fen was checking a cold lamp's latch. She asked Lin to hold the bronze body steady, then tested the hinge herself. Lin kept both hands on the base until the keeper finished. Lan wrote and signed the check on her maintenance tag before returning her own brushes to the leather pouch. She carried the lamp indoors; Lin went back to Sun beside the plum tree.",
+        "next": "archive_25_close_1",
+        "routes": [
+          {
+            "decision": "archive_25_006",
+            "selected": "archive_25_role_insight",
+            "next": "aftermath_archive_reference_001"
+          },
+          {
+            "decision": "archive_25_006",
+            "selected": "archive_25_role_qi",
+            "next": "aftermath_archive_instruments_001"
+          },
+          {
+            "decision": "archive_25_006",
+            "selected": "archive_25_role_resolve",
+            "next": "aftermath_archive_movement_001"
+          },
+          {
+            "decision": "archive_25_006",
+            "selected": "archive_25_role_trust",
+            "next": "aftermath_archive_commitment_001"
+          },
+          {
+            "decision": "archive_25_006",
+            "selected": "archive_25_role_help",
+            "next": "aftermath_archive_home_001"
+          }
+        ]
+      },
+      "callback_scene_ids": [
+        "aftermath_archive_reference_001",
+        "aftermath_archive_reference_002",
+        "aftermath_archive_reference_003",
+        "aftermath_archive_instruments_001",
+        "aftermath_archive_instruments_002",
+        "aftermath_archive_instruments_003",
+        "aftermath_archive_movement_001",
+        "aftermath_archive_movement_002",
+        "aftermath_archive_movement_003",
+        "aftermath_archive_commitment_001",
+        "aftermath_archive_commitment_002",
+        "aftermath_archive_commitment_003",
+        "aftermath_archive_home_001",
+        "aftermath_archive_home_002",
+        "aftermath_archive_home_003"
+      ],
+      "fallback_policy": "Keep the exact pre-existing next destination. All new selected branches return to it. A missing decision uses the common source prose, creates no decision, makes no selected-route claims and grants no new reward."
+    }
+  ],
+  "validation_expectations": [
+    "Every original decision target reaches its own three-scene callback only after the named gate.",
+    "No route can import another option's council result, opening conditions, booked work, warning arrival or next appointment.",
+    "Common next remains reachable from every route and from saves with an unrecorded earlier decision.",
+    "Callbacks add no stats, earned credit, new stages or unregistered assets.",
+    "Authored paragraphs remain at most 100 words, unique and fully narrated.",
+    "Save and reload before a gate must select the same callback; a legacy save with no decision uses only the common next.",
+    "Existing archive_25_close_1 prose and ID remain intact; root can add its new continuation."
+  ],
+  "verification_limits": "Remote static review and semantic comparison only here. Root must run full structural, actual Godot traversal, narration and export checks. This artifact does not claim 1000 discovered/fixed literary defects or the 2M target."
+}

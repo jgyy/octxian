@@ -494,6 +494,17 @@ func _test_court_ui(game) -> void:
 	game.state.stats = before_stats.duplicate()
 	game._scene()
 	game.dialogue.visible_characters = -1
+	var committed_history: Array = game.state.history.duplicate(true)
+	game._choose(3)
+	check(game.state.current == "court_final_choice" and game.state.stats == before_stats and game.state.history == committed_history, "The UI must preserve the already selected court commitment on a revisit")
+	check(game.state.decisions.get("court_final_choice") == "court_local_proposal", "A blocked UI revisit must retain its actual selected destination")
+	# Compare the alternative in a separate journey, rather than switching a
+	# commitment already made by the traveler above.
+	game.state = game.StoryState.new(game.state.story)
+	game.state.current = "court_final_choice"
+	game.state.stats = before_stats.duplicate()
+	game._scene()
+	game.dialogue.visible_characters = -1
 	game._choose(3)
 	check(game.state.current == "court_remand_proposal" and game.state.stats == before_stats, "The ungated court proposal advances without delivery credit")
 	_finish_ui_branch(game, "court_remand_review")

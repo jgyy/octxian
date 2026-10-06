@@ -935,7 +935,7 @@ func _capture() -> void:
 		get_viewport().get_texture().get_image().save_png("res://build/screenshots/object_%s.png" % object_id)
 	_close_popup()
 	state.stats = {"qi": 0, "trust": 0, "insight": 0, "resolve": 0}
-	for sample in [{"id":"desert_p01_008","file":"bitter_wells_yard"}, {"id":"desert_p01_034","file":"bitter_wells_workroom"}, {"id":"desert_p01_058","file":"bitter_wells_lodging"}, {"id":"desert_dilemma_origin","file":"desert_dilemma"}, {"id":"court_rain_trace_reader","file":"completed_comparison"}]:
+	for sample in [{"id":"desert_p01_008","file":"bitter_wells_yard"}, {"id":"desert_p01_034","file":"bitter_wells_workroom"}, {"id":"desert_p01_058","file":"bitter_wells_lodging"}, {"id":"desert_dilemma_origin","file":"desert_dilemma"}, {"id":"court_rain_trace_reader","file":"completed_comparison"}, {"id":"storm_claims_005","file":"storm_completed_practice"}, {"id":"salt_seed_trial_010","file":"salt_completed_practice"}]:
 		state.current = sample.id
 		_scene()
 		dialogue.visible_characters = -1
@@ -944,6 +944,63 @@ func _capture() -> void:
 		await get_tree().create_timer(0.8).timeout
 		await RenderingServer.frame_post_draw
 		get_viewport().get_texture().get_image().save_png("res://build/screenshots/%s.png" % sample.file)
+
+	# Capture real selected paths at identical attributes, including delayed results.
+	state = StoryState.new(state.story)
+	state.current = "letters_copy_choice"
+	state.stats = {"qi": 10, "trust": 10, "insight": 10, "resolve": 10}
+	_scene()
+	dialogue.visible_characters = -1
+	await get_tree().create_timer(0.8).timeout
+	await RenderingServer.frame_post_draw
+	get_viewport().get_texture().get_image().save_png("res://build/screenshots/consequence_choices.png")
+	var copy_results := ["letters_house_result_001", "letters_school_result_001", "letters_lamp_result_001"]
+	for selection in range(copy_results.size()):
+		state = StoryState.new(state.story)
+		state.current = "letters_copy_choice"
+		state.stats = {"qi": 10, "trust": 10, "insight": 10, "resolve": 10}
+		if not state.choose(selection):
+			push_error("The consequence capture could not select its actual branch.")
+			_quit_game(1)
+			return
+		var steps := 0
+		while state.current != copy_results[selection] and steps < state.story.nodes.size():
+			var moved: bool
+			if state.node().has("choices") and not state.node().get("random_event", false):
+				moved = state.choose(0)
+			else:
+				moved = state.advance()
+			if not moved:
+				push_error("The consequence capture could not reach its delayed result.")
+				_quit_game(1)
+				return
+			steps += 1
+		if state.current != copy_results[selection] or state.stats != {"qi": 10, "trust": 10, "insight": 10, "resolve": 10}:
+			push_error("The delayed consequence must differ while attributes stay identical.")
+			_quit_game(1)
+			return
+		_scene()
+		dialogue.visible_characters = -1
+		await get_tree().create_timer(0.8).timeout
+		await RenderingServer.frame_post_draw
+		get_viewport().get_texture().get_image().save_png("res://build/screenshots/consequence_%s.png" % ["house", "school", "lamp"][selection])
+	# Capture the actual gallery controls displaying each retained native original.
+	for painting in ["lark_pass_cliff_market","outer_shoal_salvage_yard","vermilion_hollows_inspection_gallery","kestrel_basin_heat_court","mirror_basin_reservoir_cloister","chime_reach_relay_plaza","qin_bo","reservoir_qiu_nan","reservoir_mei_rong","reservoir_jing_su","reservoir_fu_lian","reservoir_zhou_wen","reservoir_tian_yu","mine_worker_lodging","mine_surface_yard","mine_clinic_room","mine_practice_court","wintercity_gao_shen","mine_wei_yan","lantern_shao_ye","lark_pass_avalanche_shelter"]:
+		_world()
+		var group := "npcs" if painting in ["qin_bo","reservoir_qiu_nan","reservoir_mei_rong","reservoir_jing_su","reservoir_fu_lian","reservoir_zhou_wen","reservoir_tian_yu","wintercity_gao_shen","mine_wei_yan","lantern_shao_ye"] else "backgrounds"
+		var selected := -1
+		for index in range(world.get(group, []).size()):
+			if world[group][index].id == painting:
+				selected = index
+		if selected < 0:
+			push_error("A continuation painting is missing from the real gallery: " + painting)
+			_quit_game(1)
+			return
+		_world_selected(selected, group)
+		await get_tree().create_timer(0.4).timeout
+		await RenderingServer.frame_post_draw
+		get_viewport().get_texture().get_image().save_png("res://build/screenshots/native_%s.png" % painting)
+		_close_popup()
 	print("JADE_VOW_CAPTURE_OK")
 	_quit_game()
 
@@ -1054,7 +1111,8 @@ func _smoke_build() -> void:
 		valid = valid and actor.character == encounter.actor and actor.sprite.texture != null
 		valid = valid and background.texture != null and audio.voice.stream is AudioStreamOggVorbis
 	# The integrated final books, new originals and ensemble narration must survive export.
-	valid = valid and state.story.chapters.size() == 17
+	for chapter in ["book_i", "book_ii", "book_iii", "book_iv", "book_v", "book_vi", "book_vii", "book_viii", "book_ix", "book_x_storm_ledger", "book_xi_salt_road", "book_xii_canal", "book_xiii_forest", "book_xiv_harbor", "book_xv_kiln", "book_xvi_desert", "book_xvii_archive", "book_xviii_letters"]:
+		valid = state.story.chapters.has(chapter) and valid
 	for encounter in [{"node": "forest_24_close_1", "actor": "lanternwing_crane"}, {"node": "archive_25_rejoin", "actor": "sun_nian"}, {"node": "archive_25_lantern_keeper", "actor": "lan_fen"}]:
 		state.current = str(encounter.node)
 		_scene()
@@ -1135,6 +1193,34 @@ func _smoke_build() -> void:
 	var attribute_value: Label = popup.find_child("AttributeValue_trust", true, false)
 	valid = valid and attribute_value != null and attribute_value.text == "Dao Heart · 2"
 	_close_popup()
+	# Walk the new authored choice to its delayed result inside the exported pack.
+	state = StoryState.new(state.story)
+	state.current = "letters_copy_choice"
+	state.stats = {"qi": 10, "trust": 10, "insight": 10, "resolve": 10}
+	var copy_selected: bool = state.choose(0)
+	valid = copy_selected and valid
+	var consequence_steps := 0
+	while state.current != "letters_house_result_001" and consequence_steps < 100:
+		var moved: bool
+		if state.node().has("choices") and not state.node().get("random_event", false):
+			moved = state.choose(0)
+		else:
+			moved = state.advance()
+		if not moved:
+			valid = false
+			break
+		consequence_steps += 1
+	valid = state.current == "letters_house_result_001" and valid
+	valid = state.decisions.get("letters_copy_choice", "") == "letters_copy_house" and valid
+	valid = state.stats == {"qi": 10, "trust": 10, "insight": 10, "resolve": 10} and valid
+	_scene()
+	valid = audio.voice.stream is AudioStreamOggVorbis and valid
+	valid = actor.sprite.texture != null and background.texture != null and valid
+	state.current = "letters_watch_end"
+	_scene()
+	valid = state.node().get("ending", "") == "The Covers and the Receiving Date" and valid
+	valid = audio.voice.stream is AudioStreamOggVorbis and valid
+	valid = actor.sprite.texture != null and background.texture != null and valid
 	if valid:
 		print("JADE_VOW_PACKAGE_OK: standalone story, world art, object inspection and narration")
 	else:
