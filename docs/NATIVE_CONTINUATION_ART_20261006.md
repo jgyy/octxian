@@ -1,6 +1,6 @@
 # Native art and actual gallery captures · 2026-10-06
 
-Seven independent new paintings accompany the continuing novels: six locations at actual native **1536 × 1024** pixels and Qin Bo's transparent portrait at **1024 × 1536**. The requested maximum native output is retained; no enlargement is counted. [Original creation records and Git blobs](../assets/art/CONTINUATION_20261006_PROVENANCE.md).
+Seventeen independent new paintings accompany the continuing novels: ten locations at actual native **1536 × 1024** pixels and seven transparent character portraits at **1024 × 1536**. Six Reservoir portraits represent the separate water steward, examiner, instrument custodian, grain-house receiver, worker delegate and clerk. The requested maximum native output is retained; no enlargement is counted. [Original creation records and Git blobs](../assets/art/CONTINUATION_20261006_PROVENANCE.md).
 
 The story currently has **1,154,078 displayed words**. The following six novels remain in authoring and are excluded from that count. Their incoming decisions change source permission, work access, property and funded obligations. Each incoming term closes through actual work before the next local cultivation placement.
 
@@ -29,5 +29,25 @@ The captures below come from the running Godot game's gallery controls. They sho
 ![Actual gallery selection: chime reach relay plaza](screenshots/native_chime_reach_relay_plaza.jpg)
 
 ![Actual gallery selection: qin bo](screenshots/native_qin_bo.jpg)
+
+![Actual gallery selection: reservoir qiu nan](screenshots/native_reservoir_qiu_nan.jpg)
+
+![Actual gallery selection: reservoir mei rong](screenshots/native_reservoir_mei_rong.jpg)
+
+![Actual gallery selection: reservoir jing su](screenshots/native_reservoir_jing_su.jpg)
+
+![Actual gallery selection: reservoir fu lian](screenshots/native_reservoir_fu_lian.jpg)
+
+![Actual gallery selection: reservoir zhou wen](screenshots/native_reservoir_zhou_wen.jpg)
+
+![Actual gallery selection: reservoir tian yu](screenshots/native_reservoir_tian_yu.jpg)
+
+![Actual gallery selection: mine worker lodging](screenshots/native_mine_worker_lodging.jpg)
+
+![Actual gallery selection: mine surface yard](screenshots/native_mine_surface_yard.jpg)
+
+![Actual gallery selection: mine clinic room](screenshots/native_mine_clinic_room.jpg)
+
+![Actual gallery selection: mine practice court](screenshots/native_mine_practice_court.jpg)
 
 Source-backed continuity repair evidence is in [the semantic sweep](SEMANTIC_SWEEP_20261006.md). That sweep verifies six new underlying defects across 27 passages, and does not claim 1,000 verified defects or count prevented draft mistakes as existing-source repairs.

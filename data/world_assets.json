@@ -1175,6 +1175,90 @@
         ],
         "record": "assets/art/CONTINUATION_20261006_PROVENANCE.md"
       }
+    },
+    {
+      "id": "mine_worker_lodging",
+      "name": "Mine Worker Lodging",
+      "path": "assets/art/world/mine_worker_lodging.png",
+      "native_size": [
+        1536,
+        1024
+      ],
+      "collection": "building_interiors",
+      "environment": "interior",
+      "description": "A miners' ordinary shared lodging and supper room above the red-rock valley, with personal tools and ordinary heating.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/mine_worker_lodging.png",
+        "native_size": [
+          1536,
+          1024
+        ],
+        "record": "assets/art/CONTINUATION_20261006_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "mine_surface_yard",
+      "name": "Mine Surface Yard",
+      "path": "assets/art/world/mine_surface_yard.png",
+      "native_size": [
+        1536,
+        1024
+      ],
+      "description": "An open-air red-earth receiving yard with stores, a clear ordinary road and fenced species-specific seam-moth habitat.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/mine_surface_yard.png",
+        "native_size": [
+          1536,
+          1024
+        ],
+        "record": "assets/art/CONTINUATION_20261006_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "mine_clinic_room",
+      "name": "Mine Clinic Room",
+      "path": "assets/art/world/mine_clinic_room.png",
+      "native_size": [
+        1536,
+        1024
+      ],
+      "collection": "building_interiors",
+      "environment": "interior",
+      "description": "An ordinary mine-village clinic for assessment, wound care and paid recovery, with clean linen and finite supplies.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/mine_clinic_room.png",
+        "native_size": [
+          1536,
+          1024
+        ],
+        "record": "assets/art/CONTINUATION_20261006_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "mine_practice_court",
+      "name": "Mine Practice Court",
+      "path": "assets/art/world/mine_practice_court.png",
+      "native_size": [
+        1536,
+        1024
+      ],
+      "description": "A dry supervised practice court with small calibrated benches, grounded discharge and a clear physical withdrawal route.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/mine_practice_court.png",
+        "native_size": [
+          1536,
+          1024
+        ],
+        "record": "assets/art/CONTINUATION_20261006_PROVENANCE.md"
+      }
     }
   ],
   "npcs": [
@@ -2291,6 +2375,126 @@
         "kind": "original_painting",
         "derivation": "none",
         "source_path": "assets/art/world/qin_bo.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/CONTINUATION_20261006_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "reservoir_qiu_nan",
+      "name": "Qiu Nan",
+      "path": "assets/art/world/reservoir_qiu_nan.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "Steward of the Mirror Basin water turns. Short grey-streaked hair, weathered cheeks, indigo quilted coat, ordinary waterstaff and stamped appointment folio.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/reservoir_qiu_nan.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/CONTINUATION_20261006_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "reservoir_mei_rong",
+      "name": "Mei Rong",
+      "path": "assets/art/world/reservoir_mei_rong.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "Independent examiner of balanced-reservoir practice. Tied black hair, square bronze reading glass, practical slate robe and flat shoes.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/reservoir_mei_rong.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/CONTINUATION_20261006_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "reservoir_jing_su",
+      "name": "Jing Su",
+      "path": "assets/art/world/reservoir_jing_su.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "Custodian of reservoir sampling instruments. A close braid, patched ochre apron, copper sample sleeves and ordinary inked fingers.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/reservoir_jing_su.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/CONTINUATION_20261006_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "reservoir_fu_lian",
+      "name": "Fu Lian",
+      "path": "assets/art/world/reservoir_fu_lian.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "Grain-house worker and household water delegate. Dark hair under a faded green kerchief, flour-marked cuffs and an old wool shoulder wrap.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/reservoir_fu_lian.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/CONTINUATION_20261006_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "reservoir_zhou_wen",
+      "name": "Zhou Wen",
+      "path": "assets/art/world/reservoir_zhou_wen.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "Receiver of the basin's ordinary grain commission. Grey hair cropped at the ears, broad brown coat, ordinary scale weights and ruled account boards.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/reservoir_zhou_wen.png",
+        "native_size": [
+          1024,
+          1536
+        ],
+        "record": "assets/art/CONTINUATION_20261006_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "reservoir_tian_yu",
+      "name": "Tian Yu",
+      "path": "assets/art/world/reservoir_tian_yu.png",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "description": "Young clerk of the basin's grain house. Untidy dark hair, quick grey eyes, ink-marked blue cuffs and a repaired wicker basket.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/reservoir_tian_yu.png",
         "native_size": [
           1024,
           1536
