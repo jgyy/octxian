@@ -4,7 +4,7 @@
   "model_url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/lessac/medium/en_US-lessac-medium.onnx",
   "model_sha256": "5efe09e69902187827af646e1a6e9d269dee769f9877d17b16b1b46eeaaf019f",
   "model_card": "# Model card for lessac (medium)\n\n* Language: en_US (English, United States)\n* Speakers: 1\n* Quality: medium\n* Samplerate: 22,050Hz\n\n## Dataset\n\n* URL: https://www.cstr.ed.ac.uk/projects/blizzard/2013/lessac_blizzard2013/\n* License: https://www.cstr.ed.ac.uk/projects/blizzard/2013/lessac_blizzard2013/license.html\n\n## Training\n\nTrained from scratch.\n",
-  "encoding": "All clips: ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s; source encoding recorded per clip",
+  "encoding": "New clips: ffmpeg libvorbis, mono, 8000 Hz, constrained 10000 bit/s; validated existing clips retained",
   "lines": {
     "arrival": {
       "file": "assets/generated/voices/arrival.ogg",
