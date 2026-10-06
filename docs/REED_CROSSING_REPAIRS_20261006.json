@@ -1,0 +1,240 @@
+{
+  "version": 1,
+  "source_commit": "a8d6ddf1d7c73c77fc8c66be6932fab403269bfc",
+  "requested_plot_holes": 1000,
+  "confirmed_underlying_defects": 2,
+  "affected_source_passages": 2,
+  "target_met": false,
+  "count_policy": "Each count is an independently evidenced source contradiction. New prose, graph checks, artwork, continuation wiring and corrected documentation do not count as plot repairs.",
+  "repairs": [
+    {
+      "id": "reed-review-001",
+      "classification": "confirmed_continuity_defect",
+      "root_cause": "A cart still carrying return packets is described as unloaded in the same passage, contradicting its cargo state.",
+      "source_path": "data/books/book_xviii_second_watch.json",
+      "node_id": "letters_watch_cover_books_05",
+      "before": {
+        "chapter": "book_xviii_letters",
+        "speaker": "narrator",
+        "actor": "lin_yue",
+        "background": "archive_spring_courtyard_dawn",
+        "cast": [
+          "lin_yue",
+          "luo_zhimo",
+          "he_xi"
+        ],
+        "cultivation": {
+          "realm": "qi_gathering",
+          "stage": "5: Four pairs"
+        },
+        "text": "The next squall drove rain against the canvas and into the uncovered loading yard. The cart's ordinary hood lifted at its torn seam. Its return packets were wet before He Xi could move the unloaded cart into the already full stone entrance. He stayed outside the load's fall line and did not try to catch it. The packets were issued copies, not irreplaceable originals. Their loss would still cost a new printing and delay the households expecting an answer.",
+        "next": "letters_watch_cover_books_06"
+      },
+      "after": {
+        "chapter": "book_xviii_letters",
+        "speaker": "narrator",
+        "actor": "lin_yue",
+        "background": "archive_spring_courtyard_dawn",
+        "cast": [
+          "lin_yue",
+          "luo_zhimo",
+          "he_xi"
+        ],
+        "cultivation": {
+          "realm": "qi_gathering",
+          "stage": "5: Four pairs"
+        },
+        "text": "The next squall drove rain against the canvas and into the uncovered loading yard. The cart's ordinary hood lifted at its torn seam. Its return packets were wet before He Xi could move the laden cart into the already full stone entrance. He stayed outside the load's fall line and did not try to catch it. The packets were issued copies, not irreplaceable originals. Their loss would still cost a new printing and delay the households expecting an answer.",
+        "next": "letters_watch_cover_books_06"
+      },
+      "evidence": [
+        {
+          "source_path": "data/books/book_xviii_second_watch.json",
+          "node_id": "letters_watch_cover_books_02",
+          "node": {
+            "chapter": "book_xviii_letters",
+            "speaker": "narrator",
+            "actor": "lin_yue",
+            "background": "archive_spring_courtyard_dawn",
+            "cast": [
+              "lin_yue",
+              "luo_zhimo",
+              "he_xi"
+            ],
+            "cultivation": {
+              "realm": "qi_gathering",
+              "stage": "5: Four pairs"
+            },
+            "text": "He Xi asked how long the cart would have to wait. Yue gave him the answer the supervisor had supplied: until the gusts passed and the crew could return to the exposed load. That would miss the carriage. He Xi put his loading receipt away. 'Then mark the cancellation now,' he said. 'I will not spend the whole afternoon wondering whether you mean another ten minutes.' Luo entered the missed delivery without pretending preparation had become completed travel.",
+            "next": "letters_watch_cover_books_03"
+          }
+        },
+        {
+          "source_path": "data/books/book_xviii_second_watch.json",
+          "node_id": "letters_watch_cover_books_07",
+          "node": {
+            "chapter": "book_xviii_letters",
+            "speaker": "narrator",
+            "actor": "lin_yue",
+            "background": "archive_spring_courtyard_dawn",
+            "cast": [
+              "lin_yue",
+              "luo_zhimo",
+              "he_xi"
+            ],
+            "cultivation": {
+              "realm": "qi_gathering",
+              "stage": "5: Four pairs"
+            },
+            "text": "Luo paid He Xi the agreed two-copper cancellation amount from the service account and canceled the four-copper delivery line. He Xi had lost two copper of expected earnings and the chance to take another afternoon job. The archive did not call that loss resolved by a sympathetic paragraph. Its clerk arranged new copies under the owners' existing return permissions. The receiving dates would change; the underlying household decisions and source custody would not.",
+            "next": "letters_watch_cover_books_08"
+          }
+        }
+      ]
+    },
+    {
+      "id": "reed-review-002",
+      "classification": "confirmed_continuity_defect",
+      "root_cause": "This branch isolates material still behind a fractured beam before any braced retrieval, despite explicitly prohibiting access until the crew braces it after the squall.",
+      "source_path": "data/books/book_xviii_second_watch.json",
+      "node_id": "letters_watch_cover_path_05",
+      "before": {
+        "chapter": "book_xviii_letters",
+        "speaker": "narrator",
+        "actor": "lin_yue",
+        "background": "archive_spring_courtyard_dawn",
+        "cast": [
+          "lin_yue",
+          "luo_zhimo",
+          "he_xi"
+        ],
+        "cultivation": {
+          "realm": "qi_gathering",
+          "stage": "5: Four pairs"
+        },
+        "text": "Rain came through the annex breach and soaked the rear cabinet before the beam could be braced. The booklets swelled unevenly against their bindings. Tan prohibited heated drying on the public lamps. That shortcut could damage the paper and create a fire beside a storm closure. The attendant isolated the damp stock for later examination. The teacher watched from the waiting-room door, unable to save it by remembering how much work she had put into it.",
+        "next": "letters_watch_cover_path_06"
+      },
+      "after": {
+        "chapter": "book_xviii_letters",
+        "speaker": "narrator",
+        "actor": "lin_yue",
+        "background": "archive_spring_courtyard_dawn",
+        "cast": [
+          "lin_yue",
+          "luo_zhimo",
+          "he_xi"
+        ],
+        "cultivation": {
+          "realm": "qi_gathering",
+          "stage": "5: Four pairs"
+        },
+        "text": "Rain came through the annex breach and soaked the rear cabinet before the beam could be braced. The booklets swelled unevenly against their bindings. Tan prohibited heated drying on the public lamps. After the squall, the qualified crew braced the beam for controlled retrieval; only then did the attendant isolate the damp stock for examination. The teacher watched from the waiting-room door, unable to save it by remembering how much work she had put into it.",
+        "next": "letters_watch_cover_path_06"
+      },
+      "evidence": [
+        {
+          "source_path": "data/books/book_xviii_second_watch.json",
+          "node_id": "letters_watch_cover_path_02",
+          "node": {
+            "chapter": "book_xviii_letters",
+            "speaker": "narrator",
+            "actor": "lin_yue",
+            "background": "archive_spring_courtyard_dawn",
+            "cast": [
+              "lin_yue",
+              "luo_zhimo",
+              "he_xi"
+            ],
+            "cultivation": {
+              "realm": "qi_gathering",
+              "stage": "5: Four pairs"
+            },
+            "text": "The teacher looked back at the annex and asked whether someone could reach the lesson cabinet from the rear window. Tan said the fractured beam crossed that route too. The retrieval had to wait for the crew to brace it after the squall. The teacher accepted the refusal and sat down heavily. Her permitted examples were in those booklets. She could write new examples later, but the familiar notes would not return simply because a clerk called them replaceable.",
+            "next": "letters_watch_cover_path_03"
+          }
+        },
+        {
+          "source_path": "data/books/book_xviii_second_watch.json",
+          "node_id": "letters_watch_cover_books_06",
+          "node": {
+            "chapter": "book_xviii_letters",
+            "speaker": "narrator",
+            "actor": "lin_yue",
+            "background": "archive_spring_courtyard_dawn",
+            "cast": [
+              "lin_yue",
+              "luo_zhimo",
+              "he_xi"
+            ],
+            "cultivation": {
+              "realm": "qi_gathering",
+              "stage": "5: Four pairs"
+            },
+            "text": "After the wind eased, the supervisor inspected the temporary roof cover from the yard. It had held. The qualified crew then braced the annex for a controlled retrieval, and the attendant brought out the sixteen dry booklets in their actual cabinet order. The teacher examined her marginal examples and found them intact. She thanked the workers. Yue was relieved enough to want the thanks herself, then heard how precisely the teacher had placed it.",
+            "next": "letters_watch_cover_books_07"
+          }
+        },
+        {
+          "source_path": "data/books/book_xviii_second_watch.json",
+          "node_id": "letters_watch_after_storm_02",
+          "node": {
+            "chapter": "book_xviii_letters",
+            "speaker": "narrator",
+            "actor": "lin_yue",
+            "background": "archive_copy_room",
+            "cast": [
+              "lin_yue",
+              "luo_zhimo",
+              "tan_ke"
+            ],
+            "cultivation": {
+              "realm": "qi_gathering",
+              "stage": "5: Four pairs"
+            },
+            "text": "Tan examined the lesson cabinet's contents under their present condition, retaining the result already recorded during retrieval. She kept any damp material isolated from the sound archive collection. Luo asked whether a small qi discharge could dry paper faster. Tan said moisture loss would not restore torn fibres, missing pencil marks or distorted bindings. Yue closed her admission before anybody could ask her to demonstrate. A trained refusal sometimes looked disappointingly like doing nothing.",
+            "next": "letters_watch_after_storm_03"
+          }
+        }
+      ]
+    }
+  ],
+  "continuation": {
+    "source_path": "data/books/book_xviii_second_watch.json",
+    "node_id": "letters_watch_end",
+    "before": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue folded the receiving account and put it beside her own training book. Her fifth stage remained earned, with no new pair granted for reading an outcome she disliked. The household key stayed with its family; originals and private notebooks retained their actual owners. Outside, someone was fastening an ordinary window against another shower. The next choice would need its own people, time and means. These two had already changed what those people would find.",
+      "ending": "The Covers and the Receiving Date"
+    },
+    "after": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue folded the receiving account and put it beside her own training book. Her fifth stage remained earned, with no new pair granted for reading an outcome she disliked. The household key stayed with its family; originals and private notebooks retained their actual owners. Outside, someone was fastening an ordinary window against another shower. The next choice would need its own people, time and means. These two had already changed what those people would find.",
+      "ending": "The Covers and the Receiving Date",
+      "continuation": "crossing_entry"
+    }
+  },
+  "new_book_path": "data/books/book_xix_reed_crossing.json"
+}
