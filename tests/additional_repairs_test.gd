@@ -33,7 +33,7 @@ func _run() -> void:
         check(traveler.stats == original, repair.id + ": no preference growth")
         check(traveler.save_game("user://additional_current.json"), "Save pending revision-2 work")
         var saved: Dictionary = JSON.parse_string(FileAccess.get_file_as_string("user://additional_current.json"))
-        check(saved.practice_rules == 2, "New checkpoints identify the second rules")
+        check(saved.practice_rules == State.CURRENT_PRACTICE_RULES, "New checkpoints identify current rules")
         var resumed = State.new(campaign)
         check(resumed.load_game("user://additional_current.json"), "Resume pending work")
         var expected: Dictionary = original.duplicate()
@@ -85,7 +85,7 @@ func _run() -> void:
 
     var invalid := FileAccess.open("user://additional_bad.json", FileAccess.WRITE)
     invalid.store_string(JSON.stringify({"version": 1, "current": "arrival",
-        "stats": original, "history": [], "practice_rules": 3}))
+        "stats": original, "history": [], "practice_rules": State.CURRENT_PRACTICE_RULES + 1}))
     invalid.close()
     var retained = State.new(campaign)
     retained.current = "pendant"

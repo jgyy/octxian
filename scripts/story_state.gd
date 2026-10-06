@@ -3,6 +3,7 @@ extends RefCounted
 const Attributes = preload("res://scripts/attributes.gd")
 const StoryData = preload("res://scripts/story_data.gd")
 const SAVE_VERSION := 1
+const CURRENT_PRACTICE_RULES := 3
 # Long campaigns may exceed 100; enforce the same limit on play and load.
 const MAX_STAT := 2147483647
 const STAT_KEYS = Attributes.KEYS
@@ -174,7 +175,7 @@ func _commit_checkpoint(temporary_path: String, path: String) -> int:
 func save_game(path: String = "user://jade_vow_save.json") -> bool:
 	var temporary_path := path + ".tmp"
 	var backup_path := path + ".bak"
-	var bytes := JSON.stringify({"version": SAVE_VERSION, "current": current, "stats": stats, "history": history, "journey_seed": journey_seed, "encounters": encounters, "completed_practice": completed_practice, "practice_rules": 2}).to_utf8_buffer()
+	var bytes := JSON.stringify({"version": SAVE_VERSION, "current": current, "stats": stats, "history": history, "journey_seed": journey_seed, "encounters": encounters, "completed_practice": completed_practice, "practice_rules": CURRENT_PRACTICE_RULES}).to_utf8_buffer()
 	if not _write_verified_checkpoint(temporary_path, bytes):
 		if FileAccess.file_exists(temporary_path):
 			DirAccess.remove_absolute(temporary_path)
@@ -253,9 +254,9 @@ func load_game(path: String = "user://jade_vow_save.json") -> bool:
 	# Different revisions defer different formerly prepaid branches.
 	# Preserve older paid credit while leaving newer pending work unclaimed.
 	var rules = data.get("practice_rules", 0)
-	if not (rules is int or rules is float) or (rules != 0 and rules != 1 and rules != 2):
+	if not (rules is int or rules is float) or not is_finite(float(rules)) or rules != int(rules) or rules < 0 or rules > CURRENT_PRACTICE_RULES:
 		return false
-	if rules < 2:
+	if rules < CURRENT_PRACTICE_RULES:
 		var prior_texts := {}
 		for entry in data["history"]:
 			prior_texts[entry.text] = true

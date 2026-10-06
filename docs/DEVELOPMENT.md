@@ -74,7 +74,7 @@ Scene effects draw at the current control size. Panels pause their clock; reduce
 
 ## Scope
 
-This draft continues through Book XVII with 1,126,752 displayed prose words. The manuscript target is met; the independent artwork quotas remain incomplete. Narration uses one neural timbre with character pacing. Animation is a gentle whole-body bob of each intact portrait. Additional chapters, voices, and outfit portraits can extend the existing data and asset pipeline.
+This draft continues through Book XVII with 1,135,382 displayed prose words. The manuscript requires 864,618 additional displayed words to reach the 2,000,000-word target; the independent artwork quotas remain incomplete. Narration uses one neural timbre with character pacing. Animation is a gentle whole-body bob of each intact portrait. Additional chapters, voices, and outfit portraits can extend the existing data and asset pipeline.
 
 ## Extra interior collection
 
@@ -121,3 +121,9 @@ Run `python -m tools.validate_narrative_revision --verify-source` with fixed sou
 Run `godot --headless --path . --script tests/narrative_revision_test.gd` to exercise every deferred branch, new and migrated checkpoints, duplicate-credit prevention and all dilemma outcomes. New version-1 saves use `practice_rules: 1`; earlier saves recognise already-paid growth from their journal and exclusive current branch without changing scores.
 
 Five real captures show the Bitter Wells yard, workroom, lodging, a harder dilemma and completed comparison credit. Native art and proof records are linked in [the narrative review](NARRATIVE_REVISION_20261005.md). The original-picture files remain their independently returned 1536×1024 PNG bytes.
+
+## Storm and salt-road completion credit (2026-10-06)
+
+Run `python -m tools.validate_storm_salt_repairs --verify-source` with fixed source `c90102c720c0fd97fe31559851c57ee38e976d55` available. The audit authenticates thirteen additional selection/completion sites. Run `godot --headless --path . --script tests/storm_salt_repairs_test.gd` for rules 0–3, pending and completed saves, continued endings, overflow, duplicate credit and atomic rejection of unsupported revisions.
+
+New saves retain version 1 and use `practice_rules: 3`. Revision-2 checkpoints recognize credit actually paid on the newly deferred thirteen branches; pending work from the two earlier causality revisions stays pending. Two new real viewport captures show storm household completion and the seed-lot trial's completion. No displayed text or art was changed; the manuscript total remains 1,135,382.

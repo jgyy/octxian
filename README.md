@@ -8,6 +8,12 @@ The playable campaign contains **1,135,382 displayed prose words across 12,831 s
 
 ![Archive ensemble dialogue](docs/screenshots/archive_ensemble.jpg)
 
+## Storm and salt-road completion credit · 2026-10-06
+
+Thirteen additional choices in Books X–XI now award growth after their exclusive work passages, including the household correction hearing, all three storm departures, all three water investigations, all three optional trials and all three valley settlements. Saves use practice rules 3; older rules retain already-paid selection credit and earlier deferred work remains pending. [Source audit and review](docs/STORM_SALT_REVISION_20261006.md).
+
+This batch fixes **13 source sites of one recurring causality issue**. It does not satisfy the request for 100 new repairs or add manuscript words. The current total remains **1,135,382**, with **864,618** required to reach two million.
+
 ## Existing-volume expansion toward two million words
 
 Six new encounters add **8,630 words, 110 passages and eighteen distinct branch outcomes** inside Books XII–XVI. Xu Lin, Chen Rui, Song Mei and Wu Zheng have their own work and interests; the tidemirror otter and cinderback pangolin appear as observed creatures rather than proof of human claims. Each decision offers a trained comparison and two ungated alternatives with different costs. Cultivation stages, original findings, object custody and the existing sequence remain intact.
@@ -95,7 +101,7 @@ This continuation adds three independently generated originals: a **1536×1024 a
 | Spirit-beast originals | 15 | 501 |
 | Unique world sprites | 70 | 1,001 |
 
-The manuscript target is met. The independent artwork quotas remain unfinished, so the PR stays draft. Core outfit portraits, items and effects do not inflate world-sprite totals. **World → Interiors** previews delivered interiors; **Inspect objects** displays paintings without granting inventory custody.
+The manuscript is **864,618 words short of the 2,000,000-word target**. The independent artwork quotas also remain unfinished, so the PR stays draft. Core outfit portraits, items and effects do not inflate world-sprite totals. **World → Interiors** previews delivered interiors; **Inspect objects** displays paintings without granting inventory custody.
 
 ## Continuity review
 
