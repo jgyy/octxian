@@ -155,7 +155,7 @@ python tools/validate_world.py
 .cache/godot/Godot_v4.7.2-stable_linux.x86_64 --headless --path . --script tests/continuation_test.gd
 ```
 
-The source audit requires its fixed base commit locally. Full CI checks native dimensions, alpha and provenance, authentic repair anchors, duplicate prose, every gated story route, saves, UI, all outfit motions, completed-practice persistence, ensemble bounds and motion settings. Xvfb captures **83 real viewport screenshots** and timed portrait animation. The Linux package is launched from a folder without the source checkout.
+The source audit requires its fixed base commit locally. Full CI checks native dimensions, alpha and provenance, authentic repair anchors, duplicate prose, every gated story route, saves, UI, all outfit motions, completed-practice persistence, ensemble bounds and motion settings. Xvfb captures **96 real viewport screenshots** and timed portrait animation. The Linux package is launched from a folder without the source checkout.
 
 Piper Lessac generates narration for every displayed scene, reusing clips only after text, byte and decoded-audio checks. Changed text is regenerated. Narration uses 8 kHz mono Vorbis capped at 10 kb/s to reduce downloads; this lowers audio fidelity while keeping complete speech and timing. CI can reuse independently verified prior draft narration. Music and sound effects are original synthesized audio.
 
