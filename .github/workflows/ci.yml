@@ -71,7 +71,7 @@ jobs:
       - name: Import project
         run: |
           mkdir -p build/logs
-          .cache/godot/Godot_v4.7.2-stable_linux.x86_64 --headless --path . --editor --import 2>&1 | tee build/logs/import.log
+          .cache/godot/Godot_v4.7.2-stable_linux.x86_64 --headless --path . --editor --import 2>&1 | tee build/logs/import.log | tail -n 40
           ! rg 'SCRIPT ERROR:|Parse Error:|ERROR:' build/logs/import.log
       - name: Validate every story route and saves
         run: |
@@ -173,13 +173,13 @@ jobs:
           key: ${{ steps.narration-cache.outputs.cache-primary-key }}
       - name: Import completed narration
         run: |
-          .cache/godot/Godot_v4.7.2-stable_linux.x86_64 --headless --path . --editor --import 2>&1 | tee build/logs/narration-import.log
+          .cache/godot/Godot_v4.7.2-stable_linux.x86_64 --headless --path . --editor --import 2>&1 | tee build/logs/narration-import.log | tail -n 40
           ! rg 'SCRIPT ERROR:|Parse Error:|ERROR:' build/logs/narration-import.log
       - name: Verify intact portraits and audio provenance
         run: python tools/validate_assets.py
       - name: Package a playable Linux build
         run: |
-          .cache/godot/Godot_v4.7.2-stable_linux.x86_64 --headless --path . --export-pack Linux build/jade-vow.pck 2>&1 | tee build/logs/export.log
+          .cache/godot/Godot_v4.7.2-stable_linux.x86_64 --headless --path . --export-pack Linux build/jade-vow.pck 2>&1 | tee build/logs/export.log | tail -n 40
           ! rg 'SCRIPT ERROR:|ERROR:' build/logs/export.log
           test -s build/jade-vow.pck
           cp .cache/godot/Godot_v4.7.2-stable_linux.x86_64 build/jade-vow

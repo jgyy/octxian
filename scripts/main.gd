@@ -1094,7 +1094,8 @@ func _smoke_build() -> void:
 		valid = valid and actor.character == encounter.actor and actor.sprite.texture != null
 		valid = valid and background.texture != null and audio.voice.stream is AudioStreamOggVorbis
 	# The integrated final books, new originals and ensemble narration must survive export.
-	valid = valid and state.story.chapters.size() == 17
+	for chapter in ["book_i", "book_ii", "book_iii", "book_iv", "book_v", "book_vi", "book_vii", "book_viii", "book_ix", "book_x_storm_ledger", "book_xi_salt_road", "book_xii_canal", "book_xiii_forest", "book_xiv_harbor", "book_xv_kiln", "book_xvi_desert", "book_xvii_archive", "book_xviii_letters"]:
+		valid = state.story.chapters.has(chapter) and valid
 	for encounter in [{"node": "forest_24_close_1", "actor": "lanternwing_crane"}, {"node": "archive_25_rejoin", "actor": "sun_nian"}, {"node": "archive_25_lantern_keeper", "actor": "lan_fen"}]:
 		state.current = str(encounter.node)
 		_scene()
@@ -1175,6 +1176,34 @@ func _smoke_build() -> void:
 	var attribute_value: Label = popup.find_child("AttributeValue_trust", true, false)
 	valid = valid and attribute_value != null and attribute_value.text == "Dao Heart · 2"
 	_close_popup()
+	# Walk the new authored choice to its delayed result inside the exported pack.
+	state = StoryState.new(state.story)
+	state.current = "letters_copy_choice"
+	state.stats = {"qi": 10, "trust": 10, "insight": 10, "resolve": 10}
+	var copy_selected: bool = state.choose(0)
+	valid = copy_selected and valid
+	var consequence_steps := 0
+	while state.current != "letters_house_result_001" and consequence_steps < 100:
+		var moved: bool
+		if state.node().has("choices") and not state.node().get("random_event", false):
+			moved = state.choose(0)
+		else:
+			moved = state.advance()
+		if not moved:
+			valid = false
+			break
+		consequence_steps += 1
+	valid = state.current == "letters_house_result_001" and valid
+	valid = state.decisions.get("letters_copy_choice", "") == "letters_copy_house" and valid
+	valid = state.stats == {"qi": 10, "trust": 10, "insight": 10, "resolve": 10} and valid
+	_scene()
+	valid = audio.voice.stream is AudioStreamOggVorbis and valid
+	valid = actor.sprite.texture != null and background.texture != null and valid
+	state.current = "letters_watch_end"
+	_scene()
+	valid = state.node().get("ending", "") == "The Covers and the Receiving Date" and valid
+	valid = audio.voice.stream is AudioStreamOggVorbis and valid
+	valid = actor.sprite.texture != null and background.texture != null and valid
 	if valid:
 		print("JADE_VOW_PACKAGE_OK: standalone story, world art, object inspection and narration")
 	else:
