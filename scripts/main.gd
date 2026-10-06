@@ -985,9 +985,9 @@ func _capture() -> void:
 		await RenderingServer.frame_post_draw
 		get_viewport().get_texture().get_image().save_png("res://build/screenshots/consequence_%s.png" % ["house", "school", "lamp"][selection])
 	# Capture the actual gallery controls displaying each retained native original.
-	for painting in ["lark_pass_cliff_market", "outer_shoal_salvage_yard", "vermilion_hollows_inspection_gallery", "kestrel_basin_heat_court", "mirror_basin_reservoir_cloister", "chime_reach_relay_plaza", "qin_bo", "reservoir_qiu_nan", "reservoir_mei_rong", "reservoir_jing_su", "reservoir_fu_lian", "reservoir_zhou_wen", "reservoir_tian_yu", "mine_worker_lodging", "mine_surface_yard", "mine_clinic_room", "mine_practice_court"]:
+	for painting in ["lark_pass_cliff_market","outer_shoal_salvage_yard","vermilion_hollows_inspection_gallery","kestrel_basin_heat_court","mirror_basin_reservoir_cloister","chime_reach_relay_plaza","qin_bo","reservoir_qiu_nan","reservoir_mei_rong","reservoir_jing_su","reservoir_fu_lian","reservoir_zhou_wen","reservoir_tian_yu","mine_worker_lodging","mine_surface_yard","mine_clinic_room","mine_practice_court","wintercity_gao_shen","mine_wei_yan","lantern_shao_ye","lark_pass_avalanche_shelter"]:
 		_world()
-		var group := "npcs" if painting in ["qin_bo", "reservoir_qiu_nan", "reservoir_mei_rong", "reservoir_jing_su", "reservoir_fu_lian", "reservoir_zhou_wen", "reservoir_tian_yu"] else "backgrounds"
+		var group := "npcs" if painting in ["qin_bo","reservoir_qiu_nan","reservoir_mei_rong","reservoir_jing_su","reservoir_fu_lian","reservoir_zhou_wen","reservoir_tian_yu","wintercity_gao_shen","mine_wei_yan","lantern_shao_ye"] else "backgrounds"
 		var selected := -1
 		for index in range(world.get(group, []).size()):
 			if world[group][index].id == painting:

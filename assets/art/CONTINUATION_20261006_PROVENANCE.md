@@ -1,6 +1,6 @@
 # Native original paintings · continuation 2026-10-06
 
-These **17 independent paintings** were generated with OpenAI's image generator for ten locations and seven adult characters. Every prompt requested the highest native resolution available. The delivered landscapes are **1536 × 1024** pixels and the portraits are **1024 × 1536**; larger requested dimensions are not claimed as delivered. All actual PNG originals are retained without upscaling, cropping, recoloring, mirroring or reencoding. Portraits use native RGBA; `tools/validate_world.py` checks decoded alpha, substantial visible content, original pixels and independent file hashes.
+These **21 independent paintings** were generated with OpenAI's image generator for eleven locations and ten adult characters. Every prompt requested the highest native resolution available. Ten delivered landscapes are **1536 × 1024** pixels, the avalanche shelter is **1672 × 940**, and the ten portraits are **1024 × 1536**; larger requested dimensions are not claimed as delivered. All actual PNG originals are retained without upscaling, cropping, recoloring, mirroring or reencoding. Portraits use native RGBA; `tools/validate_world.py` checks decoded alpha, substantial visible content, original pixels and independent file hashes.
 
 | World ID | Native PNG | Actual pixels | Immutable Git blob |
 |---|---|---|---|
@@ -21,7 +21,13 @@ These **17 independent paintings** were generated with OpenAI's image generator 
 | mine_surface_yard | assets/art/world/mine_surface_yard.png | 1536 × 1024 | `0ed9f6967124c21e66af2b225077b8a6cef8c7c5` |
 | mine_clinic_room | assets/art/world/mine_clinic_room.png | 1536 × 1024 | `828a2c7791b469de2207837520b2261896c1d76b` |
 | mine_practice_court | assets/art/world/mine_practice_court.png | 1536 × 1024 | `6b6859d50d430d2960fdb4dce1ddb5f1e3b43253` |
+| wintercity_gao_shen | assets/art/world/wintercity_gao_shen.png | 1024 × 1536 | `1c997c1040fda98c9e350b7b80545f0f0952426e` |
+| mine_wei_yan | assets/art/world/mine_wei_yan.png | 1024 × 1536 | `dac53d03a2419c7c542fb4211bf10de04e5adc0c` |
+| lantern_shao_ye | assets/art/world/lantern_shao_ye.png | 1024 × 1536 | `96d5668bfc7a6d669e5387a98b69a83568d0d673` |
+| lark_pass_avalanche_shelter | assets/art/world/lark_pass_avalanche_shelter.png | 1672 × 940 | `ef871701e46c09f4607034a3a7c3711a303740a6` |
 
 Each location is a separately generated complete composition. Physical supports, ordinary transport, visibly finite fuel or water, and practical exit routes support the narrative's limits. Lighting depicts atmosphere rather than personal cultivation powering public infrastructure. The mine's lodging, surface yard, clinic and practice court depict distinct actual places; human recovery and supervised training have their own settings.
 
 Qin Bo is an adult freight porter with his own livelihood. The six Reservoir portraits follow final authored appearances: Qiu Nan,49; Mei Rong,43; Jing Su,34; Fu Lian,31; Zhou Wen,54; and Tian Yu,22. Each person has a separate original face, silhouette, clothing and role. No pose, recolor or reused source counts as another original. Existing paintings retain their earlier creation records.
+
+Gao Shen,52, is the established male North Kestrel owner and Joined Foundation practitioner. Wei Yan,41, is the female independent mine examiner with a dark braid and a grey strand. Shao Ye is the female final-circuit examiner in her fifties. Their distinct original portraits match the authored identities and carry no aura, weapon or newly granted protection. The avalanche shelter is an independent new composition of the low refuge and inaccessible damaged upper route.

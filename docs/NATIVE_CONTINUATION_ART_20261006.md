@@ -1,6 +1,6 @@
 # Native art and actual gallery captures · 2026-10-06
 
-Seventeen independent new paintings accompany the continuing novels: ten locations at actual native **1536 × 1024** pixels and seven transparent character portraits at **1024 × 1536**. Six Reservoir portraits represent the separate water steward, examiner, instrument custodian, grain-house receiver, worker delegate and clerk. The requested maximum native output is retained; no enlargement is counted. [Original creation records and Git blobs](../assets/art/CONTINUATION_20261006_PROVENANCE.md).
+Twenty-one independent new paintings accompany the continuing novels: ten locations at actual native **1536 × 1024**, an avalanche shelter at **1672 × 940**, and ten transparent character portraits at **1024 × 1536**. Six Reservoir portraits represent the separate water steward, examiner, instrument custodian, grain-house receiver, worker delegate and clerk. The requested maximum native output is retained; no enlargement is counted. [Original creation records and Git blobs](../assets/art/CONTINUATION_20261006_PROVENANCE.md).
 
 The story currently has **1,154,078 displayed words**. The following six novels remain in authoring and are excluded from that count. Their incoming decisions change source permission, work access, property and funded obligations. Each incoming term closes through actual work before the next local cultivation placement.
 
@@ -49,5 +49,13 @@ The captures below come from the running Godot game's gallery controls. They sho
 ![Actual gallery selection: mine clinic room](screenshots/native_mine_clinic_room.jpg)
 
 ![Actual gallery selection: mine practice court](screenshots/native_mine_practice_court.jpg)
+
+![Actual gallery selection: wintercity gao shen](screenshots/native_wintercity_gao_shen.jpg)
+
+![Actual gallery selection: mine wei yan](screenshots/native_mine_wei_yan.jpg)
+
+![Actual gallery selection: lantern shao ye](screenshots/native_lantern_shao_ye.jpg)
+
+![Actual gallery selection: lark pass avalanche shelter](screenshots/native_lark_pass_avalanche_shelter.jpg)
 
 Source-backed continuity repair evidence is in [the semantic sweep](SEMANTIC_SWEEP_20261006.md). That sweep verifies six new underlying defects across 27 passages, and does not claim 1,000 verified defects or count prevented draft mistakes as existing-source repairs.

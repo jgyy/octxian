@@ -112,11 +112,11 @@ This continuation adds three independently generated originals: a **1536×1024 a
 | Production quota | Delivered | Target |
 |---|---:|---:|
 | Displayed prose words | 1,154,078 | 2,000,000 |
-| Original environments | 39 | 100 |
+| Original environments | 40 | 100 |
 | Extra building interiors | 43 | 100 |
-| Human NPC originals | 62 | 500 |
+| Human NPC originals | 65 | 500 |
 | Spirit-beast originals | 15 | 501 |
-| Unique world sprites | 77 | 1,001 |
+| Unique world sprites | 80 | 1,001 |
 
 The manuscript is **845,922 words short of the 2,000,000-word target**. The independent artwork quotas also remain unfinished, so the PR stays draft. Core outfit portraits, items and effects do not inflate world-sprite totals. **World → Interiors** previews delivered interiors; **Inspect objects** displays paintings without granting inventory custody.
 
@@ -163,7 +163,7 @@ Draft validation checks delivered content and reports quotas. `python tools/vali
 
 ```mermaid
 flowchart TD
-  Books["Manifest · 17 books · playable node prose"] --> State["Choices · completed practice · versioned saves"]
+  Books["Manifest · 18 books · playable node prose"] --> State["Choices · completed practice · versioned saves"]
   State --> Stage["Native ensemble portraits + layered atmosphere"]
   Books --> Voice["Hash-verified neural narration"]
   Voice --> Game["Godot game"]
@@ -182,4 +182,4 @@ Project code and original story: [MIT](LICENSE). Original artwork provenance is 
 
 The latest [source-backed continuity sweep](docs/SEMANTIC_SWEEP_20261006.md) repairs six additional underlying contradictions across 27 passages and adds a native Lark Pass location painting. The two-million-word and 1,000-verified-repair targets remain unfinished.
 
-Seventeen new original paintings are retained at actual native resolution: ten location backgrounds at 1536 × 1024 and seven transparent character portraits at 1024 × 1536. [Their creation record](assets/art/CONTINUATION_20261006_PROVENANCE.md) identifies each immutable original. The world now contains 82 backgrounds and 62 NPC paintings; unfinished prose is excluded from the delivered manuscript count.
+Twenty-one new original paintings are retained at actual native resolution: ten location backgrounds at 1536 × 1024, the avalanche shelter at 1672 × 940, and ten transparent character portraits at 1024 × 1536. [Their creation record](assets/art/CONTINUATION_20261006_PROVENANCE.md) identifies each immutable original. The world now contains 83 backgrounds and 65 NPC paintings; unfinished prose is excluded from the delivered manuscript count.
