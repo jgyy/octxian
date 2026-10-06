@@ -4,20 +4,20 @@
   "word_target": 2000000,
   "word_target_met": false,
   "delivered_art": {
-    "backgrounds": 82,
-    "npcs": 62,
+    "backgrounds": 83,
+    "npcs": 65,
     "monsters": 15
   },
   "delivered_original_art": {
-    "backgrounds": 39,
-    "npcs": 62,
+    "backgrounds": 40,
+    "npcs": 65,
     "monsters": 15
   },
   "delivered_additional_art": {
     "building_interiors": 43
   },
   "delivered_items": 6,
-  "delivered_unique_sprites": 77,
+  "delivered_unique_sprites": 80,
   "sprite_target": 1001,
   "sprite_target_met": false,
   "minimum_sprite_native_size": [
@@ -40,11 +40,11 @@
   "art_targets_met": false,
   "remaining": {
     "authored_words": 845922,
-    "backgrounds": 61,
-    "npcs": 438,
+    "backgrounds": 60,
+    "npcs": 435,
     "monsters": 486,
     "building_interiors": 57,
-    "unique_sprites": 924
+    "unique_sprites": 921
   },
   "complete": false,
   "originality_validation": "Retained original sources, native dimensions, file hashes, and decoded pixels are checked. Distinct designs require editorial review; poses, recolors, mirrors, and other derivatives do not qualify as independent originals.",
@@ -58,5 +58,5 @@
     "remaining_rewrite_words": 890754,
     "remaining_requested_words": 845922
   },
-  "rendered_screenshots": 113
+  "rendered_screenshots": 117
 }
