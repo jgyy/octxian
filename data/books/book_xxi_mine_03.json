@@ -1,0 +1,904 @@
+{
+  "chapters": {},
+  "characters": {},
+  "nodes": {
+    "mine_p03_001": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "On Day 446, Lin returned to the mine's surface office carrying her current visitor card and her own work notes. Qiao Min had posted the week's light assistant turns beside the local waiting list. The offered work stayed outside extraction headings and used no qi. Lin read the hours before the task descriptions. She could not accept a full ordinary shift, a practice appointment and a second paid role at the same time merely because all three looked possible on separate sheets.",
+      "next": "mine_p03_002"
+    },
+    "mine_p03_002": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The forewoman asked which of the completed clearance observations Lin could document. Ren Tao kept the public references ready without opening anyone's private wage pages. A bounded assistant turn could support a new offer, but it did not promise one. Qiao checked the waiting list again and let a local applicant take the first available interval. Lin waited beside the door while the applicant chose. She had come hoping for work and did not want hope to become an excuse for failing to notice who stood ahead of her.",
+      "next": "mine_p03_003"
+    },
+    "mine_p03_003": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Deng Huan was on the list with a request for light duty. His shoulder assessment limited carrying, and the next suitable interval would be offered to him under the posted process. Qiao did not ask him to withdraw because a traveler had clearer handwriting. Lin saw him read the available task descriptions slowly. He selected the morning counting turn and asked for its load restriction in writing. The forewoman provided it. His choice reduced the remaining offers without becoming a private slight against Lin.",
+      "next": "mine_p03_004"
+    },
+    "mine_p03_004": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The mine needed more than a generally willing visitor. Each lead had a particular record or preparation task tied to work actually inspected. The lead would set the permitted materials and check the finished result. Lin could decline the offer or ask for an adjustment before accepting. Pay was four coppers for each completed half-day. Meals were specified separately. The posted amount did not buy unlimited attendance, every skill she possessed, or the right to use her reserve whenever someone found ordinary work slow.",
+      "next": "mine_work_gate"
+    },
+    "mine_work_gate": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Qiao placed the relevant completed clearance reference beside the available offer. Lin considered the new task on its own terms. The earlier choice had shown her one part of the mine and left other parts with other observers. It would be dishonest to present every morning finding as hers. She was ready to use what she had actually seen, and to leave another person's work in that person's name. The forewoman asked her to state the task's boundary before signing the acceptance line.",
+      "next": "mine_p03_common_a_001",
+      "routes": [
+        {
+          "decision": "mine_clearance_choice",
+          "selected": "mine_clearance_stairs",
+          "next": "mine_p03_stairs_001"
+        },
+        {
+          "decision": "mine_clearance_choice",
+          "selected": "mine_clearance_air",
+          "next": "mine_p03_air_001"
+        },
+        {
+          "decision": "mine_clearance_choice",
+          "selected": "mine_clearance_records",
+          "next": "mine_p03_records_001"
+        }
+      ]
+    },
+    "mine_p03_stairs_001": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The stair reference led to a timber-receiving preparation offer under Ma Lian. Lin would compare marked delivery pieces with the permitted receiving list at the surface bench. Ma and Fan retained judgment over grade, fitting and structural use. The two offered half-days were Day 446 afternoon and Day 449 morning. Lin accepted those exact intervals. The offer arose from her documented observation of the closed flight, not from a belief that a cultivator could certify wood by touching it.",
+      "next": "mine_p03_stairs_002"
+    },
+    "mine_p03_stairs_002": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Ma showed her the replacement tread's receiving packet. Its ordinary timber mark, rejected first piece and accepted fitting appeared separately. Lin's work was to make the public sequence usable for the staffing reviewer who would examine the diversion interval. She would not copy private clinical details from the basket carrier's ankle assessment. A real delay and a real complaint could reach review without making the worker's body into a document anyone at the public desk could inspect.",
+      "next": "mine_p03_stairs_003"
+    },
+    "mine_p03_stairs_003": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "During the first half-day, a delivery label arrived with two pieces bundled beneath one number. The receiving list required separate piece marks. Lin stopped the comparison and asked Ma to identify the proper issuer. Ma contacted the timber custodian, who corrected the issue record visibly before any structural assignment. Lin resumed only after the references matched. She had not discovered a dangerous beam or judged a supplier dishonest. She had prevented an ambiguous record from becoming the basis of a more important decision.",
+      "next": "mine_p03_stairs_004"
+    },
+    "mine_p03_stairs_004": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The basket carrier, Hu Wei, brought his own account of the longer route. He wanted the closure interval confirmed and asked whether Lin would describe his ankle pain. She said she could report the actual walk she knew about and direct the assessment question to its qualified source with his permission. He chose to submit that part privately. She added only the public time reference he accepted. Ma read the allowed lines with him before closing the preparation sheet.",
+      "next": "mine_p03_stairs_005"
+    },
+    "mine_p03_stairs_005": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Ma brought the first rejected timber piece back to the surface bench for a permitted demonstration. Its knot lay beside the fastening position needed for the stair, but another short use might avoid that weakness. Lin wrote the actual rejected purpose rather than labelling the whole piece worthless. The custodian would decide its next ordinary assignment. Ma said people sometimes threw away useful stock because a precise refusal had reached them as a dramatic verdict. Lin recognized that habit in stories about cultivators who failed one examination.",
+      "next": "mine_p03_stairs_006"
+    },
+    "mine_p03_stairs_006": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "A carpenter named Luan Zhi asked for the piece's dimensions before proposing another use. He would not take it privately from the returned stock. The custodian issued it for a permitted nonstructural packing spacer under the ordinary record. Lin watched the change of purpose remain visible. A rejected stair piece could become a sound spacer without retroactively proving that the stair refusal had been foolish. The new task had a different load and a different reason for accepting the wood.",
+      "next": "mine_p03_stairs_007"
+    },
+    "mine_p03_stairs_007": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Hu Wei returned with his basket empty and the ankle account submitted through the private channel he had chosen. He asked whether the public packet now called him careless for taking the alternative route slowly. Lin showed him the allowed closure sequence. It stated the barred stair and longer path, not a judgment about his walking. Hu read it with a finger beneath the line. He said he had wanted that ordinary fact recognized more than he had wanted a visitor to write a sympathetic story about him.",
+      "next": "mine_p03_stairs_008"
+    },
+    "mine_p03_stairs_008": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Ma found one old delivery summary calling the replacement tread an emergency gift from the supplier. The actual packet showed an ordinary priced replacement under a receiving agreement. Lin contacted the summary's issuer through the lead and obtained a correction. The supplier had done useful work and would be paid under its terms. Turning that work into generosity would have confused who owed the price. The correction removed a flattering sentence and made the finished account more useful to the people who had to settle it.",
+      "next": "mine_p03_stairs_009"
+    },
+    "mine_p03_stairs_009": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "On Day 449, Lin completed the second offered half-day. The reviewer now had the closure instruction, reopening time and corrected delivery references, while Hu's health information stayed within his chosen private submission. Ma accepted Lin's completed preparation. The authorized clerk paid eight coppers for the two actual half-days. Lin kept the receipt and returned the comparison board. The timber work ended there. She had earned a small wage and made a worker's account easier to examine without becoming the engineer or the wage reviewer.",
+      "next": "mine_p03_common_a_001"
+    },
+    "mine_p03_air_001": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The ventilation reference led to an observation-copying offer under Ou Sheng. Lin would prepare the permitted closure and repeat-check times for the maintenance review. She would not operate valves, infer unmeasured gases or certify the lower headings. The two offered half-days were Day 446 afternoon and Day 449 morning. Lin accepted those intervals after reading the work boundary. Her earlier indicator notes gave the lead a source to check, not a permanent reason to treat her as a ventilation specialist.",
+      "next": "mine_p03_air_002"
+    },
+    "mine_p03_air_002": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Ou compared Lin's station labels with the posted location list before she copied any readings. The corrected alcove label from the clearance turn remained visible. He said a later reader should know why the entry had changed. Lin had expected neat final pages to make the work look more credible. Ou wanted a usable record of the actual observation. They included the correction reference and left unrelated private shift information outside the permitted set.",
+      "next": "mine_p03_air_003"
+    },
+    "mine_p03_air_003": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "During the first half-day, the maintenance crew reported that the displaced packing panel's fastening had been examined. The technical finding belonged to the qualified inspector. Lin copied its accepted public disposition alongside the earlier closure interval, without writing that her feather observation had diagnosed the fastening. The sequence supported a bounded review: discrepancy noticed, access closed, cause investigated, repair checked. It did not answer whether every earlier draft change in the mine came from the same panel.",
+      "next": "mine_p03_air_004"
+    },
+    "mine_p03_air_004": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "A supplier's messenger asked if the closure note could be shortened because his delayed parcel looked bad beside it. Lin referred the request to the reviewer and preserved the source times. Ou explained that the parcel's own receiving account could describe its delay accurately. Removing a real interval from another record would not make the delivery more honest. The messenger submitted his separate account. Both documents could remain true even though their owners wished the morning had been more convenient.",
+      "next": "mine_p03_air_005"
+    },
+    "mine_p03_air_005": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Ou kept the original observation sheet beside the copied public sequence until acceptance. A faint ink mark near one time could be mistaken for an extra digit. Lin asked him to identify the intended entry from its source before copying it. He compared the station log and corrected the ambiguous mark visibly. Neither of them needed to invent a longer closure to make the maintenance response look prompt or slow. The observed interval was sufficient evidence for the review of what actually occurred.",
+      "next": "mine_p03_air_006"
+    },
+    "mine_p03_air_006": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "A lamp attendant wanted to move the comparison station farther into the light. Ou explained that the station's location served its measured purpose. A movable lamp could improve the observer's view without relocating the reference itself, if its own safety clearance was maintained. The responsible attendant made that ordinary adjustment. Lin copied the approved location label again. She saw how a practical accommodation could answer a person's difficulty without quietly changing the condition which later readers would think had been compared.",
+      "next": "mine_p03_air_007"
+    },
+    "mine_p03_air_007": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The maintenance worker who secured the panel described the awkward reach from the isolated service place. He wanted the next planned fastening check to include enough time for that reach rather than a convenient estimate made at the surface desk. Lin recorded his permitted request beside the technical reference. Ou would submit it through the maintenance planning process. The worker was not asking for a heroic account of his danger. He wanted a future task to be budgeted as the task he had actually had to perform.",
+      "next": "mine_p03_air_008"
+    },
+    "mine_p03_air_008": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "When the public sequence was complete, Ou read it to the maintenance lead and asked what a stranger could wrongly conclude from it. The lead pointed to a sentence which made the panel repair sound like proof about every adjacent heading. Lin narrowed it to the checked access named in the source. She had not meant to expand the finding, but intention would not keep the printed sentence within its proper reach. The corrected copy left the rest of the mine under its actual separate inspections.",
+      "next": "mine_p03_air_009"
+    },
+    "mine_p03_air_009": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "On Day 449, Lin completed the second half-day. Ou accepted the copied public sequence after comparing it with the original permitted sources. Ren paid eight coppers for the two performed intervals. Lin returned the copying board and kept her wage receipt. The offered ventilation preparation ended. The qualified crew retained its instruments and decisions. Her contribution had made a closure and repair traceable without giving her a valve key or the right to declare unknown air safe.",
+      "next": "mine_p03_common_a_001"
+    },
+    "mine_p03_records_001": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The task-ticket reference led to a correction-preparation offer under Ren Tao. Lin would arrange the permitted public references for the ordinary wage reviewer. She would not determine a wage award or open private health pages. The two offered half-days were Day 446 afternoon and Day 449 morning. She accepted them after asking which corrections were still disputed. Ren answered from the public incident sheet and left the private drawer shut.",
+      "next": "mine_p03_records_002"
+    },
+    "mine_p03_records_002": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Su E checked the permitted copy set before work began. Her misdated public task reference now matched the receiver's delivery source, but the reviewer had not yet issued the separate wage disposition. Lin did not tell her the payment was guaranteed. Su asked for the scheduled review date and the place where she could submit a further account. Ren provided both. A corrected record had improved her position without completing another person's decision ahead of its actual time.",
+      "next": "mine_p03_records_003"
+    },
+    "mine_p03_records_003": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "During the first half-day, Lin found that the cancelled future-inspection ticket had been copied into a summary column as if it described performed work. The summary's issuer had copied the number without its cancellation mark. Ren stopped that entry and obtained a visible correction from the issuer. The mistake did not prove an invented inspection had physically occurred. Lin wrote the exact discrepancy and the accepted correction. A useful account could explain how an apparent completion arose without requiring an accusation larger than its sources.",
+      "next": "mine_p03_records_004"
+    },
+    "mine_p03_records_004": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The worker who wanted to submit an account after his shift arrived before the office closed. Lin kept the agreed place for his reference and let Ren receive the statement under its own terms. It concerned a diversion, not the misdated ticket. Mixing them would have made two people's different questions harder to answer. The man read the separation and approved it. Lin found herself taking pride in the small arrangement because nobody had to become the main character of someone else's paperwork.",
+      "next": "mine_p03_records_005"
+    },
+    "mine_p03_records_005": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Ren showed Lin the ordinary meaning of a public task correction. It established the task reference to be considered; the wage reviewer still had to apply the relevant agreement and hear any permitted dispute. Lin wrote the distinction at the top of the copied packet. Su E read it and asked whether such caution made her completed work uncertain again. Ren said the receiver's confirmed completion stayed confirmed. Another process was deciding payment, not asking her to perform the same work twice because a date had blurred.",
+      "next": "mine_p03_records_006"
+    },
+    "mine_p03_records_006": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "A worker named Zeng Bo had submitted the diversion account after his shift. He saw Su's corrected number beside his separate reference and worried that the desk had merged their claims. Lin showed the dividers and read the headings. Zeng checked his own allowed line and signed its accuracy. He did not read Su's private page. The public preparation gave both people a place without asking either one to lend the other a story. Lin found that separation more humane than a sweeping sentence about all workers suffering together.",
+      "next": "mine_p03_records_007"
+    },
+    "mine_p03_records_007": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "At the second half-day, the reviewer issued Su's actual wage disposition through the proper account. Ren notified her without giving Lin custody of the payment. Su later said the approved amount had reached her, and she allowed the public record to state that the scheduled disposition was complete. Lin added that reference with the issuer's confirmation. She did not put Su's private spending into her notes. A resolved administrative problem could end where the worker wanted it to end.",
+      "next": "mine_p03_records_008"
+    },
+    "mine_p03_records_008": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Zeng's diversion account needed one further receiver comparison and remained open under its stated review date. Ren did not hold Su's unrelated completed disposition until both cases looked equally finished. Lin prepared the remaining request separately. Zeng disliked waiting and accepted the clear next step. The two outcomes made the morning less symmetrical than a tidy summary would have made it. They also preserved what the actual sources supported: one disposition complete, one specific comparison still needed, and neither person's work borrowed to settle the other.",
+      "next": "mine_p03_records_009"
+    },
+    "mine_p03_records_009": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "On Day 449, Lin finished the second half-day. Ren accepted the public preparation after checking the sources and the visible corrections. He paid eight coppers for the two performed intervals and gave her the wage receipt. The wage reviewer would make the actual decisions separately. Lin returned the board, leaving Su's private materials with their authorized custodian. Her task had improved a record without turning access to a desk into access to every person whose name appeared there.",
+      "next": "mine_p03_common_a_001"
+    },
+    "mine_p03_common_a_001": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Before Lin considered a longer agreement, the available short-turn interval ended. Qiao did not let its completion silently enroll her for another month. She showed a separate surface-assistant offer beginning on Day 450. It covered two four-hour half-days per week for eight weeks, at four coppers per completed half-day. Tasks would be light receiving or public copying under a named lead, with private sources excluded unless separately permitted. There was no extraction shift, required qi use or general inspection authority hidden beneath the word assistant.",
+      "next": "mine_p03_common_a_002"
+    },
+    "mine_p03_common_a_002": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Lin compared the offer with the local waiting list and the lodging rates before answering. Deng's light-duty intervals remained protected under his own accepted arrangement. The new assistant turn used another defined desk interval which no listed applicant had accepted. Lin asked why it was open. Qiao said its broken placement across two weekdays did not suit everyone. Lin could manage it because her possible training appointments had not been booked yet. She accepted the eight-week work agreement rather than promising to arrange every future practice around an unknown employer's request.",
+      "next": "mine_p03_common_a_003"
+    },
+    "mine_p03_common_a_003": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The agreement named the responsible lead for each issued task and a process for refusing material outside its scope. Pay depended on actual completed half-days, not on pretending an inaccessible desk had been used during a closure. If the mine changed the available work, the change needed a new accepted instruction. Lin read the cancellation and review clauses as carefully as the rate. She could not afford to treat only the attractive line as the contract and discover the other lines when a problem arrived.",
+      "next": "mine_p03_common_a_004"
+    },
+    "mine_p03_common_a_004": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_worker_lodging",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "For the same eight weeks, Han Bo offered a four-copper weekly room-and-board arrangement covering a bed and the stated ordinary meals. Lin checked the room, stove and payment day before accepting. Eight completed work half-days would not be claimed at once: two each week meant eight coppers gross per week and sixty-four over sixteen actually performed half-days. Eight weekly board payments would total thirty-two. The planned remainder was thirty-two, not a promise that those coins existed before she worked.",
+      "next": "mine_p03_common_a_005"
+    },
+    "mine_p03_common_a_005": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_worker_lodging",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "She wrote the two accounts on separate pages. Mine wages belonged to the accepted work agreement; room and meals belonged to Han's accepted lodging arrangement. A future practice fee would need its own source and receipt. Lin liked the simple projected remainder enough to distrust it. Illness, work closure or a cancelled interval could change what she earned. She kept ordinary travel money separate and would reserve actual paid wages as they arrived, instead of committing the projected total to a breakthrough which had no appointment.",
+      "next": "mine_p03_common_a_006"
+    },
+    "mine_p03_common_a_006": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_worker_lodging",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Han showed her the cupboard space included with the room. It could hold her own pack and permitted paper copies. It did not become secure storage for someone else's instrument without their agreement. Lin left any borrowed kit in its appointed custody arrangement. The keeper was pleased not to receive an unexplained case which might later make him responsible for a valuable tool. He swept the cupboard himself and told her where the spare blankets belonged. A room could be comfortable without becoming a laboratory.",
+      "next": "mine_p03_common_a_007"
+    },
+    "mine_p03_common_a_007": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "On Day 450, Lin completed the first common surface assistant half day under Qiao's issued task. She prepared the public receiving board with supplied paper, pencil and permitted references, excluding private cargo prices and unapproved routes. Qiao checked the finished board before posting. At the stated end of four hours Ren paid the agreed four coppers. Lin then paid Han the first four copper board charge, covering Days 450 through 456, using the wage already received. Her room and stated meals were secured without spending another week's projected pay.",
+      "next": "mine_p03_common_a_008"
+    },
+    "mine_p03_common_a_008": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Her second half-day that week concerned the returned empty containers in the surface bay. The receiving lead identified owners and the permitted condition references. Lin counted from those records without treating every container as the mine's property. One lid belonged to a different listed receiver and waited for correction. She did not solve the mismatch by placing it on whichever tub fitted best. An ordinary container could be valuable through its owner's trade, and a tidy stack could conceal a wrong transfer.",
+      "next": "mine_access_gate"
+    },
+    "mine_access_gate": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The corrected lid went to its actual receiver after the issuer compared both records. Lin's task finished on time. Ren paid the first week's eight coppers against two completed half-days. She paid Han four for the agreed week of room and board, keeping both receipts. Four remained from that week's mine work. She could save them, spend them or reserve them for a later accepted cost. Their existence came from the two actual intervals, not from the fact that a cultivation chart showed six paired routes.",
+      "next": "mine_p03_common_b_001",
+      "routes": [
+        {
+          "decision": "shoal_terms_choice",
+          "selected": "shoal_terms_convoy",
+          "next": "mine_p03_convoy_access_001"
+        },
+        {
+          "decision": "shoal_terms_choice",
+          "selected": "shoal_terms_refuge",
+          "next": "mine_p03_refuge_access_001"
+        },
+        {
+          "decision": "shoal_terms_choice",
+          "selected": "shoal_terms_survey",
+          "next": "mine_p03_survey_access_001"
+        }
+      ]
+    },
+    "mine_p03_convoy_access_001": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The completed convoy role led to a fresh invitation from Sui Jun to observe the public receipt disposition meeting. The invitation named the freight plates and the accepted receiving record, not a general supplier laboratory privilege. Lin checked the new scope before attending on an afternoon outside her mine half-day. Sui said the original comparison bench reservation had ended. The meeting used a table in the surface office. Nobody needed to pretend a completed cargo appointment was still open in order to have a legitimate later conversation.",
+      "next": "mine_p03_convoy_access_002"
+    },
+    "mine_p03_convoy_access_002": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The plate held for condition review would remain with its owner until the repair decision. The supplier accepted a separately documented ordinary repair, subject to the comparator's actual check afterward. Lin could observe the public disposition but could not copy the private repair method. She wrote the allowed outcome in her own note. One freight clerk wanted the statement to say the convoy had delivered every item ready for service. Sui declined. A completed transport and an unresolved working condition were different facts.",
+      "next": "mine_p03_convoy_access_003"
+    },
+    "mine_p03_convoy_access_003": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "A worker representative attended the meeting under her own permission. She asked whether handling the held plate would require additional ordinary labor and where that task would appear. The supplier identified a future posted turn rather than expecting the mine crew to absorb it unnoticed. Lin saw a useful question come from somebody she had not brought on the road. The convoy arrangement had opened this particular conversation for her. It had not made every person present a delegate whose consent she could carry into another inquiry.",
+      "next": "mine_p03_convoy_access_004"
+    },
+    "mine_p03_convoy_access_004": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "After the meeting, Sui offered Lin a permitted public disposition copy. She accepted that copy and declined an unsolicited draft containing private method details. The draft belonged to its owner, and interest was not authorization. Her retained papers now supported the condition chain and the announced repair task. They would not let her operate the supplier bench during independent cultivation practice. Lin put the new permitted copy behind the earlier receipt and closed the packet with its limits still readable.",
+      "next": "mine_p03_common_b_001"
+    },
+    "mine_p03_refuge_access_001": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The completed relocation receiving role led to a fresh conversation request from Bai Fen and Pei Lu. They had different questions about local work notices and chose an afternoon outside Lin's mine half-day. Bai wanted to compare the public tile-repair opening with her own experience. Pei wanted the kitchen applicant hours explained. Lin could help read the postings. She could not guarantee employment, carry their private statements into a new interview, or tell Qiao that accepting transport had already made them members of the mine crew.",
+      "next": "mine_p03_refuge_access_002"
+    },
+    "mine_p03_refuge_access_002": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "They read the actual requirements and chose their next steps separately. Bai decided to seek the forewoman's ordinary applicant appointment. Pei first visited a surface kitchen which was outside the mine employer. Neither choice changed the four-day arrival account now completed. Continuing room and meals required their own accepted arrangements. Lin helped them find the relevant contact places without promising a board extension from money no longer in her custody. Her earlier receiving work had ended; friendship did not automatically reopen its wage or housing lines.",
+      "next": "mine_p03_refuge_access_003"
+    },
+    "mine_p03_refuge_access_003": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Jin Shu later asked whether her short boarding account had been copied into the mine's public labor discussion. Lin checked the permission with the host liaison and confirmed it had not. The permitted source remained limited. Jin wanted to consider a new statement after seeing the local work conditions, and she had not decided. Lin thanked her for asking and did not schedule an interview in advance. A person could reopen a conversation without having opened every possible use of an older account.",
+      "next": "mine_p03_refuge_access_004"
+    },
+    "mine_p03_refuge_access_004": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Yan He had found a customer needing a basket rim repaired. Xu Zhen was keeping the clinic appointment he had sought for his shoulder. Lin knew those facts because they chose to tell her in the surface lane. They had declined optional statements and owed no account of their days. She greeted both without trying to turn ordinary news into evidence. The relocation role had given her relationships which could continue beyond its contract, while every person retained the right to decide what that continuation meant.",
+      "next": "mine_p03_common_b_001"
+    },
+    "mine_p03_survey_access_001": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The completed survey receiving role led to a fresh permitted issue request for a surface route comparison on Day 455. The Outer Shoal Pilots' Association loan scope allowed the specified ordinary observation with the lender-owned kit. Qiao approved the mine-side receiving interval and the responsible holder issued the case against its condition list. Lin did not take the cupboard key. The road tools remained a loan with a Day 500 deadline and a planned Day 496 dispatch, even while a useful new comparison gave her a reason to open the case.",
+      "next": "mine_p03_survey_access_002"
+    },
+    "mine_p03_survey_access_002": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The local lead wanted the public extract's route heading compared with a cleared surface approach. Lin used the unpowered level and plumb within their listed light duties. A sloping patch of paving made the first placement unsuitable. The lead selected the correct reference, and they repeated the observation. Lin recorded the unsuitable setup without calling it a change in the mountain. Neither tool read her internal channels. The comparison produced an ordinary surface finding whose usefulness depended on retaining the actual reference and source limits.",
+      "next": "mine_p03_survey_access_003"
+    },
+    "mine_p03_survey_access_003": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The public quarantine extract remained a record of its named place and date. When someone suggested applying its conclusion to the mine's present water, Lin pointed to the difference in sources. A qualified local check would need actual local evidence under a separate task. The borrowed instruments supplied no authority to skip it. Qiao accepted the bounded report and referred the water question to the responsible service. A permitted extract could improve a conversation by preventing an unsupported conclusion rather than providing the conclusion everyone hoped to borrow.",
+      "next": "mine_p03_survey_access_004"
+    },
+    "mine_p03_survey_access_004": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "At the end of the issued turn, the responsible holder checked the kit's condition and secured it again. The old corner chip and plumb-cord fray matched the issue record. Lin retained only her own ordinary observations and the authorized public extract. She recorded the used interval and the unchanged return deadline. The remaining four-copper dispatch reserve still belonged to the survey account's stated purpose. A successful comparison had not converted it into spare wages or given the tools a new owner.",
+      "next": "mine_p03_common_b_001"
+    },
+    "mine_p03_common_b_001": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "By Day 456, Lin had completed the first week of her accepted common light-work agreement. The mine had received useful observations through several people, not one visitor. She knew more routes through the surface yard and still entered only those her current permission covered. The closed headings remained closed. The gallery's faint ticking sometimes reached the wash basin, but she did not let curiosity change her accepted desk hours or borrow an instrument outside its actual issue process.",
+      "next": "mine_p03_common_b_002"
+    },
+    "mine_p03_common_b_002": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Qiao introduced the ordinary structure examiner, Fan Luwei, at a surface planning table. He was reviewing the week's timber and drain work with responsible leads. Lin's presence concerned the public receiving references she had been asked to prepare. She heard enough to understand that extraction plans depended on inspections she had not observed. She did not copy their technical conclusions as her own. Fan asked her to identify a delivery date, and she gave its source rather than an answer assembled from memory.",
+      "next": "mine_p03_common_b_003"
+    },
+    "mine_p03_common_b_003": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "One overdue supplier reply affected a repair interval. Qiao moved the repair task only after the engineer confirmed the safe interim condition. The associated worker accepted a different posted light turn instead of waiting unpaid in the yard all morning. Lin prepared the changed public board under instruction. The change left a cost and a limit visible. It did not make the mine run smoothly by decree. A real replacement turn covered that interval; it was not a promise that every future delay could find useful work waiting beside it.",
+      "next": "mine_p03_common_b_004"
+    },
+    "mine_p03_common_b_004": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Deng ate lunch at the surface bench with his arm supported as the clinician had advised. He said the lighter turn helped his wages but annoyed him because other people now watched whether he lifted a basket. Lin asked whether he wanted company or advice. He chose company. They discussed the lodging keeper's habit of serving the same cabbage twice with different names. Deng laughed and then rested his shoulder again. A reduced-duty arrangement could be useful without making the person living inside it cheerful every hour.",
+      "next": "mine_p03_common_b_005"
+    },
+    "mine_p03_common_b_005": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The worker's joke eased Lin's fear of appearing idle between accepted half-days. She had time for ordinary walking, meals and future practice preparation because the agreement was bounded. Filling every gap with favors would make that boundary fictitious. When another clerk asked if she could stay past the agreed end to finish an unrelated private account, she referred him to Qiao and left at her own end time. The request needed a new accepted role. She did not make resentment the only way to protect a clear contract.",
+      "next": "mine_p03_common_b_006"
+    },
+    "mine_p03_common_b_006": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "On her free morning, Lin went to the market while ordinary miners hurried past toward their shifts. She felt exposed by having time to choose onions. The seller asked whether she wanted the firm ones or the cheaper bruised lot, and the question brought her back to a task she understood. She bought a small firm onion from her own purse. Nobody at the stall needed an explanation of her work hours. Rest and personal errands could be parts of a sustainable agreement without needing to look like training.",
+      "next": "mine_p03_common_b_007"
+    },
+    "mine_p03_common_b_007": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "At the well, Lei An was speaking with a local spinner about a hired wheel. The conversation belonged to them. Lin greeted Lei and waited only long enough to ask whether the lamp-store delivery had arrived. Lei said it had not and returned to the wheel's actual hire conditions. Lin walked on. Whatever role had brought her to the mine, the same ordinary market contained people making their own arrangements. A recognized face did not confer the right to stay inside every discussion.",
+      "next": "mine_p03_common_b_008"
+    },
+    "mine_p03_common_b_008": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "A small boy found a loose copper beneath the market bench and asked Lin whether it was hers. She checked her purse and said no. They took it to the stall keeper, who knew which customer had just reported a missing coin. The child received thanks rather than a promise of spiritual luck. Lin liked the modest completeness of the event. A lost coin had an owner, a question and a plausible return route. It did not need to become the mountain's reward for her character.",
+      "next": "mine_p03_common_b_009"
+    },
+    "mine_p03_common_b_009": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_worker_lodging",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Han later asked whether Lin would mind a quiet repair to the room's window latch during her next work half-day. She agreed to the named entry condition and moved her own papers into the cupboard. He would not inspect them. The carpenter repaired the latch, and Han told her what had changed when she returned. Lin checked its ordinary movement before the rain. The arrangement had made a small inconvenience manageable without implying that paid lodging surrendered all privacy to whoever held a spare key.",
+      "next": "mine_p03_common_b_010"
+    },
+    "mine_p03_common_b_010": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_worker_lodging",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "That evening she counted the first paid week's remainder again and reserved it for a future cost she had not yet accepted. The four coppers could not finance a whole curriculum, but they were real. Lin resisted writing the projected eight-week remainder as her present balance. The ordinary distinction felt almost childish until she remembered how easily hope spent tomorrow's wages. She put the actual coins in a separate fold and left the training appointment blank until somebody qualified could tell her what it would require.",
+      "next": "mine_p03_common_b_011"
+    },
+    "mine_p03_common_b_011": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_worker_lodging",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "At the lodging table, Han asked whether the mine had begun making her rich. Lin showed no private account but said the actual rate and board cost left a modest remainder. He said the mountain made visitors underestimate how much an ordinary year cost. She asked what price usually surprised them. He named boots, then smiled at her own worn pair. Lin examined the sole that evening. It needed repair before another long trip. No breakthrough would replace the ordinary leather without money, materials and somebody's work.",
+      "next": "mine_p03_common_b_012"
+    },
+    "mine_p03_common_b_012": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "She took the boots to a cobbler on her free afternoon. He examined the sole and offered a bounded repair at a stated price. Lin accepted it from her own travel purse, keeping it separate from projected mine wages. The boots returned the next day with sound stitching and a patch which did not match the old color. She walked the surface lane before relying on them for a longer route. A familiar possession could change condition, be repaired and need checking without becoming a symbol of permanent loss or miraculous restoration.",
+      "next": "mine_p03_common_b_013"
+    },
+    "mine_p03_common_b_013": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_worker_lodging",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Lei An invited Lin to help fold clean lamp-store cloths after supper. The invitation was private company, and the cloths were Lei's own household laundry. Lin agreed to hold the corners while they talked. At work, similar cloths would have an issue and return record; here the ordinary shared task ended when the small stack was folded. Lei asked whether Lin ever tired of measuring everything. Lin said she did, but she had learned that some unmeasured things became another person's unexpected bill.",
+      "next": "mine_p03_common_b_014"
+    },
+    "mine_p03_common_b_014": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_worker_lodging",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Lei considered that answer and brought out a cracked cup he had mended badly. He said his unexpected bill usually arrived as a puddle beneath the shelf. Lin did not offer qi to close the crack. They poured the remaining tea into sound cups and set the cracked one aside for the appropriate ordinary repair or another safe use. The action made the joke less abstract. A small known defect deserved a small practical response instead of becoming proof that every failed thing should be thrown away.",
+      "next": "mine_p03_common_b_015"
+    },
+    "mine_p03_common_b_015": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_worker_lodging",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Later, Lin opened her cultivation record in the recovered quiet of her room. The sixth-stage entries still concerned six primary pairs and the tasks she had actually learned to stop and release. The governing and conception preparation had not begun. She noted the first week's paid wages and kept reserve measurements on another page. Money could fund food, tools and instruction. It would not become internal capacity through multiplication on a ledger. She could save toward an examination while remaining at the stage she had already earned.",
+      "next": "mine_p03_common_b_016"
+    },
+    "mine_p03_common_b_016": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_worker_lodging",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The room-and-board agreement gave the coming week a place for sleep and ordinary meals. It did not guarantee that she would always feel rested. The mine's night carts sometimes woke her; another guest coughed in the corridor; worry could follow her to bed. Lin arranged an earlier quiet interval before any future measured trial rather than assuming a paid room automatically met its recovery condition. Han agreed to warn her about scheduled late deliveries. Their practical arrangement would help, and the actual recovered state would still need checking.",
+      "next": "mine_p03_common_b_017"
+    },
+    "mine_p03_common_b_017": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_worker_lodging",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "She wrote a question for the independent curriculum inquiry: who would examine her if the mine supplied equipment or paid for a comparison? The question mattered before any failed attempt or favorable result. An employer might benefit from a technique remaining available; a learner might want the paid role which came with it. Neither interest made an assessor dishonest by itself. Lin wanted the interests named and separated where possible. She folded the question inside her own notebook rather than presenting it as a conclusion about people she had not met.",
+      "next": "mine_p03_common_b_018"
+    },
+    "mine_p03_common_b_018": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_worker_lodging",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Before she slept, a worker knocked downstairs asking why the supplier's shipment had been accepted while his own repaired tool still waited outside. Lin went downstairs to listen.",
+      "next": "mine_p03_common_b_019"
+    },
+    "mine_p03_common_b_019": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_worker_lodging",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The living seam's ticking reached her window again that night, softer than the hall bucket. She listened without assigning it to Lu Sen's dead voice. Lei's family image, a worker's recording and a current field sound were separate sources. Lin could care about each without making them identical. She turned the notebook closed and went to sleep. On the next workday, the mine would still need ordinary people to issue tools, clean bowls, inspect timber and decide whether a public reference was clear enough to use.",
+      "next": "mine_p04_001"
+    }
+  }
+}

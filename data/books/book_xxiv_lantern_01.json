@@ -1,0 +1,1000 @@
+{
+  "chapters": {
+    "book_xxiv_lantern": {
+      "label": "BOOK XXIV",
+      "title": "The Lantern That Outlived Its Fuel"
+    }
+  },
+  "characters": {
+    "lantern_qiu_renshu": {
+      "name": "Qiu Renshu",
+      "title": "Receiving clerk of the Wheatbridge road house",
+      "color": "#b8ac93"
+    },
+    "lantern_deng_si": {
+      "name": "Deng Si",
+      "title": "Station manager for the Six-Reach association",
+      "color": "#a9bac3"
+    },
+    "lantern_zheng_lin": {
+      "name": "Zheng Lin",
+      "title": "Retired relay fitter and household tenant",
+      "color": "#b3a7bd"
+    },
+    "lantern_jin_lu": {
+      "name": "Jin Lu",
+      "title": "Licensed relay fuel and isolation examiner",
+      "color": "#b6a17e"
+    },
+    "lantern_ma_yan": {
+      "name": "Ma Yan",
+      "title": "Paid dispatcher of the Chime Reach relay",
+      "color": "#b5bcc8"
+    },
+    "lantern_he_pu": {
+      "name": "He Pu",
+      "title": "School copyist and meeting interpreter",
+      "color": "#a3b6a7"
+    },
+    "lantern_shao_ye": {
+      "name": "Shao Ye",
+      "title": "Bench examiner of the registered great circuit curriculum",
+      "color": "#b5a59b"
+    }
+  },
+  "nodes": {
+    "lantern_entry": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "On Day 1385, Lin Yue reached Wheatbridge with a road ticket that had acquired three different corners. Rain had softened the first; a customs clerk had cut the second; the third still carried the basin receiving mark. The bridge stood on ordinary stone piers. Below it, a mill race turned brown with upstream soil. Yue waited for a loaded cart to finish crossing before following its wheel line. Her prior examination readings travelled in a dry inner wrapper, separate from any estimate of today's reserve.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_01_002"
+    },
+    "lantern_01_002": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "The road house occupied an old grain shed beside the eastern abutment. Somebody had painted the receiving door blue without taking its hinges off, leaving two narrow crescents of bare wood. Qiu Renshu stood at a desk inside, counting covered parcels against a driver's list. He asked Yue to wait until the driver could leave. She set her pack beside the bench and watched him reject a parcel whose destination had been copied from its sender's address.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_01_003"
+    },
+    "lantern_01_003": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "The driver protested that the parcel had come this way before. Qiu showed him the two boxes on the form. The driver looked, swore softly at himself, and wrote the destination again. Only then did Qiu take Yue's ticket. He read the basin reference without touching the inner wrapper. \"Do you want a bed, a receiving appointment, or directions?\" he asked. Yue wanted all three. He gave her the bed price first, which helped her trust the directions.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_01_004"
+    },
+    "lantern_01_004": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "A night with supper and breakfast cost two copper. Washing water came from the covered yard barrel; drinking water came from the kitchen's separate supply. The remaining road fare on her ticket covered the ordinary association cart as far as Chime Reach, subject to its actual departure. It paid no lodging interval while she waited. Yue counted four copper from her own pouch and booked two nights. Qiu wrote the dates before taking the coins, then handed back a receipt with a space for departure.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_01_005"
+    },
+    "lantern_01_005": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "The sleeping room held four raised beds and a low shelf for each person's belongings. A potter occupied the far bed, arranging samples inside straw rings. He moved a ring out of Yue's space without being asked. His wife had stayed at their workshop because a kiln firing could not accompany a sales journey. He asked whether Yue's wrapped sword meant she guarded valuable parcels. She said it meant she owned an ordinary sword. He accepted that answer and returned to fitting straw around a bowl.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_01_006"
+    },
+    "lantern_01_006": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Yue put the pendant beneath her folded shirt, where it would not knock against the bed frame. Nothing in its warmth told her where to go next. She washed the road dust from her neck and looked at the drying cloth on the window rail. Fifteen days had passed since the basin departure. During those days she had walked, ridden paid ordinary carts, and slept when the road houses could accommodate her. The last certificate described recovered trials before departure, rather than a measurement secretly repeated by travelling.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_01_007"
+    },
+    "lantern_01_007": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "In the kitchen, a woman was removing burned beans from the bottom of a pot while keeping the upper portion for supper. She called herself Aunt Nan because several unrelated travellers had begun doing so. Yue asked whether that was her preferred address. It was, at this table. Nan gave her a bowl, then asked her to shift a stool out of the serving lane. The room needed that small improvement more urgently than it needed another person admiring the smell of food.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_01_008"
+    },
+    "lantern_01_008": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "At the next table, two relay porters disputed a delivery allowance. One had waited through a closed gate; the other had reached the wrong gate and refused to call the difference important. Their supervisor drew both routes on the tabletop with a wet fingertip. Water darkened the wood, then began disappearing. Yue watched the marks vanish before the dispute ended. A practical diagram could need a better surface than the first convenient one. She ate before the beans cooled and left the argument to the people paid to settle it.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_01_009"
+    },
+    "lantern_01_009": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Qiu found her after supper with a folded message from Deng Si, the Six-Reach association's station manager. Deng had a receiving appointment the following morning. The association maintained a local relay serving six named settlements and hired carriers for other connections. It had asked the basin office for a bounded comparison about interruptions in supplied services. It had bought no claim over the basin's households, apparatus, or people. Qiu read that distinction from the request instead of enlarging it into a welcome speech.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_01_010"
+    },
+    "lantern_01_010": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Yue asked whether the request meant employment. Qiu said it meant an appointment whose travel and consultation terms had to be checked against the actual reply. The association had provisionally reserved six copper for a short source review, not accepted an unknown worker for a season. Yue took the message upstairs and read it by the potter's permitted lamp. He wanted to extinguish the lamp at the bell. She finished before that time, remembering that light supplied by another person's oil still had an owner.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_01_011"
+    },
+    "lantern_01_011": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "The morning bridge queue began before the kitchen bell. A woman carrying chicks in a covered basket stood behind a wheelwright's cart and kept correcting the wheelwright's estimate of how loudly chicks could complain. Yue bought a strip of plain paper from Qiu's small stationery stock. It cost half a copper, entered against her own expense. She used the top for questions about receiving scope, time, payment, and copies. The remaining paper went inside her notebook. Qiu showed her the station door across the yard.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_01_012"
+    },
+    "lantern_01_012": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Deng Si had arranged the appointment around the association's regular freight sitting. She sat at one end of a narrow table while a paid minute clerk occupied the other. A shutter kept the sun off the copied timetables. Deng offered water and asked permission to read the outer basin receiving reference. Yue agreed. The inner examination wrapper stayed closed because the requested comparison concerned service obligations. Her realm certificate could inform a later qualified task, but it did not turn every meeting into an examination.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_01_013"
+    },
+    "lantern_01_013": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "The clerk read the request aloud once. Chime's old relay had a declining fuel supply and an isolation assembly approaching the end of its inspected life. The Six-Reach association wanted to know how another institution recorded finite commitments when a service changed. It wanted dated examples within actual permission. It would not treat a traveller's account as authority to copy whole household files. Deng asked Yue what the basin had entrusted to her and what work, if any, remained to be received.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_incoming_gate"
+    },
+    "lantern_incoming_gate": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "The answer depended on the basin terms Yue had actually accepted. She laid the outer receiving sheet flat, keeping its owners' fields covered until the clerk confirmed the permitted use. Deng moved the timetable aside to make room for a second signed reference. The waiting porters could continue their own count at the other bench. Nobody at this table needed an invented complete archive to begin. They needed the lawful part of the reply and a named person responsible for its ending.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_incoming_retreat_01",
+      "routes": [
+        {
+          "decision": "reservoir_terms_choice",
+          "selected": "reservoir_terms_rotation",
+          "next": "lantern_incoming_rotation_01"
+        },
+        {
+          "decision": "reservoir_terms_choice",
+          "selected": "reservoir_terms_buffer",
+          "next": "lantern_incoming_buffer_01"
+        },
+        {
+          "decision": "reservoir_terms_choice",
+          "selected": "reservoir_terms_retreat",
+          "next": "lantern_incoming_retreat_01"
+        }
+      ]
+    },
+    "lantern_incoming_rotation_01": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "The observer terms named a finite public comparison role. Yue showed Deng the permitted operating observations and the ratified limits on their copying. The basin retained its original source books. Its instruments remained under basin custody. These travelling sheets recorded only the fields the owners had admitted. Deng wanted the failure intervals placed beside Chime's timetable. Yue agreed to a comparison of those admitted fields, with a separate column for differing conditions and no endorsement of Chime's machinery.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_incoming_rotation_02"
+    },
+    "lantern_incoming_rotation_02": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "The minute clerk counted the permitted sheets rather than accepting the thickness of their wrapper as proof of completeness. One table had a blank household column. Yue explained that the blank meant the household comparison had not been offered for this receiving use. The clerk marked it excluded. Deng asked whether another request could obtain it. Yue could carry a request through the basin's named contact. She could promise neither an answer nor permission. The room's first useful result was a limit made visible.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_incoming_rotation_03"
+    },
+    "lantern_incoming_rotation_03": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Deng offered a locally funded review of the admitted service intervals. Its proposed hours would have to fit the observer handover still outstanding. The offer supplied a separate payment for Chime work; it did not claim that basin wages bought work for two employers. Yue asked the clerk to show those accounts on different lines. He did. Deng had expected fewer questions from a traveller who needed money. She said the distinction would save questions later, and fetched the form used for outside consultations.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_incoming_rotation_04"
+    },
+    "lantern_incoming_rotation_04": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "At the map bench, Yue placed the first permitted interval beside a Chime dispatch date. The events involved different devices and different weather. She left those differences in the heading. A porter looking over her shoulder asked whether the basin figure proved a relay could always endure another delay. She showed him the recorded stopping decision. It proved that somebody had stopped under those particular limits. He nodded reluctantly, then returned to his cart's actual departure time instead of asking the sheet for a guarantee.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_incoming_rotation_05"
+    },
+    "lantern_incoming_rotation_05": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "The clerk prepared a receipt naming the copies admitted today and the review question still pending. Yue checked it against the basin wrapper before signing her own delivery line. The original permission stayed with her until the designated final handover. Deng received the bounded local comparison copy, with its correction address intact. One porter needed the table for a tally. Yue cleared her papers immediately. Lawful access had enabled a real piece of work, and that work still had to share an ordinary room.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_incoming_rotation_06"
+    },
+    "lantern_incoming_rotation_06": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Outside, Deng asked whether Yue might eventually teach Chime's observers to distinguish a recorded stop from a disappearance. Yue said that could become a specific funded proposal after her present obligations were closed. It was not included in today's source receipt. Deng accepted the sequence and put the question in the proposal tray. The observer route had brought more useful public comparison fields to Chime, together with the responsibility to keep their origins, limits, and authorised correction route visible.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_01_common_001"
+    },
+    "lantern_incoming_buffer_01": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "The maintenance terms admitted operating extracts for a finite basin service. They did not include a complete household comparison or a public observer endorsement. Yue unfolded the permitted instructions with their dated changes. Deng read the first page twice. A local relay could learn from the distinction between a reported fault and an authorised alteration. It could not use these instructions as a plan for Chime's different assembly. Yue asked the clerk to retain that qualification in the local receiving account.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_incoming_buffer_02"
+    },
+    "lantern_incoming_buffer_02": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "The clerk wanted a worked example showing how the maintenance role ended. Yue could supply the admitted task dates and the actual receiver for returned operating records. She kept household observations covered because the service contract had not admitted them to this use. Deng looked disappointed at the thinner source. She then noticed an instruction distinguishing a temporary safe stop from a completed repair. That distinction matched a question already waiting in her own isolation file. She moved that question onto today's table.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_incoming_buffer_03"
+    },
+    "lantern_incoming_buffer_03": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "A porter claimed that a maintained basin must have settled everybody's water access. Yue pointed to the operating scope. Her accepted work had concerned particular maintenance duties. The contract left some comparisons incomplete and named their separate receiving route. The porter had taken the word maintained farther than the page carried it. He looked embarrassed. Deng wrote a plainer title for the extract so Chime's own staff would be less tempted to make the same leap while trying to finish a busy morning.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_incoming_buffer_04"
+    },
+    "lantern_incoming_buffer_04": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "The local source review could examine the admitted operating limits without claiming public household findings. Deng offered it from Chime's consultation allocation, subject to the still outstanding basin service handover. Yue asked for the separate times and payment lines. The clerk prepared them. No basin apparatus had travelled in her pack. Deng's examiner would use Chime's own inspected equipment if a later demonstration was approved. Today's useful work was documentary, and its smallness made it easier to describe honestly.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_incoming_buffer_05"
+    },
+    "lantern_incoming_buffer_05": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Yue helped the clerk copy the task-end line into a provisional example. He omitted the phrase after actual receipt because he thought the date was sufficient. Yue restored it. A nominal date could arrive before the packet did. The basin's operating extract had given Chime a way to ask whether an ending happened, rather than merely whether a timetable predicted it. Deng checked the wording against the admitted source. She would submit the example under its permission, without asking Yue to become a source for unoffered household matters.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_incoming_buffer_06"
+    },
+    "lantern_incoming_buffer_06": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "The receiving receipt named operating extracts, a maintenance comparison, and a remaining finite handover. Yue signed her delivery and kept the original wrapper. Deng retained a checked local copy carrying the basin correction address. Compared with the observer terms, this route supplied less household context and more detail about the practical ending of maintenance. Its later work would have to stay within that difference. Yue left the table with an actual receiver for today's material and a narrower question for the next appointment.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_01_common_001"
+    },
+    "lantern_incoming_retreat_01": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Yue's departure terms created no further institutional post. She had completed the basin wages and retained her own permitted notes. No basin endorsement or apparatus ownership accompanied them. She showed Deng the completed receiving reference, then kept the private notebook closed. Deng asked whether the association could hire her for an independent local comparison. It could make an offer. It could not describe that offer as a continuation of basin service or use her departure to obtain records nobody had offered.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_incoming_retreat_02"
+    },
+    "lantern_incoming_retreat_02": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Deng had prepared space for a basin operating table. The space remained empty. Yue could describe the public stopping principle she had learned and could answer questions from her own admitted experience. She could not substitute recollection for the missing source permission. The clerk wrote the distinction in the minute. One porter wanted the blank filled because the page looked unfinished. Deng said it was unfinished. They would request an appropriate source if the planned comparison truly needed one.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_incoming_retreat_03"
+    },
+    "lantern_incoming_retreat_03": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "The local consultation allocation remained available for a different question: how Chime itself recorded a received duty. Deng asked Yue to compare its posted receiving form with a paid carrier's actual handover. The carrier consented to the relevant fields and covered his other customers. Yue could perform that ordinary local task without claiming to speak for the basin. She asked for the proposed payment and hours before agreeing to an appointment. The clerk prepared a fresh form rather than crossing the basin heading out and leaving its seal attached.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_incoming_retreat_04"
+    },
+    "lantern_incoming_retreat_04": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "At the cart bench, the carrier showed an arrival note that named three parcels but only two signed receivers. The third parcel still occupied his covered cart. A clerk had marked the whole journey complete when its wheels reached town. Yue pointed to the unreceived parcel. The carrier had already objected and was pleased to find the distinction on the proposed form. His permission concerned this delivery example, not a public account of every customer whose packet had made him wait.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_incoming_retreat_05"
+    },
+    "lantern_incoming_retreat_05": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Deng recorded a local review of the arrival and receiving fields. Its usefulness came from Chime's own offered evidence. The association would receive no basin apparatus, complete household comparison, or inherited observer authority through this route. Yue signed the limited local appointment request and kept the completed basin reference in her personal wrapper. The porter with the third parcel returned to his cart. He had a destination still to reach. A sound definition of arrival could not deliver the parcel for him.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_incoming_retreat_06"
+    },
+    "lantern_incoming_retreat_06": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Outside the station, Yue felt the relief of having no basin duty waiting behind the new request. The relief cost Chime access to comparisons it had hoped she might bring. Deng accepted that cost without asking her to undo the departure she had chosen. A future association role would need its own local evidence, dates, payment, and acceptance. Yue could consider it freely. The private notes remained hers, and their unoffered pages supplied no convenient endorsement merely because she stood beside the association's door.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_01_common_001"
+    },
+    "lantern_01_common_001": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Deng called Yue back to the shared table after the source receipt was complete. A separate offer reserved two hours on Day 1387 for comparing Chime's arrival and receiving forms, at three copper an hour from the association's six-copper consultation line. The task admitted no additional basin fields. Yue checked the time against her existing receiving obligations before accepting. The offer named the actual carrier, his permission, and the clerk who would receive the corrected form. It supplied work small enough to finish before anybody needed a new journey.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_01_common_002"
+    },
+    "lantern_01_common_002": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "The carrier's unreceived parcel contained ordinary lamp shades for a mill office. Its cover had become damp while he waited, but its tied inner case remained dry. The office receiver would return that afternoon. Deng could not sign for the office merely because the parcel obstructed her yard. She arranged paid covered storage under the existing freight terms. The carrier moved it into the marked bay, signed the storage handover, and kept his customer's receipt space blank. The revised form would need to distinguish those two receivers.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_01_common_003"
+    },
+    "lantern_01_common_003": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Yue spent the afternoon at the road house mending the loosened edge of her pack. The potter watched her thread an ordinary needle and offered a finer one. She declined because the borrowed needle could vanish among her things too easily. He set it back in his own case. The repair held after she filled the pack again. Outside, a porter dropped a wooden counting peg. It rolled beneath a wheel and was crushed before the driver heard the shout. Somebody would need to replace it; nobody claimed the peg had preserved its usefulness by accident.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_01_common_004"
+    },
+    "lantern_01_common_004": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Qiu brought a reply from the bridge office concerning the next association cart. Its present crossing slot was Day 1391. A damaged parapet needed repair on the intervening days, and the office would inspect the walking side each morning. Loaded carts would use the remaining controlled lane only under the watcher's signal. Yue asked whether the passenger places were reserved. Her ticket named one ordinary seat, confirmed against this scheduled cart. The date could change if the bridge inspection failed. Qiu showed her where the actual update would be posted.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_01_common_005"
+    },
+    "lantern_01_common_005": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "The road house offered no refund for a bed she had actually used. It offered no charge for an unaccepted future night. Yue booked two additional nights from her own lodging money while keeping Day 1390 undecided until the departure report. Nan asked whether uncertainty made travellers eat more or less. Yue said it made some of them ask the kitchen questions it could not answer. Nan laughed and pointed to the bean pot. That answer was ready now, and its price belonged on the meal board.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_01_common_006"
+    },
+    "lantern_01_common_006": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "A messenger arrived with a public sheet about Chime's relay changes. He had been paid to bring it to the road house, where many travellers made their next booking. The sheet promised a review on Day 1414 and named the present operating limits. It did not promise that the old relay would continue after that review. Qiu pinned the date at eye height. He left the sheet's correction address visible because the lower corner was already curling. The potter wanted a copy before arranging his return shipment.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_01_common_007"
+    },
+    "lantern_01_common_007": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "The messenger could supply a printed copy for its stated half-copper fee. The potter paid it and read the sheet aloud badly enough that Yue offered to hold it closer to the lamp. He laughed at himself. His mother could read a clay stamp faster than any of them read these letters. He had begun sending her ordinary pictures beside his sales notes. Yue liked the practical admission. The public notice had reached a person whose trade required dates, rather than merely acquiring another pinhole on the wall.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_01_common_008"
+    },
+    "lantern_01_common_008": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "On Day 1387, Yue took her work paper across the yard and found the minute clerk waiting with the carrier's permission. Deng had assigned another employee to the freight queue so this comparison would not become unpaid waiting between interruptions. The two hours began when the admitted papers reached the table. Yue wrote the start time. The carrier supplied his arrival note, storage receipt, and final customer handover from the previous evening. The three records described three acts. A single complete box on the old form had covered them all.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_01_common_009"
+    },
+    "lantern_01_common_009": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "The final customer receipt named the correct three lamp shades and their undamaged condition at opening. Yue did not infer that the outer dampness had caused no possible problem for every parcel. It had caused no reported problem for this opened one under this receiver's check. The carrier signed his own account of the waiting interval. Deng signed only the association storage. The minute clerk compared the date stamps before copying them into the proposed form. Yue drew separate spaces for arrival, temporary custody, and final delivery.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_01_common_010"
+    },
+    "lantern_01_common_010": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Their first draft made the temporary custodian sign twice. Deng objected because the same act would acquire two apparent endorsements. Yue removed the duplicate and added a reference space for the storage receipt. The carrier wanted the waiting charge beside that reference so the next desk would not ask him to reconstruct it. The charge belonged to a separate freight account, and they named it there. The form was becoming longer, but each additional line described work somebody had actually performed or money somebody actually owed.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_01_common_011"
+    },
+    "lantern_01_common_011": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "A second carrier asked to join the comparison with a disputed parcel from another customer. The present permission did not cover it, and the two hours had already been assigned. Deng offered a later ordinary freight appointment under his own terms. He wanted the new form today. The clerk could give him the blank proposed version, marked as a draft, without bringing his customer's private fields into this session. He accepted it reluctantly. Yue left his dispute off the evidence sheet, where it would have looked useful without having been admitted.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_01_common_012"
+    },
+    "lantern_01_common_012": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "The last half hour concerned a missing signature. In a different received example, the office clerk had signed his initials beside a date but had omitted the parcel count. The owner had admitted that example for this review. Yue could identify the omission. She could not fill the count from the driver's remembered expectation. Deng sent a correction request to the actual clerk. The form would mark its delivery incomplete until the permitted receiver supplied the answer. A tidy box was less important than retaining the unverified part.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_01_common_013"
+    },
+    "lantern_01_common_013": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "At the end of the accepted two hours, Yue put the proposed form beside the comparison record and stopped. Deng wanted one additional paragraph about future training. Yue said it would need another offer or could remain a question for the later Chime sitting. Deng placed it in that tray. The minute clerk received the completed comparison and signed the six-copper work receipt. Yue counted the payment, checked the dates, and put the money in her personal pouch. Its usefulness was no longer hypothetical.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_01_common_014"
+    },
+    "lantern_01_common_014": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Nan asked how the work had gone. Yue said three things now had three boxes. Nan considered that a fine result if it prevented travellers from leaving three demands on her single kitchen table. She asked Yue to carry her own bowl to the washing station before sitting down again. Yue did. The potter had sold a sample to a passing merchant and was celebrating with a boiled egg. He offered half. She accepted after he made it an ordinary gift, without pretending the form comparison had helped sell the bowl.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_01_common_015"
+    },
+    "lantern_01_common_015": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "That evening, Zheng Lin arrived from Chime Reach in a hired passenger cart. He moved slowly and carried a flat wooden case that seemed too small to explain the care he gave it. Qiu knew him and brought a stool before taking his ticket. Zheng had come for a former colleague's household gathering. He would return on the Day 1391 cart if the bridge opened. Yue moved her pack out of his turning space. The case belonged to him, and she asked before offering to lift it.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_01_common_016"
+    },
+    "lantern_01_common_016": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Inside lay a cracked practice lens supported on three padded blocks. Zheng had bought it lawfully after an earlier bench decommissioning. Its crack made it unsuitable for the current relay test; its ownership did not repair that defect. He used it to teach apprentices how different reflections could hide a split. The colleague's grandson wanted to learn the comparison. Zheng opened the lid only far enough to show Yue the support arrangement, then closed it against the kitchen steam. He had no intention of making a demonstration tonight.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_01_common_017"
+    },
+    "lantern_01_common_017": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "He noticed the title on the new public notice and sighed. \"They will ask whether the old lamp can be persuaded,\" he said. Yue asked what persuaded meant in this case. Zheng said it meant several different proposals, some useful and some expensive ways of postponing a difficult ending. A tested isolation assembly could be repaired within its remaining certified scope. Its oldest joints could not become new merely because the relay had served people for years. He had fitted two of those joints himself and disliked that answer personally.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_01_common_018"
+    },
+    "lantern_01_common_018": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "The potter asked whether the old lamp contained a spirit. Zheng said it contained an external fuel cradle, lenses, marked shutters, and a history people enjoyed telling while ignoring the maintenance tag. He had never observed a spirit there. He could not prove a universal claim from that absence. He could describe the parts he had worked on. Nan told him to describe them after eating. The beans needed neither an engineer nor a spirit to become colder. Zheng obeyed and asked for more salt.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_01_common_019"
+    },
+    "lantern_01_common_019": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Yue read the notice again before bed. The relay's service had four daily transmission windows under its current schedule. Each used a separately issued external fuel portion and the staffed isolation path. Human carriers handled the packets before and after the signal work. The notice did not make a transmission window equivalent to a parcel travelling without people. Chime's six settlements would still need receivers when the light arrived. Yue folded her paid draft form into its wrapper and wondered how many complete boxes those receivers presently inherited.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_01_common_020"
+    },
+    "lantern_01_common_020": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "On Day 1388, the bridge watcher closed the public foot lane while a mason reset three coping stones. The loaded lane remained controlled by a different marked line. Zheng's household visit required only the eastern streets, so he went on foot with his niece's arranged companion. Yue stayed at the road house to finish her own letter. She described the ordinary journey, the received source scope, and the paid comparison. She left the carrier's private customer fields out. Her home receiver had asked how she was living, not for everybody else's freight history.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_01_common_021"
+    },
+    "lantern_01_common_021": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Qiu weighed the letter for the ordinary post charge and gave the expected route without guaranteeing an arrival day. Yue paid from her own six-copper earnings. The letter went into a numbered bag with unrelated mail. She watched the sealing, then returned to the kitchen. Its departure was actual; its home receipt remained unknown. Nan was arguing with a grain seller who wanted to supply more sacks than her dry store could hold. The seller promised a low price. Nan promised to show him the size of the store.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_01_common_022"
+    },
+    "lantern_01_common_022": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "The store could hold four sound sacks with clear space beneath the roof leak mark. Nan had two accepted sacks and room for two more. The grain seller offered a deferred balance on three. She bought two under the posted rate and kept the third out of her count. Yue helped Qiu carry the two accepted sacks only after he showed the ordinary trolley and checked their support. Her contribution moved a real load over a clear floor. It created no demand for the reserve whose current exact quantity she had not measured.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_01_common_023"
+    },
+    "lantern_01_common_023": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "While they worked, a child came looking for a missing wooden bird. He thought the potter had packed it by mistake because both bird and bowls occupied round straw rings. The potter opened his own case with permission and found only pottery. Qiu sent the child to the household where Zheng was visiting. The bird had been left on their bench. Yue heard that result from the child when he returned, triumphant. An ordinary search had ended without requiring any of the travelling objects to acquire a secret connection.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_01_common_024"
+    },
+    "lantern_01_common_024": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Deng visited the road house in the afternoon to collect questions about the relay notice. She did not use Yue's paid comparison as permission to require an unpaid sitting. Yue chose to ask one question as a traveller: which safe alternative operated when a transmission window closed? Deng pointed to the carrier schedule printed on the back. Its routes had dates and prices. Two settlements received a daily ground carrier, three a market-day connection, and the sixth a twice-weekly association cart. None moved a blocked mountain road by announcement.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_01_common_025"
+    },
+    "lantern_01_common_025": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "The potter found his home settlement on the market-day connection. A missed relay window could postpone his buyer's confirmation even while an ordinary letter still travelled. He asked about the additional handling cost. Deng showed the quoted charge and the request route for hardship decisions. The charge had not yet been waived for him. He copied both onto his own page. Yue watched the notice change from a general concern into a choice he would need to make about a particular shipment and its actual receiver.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_01_common_026"
+    },
+    "lantern_01_common_026": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Zheng returned before the supper bell with a small sack of dried pears from his colleague's family. He had been offered more, but his case and walking balance limited what he wanted to carry. The companion brought him to the road house door and left after he signed the accepted arrival line. Zheng gave Nan a handful of pears for the table. The rest remained his. The child with the recovered bird asked whether the cracked lens could show a bird larger. Zheng said it could show several misleading birds, which was a less convenient answer.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_01_common_027"
+    },
+    "lantern_01_common_027": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Yue asked Zheng what had happened to the lens's original mount. It had been scrapped after an assessed failure. The remaining lens could teach the visible crack, but could not reconstruct every lost mounting measurement. He kept the old inspection copy with its gaps. The colleague's grandson had wanted to draw the whole instrument from the case. Zheng asked him to mark which parts he had actually seen. The child had produced a drawing with three honest blank spaces. Zheng seemed prouder of those spaces than of the carefully shaded glass.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_01_common_028"
+    },
+    "lantern_01_common_028": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "The bridge office sent its Day 1389 report while Nan was lifting breakfast bowls. The controlled loaded lane remained open, but the foot lane would stay closed until the new mortar's stated interval and final check. The association passenger cart was still scheduled for Day 1391. Its driver would report the loading point on Day 1390. Qiu put the update beside the earlier notice without hiding the earlier date. A traveller could see what had changed. Yue extended her bed booking through the night before that departure and paid the actual charge.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_01_common_029"
+    },
+    "lantern_01_common_029": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Her own lodging account now contained six nights at two copper, twelve paid from her personal money. The six-copper consultation payment covered part of those costs and the letter; it did not convert the whole waiting interval into funded employment. Yue wrote the distinction in her notebook because she had begun mentally treating the paid task as if it bought her stay. She still had enough for the accepted road plan. If the departure failed, she would ask about a new actual arrangement before accepting more nights.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_01_common_030"
+    },
+    "lantern_01_common_030": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "A visiting association steward inspected the cart booking list. One passenger's name had been entered against the freight bay instead of the seated place. The steward corrected it with the passenger present and asked the driver to confirm the revised loading total. Yue checked her own seat. Zheng's light case had a separately admitted storage position beneath the side bench. The corrected list did not enlarge the cart. A trader who hoped to add a crate had to book another vehicle, and left annoyed rather than mysteriously finding spare space.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_01_common_031"
+    },
+    "lantern_01_common_031": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Deng gave Yue a receiving address at Chime Reach for a further proposal after the basin terms were closed. The proposed subject was bounded relay records and stopping conditions. It included no promise of cultivation instruction. Yue wanted a qualified great-circuit curriculum eventually, but would have to ask its examiner independently. Deng named the ordinary training registry where that question belonged. The address was useful. It was not an acceptance, a certificate, or permission to test an unfamiliar relay with her body.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_01_common_032"
+    },
+    "lantern_01_common_032": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Qiu's minute clerk returned the corrected parcel count on Day 1389. The actual office receiver had supplied three, matching the admitted customer handover. He also explained why his first initials lacked the count: a second parcel arrival had interrupted him. Yue received the correction during the stated follow-up interval and checked it against the named reference. Deng's clerk closed that comparison item. The initial omission remained in the record with the correction date. Nobody needed to pretend the first form had always been complete.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_01_common_033"
+    },
+    "lantern_01_common_033": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Yue had accepted no further paid work for that evening. She took a walk to the open eastern market while the designated local paths remained safe. A basket maker sold reed handles whose shapes differed according to which wrist carried them. Yue tried one with the owner's permission and put it down again. She did not need another basket. The owner seemed pleased to sell her a repair loop instead. It would hold her bowl cloth shut, an ordinary improvement her travelling pack could accommodate.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_01_common_034"
+    },
+    "lantern_01_common_034": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "At the road house, Zheng asked whether she intended to make Chime her home. Yue said she intended to arrive there first. He laughed, then apologised for making the question too large. His own home occupied two rented rooms near the relay yard. Retiring from paid fitting had not made his rent disappear. He kept a few finite teaching appointments and a household income arrangement. He preferred visitors who asked what date suited him rather than assuming retirement meant an empty calendar.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_01_common_035"
+    },
+    "lantern_01_common_035": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "His niece's letter lay beside the practice lens. It asked him to stop promising the same afternoon to three former apprentices. He showed Yue the offered sentence and said the niece understood instruments better than she admitted. Three apparently small loads could exceed one real support. Yue asked whether he had answered. He had written one revised date and declined another request. The third apprentice still needed a reply. He would finish it before the lamp went out, using oil he had paid Nan to supply.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_01_common_036"
+    },
+    "lantern_01_common_036": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "On Day 1390, the association driver came to inspect the passenger loading. She introduced herself as Cai Tong and asked each traveller to bring the admitted baggage to the marked scale. Yue's pack, wrapped sword, and personal notebook fitted the ticket's recorded allowance. Her source wrapper remained a hand-carried item under its own custody terms. Zheng's lens case stayed within his booked place. Cai rejected a merchant's attempt to call two tied crates one piece of baggage. She priced them by their actual load instead.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_01_common_037"
+    },
+    "lantern_01_common_037": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "The bridge watcher confirmed the controlled crossing for the next morning, subject to the final inspection before movement. Cai would bring the cart to the eastern yard. Passengers would board after she checked the brake and the watcher admitted the loaded lane. Yue wrote the meeting hour and the fallback receiving address on the last free strip of her work paper. Qiu checked both. A plan with a fallback still depended on people acting when its first date failed. They had named where that action would begin.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_01_common_038"
+    },
+    "lantern_01_common_038": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Before supper, Deng's clerk delivered the accepted form comparison and a receipt for the issued blank draft. Yue retained her paid-work copy. Chime's public version would await its local approval; the draft still bore its provisional heading. Deng had received the actual work without requiring her to own the institution's next decision. Yue put the copy beside her road ticket. The two papers served different purposes. One showed a completed local task; the other admitted a future ordinary seat.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_01_common_039"
+    },
+    "lantern_01_common_039": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Nan packed the travellers' purchased morning food into their own clean wrappers. Yue checked that her bowl cloth's new loop closed without rubbing the pendant case beneath it. Zheng protected the practice lens on its three supports and asked Cai whether the lower storage place remained dry. She inspected it with him. Qiu counted the departing beds and left tomorrow's arrivals unassigned until their bookings were received. The house's work continued around their preparations. Departure would free a bed, rather than empty the whole place for a traveller's next chapter.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_01_common_040"
+    },
+    "lantern_01_common_040": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "That night, Yue extinguished her permitted lamp before its paid oil interval ended. The potter slept with his sales case against the wall. Zheng's reply to the third apprentice rested in the post tray. Outside, a bridge watcher called the next shift across the yard, and another person answered. The bridge's ordinary stone carried the sound without becoming a promise. Yue had a received source scope, completed local wages, a booked seat, and an address for a proposal she could still decline. She slept before morning asked her to move.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_02_001"
+    }
+  }
+}

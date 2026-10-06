@@ -1,0 +1,1085 @@
+{
+  "chapters": {},
+  "characters": {},
+  "nodes": {
+    "reservoir_ep12_001": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Day One Thousand One Hundred Forty-three arrived with an ordinary clear road report. The carrier had the accepted fare and one actual departure date. Yue's private folder held the selected household confirmation, while the course receiver held its matching duty notice. The basin would continue its own work, and the mother's household would continue theirs. Yue's visit would enter those lives at the time she had chosen, carrying real absences rather than a promise to be everywhere that mattered.",
+      "next": "reservoir_ep12_002",
+      "cast": [
+        "lin_yue"
+      ]
+    },
+    "reservoir_ep12_002": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "The clerk checked the selected fare slip against the carrier's actual list. One accepted calendar led outward today; the other retained the two ordinary basin duties before the later departure. Yue kept the light bag within its agreed range and let the larger bundle remain under the carrier's ordinary custody. She had paid for a passenger place, not a moving practice room. The next days would be walking, meals, work or home according to that one signed date.",
+      "next": "reservoir_ep12_003",
+      "cast": [
+        "lin_yue"
+      ],
+      "routes": [
+        {
+          "decision": "reservoir_visit_choice",
+          "selected": "reservoir_visit_home",
+          "next": "reservoir_ep12_003"
+        },
+        {
+          "decision": "reservoir_visit_choice",
+          "selected": "reservoir_visit_work",
+          "next": "reservoir_ep12_034"
+        }
+      ]
+    },
+    "reservoir_ep12_003": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "The carrier called Yue's name on the morning of Forty-three. She stepped into the ordinary passenger place with no qi application underway. Fu waited at the gate long enough to wave, then returned to her actual shift. Tian held the basket firmly and called after her that it expected news of the plum tree. Yue waved with her uninjured comfortable range. The outward fare had already been paid at booking. Today she paid one copper for road food and one for the actual sleeping stop, beginning the privately funded nine-day route.",
+      "next": "reservoir_ep12_004",
+      "cast": [
+        "lin_yue",
+        "reservoir_fu_lian",
+        "reservoir_tian_yu"
+      ]
+    },
+    "reservoir_ep12_004": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "The first ordinary cart interval ended before the narrow ridge path. Passengers walked that section at the carrier's stated pace while the pack animals took the larger bundles. Yue carried only the accepted light bag. A woman beside her complained that every path seemed to slope upward when she was tired. Yue agreed and found the agreement pleasantly useless. At the lower bend they rested where the carrier had actually planned. Nobody accelerated through cultivation, and the day's published stop remained reachable through ordinary travel.",
+      "next": "reservoir_ep12_005",
+      "cast": [
+        "lin_yue"
+      ]
+    },
+    "reservoir_ep12_005": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "That evening the sleeping house served lentils in a shallow bowl. Yue paid the actual ordinary meal price from the road reserve, then checked her own bed token before settling. The woman from the ridge had found a splinter in her shoe and blamed the path less after removing it. They talked about household visits while the lamp burned low. Yue said she hoped to share a cousin's meal. The woman hoped to collect her mother's recipes before anybody argued about who remembered them correctly.",
+      "next": "reservoir_ep12_006",
+      "cast": [
+        "lin_yue"
+      ]
+    },
+    "reservoir_ep12_006": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "On Forty-four the carrier inspected the current crossing before sending passengers over it. Its dry boards held, and an ordinary worker kept people from crowding the narrow part. Yue crossed with the light bag close to her body and her shoulder within its old range. The larger bundle followed under the paid carrier's custody. She did not practice intake during the crossing. Her ordinary body had enough work keeping its attention on the boards. At the next stop she bought actual food and a bed from the same finite private reserve.",
+      "next": "reservoir_ep12_007",
+      "cast": [
+        "lin_yue"
+      ]
+    },
+    "reservoir_ep12_007": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "The ridge woman asked whether Yue could protect them if the weather changed. Yue said the carrier's inspected route and ordinary shelter plan were their protection. She had no tested shielding ability to offer. The woman looked disappointed, then asked the carrier the useful question about the next covered stop. Its actual answer settled her more than an invented promise would have. Yue watched the conversation move toward the person who held the current road responsibility. Being cultivated had not made her the owner of everybody's uncertainty.",
+      "next": "reservoir_ep12_008",
+      "cast": [
+        "lin_yue"
+      ]
+    },
+    "reservoir_ep12_008": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "On Forty-five they passed a field where children were helping gather windfallen branches. Yue remembered the plum tree's unpaid rent and began imagining the mother's response to Jing's bean leaf. She had no current household news beyond the received letter. The tree might look different when she arrived. The guest chair might hold laundry. Wanting home did not freeze it at the moment she last understood. She paid that day's actual food and sleeping stop, kept the ordinary light bag, and let the carrier hold the larger load.",
+      "next": "reservoir_ep12_009",
+      "cast": [
+        "lin_yue",
+        "reservoir_jing_su"
+      ]
+    },
+    "reservoir_ep12_009": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Forty-six brought a delayed noon departure because one pack animal needed an ordinary hoof check. The carrier's worker found a small stone and removed it before the animal resumed walking. The accepted sleeping stop remained within that day's ordinary schedule. Yue waited beneath a low awning and ate her paid road meal. She could not improve the hoof through healing, and nobody asked her to try. The ridge woman said the delay had finally made the upward paths seem patient. Yue laughed and rested her feet while they had time.",
+      "next": "reservoir_ep12_010",
+      "cast": [
+        "lin_yue"
+      ]
+    },
+    "reservoir_ep12_010": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "On Forty-seven the road passed a public shrine with a cracked ordinary bell. Its caretaker asked travelers not to strike it until repair. One child wanted to hear the flaw and reached toward the cord. His parent stopped him and explained the caretaker's actual request. Yue watched the small refusal succeed without a quarrel. She had spent months imagining dangerous conflicts around cultivation. Ordinary journeys also contained useful decisions made before anything broke. She left the bell silent, paid the day's food and bed, and wrote one sentence about it for her mother.",
+      "next": "reservoir_ep12_011",
+      "cast": [
+        "lin_yue"
+      ]
+    },
+    "reservoir_ep12_011": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Forty-eight was warmer. Yue removed the outer layer of her coat at the ordinary rest interval and reported no new shoulder pain when the carrier asked about comfort. Her current reserve was not independently sampled on the road, and she announced no remembered quantity as if it still described her. The familiar small circuit could settle while she traveled without becoming another examination. She drank ordinary water, ate the paid meal and reached the actual sleeping stop. A good day of walking did not certify balance through changed movement.",
+      "next": "reservoir_ep12_012",
+      "cast": [
+        "lin_yue"
+      ]
+    },
+    "reservoir_ep12_012": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "On Forty-nine the ridge woman left for her own household road. She gave Yue a recipe she had already remembered and warned that its salt quantity was approximate. Yue wrote 'ask before making' beside it. The woman laughed and said that was how every useful family recipe began. Their companionship ended at an actual turn, not with an obligation to correspond forever. Yue wished her a good visit and followed the carrier toward her next paid stop, where the kitchen bread tasted less interesting than the uncertain recipe promised.",
+      "next": "reservoir_ep12_013",
+      "cast": [
+        "lin_yue"
+      ]
+    },
+    "reservoir_ep12_013": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "One Thousand One Hundred Fifty was the first paid duty Yue had released in the basin. She was on the road while the qualified replacement performed that ordinary eight-hour equivalent under Zhou's supervision. The accepted notice had left no unpaid gap. Its three-copper wage belonged to the actual worker after completion, not to Yue's purse. She could not know its detailed events from the road that day. She did know she had chosen not to be there. The loss remained a particular shift rather than an abstract sacrifice she could praise without feeling.",
+      "next": "reservoir_ep12_014",
+      "cast": [
+        "lin_yue",
+        "reservoir_zhou_wen"
+      ]
+    },
+    "reservoir_ep12_014": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "The carrier's ordinary pace on Fifty crossed a long dry stretch before the final sleeping house. Yue felt tired and used the planned rest rather than adding intake to make tiredness invisible. The familiar shoulder range remained comfortable. She bought actual food and a bed as on each previous road day. In the evening she reread the cousin's line and wanted tomorrow to pass quickly. The wanting changed nothing about the remaining distance. Ordinary travel would deliver her when its actual route was completed, not when affection became urgent enough.",
+      "next": "reservoir_ep12_015",
+      "cast": [
+        "lin_yue"
+      ]
+    },
+    "reservoir_ep12_015": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Fifty-one completed the ninth outward road day. Across the accepted route, Yue had actually paid eighteen coppers for nine food days and nine sleeping stops, in addition to the four-copper outward fare already paid. No reserve line had covered an invisible second bed. The carrier confirmed the ordinary last approach for the following morning and retained the larger bundle through its accepted custody. Yue slept lightly with anticipation, but performed no intake in bed. At dawn she would arrive within the mother's offered window, carrying a tired ordinary passenger rather than a freshly measured reserve.",
+      "next": "reservoir_ep12_016",
+      "cast": [
+        "lin_yue"
+      ]
+    },
+    "reservoir_ep12_016": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "On One Thousand One Hundred Fifty-two, her mother opened the household door before Yue could finish the ordinary greeting. The woman looked familiar and older in the particular ways a letter could not show. Yue kept the light bag low and accepted the offered chair. The mother asked whether she had eaten. Yue answered with the actual road breakfast, then showed the river onion. Her mother stared at its ears and laughed. Their first conversation belonged to food and a ridiculous drawing before the unfinished examination entered the room.",
+      "next": "reservoir_ep12_017",
+      "cast": [
+        "lin_yue"
+      ]
+    },
+    "reservoir_ep12_017": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "The mother set Jing's small embroidered leaf beside the plum-tree drawing. She asked who had made it and wanted an account of Jing's father criticizing beans. Yue told the story while her mother prepared ordinary tea within her established shoulder range. The daughter did not move the higher pot; its usual household placement already kept the needed items low. The mother's shortened work periods and old limitations remained. Enjoying the visit did not restore the years lost to the bargain. It gave both women an actual afternoon in which something besides that loss could be discussed.",
+      "next": "reservoir_ep12_018",
+      "cast": [
+        "lin_yue",
+        "reservoir_jing_su"
+      ]
+    },
+    "reservoir_ep12_018": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "The plateau comparison and second paid duty occurred in the basin that same day without Yue. Its qualified replacement completed the ordinary eight-hour equivalent and received the related three-copper wage after Zhou's accepted check. The permitted public comparison record would remain available for later reading. Yue could not attend its questions from the mother's kitchen or claim its observation as her own. Her cousin arrived at the household instead, two days before the gathering, and asked whether she remembered the kiln-smoke creature with three noses. Yue remembered only two and argued happily about the third.",
+      "next": "reservoir_ep12_019",
+      "cast": [
+        "lin_yue",
+        "reservoir_zhou_wen"
+      ]
+    },
+    "reservoir_ep12_019": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "That evening Yue contributed one copper toward her own actual home-day meals, the first of four such contributions. Her mother had offered the ordinary guest space without displacing Qiu Fang's paid baseline duties. Yue slept in the familiar room and heard the plum branch tap against the wall. She wanted to reach up and silence it, then remembered the actual shoulder range and left it for daylight ordinary work. The branch was not an emergency. Home could contain an irritating noise without requiring the daughter's untested reach to make the night admirable.",
+      "next": "reservoir_ep12_020",
+      "cast": [
+        "lin_yue",
+        "reservoir_qiu_nan"
+      ]
+    },
+    "reservoir_ep12_020": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "On Fifty-three Qiu Fang arrived for the first of the mother's two chosen paid afternoons that month. Yue greeted her as a person already familiar with this household, not a substitute waiting to be dismissed because the daughter had come home. The mother directed the actual shortened kiln task and comfortable ordinary pacing. Yue helped only with a low, light task her mother accepted. Qiu Fang retained her agreed paid visit from the mother's own budget. The daughter's presence added conversation; it did not erase another woman's work or seize the household schedule.",
+      "next": "reservoir_ep12_021",
+      "cast": [
+        "lin_yue",
+        "reservoir_qiu_nan"
+      ]
+    },
+    "reservoir_ep12_021": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "During the afternoon the mother accepted the local ordinary carpenter's six-copper low-shelf proposal. Two covered materials and four covered one actual qualified work day, scheduled for Fifty-five. She had set aside the sum from completed shortened kiln work and her household budget after the helper and ordinary essentials. Yue asked whether she wanted another design suggestion. Her mother said she wanted the shelf described in the accepted proposal, which she had already considered. Yue listened and stopped proposing. The owner could improve her own room while the visiting daughter learned where help was unwelcome.",
+      "next": "reservoir_ep12_022",
+      "cast": [
+        "lin_yue"
+      ]
+    },
+    "reservoir_ep12_022": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "At supper the mother asked about the three failed conditions. Yue described their actual stops, samples, losses and funded recovery without rounding the last partial task upward. Her mother heard the account and asked whether Yue had been frightened by the headache. Yue said yes. The answer brought them nearer than a recital of courage would have. The mother did not offer another bargain or demand a quick certificate. She said she was glad the course had paid real care before needing it. Then she asked whether the kitchen turnip was as offensive as the drawing suggested.",
+      "next": "reservoir_ep12_023",
+      "cast": [
+        "lin_yue"
+      ]
+    },
+    "reservoir_ep12_023": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Fifty-four brought the cousin's actual meal. Several relatives arrived with ordinary dishes, and the household accommodated them within its planned chairs and food rather than letting a visitor's cultivation title enlarge the room. Yue contributed that day's one copper toward her own food and helped arrange only the low plates. The cousin told the kiln-smoke story with all three noses, while an older relative insisted there had always been four. Yue laughed beside her mother, hearing the argument in person. This was the gathering she had chosen to reach, with its people present on its real date.",
+      "next": "reservoir_ep12_024",
+      "cast": [
+        "lin_yue"
+      ]
+    },
+    "reservoir_ep12_024": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "During the meal a relative asked whether Yue could now restore the mother's lost years. The room grew quiet enough that the cousin put down her spoon. Yue answered that she could not. Her earned small circuit and unfinished reservoir examination offered no healing of that old irreversible cost. The mother added that she had invited a daughter to eat, not a remedy to be tested. The words ended the expectation without ending affection. The cousin resumed the ridiculous smoke argument, gently at first, and the meal found its ordinary voice again.",
+      "next": "reservoir_ep12_025",
+      "cast": [
+        "lin_yue"
+      ]
+    },
+    "reservoir_ep12_025": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Afterward Yue and the cousin sat beneath the plum tree at its ordinary low shade. The rent note had faded in the rain, but its demand for fruit remained legible. The cousin admitted she had wanted Yue at the gathering even while writing that the later visit was acceptable. Yue thanked her for making room for both feelings. They discussed a childhood quarrel neither had remembered accurately. The conversation would not exist in the later calendar, and Yue knew its particular warmth did not return the missed plateau questions. Both consequences were real.",
+      "next": "reservoir_ep12_026",
+      "cast": [
+        "lin_yue"
+      ]
+    },
+    "reservoir_ep12_026": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "On Fifty-five the ordinary carpenter arrived with the agreed materials and worked the accepted day on the low shelf. The mother reviewed its actual height from her usual chair. Yue held a light piece only when the carpenter requested that ordinary safe task, leaving the higher fixing and heavier load to the qualified worker. After the completed shelf passed the mother's ordinary condition check, she paid the actual six coppers from her reserved household source. The shelf belonged to her. Yue's cultivation had supplied neither materials nor miraculous labor nor authority over the design.",
+      "next": "reservoir_ep12_027",
+      "cast": [
+        "lin_yue"
+      ]
+    },
+    "reservoir_ep12_027": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "The mother moved the commonly used tea items onto the new shelf within her established comfortable range. The change reduced one awkward reach and did not restore tissue, stamina or the years already lost. Yue saw the difference in the ordinary movement and wanted to celebrate it extravagantly. The mother asked instead whether the cup now stood too close to the edge. They moved it inward. A useful improvement could remain practical, with another small correction beside it, without becoming a claim that a paid carpenter had solved the household's whole history.",
+      "next": "reservoir_ep12_028",
+      "cast": [
+        "lin_yue"
+      ]
+    },
+    "reservoir_ep12_028": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "That last home evening Yue contributed the fourth actual meal copper, completing the four home-day contributions. She and her mother looked at the private notes Yue had chosen to bring, then put them away before tea. The mother wanted to know whether Fu's brother had ever finished the song. Yue recounted the apology and later audience condition. Her mother said it sounded like work worth learning. They laughed at the invented rhyme. The daughter would leave tomorrow with a real conversation completed, a real shelf observed and no promise that love had become a cure.",
+      "next": "reservoir_ep12_029",
+      "cast": [
+        "lin_yue",
+        "reservoir_fu_lian"
+      ]
+    },
+    "reservoir_ep12_029": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "On Fifty-six Yue paid the actual four-copper return fare from the same finite private travel reserve. The outward fare had not been paid again. She said farewell from the low doorway while her mother retained her own household and helper schedule. The carrier accepted the larger bundle, and Yue kept the permitted light bag. For the first return road day she paid actual food and a sleeping stop. The home visit had happened on four real days. Now an ordinary nine-day return would bring its tired body back for fresh assessment.",
+      "next": "reservoir_ep12_030",
+      "cast": [
+        "lin_yue"
+      ]
+    },
+    "reservoir_ep12_030": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Fifty-seven took the return passengers over a dry ridge under the carrier's current accepted check. Yue described the cousin's argument to a woman seated nearby, who claimed every household had at least one smoke creature with too many noses. They shared ordinary road food and kept their private fare accounts separate. Yue performed no cultivation task in the moving cart. Her present usable reserve was not independently known. She could let the earned circuit settle and notice the road without inventing a new measurement to make the visit appear beneficial.",
+      "next": "reservoir_ep12_031",
+      "cast": [
+        "lin_yue"
+      ]
+    },
+    "reservoir_ep12_031": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "On Fifty-eight the return carrier stopped early enough for a scheduled ordinary rest, not an extra private bed charged to the course. Yue paid that day's actual food and sleeping place from the travel reserve. She missed her mother already and knew the missing did not prove the visit had been too short or wrongly chosen. The four days had contained real company. A longer imagined stay could not be added to their record. She wrote one quiet sentence about the shelf, then left the paper alone and ate the warm lentils.",
+      "next": "reservoir_ep12_032",
+      "cast": [
+        "lin_yue"
+      ]
+    },
+    "reservoir_ep12_032": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Fifty-nine brought a brief ordinary rain delay beneath the carrier's covered stop. The same accepted day's sleeping place remained reachable, so the disruption consumed time without an additional charge. Yue kept the three-copper contingency intact. She watched the larger bundle stay dry under the carrier's actual wrapping and was glad she had not treated private preparation as a substitute for paid custody. The light bag remained comfortable within the shoulder limits. When they resumed walking, she followed the ordinary pace and let the delay remain only as long as it had actually been.",
+      "next": "reservoir_ep12_033",
+      "cast": [
+        "lin_yue"
+      ]
+    },
+    "reservoir_ep12_033": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "On Sixty, the fifth return road day ended at its posted ordinary sleeping house. Yue had now paid ten actual coppers for five return food days and sleeping stops, with four more return days still ahead. She carried the mother's current words, the carpenter's completed low-shelf account and the cousin's disputed creature in her permitted notes. She did not carry the missed plateau attendance or its six wages. Those had belonged to an actual replacement. The remaining road would finish on Sixty-four if current accepted conditions continued.",
+      "next": "reservoir_ep12_064",
+      "cast": [
+        "lin_yue"
+      ]
+    },
+    "reservoir_ep12_034": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "On One Thousand One Hundred Forty-three, the earlier carrier departed without Yue. She heard its ordinary call from the course courtyard and felt the missed cousin gathering become more definite, though its date was still ahead. Her own later outward fare had been paid, and the light bag waited at the holding shelf. She remained for two retained duties and an attended comparison, not for wages already earned by selecting them. Deng began the ordinary lesson at its posted time. Yue had to bring her attention back from a cart she was not boarding.",
+      "next": "reservoir_ep12_035",
+      "cast": [
+        "lin_yue"
+      ]
+    },
+    "reservoir_ep12_035": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Fu asked whether she wanted breakfast company. Yue accepted and admitted the sound of the earlier departure had hurt more than she expected. Fu did not repeat her preference for the family meal. The choice had been made with known dates, and friendship could help carry its real loss without reopening the clerk's finished work. They ate ordinary rice and beans. Fu described her brother's new song verse, which would be heard at the next rehearsal. Yue could now attend that actual basin evening, and decided to enjoy the particular opportunity she had kept.",
+      "next": "reservoir_ep12_036",
+      "cast": [
+        "lin_yue",
+        "reservoir_fu_lian"
+      ]
+    },
+    "reservoir_ep12_036": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "On Forty-four Deng supervised modest already-earned intake and full release within the old ceiling. Yue practiced a low ordinary turn without a new load, stopping before the familiar lag could become an unregistered attempt. The lesson produced teaching evidence but no independent usable reserve number. She reported her current condition honestly and left on time. Her retained duty dates remained conditional on actual recovery for their ordinary range. Staying in the basin did not obligate her body to perform any task that the selected timetable had failed to make safe.",
+      "next": "reservoir_ep12_037",
+      "cast": [
+        "lin_yue"
+      ]
+    },
+    "reservoir_ep12_037": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Jing's instrument stock remained in its proper custody while Yue's private travel bag stayed closed. The two women worked briefly on the embroidered bean cloth at the low table. Jing's father had proposed a third leaf to reconcile the crowded first two. Yue said a crowded leaf family might prefer another stem. Jing decided for herself and added the stem. Their pleasant disagreement contained no candidate criterion. Yue would bring the mother the small separate gift already offered, while Jing kept this unfinished cloth and its ordinary aesthetic decisions.",
+      "next": "reservoir_ep12_038",
+      "cast": [
+        "lin_yue",
+        "reservoir_jing_su"
+      ]
+    },
+    "reservoir_ep12_038": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "On Forty-five Qiu confirmed the current permitted public scope of the plateau comparison. Two household receivers had consented to show their aggregate draw schedules and answer questions about their own ordinary source marks. No private factory component from the closed city term would be shown. Yue's attended place came from the present basin process available under that consent. The session's purpose was to compare actual timing, not infer ownership from a convenient total. Yue read the short preparation sheet and wrote questions she could ask within its real scope.",
+      "next": "reservoir_ep12_039",
+      "cast": [
+        "lin_yue",
+        "reservoir_qiu_nan"
+      ]
+    },
+    "reservoir_ep12_039": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Fu's brother performed the song that evening from beginning to end. Yue waited through the final line before responding, as promised. He then asked whether the middle rhythm sounded hurried. She answered the actual question and left the invented rhyme alone. The discussion pleased him enough that he tried the rhythm again. Fu smiled at the low table. Yue had kept a real basin evening through the later visit choice, and the repaired friendship made that evening different. It would not appear in the earlier road's actual days.",
+      "next": "reservoir_ep12_040",
+      "cast": [
+        "lin_yue",
+        "reservoir_fu_lian"
+      ]
+    },
+    "reservoir_ep12_040": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Forty-six passed in ordinary reduced practice and a public walk. The pump-village candidate asked whether Yue regretted the later booking. She said she regretted missing the cousin meal and still valued the particular duties she had retained. He understood better now that his own home date was booked. They discussed the difficulty of writing an honest absence without demanding absolution. Yue had already sent hers. Her cousin could feel disappointed and remain affectionate; the daughter did not need a reply declaring the missed gathering unimportant before she could continue work.",
+      "next": "reservoir_ep12_041",
+      "cast": [
+        "lin_yue"
+      ]
+    },
+    "reservoir_ep12_041": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "On Forty-seven Jing's accepted ordinary comparison measured seventy and a half before sampling after actual sleep and morning activity. A quarter-unit sample left seventy and a quarter usable, with ninety-one and three quarters percent compatibility. The current result was slightly lower than the previous measured condition and remained below the local thresholds. Yue had not lost her earned stage because one reserve measurement varied. Neither could she preserve the larger remembered number as today's inventory. She accepted the present answer and returned to modest already-earned practice at its safe demand.",
+      "next": "reservoir_ep12_042",
+      "cast": [
+        "lin_yue",
+        "reservoir_jing_su"
+      ]
+    },
+    "reservoir_ep12_042": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Zhou showed her the duty preparation for Fifty: low-table source checking and ordinary dry-measure receiving in two four-hour intervals. The later duty on Fifty-two would contain two hours at the public comparison and six at related low-table receiving checks, together one accepted eight-hour equivalent. The funded wage line would pay three for each actually completed day. Hearing an interesting session did not create an additional hidden paid day. Yue read the duty division and knew exactly what work remained behind the six coppers she hoped to receive.",
+      "next": "reservoir_ep12_043",
+      "cast": [
+        "lin_yue",
+        "reservoir_zhou_wen"
+      ]
+    },
+    "reservoir_ep12_043": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "On Forty-eight Tian complained that the basket had not received a family invitation. Yue said it had retained its grain-house position and should appreciate the steady work. Tian accused her of making jokes sound like employment notices. She laughed and admitted he had a point. They went to see the garden beans without a board, purse or copied source. Jing's father gave them three peas each and demanded an honest assessment of their sweetness. Yue said they tasted like peas. He accepted that answer with more dignity than Tian expected.",
+      "next": "reservoir_ep12_044",
+      "cast": [
+        "lin_yue",
+        "reservoir_jing_su",
+        "reservoir_tian_yu"
+      ]
+    },
+    "reservoir_ep12_044": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Forty-nine brought the final ordinary starting check before the first retained duty. Yue reported no headache or new shoulder pain and remained within the old comfortable range. Zhou confirmed the low-table assignment and kept heavy carrying with its actual qualified workers. Yue slept at the course bed and ate meals from the actual daily arrangement because she was still present. No family-absence meal credit began before departure Fifty-four. The carrier bag waited at the holding shelf, with its accepted outward fare already paid and the remaining private road money untouched.",
+      "next": "reservoir_ep12_045",
+      "cast": [
+        "lin_yue",
+        "reservoir_zhou_wen"
+      ]
+    },
+    "reservoir_ep12_045": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "On One Thousand One Hundred Fifty, Yue completed the first four-hour low-table receiving interval. An ordinary storage list omitted a returned empty measure because its owner had written only filled parcels. Yue asked the receiver to confirm whether the omission was intentional. The empty measure had actually arrived and needed its receiving condition recorded before reuse. Tian copied the supported correction. Nothing in the task required qi beyond the earned body's ordinary settling. Its value lay in a usable source that another worker could later check without asking Yue to remember the conversation.",
+      "next": "reservoir_ep12_046",
+      "cast": [
+        "lin_yue",
+        "reservoir_tian_yu"
+      ]
+    },
+    "reservoir_ep12_046": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "The afternoon's four-hour interval finished the accepted eight-hour equivalent. Zhou checked the actual work and paid its three-copper wage from the course's ordinary ninety-six-copper line. Yue's completed course wages had reached eighteen in total, separate from private dispatch spending. These three were money she would not have received on the earlier road, because the actual replacement would have earned them instead. She put them outside the already reserved travel ceiling. The payment enlarged her uncommitted personal margin without changing the examination thresholds or the mother's welcome.",
+      "next": "reservoir_ep12_047",
+      "cast": [
+        "lin_yue",
+        "reservoir_zhou_wen"
+      ]
+    },
+    "reservoir_ep12_047": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Fu asked whether the first retained payment made the missed gathering feel easier. Yue said it made the selected work feel real, which was different. Three coppers could buy ordinary food later; they could not send her body to the cousin's table while she checked measures here. Fu accepted the distinction and shared a bean cake. Yue enjoyed it without pricing the cousin's future meal against it. A consequential choice did not need every effect translated into money before the people involved were allowed to care about it.",
+      "next": "reservoir_ep12_048",
+      "cast": [
+        "lin_yue",
+        "reservoir_fu_lian"
+      ]
+    },
+    "reservoir_ep12_048": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "On Fifty-one Yue reviewed the household schedules for the attended plateau comparison. The east aggregate showed four permitted twelve-litre draws across its recorded intervals, forty-eight litres in total. The west showed three sixteen-litre draws, also forty-eight. A circulated summary had copied the east timing into both rows because the totals matched. Yue could see the unsupported fourth west draw before the session began, but she did not invent the receivers' explanation. The actual west household would answer which intervals had occurred and which the ordinary source permitted.",
+      "next": "reservoir_ep12_049",
+      "cast": [
+        "lin_yue"
+      ]
+    },
+    "reservoir_ep12_049": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "The session on One Thousand One Hundred Fifty-two began after both household receivers confirmed their current consent. Yue attended its two hours as part of the retained paid duty, under the actual public scope. The west receiver showed three signed draw marks and asked why the summary had created a fourth appointment. The summary's ordinary author admitted copying the neighboring row to save space. Equal total volume had concealed different real timing. Yue heard the question in the receiver's own voice, rather than infer how the household must feel from a later aggregate page.",
+      "next": "reservoir_ep12_050",
+      "cast": [
+        "lin_yue"
+      ]
+    },
+    "reservoir_ep12_050": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "The east receiver said a fourth west interval would overlap a cleaning window used by both households. The unsupported summary therefore changed an actual future appointment, not merely its appearance on paper. Qiu asked the ordinary author to correct the timing and send the amended public copy to both accepted receivers. They confirmed the corrected three and four intervals separately. Yue asked whether the equal total had been independently checked before the copy. It had, which made the error more specific: correct addition had not preserved the correct dates.",
+      "next": "reservoir_ep12_051",
+      "cast": [
+        "lin_yue",
+        "reservoir_qiu_nan"
+      ]
+    },
+    "reservoir_ep12_051": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "During the remaining six ordinary work hours, Yue checked related low-table source marks against the amended summary. Tian handled the copies under the accepted receiving process. The corrected west row went to its actual household, and the copied unsupported fourth interval was removed before its future calendar notice took effect. No household lost water to make the lesson dramatic. The timely supported correction prevented an ordinary scheduling wrong through actual work. Yue recorded her attended question as her own limited observation, without claiming either household's private history.",
+      "next": "reservoir_ep12_052",
+      "cast": [
+        "lin_yue",
+        "reservoir_tian_yu"
+      ]
+    },
+    "reservoir_ep12_052": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Zhou accepted the completed eight-hour equivalent and paid its three-copper wage. Yue's seven actual course work days had now earned twenty-one in total. The six retained wages were actually hers because both duties had been performed, rather than merely because she had promised to remain. She also possessed the experience of hearing the west receiver's question and the author's specific admission. That attended knowledge could shape a later recognized discrepancy. It would not enlarge her permitted record scope or certify a reservoir whose changed conditions still needed recovered work.",
+      "next": "reservoir_ep12_053",
+      "cast": [
+        "lin_yue",
+        "reservoir_zhou_wen"
+      ]
+    },
+    "reservoir_ep12_053": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "At supper she described the equal-volume timing error to Jing in the public terms its receivers had accepted. Jing said she had seen a similar mistake when two sleeves consumed the same total material across different preparation dates. They discussed how an accurate total could invite a lazy copy. Yue wanted to tell her mother because the kiln yard also depended on real intervals. She would explain it as an ordinary learned observation, not bring a basin endorsement that granted her authority over the household's own calendar.",
+      "next": "reservoir_ep12_054",
+      "cast": [
+        "lin_yue",
+        "reservoir_jing_su"
+      ]
+    },
+    "reservoir_ep12_054": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "On Fifty-three Yue made the final ordinary preparations for tomorrow's carrier. She checked the accepted light-bag weight, packed the private permitted notes and left every borrowed instrument with Jing. The course household marked actual meal attendance through this day. Its absent-meal reserve would begin returning to the source only when the selected journey actually began. Yue's personal travel ceiling remained fifty-two with the paid outward four already consumed. The six newly earned wages stayed outside it as received personal money. She could leave without charging a second fare to a convenient new purse.",
+      "next": "reservoir_ep12_055",
+      "cast": [
+        "lin_yue",
+        "reservoir_jing_su"
+      ]
+    },
+    "reservoir_ep12_055": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Fu's brother came to say farewell before the last basin supper. He thanked Yue for waiting through the song and gave her the accepted invented rhyme on a scrap. She asked whether she could show it to her mother. He said yes, but warned that the rhythm required enthusiasm. Yue promised no musical competence. Fu laughed and embraced her within the ordinary comfortable range, without pulling the injured shoulder. The later choice had preserved their actual final rehearsal and now carried its particular gift into a home visit that would miss the cousin meal.",
+      "next": "reservoir_ep12_056",
+      "cast": [
+        "lin_yue",
+        "reservoir_fu_lian"
+      ]
+    },
+    "reservoir_ep12_056": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "On One Thousand One Hundred Fifty-four, Yue boarded the ordinary later carrier while the cousin's gathering began far away. The outward fare had already been paid at booking and was not paid again. The carrier held the larger bundle; Yue kept the permitted light bag and performed no qi application in the moving cart. That day she paid one copper for actual road food and one for the actual sleeping stop. The course kitchen would not bill meals she did not eat. Her selected absence had begun, with both its earned work and missed gathering now real.",
+      "next": "reservoir_ep12_057",
+      "cast": [
+        "lin_yue"
+      ]
+    },
+    "reservoir_ep12_057": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "During the first road evening she imagined the cousin retelling the kiln-smoke creature and felt an ache sharp enough to surprise her. She wrote no message demanding the gathering wait or be repeated. The mother had already received the actual later confirmation. Yue ate her paid lentils beside another passenger whose household visit would begin on a different date. They discussed the ordinary road's next sleeping stop. Choosing work first had not removed the daughter's love; it had changed which particular family conversation she would later hear about instead of hearing in person.",
+      "next": "reservoir_ep12_058",
+      "cast": [
+        "lin_yue"
+      ]
+    },
+    "reservoir_ep12_058": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Fifty-five brought a dry ordinary ridge crossing. Yue kept the light bag close and used the carrier's planned rest, with no new shoulder range or cultivation speed. At home the mother's ordinary carpenter completed the accepted low shelf that day and received six coppers from her reserved household source after its condition check. Yue would hear that fact only upon arrival. Her absence had not prevented the mother from choosing and funding a practical change herself. The daughter's later visit would encounter the actual completed shelf, rather than become its imagined necessary cause.",
+      "next": "reservoir_ep12_059",
+      "cast": [
+        "lin_yue"
+      ]
+    },
+    "reservoir_ep12_059": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "On Fifty-six the carrier waited while an ordinary worker checked a worn pack strap. The strap was replaced from the carrier's actual service stock before the larger bundles resumed travel. Yue had paid for custody and did not offer to hold the load with an untested qi application. The delay left the day's posted sleeping stop reachable without extra cost. She paid the actual food and bed as planned. Her private contingency remained intact, and the earned small circuit settled quietly without issuing a road reserve measurement nobody had taken.",
+      "next": "reservoir_ep12_060",
+      "cast": [
+        "lin_yue"
+      ]
+    },
+    "reservoir_ep12_060": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Fifty-seven passed through a town where the public well had a sign requesting short draws during ordinary repair. Passengers followed the carrier's arranged drinking-water stop rather than appropriate a household turn. Yue noticed the stated interval first, remembering the plateau session's equal totals and different timing. She asked the ordinary attendant whether the posted repair window was current. It was. A particular learned habit had changed her question on a real road. It did not grant authority to supervise the well or turn a permitted public answer into a private technical record.",
+      "next": "reservoir_ep12_061",
+      "cast": [
+        "lin_yue"
+      ]
+    },
+    "reservoir_ep12_061": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "On Fifty-eight Yue shared a sleeping-house table with a woman carrying recipes home from an older relative. The woman warned that all salt quantities were approximate. Yue said the safest recipe might begin with a question. They laughed and compared uncertain childhood dishes. Yue paid her own actual food and bed, keeping the finite private journey account separate from the woman's. She performed no intake in bed to make the journey seem productive. The ordinary rest would belong to the current body later measured after it returned.",
+      "next": "reservoir_ep12_062",
+      "cast": [
+        "lin_yue"
+      ]
+    },
+    "reservoir_ep12_062": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Fifty-nine brought light rain during the noon interval. The carrier used its covered ordinary rest stop and resumed when the current route check allowed. No additional sleeping charge arose, and Yue kept the three-copper contingency untouched. She thought about the actual shelf now standing in her mother's room and wondered whether the cup was too near its edge. The mother could already have noticed and corrected that. Yue would ask when she arrived, instead of making her absence into evidence that the household had waited helplessly for the daughter.",
+      "next": "reservoir_ep12_063",
+      "cast": [
+        "lin_yue"
+      ]
+    },
+    "reservoir_ep12_063": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "On Sixty, the seventh outward road day ended at its posted sleeping house. Yue had actually paid fourteen coppers for seven food days and seven sleeping stops, beyond the four-copper outward fare already consumed. Two ordinary outward days remained before arrival in the welcomed later window. She carried actual six-copper retained wages outside the road ceiling and the permitted attended timing observation in her notes. She did not carry the cousin's meal as a memory of being there. Its stories would need their actual tellers when she reached home.",
+      "next": "reservoir_ep12_064",
+      "cast": [
+        "lin_yue"
+      ]
+    },
+    "reservoir_ep12_064": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "That evening Yue opened the private folder at the sleeping house. The road's lamp lit the lived dates rather than the dates she had left to other people. Some conversations were already memories; others still waited ahead. Neither could be exchanged for the other by retelling the journey. She checked the paid-road plan once, folded the notes and listened to the kitchen clearing its bowls.",
+      "next": "reservoir_ep12_065",
+      "cast": [
+        "lin_yue"
+      ]
+    },
+    "reservoir_ep12_065": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Her shoulder remained within its familiar condition. No independent comparison had measured her usable reserve on the road, and she preserved no remembered quantity as an arrival guarantee. The earned small circuit settled while she prepared for sleep. Tomorrow the carrier would continue under its road check. The selected home calendar would require the remaining actual days before the basin could receive her returned body.",
+      "next": "reservoir_ep13_001",
+      "cast": [
+        "lin_yue"
+      ]
+    }
+  }
+}

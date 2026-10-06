@@ -1,0 +1,1171 @@
+{
+  "chapters": {},
+  "characters": {},
+  "nodes": {
+    "shoal_e06_entry": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The carrier yard was noisier on Day Two Hundred Sixty-Six than the performance room had been. A wagon wheel needed resetting, three customers had arrived at the wrong gate, and a child had put a crab in an empty booking bowl. Yue stepped around the child and asked for the current licensed receiver. Any property carried under the Lark arrangement had to meet its actual deadline today. The new port wages could not buy an extra day in an old loan.",
+      "next": "shoal_e06_approach_01"
+    },
+    "shoal_e06_approach_01": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue",
+        "harbor_han_pei"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The clerk used a long wooden spoon to remove the crab. Its owner protested that it had not bitten anyone. The clerk said the bowl was for requests, not evidence that a crab could behave. Yue laughed with the waiting customers while the ordinary receiver checked the morning list. After days of careful technical limits, the joke felt welcome. A desk could have clear custody rules and still contain a small animal nobody had agreed to employ.",
+      "next": "shoal_e06_approach_02"
+    },
+    "shoal_e06_approach_02": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue",
+        "harbor_han_pei"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Nian Lu was the licensed carrier receiving declared returning property, a port worker whose name appeared on the current authorization. She had not been given ownership of any lender's equipment. The receiver showed the route, packaging limits, and condition procedure before accepting a load. Yue would need a dated custody receipt for anything actually handed over. A later confirmed arrival would be a different event. The carrier could perform her job without promising that distant people already held what remained in this yard.",
+      "next": "shoal_e06_approach_03"
+    },
+    "shoal_e06_approach_03": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue",
+        "harbor_han_pei"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Han met Yue there with the completed incoming terms, not the new restoration payroll. The narrow source arrangement and any carried paid task would close according to what had actually been chosen at Lark. A traveler who had brought only public pages or completed a dispatch should not be assigned a phantom equipment return. The receiver needed the actual inventory, actual work, and actual deadline. They opened the appropriate source record before trying to simplify the morning queue.",
+      "next": "shoal_e06_lark_gate"
+    },
+    "shoal_e06_lark_gate": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue",
+        "harbor_han_pei"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Yue placed the Lark source record on the dry corner of the receiver's table. It described a public method, a bounded private equipment loan, or one already completed paid dispatch. The carrier would take only property actually belonging in a return load. The port restoration remained a separate accepted job with five performed shifts still to complete.",
+      "next": "shoal_e06_rejoin_01",
+      "routes": [
+        {
+          "decision": "lark_terms_choice",
+          "selected": "lark_terms_common",
+          "next": "shoal_e06_common_01"
+        },
+        {
+          "decision": "lark_terms_choice",
+          "selected": "lark_terms_lease",
+          "next": "shoal_e06_lease_01"
+        },
+        {
+          "decision": "lark_terms_choice",
+          "selected": "lark_terms_witness",
+          "next": "shoal_e06_witness_01"
+        }
+      ]
+    },
+    "shoal_e06_common_01": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The public-source record contained no exclusive Lark contact board, comparison strip, or waxed stop cover. Nian Lu did not add them because Yue stood at the equipment return desk. Han confirmed that the offered public originals remained with their source owners, and the permitted copied pages belonged to Yue only within their declared copying scope. Ordinary paper ownership could not grant a private appendix that this route had never received.",
+      "next": "shoal_e06_common_02"
+    },
+    "shoal_e06_common_02": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Yue's open-table measurements had used port tools and temporary borrowed school tools, each returned to its own custodian at the end of the actual session. She showed those completed local receipts separately. Nian Lu looked relieved not to load a box that existed only in someone's assumption. The wagon's current space would carry a lawful different customer. A skipped equipment loan had cost Yue a private fit answer, but it had also left no portable lender property to transport back.",
+      "next": "shoal_e06_common_03"
+    },
+    "shoal_e06_common_03": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Rong came with a request to retain the comparison method in the supplier's later workroom. Yue offered only the public pages' declared allowed scope. The request did not make their missing private geometry available. He could seek a separately offered license from its owner; Yue could not sell one she did not hold. He accepted a permitted public reference list instead. The public-source choice remained broad and incomplete after the port work, just as it had been on arrival.",
+      "next": "shoal_e06_common_04"
+    },
+    "shoal_e06_common_04": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "At the nearby school table, a print worker recognized the straightedge return mark and joked that the tool had traveled farther inside the port than he had all month. He asked whether the public housing observations could be read at a worker lesson. Yue separated the consented public dimensions and anonymous handling notes from private owner descriptions. The permitted extract could be offered after its relevant owners checked it. The school did not acquire the whole restoration batch by lending a ruler.",
+      "next": "shoal_e06_common_05"
+    },
+    "shoal_e06_common_05": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The worker found a drawing of the bird-marked casing and asked whether its owner wanted a public copy. The owner had allowed an outline for comparison, not publication as a decorative sample. Yue removed that drawing from the proposed extract. She retained the ordinary technical entry under its existing scope. A source that began public could still contain later private contributions. Open pages were a useful starting point, not a rule that everything touching them must become open.",
+      "next": "shoal_e06_common_06"
+    },
+    "shoal_e06_common_06": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Outside the school door, a packer wanted to know whether a missing fit answer meant the observations had been wasted. Yue showed the current handling warning that had changed padding on an ordinary movement. The public source had supported that useful change and left the private technical field pending. Waste and completion were too large as single labels. He read the warning, then asked for its current date because a later housing repair might change the rubbing point.",
+      "next": "shoal_e06_common_07"
+    },
+    "shoal_e06_common_07": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "They added the date to the permitted extract and made no claim that a warning endured forever. The packer carried its applicable instructions to his own crew under the offered safety scope. He did not take a lender's kit, a bodily route diagram, or a mandate to teach Yue's cultivation. Nian Lu's wagon passed the public lane with another customer's lawful box aboard. Yue watched it go without pretending an unchosen loan's absence had made every future task easier.",
+      "next": "shoal_e06_common_08"
+    },
+    "shoal_e06_common_08": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Han closed the carried public-method receiving entry. No ongoing Lark labor duty remained hidden in the source permission, and no new port appointment would be paid from Lark's settled wage account. Yue could keep the permitted copies she actually owned and use them within their scope. They would not expire into blank paper merely because the trip ended. She also could not enlarge their method when a later city asked for a more useful answer.",
+      "next": "shoal_e06_common_09"
+    },
+    "shoal_e06_common_09": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "A traveler at the public desk requested a recommendation for an exclusive comparison bench. Yue said her own public route had not included one, and she could describe only the port's publicly offered current contact process. She gave the traveler that process rather than borrowing Rong's name as a promise. The traveler thanked her and went to ask for himself. Passing on a lawful doorway could help someone without implying that Yue controlled the room beyond it.",
+      "next": "shoal_e06_common_10"
+    },
+    "shoal_e06_common_10": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The source teacher's short reply arrived through the ordinary message schedule. It acknowledged the permitted public extract and asked that its method name remain attached so later workers could identify the conditions. It promised no new test or equipment. Yue added the requested source line. She liked the teacher's restraint: a useful contribution could be recognized without turning the reply into a patron's continuing sponsorship of every task the pupil might accept.",
+      "next": "shoal_e06_common_11"
+    },
+    "shoal_e06_common_11": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Later that afternoon, the restoration supervisor read the source closure and kept the batch's unavailable fit fields visible. He did not certify fueled function from a complete set of exterior notes. The remaining accepted shifts would prepare owner decisions and returns, not reopen the source choice. A different qualified worker might answer more under a later agreement. Yue had brought what she had permission to bring and would leave the port without a private loan to settle.",
+      "next": "shoal_e06_common_12"
+    },
+    "shoal_e06_common_12": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The fruit seller asked if her papers could tell which oranges would keep until market day. Yue said they could not. He said most useful papers could not and handed her the ordinary storage advice printed by a food inspector. She read it before helping stack the bought fruit in shade. This route had made public knowledge feel less like a grand inheritance and more like a collection of specific things people permitted one another to learn.",
+      "next": "shoal_e06_common_13"
+    },
+    "shoal_e06_common_13": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Before returning to work, Yue folded the source copies beside her own notes. The old public-method contract had delivered actual open reading and finite observations. Its missing private bench result remained missing. The local school loans were returned, private additions stayed excluded from the offered extract, and no carrier inventory waited for a box she had never owned. She could begin the final port work without asking a past choice to become larger than it had been.",
+      "next": "shoal_e06_rejoin_01"
+    },
+    "shoal_e06_lease_01": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Yue and the supervisor opened the returning case under Nian Lu's condition procedure. The Lark association still owned the zero-load contact board, calibrated external copper comparison strip, and waxed stop cover. All three were present. The private appendix remained protected under its supplier freight-signal geometry license; it had never described Yue's bodily routes. The permitted bench-use interval ended yesterday, Day Two Hundred Sixty-Five. Today authorized return custody, not one last private test while the carrier waited.",
+      "next": "shoal_e06_lease_02"
+    },
+    "shoal_e06_lease_02": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The supervisor had cleaned the unloaded board by the lender's permitted ordinary method and retained the current external condition notes. A shallow scrape on the case belonged in the record even though the functional pieces had passed their listed return check. Yue pointed it out before the receiver could find it. Nian Lu marked the scrape without declaring a damage fee she lacked authority to assess. The lender would make any later claim under the actual loan terms.",
+      "next": "shoal_e06_lease_03"
+    },
+    "shoal_e06_lease_03": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Rong asked to hold the copper strip for a final photograph before packing. The private license and return procedure did not offer that new copy. Yue refused, and the supervisor closed the case. The merchant had gained permitted geometry results during the actual interval. He could not convert a last glimpse into permanent possession of the method. His dissatisfaction remained practical and visible. Nobody would restore the missed equipment hour after Day Two Hundred Sixty-Five.",
+      "next": "shoal_e06_lease_04"
+    },
+    "shoal_e06_lease_04": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Nian Lu checked the packing ties and the return destination against the carrier's authorization. She received the actual case on Day Two Hundred Sixty-Six and issued a dated condition and custody receipt naming the Lark association as owner. The receipt proved the licensed carrier held the kit today. It did not prove the lender had already physically received it. Yue kept her copy and gave Han the permitted closure copy, leaving the carrier to perform the booked onward movement.",
+      "next": "shoal_e06_lease_05"
+    },
+    "shoal_e06_lease_05": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The wagon's wheel had been reset by then, but its driver still waited for another customer's valid load. A returned kit did not gain immediate private transport because a cultivator wanted the journey over. Nian Lu showed the scheduled departure and the follow-up acknowledgment process. Yue could check that process later through ordinary receiving. She could not ride with the kit uninvited, alter the carrier's cargo priorities, or announce a distant arrival before it occurred.",
+      "next": "shoal_e06_lease_06"
+    },
+    "shoal_e06_lease_06": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The private supplier room's temporary source permission ended with the stated date. Port-owned rulers stayed in the port, and no spare Lark apparatus appeared beneath the cleared bench. Rong's hand wiped the work surface while the supervisor inventoried the remaining ordinary tools. He said the room would feel emptier. Yue agreed. The absence would affect later questions, not merely the appearance of a closed cabinet. A loan had been useful partly because it could truly end.",
+      "next": "shoal_e06_lease_07"
+    },
+    "shoal_e06_lease_07": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Two packers came to ask why they had never attended the licensed sessions. Yue explained the source room's permitted scope and offered the separate public safety warnings they were entitled to receive. The explanation did not make their exclusion pleasant. One said a later method should include handlers before it was licensed. That was his proposal, not an amendment Yue could enact on an old owner's contract. She asked permission to carry the proposal as an anonymous public question.",
+      "next": "shoal_e06_lease_08"
+    },
+    "shoal_e06_lease_08": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "He agreed, and the other packer declined to add his view because he had not read the proposal. Yue kept the distinction. She could bring a future institution a real design question without claiming unanimous worker demand. The closed private term had produced sharper answers in some fields and fewer voices at the table. Returning the kit did not make those trade-offs disappear. It made them available to judge without promising that next time everyone would receive everything.",
+      "next": "shoal_e06_lease_09"
+    },
+    "shoal_e06_lease_09": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The supervisor separated protected appendix material from permitted public safety findings in the final local record. An ordinary snag warning stayed available to affected handlers. A confidential geometry extract stayed in the supplier's named lawful custody under its actual license. Yue retained only her permitted personal work notes, excluding the protected copy. Her body was not part of either package. The room's operator could leave without a merchant owning her routes, voice, or future hours.",
+      "next": "shoal_e06_lease_10"
+    },
+    "shoal_e06_lease_10": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "When Rong offered a new privately paid extension, Yue pointed to the returned equipment and ended interval. A fresh offer could be considered later with a fresh source and setup, but it was not accepted today and could not retroactively lengthen the loan. She still had five accepted ordinary port shifts to perform. The merchant withdrew the urgent deadline and said he would ask the owner himself. His new request belonged to him, not to Yue's carried obligation.",
+      "next": "shoal_e06_lease_11"
+    },
+    "shoal_e06_lease_11": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "At the carrier yard, Nian Lu's team loaded the case under the proper manifest without opening its protected contents for spectators. Yue stayed outside the cargo lane. She heard the driver confirm the owner name, then the ordinary rope check. The departing wagon would carry a box she had once used and no longer held. Relief came with a small grief at losing a precise instrument. That feeling was not a reason to delay the return.",
+      "next": "shoal_e06_lease_12"
+    },
+    "shoal_e06_lease_12": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Han marked the source permission ended and carrier custody completed on its actual dates. The later lender acknowledgment remained pending until a real message arrived. He did not merge it with the restoration's future final wage settlement. Yue had fulfilled the return deadline and could prove how. That was enough for today's handoff. A properly closed duty could leave an honest later administrative confirmation without becoming an excuse for indefinite unpaid work.",
+      "next": "shoal_e06_lease_13"
+    },
+    "shoal_e06_lease_13": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Back in the port yard, the private bench had no lender-owned kit. The supervisor moved its remaining ordinary stool to the owner-return table, where Yue would perform her final accepted sorting tasks. She would leave with permission-bounded notes and actual wages, not a secretly retained comparison strip. The earlier exclusive access had changed her available answers, and its disappearance changed the next week's work. The loan was over in the material world, not only in a clerk's phrase.",
+      "next": "shoal_e06_rejoin_01"
+    },
+    "shoal_e06_witness_01": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The carried dispatch record showed actual port receiving on Day Two Hundred Fifteen and the separately earmarked six-copper Lark payment released afterward. That completed one paid independent dispatch. No equipment inventory or private supplier appendix had come with it. Nian Lu checked the empty return-load field and did not invent a kit to send back. A missed optional booking could not become a debt for property never received.",
+      "next": "shoal_e06_witness_02"
+    },
+    "shoal_e06_witness_02": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The port receiver retained the sealed dispatch under its declared custody. Yue had no reason to reopen it for a carrier spectator. Han confirmed that the local receipt had already entered the ordinary message schedule back to Lark. The follow-up proved receiving, not agreement with every proposition inside the source packet. Its contents could still be questioned by their proper parties. Carrying a statement independently did not make the carrier its author or the final judge of its truth.",
+      "next": "shoal_e06_witness_03"
+    },
+    "shoal_e06_witness_03": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Rong asked whether Yue's independent status could validate a new supplier account. She said independence described the completed dispatch's role and the actual observations she could make. It did not permit certification of books she had not examined under a new agreed scope. The merchant looked disappointed and asked for the ordinary review process. The six copper had bought a journey completed by receiving, not a permanent seal he could attach to every later paper.",
+      "next": "shoal_e06_witness_04"
+    },
+    "shoal_e06_witness_04": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Yan invited her to see the padding installed at the current rubbing point. The ordinary handling adjustment had worked for the permitted unloaded movement under its observed condition. He did not call it a freight-signal geometry qualification. Yue checked the current line angle from outside the crew boundary and recorded that it matched today's setup. A future changed angle would need a fresh observation. The absent private kit left a technical gap while a practical change remained real.",
+      "next": "shoal_e06_witness_05"
+    },
+    "shoal_e06_witness_05": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "A crew member said he preferred a witness without a supplier's instrument. Another said the missing instrument meant they might be overlooking an internal fault. Both statements had reasons, and neither canceled the other. Yue wrote only the permitted current handling record. She would not claim that independence magically increased her technical range. A person could be credible about one contact mark and unable to answer a different question inside the same casing.",
+      "next": "shoal_e06_witness_06"
+    },
+    "shoal_e06_witness_06": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "At the public board, the packing woman's separate earlier warning had become an offered agenda item. She had authorized an anonymous question about whether a stalled request could be mistaken for completed delivery. The question did not belong to the original sealed dispatch. Han kept its separate date and permission mark. Yue liked seeing it survive without being absorbed into a more prestigious source. A fresh ordinary concern did not need an old official packet to deserve a reply.",
+      "next": "shoal_e06_witness_07"
+    },
+    "shoal_e06_witness_07": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The receiving clerk answered with the current public request definitions. Entered, booked, carried, and received remained different states. The answer supplied no private customer history. A man in the queue protested that the marks were too complicated. The clerk asked which state he wanted to rely on before telling a household their goods had arrived. He chose received. The complication had become visible because the final promise was concrete.",
+      "next": "shoal_e06_witness_08"
+    },
+    "shoal_e06_witness_08": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Yue had once thought a witness's task ended when she reported what she saw. This dispatch had taught her that a truthful receiving event also needed a boundary around what it did not prove. She wrote that reflection in her own private notebook, not in the official packet. The packet's owner had offered no space for Yue's philosophy. Personal learning could accompany paid work without becoming an unauthorized addition to somebody else's record.",
+      "next": "shoal_e06_witness_09"
+    },
+    "shoal_e06_witness_09": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Nian Lu's wagon took a lawful different customer's cargo while Yue stood aside. The missed equipment booking stayed missed, and no lender-owned load waited behind her. She would finish the final port shifts with ordinary exterior tools and the current source limits. A supplier could fund a new qualified geometry comparison by someone else. Yue did not offer to perform it unaided because an independent witness ought to be useful. That expectation would have turned a narrow role into armor against every refusal.",
+      "next": "shoal_e06_witness_10"
+    },
+    "shoal_e06_witness_10": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Han confirmed that no continuing Lark wage obligation remained after the actual dispatch receiving and payment. The later port restoration was paid by its own new appropriation. Yue's six-copper dispatch wage was already hers, whether spent or kept, and would not be counted again in the final harbor settlement. There was no property to return under this route. The old task had become smaller in her mind as she stopped trying to make it explain her whole stay.",
+      "next": "shoal_e06_witness_11"
+    },
+    "shoal_e06_witness_11": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The packing woman greeted her in the public lane and asked whether the new question had reached the board. Yue pointed to its actual agenda mark. The woman chose not to attend the next meeting because her household had a separate commitment. Her concern could remain valid without a heroic appearance in every public room. Yue did not promise that officials would answer well. She could show where the offered question stood and leave its owner her own evening.",
+      "next": "shoal_e06_witness_12"
+    },
+    "shoal_e06_witness_12": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Yan resumed his ordinary crew work while Yue carried the completed source closure to the wage receiver. The padding's practical success stayed on its current dated record. The unavailable private fit answer stayed unavailable. Neither event assigned guilt for the old lamp-store fire or for a future one. Yue had seen a handling contact, delivered a dispatch, and completed receiving. She was allowed to leave the larger unknowns open.",
+      "next": "shoal_e06_witness_13"
+    },
+    "shoal_e06_witness_13": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Back at the owner-return table, she prepared the remaining accepted shift materials without a borrowed Lark kit beside her. The absence was no longer a fresh surprise or a grievance waiting to be repaired. It was the equipment choice the previous journey had actually made. The completed independent role had opened a public question and narrowed one handling problem. It had not given her a bench, an appendix, or a perpetual authority to call other people's accounts true.",
+      "next": "shoal_e06_rejoin_01"
+    },
+    "shoal_e06_rejoin_01": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "On Day Two Hundred Sixty-Seven, Yue began the first of her final five scheduled shifts at the owner-return table. The batch's source-limited observations were closed at their actual tally. Some technical fields remained unanswered; some parts had failed permitted checks. Her next job was to help make those distinctions usable to owners receiving their own things. The veteran sorter put a stack of plain cloth beside her and said people preferred unwelcome news without a splinter in their thumb.",
+      "next": "shoal_e06_rejoin_02"
+    },
+    "shoal_e06_rejoin_02": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The first owner arrived expecting the painted-bird housing to be ready for fueled use. Yue showed its current observation and the separately pending qualification. Its decorative bird had not bought it a pass. The owner frowned, then asked whether the casing could be used as an unpowered wall ornament. The supervisor said that ordinary reuse was outside the technical certification but could be considered by its owner after any hazardous fittings were properly removed. A rejected working object did not have to become waste.",
+      "next": "shoal_e06_rejoin_03"
+    },
+    "shoal_e06_rejoin_03": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "A qualified ordinary worker removed the identified unused fittings under the owner's separately accepted small repair payment. Yue did not perform that work with qi. The owner kept the painted surface and asked for the removed fittings to remain separately labeled until he decided their lawful disposal. His child admired the bird while ignoring the technical page. Their pleasure was real. It did not revise a single test result or make the casing available for a future hidden powered rescue.",
+      "next": "shoal_e06_rejoin_04"
+    },
+    "shoal_e06_rejoin_04": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Another owner rejected the return note because his older receipt called the part sound. That receipt described an earlier unloaded condition before two documented repairs. The supervisor compared the dates instead of accusing the owner of lying. The owner had remembered the strongest sentence and forgotten its scope. Yue recognized the impulse. A favorable old result felt like property somebody should not be allowed to take away. Changed material conditions could still make it unavailable.",
+      "next": "shoal_e06_rejoin_05"
+    },
+    "shoal_e06_rejoin_05": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The owner asked for an independent second review. He could seek one from a qualified worker under a new funded agreement; the current restoration term did not include unlimited repeat tests. He retained title and accepted finite locked storage through Day Two Hundred Eighty-Four under a separately paid five-copper storage arrangement. The port named its custodian and conditions. Yue recorded the accepted decision without promising that the second review would happen or restore the earlier result.",
+      "next": "shoal_e06_rejoin_06"
+    },
+    "shoal_e06_rejoin_06": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "A third owner never came to the offered pickup time. Han sent the actual return notice by the dispatch scope already funded for this batch. The part remained in its owner-labeled container under the existing finite return procedure, with the posted later contact deadline. No clerk scrapped it to make the completed shelf look empty. Waiting property was a real unfinished administrative fact. It did not mean Yue's bodily work must continue until every absent owner appeared.",
+      "next": "shoal_e06_rejoin_07"
+    },
+    "shoal_e06_rejoin_07": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "By noon, Yue's grip felt steady but the old shoulder warmth returned after prolonged labeling. She reported it and attended the qualified ordinary assessment assigned under the work care reserve. The practitioner charged four copper for the actual assessment and advice. He asked about recent lifting, sleep, and altered sensation, then kept her restricted to the existing cleared waist work with rest intervals. He promised no complete repair and prescribed no magical cure.",
+      "next": "shoal_e06_rejoin_08"
+    },
+    "shoal_e06_rejoin_08": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Two other workers' separately consented ordinary assessments brought the work reserve's actual care expenditure to twelve copper. Their private results stayed private. The remaining twenty-eight of the forty-copper reserve would return to the named appropriation at closure rather than becoming an unearned bonus. Care had been available when needed, and unused money remained unused. Yue could value the narrow assessment without pretending its price guaranteed a future painless shoulder.",
+      "next": "shoal_e06_rejoin_09"
+    },
+    "shoal_e06_rejoin_09": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "After resting, she returned only to the permitted seated task. The veteran sorter had rearranged the tags so she would not reach across the table. He said he was tired of watching people call a sensible layout indulgence. Yue thanked him for the actual adjustment. His earlier handle request and her shoulder had led to different changes at different times. Neither person needed to claim the other had taught everyone how ordinary bodies worked.",
+      "next": "shoal_e06_rejoin_10"
+    },
+    "shoal_e06_rejoin_10": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue",
+        "harbor_yan_su"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "During the afternoon, the yard keeper found a rat chewing an old rope beneath the storage platform. A worker wanted to smoke it out near the packed returns. Yan forbade an improvised flame and arranged the ordinary pest measure away from the work stock. The rat escaped through a gap before the trap was set. Nothing about Yue's stage could decide where it would go next. The platform still needed its rope checked because the animal's disappearance did not undo the damage.",
+      "next": "shoal_e06_rejoin_11"
+    },
+    "shoal_e06_rejoin_11": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The crew replaced the damaged ordinary rope before another permitted load used it. Yue recorded its actual contact with no claim that it had caused an older scrape elsewhere. The work felt almost absurdly small beside stories of cultivation. A rat had changed the morning's safe equipment. A rope cost money. A patient could refuse an assessment. A room could close. She was learning that a usable life depended on things grand training often left unnamed.",
+      "next": "shoal_e06_rejoin_12"
+    },
+    "shoal_e06_rejoin_12": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue",
+        "harbor_he_ming"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "On Day Two Hundred Sixty-Eight, He Ming visited the return table about a packing worker's missed collection. He carried the worker's offered question and no authority to demand the private contents of every return. Han answered the relevant public timing distinction. The worker had mistaken a notice sent for goods received. The goods stayed with their named custodian, and the worker chose another pickup time. Correcting the state did not return the missed morning she had spent waiting at the wrong desk.",
+      "next": "shoal_e06_rejoin_13"
+    },
+    "shoal_e06_rejoin_13": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue",
+        "rong_sui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Rong's supplier account wanted to group the batch into one useful label. The supervisor required separate categories: completed observations within available source scope, qualified rejection where actually established, unresolved fields, and pending owner actions. Yue could see how a single label would shorten a merchant's explanation. It would also send someone the wrong promise with a part. Rong agreed to the longer list because the later dispute over an overstated delivery could cost more than today's careful typing.",
+      "next": "shoal_e06_rejoin_14"
+    },
+    "shoal_e06_rejoin_14": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The veteran sorter asked Yue to take a break with him at the public wall. He had bought fried dough and planned to eat all of it unless she wanted one at its ordinary price. She bought one. They watched a boat painted in improbable green pass beyond the quay. He said its owner had ordered the color before seeing it in salt light. The boat remained lawful and functional, and everyone would still laugh when it arrived.",
+      "next": "shoal_e06_rejoin_15"
+    },
+    "shoal_e06_rejoin_15": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Yue admitted that she had expected the harbor to make her feel more capable because her sixth-stage examination was behind her. The sorter asked whether she felt less capable because the green boat looked wrong. She said no, and he said perhaps her certificate and the harbor needed the same separation. He had no cultivation expertise. His ordinary analogy still helped. She could carry an earned achievement without asking every new task to show its scale.",
+      "next": "shoal_e06_rejoin_16"
+    },
+    "shoal_e06_rejoin_16": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue",
+        "harbor_he_ming"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "On Day Two Hundred Sixty-Nine, a current packing dispute interrupted the return lane. A customer insisted that his private damaged goods had been moved with restoration stock. He Ming brought the two actual manifests. The marks were similar but named different owners and rooms. They found the customer's goods at the accepted packing location, not in Yue's batch. He apologized to the porter he had accused. The apology could not erase the porter’s lost half-hour or the public heat of the accusation.",
+      "next": "shoal_e06_rejoin_17"
+    },
+    "shoal_e06_rejoin_17": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Yue offered to add a distinct shape to the restoration's temporary exterior marks. The owners and custodian accepted the ordinary change, and the materials scope covered its permitted tags. No one redesigned the entire port's ownership system by afternoon. The packing group could choose its own different marks separately. A local fix reduced the current confusion while leaving the customer responsible for his accusation. Better tags were useful, but not an excuse that would make the injured conversation disappear.",
+      "next": "shoal_e06_rejoin_18"
+    },
+    "shoal_e06_rejoin_18": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "That evening, Yue went to the public quay to watch two boats leave at the ordinary scheduled tide. Neither carried her. She had not accepted a next journey or promised Song Mei companionship on hers. The boats' ropes loosened in a practiced sequence, and their departure made the land seem briefly still. Yue felt the old urge to turn every possible route into a future already owed. She stayed beside the boundary rope and let two unchosen roads go.",
+      "next": "shoal_e06_rejoin_19"
+    },
+    "shoal_e06_rejoin_19": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "On Day Two Hundred Seventy, the final owner-return packing required more cloth than the first estimate. The material account's actual sixty copper covered twelve for appropriate handles, eighteen for closed return containers, sixteen for padding and protective cloth, and fourteen for tags and closures. They shifted cloth inside its authorized purchase without hiding another source. The thirty-two-copper space adjustment remained a separately closed account. A funded arrangement could finish without every neighboring purse becoming available to it.",
+      "next": "shoal_e06_rejoin_20"
+    },
+    "shoal_e06_rejoin_20": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The fifty-copper dispatch line covered the batch's actual accepted owner-return notices and transport messages under its specified schedule. It did not pay Song Mei's audience travel or carry a new sealed Lark task. Han kept the completed dispatch marks beside their corresponding recipients. Where a recipient had not answered, the unanswered state stayed visible. Messages could be paid, sent, and useful while their intended next step remained outside the sender's control.",
+      "next": "shoal_e06_rejoin_21"
+    },
+    "shoal_e06_rejoin_21": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The supervisor's one-hundred-eighty-copper fee covered the accepted six-week qualified scope and its final report. Dawn hours, where chosen, had shifted that scope rather than added a second supervisor. Restricted shifts, setup stops, and rejected tests did not reduce his duty to record honestly. Yue asked whether the fee felt fair. He said he had accepted it after counting the hours and would reconsider a future offer if the port asked for more.",
+      "next": "shoal_e06_rejoin_22"
+    },
+    "shoal_e06_rejoin_22": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "At the worktable, the bird casing's owner returned for his properly separated fittings. The child came too and asked whether Yue could make the painted bird flap. She said she could not. The child asked whether paint could instead show a second wing, and the owner said they could discuss an ordinary painter later. A wish had become a lawful possible commission rather than an untested application in someone's kitchen. Yue watched them leave with their own object and a still-open family decision.",
+      "next": "shoal_e06_rejoin_23"
+    },
+    "shoal_e06_rejoin_23": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "On Day Two Hundred Seventy-One, Yue performed the thirtieth accepted shift. She checked the last actual labels, helped prepare permitted returns, and stopped at its defined end. Thirty shifts meant one hundred fifty copper earned under the accepted five-copper wage. One hundred twenty-five had already been paid in five weekly settlements. The final twenty-five would be issued at the scheduled closure on Day Two Hundred Seventy-Four. She did not count an unpaid promise as money already received.",
+      "next": "shoal_e06_rejoin_24"
+    },
+    "shoal_e06_rejoin_24": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The yard kept operating after she put down the last tag. Riggers had different jobs, clinic staff different patients, packers different customers. The restoration had never been their universal employer. Yue watched a new porter learn the same observer boundary she had first been shown and felt the oddness of becoming familiar with a place whose work did not require her permanence. She had helped within one term. The place could continue, with unresolved matters, after that term ended.",
+      "next": "shoal_e06_rejoin_25"
+    },
+    "shoal_e06_rejoin_25": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "On her first off-shift day, she washed her own sleeves and repaired a loosened stitch in the coat. Her shoulder needed ordinary rest rather than another demonstration proving it had recovered. The work practitioner’s clearance still limited overhead use. She circulated only within her previously earned safe practice, without loading a harbor object. More opened bodily routes remained a capacity to maintain and qualify, not a store of favors she could distribute whenever a person asked.",
+      "next": "shoal_e06_rejoin_26"
+    },
+    "shoal_e06_rejoin_26": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "At the public board, a delayed medicine notice named a current arrival estimate for a later clinic order. Yue read it because the work assessment had made her attentive to ordinary supply, not because she could sense a missing remedy in a patient's body. The estimate was not a delivery. Boats and receiving rules still lay between the promised date and a practitioner's hand. She would learn more if the clinic or supplier offered a relevant public account.",
+      "next": "shoal_e06_rejoin_27"
+    },
+    "shoal_e06_rejoin_27": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Song Mei's next venue conversation remained her own appointment. He Ming's packing-space proposal remained his group's chosen work. The maker's daughter or clinic keeper still owned whichever material had survived the single retrieval. Yue could name each relationship without pretending all its unfinished business belonged to her. She had time to visit the public beach on Day Two Hundred Seventy-Three, which felt less like desertion once she stopped mistaking every open question for a personal debt.",
+      "next": "shoal_e06_rejoin_28"
+    },
+    "shoal_e06_rejoin_28": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The beach lay beyond the active quay, in a licensed public stretch where shells collected under wind-bent grass. A dog ran after foam and returned empty-mouthed. Yue sat on a dry stone and let her hands rest. The tide did not answer the questions people brought to it. She heard the fictional gate keeper's absurd demand in Song Mei's voice and smiled. Tomorrow would bring the actual final wage settlement, then a separately scoped opportunity to practice.",
+      "next": "shoal_e06_rejoin_29"
+    },
+    "shoal_e06_rejoin_29": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Before leaving the beach, she checked the time against the lodging keeper's ordinary closing hour. Her paid room had a current receipt; no arrival grant remained open beneath it. She returned while the public lane was clear. The harbor's empty evening felt inhabited rather than waiting for a heroine. Somewhere, a boat was late, a child wanted a painted wing, a worker wanted a better corner, and an artist had a story she might never offer.",
+      "next": "shoal_e06_rest_01"
+    },
+    "shoal_e06_rejoin_30": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "On Day Two Hundred Seventy-Four, Han reconciled the performed restoration work and paid its final wage settlement. The unused twenty-eight care copper returned to its actual source. Yue then accepted the inn's upstairs room from Day Two Hundred Seventy-Five at two copper daily for room and meals, paid from her own settled money. Her earlier chosen lodging ended under its current paid terms. She would carry its ordinary relationships forward without pretending an arrival grant still funded her nights.",
+      "next": "shoal_e07_entry"
+    },
+    "shoal_e06_rest_01": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "At the lodging door, a traveler asked whether the room upstairs was quiet. Yue gave the actual hours she knew and advised him to ask the keeper about current occupants. He wanted a certainty she could not supply. Then he laughed and said he had spent the road sleeping beside a snoring mule. Any ordinary wall might be enough. They carried their own bags inside, and the keeper made two separate agreements rather than treating Yue's familiarity as a reference guaranteeing another guest.",
+      "next": "shoal_e06_rest_02"
+    },
+    "shoal_e06_rest_02": {
+      "chapter": "book_xx_shoal",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "outer_shoal_salvage_yard",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "In her room, she took out the small unpowered practice strip that belonged to her. Its edge was worn where she had repeated the release stroke. She knew the motion better now, but the harbor had shown how easily a familiar motion could meet an unfamiliar surrounding condition. Tomorrow's small-talisman practice would need its own stopped and grounded setup. She put the strip down before fatigue turned preparation into an unplanned trial, then opened the window for air.",
+      "next": "shoal_e06_rejoin_30"
+    }
+  }
+}

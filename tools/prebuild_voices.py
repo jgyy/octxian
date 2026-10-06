@@ -2,15 +2,16 @@
 import hashlib
 import json
 import pathlib
-from piper import PiperVoice
+import os
+from concurrent.futures import ThreadPoolExecutor
 
 if __package__:
-    from .generate_voices import ROOT, CACHE, MODEL, BASE, download, render_clip, _write_manifest
+    from .generate_voices import ROOT, CACHE, MODEL, BASE, download, render_clip, _write_manifest, load_renderer, finish_pending
     from .story_data import load_story
     from .voice_assets import VOICE_FOLDER, VOICE_ENCODING, NODE_ID, clip_entry, reusable_clip
     from .prebuilt_voices import PREBUILD_FOLDER
 else:
-    from generate_voices import ROOT, CACHE, MODEL, BASE, download, render_clip, _write_manifest
+    from generate_voices import ROOT, CACHE, MODEL, BASE, download, render_clip, _write_manifest, load_renderer, finish_pending
     from story_data import load_story
     from voice_assets import VOICE_FOLDER, VOICE_ENCODING, NODE_ID, clip_entry, reusable_clip
     from prebuilt_voices import PREBUILD_FOLDER
@@ -53,7 +54,8 @@ def main():
     download(MODEL + ".json")
     card = download("MODEL_CARD")
     model_digest = hashlib.sha256(model.read_bytes()).hexdigest()
-    voice = PiperVoice.load(str(model))
+    workers = max(1, min(8, int(os.environ.get('JADE_VOW_VOICE_WORKERS', '4'))))
+    voice = load_renderer(model, workers)
     manifest_path = out / "manifest.json"
     try:
         old = json.loads(manifest_path.read_text())
@@ -64,23 +66,33 @@ def main():
                 "model_url": f"{BASE}/{MODEL}", "model_sha256": model_digest,
                 "model_card": card.read_text(), "purpose": "Unintegrated authored draft cache",
                 "lines": dict(old_lines)}
-    for node_id, node in nodes.items():
-        text = node["text"]
-        digest = hashlib.sha256(text.encode()).hexdigest()
-        previous = old_lines.get(node_id, {})
-        reused = reusable_clip(cache_root, node_id, text, previous)
-        if reused is not None:
-            output, metadata = reused
-            status = "Reused"
-        else:
-            output = out / f"{node_id}.ogg"
-            metadata = render_clip(voice, text, output, TIMING.get(node["speaker"], 1.04))
-            status = "Generated"
+    def record(node_id, digest, output, metadata, status):
         manifest["lines"][node_id] = {**clip_entry(cache_root, output, digest, metadata),
                                       "encoding": VOICE_ENCODING}
         if status == "Generated":
             _write_manifest(manifest_path, manifest)
         print(f"{status} draft narration: {node_id} ({metadata['seconds']:.1f}s)", flush=True)
+
+    pending = {}
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        for node_id, node in nodes.items():
+            text = node["text"]
+            digest = hashlib.sha256(text.encode()).hexdigest()
+            previous = old_lines.get(node_id, {})
+            reused = reusable_clip(cache_root, node_id, text, previous)
+            if reused is not None:
+                output, metadata = reused
+                record(node_id, digest, output, metadata, "Reused")
+                continue
+            output = out / f"{node_id}.ogg"
+            pending[pool.submit(render_clip, voice, text, output,
+                                TIMING.get(node["speaker"], 1.04))] = (node_id, digest, output)
+            if len(pending) >= workers * 2:
+                for node_id, digest, output, metadata in finish_pending(pending):
+                    record(node_id, digest, output, metadata, "Generated")
+        while pending:
+            for node_id, digest, output, metadata in finish_pending(pending):
+                record(node_id, digest, output, metadata, "Generated")
     _write_manifest(manifest_path, manifest)
     (out / "MODEL_CARD").write_text(card.read_text())
     print(f"Verified {len(nodes)} draft clips; no playable manuscript credit was changed.", flush=True)

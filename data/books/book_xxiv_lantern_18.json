@@ -1,0 +1,903 @@
+{
+  "chapters": {},
+  "characters": {
+    "lantern_cao_min": {
+      "name": "Cao Min",
+      "title": "Clinic counter visitor",
+      "color": "#b6a99e"
+    },
+    "lantern_yu_chan": {
+      "name": "Yu Chan",
+      "title": "Resident offering a spoken public route",
+      "color": "#adafb9"
+    },
+    "lantern_lu_min": {
+      "name": "Lu Min",
+      "title": "Workshop customer and glove user",
+      "color": "#afbaa2"
+    },
+    "lantern_ge_rui": {
+      "name": "Ge Rui",
+      "title": "Workshop sales assistant",
+      "color": "#b4a592"
+    },
+    "lantern_jun_tao": {
+      "name": "Jun Tao",
+      "title": "Food stall keeper",
+      "color": "#b7af92"
+    },
+    "lantern_an_ning": {
+      "name": "An Ning",
+      "title": "Bounded household carrying helper",
+      "color": "#b6a7ad"
+    }
+  },
+  "nodes": {
+    "lantern_18_001": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Day 1671 brought the next work answer, rather than a new certificate. Yue had slept in the shared room, eaten her ordinary breakfast, and taken the public employer notices from the drawer where she kept accepted contracts separately. The first choice she had made in the earlier transition term had given her particular experience and particular lawful sources. Its consequence now shaped the received proposal she could actually pursue. She went to the employer whose completed work she could describe, leaving the other people's present assignments in their own hands.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_002"
+    },
+    "lantern_18_002": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Tian wanted to know the hours before agreeing which household errands she would cover herself. Yue showed her the finite calendar and the stated rest day, without offering the whole room's future as a guarantee to an employer. The new term would end on Day 1689, before any later qualifying examination. Its received wages could help fund ordinary living and a priced personal course. They would not become current cash merely because the notice named a total. Tian checked her own garment schedule and changed one shopping hour before it had been promised elsewhere.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_003"
+    },
+    "lantern_18_003": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Hou's public desk displayed the renewed two-window timetable beside the ordinary road contacts. A reader could use it regardless of Yue's work choice. The wider comparison drafts remained under their actual source owners, not inside every resident's notebook. Across the lane Bei Rong's model pages were in his own workshop custody. At the nursery Bai Min's appointment sheets belonged to the household. Yue could recognize all three places as parts of her town without treating a familiar doorway as a received right to every document beyond it.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_004"
+    },
+    "lantern_18_004": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Shao's proposed examination still required current usable reserve, compatibility, prepared primary routes, three separate recovered interrupted trials, and each next-day observation. Yue kept the forty-eight-copper price in her private plan and made no live appointment while the actual work term was being settled. The existing input ceiling remained half a unit across four ordinary breaths, no more than an eighth each, with independent stop and ordinary grounded release. No employer bought a stronger ceiling by paying for good writing. Her next received task would be ordinary work inside those existing limits.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_005"
+    },
+    "lantern_18_005": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Before leaving the room Yue asked the boy whether his paper tower needed repair. He said the bird cupboard's flap had torn, but he wanted to fix it himself after breakfast. She put his permitted scrap paper within reach and left her private course sheets on the higher shelf. He had a real small purpose that did not require her to become its permanent worker. Tian smiled at the change. Yue could leave for her own bounded day while somebody else completed a task in the home they shared.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_006"
+    },
+    "lantern_18_006": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "The weather turned wet before the morning bell. Yue used the ordinary covered lane rather than testing a shortcut through the nursery's private gate. Ke had inspected that public direction during the earlier survey, and the present sign still named its permitted passage. A cart stood beneath the eaves, delaying the narrow section until its driver moved. Yue waited behind the line and arrived with dry papers. The extra minutes belonged to an ordinary town whose people and objects retained their own purposes, even on a day important to her examination purse.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_house_001",
+      "routes": [
+        {
+          "decision": "lantern_schedule_choice",
+          "selected": "lantern_schedule_open",
+          "next": "lantern_18_open_001"
+        },
+        {
+          "decision": "lantern_schedule_choice",
+          "selected": "lantern_schedule_workshop",
+          "next": "lantern_18_workshop_001"
+        },
+        {
+          "decision": "lantern_schedule_choice",
+          "selected": "lantern_schedule_house",
+          "next": "lantern_18_house_001"
+        }
+      ]
+    },
+    "lantern_18_open_001": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Hou received Yue at the public room and offered the nineteen-calendar-day receiving explanation term, Days 1671 through 1689, at five copper per calendar day. Its ninety-five wages came from a newly ratified local information allocation of one hundred twenty-seven: ninety-five for her work, twenty for printing, and twelve for local circulation. The fund belonged to the institutions' ordinary communication work, separately from the powered fixture's fuel and operator accounts. Yue accepted three-hour mornings and the paid rest day on Day 1680. Her earlier public account made her a credible receiver for this particular proposal.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_open_002"
+    },
+    "lantern_18_open_002": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "The task was to compare the new timetable with how residents actually reached receiving desks, using their offered local facts and the institutions' admitted opening hours. Hou could provide the public transition source Yue had helped author. The broader household examples remained under the permission of the people offering them for this term. Yue would return the received originals and keep the public final sheet and her own independently written notes. Her work could alter a useful direction without making private appointment contents part of a town-wide announcement.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_open_003"
+    },
+    "lantern_18_open_003": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Their first resident, Cao Min, arrived holding two notices with different door names for the same clinic counter. One had been printed before a minor room change, while the other described the current public entrance. She had walked to the first and found a locked stair. Hou called the clinic's ordinary desk, which confirmed the current direction and the correction reference. Yue wrote the actual change into the public draft and asked the circulation clerk to mark the old sheet as superseded. Cao wanted an apology from someone who had sent her uphill.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_open_004"
+    },
+    "lantern_18_open_004": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "The clinic's clerk gave that apology under the actual correction, then offered the permitted current counter time. Cao could still choose another day if the walk had tired her. She chose to use the available hour and took the public ground fare contact without claiming a subsidy she had not received. Yue watched her leave by the correct lower doorway. The explanation had changed what a person could do that morning. It had not erased the earlier tiring climb or required Cao to pretend a correct second notice made the first one harmless.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_open_005"
+    },
+    "lantern_18_open_005": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Ma brought a dispute about Ring Meadow's local reply desk, where residents believed the renewed central lamp kept the desk open afterward. Its workers' current paid shift ended earlier on two days. A signal arriving near closure needed the agreed next-day receiving arrangement. Yue could write the distinction from the actual staffs' admitted hours. Fan wanted the public sheet to say replies remained convenient. Mu said convenience depended on which household waited. Yue chose a plain sentence naming the next receiving day and the staffed ground alternative instead of describing all residents' experience with one reassuring adjective.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_open_006"
+    },
+    "lantern_18_open_006": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "On Day 1674 Yue walked the public approach with Cao and a clinic helper who had accepted the ordinary inspection duty. The old stair sign remained in place because its removal had waited on a separate building keeper. Cao pointed to it without needing another proof of her complaint. The keeper received the current correction and arranged its ordinary removal that afternoon. Yue described the observed sign and the actual removal reference in the work record. She had not gained a general right to alter signs by becoming frustrated with them.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_open_007"
+    },
+    "lantern_18_open_007": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "The sheet's picture drew a different objection from a blind resident, Yu Chan, whose daughter ordinarily read directions aloud. The printed roof outline did not tell her which wall to follow after the stall row. Yue listened while Yu described the current route in her own words. Ke checked the public passage's actual handrail and kept the description within its admitted safe path. Hou booked the permitted plain-text explanation in the existing printing line. The added words made the direction usable to a person the attractive picture had left waiting for another reader.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_open_008"
+    },
+    "lantern_18_open_008": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Yue wanted to claim the new sentence as her clever contribution until Yu repeated it more clearly at the meeting. She had supplied the lived direction. Yue had helped receive and verify it for public use. Hou credited the offered route description under Yu's chosen public name and excluded her private household account. Fan liked the revised sheet and asked the artist whether the line could fit beneath the roofs. The artist adjusted the ordinary layout within the accepted print job. Several people's work now occupied the page without one of them having to become its sole hero.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_open_009"
+    },
+    "lantern_18_open_009": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "The first nine calendar days were received on Day 1679, including actual morning work and no future dates. Hou paid forty-five copper from the information wage line. Yue counted it, reserved the next shared room and meals, and put the remaining portion toward her personal examination plan. The last ten days still needed completed work and their actual later receipt. Hou retained the unfinished circulation draft in its admitted custody. The first payment made a later course more affordable without turning the whole ninety-five into money already available that afternoon.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_open_010"
+    },
+    "lantern_18_open_010": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Day 1680 was her paid rest day. Yue went with Tian and the boy to the ordinary market, where he spent the pebble from his earlier game by giving it to a friend. Tian bought food from her own household money, and Yue bought her own simple meal within the stated daily price. A stallholder recognized Yue from the public sheet and asked her to settle a private rent disagreement. Yue directed him to the actual tenancy receiver, then returned to the boy's account of how a bird would use a cupboard. She wanted her rest to contain that conversation.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_open_011"
+    },
+    "lantern_18_open_011": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Fang's second successor courier term left on Day 1682 under its separately ratified route. The public sheet named its actual junction rather than promising a visit to every household that asked. Mu supplied the current local receiving worker's hours, and Hou checked them before the next print run. Yue saw Hai Lin reading the welfare review address beside the route. He had submitted his household facts and received a later sitting date. His need had not become invisible merely because the new page could help somebody else sooner.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_open_012"
+    },
+    "lantern_18_open_012": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "The clinic's third accepted collection fare occurred on Day 1683 for the household already selected under its own receiving arrangement. The public report could count a completed fare without publishing the patient's private reason. Yue asked the desk to separate its ordinary completion date from the clinical source fields before offering the count to Hou. The institution supplied the permitted aggregate. Bai Min's own household journey, paid under a different account, appeared in no such subsidy tally. Knowing people in both places did not entitle Yue to combine their records for a tidier narrative.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_open_013"
+    },
+    "lantern_18_open_013": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "On Day 1686 the first public circulation reached East Sill's current lower counter. Its keeper confirmed the received stack and posted the plain-text route beside the picture. Yu Chan's daughter read it aloud at home and wrote back that her mother could now identify the turn without an image. Cao's old stair notice remained superseded, with the correction date visible. Fan said the page felt less grand than his three-window drawing. Mu said it felt more useful before breakfast. Yue kept both comments in mind when choosing the final explanatory paragraph.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_open_014"
+    },
+    "lantern_18_open_014": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Hou asked whether Yue would remain for a longer public teaching term after the examination interval. It was an invitation to consider a funded proposal, not present employment or a guaranteed certificate. Yue received its price and possible dates, then left the answer open until her personal work and current condition were complete. The public sheet would remain usable if she declined. Its authorship did not oblige her to occupy the desk forever. Hou could plan another paid worker once her actual answer was known, rather than treating continued gratitude as a roster.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_open_015"
+    },
+    "lantern_18_open_015": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "On Day 1689 Hou accepted the remaining ten calendar days and paid fifty copper, closing ninety-five actual wages. Yue returned the residents' admitted source forms, left the public final sheet with its current receivers, and kept her own work reference. The printers and local runners received their separate agreed payments, exhausting the one hundred twenty-seven by its actual purposes. The sheet's new direction and receiving times remained public. No private appointment pages traveled into Yue's examination wrapper. She had finished a service whose usefulness could outlast her chosen presence.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_open_016"
+    },
+    "lantern_18_open_016": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Yu Chan came to the final room sitting with her daughter and asked Yue to read the route herself. Yue did, slowly enough for the turns to be followed. Cao corrected one pronunciation, and the room laughed without making her earlier complaint a joke. Mu thanked the junction worker by name. Fan set his roof drawing beside the plainer sheet and finally said both could belong on the wall. Yue went home with no private workshop appendix and no intimate household escort history from this term. She had received public relationships, actual wages, and a page strangers could use.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_close_001"
+    },
+    "lantern_18_workshop_001": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Bei Rong received Yue at the workshop with the earlier model account on his own source shelf. Its bounded production license had expired on Day 1606, and the private appendix had never become her property. He now offered a different nineteen-calendar-day documentation term, Days 1671 through 1689, at six copper daily: one hundred fourteen wages. The workshop's already received operating provision held one hundred forty, with eighteen for paper and the admitted model records and eight for dispatch. Yue accepted two-hour mornings, one paid rest day on Day 1680, and a source agreement specific to the new model.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_workshop_002"
+    },
+    "lantern_18_workshop_002": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "The new job admitted the operating extracts necessary to explain the model's ordinary safety conditions, with the maker retaining originals and private design details. Yue could retain her independently authored personal observations and the final public safety page. The restricted appendix would have a bounded internal production use through Day 1689, ending with this received term. Any later production license required a new chosen agreement. Bei wanted a cleaner answer about future use. Yue said the present price bought the described finite work, and he accepted it rather than quietly extending the old permission.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_workshop_003"
+    },
+    "lantern_18_workshop_003": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Fen Ai brought the new model's cold casing to the table. Its latch opened more easily than the one in the earlier account, which Bei wanted to advertise as an improvement. A customer who wore thick ordinary work gloves could not reach the narrower release grip reliably. Fen had recorded the actual test and withheld that configuration from the current safety claim. Yue asked the customer, Lu Min, what motion failed. She demonstrated with the cold part within the agreed ordinary comparison, leaving the powered task to its separately qualified workers and paid dates.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_workshop_004"
+    },
+    "lantern_18_workshop_004": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Lu Min did not want the report to make her sound clumsy. Her ordinary job required the gloves, and a design suitable only for bare fingers did not serve that work. Yue wrote the condition as part of the admitted intended use rather than a fault in the customer's character. Bei disliked seeing the limitation near his improved latch claim. Fen asked whether he preferred selling a model the customer could not release under its advertised conditions. The public sentence stayed. A useful documentation term had begun costing the maker an easier advertisement.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_workshop_005"
+    },
+    "lantern_18_workshop_005": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "The workshop's qualified staff tested the separately funded alternative grip under their own accepted model course. Yue did not conduct the powered comparison or borrow its source cells for personal practice. She received the admitted outcomes for the documentation scope after the actual observer signed them. The alternative worked under Lu's named glove condition and still failed under another bulky mitten the maker had considered. That second use remained withheld. The page could name a successful received configuration without allowing a reader to imagine the entire range had passed.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_workshop_006"
+    },
+    "lantern_18_workshop_006": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Bei's sales assistant, Ge Rui, wanted to send the private appendix to a prospective buyer who promised a large order. The buyer had received only the public safety page under the current offer. Ge asked Yue to remove the internal heading because the source could then look like another ordinary attachment. Yue refused the misleading change and directed the proposal to Bei as owner of the restricted material. Bei chose to offer a separate permitted technical sitting instead. The buyer declined the delay and bought a different model from another shop.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_workshop_007"
+    },
+    "lantern_18_workshop_007": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "The lost order made Bei sharper for two mornings. Yue wanted to tell him accurate documentation would certainly pay later, then stopped because she could not know that. The actual page had prevented an unreceived transfer and preserved a truthful condition; it had not guaranteed the workshop a profit. Bei eventually acknowledged the distinction while retaining his disappointment. Fen said the lost buyer had asked for a use none of the current model checks supported. Their ordinary wages still needed payment from the workshop's actual received provision, even when a hoped-for sale vanished.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_workshop_008"
+    },
+    "lantern_18_workshop_008": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "On Day 1677 Lu returned with an ordinary note from her foreman accepting the cleared glove configuration for a small bounded purchase. It was fewer units than Bei had hoped to sell elsewhere. The workshop received the real order at its actual price and production dates. Yue updated the public use description from the already admitted checked condition, not from the size of the sale. Lu chose to keep her own workplace schedule out of the public account. She wanted customers to understand the grip without inviting them to arrive at her job for demonstrations.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_workshop_009"
+    },
+    "lantern_18_workshop_009": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Bei received the first nine calendar days on Day 1679 and paid fifty-four copper. Yue counted the money and set aside shared rent and meals before assigning a portion to the personal examination price. Sixty remained tied to the actual remaining ten days. The workshop's later possible license still had no chosen terms and no fee in her purse. She could feel the benefit of this higher-paid work in the size of her cushion. It came with a narrower source audience and a real obligation to return the admitted private extracts at closure.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_workshop_010"
+    },
+    "lantern_18_workshop_010": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "On the Day 1680 paid rest, Yue left the appendix at its received custody point and took no workshop errands into the market. Tian wanted thread from Sun's stall, and the boy wanted to show him the folding paper chair. Sun watched the pebble collapse it, then produced a spool too large for the game. The boy declined the new test because it would crush the chair rather than improve the surprise. Yue laughed at the firm refusal. She had wanted her own source refusals to feel equally simple, without carrying the whole workshop's missed sale inside them.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_workshop_011"
+    },
+    "lantern_18_workshop_011": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Fang's second public courier term passed the workshop lane on Day 1682, bound for its accepted documentary junction. Ge asked whether the courier could take one private sales note because he was already departing. Fang's source and receiving scope did not include that customer. Bei purchased an ordinary private dispatch from the workshop's separate eight-copper line, which named its actual recipient and current fare. The two bags went by different arrangements. The private sales note acquired a real receiver without expanding a common route through the convenience of a passing person.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_workshop_012"
+    },
+    "lantern_18_workshop_012": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "The reply reached Bei after the buyer's ordinary sitting. It accepted the small checked configuration and asked about a broader hotter model, which the present account did not qualify. Bei sent the public limit and a proposal for a separately priced future comparison. Yue included neither a promised result nor a guaranteed future date in the current appendix. Ge complained that every sentence seemed to end before the exciting part. Yue showed him the exact completed task the customer's workers could now use. The excitement could begin with something received rather than borrowing an untested future.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_workshop_013"
+    },
+    "lantern_18_workshop_013": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "On Day 1686 Fen found a copied dimension in Yue's draft transposed from the older model. The current admitted original made the error clear. Yue corrected it before receiving and marked the superseded internal sheet so nobody would mistake the earlier number for an accepted design change. She disliked being caught after insisting on so many accurate descriptions. Fen did not call it hypocrisy. She had made a particular copying error and now needed the actual correction. Bei accepted the revised page without treating a writer's mistake as permission to reinstate his unsupported broader advertisement.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_workshop_014"
+    },
+    "lantern_18_workshop_014": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Bei offered a possible paid workshop license after the examination interval, with public safety material available and a maker-controlled private production appendix. The offer did not demand Yue's personal cultivation notes or institutional observer data she had never admitted to the job. Yue received the proposed duration and price without accepting yet. A public teaching invitation had gone to another writer during this narrower term. She could later choose a different future, but she had not secretly completed that public work by being acquainted with Hou. The workshop relationship now gave her a particular opportunity.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_workshop_015"
+    },
+    "lantern_18_workshop_015": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "On Day 1689 the maker received the remaining ten calendar days and paid sixty copper, completing one hundred fourteen wages. Yue returned the operating extracts and closed the term's internal production permission at its stated date. Paper, admitted record preparation, and private dispatches completed the separate eighteen and eight lines. Her independently authored personal notes remained hers under the accepted agreement, and the final public safety page stayed available to its users. The maker retained his private design originals. Finishing the job did not make every document travel with the writer.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_workshop_016"
+    },
+    "lantern_18_workshop_016": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Lu came to receive the public page for her foreman and asked Yue to point out the glove condition. Yue read the actual sentence and let her explain the useful motion in her own words. Bei listened without replacing it with a grander advertisement. Fen placed the corrected dimension sheet in the admitted model file. Yue left with a higher wage and a narrower workshop correspondence, no private family appointment history, and no newly performed public comparison.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_workshop_017"
+    },
+    "lantern_18_workshop_017": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "The choice had made her a particular kind of worker whose completed account could support a later bounded license if she chose its real terms.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_close_001"
+    },
+    "lantern_18_house_001": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Bai Yuan received Yue at the nursery's ordinary breakfast table, where Bai Min had put three current appointment dates beside a seed tray. The household offered nineteen calendar days, Days 1671 through 1689, at four copper daily: seventy-six wages. Its ninety-six-copper provision came from already received household sales income, with twelve for three ordinary round fares and eight for bounded household carrying assistance. Qualified clinical care remained separately arranged and paid under its own actual terms. Yue accepted two-hour mornings, the paid rest day on Day 1680, and custody of only the sheets needed for this finite escort task.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_house_002"
+    },
+    "lantern_18_house_002": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Bai Min remembered that Yue had preferred the slower shaded lane during the earlier term, then said she now wanted to try the busier public route. Her current ordinary mobility advice permitted the named walk with rests. Yue asked what had changed. The quieter lane left her feeling hidden from neighbors, Bai said. A route could be physically suitable and socially unwelcome. They would inspect the busier way in the actual permitted interval, retaining the ordinary booked cart for the longer clinic journey. The household's present wishes mattered more than Yue's affection for her own earlier plan.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_house_003"
+    },
+    "lantern_18_house_003": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "The inspection found a food stall spilling crates across the public waiting space. Its keeper, Jun Tao, believed he could leave them until noon because the cart stop was rarely used early. Bai Min sat on the remaining permitted bench while Yue showed him the current sign and asked the responsible ordinary keeper to receive the obstruction. Jun moved the crates within his own stall boundary. Bai disliked needing an argument before breakfast. Yue did not praise the clearing as an adventure. They had wanted an ordinary usable seat, and the extra dispute had tired her.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_house_004"
+    },
+    "lantern_18_house_004": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Bai chose the shaded lane for the next morning and asked Yue not to interpret that as surrendering the busier route forever. Yue wrote the actual chosen day in their household plan. Different ordinary mornings could support different choices without making the earlier inspection false. The clinic's first booked round journey would occur on Day 1674, paid from the separate twelve-copper household fare line. Its licensed driver had the current route and ordinary passenger terms. Yue would accompany Bai under her two-hour task while the qualified clinic staff received the clinical work.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_house_005"
+    },
+    "lantern_18_house_005": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "During the Day 1674 journey Bai told Yue that her daughter kept introducing her to strangers as someone who needed careful looking after. The phrase was often useful and sometimes humiliating. She wanted Yuan to name the particular assistance before summarizing her whole life as need. Yue asked whether she wanted help saying this at home. Bai wanted to say it herself, with Yue present so the conversation would not drift into an argument about whether the walk had been safe. The booked appointment went ahead, and the clinical account remained with its actual qualified receivers.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_house_006"
+    },
+    "lantern_18_house_006": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Yuan listened at supper, first defending the phrase because she had worked hard to obtain the current care. Bai acknowledged that work, then repeated the particular request. Yue described the actual distinction Bai had made without offering a clinical opinion. Yuan agreed to ask which introduction her mother wanted before the next visit. The conversation did not end every household disagreement. It altered a habit in a received relationship, and the next neighbor heard Bai introduced as the person choosing the nursery's new planting colors rather than as a problem Yuan had solved.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_house_007"
+    },
+    "lantern_18_house_007": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "The seed tray held a later sowing whose growth was uneven despite the nursery's actual changed method. Yuan wanted the earlier failed first crop mentioned on the customer sheet so people would understand why some promised stock had never appeared. Bai preferred not to lead every visit with the loss. Yue helped them separate the factual sales correction from the household conversation, using only the admitted ordinary order notes. The original failed sowing remained lost. This new tray could improve a particular later order without restoring the dead seedlings or refunding every earlier disappointed customer.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_house_008"
+    },
+    "lantern_18_house_008": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "On Day 1678 the household carrying helper, An Ning, completed the first accepted light furniture move under the separate eight-copper provision. She put Bai's ordinary seat nearer the shaded window and returned the borrowed hand cart afterward. Yue did not add that carrying to her escort hours. Bai wanted the chair turned toward the nursery entrance and accepted the ordinary footstool that kept her chosen posture comfortable. The arrangement gave her a place from which she could greet customers herself. Yuan stopped answering every visitor's question before her mother had time to speak.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_house_009"
+    },
+    "lantern_18_house_009": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Yuan received the first nine calendar days on Day 1679 and paid thirty-six copper. Yue counted the actual wage, reserved shared rent and meals, and retained the rest toward her personal examination plan. Forty remained dependent on the completed last ten days. Bai asked whether the lower household wage would make Yue regret declining another public term. It made the personal cushion smaller, Yue said, but it had also given her mornings and conversations she would not have received at the desk. She could value the work while taking its real financial difference seriously.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_house_010"
+    },
+    "lantern_18_house_010": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Day 1680 was her paid rest. Yuan used the already arranged substitute companion for the one ordinary household errand that could not wait, from her own separate current household provision. Yue stayed with Tian and the boy through breakfast and went to the reading room afterward. Hou's public sheet was available there, useful to any resident. It contained no privileged source Yue had acquired through this household job. She read the changed counter direction and thought of Bai's request to be introduced by her choices. A good public explanation could help without knowing every private reason someone needed it.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_house_011"
+    },
+    "lantern_18_house_011": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "The second booked ordinary round fare occurred on Day 1681, using another four copper from the household's twelve. Bai chose the public waiting place after Jun's crates had actually remained within his stall. A neighbor recognized her and asked about the planting tray rather than the clinic journey. She described the colors she wanted, then asked the neighbor for an ordinary sample from his own lawful stock. He could bring it later if he wished. Yue walked beside her after the appointment and noticed Bai needed fewer explanations about why the busier route had mattered.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_house_012"
+    },
+    "lantern_18_house_012": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Fang's second successor courier passed the junction on Day 1682 under its own public term. Bai asked whether his route could carry a private nursery order to her sister. Yuan checked the ordinary private post instead, because the accepted public bag had a different receiving scope. The household paid its own small dispatch from a separately retained personal provision, leaving the clinic fare line intact. The order reached the lawful private receiver later. Yue's presence as escort had not made her an observer authorized to put private customer pages into an institutional bag.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_house_013"
+    },
+    "lantern_18_house_013": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "On Day 1685 Bai's sister answered with a proposed later visit rather than a promised arrival on the final escort day. Her ordinary journey depended on a household duty already booked elsewhere. Bai was disappointed and kept the guest place unbooked. Yue recognized the feeling from her own mother's distant offered room. A chosen journey needed actual dates and fare; affection did not shorten the road. They spent the morning sorting permitted seed labels instead of arranging an imaginary reunion. Bai sent the sister a real answer about which later windows the household could consider.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_house_014"
+    },
+    "lantern_18_house_014": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "The final booked round journey took place on Day 1688, using the last four copper of the twelve-copper fare line. The ordinary driver and clinic staff received their actual tasks. An Ning completed the remaining bounded carrying assistance afterward, exhausting its separate eight without acquiring an indefinite household role. Bai's next clinical plan belonged to the qualified team and the household's own later choices. Yue returned the appointment sheet to Yuan after the final escort record. She would not keep clinical papers as a souvenir of being trusted in an intimate room.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_house_015"
+    },
+    "lantern_18_house_015": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "On Day 1689 Yuan received the remaining ten calendar days and paid forty copper, closing seventy-six actual wages. Yue returned the admitted household route pages, left Bai's current private plan with its owner, and retained her own work receipt and independently written notes. The ninety-six provision had paid seventy-six wages, twelve ordinary fares, and eight actual carrying help. No basin apparatus or public relay reserve funded the household. Yuan offered a possible later ordinary homeward travel contact through the nursery's known carrier, without buying Yue's answer or pretending a booking had already been made.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_house_016"
+    },
+    "lantern_18_house_016": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Bai asked Yue to stay for a final ordinary cup of tea after the received hours. Yue chose to, with her own evening still available. The first failed sowing was visible in the corrected sales account; the later tray held small imperfect growth. Bai talked about colors, her sister's delayed visit, and the chair she now faced toward the door. Yue had earned less than the workshop worker and had no public comparison draft or maker appendix from this term.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_house_017"
+    },
+    "lantern_18_house_017": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "She had received a particular family's trust and the real opportunity to arrange an ordinary journey through people who knew her.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_close_001"
+    },
+    "lantern_18_close_001": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "The term ended before Yue's later examination, with its actual received wage and its actual source limits intact. She put the work receipt in her personal account and returned to the shared room for supper. Tian asked about one thing that had happened rather than the whole contract. Yue chose a conversation she was entitled to describe, leaving other people's private pages with their owners. The boy listened until he wanted to show them the repaired bird cupboard. Its flap now closed more slowly, which he said made the bird less alarmed.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_close_002"
+    },
+    "lantern_18_close_002": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "On Day 1689 He Pu offered a common ordinary school job whose public materials Yue had already used in earlier received work. It ran Days 1690 through 1710, twenty-one calendar days at four copper each, eighty-four total. The school's already received maintenance information fund held one hundred twenty: eighty-four wages, twenty-four paper, and twelve local circulation. Two-hour mornings would check current public direction wording and copying, with paid rest on Days 1693, 1700, and 1707. The proposal admitted no private clinical or workshop appendix and requested no powered cultivation task.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_close_003"
+    },
+    "lantern_18_close_003": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Yue showed He the possible protected trial and following-check dates before accepting. He could receive actual public copy work around those dates if its agreed two-hour duty and rest remained intact. He would not require an evening replacement shift when an examination consumed ordinary recovery. The first ten completed calendar days would be paid on Day 1699, forty copper; the remaining eleven would be paid after completion on Day 1710, forty-four. Yue accepted the finite ordinary post. Its future eighty-four did not yet enter her purse, and its source could not pay a personal examination directly.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_close_004"
+    },
+    "lantern_18_close_004": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Shao reviewed the proposed personal examination on the same afternoon. Yue could now identify a received wage, a priced course, and ordinary living she could afford without borrowing a fixture's fuel reserve. The current qualification still needed actual observation. They provisionally named recovered dates for three interrupted trials and every next-day check, with no result promised and no input until each independent current assessment admitted it. Yue would pay the forty-eight personal fee on Day 1691 if the booked conditions held. The unopened reference stock stayed with its seller until the actual accepted course.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_close_005",
+      "cast": [
+        "lin_yue",
+        "lantern_shao_ye"
+      ]
+    },
+    "lantern_18_close_005": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "The renewed relay's public report through Day 1689 recorded sixty actual central attempts across thirty two-window service days, all sixty completed. A hundred twelve of its hundred seventy-two service cells remained. Fang's second four-day courier term had finished its outward acknowledgment and ordinary return by Day 1685. The clinic's fares on Days 1673 and 1683 had completed their own selected household arrangements. Their actual receivers and staffs carried those results. Yue's ordinary job term did not make her the operator, the courier, or the owner of the remaining fuel.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_close_006"
+    },
+    "lantern_18_close_006": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Tian read the public report after her garment delivery and asked whether the regional service would go cold again after Day 1745. Its current qualified and funded term ended there; the institutions would need an actual successor proposal before another powered period. Yue had no personal certificate that could replace their money, staff, and received local conditions. Tian said she had meant the practical question, because her own later dispatch might need a ground booking. They checked the posted ordinary carrier dates and left that particular future message unbooked until she knew its receiver.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_close_007"
+    },
+    "lantern_18_close_007": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Yue spent the evening repairing the ordinary tie on her notebook, using the small personal material already inside her incidental provision. The pendant lay beside it in the dry wrapper. It had accompanied several changed livelihoods without supplying their wages or answering their private disagreements. She held it once, then put it away and wrote the current examination price on a clean page. Its meaning could stay personal while the practical plan became precise. Tian called her to supper before she began turning the plan into another unreceived night's work.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_close_008"
+    },
+    "lantern_18_close_008": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "The boy asked whether the examination room had a bird cupboard. Yue said it had a cold fixture, ordinary chairs, and people who needed to hear one another clearly. He thought that sounded less pleasant than home. She agreed that home had different purposes. He offered to lend the paper tower if it helped. Yue thanked him and declined; the tower could remain where its owner wanted it, safe beside his chair.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_18_close_009"
+    },
+    "lantern_18_close_009": {
+      "chapter": "book_xxiv_lantern",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "chime_reach_relay_plaza",
+      "effect": "none",
+      "text": "Her later opportunities remained particular to the relationships her completed work had actually produced. Yue could ask about public terms offered to any qualified applicant without pretending she possessed every private conversation behind a familiar employer's name. A future decision would concern real current proposals and could not rewrite which mornings she had already spent or which papers she had returned. She closed the notebook and listened to rain stop along the eaves. The next morning contained a school duty, money for breakfast, and an examination still to earn.",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "8: Balanced reservoir"
+      },
+      "next": "lantern_19_001"
+    }
+  }
+}

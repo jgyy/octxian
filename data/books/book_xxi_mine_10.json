@@ -1,0 +1,791 @@
+{
+  "chapters": {},
+  "characters": {},
+  "nodes": {
+    "mine_p10_001": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Rain began before the Day 542 tailings meeting and found each seam in the yard's drainage. Lin watched red water collect beside a cart rut while Jia Wen set a covered observation tray beneath the awning. The moths did not gather to deliver a warning. They hid where warmth and shelter remained, and the human work moved around them imperfectly. Sui Jun wanted a shorter disposal line before the next receiving turn. Ma Lian wanted the wet edge checked first. The rain made both requests urgent without making either person correct by urgency alone.",
+      "next": "mine_p10_002"
+    },
+    "mine_p10_002": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Fan Luwei walked the accessible surface bank with the ground plan and stopped everyone short of the loosened edge. He could assess the support and drainage question within his structural work. Jia had observations about habitat response, not authority to clear loaded carts. Lin remained on the sound path and saw how often a conversation turned toward whoever held the most visible notebook. Several workers expected Jia's tray to answer whether the whole bank was safe. Fan took that question back into his own hands before a biological note could become a structural certificate.",
+      "next": "mine_p10_003"
+    },
+    "mine_p10_003": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "A carter called Cai Ren had brought an empty cart to the waiting line. He pointed to a narrow track that looked dry beneath the red surface and asked to move before his next hire began. Fan refused pending the ground check. Cai said a delay would cost a job, with a real cost. Qiao arranged to record the held interval against a separate ordinary delay account while clearance proceeded. She could compensate a bounded delay she actually authorized; she could not promise every later job would still wait. Cai stayed, angry and no longer obliged to hide it.",
+      "next": "mine_p10_004"
+    },
+    "mine_p10_004": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Jia laid out the observation plan without claiming it would settle Fan's question. Moisture, ordinary warmth, vibration sources, and shade had altered the insects' visible response across limited intervals. Some sound sources remained unresolved. The colony's long term survival had not been demonstrated. Lin looked at the fence, the comparison tray, and her earlier drawing. Her habitat decision determined which part of that work she had actually helped perform and which report she had only heard afterward. The meeting needed the difference, because a beautiful combined account would give her knowledge she had never acquired.",
+      "next": "mine_p10_005"
+    },
+    "mine_p10_005": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Sui asked whether the buffer had already proved the disposal line harmful. Jia said it had separated an observed patch from cart traffic during a defined interval. That was useful and narrower than proof about every tailings movement. Ma asked whether a changed comparison had cleared a new line. Jia said no. Fan added that new structural clearance still required actual work. The answers disappointed everyone who wanted one fact to end the argument. Lin could bring her real earlier contribution forward or leave its absence visible. Neither friendship nor the coming examination filled that evidential gap.",
+      "next": "mine_p10_006"
+    },
+    "mine_p10_006": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Qiao gave the meeting an ordinary task: decide a temporary surface arrangement while the separate checks were made, then review it after actual rain and traffic. She could assign a finite forty copper surface account and work, rather than an unlimited promise to preserve every route and insect. The old tempting shortcut remained closed. The account would need to cover hauling, barriers, observation, an attended buffer interval, and the small administrative work actually used. Lin had heard enough inflated proposals to find the modest figure reassuring. It also meant some useful wishes would not fit.",
+      "next": "mine_habitat_followup"
+    },
+    "mine_habitat_followup": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Jia asked Lin to present only the contribution she had actually made during the earlier habitat turn. A staffed marked buffer, a bounded changed condition comparison, and an offered drawing each supplied different evidence. The observer's later independent reports belonged to the observer. Lin could cite a report she had received, but would label it as a report rather than an interval she witnessed. The miners listened while rain drummed on the awning. The distinction was about to alter how quickly the temporary plan could proceed and which questions needed fresh work.",
+      "next": "mine_p10_after_001",
+      "routes": [
+        {
+          "decision": "mine_habitat_choice",
+          "selected": "mine_habitat_buffer",
+          "next": "mine_p10_buffer_001"
+        },
+        {
+          "decision": "mine_habitat_choice",
+          "selected": "mine_habitat_comparison",
+          "next": "mine_p10_comparison_001"
+        },
+        {
+          "decision": "mine_habitat_choice",
+          "selected": "mine_habitat_leave",
+          "next": "mine_p10_leave_001"
+        }
+      ]
+    },
+    "mine_p10_buffer_001": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Lin described the staffed buffer turn she had accepted on Day 482. She had helped place the separation and maintain its defined ordinary interval, with the offered two copper assistant payment already earned. Empty carts took a longer line during that work. She could identify the practical diversion and the observed patch protected from those passes. She had not run Jia's changed condition comparison. That absence stayed in the account, even though a stronger biological conclusion would have made the buffer look easier to defend. Ma nodded because the actual traffic effect was something she could plan around.",
+      "next": "mine_p10_buffer_002"
+    },
+    "mine_p10_buffer_002": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Cai asked how much longer the marked diversion took. Lin gave the time she had actually observed, distinguishing it from a loaded cart journey in rain. The earlier interval involved empty carts and a different surface condition. Fan wanted a loaded route check before assigning the new hauling. Cai seemed annoyed that her helpful experience stopped precisely where his paid cart mattered. He was right to notice the gap. Lin could not make her old observation cover today's task. Qiao kept the held interval recorded and arranged the ordinary check instead of asking the carter to test uncertainty for free.",
+      "next": "mine_p10_buffer_003"
+    },
+    "mine_p10_buffer_003": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Jia said the staffed buffer had prevented repeated disturbance within its short observation period. It had not shown that every moth elsewhere survived or that the mineral seam wanted a particular human policy. Lin remembered the household moth whose damaged wing had not recovered. A sympathetic intention could preserve a patch and still leave deaths unresolved. She told the meeting the colony claim should remain limited. Sui looked relieved to hear the word limited, then disappointed when Fan said a limited claim still deserved separation where the new cart path crossed a known observation area.",
+      "next": "mine_p10_buffer_004"
+    },
+    "mine_p10_buffer_004": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The buffer experience let Lin show an ordinary surface attendant where a cart driver might miss the fence line. She accepted this explanation within the meeting, without taking a new paid shift or ongoing habitat post. The attendant would perform the separately assigned four hour turn when hauling began, for four coppers from the finite surface account. Lin pointed to a confusing angle at the gate and suggested moving the sign where an driver could actually see it. The idea came from work she had done. It did not require her to claim another observer's measurements.",
+      "next": "mine_p10_buffer_005"
+    },
+    "mine_p10_buffer_005": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Ma used the practical diversion account to schedule the first temporary hauling outside the busiest receiving interval. Workers would still walk farther. The difference was that the lost time appeared in the plan rather than being treated as resistance to conservation. Sui wanted the receiving order protected and agreed to stagger his sound crates. He did not suddenly love the buffer. Lin saw his cooperation as a concession with a cost, not a converted belief. Her earlier choice had made her useful at precisely that scheduling point and left the biological comparison to Jia.",
+      "next": "mine_p10_buffer_006"
+    },
+    "mine_p10_buffer_006": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Jia reserved the fresh observation needed for the new arrangement on Days 543 and 546, under the six copper field portion Qiao had assigned. Two three copper intervals would have specific notes and an actual end. Lin was not named as paid assistant in them; her old two copper turn did not purchase her future availability. She could receive the permitted public disposition afterward. The arrangement kept the buffer contribution consequential without expanding it into an indefinite duty. Lin thanked the observer and returned the marked sketch she had borrowed for the explanation.",
+      "next": "mine_p10_buffer_007"
+    },
+    "mine_p10_buffer_007": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "At the end of the presentation Ma asked Lin to attend the public review if her ordinary shift permitted it. She had become a person who could explain the diversion's practical origin. Lin agreed to hear the public result, not to take charge of a habitat she lacked authority to manage. Cai still wanted the ground opened sooner. His cart hire and the insects' patch both remained real. The buffer role had put Lin between their needs in a useful narrow way. She could now help locate the cost, but she could not erase it.",
+      "next": "mine_p10_buffer_008"
+    },
+    "mine_p10_buffer_008": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "When she stepped back from the table, the plan contained an attended marked interval and a traffic explanation grounded in her earlier work. It also contained blank spaces for fresh biological observations and structural clearance. Lin felt less heroic than she had imagined a conservation turn might feel. People would haul ordinary spoils, pay wages, and watch whether the changed arrangement did what they expected. Her choice had supplied part of that plan. The rain still fell beyond the awning, indifferent to how coherent the meeting finally sounded.",
+      "next": "mine_p10_after_001"
+    },
+    "mine_p10_comparison_001": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Lin presented the bounded comparison she had assisted on Day 482, distinguishing the intervals she witnessed from Jia's repeated report on Day 483. The comparison had varied ordinary warmth and moisture under a defined setup while several sound sources remained unresolved. Her two copper assistant payment belonged to that performed turn. She had not staffed the marked buffer. Ma could not use her account as proof of how drivers saw its fence. The narrower presentation gave Jia a checked question about the current rain condition without lending Lin a practical traffic history she did not possess.",
+      "next": "mine_p10_comparison_002"
+    },
+    "mine_p10_comparison_002": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Sui asked whether the repeat report meant the colony would accept the new disposal line. Lin said a repeated setup was not consent from a colony or proof about a different loaded cart route. Jia approved the wording and showed which observations actually bore on moisture. Fan kept the bank clearance separate. The discussion changed because Lin could point to a measured comparison rather than only a sympathetic patch on a drawing. It did not become simpler. The evidence narrowed one biological question while leaving structure, traffic, and long term survival unresolved.",
+      "next": "mine_p10_comparison_003"
+    },
+    "mine_p10_comparison_003": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Jia used the earlier checked question to preregister two fresh field intervals for Days 543 and 546. The finite six copper allocation paid three each. The new notes would record rain condition, shade, visible behavior, and the known disturbance sources without filling unexplained sound with a prophecy. Lin helped identify the relevant earlier comparison reference during the meeting, not as a newly hired assistant. Her old task did not obligate her to appear at every future tray. The observer had funded work and an end date rather than an admirer promising to watch indefinitely.",
+      "next": "mine_p10_comparison_004"
+    },
+    "mine_p10_comparison_004": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Cai asked Lin which path would let his cart through. She could not answer from the comparison sheet. A surface attendant and Ma would examine how the marked temporary route looked to an approaching driver, while Fan assessed the ordinary bank. The gap cost time Lin's evidence could not buy back. Cai said her notes sounded cleverer than they were useful. She accepted the complaint without surrendering the comparison's real value. It would help avoid one misleading interpretation of the rain response. His paid cart needed another qualified answer, and Qiao kept that delay visible.",
+      "next": "mine_p10_comparison_005"
+    },
+    "mine_p10_comparison_005": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The meeting selected a dry temporary stack within the authorized company surface area, subject to Fan's check and the planned barrier. Jia could say why the observation should compare moisture at the edge rather than treat every vibration as the same input. Sui disliked having his proposed shortcut rejected, but understood the test better than a general appeal to save the moths. Ma assigned the attendant to the marked interval without pretending Lin had prior buffer experience. Lin's comparison role changed the design of the field question and left the traffic work to people who would actually perform it.",
+      "next": "mine_p10_comparison_006"
+    },
+    "mine_p10_comparison_006": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "At the covered table Lin and Jia checked the permitted public summary against the source reference. They kept the Day 483 repeat identified as the observer's report and omitted specimen details not approved for general copying. The summary did not certify medicine, human cultivation material, or a living intelligence in the mineral seam. Jia said the plain uncertainty might disappoint readers who wanted the mine to hide a marvel. Lin said workers trying to decide where to walk deserved something less theatrical. The observer smiled and put the finished summary into its protected sleeve.",
+      "next": "mine_p10_comparison_007"
+    },
+    "mine_p10_comparison_007": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Ma invited Lin to the public review as someone who could explain the comparison question, if her accepted shift allowed attendance. Lin agreed to that limited purpose. She was not the buffer manager or structural examiner. The invitation differed from the one a staffed diversion turn would have earned: it asked her to explain evidence rather than traffic experience. Cai would receive the cleared route when the ordinary work was done. Lin had helped make the biological check sharper, while his practical wait and the still unknown survival of distant insects remained outside her answer.",
+      "next": "mine_p10_comparison_008"
+    },
+    "mine_p10_comparison_008": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "She stepped away with a permitted comparison summary and no borrowed authority over the cart line. Jia's new field intervals would test a changed condition rather than replay the old notes until they sounded decisive. The earlier choice had made Lin useful at that precise point. It had also left her dependent on someone else's ordinary buffer explanation. She watched the attendant study the gate angle and understood why different kinds of participation could produce different strengths without ranking one life above another. Rain struck the awning, and the plan moved forward in parts.",
+      "next": "mine_p10_after_001"
+    },
+    "mine_p10_leave_001": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Lin brought the drawing she had offered while declining ongoing habitat work. It recorded what she had actually seen before the later staffed and comparison turns. She had received no assistant payment and performed neither interval. Jia's independent later reports could be cited as reports, but Lin would not describe their conditions as her own witnessed experience. Ma accepted the drawing as a location reference. It did not tell her how a driver saw the marked buffer or give Jia a checked assistant account of the altered setup. The meeting had to obtain those facts elsewhere.",
+      "next": "mine_p10_leave_002"
+    },
+    "mine_p10_leave_002": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Cai looked at the drawing and asked whether it meant he could take the apparently dry track. Lin said it supplied no structural clearance. Fan kept him off the loosened edge while checking the ordinary ground plan. Lin had preserved free time when she declined the habitat role; she had not preserved the evidence and practical authority of participating. Saying that in front of an carter felt uncomfortable. It was better than turning a modest offered source into a certificate he might act on. Qiao continued recording the bounded held interval against the surface work account.",
+      "next": "mine_p10_leave_003"
+    },
+    "mine_p10_leave_003": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Jia explained the later observer reports directly and separated them from Lin's earlier drawing. The rain condition still required fresh field work. Because no assistant comparison or traffic account could be supplied by Lin, the meeting relied on the observer's own sources and the assigned attendant's new route walk. The six copper field allocation still bought only two three copper intervals on Days 543 and 546. Declining did not cancel the public safety baseline. It changed how the plan acquired its evidence and left Lin without a role inside those new observations.",
+      "next": "mine_p10_leave_004"
+    },
+    "mine_p10_leave_004": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Sui asked why she had declined a small paid turn if the habitat mattered to her. Lin said her work and preparation already took time, and concern did not make every invitation hers to accept. He seemed to understand that better than the earlier advocacy refusal. He had declined poorly timed work himself. The conversation warmed briefly around a shared constraint. Jia did not punish the refusal by withholding the public disposition. Private specimen detail remained protected for its own reason, rather than becoming a reward for a person willing to spend more hours.",
+      "next": "mine_p10_leave_005"
+    },
+    "mine_p10_leave_005": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Ma and the surface attendant walked the marked route without claiming Lin's former experience. Lin stayed at the public table and helped keep her drawing identified as a limited offered source. She did not take a assistant shift merely to repair the embarrassment of having less evidence. The attendant would earn four coppers for the actual four hour staffed interval when hauling began. That work now belonged to another consenting person with a named task. Lin had free time for her own preparation and a smaller contribution to this dispute. Both were actual consequences of the earlier decision.",
+      "next": "mine_p10_leave_006"
+    },
+    "mine_p10_leave_006": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Jia marked a location correction on the drawing after checking it against the surface plan. Lin approved the correction to her permitted offered source, but the observer did not turn it into a witnessed changed condition comparison. Fan used the proper structural sheet for the bank. Sui used the actual receiving schedule for his sound crates. The plan gathered several narrow records from people who knew different parts. Lin watched it form without needing to be their common origin. A useful story about the living seam could have more than one person allowed to say I saw this.",
+      "next": "mine_p10_leave_007"
+    },
+    "mine_p10_leave_007": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The public review invitation was open to ordinary workers, and Lin could attend if her shift allowed. Nobody assigned her the buffer explanation or comparison question, because she had performed neither. She could ask about the permitted result as a concerned worker and the author of the corrected offered drawing. The role was smaller and easier to leave. Cai would still receive the qualified route decision; the new field intervals would still occur. Lin's refusal had preserved an interval in her own life while placing the evidence work and its particular relationships elsewhere.",
+      "next": "mine_p10_leave_008"
+    },
+    "mine_p10_leave_008": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "When she put the corrected drawing away, she felt the familiar pull to make her contribution sound larger. The meeting had moved beyond it, and no one needed her to claim the missing work. She had chosen a boundary and now could live inside it honestly. Jia arranged the next tray, Ma checked the attendant's route, and Fan kept the wet edge closed until his assessment finished. Their actions continued without a borrowed protagonist at every center. Lin stayed long enough to hear the public temporary plan and then prepared to return to her accepted shift.",
+      "next": "mine_p10_after_001"
+    },
+    "mine_p10_after_001": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The temporary plan fitted within forty coppers. Sixteen paid two ordinary carters for two four hour half days each on Days 543 and 544, at four coppers per half day. Eight bought the assigned timber barrier work and materials. Two covered the marked warning signs. Six paid Jia's two defined field intervals. Four paid the four hour surface attendant turn, and four covered the messages and disposition copies. The money came from the company surface account Qiao had authority to assign. It was not Lin's curriculum, worker workshop deposits, or medical reserve wearing a different heading.",
+      "next": "mine_p10_after_002"
+    },
+    "mine_p10_after_002": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The account did not cover a neighboring tenant's yard. Sui suggested borrowing that shorter exit for the new stack and said the tenant rarely used it. Qiao asked the tenant instead of treating quiet as permission. The answer was no: a family delivery expected the space that week. They kept the hauling inside the approved surface area and accepted the line. Sui disliked the lost shortcut, but the plan did not purchase land by being well funded elsewhere. Lin watched the alternative crossed out before carters could be sent toward a gate they had no right to open.",
+      "next": "mine_p10_after_003"
+    },
+    "mine_p10_after_003": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Fan cleared the temporary route after checking its bank and drainage, with the specific limit recorded for the current arrangement. The loosened edge stayed closed. Ma walked the marked line with the carters before loaded hauling began. The attendant positioned the warning where drivers could actually see it. Lin stood on the sound side while a first small load moved under the ordinary plan. Nothing in her six pair qualification took the wheel's weight or held the bank. The useful thing she could do was notice which posted instruction the driver almost missed and report it to Ma.",
+      "next": "mine_p10_after_004"
+    },
+    "mine_p10_after_004": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Cai's cart wheel slipped against a loose stone on the approved sound line. He stopped, but the handle struck his ankle as he steadied the empty end. It was an injury in a cleared workplace, not proof that every check had been false. Ma isolated the stone and halted the next pass until the route was cleaned. The assigned ordinary responder helped Cai sit and arranged qualified care. Lin brought a chair from the table and kept the waiting path open. She sent no qi into his ankle and made no promise that a higher stage would mend it.",
+      "next": "mine_p10_after_005"
+    },
+    "mine_p10_after_005": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Cai was not one of the two carters hired for the temporary hauling. He had collected his own empty cart after the Day 542 hold and completed that day's outside hire late. The next morning he returned for a receiving errand before another booked job. Ma allowed him through the cleaned approved line after the first assigned load had passed. His wheel then met the loose stone. The distinction mattered: paying the hired haulers for their actual work would not compensate a visitor's later missed contract by implication.",
+      "next": "mine_p10_after_006"
+    },
+    "mine_p10_after_006": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Cai was angry enough to swear at Fan, who let him finish before explaining what had slipped. The cleared bank had held; the loose stone was a surface housekeeping fault that still needed correction. Chen Ai assessed the actual ankle under the mine's assigned ordinary injury account, separate from Lin's future personal care fees. Cai could report pain without being accused of disproving the engineer. He could also hear a structural distinction without being told nothing had happened. Lin watched the two accounts coexist: a sound bank and an injured worker both demanded a practical response.",
+      "next": "mine_p10_after_007"
+    },
+    "mine_p10_after_007": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The next cart passed only after Ma checked the cleaned line and the workers heard the amended ordinary instruction. Cai's planned later hire was still lost for the day. Qiao recorded the bounded held work and the actual injury response through their proper accounts, with no invented guarantee that every outside opportunity would be reimbursed. He refused to praise the arrangement. Lin understood. A reasonable response after harm did not make the earlier harm pleasant. They could correct the stone, pay the assigned work, and preserve the injury record while Cai remained legitimately unhappy.",
+      "next": "mine_p10_after_008"
+    },
+    "mine_p10_after_008": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "At the gallery's covered inspection table Sui complained that the report would now make the disposal project look unsafe. Fan said the actual fault and correction should be recorded plainly. Jia's habitat note would not absorb the cart injury as a biological effect. Chen's comparison proposal likewise had no authority to redefine it as a human route event. Lin helped Ren separate the source references while staying within her ordinary assistant work. The completed record looked less graceful than a single tale of successful conservation. It was more useful to the next people moving a cart.",
+      "next": "mine_p10_after_009"
+    },
+    "mine_p10_after_009": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "On Day 544 the second hauling half day finished after the cleaned route and marked barrier had been checked again. The carters received the four copper payments for each performed half day from the finite sixteen copper portion. The surface attendant completed the assigned four hour turn and was paid four. The barrier and signs stood where the approved plan placed them. Lin saw the empty old shortcut beyond its closure marker and felt its lost convenience. The new arrangement protected an observed patch and kept people on a checked path, at costs the ledger could actually name.",
+      "next": "mine_p10_after_010"
+    },
+    "mine_p10_after_010": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Not every moth stayed inside the protected patch. Jia saw a few dead insects beside the wet spoils and did not hide them beneath a success claim. Their particular cause had not been established merely by finding them after rain. She recorded location, condition, and the limits of collection under her actual method. Lin looked without taking a specimen. A protected interval could coexist with deaths beyond it. The living seam was a habitat in changing material, not a creature that would reward human effort with universal survival if the correct person cared enough.",
+      "next": "mine_p10_after_011"
+    },
+    "mine_p10_after_011": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Sui asked whether the field work could still justify its six copper expense if it did not prove the colony saved. Jia said the paid task was two defined observations relevant to the changed arrangement, not a guarantee of survival. Qiao confirmed that was the work she had authorized. The answer resembled the cultivation course in one narrow respect: paying for a task did not buy the desired biological result. Lin kept that resemblance limited. Moths and human routes remained different subjects, with different evidence and different people qualified to interpret them.",
+      "next": "mine_p10_after_012"
+    },
+    "mine_p10_after_012": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_worker_lodging",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "At the lodging Cai sat with his ankle supported according to Chen Ai's advice. Han arranged a chair where it would not obstruct the sleeping platforms. Lin carried his meal because he asked for that simple help. He said everyone now wanted to explain the stone. She asked whether he wanted the explanation. He did not that evening. She let him complain about the missed hire without correcting a technical detail every time he spoke. The public injury record already held its specific cause and uncertainty. A tired person at supper did not need to become the whole report.",
+      "next": "mine_p10_after_013"
+    },
+    "mine_p10_after_013": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_worker_lodging",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Lei offered Cai a lamp repair job that could be done seated if he wanted it and if the clinician's duty advice allowed the movements. It was a finite offer, not a substitute for all lost cart work. Cai asked the price and hours before agreeing to consider it. Lin admired the question because need could make any offered activity seem mandatory. Lei would check the suitable task and let Cai decide after his actual followup. Friendship had produced an option without claiming to solve the ankle, household money, or missed outside hire in a single kind gesture.",
+      "next": "mine_p10_after_014"
+    },
+    "mine_p10_after_014": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Qiao assigned nineteen coppers from a separate incident reserve: three for Cai's authorized Day 542 delay, eight for Chen Ai's actual ankle assessment on Day 543, and eight for the planned followup on Day 545. She paid the held interval and arranged the two finite clinic payments by their named work. The forty copper temporary hauling and habitat account stayed intact for its own performed tasks. Cai could see the response without being promised an unlimited purse. The outside hire missed after the injury remained a separate unresolved economic loss.",
+      "next": "mine_p10_after_015"
+    },
+    "mine_p10_after_015": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_clinic_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Chen Ai's Day 545 followup concerned actual pain, swelling, movement, and ordinary duty suitability. Cai consented to the restricted task advice reaching the person arranging a seated offer. His private findings did not become a public example of how the mine treated injuries. Lin knew only the advice he chose to share afterward. She heard him say that seated sorting might fit while cart work remained unsuitable. The qualified assessment had its own date and paid eight copper cost. A later lamp wage would belong to actual work, not to the medical account.",
+      "next": "mine_p10_after_016"
+    },
+    "mine_p10_after_016": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_worker_lodging",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "At supper Cai accused the company of caring more about a tray of insects than his hire. Jia was absent, and Lin did not pretend to answer for her. She said his injury and lost contract were real, then described the separate ordinary checks without claiming they made the loss fair. Cai asked her to stop explaining. She did. Lei passed him the bread before offering any job details. The meal became quieter. Lin learned how quickly a true account could become an unkind answer when a person had asked for company rather than another report.",
+      "next": "mine_p10_after_017"
+    },
+    "mine_p10_after_017": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The next morning Cai asked to see the public route correction himself. Ma showed him the specific housekeeping fault, the removed stone, and the new check before each hauling interval. He could compare those actions with what had hurt him. The report did not describe his anger as evidence of an unreliable witness. Cai corrected the timing of his private errand and approved that correction to the factual injury summary. He still wanted the missed outside contract addressed through its actual responsible parties. The clearer note gave that request a beginning, not a guaranteed payment.",
+      "next": "mine_p10_after_018"
+    },
+    "mine_p10_after_018": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_practice_court",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Lin's own next practice appointment used ordinary recovered condition and the unchanged bounded limits. Wei asked about her work week and whether the tailings incident had tempted her to attempt an unassessed rescue. Lin described bringing the chair and clearing the path. The account was a discussion of judgment, not cultivation test credit. Wei asked what she had wanted to do. Lin admitted she had imagined catching the cart handle before remembering its height and force. They wrote the temptation beside the existing application ceiling. Recognizing a limit could still require resisting a vivid alternative.",
+      "next": "mine_p10_after_019",
+      "cast": [
+        "lin_yue",
+        "mine_wei_yan"
+      ]
+    },
+    "mine_p10_after_019": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_practice_court",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Wei, forty one, wore a slate blue teaching tunic beneath a plain charcoal jacket. The cloth wrist ties kept her sleeves clear while she checked the dry fixture. Lin noticed the care because the examiner's earlier calm had seemed almost disembodied. Wei also had cold hands, finite appointments, and a body that rested after its own demonstrations. Lin asked whether experience made stopping easy. Wei said it made some temptations familiar and did not eliminate them. The answer gave Lin a more useful teacher than an image of a person beyond ordinary impatience.",
+      "next": "mine_p10_after_020",
+      "cast": [
+        "lin_yue",
+        "mine_wei_yan"
+      ]
+    },
+    "mine_p10_after_020": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_practice_court",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The lesson remained preparatory. Lin identified the taught references, used only the assigned bounded portion under supervision, and stopped before the unqualified continuation. Wei did not reward the week of practical decisions by calling the small circuit complete. Actual usable quantity after sampling still lay below the new local sixty unit criterion, and the required closure trials had not occurred. Lin took the unfinished result home with less resentment than before. The cart incident had shown what a body might want to do under pressure. Her present method had to be described honestly before it could be revised.",
+      "next": "mine_p10_after_021",
+      "cast": [
+        "lin_yue",
+        "mine_wei_yan"
+      ]
+    },
+    "mine_p10_after_021": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Jia completed the Day 546 field interval within its assigned three copper fee and issued the permitted public disposition after checking her notes. The changed setup supported a limited account of moisture and disturbance near the temporary stack. Some sources remained unresolved, and long term survival remained unknown. Lin heard the report identified as the observer's actual work. Her earlier habitat contribution did not turn this interval into her own witnessed event. The temporary surface arrangement could be reviewed using it, together with Fan's structural assessment and the ordinary cart record, without merging the three into one authority.",
+      "next": "mine_p10_after_022"
+    },
+    "mine_p10_after_022": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "At the public review Sui argued for opening the old shortcut once the rain eased. Fan said its loosened edge still needed work outside the current account before any new clearance. Jia wanted the observation patch kept marked during the next defined interval, but did not demand an indefinite staff post. Qiao retained the temporary line and put further work into a later separate proposal. The forty copper arrangement had ended with its specific performed tasks, payments, and public disposition. It had not purchased permanent safety, perpetual habitat care, or a promise that traffic would never be inconvenient again.",
+      "next": "mine_p10_after_023"
+    },
+    "mine_p10_after_023": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Lin's earlier habitat contribution had now finished its practical part in the tailings discussion. The meeting had used the actual contribution and obtained missing evidence through other assigned people. No ongoing habitat duty remained with her. The drawing and permitted public summaries stayed within their own source permissions; no moth, specimen tray, or field instrument became her property. She could still care about the patch as an ordinary worker. Her next question concerned the gallery inquiry announced for Day 548, which would require fresh consent and clearance rather than extending an old insect observation into mine access.",
+      "next": "mine_p10_after_024"
+    },
+    "mine_p10_after_024": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Jia later met Lin at the sound path beside the marked habitat. She had heard Cai's complaint and worried the public discussion had made the insects look like competitors for human care. Lin said the finite accounts separated particular tasks, but that did not mean their lived costs felt separate. Jia watched a cart pass beyond the fence and agreed the observer should explain why each measurement mattered plainly. The next permitted summary began with the surface work question instead of the rare appearance of moth wings. It remained a limited observation, written for people sharing the yard.",
+      "next": "mine_p10_after_025"
+    },
+    "mine_p10_after_025": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Lin saw a child imitate the new warning sign by drawing a fence around a puddle. The child's parent moved the game away from the cart approach and used the marked path herself. An ordinary sign could teach a route without making every person understand its full evidence history. Lin liked that success. It did not justify placing more fences wherever she felt anxious. The child's puddle dried by afternoon, while the actual loosened edge remained closed for a different reason. Clear marks needed somebody willing to maintain their meaning after the first excited drawing.",
+      "next": "mine_p10_after_026"
+    },
+    "mine_p10_after_026": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "When the field tray was removed, Jia cleaned its cloth and returned the borrowed shade to its owner. The protected patch stayed marked under the temporary plan, but the paid observation appointments had ended. Lin helped carry no specimen away. She watched an empty space where the tray had stood and felt the temptation to preserve the work forever by leaving its objects untouched. Useful field work also needed a real ending. The next question could be proposed with its own method and funds, rather than keeping this interval alive through an unattended prop.",
+      "next": "mine_p10_after_027"
+    },
+    "mine_p10_after_027": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_worker_lodging",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Cai accepted the suitable seated lamp sorting turn after his clinician advice and Lei's finite offer were checked. He would earn the stated ordinary payment for work performed, not for pretending the ankle no longer hurt. Han put the borrowed chair back when Cai no longer needed that particular position. Lin noticed how recovery could advance through mundane changes that did not resemble a realm breakthrough. The missed cart hire remained missed. The lamp turn gave him useful money and company while he followed the existing duty limits. Nobody had resurrected his lost day.",
+      "next": "mine_p10_after_028"
+    },
+    "mine_p10_after_028": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "On Day 547 the yard dried unevenly. Lin watched a cart take the longer line, its driver muttering at the sign he could now see clearly. She thought of the account's forty spent coppers, the dead moths recorded without a made up cause, the held bank, and Cai's ankle. The project had done particular useful work and left particular losses. It was not a failed story because the final picture contained both. Lin went to complete her accepted assistant count, which was still an task somebody needed done before the next load arrived.",
+      "next": "mine_p10_after_029"
+    },
+    "mine_p10_after_029": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_worker_lodging",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "At supper Mu asked whether the mine's living seam had spoken to anyone yet. She said it with a smile at a market rumor about prophetic moth wings. Lin answered that it had mostly produced wet ground, disputed cart routes, and work for people who wanted better notes. Mu laughed. Then Lin described the insect deaths and Cai's lost hire, and the laughter settled into attention. A metaphor could help them discuss a place full of interdependent lives. It should not make mineral rhythm into a mind or ordinary harm into a punishment from that mind.",
+      "next": "mine_p10_after_030"
+    },
+    "mine_p10_after_030": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_worker_lodging",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Lei had heard the rumor and said a trader was already charging more for unidentified wing fragments. Lin had no evidence that those fragments came from Jia's permitted observations or were safe medicine or cultivation material. She repeated the qualified public limits when the subject arose, without inspecting goods she had no role to certify. Han decided not to buy them. That was one household decision the plain warning could support. The rumor would continue elsewhere. Lin could not erase it from every market stall by speaking carefully at one meal table.",
+      "next": "mine_p10_after_031"
+    },
+    "mine_p10_after_031": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_worker_lodging",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Before bed she placed the ended habitat papers behind the completed incoming work. The order of her notebook reflected actual closures rather than forgetting the choice. Her participation had altered the tailings plan and the evidence she could offer; its duties had finished. The client meeting arrangement still mattered to whom she represented and which material she had seen. The coming gallery inquiry would add a new bounded role, if she accepted one. Lin kept only those living obligations at the front of her questions. Remembering every past decision did not require pretending every past job remained open.",
+      "next": "mine_p10_after_032"
+    },
+    "mine_p10_after_032": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_worker_lodging",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The Day 548 notice named clearance first and inquiry consent second. Fan would determine which accessible part could receive the assigned people. Worker sources and company records would retain their own scopes. Lin read it with the tailings lessons still close: a bank could hold while a stone injured a worker, a comparison could help while distant survival stayed unknown, and a fair response could leave loss. She would bring those distinctions into the gallery. The mine needed evidence from lives, rather than one beautiful explanation that made every person and route agree.",
+      "next": "mine_p11_001"
+    }
+  }
+}

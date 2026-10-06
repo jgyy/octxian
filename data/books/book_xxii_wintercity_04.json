@@ -1,0 +1,1002 @@
+{
+  "chapters": {},
+  "characters": {},
+  "nodes": {
+    "wintercity_e04_entry": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "On Day 836, the courtyard above the heat court lost a roof tile during a night gust. Rain entered a room where a family stored bedding. The owner brought a carpenter before the weather cleared, but his first repair had to be temporary. Yue passed while neighbours carried dry bundles into a covered passage. She asked what small task needed doing and was given the list of bundles already moved. Their count was more useful than another pair of hands trying to lift a wet mattress.",
+      "next": "wintercity_e04_002"
+    },
+    "wintercity_e04_002": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "The family's oldest daughter marked the bundles with scraps of blue thread. One small quilt belonged to an aunt across the square, who had lent it for the cold term. The borrowed quilt could be dried and returned; a soaked cardboard box could not be restored to its former strength by any inventory. Yue wrote both conditions. The family needed to know what it still owned, what it owed somebody else, and what would have to be replaced. The roof repair would not settle those losses by itself.",
+      "next": "wintercity_e04_003"
+    },
+    "wintercity_e04_003": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "A ceramic water jar broke when a board shifted under the moving pile. The neighbour carrying it apologised and offered to pay. The family asked first whether anyone had been cut. Nobody had. They swept the shards into a marked pail and left the compensation question for daylight. Yue did not reach for a cultivation technique to rejoin pottery. The jar's loss was small beside a ruined room and still real. Later, when they counted expenses, small losses would need their own place.",
+      "next": "wintercity_e04_004"
+    },
+    "wintercity_e04_004": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "The repair carpenter asked everyone to stay out of the upper room while he examined its support. Dry weather would not make a damaged support reliable. The family accepted temporary floor space at a neighbour's home, with a stated return review after inspection. That offer had limits: two nights at first, because another relative was due afterward. Yue copied the arrangement at their request. She did not call the family safely housed for the whole cold term merely because tonight had been managed.",
+      "next": "wintercity_e04_005"
+    },
+    "wintercity_e04_005": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "At work, Lan heard about the leak from the carpenter's own delivery request. The event did not change the morning's cylinder count, but it changed one household's service needs. A purchased heat interval in an uninhabitable room could not make the room useful. Yue began to see why the closure meeting would have to hear actual living arrangements rather than divide people only into clients and nonclients. Heat was a necessary service for many; walls, safe access, and a place to sleep still mattered.",
+      "next": "wintercity_e04_006"
+    },
+    "wintercity_e04_006": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Her Day 836 receiving shift finished without an incident. Four completed hours went into the third appointment's record, whose end remained Day 839. She had no permanent post. Lan asked whether she wanted to submit a question to the calendar meeting. Yue said yes, once she had identified the authority her selected lodging gave her. A visitor's interest was enough to ask certain questions, but a shared room vote or staff representation required a more particular permission.",
+      "next": "wintercity_e04_007"
+    },
+    "wintercity_e04_007": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "The selected lodging now determined her practical position at the meeting. A courtyard occupant could use that courtyard's limited voting procedure while her tenancy remained paid and current. A works annex resident could describe her own staff-hall access, without being appointed to speak for every worker. An independent inn guest could raise her own contracted service and compare public alternatives. Yue took the actual receipt to the registration desk. Incomplete records would not provide any of those particular mandates by inference.",
+      "next": "wintercity_e04_008",
+      "routes": [
+        {
+          "decision": "wintercity_lodging_choice",
+          "selected": "wintercity_lodging_court",
+          "next": "wintercity_lodging_before_court_001"
+        },
+        {
+          "decision": "wintercity_lodging_choice",
+          "selected": "wintercity_lodging_works",
+          "next": "wintercity_lodging_before_works_001"
+        },
+        {
+          "decision": "wintercity_lodging_choice",
+          "selected": "wintercity_lodging_independent",
+          "next": "wintercity_lodging_before_independent_001"
+        }
+      ]
+    },
+    "wintercity_e04_008": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Ning registered the question under the authority actually shown, then gave Yue the same public agenda available to other attendees. The approved main closure was Day 850 through Day 853. Earlier and later intervals had been proposed but not adopted. The agenda would ask what could safely be changed, which replacements could be delivered, and what notice clients needed. It did not promise an audience that every preferred hour would be supplied, or that a vote could make an unavailable repair team appear.",
+      "next": "wintercity_e04_009"
+    },
+    "wintercity_e04_009": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "In the afternoon, Yue returned to the damaged-roof passage. The family had dried two quilts and discovered that one borrowed blanket's stuffing had clumped. The aunt came to inspect it herself. She wanted the blanket cleaned again, not immediately replaced by the cheapest new one. Her preference changed the family's next task. Yue carried a message to the washhouse with their permission and paid her own messenger fee from the current-city account. The task had a named recipient and a clear end.",
+      "next": "wintercity_e04_010"
+    },
+    "wintercity_e04_010": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Du Ling examined the blanket at her counter. She offered a careful wash at a stated price and warned that its stuffing might still dry unevenly. The family would have to decide. Yue returned the offer without saying it was a guaranteed repair. Ling's hands were covered by thinner working gloves today, and an assistant took the coins. Yue asked for the public closure hours while there. Ling pointed to the notice, which depended on the washhouse's actual water and drying allocation.",
+      "next": "wintercity_e04_011"
+    },
+    "wintercity_e04_011": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "On Day 837, the meeting office posted three alternative service maps. One assumed the approved four-day main closure; one described an earlier closure that lacked the repair crew's confirmed availability; one described postponement pending a separate structural inspection. Their colours were similar. Yue wrote the different assumptions in the margins of her own copy. A bright map could make an unfunded idea look as immediate as a booked service. The assumptions mattered because people would arrange work, travel, and care around the picture.",
+      "next": "wintercity_e04_012"
+    },
+    "wintercity_e04_012": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "A father reading beside her preferred postponement because his children would be away for two of the later days. A schoolkeeper preferred the existing dates because she had already arranged a substitute room. Neither preference established what the main could safely tolerate. The office invited both to identify their practical needs, then referred the engineering question to the qualified inspection report. Yue listened to arguments that deserved attention without deserving control of the physical answer.",
+      "next": "wintercity_e04_013"
+    },
+    "wintercity_e04_013": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "The inspection report described a return joint requiring replacement and a section whose continued use needed daily monitoring until the approved closure. It did not report an imminent collapse. Yet it also did not authorize indefinite delay. The repair crew had the named parts and a confirmed four-day interval. An earlier shutdown without that crew would leave more time without service; a later one required an additional inspection whose cost and result were not yet settled. Yue could see why a simple date vote would misdescribe the choices.",
+      "next": "wintercity_e04_014"
+    },
+    "wintercity_e04_014": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "At the yard, a shopkeeper asked whether he could buy extra cylinders to bridge the closure. Yan checked his inspected heater's capacity and the stock reservation procedure. He could buy a stated quantity compatible with that heater, subject to available supply. He could not connect the cylinders to the main or lend the heater to an uninspected larger room without a new review. The seller's wish to offer alternatives had limits too. A backup was useful only when its actual size and conditions matched the need.",
+      "next": "wintercity_e04_015"
+    },
+    "wintercity_e04_015": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Yue spent her lunch interval with a small list of public rooms. Their closure replacements covered different hours and walking routes. One room was accessible without stairs; another offered later evening hours but required a stepped passage. A third had more places but no child washing facilities. She did not rank them by one number. A household could prefer a smaller room that it could reach and use, while an after-shift worker might need the later opening despite its less convenient location.",
+      "next": "wintercity_e04_016"
+    },
+    "wintercity_e04_016": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "She brought the list to Ning for verification before using it at the meeting. Ning corrected a closing time that belonged to the previous week and supplied the current notice. Yue struck through her mistaken line. The change mattered to workers who might arrive after the old time. A wrong hour could be as harmful as an ornate false promise when someone spent their last free interval walking to a shut door. Yue kept the source date beside every remaining entry.",
+      "next": "wintercity_e04_017"
+    },
+    "wintercity_e04_017": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Rui Wen asked whether Yue could explain the room list to the umbrella workers after their shift. Yue offered the public copies and said she would come for a finite half-hour if the schedule allowed. Wen arranged the time and kept the workers' meeting separate from the city hearing. Some workers had their own heaters; some used the public rooms. They would need to choose their own needs before asking anyone to carry a common request. Yue was not appointed their representative by being able to read.",
+      "next": "wintercity_e04_018"
+    },
+    "wintercity_e04_018": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "The half-hour conversation was noisy with frames being stacked. A worker wanted later openings; another needed an accessible route for her father; Wen wanted a place to keep repaired umbrellas dry while clients were delayed. No single room served all three. They decided to submit separate written questions with a shared note about the uncertainty of the closure notices. Yue copied only the public sources they asked for. The workers reviewed their own wording and signed it themselves.",
+      "next": "wintercity_e04_019"
+    },
+    "wintercity_e04_019": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Afterward, Wen's apprentice showed Yue a new handle shaped to fit a client with a stiff finger. The handle looked crooked beside the standard stock. Its owner had tested the grip and preferred it. Yue tried holding it only after the apprentice offered. A practical design could be judged by the person using it, not by how neatly it resembled the display. The conversation gave them pleasure after the more difficult service questions, and Yue stayed to admire the polished grain.",
+      "next": "wintercity_e04_020"
+    },
+    "wintercity_e04_020": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "After the umbrella workers' conversation on Day 837, Yue found a festival troupe rehearsing in the square. Their drummer kept losing the rhythm when carts crossed the uneven paving. The director stopped the rehearsal and moved the circle away from the traffic lane. The troupe had permission for the square's edge, not its working road. Making that change cost them the clearest view from the tea stalls, and they argued about it before beginning again.",
+      "next": "wintercity_e04_021"
+    },
+    "wintercity_e04_021": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "One dancer's boot strap broke during the next turn. She sat down before somebody could urge her through the whole sequence. Wen offered a strip from her repair bag, with no promise that it would last through the festival. The dancer tested it slowly and chose to finish only the stationary part. Yue helped mark the revised position with a stone. The dance became less symmetrical, and the performer kept control of what she would ask of her ankle.",
+      "next": "wintercity_e04_022"
+    },
+    "wintercity_e04_022": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "A boy wanted to copy the drum pattern on a lid. His father checked with the stallholder before borrowing it. The troupe's drummer gave him a rhythm that would not interfere with the rehearsal. Soon he was practising beside a girl who preferred to stamp the beat with both feet. They had no place in the performance. Their play could still belong in the square, provided it left the working passage clear.",
+      "next": "wintercity_e04_023"
+    },
+    "wintercity_e04_023": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "The tea seller asked the troupe to leave the kettle approach open. The director initially protested that her dancers needed room, then walked the route carrying a tray and saw the narrow turn herself. They moved one marker. Agreement came from an ordinary demonstration of the space, not from deciding whose art or livelihood mattered more. Yue bought tea for herself and Wen after they finished helping. A paid cup gave them a reason to sit without requiring another task.",
+      "next": "wintercity_e04_024"
+    },
+    "wintercity_e04_024": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Before leaving, Wen asked Yue whether she liked the revised dance. Yue liked the uneven turn that let the seated performer remain part of it. The director frowned, hoping the repair would be forgotten by festival day. Both responses could coexist. A practical accommodation did not have to become everyone's preferred aesthetic, but it had allowed the rehearsal to continue without demanding that a sore ankle pay for symmetry.",
+      "next": "wintercity_e04_025"
+    },
+    "wintercity_e04_025": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "On Day 838, the meeting room opened early so attendees could inspect the public documents. Yue arrived after her morning shift, carrying the actual lodging receipt and a notebook with ample blank space. She did not carry private mine method details into the public hall. A public warning, if authorized, remained a different source; raw testimony did not appear simply because today's issue was important. The table had labelled trays for public submissions, confidential offers requiring consent review, and questions that still needed a source.",
+      "next": "wintercity_e04_026"
+    },
+    "wintercity_e04_026": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Ning read the ground rules before the supplier's statement. Every speaker would identify whether they described their own experience, held a specific mandate, or offered a technical report. The words did not give everyone equal physical knowledge. They let listeners know what kind of answer to ask from each. A tenant could describe a cold room accurately without inspecting the main. An engineer could explain a joint while knowing little about who could walk to the replacement room.",
+      "next": "wintercity_e04_027"
+    },
+    "wintercity_e04_027": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "The works' service manager argued for keeping the approved closure. He had a confirmed crew, received parts, and a purchase schedule aligned with that interval. He also admitted that one replacement notice had been late. The admission did not prove that every other notice was wrong, or excuse the late one. Ning asked for the actual affected recipients and the proposed remedy. Yue wrote down the answer's limits rather than replace it with a simple picture of either guilt or generosity.",
+      "next": "wintercity_e04_028"
+    },
+    "wintercity_e04_028": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "A tenant asked for an earlier closure because she expected to leave town afterward. The inspector explained that an earlier stop without the repair crew would not shorten the total disruption. She could still request an arrangement for her own travel dates. The tenant was disappointed but remained entitled to have that need recorded. A person's practical need could be real even where the preferred system change was unavailable. Yue saw the room struggle to keep both truths in view.",
+      "next": "wintercity_e04_029"
+    },
+    "wintercity_e04_029": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "The schoolkeeper defended the approved interval because her substitute room had already been arranged. She did not insist that everybody else copy her solution. Her room's capacity covered her class and no more. When another parent asked to send two additional children, she referred the request to the school's actual admissions and supervision conditions. Yue appreciated that the schoolkeeper did not offer an impressive number of warmed places that would vanish when the children arrived.",
+      "next": "wintercity_e04_030"
+    },
+    "wintercity_e04_030": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "A worker asked whether a staff warming hall would remain open during the main closure. The works manager described its separately fuelled service, limited hours, and employment-linked access. Nonstaff visitors could not assume they would be admitted. That distinction made several people angry. Ning asked the manager whether any public hours could be purchased and inspected separately. He said an offer could be prepared, not that it was already funded. The possibility went into the unfinished matters column.",
+      "next": "wintercity_e04_031"
+    },
+    "wintercity_e04_031": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Yue asked the verified question available under her own lodging position. She described the relevant current service, its dates, and the public alternative she could actually reach. She avoided speaking for neighbours who had not authorized her. Ning asked which change she sought. Yue wanted the closure notice to show replacement hours and eligibility in the same place as the closure dates, rather than require a tenant to discover the limit after arriving at a room's door.",
+      "next": "wintercity_e04_032"
+    },
+    "wintercity_e04_032": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "The meeting accepted that narrow notice correction for the public replacement map. It required the responsible office to publish the eligibility and hours by Day 840. It did not alter the main's physical repair date or guarantee a new private allocation. Yue checked the minute's wording before leaving. A practical administrative improvement could matter a great deal to a cold traveller without being described as a defeat of the owner. The stronger supplier still possessed the works and the capacity everyone had come to discuss.",
+      "next": "wintercity_e04_033"
+    },
+    "wintercity_e04_033": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "The main closure therefore remained Day 850 through Day 853 under the approved conditions. The office would separately review notice failures and any funded supplementary room offer. Attendees could submit corrections to the draft minutes before their publication. Some left pleased, some dissatisfied, and some still unsure how to arrange their own households. Yue did not write that the meeting had resolved the cold term. It had answered several questions and made the remaining ones harder to hide.",
+      "next": "wintercity_e04_034"
+    },
+    "wintercity_e04_034": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Outside, a short shower sent people beneath the eaves. The schoolkeeper shared space with the tenant who had asked for earlier dates. They compared the different journeys they would now have to make. Neither suddenly forgot her preference. Yet the schoolkeeper offered the public room contact she had used, and the tenant explained the road that would be closed during the substitute room's first day. Useful information travelled between people who still disagreed about the main calendar.",
+      "next": "wintercity_e04_035"
+    },
+    "wintercity_e04_035": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Yue returned to work long enough to collect the shift copy she had left drying. The store worker who covered the late receipt had his own initials beside it. Yue's completed hours stayed four, because the hearing took place afterward. She did not take credit for his later task. Lan asked what the meeting had decided and received the narrow answer. The hearing's personal satisfaction did not justify telling colleagues that all their service uncertainty was over.",
+      "next": "wintercity_e04_036"
+    },
+    "wintercity_e04_036": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "That evening, Yue counted the current-city money available after her selected lodging and meals. Her thirty-two-copper travel purse remained separate. The ten-morning appointment would pay only after its completed work was checked. She could nevertheless afford a small funded gesture from money already received: a two-hour supplementary room booking for one group during the coming closure preparation. Ning had shown her an inspected public room with twelve places available under an ordinary paid booking procedure.",
+      "next": "wintercity_e04_037"
+    },
+    "wintercity_e04_037": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "The booking would cost four copper and could serve only its selected two-hour interval. Yue could invite early-shift workers before their duties, invite afternoon washhouse clients and carers who could reach it then, or keep the money and offer only verified public information. She would not claim all three groups were warmed by one booking. She also needed an authorized room keeper and a source of supply included in the inspected price. Her own circuit could not replace either.",
+      "next": "wintercity_e04_038"
+    },
+    "wintercity_e04_038": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Before choosing, she asked Wen and Du Ling which intervals they would actually use. Wen identified a few early workers willing to come before the yard opened. Ling knew clients who could attend in the afternoon but would seek their permission before offering names. Neither could fill an entire room with presumed grateful people. Yue compared the offered times with her own work. The choice would require a real invitation list and the practical work of opening or attending the selected service.",
+      "next": "wintercity_service_choice"
+    },
+    "wintercity_service_choice": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Yue considered what to do with the four copper. The decision would change who received a supplementary invitation and whether any additional service existed beyond the already published public hours. It was a small allocation, not authority to solve the main closure or direct a city's population. People could refuse an invitation or use other services. Yue wanted its record to say exactly what she had chosen and what remained unavailable to the people whose interval she did not book.",
+      "choices": [
+        {
+          "text": "Buy the finite Day 852 early room for willing early-shift workers.",
+          "next": "wintercity_service_early"
+        },
+        {
+          "text": "Buy the finite Day 852 afternoon room for willing washhouse clients and carers.",
+          "next": "wintercity_service_afternoon"
+        },
+        {
+          "text": "Keep the money and offer verified public information without booking extra warmth.",
+          "next": "wintercity_service_information"
+        }
+      ]
+    },
+    "wintercity_e04_040": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "The commitment was entered on its proper form. Yue retained the receipt if she had purchased a room, or kept the money unspent if she had chosen information alone. The common public replacements remained open under their own rules regardless of her decision. No invitation would be made contingent on giving testimony, accepting work, or praising her cultivation. A service offered for practical warmth could be judged later by whether it actually occurred, within its finite time and places.",
+      "next": "wintercity_e04_041"
+    },
+    "wintercity_e04_041": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "On Day 839, Yue completed the last morning of the third receiving appointment. Forty hours over ten mornings had been worked. Lan checked the stock comparison and paid eighty copper, making a separate receipt rather than combine it with the eighty-seven already paid. Yue counted the new payment. She set aside sixteen copper for possible family support pending her mother's reply, forty for the next city necessities, and left twenty-four unassigned. The travel purse's thirty-two remained from the earlier wages, so it was not counted again.",
+      "next": "wintercity_e04_042"
+    },
+    "wintercity_e04_042": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Those assignments described her own money, not transfers already made. She could revise them if her mother's wishes or the city's costs required. The family amount would have to be sent through a paid route with an actual delivery receipt; a sympathetic note would not put coins in her mother's hand. The necessities amount covered a coming interval, not the entire remaining season. Yue wrote each purpose in pencil until it became an actual payment, preserving the difference between intention and completion.",
+      "next": "wintercity_e04_043"
+    },
+    "wintercity_e04_043": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Lan offered no immediate further appointment. Stock had been reconciled, and the next comparison depended on future deliveries. Yue left her address for a finite call if work arose, with the ordinary right to decline. She was neither dismissed from a permanent post nor secretly employed without pay. Finishing a temporary job could be satisfying and alarming at once. Tomorrow she would need to choose how to use an uncommitted morning without letting the absence of work erase the value of what she had completed.",
+      "next": "wintercity_e04_044"
+    },
+    "wintercity_e04_044": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "At the damaged-roof household, the carpenter now permitted the lower part of the room to be used while the final tile work awaited dry weather. The family returned only what could stay clear of the repair area. Their borrowed blanket had improved after the careful wash but remained uneven. The aunt agreed to take it back in that condition and waived replacement, after seeing it herself. Yue recorded the agreement at their request. Her authority came from the people present, not from her liking the outcome.",
+      "next": "wintercity_e04_045"
+    },
+    "wintercity_e04_045": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "The neighbour who broke the jar paid for a comparable ordinary replacement. The family chose a jar with a different handle because it was easier to carry. Their compensation account closed without pretending the original object had returned. The child who marked quilts with blue thread helped set the new jar on a secure shelf. Yue asked whether the family still wanted the bundle list. They did, until the upper room could be used. A paper's purpose could outlast the first emergency without becoming permanent property.",
+      "next": "wintercity_e04_046"
+    },
+    "wintercity_e04_046": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "On Day 840, Ning posted the corrected replacement map. Each room showed hours, eligibility, capacity, and accessible approach. Yue checked the notice against the meeting minute. One route arrow had been reversed during copying. Ning corrected it before sending the remaining notices out. The narrow change they had earned required ordinary careful work after the hearing. A favourable minute on a shelf would not guide someone through a cold street; the usable map had to exist where that person could read it.",
+      "next": "wintercity_e04_047"
+    },
+    "wintercity_e04_047": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "A man who had not attended the meeting thanked Yue for the clearer notice after Ning named her question. Yue said the office had made the map and several attendees had identified the missing conditions. She did not accept credit for the room allocations themselves. The man's next question concerned his own eligibility, which she referred to the room keeper using the posted contact. Being useful once did not make her the keeper of every answer in the city.",
+      "next": "wintercity_e04_048"
+    },
+    "wintercity_e04_048": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "In the afternoon, she helped Wen carry no more than a light packet of handle labels to the repair room. The heavier frames went on a handcart pushed by the apprentice under the shop's ordinary arrangements. Yue spent an hour matching labels to customer receipts, paid at the shop's posted copying rate of one copper for that hour. Wen entered it separately from their friendship. Yue appreciated the small paid task because its end was clear and its modest wage could buy an actual meal.",
+      "next": "wintercity_e04_049"
+    },
+    "wintercity_e04_049": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Wen then asked whether Yue would join her at the cold festival later in the term. Yue wanted to go if she remained in the city and could meet her duties. She would not reserve all her future evenings before understanding a practice appointment or an employment offer. Wen laughed at the formal answer and said they could choose closer to the date. Their friendship did not need a binding charter. Yue promised only to tell her promptly if her plans changed.",
+      "next": "wintercity_e04_050"
+    },
+    "wintercity_e04_050": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "On Day 841, she visited the public training rig during an open rehearsal. Yan checked its ordinary isolation, grounded wick, and mechanical stop with the examiner Luo Pei watching. An external test cylinder stood on a separate scale. Zhou An's clinic attendant practised the clear approach to the examination chair using no injured volunteer. Yue saw the safety arrangements repeated in ordinary work. Their existence was neither a guarantee of victory nor a promise that the observer could reverse somebody's bodily strain after it happened.",
+      "next": "wintercity_e04_051"
+    },
+    "wintercity_e04_051": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Luo Pei explained the comparative station's scoring. A contestant's demonstrated useful output and controlled stop would be recorded; an early release would limit the completed result. The strongest result did not require the weaker contestant to be injured. Yet exceeding one's own tolerance could cause an injury within an apparatus's overall permitted range. The examiner would watch the input conditions, while each practitioner still had to heed her own signs. Yue asked that explanation to be available on the public notice.",
+      "next": "wintercity_e04_052"
+    },
+    "wintercity_e04_052": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "The examiner agreed to publish it with the other approved conditions. She did not invite Yue into the stronger owner's comparison merely because Yue had asked a good question. Yue's possible application would need its own review. Being able to describe a limit did not establish the courage or caution she would show with spectators watching. She left thinking about how easily a person could understand a retreat in advance and still hesitate to use it when the room expected an impressive result.",
+      "next": "wintercity_e04_053"
+    },
+    "wintercity_e04_053": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "By Day 842, the current lodging interval reached its own practical conclusion. Yue had to settle the selected room, key, deposit, or renewal before treating it as closed. She gathered the receipts and returned to the appropriate counter. The closure-calendar question had been asked from her actual position, but its accepted notice correction now belonged to the public office. A temporary vote or staff access could end while a properly adopted public map remained in use.",
+      "next": "wintercity_e04_054",
+      "routes": [
+        {
+          "decision": "wintercity_lodging_choice",
+          "selected": "wintercity_lodging_court",
+          "next": "wintercity_lodging_after_court_001"
+        },
+        {
+          "decision": "wintercity_lodging_choice",
+          "selected": "wintercity_lodging_works",
+          "next": "wintercity_lodging_after_works_001"
+        },
+        {
+          "decision": "wintercity_lodging_choice",
+          "selected": "wintercity_lodging_independent",
+          "next": "wintercity_lodging_after_independent_001"
+        }
+      ]
+    },
+    "wintercity_e04_054": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "The lodging transaction finished under the selected terms. Yue kept only her own belongings and papers, with no unreturned room key silently travelling into the next interval. Her available bed and next payment were written on a current receipt. She could tell a person where to find her, and she could count what had actually been spent. The early city arrangements were becoming smaller, closing one by one rather than staying forever available behind a later offer.",
+      "next": "wintercity_e04_055"
+    },
+    "wintercity_e04_055": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "That night she opened her mother's reply, delivered by the ordinary southbound-return route. She had saved reading it until the day's accounts were finished, though no rule required her to. The familiar hand made the city's maps look briefly distant. Tomorrow she would answer as a daughter with limited money and a particular bed, not as a victorious representative of winter. She set the receipt book aside, leaving room at the table for news that might change how she chose to spend the next week.",
+      "next": "wintercity_e05_entry"
+    },
+    "wintercity_lodging_before_court_001": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "At the courtyard desk, Yue showed the renewed rent receipt for Days 829 through 835 and paid eight copper for the final week through Day 842. The seamstress would return on Day 843, so no further tenancy was offered. Yue also paid the four-copper shared cold-term allocation for this courtyard's current interval. The clerk entered both payments separately. Her temporary vote remained current until she returned the key, and it applied only to the courtyard's purchased evening hours.",
+      "next": "wintercity_lodging_before_court_002"
+    },
+    "wintercity_lodging_before_court_002": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "The residents authorized her to ask the calendar meeting how the public replacement rooms could be reached during the main closure. They did not authorize her to endorse private employment terms or give their medical histories. Yue copied the specific question and let each attending resident read it. One resident preferred to submit her own written account. Yue kept that account separate. The courtyard's authorization gave her a real collective question while preserving a neighbour's right to speak independently.",
+      "next": "wintercity_e04_008"
+    },
+    "wintercity_lodging_before_works_001": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "At the annex desk, Yue showed the six-copper renewal receipt for Days 829 through 835, supported by the separate receiving extension. Her newest ordinary appointment would end on Day 839. The steward offered five more nights through Day 840 for five copper, leaving the stated departure window usable on Day 841. Yue paid and entered the date. No later job was promised. The bed and staff-hall access remained a real benefit, with an end she would need to prepare for.",
+      "next": "wintercity_lodging_before_works_002"
+    },
+    "wintercity_lodging_before_works_002": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "She could describe her own access at the calendar meeting. The steward declined to appoint her a collective staff delegate, and she did not solicit that title from her roommates instead. They wanted different hours and would submit their own accounts. Yue's question therefore concerned what her current staff access covered and what public routes remained after it ended. The distinction was practical: she would soon need to find warmth as a person no longer staying in the annex.",
+      "next": "wintercity_e04_008"
+    },
+    "wintercity_lodging_before_independent_001": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Mrs. Fen's next weekly receipt showed twelve copper for Days 836 through 842. Yue paid it from her current-city funds. The previous twelve-copper renewal for Days 829 through 835 remained in the same cover, so the weekly intervals did not overlap in her expense total. The bed came with the inn's actual shared-room conditions; the separately purchased common-room hours followed their own notice. Yue held no courtyard vote or works staff status. She could describe her own inn service at the calendar meeting.",
+      "next": "wintercity_lodging_before_independent_002"
+    },
+    "wintercity_lodging_before_independent_002": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Wen and Jia did not authorize Yue to make a collective guest submission. Each had a different journey during the main closure, and Jia expected to be away for part of it. Yue respected those plans. She prepared her own question about clearly posted replacement eligibility and routes, citing the verified public notices. Her higher-price lodging bought ordinary independence from an employer-linked exit date, not a public mandate. That freedom had a visible cost in the same purse that would fund the next week.",
+      "next": "wintercity_e04_008"
+    },
+    "wintercity_lodging_after_court_001": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "On Day 842, Yue returned the courtyard key after inspecting the room with the clerk. Its contents matched the seamstress's inventory, and the six-copper key deposit came back in full. The final eight-copper rent and four-copper heat share remained spent; leaving did not turn used services into a refund. Her temporary residents' vote ended with the tenancy. The authorized calendar question had already been submitted, and the clerk kept the specific mandate with the meeting copy.",
+      "next": "wintercity_lodging_after_court_002"
+    },
+    "wintercity_lodging_after_court_002": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Yue took her bundle to Mrs. Fen's inn for a separately paid two-night bed at four copper, covering tonight and Day 843. The courtyard room was no longer available for a new offer or a private conversation. She had gained a genuine collective question during its finite tenancy and now lost that particular access. The returned deposit was her money again, counted only once when she updated the current-city page.",
+      "next": "wintercity_e04_054"
+    },
+    "wintercity_lodging_after_works_001": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Yue had left the annex on Day 841, within the two-day departure rule after her receiving appointment ended. The steward inspected the room compartment and returned the four-copper key deposit. Her completed wages remained hers; no refusal of an unoffered new post could confiscate them. Staff-hall access ended with the bed. She did not keep an annex key, pretend she still belonged on a staff invitation list, or copy the private workshop notices into a public cover.",
+      "next": "wintercity_lodging_after_works_002"
+    },
+    "wintercity_lodging_after_works_002": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "A separately paid two-night bed at Mrs. Fen's inn cost four copper for Days 841 and 842. Yue updated the address at the ordinary message desk. At the calendar meeting she had spoken from her actual former access, with no collective staff mandate. Now any warming place would need a public entitlement or a new paid arrangement. The cheaper early bed had saved money and imposed an actual move; neither side of that trade disappeared.",
+      "next": "wintercity_e04_054"
+    },
+    "wintercity_lodging_after_independent_001": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "On Day 842, Mrs. Fen confirmed that the paid weekly interval ended tonight. Yue retained the inn bed only through the current receipt; the next interval required a new payment or notice to leave. There was no employer-linked deposit to return and no residents' vote to relinquish. She checked her trunk, drying labels, and lamp while deciding what length of renewal the next week would need. The bed's independence had been real, and its higher weekly charges remained spent.",
+      "next": "wintercity_lodging_after_independent_002"
+    },
+    "wintercity_lodging_after_independent_002": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "She gave the message clerk the unchanged inn address and declined to claim a collective guest mandate on the strength of having stayed longer. The calendar submission remained her own. The public notice improvement could serve Wen and Jia without making them her followers. Yue kept the unused courtyard and annex offers only as historical comparisons. Neither became a room she could enter after choosing the inn instead.",
+      "next": "wintercity_e04_054"
+    },
+    "wintercity_service_early": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Yue purchased the early interval on Day 852, from the sixth morning bell until two hours later, for four copper. The inspected public room's twelve places and assigned keeper were written on the receipt. Wen would ask the early umbrella workers who wanted an invitation, rather than enrol them without consent. The ordinary yard workers could request the remaining places through the same finite list. The afternoon clients were not included in this particular booking.",
+      "next": "wintercity_service_early_002"
+    },
+    "wintercity_service_early_002": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Yue accepted the practical duty to bring the confirmed list to the keeper before Day 850 and attend the opening if her own schedule allowed. A substitute could be agreed with the keeper if needed, but the payment alone would not create one. The booking supplied that early service and no evening extension. She kept the source receipt showing the room's included compatible supply; her own reserve would do no heating.",
+      "next": "wintercity_e04_040"
+    },
+    "wintercity_service_afternoon": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Yue bought the afternoon interval on Day 852, two hours beginning after the midday meal, for four copper. The inspected public room had twelve places, a paid keeper, and an included compatible allocation at its approved setting. Du Ling would ask the washhouse clients and carers whether they wanted an invitation before adding names. Yue had chosen that group because their actual route and hours suited the room. Early-shift workers received no promise of this supplementary morning service.",
+      "next": "wintercity_service_afternoon_002"
+    },
+    "wintercity_service_afternoon_002": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "She would bring the confirmed list before Day 850 and help with the afternoon arrival arrangements. The room still had its safe capacity, and a place could not be transferred to an unlisted thirteenth guest by goodwill. Clients unable to attend would use other public options if eligible. The booking was a practical finite service, separate from testimony or employment. Yue filed the paid receipt without recording any warmth as delivered before the appointed day.",
+      "next": "wintercity_e04_040"
+    },
+    "wintercity_service_information": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Yue kept the four copper and made no supplementary room booking. She could afford verified public copies and the time to explain their hours, but chose not to take on a purchased interval whose invitation and attendance work she was not ready to guarantee. Ning marked that no new reservation existed. The common replacement rooms remained available under their published eligibility. No early worker or afternoon client would be told that Yue had paid for an extra place.",
+      "next": "wintercity_service_information_002"
+    },
+    "wintercity_service_information_002": {
+      "chapter": "book_xxii_wintercity",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "kestrel_basin_heat_court",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "She brought Wen and Du Ling the corrected map instead, naming it as public information. Each would choose whether to share it with others. Yue's unspent money remained in the current-city account, available for later necessities; it was not a donated allocation concealed behind praise for prudence. The decision protected her time and purse while foregoing a real possible service. If somebody later asked about a special room, she would have to say she had booked none.",
+      "next": "wintercity_e04_040"
+    }
+  }
+}

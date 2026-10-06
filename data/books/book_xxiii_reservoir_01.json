@@ -1,0 +1,1203 @@
+{
+  "chapters": {
+    "book_xxiii_reservoir": {
+      "label": "BOOK XXIII",
+      "title": "The Reservoir Under the Empty Sky"
+    }
+  },
+  "characters": {
+    "reservoir_qiu_nan": {
+      "name": "Qiu Nan",
+      "title": "Steward of the Mirror Basin water turns",
+      "color": "#8ea6a7",
+      "age": 49,
+      "appearance": "Short grey-streaked hair, weathered cheeks, indigo quilted coat, ordinary waterstaff and stamped appointment folio.",
+      "interest": "Maintains finite water turns and ordinary safety without treating cultivation rank as a land title."
+    },
+    "reservoir_mei_rong": {
+      "name": "Mei Rong",
+      "title": "Independent examiner of balanced-reservoir practice",
+      "color": "#b5b8c9",
+      "age": 43,
+      "appearance": "Tied black hair, square bronze reading glass, practical slate robe and flat shoes.",
+      "interest": "Can fail a candidate without losing her own fee; signs only recovered independently compared results."
+    },
+    "reservoir_jing_su": {
+      "name": "Jing Su",
+      "title": "Custodian of reservoir sampling instruments",
+      "color": "#c4aa85",
+      "age": 34,
+      "appearance": "A close braid, patched ochre apron, copper sample sleeves and ordinary inked fingers.",
+      "interest": "Keeps instrument ownership and measurable discharge separate from candidates' wishes."
+    },
+    "reservoir_fu_lian": {
+      "name": "Fu Lian",
+      "title": "Grain-house worker and household water delegate",
+      "color": "#b1c393",
+      "age": 31,
+      "appearance": "Dark hair under a faded green kerchief, flour-marked cuffs and an old wool shoulder wrap.",
+      "interest": "Protects her household calendar and paid grain work; chooses the scope of her own testimony."
+    }
+  },
+  "nodes": {
+    "reservoir_entry": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "On Day One Thousand Ten, Lin Yue arrived at the reservoir's lower receiving house with the winter city's completed papers wrapped inside her ordinary coat. The basin itself remained above a white shoulder of mountain. From the veranda she could see only its outgoing channel and a row of shut sluice shutters. Her seventh-stage record entitled her to describe previous practice. It gave her no key to the shutters, bed in the cloister, or appointment among the people who maintained them.",
+      "next": "reservoir_ep01_002",
+      "cast": [
+        "lin_yue"
+      ]
+    },
+    "reservoir_ep01_002": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "The receiving clerk asked which address should receive a refusal. Yue had expected him to ask for her recommendation first. She gave the winter road lodging and the date until which its keeper would forward a letter. The clerk entered both. Above his desk hung a list of appointments that had ended, their ink still dark beside empty spaces for new names. An institution could remain busy while deciding that a particular visitor belonged elsewhere. Yue found that more reassuring than a welcome which promised everything before reading anything.",
+      "next": "reservoir_ep01_003",
+      "cast": [
+        "lin_yue"
+      ]
+    },
+    "reservoir_ep01_003": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Qiu Nan came in carrying a waterstaff with no luminous markings. Its painted bands recorded ordinary heights. She left it outside the paper room because the wood was wet, then read Yue's travel page without commenting on the cultivation cord. The steward's first question concerned the road between the lower house and the basin. It had recently thawed. Yue had paid for the booked ordinary passage, but the route's acceptance still depended on the carrier's current inspection. Being willing to walk did not make a broken crossing sound.",
+      "next": "reservoir_ep01_004",
+      "cast": [
+        "lin_yue",
+        "reservoir_qiu_nan"
+      ]
+    },
+    "reservoir_ep01_004": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "The house could offer a dry bench while the carrier reported. A bed belonged to a different account. Yue asked for the ordinary price before setting down her pack, and the clerk showed the posted list. She paid the first night's modest charge from her own traveling purse and received the little receipt. Neither Qiu's interest in her papers nor the winter city's recorded decision became credit in that purse. She kept the receipt separate from the institutional pages, where a later examiner would have no reason to find it.",
+      "next": "reservoir_ep01_005",
+      "cast": [
+        "lin_yue",
+        "reservoir_qiu_nan"
+      ]
+    },
+    "reservoir_ep01_005": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Qiu asked permission to read the last winter-city agreement in the clerk's presence. Yue opened only the relevant folded copy. Her private correspondence stayed under the pack tie. A former employer's closing account could explain which offer she had accepted and which wages had been paid. It could not supply the basin's new consent. Qiu checked the named destination and the agreement's scope before discussing any access. Outside, the outgoing channel struck its ordinary wooden gauge with a patient sound that seemed almost deliberately uninterested in titles.",
+      "next": "reservoir_ep01_006",
+      "cast": [
+        "lin_yue",
+        "reservoir_qiu_nan"
+      ]
+    },
+    "reservoir_ep01_006": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "The three possible winter-city terms were not interchangeable recommendations. An observer arrangement carried public conditions; an inspected factory contract carried a narrower working purpose; departure carried completed wages and Yue's own permitted notes. Qiu said the receiving house would honor a real existing term only within its written limits. A copy without its decision page would be treated conservatively while the source was requested. No clerk would choose the most flattering condition because the visitor had traveled far or because a teacher's seal looked impressive.",
+      "next": "reservoir_ep01_025",
+      "cast": [
+        "lin_yue",
+        "reservoir_qiu_nan"
+      ],
+      "routes": [
+        {
+          "decision": "wintercity_terms_choice",
+          "selected": "wintercity_terms_collective",
+          "next": "reservoir_ep01_007"
+        },
+        {
+          "decision": "wintercity_terms_choice",
+          "selected": "wintercity_terms_conditional",
+          "next": "reservoir_ep01_013"
+        },
+        {
+          "decision": "wintercity_terms_choice",
+          "selected": "wintercity_terms_depart",
+          "next": "reservoir_ep01_019"
+        }
+      ]
+    },
+    "reservoir_ep01_007": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "The retained decision named the collective observer arrangement. Qiu checked that its public receiving purpose covered a discussion of household water records, rather than the factory's private production sheets. Yue could request a place at the basin's open comparison table through that channel. She could not claim the exclusive factory stipend she had declined. The clerk drew a plain line beside the absent stipend so nobody would later mistake the loss for an accounting error. A chosen opportunity had also closed another door.",
+      "next": "reservoir_ep01_008",
+      "cast": [
+        "lin_yue",
+        "reservoir_qiu_nan"
+      ]
+    },
+    "reservoir_ep01_008": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "The cooperative's offered introduction named a person to whom Qiu could write. It did not instruct the basin to appoint Yue. Qiu prepared a bounded acknowledgment: the papers had arrived, the current road inspection was pending, and a local receiver would decide any later work. Yue watched the steward leave the word suitable uncopied from an enthusiastic covering sentence. Suitability could be tested here. In the meantime, the public arrangement allowed a conversation the other terms did not guarantee, and that was useful enough to state accurately.",
+      "next": "reservoir_ep01_009",
+      "cast": [
+        "lin_yue",
+        "reservoir_qiu_nan"
+      ]
+    },
+    "reservoir_ep01_009": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "At the public table, Yue could see the published household turn summary after its keeper opened the cupboard. She could copy permitted totals and disagreements for the observer report, with source labels attached. Names from confidential complaints stayed covered. Qiu supplied no private key and promised no instrument loan. The summary contained a blank where an upstream household had declined an interview. Yue asked whether the blank would make the report look unfinished. The keeper said the report was unfinished, and that its appearance should remain honest.",
+      "next": "reservoir_ep01_010",
+      "cast": [
+        "lin_yue",
+        "reservoir_qiu_nan"
+      ]
+    },
+    "reservoir_ep01_010": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "A factory messenger happened to enter while the public pages were open. He recognized Yue's name and offered to ask whether the exclusive inspection place remained vacant. Yue's actual agreement did not permit her to hold both places silently. She said she would need a new decision before considering it, and the messenger kept his offer unaccepted. Qiu witnessed that refusal without treating it as a vow to reject every future wage. Today the public access and its costs remained the terms Yue had chosen.",
+      "next": "reservoir_ep01_011",
+      "cast": [
+        "lin_yue",
+        "reservoir_qiu_nan"
+      ]
+    },
+    "reservoir_ep01_011": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Qiu wrote the collective contact beside the observer copy, which would remain identifiable through the initial basin work. The introduction could support comparison questions, not an order to change a household's turn. Any local paid hours would require a local appointment and a named wage source. Yue returned the public summary to its shelf before supper. She had gained a legitimate view of other people's disagreement and lost an easy claim to the factory's private stipend. Neither result changed the amount of qi she could safely admit.",
+      "next": "reservoir_ep01_012",
+      "cast": [
+        "lin_yue",
+        "reservoir_qiu_nan"
+      ]
+    },
+    "reservoir_ep01_012": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Before closing the room, the clerk asked Yue to read the receiving entry aloud. It named public observer access under the retained collective term and no factory appointment. She corrected a copied character in the contact's name, then signed only the acknowledgment that belonged to her. Qiu kept the institutional counterpart; Yue retained her permitted copy. The household pages stayed at the lower house. Her first consequence in the valley was therefore concrete: tomorrow's question could begin at a public table, rather than behind the factory's inspection door.",
+      "next": "reservoir_ep01_025",
+      "cast": [
+        "lin_yue",
+        "reservoir_qiu_nan"
+      ]
+    },
+    "reservoir_ep01_013": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "The retained decision named the conditional inspected factory contract. Qiu read its purpose and exit language before accepting it as the basis for any introduction. Its narrower records could support a comparison of supplied components and their observed failures. They did not authorize a public seminar role or unrestricted household files. Yue had accepted an actual working condition rather than a general endorsement. The clerk wrote the condition in full, leaving enough room for its end date to remain visible beside its beginning.",
+      "next": "reservoir_ep01_014",
+      "cast": [
+        "lin_yue",
+        "reservoir_qiu_nan"
+      ]
+    },
+    "reservoir_ep01_014": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "A factory packet contained a sealed reference sheet for the agreed receiving comparison. Qiu would not open it merely because Yue carried it. She asked the designated local custodian to verify the seal and the offered scope. The packet's keeper retained authority over copying. Yue could identify the problem she had been contracted to examine, but she could not offer the whole design to the basin's public table. The restriction made their first conversation slower, and the delay would belong in the receiving account.",
+      "next": "reservoir_ep01_015",
+      "cast": [
+        "lin_yue",
+        "reservoir_qiu_nan"
+      ]
+    },
+    "reservoir_ep01_015": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "The public table opened while they waited. Yue could hear a household representative asking about a disputed water turn, but her factory term did not give her the observer's place inside that meeting. Qiu told the representative who held the actual appointment and left Yue outside its boundary. Yue found the exclusion uncomfortable because she wanted to ask a useful question. The discomfort did not make it unjust. She had chosen a narrower inspection route and could not enlarge it by standing close enough to hear voices.",
+      "next": "reservoir_ep01_016",
+      "cast": [
+        "lin_yue",
+        "reservoir_qiu_nan"
+      ]
+    },
+    "reservoir_ep01_016": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "When the reference custodian arrived, she permitted a numbered component extract rather than the full sheet. Yue copied its specification and the receiving date. The extract could be compared with the basin's offered inspection record only after that record's keeper consented. Neither party's permission supplied the other's. Qiu scheduled that request for the following morning and warned that the answer might be no. Yue put away her pen. Having a contract gave her a named question and a lawful way to ask it; it did not purchase a favorable answer.",
+      "next": "reservoir_ep01_017",
+      "cast": [
+        "lin_yue",
+        "reservoir_qiu_nan"
+      ]
+    },
+    "reservoir_ep01_017": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "The clerk separated any completed winter-city wage from future basin work. Payment already received remained Yue's personal money. A new local task would need its own price, receiver, stopping rule and accepted hours; it could not be concealed inside the old contract's recommendation. Qiu also recorded that the timed factory scope would close before new cultivation instruction began. Yue appreciated the distinction more after hearing the public room's lively argument through the door. An easier explanation would have made both rooms available and neither obligation believable.",
+      "next": "reservoir_ep01_018",
+      "cast": [
+        "lin_yue",
+        "reservoir_qiu_nan"
+      ]
+    },
+    "reservoir_ep01_018": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Yue signed the receiving entry for the conditional contract after checking that its exit clauses remained attached. The local custodian took back the sealed reference sheet. Only the permitted numbered extract remained in Yue's folder, marked for its specific receiving comparison and later return decision. Qiu kept the acknowledgment counterpart. Tomorrow's opportunity would concern an inspected component and a bounded record, while the public observer position stayed with someone else. The choice had changed whom Yue could question and what she could legitimately bring away.",
+      "next": "reservoir_ep01_025",
+      "cast": [
+        "lin_yue",
+        "reservoir_qiu_nan"
+      ]
+    },
+    "reservoir_ep01_019": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "The retained decision showed that Yue had declined another winter-city post after completing her accepted work. Qiu read the closing wages and the statement about her own notes. There was no new collective mandate, factory inspection appointment or institutional endorsement to transfer. The basin would not invent one from a teacher's affection. Yue laid the plain folder on the table without trying to make its narrowness look accidental. Departure had given her an unencumbered road and removed two ready-made ways into the basin's records.",
+      "next": "reservoir_ep01_020",
+      "cast": [
+        "lin_yue",
+        "reservoir_qiu_nan"
+      ]
+    },
+    "reservoir_ep01_020": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Her private notes described observations she had personally made and was permitted to keep. They included mistakes, stopped comparisons and the questions she still could not answer. Qiu could read offered passages with Yue's consent, but those passages were not certified factory specifications. The steward asked which words belonged to a supplied source and which to Yue's own account. Yue marked the difference in the margin. Without an institutional introduction, the distinctions needed to do more of the work that a familiar seal might otherwise perform.",
+      "next": "reservoir_ep01_021",
+      "cast": [
+        "lin_yue",
+        "reservoir_qiu_nan"
+      ]
+    },
+    "reservoir_ep01_021": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "The public observer table was occupied by its actual appointed receiver. Yue could request access through the basin's ordinary process, just as another visitor could. Her decision had not bought the seat and had not forbidden her ever to ask for it. The clerk supplied a request form with a receiving date. Yue filled it out carefully. If the basin refused, she could choose paid ordinary work or leave; neither option would retroactively turn her winter-city departure into a cooperative endorsement she had not received.",
+      "next": "reservoir_ep01_022",
+      "cast": [
+        "lin_yue",
+        "reservoir_qiu_nan"
+      ]
+    },
+    "reservoir_ep01_022": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "At the factory door, the private custodian declined to show her the sealed reference sheet. Yue had no inspected-contract purpose for it. She thanked the woman for giving a clear answer and returned to the veranda, where Qiu offered the published safety notice instead. That notice could help her travel without explaining the instrument's design. Yue felt the practical loss of the closed door more sharply than the earlier relief of ending work. A decision could remain right for her while making the next task harder.",
+      "next": "reservoir_ep01_023",
+      "cast": [
+        "lin_yue",
+        "reservoir_qiu_nan"
+      ]
+    },
+    "reservoir_ep01_023": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Any basin employment would now begin as a fresh local appointment. Completed winter-city wages stayed in Yue's purse, but she could not spend an imagined future wage on the journey. Qiu said ordinary grain and channel work might be offered after the local receiver compared skills and available hours. The words might be mattered. Yue had enough reserved provisions for the booked passage and the initial lodging she had actually paid; a longer stay would require an earned plan, rather than confidence that somebody would be impressed.",
+      "next": "reservoir_ep01_024",
+      "cast": [
+        "lin_yue",
+        "reservoir_qiu_nan"
+      ]
+    },
+    "reservoir_ep01_024": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "The clerk's receiving entry named an independent visitor with completed prior wages and permitted personal notes. Yue signed that accurate description. There was no borrowed apparatus to bring into the basin under the departure term, and no institutional title to use on a household's doorstep. Qiu retained the acknowledgment; the private folder stayed with Yue. Tomorrow she would ask for an ordinary place from the beginning. That decision had closed the familiar, well guarded old city door; now she must wait while strangers considered whether to open another.",
+      "next": "reservoir_ep01_025",
+      "cast": [
+        "lin_yue",
+        "reservoir_qiu_nan"
+      ]
+    },
+    "reservoir_ep01_025": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "After the receiving papers were put away, Qiu took Yue to the veranda's ordinary channel gauge. A dark stain ran above the current water. The steward named its date and the keeper who had checked it; she did not call every stain a flood record. Yue copied the present level against the painted staff. The work required clear eyes and a stable place to stand. Her cultivation could neither supply a missing date nor make the wet lower step an acceptable measuring position.",
+      "next": "reservoir_ep01_026",
+      "cast": [
+        "lin_yue",
+        "reservoir_qiu_nan"
+      ]
+    },
+    "reservoir_ep01_026": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "A child from the grain house watched them and asked whether Yue could call the water upward. Qiu waited for Yue to answer. She said no. Her small circuit could support tasks within the routes she had earned, under conditions she had actually tested. The channel's weight belonged to gravity and the existing shutters. The child considered this, then asked whether she could carry a full ordinary bucket. Yue said the bucket's handle and the worker's load needed checking too. The answer disappointed him less than she expected.",
+      "next": "reservoir_ep01_027",
+      "cast": [
+        "lin_yue",
+        "reservoir_qiu_nan"
+      ]
+    },
+    "reservoir_ep01_027": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "The little house's kettle had a split wooden handle repaired with an ordinary wire binding. Qiu asked the cook when the repair had been inspected. The cook showed the morning mark and lifted the kettle with the protected grip. Nothing glowed. Yue noticed how many of the institution's useful acts took this unremarkable form: a question, an actual check, a limited acceptance. She had once imagined advanced cultivation would leave such habits behind. Here the seventh-stage visitor needed them before she could safely pour herself a cup of tea.",
+      "next": "reservoir_ep01_028",
+      "cast": [
+        "lin_yue",
+        "reservoir_qiu_nan"
+      ]
+    },
+    "reservoir_ep01_028": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "The carrier reached the lower house shortly before sunset. His inspection covered the booked cart road and the footbridge at the next station. A frost-loosened board had been replaced; the remaining parapet was still restricted to pedestrians without heavy loads. His cart would take the level road rather than the tempting shorter ledge. Yue checked that the booking named that route. An extra hour belonged inside its current travel allowance. A later closure would require a new message and a changed plan, not a promise to make speed with qi.",
+      "next": "reservoir_ep01_029",
+      "cast": [
+        "lin_yue"
+      ]
+    },
+    "reservoir_ep01_029": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "The carrier's assistant asked whether Yue's folder held a road-clearing order. She showed only the passage booking. Qiu supplied the current safety notice from its public shelf, with the receiver's name. Neither paper authorized a visitor to move barriers. The assistant read the notice and copied the lower bridge restriction onto his own sheet. Yue kept her personal papers folded while he worked. A journey could depend on other people's careful labor without making every traveler the owner of that labor or its instruments.",
+      "next": "reservoir_ep01_030",
+      "cast": [
+        "lin_yue",
+        "reservoir_qiu_nan"
+      ]
+    },
+    "reservoir_ep01_030": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "At supper, the house served barley with a little onion oil. Yue paid the posted meal charge and wrote it beside her lodging receipt. Qiu ate from the staff meal account after signing the day's accepted work. The cook had no reason to combine their bowls into one purse simply because they sat at the same table. Yue liked the steward's company. She could enjoy it without imagining that companionship would remove tomorrow's cost. They spoke instead about the ridge wind, which had bent one winter plum almost horizontal.",
+      "next": "reservoir_ep01_031",
+      "cast": [
+        "lin_yue",
+        "reservoir_qiu_nan"
+      ]
+    },
+    "reservoir_ep01_031": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Qiu asked where Yue's mother lived now and whether a real receiving address was available. Yue named the family address she could lawfully use and described the ordinary care contacts already arranged. She offered no promise of restored years. Her mother's lost time had not become available because a daughter had reached a higher stage. Qiu said the basin's messenger schedule might help with correspondence if Yue chose to pay its actual fee. It would not make a private letter a public task or an unread letter an answered conversation.",
+      "next": "reservoir_ep01_032",
+      "cast": [
+        "lin_yue",
+        "reservoir_qiu_nan"
+      ]
+    },
+    "reservoir_ep01_032": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Yue opened the private page only after Qiu left the table. The familiar characters in her mother's last note looked smaller than she remembered. She read the note for what it said, rather than searching between its lines for an instruction to hurry. A description of a painful morning did not prove an emergency tonight; it did deserve an accurate reply and a functioning local care arrangement. She wrote questions about food, sleep and the next ordinary appointment, leaving space for her mother's own answer.",
+      "next": "reservoir_ep01_033",
+      "cast": [
+        "lin_yue"
+      ]
+    },
+    "reservoir_ep01_033": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "She did not send the draft that evening. The courier window had closed, and an unofficial carrier offering to take it would have no confirmed receiving handover. Yue put the folded letter under her pillow and asked the clerk about the next booked dispatch. It would leave after the morning sort. She could pay then and retain its receipt. The delay felt larger in the dark room than it had sounded at the desk. She slept with that discomfort rather than turning it into an excuse for an unpriced night journey.",
+      "next": "reservoir_ep01_034",
+      "cast": [
+        "lin_yue"
+      ]
+    },
+    "reservoir_ep01_034": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "On Day One Thousand Eleven, the channel remained below yesterday's mark. Qiu asked Yue to read the gauge before hearing the previous entry. Yue gave the visible height, then compared the written result. A slight difference came from where yesterday's viewer had placed her eye. They repeated the ordinary reading from the marked station and recorded the correction. No spiritual trace entered the staff. The little error had cost attention and time, which were real enough without being renamed a cultivation failure.",
+      "next": "reservoir_ep01_035",
+      "cast": [
+        "lin_yue",
+        "reservoir_qiu_nan"
+      ]
+    },
+    "reservoir_ep01_035": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Jing Su arrived with the instrument cupboard key on a cord inside her sleeve. She was its appointed custodian, and Qiu introduced her by that responsibility rather than as somebody who would surely lend Yue anything she asked for. Jing counted the sealed sample sleeves before opening one. She could demonstrate a blank procedure today under her work order. She could not schedule a candidate's examination or spend the chamber's calibrated stock without a different accepted purpose. Yue waited for the demonstration's limits to be stated before taking out a notebook.",
+      "next": "reservoir_ep01_036",
+      "cast": [
+        "lin_yue",
+        "reservoir_qiu_nan",
+        "reservoir_jing_su"
+      ]
+    },
+    "reservoir_ep01_036": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "The blank sleeve contained no candidate sample. Jing warmed the comparison pad by its rated ordinary method and showed how room temperature affected the baseline. A faint line appeared where Yue would once have been tempted to call it a trace. Jing placed the unused comparison beside it and noted the difference. The test described the instrument under these conditions. It said nothing yet about Yue's reservoir. She copied the room temperature as carefully as the line, giving the unromantic number the space its future usefulness required.",
+      "next": "reservoir_ep01_037",
+      "cast": [
+        "lin_yue",
+        "reservoir_jing_su"
+      ]
+    },
+    "reservoir_ep01_037": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Jing then closed the sleeve and put it back into its numbered compartment. She would record the handling interval and inspect it before another authorized use. Yue asked whether repeating the blank immediately would make the result more convincing. Jing said an immediate repetition could describe repeatability now, but not independence after sleep, movement or changed temperature. They were different questions. Yue recognized an old impatience in the proposed shortcut and left it in her notes, where she could later explain why she had not acted on it.",
+      "next": "reservoir_ep01_038",
+      "cast": [
+        "lin_yue",
+        "reservoir_jing_su"
+      ]
+    },
+    "reservoir_ep01_038": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "The custodian showed the visitor shelf, which held only materials offered for public reading. Its papers included an out-of-date basin diagram with a visible cancellation stamp. A visitor could read the history, but no worker should use that drawing as a current operating instruction. Yue traced the stamp's edge with her eyes without touching the paper. Something could be preserved precisely because it had failed or been superseded. Erasing the old diagram would not make the current channel better understood, and quietly reviving it would make the next worker less safe.",
+      "next": "reservoir_ep01_039",
+      "cast": [
+        "lin_yue",
+        "reservoir_jing_su"
+      ]
+    },
+    "reservoir_ep01_039": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Qiu's current operating sheet distinguished the lower house's channel from the reservoir's main sluices. The shutters Yue had seen were ordinary regulating boards, not a miniature copy of every mechanism above. Their keeper used specific load limits and a local stopping place. An acceptance at this lower station would therefore not clear the high basin's gates. Yue wrote the boundary in a sentence she could understand without the drawing. A familiar shape could be dangerous when it invited the reader to transfer a permission that belonged somewhere else.",
+      "next": "reservoir_ep01_040",
+      "cast": [
+        "lin_yue",
+        "reservoir_qiu_nan"
+      ]
+    },
+    "reservoir_ep01_040": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Fu Lian came from the grain house after the morning weighing. She asked whether the expected visitor was the same woman whose winter-city account mentioned household calendars. Yue said the account should name its own observer and offered only the page she was permitted to show. Fu read its heading before deciding what to ask. She wanted a comparison of work hours, water turns and care duties, rather than a stirring explanation of cultivation. Yue said she could listen, if an actual appointment made the conversation workable for both of them.",
+      "next": "reservoir_ep01_041",
+      "cast": [
+        "lin_yue",
+        "reservoir_qiu_nan",
+        "reservoir_fu_lian"
+      ]
+    },
+    "reservoir_ep01_041": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Fu could not sit down then. Her paid weighing interval would finish after the midday delivery, and her household needed its water turn before the evening frost. She proposed the following afternoon at a named public table. Qiu checked the keeper's current room schedule before confirming that the table was available. The appointment purchased no testimony and made no promise that Yue would solve the conflict. It gave them an hour when Fu would not secretly be losing a wage in order to help a stranger look insightful.",
+      "next": "reservoir_ep01_042",
+      "cast": [
+        "lin_yue",
+        "reservoir_qiu_nan",
+        "reservoir_fu_lian"
+      ]
+    },
+    "reservoir_ep01_042": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Before leaving, Fu pointed to the wet boots beside the door. Her younger brother had borrowed them for an accepted channel-cleaning task and returned them with a broken tie. The boots were hers, not common equipment because they had been used near public water. The worker had agreed to pay for a new tie from his own task money. Yue offered sympathy without reaching for a repair technique. Fu laughed and said sympathy was cheaper than another badly fitted knot. She wanted the actual replacement, not a beautiful explanation of shared responsibility.",
+      "next": "reservoir_ep01_043",
+      "cast": [
+        "lin_yue",
+        "reservoir_fu_lian"
+      ]
+    },
+    "reservoir_ep01_043": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "At the dispatch desk, Yue paid the ordinary letter fee and named its intended receiver. The clerk checked the address against the current route and stamped the receiving copy. He could promise this booked handover, subject to the documented interruption process, rather than her mother's immediate reply. Yue folded the receipt into the personal envelope. Her questions about food and sleep now had a real way to reach someone. The letter's departure did not satisfy any institutional observer report and did not make her family concern a public account.",
+      "next": "reservoir_ep01_044",
+      "cast": [
+        "lin_yue"
+      ]
+    },
+    "reservoir_ep01_044": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "The rest of the morning belonged to the next journey's ordinary preparation. Yue checked the pack straps, counted her reserved provisions and asked the carrier where passengers could refill drinking water. Qiu would not authorize drawing from a restricted sample tank. The house's public drinking jar had its own checked source and ordinary cup. Yue filled her flask there after washing it. The distinction seemed small until she looked at the locked tank's label. Drinking safely and obtaining a calibrated specimen were both reasonable acts, and neither supplied the other's permission.",
+      "next": "reservoir_ep01_045",
+      "cast": [
+        "lin_yue",
+        "reservoir_qiu_nan"
+      ]
+    },
+    "reservoir_ep01_045": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "An older traveler offered advice about the basin's examiner. He said she liked candidates who answered quickly and never admitted uncertainty. Jing heard him from the cupboard and asked whose recovered examination he had observed. He had heard the story at an inn. Yue did not argue with the whole traveler. She recorded the claim as unverified and asked the clerk for the actual examiner's receiving notice. A rumor could describe somebody's fear without describing the person whom she would eventually meet, and fear would be a poor substitute for preregistered standards.",
+      "next": "reservoir_ep01_046",
+      "cast": [
+        "lin_yue",
+        "reservoir_jing_su"
+      ]
+    },
+    "reservoir_ep01_046": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "The notice named Mei Rong as an independent examiner for a later funded appointment. It listed no promise that a visitor would be accepted. Her fee, once authorized, would not depend on whether a candidate passed. Yue read that line twice. A refusal might still hurt, but it would not take bread from the person who had to give it. The notice's independence was not a guarantee against every error. It was a concrete condition under which a disputed result could be examined without rewarding a flattering answer.",
+      "next": "reservoir_ep01_047",
+      "cast": [
+        "lin_yue"
+      ]
+    },
+    "reservoir_ep01_047": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Toward evening, Qiu asked Yue to return the offered public sheets to their numbered places. Jing checked the instrument demonstration entry and retained its own original. Fu's appointment remained in the next day's room book, while Yue's private letter receipt stayed in her pack. Nothing from the morning had opened a sluice or certified a new stage. Yet several things had changed: the carrier's road was inspected, a letter had been paid for, and a household delegate had set a conversation on a day she could actually attend.",
+      "next": "reservoir_ep01_048",
+      "cast": [
+        "lin_yue",
+        "reservoir_qiu_nan"
+      ]
+    },
+    "reservoir_ep01_048": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "On Day One Thousand Twelve, Fu arrived at the booked table with two work sheets and her own cup. She set the cup outside the papers, then asked whether Yue intended to copy her brother's name. Yue said names were unnecessary for the first comparison unless Fu wanted a particular receiving action. Fu chose to begin with hours and turn numbers. Qiu remained nearby as the room's receiver, without turning the conversation into a public hearing. They had an agreed afternoon, not authority to summon everyone involved.",
+      "next": "reservoir_ep01_049",
+      "cast": [
+        "lin_yue",
+        "reservoir_qiu_nan",
+        "reservoir_fu_lian"
+      ]
+    },
+    "reservoir_ep01_049": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Fu's grain delivery had moved later when the winter road closed. Her household's water turn had not moved with it. The family could either send someone away from paid weighing or miss a draw that still appeared available on the keeper's schedule. Yue asked how many days had actually collided, and Fu showed five marked entries rather than saying always. Three had been covered by a neighbor who agreed to help; two had left their household carrying water after dark. The neighbor's kindness was not an unlimited new duty.",
+      "next": "reservoir_ep01_050",
+      "cast": [
+        "lin_yue",
+        "reservoir_qiu_nan",
+        "reservoir_fu_lian"
+      ]
+    },
+    "reservoir_ep01_050": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "The keeper's sheet showed a lawful allotted quantity. Fu did not say the quantity was secretly stolen. She said the available hour made that quantity difficult to receive without losing wages. Yue drew the work interval and the water interval on separate lines. They overlapped only on delivery days. The distinction mattered because a general increase in water would not solve a timing conflict, while changing every household's hour would ask other people to absorb a cost they had not yet been offered or accepted.",
+      "next": "reservoir_ep01_051",
+      "cast": [
+        "lin_yue",
+        "reservoir_qiu_nan",
+        "reservoir_fu_lian"
+      ]
+    },
+    "reservoir_ep01_051": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Qiu could compare the public roster, but no current rule allowed her to replace another household's turn merely because Fu's account sounded persuasive. She named the receiver who could hear an offered swap. Fu wanted that route, with a date she could attend. Yue copied the receiving address onto the public request and left the factual account in Fu's hands. There was no signature line for Yue to certify a solution. She had made the conflict clearer without becoming the owner of either its decision or its consequences.",
+      "next": "reservoir_ep01_052",
+      "cast": [
+        "lin_yue",
+        "reservoir_qiu_nan",
+        "reservoir_fu_lian"
+      ]
+    },
+    "reservoir_ep01_052": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "The second sheet belonged to Fu's brother's grain task. Its early hours offered one possible way to avoid the collision, if the supervisor accepted an exchange and another worker wanted the later interval. Fu would not volunteer the brother's answer in his absence. Yue almost said that the exchange looked obvious, then caught the word before it reached the page. An obvious arrangement could require a person to give up sleep or another paid job. They left it as a proposal with a named person whose consent had yet to be requested.",
+      "next": "reservoir_ep01_053",
+      "cast": [
+        "lin_yue",
+        "reservoir_qiu_nan",
+        "reservoir_fu_lian"
+      ]
+    },
+    "reservoir_ep01_053": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Fu asked whether cultivation examinations used calendars as carefully as water work. Yue described the recovered checks she had actually completed, including the times a result remained provisional overnight. She did not claim that every institution used the same procedure or that her future examiner would waive a rule for family obligations. Fu listened and said the basin's households knew something about waiting for a morning result too. A frozen intake could look sound at noon and fail when a particular family finally reached it after sunset.",
+      "next": "reservoir_ep01_054",
+      "cast": [
+        "lin_yue",
+        "reservoir_qiu_nan",
+        "reservoir_fu_lian"
+      ]
+    },
+    "reservoir_ep01_054": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "They walked only as far as the public turning point, where the ground had been accepted for ordinary visitors. Fu showed the path her family used after work. A patch of old ice remained under its eave. Yue did not try a reinforced step there; her movement's clearance belonged to previously tested conditions, and a wet unfamiliar turn required reassessment. Qiu pointed out the current ordinary alternate. It was longer but open. Fu wrote its actual extra minutes beside the two late draws, making the burden measurable without making it vanish.",
+      "next": "reservoir_ep01_055",
+      "cast": [
+        "lin_yue",
+        "reservoir_qiu_nan",
+        "reservoir_fu_lian"
+      ]
+    },
+    "reservoir_ep01_055": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "A grain-house worker met them on the alternate and asked whether the visitor would change the roster. Fu answered before Yue did: they had prepared a request, not a new order. The worker was relieved because his household's earlier turn would otherwise collide with its own oven hours. Yue asked whether he wished to offer an account at the receiver's appointed meeting. He declined today and took the address for later. His refusal stayed intact. They could describe a schedule's effects without requiring every affected person to become a witness immediately.",
+      "next": "reservoir_ep01_056",
+      "cast": [
+        "lin_yue",
+        "reservoir_qiu_nan",
+        "reservoir_fu_lian"
+      ]
+    },
+    "reservoir_ep01_056": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Back at the lower house, Fu read Yue's short account and corrected the second late draw's date. The ice photograph Yue imagined did not exist; they had an ordinary sketch and Qiu's present path notice. She labeled both. Fu kept the detailed household sheet and permitted a copy of the five-date comparison for the receiving request. The document now contained fewer dramatic claims and a more usable question. Yue found herself glad that the first conversation had produced a correction rather than agreement with everything she had hoped to see.",
+      "next": "reservoir_ep01_057",
+      "cast": [
+        "lin_yue",
+        "reservoir_qiu_nan",
+        "reservoir_fu_lian"
+      ]
+    },
+    "reservoir_ep01_057": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Qiu accepted the request for forwarding after checking the appointed receiver's current address. She could confirm its dispatch with the next scheduled institutional packet, because that packet already had a funded place for ordinary local requests. Yue's mother's letter remained in the separate private dispatch ledger. The distinction prevented a convenient institutional envelope from quietly paying personal correspondence. Fu gave her own receiving contact and the times she could answer. A future question arriving during the weighing shift would need to wait for her, rather than cost another day's wage.",
+      "next": "reservoir_ep01_058",
+      "cast": [
+        "lin_yue",
+        "reservoir_qiu_nan",
+        "reservoir_fu_lian"
+      ]
+    },
+    "reservoir_ep01_058": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "That evening, Yue wrote in her private notebook that access had consequences even when no one misbehaved. A person allowed to read a component sheet might still lack household consent; a public observer might hear calendars while being barred from private specifications; an independent visitor might need to request both from the beginning. The written winter-city choice did not alter Fu's need for a workable turn. It altered the legitimate route by which Yue could help examine that need. She would keep those routes visible through the initial work.",
+      "next": "reservoir_ep01_059",
+      "cast": [
+        "lin_yue"
+      ]
+    },
+    "reservoir_ep01_059": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "On Day One Thousand Thirteen, the carrier inspected his cart's axle before calling the passengers. Departure remained booked for the following morning; today's inspection was preparation, not a guarantee that tomorrow's weather would remain kind. Yue used the spare daylight to wash her ordinary clothes and dry them by the accepted rack. Jing asked her to leave a clear space around the instrument room's vent. A damp coat could change the room's baseline. Yue moved the sleeve without taking the request as criticism of her cultivation rank.",
+      "next": "reservoir_ep01_060",
+      "cast": [
+        "lin_yue",
+        "reservoir_qiu_nan"
+      ]
+    },
+    "reservoir_ep01_060": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "The clerk received an acknowledgment from the winter road's forwarding house. It confirmed the address for later private correspondence, but it contained no answer from Yue's mother. Yue read it carefully enough not to make the small paper say more. She retained the forwarding acknowledgment and checked the next expected receiving window. If an urgent message arrived after she entered the plateau, it would go to the basin's appointed contact. Ordinary travel could include a real route for bad news without treating every silent afternoon as proof that bad news had occurred.",
+      "next": "reservoir_ep01_061",
+      "cast": [
+        "lin_yue"
+      ]
+    },
+    "reservoir_ep01_061": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Jing offered to show where candidate belongings would be kept during a future examination, if one was actually arranged. The cupboard had separate spaces for private clothes, permitted notes and institutional instruments. A candidate's earned reserve could not be stored there, and instrument ownership would not pass with a certificate. Yue smiled at the plain statement. She had seen people speak of mastery as if it gathered every useful object into the master's hands. The empty compartment made a different possibility visible: one could learn while leaving other people's property where it belonged.",
+      "next": "reservoir_ep01_062",
+      "cast": [
+        "lin_yue",
+        "reservoir_jing_su"
+      ]
+    },
+    "reservoir_ep01_062": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Qiu asked about Yue's shoulder before discussing any future ordinary work. Yue described her actual current limits and the past tasks that had caused pain. She did not report a fresh injury merely because the steward expected an interesting story. Qiu wrote that overhead catching was outside the proposed work, and any strain would require stopping, reassessment and funded recovery under a later agreement. The note cleared no task yet. It kept an old vulnerability from being lost between the flattering seventh-stage heading and the practical list of jobs.",
+      "next": "reservoir_ep01_063",
+      "cast": [
+        "lin_yue",
+        "reservoir_qiu_nan"
+      ]
+    },
+    "reservoir_ep01_063": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "The grain house might offer work after the plateau journey because its winter reserve needed ordinary counting. The paid receiver would compare Yue's demonstrated copying and weighing skills with the actual available appointment. Qiu neither promised the job nor asked her to begin a free trial that would perform the whole task. Yue could show a small ordinary comparison in the receiver's accepted interval. If it failed, the household ledgers would stay with their current clerk and Yue would need another livelihood choice. She agreed to hear the offer when it existed.",
+      "next": "reservoir_ep01_064",
+      "cast": [
+        "lin_yue",
+        "reservoir_qiu_nan"
+      ]
+    },
+    "reservoir_ep01_064": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "In the afternoon, Fu returned the public room key she had borrowed for the appointment. The clerk checked it against its number, and she signed the handover without being charged for the conversation's useful result. Her household sheet remained hers. Yue gave back the permitted comparison copy after the forwarding packet was prepared, retaining only the private account of her own observations. Whether a later paid role allowed another copy would be decided then. A good meeting had not silently created a permanent archive in the visitor's pack.",
+      "next": "reservoir_ep01_065",
+      "cast": [
+        "lin_yue",
+        "reservoir_fu_lian"
+      ]
+    },
+    "reservoir_ep01_065": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Qiu's last receiving entry listed the actual changes since Yue's arrival: papers acknowledged within their retained scope, a current road inspection, paid personal dispatch, and a household request forwarded to its named receiver. It also listed what remained unaccepted. No basin appointment, new cultivation instruction or high-sluice access had been granted. Yue read the unfinished column with less disappointment than on her first morning. It contained questions that could still receive honest answers, rather than failures concealed under a hospitable promise.",
+      "next": "reservoir_ep01_066",
+      "cast": [
+        "lin_yue",
+        "reservoir_qiu_nan"
+      ]
+    },
+    "reservoir_ep01_066": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "On Day One Thousand Fourteen, Yue paid the last lower-house charge she actually owed and received its closing mark. The carrier's morning inspection accepted the booked level road. Qiu supplied the current public safety notice, leaving the operating originals at their desk. Jing retained every demonstration sleeve and its handling record. Fu sent a brief message about the household receiver's meeting date. None of them gathered for a ceremonial departure. They had ordinary work, and Yue's next morning had a booked place among its real passengers.",
+      "next": "reservoir_ep01_067",
+      "cast": [
+        "lin_yue",
+        "reservoir_qiu_nan"
+      ]
+    },
+    "reservoir_ep01_067": {
+      "chapter": "book_xxiii_reservoir",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mirror_basin_reservoir_cloister",
+      "effect": "none",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "7: Small circuit"
+      },
+      "text": "Before sleeping, Yue packed travel papers above her private letters. Permitted institutional copies remained separately labeled. Beyond the veranda, ordinary water moved through its accepted channel. The high reservoir stayed unseen. She washed the borrowed cup, returned it, and prepared for tomorrow's booked road.",
+      "next": "reservoir_ep02_001",
+      "cast": [
+        "lin_yue"
+      ]
+    }
+  }
+}

@@ -1,0 +1,868 @@
+{
+  "chapters": {
+    "book_xxi_mine": {
+      "label": "BOOK XXI",
+      "title": "The Mine With a Living Seam"
+    }
+  },
+  "characters": {},
+  "nodes": {
+    "mine_entry": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "On Day 440, Lin Yue reached Vermilion Hollows with the red dust still dry on the upper road. The mountain did not look alive. It looked heavy, and the mine entrance appeared smaller than the stories told about it. A surface clerk asked for the documents relevant to her arrival before asking about cultivation. Lin set her own pack beside the receiving table. Anything she had carried for another owner would need its own receipt. The clerk did not treat proximity to a parcel as proof that it belonged to her.",
+      "next": "mine_p01_002"
+    },
+    "mine_p01_002": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Qiao Min came from the yard wearing a coat whose left pocket sagged around a bundle of keys. She introduced herself as the mine forewoman and asked which receiving arrangement had actually been accepted. Lin opened the papers rather than describing the most useful version of them. The journey had offered different possible roles, and a role she had declined could not enter the mine with her merely because someone mentioned it on the road. Qiao read the selected terms before arranging any appointment.",
+      "next": "mine_p01_003"
+    },
+    "mine_p01_003": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The receiving shed stood outside the active workings. An ordinary cart could reach it without entering a gallery. Lin could hear metal striking somewhere behind the closed inner gate, but the noise told her nothing about the people or loads there. A boy carrying clean bowls passed between the carts with a kitchen attendant. Qiao waited for them to cross before moving a pallet. The scene made the mine seem less like an enormous hidden mystery and more like a difficult place to keep several necessary things from colliding.",
+      "next": "mine_p01_004"
+    },
+    "mine_p01_004": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The clerk's name was Ren Tao. He worked from a surface register and kept other records in closed cabinets. He explained that today's receiving decision would not grant inspection authority, access to private interviews, or ownership of a mine instrument. A person could have a valid cargo appointment and still lack permission to enter a workshop. Lin asked him to put the distinction beside her appointment. He said it was already printed there, then showed her the line she had read too quickly. The written appointment would outlast today's first impression.",
+      "next": "mine_p01_005"
+    },
+    "mine_p01_005": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "She had retained the sixth stage of Qi Gathering through the journey without attempting a new bridge. Her maintained six pairs belonged to her own measured practice. They did not identify a loaded crate's contents, judge a timber's condition, or remove fatigue after walking uphill. Lin drank water before answering the clerk's next questions. Qiao moved the appointment into the shade. Neither gesture was a breakthrough, and both made the conversation less likely to proceed on the strength of somebody pretending not to be tired.",
+      "next": "mine_p01_006"
+    },
+    "mine_p01_006": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "At the yard's edge, a notice listed the outer receiving rules and the separate conditions for visitors to the cleared gallery. Lin could read both from where she stood. The inner routes would require an escort and current clearance. Her incoming work, if its selected agreement authorized any, remained a surface task until another responsible person accepted a more specific condition. She asked where the ordinary lodging lane began. Ren pointed to a short road with washing lines above it and warned her that the second turning looked like the first.",
+      "next": "mine_intake_gate"
+    },
+    "mine_intake_gate": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Before opening any appointed cargo or borrowed tool case, Lin checked the arrival account's scope with its custodian. Transport, the agreed four arrival days of room and meals, and any receiving work had separate lines. A paid meal did not become cash she could collect again. A ticket did not become a continuing travel allowance. She would complete only the accepted role and receive only its stated payment. The clerk left room for actual expenses and returns, because a planned account was not yet a completed one.",
+      "next": "mine_p01_shared_001",
+      "routes": [
+        {
+          "decision": "shoal_terms_choice",
+          "selected": "shoal_terms_convoy",
+          "next": "mine_p01_convoy_001"
+        },
+        {
+          "decision": "shoal_terms_choice",
+          "selected": "shoal_terms_refuge",
+          "next": "mine_p01_refuge_001"
+        },
+        {
+          "decision": "shoal_terms_choice",
+          "selected": "shoal_terms_survey",
+          "next": "mine_p01_survey_001"
+        }
+      ]
+    },
+    "mine_p01_convoy_001": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The selected papers authorized the convoy receiving role. Six numbered crates contained freight-signal plates owned by the port, not by Lin. Their manifests identified the intended receiver and the permitted condition comparison. Qiao directed the carrier to the surface cargo bay named in the appointment. Lin stood beside the clerk while the crate numbers were checked against the papers. She had not gained the plates by escorting them. Any damaged seal or discrepancy would be recorded before the owner decided what should happen next.",
+      "next": "mine_p01_convoy_002"
+    },
+    "mine_p01_convoy_002": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The licensed shared carrier presented its own charge. Twenty-four coppers covered the agreed transport under the freight account. Ren entered that sum against the carrier's receipt rather than paying Lin as though she had supplied a cart and driver. Four coppers belonged to packing, and four to receipt messages. The account's fifty therefore had named uses: ten for Lin's two receiving days, twenty-four for transport, eight for her four arrival days of room and meals, and the two separate fours. None of those lines funded a cultivation attempt.",
+      "next": "mine_p01_convoy_003"
+    },
+    "mine_p01_convoy_003": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The first crate's exterior showed a scraped corner. Its seal remained intact, and Lin recorded both facts instead of declaring its contents sound. The receiving owner would decide whether the agreed comparison required opening it. The carrier's driver wanted his receipt quickly because another ordinary delivery waited at the lower crossroads. Qiao arranged the inspection interval without making the driver responsible for the mine's whole morning. A cargo could be received honestly while a particular condition still awaited the appropriate person's check.",
+      "next": "mine_p01_convoy_004"
+    },
+    "mine_p01_convoy_004": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The supplier had reserved a bench for the defined freight-plate comparison. Its steward, Sui Jun, showed Lin the permitted place and the instruments the qualified comparator would use. The reservation covered this cargo and these receiving tasks. It was not a general laboratory membership, a loan of proprietary instructions, or ownership of an appendix somebody might have named during the journey. Lin asked to see the bench's end time. Sui tapped the written interval and said the next user expected the place clear.",
+      "next": "mine_p01_convoy_005"
+    },
+    "mine_p01_convoy_005": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "On Day 441, the crate owner authorized opening the marked containers in the agreed order. Ordinary workers lifted each lid with the cargo bay isolated from passing carts. Lin copied the condition references while the comparator examined the plates. One packing strip had shifted against an edge. The plate beneath it needed a closer ordinary check. Lin did not heat it with qi or try to prove it sounded healthy. The comparator set it apart under the owner's condition instruction, and the remaining pieces stayed within their own numbered trays.",
+      "next": "mine_p01_convoy_006"
+    },
+    "mine_p01_convoy_006": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The port's crates arrived beside a local carpenter's unpaid timber order. The carpenter asked whether the convoy paperwork would push his receiving slot aside. Qiao showed him the separate appointments and kept his ordinary order in its booked interval. Lin waited while his boards crossed the bay first. The delay cost her some patience and no authorized receiving task. A sealed cargo with formal references did not outrank every smaller delivery merely because more people had written about it before it arrived.",
+      "next": "mine_p01_convoy_007"
+    },
+    "mine_p01_convoy_007": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Sui explained why the uncertain plate remained isolated. A visible corner mark did not reveal every effect of a pressure change, and an apparently sound face could still require the specified comparison. Lin asked whether a useful qi pulse would settle it faster. The comparator said that an unregistered input might change the condition they were trying to inspect. She withdrew the suggestion before any test. Her available reserve did not become a reason to alter somebody else's property outside the owner's accepted method.",
+      "next": "mine_p01_convoy_008"
+    },
+    "mine_p01_convoy_008": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "At the final receipt, the clerk read the six crate numbers back to the owner's representative. The representative corrected the pronunciation of the receiving yard's name, then accepted the actual recorded disposition. Lin watched him mark the unresolved item without refusing the entire shipment. He cared about the plates as ordinary working property, not as proof that a journey had succeeded heroically. She was glad the record allowed a useful delivery and an unfinished repair decision to exist together without making either one disappear.",
+      "next": "mine_p01_convoy_009"
+    },
+    "mine_p01_convoy_009": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "She watched the supplier's assistant move the questionable plate without hiding it among sound pieces. Its isolation made the count less convenient. It also made a later dispute more answerable. The owner accepted a provisional receipt identifying the plate's unresolved condition rather than accepting a sentence which made every crate perfect. Lin copied the public cargo reference allowed by the agreement. The detailed proprietary comparison remained with its owner. She could describe the actual receiving outcome without taking home the method which had produced it.",
+      "next": "mine_p01_convoy_010"
+    },
+    "mine_p01_convoy_010": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Day 442 was the first of Lin's two appointed receiving workdays. She arrived after breakfast and reported to the named lead. The work concerned the crate references, owner responses and condition record, not an underground shift. Sui gave her a clean copy sheet and took the original back after each comparison. Lin had enough literacy to carry out that bounded role. She did not acquire authority to price damage, assign blame, or release a plate merely because the comparator could use her neat handwriting.",
+      "next": "mine_p01_convoy_011"
+    },
+    "mine_p01_convoy_011": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "A port clerk's reply arrived during the afternoon. It confirmed the receipt destination and asked for the unresolved plate's separate condition reference. Lin compared the reply with the outgoing message and noticed that one crate number had been shortened ambiguously. She asked Ren to correct it before the next message left. The receipt-message budget remained four coppers under the actual agreed service; the correction used the authorized message turn. Nobody opened another account in her name to make a small error appear costless.",
+      "next": "mine_p01_convoy_012"
+    },
+    "mine_p01_convoy_012": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The carrier's driver had already completed his transport role and departed under a valid receipt. Lin could not call him back for an unrelated mine errand without a new accepted agreement. A worker asked whether the arriving crates meant that the supplier would hire more local hands. Qiao said the receiving appointment made no employment promise. The worker could read the posted openings and apply through the ordinary process. Six crates had entered a bay; they had not carried a contract for every person who saw them arrive.",
+      "next": "mine_p01_convoy_013"
+    },
+    "mine_p01_convoy_013": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "On Day 443, Lin finished the second receiving day. The comparator's accepted finding left one plate held for the owner's repair decision while the rest were received under their recorded conditions. Ren checked the two completed workday lines and paid Lin ten coppers from the freight account. She counted them beside the receipt. The payment covered work now performed, not a future comparison at another bench. The eight-copper arrival room-and-meal arrangement ended after the fourth agreed day and would not follow her into a longer stay.",
+      "next": "mine_p01_convoy_014"
+    },
+    "mine_p01_convoy_014": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Sui inspected the reserved bench after the defined comparison. Lin returned the copy board and pencil she had used there. The instruments had remained under the supplier's lead throughout. The cleared place would serve its next appointment without an argument about whether a visitor's interest had created continuing access. Lin kept her own allowed receipt copy, containing crate references and the public condition disposition. She did not keep a freight plate, a private comparison sheet, a bench key, or a supplier's right to speak for mine workers.",
+      "next": "mine_p01_convoy_015"
+    },
+    "mine_p01_convoy_015": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Qiao said the completed role gave her a concrete receiving record to consider when later surface work was offered. It would not replace worker consent for interviews or the engineer's approval for an inspection. Lin liked the possibility of further paid work and felt the limit press against her curiosity. She could return as somebody who had done a useful bounded task. She would still have to ask what another task required. The received cargo remained with its owner, including the one piece whose condition prevented immediate ordinary use.",
+      "next": "mine_p01_shared_001"
+    },
+    "mine_p01_refuge_001": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The selected arrangement concerned five consenting adults relocating from the port, with Lin accompanying them on the shared road. Six tickets had been bought for twenty-four coppers. Nobody in the group had accepted employment at Vermilion Hollows by accepting transport. Qiao introduced the host liaison at the surface yard and gave each adult time to read the housing terms separately. Lin kept her own ticket receipt distinct from theirs. A convenient group count could not turn six travelers into one person's transferable responsibility.",
+      "next": "mine_p01_refuge_002"
+    },
+    "mine_p01_refuge_002": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The journey account held ninety-two coppers with stated uses. Ten covered Lin's two receiving days; twenty-four bought the six road tickets; eight covered Lin's four arrival days of room and meals; forty covered the five workers' board for the same four days. The remaining ten funded optional offered statements at two coppers each. Housing and tickets did not depend on giving a statement. Ren read that condition aloud before asking for names. Lin watched the adults look at one another, then return to the individual forms.",
+      "next": "mine_p01_refuge_003"
+    },
+    "mine_p01_refuge_003": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_worker_lodging",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The host rooms had been accepted through the appointed receiving arrangement and inspected separately by the responsible housing attendant. Lin accompanied the group along the cleared surface lane. She did not certify the roof with her cultivation stage. One adult asked whether the nearest bed could be moved away from the stove. The attendant checked its ordinary clearance and changed the arrangement safely. Another chose a room nearer the outer door. Their preferences concerned where they would sleep, not how useful they could become to an investigation.",
+      "next": "mine_p01_refuge_004"
+    },
+    "mine_p01_refuge_004": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "No supplier bench or instrument kit belonged to this arrival. When a mine worker asked whether the group had brought the new freight plates, Lin corrected the assumption. The people beside her had traveled under relocation terms. They were not equipment couriers waiting to surrender an unseen cargo. Qiao repeated the distinction at the receiving table. The misunderstanding had begun innocently, but it could have sent the group toward a task nobody had accepted. Clear identification prevented an offered shelter from being quietly exchanged for work.",
+      "next": "mine_p01_refuge_005"
+    },
+    "mine_p01_refuge_005": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_worker_lodging",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "On Day 441, each adult met the host liaison about the immediate lodging period and possible destinations afterward. They could stay under a newly accepted agreement, seek other ordinary work, or travel onward at their own expense and choice. The four arrival days did not promise a permanent house. Lin remained available to explain the receiving references without making a decision for anyone. One person wanted to look at the local hiring board. Another asked only about the next road service. Both questions received answers without a demand for loyalty.",
+      "next": "mine_p01_refuge_006"
+    },
+    "mine_p01_refuge_006": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "At individual receiving, the five adults chose how to identify themselves. Bai Fen described tile-setting work; Yan He made and repaired baskets; Pei Lu had worked in kitchens; Xu Zhen carried timber; Jin Shu spun wool. Those were their accounts of ordinary experience, not jobs the mine had promised. Lin wrote only the descriptions each accepted for the receiving sheet. Qiao said applications would need the actual requirements of an available role. A journey could bring skills to a place without guaranteeing that the place would buy them.",
+      "next": "mine_p01_refuge_007"
+    },
+    "mine_p01_refuge_007": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_worker_lodging",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Bai Fen, Pei Lu and Jin Shu accepted the optional statement intervals. Their permissions differed. Bai allowed a named account of her own lost work time. Pei wanted her observations recorded without naming former coworkers. Jin allowed a short account of the boarding arrangements and nothing about her family. The liaison preserved those conditions separately. Lin did not combine the three voices into a single unrestricted witness. A payment of two coppers for each completed interval did not dissolve the boundary around what the speaker had offered.",
+      "next": "mine_p01_refuge_008"
+    },
+    "mine_p01_refuge_008": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Yan He and Xu Zhen declined statements. Yan wanted to look for basket-repair customers; Xu first wanted an ordinary clinic appointment for a longstanding shoulder complaint. Neither reason had to qualify as an excuse. Their tickets and four-day board remained paid under the accepted journey terms. Lin showed Xu the public clinic directions without recording his complaint in the optional interview account. She pointed Yan toward the surface market only after he asked. The people she had accompanied could begin making choices which did not need her approval.",
+      "next": "mine_p01_refuge_009"
+    },
+    "mine_p01_refuge_009": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_worker_lodging",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The offered statements concerned the adults' own permitted observations from the port. Two coppers paid the accepted time of giving one; the payment did not purchase a particular conclusion. A person could limit a statement, decline it, or refuse public naming under the stated terms. Three adults chose to give bounded accounts. Two declined. Lin recorded the actual consent conditions with the host liaison. The six coppers for three completed statements would be paid; the unused four would return to the journey account's custodian.",
+      "next": "mine_p01_refuge_010"
+    },
+    "mine_p01_refuge_010": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_worker_lodging",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Day 442 was Lin's first appointed receiving workday. She checked the accepted housing receipts and the references each adult wanted carried into the local receiving record. The three optional accounts occurred in separate appointed intervals, with the speaker's chosen companion allowed where suitable. Lin was not entitled to listen to every account. She assisted only when the person accepted her presence. One speaker asked for the door to remain open toward the waiting area. The liaison arranged the room without treating that condition as an obstacle to a truthful statement.",
+      "next": "mine_p01_refuge_011"
+    },
+    "mine_p01_refuge_011": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_worker_lodging",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "An adult who declined a statement spent the afternoon looking at surface work notices. The offered board remained available without a penalty. Lin saw the person return carrying bread bought from an ordinary stall, and she resisted asking whether reconsideration had occurred. A refusal should not have to defend itself every time the listener met the person again. Instead she asked whether the shop was open late. They discussed food and the steep road. The receiving role had not made every private conversation part of an evidence collection.",
+      "next": "mine_p01_refuge_012"
+    },
+    "mine_p01_refuge_012": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The housing attendant identified a cracked jug in one room before charging anyone for it. The condition sheet showed the jug had already been damaged at issue. It was replaced through the host's ordinary arrangement. Lin copied the public replacement reference where the occupant agreed. She did not record the person's private belongings or use the incident to demonstrate that the entire accommodation was either perfect or hostile. A small defect had been found, assigned to its actual source, and corrected without turning a guest into a suspect.",
+      "next": "mine_p01_refuge_013"
+    },
+    "mine_p01_refuge_013": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "On Day 443, Lin completed the second receiving day. Ren checked the work lines and paid her ten coppers. The five adults' agreed arrival board had cost forty, and Lin's own four-day board eight. The three accepted statement intervals were paid at two coppers each. Four unused statement coppers returned to the journey custodian under a receipt. Twenty-four had already bought the six road tickets. The ninety-two-copper account therefore closed through eighty-eight spent and four returned, without counting declined testimony as an unpaid debt.",
+      "next": "mine_p01_refuge_014"
+    },
+    "mine_p01_refuge_014": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Each adult received the housing end date and the references necessary for any next arrangement. Nobody had been promised a mine job. The local hiring board named real openings and their requirements. Qiao would consider applications through the usual process, including applications from people who had given no statement. Lin kept only the receiving copies she was allowed to retain. Private accounts and identities stayed under their individual consent terms. She had helped five people arrive; she did not own their testimony, labor, future travel or reasons for leaving the port.",
+      "next": "mine_p01_refuge_015"
+    },
+    "mine_p01_refuge_015": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Qiao said the completed receiving role gave Lin a useful contact with the host liaison, while the workers remained independent people whose further participation required fresh agreement. Lin heard the prospect of future conversations without converting it into future evidence. The two adults who had declined statements could still greet her or avoid her. The three who had spoken could still refuse another interview. A journey ended more honestly when its participants had routes beyond the person who carried its last receipt.",
+      "next": "mine_p01_shared_001"
+    },
+    "mine_p01_survey_001": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The selected papers authorized an independent pilots' survey receiving role. The Outer Shoal Pilots' Association had lent an unpowered plumb, a level and ordinary comparison instruments for the specified route and quarantine observations. The tools arrived under the lender's condition list. They contained no fuel and supplied no qi. Ren checked the case against the loan record before accepting the permitted receiving appointment. Lin remained responsible for the stated use and return, not free to turn a borrowed level into the mine's general property.",
+      "next": "mine_p01_survey_002"
+    },
+    "mine_p01_survey_002": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The survey account held fifty coppers. Ten covered Lin's two receiving days; twenty-four covered the licensed shared carrier and seat; eight covered four arrival days of room and meals; four paid the authorized-copy fee; four reserved the kit-return dispatch. Ren kept the return line open for its actual receipt. Paying for a permitted copy did not buy all the pilots' records. Paying a carrier did not appoint Lin as that carrier's employer for later errands. The account's finite purposes left many possible tasks outside it.",
+      "next": "mine_p01_survey_003"
+    },
+    "mine_p01_survey_003": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The public findings extracts had been authorized under the pilots' terms. Lin showed the receiving clerk the permitted pages and kept the other source material closed. Their use concerned route and quarantine observations named in the agreement. They did not grant mine-inspection authority, a company laboratory bench, or ownership of an independent pilot's method. Qiao referred the extracts to the appropriate surface receiving lead. An instrument case could create an impressive first impression while proving very little about what its holder had actually been permitted to do.",
+      "next": "mine_p01_survey_004"
+    },
+    "mine_p01_survey_004": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "On Day 441, Lin and the receiving lead compared the kit's condition with its issue list. The plumb cord had a small ordinary fray already recorded at loan. Its permitted light use required the listed precaution; it would not be loaded as a mine line. The level's face was clear, and the comparison pieces remained in their numbered wrapping. Lin wrote the condition without upgrading any tool's rating. A road kit was useful for its stated observations and could be dangerous if its familiar shape encouraged a different task.",
+      "next": "mine_p01_survey_005"
+    },
+    "mine_p01_survey_005": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The lender's return date was Day 500. Qiao asked Lin to schedule the dispatch earlier so a routine road delay would not become an emergency. They provisionally named Day 496 for the return handover to the contracted carrier, subject to the actual receipt. The tools would stay within permitted surface use until then. A future appointment did not mean they had already returned. Lin copied the deadline into her own notes and left the loan record open for the condition comparison which would occur at dispatch.",
+      "next": "mine_p01_survey_006"
+    },
+    "mine_p01_survey_006": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The comparison case had a chipped wooden corner whose condition appeared on the lender's original issue sheet. Ren asked Lin to point to that entry before signing the arrival condition. The mark was not damage acquired on the road, and she would not ask the return carrier to accept responsibility for it. She felt relief at the clear source record. Good paperwork could protect a borrower without pretending the borrowed object was new, flawless or privately hers.",
+      "next": "mine_p01_survey_007"
+    },
+    "mine_p01_survey_007": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "A local survey assistant wanted to compare the public route extract with an older private map. The owner of that map was away, and no permission to open the sealed drawer had been delegated. They completed the receiving comparison using the authorized sources instead. The unexamined map remained a possible source for a later permitted task. Lin recorded its absence as a limit, not as evidence that its owner feared scrutiny. Waiting for consent could leave a question unanswered without answering it adversely.",
+      "next": "mine_p01_survey_008"
+    },
+    "mine_p01_survey_008": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "When the kit cupboard closed, the responsible holder gave Lin the ordinary contact route for requesting permitted issue. She would not need to search the yard for somebody who remembered a verbal promise. The form named purpose, place, interval and return condition. Lin read it once and kept no blank signed sheet. The pilots' tools had traveled a long way; their lender's authority had not become vaguer with distance. The next authorized use would still have to fit the loan actually made.",
+      "next": "mine_p01_survey_009"
+    },
+    "mine_p01_survey_009": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Day 442 was Lin's first appointed receiving workday. She compared the authorized public extracts with the surface route references the local lead supplied. A quarantine observation from the port concerned a different place and time; it could not be copied as the mine's present condition. Lin found one heading which could mislead a hurried reader into doing exactly that. The lead added the source location and date visibly. Their work made a bounded report easier to interpret without inventing a new finding about air or water at Vermilion Hollows.",
+      "next": "mine_p01_survey_010"
+    },
+    "mine_p01_survey_010": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "They used the ordinary level on a cleared surface reference under the lender's permitted survey scope. It showed the placement needed another check. The local lead repeated the comparison with the instrument correctly supported. Lin entered both the initial setup and the corrected result. She did not spend qi to steady the tool or make its reading brighter. The instrument's limitation was part of the finding. A borrowed tool could assist a careful comparison without becoming an examiner of her internal routes or the mountain's hidden workings.",
+      "next": "mine_p01_survey_011"
+    },
+    "mine_p01_survey_011": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "A worker asked to borrow the plumb for an underground repair. The shape suited his imagined task, but the lender had not authorized that use and its cord was not rated for the proposed load. Lin declined and directed him to the mine's tool issuer. He was irritated until he read the fray entry. The proper issuer supplied a suitable ordinary tool under a separate work record. No task was completed by treating Lin's obligation to return the road kit as an obstacle somebody could simply talk her out of honoring.",
+      "next": "mine_p01_survey_012"
+    },
+    "mine_p01_survey_012": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The four-copper copy fee covered the agreed public extract set. Ren paid it against the authorized receiver's receipt. Lin retained only that permitted set and her own nonconfidential observations. The underlying private source pages stayed with their owners. Qiao explained that later mine work might ask new questions requiring different sources. The road extract would not answer them by growing more comprehensive in Lin's pack. She could cite its actual limits or seek a new permission when the time came.",
+      "next": "mine_p01_survey_013"
+    },
+    "mine_p01_survey_013": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "On Day 443, Lin completed the second receiving workday and received ten coppers after Ren checked both performance lines. The twenty-four-copper transport charge, eight-copper arrival board and four-copper copy fee had separate receipts. Four coppers remained reserved for the kit-return dispatch. Forty-six of the fifty were spent, and the final four still had a purpose rather than becoming spare pay. Lin signed the open-return reminder. She would not describe the survey account as closed until the lender-owned instruments had their actual dispatch and condition receipt.",
+      "next": "mine_p01_survey_014"
+    },
+    "mine_p01_survey_014": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The kit stayed in the appointed secure cupboard with its issue and return records. Lin could obtain it only for the permitted surface observations through the responsible holder. The cupboard key did not become hers. Qiao said that the completed survey receiving role could support a later request for a bounded surface comparison, but each use still needed its own accepted scope. Lin left the cupboard without an instrument tucked into her sleeve. Knowing how to use an ordinary level had not made borrowing disappear.",
+      "next": "mine_p01_survey_015"
+    },
+    "mine_p01_survey_015": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "That evening she read the public extract at her lodging table. The described route was far below the red mountain, and its practical value lay in keeping that distance clear. She noted the return date again, then closed the papers before supper. A mine could tempt a traveler to think every tool had finally reached its true purpose there. The road kit already had a purpose, an owner and an end to its loan. Lin would need different permission for any different work.",
+      "next": "mine_p01_shared_001"
+    },
+    "mine_p01_shared_001": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "After the appointed receiving intervals, Lin returned to the outer yard with her own pack and the papers she was actually allowed to keep. The mine had not supplied every possible arrival role. Whatever she had completed remained limited by its particular agreement. Qiao offered a fresh visitor appointment for the ordinary clearance on Day 444. Its rules applied independently of cargo, housing or survey references. Lin accepted the appointment without assuming that a previous useful turn had already passed the gate for her.",
+      "next": "mine_p01_shared_002"
+    },
+    "mine_p01_shared_002": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The outer gate's keeper wrote her name on the visitor sheet and asked how it should be pronounced. Lin said it twice. A miner waiting nearby recognized the surname from an old kiln-worker account and asked whether she knew a man he remembered. She did not. The keeper completed the name without turning a resemblance into a connection. Lin felt briefly lonely in the busy yard. Being known in one place did not mean she would enter the next surrounded by the same remembered people.",
+      "next": "mine_p01_shared_003"
+    },
+    "mine_p01_shared_003": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "She walked the lodging lane before dark. The first turning led to a wash yard, the second to the rooms Ren had described. Somebody had painted a fish above both doors, which explained his warning. At the wash yard a woman was rinsing a baby's cloth beside a miner's work apron. Lin asked for directions and received them without a story about the mountain. The ordinary shape of another household's evening helped her stop carrying the mine's name as if it required every person nearby to speak mysteriously.",
+      "next": "mine_p01_shared_004"
+    },
+    "mine_p01_shared_004": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_worker_lodging",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "On Day 444, Han Bo offered six days of room and the stated ordinary meals for four coppers, bridging the ended arrival arrangement to the next work decision. Lin inspected the room and stove, accepted the defined six night interval, and paid from money already received in her own purse. The six days covered Days 444 through 449 only. Future weekly board would need a separate agreement. Han wrote the next appointment beside her room number because travelers often remembered routes better than hours.",
+      "next": "mine_p01_shared_005"
+    },
+    "mine_p01_shared_005": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_worker_lodging",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Her room faced a narrow vegetable patch which survived on water caught from the roof. A few red grains lay on the sill inside the closed window. Lin wiped them away before setting down her notes. The dust came from a road and a workplace, not evidence that the seam had followed her into sleep. She hung her damp outer layer where it would dry without dripping on the bedding. For the first time that day, no clerk needed an answer from her.",
+      "next": "mine_p01_shared_006"
+    },
+    "mine_p01_shared_006": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_worker_lodging",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Below the window, two children argued about which pebble contained the most valuable ore. Their grandmother told them neither pebble belonged on the cooking board. They protested that the mine took rocks home all the time. She said the mine also had buckets for dirt. Lin laughed quietly and then felt hungry. A valuable material could still ruin supper if placed where food belonged. The thought was too ordinary to enter a cultivation manual and useful enough to keep her from spreading her equipment across the table.",
+      "next": "mine_p01_shared_007"
+    },
+    "mine_p01_shared_007": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_worker_lodging",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "At supper, Han served cabbage, beans and a square of steamed bread. The mine's workers ate at several tables, with visitors placed where there was room rather than where their titles looked impressive. Lin sat beside a woman mending a shoe while her soup cooled. The woman asked if she expected a long stay. Lin said she would decide after understanding the work and the training available. The woman said those were different questions. Lin agreed, though she had hoped one answer might conveniently pay for the other.",
+      "next": "mine_p01_shared_008"
+    },
+    "mine_p01_shared_008": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_worker_lodging",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The man introduced himself as Lei An, a lamp-store assistant. He had seen cultivators stay a week, discover that practice still required money, and leave furious with the mine. Lin asked whether any had done useful work before leaving. Lei named two and then described the shelf one had repaired badly. The shelf had needed ordinary carpentry afterward. Lin listened without volunteering to improve it. Arrival did not obligate her to claim every unsolved task, and a tale about somebody else's incompetence was not an invitation to repeat it.",
+      "next": "mine_p01_shared_009"
+    },
+    "mine_p01_shared_009": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_worker_lodging",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Lei said the ticking people called the living seam grew louder after rain, though the wildlife observer had not settled its cause. The old miners had several explanations. His own father called it the mountain eating a stone meal. He smiled when he said that, and Lin asked whether she meant it literally. Lei shook his head. A family image did not become a field finding simply because a cultivator listened. Lin liked the phrase and wrote no diagnosis from it.",
+      "next": "mine_p01_shared_010"
+    },
+    "mine_p01_shared_010": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_worker_lodging",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "A man at the neighboring table heard the word living and spoke of a worker who had died years earlier. His name was Lu Sen. The man believed one recorded echo held a fragment of Lu's last ordinary song. Lei asked him not to play the fragment in the lodging room. The family had set conditions on its use. Lin waited while they agreed to discuss it at the proper source appointment instead. A dead worker's memory could matter without being available as entertainment for every new guest.",
+      "next": "mine_p01_shared_011"
+    },
+    "mine_p01_shared_011": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_worker_lodging",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Lin had carried and heard enough echoes to distrust the quick sentence that made one into a surviving person. A copied sound could preserve an offered memory or a technical clue. It could not repay a family's loss by becoming the dead speaker. She said only that she would ask who held the recording and what permission governed it. The man seemed disappointed, then admitted he had not checked the latest family terms. Lei passed him the greens. The conversation returned to food without requiring a miracle.",
+      "next": "mine_p01_shared_012"
+    },
+    "mine_p01_shared_012": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "After supper Lin took a short walk on the cleared surface road. The mountain's upper outline vanished into low cloud. Lamps in the lodging windows made a second smaller settlement beneath it. She could hear ordinary footsteps, a bucket set down and somebody practicing a stringed instrument badly. The mine employed people whose evenings had other subjects. Lin wished she could hold that understanding steadily when the strange sounds below began to demand her attention again.",
+      "next": "mine_p01_shared_013"
+    },
+    "mine_p01_shared_013": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "At the public notice shelter she found the next clearance appointment, the work-offer process and the clinic directions. The clinic named Chen Ai and her ordinary qualifications. Emergency assessment did not depend on a worker agreeing to an interview. Lin read that line carefully and copied the location. She had no mine injury to report. Knowing where care existed before an accident was not an admission that she planned one. She wanted fewer important questions left to the moment when fear made every answer harder to hear.",
+      "next": "mine_p01_shared_014"
+    },
+    "mine_p01_shared_014": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Qiao was leaving the yard when Lin returned. The forewoman had a child walking beside her and a basket hanging from the other hand. She greeted Lin, confirmed the Day 444 appointment and declined to discuss possible work that night. The child wanted to know why the visitor had a dull practice sword. Lin said a plain blade helped her train alignment. He asked if it could cut the mountain. She said no. He considered that disappointing answer and asked whether it could cut bread.",
+      "next": "mine_p01_shared_015"
+    },
+    "mine_p01_shared_015": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Lin said the kitchen's clean knife did that better. The child found the answer funny enough to repeat to Qiao. The forewoman smiled and then asked him to carry the light bundle they had agreed he could manage. She did not hand him the heavy basket because he was enthusiastic. Lin watched them take the lodging turn. A mine forewoman's child remained a child. Neither the mountain's name nor his mother's keys increased what his ordinary arms should be asked to bear.",
+      "next": "mine_p01_shared_016"
+    },
+    "mine_p01_shared_016": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_worker_lodging",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "In her room, Lin arranged tomorrow's clothing and checked the ordinary condition of her conducting cuff. She did not activate it. A journey's maintenance check was not permission to test a new internal bridge after a tiring arrival. Her sixth stage remained the last stage she had actually demonstrated. The governing and conception vessels still required a taught, bounded curriculum and independent assessment. She could look for that curriculum after understanding where she would work, sleep and pay for recovery.",
+      "next": "mine_p01_shared_017"
+    },
+    "mine_p01_shared_017": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_worker_lodging",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "She reviewed the incoming agreement one final time before closing the papers. Completed work stayed completed; an open return obligation stayed open; other people's ownership and consent stayed theirs. Missing records could not be repaired by imagining whichever role offered the most useful access. Lin kept her own notes distinct from retained permitted copies. When she turned down the lamp, the room contained one traveler and the belongings she could actually account for. The mine would ask its next questions on a recovered morning.",
+      "next": "mine_p01_shared_018"
+    },
+    "mine_p01_shared_018": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_worker_lodging",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Rain began after midnight. Lin woke long enough to hear it touch the roof and then the bucket somebody had placed in the hall. A softer ticking seemed to answer from the direction of the mountain, or perhaps from a shutter moving in the wind. She did not rise to follow it. The outer gate was closed, the next visit had a time, and sleep still belonged to the preparation for ordinary work. Whatever the seam might contain would not become clearer because she arrived exhausted at an unauthorized door.",
+      "next": "mine_p02_001"
+    }
+  }
+}

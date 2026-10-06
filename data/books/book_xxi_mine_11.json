@@ -1,0 +1,796 @@
+{
+  "chapters": {},
+  "characters": {},
+  "nodes": {
+    "mine_p11_001": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Day 548 brought a dry morning and a new inquiry notice. Fan Luwei would lead a limited inspection of the accessible gallery under its current clearance, while separate permitted records were checked at the covered table. Qiao asked Lin whether she wanted one of the assistant tasks substituted for part of her next paid half day. Refusing would leave the receiving job unchanged. Lin would be paid for four actual hours either way, with no cultivation test or personal technique material inside the offer. The different positions would supply different evidence, responsibilities, and risks.",
+      "next": "mine_p11_002"
+    },
+    "mine_p11_002": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The structural inquiry followed reports of uneven timber loading and a changed ordinary drainage condition. It did not begin because the moths had prophesied a collapse. Fan held the actual inspection sources and would determine where an observer could stand. Ou Sheng would give ventilation information within his own role. Ma Lian would identify the maintained stair route. Jia's completed surface work remained relevant to the temporary outside arrangement, without clearing any gallery structure. Lin watched the responsibilities separate and remembered Cai's stone: a checked bank did not answer every other hazard in a workplace.",
+      "next": "mine_p11_003"
+    },
+    "mine_p11_003": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Chen Rui attended to explain which company extracts could be made available. Luo Bin attended for the specific worker concerns he had authority to carry. Neither appointment opened every source or controlled the inspection clearance. Lin's earlier meeting arrangement determined which permitted evidence she brought and whose bounded questions she had undertaken. Qiao asked her to finish that arrangement's followup before considering a new task. The inquiry invitation would require fresh consent. Nobody wanted an old half day meeting to become an unspoken permanent post because it happened to be useful again.",
+      "next": "mine_p11_004"
+    },
+    "mine_p11_004": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Fan marked an accessible inspection limit on the ground plan. A closed passage beyond it would remain closed, even if a sound seemed worth following. Lin could observe permitted surfaces beside him; she would not independently test support, operate ventilation equipment, or supply qi to a structure. At the record table she could compare the authorized copies without entering the gallery. At receiving she could continue the accepted count and obtain only the public inquiry disposition later. The choice would change where her attention was spent, rather than merely giving the same experience a different title.",
+      "next": "mine_p11_005"
+    },
+    "mine_p11_005": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Lin asked whether the inspection was connected to the future company method comparison. Qiao said its ordinary structural findings might affect that proposal's eventual site, but this was not a cultivation trial. Private body records had no place in the gallery inquiry. Fan looked relieved that someone had asked before another draft combined the two. Chen corrected the summary to say possible site dependency rather than candidate preparation. Luo checked the worker warning question still had its own recipient. The room grew slightly slower and much less likely to confuse a learner with a structural instrument.",
+      "next": "mine_p11_006"
+    },
+    "mine_p11_006": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Ma showed the public stop instruction for the observer task. At the first new ordinary condition outside Fan's clearance, the group would stop, follow the assigned exit, and let the qualified people reassess. An observer would not chase an echo or remain behind to finish a line. Lin knew the words were easy to agree with in a bright covered office. The gallery would make them feel different. She put the stopping instruction ahead of the invitation in her notes. The physical exit belonged to the task, not to a story about confidence.",
+      "next": "mine_client_followup"
+    },
+    "mine_client_followup": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Before the new assignment could begin, Lin presented the completed followup of her earlier client meeting choice. The worker questions, permitted company extracts, and personal employment gaps had remained different sources with different authority. The public reply had answered practical safety points without merging private material. Luo and Chen could confirm their own completed arrangements; neither could sign for the other. Lin would bring forward only the copy she was permitted to keep. The role's immediate duty would then close, leaving a record of what she had actually seen rather than an invitation kept alive forever.",
+      "next": "mine_p11_middle_001",
+      "routes": [
+        {
+          "decision": "mine_client_choice",
+          "selected": "mine_client_worker",
+          "next": "mine_p11_worker_001"
+        },
+        {
+          "decision": "mine_client_choice",
+          "selected": "mine_client_company",
+          "next": "mine_p11_company_001"
+        },
+        {
+          "decision": "mine_client_choice",
+          "selected": "mine_client_own",
+          "next": "mine_p11_own_001"
+        }
+      ]
+    },
+    "mine_p11_worker_001": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Lin brought Luo's authorized worker question copy and no company extract she had never reviewed. Qiao's reply now named warnings before activity, a clear exit, and an ordinary response assigned to people with the right duties. Ma accepted the timetable answer after one correction to its wording. Ou's ventilation question remained separate from any human route conclusion. Deng's private body history stayed outside the public page. Lin had performed the bounded helper task and returned the source working notes to their chosen custody. Luo thanked her as an assistant to particular questions, not as a permanent spokesman.",
+      "next": "mine_p11_worker_002"
+    },
+    "mine_p11_worker_002": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Sui asked whether the workers had now withdrawn every concern. Lin said the public reply answered the stated questions; it did not purchase silence about future observations. Luo agreed and left a proper contact for new consenting sources. The old session's private anecdotes did not become material the company could request through Lin afterward. She watched Chen receive the permitted public page rather than the source notes. The earlier choice had made her responsible for following these exact questions to a real reply. That responsibility had an end without making the workers' lives or interests disappear.",
+      "next": "mine_p11_worker_003"
+    },
+    "mine_p11_worker_003": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Ma told Lin she trusted the clear followup more than the original warm invitation. A person who could say the job was finished would be less likely to speak over workers later in its name. Sui remained cool when Lin approached the company table, but accepted that she could still handle an receiving count. Neither relationship snapped back to a neutral starting point. The record of participation would stay part of their history. It would no longer grant Lin an active representative role after this inquiry briefing. Any new consent would have to be asked for openly.",
+      "next": "mine_p11_worker_004"
+    },
+    "mine_p11_worker_004": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Luo offered to hold the permitted completed question page in the worker copy cabinet. Lin kept only the authorized personal reference and its disposition, with no private source material at Han's room. The page could be cited later as an earlier worker question, not proof she had witnessed the actual gallery condition. Fan acknowledged the exit concern and retained structural clearance in his record. Lin found the ending of the role unexpectedly relieving. She could care about Deng and Ma without carrying an appointment that expanded every time someone needed an advocate.",
+      "next": "mine_p11_worker_005"
+    },
+    "mine_p11_worker_005": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The worker followup closed before Qiao presented the new assistant tasks. Lin had acquired consented practical questions, spent a free study interval, and changed two work relationships. Those consequences remained true. None appointed her to the gallery automatically or supplied the company evidence she lacked. Luo would continue his own appointed work. Lin could now accept or refuse an inspection assignment under its specific scope, as an ordinary assistant with the same six pair qualification. She looked at the accessible limit on Fan's plan and asked what she would actually have to do there.",
+      "next": "mine_p11_middle_001"
+    },
+    "mine_p11_company_001": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Lin brought the permitted company factual copy she had reviewed, with the separate approval boxes and recovery dependency still marked. Chen confirmed those corrections had reached the proposal file. Qiao would answer practical safety questions through the public contact rather than calling the company's clean draft a universal reply. Sui acknowledged the supply return, and Fan retained his structural source material. Lin had not acquired the private worker notes she declined to hear. The bounded factual meeting had produced useful planning corrections and a record of her questions inside a client held arrangement.",
+      "next": "mine_p11_company_002"
+    },
+    "mine_p11_company_002": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Ma asked whether the company copy contained Deng's private concern. It did not, and Lin would not infer it from the public restricted duty question. Luo supplied the permitted public page directly under his own appointment. Chen accepted it without asking Lin to bridge the private rooms for him. The earlier company choice had warmed one supplier relationship and cooled some worker conversations. Those effects did not vanish when the factual review ended. Lin could name them without defending her decision as the only sensible one. Different evidence had come with different people entitled to expect her help.",
+      "next": "mine_p11_company_003"
+    },
+    "mine_p11_company_003": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Chen closed the factual review note after Lin checked its disposition. He remained the company's advocate for the proposal, but no longer had an open invitation to demand her attention under that completed half day meeting. Private human technique rights stayed undecided. A later paid method comparison, if accepted, would need terms and consent. Lin appreciated him stating the end because his conversational ease could make a finished arrangement feel pleasantly permanent. Sui asked one last supply question, and she directed it to the appropriate retained copy rather than reopening the whole role.",
+      "next": "mine_p11_company_004"
+    },
+    "mine_p11_company_004": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The original extracts stayed with their owners. Lin retained only the permitted working summary and its public planning corrections, protected from casual reading at the receiving table. Fan acknowledged that she had seen some draft dependencies; he did not treat that knowledge as clearance to enter a closed passage. Luo would carry worker sources separately. Lin saw the advantage and limit of her earlier access in the same morning. She understood more of the company plan than a public audience did, while remaining outside private preparation on the worker side.",
+      "next": "mine_p11_company_005"
+    },
+    "mine_p11_company_005": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The company factual arrangement closed before Qiao described the new assistant tasks. Lin had spent a free half day correcting a proposal, gained supply evidence, and changed relationships. Those consequences remained in the people who remembered them. They did not appoint her to a gallery inquiry, make Chen her independent counsel, or provide a personal bench. A fresh task could be accepted with fresh scope. Lin looked at Fan's accessible inspection line and asked what an observer would record, rather than relying on the attractive future comparison to explain why she belonged there.",
+      "next": "mine_p11_middle_001"
+    },
+    "mine_p11_own_001": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Lin brought only the permitted personal employment draft and the public worker questions. Chen's client still owed answers about possible recovery delays, exclusive hours, and defined confidential copies if a future post were ever offered. She had not reviewed protected supply extracts or assisted the private worker session. Qiao confirmed the ordinary assistant job remained separate. The personal hour had given Lin questions about her own future work and kept a free preparation morning. It had not made her a source for everything discussed in the rooms she declined.",
+      "next": "mine_p11_own_002"
+    },
+    "mine_p11_own_002": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Luo thanked her for keeping the missing source access visible. He would answer worker concerns through his actual appointment without claiming she had helped prepare them. Sui likewise kept supply planning questions with the company factual review. Lin felt the distance of those decisions again, especially when a conversation ended before she heard its details. She had chosen less involvement and more control of time. Those were real benefits, and they came with a narrower evidence position. Friendship could give her a conversation; it could not restore private invitations she had refused.",
+      "next": "mine_p11_own_003"
+    },
+    "mine_p11_own_003": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Chen recorded that the personal explanatory hour was completed while the future offer remained undecided. He could send an revised draft through the named contact later, but not treat the finished conversation as ongoing representation of Lin. His retainer stayed with the company. Lin returned the borrowed explanation sheet and kept only the copy she was permitted to own. The private body notebook had never entered the arrangement. The ending was quiet and precise, which suited her better than a broad promise to call whenever anything interesting happened at the mine.",
+      "next": "mine_p11_own_004"
+    },
+    "mine_p11_own_004": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "At the public table she read the completed safety reply without filling its gaps from imagined private accounts. Fan had the structural plan, Luo had his sources, and the company held its extracts. Lin's own questions concerned the future employment draft and present assistant task. Ma said she could ask about an exit like any worker even without a representative appointment. That opening mattered. Declining a role did not make her powerless; it made the authority she did have easier to name. She would not borrow a larger one merely because the new inquiry sounded important.",
+      "next": "mine_p11_own_005"
+    },
+    "mine_p11_own_005": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The personal employment arrangement closed before Qiao offered the new assistant tasks. Lin had kept time, privacy, and a narrow kind of information, while losing specific evidence and invitations. The consequences would remain in the people and records involved. They did not silently grant or prohibit a fresh gallery role. Fan would assess its actual clearance, and Lin would decide whether to accept the bounded work. She asked the same practical question any assistant could ask: where would she stand, what would she record, and what would happen if the assigned condition changed?",
+      "next": "mine_p11_middle_001"
+    },
+    "mine_p11_middle_001": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Qiao offered two hours of the next four hour paid assistant shift for the chosen inquiry task, followed by two hours of ordinary receiving work. The full half day would still pay four coppers after completion. An assistant who declined inquiry would perform the four receiving hours instead. There was no extra fee or double paid attendance. The gallery and record tasks were genuine substitutions with new specific scope, not compulsory demonstrations of loyalty. Lin checked the times against her practice appointment and found no overlap. The uncertainty lay in the task she wanted, not in a impossible timetable.",
+      "next": "mine_p11_middle_002"
+    },
+    "mine_p11_middle_002": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "For the accessible gallery walk, Fan would accompany Lin and retain every structural judgment. Ma would show the maintained stair and Ou the ventilation observations permitted for this inspection. A company lamp and ordinary writing board would be issued for the two hour task and returned afterward. Lin's private method book would stay at the lodging. She would note visible conditions and statements attributed to their qualified source, stop at the marked limit, and leave on instruction. No part of the job asked her to support a beam with qi or chase a voice deeper than the clearance.",
+      "next": "mine_p11_middle_003"
+    },
+    "mine_p11_middle_003": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "For the record comparison, Ren would provide named permitted copies at the covered table. Lin would check dates, ordinary condition references, and the correspondence between inspection entries and public work notices. Raw source pages would remain in their assigned custody. She could identify an inconsistency for the proper source to answer, but could not create a missing observation from a neat sequence. The records included old ordinary ventilation timings and timber disposition, not worker private histories or her own cultivation notebook. The task would leave her outside the gallery while giving her a more detailed documentary view.",
+      "next": "mine_p11_middle_004"
+    },
+    "mine_p11_middle_004": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Declining inquiry would leave her at the receiving rack for the accepted paid half day. She would continue matching actual sound items and permitted references, with the public inquiry disposition available later. She would have no inspection observations or protected comparison copy from a role she did not perform. The choice would preserve familiar work and avoid the gallery's permitted but nonzero ordinary exposure. It would also put the inquiry evidence farther away. Qiao stated the option without making it sound like cowardice or a test that only an ambitious learner ought to pass.",
+      "next": "mine_p11_middle_005"
+    },
+    "mine_p11_middle_005": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Fan asked Lin to inspect the borrowed lamp before deciding whether she wanted the gallery task. Its housing and fastening were sound equipment, maintained by the assigned store staff. The light would not see a hidden mind in the mineral seam. Ou said the gallery could reflect a speaking voice from an unexpected direction, especially near the closed side passage. If they heard it, they would identify source and geometry within their task rather than follow it as a new witness. Lin remembered Shen Tao's living song returning from the yard wall and found the warning useful.",
+      "next": "mine_p11_middle_006"
+    },
+    "mine_p11_middle_006": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "A worker behind the public bench muttered that a six pair learner ought to be less nervous about a cleared gallery. Lin said her qualification concerned bounded human tasks, not immunity from falling timber. Qiao supported the distinction, while Fan added that ordinary clearance remained conditional on conditions. A safe enough assigned walk was not an invulnerability certificate. The worker apologized for the remark without withdrawing his hope that practitioners could help at difficult jobs. Lin shared the hope. It would have to produce specific methods rather than an expectation that she could bear whatever the mine needed.",
+      "next": "mine_p11_middle_007"
+    },
+    "mine_p11_middle_007": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Mu asked whether the record task might be less honorable than seeing the actual wall. Ren answered that a mistaken date could send the next crew to a place under the wrong warning. Lin knew that from receiving work. The gallery would provide direct observations inside its limited scope; the records would provide source comparisons; receiving would keep ordinary objects moving accurately. Neither task needed an invented ranking of brave people. Each had work and a practical cost. Lin could choose the evidence and exposure she wanted while accepting that she would not acquire the other position's experience.",
+      "next": "mine_inquiry_choice"
+    },
+    "mine_inquiry_choice": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Before the roster closed, Lin reviewed three arrangements. The accompanied gallery observation would put her beside a cleared wall and its ordinary sounds. The permitted record comparison would put her beside source copies and timing problems. Receiving would keep her outside inquiry, paid for familiar work and dependent on its public disposition. The old client arrangement had ended. This fresh decision required a lamp to return or copies to protect if she accepted inquiry. Qiao waited for an answer rather than a performance of confidence.",
+      "choices": [
+        {
+          "text": "Take the accompanied, cleared gallery observation task.",
+          "next": "mine_inquiry_gallery"
+        },
+        {
+          "text": "Compare the named permitted inquiry records outside the gallery.",
+          "next": "mine_inquiry_records"
+        },
+        {
+          "text": "Decline inquiry and perform the ordinary receiving shift.",
+          "next": "mine_inquiry_decline"
+        }
+      ]
+    },
+    "mine_inquiry_gallery": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Lin accepted the accompanied gallery observation for the first two hours of her Day 549 paid half day. Fan checked the current accessible clearance before leading her down the maintained stair with Ma and Ou. Lin carried the issued ordinary lamp and board, leaving her private body notebook at Han's room. The wall smelled of cool dust and damp timber. She wrote the actual condition she could observe, then stopped while Fan examined a support reference. Being physically present supplied something the covered office could not: the scale of the loaded roof above an narrow route.",
+      "next": "mine_p11_gallery_002"
+    },
+    "mine_p11_gallery_002": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Ma showed where the tread met an older surface. Its sound replacement did not certify the whole gallery. Ou described the ventilation interval he actually controlled, naming the pause and restart rather than predicting a human method response. Lin attributed both statements in the work notes. She heard a voice behind her after Ou spoke ahead. He pointed out the reflected return from the side wall, and the source remained his voice. Lu Sen did not answer from the closed passage. The remembered song helped Lin resist the urge to supply a dead speaker for a sound.",
+      "next": "mine_p11_gallery_003"
+    },
+    "mine_p11_gallery_003": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "At the marked inspection limit Fan examined a timber connection and asked Lin to hold the lamp in the assigned position without standing beneath the area he had isolated. She did so with ordinary hands. The connection required a further ordinary followup outside this walk's scope. Fan kept the closed portion closed and marked the question for qualified assessment. Lin could note that action, not the hidden condition beyond it. She did not step deeper for a better view. The inspection had given her direct evidence and a precise place where direct evidence ended.",
+      "next": "mine_p11_gallery_004"
+    },
+    "mine_p11_gallery_004": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "During the return a cart noise reached them through the passage and sounded nearer than its source. Lin stopped speaking until Ma confirmed the assigned path remained ordinary. Fan had not changed the clearance, but he checked the observed condition before resuming. Nobody treated the pause as evidence of a prophetic seam. Lin wrote the source uncertainty and the actual continuation. Her own nervousness did not prove structural danger, and her relief did not prove its absence. The qualified inquiry retained responsibility while she supplied an observer's honest account of where she had stood and what she heard.",
+      "next": "mine_p11_gallery_005"
+    },
+    "mine_p11_gallery_005": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The group left within the assigned two hours. Lin returned the company lamp and writing board with their condition checked, gave the permitted work notes to their assigned custody, and kept only the authorized reference to her own observation. The borrowed items did not remain hers for private practice. She performed the remaining two receiving hours and received the four copper half day wage after the work closed. No extra gallery bonus or cultivation advance appeared. The direct walk had cost ordinary attention and exposure and had given her evidence a person outside would not possess.",
+      "next": "mine_p11_gallery_006"
+    },
+    "mine_p11_gallery_006": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_worker_lodging",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "At supper she described only the public observations and the identified voice reflection. Mu listened without asking for protected structural source material. Lin could now picture the stair, wall, and marked limit when a later warning named them. She could not picture the closed space as if she had inspected it. The role had made the gallery's vulnerability more concrete and left her private method outside it. When she slept, the reflected voice returned briefly in memory. She identified its living source again before letting it become a dream about somebody who had died.",
+      "next": "mine_p11_after_001"
+    },
+    "mine_inquiry_records": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Lin accepted the permitted record comparison for the first two hours of her Day 549 paid half day. Ren set the named copies on the covered table and kept raw source pages in their assigned cabinet. She remained outside the gallery. The task compared dates, ventilation timing references, timber disposition, and the public work notices that actually corresponded to them. Lin used ordinary reading and a clean numbered question list. Her private body notebook stayed at Han's room. The documentary access belonged to this defined job, not to curiosity given a more respectable name.",
+      "next": "mine_p11_records_002"
+    },
+    "mine_p11_records_002": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The first mismatch concerned an ordinary ventilation pause copied onto the wrong date. Ou checked the source through the permitted contact and supplied the correction. Lin did not repair it from what a plausible timetable ought to contain. The second question concerned a timber bundle whose received quantity had been copied as structural acceptance. Sui and Fan supplied their separate dispositions, including the rejected damp pieces. These were errors with practical consequences, and neither required accusing every clerk of deception. Lin recorded the corrected source references so a later reader could follow how the comparison changed.",
+      "next": "mine_p11_records_003"
+    },
+    "mine_p11_records_003": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Ren showed her which records had an authorized duplicate outside the gallery store and which old work notes existed only in their protected original custody. Lin wanted to copy everything while she had the table open. The permission and two hour task did not allow that. They identified the source dependency as an actual inquiry concern for the owner to decide. A vulnerable source could be recognized without its contents becoming Lin's property. She left the question on the list and retained no hidden private copy that might later rescue every lost detail conveniently.",
+      "next": "mine_p11_records_004"
+    },
+    "mine_p11_records_004": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "From the table Lin could hear voices near the gallery entrance but not inspect the wall. When someone said a reflected voice had sounded like Lu Sen, she asked who had actually spoken and where. Ou supplied the living source in the public disposition after his walk. Lin recorded that reported answer as a report. She had not witnessed the echo inside. The documentary role gave her a more exact timing history and less direct sensation of the place. Those differences mattered, and she did not close them with imagination just because the familiar name was moving.",
+      "next": "mine_p11_records_005"
+    },
+    "mine_p11_records_005": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The comparison closed within its assigned two hours. Lin returned the source copies to their chosen custody, kept only the permitted question reference and disposition, then completed the remaining two receiving hours. Her actual four hour half day paid four coppers, with no extra record wage or cultivation credit. Ren thanked her for preserving the unresolved single source question rather than quietly making unauthorized duplicates. The original material remained vulnerable in a way the owners now had to address. Lin had made that risk visible; she had not already solved it by owning everything.",
+      "next": "mine_p11_records_006"
+    },
+    "mine_p11_records_006": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_worker_lodging",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "At supper she explained the public timing and disposition corrections without opening protected copies for friends. Mu said the work sounded familiar from screen repairs: two apparently identical fastenings could belong to different failures. Lin could now follow the inquiry's documentary chain more precisely than someone who had taken only the gallery walk. She could not claim the wall's direct sensations or layout beyond its permitted plan. The record role had supplied one kind of evidence and kept another out of reach. Her private method stayed separate, and her notebook held no stolen page waiting to become a miraculous answer.",
+      "next": "mine_p11_after_001"
+    },
+    "mine_inquiry_decline": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Lin declined the inquiry substitutions and kept the full four hour receiving task on Day 549. Qiao accepted the answer without changing the posted wage or giving her a lesser work title. Fan's inspection and Ren's record comparison would proceed with other assigned people. Lin would receive the public disposition later, without direct gallery observations or a protected comparison copy. She had chosen familiar ordinary work and less exposure. The choice did not make her indifferent to the mine. It made the actual contribution she could claim narrower and the boundaries around her time more dependable.",
+      "next": "mine_p11_decline_002"
+    },
+    "mine_p11_decline_002": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "At the receiving rack she matched sound lamp units and their condition references while Lei carried repairs to the store. A label near the bottom had a smudged digit, and she sent it back for a checked replacement rather than reading what the sequence suggested. The work took patience she might have spent inside the inquiry. It kept a particular sound lamp from being entered under the wrong reference. She did not receive gallery credit for it, and the receiving count did not open source copies elsewhere. Ordinary work was useful on its own terms.",
+      "next": "mine_p11_decline_003"
+    },
+    "mine_p11_decline_003": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Ma passed the yard after the inspection and said the public disposition would name a timber followup and the limits of current clearance. Lin did not ask for a private retelling of protected structural sources. She could ask where the public warning would be posted and which route remained available for ordinary workers. Ma answered those practical questions directly. The conversation preserved a working relationship without undoing the declined observer role. Lin knew less about the gallery's direct conditions than a participant would, and she could still use its public stop instruction responsibly.",
+      "next": "mine_p11_decline_004"
+    },
+    "mine_p11_decline_004": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Ren came to check a receiving reference and mentioned that the record comparison had corrected a date. Lin treated that as his report until the public disposition arrived. She had not acquired the permitted source list by working at a different rack. When a carter asked whether Lu Sen's voice had been heard inside, she said she had no direct observation and would not supply a dead speaker from rumor. The public note later identified an ordinary living voice reflection. Her lack of access did not require credulity. It required stating what she could and could not know.",
+      "next": "mine_p11_decline_005"
+    },
+    "mine_p11_decline_005": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The full receiving half day finished after four actual hours and paid the agreed four coppers. Lin had no issued gallery lamp or protected comparison copies to return because neither had entered her task. She kept the clean completed receiving reference under its ordinary work custody and took only the permitted personal note home. The inquiry's public disposition remained available to her as to other workers. Refusal had avoided a new role, preserved familiar authority, and left specific evidence with other people. It had not preserved the same experience secretly for a smaller amount of effort.",
+      "next": "mine_p11_decline_006"
+    },
+    "mine_p11_decline_006": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_worker_lodging",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "At supper she listened to the permitted public inquiry summary and asked no friend to violate a source scope on her behalf. Mu said she admired a refusal that did not turn into a complaint about missing details afterward. Lin admitted the details tempted her. She used the free attention for the assigned empty preparation rehearsal, sending no qi through an unfamiliar bridge. Her route remained incomplete. The choice had placed her at ordinary receiving work rather than inside inquiry, and the next event would have to be understood from that actual position instead of an invented memory.",
+      "next": "mine_p11_after_001"
+    },
+    "mine_p11_after_001": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "The inquiry's public disposition kept the accessible clearance limited and named further ordinary timber and drainage assessment. It corrected the ventilation date and distinguished received material from structural acceptance. Some protected old notes still had only one authorized source. No public line claimed that every part of the mine had become safe forever. Lin read it from the evidence position she actually held. A shared warning could guide all workers while leaving their direct observations and documentary access different. The choice had changed what she could explain firsthand, not the existence of a common ordinary duty to stop.",
+      "next": "mine_p11_after_002"
+    },
+    "mine_p11_after_002": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Qiao put the followup work into the next ordinary roster rather than promising it would be finished before a candidate's ambitions grew impatient. Fan needed appropriate staff and materials to examine the closed portion. Sui needed actual return and replacement references for what he supplied. Chen's possible method site would wait on the real structural disposition, not the other way around. Lin's present assistant shifts continued. The proposed comparison still offered no personal income or guaranteed date. She felt the temptation to regard every delay as stealing from her future and wrote that temptation beside its actual cause.",
+      "next": "mine_p11_after_003"
+    },
+    "mine_p11_after_003": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_practice_court",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "At the practice court Wei reviewed Lin's current condition after ordinary work and sleep. They used only the taught preparation portion and unchanged bounded input ceiling. No inspection task supplied a human qualification by association. Lin had to identify what she observed inside her own assigned route, stop at its current limit, and release completely. The blank continuation stayed visible. Wei's calm no longer felt like a promise that failure could never happen. It felt like an agreement to describe what happened carefully when a planned part stopped being reliable.",
+      "next": "mine_p11_after_004",
+      "cast": [
+        "lin_yue",
+        "mine_wei_yan"
+      ]
+    },
+    "mine_p11_after_004": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_worker_lodging",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Mu asked Lin whether the inquiry had made the company post more attractive. Lin said useful work looked clearer and so did the conditions it depended on. A sound bench needed more than a beautiful method, and private findings might serve several interests. Mu said any later offer should still let her decline. Lin answered that she intended to ask the question again when actual terms existed. The earlier meetings had closed; the inquiry task had its own end. None ought to become a rope tied around a future decision simply because she had once been helpful.",
+      "next": "mine_p11_after_005"
+    },
+    "mine_p11_after_005": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_worker_lodging",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "On Day 551 the ordinary assistant week closed with its two paid half days and the four copper lodging and meal payment due as usual. Lin's inquiry substitution, if accepted, was inside one performed half day rather than a second wage. The separate workshop twelve coppers remained unused with Guan, reserved for the proposed reading session and refundable if cancelled. The curriculum's unused qualifying appointments remained finite. Lin wanted these ordinary facts settled while healthy, because she had seen how injury and lost work made unclear accounts harder to untangle. Han gave her the paid week's room key without ceremony.",
+      "next": "mine_p11_after_006"
+    },
+    "mine_p11_after_006": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Lei inspected the lamp store fastening before the evening shift. Lin watched from the doorway while he rejected one cracked housing and recorded its specific disposition. A sound object could become unsound between two checks, and that fact did not make checking pointless. It made the later condition belong to a new observation. She thought of the gallery clearance and the wet bank. The mine could maintain useful ordinary routines without pretending they stopped time. What mattered was whether people could report a change before loyalty, money, or embarrassment taught them to look away.",
+      "next": "mine_p11_after_007"
+    },
+    "mine_p11_after_007": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_worker_lodging",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Luo Ping stopped by Han's door with thanks from Shen Tao for the permitted song copy. The private verse had not appeared on a public board, and the work refrain carried the source she authorized. A younger worker had tried to call an ordinary gallery echo Lu's warning. Luo corrected him with the public living source account. Lin was glad the remembered song could remain tender without becoming an explanation for every noise. Death left people with memory, objects, and unfinished feelings. It did not appoint the dead to supervise a structure the living had responsibility to assess.",
+      "next": "mine_p11_after_008"
+    },
+    "mine_p11_after_008": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_worker_lodging",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Day 553 passed in ordinary work and a postponed quiet reading hour. Lin had hoped to learn faster once the meetings ended, but the body needed repetition and the mine kept producing small tasks. She did the empty preparation rehearsal without input, ate the room meal, and slept before the next accepted shift. Nothing spectacular happened. The absence of spectacle was part of the method's history, not an interval to erase between heroic attempts. Reliable stopping had to be learned in mornings when nobody watched admiringly and evenings when the only witness wanted the lamp put out.",
+      "next": "mine_p11_after_009"
+    },
+    "mine_p11_after_009": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Diao Shan, the older record steward, brought a list of notes still held in the inner side store beyond the walk's current limit. The protected papers included ordinary work amendments that workers had once used to correct a mistaken claim. They were not all duplicated outside. Lin listened at the covered public table while Diao explained the difference between knowing a source mattered and being permitted to retrieve it through a closed passage. Fan would not open that path for the sake of a beautiful complete archive. The list remained an unresolved practical dependency.",
+      "next": "mine_p11_after_010"
+    },
+    "mine_p11_after_010": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Fu Jie said the notes ought to have been moved earlier. Diao asked when, by whom, and under which custody permission. Some pages had arrived from private sources for a particular dispute, and unauthorized copying would have made them easier to preserve by injuring the people who supplied them. The question did not excuse the lack of a proper earlier plan. It made the plan specific. Ren would seek the owners' limited duplication consent, while Fan determined whether ordinary retrieval could be performed safely. Neither responsibility could be solved by blaming a tired clerk alone.",
+      "next": "mine_p11_after_011"
+    },
+    "mine_p11_after_011": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Lin saw Fu's face change when the list named a correction he had once copied badly. He wanted the originals to survive because they could show the repair, not only his mistake. Diao wanted them because several workers' hours were recorded nowhere else in the same detail. A company's old note could hold different stakes for its readers. Lin could not promise that every page would be safe. She could help the public task list retain the separate owners and the requested permissions, so preservation did not become a vague wish everyone thought someone else had accepted.",
+      "next": "mine_p11_after_012"
+    },
+    "mine_p11_after_012": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "vermilion_hollows_inspection_gallery",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "Ren asked Lin to stop when the public discussion reached protected statement content. The task concerned source location and authority, not a recital of private words before the whole room. Lin had been leaning forward with the same curiosity that made the gallery invitation attractive. She sat back. The limit left the archive's significance partly unknown to her, and rightly so. Diao could describe the work needed without buying an audience for every person whose statement lay inside. The list moved through the proper contact after the meeting, carrying a real unresolved duty and no invented completion.",
+      "next": "mine_p11_after_013"
+    },
+    "mine_p11_after_013": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_worker_lodging",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "At supper Fu asked whether she thought the inquiry would protect the notes. Lin said it had identified the dependency and begun the consent request. That was useful and smaller than protection already performed. Fu hated the distinction because he could see his own old copied error on the list. Lin offered to sit with him while he drafted the actual correction reference he was allowed to own. The draft could preserve his part of the history without resurrecting other people's private originals. He wrote slowly, crossing out the sentence that first made everything sound settled.",
+      "next": "mine_p11_after_014"
+    },
+    "mine_p11_after_014": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_surface_yard",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "By Day 556 a fresh rain forecast changed the ordinary drainage schedule. Fan asked for a new condition check before any next gallery walk, and Qiao posted the delay through the work contact. The earlier inquiry had not cleared future weather by implication. Lin read the notice without treating it as a personal rebuke. Her selected role had finished its assigned task, but its evidence and responsibilities would matter if the condition changed. She knew which source she held, which she only heard, and which remained elsewhere. Those distinctions were about to become harder to preserve.",
+      "next": "mine_p11_after_015"
+    },
+    "mine_p11_after_015": {
+      "chapter": "book_xxi_mine",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mine_worker_lodging",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "6: Six pairs"
+      },
+      "text": "At Han's room she placed the permitted inquiry reference where she could find it quickly without opening the private method book. The latter belonged to her slow supervised preparation and still showed an unfinished route. The former concerned ordinary mine work under a limited actual clearance. Lin went to sleep hearing rain begin against the shutter. She did not mistake the sound for the seam speaking. In the morning the living would have to inspect what the rain had changed, and any answer would have to come from their own places, sources, and qualified work.",
+      "next": "mine_p12_001"
+    }
+  }
+}

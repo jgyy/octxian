@@ -1,0 +1,88 @@
+name: Novel narration preparation
+on:
+  push:
+    branches: [codex/novel-narration-20261006]
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: novel-narration-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  narration:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    strategy:
+      fail-fast: false
+      matrix:
+        book: [book_xix_lark, book_xx_shoal, book_xxi_mine, book_xxii_wintercity, book_xxiii_reservoir, book_xxiv_lantern]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install narration dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+          python -m pip install -r requirements.txt
+      - uses: actions/cache@v4
+        with:
+          path: .cache/voice
+          key: jade-vow-piper-lessac-model-v1
+      - name: Select immutable staged prose for this novel
+        env:
+          NOVEL_BOOK: ${{ matrix.book }}
+        run: |
+          python - <<'PY'
+          import json, os, pathlib
+          root = pathlib.Path('.')
+          index = json.loads((root / 'docs/NOVEL_NARRATION_INPUT_20261006.json').read_text())
+          selected = [p for p in index['parts'] if pathlib.Path(p).name.startswith(os.environ['NOVEL_BOOK'] + '_')]
+          assert selected
+          (root / 'docs/DRAFT_BOOKS_20261003.json').write_text(json.dumps({'parts': selected}))
+          PY
+      - name: Narrate staged paragraphs and preserve their source hashes
+        env:
+          JADE_VOW_VOICE_WORKERS: '4'
+          OMP_NUM_THREADS: '1'
+          OPENBLAS_NUM_THREADS: '1'
+        run: python tools/prebuild_voices.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: novel-prebuild-${{ matrix.book }}
+          path: .cache/voice-prebuild
+          include-hidden-files: true
+  collect:
+    needs: narration
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: novel-prebuild-*
+          path: parts
+      - name: Combine independently recorded clips
+        run: |
+          python - <<'PY'
+          import json, pathlib, shutil
+          target = pathlib.Path('combined')
+          merged = None
+          for folder in sorted(pathlib.Path('parts').iterdir()):
+              source = folder / 'assets/generated/voices/manifest.json'
+              data = json.loads(source.read_text())
+              if merged is None:
+                  merged = {**data, 'lines': {}}
+              assert data['model_sha256'] == merged['model_sha256']
+              assert not set(data['lines']) & set(merged['lines'])
+              merged['lines'].update(data['lines'])
+              shutil.copytree(folder / 'assets', target / 'assets', dirs_exist_ok=True)
+          assert merged and merged['lines']
+          (target / 'assets/generated/voices/manifest.json').write_text(json.dumps(merged, indent=2) + '\n')
+          print('Prepared', len(merged['lines']), 'source-hashed novel clips.')
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: jade-vow-novel-prebuilt
+          path: combined
