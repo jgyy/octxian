@@ -1992,7 +1992,24 @@
       "actor": "lin_yue",
       "text": "On the evening after the three-day experiment, the chosen trial's signed report lay uppermost. Other crews brought only the work they had actually been permitted: dry sorting, source checks, carrier repairs and contract talks. Nobody invented an unchosen water test to make the packets equal. The reserve keeper copied the actual trial draw beside its starting count. The shared plan retained the ninety-jar ceiling as a conservative worst case, not a claim that all routes had spent it.",
       "background": "village_council_room",
-      "next": "salt_recovery_002"
+      "next": "salt_recovery_002",
+      "routes": [
+        {
+          "decision": "salt_trial_choice",
+          "selected": "salt_wash_trial_001",
+          "next": "aftermath_salt_wash_001"
+        },
+        {
+          "decision": "salt_trial_choice",
+          "selected": "salt_seed_trial_001",
+          "next": "aftermath_salt_seed_001"
+        },
+        {
+          "decision": "salt_trial_choice",
+          "selected": "salt_reserve_trial_001",
+          "next": "aftermath_salt_reserve_001"
+        }
+      ]
     },
     "salt_recovery_002": {
       "chapter": "book_xi_salt_road",
@@ -2211,7 +2228,7 @@
       "effect": "none",
       "speaker": "narrator",
       "actor": "lin_yue",
-      "text": "On the fourth later day, the grain house asked for less water than its ceiling. The limited salvage lot did not justify all the planned seed allowance. Yuan Lian kept the unused jars in the reserve instead of offering them quietly to the cooperative. A salt worker protested, then read the common stop clause and asked the council to hear a revised request. Asking was permitted. Drawing before the reply was not.",
+      "text": "On the fourth later day, the grain house asked for less water than its ceiling. The grain-house keeper's checked request stayed below the full seed allowance. Yuan Lian kept the unused jars in the reserve instead of offering them quietly to the cooperative. A salt worker protested, then read the common stop clause and asked the council to hear a revised request. Asking was permitted. Drawing before the reply was not.",
       "background": "bell_tower_square",
       "next": "salt_rotation_003"
     },

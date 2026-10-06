@@ -234,7 +234,24 @@
       "actor": "lin_yue",
       "text": "It was the first thing Yue had seen all morning that seemed entirely certain about where its feet belonged. The rider had come from Bitter Wells with letters for Han and the carrier commission. He had heard the quarry's report of the guide rescue from the fast receiving-house messenger, but no personal clinical details. The transport wagon still travelled at its gentler pace. He offered a sealed cooperative letter and a separate note from Han's daughter. Han took the family note first, then looked embarrassed and put it safely inside his coat before opening the business letter.",
       "background": "salt_desert_survey_camp",
-      "next": "desert_p08_019"
+      "next": "desert_p08_019",
+      "routes": [
+        {
+          "decision": "desert_dilemma_causeway",
+          "selected": "desert_dilemma_causeway_1",
+          "next": "aftermath_causeway_notice_001"
+        },
+        {
+          "decision": "desert_dilemma_causeway",
+          "selected": "desert_dilemma_causeway_2",
+          "next": "aftermath_causeway_delay_001"
+        },
+        {
+          "decision": "desert_dilemma_causeway",
+          "selected": "desert_dilemma_causeway_3",
+          "next": "aftermath_causeway_sketch_001"
+        }
+      ]
     },
     "desert_p08_019": {
       "chapter": "book_xvi_desert",

@@ -944,6 +944,46 @@ func _capture() -> void:
 		await get_tree().create_timer(0.8).timeout
 		await RenderingServer.frame_post_draw
 		get_viewport().get_texture().get_image().save_png("res://build/screenshots/%s.png" % sample.file)
+
+	# Capture real selected paths at identical attributes, including delayed results.
+	state = StoryState.new(state.story)
+	state.current = "letters_copy_choice"
+	state.stats = {"qi": 10, "trust": 10, "insight": 10, "resolve": 10}
+	_scene()
+	dialogue.visible_characters = -1
+	await get_tree().create_timer(0.8).timeout
+	await RenderingServer.frame_post_draw
+	get_viewport().get_texture().get_image().save_png("res://build/screenshots/consequence_choices.png")
+	var copy_results := ["letters_house_result_001", "letters_school_result_001", "letters_lamp_result_001"]
+	for selection in range(copy_results.size()):
+		state = StoryState.new(state.story)
+		state.current = "letters_copy_choice"
+		state.stats = {"qi": 10, "trust": 10, "insight": 10, "resolve": 10}
+		if not state.choose(selection):
+			push_error("The consequence capture could not select its actual branch.")
+			_quit_game(1)
+			return
+		var steps := 0
+		while state.current != copy_results[selection] and steps < state.story.nodes.size():
+			var moved: bool
+			if state.node().has("choices") and not state.node().get("random_event", false):
+				moved = state.choose(0)
+			else:
+				moved = state.advance()
+			if not moved:
+				push_error("The consequence capture could not reach its delayed result.")
+				_quit_game(1)
+				return
+			steps += 1
+		if state.current != copy_results[selection] or state.stats != {"qi": 10, "trust": 10, "insight": 10, "resolve": 10}:
+			push_error("The delayed consequence must differ while attributes stay identical.")
+			_quit_game(1)
+			return
+		_scene()
+		dialogue.visible_characters = -1
+		await get_tree().create_timer(0.8).timeout
+		await RenderingServer.frame_post_draw
+		get_viewport().get_texture().get_image().save_png("res://build/screenshots/consequence_%s.png" % ["house", "school", "lamp"][selection])
 	print("JADE_VOW_CAPTURE_OK")
 	_quit_game()
 

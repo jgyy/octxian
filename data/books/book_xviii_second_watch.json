@@ -1,0 +1,1802 @@
+{
+  "chapters": {},
+  "characters": {},
+  "nodes": {
+    "letters_second_watch_entry": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Six weeks after the letter review, Yue returned for the single appointment she had accepted. Its separately approved six-copper allowance would pay her only after two hours of completed work. The local attendant was on ordinary town duty. Her travel had been arranged separately, and the earlier review purse remained closed. Yue brought her own cup and training book, still at the fifth stage. At the receiving desk, her name stood beside one task and a finishing time.",
+      "next": "letters_watch_arrival_01",
+      "routes": [
+        {
+          "decision": "letters_commitment_choice",
+          "selected": "letters_commit_house",
+          "next": "letters_watch_house_01"
+        },
+        {
+          "decision": "letters_commitment_choice",
+          "selected": "letters_commit_school",
+          "next": "letters_watch_school_01"
+        },
+        {
+          "decision": "letters_commitment_choice",
+          "selected": "letters_commit_lamp",
+          "next": "letters_watch_lamp_01"
+        }
+      ]
+    },
+    "letters_watch_house_01": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "sun_nian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The household return took place at the town receiving desk. Sun brought her permitted followup statement about runoff reaching the three doorways she and her neighbors had described. The receiver kept that observation separate from a claim that water had entered every room. Yue helped compare the dated statement with its offered corrections during the accepted two hours. The hearing concerned Sun's runoff question, not He Xi's family's completed house claim.",
+      "next": "letters_watch_house_02"
+    },
+    "letters_watch_house_02": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "sun_nian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Sun read the new statement and stopped at a line about a neighbor's afternoon. She had removed that claim because she had not witnessed it. Yue preserved the correction space Sun had requested, and the appointed receiver accepted only the offered testimony. Two neighbors still declined named inclusion. Their blanks stayed blank. The qualified review office would decide what inquiry followed; receiving the statement neither blamed a contractor nor promised Sun a repair.",
+      "next": "letters_watch_house_03"
+    },
+    "letters_watch_house_03": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "sun_nian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The local receiver acknowledged the statement and corrections at the agreed finish. With her two-hour appointment completed, Yue received its six-copper allowance once. Sun kept her original and private notebook, while the offered followup copy went to its authorized reviewer. Yue had accepted no new household judgment or future receiving shift. She went back toward the archive, where He Xi's afternoon cart waited for a separate delivery.",
+      "next": "letters_watch_arrival_01"
+    },
+    "letters_watch_school_01": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "sun_nian",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The promised school annotation lesson used the current route drawing, with the repaired short approach and the longer road marked separately. The teacher asked pupils to identify who could check each uncertain step. One child drew a flying carpet over the difficult corner. Yue let the joke remain until the pupil supplied an ordinary route beneath it. A drawing could hold an impossible wish without turning the wish into advice for someone's journey.",
+      "next": "letters_watch_school_02"
+    },
+    "letters_watch_school_02": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "sun_nian",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Sun attended the last quarter hour because she had wanted to see the children's route marks. Her walking stick rested against the teacher's chair, within reach. She corrected the map's claim that a shaded bench was always dry. It had soaked her skirt twice. The pupils added a weather note instead of removing the bench. They were learning that a useful map could change without admitting every earlier traveller had been foolish.",
+      "next": "letters_watch_school_03"
+    },
+    "letters_watch_school_03": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "sun_nian",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The teacher kept the annotated classroom sheet under its existing lesson permission. Sun took her own notebook home. Yue completed her named two hours, signed the receiving line and received the six-copper allowance once. A child wanted another story about the flying carpet. Yue said she might enjoy one too, but today's paid route lesson had ended. The teacher would decide what came after lunch.",
+      "next": "letters_watch_arrival_01"
+    },
+    "letters_watch_lamp_01": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "tan_ke",
+        "lan_fen"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The cold reference bench stood clear of the public lamp circuit. Tan had isolated its fuel supply before Yue arrived, and Lan Fen brought the hinge brush from her own pouch. The session concerned a sticking latch and the record of its release point. Yue held the disconnected body steady while the two qualified keepers compared its movement. Four cultivated pairs did not tell her whether a corroded hinge deserved reuse.",
+      "next": "letters_watch_lamp_02"
+    },
+    "letters_watch_lamp_02": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "tan_ke",
+        "lan_fen"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Tan rejected one worn pin, though it would probably survive another week. Lan put it in the discard cup rather than letting a plausible demonstration return it to service. Yue copied the accepted current marks onto the maintenance sheet beside the dated base position. Earlier charts retained their own conditions and sources. The cold bench session would record this hinge work; it would not, by itself, settle every comparison question about the public reading station.",
+      "next": "letters_watch_lamp_03"
+    },
+    "letters_watch_lamp_03": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "tan_ke",
+        "lan_fen"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The replaced pin passed Tan's checks. Lan signed the hinge record and put the lamp back in its assigned cupboard herself. With the two-hour session completed, Yue received the six-copper allowance once. The work had not enrolled her in a permanent maintenance watch. Tan asked whether she had time for tea. The answer could be personal now that the appointment had reached its end.",
+      "next": "letters_watch_arrival_01"
+    },
+    "letters_watch_arrival_01": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At the archive desk, Luo was packing a separate return service for the village outstation. Its sixteen public lesson booklets had spent a month in the small reading annex below the mountain. Readers had pencilled questions on removable slips, and a teacher had added permitted examples to the margins. No house original or private notebook was there. The outstation mattered because several people could reach it who could not afford the mountain journey.",
+      "next": "letters_watch_arrival_02"
+    },
+    "letters_watch_arrival_02": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "he_xi"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "He Xi's cart waited under the loading shed. He had accepted a four-copper delivery, payable for making the booked road carriage with the offered return packets. A missed departure would pay two copper cancellation money for his completed preparation and no delivery wage. He had checked those terms before bringing the cart. He disliked them, but another afternoon job would not fit the carriage time. His family's restored house had not made his ordinary work plentiful.",
+      "next": "letters_watch_arrival_03"
+    },
+    "letters_watch_arrival_03": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "he_xi"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue accepted a separate two-hour returns-desk shift before the weather changed. Its four-copper wage came from the archive's current service account, with a relief clerk due at the bell. She would check the offered packet numbers and help at the receiving table. He Xi showed her the cart's new wheel wedge. She told him it looked unnecessarily handsome. He said useful things could have a little vanity if someone still checked whether they worked.",
+      "next": "letters_watch_arrival_04"
+    },
+    "letters_watch_arrival_04": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "tan_ke"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The wind arrived while they were laughing. It flattened the plum leaves, lifted the edge of the loading-shed covering and pulled one rotten fixing from the outstation annex roof. Luo closed the annex before anyone fetched its books. Readers walked into the sound stone waiting room with its open exit. The carpenter examined the route from outside. No one climbed the failing roof, and the little storm did not turn Yue into a person qualified to hold it up.",
+      "next": "letters_watch_arrival_05"
+    },
+    "letters_watch_arrival_05": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "tan_ke",
+        "lan_fen"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Lan shut the exposed lamps and used ordinary daylight markers at the terrace turns. Tan moved the main archive's originals into its dry inner room with the scheduled staff. Below it, the outstation's lesson cabinet stood behind the annex's fractured beam. No one could enter to fetch its contents. The return cart remained outside, and the short walking approach had lost its rain shelter. Each problem was small enough to name. Together they exceeded what the crew could finish before the next squall.",
+      "next": "letters_watch_arrival_06"
+    },
+    "letters_watch_arrival_06": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "tan_ke"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The storekeeper found two sound canvas sheets. Together they could cover one job: the annex roof breach, the exposed short approach, or the return cart. The discarded sheets had split seams and could not substitute. Three qualified workers could fix one cover before the gusts returned. Their supervisor had a method for reaching the breach from the sound exterior staging, without entering or climbing the damaged annex. Yue would enter the service priority; the workers could stop an unsafe installation.",
+      "next": "letters_watch_arrival_07"
+    },
+    "letters_watch_arrival_07": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "sun_nian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The short approach had already passed an ordinary ground and handrail inspection that morning. Its missing shelter made heavy rain obscure the worn terrace edge; the carpenter closed it until it had a tested cover or another inspection after the storm. The longer road remained sound and open. Some readers could use it, others could not manage its distance. No one would be asked to prove courage on the closed approach because a book needed returning.",
+      "next": "letters_watch_arrival_08"
+    },
+    "letters_watch_arrival_08": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "he_xi",
+        "sun_nian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Covering the annex breach would preserve the lesson stock and its working annotations. Covering the approach could keep a usable short route after the supervisor's check. Covering the cart could protect the return packets and save He Xi's booked departure. The other two jobs would wait through the squall. The reserve crew was already at a fallen tree on the public road. Its absence was a known limit, not a promise that Yue could summon the missing hands by wanting them.",
+      "next": "letters_watch_canvas_choice"
+    },
+    "letters_watch_canvas_choice": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "sun_nian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Luo asked the waiting readers which service they most needed. Their answers differed. A teacher wanted the annotated lessons saved; Sun wanted the short approach kept usable; He Xi wanted to earn his accepted delivery. The duty arrangement left one priority for Yue to enter after hearing them. She named the losses beside each option before pointing to the sound canvas. The supervisor would decide how to perform the selected job safely.",
+      "choices": [
+        {
+          "text": "Cover the annex roof breach; preserve the sixteen annotated lesson booklets.",
+          "next": "letters_watch_cover_books_01"
+        },
+        {
+          "text": "Cover the short approach; preserve its inspected access through the rain.",
+          "next": "letters_watch_cover_path_01"
+        },
+        {
+          "text": "Cover He Xi's cart; preserve the packets and booked delivery.",
+          "next": "letters_watch_cover_cart_01"
+        }
+      ]
+    },
+    "letters_watch_cover_books_01": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "he_xi"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue entered the annex breach as the first job. The supervisor checked the exterior staging again before sending two workers onto its sound platform. The third passed the rolled canvas from below. Yue remained at the receiving line, keeping readers clear of the yard. The cover would protect paper from rain. It would not make the fractured beam sound or reopen the annex to people before an independent structural check.",
+      "next": "letters_watch_cover_books_02"
+    },
+    "letters_watch_cover_books_02": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "he_xi"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "He Xi asked how long the cart would have to wait. Yue gave him the answer the supervisor had supplied: until the gusts passed and the crew could return to the exposed load. That would miss the carriage. He Xi put his loading receipt away. 'Then mark the cancellation now,' he said. 'I will not spend the whole afternoon wondering whether you mean another ten minutes.' Luo entered the missed delivery without pretending preparation had become completed travel.",
+      "next": "letters_watch_cover_books_03"
+    },
+    "letters_watch_cover_books_03": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "he_xi"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Sun chose to wait in the stone room until her own arranged carriage came by the longer road. The short approach remained closed. She would not attend the next morning's outstation reading because the longer walk was beyond her present comfort. Yue asked whether she wanted the teacher told. Sun said yes, without offering a reason for circulation. Her changed journey was practical information. Her private condition was hers to explain if she chose.",
+      "next": "letters_watch_cover_books_04"
+    },
+    "letters_watch_cover_books_04": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "he_xi"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The workers fastened the double cover along the inspected exterior fixing points. One gust struck while the last corner was still loose. The supervisor stopped the job, waited on the sound staging and resumed only after the wind fell. The cover did not need Yue's qi. She kept a count of the waiting readers with the attendant, and found she was frightened by how little useful work fear could add to trained hands.",
+      "next": "letters_watch_cover_books_05"
+    },
+    "letters_watch_cover_books_05": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "he_xi"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The next squall drove rain against the canvas and into the uncovered loading yard. The cart's ordinary hood lifted at its torn seam. Its return packets were wet before He Xi could move the unloaded cart into the already full stone entrance. He stayed outside the load's fall line and did not try to catch it. The packets were issued copies, not irreplaceable originals. Their loss would still cost a new printing and delay the households expecting an answer.",
+      "next": "letters_watch_cover_books_06"
+    },
+    "letters_watch_cover_books_06": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "he_xi"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "After the wind eased, the supervisor inspected the temporary roof cover from the yard. It had held. The qualified crew then braced the annex for a controlled retrieval, and the attendant brought out the sixteen dry booklets in their actual cabinet order. The teacher examined her marginal examples and found them intact. She thanked the workers. Yue was relieved enough to want the thanks herself, then heard how precisely the teacher had placed it.",
+      "next": "letters_watch_cover_books_07"
+    },
+    "letters_watch_cover_books_07": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "he_xi"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Luo paid He Xi the agreed two-copper cancellation amount from the service account and canceled the four-copper delivery line. He Xi had lost two copper of expected earnings and the chance to take another afternoon job. The archive did not call that loss resolved by a sympathetic paragraph. Its clerk arranged new copies under the owners' existing return permissions. The receiving dates would change; the underlying household decisions and source custody would not.",
+      "next": "letters_watch_cover_books_08"
+    },
+    "letters_watch_cover_books_08": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "he_xi"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The covered cabinet stock went to dry holding until the annex could be assessed. The squall had washed the grip coating from two uncovered approach treads; the supervisor kept that route closed pending replacement. Sun's missed reading stayed missed. He Xi rolled his empty cart toward the longer road, with two copper instead of four. Yue entered those outcomes beside the selected cover. Preserving the lesson booklets had done something real. It had also left two disappointments that she could not edit away.",
+      "next": "letters_watch_after_storm_01"
+    },
+    "letters_watch_cover_path_01": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "he_xi"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue entered the short approach as the first job. The supervisor directed the crew to its sound shelter frame, away from the damaged annex. The two canvas sheets would keep the terrace edge and handrail visible through the rain. An attendant held the approach closed during installation. Sun waited in the stone room with everyone else. The promise was a checked route after the cover held, not permission to hurry beneath unfinished work.",
+      "next": "letters_watch_cover_path_02"
+    },
+    "letters_watch_cover_path_02": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "he_xi"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The teacher looked back at the annex and asked whether someone could reach the lesson cabinet from the rear window. Tan said the fractured beam crossed that route too. The retrieval had to wait for the crew to brace it after the squall. The teacher accepted the refusal and sat down heavily. Her permitted examples were in those booklets. She could write new examples later, but the familiar notes would not return simply because a clerk called them replaceable.",
+      "next": "letters_watch_cover_path_03"
+    },
+    "letters_watch_cover_path_03": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "he_xi"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "He Xi showed Luo his booked carriage time. They both knew it would pass before the crew could secure the cart. Luo entered a cancellation while the answer was certain enough to use. He Xi asked for the agreed two copper at the desk after the storm, and took his cart wedge out of the loading area. He could save his own tool without entering the exposed load's fall line. The wedge was still unnecessarily handsome.",
+      "next": "letters_watch_cover_path_04"
+    },
+    "letters_watch_cover_path_04": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "he_xi"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The supervisor waited out one gust before making the last fixing. The canvas shook with a deep sound like a sail, then settled against its supporting frame. The attendant watched the exposed edge until the rain had crossed it at full strength. A canopy had to remain sound when wet, not merely look persuasive in the moment somebody installed it. Yue held the route board ready while the supervisor checked the final fastening.",
+      "next": "letters_watch_cover_path_05"
+    },
+    "letters_watch_cover_path_05": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "he_xi"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Rain came through the annex breach and soaked the rear cabinet before the beam could be braced. The booklets swelled unevenly against their bindings. Tan prohibited heated drying on the public lamps. That shortcut could damage the paper and create a fire beside a storm closure. The attendant isolated the damp stock for later examination. The teacher watched from the waiting-room door, unable to save it by remembering how much work she had put into it.",
+      "next": "letters_watch_cover_path_06"
+    },
+    "letters_watch_cover_path_06": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "he_xi"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The short approach passed its wet inspection. Its sheltered tread coating had survived, and the attendant opened it at the existing walking limits. Sun used its handrail after the supervisor left the route clear. She stopped under the middle bay to listen to rain above a dry shoulder. Her planned reading next morning could still be reached from home. Whether the reading itself had usable books was now a different question.",
+      "next": "letters_watch_cover_path_07"
+    },
+    "letters_watch_cover_path_07": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "he_xi"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The cart packets were wet, and the booked carriage went without them. Luo paid the two-copper cancellation amount and canceled the delivery wage. New copies would have to be printed under the actual owners' return permissions. He Xi said he was glad Sun could get home and angry about losing his earnings. Yue accepted both statements. She had asked the listeners to hear distinct costs before choosing; she could not now require their feelings to become one clean vote.",
+      "next": "letters_watch_cover_path_08"
+    },
+    "letters_watch_cover_path_08": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "he_xi"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The teacher had three dry teaching texts at school, under permissions that allowed a small replacement reading. She offered them for the next morning if the route stayed sound. The ruined sixteen-booklet stock would not be described as delivered by that offer. Yue recorded an open inspected short approach, lost lesson booklets and a canceled courier departure. The canvas still shook above the path. Someone would have to examine it again before tomorrow's readers arrived.",
+      "next": "letters_watch_after_storm_01"
+    },
+    "letters_watch_cover_cart_01": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "he_xi"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue entered the return cart as the first job. He Xi checked his own load and agreed to the crew's cover arrangement before anyone tied canvas to his property. The supervisor kept the work inside the sound loading frame and closed the yard crossing during installation. The two layers would protect the issued return packets long enough for the ordinary road departure. The cart would use the inspected longer road, not the closed short approach.",
+      "next": "letters_watch_cover_cart_02"
+    },
+    "letters_watch_cover_cart_02": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "he_xi"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The teacher asked Tan whether the booklets could be taken out first. Tan showed her where the fractured beam crossed the cabinet route. The crew had time for one safe job before the squall, and retrieval needed bracing after it. The teacher stayed in the stone room. No one ordered her to accept the loss cheerfully because household letters sounded more important. Her annotations were useful work with real readers, not decorative paper.",
+      "next": "letters_watch_cover_cart_03"
+    },
+    "letters_watch_cover_cart_03": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "he_xi"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Sun asked the attendant to send her next-morning cancellation to the teacher. The longer walk was beyond the journey she had planned, and she would take her arranged carriage home when it reached the waiting room. The short approach remained closed. Yue wrote only the attendance change the teacher needed. Sun said rain could make a small distance large, then asked whether the room had a second chair without a draught underneath it.",
+      "next": "letters_watch_cover_cart_04"
+    },
+    "letters_watch_cover_cart_04": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "he_xi"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The crew fastened the doubled cover under He Xi's direction for his load's balance. The supervisor checked its corners, the road report and the present wind before releasing the cart. He Xi made no flourish of departure. He put the handsome wedge in its rack, thanked the workers and pushed at the axle's ordinary safe position. Yue watched the cart disappear around the longer road turn while the first hard rain struck its cover.",
+      "next": "letters_watch_cover_cart_05"
+    },
+    "letters_watch_cover_cart_05": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "he_xi"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Water came through the annex breach and soaked the rear cabinet. The sixteen booklets swelled around the teacher's pencil marks before the qualified crew could brace the beam. Tan isolated the damp stock after retrieval and barred heat from the public lamps. The teacher offered to turn the pages herself. Tan told her that separating them now would pull fibres away. Waiting was work the teacher hated because her hands could not make its result look busier.",
+      "next": "letters_watch_cover_cart_06"
+    },
+    "letters_watch_cover_cart_06": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "he_xi"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "He Xi reached the booked carriage with the packets dry. The receiving carrier checked their numbers and signed his delivery line. His four-copper wage was paid for the completed job. The canvas returned on the scheduled local loop, one edge torn by rubbing against the cart frame. The return packets went to their named readers. They carried the existing decisions and limits, without turning a successful delivery into a new conclusion about anyone's claim.",
+      "next": "letters_watch_cover_cart_07"
+    },
+    "letters_watch_cover_cart_07": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "he_xi"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Sun's carriage reached the waiting room by the longer road after the squall. She went home without a dangerous walk, and her next-morning outstation seat remained canceled. The uncovered approach had lost grip coating from two treads; its supervisor required replacement before reopening. The teacher received Sun's notice before planning another lesson. Three school texts could support a smaller reading if service were arranged. They could not restore the sixteen lost booklets or make a closed route suitable.",
+      "next": "letters_watch_cover_cart_08"
+    },
+    "letters_watch_cover_cart_08": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_spring_courtyard_dawn",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "he_xi"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Luo received the courier's completed delivery receipt while Tan closed the damaged-stock list. Yue entered dry packets and a paid four-copper departure, beside ruined lesson stock and the closed short approach. He Xi's success mattered to a household that would buy supper with it. Sun's missed reading and the teacher's lost examples also mattered. The chosen cover had changed whose afternoon survived the storm, without making the other afternoons imaginary.",
+      "next": "letters_watch_after_storm_01"
+    },
+    "letters_watch_after_storm_01": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "tan_ke"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The wind dropped before the relief bell. The qualified supervisor left the annex closed and posted the actual beam fracture on its door. A temporary cover, where installed, was not a structural repair. The detached stone waiting room remained sound. The road crew cleared its fallen tree and reported a usable longer route. Their arrival did not undo the carriage time or retroactively give the earlier crew a fourth pair of hands.",
+      "next": "letters_watch_after_storm_02"
+    },
+    "letters_watch_after_storm_02": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "tan_ke"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Tan examined the lesson cabinet's contents under their present condition, retaining the result already recorded during retrieval. She kept any damp material isolated from the sound archive collection. Luo asked whether a small qi discharge could dry paper faster. Tan said moisture loss would not restore torn fibres, missing pencil marks or distorted bindings. Yue closed her admission before anybody could ask her to demonstrate. A trained refusal sometimes looked disappointingly like doing nothing.",
+      "next": "letters_watch_after_storm_03"
+    },
+    "letters_watch_after_storm_03": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "tan_ke"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The storekeeper inspected and tagged the cover where it was installed, or at the cart's actual return where that was the selected work. Fixed covers stayed on their frames under continuing checks. Any returned canvas went to the yard rack for drying. Its strained edges barred taking those same sheets straight to a second job. Scraps could patch a small box, not shelter another service. The workers signed their performed scope before returning to the road crew.",
+      "next": "letters_watch_after_storm_04"
+    },
+    "letters_watch_after_storm_04": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "tan_ke"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The teacher looked at the marked bookings for the remaining rainy term. Six nearby households used the outstation because the mountain table was too far away. Two could borrow transport sometimes. Four could not depend on it. The school had three sound shared texts and a teacher willing to lead a defined replacement reading. Keeping every booking unchanged would require a repaired annex, a currently usable approach and enough material. Those things could not be inferred from wanting the outstation to survive.",
+      "next": "letters_watch_after_storm_05"
+    },
+    "letters_watch_after_storm_05": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "tan_ke"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Luo found a twelve-copper municipal grant for one next service plan. It belonged to this storm response, with receipts and unused money returned; it did not draw from the earlier review, the one-person post or household compensation. The board could close the outstation for the rainy term, fund one checked reserve reading, or accept the school's offer to become the collection's new public receiving point. Qualified repair of the annex remained a separate unfunded project.",
+      "next": "letters_watch_after_storm_06"
+    },
+    "letters_watch_after_storm_06": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "tan_ke"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Before the board discussion, Yue fetched the review copy she had actually prepared six weeks earlier. The storm did not add claims to it. She wanted a reader to see the difference between what that limited work had established and the new question about public access. Luo moved an empty chair beside the table. The person most angry with the arrangement should not have to stand merely because the clerk liked an orderly row of listeners.",
+      "next": "letters_watch_copy_gate"
+    },
+    "letters_watch_copy_gate": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "tan_ke"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The earlier review copy lay inside its marked cover. Yue opened it only to the pages its actual permission allowed. Its usefulness would depend on the subject she had chosen to document then. A storm could make that choice newly valuable or newly incomplete, but it could not supply the missing pages from another possible afternoon.",
+      "next": "letters_watch_service_choice",
+      "routes": [
+        {
+          "decision": "letters_copy_choice",
+          "selected": "letters_copy_house",
+          "next": "letters_watch_copy_house_01"
+        },
+        {
+          "decision": "letters_copy_choice",
+          "selected": "letters_copy_school",
+          "next": "letters_watch_copy_school_01"
+        },
+        {
+          "decision": "letters_copy_choice",
+          "selected": "letters_copy_lamp",
+          "next": "letters_watch_copy_lamp_01"
+        }
+      ]
+    },
+    "letters_watch_copy_house_01": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "sun_nian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The checked household extract kept each offered doorstep observation beside its actual observer and date. Its distinctions prevented the first gutter plan from compressing three different accounts into one convenient edge. Luo could use that comparison when preparing the household reply; the receiving contact came separately from the ordinary request register. The old extract contained no current outstation route survey or lamp reference marks. Yue showed its useful page without presenting it as a survey of today's storm.",
+      "next": "letters_watch_copy_house_02"
+    },
+    "letters_watch_copy_house_02": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "sun_nian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Two neighbors had declined named inclusion at the first copying, and their blanks remained blanks in the offered extract. The receiving clerk could use the checked authorized lines without inventing two additional public witnesses. The six-week-old copy made that task easier. It gave no conclusion about the newly damaged outstation or any household's legal right. Today's board still needed the current route inspection and Tan's own instrument record before deciding anything about public service.",
+      "next": "letters_watch_service_choice"
+    },
+    "letters_watch_copy_school_01": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The school copy preserved the pupils' dated wagon observations as a range, instead of Luo's earlier convenient average. The clerk could use that distinction when setting expectations for a proposed reserve carriage: an old typical time was not a promise about a new storm-day journey. Today's road report still had to establish actual use. The enlarged copy made the comparison easier without turning six-week-old observations into a current route inspection.",
+      "next": "letters_watch_copy_school_02"
+    },
+    "letters_watch_copy_school_02": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The different line shapes still distinguished the longer public route from a particular offered passage through a private yard. A board plan could not count that offer as a continuing right after its owner went away. Luo showed the distinction to the service clerk under the school's actual copy permission. The pupils' original remained with its keeper. The map supplied neither a household receiving contact nor a cold-lamp chart; the desk obtained those separately through their responsible people.",
+      "next": "letters_watch_service_choice"
+    },
+    "letters_watch_copy_lamp_01": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "lan_fen",
+        "tan_ke"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The cold-lamp chart retained the corrected moved-base numeral and the original tally used to recover it. Its conditions still distinguished readings before and after the base moved. Lan compared the permitted chart with today's shut-lamp record without using an older check to authorize reconnection. The chart made that narrow comparison easier. It contained no school route survey or household receiving address. Yue kept its dated use visible instead of letting technical columns imply the whole storm had been measured.",
+      "next": "letters_watch_copy_lamp_02"
+    },
+    "letters_watch_copy_lamp_02": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "lan_fen",
+        "tan_ke"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Lan filed the permitted chart beside the current maintenance tag. She retained the actual lamp and her own brush pouch. The carpenter supplied the route report independently, and Luo's clerk obtained the household contact through the request desk. More people had to do real work because Yue's earlier copy had covered one subject. That was a cost of choosing a finite task, not proof that the unchosen reports secretly existed in her bag.",
+      "next": "letters_watch_service_choice"
+    },
+    "letters_watch_service_choice": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "sun_nian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The board accepted the three costed plans and the school's actual offer. Closing for the rainy term would end every outstation booking there. A reserve reading would serve a limited group once, after inspection. Moving public service to the school would change its place and hours, with three paid sessions to begin it. The twelve-copper grant could support one plan. Yue had to propose a future whose missing alternatives would remain missing.",
+      "choices": [
+        {
+          "text": "Close the outstation for the rainy term and transfer remaining requests to the mountain desk.",
+          "next": "letters_watch_close_01"
+        },
+        {
+          "text": "Fund one inspected reserve reading in the sound stone waiting room.",
+          "next": "letters_watch_reserve_01"
+        },
+        {
+          "text": "Move the public receiving service to the village school under its accepted terms.",
+          "next": "letters_watch_school_transfer_01"
+        }
+      ]
+    },
+    "letters_watch_close_01": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "sun_nian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue proposed closing the outstation for the remaining rainy term. Luo repeated the scope to the waiting households before the board approved it. Every booking there would be canceled, including those a temporary route cover might have made physically possible. The mountain desk would receive requests, but distance would still prevent some readers from attending. Six copper would pay safe stock removal and sorting; four would pay individual notices and receiving checks. The remaining two would return unused.",
+      "next": "letters_watch_close_02"
+    },
+    "letters_watch_close_02": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "sun_nian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Sun asked whether closure meant the board considered nearby readers troublesome. Luo said it meant the existing room was damaged and the funded plan would not operate a replacement there this term. Sun accepted the answer as an answer, not as comfort. She would lose a place she could reach. Yue asked whether a home notice or a school contact would suit her. Sun chose the home notice and declined a public account of her reasons.",
+      "next": "letters_watch_close_03"
+    },
+    "letters_watch_close_03": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "sun_nian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The teacher removed the outstation dates from the classroom board. Pupils watched her rub away the small squares. She kept the three school texts for their ordinary lessons; the closure plan had not purchased extra public sessions from her. A child suggested writing the dates smaller so they would fit back in. The teacher said size had never been the trouble. Yue heard the child offer something kind and useless, and remembered several speeches she had nearly made.",
+      "next": "letters_watch_close_04"
+    },
+    "letters_watch_close_04": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "sun_nian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The paid crew retrieved and sorted the public stock under the supervisor's safe plan. Sound material would go to the mountain desk; damaged material would stay isolated under Tan's actual decisions. No private manuscript was swept into the move. Luo made the canceled receiving location explicit in each notice. A reader sending a packet to the old table after today would find a closed room, not a hidden promise that some tired keeper would meet them anyway.",
+      "next": "letters_watch_close_05"
+    },
+    "letters_watch_close_05": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "sun_nian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "He Xi accepted one separately offered notice-delivery job under its own terms. He was free to decline it, and its small payment did not replace the outcome of his earlier cart booking. He took the local notices because their route fit his walk home. The family contact had a distinct receiving address. Yue watched him check it twice. A messenger who had lost time in the storm could still choose paid work without being conscripted by everybody's gratitude.",
+      "next": "letters_watch_close_06"
+    },
+    "letters_watch_close_06": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "sun_nian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At the board's receiving, the clerk canceled the remaining outstation dates and entered the rainy-term closure as performed policy. Ten copper covered the accepted removal and notice scopes against receipts; two returned to the municipal grant. Reopening would require another decision, repaired premises and funding. Yue had ended uncertainty about this term by choosing an absence. The people who could not reach the mountain desk would live with that absence even after the closure notice arrived.",
+      "next": "letters_watch_settlement_01"
+    },
+    "letters_watch_reserve_01": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "sun_nian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue proposed one reserve reading in the detached stone waiting room. The board approved six copper for the qualified room-and-route inspection, four for two named attendants and two for a road carriage where required. These twelve copper bought one defined event, not an open term. If the inspection failed, the event would cancel and unspent money return. The fractured annex remained closed. No reader would enter it because a reserve place had been promised.",
+      "next": "letters_watch_reserve_02"
+    },
+    "letters_watch_reserve_02": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "sun_nian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The supervisor inspected the stone room and its independent exit after the storm. Its walls, floor and roof were sound. The longer road passed its present check; the short approach retained the state recorded under the selected cover. The teacher could therefore plan an actual reading with the surviving permitted material. Where the short route stayed closed, the hired carriage would bring at most four invited readers by the longer road. Nobody would be expected to walk farther than agreed.",
+      "next": "letters_watch_reserve_03"
+    },
+    "letters_watch_reserve_03": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "sun_nian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The teacher set the group limit from the material and transport available. Preserved booklets could support the old examples; otherwise her three school texts would support a smaller replacement lesson. The invitation list would show the actual limit and ask people whether they wanted a place. A declined invitation could go to the next reader. It would not establish whose curiosity mattered most. The households outside that small group would still lose the remaining term's nearby service.",
+      "next": "letters_watch_reserve_04"
+    },
+    "letters_watch_reserve_04": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "sun_nian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Sun accepted a place under the route that could actually bring her to the stone room. She asked for the chair without the draught and a rest before returning. The attendants put those requests into the event plan. Yue would not be one of them; her returns shift ended that afternoon. Sun seemed disappointed for a moment, then asked the teacher which story she intended to use. A service could work without making one traveller its indispensable heart.",
+      "next": "letters_watch_reserve_05"
+    },
+    "letters_watch_reserve_05": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "sun_nian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The reserve reading took place the following week after its same-day route check. The paid attendants received the actual readers, kept the damaged annex closed and used only the permitted lesson stock. The teacher led the agreed short session, with preparation covered by her ordinary school arrangement for this single event. Readers left at the named finish. The room did not acquire a second opening because the last pupil had thought of a better question.",
+      "next": "letters_watch_reserve_06"
+    },
+    "letters_watch_reserve_06": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "sun_nian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The clerk settled twelve copper against the performed inspection, attendant shifts and hired carriage arrangement. Where the short approach was usable, that carriage carried the offered material and readers who had accepted transport rather than becoming unused cover. The reserve session was complete. Remaining outstation bookings were canceled pending repair and new funding. Yue's proposal had preserved one afternoon of nearby reading. It had also spent the grant that might have moved the service or clarified a whole-term closure earlier.",
+      "next": "letters_watch_settlement_01"
+    },
+    "letters_watch_school_transfer_01": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "sun_nian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue proposed accepting the school as the public receiving point. The teacher and school board confirmed their offer in front of the archive clerk: three paid introductory sessions, then service only within the school's accepted ordinary hours. Six copper would pay transport and receiving; six would pay the teacher's additional preparation and three named sessions. The old annex would remain closed. The transfer changed where readers would go, rather than disguising a classroom as a repaired archive room.",
+      "next": "letters_watch_school_transfer_02"
+    },
+    "letters_watch_school_transfer_02": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "sun_nian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The school entrance had its own inspected road approach, separate from the damaged annex terrace. Sun could reach it by her existing village route, though the later afternoon hours suited her less well. She said she would try the first session before promising anything after it. The teacher kept that answer as an invitation response. Choosing the school would not grant the archive a new right to count Sun among every future audience.",
+      "next": "letters_watch_school_transfer_03"
+    },
+    "letters_watch_school_transfer_03": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "sun_nian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The clerk prepared a custody list for sound public reading stock actually available. Any damaged material stayed isolated under Tan's preservation decision and did not travel into a classroom. Where the original sixteen booklets had been saved, their permitted annotations would accompany them. Where they had been lost, the transfer would begin with the school's three already offered texts and an explicit loss record. New geography could improve access. It could not make the stock larger than it was.",
+      "next": "letters_watch_school_transfer_04"
+    },
+    "letters_watch_school_transfer_04": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "sun_nian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The school retained control of its lesson room and could end a session for its ordinary needs. Public readers would use the accepted side table, with its own receiving register. Household case originals remained at the archive and private notebooks with their owners. The teacher insisted on those lines before accepting the first crate. She wanted to help nearby readers. She did not want every unresolved claim arriving in the classroom because the word public had been painted above a cupboard.",
+      "next": "letters_watch_school_transfer_05"
+    },
+    "letters_watch_school_transfer_05": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "sun_nian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The paid carrier delivered the listed sound material to the school receiver, who checked it against the departure list. The teacher led the three funded introductory sessions on their named dates. Attendance varied. A woman who had never climbed to the mountain desk came twice, while an old outstation reader disliked sharing a room with pupils. Neither response invalidated the transfer. The service had changed its place, its company and its hours, and people were allowed to prefer differently.",
+      "next": "letters_watch_school_transfer_06"
+    },
+    "letters_watch_school_transfer_06": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo",
+        "sun_nian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The twelve-copper grant settled against the actual transport and teaching scopes. The school became the continuing public receiving location under its accepted ordinary schedule; the archive retained the source collection and qualified preservation work. Reversing that arrangement would require a new funded decision, not another sentence from Yue. The outstation bookings moved to the school's offered dates, and the old annex stayed closed. A local service survived by becoming something several former readers had not asked for.",
+      "next": "letters_watch_settlement_01"
+    },
+    "letters_watch_settlement_01": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Three weeks after the storm, the chosen service plan's receiving account reached Yue at the current address she had left. Its dates identified the actual performed work. Her storm-day returns shift had ended at the relief bell, and its four-copper wage had been paid once. The six-copper earlier appointment payment remained a separate completed line. No subsequent lesson, closure or transfer had quietly prolonged either job. The people performing those later tasks had their own accepted terms.",
+      "next": "letters_watch_settlement_02"
+    },
+    "letters_watch_settlement_02": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Luo enclosed a plain note with the account. He had finally understood that a canceled booking needed a receiving person as much as a delivered packet did. One reader had thought the missing reply meant the archive had rejected her question. Another had assumed the school transfer was compulsory enrollment. Their corrected notices had taken time. A clerk could prevent a false conclusion without being able to return the afternoon in which somebody had already believed it.",
+      "next": "letters_watch_settlement_03"
+    },
+    "letters_watch_settlement_03": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Tan's annex report remained attached to its closed-door notice. The fractured beam needed a funded qualified repair, and the ordinary board would decide whether to undertake it. The storm grant had not paid that work. The original house paper remained on its proper support at the mountain archive; the household kept its key and lawful occupation. A change to the outstation's reading service had no authority over that completed right. Yue read those lines before the account's smaller, harder losses.",
+      "next": "letters_watch_material_gate"
+    },
+    "letters_watch_material_gate": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The cover priority appeared beside the crew's signed work, with the later inspection attached. Yue followed that particular line through the receiving papers. The two canvas sheets had not multiplied after she chose. Their holes and strain remained on the storekeeper's condition tag, and the unselected services had their own recorded storm outcomes.",
+      "next": "letters_watch_final_gate",
+      "routes": [
+        {
+          "decision": "letters_watch_canvas_choice",
+          "selected": "letters_watch_cover_books_01",
+          "next": "letters_watch_material_books_01"
+        },
+        {
+          "decision": "letters_watch_canvas_choice",
+          "selected": "letters_watch_cover_path_01",
+          "next": "letters_watch_material_path_01"
+        },
+        {
+          "decision": "letters_watch_canvas_choice",
+          "selected": "letters_watch_cover_cart_01",
+          "next": "letters_watch_material_cart_01"
+        }
+      ]
+    },
+    "letters_watch_material_books_01": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The sixteen dry booklets could still be followed in the chosen plan's custody list. The teacher's permitted annotations survived, including the pupil's comparison between a gate and a stubborn goat. The outstation approach remained closed pending replacement of its storm-stripped tread coating. Sun's original canceled seat and He Xi's missed carriage were still in their actual accounts. A saved page had not earned the right to make those lost afternoons disappear.",
+      "next": "letters_watch_material_books_02"
+    },
+    "letters_watch_material_books_02": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The delayed return packets had been reissued from the permitted source copies and received on their new dates. The households could use them now, but one repair visitor had already gone to another village during the delay. He Xi's first booking had paid two copper, not four. Yue wrote the difference in her own recollection of the storm, where nobody could call her choice costless merely because the archive had eventually delivered a readable answer.",
+      "next": "letters_watch_final_gate"
+    },
+    "letters_watch_material_path_01": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The covered approach remained usable under its continuing ordinary checks. Its tread coating had survived the squall, and people could take the short route without borrowing a cart. Tan's condition decision classified the sixteen storm-soaked booklets as unusable for the public reading stock. The permitted teacher annotations would not be recounted as preserved evidence. The teacher had begun a new example in her next school lesson. It resembled the old one only because she was still herself.",
+      "next": "letters_watch_material_path_02"
+    },
+    "letters_watch_material_path_02": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The reissued return packets reached their owners on changed dates. One household had missed its preferred repair visitor in the interval. He Xi's canceled booking had paid two copper and left him without the other two he had expected. Sun could still use the short approach. None of those facts canceled another. Yue found it harder to remember her decision honestly when its visible success was a route she could simply walk across.",
+      "next": "letters_watch_final_gate"
+    },
+    "letters_watch_material_cart_01": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "he_xi"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The carrier's receipt confirmed that the original issued return packets had reached their named readers on the booked route. He Xi's completed delivery had paid four copper. Tan had classified the sixteen storm-soaked booklets as unusable, with their permitted annotations lost to the reading stock. The short approach remained closed until its stripped tread coating could be replaced. Sun's canceled next-morning seat remained on the attendance sheet, though a later service might offer another day.",
+      "next": "letters_watch_material_cart_02"
+    },
+    "letters_watch_material_cart_02": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "he_xi"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "He Xi sent a small note with Luo's receiving cover: the handsome cart wedge had survived, and he had bought beans after the paid delivery. It was the first message in the packet that made Yue smile without searching for a qualifying clause. She kept the note with her personal letters. It established nothing about the wisdom of her choice. A real supper could matter while the lost teaching examples and closed route still mattered.",
+      "next": "letters_watch_final_gate"
+    },
+    "letters_watch_final_gate": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The service plan's final receiving line came after the material outcome, because the later decision had been made with those conditions present. Yue read the dates together. An answer about the next public room did not change which cover the workers had installed during the storm. Both choices were now part of the account the next reader would inherit.",
+      "next": "letters_watch_end",
+      "routes": [
+        {
+          "decision": "letters_watch_service_choice",
+          "selected": "letters_watch_close_01",
+          "next": "letters_watch_close_result"
+        },
+        {
+          "decision": "letters_watch_service_choice",
+          "selected": "letters_watch_reserve_01",
+          "next": "letters_watch_reserve_result"
+        },
+        {
+          "decision": "letters_watch_service_choice",
+          "selected": "letters_watch_school_transfer_01",
+          "next": "letters_watch_transfer_result"
+        }
+      ]
+    },
+    "letters_watch_close_result": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The closure receipt listed every remaining rainy-term outstation booking as canceled. Ten copper had paid stock handling and actual notices; two had returned unused. The mountain table now held the public receiving role for those requests. Some former readers could not make that journey. Yue had chosen a definite ending to this term's nearby service, and its effects remained tied to the material she had first protected.",
+      "next": "letters_watch_end",
+      "routes": [
+        {
+          "decision": "letters_watch_canvas_choice",
+          "selected": "letters_watch_cover_books_01",
+          "next": "letters_watch_end_books_close"
+        },
+        {
+          "decision": "letters_watch_canvas_choice",
+          "selected": "letters_watch_cover_path_01",
+          "next": "letters_watch_end_path_close"
+        },
+        {
+          "decision": "letters_watch_canvas_choice",
+          "selected": "letters_watch_cover_cart_01",
+          "next": "letters_watch_end_cart_close"
+        }
+      ]
+    },
+    "letters_watch_reserve_result": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The twelve-copper reserve plan had produced one inspected reading in the sound waiting room, with its actual group and route. Its attendants and carriage had finished their accepted scopes. Every later outstation date remained canceled unless another funded plan passed new checks. The teacher had written the actual session's material and attendance beside its permission. Yue had preserved one occasion, whose size and contents still depended on the first cover.",
+      "next": "letters_watch_end",
+      "routes": [
+        {
+          "decision": "letters_watch_canvas_choice",
+          "selected": "letters_watch_cover_books_01",
+          "next": "letters_watch_end_books_reserve"
+        },
+        {
+          "decision": "letters_watch_canvas_choice",
+          "selected": "letters_watch_cover_path_01",
+          "next": "letters_watch_end_path_reserve"
+        },
+        {
+          "decision": "letters_watch_canvas_choice",
+          "selected": "letters_watch_cover_cart_01",
+          "next": "letters_watch_end_cart_reserve"
+        }
+      ]
+    },
+    "letters_watch_transfer_result": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The school receipt confirmed the public receiving location had moved there. Twelve copper had paid the accepted transport and three introductory sessions; future access used the school's actual ordinary hours. The old annex stayed closed, and returning service there would require another funded decision. Some former readers preferred the school, others disliked the hours. The transfer had inherited the storm's actual stock, rather than rescuing an alternative collection from another choice.",
+      "next": "letters_watch_end",
+      "routes": [
+        {
+          "decision": "letters_watch_canvas_choice",
+          "selected": "letters_watch_cover_books_01",
+          "next": "letters_watch_end_books_transfer"
+        },
+        {
+          "decision": "letters_watch_canvas_choice",
+          "selected": "letters_watch_cover_path_01",
+          "next": "letters_watch_end_path_transfer"
+        },
+        {
+          "decision": "letters_watch_canvas_choice",
+          "selected": "letters_watch_cover_cart_01",
+          "next": "letters_watch_end_cart_transfer"
+        }
+      ]
+    },
+    "letters_watch_end_books_close": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The saved sixteen booklets now waited at the mountain desk, dry and accurately listed. Their former nearby room had closed for the rainy term, and its short approach still awaited replacement treads. Sun could not use the collection there; He Xi's storm booking had paid two copper. Yue had preserved the lessons while choosing a future some intended readers could not reach. The familiar goat example survived on a page that would need another permitted reader.",
+      "next": "letters_watch_end"
+    },
+    "letters_watch_end_path_close": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The short approach stayed usable, but the outstation beyond it had closed for the rainy term. People could walk safely to a door that no longer offered their booked lessons. The sixteen ruined booklets stayed out of the reading stock; He Xi's canceled departure had paid two copper. Yue had protected access, then chosen to suspend the service it reached. The route would still serve ordinary village journeys, a smaller use that remained real.",
+      "next": "letters_watch_end"
+    },
+    "letters_watch_end_cart_close": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The return packets had arrived on their original dates, and He Xi had earned four copper for delivering them. The lost lesson booklets were not replaced by that success. The short approach stayed closed, and the board had ended the outstation's remaining rainy-term bookings. Nearby readers would have to reach the mountain desk or wait. Yue had chosen timely household answers and a definite service closure, leaving the teacher's lost examples without a local replacement room this term.",
+      "next": "letters_watch_end"
+    },
+    "letters_watch_end_books_reserve": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Four invited readers reached the reserve session by the hired longer-road carriage. They used the preserved booklets, and Sun heard the teacher's familiar goat example from her chosen chair. The short approach stayed closed; other households lacked places in that small group. He Xi's storm booking had paid two copper. The one session ended on time, and later outstation dates stayed canceled. Yue had saved the old lessons and one limited audience, leaving many readers waiting.",
+      "next": "letters_watch_end"
+    },
+    "letters_watch_end_path_reserve": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Eight readers reached the reserve session along the checked short approach or its offered carriage arrangement. The teacher used her three school texts, because the sixteen annotated booklets had been lost. Sun attended, but the old goat example was absent. He Xi's storm booking had paid two copper. The session ended without opening another date. Yue had kept a usable route and one broader audience, while accepting a reading made poorer by the stock she had not protected.",
+      "next": "letters_watch_end"
+    },
+    "letters_watch_end_cart_reserve": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Four invited readers reached the reserve session by the hired longer-road carriage and used the teacher's three school texts. Sun attended on that later date; her original missed seat was not rewritten. The sixteen annotated booklets were gone, and the short approach stayed closed. He Xi's timely dispatch had earned four copper. Yue had preserved the household delivery and bought one modest replacement reading. It did not restore the familiar lesson stock or the rest of the rainy term.",
+      "next": "letters_watch_end"
+    },
+    "letters_watch_end_books_transfer": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The school received the sixteen preserved booklets with their permitted annotations. Its three funded introductory sessions used the familiar examples, and public receiving continued in its ordinary accepted hours. The old outstation approach still awaited replacement treads; Sun used the separate village school route. He Xi's storm booking had paid two copper. Yue had preserved a collection and moved its audience into a different institution, whose timetable would now shape the readers' next questions.",
+      "next": "letters_watch_end"
+    },
+    "letters_watch_end_path_transfer": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The school's public side table began with its three shared texts and an explicit record of the sixteen lost booklets. Its accepted ordinary hours replaced the old outstation dates. The covered short approach stayed usable for village journeys, but it no longer led to an operating reading annex. He Xi's storm booking had paid two copper. Yue had kept a route and moved the service elsewhere, leaving the teacher to build examples that remembered loss without pretending to repair it.",
+      "next": "letters_watch_end"
+    },
+    "letters_watch_end_cart_transfer": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The school began public receiving with its three shared texts, while the sixteen storm-soaked booklets remained excluded from usable stock. Its accepted hours replaced the old outstation dates. The short approach stayed closed; the separate school route served the transferred sessions. He Xi's completed household dispatch had earned four copper. Yue had preserved timely replies and relocated the public service, with a thinner collection and a different timetable than the waiting readers had first expected.",
+      "next": "letters_watch_end"
+    },
+    "letters_watch_end": {
+      "chapter": "book_xviii_letters",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cast": [
+        "lin_yue",
+        "luo_zhimo"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue folded the receiving account and put it beside her own training book. Her fifth stage remained earned, with no new pair granted for reading an outcome she disliked. The household key stayed with its family; originals and private notebooks retained their actual owners. Outside, someone was fastening an ordinary window against another shower. The next choice would need its own people, time and means. These two had already changed what those people would find.",
+      "ending": "The Covers and the Receiving Date"
+    }
+  }
+}

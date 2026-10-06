@@ -39,7 +39,24 @@
       "actor": "lin_yue",
       "text": "There was someone here who renewed warnings before breakfast. At the drying yard the mat maker greeted them with the relief people show when an expected return becomes actual faces. He noticed Tuo's foot and wisely postponed the dance jokes. Han asked for the collective representatives before unloading the report case. Two women and a young man joined the table, bringing the unanswered quarry letters and a map marked with the spill's edge. Auntie Reed's northern work explained her absence; the others could speak for the present causeway and crop.",
       "background": "salt_desert_survey_camp",
-      "next": "desert_p12_004"
+      "next": "desert_p12_004",
+      "routes": [
+        {
+          "decision": "desert_dilemma_warning",
+          "selected": "desert_dilemma_warning_1",
+          "next": "aftermath_warning_diagram_001"
+        },
+        {
+          "decision": "desert_dilemma_warning",
+          "selected": "desert_dilemma_warning_2",
+          "next": "aftermath_warning_relay_001"
+        },
+        {
+          "decision": "desert_dilemma_warning",
+          "selected": "desert_dilemma_warning_3",
+          "next": "aftermath_warning_bulletin_001"
+        }
+      ]
     },
     "desert_p12_004": {
       "chapter": "book_xvi_desert",

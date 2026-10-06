@@ -70,11 +70,13 @@ def validate(root=ROOT, verify_source=False):
         node = story["nodes"][key]
         queue.extend(node[field] for field in ("next", "continuation") if field in node)
         queue.extend(c["next"] for c in node.get("choices", []))
+        queue.extend(route["next"] for route in node.get("routes", []))
     assert seen == set(story["nodes"]), "All integrated scenes must be reachable"
     incoming = dict.fromkeys(story["nodes"], 0)
     def destinations(node):
         return ([node[f] for f in ("next", "continuation") if f in node]
-                + [c["next"] for c in node.get("choices", [])])
+                + [c["next"] for c in node.get("choices", [])]
+                + [route["next"] for route in node.get("routes", [])])
     for node in story["nodes"].values():
         for destination in destinations(node):
             incoming[destination] += 1
@@ -89,7 +91,7 @@ def validate(root=ROOT, verify_source=False):
                 ready.append(destination)
     assert processed == len(story["nodes"]), "Completion-aware capped traversal requires an acyclic campaign"
     assert authored_word_count(story) >= 1000001
-    assert len(story["chapters"]) == 17
+    assert set(["book_i","book_ii","book_iii","book_iv","book_ix","book_v","book_vi","book_vii","book_viii","book_x_storm_ledger","book_xi_salt_road","book_xii_canal","book_xiii_forest","book_xiv_harbor","book_xv_kiln","book_xvi_desert","book_xvii_archive"]) <= set(story["chapters"]), "Preserve every original delivered chapter"
     for key in ("forest_24_005", "desert_p24_005", "archive_25_006"):
         choices = story["nodes"][key]["choices"]
         assert {k for c in choices for k in c.get("requires", {})} == {"qi", "trust", "insight", "resolve"}

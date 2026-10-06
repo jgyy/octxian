@@ -276,7 +276,8 @@
         "stage": "5: Four pairs"
       },
       "text": "The archive's winter question had reached a real house door, a usable school path and a family holding its own key. The next questions would have their own dates and people. Lin retained an earned fifth stage and a clearer account of what her four trained capacities could do. The collection belonged to its keepers and owners. Her next small action belonged to her.",
-      "ending": "The Key and the Next Morning"
+      "ending": "The Key and the Next Morning",
+      "continuation": "letters_return_entry"
     },
     "archive_25_role_help": {
       "chapter": "book_xvii_archive",
@@ -315,7 +316,34 @@
         "stage": "5: Four pairs"
       },
       "text": "On the covered walk, lantern keeper Lan Fen was checking a cold lamp's latch. She asked Lin to hold the bronze body steady, then tested the hinge herself. Lin kept both hands on the base until the keeper finished. Lan wrote and signed the check on her maintenance tag before returning her own brushes to the leather pouch. She carried the lamp indoors; Lin went back to Sun beside the plum tree.",
-      "next": "archive_25_close_1"
+      "next": "archive_25_close_1",
+      "routes": [
+        {
+          "decision": "archive_25_006",
+          "selected": "archive_25_role_insight",
+          "next": "aftermath_archive_reference_001"
+        },
+        {
+          "decision": "archive_25_006",
+          "selected": "archive_25_role_qi",
+          "next": "aftermath_archive_instruments_001"
+        },
+        {
+          "decision": "archive_25_006",
+          "selected": "archive_25_role_resolve",
+          "next": "aftermath_archive_movement_001"
+        },
+        {
+          "decision": "archive_25_006",
+          "selected": "archive_25_role_trust",
+          "next": "aftermath_archive_commitment_001"
+        },
+        {
+          "decision": "archive_25_006",
+          "selected": "archive_25_role_help",
+          "next": "aftermath_archive_home_001"
+        }
+      ]
     }
   }
 }
