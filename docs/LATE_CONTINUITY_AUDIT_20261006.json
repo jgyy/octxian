@@ -1,0 +1,377 @@
+{
+  "schema": 1,
+  "source_commit": "1bb309ba5cc8621673a041e80b91cf38414af8cb",
+  "classification_note": "Recurring identity or chronology contradictions are counted once per underlying defect; affected source passages are counted separately. Scanned checks are not findings. These prose corrections do not claim plot-armor repairs.",
+  "review_scope": {
+    "books": [
+      "XIII",
+      "XIV",
+      "XV",
+      "XVI",
+      "XVII",
+      "XVIII"
+    ],
+    "files_read": 129,
+    "scenes_loaded": 8705,
+    "inspected_checks_not_counted": [
+      "Desert three water ledgers reconcile.",
+      "Second desert expedition staffing excludes Han consistently.",
+      "Archive calf injury requires assessment, gradual clearance and followup.",
+      "Archive winter/spring appropriations reconcile.",
+      "Unchosen archive investigations reach Yue through named source reports.",
+      "Forest 94+26 and70+50 access packages each use exactly120 and remain exclusive.",
+      "Forest supplemental meal reserve arithmetic reconciles across80/60/30servings.",
+      "Forest knife interruption leaves injury, qualified restraint and separate legal consequences rather than cultivation gains.",
+      "No conflicting Wen Zhi character bio, world asset metadata or continuity fact exists."
+    ],
+    "loading_note": "All 129 full book JSON files were fetched and parsed. Narrative review targeted passages involving identity, injury, staffing, knowledge and numerical continuity; these loaded counts do not claim a close reading of every scene.",
+    "loaded_subsets": [
+      {
+        "books": [
+          "XIII",
+          "XIV",
+          "XV",
+          "XVIII"
+        ],
+        "files": 80,
+        "scenes": 5349,
+        "displayed_words": 490135
+      },
+      {
+        "books": [
+          "XVI"
+        ],
+        "files": 24,
+        "scenes": 1784
+      },
+      {
+        "books": [
+          "XVII"
+        ],
+        "files": 25,
+        "scenes": 1572
+      }
+    ]
+  },
+  "confirmed_defects": [
+    {
+      "id": "LATE-001",
+      "kind": "character_identity_contradiction",
+      "finding": "The same Wen Zhi changes from he/him/man to she/her/woman without a change of person or explained transition, while the six tubs, T4, late brother and workshop remain identical.",
+      "evidence": [
+        {
+          "path": "data/books/book_xiv_harbor_05.json",
+          "node_id": "harbor_p05_009",
+          "text": "The crew fitted the higher tackle while Sui Yan supervised the handling precautions. The tubs had been cleared for controlled movement, but residue on the lower surfaces still required protection and separation. An ordinary worker read each container mark aloud to the inventory clerk. Wen Zhi stood in the public viewing place with his old maker's drawing. Miao stood beside him, holding the merchant's invoices. Their rivalry had become a strange partnership of watching. Each feared the other's tub would disappear under a description nobody could challenge afterward."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_07.json",
+          "node_id": "harbor_p07_058",
+          "text": "Wen showed an older maker's mark cut by his brother. He kept the drawing because memory became unreliable after death. His brother died years earlier from fever; tools passed through ordinary family division. Wen chose containers over boats because they stayed in one place. T4's ordeal offended that reason as well as his account. He Ming listened gently. The private story did not enlarge accepted damages or change title. It made the man at the angry window easier to understand. Yue saw how many people's practical choices were built around grief no public notice ever had reason to explain."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_13.json",
+          "node_id": "harbor_p13_013",
+          "text": "The first evacuation group came from three low workshops. Wen Zhi walked beside her empty tubs, which remained stacked at her own premises after their earlier return. She had chosen to leave them on a raised platform rather than pay somebody to carry six bulky containers into a crowded shelter. She wore her brother's old scarf and disliked how pleased a neighbor looked to offer help. At the lane entrance she stopped to check that the workshop lock had caught. Yan gave her time to look from the safe side. Then she left, without taking the risk back."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_24.json",
+          "node_id": "harbor_p24_024",
+          "text": "At Wen's workshop, the ordinary rack held a sound modest load. Yue had come by invitation to drink tea, not inspect the repair after its claim closed. Wen asked whether the traveler wanted a tub as a parting gift. Yue stared until the woman laughed. She had chosen the largest container for the joke. The habitual pack could not contain it, and no gift was actually offered. They drank tea and discussed Wen's next private order. The workshop would stay busy after the public case became somebody else's story. Wen hoped it became a shorter story soon."
+        }
+      ],
+      "fix": "Preserve the initially established male identity in later recurring references; retain other characters' pronouns.",
+      "affected_source_sites": 21,
+      "repairs": [
+        {
+          "path": "data/books/book_xiv_harbor_13.json",
+          "node_id": "harbor_p13_013",
+          "before": "The first evacuation group came from three low workshops. Wen Zhi walked beside her empty tubs, which remained stacked at her own premises after their earlier return. She had chosen to leave them on a raised platform rather than pay somebody to carry six bulky containers into a crowded shelter. She wore her brother's old scarf and disliked how pleased a neighbor looked to offer help. At the lane entrance she stopped to check that the workshop lock had caught. Yan gave her time to look from the safe side. Then she left, without taking the risk back.",
+          "after": "The first evacuation group came from three low workshops. Wen Zhi walked beside his empty tubs, which remained stacked at his own premises after their earlier return. He had chosen to leave them on a raised platform rather than pay somebody to carry six bulky containers into a crowded shelter. He wore his brother's old scarf and disliked how pleased a neighbor looked to offer help. At the lane entrance he stopped to check that the workshop lock had caught. Yan gave him time to look from the safe side. Then he left, without taking the risk back."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_14.json",
+          "node_id": "harbor_p14_021",
+          "before": "Across the quay, Wen Zhi found water beneath two stacked tubs and a crack in the workshop door frame. The containers themselves were sound. Her late brother's maker marks looked darker when wet, as if somebody had recently cut them. She cleaned them with the cloth he once used and disliked the sudden memory. Peng Li had a paid repair slot available after his current job. Wen accepted the quote, then asked him to leave the old hinge if it still worked. He examined it and said it did. An original thing could remain without pretending damage had never happened.",
+          "after": "Across the quay, Wen Zhi found water beneath two stacked tubs and a crack in the workshop door frame. The containers themselves were sound. His late brother's maker marks looked darker when wet, as if somebody had recently cut them. He cleaned them with the cloth he once used and disliked the sudden memory. Peng Li had a paid repair slot available after his current job. Wen accepted the quote, then asked him to leave the old hinge if it still worked. He examined it and said it did. An original thing could remain without pretending damage had never happened."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_14.json",
+          "node_id": "harbor_p14_022",
+          "before": "Peng's plane came from the same lender who had approved its earlier use, under a renewed ordinary loan with a return day. Yue saw him carrying it wrapped against the remaining rain. He complained that the harbor was now full of doors wanting attention at the same time. She asked which door was least patient. He said every owner believed it was theirs. Wen overheard and said hers had been waiting decades for a carpenter with manners. The three of them laughed. Nobody needed the joke to settle the price or transfer a borrowed tool into anyone's permanent pack.",
+          "after": "Peng's plane came from the same lender who had approved its earlier use, under a renewed ordinary loan with a return day. Yue saw him carrying it wrapped against the remaining rain. He complained that the harbor was now full of doors wanting attention at the same time. She asked which door was least patient. He said every owner believed it was theirs. Wen overheard and said his had been waiting decades for a carpenter with manners. The three of them laughed. Nobody needed the joke to settle the price or transfer a borrowed tool into anyone's permanent pack."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_16.json",
+          "node_id": "harbor_p16_001",
+          "before": "Fresh paint covered the storm mark on the commercial office's door during the eighteenth week. It smelled sharp enough to make people wait outside despite the morning. Song An's clerk opened the upper shutters and arranged the hearing room for the supported transfer findings. Wen Zhi arrived with no tub in her hands because all six were already home. Miao carried his agency papers. Lu Cheng came in work clothes before his next ordinary haul. Yue attended during a scheduled half-day to compare the public explanation with the sources she had actually seen. Nobody looked eager for a ceremonial conclusion.",
+          "after": "Fresh paint covered the storm mark on the commercial office's door during the eighteenth week. It smelled sharp enough to make people wait outside despite the morning. Song An's clerk opened the upper shutters and arranged the hearing room for the supported transfer findings. Wen Zhi arrived with no tub in his hands because all six were already home. Miao carried his agency papers. Lu Cheng came in work clothes before his next ordinary haul. Yue attended during a scheduled half-day to compare the public explanation with the sources she had actually seen. Nobody looked eager for a ceremonial conclusion."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_16.json",
+          "node_id": "harbor_p16_003",
+          "before": "Song's findings identified Miao's signed conflicting instruction, the separated condition leaf, Lu Cheng's decision to proceed despite the hold notice and the failed gate comparison. The commercial office found supported breaches of the stated transfer conditions and careless handling duties. It did not find proof of an intentional plan to steal all six containers. Wen heard the narrower words and frowned. To her, the missing T4 had felt like a hand inside her home. The finding described what could be shown about the act, which was different from measuring the fear she had lived through.",
+          "after": "Song's findings identified Miao's signed conflicting instruction, the separated condition leaf, Lu Cheng's decision to proceed despite the hold notice and the failed gate comparison. The commercial office found supported breaches of the stated transfer conditions and careless handling duties. It did not find proof of an intentional plan to steal all six containers. Wen heard the narrower words and frowned. To him, the missing T4 had felt like a hand inside his home. The finding described what could be shown about the act, which was different from measuring the fear he had lived through."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_16.json",
+          "node_id": "harbor_p16_006",
+          "before": "Wen asked whether the phrase careless handling made the men sound merely clumsy. Song explained the specific duties and consequences recorded: the conflicting dispatch had to be corrected in the merchant's operating terms, the store's leaf custody needed a paired receipt, and future carriers could not rely on an unsigned exception to the hold. The competent bodies had their own compliance dates and review routes. Employment consequences remained with the proper employer and applicable process. Wen listened, then said she wanted the public summary to name the supported failures clearly. The clerk agreed to preserve the specific acts.",
+          "after": "Wen asked whether the phrase careless handling made the men sound merely clumsy. Song explained the specific duties and consequences recorded: the conflicting dispatch had to be corrected in the merchant's operating terms, the store's leaf custody needed a paired receipt, and future carriers could not rely on an unsigned exception to the hold. The competent bodies had their own compliance dates and review routes. Employment consequences remained with the proper employer and applicable process. Wen listened, then said he wanted the public summary to name the supported failures clearly. The clerk agreed to preserve the specific acts."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_16.json",
+          "node_id": "harbor_p16_009",
+          "before": "The storeman's employer required him to complete the paired-leaf training and gave the custody duty to another worker until the documented review was complete. He said this made him look untrustworthy in front of people he had worked beside for years. Wen replied that her tub had looked unclaimed in front of the same people. The room fell quiet. Song asked both to keep to the supported question. Yue wished the remark could have resolved something because it felt exact. It did not. Two people left with different humiliations, and the business still needed a person to receive tomorrow's papers.",
+          "after": "The storeman's employer required him to complete the paired-leaf training and gave the custody duty to another worker until the documented review was complete. He said this made him look untrustworthy in front of people he had worked beside for years. Wen replied that his tub had looked unclaimed in front of the same people. The room fell quiet. Song asked both to keep to the supported question. Yue wished the remark could have resolved something because it felt exact. It did not. Two people left with different humiliations, and the business still needed a person to receive tomorrow's papers."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_16.json",
+          "node_id": "harbor_p16_011",
+          "before": "Wen went straight to her workshop and checked T4's maker mark again. Peng Li's repaired door closed properly behind her. The tub stood where she had always intended it to stand, useful for trade and freighted with memories. Yue stopped by as a friend. Wen asked whether the hearing had made her sound unreasonable. Yue said wanting the specific failures named was reasonable. Wen asked about the rest. The visitor answered that fear did not have to become a winning claim before it counted as fear. Wen poured tea and said that answer would do for today.",
+          "after": "Wen went straight to his workshop and checked T4's maker mark again. Peng Li's repaired door closed properly behind him. The tub stood where he had always intended it to stand, useful for trade and freighted with memories. Yue stopped by as a friend. Wen asked whether the hearing had made him sound unreasonable. Yue said wanting the specific failures named was reasonable. Wen asked about the rest. The visitor answered that fear did not have to become a winning claim before it counted as fear. Wen poured tea and said that answer would do for today."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_16.json",
+          "node_id": "harbor_p16_031",
+          "before": "The public transfer summary reached the tea stall, where somebody immediately shortened it into a tale of four villains stealing one tub. Wen heard the version and corrected the number before correcting the accusation. All six containers had been held under the loan; one improper transfer was the supported event, and intentional theft had not been established. The storyteller accused her of defending men she had blamed. Wen said she was defending her own account from becoming entertainment. Miao, seated nearby, looked at his bowl and let her finish. He did not try to make her accuracy sound like forgiveness.",
+          "after": "The public transfer summary reached the tea stall, where somebody immediately shortened it into a tale of four villains stealing one tub. Wen heard the version and corrected the number before correcting the accusation. All six containers had been held under the loan; one improper transfer was the supported event, and intentional theft had not been established. The storyteller accused him of defending men he had blamed. Wen said he was defending his own account from becoming entertainment. Miao, seated nearby, looked at his bowl and let him finish. He did not try to make his accuracy sound like forgiveness."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_16.json",
+          "node_id": "harbor_p16_032",
+          "before": "Afterward Wen told Yue she disliked having to protect the finding from people who claimed to support her. Yue said a person could believe the wrong version for generous reasons and still need correcting. Wen grumbled that generosity ought to come with better ears. She returned to her workshop, where T4 needed an ordinary cleaning before the next permitted use. The tub's practical life would continue long after the hearing became a story people told inaccurately. Wen had no wish to spend that whole life repeating the same afternoon. She posted the precise summary and went back to work.",
+          "after": "Afterward Wen told Yue he disliked having to protect the finding from people who claimed to support him. Yue said a person could believe the wrong version for generous reasons and still need correcting. Wen grumbled that generosity ought to come with better ears. He returned to his workshop, where T4 needed an ordinary cleaning before the next permitted use. The tub's practical life would continue long after the hearing became a story people told inaccurately. Wen had no wish to spend that whole life repeating the same afternoon. He posted the precise summary and went back to work."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_18.json",
+          "node_id": "harbor_p18_005",
+          "before": "At the damaged yard, Peng Li inspected the surviving door frames under the cleared recovery task. His carpenter's work would wait on the structural examiner for the unsafe span. He carried his own adze and the lender's plane under a renewed dated loan, not tools Yue had somehow acquired by knowing him. Wen Zhi came to identify one ordinary rack she had lent before the fire. Its top was damaged; its maker's mark remained visible. Peng asked whether she wanted it repaired or assessed as lost. Wen said she first wanted somebody to ask whose rack it was.",
+          "after": "At the damaged yard, Peng Li inspected the surviving door frames under the cleared recovery task. His carpenter's work would wait on the structural examiner for the unsafe span. He carried his own adze and the lender's plane under a renewed dated loan, not tools Yue had somehow acquired by knowing him. Wen Zhi came to identify one ordinary rack he had lent before the fire. Its top was damaged; its maker's mark remained visible. Peng asked whether he wanted it repaired or assessed as lost. Wen said she first wanted somebody to ask whose rack it was."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_18.json",
+          "node_id": "harbor_p18_029",
+          "before": "Peng used that access to repair the cleared door rack and protective covering. Wen checked her lent rack after assessment and chose a supported ordinary repair rather than replacement. The carpenter quoted the work separately to the proper owner or responsible payer as the claim process required. Yue passed with her familiar cup and was asked to hold the door only from the safe side while a light empty frame moved through. She did so with ordinary hands, after the worker's direction. Then she stepped clear. Small help could belong to an afternoon without making her the rebuilding project's authority.",
+          "after": "Peng used that access to repair the cleared door rack and protective covering. Wen checked his lent rack after assessment and chose a supported ordinary repair rather than replacement. The carpenter quoted the work separately to the proper owner or responsible payer as the claim process required. Yue passed with her familiar cup and was asked to hold the door only from the safe side while a light empty frame moved through. She did so with ordinary hands, after the worker's direction. Then she stepped clear. Small help could belong to an afternoon without making her the rebuilding project's authority."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_18.json",
+          "node_id": "harbor_p18_038",
+          "before": "Wen's rack repair restored its intended ordinary load rating after the carpenter's check. A charred upper strip was replaced rather than painted into looking sound. Wen kept the old maker-marked lower rail because its condition allowed reuse. She touched it once before the crew moved the rack back through the agreed access. Peng asked whether she wanted the discarded strip. She thought about keeping every burned fragment because her brother had made the rack. Then she said no. The rail remained useful, and the discarded wood did not have to become another object she carried around grief.",
+          "after": "Wen's rack repair restored its intended ordinary load rating after the carpenter's check. A charred upper strip was replaced rather than painted into looking sound. Wen kept the old maker-marked lower rail because its condition allowed reuse. He touched it once before the crew moved the rack back through the agreed access. Peng asked whether he wanted the discarded strip. He thought about keeping every burned fragment because his brother had made the rack. Then he said no. The rail remained useful, and the discarded wood did not have to become another object he carried around grief."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_19.json",
+          "node_id": "harbor_p19_005",
+          "before": "Wen's rack repair had cost seven under Peng's separate supported quote. The loss account paid that repair source directly with her consent, rather than pay seven to her and seven again to the carpenter. Its maker-marked sound lower rail remained in use, and the replaced strip met the checked ordinary rating. The three remedies totaled sixty: forty-four, nine and seven. Twenty remained held under the stated notice terms for unresolved eligible claims. Hao's steward asked to recover it immediately. The custodian pointed to the notice interval and kept the twenty where the approved process said it belonged.",
+          "after": "Wen's rack repair had cost seven under Peng's separate supported quote. The loss account paid that repair source directly with his consent, rather than pay seven to him and seven again to the carpenter. Its maker-marked sound lower rail remained in use, and the replaced strip met the checked ordinary rating. The three remedies totaled sixty: forty-four, nine and seven. Twenty remained held under the stated notice terms for unresolved eligible claims. Hao's steward asked to recover it immediately. The custodian pointed to the notice interval and kept the twenty where the approved process said it belonged."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_19.json",
+          "node_id": "harbor_p19_007",
+          "before": "Wen laughed and showed He Ming the repaired joint. She said she was relieved the carpenter had not pretended the burned wood was sound. The replacement strip looked pale beside the old rail, which made her brother's mark appear darker. She might oil it later under the carpenter's advice. For now she wanted the difference visible. He Ming thought about her room's smoke-streaked gull and did not announce a comparison. They drank tea from Wen's ordinary cups. The rack held a modest load nearby, fulfilling a practical purpose that did not require its owner to stop remembering the fire.",
+          "after": "Wen laughed and showed He Ming the repaired joint. He said he was relieved the carpenter had not pretended the burned wood was sound. The replacement strip looked pale beside the old rail, which made his brother's mark appear darker. He might oil it later under the carpenter's advice. For now he wanted the difference visible. He Ming thought about her room's smoke-streaked gull and did not announce a comparison. They drank tea from Wen's ordinary cups. The rack held a modest load nearby, fulfilling a practical purpose that did not require its owner to stop remembering the fire."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_21.json",
+          "node_id": "harbor_p21_039",
+          "before": "Peng offered to examine the shop's stool only if its owner requested a repair task. Fen said she could pass that offer on; she had no authority to hire him for the aunt. He accepted the answer and asked whether the cake came with a report. The boy handed him a piece too thin to support inspection. Peng ate it and pronounced the contents sound. Wen, arriving after her workshop closed, brought an orange and complained that every carpenter in the harbor believed he could judge pastry. Peng said pastry rarely required a plane, which made it merciful work.",
+          "after": "Peng offered to examine the shop's stool only if its owner requested a repair task. Fen said she could pass that offer on; she had no authority to hire him for the aunt. He accepted the answer and asked whether the cake came with a report. The boy handed him a piece too thin to support inspection. Peng ate it and pronounced the contents sound. Wen, arriving after his workshop closed, brought an orange and complained that every carpenter in the harbor believed he could judge pastry. Peng said pastry rarely required a plane, which made it merciful work."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_23.json",
+          "node_id": "harbor_p23_028",
+          "before": "Before the council posted its decision, Yue spent a private afternoon with Wen at the repaired workshop doorway. Wen had no new claim for her, only a stubborn lid and an opinion about the committee. She wanted the repair pilot because she distrusted cupboards that made people feel busy without touching wood. Yue asked whether Wen had read the registry description. She had, and resented it being more useful than she wished. The two women laughed. Wen put the sound lid on its tub, then took it off again because the fit required one ordinary adjustment from the correct maker.",
+          "after": "Before the council posted its decision, Yue spent a private afternoon with Wen at the repaired workshop doorway. Wen had no new claim for her, only a stubborn lid and an opinion about the committee. He wanted the repair pilot because she distrusted cupboards that made people feel busy without touching wood. Yue asked whether Wen had read the registry description. He had, and resented it being more useful than she wished. The two friends laughed. Wen put the sound lid on its tub, then took it off again because the fit required one ordinary adjustment from the correct maker."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_23.json",
+          "node_id": "harbor_p23_029",
+          "before": "The maker's apprentice arrived with employer permission and the tool for the task. He checked the lid against the tub instead of striking whichever edge looked proud. Wen wanted to help and was told to stand clear of the tool. She complied, muttering that customers had become decorative. Yue sat nearby drinking tea and offered no cultivation solution to a fitting she did not know how to judge. When the lid settled properly, Wen paid the price. The apprentice thanked her, returned the borrowed tool to his task bag and left with a story about a very argumentative customer.",
+          "after": "The maker's apprentice arrived with employer permission and the tool for the task. He checked the lid against the tub instead of striking whichever edge looked proud. Wen wanted to help and was told to stand clear of the tool. He complied, muttering that customers had become decorative. Yue sat nearby drinking tea and offered no cultivation solution to a fitting she did not know how to judge. When the lid settled properly, Wen paid the price. The apprentice thanked him, returned the borrowed tool to his task bag and left with a story about a very argumentative customer."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_23.json",
+          "node_id": "harbor_p23_030",
+          "before": "Wen told Yue her brother used to let her argue while he worked because it helped him notice which part she would complain about later. She wondered whether remembering him that way was unfair. He had been quieter in company and sharper at home. Yue said she liked hearing a real brother more than an impossibly patient maker. Wen laughed and said patience had never been his advertised service. She ran a hand over the old mark on the tub.",
+          "after": "Wen told Yue his brother used to let him argue while he worked because it helped him notice which part he would complain about later. He wondered whether remembering him that way was unfair. He had been quieter in company and sharper at home. Yue said she liked hearing a real brother more than an impossibly patient maker. Wen laughed and said patience had never been his advertised service. He ran a hand over the old mark on the tub."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_24.json",
+          "node_id": "harbor_p24_024",
+          "before": "At Wen's workshop, the ordinary rack held a sound modest load. Yue had come by invitation to drink tea, not inspect the repair after its claim closed. Wen asked whether the traveler wanted a tub as a parting gift. Yue stared until the woman laughed. She had chosen the largest container for the joke. The habitual pack could not contain it, and no gift was actually offered. They drank tea and discussed Wen's next private order. The workshop would stay busy after the public case became somebody else's story. Wen hoped it became a shorter story soon.",
+          "after": "At Wen's workshop, the ordinary rack held a sound modest load. Yue had come by invitation to drink tea, not inspect the repair after its claim closed. Wen asked whether the traveler wanted a tub as a parting gift. Yue stared until the lender laughed. He had chosen the largest container for the joke. The habitual pack could not contain it, and no gift was actually offered. They drank tea and discussed Wen's next private order. The workshop would stay busy after the public case became somebody else's story. Wen hoped it became a shorter story soon."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_24.json",
+          "node_id": "harbor_p24_025",
+          "before": "Peng arrived to examine a future door task under an actual customer inquiry. He asked Wen why the traveler looked suspicious. She said Yue feared being given a tub. The carpenter said a lid would be more portable and equally unwelcome. They laughed. He kept the future task separate from work already paid and returned no borrowed tool to the wrong owner. Yue watched him measure and then left before the ordinary work became another reason to stay. The afternoon belonged to private visits, whose timing she could choose because the roster named only two bounded half-days this week.",
+          "after": "Peng arrived to examine a future door task under an actual customer inquiry. He asked Wen why the traveler looked suspicious. He said Yue feared being given a tub. The carpenter said a lid would be more portable and equally unwelcome. They laughed. He kept the future task separate from work already paid and returned no borrowed tool to the wrong owner. Yue watched him measure and then left before the ordinary work became another reason to stay. The afternoon belonged to private visits, whose timing she could choose because the roster named only two bounded half-days this week."
+        }
+      ],
+      "canonical_metadata_check": {
+        "world_asset_matches": 0,
+        "character_bio_matches": 0,
+        "continuity_fact_matches": 0,
+        "decision": "Retain initially established he/him/man; same named lender and six-tub/T4/brother/workshop anchors identify one person. Preserve other women's pronouns."
+      }
+    },
+    {
+      "id": "LATE-002",
+      "kind": "character_identity_contradiction",
+      "finding": "A boy repeatedly identified with he/his is assigned her twice inside the same follow-up paragraph alongside He/His.",
+      "evidence": [
+        {
+          "path": "data/books/book_xiii_forest_08.json",
+          "node_id": "forest_08_060",
+          "text": "The clinic assistant met them at the shelter. The boy was conscious but shivering violently, his wet clothes stiffening at the edges. She directed the team to move him gently into the warmer room, remove the wet layers with privacy, and use the available dry insulation while she assessed him. Nobody asked him to explain himself first. His grandmother sat outside the screen, gripping the spare rope so tightly that Lin had to offer her a cloth before the strands cut her palm."
+        },
+        {
+          "path": "data/books/book_xiii_forest_09.json",
+          "node_id": "forest_09_001",
+          "text": "In the clinic, the boy slept through the morning while his grandmother counted the knots in the spare rope. The assistant had checked him repeatedly overnight. His alertness and warmth had improved, but the toes injured by cold would need time before their recovery could be judged. Lin brought breakfast for the grandmother from the ordinary family-support allotment. The old woman ate standing until the assistant pointed firmly at the chair. Lin recognized the gesture from Shi Lan's lunches."
+        },
+        {
+          "path": "data/books/book_xiii_forest_17.json",
+          "node_id": "forest_17_027",
+          "text": "The child injured in the earlier ditch fall came to the clinic for her scheduled review. He could walk farther now, but the affected foot still ached after cold journeys. The clinician changed her ordinary protection and activity advice, explaining which symptoms required another visit. His father asked whether the spring road would solve it. The clinician said warmer weather could help without promising an exact end to pain. Lin brought the family their accepted next wood-carrying slot. The child showed Lin a paper bird with one wing wider than the other and said it flew best sideways."
+        }
+      ],
+      "fix": "Use his for both references to the boy.",
+      "affected_source_sites": 1,
+      "repairs": [
+        {
+          "path": "data/books/book_xiii_forest_17.json",
+          "node_id": "forest_17_027",
+          "before": "The child injured in the earlier ditch fall came to the clinic for her scheduled review. He could walk farther now, but the affected foot still ached after cold journeys. The clinician changed her ordinary protection and activity advice, explaining which symptoms required another visit. His father asked whether the spring road would solve it. The clinician said warmer weather could help without promising an exact end to pain. Lin brought the family their accepted next wood-carrying slot. The child showed Lin a paper bird with one wing wider than the other and said it flew best sideways.",
+          "after": "The child injured in the earlier ditch fall came to the clinic for his scheduled review. He could walk farther now, but the affected foot still ached after cold journeys. The clinician changed his ordinary protection and activity advice, explaining which symptoms required another visit. His father asked whether the spring road would solve it. The clinician said warmer weather could help without promising an exact end to pain. Lin brought the family their accepted next wood-carrying slot. The child showed Lin a paper bird with one wing wider than the other and said it flew best sideways."
+        }
+      ]
+    },
+    {
+      "id": "LATE-003",
+      "kind": "health_chronology_contradiction",
+      "finding": "The child is discharged and living at home in Book XIII section10, then returns for ordinary checks in11; section12 repeats first discharge and need for a larger boot without any intervening readmission, although that boot is already in use.",
+      "evidence": [
+        {
+          "path": "data/books/book_xiii_forest_10.json",
+          "node_id": "forest_10_039",
+          "text": "At the clinic, the boy was cleared for discharge under an ordinary home-care plan when the household could provide warmth, clean dressings, and the advised reduced movement. His grandmother and mother arranged those conditions with the assistant. He would return for checks; lasting damage to the toes remained uncertain. Wen delivered the larger boot's fitting appointment, which would wait until swelling settled. The boy asked whether that meant he had to remain barefoot forever. The assistant said forever was not today's instruction."
+        },
+        {
+          "path": "data/books/book_xiii_forest_10.json",
+          "node_id": "forest_10_040",
+          "text": "Lin helped carry the family's bags for the homeward cart, leaving the medical tasks to those assigned. The boy sat wrapped beside his grandmother and waved at the paper dog, whose guardian had reclaimed it after the visit. The niece waved the dog back. The cart moved by the safe lower route. In the shelter, the closed shortcut board stayed where it belonged. A child going home did not make the ditch repaired. It did make the clinic room ready for the next person needing warmth."
+        },
+        {
+          "path": "data/books/book_xiii_forest_10.json",
+          "node_id": "forest_10_064",
+          "text": "Before the convoy week, Long visited the boy's household to ask whether the borrowed handcart had met the revised carrier demand. He brought the clerk responsible for its schedule, ready to hear the practical answer. The grandmother said the cart worked and the first loading point still grew icy. The clerk noted the need for grit there. The boy showed Long his new larger boot, not yet worn outside. Long admired it with the solemnity he usually gave scales."
+        },
+        {
+          "path": "data/books/book_xiii_forest_11.json",
+          "node_id": "forest_11_030",
+          "text": "At the clinic, the boy from the ditch had returned for his scheduled check. He recognized the new patient as a driver because of the dust on his coat and wanted to hear about the wagon. The assistant permitted a short conversation after both were settled. The driver described the horse rather than the nearly overturned grain. The boy described his larger boot. They compared injuries with the grave competitiveness of people whose immediate universe had narrowed to a badly behaved limb."
+        },
+        {
+          "path": "data/books/book_xiii_forest_12.json",
+          "node_id": "forest_12_048",
+          "text": "At the clinic, the cold-injured boy was finally preparing to go home under the assistant's plan. His warmth and general condition were stable, but the foot still needed protected care and a larger soft boot. The family received the actual follow-up dates and warning signs, not a declaration that winter had left no mark. The grandmother had arranged the stove help and carried wood turn. Lin brought the paper dog with the niece's renewed permission, and the boy gave it a place beside the boot."
+        },
+        {
+          "path": "data/books/book_xiii_forest_12.json",
+          "node_id": "forest_12_050",
+          "text": "When the boy left the clinic, the assistant's paid family-support turn ended under its terms. Home care continued through the family's own arrangements and the scheduled follow-up. The grandmother carried the instructions in a covered fold, the same hands that had once clenched the rope now careful with a page. Lin helped move the bedding to the cart. The boy waved from his wrapped seat. She waved back, relieved enough to feel the remaining uncertainty more sharply rather than less."
+        }
+      ],
+      "fix": "Describe a completed scheduled followup and return home with his existing larger boot; keep continuing medical limits and transport conditions.",
+      "affected_source_sites": 2,
+      "repairs": [
+        {
+          "path": "data/books/book_xiii_forest_12.json",
+          "node_id": "forest_12_048",
+          "before": "At the clinic, the cold-injured boy was finally preparing to go home under the assistant's plan. His warmth and general condition were stable, but the foot still needed protected care and a larger soft boot. The family received the actual follow-up dates and warning signs, not a declaration that winter had left no mark. The grandmother had arranged the stove help and carried wood turn. Lin brought the paper dog with the niece's renewed permission, and the boy gave it a place beside the boot.",
+          "after": "At the clinic, the cold-injured boy finished another scheduled check before returning home under the assistant's plan. His warmth and general condition were stable, but the foot still needed protected care in his larger soft boot. The family reviewed the actual follow-up dates and warning signs, not a declaration that winter had left no mark. The grandmother kept the arranged stove help and carried wood turn. Lin brought the paper dog with the niece's renewed permission, and the boy gave it a place beside the boot."
+        },
+        {
+          "path": "data/books/book_xiii_forest_12.json",
+          "node_id": "forest_12_050",
+          "before": "When the boy left the clinic, the assistant's paid family-support turn ended under its terms. Home care continued through the family's own arrangements and the scheduled follow-up. The grandmother carried the instructions in a covered fold, the same hands that had once clenched the rope now careful with a page. Lin helped move the bedding to the cart. The boy waved from his wrapped seat. She waved back, relieved enough to feel the remaining uncertainty more sharply rather than less.",
+          "after": "When the boy's scheduled check finished, the assistant's paid support for that visit ended under its terms. Home care continued through the family's own arrangements and the scheduled follow-up. The grandmother carried the instructions in a covered fold, the same hands that had once clenched the rope now careful with a page. Lin helped move the family's blanket to the cart. The boy waved from his wrapped seat. She waved back, relieved enough to feel the remaining uncertainty more sharply rather than less."
+        }
+      ]
+    },
+    {
+      "id": "LATE-004",
+      "kind": "character_identity_contradiction",
+      "finding": "The returned guide pair is called two men although the rescue explicitly identified a younger woman and an older man; the woman retains female pronouns through medical handover.",
+      "evidence": [
+        {
+          "path": "data/books/book_xvi_desert_05.json",
+          "node_id": "desert_p05_002",
+          "text": "From the lower shoulder Yue saw a small handcart tipped beside a shallow crack. One wheel pointed upward; its other side lay below the salt lip. A woman sat beneath its frame, shading her eyes with a folded cloth. Farther west a man knelt beside a patch of dark crust. He raised an arm when Tuo called, then lowered it as if the gesture had used his remaining strength. There were no animals, no magical barrier, no wall of enemies. The distance to them looked short. The ground between them looked like more of the road."
+        },
+        {
+          "path": "data/books/book_xvi_desert_05.json",
+          "node_id": "desert_p05_063",
+          "text": "He examined the patient himself, checked circulation and sensation, then discussed transport with her. Bao agreed that he could take over. The young guide consented to the journey with her partner riding beside her. A plan became an actual handover. The clinician did not promise that the leg would heal quickly. He promised to keep it supported and obtain fuller examination in Bitter Wells. That answer steadied the woman more than Han's earlier hopeful silence. Bao gave him the written treatment record and sufficient copies for the town clinic and the patient. Tuo handed the older guide his recovered notebook."
+        },
+        {
+          "path": "data/books/book_xvi_desert_12.json",
+          "node_id": "desert_p12_062",
+          "text": "The farrier led the mules to the established trough, where the keeper checked that the water was running clean from the town service. The crew's travelling stock stood untouched while people recovered their breath. Gao kept her field case on the high bench away from the washing splash. When the keeper asked whether the expedition had found the lost palace, she said they had found a store with a name, a road with a warning, and two men who wanted to be home. He decided this was a better result."
+        }
+      ],
+      "fix": "Identify the returned pair as two guides, retaining their actual established identities.",
+      "affected_source_sites": 1,
+      "repairs": [
+        {
+          "path": "data/books/book_xvi_desert_12.json",
+          "node_id": "desert_p12_062",
+          "before": "The farrier led the mules to the established trough, where the keeper checked that the water was running clean from the town service. The crew's travelling stock stood untouched while people recovered their breath. Gao kept her field case on the high bench away from the washing splash. When the keeper asked whether the expedition had found the lost palace, she said they had found a store with a name, a road with a warning, and two men who wanted to be home. He decided this was a better result.",
+          "after": "The farrier led the mules to the established trough, where the keeper checked that the water was running clean from the town service. The crew's travelling stock stood untouched while people recovered their breath. Gao kept her field case on the high bench away from the washing splash. When the keeper asked whether the expedition had found the lost palace, she said they had found a store with a name, a road with a warning, and two guides who wanted to be home. He decided this was a better result."
+        }
+      ]
+    },
+    {
+      "id": "LATE-005",
+      "kind": "health_state_contradiction",
+      "finding": "The farewell demonstration revives injured palms despite explicit earlier healing and no later hand injury; the intervening bridge injuries belong to other people.",
+      "evidence": [
+        {
+          "path": "data/books/book_xvi_desert_12.json",
+          "node_id": "desert_p12_031",
+          "text": "Her palms had healed, but she still avoided taking a loaded rope or forcing the damaged joint with her shoulder. The task required ordinary hands, a clear view, and the tool's known fit. Han steadied the box beside the wheel. The stream thinned, then stopped. Nobody celebrated until the driver checked the brake again and the farrier examined the collar for a renewed drip. Rain ticked against the empty pot lid. The ground had received more water than their margin wanted to spare. Yue's task was to keep the loose cover from whipping across the farrier's face."
+        },
+        {
+          "path": "data/books/book_xvi_desert_16.json",
+          "node_id": "desert_p16_017",
+          "text": "Then he tested the shutter's lower edge with a plain timber wedge, keeping force away from the brittle surrounding plaster. It shifted a little. The conservator put a sheet beneath the gap to catch loose material without letting it blow into the room. Yue steadied the sheet's outside corner at her direction. The mason let Yue brush loose grit from the wedge's working place using the small plain brush he lent her. Her healed palms tolerated the light task; she did not grip the wedge or brace the shutter."
+        },
+        {
+          "path": "data/books/book_xvi_desert_24.json",
+          "node_id": "desert_p24_role_resolve",
+          "text": "The cart was unloaded and chocked, with the ordinary safety rail fixed in place. Lin demonstrated the recovered foot placement Bao Sun had cleared, stopping before her injured palms began to sting. Tuo corrected the sling angle for the next worker. The exercise improved a practical instruction and used no qi-powered legs. When the chocks were removed, the driver resumed his own ordinary work."
+        }
+      ],
+      "fix": "Keep the demonstration finite without inventing renewed palm injury.",
+      "affected_source_sites": 1,
+      "repairs": [
+        {
+          "path": "data/books/book_xvi_desert_24.json",
+          "node_id": "desert_p24_role_resolve",
+          "before": "The cart was unloaded and chocked, with the ordinary safety rail fixed in place. Lin demonstrated the recovered foot placement Bao Sun had cleared, stopping before her injured palms began to sting. Tuo corrected the sling angle for the next worker. The exercise improved a practical instruction and used no qi-powered legs. When the chocks were removed, the driver resumed his own ordinary work.",
+          "after": "The cart was unloaded and chocked, with the ordinary safety rail fixed in place. Lin demonstrated the recovered foot placement Bao Sun had cleared, stopping at the agreed demonstration limit. Tuo corrected the sling angle for the next worker. The exercise improved a practical instruction and used no qi-powered legs. When the chocks were removed, the driver resumed his own ordinary work."
+        }
+      ]
+    }
+  ],
+  "scope": {
+    "confirmed_underlying_defects": 5,
+    "affected_source_sites": 26,
+    "confirmed_plot_armor_defects": 0,
+    "requested_plot_hole_target": 1000,
+    "target_verified": false
+  }
+}

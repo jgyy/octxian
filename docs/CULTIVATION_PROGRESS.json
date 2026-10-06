@@ -1,6 +1,6 @@
 {
   "displayed_scenes": 13079,
-  "displayed_words": 1154076,
+  "displayed_words": 1154078,
   "new_training_scenes": 77,
   "new_training_words": 5206,
   "rewritten_book_i_scenes": 37,
@@ -11,7 +11,7 @@
   "reference_checks": "pass",
   "duplicate_prose_checks": "pass",
   "continuity_checkpoints": "pass",
-  "inherited_words": 1044829,
+  "inherited_words": 1044831,
   "remaining_displayed_words": 0,
   "remaining_rewrite_words": 890754,
   "native_art": [
@@ -2462,7 +2462,7 @@
   "salt_road_scenes": 177,
   "salt_road_words": 12656,
   "requested_total_word_target": 2000000,
-  "remaining_requested_words": 845924,
+  "remaining_requested_words": 845922,
   "expansion_words": 8630,
   "expansion_scenes": 110,
   "latest_consequence_revision": {
@@ -2476,5 +2476,18 @@
     "editorial_errors_prevented_before_publication": 5,
     "complete": false,
     "report": "docs/CONSEQUENCE_REVISION_20261006.md"
+  },
+  "latest_semantic_sweep": {
+    "source_commit": "1bb309ba5cc8621673a041e80b91cf38414af8cb",
+    "confirmed_new_defects": 6,
+    "affected_source_passages": 27,
+    "displayed_word_delta": 2,
+    "requested_repair_target": 1000,
+    "target_met": false,
+    "evidence": [
+      "docs/LATE_CONTINUITY_AUDIT_20261006.json",
+      "docs/audits/vii_xii_salt_purchase_volume_20261006.json",
+      "docs/SEMANTIC_CONTINUITY_REVIEW_20261006.json"
+    ]
   }
 }

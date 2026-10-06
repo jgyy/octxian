@@ -1,0 +1,1357 @@
+{
+  "schema_version": 1,
+  "audited_head": "1bb309ba5cc8621673a041e80b91cf38414af8cb",
+  "scope": {
+    "book_files": 32,
+    "book_scene_inventory": 2859,
+    "node_text_whitespace_words": 243006,
+    "ordinary_fork_nodes": 46,
+    "ordinary_choice_destinations": 132,
+    "random_event_nodes": 2,
+    "stage_inventory": {
+      "3: First pair": 513,
+      "4: Second pair": 2346
+    },
+    "cultivation_core_path": "data/cultivation.json"
+  },
+  "method": "Fetched and parsed all 32 listed book files at the pinned head; inventoried scene metadata and graph forks. Semantic inspection targeted fork entries and joins, reserve/expense ledgers, advancement trials, injury and recovery scenes, and dated continuations. Scope inventory does not mean every narrative paragraph received a full semantic review.",
+  "verified_defect_count": 1,
+  "duplicate_discovery_policy": "The salt receiving case independently found by another reviewer is the same defect and counts once. Reviewed obligations, source anchors, check records and previously corrected defects are not additional discoveries.",
+  "repair": {
+    "path": "data/books/book_xi_salt_road.json",
+    "blob_sha": "80f8225440f772df0a978a8d3db7725d9e7dfefa",
+    "defect_audit_path": "docs/audits/vii_xii_salt_purchase_volume_20261006.json",
+    "defect_audit_blob_sha": "9bb2d1988684b6cf04aea2019b71946bb5315ad2"
+  },
+  "files": [
+    {
+      "path": "data/books/book_vii.json",
+      "scenes": 52,
+      "words": 4860,
+      "ordinary_forks": 2,
+      "random_events": 0,
+      "ordinary_choices": 6
+    },
+    {
+      "path": "data/books/book_vii_marsh.json",
+      "scenes": 68,
+      "words": 6267,
+      "ordinary_forks": 2,
+      "random_events": 0,
+      "ordinary_choices": 4
+    },
+    {
+      "path": "data/books/book_vii_archive.json",
+      "scenes": 68,
+      "words": 6237,
+      "ordinary_forks": 2,
+      "random_events": 0,
+      "ordinary_choices": 4
+    },
+    {
+      "path": "data/books/book_vii_road.json",
+      "scenes": 70,
+      "words": 6681,
+      "ordinary_forks": 2,
+      "random_events": 0,
+      "ordinary_choices": 4
+    },
+    {
+      "path": "data/books/book_viii_foundry.json",
+      "scenes": 299,
+      "words": 22218,
+      "ordinary_forks": 3,
+      "random_events": 0,
+      "ordinary_choices": 9
+    },
+    {
+      "path": "data/books/book_ix_thunderfen.json",
+      "scenes": 94,
+      "words": 6017,
+      "ordinary_forks": 2,
+      "random_events": 2,
+      "ordinary_choices": 6
+    },
+    {
+      "path": "data/books/book_x_storm_ledger.json",
+      "scenes": 159,
+      "words": 11961,
+      "ordinary_forks": 5,
+      "random_events": 0,
+      "ordinary_choices": 15
+    },
+    {
+      "path": "data/books/book_xi_salt_road.json",
+      "scenes": 177,
+      "words": 12655,
+      "ordinary_forks": 3,
+      "random_events": 0,
+      "ordinary_choices": 9
+    },
+    {
+      "path": "data/books/book_xii_canal_01.json",
+      "scenes": 78,
+      "words": 6376,
+      "ordinary_forks": 2,
+      "random_events": 0,
+      "ordinary_choices": 6
+    },
+    {
+      "path": "data/books/book_xii_canal_02.json",
+      "scenes": 78,
+      "words": 6405,
+      "ordinary_forks": 1,
+      "random_events": 0,
+      "ordinary_choices": 3
+    },
+    {
+      "path": "data/books/book_xii_canal_03.json",
+      "scenes": 78,
+      "words": 6453,
+      "ordinary_forks": 1,
+      "random_events": 0,
+      "ordinary_choices": 3
+    },
+    {
+      "path": "data/books/book_xii_canal_04.json",
+      "scenes": 78,
+      "words": 6307,
+      "ordinary_forks": 1,
+      "random_events": 0,
+      "ordinary_choices": 3
+    },
+    {
+      "path": "data/books/book_xii_canal_05.json",
+      "scenes": 78,
+      "words": 6571,
+      "ordinary_forks": 1,
+      "random_events": 0,
+      "ordinary_choices": 3
+    },
+    {
+      "path": "data/books/book_xii_canal_06.json",
+      "scenes": 78,
+      "words": 6694,
+      "ordinary_forks": 1,
+      "random_events": 0,
+      "ordinary_choices": 3
+    },
+    {
+      "path": "data/books/book_xii_canal_07.json",
+      "scenes": 78,
+      "words": 6732,
+      "ordinary_forks": 1,
+      "random_events": 0,
+      "ordinary_choices": 3
+    },
+    {
+      "path": "data/books/book_xii_canal_08.json",
+      "scenes": 78,
+      "words": 6848,
+      "ordinary_forks": 1,
+      "random_events": 0,
+      "ordinary_choices": 3
+    },
+    {
+      "path": "data/books/book_xii_canal_09.json",
+      "scenes": 78,
+      "words": 6865,
+      "ordinary_forks": 1,
+      "random_events": 0,
+      "ordinary_choices": 3
+    },
+    {
+      "path": "data/books/book_xii_canal_10.json",
+      "scenes": 78,
+      "words": 6927,
+      "ordinary_forks": 1,
+      "random_events": 0,
+      "ordinary_choices": 3
+    },
+    {
+      "path": "data/books/book_xii_canal_11.json",
+      "scenes": 78,
+      "words": 6825,
+      "ordinary_forks": 1,
+      "random_events": 0,
+      "ordinary_choices": 3
+    },
+    {
+      "path": "data/books/book_xii_canal_12.json",
+      "scenes": 78,
+      "words": 6802,
+      "ordinary_forks": 1,
+      "random_events": 0,
+      "ordinary_choices": 3
+    },
+    {
+      "path": "data/books/book_xii_canal_13.json",
+      "scenes": 78,
+      "words": 6815,
+      "ordinary_forks": 1,
+      "random_events": 0,
+      "ordinary_choices": 3
+    },
+    {
+      "path": "data/books/book_xii_canal_14.json",
+      "scenes": 78,
+      "words": 6900,
+      "ordinary_forks": 1,
+      "random_events": 0,
+      "ordinary_choices": 3
+    },
+    {
+      "path": "data/books/book_xii_canal_15.json",
+      "scenes": 78,
+      "words": 6853,
+      "ordinary_forks": 1,
+      "random_events": 0,
+      "ordinary_choices": 3
+    },
+    {
+      "path": "data/books/book_xii_canal_16.json",
+      "scenes": 78,
+      "words": 6799,
+      "ordinary_forks": 1,
+      "random_events": 0,
+      "ordinary_choices": 3
+    },
+    {
+      "path": "data/books/book_xii_canal_17.json",
+      "scenes": 78,
+      "words": 6821,
+      "ordinary_forks": 1,
+      "random_events": 0,
+      "ordinary_choices": 3
+    },
+    {
+      "path": "data/books/book_xii_canal_18.json",
+      "scenes": 78,
+      "words": 7138,
+      "ordinary_forks": 1,
+      "random_events": 0,
+      "ordinary_choices": 3
+    },
+    {
+      "path": "data/books/book_xii_canal_19.json",
+      "scenes": 78,
+      "words": 7524,
+      "ordinary_forks": 1,
+      "random_events": 0,
+      "ordinary_choices": 3
+    },
+    {
+      "path": "data/books/book_xii_canal_20.json",
+      "scenes": 78,
+      "words": 7462,
+      "ordinary_forks": 1,
+      "random_events": 0,
+      "ordinary_choices": 3
+    },
+    {
+      "path": "data/books/book_xii_canal_21.json",
+      "scenes": 78,
+      "words": 7555,
+      "ordinary_forks": 1,
+      "random_events": 0,
+      "ordinary_choices": 3
+    },
+    {
+      "path": "data/books/book_xii_canal_22.json",
+      "scenes": 78,
+      "words": 7476,
+      "ordinary_forks": 1,
+      "random_events": 0,
+      "ordinary_choices": 3
+    },
+    {
+      "path": "data/books/book_xii_canal_23.json",
+      "scenes": 78,
+      "words": 7544,
+      "ordinary_forks": 1,
+      "random_events": 0,
+      "ordinary_choices": 3
+    },
+    {
+      "path": "data/books/book_xii_canal_24.json",
+      "scenes": 78,
+      "words": 7418,
+      "ordinary_forks": 1,
+      "random_events": 0,
+      "ordinary_choices": 3
+    }
+  ],
+  "review_records": [
+    {
+      "review_id": "VII_XII_REVIEW_01",
+      "topic": "parallel inquiry and limits of knowledge",
+      "result": "No confirmed defect in inspected reports. The shared ring meeting hears all three teams, while Yue presents only the branch she actually took. Boat identity, deposit-token comparison and offered private papers are kept distinct.",
+      "evidence": [
+        {
+          "path": "data/books/book_vii.json",
+          "node": "ring_findings",
+          "text": "By the late ferry watch, all three teams had returned to the boathouse. Lin Yue set down the bundle from the road she had actually taken and washed her hands in its basin. Each other bundle stayed with its keeper until that account began. The Eel remained at the sheltered berth with the covered third ring; its offered report traveled on a separate sheet. Wei Jin's small receipt cover lay beside his old permit, still closed. A lamp trembled above the table. Outside, passengers argued cheerfully over whose sack of onions had occupied the driest bench."
+        },
+        {
+          "path": "data/books/book_vii.json",
+          "node": "ring_shared_marsh_report",
+          "text": "The outer rack yielded the offered maintenance sleeve. Its repair entry belongs to deposit token R-3. The bronze ring's reed-cloth retaining loop has two short stitches across one long reverse fold, matching the entry we could read. The inner cover and seal stayed untouched. That construction may belong to more than one worker; it does not name a person. A damaged sentence remains incomplete. The original sleeve has returned to the Eel's control. We have brought the permitted extracts, the handling accounts, and a careful drawing from two brief exterior views."
+        },
+        {
+          "path": "data/books/book_vii.json",
+          "node": "ring_shared_archive_report",
+          "text": "The volunteered extracts connect permit LR-6 and the former public boat name Jin of the Lower Reed to living Wei Jin. A repair account supports the permit link. The public occupancy correction remains a correction to records, not a replacement for his own identity. I did not inspect the ring or hear an echo. These papers establish which boat the account describes; they cannot establish who deposited a private copy with the keeper. Mei checked the offered copying against its source. We have kept the portions about neighboring households out of this table's record."
+        },
+        {
+          "path": "data/books/book_vii.json",
+          "node": "ring_shared_road_report",
+          "text": "I brought my worn permit LR-6 and the tool wrapping you were allowed to examine. The wrapping uses the repair I remember lending to the keeper: two short stitches across one long reverse fold. I also brought my own closed receipt cover. Its outside is marked R-3. I remember putting a copy with her, but I will not ask you to treat my recollection or a common stitch as proof. If the other marks agree, I can offer the paper inside this cover separately. The ring itself can stay closed while we make that comparison."
+        }
+      ]
+    },
+    {
+      "review_id": "VII_XII_REVIEW_02",
+      "topic": "bounded custody funding",
+      "result": "No confirmed defect. The travel purse pays fares, supper and one carrying tray. Wei Jin's ferry earnings separately purchase three watches; refusal retains the existing agreement and no silent new paid term is invented.",
+      "evidence": [
+        {
+          "path": "data/books/book_vii.json",
+          "node": "ring_resources",
+          "text": "Our travel purse covers the already paid ferry fares, supper, and one dry carrying tray. We can spare the tray for a return. For new custody, Wei Jin has offered payment for the Eel's next three watches, with another decision before the third ends; the Eel has accepted that exact offer. If he chooses no return today, the existing agreement continues without an invented new payment or extra duty. I will put the purse away after recording what we actually use. There is no secret fourth plan financed by tomorrow's tea."
+        },
+        {
+          "path": "data/books/book_vii.json",
+          "node": "ring_custody_proposal",
+          "text": "I want time before bringing the copy into my room. I accept the Eel's offer of three paid watches, with a review before the third ends. Here is the agreed payment from my own ferry earnings. It buys that bounded work, not another spirit's affection or an indefinite promise. I will keep the receipt and ask at the landing before the review watch begins. The ring stays covered. If I cannot attend, the receiving message must ask for a new decision; it must not quietly extend the paid work by assuming I meant forever."
+        },
+        {
+          "path": "data/books/book_vii.json",
+          "node": "ring_custody_terms",
+          "text": "I accept the three watches and this stated payment. The ring remains in my sheltered custody, under the existing closed cover. The review will occur before the third watch ends. If the meeting fails, I will preserve the copy under its protection while reporting that the new term has not been extended; any further paid service needs another agreement. Protection is not a threat I will use to collect an answer. Write the practical receiving place beside the time. A named owner who needs time is still an owner."
+        }
+      ]
+    },
+    {
+      "review_id": "VII_XII_REVIEW_03",
+      "topic": "branch-specific injury continuity",
+      "result": "No confirmed defect in inspected injury joins. Marsh records forearm strain, archive a wrist bruise, and road a treated splinter cut. They each provide a cause for later general arm tenderness without pretending a cut happened in all branches.",
+      "evidence": [
+        {
+          "path": "data/books/book_vii_marsh.json",
+          "node": "ring_marsh_weakness",
+          "text": "Lin Yue's fingers would not close evenly on the spare pole. She set it down and reported the ache toward her elbow. The lamp's half-unit was already spent and discharged; the moving pole load had strained ordinary tissue. A known reserve did not make that load safe to repeat. Wei Xiu changed the plan: no second press or pulse, no record box carried while stepping ashore, and a sheltered rest. They would observe her grip again before assigning work, rather than treat fatigue as a new technique."
+        },
+        {
+          "path": "data/books/book_vii_marsh.json",
+          "node": "ring_marsh_rest",
+          "text": "Under a willow, Lin Yue drank water from her own flask while Wei Xiu checked the short footpath. The Listener shook rain from its shoots, scattering bright drops across the mud. Somewhere beyond the bank, a frog called in the steady, indifferent rhythm of a creature with no interest in their investigation. The ache eased when Lin Yue rested her forearm on her knees. She counted no new mastery from the pulse. What she had gained was a clearer measure of the work she could offer, and a reason to trust the pilot's pause."
+        },
+        {
+          "path": "data/books/book_vii_archive.json",
+          "node": "ring_archive_bruise_common",
+          "text": "When the cups were filled again, the room had lost its brittle silence. Shen Qing flexed his fingers and said he could walk home without leaning on anyone. An Ru answered that she had not asked him to prove it. Lin Yue found a bruise blooming across her wrist where she had caught his hand near the failing shelf. He noticed it and began to apologize; she showed him the cup she could still lift. They agreed to stop assigning each other an injury's meaning before the owner had finished describing it."
+        },
+        {
+          "path": "data/books/book_vii_road.json",
+          "node": "ring_road_injury",
+          "text": "Su Lan catches Lin Yue rubbing her forearm and asks to see it. Beneath the torn sleeve, the splinter has left a shallow cut with a brown fragment still caught at one end. They wash the skin, remove the visible fragment, and bind the cut with clean cloth. Lin Yue's qi has already quieted; the arm remains sore. She agrees to have the wound checked if pain, swelling, or heat increases. Wei Jin sets her share of the wet rope aside. Their conversation waits while ordinary water and a bandage do their necessary work."
+        }
+      ]
+    },
+    {
+      "review_id": "VII_XII_REVIEW_04",
+      "topic": "earned stage and recovery-separated trials",
+      "result": "No confirmed defect. Trials occur on Days 70/74/79 and are retained only after normal recovered checks on Days 71/75/80. Stage 4 begins at foundry_assessment_018 on Day 80. Reported reserve readings 18.25/18.5/18.25 and compatibility exceed the local 18-unit/87% thresholds; sampling is entered before route work. The formal sample amount is not restated, so these excerpts alone do not independently establish the exact post-sampling reserve.",
+      "evidence": [
+        {
+          "path": "data/books/book_viii_foundry.json",
+          "node": "foundry_phase_021",
+          "text": "Su Yan outlined the foundry's fourth-stage assessment: eighteen usable units after ordinary activity and sleep, at least eighty-seven percent compatible charge, two distinct paired routes each carrying its permitted quarter-unit task, reliable interruption and no abnormal next-day sensation. The paths would be tested successively before any combined practice was considered. These were local method thresholds, not universal coin values. Yue wrote the reserve figure last. The route conditions were harder to imagine and therefore easier to neglect."
+        },
+        {
+          "path": "data/books/book_viii_foundry.json",
+          "node": "foundry_assessment_001",
+          "text": "On Day Seventy, Yue woke with eighteen and a quarter usable units retained after the prescribed ordinary day and sleep. The compatible fraction measured just above eighty-eight percent under independent sampling. The small sample's cost was entered before route work. The examiner checked a fresh blank and warmed reference pad himself. Su Yan stood outside the operator line, available to stop the apparatus but no longer supplying the judgment Yue hoped to hear."
+        },
+        {
+          "path": "data/books/book_viii_foundry.json",
+          "node": "foundry_assessment_006",
+          "text": "On Day Seventy-one, the independent examiner and healer repeated ordinary touch and loaded shoulder movement. Both remained normal. The first trial stayed in the record. Yue asked whether they could count three demonstrations from the previous day as three trials. She knew the answer and wanted to hear why it held. Recovery separated the observations; repeating while already warmed and excited would not establish how the route returned after ordinary life and sleep."
+        },
+        {
+          "path": "data/books/book_viii_foundry.json",
+          "node": "foundry_assessment_008",
+          "text": "On Day Seventy-four, the retained usable quantity measured eighteen and a half units with the compatible fraction still above the minimum. The examiner used a fresh warm-condition blank, then asked for the second pair first. Yue stopped a small admission at his early cue. Only after full discharge did she complete the rated second-route task. The changed sequence tested control rather than memory of yesterday's rehearsal."
+        },
+        {
+          "path": "data/books/book_viii_foundry.json",
+          "node": "foundry_assessment_011",
+          "text": "Day Seventy-five brought normal sensation and an ordinary loaded turn without the ache. The examiner accepted the second trial and noted the adjusted afternoon workload. Yue preferred the first trial's cleaner story. This result was less flattering and still sound because it recorded a symptom, investigation, work reduction and recovered check. She kept its full page rather than copying only the successful numbers into the front of the book."
+        },
+        {
+          "path": "data/books/book_viii_foundry.json",
+          "node": "foundry_assessment_014",
+          "text": "On Day Seventy-nine, the third formal trial began under the same declared ordinary-day and sleep conditions. The reserve held eighteen and a quarter usable units, slightly below the second trial and safely above the target. Compatible charge remained above eighty-seven percent. Yue felt disappointment at the smaller total before recognizing that the method required stability, not a personal record every morning."
+        },
+        {
+          "path": "data/books/book_viii_foundry.json",
+          "node": "foundry_assessment_016",
+          "text": "Both pairs completed their separate quarter-unit useful tasks within the corrected timing and material limits. The combined consumption left the reserve above its declared floor. The examiner closed the formal apparatus without allowing a triumphant extra pulse. Yue had completed the third provisionally qualifying trial. There would be another ordinary day, another sleep and another sensation check before the stage could change."
+        },
+        {
+          "path": "data/books/book_viii_foundry.json",
+          "node": "foundry_assessment_018",
+          "text": "On Day Eighty, ordinary touch, grip and shoulder movement remained normal. The healer signed the recovered check; the independent examiner compared all three qualifying pages, their blanks, interruptions and declared workloads. Only then did he enter Qi Gathering's fourth stage: Second pair. Yue read the line slowly. Nothing exploded above the bridge. Her hands still looked like the hands that had carried ash, mended cloth and once mistaken warmed copper for a trace."
+        }
+      ]
+    },
+    {
+      "review_id": "VII_XII_REVIEW_05",
+      "topic": "stage 3 movement versus unopened leg route",
+      "result": "No confirmed defect. A rated external cuff-to-sole cloth route carries the prepared reinforcement from the first arm pair; the text explicitly says it does not open a leg meridian and still charges delivery loss.",
+      "evidence": [
+        {
+          "path": "data/books/book_viii_foundry.json",
+          "node": "foundry_martial_001",
+          "text": "Between material sessions, Su Yan brought Yue to dry boards behind the foundry. Two ordinary practice staffs lay beside an inspected cuff-to-sole conducting stitch. The boards were level and the boundary rope slack. A prepared reinforced movement could be taught here without the wet turn of the ash channel. Yue's first pair had already earned that limited task at the sluice; the foundry would inspect the new conditions before permitting it."
+        },
+        {
+          "path": "data/books/book_viii_foundry.json",
+          "node": "foundry_martial_005",
+          "text": "After the ordinary baseline, Su Yan inspected the conducting stitch from cuff to sole. Its external path did not open a leg meridian. The quarter-unit useful support would travel through a rated cloth route supplied by the first arm pair, with the current delivery loss charged to Yue's reserve. They checked the ground and release at the dry board. A technique name did not remove the preparation hidden beneath it."
+        },
+        {
+          "path": "data/books/book_viii_foundry.json",
+          "node": "foundry_martial_006",
+          "text": "Yue performed one aligned reinforced step, discharged and stood still. The sole received the permitted brief support; her ordinary knee and hip supplied the direction. It was not a jump over the channel. Su Yan examined the turn afterward and found the same tendency to plant the heel when excited. Spiritual reinforcement had made the prepared movement more decisive without fixing the ordinary movement after it."
+        }
+      ]
+    },
+    {
+      "review_id": "VII_XII_REVIEW_06",
+      "topic": "external formation charge and paid field term",
+      "result": "No confirmed defect. Six field stones split into two trial stones and four return-protection stones. Yue supplies control, not formation load; each random interruption preserves that distinction. Seven-day wages of 16 copper, a 4-copper travel allowance and separately reserved return fare do not extend into unpaid extra field days.",
+      "evidence": [
+        {
+          "path": "data/books/book_ix_thunderfen.json",
+          "node": "ridge_departure_002",
+          "text": "'Seven days in the field,' Jiang said. 'Sixteen copper for your bounded sampling work, four for the journey, and the fare back reserved before we begin. Meals come from this crate. If the weather closes the ridge, paid waiting replaces dangerous work.' She showed Yue the receiving workshop and the route down. The cart carried six charged stones in separate sleeves. None belonged in Yue's body. The apprentice would supply small control traces while Jiang operated the field formation."
+        },
+        {
+          "path": "data/books/book_ix_thunderfen.json",
+          "node": "ridge_findings_004",
+          "text": "The quarry had fuel for a bounded isolation trial and money for one safe repair survey. It did not have a commission to reopen the road today. Jiang placed two remaining charged stones in the frame sleeves and left the four reserved for return protection sealed. Yue could feel the temptation to treat six stones as six chances to become impressive. The separate sleeves made their actual jobs harder to forget."
+        },
+        {
+          "path": "data/books/book_ix_thunderfen.json",
+          "node": "ridge_incident_cloudhound_002",
+          "text": "Jiang closed the frame supply before moving the cart. The four return-protection stones powered the already rated barrier for one bounded withdrawal. Yue held the ordinary latch from shelter without supplying its force. The Cloudhound struck the distant guard once, then turned after a falling fragment. No one pursued it onto the broken ground for a better ending."
+        },
+        {
+          "path": "data/books/book_ix_thunderfen.json",
+          "node": "ridge_incident_rockfall_002",
+          "text": "The road keeper pulled the secured cart through the lower gate after its ordinary brake check. A small shard cut Yue's outer sleeve while she stayed behind shelter. She left it in the cloth until the wound could be inspected safely. The four return-protection stones covered the rated barrier's limited withdrawal. The mountain had provided no enemy whose defeat would make the spur stable."
+        },
+        {
+          "path": "data/books/book_ix_thunderfen.json",
+          "node": "ridge_incident_surge_002",
+          "text": "The return barrier drew from its four sleeved stones while the old rod discharged into the rated emergency bed. Jiang had checked that bed before accepting the field commission. Yue held the sheltered latch only through its permitted travel. Her body took none of the storm load. The compass vanes struck their stops; she left them unread while withdrawal mattered more."
+        },
+        {
+          "path": "data/books/book_ix_thunderfen.json",
+          "node": "ridge_return_002",
+          "text": "The clinician inspected Yue's grip on Day Seven. She had ordinary strain and, where present, a shallow treated scratch. No personal qi entered the damaged road or the pool. Rest, wound care where needed and a later review came before another field load. The apprentice's fourth-stage record survived the interruption. It was neither a guarantee of an uninjured body nor a punishment that could be revoked by weather."
+        },
+        {
+          "path": "data/books/book_ix_thunderfen.json",
+          "node": "ridge_return_004",
+          "text": "At the receiving workshop, the seven-day commission ended. Yue received the sixteen-copper task payment and four-copper travel allowance; paid weather waiting belonged within that agreed term. Return fare remained reserved separately until departure. Jiang counted the unused field and protection charge for their owner. Neither a frightening interruption nor a persuasive report created another unpaid day in the field."
+        }
+      ]
+    },
+    {
+      "review_id": "VII_XII_REVIEW_07",
+      "topic": "relief cash and apparent extra missing levy",
+      "result": "No confirmed defect. Opening relief cash 180 = 102 actually paid + 38 diverted + 40 remaining. The widow's 2-copper levy is included within the 38, rather than an additional missing coin. Corrected grants 10 + 8 + 8 + 12 = 38 and cart refund 31 + private contribution 7 = 38. The independent 12-day commission pays 18 copper outside relief cash.",
+      "evidence": [
+        {
+          "path": "data/books/book_x_storm_ledger.json",
+          "node": "storm_arrival_002",
+          "text": "The storm had damaged eleven roofs, two grain sheds and the bridge's outer rail. Nobody had died, but a carter's broken ankle would keep him from the harvest run. The council's relief chest held one hundred eighty copper at opening. Its published ledger now showed one hundred forty paid out. Four families standing outside the workshop held receipts for smaller amounts than the names beside their doors had supposedly received."
+        },
+        {
+          "path": "data/books/book_x_storm_ledger.json",
+          "node": "storm_arrival_005",
+          "text": "Yue's new task was twelve days of ordinary copying, interviews and supervised apparatus comparison. Jiang had arranged meals and eighteen copper from the independent road fund, recorded separately from the contested relief chest. Shen Qing would join for four archive afternoons after his Azure Cloud duties. A village clerk would retain the originals. Yue could inspect a numbered copy without becoming the custodian of somebody else's last proof of a lost roof."
+        },
+        {
+          "path": "data/books/book_x_storm_ledger.json",
+          "node": "storm_compare_002",
+          "text": "The payment copies gave a firmer total. One hundred two copper had actually reached households and ordinary repair sellers. The ledger's published one hundred forty treated another thirty-eight as household benefit. Its supporting slips assigned that same thirty-eight to rope, cover cloth and grain shelter, not an additional expense. Those purchases were absent or privately paid. Forty copper remained in the relief chest, counted by the clerk and two household representatives. The missing thirty-eight had left the chest. They had not yet shown whose hand finally received it."
+        },
+        {
+          "path": "data/books/book_x_storm_ledger.json",
+          "node": "storm_trace_002",
+          "text": "The widow's twenty-copper entry required its own explanation. Her receipt said twelve; her actual payment was ten. Eight had been redirected under the absent rope expense, and the two-copper levy had been pooled into the false fourteen-copper cover charge. The levy was not a thirty-ninth missing coin. The relief account had no authority for it. Yue asked the runner to confirm his retained note showing who instructed that deduction. The steward acknowledged the instruction was his."
+        },
+        {
+          "path": "data/books/book_x_storm_ledger.json",
+          "node": "storm_claims_001",
+          "text": "The widow sat beside Yue while the clerk laid out four corrected household entries. Their net shortfalls were ten, eight, eight and twelve copper, totaling thirty-eight. Other grants had reached their recipients as recorded. Yue checked the names against each claimant rather than letting an accurate sum make a misspelled name acceptable. The carter wanted a new grain claim heard immediately. That later loss belonged to a separate emergency assessment, which the clerk scheduled for the next day."
+        },
+        {
+          "path": "data/books/book_x_storm_ledger.json",
+          "node": "storm_settle_001",
+          "text": "The independent reviewer ordered recovery of thirty-eight copper to the relief chest and payment of the four corrected grants. The steward chose to return the cart. The seller would refund thirty-one after inspecting its unused body and fitted axle; the steward would provide seven from his own purse. The order named dates and a receiving clerk. It did not credit an offered coat, a helpful speech or the value of the cart's imagined future journeys."
+        }
+      ]
+    },
+    {
+      "review_id": "VII_XII_REVIEW_08",
+      "topic": "salt reserve trials and conservative bounds",
+      "result": "No confirmed defect in inspected reserve calculations. Initial reserve 1640 loses 60 over 2 inspection days to leave 1580. Trial draws 90/30/0 plus 15 essential leave 1475/1535/1565. The 21-day review includes 105 essential and at most 90 early + 340 later optional jars, leaving 1045; the closure day's 5 further jars leave 1040. Later measured totals remain distinct from conservative bounds.",
+      "evidence": [
+        {
+          "path": "data/books/book_xi_salt_road.json",
+          "node": "salt_findings_001",
+          "text": "On the second evening, the council gathered at the watermill's shaded porch. Each team put its public report on a different mat. The reserve keeper counted sixteen hundred forty jars at the inspection's beginning and a conservative fifteen hundred eighty now. Two days of essential demand above the old spring yield had used sixty. Late recovered flow was not credited to that count. The new schedule would begin from the checked lower total the next morning."
+        },
+        {
+          "path": "data/books/book_xi_salt_road.json",
+          "node": "salt_findings_010",
+          "text": "The near-term calculation used twenty-one days from the repaired supply's first morning, with no promised rainfall counted. Essential demand above the conservative spring yield would draw one hundred five reserve jars. A first three-day trial could use at most ninety additional jars. Later optional work could use at most three hundred forty. Even that combined maximum left at least one thousand forty-five counted jars, including forty-five of contingency above the protected floor."
+        },
+        {
+          "path": "data/books/book_xi_salt_road.json",
+          "node": "salt_wash_trial_008",
+          "text": "The three days spent ninety optional jars and fifteen for the gap between essential demand and the repaired spring supply. From fifteen hundred eighty, the reserve's conservative count stood at fourteen hundred seventy-five. The lost batch had used part of the ninety; it was not quietly reimbursed with a ninety-first jar. The cashier entered its wage loss separately from the water ledger. Yuan Lian made both books available to the council."
+        },
+        {
+          "path": "data/books/book_xi_salt_road.json",
+          "node": "salt_seed_trial_008",
+          "text": "The trial spent thirty optional jars and fifteen for the repaired supply's essential shortfall. The conservative reserve count stood at fifteen hundred thirty-five from the same fifteen hundred eighty starting balance. No predicted harvest entered that water balance. The steward retained rejected samples for the announced review period under approved disposal conditions. Their unpleasant smell reminded Yue that a successful salvage packet did not erase the much larger failed lot."
+        },
+        {
+          "path": "data/books/book_xi_salt_road.json",
+          "node": "salt_reserve_trial_008",
+          "text": "The trial drew fifteen reserve jars for the essential shortfall and no optional jars. The conservative balance stood at fifteen hundred sixty-five. The old eighty-four-jar commercial diversion was already reflected in the physical starting count; it was not subtracted a second time. The eighty-four copper refund remained a separate money balance. Yue wrote those distinctions beside the totals after a council member tried to add the refund to stored water."
+        },
+        {
+          "path": "data/books/book_xi_salt_road.json",
+          "node": "salt_recovery_008",
+          "text": "The forewoman presented three eighteen-day proposals, each ending in the same twenty-one-day water review from the repair's first morning. A common rotation could grant up to two hundred seventy later wash jars and seventy seed jars. A reserve-first plan granted no later optional draw and paid eight temporary maintenance shifts from a separately voted access fund. A limited purchase plan granted at most two hundred later optional jars while seeking a verified outside delivery."
+        },
+        {
+          "path": "data/books/book_xi_salt_road.json",
+          "node": "salt_recovery_014",
+          "text": "The final decision meeting opened with the actual trial balance, the twenty-one-day ceiling and a separate closure-day allowance. After the review, the twenty-fourth commission day would use five more reserve jars for essentials at the same conservative rate, with no optional work scheduled. Thus even the largest combined plan left at least one thousand forty at closure before contingency spending. The council could choose a limited course, observe it, and revise it at a dated meeting."
+        },
+        {
+          "path": "data/books/book_xi_salt_road.json",
+          "node": "salt_rotation_004",
+          "text": "During the eighteen later days, actual optional use stopped at two hundred ten wash jars and fifty seed jars. That was below the three-hundred-forty ceiling. The reserve book retained each undrawn turn. Even with the largest possible ninety-jar early trial and the one-hundred-five essential shortfall, the review balance was at least eleven hundred twenty-five. No rain was credited. The protected contingency had not been needed to disguise an industrial overrun."
+        },
+        {
+          "path": "data/books/book_xi_salt_road.json",
+          "node": "salt_rotation_006",
+          "text": "The twenty-fourth commission day had no optional draw. Five further essential jars reduced the conservative lower bound to eleven hundred twenty at closure. The reserve keeper counted the actual balance and stored the measured result rather than substituting the lower bound for it. Wages and return fares were paid from their own accounts. Approved papers and equipment followed their recorded keepers, with no loan or extract made into a reward for staying."
+        }
+      ]
+    },
+    {
+      "review_id": "VII_XII_REVIEW_09",
+      "topic": "salt receiving arithmetic",
+      "result": "One confirmed defect, counted once as VII_XII_SALT_PURCHASE_VOLUME_001. A single 10-litre jar refused from 40 must leave 39, rather than 30. The staged repair changes only salt_purchase_003 to thirty-nine and preserves 39 + 40 + 40 + 1 = 120 and the seller-funded fourth replacement carriage.",
+      "defect_id": "VII_XII_SALT_PURCHASE_VOLUME_001",
+      "evidence": [
+        {
+          "path": "data/books/book_xi_salt_road.json",
+          "node": "salt_arrival_004",
+          "text": "'The dry-season spring gives one hundred twenty counted jars each day,' Duan said. 'Drinking, cooking and the clinic require one hundred fifty. The reserve holds sixteen hundred forty. Each counted jar means ten litres on our checked measure. We subtract unusable bottom water and transfer loss before writing that number. The lake is brackish. A thousand jars must remain untouched unless the council declares a new emergency.'"
+        },
+        {
+          "path": "data/books/book_xi_salt_road.json",
+          "node": "salt_purchase_001",
+          "text": "The limited purchase plan opened no larger local ceiling while the external order travelled. Yue and An Ru checked the seller's certified surplus statement and the receiving contract at separate desks. The seller's own protected household turns came first; the sale covered forty surplus jars on each of three specified days. Their document review justified the order. It did not authorize drawing water from a village that had not made that offer."
+        },
+        {
+          "path": "data/books/book_xi_salt_road.json",
+          "node": "salt_purchase_002",
+          "text": "The first delivery arrived on two checked freight carts, with listed jar seals. A qualified inspector tested the water under the valley's drinking criteria before clean storage accepted it. One loose cover had collected road dust; those ten litres stayed outside the accepted count. The receiving contract required the seller to supply the replacement and pay its extra carriage. The carrier received payment for the actual journey. A refusal needed a funded receiving route, not a reassuring explanation."
+        },
+        {
+          "path": "data/books/book_xi_salt_road.json",
+          "node": "salt_purchase_003",
+          "text": "Yue wanted to accept the replacement on the driver's promise because the other jars had passed. An Ru kept the first receiving count at thirty accepted jars. The promise entered an owed-quantity column. The two later forty-jar deliveries passed their own checks, and the replacement arrived under a fourth checked carriage record charged to the seller. Only then did accepted outside supply reach one hundred twenty jars. The council's carriage budget still paid only the three agreed deliveries."
+        },
+        {
+          "path": "data/books/book_xi_salt_road.json",
+          "node": "salt_purchase_006",
+          "text": "At the review, the local conservative lower bound was eleven hundred eighty-five after essential demand, the largest early trial and the two-hundred-jar later ceiling. One hundred twenty actually accepted purchased jars raised that bound to thirteen hundred five. The closure day's five essential jars left at least thirteen hundred without contingency spending. The measured balance stood above the calculation, with the completed supplier obligation and four carriage receipts distinguishing the seller-paid replacement."
+        },
+        {
+          "path": "data/books/book_xi_salt_road.json",
+          "node": "salt_purchase_007",
+          "text": "On closure morning, the driver asked whether Yue could recommend him for the next season. She described the journeys she had witnessed and the rejected cover he had helped replace. She could not promise the next commission's contract. He accepted the limited recommendation, tucked it under his strap and checked the wheel peg before leaving. Yue collected her own paid fare afterward, glad that both departures had records ordinary enough to be believed."
+        }
+      ]
+    },
+    {
+      "review_id": "VII_XII_REVIEW_10",
+      "topic": "chosen sequence versus shared supply count",
+      "result": "No confirmed defect. Canal phase 10 leaves 198/206/204 supply units for its three sequences; the join retains conservative floor 198 and separately preserves precise chosen actual charge. The common report does not claim every path spent 18.",
+      "evidence": [
+        {
+          "path": "data/books/book_xii_canal_10.json",
+          "node": "canal_p10_010",
+          "text": "The current supply record held two hundred sixteen units in the six original purchased stones. Jiang gave the live response a conservative eighteen-unit maximum across its checked sequence and any accepted short follow-up. An early stop might use less. The actual gauge would determine the count written afterward. No one would spend the whole allowance because a plan had made it available. Yue recorded the maximum and the clear rule that an interrupted task could leave charge unspent. The lower bound after this trial would be one hundred ninety-eight."
+        },
+        {
+          "path": "data/books/book_xii_canal_10.json",
+          "node": "canal_p10_038",
+          "text": "Jiang recorded eighteen trial supply units used across the two live responses, leaving one hundred ninety-eight from the original supply. The apparatus's actual gauge supported the count. Yue copied the first early stop and the successful follow-up as a sequence, preserving the altered measuring mount rather than hiding yesterday beneath today's cleaner result. The morning-only observer's receiver would get the approved follow-up. The report accepted only this bounded pocket and side-release under the checked head. The whole flood route remained a separate unfinished job."
+        },
+        {
+          "path": "data/books/book_xii_canal_10.json",
+          "node": "canal_p10_044",
+          "text": "The fitted stop's witness marks remained steady, and the independent surface reference matched the corrected ruler. The observer gave his final reading without adding an apology. Jiang accepted the current bounded response and entered ten supply units used, leaving two hundred six. The early stop, dry correction and successful response all fit inside today's agreed cargo hold and worker intervals. Yue did not call the faster route superior to a longer investigation they might have needed. It was the path today's actual observations had permitted."
+        },
+        {
+          "path": "data/books/book_xii_canal_10.json",
+          "node": "canal_p10_057",
+          "text": "Jiang used a further two counted units for the accepted powered dry-closing comparison after the pocket emptied, then isolated the supply. Luo repeated the ordinary manual-equivalent check with its geared handle. Both current control methods moved the small side-release as designed under their tested conditions. Yue released her route at the scheduled end and rested while Bao inspected the fixed witness marks. The trial used twelve actual units from the two hundred sixteen available at its start, leaving two hundred four in the original six stones."
+        },
+        {
+          "path": "data/books/book_xii_canal_10.json",
+          "node": "canal_p10_060",
+          "text": "The common trial review assembled the actual sequence chosen by the crew, with its precise supply count in Jiang's signed gauge record. Every permitted path preserved the observer's stopping call and found the ruler's wet seating and old wick fibers. The repaired measurement now matched the fixed masonry reference. The conservative lower supply bound stood at one hundred ninety-eight, while the actual remaining count stayed separately recorded. The pocket's acceptance covered its small checked head and catch route. Nothing in that report opened the channel toward the gardens."
+        }
+      ]
+    },
+    {
+      "review_id": "VII_XII_REVIEW_11",
+      "topic": "additional charge and finite emergency labor",
+      "result": "No confirmed defect. Two new stones add 80 supply units and dry inspection spends 2, moving conservative 198 to 278 then 276. Response floor 256 reflects at most 20 further draw. Emergency cash 36 = 24 for 8 worker-day equivalents + 8 materials + 4 stones; Bao's injury transfers unused hours at the same rate instead of inventing unpaid labor.",
+      "evidence": [
+        {
+          "path": "data/books/book_xii_canal_13.json",
+          "node": "canal_p13_003",
+          "text": "The separately authorized allocation passed after the guild recorded its weather evidence and specific tasks. Thirty-six copper went to the emergency receiver: twenty-four for eight worker-day equivalents at three copper, eight for material and four for two charged stones. The original repair account stayed distinct. The emergency order permitted preparation and actual response within those totals, with unused hours and material reported. The trustees named their receiving authority before money left the guild box. Yue watched the purse cross the table, relieved that tomorrow's help now had a source."
+        },
+        {
+          "path": "data/books/book_xii_canal_13.json",
+          "node": "canal_p13_017",
+          "text": "By afternoon, Jiang arrived with the new appointment copy and a bundle of sour plums that belonged to her, not the supply order. She inspected the actual case seals and read its surviving trial gauge before connecting the added stones. The original six held the precise chosen-path remainder; the new pair added eighty. The starting emergency lower bound was two hundred seventy-eight, while the actual higher count stayed on the signed gauge record. Yue handed over the copied trial sequence. Their new response began from what had really happened, including its first stop."
+        },
+        {
+          "path": "data/books/book_xii_canal_13.json",
+          "node": "canal_p13_018",
+          "text": "Jiang checked the powered selector and actuator unloaded, drawing two supply units for the accepted dry comparison. She then tested the ordinary manual equivalent with the supply isolated. The actual remainder fell by those two, with a conservative floor of two hundred seventy-six. The apparatus retained its bounded operating rating and current control path. Yue could prepare one small command if later conditions permitted, but her stage had not widened because the guild bought more charge. Jiang accepted the clean dry response and covered the contacts against the actual coming weather."
+        },
+        {
+          "path": "data/books/book_xii_canal_14.json",
+          "node": "canal_p14_024",
+          "text": "The emergency receiver reviewed Bao's accepted hours with him before scheduling the next interval. His unused three-quarter day equivalent, six hours, could be reassigned to the two qualified road workers at the same rate if he agreed and the work order authority accepted the change. Bao would receive wages for his actual completed one-and-a-quarter equivalents, not lose earned pay because injured. The receiver recorded the authorized reassignment. The emergency labor still totaled eight equivalents: Yue two, Jiang two, Bao one-and-a-quarter and road workers two-and-three-quarters."
+        },
+        {
+          "path": "data/books/book_xii_canal_14.json",
+          "node": "canal_p14_033",
+          "text": "The accepted powered sequence had drawn twenty supply units across its response and dry checks. Jiang wrote the actual remainder against the post-inspection gauge that retained the original trial-path difference. The conservative floor fell from two hundred seventy-six to two hundred fifty-six; the precise actual count remained separately recorded. Yue copied the gauge only after her hands settled enough to write. She had used one small command within its earned allowance. It would need recovery before another day could ask for anything similar."
+        },
+        {
+          "path": "data/books/book_xii_canal_14.json",
+          "node": "canal_p14_060",
+          "text": "The emergency receiver assembled the three actual response reports in their own signed sequence. The little pocket had been drained, isolated and left before its broader station closed; its precise supply draw followed the path actually taken. The conservative post-response floor was two hundred fifty-six, with higher actual remainders preserved rather than averaged. Every known worker had reached higher ground. Bao's sprained wrist and the missed private upper-room handover remained real incidents. None became harmless because the crew could now read a complete return list."
+        },
+        {
+          "path": "data/books/book_xii_canal_15.json",
+          "node": "canal_p15_075",
+          "text": "The emergency receiver paid accepted hours after each worker's completion and reconciled the authorized transfer from Bao to the road crew. The labor line remained twenty-four for eight actual equivalents; the material and stone purchases stayed within their eight and four. Stored remaining stock and precise charge stayed with their assigned custodians. The ordinary ninety-six repair account continued toward its own closing checks. No remaining coin from one purse had been invented to compensate every crop or household loss described today. Those claims had their fortieth-day hearing."
+        }
+      ]
+    },
+    {
+      "review_id": "VII_XII_REVIEW_12",
+      "topic": "private deposit versus public loan",
+      "result": "No confirmed defect. Public loan 240 less 128 cash + 32 timber credit + 24 current payment leaves 56. Han's received 24 becomes his own private refund resource, joins actual customer payment 8 to reach 32, then actual cooper payment 16 to reach 48; refund occurs to the authorized receiver on Day 41. No forecast or emergency purse silently funds it.",
+      "evidence": [
+        {
+          "path": "data/books/book_xii_canal_08.json",
+          "node": "canal_p08_010",
+          "text": "Han read his remaining monetary claim. His mother had advanced two hundred forty copper; cash repayments of one hundred twenty-eight and unused returned timber credit of thirty-two left eighty. The original toll-share right survived the completed labor and discharged movable-stock security. He did not claim the mother had been only kind, nor the bank only ungrateful. He asked for the proposed twenty-four payment now the supporting comparisons were complete. Tian looked at the clear account and nodded once, still angry about the sale list beside it."
+        },
+        {
+          "path": "data/books/book_xii_canal_08.json",
+          "node": "canal_p08_016",
+          "text": "Han put the twenty-four in his private receiving purse, where it became available for the deposit return rather than a new public repair supply. The future fifty-six remained subject to the original eligible toll receipts and conditions. The broker noted the paid installment without acquiring any right by watching it happen. Yue copied the signed receipt and gave Han his agreed counterpart. Tian asked whether he now withdrew every successor claim. He said the completed pledge gave him none, and signed that explicit correction beside his earlier seal."
+        },
+        {
+          "path": "data/books/book_xii_canal_08.json",
+          "node": "canal_p08_017",
+          "text": "The buyer's agent wanted Han to hand him the twenty-four immediately as part of his forty-eight private deposit. Han could choose an early partial return, but the agent's contract did not compel payment that moment. Han held the money while seeking the customer's eight and the surplus goods' sixteen so he could settle the whole amount together before the term's end. The agent entered that stated plan without calling it completed. The public hearing moved on. It had paid one valid debt installment, not become the receiver of all Han's private bargains."
+        },
+        {
+          "path": "data/books/book_xii_canal_08.json",
+          "node": "canal_p08_069",
+          "text": "Han's customer payment boat reached the lower landing after noon. The private clerk counted the eight copper against its acknowledgment and gave the carrier the receiving note. The money was now received, rather than merely promised or aboard a boat in somebody's letter. Han added it to his deposit-return envelope, bringing that actual private sum to thirty-two. He still needed sixteen or another lawful private choice before the deadline. Yue heard the satisfied count through the open store door and smiled without moving it into the public account."
+        },
+        {
+          "path": "data/books/book_xii_canal_17.json",
+          "node": "canal_p17_056",
+          "text": "Han counted the purse again in front of his wife and the clerk. Twenty-four received from the valid public installment, eight from the delayed private customer and sixteen actually paid by the cooper made forty-eight. His wife asked him to stop recounting after the clerk accepted it. He laughed and closed the tie. The current store cash had paid carriage, repair and the small incident costs separately. No amount from today's subscribed hardship support or remaining apparatus charge had entered the return plan."
+        },
+        {
+          "path": "data/books/book_xii_canal_17.json",
+          "node": "canal_p17_064",
+          "text": "On the forty-first morning, Han brought the counted forty-eight to the authorized private receiver. The clerk checked the amount with both parties and recorded actual refund under the deposit contract. The agent gave the named buyer's receipt and signed release of its specified gear security. Han received his counterpart before the purse left. The main crane, platforms and listed empty chests no longer stood under that deposit charge. The public canal bed remained where it had always been, outside this private transfer."
+        },
+        {
+          "path": "data/books/book_xii_canal_24.json",
+          "node": "canal_p24_014",
+          "text": "Han's private deposit account was already complete. Thirty-two reserved copper, including the actual twenty-four public debt payment and eight private customer receipts, plus sixteen from the private hoist and plank sale had repaid the conditional forty-eight. Its authorized receiver had released the listed private security. The spare property sale had not transferred workers' tools or the common bed. Today's final file preserved that completion rather than reopening the refund because Han disliked leaving. He signed receipt of his copy and kept it in the private chest whose return had begun a smaller future."
+        },
+        {
+          "path": "data/books/book_xii_canal_24.json",
+          "node": "canal_p24_015",
+          "text": "The valid public loan stood at fifty-six: two hundred forty advanced, one hundred twenty-eight repaid in old cash, thirty-two in returned unused timber credit, and the current twenty-four paid. Its eligible actual-receipts term would allow four per payable month after costs and reserve needs, requiring fourteen payable installments. The private gear lease and keeper fee each proposed four monthly under their accepted defined service conditions. Future gross eighteen remained a forecast, not cash received today. New watches, repairs, or operators needed actual appointments and funds; a winter closure would require lawful review rather than free labor."
+        }
+      ]
+    },
+    {
+      "review_id": "VII_XII_REVIEW_13",
+      "topic": "injury, work transfer and repair closing",
+      "result": "No confirmed defect. A quarter-day of unstarted carpentry transfers from Bao to the qualified mason, leaving Bao 4.25 + mason 1.75 = 6 accepted equivalents. Final 28 worker-days at 2 copper = 56, plus 28 materials + 12 stones = 96. The original 120 separates 24 loan repayment from 96 repair.",
+      "evidence": [
+        {
+          "path": "data/books/book_xii_canal_18.json",
+          "node": "canal_p18_067",
+          "text": "The repair clerk proposed transferring a quarter-day equivalent of Bao's unstarted closing carpentry to the qualified mason who had already inspected the outlet. The mason accepted the physical adjustment at the same ordinary two-copper daily rate. Bao retained his agreed light observation and the work he had actually completed. This changed assignments inside the existing twenty-eight equivalents; it added neither a hidden workday nor an unpaid helper. Bao asked for the revised line before agreeing. When he saw it, he said, \"At least my bad wrist is not being used as a cheap door hinge.\""
+        },
+        {
+          "path": "data/books/book_xii_canal_19.json",
+          "node": "canal_p19_061",
+          "text": "The mason's path account listed the five sound pavers used and the cracked piece broken for ordinary rubble sorting. The recorded store quantity changed accordingly. Nobody bought new stone twice under different headings. His physical guide adjustment and path finishing fell within the accepted remaining hours, including the quarter-day transferred from Bao. He had completed his ordinary share of one and three quarters equivalents. Bao's four and a quarter included only work he actually performed or the accepted light observations. The clerk marked those totals beside the assignments rather than rounding them up for convenience."
+        },
+        {
+          "path": "data/books/book_xii_canal_24.json",
+          "node": "canal_p24_007",
+          "text": "The ordinary worker account totaled twenty-eight scheduled equivalents at two copper each, fifty-six in all. Yue's twelve, Bao's four and a quarter, the mason's one and three quarters, Jiang's three, An Ru's two, the tow crew's three, Tian's one, and the short observer, garden, and reed tasks completed the allocation. Those last shares were one half, one quarter, and one quarter. Completed work and approved transfers supported each line; Yue's final receiving signature was still due. The carpenter's injury had changed who finished a task, not created another invisible worker."
+        },
+        {
+          "path": "data/books/book_xii_canal_24.json",
+          "node": "canal_p24_008",
+          "text": "The twenty-eight material copper and twelve for six charged stones matched actual purchases and received stock. With fifty-six ordinary labor copper, including the last four prepared for settlement, they reconciled the ninety-six repair allocation. Reused path pavers were recorded inventory, not a second cash purchase. Remaining sound materials stayed in commission custody. The initial one hundred twenty served its actual division: twenty-four to the valid loan and ninety-six to work. Pei prepared the earmarked cash closing entry, to be completed after Yue's final wage payment rather than prematurely erasing the four still in its envelope."
+        }
+      ]
+    },
+    {
+      "review_id": "VII_XII_REVIEW_14",
+      "topic": "closure and three ending itineraries",
+      "result": "No confirmed defect. Closure is Day 56, booked road travel Days 57–58 and Ren's accepted review Day 59. Public/workshop/home endings preserve the same booked interval; the short home connection costs one additional personal copper and returns before the named first-night connection.",
+      "evidence": [
+        {
+          "path": "data/books/book_xii_canal_24.json",
+          "node": "canal_p24_001",
+          "text": "The fifty-sixth morning arrived without bells beyond the ordinary round. Yue woke before Luo and listened to a cart taking the sound longer route behind the sheds. The old sale notice still hung by the landing, its edge curled from eight weeks of weather. She washed, ate from her own provisions, and put on the mended coat. Today was closure, not departure. Her booked road began tomorrow, leaving this day for the last accepted work and an evening in which she could say goodbye without running for a boat."
+        },
+        {
+          "path": "data/books/book_xii_canal_24.json",
+          "node": "canal_p24_037",
+          "text": "The personal itinerary allowed ordinary days fifty-seven and fifty-eight on the road, and actual orchard arrival on fifty-nine. A serious interruption would need a real message and changed arrangement, not a desperate unpriced sprint. Today no interruption had been reported. The passage receiver held the booked place. Yue told Luo where a genuine message could reach her while traveling, then pointed out the ordinary canal contacts that should answer canal questions first. The keeper accepted the distinction. She did not turn the travel address into another emergency appointment purchased by affection."
+        },
+        {
+          "path": "data/books/book_xii_canal_24.json",
+          "node": "canal_p24_053",
+          "text": "On the fifty-seventh morning Yue boarded the paid ordinary passage with her habitual pack. Luo came to the sound landing to see her off after arranging her current round with the named alternate. Tian had local work and sent a brief note. Bao's sister waved from the path; he was resting. Han stayed at his private store. The boat pushed away without a final assembly. Yue watched the broad comparison board become a pale rectangle beneath its eave. Her public choice had left something people could read while she was elsewhere, which was precisely its point."
+        },
+        {
+          "path": "data/books/book_xii_canal_24.json",
+          "node": "canal_p24_054",
+          "text": "The fifty-eighth day brought the confirmed hill walk and second paid night. Yue used the food and bed copper she had reserved, without pretending the road provided free meals because she had helped a town. The route's ordinary covered rest place proved useful when a short shower passed. She had no packet needing another detour and no borrowed device demanding return. At the night's stop she reread Ren's accepted interval and the actual retained duties. The county copy's later receipt belonged to its named clerk. Tomorrow Yue would answer a different table in person."
+        },
+        {
+          "path": "data/books/book_xii_canal_24.json",
+          "node": "canal_p24_063",
+          "text": "The fifty-seventh morning began at the same booked passage. Yue left the key, source sheets, frame, and stone box with the canal, boarding only with her personal things. Bao sent word approving the fault index's preservation of the failed trial, which mattered more to her than praise for the successful one. Tian waved from her workroom window. Luo returned to the gate after the actual farewell. The boat's ordinary motion carried Yue away without a new command. She watched the receiving shed roof disappear behind the grain house and let its next question belong to its named people."
+        },
+        {
+          "path": "data/books/book_xii_canal_24.json",
+          "node": "canal_p24_064",
+          "text": "During the fifty-eighth day's hill walk Yue met a traveler whose cart wheel had loosened. His own hired driver inspected it from sound level ground. Yue offered no unrelated qi repair and kept to her booked route once they had the ordinary help available. At the second paid night's stop she unfolded Ren's acceptance. The full interval and actual patients awaited her on the fifty-ninth morning. She had left a bounded workshop record at the canal and brought no powered proof of usefulness. At the orchard she would need to listen before deciding whether any familiar technique answered the problem."
+        },
+        {
+          "path": "data/books/book_xii_canal_24.json",
+          "node": "canal_p24_066",
+          "text": "Yue chose the brief home stop and told Luo before the last supper cooled. The west-kiln connection cost one extra personal copper and fitted the confirmed fifty-seventh and fifty-eighth travel days. Ren's fifty-ninth morning remained accepted. The public records and dry apparatus were already received by their named holders; her choice did not leave them secretly waiting for a final command. Luo said the old kiln people might feed her better than the keeper had. Yue disagreed, then admitted she had no current evidence. The keeper accepted the honest correction and cut her another slice of turnip."
+        },
+        {
+          "path": "data/books/book_xii_canal_24.json",
+          "node": "canal_p24_067",
+          "text": "On the fifty-seventh morning Yue paid the additional copper to the confirmed connecting-cart receiver and boarded the ordinary booked boat stage. Her three-copper main fare had already been paid, with food and beds provisioned separately. The detour would end at the named return connection before the night's stop; it was not a promise to improvise a road later. Yue checked the actual departure time once and let the receiver keep the working copy. She took her habitual pack. Nothing commissioned from the canal traveled home disguised as a gift proving how far she had risen."
+        }
+      ]
+    }
+  ],
+  "ordinary_fork_inventory": [
+    {
+      "source_path": "data/books/book_vii.json",
+      "choice_node": "ring_investigation_choice",
+      "first_common_join": "ring_findings",
+      "choices": [
+        "ring_marsh_entry",
+        "ring_archive_entry",
+        "ring_road_entry"
+      ]
+    },
+    {
+      "source_path": "data/books/book_vii.json",
+      "choice_node": "ring_final_choice",
+      "first_common_join": "foundry_arrival_001",
+      "choices": [
+        "ring_return_proposal",
+        "ring_custody_proposal",
+        "ring_refusal_proposal"
+      ]
+    },
+    {
+      "source_path": "data/books/book_vii_marsh.json",
+      "choice_node": "ring_marsh_practice_choice",
+      "first_common_join": "ring_marsh_practice_rejoin",
+      "choices": [
+        "ring_marsh_breath",
+        "ring_marsh_footing"
+      ]
+    },
+    {
+      "source_path": "data/books/book_vii_marsh.json",
+      "choice_node": "ring_marsh_review_choice",
+      "first_common_join": "ring_marsh_review_rejoin",
+      "choices": [
+        "ring_marsh_redraw",
+        "ring_marsh_read_limits"
+      ]
+    },
+    {
+      "source_path": "data/books/book_vii_archive.json",
+      "choice_node": "ring_archive_ask_help",
+      "first_common_join": "ring_archive_bench_join",
+      "choices": [
+        "ring_archive_charter_lesson",
+        "ring_archive_permit_lesson"
+      ]
+    },
+    {
+      "source_path": "data/books/book_vii_archive.json",
+      "choice_node": "ring_archive_quiet_choice",
+      "first_common_join": "ring_archive_bruise_common",
+      "choices": [
+        "ring_archive_apprentice_pause",
+        "ring_archive_quiet_pause"
+      ]
+    },
+    {
+      "source_path": "data/books/book_vii_road.json",
+      "choice_node": "ring_road_brace_choice",
+      "first_common_join": "ring_road_anchor",
+      "choices": [
+        "ring_road_brace_bank",
+        "ring_road_brace_angle"
+      ]
+    },
+    {
+      "source_path": "data/books/book_vii_road.json",
+      "choice_node": "ring_road_terms_choice",
+      "first_common_join": "ring_road_lantern",
+      "choices": [
+        "ring_road_terms_questions",
+        "ring_road_terms_silence"
+      ]
+    },
+    {
+      "source_path": "data/books/book_viii_foundry.json",
+      "choice_node": "foundry_work_choice",
+      "first_common_join": "foundry_work_rejoin_001",
+      "choices": [
+        "foundry_wage_001",
+        "foundry_records_001",
+        "foundry_rest_001"
+      ]
+    },
+    {
+      "source_path": "data/books/book_viii_foundry.json",
+      "choice_node": "foundry_creature_choice",
+      "first_common_join": "foundry_creature_rejoin_001",
+      "choices": [
+        "foundry_gauge_001",
+        "foundry_shutter_001",
+        "foundry_access_001"
+      ]
+    },
+    {
+      "source_path": "data/books/book_viii_foundry.json",
+      "choice_node": "foundry_final_choice",
+      "first_common_join": "ridge_departure_001",
+      "choices": [
+        "foundry_bench_001",
+        "foundry_survey_001",
+        "foundry_home_001"
+      ]
+    },
+    {
+      "source_path": "data/books/book_ix_thunderfen.json",
+      "choice_node": "ridge_investigation_choice",
+      "first_common_join": "ridge_findings_001",
+      "choices": [
+        "ridge_replica_001",
+        "ridge_material_001",
+        "ridge_ground_001"
+      ]
+    },
+    {
+      "source_path": "data/books/book_ix_thunderfen.json",
+      "choice_node": "ridge_final_choice",
+      "first_common_join": "storm_arrival_001",
+      "choices": [
+        "ridge_model_001",
+        "ridge_route_001",
+        "ridge_home_001"
+      ]
+    },
+    {
+      "source_path": "data/books/book_x_storm_ledger.json",
+      "choice_node": "storm_inquiry_choice",
+      "first_common_join": "storm_compare_001",
+      "choices": [
+        "storm_paper_001",
+        "storm_route_001",
+        "storm_households_001"
+      ]
+    },
+    {
+      "source_path": "data/books/book_x_storm_ledger.json",
+      "choice_node": "storm_test_choice",
+      "first_common_join": "storm_warning_001",
+      "choices": [
+        "storm_relay_001",
+        "storm_lever_001",
+        "storm_handover_001"
+      ]
+    },
+    {
+      "source_path": "data/books/book_x_storm_ledger.json",
+      "choice_node": "storm_rescue_choice",
+      "first_common_join": "storm_after_001",
+      "choices": [
+        "storm_ground_001",
+        "storm_trolley_001",
+        "storm_signal_001"
+      ]
+    },
+    {
+      "source_path": "data/books/book_x_storm_ledger.json",
+      "choice_node": "storm_hearing_choice",
+      "first_common_join": "storm_settle_001",
+      "choices": [
+        "storm_trace_001",
+        "storm_warning_hearing_001",
+        "storm_claims_001"
+      ]
+    },
+    {
+      "source_path": "data/books/book_x_storm_ledger.json",
+      "choice_node": "storm_final_choice",
+      "first_common_join": "salt_arrival_001",
+      "choices": [
+        "storm_public_001",
+        "storm_workshop_001",
+        "storm_home_001"
+      ]
+    },
+    {
+      "source_path": "data/books/book_xi_salt_road.json",
+      "choice_node": "salt_investigation_choice",
+      "first_common_join": "salt_findings_001",
+      "choices": [
+        "salt_channels_001",
+        "salt_accounts_001",
+        "salt_households_001"
+      ]
+    },
+    {
+      "source_path": "data/books/book_xi_salt_road.json",
+      "choice_node": "salt_trial_choice",
+      "first_common_join": "salt_recovery_001",
+      "choices": [
+        "salt_wash_trial_001",
+        "salt_seed_trial_001",
+        "salt_reserve_trial_001"
+      ]
+    },
+    {
+      "source_path": "data/books/book_xi_salt_road.json",
+      "choice_node": "salt_final_choice",
+      "first_common_join": "canal_p01_001",
+      "choices": [
+        "salt_rotation_001",
+        "salt_maintenance_001",
+        "salt_purchase_001"
+      ]
+    },
+    {
+      "source_path": "data/books/book_xii_canal_01.json",
+      "choice_node": "canal_p01_021",
+      "first_common_join": "canal_p01_046",
+      "choices": [
+        "canal_p01_022",
+        "canal_p01_030",
+        "canal_p01_038"
+      ]
+    },
+    {
+      "source_path": "data/books/book_xii_canal_01.json",
+      "choice_node": "canal_p01_071",
+      "first_common_join": "canal_p01_075",
+      "choices": [
+        "canal_p01_072",
+        "canal_p01_073",
+        "canal_p01_074"
+      ]
+    },
+    {
+      "source_path": "data/books/book_xii_canal_02.json",
+      "choice_node": "canal_p02_029",
+      "first_common_join": "canal_p02_060",
+      "choices": [
+        "canal_p02_030",
+        "canal_p02_040",
+        "canal_p02_050"
+      ]
+    },
+    {
+      "source_path": "data/books/book_xii_canal_03.json",
+      "choice_node": "canal_p03_029",
+      "first_common_join": "canal_p03_060",
+      "choices": [
+        "canal_p03_030",
+        "canal_p03_040",
+        "canal_p03_050"
+      ]
+    },
+    {
+      "source_path": "data/books/book_xii_canal_04.json",
+      "choice_node": "canal_p04_029",
+      "first_common_join": "canal_p04_060",
+      "choices": [
+        "canal_p04_030",
+        "canal_p04_040",
+        "canal_p04_050"
+      ]
+    },
+    {
+      "source_path": "data/books/book_xii_canal_05.json",
+      "choice_node": "canal_p05_029",
+      "first_common_join": "canal_p05_060",
+      "choices": [
+        "canal_p05_030",
+        "canal_p05_040",
+        "canal_p05_050"
+      ]
+    },
+    {
+      "source_path": "data/books/book_xii_canal_06.json",
+      "choice_node": "canal_p06_029",
+      "first_common_join": "canal_p06_060",
+      "choices": [
+        "canal_p06_030",
+        "canal_p06_040",
+        "canal_p06_050"
+      ]
+    },
+    {
+      "source_path": "data/books/book_xii_canal_07.json",
+      "choice_node": "canal_p07_029",
+      "first_common_join": "canal_p07_060",
+      "choices": [
+        "canal_p07_030",
+        "canal_p07_040",
+        "canal_p07_050"
+      ]
+    },
+    {
+      "source_path": "data/books/book_xii_canal_08.json",
+      "choice_node": "canal_p08_029",
+      "first_common_join": "canal_p08_060",
+      "choices": [
+        "canal_p08_030",
+        "canal_p08_040",
+        "canal_p08_050"
+      ]
+    },
+    {
+      "source_path": "data/books/book_xii_canal_09.json",
+      "choice_node": "canal_p09_029",
+      "first_common_join": "canal_p09_060",
+      "choices": [
+        "canal_p09_030",
+        "canal_p09_040",
+        "canal_p09_050"
+      ]
+    },
+    {
+      "source_path": "data/books/book_xii_canal_10.json",
+      "choice_node": "canal_p10_029",
+      "first_common_join": "canal_p10_060",
+      "choices": [
+        "canal_p10_030",
+        "canal_p10_040",
+        "canal_p10_050"
+      ]
+    },
+    {
+      "source_path": "data/books/book_xii_canal_11.json",
+      "choice_node": "canal_p11_029",
+      "first_common_join": "canal_p11_060",
+      "choices": [
+        "canal_p11_030",
+        "canal_p11_040",
+        "canal_p11_050"
+      ]
+    },
+    {
+      "source_path": "data/books/book_xii_canal_12.json",
+      "choice_node": "canal_p12_029",
+      "first_common_join": "canal_p12_060",
+      "choices": [
+        "canal_p12_030",
+        "canal_p12_040",
+        "canal_p12_050"
+      ]
+    },
+    {
+      "source_path": "data/books/book_xii_canal_13.json",
+      "choice_node": "canal_p13_029",
+      "first_common_join": "canal_p13_060",
+      "choices": [
+        "canal_p13_030",
+        "canal_p13_040",
+        "canal_p13_050"
+      ]
+    },
+    {
+      "source_path": "data/books/book_xii_canal_14.json",
+      "choice_node": "canal_p14_029",
+      "first_common_join": "canal_p14_060",
+      "choices": [
+        "canal_p14_030",
+        "canal_p14_040",
+        "canal_p14_050"
+      ]
+    },
+    {
+      "source_path": "data/books/book_xii_canal_15.json",
+      "choice_node": "canal_p15_029",
+      "first_common_join": "canal_p15_060",
+      "choices": [
+        "canal_p15_030",
+        "canal_p15_040",
+        "canal_p15_050"
+      ]
+    },
+    {
+      "source_path": "data/books/book_xii_canal_16.json",
+      "choice_node": "canal_p16_029",
+      "first_common_join": "canal_p16_060",
+      "choices": [
+        "canal_p16_030",
+        "canal_p16_040",
+        "canal_p16_050"
+      ]
+    },
+    {
+      "source_path": "data/books/book_xii_canal_17.json",
+      "choice_node": "canal_p17_029",
+      "first_common_join": "canal_p17_060",
+      "choices": [
+        "canal_p17_030",
+        "canal_p17_040",
+        "canal_p17_050"
+      ]
+    },
+    {
+      "source_path": "data/books/book_xii_canal_18.json",
+      "choice_node": "canal_p18_029",
+      "first_common_join": "canal_p18_060",
+      "choices": [
+        "canal_p18_030",
+        "canal_p18_040",
+        "canal_p18_050"
+      ]
+    },
+    {
+      "source_path": "data/books/book_xii_canal_19.json",
+      "choice_node": "canal_p19_029",
+      "first_common_join": "canal_p19_060",
+      "choices": [
+        "canal_p19_030",
+        "canal_p19_040",
+        "canal_p19_050"
+      ]
+    },
+    {
+      "source_path": "data/books/book_xii_canal_20.json",
+      "choice_node": "canal_p20_029",
+      "first_common_join": "canal_p20_060",
+      "choices": [
+        "canal_p20_030",
+        "canal_p20_040",
+        "canal_p20_050"
+      ]
+    },
+    {
+      "source_path": "data/books/book_xii_canal_21.json",
+      "choice_node": "canal_p21_029",
+      "first_common_join": "canal_p21_060",
+      "choices": [
+        "canal_p21_030",
+        "canal_p21_040",
+        "canal_p21_050"
+      ]
+    },
+    {
+      "source_path": "data/books/book_xii_canal_22.json",
+      "choice_node": "canal_p22_029",
+      "first_common_join": "canal_p22_060",
+      "choices": [
+        "canal_p22_030",
+        "canal_p22_040",
+        "canal_p22_050"
+      ]
+    },
+    {
+      "source_path": "data/books/book_xii_canal_23.json",
+      "choice_node": "canal_p23_029",
+      "first_common_join": "canal_p23_060",
+      "choices": [
+        "canal_p23_030",
+        "canal_p23_040",
+        "canal_p23_050"
+      ]
+    },
+    {
+      "source_path": "data/books/book_xii_canal_24.json",
+      "choice_node": "canal_p24_045",
+      "first_common_join": null,
+      "choices": [
+        "canal_p24_046",
+        "canal_p24_056",
+        "canal_p24_066"
+      ]
+    }
+  ],
+  "limitations": [
+    "No assertion of 1000 discovered or fixed defects follows from this audit.",
+    "The no-confirmed-defect records describe the inspected assertions only; they are not proof of whole-manuscript consistency.",
+    "Graph/counter inspection and source review do not replace executable validation on the final assembled PR commit.",
+    "Blob creation is immutable staging only; no branch ref or commit was changed."
+  ],
+  "independent_cultivation_review": {
+    "scope": "Cultivation canon, stage metadata across all 729 nodes in Books VIII–XI, and relevant narrative/choice claims concerning advancement, sampling, throughput, apparatus energy and anatomy.",
+    "result": "No confirmed defect. Foundry's 255 stage-3 and 44 stage-4 nodes transition only at foundry_assessment_018; all 430 Book IX–XI nodes stay stage 4. Reported sampling margins do not establish an actual shortfall, and no sample discharge is explicitly cancelled.",
+    "stage_metadata_inventory": {
+      "foundry_stage3": 255,
+      "foundry_stage4": 44,
+      "books_ix_x_xi_stage4": 430
+    },
+    "evidence": [
+      {
+        "path": "data/books/book_viii_foundry.json",
+        "node": "foundry_phase_022",
+        "text": "The second pair followed the complementary outer-forearm and upper-arm paths to the shoulder junction. It did not open a leg channel, the middle dantian or an extraordinary vessel. Su Yan marked the permitted region on an unpowered chart, leaving later routes covered. Yue recognized the old temptation to treat the next visible line as permission. This time she placed a folded cloth over it herself. She would learn the second return before dreaming of a circuit large enough to make every part of the drawing useful."
+      },
+      {
+        "path": "data/books/book_viii_foundry.json",
+        "node": "foundry_assessment_001",
+        "text": "On Day Seventy, Yue woke with eighteen and a quarter usable units retained after the prescribed ordinary day and sleep. The compatible fraction measured just above eighty-eight percent under independent sampling. The small sample's cost was entered before route work. The examiner checked a fresh blank and warmed reference pad himself. Su Yan stood outside the operator line, available to stop the apparatus but no longer supplying the judgment Yue hoped to hear."
+      },
+      {
+        "path": "data/books/book_viii_foundry.json",
+        "node": "foundry_assessment_018",
+        "text": "On Day Eighty, ordinary touch, grip and shoulder movement remained normal. The healer signed the recovered check; the independent examiner compared all three qualifying pages, their blanks, interruptions and declared workloads. Only then did he enter Qi Gathering's fourth stage: Second pair. Yue read the line slowly. Nothing exploded above the bridge. Her hands still looked like the hands that had carried ash, mended cloth and once mistaken warmed copper for a trace."
+      },
+      {
+        "path": "data/books/book_viii_foundry.json",
+        "node": "foundry_martial_005",
+        "text": "After the ordinary baseline, Su Yan inspected the conducting stitch from cuff to sole. Its external path did not open a leg meridian. The quarter-unit useful support would travel through a rated cloth route supplied by the first arm pair, with the current delivery loss charged to Yue's reserve. They checked the ground and release at the dry board. A technique name did not remove the preparation hidden beneath it."
+      },
+      {
+        "path": "data/books/book_ix_thunderfen.json",
+        "node": "ridge_ground_006",
+        "text": "A loose basalt plate shifted under the empty pole. Yue stepped back with ordinary footwork rather than locking herself to the rock with qi. The second arm pair did not extend into her legs. Jiang ended that measurement and moved the chalk boundary inward. The revised map was smaller and safer than the one the steward wanted posted by market day."
+      },
+      {
+        "path": "data/books/book_x_storm_ledger.json",
+        "node": "storm_compare_009",
+        "text": "The bell's smallest command was a quarter-unit pulse through the first established arm pair, with a half-unit delivery allowance and full discharge afterward. The second pair could be tested separately on a recovered day, never together merely to make the tone louder. Jiang checked the enclosed socket's stop before fitting its stone. Yue's eighteen usable units were a prior recovered reserve result. They were not an invitation to spend eighteen units at one sitting."
+      },
+      {
+        "path": "data/books/book_x_storm_ledger.json",
+        "node": "storm_relay_002",
+        "text": "Jiang fitted the sleeved stone while the socket remained isolated. She wrote its starting charge beside the expected bell draw, then locked the cover. Yue delivered the permitted pulse and closed the route. The bell gave three clear strikes. The stone's measured decline included the trigger circuit and sound load. Yue's own expenditure included delivery and sampling losses. Two different budgets had performed one audible event, and neither could be made free by writing a single total."
+      },
+      {
+        "path": "data/books/book_xi_salt_road.json",
+        "node": "salt_wash_trial_003",
+        "text": "A prepared dosing gate had stuck during its dry test. Duan replaced the worn stop before permitting use. Yue could give its rated control socket a quarter-unit command through her first pair, spending the known half-unit including delivery loss; ordinary gravity moved the water. She discharged fully and let the foreman measure the tank's actual draw. The faint control light certified no salt purity and supplied none of the washing volume."
+      },
+      {
+        "path": "data/books/book_xi_salt_road.json",
+        "node": "salt_maintenance_007",
+        "text": "Before departure, Yue carried one full jar up the north stair at the collector's requested pace. The shelf and paid route would carry future turns after she left. She set the jar down and felt her ordinary arms ache. Her fourth stage had not opened a leg pair or removed the hill. The collector handed her an empty cup for the journey and said that she hoped the next visit could begin with tea."
+      }
+    ],
+    "canonical_anchors": {
+      "measures": {
+        "breath_unit": "One breath-unit is the qi needed to keep a standard copper thread illuminated for one calm exhalation. Measurements use the same thread and ambient ward; numbers cannot be compared without calibration.",
+        "reserve": "Usable stored qi, separately measured from structural capacity. A large empty reservoir does no work.",
+        "capacity": "Maximum safe reserve measured after recovery. Capacity cannot be increased by exhausting the reserve.",
+        "purity": "Fraction of stored qi matching the practitioner's stable cycle. High reserve at low purity can damage a meridian.",
+        "strain": "Accumulated pressure and fatigue. Strain rises with throughput, incompatible phases, injury and forced seals. Rest, nutrition and appropriate treatment reduce it.",
+        "control": "Repeatable direction, release and interruption. The ability to stop a technique is tested before its power.",
+        "comprehension": "An explanation demonstrated under changed conditions, rather than reciting a manual.",
+        "affinity": "Wood, fire, earth, metal and water are process affinities, not moral traits. Mixed roots learn slowly but permit flexible cycles.",
+        "throughput": "Maximum tested qi flow through a specific route per ordinary breath, separately from stored reserve. Stay below the last recovered safe result; injury or a changed instrument requires reassessment.",
+        "measurement_cost": "Sampling itself discharges qi. Subtract known work and measured sampling discharge from starting reserve before identifying unexplained leakage. Calibration cannot make a real energy cost disappear."
+      },
+      "primary_channels": {
+        "id": "twelve_channels",
+        "name": "Twelve primary meridians: six paired routes",
+        "function": "Twelve primary channels form six inward/outward pairs through limbs and trunk. Body Tempering prepares tissue and uses external practice leads; Qi Gathering opens internal pairs in sequence. The first arm pair is earned at stage 3. A chest junction on that route is not an opened middle dantian.",
+        "failure": "One strong route cannot compensate for a damaged partner."
+      },
+      "qi_gathering": {
+        "id": "qi_gathering",
+        "name": "Qi Gathering",
+        "stages": [
+          "1: Trace",
+          "2: Retention",
+          "3: First pair",
+          "4: Second pair",
+          "5: Four pairs",
+          "6: Six pairs",
+          "7: Small circuit",
+          "8: Balanced reservoir",
+          "9: Great circuit"
+        ],
+        "mechanism": "Admit, refine and retain ambient qi in the lower dantian.",
+        "admission": "Three breath-units retained overnight on three tests, clean release and no next-day tremor.",
+        "practice": "Early stages stabilize a trace; middle stages balance six paired channels; late stages bridge governing and conception vessels before the great circuit. Record usable reserve separately from purity. Stage 2 requires six usable breath-units after an ordinary day and sleep, at least 80% compatible charge, clean discharge, and three recovered calibrated trials. Stage 3 requires twelve usable units, at least 85% compatibility, a first paired inward/outward route carrying a quarter-unit pulse with controlled interruption, three recovered trials and normal next-day sensation. These are Azure Cloud method thresholds, not a universal currency conversion. First-pair pulse delivery may spend a half-unit to do a quarter-unit of useful work. Stage 4 requires eighteen usable units after ordinary activity and sleep, at least 87% compatible charge, two distinct paired routes carrying their permitted quarter-unit tasks successively with full discharge, independent interruption control, three recovered calibrated trials and normal next-day sensation. The second pair follows complementary outer-forearm and upper-arm paths to the shoulder junction; it does not open a leg route, middle dantian or extraordinary vessel. Stage 5 under the same Azure Cloud local method requires at least thirty-six actual usable breath-units after ordinary activity and sleep, measured after sampling discharge, and at least 90% compatible charge. Four distinct inward/outward primary pairs each carry their own quarter-unit useful task with independent interruption, complete grounded discharge and rest between tasks. The two established arm pairs are joined by supervised anterior and posterior lower-limb pairs; these do not open extraordinary vessels or another dantian. Each new pair admits at most a half-unit over four ordinary breaths to deliver a quarter-unit of useful work, with recovered input no greater than one-eighth unit per breath and lower limits after strain. Three independently calibrated qualifying trials occur on separate recovered days with changed permitted task order, followed by normal next-day touch, grip and leg-movement checks. These are local examination thresholds, not a universal energy or money conversion.",
+        "breakthrough": "Ninth stage, at least 90% compatible purity, a great circuit that survives interrupted breath, and three separate stable compression trials under supervision.",
+        "capabilities": "Stage 1 lights a wick briefly; stage 3 reinforces one prepared movement; stage 6 maintains a small talisman; stage 9 sustains a local ward relay.",
+        "limits": "Early stages cannot fly, shatter a mountain or cure an injury. Qi reserve must be replenished. Wards amplify a permitted input but cannot remove their fuel budget.",
+        "failure": "Leakage, phase grit, reflux at a bridge and overconfidence after the first successful trace.",
+        "recovery": "Safe discharge, channel rest, compatible food and low-load recirculation. A damaged route can make a former stage temporarily unusable.",
+        "span": "Healthy practice may reach roughly 120 years; injury and ordinary disease still matter."
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "audited_head": "1bb309ba5cc8621673a041e80b91cf38414af8cb",
+  "defect_count": 1,
+  "defects": [
+    {
+      "id": "VII_XII_SALT_PURCHASE_VOLUME_001",
+      "category": "physical quantity and receiving ledger",
+      "source_path": "data/books/book_xi_salt_road.json",
+      "node": "salt_purchase_003",
+      "before_text": "Yue wanted to accept the replacement on the driver's promise because the other jars had passed. An Ru kept the first receiving count at thirty accepted jars. The promise entered an owed-quantity column. The two later forty-jar deliveries passed their own checks, and the replacement arrived under a fourth checked carriage record charged to the seller. Only then did accepted outside supply reach one hundred twenty jars. The council's carriage budget still paid only the three agreed deliveries.",
+      "after_text": "Yue wanted to accept the replacement on the driver's promise because the other jars had passed. An Ru kept the first receiving count at thirty-nine accepted jars. The promise entered an owed-quantity column. The two later forty-jar deliveries passed their own checks, and the replacement arrived under a fourth checked carriage record charged to the seller. Only then did accepted outside supply reach one hundred twenty jars. The council's carriage budget still paid only the three agreed deliveries.",
+      "evidence": [
+        {
+          "node": "salt_arrival_004",
+          "text": "'The dry-season spring gives one hundred twenty counted jars each day,' Duan said. 'Drinking, cooking and the clinic require one hundred fifty. The reserve holds sixteen hundred forty. Each counted jar means ten litres on our checked measure. We subtract unusable bottom water and transfer loss before writing that number. The lake is brackish. A thousand jars must remain untouched unless the council declares a new emergency.'",
+          "role": "One counted jar equals ten litres."
+        },
+        {
+          "node": "salt_purchase_001",
+          "text": "The limited purchase plan opened no larger local ceiling while the external order travelled. Yue and An Ru checked the seller's certified surplus statement and the receiving contract at separate desks. The seller's own protected household turns came first; the sale covered forty surplus jars on each of three specified days. Their document review justified the order. It did not authorize drawing water from a village that had not made that offer.",
+          "role": "Seller owes forty jars on each of three specified days."
+        },
+        {
+          "node": "salt_purchase_002",
+          "text": "The first delivery arrived on two checked freight carts, with listed jar seals. A qualified inspector tested the water under the valley's drinking criteria before clean storage accepted it. One loose cover had collected road dust; those ten litres stayed outside the accepted count. The receiving contract required the seller to supply the replacement and pay its extra carriage. The carrier received payment for the actual journey. A refusal needed a funded receiving route, not a reassuring explanation.",
+          "role": "A single cover's ten litres are refused, so exactly one jar is rejected from the first forty-jar delivery."
+        },
+        {
+          "node": "salt_purchase_003",
+          "text": "Yue wanted to accept the replacement on the driver's promise because the other jars had passed. An Ru kept the first receiving count at thirty accepted jars. The promise entered an owed-quantity column. The two later forty-jar deliveries passed their own checks, and the replacement arrived under a fourth checked carriage record charged to the seller. Only then did accepted outside supply reach one hundred twenty jars. The council's carriage budget still paid only the three agreed deliveries.",
+          "role": "The old 30 accepted count should be 39. Actual receipts must be 39+40+40+1 replacement=120, retaining three council-paid deliveries and one seller-paid replacement carriage."
+        },
+        {
+          "node": "salt_purchase_006",
+          "text": "At the review, the local conservative lower bound was eleven hundred eighty-five after essential demand, the largest early trial and the two-hundred-jar later ceiling. One hundred twenty actually accepted purchased jars raised that bound to thirteen hundred five. The closure day's five essential jars left at least thirteen hundred without contingency spending. The measured balance stood above the calculation, with the completed supplier obligation and four carriage receipts distinguishing the seller-paid replacement.",
+          "role": "The intended accepted outside supply is 120 jars; reserve lower bound remains 1305 at review and 1300 at closure."
+        },
+        {
+          "node": "salt_purchase_007",
+          "text": "On closure morning, the driver asked whether Yue could recommend him for the next season. She described the journeys she had witnessed and the rejected cover he had helped replace. She could not promise the next commission's contract. He accepted the limited recommendation, tucked it under his strap and checked the wheel peg before leaving. Yue collected her own paid fare afterward, glad that both departures had records ordinary enough to be believed.",
+          "role": "Later singular rejected-cover reference is preserved."
+        }
+      ],
+      "reason": "Rejecting one ten-litre jar from forty leaves thirty-nine jars, not thirty. Replacing the erroneous first receiving count preserves the original single-cover rejection and the 39+40+40+1=120 final supply total.",
+      "repair_scope": "Change 'thirty accepted jars' to 'thirty-nine accepted jars' in salt_purchase_003 only. Original salt_purchase_002 and all other source prose remain unchanged. No branch edges, resource budgets, or whitespace-token word count changed.",
+      "source_url": "https://github.com/jgyy/octxian/blob/1bb309ba5cc8621673a041e80b91cf38414af8cb/data/books/book_xi_salt_road.json"
+    }
+  ],
+  "supersedes_unreferenced_blobs": {
+    "book": "0671b32deb47194a48a16d7a15867a09a2762a00",
+    "audit": "014139962e7d3bb136226bae2aba0470d0d396ad"
+  },
+  "limitations": "One independently corroborated defect, counted once. Scene coverage and checked obligations are not counted as discovered or repaired plot holes."
+}

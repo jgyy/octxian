@@ -52,6 +52,8 @@ jobs:
           python -m tools.validate_storm_salt_repairs --verify-source
           git fetch --depth=1 origin 3530d7283d0f326771b8f3661c173ad222591898
           python -m tools.validate_consequence_revision --verify-source
+          git fetch --depth=1 origin 1bb309ba5cc8621673a041e80b91cf38414af8cb
+          python -m tools.validate_semantic_sweep --verify-source
           python -m unittest discover -s tests -p 'test_*.py'
           python tools/validate_continuation_audits.py --source-base d2ce2851c8e47842104607ec5999ffba6fdabe1c --source-node-index docs/CONTINUATION_SOURCE_INDEX_20261003.json
           python tools/validate_continuation_audits.py docs/CONTINUITY_REPAIRS_20261003_SECOND_RIVER.json docs/CONTINUITY_REPAIRS_20261003_SECOND_CITY.json docs/CONTINUITY_REPAIRS_20261003_SECOND_CULTIVATION.json docs/CONTINUITY_REPAIRS_20261003_SECOND_RING.json docs/CONTINUITY_REPAIRS_20261003_SECOND_FERRY.json docs/CONTINUITY_REPAIRS_20261003_SECOND_ORCHARD.json --source-base c45164a3fc00c2a139158730b2f98f2db9926003 --source-node-index docs/CONTINUATION_SECOND_SOURCE_INDEX_20261003.json
