@@ -1,0 +1,2225 @@
+{
+  "chapters": {
+    "book_xix_reed_crossing": {
+      "label": "BOOK XIX",
+      "title": "The Weight of the Second Bell"
+    }
+  },
+  "characters": {},
+  "nodes": {
+    "crossing_entry": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Two days after receiving the archive's three-week settlement account, Yue came to Reed Crossing by the upper public road. She had accepted one new measuring shift, not another archive appointment. The river smelled of roots torn out upstream. On the dry receiving terrace, Jiang Tao had laid a small brass reference frame beside an ordinary depth rod. Across the water, a granary bell rang twice and then stopped. The ferry master was looking at the lower landing rather than the bell.",
+      "next": "crossing_arrival_01",
+      "routes": [
+        {
+          "decision": "letters_watch_service_choice",
+          "selected": "letters_watch_close_01",
+          "next": "crossing_from_closure_01"
+        },
+        {
+          "decision": "letters_watch_service_choice",
+          "selected": "letters_watch_reserve_01",
+          "next": "crossing_from_reserve_01"
+        },
+        {
+          "decision": "letters_watch_service_choice",
+          "selected": "letters_watch_school_transfer_01",
+          "next": "crossing_from_school_01"
+        }
+      ]
+    },
+    "crossing_from_closure_01": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The archive's outstation remained closed for the rainy term. Luo had sent a permitted closure notice ahead to the crossing desk, because some readers would now approach the mountain collection by this road. The notice supplied a destination and ordinary opening dates. It supplied no bridge clearance. Yue unfolded it beside Jiang's empty conditions sheet. A decision that had ended one uncertainty had moved another group of travellers toward a crossing nobody could promise them.",
+      "next": "crossing_from_closure_02"
+    },
+    "crossing_from_closure_02": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "One of the waiting readers recognized the archive seal and asked whether the mountain desk would wait if the river delayed her. Yue gave her the named contact, then asked the crossing clerk to carry the timing question. She could not extend the archive's hours from another town. The reader thanked her for the address without thanking her for the earlier closure. Yue found it possible to deserve the first thanks and remain answerable to the second silence.",
+      "next": "crossing_arrival_01"
+    },
+    "crossing_from_reserve_01": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The archive's single reserve reading had finished. Luo's permitted receiving note described one event, its paid attendants and its closed bookings afterward. A reader at the crossing mistook its carriage receipt for an ongoing transport offer. Yue showed her the actual date and finish. The archive would receive a new request through its ordinary desk, but the old twelve-copper grant had been spent. One good afternoon could leave a convincing piece of paper behind it.",
+      "next": "crossing_from_reserve_02"
+    },
+    "crossing_from_reserve_02": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The reader put the receipt away slowly. She had planned her walk around the belief that the carriage still ran. Yue helped her ask the local clerk about an ordinary return journey. The crossing's emergency ferry account could not absorb that fare. Jiang waited while she completed the question. The depth rod remained on its rack; the river did not pause because explaining yesterday's promise had taken longer than making it.",
+      "next": "crossing_arrival_01"
+    },
+    "crossing_from_school_01": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The school's public receiving service continued within its accepted hours. Luo's permitted note directed village readers there and retained originals at the mountain archive. The crossing clerk had posted the school's address beside the road notice. Yue recognized the small change in the queue: fewer people were carrying public reading requests across the river. Freight, wages and clinical supplies still needed their own journeys. The successful transfer had reduced one demand without solving this crossing.",
+      "next": "crossing_from_school_02"
+    },
+    "crossing_from_school_02": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "A woman waiting for a linen crate said her daughter had attended the school's second funded introduction. She liked the new place and disliked the later hour. Yue listened to both judgments. The teacher's continuing ordinary schedule was not hers to alter. On the measuring table, Jiang turned over the reference frame so its disconnected contacts were visible. The river problem would have to begin with the equipment actually here.",
+      "next": "crossing_arrival_01"
+    },
+    "crossing_arrival_01": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "jiang_tao",
+        "yuan_lian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yuan Lian stood at the terrace rail with her sleeves tied back. The mill had released her for a paid cargo-receiving shift; its relief forewoman held the mill keys. Her knowledge of gates made her useful beside the ferry master. It did not make her the bridge's structural examiner. She pointed out the high terrace where people could wait and the lower freight store already emptied of its workers. Only goods remained below the marked withdrawal line.",
+      "next": "crossing_arrival_02"
+    },
+    "crossing_arrival_02": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "jiang_tao",
+        "yuan_lian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The stone bridge was physically closed. A licensed engineer had seen movement at the freight arch and ordered barricades at both ends. A separate hand bell warned walkers away. The bronze gauge beside the closed arch belonged to a formation aid for measuring changes; it did not carry stone weight. Jiang had disconnected its supply. Nobody would reopen the bridge because a lamp lit, a cultivator remained calm or a merchant had promised a delivery.",
+      "next": "crossing_arrival_03"
+    },
+    "crossing_arrival_03": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "jiang_tao",
+        "yuan_lian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The far-bank clinic had patients under ordinary local care and enough clean dressing stock for tonight. Its eight sealed linen loads would replenish tomorrow's work. The grain house wanted eighteen half-sack loads delivered before the wet store flooded. Six covered account bundles recorded wages already earned by freight workers. Copies existed with some employers, but not every worker had a receipt. Yuan laid three requests on the table without arranging them by how moving they sounded.",
+      "next": "crossing_arrival_04"
+    },
+    "crossing_arrival_04": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "jiang_tao",
+        "yuan_lian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The ferry master approved one cargo departure from this side while the landing remained within its measured limit. Twelve standardized load units fitted the rated cradle. A second departure was possible only after a new landing inspection and weather check; nobody could book it as certain. People had already left the lower store by the upper paths. Rescue would override freight if conditions changed. The confirmed cargo place was scarce even before anyone made a mistake.",
+      "next": "crossing_arrival_05"
+    },
+    "crossing_arrival_05": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "jiang_tao",
+        "yuan_lian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "A separate twelve-copper emergency ferry allocation covered six for the completed crossing and six for the receiving crew's work. The clerk would pay against actual performance. Eighteen copper for later replacement or record recovery sat in another sealed municipal purse. Yue's measuring wage, her travel and Jiang's external instrument fuel had independent accounts. Neither purse promised a second ferry, structural repair or compensation for every lost crate. Chen Rui read those lines twice.",
+      "next": "crossing_arrival_06"
+    },
+    "crossing_arrival_06": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "jiang_tao",
+        "yuan_lian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Chen had arrived under a contract to help the wage claimants compare their offered papers. His clients had permitted identified bundles to travel for that purpose; they had not authorized public posting of their names. He wanted all six bundles carried. The clinic keeper wanted all eight linen loads. The grain receiver wanted eighteen. Thirty-two requests faced twelve confirmed places. Chen drew a second boat on his planning sheet, then crossed it out before anybody else had to.",
+      "next": "crossing_arrival_07"
+    },
+    "crossing_arrival_07": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "jiang_tao",
+        "yuan_lian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Jiang offered Yue twenty minutes at a disconnected reference bench on the high terrace. She could lead a bounded qi comparison if her control was trained, lead a source-order comparison if her understanding was trained, help an ordinary measured observation, or use the available prior log with its limits. The engineer retained the actual landing decision. Every approach would use this interval and leave different questions unanswered. The gauge's attractive brass case concealed nothing from a careful opening.",
+      "next": "crossing_arrival_08"
+    },
+    "crossing_diagnostic_choice": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "jiang_tao",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue had one supervised measuring interval before the master loaded the ferry. A trained approach could answer a narrower question more precisely, not create another cargo place. The ordinary rod observation and the dated log remained available without attribute gates. Jiang would stop any unstable qi attempt; the engineer would receive whichever actual result they obtained. Chen asked for a conclusion about fault. None of the four methods could promise that conclusion.",
+      "choices": [
+        {
+          "text": "Lead the disconnected reference comparison; preserve its narrow instrument result.",
+          "next": "crossing_qi_01",
+          "requires": {
+            "qi": 10
+          }
+        },
+        {
+          "text": "Compare the offered relocation log against its dated source order.",
+          "next": "crossing_sources_01",
+          "requires": {
+            "insight": 10
+          }
+        },
+        {
+          "text": "Work with the ordinary depth rod and two timed observations.",
+          "next": "crossing_rod_01"
+        },
+        {
+          "text": "Read the existing log; keep its gaps and reserve today's unmeasured questions.",
+          "next": "crossing_log_01"
+        }
+      ]
+    },
+    "crossing_qi_01": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "jiang_tao"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Jiang set a reference tile on the dry bench and showed Yue the open disconnection between it and the bridge gauge. The tile's tiny pulse used two inventoried external fuel portions under his method. Her fifth-stage four pairs could guide the comparison within the frame. They could not hold a bridge or cancel the river's force. She recorded the external fuel before closing her admission, then practiced the withdrawal on an unpowered frame.",
+      "next": "crossing_qi_02"
+    },
+    "crossing_qi_02": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "jiang_tao"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The first reference line divided before its expected mark. Yue stopped rather than feeding the brighter branch. Jiang asked her to describe what she had felt without borrowing the printed answer. One contact returned sooner than the other. He changed only the reference tile, leaving the frame's orientation fixed. The second attempt repeated the split. Across the river a porter dropped an empty hook onto stone, and the sharp sound nearly pulled Yue's attention away.",
+      "next": "crossing_qi_03"
+    },
+    "crossing_qi_03": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "jiang_tao"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "She closed the small circuit and waited through the recovered ordinary breath before opening it again. Jiang watched her hands rather than the river. The third comparison matched the second within the allowed range. They had evidence that the detached gauge's reference contact needed recalibration. They had no evidence that its keeper had intended a false reading. Yue wrote the uncomfortable difference while Chen watched the time allotted to the ferry become smaller.",
+      "next": "crossing_qi_04"
+    },
+    "crossing_qi_04": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "jiang_tao"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At the receiving, Jiang accepted Yue's completed bounded comparison and her clean withdrawal. The two fuel portions were exhausted and entered as external expenditure. The detached contact failed its reference check, so the gauge remained out of service. The engineer would still use direct measurements for the landing. Yue's control had improved through performed practice, with no new internal pair or realm awarded. Chen could ask about custody later; the instrument result could not answer him.",
+      "next": "crossing_findings_01",
+      "earned": {
+        "qi": 1
+      }
+    },
+    "crossing_sources_01": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "jiang_tao",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue spread the offered relocation log beneath two stones on the dry table. Its first page described a reference made before the lower gauge base moved. The next page used a new numeral without repeating the base position. A delivery time occupied the margin where a measurement time should have been. She copied the actual wording before asking Chen whether his clients had seen the change. He answered about their wages. She asked the narrower question again.",
+      "next": "crossing_sources_02"
+    },
+    "crossing_sources_02": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "jiang_tao",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The store clerk brought his retained duplicate under the permission already written on its cover. Its leaf order differed from Chen's offered copy. A loose relocation note had been tucked behind the receiving receipt, where a later reader could mistake it for an explanation of the older reference. The clerk had copied the fold as he found it. That accounted for the difference in order; it did not establish who had moved the leaf first.",
+      "next": "crossing_sources_03"
+    },
+    "crossing_sources_03": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "jiang_tao",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Jiang marked the reference reading as tied to the old base and the later numeral as missing its corresponding conditions. Yue compared both copies aloud while their actual keepers remained beside her. Chen agreed the later numeral could not inherit the old reading's date. He disliked the concession because he had used that numeral in a draft demand. Yue left his draft out of the evidence pile. A correction needed its own place, even when someone had signed the mistake.",
+      "next": "crossing_sources_04"
+    },
+    "crossing_sources_04": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "jiang_tao",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The clerk accepted the completed source-order comparison with its actual leaf positions and copying limits. The engineer received a finding that the dated log did not support today's gauge position. The detached reference itself remained untested by this approach. Yue had completed difficult comprehension work, not discovered another person's intent. Her fifth stage remained unchanged as she closed the source covers and gave the original leaves back to their keepers.",
+      "next": "crossing_findings_01",
+      "earned": {
+        "insight": 1
+      }
+    },
+    "crossing_rod_01": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian",
+        "jiang_tao"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The ordinary observer gave Yue the depth rod and showed her the dry marked standing place. Nobody descended to the moving landing. A second worker read the rod's reflection through the sight slot while Yue held its upper grip. The water passed the first mark in irregular brown bursts. They recorded a range, not a reassuring average. Jiang timed the observation from his own watch and wrote the watch's offset beside the river readings.",
+      "next": "crossing_rod_02"
+    },
+    "crossing_rod_02": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian",
+        "jiang_tao"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At the second interval, a branch struck the lower landing and spun away. The observers waited for the resulting surge to pass before recording another range. The ordinary engineer accepted the increase as current water evidence and compared it with her earlier movement marks. The rod could say what had changed at this sight line. It could not diagnose the bronze gauge, reconstruct a missing log page or tell the master what the next hour would contain.",
+      "next": "crossing_rod_03"
+    },
+    "crossing_rod_03": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian",
+        "jiang_tao"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yuan relieved Yue at the rod after the timed interval. Yue's shoulder shook when she let go, and she was glad the engineer had placed the work on a terrace with room to sit. She recorded the grip change and the completed two observations before drinking. The accepted physical work strengthened her trained capacity by practice. It created neither structural authority nor a sixth-stage circuit. The master received the measured rise and retained his own departure limits.",
+      "next": "crossing_findings_01",
+      "earned": {
+        "resolve": 1
+      }
+    },
+    "crossing_log_01": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "jiang_tao",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue read the existing log from the dry table and copied only the entries whose source conditions were visible. Its earlier water marks had been taken at a different landing hour. The last numeral lacked a matching current base record. She left a clear gap where today's measurement would have been. Chen asked whether a range could be inferred from the old marks. Jiang said the engineer already had direct observations and would not receive an invented one.",
+      "next": "crossing_log_02"
+    },
+    "crossing_log_02": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "jiang_tao",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "She checked the offered cover permissions and returned each log to its keeper. The interval had produced an accessible list of known entries and missing conditions, not a new instrument test. Yuan thanked her for a page the receiving crew could use. Yue had done ordinary useful work without earning a technical qualification. The river still needed its actual observers, and the ferry master still needed the engineer's present landing check before departure.",
+      "next": "crossing_findings_01"
+    },
+    "crossing_findings_01": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The engineer finished her independent inspection from the marked sound platforms and rejected the bridge entirely. The ferry landing remained within the departure limit for one loading, with a stop mark closer than yesterday's. Jiang filed whichever comparison Yue had actually completed beside that inspection. The unreferenced gauge could stay disconnected while people made a decision using direct observations. A useful measurement and an unsafe bridge could occupy the same report without contradicting one another.",
+      "next": "crossing_findings_02"
+    },
+    "crossing_findings_02": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Chen admitted he had requested that the gauge be moved last week so a freight wagon could turn in the yard. The storekeeper had agreed to the physical move and noted it, but the gauge had not received its required new reference. Chen had assumed an ordinary move could leave the reading unchanged. He had wanted his clients' work to continue. Their earned wages remained owed; his assumption had not earned the authority it borrowed.",
+      "next": "crossing_findings_03"
+    },
+    "crossing_findings_03": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yuan asked whether the landing would have stayed open if the gauge had been checked promptly. The engineer declined that history. Her direct movement marks now established closure; the current river and damaged stone were sufficient. A missing reference might have delayed notice, but neither Yue nor the engineer could count hypothetical saved voyages. Chen looked relieved and then ashamed of looking relieved. His clients could still ask about the assumption without having to prove an imaginary boat had existed.",
+      "next": "crossing_findings_04"
+    },
+    "crossing_findings_04": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At the loading board, the master repeated twelve places and one confirmed departure. A later return cargo trip required its own check. Grain occupied eighteen units, linen eight and wage bundles six. Owners had offered the following three permitted allocations after hearing the capacity: twelve grain; eight linen plus four grain; or six wage bundles plus six grain. The unselected loads would remain in the low store until a separately safe retrieval became possible.",
+      "next": "crossing_findings_05"
+    },
+    "crossing_findings_05": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The clinic keeper confirmed tonight's existing stock and its ordinary contingency route for tomorrow. No patient would depend on Yue choosing a crate during these minutes. The grain house had a reduced local ration for three days but wanted to avoid using it. Wage claimants could seek comparison with employer duplicates later, at a cost and with missing worker annotations. The master would ferry goods rather than manufacture a ranking of whose worry deserved to sound urgent.",
+      "next": "crossing_findings_06"
+    },
+    "crossing_findings_06": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "A grain worker had stitched a blue patch onto one of the sacks. Yue remembered repairing a kiln apron with cloth exactly that color. Chen noticed her looking and asked whether she knew the worker. She did not. The accidental familiarity made one pile easier for her to imagine than the others. She walked along all three offered stacks before answering. A fair capacity sheet could not stop her heart from reaching one stack first.",
+      "next": "crossing_load_choice"
+    },
+    "crossing_load_choice": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The ferry cradle had twelve confirmed load places. All people were already above the withdrawal line. Each offered allocation filled the same rated capacity and left twenty units behind. The second trip remained conditional. Yue would propose one allocation for the owners and master to receive; she could not bind them to an overloaded boat. Chen put his crossed-out second ferry drawing face down. The three remaining offers made different kinds of shortage likely.",
+      "choices": [
+        {
+          "text": "Carry twelve grain loads; leave six grain, eight linen and six wage bundles.",
+          "next": "crossing_grain_01"
+        },
+        {
+          "text": "Carry eight linen loads and four grain; leave fourteen grain and six wage bundles.",
+          "next": "crossing_linen_01"
+        },
+        {
+          "text": "Carry six wage bundles and six grain; leave twelve grain and eight linen loads.",
+          "next": "crossing_wages_01"
+        }
+      ]
+    },
+    "crossing_grain_01": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue proposed twelve grain loads. The grain receiver accepted the allocation and checked the patched half-sacks against their departure list. The clinic keeper removed all eight linen crates from the proposed manifest. Chen closed all six wage bundles in their permitted covers. None of them had agreed that grain made their own work unimportant. They had received one actual use of the cradle after hearing its limit, with the remaining requests still owed an answer.",
+      "next": "crossing_grain_02"
+    },
+    "crossing_grain_02": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yuan and the paid crew weighed every selected load before sliding it onto the rated cradle. The master rejected a thirteenth half-sack offered as a personal favor. Its smallness did not change the departure limit. Yue carried the empty weighing sling back to its rack. Across the rail, Chen watched a worker put his bundle under a dry box lid and said nothing. The worker had already been paid for carrying grain last month; the record dispute concerned another shift.",
+      "next": "crossing_grain_03"
+    },
+    "crossing_grain_03": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The ferry made its approved departure after the master's final water check. The patched blue sack sat between two unpatched ones. No passengers rode with the cargo. Far-bank workers received twelve dry grain loads, matched their seals and gave the master a numbered receipt. The clinic's local staff retained tonight's dressing stock. Chen's clients kept their claims, but their offered annotations remained in the low store awaiting a separately safe cargo retrieval.",
+      "next": "crossing_grain_04"
+    },
+    "crossing_grain_04": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At the grain house, twelve delivered loads let the receiver delay part of tomorrow's reduced ration. Six requested grain loads remained undelivered. The clerk sent the exact numbers back rather than calling the delivery complete because a crowd had cheered. Yue read the receipt with Yuan. A family's supper had become more secure. The clinic's replenishment and the workers' own account annotations had gained nothing from the same crossing.",
+      "next": "crossing_grain_05"
+    },
+    "crossing_grain_05": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The ferry returned empty under the approved return route. Its master inspected the landing before taking another load. Fresh water movement had undermined one marked footing. The engineer closed the cargo landing and the master canceled a second departure. Nobody argued that twelve dry sacks justified borrowing a failed footing for another trip. Yue kept her hands away from Jiang's disconnected gauge. The confirmed voyage had finished; the hoped-for voyage had never become a booking.",
+      "next": "crossing_rise_01"
+    },
+    "crossing_linen_01": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue proposed eight linen loads and four grain. The clinic keeper accepted the protected replenishment and chose four grain half-sacks under the receiver's offered allocation. Chen closed all six wage bundles without adding them to a crate's empty-looking corner. The master counted the actual standardized units. A bundle that weighed little still occupied handling and sealed-storage capacity. The cargo rules had been written before anybody knew which cause would need that spare-looking space.",
+      "next": "crossing_linen_02"
+    },
+    "crossing_linen_02": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The paid crew checked the linen seals without opening their sterile inner wrappers. Yuan entered eight marked cases and four half-sacks on the manifest. Chen asked the clinic keeper when its emergency stock would have run out without this delivery. She repeated tonight's actual cover and tomorrow's contingency plan. Yue was glad someone prevented the story of her choice from becoming a rescue that had never occurred. A useful replenishment deserved its own ordinary name.",
+      "next": "crossing_linen_03"
+    },
+    "crossing_linen_03": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The approved ferry reached the far receiving cradle while the water remained inside the master's departure conditions. Its crew handed over eight intact linen loads and four dry grain loads. The clinic receiver checked the outer seals and put the linen into its actual clean store. The grain receiver counted four, then crossed fourteen off the expected supply column. A small successful delivery could make a much larger shortfall visible.",
+      "next": "crossing_linen_04"
+    },
+    "crossing_linen_04": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "From the low freight store, a wage claimant asked Chen whether the preserved linen meant the town would pay his old wages sooner. Chen said no. He would need the offered papers or a later comparison with employer duplicates. The claimant had bought soap on credit expecting the payment this week. He wanted the clinic to have linen and wanted his own money. Yue could hear both desires without pretending she had carried a crate that held their answer.",
+      "next": "crossing_linen_05"
+    },
+    "crossing_linen_05": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The master returned empty and examined the landing with the engineer. One movement mark had crossed its permitted range during the voyage. He canceled another departure before a second cradle was loaded. The paid receiving crew carried the unused sling up to the high terrace and ended its ferry work. The eight linen loads stayed delivered. Four grain loads stayed delivered. The missing fourteen and the six wage bundles stayed on their different unanswered lines.",
+      "next": "crossing_rise_01"
+    },
+    "crossing_wages_01": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue proposed all six wage bundles and six grain loads. Chen read back the permissions for private comparison at the receiving desk and accepted that scope. The grain receiver chose six sealed half-sacks from the offered stock. The clinic keeper kept all eight linen cases off the manifest. The master would carry the authorized records rather than publish them. A safe ferry could transport a bundle without giving the town a new right to read every name inside.",
+      "next": "crossing_wages_02"
+    },
+    "crossing_wages_02": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The crew weighed the selected grain and secured the six account bundles in the dry covered rack. One claimant wanted to ride beside his papers. The master refused passengers on this cargo departure and offered the independently inspected upper public route for a later ordinary journey. Chen explained who would receive each cover. The claimant signed its movement permission again in his own hand, then kept his personal receipt in his coat.",
+      "next": "crossing_wages_03"
+    },
+    "crossing_wages_03": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The ferry delivered six dry grain loads and all six sealed wage bundles at the far-bank desk. The authorized receiver signed for the covers and placed them in the private comparison cupboard. Three had worker annotations absent from employer duplicates. Their survival preserved the possibility of a better comparison. It did not make every contested hour payable at once. Yue read the covered receipt without asking Chen to expose his clients' names.",
+      "next": "crossing_wages_04"
+    },
+    "crossing_wages_04": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The grain receiver entered twelve requested loads still missing. The clinic keeper confirmed tonight's existing dressing stock and began its ordinary contingency call for tomorrow's replenishment. A claimant sitting on the dry terrace asked when the comparison clerk would be free. Chen had promised this week's first receiving, not this week's payment. The man looked at the river and said the difference would be difficult to explain to a shopkeeper.",
+      "next": "crossing_wages_05"
+    },
+    "crossing_wages_05": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "On the empty return, the master saw the landing marker tilt beyond its permitted range. The engineer confirmed fresh footing movement and closed the cargo landing. No second departure was approved. The receiving crew brought the unused cradle sling up above the withdrawal line. Six account bundles and six grain loads remained delivered. The eight linen loads and twelve grain loads would require whatever separately safe recovery was still possible.",
+      "next": "crossing_rise_01"
+    },
+    "crossing_rise_01": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The river reached the lower-store withdrawal mark before a retrieval crew could obtain clearance. Its owners closed the goods doors from the upper path and withdrew. Everybody was already on the high terrace or the separate far-bank refuge. Yuan counted workers against the shift list with each supervisor, using names offered for that purpose. Nobody went back for a crate because a later account would look cleaner if fewer things had been lost.",
+      "next": "crossing_rise_02"
+    },
+    "crossing_rise_02": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "A timber struck the low store's outer shutter and split it. Water entered around the floor sills. The twenty undelivered units were still there, whichever twelve the ferry had carried. Sacks took muddy water; linen wrappers lost their sealed condition; uncovered account leaves broke into soft ink. Later authorized recovery could establish their final disposal. Today's crew would not use contaminated stock or assume a blurred annotation had survived because its owner remembered it.",
+      "next": "crossing_rise_03"
+    },
+    "crossing_rise_03": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Jiang shut his separate external supply case and checked the disconnected measuring contacts. The river gave no small circuit a useful place to work. Yue felt the old impulse to open her admission simply because doing so would look like action. She kept her recovered hands on the dry rail. Jiang did not congratulate the refusal. He was listening for the withdrawal bell that ordinary workers would need to hear above the water.",
+      "next": "crossing_rise_04"
+    },
+    "crossing_rise_04": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The bell sounded twice. The upper-path attendants repeated the closure at their actual stations. A grandmother began to count the strokes with a child, lost her place, and started again. Yue almost told them the second count was unnecessary. Then she heard how counting together kept the child beside a seated adult. The bell had one official purpose. People could still use its sound to accomplish other ordinary work without changing the warning.",
+      "next": "crossing_rise_05"
+    },
+    "crossing_rise_05": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "By evening, the river fell enough for an engineer to inspect the lower store from sound staging. She kept its freight door and landing closed. Authorized owners received a condition list: undelivered grain contaminated, undelivered linen seals breached, undelivered wage annotations unreadable. Delivered stock remained with its actual receivers. The twelve-copper ferry allocation settled against the completed voyage and receiving shifts. The canceled second voyage created no extra fare or invented debt.",
+      "next": "crossing_rise_06"
+    },
+    "crossing_rise_06": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Chen sat on the terrace step with his own copy of the relocation request. The storekeeper had preserved its offered conditions upstairs. Chen wanted to cross out the sentence in which he had called the move merely convenient. Crossing it out now would hide a statement that had helped someone else agree. He made a dated correction beneath it instead. Yue watched him form the word reference more carefully than any other word on the sheet.",
+      "next": "crossing_rise_07"
+    },
+    "crossing_rise_07": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "'My brother worked the unloading nights,' Chen said. 'His hours are in one of the six bundles.' He had disclosed the relationship privately to his clients before accepting the contract. Yue had not known it. Her annoyance at learning it late mingled with shame about wanting his argument to be disinterested. Chen had a reason to care and an obligation to keep his comparisons honest. Neither fact canceled the other.",
+      "next": "crossing_rise_08"
+    },
+    "crossing_rise_08": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yuan brought three bowls from the ordinary paid meal line. Their supper did not come from the emergency ferry grant. Chen ate as if the hot broth were another question he needed to answer correctly. Yuan told him to leave the paper on the dry table until morning. The request sounded brusque and kind. Yue wanted to ask about his brother, then let him finish eating without turning his disclosure into a scene she owned.",
+      "next": "crossing_evidence_gate"
+    },
+    "crossing_evidence_gate": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "jiang_tao",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At morning receiving, the engineer separated direct structural findings from the comparison Yue had actually performed. One test could make the broken account more precise. It could not become every other test merely because people now wanted a complete explanation. The clerk left room for the narrower result, its date and its unanswered questions. Chen opened his correction beside it. The existing bridge closure remained in force while they decided what could honestly be said.",
+      "next": "crossing_notice_setup_01",
+      "routes": [
+        {
+          "decision": "crossing_diagnostic_choice",
+          "selected": "crossing_qi_01",
+          "next": "crossing_evidence_qi_01"
+        },
+        {
+          "decision": "crossing_diagnostic_choice",
+          "selected": "crossing_sources_01",
+          "next": "crossing_evidence_sources_01"
+        },
+        {
+          "decision": "crossing_diagnostic_choice",
+          "selected": "crossing_rod_01",
+          "next": "crossing_evidence_rod_01"
+        },
+        {
+          "decision": "crossing_diagnostic_choice",
+          "selected": "crossing_log_01",
+          "next": "crossing_evidence_log_01"
+        }
+      ]
+    },
+    "crossing_evidence_qi_01": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "jiang_tao"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Jiang's signed reference comparison identified the detached contact's failed repeatability. Yue's three attempts and actual external fuel remained in its performed record. It supported keeping the gauge disconnected. The leaf order and the time of its earlier move were separate source questions. Chen could attach his actual request, but the reference tile had measured no intention and could not decide who should pay for the town's lost goods.",
+      "next": "crossing_evidence_qi_02"
+    },
+    "crossing_evidence_qi_02": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "jiang_tao"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The engineer retained her direct landing and bridge findings beside the instrument result. The failed reference might matter to a later qualified inquiry. It did not prove the second voyage would have been possible with a corrected gauge. Yue struck that suggestion from her own draft before handing it to the clerk. Her narrow result became more useful when she stopped asking it to make the whole afternoon fair.",
+      "next": "crossing_notice_setup_01"
+    },
+    "crossing_evidence_sources_01": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "jiang_tao",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The compared leaf orders established that the later numeral lacked a matching base condition and could not inherit the older reading's date. Both keepers signed the placement they had actually offered. The gauge contact itself had not received Yue's reference test. Jiang kept it disconnected pending that test, while the engineer's ordinary observations governed closure. Chen attached his dated correction to the copied request, without altering the original wording.",
+      "next": "crossing_evidence_sources_02"
+    },
+    "crossing_evidence_sources_02": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "jiang_tao",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The source comparison left copying order, physical relocation and instrument performance on different lines. Chen's clients could use those distinctions when asking an actual reviewer about delayed notice. They could not calculate wages by multiplying them into hypothetical ferry journeys. Yue had wanted an elegant explanation when she opened the log. She now handed over a less elegant page that someone else could challenge without breaking the facts it contained.",
+      "next": "crossing_notice_setup_01"
+    },
+    "crossing_evidence_rod_01": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The two timed rod observations supported the measured rise at their actual sight line. The engineer's landing movement marks supplied the separate cargo stop. The bronze gauge had not been diagnosed by that physical work, and its old log still had missing conditions. Yuan signed her actual relief time. Yue kept the change of observer visible beside the second range so a later reader would not invent one uninterrupted pair of arms.",
+      "next": "crossing_evidence_rod_02"
+    },
+    "crossing_evidence_rod_02": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Chen could attach the direct rise to his correction, but it gave no measurement of what an earlier departure would have carried. One worker asked whether Yue could repeat the rod readings until they found a calmer number. She showed him the recorded range and the closed standing place. He was angry about his bundle. She did not require him to like the answer before accepting that he had heard it.",
+      "next": "crossing_notice_setup_01"
+    },
+    "crossing_evidence_log_01": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "jiang_tao",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The copied log listed actual dated entries and the missing current base condition. It contained no new qi reference or depth measurement led by Yue. Jiang and the engineer supplied their independent qualified findings beside its accessible gaps. Chen read the distinction aloud before putting the log into his request. The absence of a personal test was not a defect he could mend by describing the ordinary copying as a diagnosis.",
+      "next": "crossing_evidence_log_02"
+    },
+    "crossing_evidence_log_02": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "jiang_tao",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue asked the clerk to retain the gap rather than fill it from the engineer's later observation. Later measurements had their own times and owners. The old numeral could remain a question for the reviewer. Chen nodded, then asked for another copy of his own correction. He would have to tell his clients why he had accepted a convenience claim without its required reference. Their response belonged to a meeting she would not attend.",
+      "next": "crossing_notice_setup_01"
+    },
+    "crossing_notice_setup_01": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At the public table, someone had written that the bridge was closed because the wage papers had been preferred to medicine. Another person had crossed out papers and written grain. Both versions gave a cargo priority the power to break stone. Yuan removed the false sentence from the public board and kept it in the complaint cover for the actual reviewer. The bridge had been closed before the cargo decision. The goods had been divided after the closure.",
+      "next": "crossing_notice_setup_02"
+    },
+    "crossing_notice_setup_02": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The closure notices and hand-bell stations already protected every approach. What remained was a public explanation of scarcity and error. Yue could lead a difficult open account of her allocation if her Dao Heart was trained, join the engineer's concise technical statement, or carry individual notices with the ordinary clerk. Each method was permitted and useful. None required exposing wage names or declaring Chen guilty of causing the flood.",
+      "next": "crossing_notice_setup_03"
+    },
+    "crossing_notice_setup_03": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Chen preferred the concise statement. It would keep his request from becoming the story everybody repeated over supper. Yuan preferred individual notices because she knew how many readers missed a crowded board. The grain receiver asked Yue to speak openly so the crew would stop being blamed for an allocation it had only performed. Their reasons all made sense. Yue could give this morning's remaining interval to one method.",
+      "next": "crossing_notice_choice"
+    },
+    "crossing_notice_choice": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The engineer's closure remained posted and staffed. Yue now chose one additional explanation method during her remaining receiving interval. An open account would name her own allocation and its limits; a concise statement would keep the technical sequence clear; individual notices would reach a smaller group directly. The unseen alternatives would have their ordinary later channels. There was no method that could make every disappointed listener hear the answer at once.",
+      "choices": [
+        {
+          "text": "Lead an open account of your cargo proposal; accept questions about its losses.",
+          "next": "crossing_open_account_01",
+          "requires": {
+            "trust": 10
+          }
+        },
+        {
+          "text": "Join the engineer's concise dated closure statement.",
+          "next": "crossing_statement_01"
+        },
+        {
+          "text": "Carry individual notices with the ordinary receiving clerk.",
+          "next": "crossing_notices_01"
+        }
+      ]
+    },
+    "crossing_open_account_01": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "chen_rui",
+        "yuan_lian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue took the public table beside the engineer and named the twelve-place limit before naming her own proposal. She read the allocation from its accepted manifest, with private wage identities omitted. The master had accepted the rated load; the engineer had already closed the bridge. Nobody could reopen either decision by insulting a porter. Yue asked people to direct questions about her proposal to her rather than to the workers who had performed it.",
+      "next": "crossing_open_account_02"
+    },
+    "crossing_open_account_02": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "chen_rui",
+        "yuan_lian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "A listener asked whether she would choose differently now. Yue said she would need the actual new circumstances to answer a new choice. Today's flooded stock made yesterday's confirmed ferry look both more valuable and more cruel. It had been one permitted crossing with known uncertainty afterward. She would not declare that the other loads were worthless merely to make her own choice feel settled. The listener said that was a long way to avoid saying sorry.",
+      "next": "crossing_open_account_03"
+    },
+    "crossing_open_account_03": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "chen_rui",
+        "yuan_lian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "'I am sorry for the loss,' Yue said. 'I cannot promise that apologizing will fund it.' She heard how severe the second sentence sounded and let the listener answer. He wanted an account of why one kind of work had survived. She read the offered allocation alternatives and the owners' actual acceptance. He rejected her judgment. The clerk kept his objection with the reply instead of editing the exchange into agreement.",
+      "next": "crossing_open_account_04"
+    },
+    "crossing_open_account_04": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "chen_rui",
+        "yuan_lian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Chen read his own relocation correction under the permission he had given for that limited public statement. He excluded his clients' names and his brother's relation. The engineer repeated that the request did not by itself establish cause of the flood or the lost freight. A merchant demanded that someone pay immediately. Chen gave the qualified review contact and accepted the demand as a demand. Yue felt the table remain useful while nobody at it had become happy.",
+      "next": "crossing_open_account_05"
+    },
+    "crossing_open_account_05": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "chen_rui",
+        "yuan_lian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At the interval's finish, the clerk received Yue's completed open account and its actual questions. She had stayed with a difficult finite responsibility rather than borrowing technical certainty to defend herself. That performed practice steadied her Dao Heart. It awarded no public trust, debt judgment or new cultivation stage. The crew received a clearer statement of who had proposed the cargo priority. Several listeners still preferred an alternative she had left behind.",
+      "next": "crossing_fund_setup_01",
+      "earned": {
+        "trust": 1
+      }
+    },
+    "crossing_statement_01": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian",
+        "jiang_tao"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The engineer led a concise dated statement from her own inspection notes. The bridge closure preceded the cargo allocation. One rated ferry departure was completed; the empty return was followed by a failed landing check and a canceled second departure. Current water movement and stone damage governed those decisions. Jiang added only the performed instrument or source work actually available. Yue read the accepted cargo manifest without exposing private account names.",
+      "next": "crossing_statement_02"
+    },
+    "crossing_statement_02": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian",
+        "jiang_tao"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Chen attached his relocation correction as an offered statement about his own request. The public sheet kept it separate from a finding of fault. A merchant wanted the gap between those two lines removed. The engineer refused. The clerk copied the refusal beside the review contact so another reader could see why the sheet left a question open. The concise notice would not contain the grain worker's full account or the clinic keeper's whole supply plan.",
+      "next": "crossing_statement_03"
+    },
+    "crossing_statement_03": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian",
+        "jiang_tao"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue and Yuan posted the approved statement at the two staffed approach boards. The attendants already held the crossings closed; the new sheet explained the sequence without becoming their sole warning. Some readers would miss the longer cargo reasons. Individual notice work would need its ordinary later interval. Yue had used this morning's time to preserve technical order and a clear source, while leaving a less tidy public conversation unfinished.",
+      "next": "crossing_fund_setup_01"
+    },
+    "crossing_notices_01": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The ordinary clerk gave Yue a short permitted closure notice and a list of contacts who had requested direct receiving. Private wage identities remained in their sealed claim files. They visited the upper-path waiting rooms rather than the closed freight landing. At the first doorway, a man thought the second bell meant the town had chosen medicine over grain. Yue read the chronology from its actual inspection date, then asked him to repeat which route was closed.",
+      "next": "crossing_notices_02"
+    },
+    "crossing_notices_02": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At the next room, an older reader wanted to know where her promised archive reply would arrive. The clerk checked the permitted receiving contact instead of assuming every paper in town belonged to Chen's wage work. Yue helped her write the destination on her own envelope. The new closure delayed a journey; it did not reopen a completed household claim. A small direct answer took most of the time they had hoped to use at three doors.",
+      "next": "crossing_notices_03"
+    },
+    "crossing_notices_03": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The final contact was absent. Yue left the notice with the person actually authorized to receive it and recorded that limit. She did not mark the absent reader informed. The public boards remained staffed, with the engineer's existing closure in force. The interval had reached fewer people than an open table might have, but two had received explanations they could ask about. The clerk would handle the remaining requested contacts in a separate ordinary shift.",
+      "next": "crossing_fund_setup_01"
+    },
+    "crossing_fund_setup_01": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The municipal clerk opened the separate eighteen-copper recovery purse after receiving the completed ferry account. It could support one named next service. Its unspent money would return. Structural repair, debt judgments and the lost goods' owners had separate ordinary channels. The board wanted Yue's proposal because she had been present at the allocation. It gave her one bounded recommendation, not the authority to settle every claim raised on the terrace.",
+      "next": "crossing_fund_setup_02"
+    },
+    "crossing_fund_setup_02": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yuan offered a grain replacement contract: reserve up to twelve copper for up to twelve missing half-sack loads and six for an independently cleared upper-road carrier. Purchases would follow the grain receiver's verified deficit, with unused reserve returned. If the earlier ferry had carried twelve grain loads, only six replacements were needed. If it had carried four, twelve replacements would still leave two missing. If it had carried six, twelve replacements would close the grain deficit.",
+      "next": "crossing_fund_setup_03"
+    },
+    "crossing_fund_setup_03": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The clinic keeper offered a next supply circuit: twelve copper for eight sealed linen loads from an approved ordinary supplier and six for its carrier. Where the first eight had survived the ferry, this order would cover the next regular supply period. Where they had been lost, it would replace that missing order. Tonight's and tomorrow's care remained governed by the keeper's real contingency stock. This new contract would buy future replenishment rather than rewrite the storm as a medical rescue.",
+      "next": "crossing_fund_setup_04"
+    },
+    "crossing_fund_setup_04": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Chen offered six private wage comparisons: twelve copper for the appointed independent comparison work and six for receiving copies and corrections. Surviving worker annotations could be used where they existed. Where the low-store originals were unreadable, the reviewer would need employer duplicates and the claimants' permitted accounts, with uncertainty retained. The grant would fund evidence work, never pay wages from money intended for recovery service or declare every claimed hour proved.",
+      "next": "crossing_fund_setup_05"
+    },
+    "crossing_fund_setup_05": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The clerk asked the actual providers to confirm capacity before presenting the plans. The upper-road carrier had one accepted journey after tomorrow's road check. The clinic supplier had eight sealed cases in its own dry store. The comparison clerk could receive six cases over three named mornings. Each could refuse changed unsafe conditions. All three plans fitted eighteen copper at their maximum. The unchosen work would use its existing ordinary channel and retain its delay.",
+      "next": "crossing_fund_setup_06"
+    },
+    "crossing_fund_setup_06": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue had expected a second decision to feel easier because the river had already forced so much. Instead she knew the people more clearly. Chen's brother had become a person with a shop bill. The linen keeper had talked about the apprentice she wanted to train. Yuan knew how to reduce rations without making the smallest household wait longest. Caring more had improved the questions and made the available answers hurt.",
+      "next": "crossing_fund_choice"
+    },
+    "crossing_fund_choice": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Eighteen copper could buy one accepted recovery service. The grain plan purchased against the actual deficit and returned unused reserve. The linen plan funded one supply period without inventing a rescue. The wage plan funded six private comparisons without promising payment. Each provider had its own work, receiving and stop conditions. Yue chose a future use of money whose other uses would remain unfunded by this purse.",
+      "choices": [
+        {
+          "text": "Fund verified grain replacement, with surplus reserve returned.",
+          "next": "crossing_fund_grain_01"
+        },
+        {
+          "text": "Fund the clinic's next eight-load linen supply circuit.",
+          "next": "crossing_fund_linen_01"
+        },
+        {
+          "text": "Fund six independent private wage comparisons and corrections.",
+          "next": "crossing_fund_wages_01"
+        }
+      ]
+    },
+    "crossing_fund_grain_01": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue proposed the grain replacement service. The board accepted its maximum twelve-copper purchase reserve and separate six-copper carrying scope. The grain receiver had to verify the actual missing quantity before any order. Chen removed the comparison clerk from this purse's expected work. The clinic keeper returned her proposed supply order to its ordinary budget meeting. Nobody called the paperwork a harmless change; two prepared services had just lost this particular funding.",
+      "next": "crossing_fund_grain_02"
+    },
+    "crossing_fund_grain_02": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yuan took the old delivery receipt to the grain table and checked it against the original eighteen requested loads. She asked Yue to watch the receiving clerk's count rather than help by remembering the color of a sack. The confirmed earlier cargo determined the replacement quantity. A payment could not grow merely because a maximum line had been approved. The new contract carried what was actually missing within its twelve-load limit.",
+      "next": "crossing_grain_order_gate"
+    },
+    "crossing_grain_order_gate": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The grain receiver compared the original eighteen-load request with the actual ferry receipt. Yue checked which accepted allocation had supplied that receipt before the clerk released the purchase. Twelve copper was a ceiling, not permission to buy surplus relief grain without a receiving need. The carrier's separate six-copper completed journey would have its own check. The clerk held both lines open until the selected quantity was clear.",
+      "next": "crossing_grain_receiving_01",
+      "routes": [
+        {
+          "decision": "crossing_load_choice",
+          "selected": "crossing_grain_01",
+          "next": "crossing_order_six_01"
+        },
+        {
+          "decision": "crossing_load_choice",
+          "selected": "crossing_linen_01",
+          "next": "crossing_order_twelve_gap_01"
+        },
+        {
+          "decision": "crossing_load_choice",
+          "selected": "crossing_wages_01",
+          "next": "crossing_order_twelve_01"
+        }
+      ]
+    },
+    "crossing_order_six_01": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The original ferry had delivered twelve grain loads. Six of the eighteen requested loads remained missing, so the receiver ordered six replacements for six copper. The carrier's six-copper scope remained unchanged. The other six copper of purchase reserve returned to the municipal clerk after receiving. The funded service would close this grain deficit for twelve spent, without purchasing six surplus loads merely to make the account reach its ceiling.",
+      "next": "crossing_grain_receiving_01"
+    },
+    "crossing_order_twelve_gap_01": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The original ferry had delivered four grain loads beside the eight linen loads. Fourteen grain loads remained missing. The receiver ordered the maximum twelve replacements for twelve copper and marked two still missing. The carrier's six-copper scope brought the accepted spend to eighteen. The plan would reduce the shortage sharply and leave a reduced-ration question for those last two loads. A full grant expenditure was not a full supply.",
+      "next": "crossing_grain_receiving_01"
+    },
+    "crossing_order_twelve_01": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The original ferry had delivered six grain loads beside the six wage bundles. Twelve grain loads remained missing. The receiver ordered twelve replacements for twelve copper, with the carrier's six-copper scope paid after its cleared journey. The accepted eighteen-copper service would close the grain deficit exactly. The clinic's lost linen order would still need its ordinary budget, and the delivered wage annotations would still need an unfunded comparison interval.",
+      "next": "crossing_grain_receiving_01"
+    },
+    "crossing_grain_receiving_01": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The upper road passed its same-day ordinary inspection before the paid carrier left. The supplier loaded only the selected replacement quantity and kept its dry reserve separate. The grain receiver checked the new seals against the actual order when they arrived. Where two loads still remained missing, the reduced ration continued for that part of the request. Where the deficit closed, no earlier storm-soaked sack became usable by being copied into a new invoice.",
+      "next": "crossing_grain_receiving_02"
+    },
+    "crossing_grain_receiving_02": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yuan helped the receiver distribute the performed delivery under the accepted household ration plan. One household asked for a larger share because it had defended Yue at the public board. The receiver refused and showed the agreed basis. Gratitude did not purchase another family's grain. Yue listened from beside the paid carrier's empty cradle. She was glad that someone else held the distribution authority, and glad enough to notice the comfort as her own.",
+      "next": "crossing_grain_receiving_03"
+    },
+    "crossing_grain_receiving_03": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The clerk settled the grain and carrier scopes against the actual purchase and completed road journey. Any unused six-copper reserve returned to the municipal purse. The flood's linen and record losses retained their earlier outcomes. Chen booked his clients through the ordinary comparison queue; the clinic keeper submitted its supply question at the ordinary meeting. Yue's chosen service had bought food under a clear limit. It had not secretly bought the other two futures.",
+      "next": "crossing_departure_01"
+    },
+    "crossing_fund_linen_01": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue proposed the clinic's next linen circuit. The board approved twelve copper for eight sealed cases and six for the cleared upper-road carrier. The keeper checked the supplied cases in the supplier's own dry store before releasing the order. Earlier delivered linen, where present, stayed assigned to its original period; the new order covered the next one. Missing earlier linen, where lost, would be replaced by this order. Both uses retained their actual dates.",
+      "next": "crossing_fund_linen_02"
+    },
+    "crossing_fund_linen_02": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Chen removed the wage comparisons from the emergency purse's expected work and booked ordinary receiving instead. Yuan left the grain deficit with the local reduced-ration plan and its ordinary purchase request. They did not accuse Yue of wanting workers hungry or unpaid. They told her which delays her allocation had left. She found the precise answers harder to bear than an accusation she could have rejected.",
+      "next": "crossing_fund_linen_03"
+    },
+    "crossing_fund_linen_03": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "After the same-day road inspection, the carrier transported the eight sealed cases to the clinic receiver. The keeper checked their outer marks and accepted them into the designated clean store. No case touched the contaminated freight recovered below the terrace. A rejected or broken seal would have stayed outside that receiving. The carrier's actual journey and the supplier's accepted eight cases settled separately, with all eighteen copper supported by receipts.",
+      "next": "crossing_fund_linen_04"
+    },
+    "crossing_fund_linen_04": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The keeper invited Yue to see the new store from its ordinary clean entrance. Yue declined the treatment rooms because she had no accepted care role there. At the shelf, an apprentice asked how long supplies stayed safe after a flood. The keeper gave the actual storage conditions, then asked the apprentice to read the date herself. The new stock had purchased a teaching opportunity beside a supply. It had not made Yue responsible for every patient using it.",
+      "next": "crossing_fund_linen_05"
+    },
+    "crossing_fund_linen_05": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "yuan_lian"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The clerk closed the eighteen-copper linen service as performed work. Grain replacement and private wage comparisons retained their ordinary queues. Where the first linen had survived, the clinic now had two distinctly dated supply periods. Where it had been lost, the new order replaced a missing one without recovering the breached wrappers. Yue wrote both possibilities beside the same paid invoice. A future success could leave an earlier loss true.",
+      "next": "crossing_departure_01"
+    },
+    "crossing_fund_wages_01": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue proposed the six private wage comparisons. The board approved twelve copper for the independent comparison work and six for receiving copies and corrections. Chen stepped away from judging his brother's case. The appointed reviewer had the offered permissions and her own conflict check before accepting any cover. Yue's recommendation funded a place to examine claims. It gave her neither the records' names for public use nor the power to award the money they concerned.",
+      "next": "crossing_fund_wages_02"
+    },
+    "crossing_fund_wages_02": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The receiving clerk matched each case with the actual source available. Surviving worker annotations stayed beside employer duplicates. Lost originals received a condition note and the claimants' offered recollections. Recollection was useful evidence with its own limits, not a replacement page whose old signature could be recreated. One employer's copied hour differed from a claimant's remembered finish. The clerk kept the disagreement in the case instead of averaging it into a plausible number.",
+      "next": "crossing_fund_wages_03"
+    },
+    "crossing_fund_wages_03": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Across three named mornings, the independent reviewer compared six cases within the paid scope. Two undisputed corrections could be passed to the ordinary wage desk under its existing authority. Four needed further evidence or decision. Where a preserved annotation supplied a dated stop mark, it remained available to that inquiry. Where the annotation was unreadable, its absence stayed explicit. No service invoice described six paid comparisons as six wages paid.",
+      "next": "crossing_fund_wages_04"
+    },
+    "crossing_fund_wages_04": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Chen waited outside his brother's receiving interval. His brother had asked for privacy and an independent comparison, not a public demonstration of their relationship. Chen used the time to amend the draft that had borrowed the unreferenced gauge numeral. Yue brought him an ordinary cup of water from the public table. Neither asked the other whether choosing this service had made the original cargo allocation right.",
+      "next": "crossing_fund_wages_05"
+    },
+    "crossing_fund_wages_05": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue",
+        "chen_rui"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The reviewer and receiving clerk settled eighteen copper against six actual comparison cases and their corrections. The wage desk retained authority over later payments and disagreements. Yuan continued the grain request under its ordinary ration arrangements. The clinic keeper sought its next supply through the ordinary budget. A claimant left with a corrected copy and an unpaid disputed line. She could use the first and resent the second without being accused of misunderstanding the grant.",
+      "next": "crossing_departure_01"
+    },
+    "crossing_departure_01": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue's accepted measuring shift had ended on the flood day and been paid from its own account. She had returned to these later meetings under a separately agreed unpaid receiving visit, with her longer travel still her own. Jiang had returned the disconnected gauge to its keeper under a out-of-service tag; any recalibration required its own qualified work. The bridge engineer retained the closure. Nobody had included structural repair in a cargo or recovery invoice.",
+      "next": "crossing_departure_02"
+    },
+    "crossing_departure_02": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At the upper-road gate, Yuan handed Yue an ordinary copied condition note. It said where work stopped and where the next crew would have to begin. Yue wanted a cleaner ending for Chen and his brother, for the clinic apprentice and for the patched grain sack she had kept remembering. The note gave her none. It gave the next receiver enough precise work to ask a better question without depending on Yue's memory.",
+      "next": "crossing_departure_03"
+    },
+    "crossing_departure_03": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Chen returned his own correction copy to the private claim cover and kept the original request where its keeper could find it. He and Yue parted without agreeing about every allocation. Yuan said she would be back at the mill for tomorrow's ordinary shift, with its relief forewoman returning the keys at the agreed handover. Their lives would resume in places the bridge account could mention without owning.",
+      "next": "crossing_departure_04"
+    },
+    "crossing_departure_04": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Three weeks later, the recovery service's actual receiving account reached Yue at her current address. Its dates distinguished the completed ferry, the canceled possibility and the later funded work. A condition note still barred the bridge and cargo landing pending separate qualified decisions. She opened the earlier cargo receipt first. The successful new service should be read with what had been left below the withdrawal line, rather than laid over it like a fresh painted cover.",
+      "next": "crossing_cargo_result_gate"
+    },
+    "crossing_cargo_result_gate": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The first receipt still named twelve delivered units and twenty lost ones. Yue followed the accepted cargo allocation through its original receiving and the later recovery account. A new grain purchase, linen order or comparison session had its own source and date. It could improve the future without changing what the river had taken from the low store. She kept that difference visible before reading the final policy line.",
+      "next": "crossing_policy_result_gate",
+      "routes": [
+        {
+          "decision": "crossing_load_choice",
+          "selected": "crossing_grain_01",
+          "next": "crossing_grain_result_01"
+        },
+        {
+          "decision": "crossing_load_choice",
+          "selected": "crossing_linen_01",
+          "next": "crossing_linen_result_01"
+        },
+        {
+          "decision": "crossing_load_choice",
+          "selected": "crossing_wages_01",
+          "next": "crossing_wages_result_01"
+        }
+      ]
+    },
+    "crossing_grain_result_01": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Twelve original grain loads had crossed dry. Six original grain loads, eight linen loads and six wage bundles had been lost from the lower store. New funded work could replace some supply or examine other offered records; it could not restore worker annotations that had dissolved. Yue kept the patched sack's successful receipt beside the missing-source list. The remembered blue stitch was a detail of one real delivery, not evidence that the other losses mattered less.",
+      "next": "crossing_grain_result_02"
+    },
+    "crossing_grain_result_02": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "One claimant had reached an employer's retained duplicate through the ordinary receiving desk. Its numbers agreed with part of his account and left another night disputed. He had not lost the right to ask because his bundle missed the ferry. The clerk's note did not credit Yue with his persistence. She liked that omission. A person affected by her choice could continue useful work without becoming a final sentence in her story.",
+      "next": "crossing_policy_result_gate"
+    },
+    "crossing_linen_result_01": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Eight original linen loads and four grain loads had crossed dry. Fourteen original grain loads and six wage bundles had been lost from the lower store. The clinic's original receiving covered one actual period. Later supply had its own dates; later grain or evidence work had its own receipts. Yue would not count intact linen twice merely because keeping it safe had felt more impressive after the water rose.",
+      "next": "crossing_linen_result_02"
+    },
+    "crossing_linen_result_02": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The claimant who had bought soap on credit still disputed one unloading night through the ordinary desk. The grain receiver retained the exact original shortage beneath whatever new purchase had followed. Yue remembered the clinic keeper refusing to call replenishment a rescue. That careful word now helped her leave the account honest. It did not make the shortfall easier for the household receiving less grain.",
+      "next": "crossing_policy_result_gate"
+    },
+    "crossing_wages_result_01": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Six wage bundles and six grain loads had crossed dry. Twelve original grain loads and eight linen loads had been lost from the lower store. The preserved worker annotations retained their private permissions. They could make a comparison better where a later appointed reviewer used them. They did not prove every claimed hour or bring a payment into being merely because a ferry had carried their covers successfully.",
+      "next": "crossing_wages_result_02"
+    },
+    "crossing_wages_result_02": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Chen's brother sent no public account for Yue to keep. The condition list and authorized receiving receipt were enough to establish the cargo outcome. Yue put his absence of a personal letter outside the meaning of the choice. He owed her neither gratitude nor a conveniently moving answer. The saved annotations remained useful work, while the grain and linen losses kept their own people and dates.",
+      "next": "crossing_policy_result_gate"
+    },
+    "crossing_policy_result_gate": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The later grant's final line named the one accepted recovery service, its actual receiving and its returned reserve where applicable. Yue read that line after the cargo outcome. Her fifth stage still had four earned pairs. Accurate accounts had neither opened a sixth pair nor rebuilt a bridge. They let her recognize a completed piece of work without erasing the alternatives she had left to ordinary later decisions.",
+      "next": "crossing_final_common",
+      "routes": [
+        {
+          "decision": "crossing_fund_choice",
+          "selected": "crossing_fund_grain_01",
+          "next": "crossing_end_grain"
+        },
+        {
+          "decision": "crossing_fund_choice",
+          "selected": "crossing_fund_linen_01",
+          "next": "crossing_end_linen"
+        },
+        {
+          "decision": "crossing_fund_choice",
+          "selected": "crossing_fund_wages_01",
+          "next": "crossing_end_wages"
+        }
+      ]
+    },
+    "crossing_final_common": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue copied the actual receiving date into her training book and left the next page blank. The bridge's separate repair decision had not been made in these accounts. Each source retained its keeper, each paid task its finishing time. Beyond her window, a neighbor was drawing clean water with an ordinary bucket. She listened until the rope stopped rubbing against its rim.",
+      "ending": "The Work and the Empty Page"
+    },
+    "crossing_end_grain": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The grain receiving listed the purchased replacements, the carrier's completed journey and any unused reserve returned. It closed or reduced the deficit according to the original cargo receipt; two missing loads remained where the first ferry had carried only four grain. Linen and wage work kept their ordinary queues. Yue folded a food account that could matter to tomorrow without declaring yesterday repaired.",
+      "ending": "The Grain Above the Flood Line",
+      "continuation": "crossing_final_common"
+    },
+    "crossing_end_linen": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The eight-load linen circuit had been received under its actual supply dates, with eighteen copper settled for stock and carrying. Earlier preserved linen covered its earlier period; lost linen stayed lost even where the new order replaced it. Grain and wage work kept their ordinary delays. Yue put the keeper's accepted receipt beside the river's condition list and let both remain true.",
+      "ending": "The Shelf With Two Dates",
+      "continuation": "crossing_final_common"
+    },
+    "crossing_end_wages": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Six private comparisons had been completed for eighteen copper. Their corrections and disputed lines remained with the wage desk and actual claimants; no grant invoice had become a wage payment. Preserved annotations and missing ones retained different evidential weight. Grain and linen kept their ordinary arrangements. Yue filed an account of questions made answerable, with four still requiring more than a funded morning.",
+      "ending": "The Hour That Still Needed a Witness",
+      "continuation": "crossing_final_common"
+    },
+    "crossing_arrival_08": {
+      "chapter": "book_xix_reed_crossing",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "reed_crossing_flood_terrace",
+      "cast": [
+        "lin_yue"
+      ],
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The upper paths served refuge on each bank; they did not join across the river. A ridge bypass reached the far villages through a different, smaller crossing, but fallen trees had closed it to loaded carriers. Its clearance crew expected a next-day inspection. That route could support a later replacement order if it passed. It could not substitute for today's one confirmed cargo departure from a low store already inside the river's expected rise.",
+      "next": "crossing_diagnostic_choice"
+    }
+  }
+}

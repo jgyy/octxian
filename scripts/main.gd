@@ -1001,6 +1001,49 @@ func _capture() -> void:
 		await RenderingServer.frame_post_draw
 		get_viewport().get_texture().get_image().save_png("res://build/screenshots/native_%s.png" % painting)
 		_close_popup()
+	# Traverse actual Reed Crossing selections at identical attributes.
+	for selection in range(3):
+		state = StoryState.new(state.story)
+		state.current = "crossing_load_choice"
+		state.stats = {"qi": 10, "trust": 10, "insight": 10, "resolve": 10}
+		if selection == 0:
+			_scene()
+			dialogue.visible_characters = -1
+			await get_tree().create_timer(0.4).timeout
+			await RenderingServer.frame_post_draw
+			get_viewport().get_texture().get_image().save_png("res://build/screenshots/reed_crossing_choice.png")
+			if background.texture == null or background.texture.get_size() != Vector2(1672, 941):
+				push_error("The retained native Reed Crossing background must render")
+				_quit_game(1)
+				return
+		if not state.choose(selection):
+			push_error("Reed Crossing capture cannot choose the actual cargo allocation")
+			_quit_game(1)
+			return
+		var result: String = ["crossing_grain_result_01", "crossing_linen_result_01", "crossing_wages_result_01"][selection]
+		var steps := 0
+		while state.current != result and steps < 180:
+			var moved: bool
+			if state.current == "crossing_notice_choice":
+				moved = state.choose(1)
+			elif state.node().has("choices"):
+				moved = state.choose(0)
+			else:
+				moved = state.advance()
+			if not moved:
+				push_error("Reed Crossing capture cannot reach its retained cargo result")
+				_quit_game(1)
+				return
+			steps += 1
+		if state.current != result or state.stats != {"qi": 10, "trust": 10, "insight": 10, "resolve": 10}:
+			push_error("Reed Crossing outcomes must differ at identical attributes")
+			_quit_game(1)
+			return
+		_scene()
+		dialogue.visible_characters = -1
+		await get_tree().create_timer(0.4).timeout
+		await RenderingServer.frame_post_draw
+		get_viewport().get_texture().get_image().save_png("res://build/screenshots/reed_crossing_%s.png" % ["grain", "linen", "wages"][selection])
 	print("JADE_VOW_CAPTURE_OK")
 	_quit_game()
 
@@ -1121,6 +1164,9 @@ func _smoke_build() -> void:
 		if actor.sprite.texture != null:
 			valid = valid and actor.sprite.texture.get_size() == Vector2(1024, 1536)
 	valid = valid and background.texture != null and background.texture.get_size() == Vector2(1536, 1024)
+	state.current = "crossing_load_choice"
+	_scene()
+	valid = valid and state.story.chapters.has("book_xix_reed_crossing") and background.texture != null and background.texture.get_size() == Vector2(1672, 941) and audio.voice.stream is AudioStreamOggVorbis
 	# Every new original and its authored encounter must survive standalone export.
 	for encounter in [{"node":"expansion_xu_lin_common_001","actor":"xu_lin"},{"node":"expansion_tidemirror_otter_common_001","actor":"tidemirror_otter"},{"node":"expansion_cinderback_pangolin_common_001","actor":"cinderback_pangolin"},{"node":"expansion_chen_rui_common_001","actor":"chen_rui"},{"node":"expansion_wu_zheng_common_001","actor":"wu_zheng"},{"node":"expansion_song_mei_common_001","actor":"song_mei"}]:
 		state.current = str(encounter.node)

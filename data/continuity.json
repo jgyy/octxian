@@ -18,7 +18,8 @@
     "book_xv_kiln",
     "book_xvi_desert",
     "book_xvii_archive",
-    "book_xviii_letters"
+    "book_xviii_letters",
+    "book_xix_reed_crossing"
   ],
   "facts": [
     {
@@ -2312,6 +2313,51 @@
         "letters_watch_final_gate",
         "letters_watch_end"
       ]
+    },
+    {
+      "id": "reed_crossing_capacity_and_independent_closure",
+      "statement": "The bridge is closed before cargo allocation. The high terrace and separate-bank refuge paths protect people; a closed ridge bypass cannot supply flood-day freight. One independently cleared ferry carries twelve of thirty-two standard cargo units; the second voyage is conditional and canceled after actual landing movement. All twenty undelivered units lose usable condition. No missing people are traded for cargo.",
+      "anchors": [
+        "crossing_arrival_01",
+        "crossing_arrival_02",
+        "crossing_arrival_03",
+        "crossing_arrival_04",
+        "crossing_arrival_08",
+        "crossing_load_choice",
+        "crossing_rise_01",
+        "crossing_rise_02",
+        "crossing_rise_05"
+      ]
+    },
+    {
+      "id": "reed_crossing_method_bounds_and_earned_work",
+      "statement": "Four diagnostic approaches supply different bounded results. Only completed supervised work earns its corresponding attribute once. Two external fuel portions do not supply a new internal pair, direct observations do not diagnose an untested gauge, and source order proves neither intention nor a hypothetical saved voyage. Public notices retain private wage identities.",
+      "anchors": [
+        "crossing_diagnostic_choice",
+        "crossing_qi_04",
+        "crossing_sources_04",
+        "crossing_rod_03",
+        "crossing_log_02",
+        "crossing_evidence_gate",
+        "crossing_notice_choice",
+        "crossing_open_account_05"
+      ]
+    },
+    {
+      "id": "reed_crossing_recovery_preserves_prior_losses",
+      "statement": "A separate eighteen-copper purse funds one accepted recovery service. Grain replacement follows original 18 minus delivered 12, 4 or 6; six replacements spend twelve total and return six, twelve spend eighteen and may leave two loads missing. Linen pays eighteen for eight cases with distinct supply dates. Six private wage comparisons pay eighteen without paying wages. All nine cargo-policy combinations retain original losses and the protagonist's fifth stage.",
+      "anchors": [
+        "crossing_fund_setup_01",
+        "crossing_fund_setup_02",
+        "crossing_fund_setup_03",
+        "crossing_fund_setup_04",
+        "crossing_fund_choice",
+        "crossing_order_six_01",
+        "crossing_order_twelve_gap_01",
+        "crossing_order_twelve_01",
+        "crossing_cargo_result_gate",
+        "crossing_policy_result_gate"
+      ]
     }
   ],
   "review_policy": "Review each new chapter's chronology, custody, character knowledge, and alternate outcomes before updating this ledger. Structural checks supplement editorial review; they do not prove the absence of all possible plot holes.",
@@ -3173,6 +3219,44 @@
         "letters_watch_settlement_01",
         "letters_watch_material_gate",
         "letters_watch_final_gate"
+      ]
+    },
+    {
+      "id": "reed_capacity_and_methods_before_cargo",
+      "before": "crossing_load_choice",
+      "required": [
+        "crossing_arrival_02",
+        "crossing_arrival_03",
+        "crossing_arrival_04",
+        "crossing_arrival_05",
+        "crossing_arrival_08",
+        "crossing_diagnostic_choice",
+        "crossing_findings_01",
+        "crossing_findings_04"
+      ]
+    },
+    {
+      "id": "reed_receiving_and_recovery_scope_before_grant",
+      "before": "crossing_fund_choice",
+      "required": [
+        "crossing_load_choice",
+        "crossing_rise_01",
+        "crossing_rise_05",
+        "crossing_evidence_gate",
+        "crossing_notice_choice",
+        "crossing_fund_setup_02",
+        "crossing_fund_setup_03",
+        "crossing_fund_setup_04"
+      ]
+    },
+    {
+      "id": "reed_final_receipt_retains_both_choices",
+      "before": "crossing_final_common",
+      "required": [
+        "crossing_fund_choice",
+        "crossing_departure_04",
+        "crossing_cargo_result_gate",
+        "crossing_policy_result_gate"
       ]
     }
   ]
