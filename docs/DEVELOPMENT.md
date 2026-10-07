@@ -140,3 +140,14 @@ Run `godot --headless --path . --script tests/consequences_test.gd` for engine s
 ## Career development
 
 Book XX offers three paid supervised appointments and independent day work. Existing saved decisions select the later profession portfolio and renewal address; completed practice grants its authored credit once. [Career paths and exact counts](CAREERS_20261007.md). The capture harness adds nine actual enrollment and portfolio views. CI authenticates four earlier continuity contradictions across the Reed Crossing and harbor identity source audits, separately from one terminology clarification, and exercises every career training combination, legacy fallback, zero-score access and exported career narration.
+
+
+## Book XXI commissions and native paintings
+
+Book XXI adds 71,944 displayed prose words in 936 unique playable scenes. The current manuscript is 1,264,970 words in 14,543 scenes and 21 books; 735,030 words remain toward two million. [The commission review](COMMISSIONS_20261007.md) separates manuscript counts, current career choices, finite budgets, original paintings and review captures.
+
+Run `godot --headless --path . --script tests/commissions_test.gd` to exercise actual Book XX enrollment, retained specialties and availability contexts, the six retained ending continuations, every new commission choice, missing-record supervision, zero-score access, saved commitment restoration, atomic rejection of switched saved methods and once-only completion rewards. A declined offer reaches its own portfolio and cannot claim commissioned work. The archive's shared duty is a real player choice and preserves the older specialty.
+
+The full capture suite includes ten new commission offer, entry, kitchen and saved portfolio views, bringing its expected total to 140. Capture walks use actual choices and save/load; the verifier adds the measured count only after the images pass. Seven new source PNGs retain their original bytes and maximum generated native dimensions, including the loggia's distinct 1672 × 940 output. Packaged-game smoke validation loads all seven backgrounds and checks their catalog dimensions without the source checkout.
+
+The usual full CI still checks prior pinned continuity audits, all manuscript routes, native source and decoded-pixel uniqueness, narration provenance, rendered captures and exported Linux playback. The draft keeps incomplete production word/art targets visible. No new historical plot-hole credit is assigned to authored commission failures or prepublication review corrections.

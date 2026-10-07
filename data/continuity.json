@@ -20,7 +20,8 @@
     "book_xvii_archive",
     "book_xviii_letters",
     "book_xix_reed_crossing",
-    "book_xx_careers"
+    "book_xx_careers",
+    "book_xxi_commissions"
   ],
   "facts": [
     {
@@ -2437,6 +2438,75 @@
         "career_renew_archive_01",
         "career_renew_survey_01"
       ]
+    },
+    {
+      "id": "commission_separate_terms_and_actual_enrollment",
+      "statement": "Book XX endings retain their earned outcomes and continue into a later bounded offer. Saved enrollment selects only its own commission; missing history supplies no unperformed qualification. Declining the offer reaches a separate deferred portfolio and grants no completed commission work or attribute credit.",
+      "anchors": [
+        "commission_entry",
+        "commission_offer_choice",
+        "commission_dispatch",
+        "commission_defer_portfolio_01"
+      ]
+    },
+    {
+      "id": "commission_kiln_finite_accounts_and_future_bookings",
+      "statement": "Six completed shifts pay forty-two. The hall funds ninety for wages, comparisons, independent review and two actual nine-copper replacement losses, plus eighteen for bounded provisions. Purchasers fund one hundred twenty for eight bowls at ten, twenty delivery (lost four, cart ten, packing six), and one twenty-copper performed service. A failed dependent-source recommendation remains failed, and delayed dispatch cannot restore earlier use. The accepted three-shift future booking totals twenty-one unearned; older booking amendments and wage receipts require actual supported records.",
+      "anchors": [
+        "commission_kiln_entry_06",
+        "commission_kiln_scope_common_04",
+        "commission_kiln_day_three_05",
+        "commission_kiln_day_three_10",
+        "commission_kiln_day_six_13",
+        "commission_kiln_finish_06"
+      ]
+    },
+    {
+      "id": "commission_archive_current_scope_and_finite_receiving",
+      "statement": "The current duty choice preserves the older specialty and permits either supported deepening or two actually performed shared receiving shifts. Twelve five-copper shifts pay sixty; an independent one-hundred-eighty appropriation spends one hundred sixty-two and returns eighteen. Qualified cover, two independent reviews, common materials and one supplemental service retain separate budgets. Thirty-five public copies are released and one stays held; treatment, original custody and private disclosure remain with their actual responsible people.",
+      "anchors": [
+        "commission_archive_scope_choice",
+        "commission_archive_prior_shared_07",
+        "commission_archive_prior_gate",
+        "commission_archive_final_02",
+        "commission_archive_final_03",
+        "commission_archive_final_05"
+      ]
+    },
+    {
+      "id": "commission_survey_lead_coordination_after_review",
+      "statement": "Four field shifts pay thirty-two and actual received coordination twelve, making forty-four. The independent one-hundred-twenty account also pays assistants forty, Yuan twelve, Jiang eight, materials/carriage eight, witness three and delivered return five. Concurrent and rotated methods retain different gaps; failed reset evidence is not recreated. Lead recording develops through actual coordination, reproducible independent review and selected receiving, with no structural, land, forecast or medical authority.",
+      "anchors": [
+        "commission_survey_contract_02",
+        "commission_survey_observer_choice",
+        "commission_survey_remediation_choice",
+        "commission_survey_review_close_02",
+        "commission_survey_final_02",
+        "commission_survey_final_07"
+      ]
+    },
+    {
+      "id": "commission_independent_inventory_and_ordinary_reference",
+      "statement": "Eight six-copper mornings pay forty-eight. Porter twenty-four, keeper sixteen, base supplies twelve, witness eight and exactly one performed twelve-copper service exhaust the separate one-hundred-twenty. Fifty-four pieces reconcile to fifty-one released and three retained: two disputed coats and one defective strap. Desk and walking recovery have different later uses. Completed work yields a bounded ordinary logistics reference while specialist qualification columns stay blank.",
+      "anchors": [
+        "commission_independent_recovery_choice",
+        "commission_independent_service_choice",
+        "commission_independent_closing_11",
+        "commission_independent_closing_12",
+        "commission_independent_closing_13",
+        "commission_independent_closing_14"
+      ]
+    },
+    {
+      "id": "commission_cultivation_limits_and_existing_commitments",
+      "statement": "Every commission keeps Qi Gathering 5: Four pairs and the shoulder arrangement. Choice, signature, title and future request grant no growth; performed credited practice can pay only once. Future requests, home visits and day work fit already accepted dates or require mutual amendment before a conflicting plan. Neither an offer refusal nor another future preference silently cancels an existing booking.",
+      "anchors": [
+        "commission_offer_choice",
+        "commission_receiving_01",
+        "commission_next_choice",
+        "commission_home_01",
+        "commission_daywork_01"
+      ]
     }
   ],
   "review_policy": "Review each new chapter's chronology, custody, character knowledge, and alternate outcomes before updating this ledger. Structural checks supplement editorial review; they do not prove the absence of all possible plot holes.",
@@ -3391,6 +3461,66 @@
         "career_survey_second_remedy_05",
         "career_survey_review_pass_01",
         "career_survey_review_method_gate"
+      ]
+    },
+    {
+      "id": "commission_terms_before_offer",
+      "before": "commission_offer_choice",
+      "required": [
+        "commission_entry",
+        "commission_calendar_01"
+      ]
+    },
+    {
+      "id": "commission_actual_acceptance_before_completed_portfolio",
+      "before": "commission_portfolio_dispatch",
+      "required": [
+        "commission_offer_choice",
+        "commission_dispatch",
+        "commission_receiving_01"
+      ]
+    },
+    {
+      "id": "commission_archive_actual_scope_before_service",
+      "before": "commission_archive_service_choice",
+      "required": [
+        "commission_archive_scope_choice",
+        "commission_archive_explanation_choice",
+        "commission_archive_recovery_19"
+      ]
+    },
+    {
+      "id": "commission_survey_actual_correction_before_delivery",
+      "before": "commission_survey_delivery_choice",
+      "required": [
+        "commission_survey_observer_choice",
+        "commission_survey_remediation_choice",
+        "commission_survey_second_close_02"
+      ]
+    },
+    {
+      "id": "commission_independent_actual_recovery_before_service",
+      "before": "commission_independent_service_choice",
+      "required": [
+        "commission_independent_entry",
+        "commission_independent_recovery_choice"
+      ]
+    },
+    {
+      "id": "commission_kiln_completed_recovery_before_service",
+      "before": "commission_kiln_service_choice",
+      "required": [
+        "commission_kiln_method_choice",
+        "commission_kiln_recovery_choice",
+        "commission_kiln_day_four_10"
+      ]
+    },
+    {
+      "id": "commission_future_choice_retains_defer_option",
+      "before": "commission_next_choice",
+      "required": [
+        "commission_entry",
+        "commission_offer_choice"
       ]
     }
   ]

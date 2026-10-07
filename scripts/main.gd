@@ -842,6 +842,23 @@ func _load_settings() -> void:
 	for bus in ["Music", "SFX", "Voice"]:
 		AudioServer.set_bus_volume_db(AudioServer.get_bus_index(bus), _setting_number(config, "audio", bus, -8.0, -40.0, 0.0))
 
+func _capture_commission_advance() -> bool:
+	if state.node().has("choices") and not state.node().get("random_event", false):
+		for index in range(state.node().choices.size()):
+			if state.can_choose(state.node().choices[index]):
+				return state.choose(index)
+		return false
+	return state.advance()
+
+func _capture_commission_checkpoint(path: String) -> bool:
+	if not state.save_game(path):
+		return false
+	var restored = StoryState.new(state.story)
+	if not restored.load_game(path) or restored.current != state.current or restored.decisions != state.decisions or restored.completed_practice != state.completed_practice or restored.stats != state.stats or restored.history != state.history:
+		return false
+	state = restored
+	return true
+
 func _capture() -> void:
 	DirAccess.make_dir_recursive_absolute("res://build/screenshots")
 	await get_tree().create_timer(1.2).timeout
@@ -1119,6 +1136,107 @@ func _capture() -> void:
 	for suffix in ["", ".bak", ".tmp"]:
 		if FileAccess.file_exists(career_save + suffix):
 			DirAccess.remove_absolute(career_save + suffix)
+	# Follow performed career training into a new, explicitly accepted commission.
+	var commission_entries := ["commission_kiln_entry", "commission_archive_entry", "commission_survey_entry", "commission_independent_entry"]
+	var commission_backgrounds := ["commission_kiln_assay_courtyard", "commission_archive_monsoon_vault", "commission_survey_rain_gauge_station", "commission_carrier_tally_court"]
+	var commission_save := "user://commission_capture_checkpoint.json"
+	var commission_kitchen_captured := false
+	for selection in range(commission_entries.size()):
+		state = StoryState.new(state.story)
+		state.current = "career_enrol_choice"
+		state.stats = {"qi": 10, "trust": 10, "insight": 10, "resolve": 10}
+		if not state.choose(selection):
+			push_error("Commission captures must begin with an actual career enrollment")
+			_quit_game(1)
+			return
+		var opening_steps := 0
+		while state.current != "commission_offer_choice" and opening_steps < 2000:
+			if not _capture_commission_advance():
+				push_error("Completed career work must reach the actual new commission offer")
+				_quit_game(1)
+				return
+			opening_steps += 1
+		if state.current != "commission_offer_choice" or not _capture_commission_checkpoint(commission_save):
+			push_error("Performed career work and its new offer must survive a checkpoint")
+			_quit_game(1)
+			return
+		if selection == 0:
+			_scene()
+			dialogue.visible_characters = -1
+			await get_tree().create_timer(0.4).timeout
+			await RenderingServer.frame_post_draw
+			get_viewport().get_texture().get_image().save_png("res://build/screenshots/commission_offer.png")
+		var offered_stats: Dictionary = state.stats.duplicate()
+		if not state.choose(0) or state.current != "commission_dispatch" or state.stats != offered_stats:
+			push_error("Accepting a new commission must follow its actual unpaid decision")
+			_quit_game(1)
+			return
+		var entry_steps := 0
+		while state.current != commission_entries[selection] and entry_steps < 2000:
+			if not _capture_commission_advance():
+				push_error("Saved career enrollment must reach its matching commission entry")
+				_quit_game(1)
+				return
+			entry_steps += 1
+		if state.current != commission_entries[selection] or state.decisions.get("career_enrol_choice", "") != career_entries[selection] or not _capture_commission_checkpoint(commission_save):
+			push_error("The saved commission entry must preserve the selected profession")
+			_quit_game(1)
+			return
+		# The initial offer may still arrive at the former workplace; walk on site.
+		var painting_steps := 0
+		while str(state.node().get("background", "")) != commission_backgrounds[selection] and painting_steps < 2000:
+			if not _capture_commission_advance():
+				push_error("The actual commission must reach its newly painted workplace")
+				_quit_game(1)
+				return
+			painting_steps += 1
+		if str(state.node().get("background", "")) != commission_backgrounds[selection] or not _capture_commission_checkpoint(commission_save):
+			push_error("The played commission workplace must retain its native painting and saved context")
+			_quit_game(1)
+			return
+		_scene()
+		dialogue.visible_characters = -1
+		await get_tree().create_timer(0.4).timeout
+		await RenderingServer.frame_post_draw
+		get_viewport().get_texture().get_image().save_png("res://build/screenshots/commission_%s.png" % career_names[selection])
+		var commission_portfolio := "commission_portfolio_%s_01" % career_names[selection]
+		var commission_steps := 0
+		var commission_received := false
+		while state.current != commission_portfolio and commission_steps < 2000:
+			if selection == 0 and state.current == "commission_kiln_day_five_11":
+				_scene()
+				dialogue.visible_characters = -1
+				await get_tree().create_timer(0.4).timeout
+				await RenderingServer.frame_post_draw
+				get_viewport().get_texture().get_image().save_png("res://build/screenshots/commission_kiln_kitchen.png")
+				commission_kitchen_captured = true
+			if state.current == "commission_receiving_01":
+				commission_received = true
+				if not _capture_commission_checkpoint(commission_save):
+					push_error("Completed commission work must save before its receiving review")
+					_quit_game(1)
+					return
+			if not _capture_commission_advance():
+				push_error("Actual commissioned work must reach its saved portfolio")
+				_quit_game(1)
+				return
+			commission_steps += 1
+		if state.current != commission_portfolio or not commission_received or state.decisions.get("career_enrol_choice", "") != career_entries[selection]:
+			push_error("Commission portfolios must describe the actual saved completed work")
+			_quit_game(1)
+			return
+		_scene()
+		dialogue.visible_characters = -1
+		await get_tree().create_timer(0.4).timeout
+		await RenderingServer.frame_post_draw
+		get_viewport().get_texture().get_image().save_png("res://build/screenshots/commission_portfolio_%s.png" % career_names[selection])
+	if not commission_kitchen_captured:
+		push_error("The played kiln commission must reach its actual on-site kitchen work")
+		_quit_game(1)
+		return
+	for suffix in ["", ".bak", ".tmp"]:
+		if FileAccess.file_exists(commission_save + suffix):
+			DirAccess.remove_absolute(commission_save + suffix)
 	print("JADE_VOW_CAPTURE_OK")
 	_quit_game()
 
@@ -1356,6 +1474,29 @@ func _smoke_build() -> void:
 		state.current = career
 		_scene()
 		valid = actor.sprite.texture != null and background.texture != null and audio.voice.stream is AudioStreamOggVorbis and valid
+	# The new commissions and all seven native paintings must survive source-free export.
+	state = StoryState.new(state.story)
+	valid = state.story.chapters.has("book_xxi_commissions") and valid
+	for scene_id in ["commission_entry", "commission_offer_choice", "commission_kiln_entry", "commission_archive_entry", "commission_survey_entry", "commission_independent_entry", "commission_portfolio_kiln_01", "commission_portfolio_archive_01", "commission_portfolio_survey_01", "commission_portfolio_independent_01"]:
+		state.current = scene_id
+		_scene()
+		valid = actor.sprite.texture != null and background.texture != null and audio.voice.stream is AudioStreamOggVorbis and valid
+		var background_id: String = state.node().get("background", "")
+		valid = background_paths.has(background_id) and valid
+		if background_paths.has(background_id):
+			var expected_background = load(background_paths[background_id])
+			valid = background.texture == expected_background and valid
+	var commission_paintings := ["commission_kiln_assay_courtyard", "commission_archive_monsoon_vault", "commission_survey_rain_gauge_station", "commission_carrier_tally_court", "commission_review_loggia", "commission_long_rain_quay", "commission_canal_shared_kitchen"]
+	var commission_native_count := 0
+	for painting in world.get("backgrounds", []):
+		if not commission_paintings.has(str(painting.id)):
+			continue
+		commission_native_count += 1
+		var native = load("res://" + str(painting.path))
+		valid = native is Texture2D and painting.get("native_size", []).size() == 2 and valid
+		if native is Texture2D and painting.get("native_size", []).size() == 2:
+			valid = native.get_size() == Vector2(painting.native_size[0], painting.native_size[1]) and valid
+	valid = commission_native_count == commission_paintings.size() and valid
 	if valid:
 		print("JADE_VOW_PACKAGE_OK: standalone story, world art, object inspection and narration")
 	else:

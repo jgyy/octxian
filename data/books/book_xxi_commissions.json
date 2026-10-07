@@ -1,0 +1,1164 @@
+{
+  "chapters": {
+    "book_xxi_commissions": {
+      "label": "BOOK XXI",
+      "title": "The Work After the Witness"
+    }
+  },
+  "characters": {},
+  "nodes": {
+    "commission_entry": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_long_rain_quay",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Weeks after the earlier career receiving, Yue reached a quay where rain had polished the cart ruts into narrow mirrors. A notice offered bounded commissions through an ordinary receiving desk. She carried her permitted work summary, not the institutions' original books. Any retained older page recorded its actual next-step choice; a missing page supplied no performed interval. Existing accepted bookings retained their force until their parties agreed a change.",
+      "next": "commission_calendar_01",
+      "routes": [
+        {
+          "decision": "career_next_choice",
+          "selected": "career_renew_dispatch",
+          "next": "commission_prior_request_01"
+        },
+        {
+          "decision": "career_next_choice",
+          "selected": "career_home_01",
+          "next": "commission_prior_home_01"
+        },
+        {
+          "decision": "career_next_choice",
+          "selected": "career_daywork_01",
+          "next": "commission_prior_daywork_01"
+        }
+      ]
+    },
+    "commission_prior_request_01": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Her retained next-step decision had directed her toward the earlier renewal enquiry. Yue opened that page before treating the new notice as a continuation of the same offer. An enquiry, an offered term and an accepted booking occupied different columns. Any existing acceptance remained binding on its actual dates. Where the record supported only a request, she copied only the request. Wanting the new desk to recognize her experience did not justify improving the older contract while nobody watched.",
+      "next": "commission_prior_request_02"
+    },
+    "commission_prior_request_02": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The receiving clerk asked which dates she could honestly offer. Yue placed documented bookings beside the available intervals and marked an uncertain date for confirmation. She could request an exchange if a commission conflicted, but the exchange required the other responsible party's agreement before either schedule changed. The clerk left room for that answer.",
+      "next": "commission_prior_request_03"
+    },
+    "commission_prior_request_03": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "She retained the renewal page with its real status rather than replacing it with the brighter new notice. A previous employer's willingness to consider her again belonged in an application only as far as its evidence went. Completed wages stayed in the received column; accepted future wages stayed blank. Yue took the current calendar sheet to the common desk.",
+      "next": "commission_calendar_01"
+    },
+    "commission_prior_home_01": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_long_rain_quay",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The retained decision had chosen a visit home. Yue remembered the ordinary domestic questions that decision had placed beside her professional ones: who would meet a carriage, where a damp coat could dry, whether a stove repair could wait. A homeward intention had not cancelled an accepted work date. She brought the documented travel arrangements and any amendments actually agreed, leaving unavailable details blank. The desk needed her present availability, rather than a pleasing reconstruction of a journey whose receipts were missing.",
+      "next": "commission_prior_home_02"
+    },
+    "commission_prior_home_02": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_long_rain_quay",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "A new commission could make another visit harder to arrange. Yue wrote the family date she presently hoped to protect, then distinguished it from a purchased carriage place or another person's accepted promise. She would ask about a real route after the work dates were settled. Recording it early allowed an offer to respect it, and allowed Yue to see when the offered term asked more than she wished to give.",
+      "next": "commission_prior_home_03"
+    },
+    "commission_prior_home_03": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The home decision stayed visible on the older page without becoming a claim that every family need had been met. Yue could remember affection and still need a new conversation about the next visit. She folded the permitted summary where the work dates ended and her private arrangements began. Both would inform her present answer; neither gave the receiving desk ownership of the other. She joined the common calendar review prepared to name the dates she could actually accept.",
+      "next": "commission_calendar_01"
+    },
+    "commission_prior_daywork_01": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_long_rain_quay",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Her retained next-step choice had favored ordinary daywork. That decision expressed a preference for shorter commitments; it did not prove a particular later morning had been worked. Yue supplied any actual attendance and payment entries available to her, keeping unverified employment outside the summary. The new desk asked whether she still wanted that rhythm. She said she wanted to understand the term first. A previous preference could help her negotiate without requiring her to repeat it forever to keep her story consistent.",
+      "next": "commission_prior_daywork_02"
+    },
+    "commission_prior_daywork_02": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The daywork page made short bookings easy to overlook because each occupied so little space. Yue checked them individually against the new proposed interval. An accepted single morning mattered as much to its keeper as an impressive long appointment did to a hall. She marked existing obligations for confirmation rather than assuming small wages made them disposable. If an exchange became necessary, she would request agreement before offering the same hours elsewhere. Flexibility belonged in a negotiated schedule, not in a hidden double booking.",
+      "next": "commission_prior_daywork_03"
+    },
+    "commission_prior_daywork_03": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The clerk entered only the bounded work Yue could substantiate and left the present preference in her own words. No specialist title followed from having kept an ordinary receiving morning; no ordinary work became less useful because its title was modest. Yue liked seeing the two sorts of evidence occupy the same summary without competing for grandeur.",
+      "next": "commission_calendar_01"
+    },
+    "commission_calendar_01": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At the common desk, Yue set the old record beside a blank current calendar. Where earlier evidence was unavailable, the clerk recorded that absence without inventing a qualification, receipt or appointment. Current supervised candidate work remained possible where its own scope allowed it. Where an older acceptance was documented, its dates retained their force. The same calendar method applied to both circumstances: confirm what existed, ask before changing a commitment, and sign only the new hours the parties could really supply.",
+      "next": "commission_calendar_02"
+    },
+    "commission_calendar_02": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The clerk gave her a small card with three headings: performed work, accepted future work, and matters awaiting an answer. Yue moved one line from the first heading to the second after rereading its signature. She had accepted the appointment but had not attended it. The correction changed no agreement and earned no practice credit. It made the card useful.",
+      "next": "commission_calendar_03"
+    },
+    "commission_calendar_03": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Outside, two households argued over whether a delayed delivery should still be collected today. Yue could hear them from the open window without knowing their contract. The clerk closed the private file before speaking to her again. The prospective commissions concerned ordinary permitted records, coordination and actual receiving. Each responsible institution would retain the decisions requiring its own qualifications. Yue read that division before reading the attractive wage figures.",
+      "next": "commission_calendar_04"
+    },
+    "commission_calendar_04": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "She asked what happened if her shoulder could not sustain a proposed task. The desk would send her present restriction with permission, so the responsible supervisor could define permitted movement before acceptance. A smaller role could be offered; an unsuitable one could remain unaccepted. Nobody asked her to prove courage by carrying a sample across the room. Her fifth-stage examination still recorded four earned pairs. Its achievement supplied no medical clearance or personal source for an unfamiliar machine, however urgently a client wanted reassurance.",
+      "next": "commission_calendar_05"
+    },
+    "commission_calendar_05": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The notice described four kinds of finite work rather than four promotions. The kiln had household-vessel receiving; the archive had condition-record coordination; the survey office had approved observations and a final received service; the tally court had ordinary materials stewardship. A retained enrolment could direct the application to its corresponding record. Without a supported specialist history, ordinary supervised work would remain within the offered candidate scope.",
+      "next": "commission_calendar_06"
+    },
+    "commission_calendar_06": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At a bench beneath the window, Yue wrote what she wanted from the new term: enough clearly paid work to prepare the next application, a method another worker could use, and dates she could keep without making family plans dishonest. She crossed out a sentence promising to become indispensable. The desk had not asked for permanence. A place could benefit from her work and continue after her departure. She wanted a useful result whose ending would be as clearly agreed as its beginning.",
+      "next": "commission_calendar_07"
+    },
+    "commission_calendar_07": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The clerk explained that this preliminary invitation carried no attendance fee. Reading a possible term had not performed one of its paid shifts. Its branch institution would state wages, materials, review costs and any provisions separately before the actual agreement. A purchaser's service deposit would not automatically become Yue's pay. She asked to keep that explanation beside the invitation.",
+      "next": "commission_calendar_08"
+    },
+    "commission_calendar_08": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_long_rain_quay",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "A family message waited in her coat. It asked when she might next come home and added that no answer today would be better than another date changed after the meal had been planned. Yue read it privately, then wrote an earliest possible travel interval on her own calendar. Existing accepted bookings came first unless their parties agreed otherwise. The message did not decide the commission, but made its scheduling cost concrete.",
+      "next": "commission_calendar_09"
+    },
+    "commission_calendar_09": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "She returned to the desk with the invitation and the card of obligations. The clerk checked that any proposed conflicting amendment would be settled by the branch's responsible parties before the new term occupied those hours. If she declined, no commission amendment would occur through implication. Older acceptances would continue as documented. Yue thought of the earlier kiln first booking, where present, and refused to let a new sheet make its unworked date disappear simply because the new work sounded more interesting.",
+      "next": "commission_calendar_10"
+    },
+    "commission_calendar_10": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The receiving desk offered a clear next step: present this application for the bounded commission, or defer and keep the present calendar. Acceptance here would lead to the institution's actual terms and required agreement; it would grant no wages, qualification or performed portfolio. Deferral would leave the old records and obligations intact. Yue set the invitation beside her availability card. Both answers could be responsible, but they would produce different work and different evidence when she next returned to receiving.",
+      "next": "commission_offer_choice"
+    },
+    "commission_offer_choice": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue had read the invitation, named her current limits and checked the available calendar. A commission would require its own actual terms and any necessary agreed amendment before conflicting work began. Deferring would perform none of its branch tasks and leave existing accepted bookings in force. The choice supplied no growth or advance payment. She chose whether to carry the application to the responsible institution now, or retain her present commitments while preparing a later request.",
+      "choices": [
+        {
+          "text": "Accept the commission application and read its actual bounded terms.",
+          "next": "commission_dispatch"
+        },
+        {
+          "text": "Defer the commission and retain the present calendar.",
+          "next": "commission_defer_01"
+        }
+      ]
+    },
+    "commission_dispatch": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The clerk consulted the retained enrolment record to send the application to the corresponding institution. Its earlier selected work could inform the new scope only where the actual evidence supported it. An absent specialist record would leave the relevant qualification unverified, with current supervision stated explicitly; an unavailable enrolment directed Yue to ordinary tally-court work. Each institution would settle its own offered terms before performance. The common invitation had neither completed the work nor silently changed any older accepted date.",
+      "next": "commission_independent_entry",
+      "routes": [
+        {
+          "decision": "career_enrol_choice",
+          "selected": "career_kiln_entry",
+          "next": "commission_kiln_entry"
+        },
+        {
+          "decision": "career_enrol_choice",
+          "selected": "career_archive_entry",
+          "next": "commission_archive_entry"
+        },
+        {
+          "decision": "career_enrol_choice",
+          "selected": "career_survey_entry",
+          "next": "commission_survey_entry"
+        }
+      ]
+    },
+    "commission_receiving_01": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The shared receiving took place beneath the loggia's ordinary roof, with a public summary table and a screened desk for permitted confirmation. Yue arrived with the completed term's own receiving copy and personal wage receipts. Originals stayed where their custodians had accepted them. The clerk checked the sender, scope and actual finishing record before placing the summary on the table. Today's entry would make existing evidence findable; it would not perform another commission or award a second qualification for reading the first one aloud.",
+      "next": "commission_receiving_02"
+    },
+    "commission_receiving_02": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The public form asked three useful questions: what had been supplied, what remained unresolved, and who held the source record. Yue answered from the received pages. She omitted private names where the summary did not require them and kept each institution's permission beside its copied material. A woman waiting nearby said a shorter sheet would be easier to carry. Yue shortened the sentences, then checked that neither the unresolved line nor the contact had vanished with the spare words.",
+      "next": "commission_receiving_03"
+    },
+    "commission_receiving_03": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_canal_shared_kitchen",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At the kitchen beside the quay, a cook was rinsing a bowl whose rim caught her patched cloth. She asked whether Yue's new work could settle which bowls every household should buy. Yue offered the actual scope of her completed term and the appropriate ordinary request contact. The cook showed the snag only after agreeing to have its existence mentioned in the public conversation. No comparison was performed there.",
+      "next": "commission_receiving_04"
+    },
+    "commission_receiving_04": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_canal_shared_kitchen",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The cook wanted something more immediately useful than another contact. Yue could understand that impatience. She read the public summary's remaining questions with her and pointed to the office responsible for a new request. The cook chose to keep the contact and return to washing. She did not agree to lend her cloth or open a cupboard for investigation. Yue respected that smaller outcome. An honest receiving could help someone seek the next service without quietly recruiting her into unpaid evidence.",
+      "next": "commission_receiving_05"
+    },
+    "commission_receiving_05": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Back at the loggia, a man asked whether a professional reference meant its holder could resolve the dispute written in his sealed packet. Yue did not open it. Her reference named a bounded performed responsibility, while his claim required its authorized receiving route. The clerk supplied that route under the desk's ordinary remit. Yue noticed his disappointment and let it remain his. Keeping a professional boundary had not promised that everyone approaching the table would feel well served by her particular experience.",
+      "next": "commission_receiving_06"
+    },
+    "commission_receiving_06": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The clerk compared Yue's public wording with the exact receiving title. One draft had used approved where the source said referred. Yue corrected the word before issue, preserving the draft behind the desk copy. The distinction mattered: a referral could name the next responsible reader without making that reader's eventual decision exist. It kept today's portable summary faithful to work whose real examinations and payments had already occurred elsewhere.",
+      "next": "commission_receiving_07"
+    },
+    "commission_receiving_07": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "A younger applicant asked whether choosing a specialty now could fill a gap in an older work book. Yue described the distinction her own application had required. A present choice could request training or supported duties. Evidence of an earlier qualification needed its actual record; missing evidence supplied no title by memory alone. New supervised work could produce a new bounded reference after performance and review. The applicant copied those steps onto personal paper, leaving the absent older certificate absent rather than decorating the gap.",
+      "next": "commission_receiving_08"
+    },
+    "commission_receiving_08": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue placed wage receipts on the screened desk, away from the public table. The clerk needed the permitted verification entry, not a display of everything in her purse. Received money, private spending and an accepted future wage were different matters. The public summary would describe paid work without announcing her household remittance or travel savings.",
+      "next": "commission_receiving_09"
+    },
+    "commission_receiving_09": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The next employer's request card asked for a reproducible work sample. Yue supplied the permitted index and the custodian's confirmation route rather than copying protected source pages to make the sample look complete. The clerk tested whether the stated contact could identify the actual term. Its present office address was available. A sample could remain portable because its boundaries were legible, not because the worker carried every original away and made herself the only person able to explain it.",
+      "next": "commission_receiving_10"
+    },
+    "commission_receiving_10": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_long_rain_quay",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Under the eaves, Yue opened her availability card again. A completed commission might leave new accepted bookings behind it, as the kiln's received term did. An earlier acceptance could also remain where no amendment had occurred. She copied only the dates actually supported by her records and left pending offers separate. The shared desk would not merge different portfolios into a universal appointment.",
+      "next": "commission_receiving_11"
+    },
+    "commission_receiving_11": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_long_rain_quay",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The rain eased while ordinary carts began moving beyond the quay rail. Yue felt the familiar urge to answer every waiting request before the improved weather ended. The clerk instead named the desk's closing time and the actual next receiving. People could choose to return, use another ordinary route or take their unanswered question away. Yue carried her issued summary from the screened desk. Completing a bounded public account had left more possible work visible, without making all of it today's obligation.",
+      "next": "commission_receiving_12"
+    },
+    "commission_receiving_12": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Before the portfolio page was issued, the clerk kept three headings distinct: documented earlier scope, completed present term, and future commitments. Missing earlier evidence remained marked as missing. The new term's accepted coordination or ordinary stewardship appeared only as its actual reviewed record supported it. Her fifth stage and shoulder limits stayed on their own permitted lines. Yue checked those headings against her source copy. The next reader could now see professional development without mistaking it for broader cultivation, treatment authority or unlimited availability.",
+      "next": "commission_portfolio_dispatch"
+    },
+    "commission_portfolio_dispatch": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The desk consulted the retained enrolment to issue the corresponding completed-term portfolio. Each page would keep that institution's actual wages, accepted result, unresolved matters and future dates together. An unavailable enrolment led to the ordinary tally-court portfolio supported by the dispatched work. No page would add a second trade's qualification merely because all four kinds of work had shared this receiving table. Yue waited for her particular record before writing the application that would carry it onward.",
+      "next": "commission_portfolio_independent_01",
+      "routes": [
+        {
+          "decision": "career_enrol_choice",
+          "selected": "career_kiln_entry",
+          "next": "commission_portfolio_kiln_01"
+        },
+        {
+          "decision": "career_enrol_choice",
+          "selected": "career_archive_entry",
+          "next": "commission_portfolio_archive_01"
+        },
+        {
+          "decision": "career_enrol_choice",
+          "selected": "career_survey_entry",
+          "next": "commission_portfolio_survey_01"
+        }
+      ]
+    },
+    "commission_portfolio_kiln_01": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The kiln portfolio named six completed seven-copper shifts and forty-two actually received wages. Any documented older fifteen-copper net receipt remained a separate earlier entry; absent evidence supplied no extra fifteen. The hall had funded ninety for work costs and eighteen for six days' provisions. The purchaser account had funded the bowls, delivery and one selected service. Yue checked those separate payers before permitting a short public line that might otherwise make the households appear to have employed her directly.",
+      "next": "commission_portfolio_kiln_02"
+    },
+    "commission_portfolio_kiln_02": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The hall's work account retained forty-two in wages, eighteen in comparison consumables, twelve in performed review and eighteen consumed by replacement losses. The separate provision account covered meals and bed during the six accepted days. The purchasers' one hundred twenty comprised eighty for eight bowls, twenty for delivery including the lost reservation, and twenty for the completed selected service. The portfolio pointed to those accounts without reproducing private household notes or calling the lost time a saving.",
+      "next": "commission_portfolio_kiln_03"
+    },
+    "commission_portfolio_kiln_03": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The received set contained eight actual sale pieces. Yue's sample named the failed dispatch recommendation, withdrawal, correction and witnessed cold receiving. It kept hot-performance claims under the maker's established specification. A retained older technical specialty contributed only its documented scope; unavailable evidence stayed unverified. Her new supervised receiving-team coordination rested on this term's actual accepted work. The title described allocation and traceable reports, leaving firing, structure and private disputes with their responsible authorities rather than hiding those omissions in a handsome heading.",
+      "next": "commission_portfolio_kiln_04"
+    },
+    "commission_portfolio_kiln_04": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The appointment page showed the agreed amendment of any documented conflicting unworked earlier booking under the commission's actual terms. It also showed three newly accepted receiving shifts over two weeks, seven copper each. Their twenty-one possible wages were still unearned. Yue circled the first accepted date on her present calendar and kept the actual review address beside it. A completed six-day term had opened a real next responsibility, whose dates now required her attention rather than another optimistic sentence about freedom.",
+      "next": "commission_portfolio_kiln_05"
+    },
+    "commission_portfolio_kiln_05": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_canal_shared_kitchen",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "A prospective requester wanted the cold receiving sample because his kitchen had a similar counter. Yue could provide the permitted method summary and ordinary application contact. Similarity did not inspect his current bowls or reserve a visit. She would need an actual scope and paid term, fitted around the three accepted shifts, before undertaking another commission. He took the contact.",
+      "next": "commission_portfolio_kiln_06"
+    },
+    "commission_portfolio_kiln_06": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue returned the original receiving copy to her permitted cover and carried the issued portfolio page into the next-step discussion. The bowls and selected service belonged with their actual recipients; the hall retained its sources and specimens. Her future bookings remained on the calendar. She could seek another request, plan a visit home or arrange ordinary daywork around them, seeking agreement before any change. The portfolio gave her better evidence for that negotiation without pretending the next two weeks were empty.",
+      "next": "commission_next_choice"
+    },
+    "commission_portfolio_archive_01": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The archive portfolio named twelve completed five-copper shifts and sixty new-term wages. Any documented older trainee payment stayed separate; an unavailable older receipt supplied no extra forty. The issued page described condition-record coordination, corrected associations, actual receiving and independent review. It carried no family original, private notebook or personal reading purpose. Yue checked the assistant title against the accepted record. Having become more useful in a room full of paper had not made every page in that room hers to know.",
+      "next": "commission_portfolio_archive_02"
+    },
+    "commission_portfolio_archive_02": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "From the archive's one hundred eighty, completed costs had spent one hundred sixty-two and returned the unused eighteen-copper reserve. Sixty paid Yue, thirty-six paid common qualified cover, eighteen paid two evaluations, twenty-four bought common materials, and twenty-four paid one selected supplemental service. Purchased unused stock stayed with its materials custodian. Yue left the service's particular receiving page attached, so nobody could treat a portable class, an enclosure batch and evening sessions as three accomplishments bought from the same twenty-four.",
+      "next": "commission_portfolio_archive_03"
+    },
+    "commission_portfolio_archive_03": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The main intake remained thirty-six physical copies: thirty-five released for named approved uses and one newly creased copy held under qualified referral. The retained transposition concerned two summary associations, with the failed signature and superseding correction visible. Yue's portfolio named coordination of those records. It made no claim that she had treated paper, identified the crease's physical cause or settled a private comparison behind a public text. A reader could see what had improved while still finding the unresolved copy where its responsible custodian held it.",
+      "next": "commission_portfolio_archive_04"
+    },
+    "commission_portfolio_archive_04": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The early duty and supplemental service occupied separate lines. Where Yue had chosen present shared receiving, the page credited those supervised shifts without borrowing a watch round, fitted batch or public sitting from the earlier specialty alternatives. Where actual specialty deepening had occurred, its particular record supported the narrower description. Any older qualification retained its documented truth. She checked this distinction before issue, because an employer reading only the final title might otherwise imagine a larger project than the commission had actually performed.",
+      "next": "commission_portfolio_archive_05"
+    },
+    "commission_portfolio_archive_05": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "A future assistant responsibility could be proposed from the accepted record, but required new funded hours, qualified cover and agreement. Yue wrote the ordinary application contact beside that possibility. Her negotiated home visit remained governed by its actual travel arrangements and any existing accepted dates. The archive reference could help her ask for a timetable that respected them. It could not guarantee a carriage, assign a treatment duty or make her permanently available whenever another reader found the ordinary desk inconvenient.",
+      "next": "commission_portfolio_archive_06"
+    },
+    "commission_portfolio_archive_06": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue put the permitted source index behind the public portfolio page and left the collection entries with their proper custody. Her own wage receipts and private letter stayed in her personal cover. The record now offered a precise assistant career sample, with performed work and unresolved referral both visible. She took it to the next-step table.",
+      "next": "commission_next_choice"
+    },
+    "commission_portfolio_survey_01": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The survey portfolio named four paid field shifts and one actually accepted coordination deliverable across the ten-day term. Yue's received pay was forty-four: thirty-two in field wages and twelve after the selected service's receiving. The two assistants' actual twenty each appeared under their own names and permissions. Her sample credited their demonstrated tasks without attaching private health details. It gave a future employer evidence of coordination through approved methods, rather than a story in which the person directing the team had produced every observation herself.",
+      "next": "commission_portfolio_survey_02"
+    },
+    "commission_portfolio_survey_02": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The new one-hundred-twenty-copper deposit had funded forty-four for Yue, forty for assistants, twelve for two operating-supervision mornings, eight for independent review, eight for materials and first carriage, three for the review witness and five for the completed return courier. The final receipts closed those actual tasks. Earlier crossing and training accounts stayed separate. Yue kept the budget's source contact on the issued page so a reviewer could verify the term without turning her personal purse into the office's evidence store.",
+      "next": "commission_portfolio_survey_03"
+    },
+    "commission_portfolio_survey_03": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The retained source failure remained a failure even after the team had performed its chosen remediation and later reviewed work. The portfolio named the selected final result: a reproducible public-location handover or an attended station-user explanation. Its source copy identified which had actually been received. The other service remained unperformed under that fee. Yue resisted a broad heading that would obscure the difference. A future client needed to know which practical occasion her sample demonstrated before asking her to supply another one.",
+      "next": "commission_portfolio_survey_04"
+    },
+    "commission_portfolio_survey_04": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Independent review had accepted bounded lead-recorder coordination: approved task allocation, source attribution, correction, work references and a usable handover. The site lead retained operating and access decisions; specialists retained structural, ownership, forecast and medical judgments. Any older specialty contributed only its actual supported sample. Her shoulder arrangements and four earned pairs were unchanged. Yue copied that scope in ordinary language. The responsibility was larger than before because other workers could use its evidence, not because the title made every uncertain question answerable.",
+      "next": "commission_portfolio_survey_05"
+    },
+    "commission_portfolio_survey_05": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Ding's and He Su's permitted references had their ordinary office route. Their next jobs would require their own accepted terms, just as Yue's next post would. She could identify their completed contributions without reserving their future time or promising that her reviewed role guaranteed employment. A requester at the table wanted a permanent observation roster. Yue directed him to the responsible office and offered her present availability for an actual application.",
+      "next": "commission_portfolio_survey_06"
+    },
+    "commission_portfolio_survey_06": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The issued survey page retained the original source custody and named where the permitted commission copy had been delivered. Borrowed tools remained at the station. Yue carried only her authorized sample, pay confirmation and qualification copy. She joined the next-step table with a tested coordination method and a current calendar. Another request might use that experience; home or ordinary daywork might fit the next interval better. None would restore the old flood losses or turn the completed observation series into a promise about coming weather.",
+      "next": "commission_next_choice"
+    },
+    "commission_portfolio_independent_01": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_long_rain_quay",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At the long quay, the tally-court portfolio named eight completed six-copper mornings and forty-eight actually received wages. Her meals and lodging had remained personal expenses outside its appropriation. The issued sample described ordinary receiving and materials stewardship: attributable counts, correction, permitted movements and a checked custody handover. Specialist qualification columns stayed blank. Yue could present useful new work without calling herself a kiln inspector, archive conservator or survey officer, and without needing the modest title to excuse an invented earlier certificate.",
+      "next": "commission_portfolio_independent_02"
+    },
+    "commission_portfolio_independent_02": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_long_rain_quay",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The court's one hundred twenty had paid forty-eight for Yue, twenty-four for the porter, sixteen for the keeper, twelve for base materials, eight for independent witnessing and twelve for one selected supplementary service. That service's actual receipt stayed attached. Temporary rack hire, paired outward evidence and later receiving windows had different outcomes; only the selected one had been supplied. Purchased unused materials remained goods in custody. The portfolio would let a later keeper compare the improvement with the ordinary arrangements it had still required.",
+      "next": "commission_portfolio_independent_03"
+    },
+    "commission_portfolio_independent_03": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_long_rain_quay",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The final account reconciled fifty-four individual pieces: fifty-one released through signed authority and three held under current instructions. The held pieces comprised two disputed coats and the defective strap. Container counts remained on their own line. Yue's wrong movement tick stayed visible beside its checked correction. The cooperative retained allocation authority for the coats, and the keeper retained custody after the term. The neat final arithmetic had established where goods stood, without resolving a dispute or making an unaccepted strap serviceable.",
+      "next": "commission_portfolio_independent_04"
+    },
+    "commission_portfolio_independent_04": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_long_rain_quay",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The witness had tested the particular recovery aid Yue actually made, whether the paper index or the movement sequence. Her portable sample named its source and later use. The court kept its private ledger and original instructions; she kept the permitted reference. A prospective employer asked whether the aid could be copied into his store. Yue offered its public method summary and said his actual goods, routes and permissions would need their own accepted setup. Familiar practice could inform new work without performing that work in advance.",
+      "next": "commission_portfolio_independent_05"
+    },
+    "commission_portfolio_independent_05": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_long_rain_quay",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The keeper's willingness to notify her about another bounded term was a contact arrangement, rather than a reserved stretch of unpaid mornings. Any existing acceptance elsewhere still mattered on her calendar. Yue checked those lines before writing an earliest available date for a new request. She would ask for real hours and pay, and would not offer the same morning twice because both employers described their need as simple.",
+      "next": "commission_portfolio_independent_06"
+    },
+    "commission_portfolio_independent_06": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_long_rain_quay",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue closed the issued page while a cart passed carrying repaired cloth toward the market. The court's goods had entered other people's use; its held items remained somebody's present responsibility. Her term was finished and its handover had a named keeper. She took the reference to the next-step table, where she could seek another request, plan home or arrange daywork. The new ordinary-work evidence made those choices more specific, while specialist blanks and any accepted dates elsewhere retained their actual status.",
+      "next": "commission_next_choice"
+    },
+    "commission_defer_01": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue deferred the new commission and returned its invitation to the ordinary desk. No branch agreement followed, so no branch work, wage or new coordination qualification appeared. The clerk left the earlier records intact. Any accepted old booking remained binding on its documented date; the proposed commission amendment had not occurred. She kept the available calendar sheet. Saying later had preserved an opportunity to enquire again, without turning a present refusal into a performed term she could cite in an application.",
+      "next": "commission_defer_02"
+    },
+    "commission_defer_02": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "She asked the clerk to distinguish her decision from withdrawal from existing employment. The issued note said only that she had deferred this new invitation. It made no representation about cancelling an older accepted first shift, including the kiln booking where documented. If she needed that date changed, its own responsible parties would have to agree before her plans used it differently. Yue checked the short note carefully. A responsible refusal should not arrive at another employer disguised as an unexplained absence.",
+      "next": "commission_defer_03"
+    },
+    "commission_defer_03": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_canal_shared_kitchen",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Outside, the cook beside the quay asked whether Yue would now visit the shared kitchen to assess its catching rim. Yue explained that she had accepted no commission there. The ordinary request desk could receive the question, but the proposed work needed an actual scope and suitable responsible worker. The cook kept the contact. Their conversation had created neither a purchased comparison nor a free professional obligation merely because Yue had found her invitation's answer difficult.",
+      "next": "commission_defer_04"
+    },
+    "commission_defer_04": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At the public table, Yue removed the unused new-term headings from her application draft. She could describe documented earlier work, with its supported scope and source contact. Missing evidence would remain unavailable; it could not be patched with tasks from the commission she had just declined. Then she saw what it made possible: another employer could ask for genuine candidate training instead of assuming she had already passed work that existed only in an offered itinerary.",
+      "next": "commission_defer_05"
+    },
+    "commission_defer_05": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Her private availability card still contained accepted work, pending answers and family intentions. Deferral had left more time than acceptance would have used, but had not made every future date free. Yue checked the actual commitments before considering another request. The clerk supplied the ordinary contact for confirming an uncertain earlier booking. She copied it beside the uncertainty, keeping the answer pending rather than crossing the date out because obtaining confirmation would be inconvenient.",
+      "next": "commission_defer_06"
+    },
+    "commission_defer_06": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_long_rain_quay",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "A family letter asked for a return date. Yue drafted a reply explaining that she had deferred the new term and still needed to honor any existing accepted dates. She could arrange travel in an available interval or request an agreed change before buying a conflicting ticket. The draft promised neither home tomorrow nor indefinite professional availability. It named the practical next step: verify the calendar, then choose a real journey. She left the letter private while she checked the ordinary carriage notice.",
+      "next": "commission_defer_07"
+    },
+    "commission_defer_07": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The next application would ask what she had done since the earlier receiving. Yue could state this honest deferral and any other documented work without claiming a commission portfolio. The clerk reminded her that a candidate could request a bounded supervised term. She wrote the duties she could substantiate and the training she still wished to undertake, making the difference available to somebody deciding what to offer.",
+      "next": "commission_defer_08"
+    },
+    "commission_defer_08": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_long_rain_quay",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Rain moved across the public road as the desk prepared to close. Yue kept the deferred invitation's contact and its actual status. No wage had arrived, no service reserve had been spent on her recommendation, and no branch's unresolved materials had become her custody. Her shoulder limits and fifth stage stayed as before. She returned to the calendar table with a smaller present decision completed and the larger question of her next arrangement still open.",
+      "next": "commission_defer_portfolio_01"
+    },
+    "commission_defer_portfolio_01": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The deferred application's portable page contained the earlier record's supported scope and source route, followed by a plain statement that this commission had been deferred. It described no newly completed portfolio. An older qualification or wage appeared only where actual documentation supported it; absent evidence supplied no title or money. Yue asked for that wording to remain. She preferred an application that invited the right next offer over a fuller page requiring her to conceal where its additional accomplishments had come from.",
+      "next": "commission_defer_portfolio_02"
+    },
+    "commission_defer_portfolio_02": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The clerk checked that the page could direct an authorized employer to the older source without exposing private material. Where no source was available, it said so and invited a present assessment under a new agreed scope. Neither wording granted access by itself. Yue retained her personal papers and left institutional originals in custody. The act was preparation for seeking work, rather than another evaluation of technical skill. Her qualifications remained exactly those the available evidence could substantiate.",
+      "next": "commission_defer_portfolio_03"
+    },
+    "commission_defer_portfolio_03": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_canal_shared_kitchen",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At the kitchen, people were still washing cloth and setting an ordinary supper. Declining the commission had not solved their inconvenience or transferred its solution to Yue's unpaid evening. The request contact remained available. She could notice a worthwhile future task and choose to seek its funded terms later. For now she returned to her own availability card. A worker's honest limit could leave another person's need real, which was a reason to plan the next offer carefully rather than inflate this one.",
+      "next": "commission_defer_portfolio_04"
+    },
+    "commission_defer_portfolio_04": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The next-step desk received the deferral page and current calendar. Existing acceptances still stood unless their parties had already agreed an amendment. A new request would need to fit around them; home travel or daywork would require the same care. Yue had performed no commission, but could choose a practical next arrangement from that truthful starting point. She put the page beside the calendar rather than beneath it, so neither her desired future nor her documented obligations would disappear while she answered.",
+      "next": "commission_next_choice"
+    },
+    "commission_next_choice": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue had the portable page actually supported by her route: a completed commission portfolio or an honest deferral record. She also had the dates of existing accepted bookings and the questions still awaiting answers. A new request could seek another bounded term; home could use an available interval; ordinary daywork could fit around the same obligations. Any conflicting change required mutual agreement before it took effect. None of these selections paid a wage, performed training or cancelled an acceptance.",
+      "choices": [
+        {
+          "text": "Prepare a new bounded request around existing accepted dates.",
+          "next": "commission_new_request_01"
+        },
+        {
+          "text": "Arrange a home interval that respects existing accepted dates.",
+          "next": "commission_home_01"
+        },
+        {
+          "text": "Seek ordinary daywork around existing accepted dates.",
+          "next": "commission_daywork_01"
+        }
+      ]
+    },
+    "commission_new_request_01": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue took a blank request card and wrote the work she could actually support. The receiving page determined its scope: accepted present coordination where performed, ordinary stewardship where demonstrated, or supervised candidate duties where evidence was absent. She did not copy a larger title from another portfolio. The prospective employer would receive her permitted sample and current limits, then decide whether to offer a task. Writing the request began that conversation; it did not make an appointment or its wages exist.",
+      "next": "commission_new_request_02"
+    },
+    "commission_new_request_02": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "She placed the availability card beside the requested start interval. Any accepted kiln dates, older unamended booking or other documented commitment stayed occupied. The request offered hours around them. If a proposed term could work only by exchanging one of those dates, she would seek the relevant parties' consent before accepting the conflicting plan. She wrote that condition plainly, so the next clerk would not mistake a desired exchange for an exchange already obtained.",
+      "next": "commission_new_request_03"
+    },
+    "commission_new_request_03": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The employer's ordinary desk wanted one short example of a correction another worker could inspect. Yue supplied the example her actual records supported, with the permitted source index. Where the record lacked a completed example, she asked for a current supervised demonstration instead of borrowing one from the declined commission. The clerk accepted the application materials for consideration. That receipt confirmed custody of the request, leaving assessment, offer and performance at their own future stages.",
+      "next": "commission_new_request_04"
+    },
+    "commission_new_request_04": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_long_rain_quay",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At the quay rail, Yue compared the application receipt with her private calendar. Her family message still needed an answer. She could name the already accepted work and the earliest home interval she hoped to arrange, while describing the new request as pending. The prospective employer had promised no date today. She liked being able to explain a professional ambition without disguising it as settled employment. It left her family something concrete to plan around and something honestly uncertain.",
+      "next": "commission_new_request_05"
+    },
+    "commission_new_request_05": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_long_rain_quay",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "A carrier at the notice board asked whether the new title meant she could inspect his damaged crate immediately. Yue referred the request to its proper scope and ordinary receiving route. Her application concerned the duties its evidence supported, not every need she might encounter while holding it. The carrier kept his crate. She kept the application receipt dry.",
+      "next": "commission_new_request_06"
+    },
+    "commission_new_request_06": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_long_rain_quay",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The request lay with its appointed desk, carrying an honest scope, available intervals and source contact. Yue's existing accepted bookings remained on her calendar; their wages remained unearned until performance. A future response could offer terms she would read before signing. Her four earned pairs and shoulder arrangements accompanied the same patient next step. She left the loggia with useful evidence behind the request and enough blank space ahead for another agreement to become real in its own time.",
+      "ending": "A Request Beside the Calendar"
+    },
+    "commission_home_01": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_long_rain_quay",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue unfolded the carriage notice and chose to plan home within an interval her present calendar could actually leave available. Existing accepted dates remained occupied, including unworked kiln shifts where recorded. The choice did not cancel them. She compared departures and return possibilities before selecting a route, rather than treating a hopeful family date as proof that travel would fit. If no reliable interval existed, a later journey or a mutually agreed amendment would have to come first.",
+      "next": "commission_home_02"
+    },
+    "commission_home_02": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_long_rain_quay",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The ordinary carriage keeper named the present route and its receiving arrangements. Yue asked about the return before committing to the outward journey. She wanted enough room to honor accepted work without depending on an unusually fast cart or unchanged weather. The available plan used dates outside her documented obligations. She kept any proposed change pending until its parties actually agreed; no ticket would serve as permission to miss a booking merely because buying it had made the journey feel definite.",
+      "next": "commission_home_03"
+    },
+    "commission_home_03": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_long_rain_quay",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "She arranged the available journey through her personal travel account, separate from every completed commission's closed costs and every unearned future wage. Its actual terms stayed with the ticket. She drafted a private family message giving the agreed departure, intended return and ordinary contact if the route changed. The message promised a visit within the available interval, not a permanent return or a guarantee against delay. For once the work calendar and the family plan could be read together without either requiring the other to lie.",
+      "next": "commission_home_04"
+    },
+    "commission_home_04": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_long_rain_quay",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "While waiting for the journey's real departure, Yue checked what belonged in her pack. The issued portfolio or deferral page could travel with her; institutional originals and private third-party sources could not. She kept her own wage receipts where present and left future payment columns blank. The family might want to hear the proudest title first. She prepared to explain its actual work, limits and retained mistake instead, trusting affection to survive a story whose achievement did not require every unresolved line to disappear.",
+      "next": "commission_home_05"
+    },
+    "commission_home_05": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_canal_shared_kitchen",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At the departure rail, a cook from the shared kitchen wished her a good visit and asked when she might return to the public desk. Yue gave only the next availability her records supported. Another professional service would require its own offer and accepted scope; her journey had not promised one. The cook waved with a wet cloth. Yue felt the warmth of being remembered without needing to make that small kindness evidence for a larger obligation or another point of practice.",
+      "next": "commission_home_06"
+    },
+    "commission_home_06": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_long_rain_quay",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue took her place on the ordinary carriage within the arranged available interval. The return plan and existing accepted dates remained in her private calendar, with changes requiring the proper agreement if circumstances demanded them. Home waited as a place of people and unfinished household questions, rather than a reward certifying that all professional work was solved. She held her permitted papers against the weather and let the journey have its own modest purpose: arriving for the visit she had actually arranged.",
+      "ending": "The Available Homeward Interval"
+    },
+    "commission_daywork_01": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_long_rain_quay",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue chose to seek ordinary daywork in the available intervals around her accepted dates. The public board listed short receiving and copying needs under their own responsible keepers. She compared each proposed morning with her present calendar before enquiring. Small jobs could supply useful wages through actual work, but their size made no older commitment less binding. The portfolio or deferral page would establish what she could support, leaving unfamiliar duties to a separately agreed supervised scope.",
+      "next": "commission_daywork_02"
+    },
+    "commission_daywork_02": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At a keeper's ordinary desk, she asked for the actual duties before the rate. Light receiving, traceable identifiers and a checked waist-height route could be discussed within her present shoulder arrangements. Specialist inspection and private adjudication would need their responsible qualifications. The keeper supplied the proposed hours and payment event for consideration. Yue copied them beside the available interval. No wage was due for enquiring, and no broader clearance came from being willing to take an unglamorous task.",
+      "next": "commission_daywork_03"
+    },
+    "commission_daywork_03": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "One proposed morning lay too close to an accepted booking for a reliable journey between them. Yue asked for another available date rather than promise both. The keeper could consider the alternative; the earlier employer's date stayed unchanged. If either party later proposed an exchange, its agreement would need to be recorded before she used the changed calendar. The employment conversation could continue without beginning with a quiet assumption that someone else's hours were negotiable.",
+      "next": "commission_daywork_04"
+    },
+    "commission_daywork_04": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_long_rain_quay",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "She left the daywork enquiry with a plain scope and the alternative date awaiting its actual answer. A short offer, if made, would still need her acceptance; completed pay would still need completed work. Existing bookings remained on the calendar. Yue put the enquiry receipt beside her permitted work summary instead of writing its proposed wage in her purse total. Ordinary employment offered a slower sort of professional continuity, built from mornings that people could verify rather than a title large enough to obscure them.",
+      "next": "commission_daywork_05"
+    },
+    "commission_daywork_05": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_canal_shared_kitchen",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The shared kitchen was setting supper when she passed. Somebody had moved a bench to make the ordinary receiving lane wider, under the kitchen's own arrangements. Yue noticed the change without counting it among her work. She might return another day under an accepted task, or simply come to eat from her personal purse. Both were possible ordinary occasions. Neither required the kitchen to preserve a place for her while she considered employment elsewhere or owed attendance to an already accepted booking.",
+      "next": "commission_daywork_06"
+    },
+    "commission_daywork_06": {
+      "chapter": "book_xxi_commissions",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_long_rain_quay",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue closed the daywork enquiry with its answer still pending and its requested hours fitted around actual commitments. Her issued record could support the next negotiation; missing evidence remained missing and completed work retained its exact scope. The fifth stage still held four earned pairs. She carried the calendar home through the rain, ready to accept a real short offer if it suited. Tomorrow would contain the work actually agreed for tomorrow, with no wage or qualification borrowed from a morning yet to be performed.",
+      "ending": "Ordinary Hours, Clearly Kept"
+    }
+  }
+}
