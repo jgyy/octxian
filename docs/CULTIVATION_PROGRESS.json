@@ -3309,11 +3309,17 @@
       "independent": 1
     },
     "complete_future_paths": 150,
-    "confirmed_underlying_repairs": 2,
+    "confirmed_underlying_repairs": 4,
     "terminology_clarifications": 1,
     "requested_plot_repairs": 1000,
     "plot_repair_target_verified": false,
     "review": "docs/CAREERS_20261007.md",
-    "source_audit": "docs/CAREER_CONTINUITY_REPAIRS_20261007.json"
+    "source_audit": "docs/CAREER_CONTINUITY_REPAIRS_20261007.json",
+    "reed_crossing_repairs": 2,
+    "harbor_identity_repairs": 2,
+    "source_audits": [
+      "docs/CAREER_CONTINUITY_REPAIRS_20261007.json",
+      "docs/HARBOR_IDENTITY_REPAIRS_20261007.json"
+    ]
   }
 }

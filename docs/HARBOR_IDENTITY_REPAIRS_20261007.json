@@ -1,0 +1,474 @@
+{
+  "schema_version": 1,
+  "title": "Harbor farewell identity repairs · 2026-10-07",
+  "repository": "jgyy/octxian",
+  "review_date": "2026-10-07",
+  "source_commit": "659f6c413867a3c7d5857e4b89c4f3aae1f39ae8",
+  "source_path": "data/books/book_xiv_harbor_27.json",
+  "source_file_sha": "fc627e416290f921bdbe1b31a78eb89f3ede3d0e",
+  "reviewed_commit": "a50bd1e8c045ae58e0b04716dc2c8aa20a5843e9",
+  "baseline_equivalence": "The complete source file was fetched at both source_commit and reviewed_commit; both returned identical UTF-8 content and Git blob SHA fc627e416290f921bdbe1b31a78eb89f3ede3d0e.",
+  "requested_plot_holes": 1000,
+  "confirmed_underlying_defects": 2,
+  "affected_source_passages": 2,
+  "corrected_pronoun_sites": 3,
+  "target_met": false,
+  "classification": "confirmed_character_identity_defect",
+  "displayed_word_delta": 0,
+  "count_policy": "Two established people acquire contradictory gender pronouns in the final road branch. Luo’s repeated references count once; Ke Chun’s reference counts once. Two underlying identity contradictions affect two paragraphs and three pronoun sites. Supporting evidence, scene coverage, historical overlap checks and newly authored content are not additional repairs. This artifact does not establish or satisfy 1,000 verified plot-hole repairs.",
+  "review_scope": {
+    "fully_read_file": "data/books/book_xiv_harbor_27.json",
+    "fully_read_scenes": 64,
+    "ordinary_decisions": 1,
+    "complete_end_paths": 3,
+    "supporting_files": [
+      "data/books/book_xiv_harbor_25.json",
+      "data/books/book_xiv_harbor_26.json"
+    ],
+    "supporting_scope": "Selected whole-node identity evidence; no complete-close-reading claim is made for these two supporting files.",
+    "reviewed_topics": [
+      "Stable Luo/Fen father-daughter identity",
+      "Stable Ke Chun shears-owner identity",
+      "Three exclusive 64-copper pilot budgets",
+      "Closed appointment and emergency balances",
+      "Fourth-stage retention",
+      "Object custody and ordinary departure"
+    ],
+    "limitations": "The final-sequence close reading and selected corroborating nodes establish the two identified contradictions. Earlier campaign-wide audits loaded Harbor files without claiming every paragraph closely read. This review is not a campaign-wide certification or a count of all remaining defects.",
+    "mutations": "The author created only this unreferenced audit blob. Root applies the exact text corrections and integrates the audit; no branch, ref or source book was changed by the audit author."
+  },
+  "defects": [
+    {
+      "id": "HARBOR-LUO-IDENTITY-20261007",
+      "classification": "confirmed_character_identity_defect",
+      "character": "Luo, Fen’s father",
+      "finding": "The same father consistently identified as he/him/his changes to her in harbor_road_012 after a same-paragraph he, and to her again in harbor_road_017. No different Luo or transition is introduced; the light records arrangement, daughter and departure remain the same.",
+      "affected_nodes": [
+        "harbor_road_012",
+        "harbor_road_017"
+      ],
+      "corrected_pronoun_sites": 2,
+      "evidence": [
+        {
+          "path": "data/books/book_xiv_harbor_25.json",
+          "node_id": "harbor_p25_013",
+          "source_file_sha": "c05ac34a73db5fc88fd1073eb7c06ec176bc58db",
+          "node": {
+            "chapter": "book_xiv_harbor",
+            "speaker": "narrator",
+            "actor": "lin_yue",
+            "text": "Luo came to the shop at the agreed time with his private travel ticket safely kept at home. He would leave for the accepted light role after the harbor's final season checks, under ordinary route and care conditions. Fen planned to remain in their current room for the apprenticeship while its private lease and her own account supported it. They had agreed the kettle stayed with her. The father now wanted to give away his old stool rather than carry it inland. Fen asked whether he could stop distributing their furniture before she knew what she needed.",
+            "background": "city_registry_office",
+            "effect": "none",
+            "cultivation": {
+              "realm": "qi_gathering",
+              "stage": "4: Second pair"
+            },
+            "next": "harbor_p25_014"
+          },
+          "quote": "Luo came to the shop at the agreed time with his private travel ticket safely kept at home."
+        },
+        {
+          "path": "data/books/book_xiv_harbor_26.json",
+          "node_id": "harbor_p26_015",
+          "source_file_sha": "0e96d1d776e9699cd83b38452a1f05b54c10d85b",
+          "node": {
+            "chapter": "book_xiv_harbor",
+            "speaker": "narrator",
+            "actor": "lin_yue",
+            "text": "At tea, Fen asked whether her father would write that he was well even when he was not. Luo admitted he might be tempted and promised the contact they agreed would not depend on pretending every week good. He did not promise to disclose private thoughts. She wanted warning if injury or work changed the agreed plan, and he accepted that. Yue listened, then asked Fen about the apprenticeship skill. The girl described a column with excitement before remembering the cart. Both subjects belonged to her. Her father smiled as if the shift between them had become bearable to watch.",
+            "background": "harbor_quarantine_quay",
+            "effect": "none",
+            "cultivation": {
+              "realm": "qi_gathering",
+              "stage": "4: Second pair"
+            },
+            "next": "harbor_p26_016"
+          },
+          "quote": "At tea, Fen asked whether her father would write that he was well even when he was not. Luo admitted he might be tempted"
+        },
+        {
+          "path": "data/books/book_xiv_harbor_27.json",
+          "node_id": "harbor_registry_017",
+          "source_file_sha": "fc627e416290f921bdbe1b31a78eb89f3ede3d0e",
+          "node": {
+            "chapter": "book_xiv_harbor",
+            "speaker": "narrator",
+            "actor": "lin_yue",
+            "text": "At the departure stand, He Ming complained once more that road visits would have been her choice. Then she gave Yue the ordinary goodbye they both wanted. Deren admired the registry's practical route and still favored covers; Yan remained under the finding's actual roles. Fen stayed for her apprenticeship, Luo prepared his separate later cart, and Wu went back to her children and canteen. Nobody became a compulsory companion. Yue boarded with the habitual pack and her private fare, watching the harbor's named people grow small while its index keeper opened a desk that had work of its own.",
+            "background": "harbor_quarantine_quay",
+            "effect": "none",
+            "cultivation": {
+              "realm": "qi_gathering",
+              "stage": "4: Second pair"
+            },
+            "next": "harbor_end_registry"
+          },
+          "quote": "Luo prepared his separate later cart"
+        }
+      ]
+    },
+    {
+      "id": "HARBOR-KE-IDENTITY-20261007",
+      "classification": "confirmed_character_identity_defect",
+      "character": "Ke Chun, shears owner and paid packing worker",
+      "finding": "The same Ke Chun consistently identified as she/her and owning the shears changes to his when the final road branch describes checking her paid shift. The surrounding branch returns to her own shears; no other Ke or identity transition is introduced.",
+      "affected_nodes": [
+        "harbor_road_012"
+      ],
+      "corrected_pronoun_sites": 1,
+      "evidence": [
+        {
+          "path": "data/books/book_xiv_harbor_25.json",
+          "node_id": "harbor_p25_018",
+          "source_file_sha": "c05ac34a73db5fc88fd1073eb7c06ec176bc58db",
+          "node": {
+            "chapter": "book_xiv_harbor",
+            "speaker": "narrator",
+            "actor": "lin_yue",
+            "text": "Ke Chun met Tong at the ordinary tool seller after work. She wanted to price a future awl and decided not to buy it yet. The shears and needle she already owned did useful work, and her current employer supplied its task kit. The partial six-copper tool claim had not made every purchase urgent. Tong said he admired this sensible decision and she told him to stop sounding like a clerk. They bought private tea instead. Yue passed and joined by invitation, hearing a story about a buyer who had asked whether canvas could be made rainproof by confident stitching.",
+            "background": "tea_house_private_room",
+            "effect": "none",
+            "cultivation": {
+              "realm": "qi_gathering",
+              "stage": "4: Second pair"
+            },
+            "next": "harbor_p25_019"
+          },
+          "quote": "Ke Chun met Tong at the ordinary tool seller after work. She wanted to price a future awl"
+        },
+        {
+          "path": "data/books/book_xiv_harbor_25.json",
+          "node_id": "harbor_p25_042",
+          "source_file_sha": "c05ac34a73db5fc88fd1073eb7c06ec176bc58db",
+          "node": {
+            "chapter": "book_xiv_harbor",
+            "speaker": "narrator",
+            "actor": "lin_yue",
+            "text": "Ke went home with her own shears and personal sewing bag, leaving employer tools returned to their proper keeper. She wanted the venture to prosper because the work suited her, and she did not need to share every founder's dream in order to perform it well. Tong met her at the ordinary corner and asked about the supper. She told the bean game first. He accused her of concealing scandal and she said cups had supplied enough. They walked toward her room laughing about Bo's terrible guesses.",
+            "background": "tea_house_private_room",
+            "effect": "none",
+            "cultivation": {
+              "realm": "qi_gathering",
+              "stage": "4: Second pair"
+            },
+            "next": "harbor_p25_043"
+          },
+          "quote": "Ke went home with her own shears and personal sewing bag"
+        },
+        {
+          "path": "data/books/book_xiv_harbor_26.json",
+          "node_id": "harbor_p26_023",
+          "source_file_sha": "0e96d1d776e9699cd83b38452a1f05b54c10d85b",
+          "node": {
+            "chapter": "book_xiv_harbor",
+            "speaker": "narrator",
+            "actor": "lin_yue",
+            "text": "Ke's shears needed ordinary cleaning after the household patch. Tong offered to do it and was given the cloth only after asking how she wanted the blades handled. The tool remained hers. He had begun asking such small questions before acting, which Ke appreciated more than his earlier grand promises to help. Their skiff account and partial claim stayed where the competent process kept them. At the partnership's third batch, she performed the paid checking task under actual hours, with its future acceptance balance still due.",
+            "background": "tea_house_private_room",
+            "effect": "none",
+            "cultivation": {
+              "realm": "qi_gathering",
+              "stage": "4: Second pair"
+            },
+            "next": "harbor_p26_024"
+          },
+          "quote": "At the partnership's third batch, she performed the paid checking task"
+        },
+        {
+          "path": "data/books/book_xiv_harbor_27.json",
+          "node_id": "harbor_road_014",
+          "source_file_sha": "fc627e416290f921bdbe1b31a78eb89f3ede3d0e",
+          "node": {
+            "chapter": "book_xiv_harbor",
+            "speaker": "narrator",
+            "actor": "lin_yue",
+            "text": "Bao and Dai found Yue near the canteen door. Bao's eighteen-copper lost-earnings payment had come from the separate warehouse employer liability account; it did not make every future difficulty settled. She was interested in a manageable task when her recovery allowed it and said so without asking the traveler to promise one. Ke showed Dai the shears bought from her own money and described the cut she had learned to avoid. Wu called them away from the doorway because they were blocking the customers. The interruption pleased Bao, who said she wanted to be scolded for ordinary inconvenience again.",
+            "background": "harbor_quarantine_quay",
+            "effect": "none",
+            "cultivation": {
+              "realm": "qi_gathering",
+              "stage": "4: Second pair"
+            },
+            "next": "harbor_road_015"
+          },
+          "quote": "Ke showed Dai the shears bought from her own money"
+        }
+      ]
+    }
+  ],
+  "repairs": [
+    {
+      "node_id": "harbor_road_012",
+      "before_node": {
+        "chapter": "book_xiv_harbor",
+        "speaker": "narrator",
+        "actor": "lin_yue",
+        "text": "Fen and Luo brought their own supper contributions to the farewell table, leaving the household kettle at home. Fen's accepted paid apprenticeship had become a subject she could discuss without asking for permission in every sentence. Luo described the lighter records hours he had agreed, then admitted he still worried about tiring before the last task. The others let her say both things. Ke offered to carry a heavy bundle the following day only after checking his own paid shift. They went home arguing cheerfully about the best use of a free morning.",
+        "background": "harbor_packing_partnership_room",
+        "effect": "none",
+        "cultivation": {
+          "realm": "qi_gathering",
+          "stage": "4: Second pair"
+        },
+        "next": "harbor_road_013"
+      },
+      "after_node": {
+        "chapter": "book_xiv_harbor",
+        "speaker": "narrator",
+        "actor": "lin_yue",
+        "text": "Fen and Luo brought their own supper contributions to the farewell table, leaving the household kettle at home. Fen's accepted paid apprenticeship had become a subject she could discuss without asking for permission in every sentence. Luo described the lighter records hours he had agreed, then admitted he still worried about tiring before the last task. The others let him say both things. Ke offered to carry a heavy bundle the following day only after checking her own paid shift. They went home arguing cheerfully about the best use of a free morning.",
+        "background": "harbor_packing_partnership_room",
+        "effect": "none",
+        "cultivation": {
+          "realm": "qi_gathering",
+          "stage": "4: Second pair"
+        },
+        "next": "harbor_road_013"
+      },
+      "word_delta": 0,
+      "changes": [
+        {
+          "defect_id": "HARBOR-LUO-IDENTITY-20261007",
+          "old": "The others let her say both things.",
+          "new": "The others let him say both things."
+        },
+        {
+          "defect_id": "HARBOR-KE-IDENTITY-20261007",
+          "old": "only after checking his own paid shift.",
+          "new": "only after checking her own paid shift."
+        }
+      ]
+    },
+    {
+      "node_id": "harbor_road_017",
+      "before_node": {
+        "chapter": "book_xiv_harbor",
+        "speaker": "narrator",
+        "actor": "lin_yue",
+        "text": "He Ming reached the departure berth carrying only her own cup from the workroom. She thanked Yue for choosing the route and then admitted she would have argued at her farewell if she had chosen otherwise. Han said that was fortunate, because she still intended to argue. Deren waved from the safer bench beside Yan. Fen had an apprenticeship task, Luo her accepted hours, Wu her canteen work and the partners their unfinished third batch. None was assigned to follow. The boatman called the actual boarding order, and Yue stepped aboard with her pack rather than a harbor office.",
+        "background": "harbor_quarantine_quay",
+        "effect": "none",
+        "cultivation": {
+          "realm": "qi_gathering",
+          "stage": "4: Second pair"
+        },
+        "next": "harbor_end_road"
+      },
+      "after_node": {
+        "chapter": "book_xiv_harbor",
+        "speaker": "narrator",
+        "actor": "lin_yue",
+        "text": "He Ming reached the departure berth carrying only her own cup from the workroom. She thanked Yue for choosing the route and then admitted she would have argued at her farewell if she had chosen otherwise. Han said that was fortunate, because she still intended to argue. Deren waved from the safer bench beside Yan. Fen had an apprenticeship task, Luo his accepted hours, Wu her canteen work and the partners their unfinished third batch. None was assigned to follow. The boatman called the actual boarding order, and Yue stepped aboard with her pack rather than a harbor office.",
+        "background": "harbor_quarantine_quay",
+        "effect": "none",
+        "cultivation": {
+          "realm": "qi_gathering",
+          "stage": "4: Second pair"
+        },
+        "next": "harbor_end_road"
+      },
+      "word_delta": 0,
+      "changes": [
+        {
+          "defect_id": "HARBOR-LUO-IDENTITY-20261007",
+          "old": "Luo her accepted hours",
+          "new": "Luo his accepted hours"
+        }
+      ]
+    }
+  ],
+  "historic_audits": [
+    {
+      "path": "docs/ADDITIONAL_REPAIRS_20261005.json",
+      "source_file_sha": "d15a5e25c4198f67fb28a37b2e47b7bbd4acf51f",
+      "document_kind": "prior_audit",
+      "matching_targets": [],
+      "credited_overlap": false
+    },
+    {
+      "path": "docs/CHOICE_CONSEQUENCE_AUDIT_20261006.json",
+      "source_file_sha": "7d82fca79007d6d71217581a4b9832f275808e59",
+      "document_kind": "prior_audit",
+      "matching_targets": [],
+      "credited_overlap": false
+    },
+    {
+      "path": "docs/CONTINUATION_SECOND_SOURCE_INDEX_20261003.json",
+      "source_file_sha": "19e8e74ffef68d8c91852b450cf2abfd041e4eaf",
+      "document_kind": "source_index",
+      "matching_targets": [],
+      "credited_overlap": false
+    },
+    {
+      "path": "docs/CONTINUATION_SOURCE_INDEX_20261003.json",
+      "source_file_sha": "e17207d90bd960bcd123c64425794ca0a5ac4e9b",
+      "document_kind": "source_index",
+      "matching_targets": [],
+      "credited_overlap": false
+    },
+    {
+      "path": "docs/CONTINUITY_REPAIRS_20261003.json",
+      "source_file_sha": "99aa7338f50b9af6bac9ba3fbc9a2fb44670d21a",
+      "document_kind": "prior_audit",
+      "matching_targets": [],
+      "credited_overlap": false
+    },
+    {
+      "path": "docs/CONTINUITY_REPAIRS_20261003_COURT.json",
+      "source_file_sha": "b3e665f98b080a56b88976fc7ea706038a0e03c6",
+      "document_kind": "prior_audit",
+      "matching_targets": [],
+      "credited_overlap": false
+    },
+    {
+      "path": "docs/CONTINUITY_REPAIRS_20261003_CULTIVATION.json",
+      "source_file_sha": "193845d4275dcc8d573cbf54c975143158915b25",
+      "document_kind": "prior_audit",
+      "matching_targets": [],
+      "credited_overlap": false
+    },
+    {
+      "path": "docs/CONTINUITY_REPAIRS_20261003_OPENING.json",
+      "source_file_sha": "9939910038d427fe478c440bf5579de0758e64b8",
+      "document_kind": "prior_audit",
+      "matching_targets": [],
+      "credited_overlap": false
+    },
+    {
+      "path": "docs/CONTINUITY_REPAIRS_20261003_RING.json",
+      "source_file_sha": "2a695946a3ad3007d41b4bd37380fedcde4f2dea",
+      "document_kind": "prior_audit",
+      "matching_targets": [],
+      "credited_overlap": false
+    },
+    {
+      "path": "docs/CONTINUITY_REPAIRS_20261003_SECOND_CITY.json",
+      "source_file_sha": "a219f8429f6fd0c411ece78f73b41fa1d1e8aedc",
+      "document_kind": "prior_audit",
+      "matching_targets": [],
+      "credited_overlap": false
+    },
+    {
+      "path": "docs/CONTINUITY_REPAIRS_20261003_SECOND_CULTIVATION.json",
+      "source_file_sha": "87b33517b3bdbc17e597ab4fb77311212ba49598",
+      "document_kind": "prior_audit",
+      "matching_targets": [],
+      "credited_overlap": false
+    },
+    {
+      "path": "docs/CONTINUITY_REPAIRS_20261003_SECOND_FERRY.json",
+      "source_file_sha": "c86b040fc0a3287f0b9aa4040f2901963cd56855",
+      "document_kind": "prior_audit",
+      "matching_targets": [],
+      "credited_overlap": false
+    },
+    {
+      "path": "docs/CONTINUITY_REPAIRS_20261003_SECOND_ORCHARD.json",
+      "source_file_sha": "0cde3d4f73941fb6010d4f35d6691e576ab392e9",
+      "document_kind": "prior_audit",
+      "matching_targets": [],
+      "credited_overlap": false
+    },
+    {
+      "path": "docs/CONTINUITY_REPAIRS_20261003_SECOND_RING.json",
+      "source_file_sha": "9f0a067276e0de42620217a1ae849ddbdd17b849",
+      "document_kind": "prior_audit",
+      "matching_targets": [],
+      "credited_overlap": false
+    },
+    {
+      "path": "docs/CONTINUITY_REPAIRS_20261003_SECOND_RIVER.json",
+      "source_file_sha": "72756acf29beceff5b692df28fab157320a94410",
+      "document_kind": "prior_audit",
+      "matching_targets": [],
+      "credited_overlap": false
+    },
+    {
+      "path": "docs/CONTINUITY_REPAIRS_20261004.json",
+      "source_file_sha": "c4fb5d5d9d0024778d3cf6e234b727f87d1e4d57",
+      "document_kind": "prior_audit",
+      "matching_targets": [],
+      "credited_overlap": false
+    },
+    {
+      "path": "docs/LATE_CONTINUITY_AUDIT_20261006.json",
+      "source_file_sha": "2d927df69bb47be9257ca354095207428c733616",
+      "document_kind": "prior_audit",
+      "matching_targets": [],
+      "credited_overlap": false
+    },
+    {
+      "path": "docs/NARRATIVE_REPAIRS_20261005.json",
+      "source_file_sha": "f05a0a54719ae4eb0ef64b2e6dd44aa94bbd6f51",
+      "document_kind": "prior_audit",
+      "matching_targets": [],
+      "credited_overlap": false
+    },
+    {
+      "path": "docs/REED_CROSSING_REPAIRS_20261006.json",
+      "source_file_sha": "e81008b6557f5ff8e6257d6f304a4ef0015d3e8d",
+      "document_kind": "prior_audit",
+      "matching_targets": [],
+      "credited_overlap": false
+    },
+    {
+      "path": "docs/SEMANTIC_CONTINUITY_REVIEW_20261006.json",
+      "source_file_sha": "f87976fc2884c250d96800e9c2defdf8e42d3e26",
+      "document_kind": "prior_audit",
+      "matching_targets": [],
+      "credited_overlap": false
+    },
+    {
+      "path": "docs/STORM_SALT_REPAIRS_20261006.json",
+      "source_file_sha": "7566d8bf4c149c6991aec0088ad5994f1f277862",
+      "document_kind": "prior_audit",
+      "matching_targets": [],
+      "credited_overlap": false
+    },
+    {
+      "path": "docs/audits/vii_xii_causal_review_20261006.json",
+      "source_file_sha": "759149e39016de7cc9439d3f29233bfa3179ed2d",
+      "document_kind": "prior_audit",
+      "matching_targets": [],
+      "credited_overlap": false
+    },
+    {
+      "path": "docs/audits/vii_xii_salt_purchase_volume_20261006.json",
+      "source_file_sha": "9bb2d1988684b6cf04aea2019b71946bb5315ad2",
+      "document_kind": "prior_audit",
+      "matching_targets": [],
+      "credited_overlap": false
+    }
+  ],
+  "historical_overlap": {
+    "source_commit": "659f6c413867a3c7d5857e4b89c4f3aae1f39ae8",
+    "audits_checked": 23,
+    "method": "Fetch and parse every inventoried historical JSON document at source_commit, verify its immutable Git blob SHA, and check the complete raw JSON text for each affected node ID. Neither affected ID occurs anywhere, so no prior credited repair or collateral evidence mention overlaps. Source-index entries would be documentation of coverage rather than repair credits if present; none matches these targets.",
+    "affected_node_ids": [
+      "harbor_road_012",
+      "harbor_road_017"
+    ],
+    "matching_documents": [],
+    "prior_credited_overlap": false,
+    "related_prior_case": "LATE_CONTINUITY_AUDIT_20261006.json LATE-002 repairs two pronouns of the cold-injured boy in a different paragraph. Its established person and affected node differ from Luo and Ke Chun, so it does not credit these contradictions."
+  },
+  "unchanged_fields": [
+    "chapter",
+    "speaker",
+    "actor",
+    "background",
+    "effect",
+    "cultivation",
+    "next"
+  ],
+  "excluded_changes": [
+    "All choices and destinations",
+    "All completion rewards",
+    "Cultivation stage",
+    "Pilot and wage budgets",
+    "Chronology",
+    "All 88 newly authored survey scenes",
+    "The corrected unpublished survey datum calculation"
+  ]
+}

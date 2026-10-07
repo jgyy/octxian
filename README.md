@@ -12,7 +12,7 @@ The playable campaign contains **1,193,026 displayed prose words across 13,607 s
 
 Three paid career paths let Lin join **kiln inspection**, **archive condition recording** or **watershed survey recording** and develop through supervised work, a retained failure, recovery, independently witnessed qualification and a chosen specialty. Independent day work remains available. Saved enrollment and specialty choices shape later work, portfolios and renewal requests; Lin retains her earned fifth stage.
 
-This book adds **29,830 displayed prose words and 403 passages**, plus nine words from existing-source corrections. The campaign now contains **1,193,026 words**, with **806,974** remaining toward two million. The source audit verifies **two new underlying contradictions** and keeps one terminology clarification outside repair credit. The requested **1,000 verified plot-hole target remains unfinished**. [Career paths, budgets, diagrams and actual captures](docs/CAREERS_20261007.md) · [Exact source audit](docs/CAREER_CONTINUITY_REPAIRS_20261007.json).
+This book adds **29,830 displayed prose words and 403 passages**, plus nine words from existing-source corrections. The campaign now contains **1,193,026 words**, with **806,974** remaining toward two million. The two source audits verify **four new underlying contradictions** and keeps one terminology clarification outside repair credit. The requested **1,000 verified plot-hole target remains unfinished**. [Career paths, budgets, diagrams and actual captures](docs/CAREERS_20261007.md) · [Reed Crossing source audit](docs/CAREER_CONTINUITY_REPAIRS_20261007.json) · [Harbor identity source audit](docs/HARBOR_IDENTITY_REPAIRS_20261007.json).
 
 ![Career enrollment in the actual game](docs/screenshots/career_enrolment.jpg)
 
@@ -195,6 +195,7 @@ python tools/bootstrap_godot.py
 python -m unittest discover -s tests -p 'test_*.py'
 python -m tools.validate_million_continuation --verify-source
 python -m tools.validate_career_repairs --verify-source
+python -m tools.validate_harbor_identity_repairs --verify-source
 python tools/build_assets.py
 python tools/generate_voices.py
 python tools/validate_assets.py
