@@ -1044,6 +1044,81 @@ func _capture() -> void:
 		await get_tree().create_timer(0.4).timeout
 		await RenderingServer.frame_post_draw
 		get_viewport().get_texture().get_image().save_png("res://build/screenshots/reed_crossing_%s.png" % ["grain", "linen", "wages"][selection])
+	# Select, save and follow each authored career in the real game viewport.
+	var career_entries := ["career_kiln_entry", "career_archive_entry", "career_survey_entry", "career_independent_entry"]
+	var career_names := ["kiln", "archive", "survey", "independent"]
+	var career_save := "user://career_capture_checkpoint.json"
+	for selection in range(career_entries.size()):
+		state = StoryState.new(state.story)
+		state.current = "career_enrol_choice"
+		state.stats = {"qi": 10, "trust": 10, "insight": 10, "resolve": 10}
+		if selection == 0:
+			_scene()
+			dialogue.visible_characters = -1
+			await get_tree().create_timer(0.4).timeout
+			await RenderingServer.frame_post_draw
+			get_viewport().get_texture().get_image().save_png("res://build/screenshots/career_enrolment.png")
+		if not state.choose(selection) or state.current != career_entries[selection] or state.stats != {"qi": 10, "trust": 10, "insight": 10, "resolve": 10}:
+			push_error("Career enrollment must select the actual unpaid training route")
+			_quit_game(1)
+			return
+		if not state.save_game(career_save):
+			push_error("The selected career capture checkpoint must save")
+			_quit_game(1)
+			return
+		var restored = StoryState.new(state.story)
+		if not restored.load_game(career_save) or restored.decisions != state.decisions or restored.stats != state.stats:
+			push_error("The selected career capture checkpoint must retain its choice")
+			_quit_game(1)
+			return
+		state = restored
+		_scene()
+		dialogue.visible_characters = -1
+		await get_tree().create_timer(0.4).timeout
+		await RenderingServer.frame_post_draw
+		get_viewport().get_texture().get_image().save_png("res://build/screenshots/career_%s.png" % career_names[selection])
+		var portfolio := "career_portfolio_%s_01" % career_names[selection]
+		var career_steps := 0
+		var reunited := false
+		while state.current != portfolio and career_steps < 1000:
+			if state.current == "career_reunion_01":
+				reunited = true
+				if not state.save_game(career_save):
+					push_error("Completed career work must save before portfolio review")
+					_quit_game(1)
+					return
+				var review = StoryState.new(state.story)
+				if not review.load_game(career_save) or review.decisions != state.decisions or review.completed_practice != state.completed_practice or review.stats != state.stats:
+					push_error("Portfolio routing must retain saved work and enrollment")
+					_quit_game(1)
+					return
+				state = review
+			var moved := false
+			if state.node().has("choices") and not state.node().get("random_event", false):
+				for index in range(state.node().choices.size()):
+					if state.can_choose(state.node().choices[index]):
+						moved = state.choose(index)
+						break
+			else:
+				moved = state.advance()
+			if not moved:
+				push_error("The actual career capture route must remain playable")
+				_quit_game(1)
+				return
+			career_steps += 1
+		if state.current != portfolio or not reunited or state.decisions.get("career_enrol_choice", "") != career_entries[selection]:
+			push_error("Career portfolio must describe the saved selected profession")
+			_quit_game(1)
+			return
+		_scene()
+		dialogue.visible_characters = -1
+		await get_tree().create_timer(0.4).timeout
+		await RenderingServer.frame_post_draw
+		var portfolio_file: String = "career_portfolio" if selection == 0 else "career_portfolio_%s" % career_names[selection]
+		get_viewport().get_texture().get_image().save_png("res://build/screenshots/%s.png" % portfolio_file)
+	for suffix in ["", ".bak", ".tmp"]:
+		if FileAccess.file_exists(career_save + suffix):
+			DirAccess.remove_absolute(career_save + suffix)
 	print("JADE_VOW_CAPTURE_OK")
 	_quit_game()
 
@@ -1267,6 +1342,20 @@ func _smoke_build() -> void:
 	valid = state.node().get("ending", "") == "The Covers and the Receiving Date" and valid
 	valid = audio.voice.stream is AudioStreamOggVorbis and valid
 	valid = actor.sprite.texture != null and background.texture != null and valid
+	# The new career chapter, enrollment and every entry must survive standalone export.
+	state = StoryState.new(state.story)
+	state.current = "career_entry"
+	_scene()
+	valid = state.story.chapters.has("book_xx_careers") and valid
+	valid = actor.sprite.texture != null and background.texture != null and audio.voice.stream is AudioStreamOggVorbis and valid
+	state.current = "career_enrol_choice"
+	_scene()
+	valid = choice_box.get_child_count() == 4 and valid
+	valid = audio.voice.stream is AudioStreamOggVorbis and valid
+	for career in ["career_kiln_entry", "career_archive_entry", "career_survey_entry", "career_independent_entry"]:
+		state.current = career
+		_scene()
+		valid = actor.sprite.texture != null and background.texture != null and audio.voice.stream is AudioStreamOggVorbis and valid
 	if valid:
 		print("JADE_VOW_PACKAGE_OK: standalone story, world art, object inspection and narration")
 	else:

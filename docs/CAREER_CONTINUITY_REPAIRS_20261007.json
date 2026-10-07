@@ -1,0 +1,593 @@
+{
+  "version": 1,
+  "title": "Source-backed career-continuation continuity review",
+  "source_commit": "659f6c413867a3c7d5857e4b89c4f3aae1f39ae8",
+  "source_book_path": "data/books/book_xix_reed_crossing.json",
+  "source_book_blob_sha": "f496bd6dd7371bdaf89f0991a9cad1a727335d83",
+  "requested_plot_holes": 1000,
+  "confirmed_underlying_defects": 2,
+  "affected_source_passages": 2,
+  "clarification_cases": 1,
+  "clarified_source_passages": 2,
+  "total_changed_source_passages": 4,
+  "target_met": false,
+  "count_policy": "Count the two independently evidenced source contradictions once each. The external-circuit wording is one clarification across two passages and supplies no plot-hole credit. New careers, new prose, continuation wiring, validation and documentation supply no repair credit. This batch does not verify the requested 1,000 repairs.",
+  "review_scope": {
+    "close_reading": "All 125 Book XIX scene texts and their immediate graph/choice context at the pinned source commit.",
+    "previous_audit_overlap": "The 23 listed historical source audits contain none of the four changed node IDs. They supply no new defect count.",
+    "limits": "A focused continuity review supports only these findings; it does not establish that all manuscript plot holes have been found."
+  },
+  "repairs": [
+    {
+      "id": "career-review-001",
+      "classification": "confirmed_continuity_defect",
+      "root_cause": "An evacuated low freight store is used as a claimant's occupied speaking location after the common path establishes that only goods remain there.",
+      "source_path": "data/books/book_xix_reed_crossing.json",
+      "node_id": "crossing_linen_04",
+      "before": {
+        "chapter": "book_xix_reed_crossing",
+        "speaker": "narrator",
+        "actor": "lin_yue",
+        "background": "reed_crossing_flood_terrace",
+        "cast": [
+          "lin_yue",
+          "yuan_lian",
+          "chen_rui"
+        ],
+        "cultivation": {
+          "realm": "qi_gathering",
+          "stage": "5: Four pairs"
+        },
+        "text": "From the low freight store, a wage claimant asked Chen whether the preserved linen meant the town would pay his old wages sooner. Chen said no. He would need the offered papers or a later comparison with employer duplicates. The claimant had bought soap on credit expecting the payment this week. He wanted the clinic to have linen and wanted his own money. Yue could hear both desires without pretending she had carried a crate that held their answer.",
+        "next": "crossing_linen_05"
+      },
+      "after": {
+        "chapter": "book_xix_reed_crossing",
+        "speaker": "narrator",
+        "actor": "lin_yue",
+        "background": "reed_crossing_flood_terrace",
+        "cast": [
+          "lin_yue",
+          "yuan_lian",
+          "chen_rui"
+        ],
+        "cultivation": {
+          "realm": "qi_gathering",
+          "stage": "5: Four pairs"
+        },
+        "text": "From the upper-path waiting room, a wage claimant asked Chen whether the preserved linen meant the town would pay his old wages sooner. Chen said no. He would need the offered papers or a later comparison with employer duplicates. The claimant had bought soap on credit expecting the payment this week. He wanted the clinic to have linen and wanted his own money. Yue could hear both desires without pretending she had carried a crate that held their answer.",
+        "next": "crossing_linen_05"
+      },
+      "displayed_word_delta": 0,
+      "evidence": [
+        {
+          "source_path": "data/books/book_xix_reed_crossing.json",
+          "node_id": "crossing_arrival_01",
+          "node": {
+            "chapter": "book_xix_reed_crossing",
+            "speaker": "narrator",
+            "actor": "lin_yue",
+            "background": "reed_crossing_flood_terrace",
+            "cast": [
+              "lin_yue",
+              "jiang_tao",
+              "yuan_lian"
+            ],
+            "cultivation": {
+              "realm": "qi_gathering",
+              "stage": "5: Four pairs"
+            },
+            "text": "Yuan Lian stood at the terrace rail with her sleeves tied back. The mill had released her for a paid cargo-receiving shift; its relief forewoman held the mill keys. Her knowledge of gates made her useful beside the ferry master. It did not make her the bridge's structural examiner. She pointed out the high terrace where people could wait and the lower freight store already emptied of its workers. Only goods remained below the marked withdrawal line.",
+            "next": "crossing_arrival_02"
+          }
+        },
+        {
+          "source_path": "data/books/book_xix_reed_crossing.json",
+          "node_id": "crossing_load_choice",
+          "node": {
+            "chapter": "book_xix_reed_crossing",
+            "speaker": "narrator",
+            "actor": "lin_yue",
+            "background": "reed_crossing_flood_terrace",
+            "cast": [
+              "lin_yue",
+              "yuan_lian",
+              "chen_rui"
+            ],
+            "cultivation": {
+              "realm": "qi_gathering",
+              "stage": "5: Four pairs"
+            },
+            "text": "The ferry cradle had twelve confirmed load places. All people were already above the withdrawal line. Each offered allocation filled the same rated capacity and left twenty units behind. The second trip remained conditional. Yue would propose one allocation for the owners and master to receive; she could not bind them to an overloaded boat. Chen put his crossed-out second ferry drawing face down. The three remaining offers made different kinds of shortage likely.",
+            "choices": [
+              {
+                "text": "Carry twelve grain loads; leave six grain, eight linen and six wage bundles.",
+                "next": "crossing_grain_01"
+              },
+              {
+                "text": "Carry eight linen loads and four grain; leave fourteen grain and six wage bundles.",
+                "next": "crossing_linen_01"
+              },
+              {
+                "text": "Carry six wage bundles and six grain; leave twelve grain and eight linen loads.",
+                "next": "crossing_wages_01"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "career-review-002",
+      "classification": "confirmed_continuity_defect",
+      "root_cause": "The later report implies that a change of arms breaks the two recorded observations, although the performed-work passage places Yuan's relief after both observations are completed.",
+      "source_path": "data/books/book_xix_reed_crossing.json",
+      "node_id": "crossing_evidence_rod_01",
+      "before": {
+        "chapter": "book_xix_reed_crossing",
+        "speaker": "narrator",
+        "actor": "lin_yue",
+        "background": "reed_crossing_flood_terrace",
+        "cast": [
+          "lin_yue",
+          "yuan_lian"
+        ],
+        "cultivation": {
+          "realm": "qi_gathering",
+          "stage": "5: Four pairs"
+        },
+        "text": "The two timed rod observations supported the measured rise at their actual sight line. The engineer's landing movement marks supplied the separate cargo stop. The bronze gauge had not been diagnosed by that physical work, and its old log still had missing conditions. Yuan signed her actual relief time. Yue kept the change of observer visible beside the second range so a later reader would not invent one uninterrupted pair of arms.",
+        "next": "crossing_evidence_rod_02"
+      },
+      "after": {
+        "chapter": "book_xix_reed_crossing",
+        "speaker": "narrator",
+        "actor": "lin_yue",
+        "background": "reed_crossing_flood_terrace",
+        "cast": [
+          "lin_yue",
+          "yuan_lian"
+        ],
+        "cultivation": {
+          "realm": "qi_gathering",
+          "stage": "5: Four pairs"
+        },
+        "text": "The two timed rod observations supported the measured rise at their actual sight line. The engineer's landing movement marks supplied the separate cargo stop. The bronze gauge had not been diagnosed by that physical work, and its old log still had missing conditions. Yuan signed her relief time after the second observation. Yue kept that handover separate from the two ranges she had helped measure, so a later reader would not move the change of grip into either reading.",
+        "next": "crossing_evidence_rod_02"
+      },
+      "displayed_word_delta": 7,
+      "evidence": [
+        {
+          "source_path": "data/books/book_xix_reed_crossing.json",
+          "node_id": "crossing_rod_01",
+          "node": {
+            "chapter": "book_xix_reed_crossing",
+            "speaker": "narrator",
+            "actor": "lin_yue",
+            "background": "reed_crossing_flood_terrace",
+            "cast": [
+              "lin_yue",
+              "yuan_lian",
+              "jiang_tao"
+            ],
+            "cultivation": {
+              "realm": "qi_gathering",
+              "stage": "5: Four pairs"
+            },
+            "text": "The ordinary observer gave Yue the depth rod and showed her the dry marked standing place. Nobody descended to the moving landing. A second worker read the rod's reflection through the sight slot while Yue held its upper grip. The water passed the first mark in irregular brown bursts. They recorded a range, not a reassuring average. Jiang timed the observation from his own watch and wrote the watch's offset beside the river readings.",
+            "next": "crossing_rod_02"
+          }
+        },
+        {
+          "source_path": "data/books/book_xix_reed_crossing.json",
+          "node_id": "crossing_rod_02",
+          "node": {
+            "chapter": "book_xix_reed_crossing",
+            "speaker": "narrator",
+            "actor": "lin_yue",
+            "background": "reed_crossing_flood_terrace",
+            "cast": [
+              "lin_yue",
+              "yuan_lian",
+              "jiang_tao"
+            ],
+            "cultivation": {
+              "realm": "qi_gathering",
+              "stage": "5: Four pairs"
+            },
+            "text": "At the second interval, a branch struck the lower landing and spun away. The observers waited for the resulting surge to pass before recording another range. The ordinary engineer accepted the increase as current water evidence and compared it with her earlier movement marks. The rod could say what had changed at this sight line. It could not diagnose the bronze gauge, reconstruct a missing log page or tell the master what the next hour would contain.",
+            "next": "crossing_rod_03"
+          }
+        },
+        {
+          "source_path": "data/books/book_xix_reed_crossing.json",
+          "node_id": "crossing_rod_03",
+          "node": {
+            "chapter": "book_xix_reed_crossing",
+            "speaker": "narrator",
+            "actor": "lin_yue",
+            "background": "reed_crossing_flood_terrace",
+            "cast": [
+              "lin_yue",
+              "yuan_lian",
+              "jiang_tao"
+            ],
+            "cultivation": {
+              "realm": "qi_gathering",
+              "stage": "5: Four pairs"
+            },
+            "text": "Yuan relieved Yue at the rod after the timed interval. Yue's shoulder shook when she let go, and she was glad the engineer had placed the work on a terrace with room to sit. She recorded the grip change and the completed two observations before drinking. The accepted physical work strengthened her trained capacity by practice. It created neither structural authority nor a sixth-stage circuit. The master received the measured rise and retained his own departure limits.",
+            "next": "crossing_findings_01",
+            "earned": {
+              "resolve": 1
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "clarifications": [
+    {
+      "id": "career-clarification-001",
+      "classification": "terminology_clarification",
+      "reason": "The fifth-stage scenes call an isolated apparatus or bounded task a small circuit, wording that can be mistaken for the distinct stage-7 internal Small circuit. The source does not unambiguously grant that internal stage; name the external reference frame and bounded trace without counting a new defect.",
+      "confirmed_defect_credit": 0,
+      "repairs": [
+        {
+          "source_path": "data/books/book_xix_reed_crossing.json",
+          "node_id": "crossing_qi_03",
+          "before": {
+            "chapter": "book_xix_reed_crossing",
+            "speaker": "narrator",
+            "actor": "lin_yue",
+            "background": "reed_crossing_flood_terrace",
+            "cast": [
+              "lin_yue",
+              "jiang_tao"
+            ],
+            "cultivation": {
+              "realm": "qi_gathering",
+              "stage": "5: Four pairs"
+            },
+            "text": "She closed the small circuit and waited through the recovered ordinary breath before opening it again. Jiang watched her hands rather than the river. The third comparison matched the second within the allowed range. They had evidence that the detached gauge's reference contact needed recalibration. They had no evidence that its keeper had intended a false reading. Yue wrote the uncomfortable difference while Chen watched the time allotted to the ferry become smaller.",
+            "next": "crossing_qi_04"
+          },
+          "after": {
+            "chapter": "book_xix_reed_crossing",
+            "speaker": "narrator",
+            "actor": "lin_yue",
+            "background": "reed_crossing_flood_terrace",
+            "cast": [
+              "lin_yue",
+              "jiang_tao"
+            ],
+            "cultivation": {
+              "realm": "qi_gathering",
+              "stage": "5: Four pairs"
+            },
+            "text": "She closed the external reference-frame circuit and waited through the recovered ordinary breath before opening it again. Jiang watched her hands rather than the river. The third comparison matched the second within the allowed range. They had evidence that the detached gauge's reference contact needed recalibration. They had no evidence that its keeper had intended a false reading. Yue wrote the uncomfortable difference while Chen watched the time allotted to the ferry become smaller.",
+            "next": "crossing_qi_04"
+          },
+          "displayed_word_delta": 1,
+          "evidence": [
+            {
+              "source_path": "data/books/book_xix_reed_crossing.json",
+              "node_id": "crossing_qi_01",
+              "node": {
+                "chapter": "book_xix_reed_crossing",
+                "speaker": "narrator",
+                "actor": "lin_yue",
+                "background": "reed_crossing_flood_terrace",
+                "cast": [
+                  "lin_yue",
+                  "jiang_tao"
+                ],
+                "cultivation": {
+                  "realm": "qi_gathering",
+                  "stage": "5: Four pairs"
+                },
+                "text": "Jiang set a reference tile on the dry bench and showed Yue the open disconnection between it and the bridge gauge. The tile's tiny pulse used two inventoried external fuel portions under his method. Her fifth-stage four pairs could guide the comparison within the frame. They could not hold a bridge or cancel the river's force. She recorded the external fuel before closing her admission, then practiced the withdrawal on an unpowered frame.",
+                "next": "crossing_qi_02"
+              }
+            },
+            {
+              "source_path": "data/books/book_xix_reed_crossing.json",
+              "node_id": "crossing_qi_04",
+              "node": {
+                "chapter": "book_xix_reed_crossing",
+                "speaker": "narrator",
+                "actor": "lin_yue",
+                "background": "reed_crossing_flood_terrace",
+                "cast": [
+                  "lin_yue",
+                  "jiang_tao"
+                ],
+                "cultivation": {
+                  "realm": "qi_gathering",
+                  "stage": "5: Four pairs"
+                },
+                "text": "At the receiving, Jiang accepted Yue's completed bounded comparison and her clean withdrawal. The two fuel portions were exhausted and entered as external expenditure. The detached contact failed its reference check, so the gauge remained out of service. The engineer would still use direct measurements for the landing. Yue's control had improved through performed practice, with no new internal pair or realm awarded. Chen could ask about custody later; the instrument result could not answer him.",
+                "next": "crossing_findings_01",
+                "earned": {
+                  "qi": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "source_path": "data/books/book_xix_reed_crossing.json",
+          "node_id": "crossing_rise_03",
+          "before": {
+            "chapter": "book_xix_reed_crossing",
+            "speaker": "narrator",
+            "actor": "lin_yue",
+            "background": "reed_crossing_flood_terrace",
+            "cast": [
+              "lin_yue",
+              "yuan_lian",
+              "chen_rui"
+            ],
+            "cultivation": {
+              "realm": "qi_gathering",
+              "stage": "5: Four pairs"
+            },
+            "text": "Jiang shut his separate external supply case and checked the disconnected measuring contacts. The river gave no small circuit a useful place to work. Yue felt the old impulse to open her admission simply because doing so would look like action. She kept her recovered hands on the dry rail. Jiang did not congratulate the refusal. He was listening for the withdrawal bell that ordinary workers would need to hear above the water.",
+            "next": "crossing_rise_04"
+          },
+          "after": {
+            "chapter": "book_xix_reed_crossing",
+            "speaker": "narrator",
+            "actor": "lin_yue",
+            "background": "reed_crossing_flood_terrace",
+            "cast": [
+              "lin_yue",
+              "yuan_lian",
+              "chen_rui"
+            ],
+            "cultivation": {
+              "realm": "qi_gathering",
+              "stage": "5: Four pairs"
+            },
+            "text": "Jiang shut his separate external supply case and checked the disconnected measuring contacts. The river gave no bounded reference trace a useful place to work. Yue felt the old impulse to open her admission simply because doing so would look like action. She kept her recovered hands on the dry rail. Jiang did not congratulate the refusal. He was listening for the withdrawal bell that ordinary workers would need to hear above the water.",
+            "next": "crossing_rise_04"
+          },
+          "displayed_word_delta": 1,
+          "evidence": [
+            {
+              "source_path": "data/books/book_xix_reed_crossing.json",
+              "node_id": "crossing_qi_01",
+              "node": {
+                "chapter": "book_xix_reed_crossing",
+                "speaker": "narrator",
+                "actor": "lin_yue",
+                "background": "reed_crossing_flood_terrace",
+                "cast": [
+                  "lin_yue",
+                  "jiang_tao"
+                ],
+                "cultivation": {
+                  "realm": "qi_gathering",
+                  "stage": "5: Four pairs"
+                },
+                "text": "Jiang set a reference tile on the dry bench and showed Yue the open disconnection between it and the bridge gauge. The tile's tiny pulse used two inventoried external fuel portions under his method. Her fifth-stage four pairs could guide the comparison within the frame. They could not hold a bridge or cancel the river's force. She recorded the external fuel before closing her admission, then practiced the withdrawal on an unpowered frame.",
+                "next": "crossing_qi_02"
+              }
+            },
+            {
+              "source_path": "data/books/book_xix_reed_crossing.json",
+              "node_id": "crossing_policy_result_gate",
+              "node": {
+                "chapter": "book_xix_reed_crossing",
+                "speaker": "narrator",
+                "actor": "lin_yue",
+                "background": "reed_crossing_flood_terrace",
+                "cast": [
+                  "lin_yue"
+                ],
+                "cultivation": {
+                  "realm": "qi_gathering",
+                  "stage": "5: Four pairs"
+                },
+                "text": "The later grant's final line named the one accepted recovery service, its actual receiving and its returned reserve where applicable. Yue read that line after the cargo outcome. Her fifth stage still had four earned pairs. Accurate accounts had neither opened a sixth pair nor rebuilt a bridge. They let her recognize a completed piece of work without erasing the alternatives she had left to ordinary later decisions.",
+                "next": "crossing_final_common",
+                "routes": [
+                  {
+                    "decision": "crossing_fund_choice",
+                    "selected": "crossing_fund_grain_01",
+                    "next": "crossing_end_grain"
+                  },
+                  {
+                    "decision": "crossing_fund_choice",
+                    "selected": "crossing_fund_linen_01",
+                    "next": "crossing_end_linen"
+                  },
+                  {
+                    "decision": "crossing_fund_choice",
+                    "selected": "crossing_fund_wages_01",
+                    "next": "crossing_end_wages"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "canon_evidence": {
+        "source_path": "data/cultivation.json",
+        "realm_id": "qi_gathering",
+        "realm": {
+          "id": "qi_gathering",
+          "name": "Qi Gathering",
+          "stages": [
+            "1: Trace",
+            "2: Retention",
+            "3: First pair",
+            "4: Second pair",
+            "5: Four pairs",
+            "6: Six pairs",
+            "7: Small circuit",
+            "8: Balanced reservoir",
+            "9: Great circuit"
+          ],
+          "mechanism": "Admit, refine and retain ambient qi in the lower dantian.",
+          "admission": "Three breath-units retained overnight on three tests, clean release and no next-day tremor.",
+          "practice": "Early stages stabilize a trace; middle stages balance six paired channels; late stages bridge governing and conception vessels before the great circuit. Record usable reserve separately from purity. Stage 2 requires six usable breath-units after an ordinary day and sleep, at least 80% compatible charge, clean discharge, and three recovered calibrated trials. Stage 3 requires twelve usable units, at least 85% compatibility, a first paired inward/outward route carrying a quarter-unit pulse with controlled interruption, three recovered trials and normal next-day sensation. These are Azure Cloud method thresholds, not a universal currency conversion. First-pair pulse delivery may spend a half-unit to do a quarter-unit of useful work. Stage 4 requires eighteen usable units after ordinary activity and sleep, at least 87% compatible charge, two distinct paired routes carrying their permitted quarter-unit tasks successively with full discharge, independent interruption control, three recovered calibrated trials and normal next-day sensation. The second pair follows complementary outer-forearm and upper-arm paths to the shoulder junction; it does not open a leg route, middle dantian or extraordinary vessel. Stage 5 under the same Azure Cloud local method requires at least thirty-six actual usable breath-units after ordinary activity and sleep, measured after sampling discharge, and at least 90% compatible charge. Four distinct inward/outward primary pairs each carry their own quarter-unit useful task with independent interruption, complete grounded discharge and rest between tasks. The two established arm pairs are joined by supervised anterior and posterior lower-limb pairs; these do not open extraordinary vessels or another dantian. Each new pair admits at most a half-unit over four ordinary breaths to deliver a quarter-unit of useful work, with recovered input no greater than one-eighth unit per breath and lower limits after strain. Three independently calibrated qualifying trials occur on separate recovered days with changed permitted task order, followed by normal next-day touch, grip and leg-movement checks. These are local examination thresholds, not a universal energy or money conversion.",
+          "breakthrough": "Ninth stage, at least 90% compatible purity, a great circuit that survives interrupted breath, and three separate stable compression trials under supervision.",
+          "capabilities": "Stage 1 lights a wick briefly; stage 3 reinforces one prepared movement; stage 6 maintains a small talisman; stage 9 sustains a local ward relay.",
+          "limits": "Early stages cannot fly, shatter a mountain or cure an injury. Qi reserve must be replenished. Wards amplify a permitted input but cannot remove their fuel budget.",
+          "failure": "Leakage, phase grit, reflux at a bridge and overconfidence after the first successful trace.",
+          "recovery": "Safe discharge, channel rest, compatible food and low-load recirculation. A damaged route can make a former stage temporarily unusable.",
+          "span": "Healthy practice may reach roughly 120 years; injury and ordinary disease still matter."
+        }
+      }
+    }
+  ],
+  "historical_assertion_check": [
+    {
+      "path": "docs/ADDITIONAL_REPAIRS_20261005.json",
+      "sha": "d15a5e25c4198f67fb28a37b2e47b7bbd4acf51f",
+      "matching_targets": [],
+      "mentions_book_xix": false
+    },
+    {
+      "path": "docs/CHOICE_CONSEQUENCE_AUDIT_20261006.json",
+      "sha": "7d82fca79007d6d71217581a4b9832f275808e59",
+      "matching_targets": [],
+      "mentions_book_xix": false
+    },
+    {
+      "path": "docs/CONTINUATION_SECOND_SOURCE_INDEX_20261003.json",
+      "sha": "19e8e74ffef68d8c91852b450cf2abfd041e4eaf",
+      "matching_targets": [],
+      "mentions_book_xix": false
+    },
+    {
+      "path": "docs/CONTINUATION_SOURCE_INDEX_20261003.json",
+      "sha": "e17207d90bd960bcd123c64425794ca0a5ac4e9b",
+      "matching_targets": [],
+      "mentions_book_xix": false
+    },
+    {
+      "path": "docs/CONTINUITY_REPAIRS_20261003.json",
+      "sha": "99aa7338f50b9af6bac9ba3fbc9a2fb44670d21a",
+      "matching_targets": [],
+      "mentions_book_xix": false
+    },
+    {
+      "path": "docs/CONTINUITY_REPAIRS_20261003_COURT.json",
+      "sha": "b3e665f98b080a56b88976fc7ea706038a0e03c6",
+      "matching_targets": [],
+      "mentions_book_xix": false
+    },
+    {
+      "path": "docs/CONTINUITY_REPAIRS_20261003_CULTIVATION.json",
+      "sha": "193845d4275dcc8d573cbf54c975143158915b25",
+      "matching_targets": [],
+      "mentions_book_xix": false
+    },
+    {
+      "path": "docs/CONTINUITY_REPAIRS_20261003_OPENING.json",
+      "sha": "9939910038d427fe478c440bf5579de0758e64b8",
+      "matching_targets": [],
+      "mentions_book_xix": false
+    },
+    {
+      "path": "docs/CONTINUITY_REPAIRS_20261003_RING.json",
+      "sha": "2a695946a3ad3007d41b4bd37380fedcde4f2dea",
+      "matching_targets": [],
+      "mentions_book_xix": false
+    },
+    {
+      "path": "docs/CONTINUITY_REPAIRS_20261003_SECOND_CITY.json",
+      "sha": "a219f8429f6fd0c411ece78f73b41fa1d1e8aedc",
+      "matching_targets": [],
+      "mentions_book_xix": false
+    },
+    {
+      "path": "docs/CONTINUITY_REPAIRS_20261003_SECOND_CULTIVATION.json",
+      "sha": "87b33517b3bdbc17e597ab4fb77311212ba49598",
+      "matching_targets": [],
+      "mentions_book_xix": false
+    },
+    {
+      "path": "docs/CONTINUITY_REPAIRS_20261003_SECOND_FERRY.json",
+      "sha": "c86b040fc0a3287f0b9aa4040f2901963cd56855",
+      "matching_targets": [],
+      "mentions_book_xix": false
+    },
+    {
+      "path": "docs/CONTINUITY_REPAIRS_20261003_SECOND_ORCHARD.json",
+      "sha": "0cde3d4f73941fb6010d4f35d6691e576ab392e9",
+      "matching_targets": [],
+      "mentions_book_xix": false
+    },
+    {
+      "path": "docs/CONTINUITY_REPAIRS_20261003_SECOND_RING.json",
+      "sha": "9f0a067276e0de42620217a1ae849ddbdd17b849",
+      "matching_targets": [],
+      "mentions_book_xix": false
+    },
+    {
+      "path": "docs/CONTINUITY_REPAIRS_20261003_SECOND_RIVER.json",
+      "sha": "72756acf29beceff5b692df28fab157320a94410",
+      "matching_targets": [],
+      "mentions_book_xix": false
+    },
+    {
+      "path": "docs/CONTINUITY_REPAIRS_20261004.json",
+      "sha": "c4fb5d5d9d0024778d3cf6e234b727f87d1e4d57",
+      "matching_targets": [],
+      "mentions_book_xix": false
+    },
+    {
+      "path": "docs/LATE_CONTINUITY_AUDIT_20261006.json",
+      "sha": "2d927df69bb47be9257ca354095207428c733616",
+      "matching_targets": [],
+      "mentions_book_xix": false
+    },
+    {
+      "path": "docs/NARRATIVE_REPAIRS_20261005.json",
+      "sha": "f05a0a54719ae4eb0ef64b2e6dd44aa94bbd6f51",
+      "matching_targets": [],
+      "mentions_book_xix": false
+    },
+    {
+      "path": "docs/REED_CROSSING_REPAIRS_20261006.json",
+      "sha": "e81008b6557f5ff8e6257d6f304a4ef0015d3e8d",
+      "matching_targets": [],
+      "mentions_book_xix": true
+    },
+    {
+      "path": "docs/SEMANTIC_CONTINUITY_REVIEW_20261006.json",
+      "sha": "f87976fc2884c250d96800e9c2defdf8e42d3e26",
+      "matching_targets": [],
+      "mentions_book_xix": false
+    },
+    {
+      "path": "docs/STORM_SALT_REPAIRS_20261006.json",
+      "sha": "7566d8bf4c149c6991aec0088ad5994f1f277862",
+      "matching_targets": [],
+      "mentions_book_xix": false
+    },
+    {
+      "path": "docs/audits/vii_xii_causal_review_20261006.json",
+      "sha": "759149e39016de7cc9439d3f29233bfa3179ed2d",
+      "matching_targets": [],
+      "mentions_book_xix": false
+    },
+    {
+      "path": "docs/audits/vii_xii_salt_purchase_volume_20261006.json",
+      "sha": "9bb2d1988684b6cf04aea2019b71946bb5315ad2",
+      "matching_targets": [],
+      "mentions_book_xix": false
+    }
+  ],
+  "displayed_word_delta": 9,
+  "book_words_before": 9109,
+  "book_words_after": 9118,
+  "excluded_changes": {
+    "continuation": "Any link added to crossing_final_common is a continuation connection, not a plot repair. It is intentionally absent from this audit.",
+    "careers": "New career enrollment and development scenes are manuscript expansion, not corrections of pre-existing source defects."
+  }
+}

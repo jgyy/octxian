@@ -52,9 +52,16 @@ def validate(root=ROOT, verify_source=False):
                for node in book["nodes"].values())
     assert all(len(node["text"].split()) <= 100 for node in book["nodes"].values())
     words = sum(len(node["text"].split()) for node in book["nodes"].values())
-    assert words == 9109
+    original_words = words
+    career_audit = root / "docs/CAREER_CONTINUITY_REPAIRS_20261007.json"
+    if career_audit.exists():
+        from tools.validate_career_repairs import validate as validate_career_repairs
+        review = validate_career_repairs(root, verify_source=verify_source)
+        original_words -= review["displayed_word_delta"]
+    assert original_words == 9109, "The original Book XIX delivery must retain its authenticated count"
     total = authored_word_count(story)
-    return {"new_scenes": len(book["nodes"]), "new_displayed_words": words,
+    return {"new_scenes": len(book["nodes"]), "new_displayed_words": original_words,
+            "current_book_words": words,
             "confirmed_plot_holes": 2, "requested_plot_holes": 1000,
             "plot_hole_target_met": False, "displayed_words": total,
             "remaining_words": max(0, 2000000 - total), "source_verified": verify_source}

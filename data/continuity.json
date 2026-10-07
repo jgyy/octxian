@@ -19,7 +19,8 @@
     "book_xvi_desert",
     "book_xvii_archive",
     "book_xviii_letters",
-    "book_xix_reed_crossing"
+    "book_xix_reed_crossing",
+    "book_xx_careers"
   ],
   "facts": [
     {
@@ -2358,6 +2359,84 @@
         "crossing_cargo_result_gate",
         "crossing_policy_result_gate"
       ]
+    },
+    {
+      "id": "career_exclusive_enrolment_and_prior_accounts",
+      "statement": "Book XX follows the retained Reed Crossing final account. Lin accepts one ungated paid training appointment or independent day work. Employment budgets remain separate from the settled flood service; prior cargo, losses, annotations and bridge clearance do not change. Missing legacy decisions cannot invent a specialist qualification.",
+      "anchors": [
+        "career_entry",
+        "career_arrival_02",
+        "career_arrival_14",
+        "career_enrol_choice",
+        "career_reunion_04",
+        "career_portfolio_independent_01"
+      ]
+    },
+    {
+      "id": "career_kiln_work_pay_and_bounded_qualification",
+      "statement": "Returning kiln experience and the declined former teaching season remain true. Three new performed supervised shifts pay six copper each. Notebook and postage cost three, leaving fifteen. Training fuel is recorded per actual lesson; one uncertain tub and eleven matched entries remain consistent. A failed test stays failed beside corrective practice and independently witnessed retest. The selected specialty earns a bounded ordinary technician qualification without personal-qi operation, hot-post clearance, independent kiln certification or new cultivation stage. Attributes arrive after completed work only.",
+      "anchors": [
+        "career_kiln_entry",
+        "career_kiln_training_choice",
+        "career_kiln_shift_one_09",
+        "career_kiln_shift_two_10",
+        "career_kiln_specialization_choice",
+        "career_kiln_retest_choice",
+        "career_kiln_retest_policy",
+        "career_kiln_appointment",
+        "career_kiln_shift_three_pay",
+        "career_kiln_finish_04"
+      ]
+    },
+    {
+      "id": "career_archive_paid_condition_record_assistant",
+      "statement": "The archive appointment acknowledges previous experience without waiving condition-record training. Ten completed four-copper shifts pay forty. A hundred-copper appropriation spends eighty-eight (forty wages, twelve examiner, twelve materials, twenty-four qualified cover), returning twelve. Trial and assessment choices keep actual failed, stopped or supported findings; specialty work and later offers preserve deferred neighboring services. Independent assessed assistant qualification grants no paper treatment, original custody, private disclosure or cultivation advancement.",
+      "anchors": [
+        "career_archive_induction_02",
+        "career_archive_induction_04",
+        "career_archive_trial_choice",
+        "career_archive_trial_fail_07",
+        "career_archive_training_06",
+        "career_archive_assessment_choice",
+        "career_archive_assessment_history",
+        "career_archive_qualification_03",
+        "career_archive_specialty_choice",
+        "career_archive_future_01",
+        "career_archive_future_04",
+        "career_archive_finish"
+      ]
+    },
+    {
+      "id": "career_survey_measurements_and_finite_budget",
+      "statement": "Three supervised recorder shifts pay twelve copper, with a selected received specialist assignment paying three more. An independent thirty-copper drainage budget pays Lin fifteen, Yuan six, Jiang three, the witness two and supplies/carrier four. A mixed current/historical datum causes a failed slope calculation; the failure is retained, corrected and independently examined. Selected spatial or temporal work and drainage or communication specialties have distinct actual downstream uses. Recorder qualification grants no structural clearance, land ownership, privacy entitlement or new realm.",
+      "anchors": [
+        "career_survey_entry",
+        "career_survey_first_method_choice",
+        "career_survey_second_error_01",
+        "career_survey_second_error_02",
+        "career_survey_second_remedy_05",
+        "career_survey_review_pass_01",
+        "career_survey_review_method_gate",
+        "career_survey_specialization_choice",
+        "career_survey_specialist_result_gate",
+        "career_survey_final_04",
+        "career_survey_final_05"
+      ]
+    },
+    {
+      "id": "career_independent_day_work_and_future_requests",
+      "statement": "Independent day work pays four copper for an accepted sorting morning, with one spent on food; it issues an ordinary reference and no specialist qualification. Later portfolios and renewal addresses follow actual saved enrollment. Home or day-work choices retain completed scopes. Renewal requests reserve no future wages or appointments; every career passage retains Qi Gathering 5: Four pairs.",
+      "anchors": [
+        "career_independent_entry",
+        "career_independent_05",
+        "career_independent_06",
+        "career_portfolio_independent_01",
+        "career_next_choice",
+        "career_renew_dispatch",
+        "career_renew_kiln_01",
+        "career_renew_archive_01",
+        "career_renew_survey_01"
+      ]
     }
   ],
   "review_policy": "Review each new chapter's chronology, custody, character knowledge, and alternate outcomes before updating this ledger. Structural checks supplement editorial review; they do not prove the absence of all possible plot holes.",
@@ -3257,6 +3336,61 @@
         "crossing_departure_04",
         "crossing_cargo_result_gate",
         "crossing_policy_result_gate"
+      ]
+    },
+    {
+      "id": "career_terms_before_enrolment",
+      "before": "career_enrol_choice",
+      "required": [
+        "career_entry",
+        "career_arrival_02",
+        "career_arrival_05",
+        "career_arrival_12",
+        "career_arrival_16"
+      ]
+    },
+    {
+      "id": "career_actual_work_before_future_request",
+      "before": "career_next_choice",
+      "required": [
+        "career_enrol_choice",
+        "career_reunion_01",
+        "career_reunion_04"
+      ]
+    },
+    {
+      "id": "career_archive_practice_terms_before_trial",
+      "before": "career_archive_trial_choice",
+      "required": [
+        "career_archive_entry",
+        "career_archive_induction_02",
+        "career_archive_induction_04",
+        "career_archive_induction_16",
+        "career_archive_induction_17"
+      ]
+    },
+    {
+      "id": "career_archive_independent_scope_before_specialty",
+      "before": "career_archive_specialty_choice",
+      "required": [
+        "career_archive_training_06",
+        "career_archive_training_08",
+        "career_archive_qualification_02",
+        "career_archive_qualification_03",
+        "career_archive_qualification_07",
+        "career_archive_qualification_08"
+      ]
+    },
+    {
+      "id": "career_survey_correction_and_review_before_specialty",
+      "before": "career_survey_specialization_choice",
+      "required": [
+        "career_survey_entry",
+        "career_survey_first_method_choice",
+        "career_survey_second_error_02",
+        "career_survey_second_remedy_05",
+        "career_survey_review_pass_01",
+        "career_survey_review_method_gate"
       ]
     }
   ]
