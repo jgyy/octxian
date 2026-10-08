@@ -1,8 +1,8 @@
 {
-  "kind": "unpublished_manuscript_review",
+  "kind": "continuation_manuscript_review",
   "published_source_parent": "8e419bbb154fa2911d0f5b73a7bfee493c9f2507",
   "historical_plot_repair_credit": 0,
-  "scope": "All before blobs are authored draft fragments absent from the published parent. Identity, arithmetic, custody, calendar, actual-history and missing-history corrections are prepublication editing and receive zero historical plot-hole repair credit.",
+  "scope": "These corrections concern this continuation's newly authored manuscript; all before scenes are absent from the original published parent8e419bbb154fa2911d0f5b73a7bfee493c9f2507. They include authoring and CI review iterations and receive zero credit toward authenticating preexisting plot-hole repairs.",
   "identity_sources": {
     "lin_yue": "Lin Yue is female in the existing campaign, retained root and original portrait.",
     "cook": [
@@ -20,7 +20,15 @@
       "data/world_assets.json:npcs.tian_min.description",
       "season_road_f01_008"
     ],
-    "annex_owner": "The revised unpublished manuscript consistently uses a female annex owner, distinct from the female umbrella-shop maker/depositor at season_archive_m07_common_001. No ownership handover is invented."
+    "annex_owner": "The revised unpublished manuscript consistently uses a female annex owner, distinct from the female umbrella-shop maker/depositor at season_archive_m07_common_001. No ownership handover is invented.",
+    "dai_shuren": [
+      "Published Book XVII archive_01_017 explicitly introduces Dai Shuren as female.",
+      "Published archive_02_033 and archive_24_021–022 retain female pronouns."
+    ],
+    "peng_ai": [
+      "Published docs/BOOK_XV_CHARACTERS.md: Peng Ai is female.",
+      "season_kiln_01_026 establishes her/She."
+    ]
   },
   "changes": [
     {
@@ -2536,6 +2544,149 @@
       "after": "Su Yao set the offered account beside the relevant introduction slip. Any money, resources or booking described within the inquiry retained its own completed terms and unresolved obligations; the old twenty-four-coin trial grant stayed closed. Yue's present calendar still contained ordinary work and rest. Closing a story at the desk did not cancel the appointments ahead of her. She checked the time left before ordinary supper and found that, for once, she could walk home slowly.",
       "classification": "prepublication_calendar_scope_correction",
       "historical_repair_credit": 0
+    },
+    {
+      "id": "season_archive_m12_common_009",
+      "path": "data/books/book_xxiii_archive_12.json",
+      "before_blob": "78fdd1b1f81f094ac119baa2aa16286f24806cbe",
+      "after_blob": "a403001ae1700dec53e5767844888d93e5573878",
+      "before": "Dai visited during the interval he had stated and asked what they had accomplished. Lin described the actual copied work and the uncertain edge. Qiu described the limited repeated mark observation. Dai did not solve the cloth's history. He asked whether their new working notes were distinguished from source copies and whether anything public was proposed. Su had mentioned a possible source explanation, and they now had a clear question about how a damaged record could become overinterpreted. Dai said they could submit a specific draft within the accepted scope; no general display permission followed from his interest.",
+      "after": "Dai visited during the interval she had stated and asked what they had accomplished. Lin described the actual copied work and the uncertain edge. Qiu described the limited repeated mark observation. Dai did not solve the cloth's history. She asked whether their new working notes were distinguished from source copies and whether anything public was proposed. Su had mentioned a possible source explanation, and they now had a clear question about how a damaged record could become overinterpreted. Dai said they could submit a specific draft within the accepted scope; no general display permission followed from her interest.",
+      "classification": "continuation_identity_correction",
+      "historical_repair_credit": 0,
+      "canonical_source": "archive_01_017"
+    },
+    {
+      "id": "season_archive_m12_summary_004",
+      "path": "data/books/book_xxiii_archive_12.json",
+      "before_blob": "78fdd1b1f81f094ac119baa2aa16286f24806cbe",
+      "after_blob": "a403001ae1700dec53e5767844888d93e5573878",
+      "before": "Dai passed through during his actual ordinary duties and asked the staff responsible for the reading place whether the approved use was working. He did not require Lin and Qiu to summarize every private conversation with readers. Qiu described the two public questions and the limits they had explained. Dai said a plain account often invited further curiosity. Lin liked that he did not promise the curiosity would be orderly. The source columns remained an unissued alternative, not a second sheet silently assumed to have clarified everything the concise account left to conversation.",
+      "after": "Dai passed through during her actual ordinary duties and asked the staff responsible for the reading place whether the approved use was working. She did not require Lin and Qiu to summarize every private conversation with readers. Qiu described the two public questions and the limits they had explained. Dai said a plain account often invited further curiosity. Lin liked that she did not promise the curiosity would be orderly. The source columns remained an unissued alternative, not a second sheet silently assumed to have clarified everything the concise account left to conversation.",
+      "classification": "continuation_identity_correction",
+      "historical_repair_credit": 0,
+      "canonical_source": "archive_01_017"
+    },
+    {
+      "id": "season_archive_m12_columns_004",
+      "path": "data/books/book_xxiii_archive_12.json",
+      "before_blob": "78fdd1b1f81f094ac119baa2aa16286f24806cbe",
+      "after_blob": "a403001ae1700dec53e5767844888d93e5573878",
+      "before": "Dai came by during his actual duties and asked the responsible staff about the public use. Lin described the two observed reading responses without making them a survey. Qiu admitted she wanted a stronger first sentence so a visitor could find the main observation quickly. Dai said any changed version would need to remain within the approved wording and use. They did not revise the displayed sheet on impulse. The concise alternative remained unissued. Their chosen columns had a real strength in source clarity and a real cost in the attention asked from people arriving with unrelated errands.",
+      "after": "Dai came by during her actual duties and asked the responsible staff about the public use. Lin described the two observed reading responses without making them a survey. Qiu admitted she wanted a stronger first sentence so a visitor could find the main observation quickly. Dai said any changed version would need to remain within the approved wording and use. They did not revise the displayed sheet on impulse. The concise alternative remained unissued. Their chosen columns had a real strength in source clarity and a real cost in the attention asked from people arriving with unrelated errands.",
+      "classification": "continuation_identity_correction",
+      "historical_repair_credit": 0,
+      "canonical_source": "archive_01_017"
+    },
+    {
+      "id": "season_archive_m18_common_012",
+      "path": "data/books/book_xxiii_archive_18.json",
+      "before_blob": "c13cef1f98ce79d4bcef5eb06e6e5e2916cf1e2b",
+      "after_blob": "1bb878f1f5d3d6aace055bfa2ac738a7c9d9d1fe",
+      "before": "Dai's temporary winter copying room remained a completed limited arrangement, not a standing alternative store for the annex packet. The keeper said no transfer there had been accepted for this autumn close. Lin checked that their work account described those earlier visits as copying only. Qiu removed a casual draft phrase about continuing at Dai's place. His finite hospitality had not granted original handling, conservation authority, or free future room use. Closing one actual room could not be made painless by assuming another person's earlier kindness lasted whenever the project needed it.",
+      "after": "Dai's temporary winter copying room remained a completed limited arrangement, not a standing alternative store for the annex packet. The keeper said no transfer there had been accepted for this autumn close. Lin checked that their work account described those earlier visits as copying only. Qiu removed a casual draft phrase about continuing at Dai's place. Her finite hospitality had not granted original handling, conservation authority, or free future room use. Closing one actual room could not be made painless by assuming another person's earlier kindness lasted whenever the project needed it.",
+      "classification": "continuation_identity_correction",
+      "historical_repair_credit": 0,
+      "canonical_source": "archive_01_017"
+    },
+    {
+      "id": "season_archive_m11_common_011",
+      "path": "data/books/book_xxiii_archive_11.json",
+      "before_blob": "6288f39fd6fd576cdc8a76a7d538b7ccd8d14258",
+      "after_blob": "ccc5a470646b2dcb8411d545fdd0f867717558a6",
+      "before": "Dai Shuren met them at the agreed entrance after a staff member announced them. He was older than Qiu expected and had a narrow face that gave little away while he listened. He asked the purpose of the proposed packet and who had authorized its copies to leave the annex. Su showed the actual list. Lin described ordinary comparison and public source explanation, not a conservation service. Qiu described the specific task they could complete. Dai checked the proposed intervals against current use and said he would show them the available room before accepting the work.",
+      "after": "Dai Shuren met them at the agreed entrance after a staff member announced them. She was older than Qiu expected and had a narrow face that gave little away while she listened. She asked the purpose of the proposed packet and who had authorized its copies to leave the annex. Su showed the actual list. Lin described ordinary comparison and public source explanation, not a conservation service. Qiu described the specific task they could complete. Dai checked the proposed intervals against current use and said she would show them the available room before accepting the work.",
+      "classification": "continuation_identity_correction",
+      "historical_repair_credit": 0,
+      "canonical_source": "archive_01_017"
+    },
+    {
+      "id": "season_archive_m11_guide_003",
+      "path": "data/books/book_xxiii_archive_11.json",
+      "before_blob": "6288f39fd6fd576cdc8a76a7d538b7ccd8d14258",
+      "after_blob": "ccc5a470646b2dcb8411d545fdd0f867717558a6",
+      "before": "Su obtained the keeper's approval for the guide's public wording and checked the mountain archive description against Dai's actual acceptance. They did not ask him to approve access he had already declined to grant generally. The guide was issued at the annex during its remaining opening intervals. A copy went to the market organizer for the specified practical notice use, where its accurate dates would not repair every earlier title rumor. Qiu insisted on keeping those two public matters separate in the work account. Lin appreciated the insistence without saying her public instinct had always been right.",
+      "after": "Su obtained the keeper's approval for the guide's public wording and checked the mountain archive description against Dai's actual acceptance. They did not ask her to approve access she had already declined to grant generally. The guide was issued at the annex during its remaining opening intervals. A copy went to the market organizer for the specified practical notice use, where its accurate dates would not repair every earlier title rumor. Qiu insisted on keeping those two public matters separate in the work account. Lin appreciated the insistence without saying her public instinct had always been right.",
+      "classification": "continuation_identity_correction",
+      "historical_repair_credit": 0,
+      "canonical_source": "archive_01_017"
+    },
+    {
+      "id": "season_kiln_17_008",
+      "path": "data/books/book_xxiii_kiln_17.json",
+      "before_blob": "75fb9ccf31756e076014c3534cdba4e68b81991e",
+      "after_blob": "451aeee464c707a7d7729090d47ce6fdca3d3763",
+      "before": "She read the ninety-copper aggregate twice because the earlier seventy-eight had become familiar. Peng asked whether she saw an inconsistency. Yue said she saw the final twelve actually received. He nodded and left her time to copy the permitted summary. She did not copy private customer names or prices beyond the public plan's accepted information. A completed finite account could be comprehensible without turning every household into a named exhibit. Peng's retained shop confirmations would remain available to the proper people under their ordinary access, separate from the visitor's personal observation page.",
+      "after": "She read the ninety-copper aggregate twice because the earlier seventy-eight had become familiar. Peng asked whether she saw an inconsistency. Yue said she saw the final twelve actually received. Peng nodded and left her time to copy the permitted summary. She did not copy private customer names or prices beyond the public plan's accepted information. A completed finite account could be comprehensible without turning every household into a named exhibit. Peng's retained shop confirmations would remain available to the proper people under their ordinary access, separate from the visitor's personal observation page.",
+      "classification": "continuation_identity_correction",
+      "historical_repair_credit": 0,
+      "canonical_source": "season_kiln_01_026 and docs/BOOK_XV_CHARACTERS.md"
+    },
+    {
+      "id": "season_kiln_17_025",
+      "path": "data/books/book_xxiii_kiln_17.json",
+      "before_blob": "75fb9ccf31756e076014c3534cdba4e68b81991e",
+      "after_blob": "451aeee464c707a7d7729090d47ce6fdca3d3763",
+      "before": "That afternoon, Peng took down the pending-service strip that had stood beside the finite winter plan. He retained the actual summary in the proper place and posted the completed aggregate. A visitor suggested leaving the old strip visible because it made the story of progress more inspiring. Peng said the current board should describe the current plan clearly. The retained record could preserve its actual sequence where appropriate. A public counter needed to answer whether work was still pending, not stage suspense for people arriving late. The visitor accepted the practical reason and read the finished notice.",
+      "after": "That afternoon, Peng took down the pending-service strip that had stood beside the finite winter plan. Peng retained the actual summary in the proper place and posted the completed aggregate. A visitor suggested leaving the old strip visible because it made the story of progress more inspiring. Peng said the current board should describe the current plan clearly. The retained record could preserve its actual sequence where appropriate. A public counter needed to answer whether work was still pending, not stage suspense for people arriving late. The visitor accepted the practical reason and read the finished notice.",
+      "classification": "continuation_identity_correction",
+      "historical_repair_credit": 0,
+      "canonical_source": "season_kiln_01_026 and docs/BOOK_XV_CHARACTERS.md"
+    },
+    {
+      "id": "season_kiln_19_022",
+      "path": "data/books/book_xxiii_kiln_19.json",
+      "before_blob": "b43a4c3477bfdcae2e8c758d949800e36bbb5b7b",
+      "after_blob": "726274f94b2eb2296b25bbcb5a1271a53aaf38c4",
+      "before": "She stopped the review when those current labels were clear. The page's purpose was to preserve the offered public account, not reconstruct every private shop cost from a visitor's estimate. Peng held the actual record and could answer an appropriate current question through its proper access. Yue would not use her own corrected copy to overrule him. Her shoulder needed rest after the writing interval. She put down the pen and spent several minutes warming her hands in ordinary ways. The season's final review could be careful enough without becoming an endurance task she had invented for herself.",
+      "after": "She stopped the review when those current labels were clear. The page's purpose was to preserve the offered public account, not reconstruct every private shop cost from a visitor's estimate. Peng held the actual record and could answer an appropriate current question through its proper access. Yue would not use her own corrected copy to overrule Peng. Her shoulder needed rest after the writing interval. She put down the pen and spent several minutes warming her hands in ordinary ways. The season's final review could be careful enough without becoming an endurance task she had invented for herself.",
+      "classification": "continuation_identity_correction",
+      "historical_repair_credit": 0,
+      "canonical_source": "season_kiln_01_026 and docs/BOOK_XV_CHARACTERS.md"
+    },
+    {
+      "id": "season_kiln_19_044",
+      "path": "data/books/book_xxiii_kiln_19.json",
+      "before_blob": "b43a4c3477bfdcae2e8c758d949800e36bbb5b7b",
+      "after_blob": "726274f94b2eb2296b25bbcb5a1271a53aaf38c4",
+      "before": "Yue thanked Peng for the finite public summaries he had actually offered. He said he was glad they had answered her questions and reminded her that a future public interval would have its own current arrangement. Familiarity would not replace confirmation if she wanted to attend again. She accepted the practical answer. It gave the relationship a way to continue without making every open door a standing invitation. She put her notebook away while he returned to an actual staff task. Her final thanks did not require him to narrate the season's meaning for her.",
+      "after": "Yue thanked Peng for the finite public summaries Peng had actually offered. Peng said she was glad they had answered Yue's questions and reminded Yue that a future public interval would have its own current arrangement. Familiarity would not replace confirmation if Yue wanted to attend again. Yue accepted the practical answer. It gave the relationship a way to continue without making every open door a standing invitation. Yue put her notebook away while Peng returned to an actual staff task. Yue's final thanks did not require Peng to narrate the season's meaning for her.",
+      "classification": "continuation_identity_correction",
+      "historical_repair_credit": 0,
+      "canonical_source": "season_kiln_01_026 and docs/BOOK_XV_CHARACTERS.md"
+    },
+    {
+      "id": "season_kiln_20_008",
+      "path": "data/books/book_xxiii_kiln_20.json",
+      "before_blob": "6439ee627c0e1e4aef2812cbe21d534fe218cd6e",
+      "after_blob": "ba7133d23032fedfb94071b4f9cf6627d2a33871",
+      "before": "Peng answered one permitted question about the public wording. Returned in full meant the entire remaining forty-four had reached its agreed proper recipients, not that the original eighty had somehow reappeared. Yue said that was the distinction she wanted to retain. He showed the public sequence at its accepted level of detail and left private portions outside the visitor's page. She did not ask for each owner's receipt or compare her imagined fair shares with their actual agreement. The aggregate and current zero balance were enough to complete the offered public account she had followed.",
+      "after": "Peng answered one permitted question about the public wording. Returned in full meant the entire remaining forty-four had reached its agreed proper recipients, not that the original eighty had somehow reappeared. Yue said that was the distinction she wanted to retain. Peng showed the public sequence at its accepted level of detail and left private portions outside the visitor's page. She did not ask for each owner's receipt or compare her imagined fair shares with their actual agreement. The aggregate and current zero balance were enough to complete the offered public account she had followed.",
+      "classification": "continuation_identity_correction",
+      "historical_repair_credit": 0,
+      "canonical_source": "season_kiln_01_026 and docs/BOOK_XV_CHARACTERS.md"
+    },
+    {
+      "id": "season_archive_m13_common_004",
+      "path": "data/books/book_xxiii_archive_13.json",
+      "before_blob": "f801e54225bcde6a1a7eecbcb8ab1dc3f7f58215",
+      "after_blob": "34ca3695d10be99794316d4f6e92e5007fefaa9c",
+      "before": "Dai came during his stated visit and listened to the reply's scope. He asked who had checked the public reference and which source Lin and Qiu actually held. Su showed the office cover and certified excerpt. Dai said the new material could join their accepted copying packet if its permission and source description remained attached. He did not offer a search of unrelated mountain holdings. Qiu thanked him for the practical acceptance rather than asking him to pronounce on the ferry. The archive room could host this ordinary comparison because the actual task had been named and accepted.",
+      "after": "Dai came during her stated visit and listened to the reply's scope. She asked who had checked the public reference and which source Lin and Qiu actually held. Su showed the office cover and certified excerpt. Dai said the new material could join their accepted copying packet if its permission and source description remained attached. She did not offer a search of unrelated mountain holdings. Qiu thanked her for the practical acceptance rather than asking her to pronounce on the ferry. The archive room could host this ordinary comparison because the actual task had been named and accepted.",
+      "classification": "continuation_identity_correction",
+      "historical_repair_credit": 0,
+      "canonical_source": "archive_01_017"
+    },
+    {
+      "id": "season_archive_m04_common_007",
+      "path": "data/books/book_xxiii_archive_04.json",
+      "before_blob": "33b352594a5be2d4c1511fe050eb6c97c8305892",
+      "after_blob": "a79d171eac604048992821352ca79c62b1d14d4e",
+      "before": "A sudden roof drip struck the empty tray near the doorway. Everyone looked up. The tray contained no original, but the new water path crossed the place where visitors had stood yesterday. Tan moved the visitor boundary and asked the owner to inspect the outer roof with the responsible worker, not climb there himself while people waited beneath. Qiu set a basin under the drip at the keeper's direction. Yue wrote the time and location on the observation page. The cold, low action was useful because somebody had defined its purpose.",
+      "after": "A sudden roof drip struck the empty tray near the doorway. Everyone looked up. The tray contained no original, but the new water path crossed the place where visitors had stood yesterday. Tan moved the visitor boundary and asked the owner to inspect the outer roof with the responsible worker, not climb there herself while people waited beneath. Qiu set a basin under the drip at the keeper's direction. Yue wrote the time and location on the observation page. The cold, low action was useful because somebody had defined its purpose.",
+      "classification": "continuation_identity_correction",
+      "historical_repair_credit": 0,
+      "canonical_source": "The same female annex owner at season_archive_m01_019 and season_archive_m01_after_003."
     }
   ]
 }

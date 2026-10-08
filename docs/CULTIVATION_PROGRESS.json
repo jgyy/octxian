@@ -1,11 +1,11 @@
 {
   "displayed_scenes": 24341,
-  "displayed_words": 2080062,
+  "displayed_words": 2080063,
   "new_training_scenes": 77,
   "new_training_words": 5206,
   "rewritten_book_i_scenes": 37,
   "rewritten_book_i_words": 2519,
-  "rewrite_words": 1035231,
+  "rewrite_words": 1035232,
   "strict_word_target": 1000001,
   "planned_rewrite_words": 1050000,
   "reference_checks": "pass",
@@ -14581,7 +14581,7 @@
     "source_parent": "8e419bbb154fa2911d0f5b73a7bfee493c9f2507",
     "new_scenes": 8823,
     "new_displayed_words": 742861,
-    "net_displayed_words": 742861,
+    "net_displayed_words": 742862,
     "source_files": {
       "core": {
         "scenes": 35,
@@ -14630,9 +14630,9 @@
     "maximum_live_decisions": 4,
     "continuity_checkpoint_removal_checks": 35,
     "missing_history_default_regressions": 14,
-    "confirmed_historical_literary_defects_added": 0,
-    "prepublication_editing_records": 142,
-    "prepublication_distinct_edited_scenes": 141,
+    "confirmed_historical_literary_defects_added": 1,
+    "prepublication_editing_records": 155,
+    "prepublication_distinct_edited_scenes": 154,
     "requested_plot_repairs": 1000,
     "plot_repair_target_verified": false,
     "manuscript_target_met": true,
@@ -14640,7 +14640,10 @@
     "source_audit": "docs/SEASON_SOURCE_AUDIT_20261008.json",
     "prepublication_review": "docs/SEASON_PREPUBLICATION_REVIEW_20261008.json",
     "new_native_originals": 7,
-    "expected_rendered_captures": 164
+    "expected_rendered_captures": 164,
+    "edited_existing_word_delta": 1,
+    "affected_existing_source_passages": 2,
+    "additional_source_repair": "docs/LETTERS_CLAIMANT_REPAIRS_20261008.json"
   },
   "latest_season_art": {
     "originals": 7,
@@ -14779,5 +14782,14 @@
         "upsampled": false
       }
     ]
+  },
+  "latest_letters_claimant_repair": {
+    "source_parent": "8e419bbb154fa2911d0f5b73a7bfee493c9f2507",
+    "underlying_defects": 1,
+    "affected_passages": 2,
+    "displayed_word_delta": 1,
+    "evidence": "docs/LETTERS_CLAIMANT_REPAIRS_20261008.json",
+    "requested_plot_repairs": 1000,
+    "target_met": false
   }
 }

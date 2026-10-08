@@ -4,7 +4,7 @@
 
 An original xianxia visual novel built in **Godot 4.7.2**. Lin Yue begins as a mortal kiln worker and earns cultivation through practice, failure, recovery and independently witnessed trials. Work, evidence and freely made commitments shape the people she meets.
 
-The campaign contains **2,080,062 displayed prose words across 24,341 scenes and 23 books**. This counts distinct playable alternatives, not words seen in one playthrough. Choice labels, titles, prompts and documentation are excluded. The two-million-word manuscript target is met; the requested 1,000 authenticated plot repairs and full artwork quotas remain unfinished.
+The campaign contains **2,080,063 displayed prose words across 24,341 scenes and 23 books**. This counts distinct playable alternatives, not words seen in one playthrough. Choice labels, titles, prompts and documentation are excluded. The two-million-word manuscript target is met; the requested 1,000 authenticated plot repairs and full artwork quotas remain unfinished.
 
 ![Six later-season paths](docs/screenshots/season_paths.jpg)
 
@@ -47,9 +47,9 @@ Two original transparent full-body sprites retain **1024 × 1536 native PNG** by
 
 The 98 total backgrounds include the 48 additional interiors once each. Portrait recolors, outfits and motion frames do not count as new world originals. Draft validation reports the remaining quotas; moving the PR out of draft enables strict production checks.
 
-The current work authenticates **two new literary defects across three existing passages**: an unconditional commission appointment and Tuo Yin's pronouns. A separate saved-choice replay fix prevents repeated rewards or charges. A harbor gallery description now agrees with He Ming's established female salt-packer role. Engine and catalog corrections receive no additional literary repair credit. New manuscript events and corrections before publication also receive zero historical repair credit.
+This continuation authenticates **three underlying literary defects across five existing passages**: an unconditional commission appointment, Tuo Yin's pronouns, and the recipient of an earlier house settlement. A separate saved-choice replay fix prevents repeated rewards or charges. A harbor gallery description now agrees with He Ming's established female salt-packer role. Engine and catalog corrections receive no additional literary repair credit. New manuscript events and corrections before publication also receive zero historical repair credit.
 
-[Calendar evidence](docs/COMMISSION_CONTINUITY_REPAIRS_20261008.json) · [Identity evidence](docs/LATE_IDENTITY_REPAIRS_20261008.json) · [Harbor catalog follow-up](docs/HARBOR_CATALOG_FOLLOWUP_20261008.json)
+[House-claimant evidence](docs/LETTERS_CLAIMANT_REPAIRS_20261008.json) · [Calendar evidence](docs/COMMISSION_CONTINUITY_REPAIRS_20261008.json) · [Identity evidence](docs/LATE_IDENTITY_REPAIRS_20261008.json) · [Harbor catalog follow-up](docs/HARBOR_CATALOG_FOLLOWUP_20261008.json)
 
 ## Play and inspect
 

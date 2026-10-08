@@ -15,7 +15,7 @@
 
 ## Current campaign
 
-The manifest loads **23 books**, **24,341 scenes** and **2,080,062 displayed prose words**. The two-million-word target is met. Word counts include playable alternatives and exclude labels, choice text, prompts and documentation.
+The manifest loads **23 books**, **24,341 scenes** and **2,080,063 displayed prose words**. The two-million-word target is met. Word counts include playable alternatives and exclude labels, choice text, prompts and documentation.
 
 Book XXII provides three approaches to Qiu Lian's instrument trial. Its three retained ending markers now continue into Book XXIII. Book XXIII adds a shared root and **120 path fragments**, twenty for each of six later-season inquiries. All new nodes retain Qi Gathering 5: Four pairs, no new practice credit and the affected shoulder's limits.
 
@@ -45,6 +45,8 @@ python tools/generate_voices.py
 python tools/validate_assets.py
 .cache/godot/Godot_v4.7.2-stable_linux.x86_64 --headless --path . --export-pack Linux build/jade-vow.pck
 ```
+
+The additional Book XVIII claimant audit uses source commit `8e419bbb154fa2911d0f5b73a7bfee493c9f2507` and checks the original two passages, award, actual payment, key handover and previous-audit overlap. Run `python -m tools.validate_letters_claimant_repairs --verify-source` after fetching that source.
 
 Fixed-source audit checks also require their pinned commits locally. The [CI workflow](../.github/workflows/ci.yml) fetches every required source and runs all evidence validators and campaign regressions. The harbor catalog follow-up uses source commit `f50979b6bb8e3bbed6eec7b866c92377509a964b`; the rival literary evidence uses `0fe9938bf765611b3fe9d31c747fec6067346620`.
 
@@ -86,7 +88,7 @@ The feature-branch bundle job retains verified generated assets, review captures
 
 ## Evidence policy
 
-Historical repair reports pin the old source, exact passages and actual contradiction. Book XXII adds two literary roots across three existing passages. Its saved-choice replay correction is a separate engine fix. The He Ming gallery follow-up aligns an asset description with the established female salt-packer role and receives no additional literary root credit.
+Historical repair reports pin the old source, exact passages and actual contradiction. Book XXII adds two literary roots across three existing passages. The additional published Book XVIII claimant correction adds one root at two passages, keeping three current-continuation roots distinct from new authoring corrections. Its saved-choice replay correction is a separate engine fix. The He Ming gallery follow-up aligns an asset description with the established female salt-packer role and receives no additional literary root credit.
 
 New events, ordinary callbacks and corrections made before publication do not count as repaired historical plot holes. Anchored continuity facts and checkpoint-removal tests provide useful regression evidence without proving all literary consistency.
 

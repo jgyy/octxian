@@ -64,6 +64,8 @@ jobs:
           python -m tools.validate_late_identity_repairs --verify-source
           git fetch --depth=1 origin f50979b6bb8e3bbed6eec7b866c92377509a964b
           python -m tools.validate_harbor_catalog_followup --verify-source
+          git fetch --depth=1 origin 8e419bbb154fa2911d0f5b73a7bfee493c9f2507
+          python -m tools.validate_letters_claimant_repairs --verify-source
           python -m unittest discover -s tests -p 'test_*.py'
           python tools/validate_continuation_audits.py --source-base d2ce2851c8e47842104607ec5999ffba6fdabe1c --source-node-index docs/CONTINUATION_SOURCE_INDEX_20261003.json
           python tools/validate_continuation_audits.py docs/CONTINUITY_REPAIRS_20261003_SECOND_RIVER.json docs/CONTINUITY_REPAIRS_20261003_SECOND_CITY.json docs/CONTINUITY_REPAIRS_20261003_SECOND_CULTIVATION.json docs/CONTINUITY_REPAIRS_20261003_SECOND_RING.json docs/CONTINUITY_REPAIRS_20261003_SECOND_FERRY.json docs/CONTINUITY_REPAIRS_20261003_SECOND_ORCHARD.json --source-base c45164a3fc00c2a139158730b2f98f2db9926003 --source-node-index docs/CONTINUATION_SECOND_SOURCE_INDEX_20261003.json

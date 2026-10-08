@@ -3,12 +3,14 @@
   "source_parent": "8e419bbb154fa2911d0f5b73a7bfee493c9f2507",
   "chapter": "book_xxiii_season",
   "counts": {
-    "campaign_words": 2080062,
+    "campaign_words": 2080063,
     "campaign_scenes": 24341,
     "campaign_books": 23,
     "new_words": 742861,
     "new_scenes": 8823,
-    "new_source_files": 121
+    "new_source_files": 121,
+    "existing_source_word_delta": 1,
+    "net_displayed_word_addition": 742862
   },
   "scope": "Words count actual node.text prose across distinct playable alternatives. Choices, labels, prompts and documentation are excluded. Source checks supplement editorial review and do not prove the absence of all possible plot holes.",
   "graph": {
@@ -422,7 +424,7 @@
     },
     {
       "path": "data/books/book_xxiii_archive_04.json",
-      "sha": "33b352594a5be2d4c1511fe050eb6c97c8305892",
+      "sha": "a79d171eac604048992821352ca79c62b1d14d4e",
       "scenes": 68,
       "words": 6075
     },
@@ -464,19 +466,19 @@
     },
     {
       "path": "data/books/book_xxiii_archive_11.json",
-      "sha": "6288f39fd6fd576cdc8a76a7d538b7ccd8d14258",
+      "sha": "ccc5a470646b2dcb8411d545fdd0f867717558a6",
       "scenes": 70,
       "words": 6380
     },
     {
       "path": "data/books/book_xxiii_archive_12.json",
-      "sha": "78fdd1b1f81f094ac119baa2aa16286f24806cbe",
+      "sha": "a403001ae1700dec53e5767844888d93e5573878",
       "scenes": 74,
       "words": 6339
     },
     {
       "path": "data/books/book_xxiii_archive_13.json",
-      "sha": "f801e54225bcde6a1a7eecbcb8ab1dc3f7f58215",
+      "sha": "34ca3695d10be99794316d4f6e92e5007fefaa9c",
       "scenes": 70,
       "words": 6399
     },
@@ -506,7 +508,7 @@
     },
     {
       "path": "data/books/book_xxiii_archive_18.json",
-      "sha": "c13cef1f98ce79d4bcef5eb06e6e5e2916cf1e2b",
+      "sha": "1bb878f1f5d3d6aace055bfa2ac738a7c9d9d1fe",
       "scenes": 62,
       "words": 5524
     },
@@ -860,7 +862,7 @@
     },
     {
       "path": "data/books/book_xxiii_kiln_17.json",
-      "sha": "75fb9ccf31756e076014c3534cdba4e68b81991e",
+      "sha": "451aeee464c707a7d7729090d47ce6fdca3d3763",
       "scenes": 66,
       "words": 6324
     },
@@ -872,13 +874,13 @@
     },
     {
       "path": "data/books/book_xxiii_kiln_19.json",
-      "sha": "b43a4c3477bfdcae2e8c758d949800e36bbb5b7b",
+      "sha": "726274f94b2eb2296b25bbcb5a1271a53aaf38c4",
       "scenes": 57,
       "words": 5534
     },
     {
       "path": "data/books/book_xxiii_kiln_20.json",
-      "sha": "6439ee627c0e1e4aef2812cbe21d534fe218cd6e",
+      "sha": "ba7133d23032fedfb94071b4f9cf6627d2a33871",
       "scenes": 58,
       "words": 5663
     },
@@ -1132,15 +1134,23 @@
     "harbor": "27fdf78e110a92f362427d1ac53817c2455887df"
   },
   "prepublication_editing": {
-    "records": 142,
-    "distinct_scenes": 141,
+    "records": 155,
+    "distinct_scenes": 154,
     "historical_plot_repair_credit": 0,
-    "evidence": "docs/SEASON_PREPUBLICATION_REVIEW_20261008.json"
+    "evidence": "docs/SEASON_PREPUBLICATION_REVIEW_20261008.json",
+    "scope": "New continuation authoring and CI review iterations; these scenes were absent from the original published parent."
   },
   "native_art": {
     "originals": 7,
     "byte_and_dimension_checks": "Required CI verifies exact original bytes, PNG dimensions, decoded images and playable placements.",
     "source_record": "assets/art/SEASON_20261008_PROMPTS.json"
   },
-  "runtime_verification": "Required CI executes Python, Godot, narration, viewport capture and source-free Linux playback. Measured delivery results are written to docs/content_report.json."
+  "runtime_verification": "Required CI executes Python, Godot, narration, viewport capture and source-free Linux playback. Measured delivery results are written to docs/content_report.json.",
+  "additional_existing_source_repair": {
+    "defects": 1,
+    "passages": 2,
+    "delta": 1,
+    "evidence": "docs/LETTERS_CLAIMANT_REPAIRS_20261008.json",
+    "sourceParent": "8e419bbb154fa2911d0f5b73a7bfee493c9f2507"
+  }
 }

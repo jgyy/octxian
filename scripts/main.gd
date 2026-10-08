@@ -1007,8 +1007,8 @@ func _capture_seasons() -> bool:
 	if opening_steps < 0 or not _capture_commission_checkpoint(choice_save) or not (await _capture_rival_frame("season_paths")):
 		return false
 	for selection in range(names.size()):
-		var entry := "season_" + names[selection] + "_entry"
-		var ending := "season_end_" + names[selection]
+		var entry: String = "season_" + names[selection] + "_entry"
+		var ending: String = "season_end_" + names[selection]
 		if not state.load_game(choice_save) or not state.choose(selection) or state.current != entry:
 			return false
 		if not (await _capture_rival_frame("season_" + names[selection])):
@@ -1038,7 +1038,7 @@ func _capture_seasons() -> bool:
 	return true
 
 func _smoke_seasons() -> bool:
-	var valid := state.story.chapters.has("book_xxiii_season") and state.story.chapters.size() == 23
+	var valid: bool = state.story.chapters.has("book_xxiii_season") and state.story.chapters.size() == 23
 	var expected_art := ["season_orchard_gate","season_archive_annex","season_harbor_approach","season_canal_footpath","season_kiln_courtyard","season_letter_counter","season_kiln_public_room"]
 	var retained_art: Dictionary = {}
 	for painting in world.get("backgrounds", []):
@@ -1064,8 +1064,8 @@ func _smoke_seasons() -> bool:
 	valid = _smoke_rival_scene() and valid
 	valid = choice_box.get_child_count() == names.size() and valid
 	for selection in range(names.size()):
-		var entry := "season_" + names[selection] + "_entry"
-		var ending := "season_end_" + names[selection]
+		var entry: String = "season_" + names[selection] + "_entry"
+		var ending: String = "season_end_" + names[selection]
 		if not state.load_game(choice_save) or not state.choose(selection) or state.current != entry:
 			return false
 		valid = _smoke_rival_scene() and valid

@@ -15,7 +15,7 @@ Six later-season paths continue after the instrument trial's three afternoons an
 | Harbor | 20 | 1,600 | 129,771 |
 | **New Book XXIII** | **121** | **8,823** | **742,861** |
 
-The campaign now contains **2,080,062 words in 24,341 scenes across 23 books**, exceeding the requested two million. Counts include distinct playable alternatives and exclude labels, choice text, prompts and documentation. None of the 120 path files is an unpublished placeholder. The six later inquiries remain distinct from the three choices made in Book XXII.
+The campaign now contains **2,080,063 words in 24,341 scenes across 23 books**, exceeding the requested two million. Counts include distinct playable alternatives and exclude labels, choice text, prompts and documentation. None of the 120 path files is an unpublished placeholder. The six later inquiries remain distinct from the three choices made in Book XXII.
 
 ```mermaid
 flowchart TD
@@ -76,9 +76,11 @@ The source audit checks **8,823 new scenes** under actual choice histories, incl
 
 A second author reviews each completed route's long callbacks, finite accounts, chronology and custody. This review supplements mechanical checks and does not claim the absence of all possible plot holes.
 
-No Book XXIII event counts as a repaired historical defect. Corrections made before publication receive zero historical credit. Book XXII's two authenticated literary roots across three source passages remain separately evidenced. The saved-choice replay fix is an engine correction; the He Ming gallery follow-up aligns an asset description with already established story facts and adds no literary root credit.
+No Book XXIII event counts as a repaired historical defect. Corrections to this continuation's newly authored manuscript, including CI review iterations, receive zero historical credit. Book XXII's two authenticated literary roots across three source passages remain separately evidenced. The saved-choice replay fix is an engine correction; the He Ming gallery follow-up aligns an asset description with already established story facts and adds no literary root credit.
 
-[Book XXII evidence](RIVAL_PATHS_20261008.md) · [Catalog before/after](HARBOR_CATALOG_FOLLOWUP_20261008.json) · [Unpublished manuscript editing](SEASON_PREPUBLICATION_REVIEW_20261008.json)
+[Book XXII evidence](RIVAL_PATHS_20261008.md) · [Catalog before/after](HARBOR_CATALOG_FOLLOWUP_20261008.json) · [New manuscript editing](SEASON_PREPUBLICATION_REVIEW_20261008.json)
+
+An additional published-source repair corrects one claimant-attribution root at two Book XVIII passages. The earlier conditional house right and paid loss compensation belong to He Xi's mother; Sun Nian remains the separate witness with her own later runoff statement and limited inspection permission. The fix adds one existing-source word, making this update's net addition 742,862 words. Together with Book XXII, this continuation authenticates three literary roots at five original passages. [Pinned source and exact before/after evidence](LETTERS_CLAIMANT_REPAIRS_20261008.json).
 
 The **1,000 authenticated plot-hole target remains unmet**. The manuscript target is met, while full-production art quotas remain unfinished. The PR stays a draft.
 
