@@ -193,7 +193,8 @@ func test_commissions(seed) -> void:
 		for career in CAREERS:
 			if scene_id == "commission_portfolio_%s_01" % career:
 				check(career == CAREERS[expected_career(traveler)] and has_commission_work(traveler), "A saved portfolio must name its actual profession and performed commission work")
-		if scene.has("ending") and not scene.has("next") and not scene.has("continuation"):
+		# Continued settlements still complete this commission chapter.
+		if scene.has("ending"):
 			completed_paths += 1
 			var accepted: bool = traveler.decisions.get("commission_offer_choice", "") == "commission_dispatch"
 			if accepted:

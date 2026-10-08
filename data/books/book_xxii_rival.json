@@ -1,0 +1,522 @@
+{
+  "chapters": {
+    "book_xxii_rival": {
+      "label": "BOOK XXII",
+      "title": "The Other Measure"
+    }
+  },
+  "characters": {
+    "rival_qiu_zhen": {
+      "name": "Qiu Lian",
+      "title": "Practitioner of the quick closing method",
+      "color": "#b97a68",
+      "age": 32,
+      "appearance": "Tall and lean, tan angular face, black single braid, dark cinnabar cross-collar robe with charcoal sleeves and practical flat boots.",
+      "interest": "Wants repeatable low-load closure to work quickly enough for ordinary users; fears becoming invisible beside better-connected practitioners."
+    },
+    "rival_su_yao": {
+      "name": "Su Yao",
+      "title": "Steward of the public instrument trials",
+      "color": "#a3b9ad",
+      "age": 47,
+      "appearance": "Broad brown face, grey at her temples, practical bun, muted ivory-teal work robe and slate waist sash.",
+      "interest": "Keeps public trials fair and usable, and refuses to turn a comparison into a ranking of whole people."
+    }
+  },
+  "nodes": {
+    "rival_entry": {
+      "chapter": "book_xxii_rival",
+      "speaker": "narrator",
+      "actor": "rival_qiu_zhen",
+      "background": "commission_long_rain_quay",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Several weeks after her last visit to the receiving desk, Yue heard somebody laughing at the notice board. A woman in a cinnabar robe had chalked two columns beneath an invitation to a public instrument trial. One said 'time to close'; the other said 'time spent explaining why closing takes time.' Yue stopped beside the second column. The woman glanced at her shoulder strap, then at her face. 'That was meant for the method,' she said. 'Perhaps you can improve the heading.'",
+      "next": "rival_prior_gate"
+    },
+    "rival_prior_gate": {
+      "chapter": "book_xxii_rival",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue unfolded her current calendar before answering the invitation. Her last saved preference still described a request, a home interval or a daywork enquiry. Whatever had actually followed it belonged in her real records; an empty page supplied no completed journey or acceptance. She brought only the dates she could support to the desk. The woman with the chalk waited without reading over her shoulder. It was a small courtesy, and Yue was irritated to notice it.",
+      "next": "rival_calendar_01",
+      "routes": [
+        {
+          "decision": "commission_next_choice",
+          "selected": "commission_new_request_01",
+          "next": "rival_prior_request_01"
+        },
+        {
+          "decision": "commission_next_choice",
+          "selected": "commission_home_01",
+          "next": "rival_prior_home_01"
+        },
+        {
+          "decision": "commission_next_choice",
+          "selected": "commission_daywork_01",
+          "next": "rival_prior_daywork_01"
+        }
+      ]
+    },
+    "rival_prior_request_01": {
+      "chapter": "book_xxii_rival",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The earlier page retained a new commission request, with an answer still pending at the point it had closed. Yue showed the trial steward the intervals currently confirmed free, leaving that request in its proper column. If an offer had since become an acceptance, its actual dates would stand; if no answer was documented, she would not manufacture one. The steward checked only present availability. Qiu Lian tapped the chalk against her palm and asked whether they could discuss the apparatus while the calendar dried.",
+      "next": "rival_prior_request_02"
+    },
+    "rival_prior_request_02": {
+      "chapter": "book_xxii_rival",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue agreed to discuss it. She could want two possible futures without promising the same afternoon twice. An enquiry at another desk would keep its own answer and scope. Here, the public trial was a separate invitation. She tucked the earlier request inside her notebook instead of replacing it with the brighter notice. Qiu had already moved on to the drawings, impatient in a way Yue recognized from herself whenever somebody asked one more question before an experiment.",
+      "next": "rival_calendar_01"
+    },
+    "rival_prior_home_01": {
+      "chapter": "book_xxii_rival",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The earlier page had chosen an available home interval. Yue retained that choice without making it evidence that every intended journey had happened. The present calendar supplied the actual travel arrangements and existing bookings, where known. She checked the proposed afternoons against those commitments before discussing participation. Qiu Lian waited by the board, pretending to study its crooked frame. 'My sister visits in the last week,' she said at last. 'I have crossed out that entire week. She would notice if I called this a family emergency.'",
+      "next": "rival_prior_home_02"
+    },
+    "rival_prior_home_02": {
+      "chapter": "book_xxii_rival",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue laughed before she meant to. Home had often seemed to require an explanation grand enough to defeat work. Qiu's crossed-out week looked less heroic and more useful. The trial could occupy only genuinely available hours. If a confirmed visit or accepted booking conflicted, the proposed trial date would move before Yue promised attendance. She passed the steward her current availability and kept her private family page folded. Nobody at this table needed to inspect it to understand a free afternoon.",
+      "next": "rival_calendar_01"
+    },
+    "rival_prior_daywork_01": {
+      "chapter": "book_xxii_rival",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The earlier page retained a daywork enquiry, its requested hours fitted around existing commitments and its answer pending. Yue carried forward that exact status. A later accepted job would have its actual agreed hours; the enquiry alone supplied none. She checked the public trial against her currently confirmed free intervals. Qiu Lian read the rate on another notice nearby and made a face. 'They want somebody to carry crates and smile at customers at once,' she said. 'The smiling should have its own handle.'",
+      "next": "rival_prior_daywork_02"
+    },
+    "rival_prior_daywork_02": {
+      "chapter": "book_xxii_rival",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue thought of the long mornings that had taught her what a handle could fail to carry. She had no wish to make an unpaid trial consume an accepted working hour. The steward agreed: available trial dates would be settled around actual commitments, and declining would leave those commitments untouched. Qiu drew a tiny handle beside the smiling-worker notice. She stepped back to admire it. The drawing did more to make Yue curious about her than either of the chalk columns had.",
+      "next": "rival_calendar_01"
+    },
+    "rival_calendar_01": {
+      "chapter": "book_xxii_rival",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The desk confirmed three free afternoons for the optional comparison before any trial work was accepted. Existing dates remained on Yue's calendar; changing them would require the proper agreement first. The trial steward, Su Yao, wrote the three afternoons on a reusable board and placed an ordinary clock beside it. 'You may enter separately, enter together or watch from the public rail,' she said. 'The clock measures this apparatus. It cannot tell us who deserves a better life.'",
+      "next": "rival_qiu_intro"
+    },
+    "rival_qiu_intro": {
+      "chapter": "book_xxii_rival",
+      "speaker": "narrator",
+      "actor": "rival_qiu_zhen",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Qiu Lian introduced herself without a recommendation letter. She had practiced closing short low-load circuits until the sequence felt as ordinary as lacing a boot. Her measured record, inspected by Su Yao, placed her at Qi Gathering's fifth stage with four pairs. Yue retained the same earned stage and her shoulder limits. Neither record authorized a large array. The trial fixtures were cold, externally grounded and checked before admission. Nobody would carry a human body, a household supply or a flood barrier on these little instruments.",
+      "next": "rival_su_intro",
+      "cast": [
+        "rival_qiu_zhen",
+        "lin_yue",
+        "rival_su_yao"
+      ]
+    },
+    "rival_su_intro": {
+      "chapter": "book_xxii_rival",
+      "speaker": "narrator",
+      "actor": "rival_su_yao",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Qiu set down a rolled survey cord and a small bronze gauge. 'My method is quicker,' she said. 'That claim has a shape. We can time it.' Yue examined the drawing. 'Quicker on the first pass, perhaps. What happens if the latch catches halfway?' Qiu looked up. 'You think I have never met a bad latch?' 'I think I haven't watched you recover from one.' For the first time, Qiu stopped smiling. The argument had found something worth testing.",
+      "next": "rival_terms_01",
+      "cast": [
+        "rival_su_yao",
+        "lin_yue",
+        "rival_qiu_zhen"
+      ]
+    },
+    "rival_terms_01": {
+      "chapter": "book_xxii_rival",
+      "speaker": "narrator",
+      "actor": "rival_su_yao",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Su Yao laid out the trial's small account. Twenty-four copper had already been granted to the facility: nine for the space, six for consumables, six for the attending witnesses and three held unused. The unused three would return to the grant account at the trial term's close. No entry fee, wage or prize belonged to either practitioner. Entering would produce observations, not employment or a specialist certificate. The facility's resources would remain available under the same terms if Yue chose only to watch.",
+      "next": "rival_terms_02"
+    },
+    "rival_terms_02": {
+      "chapter": "book_xxii_rival",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At the cold rail, Yue tried the waist-height supports with both hands below her shoulder's painful range. Su Yao shifted one stool and checked that the retreat lane stayed clear. Qiu watched the adjustment without suggesting that determination could replace it. 'Mine hurts after too much overhead cord,' she said, touching her own elbow. 'That isn't a comparison.' Yue nodded. Their apparatus could share a working height even if their bodies required different arrangements.",
+      "next": "rival_terms_03"
+    },
+    "rival_terms_03": {
+      "chapter": "book_xxii_rival",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Su Yao demonstrated the admission stop and ordinary discharge path before either practitioner approached a fixture. A small isolated comparison could be halted without taking away anyone's ordinary access to the courtyard. The witnesses would record what happened on the chosen route, including withdrawn comparisons and repeat failures. Yue could leave an uncertain result uncertain. Qiu could dispute an interpretation. Neither could turn the other's refusal into proof that her method had won.",
+      "next": "rival_terms_04"
+    },
+    "rival_terms_04": {
+      "chapter": "book_xxii_rival",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Their first disagreement concerned a bowl of water. Qiu wanted a shallow bowl so its surface would settle sooner. Yue wanted enough depth to reveal a lingering drift. Su Yao brought both from a cupboard and asked them to state which question each answered. A sparrow hopped onto the unused bowl and immediately lost interest. Yue thought the bird had made the quickest decision in the courtyard. Qiu looked at the two bowls for a long while and redrew the first line of her plan.",
+      "next": "rival_terms_05"
+    },
+    "rival_terms_05": {
+      "chapter": "book_xxii_rival",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At supper, the shared kitchen served radish broth and rice with toasted sesame. Qiu counted the spoons she could save by moving a pot closer to the serving line. Yue counted the places where a wet sleeve could catch its lid. Neither meant to begin another trial. They did anyway, until the cook moved the pot to a third place and told them to eat. Qiu laughed with her whole face. Yue found that more difficult to dismiss than the chalk joke.",
+      "next": "rival_terms_06"
+    },
+    "rival_terms_06": {
+      "chapter": "book_xxii_rival",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Outside, the notice board had dried enough to read. Yue could accept a competitive comparison, agree to construct a joint reversible fixture or decline participation and spend the afternoons on her own questions. Each path would retain its own actual work and its own relation to Qiu. A choice here would supply no growth, wages or new authority. The fifth stage still held four earned pairs. Yue considered how much of her irritation was useful curiosity, and how much was simply the wish to be seen.",
+      "next": "rival_path_choice"
+    },
+    "rival_path_choice": {
+      "chapter": "book_xxii_rival",
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Qiu rested her cord on the board while Yue decided. A timed competition could test their different methods; joint work could expose what each overlooked; declining could leave the trial to its willing participants while Yue pursued her own observations. The confirmed free afternoons made participation possible, not obligatory. Su Yao waited with the blank attendance page. Yue would choose what to do with the disagreement rather than let the disagreement choose for her.",
+      "choices": [
+        {
+          "text": "Enter separate methods and compete under witnessed conditions.",
+          "next": "rival_compete_entry"
+        },
+        {
+          "text": "Build and compare a joint reversible fixture with Qiu.",
+          "next": "rival_cooperate_entry"
+        },
+        {
+          "text": "Decline the trial and follow independent questions outside the rail.",
+          "next": "rival_independent_entry"
+        }
+      ],
+      "cast": [
+        "lin_yue",
+        "rival_qiu_zhen",
+        "rival_su_yao"
+      ]
+    },
+    "rival_receiving_entry": {
+      "chapter": "book_xxii_rival",
+      "speaker": "narrator",
+      "actor": "rival_su_yao",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Once the three trial afternoons had ended and Yue's chosen path was ready for review, Su Yao opened a later public receiving table. The participants brought their actual comparison pages; visitors could speak for their own observations or keep them private. Yue's selected path determined which account she could offer. An unavailable selection supplied no result from another route. The steward placed the reusable clock at the end of the table. Qiu stood beside the courtyard window, rolling her cord with unusually deliberate hands.",
+      "next": "rival_receiving_independent_01",
+      "routes": [
+        {
+          "decision": "rival_path_choice",
+          "selected": "rival_compete_entry",
+          "next": "rival_receiving_compete_01"
+        },
+        {
+          "decision": "rival_path_choice",
+          "selected": "rival_cooperate_entry",
+          "next": "rival_receiving_cooperate_01"
+        }
+      ],
+      "cast": [
+        "rival_su_yao",
+        "lin_yue",
+        "rival_qiu_zhen"
+      ]
+    },
+    "rival_receiving_compete_01": {
+      "chapter": "book_xxii_rival",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue brought the pages of the separate-method comparison she had actually performed. Its clock readings, withheld comparisons and retained corrections belonged to that work. Qiu's result had its own maker and witnesses. The two methods did not become identical merely because the pages now shared a table. Yue could still disagree with Qiu, and Qiu with her. Su Yao asked them to point to the condition under each claim. For once, both practitioners answered without first saying what the other had overlooked.",
+      "next": "rival_receiving_compete_02"
+    },
+    "rival_receiving_compete_02": {
+      "chapter": "book_xxii_rival",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The competitive route had given their disagreement a body: instruments, wet cords, fatigue and the small time needed to recover from a snag. It had also given them ways to be wrong in public without becoming wrong about everything. Yue kept the actual selected methods and relationship choice in her notebook. She did not replace an awkward result with the ending she would have preferred. Qiu kept her own account, including her own successes. The board was large enough for both records.",
+      "next": "rival_receiving_compete_03"
+    },
+    "rival_receiving_compete_03": {
+      "chapter": "book_xxii_rival",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Qiu had rubbed away the second joke column. Beneath the cleaned patch she wrote 'conditions for repeating.' Yue read it twice. 'That is a better heading,' she said. 'It takes more room,' Qiu replied. 'I am discovering that room is one of your expensive habits.' Yue moved a stool aside so the ordinary passage stayed clear. They had found enough agreement to improve a board, which was smaller than friendship and more useful than pretending the rivalry had ended.",
+      "next": "rival_facility_close_01"
+    },
+    "rival_receiving_cooperate_01": {
+      "chapter": "book_xxii_rival",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue brought the joint fixture pages, with each maker's actual contribution and correction still visible. Their selected division of work had left a history that cooperation could not erase. A withheld comparison remained withheld; an observed failure remained observed; a later valid result retained the conditions that made it valid. Su Yao laid the pages side by side without binding them into a single author. Qiu held the cord flat at one corner while Yue read the relevant note aloud.",
+      "next": "rival_receiving_cooperate_02"
+    },
+    "rival_receiving_cooperate_02": {
+      "chapter": "book_xxii_rival",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The joint route had forced them to share more than a favorable result. Each had encountered a limit in the other's method and a limit in her own willingness to explain it. Their final local relationship decision stayed as chosen: working together had created no standing promise of future work. A later proposal would need its own willing participants, available time and actual scope. Yue liked knowing this. It made the parts of the afternoon they had offered freely feel less likely to be taken away.",
+      "next": "rival_receiving_cooperate_03"
+    },
+    "rival_receiving_cooperate_03": {
+      "chapter": "book_xxii_rival",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Qiu pointed to the drawing they had revised together. 'I still want the closure quicker,' she said. Yue tapped the recovery line. 'I still want to be able to leave it halfway and know what remains.' Su Yao turned the drawing so the next visitor could read both marks. Nobody had to choose one ambition for all apparatus. Yue watched Qiu notice the unlabelled space at the bottom of the sheet. Her rival took the chalk and left room for another person's question.",
+      "next": "rival_facility_close_01"
+    },
+    "rival_receiving_independent_01": {
+      "chapter": "book_xxii_rival",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The table required a record of actual participation before issuing any practitioner result. An independent path, when documented, supplied only Yue's own permitted observations and chosen exchanges. An absent selection established neither participation nor refusal and authorized no invented account. Qiu and the attending participants supplied their trial pages under their own names. Yue could read what was publicly offered or keep personal notes private. A place at this table did not have to become a job.",
+      "next": "rival_receiving_independent_02"
+    },
+    "rival_receiving_independent_02": {
+      "chapter": "book_xxii_rival",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Any documented independent decisions retained their own boundaries: correspondence, renewed competition or respectful distance could continue only as actually chosen. An unavailable page left those matters open. Yue did not need to turn an unverified interval into a secret contribution to the trial. There were still questions outside the rail, including questions nobody at this table had undertaken to solve. An unfinished personal question could make tomorrow worth walking toward without becoming a completed result in somebody else's ledger.",
+      "next": "rival_receiving_independent_03"
+    },
+    "rival_receiving_independent_03": {
+      "chapter": "book_xxii_rival",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Qiu rolled the cord while the table emptied. 'I kept wondering what you would say from the other side of the rail,' she admitted. Yue looked out toward the towpath. 'Then ask what I can actually show you.' Qiu considered the answer, then nodded once. A public experiment could exist without every useful mind entering it. Offered pages remained offered; private or unavailable observations supplied no public finding. Yue left the table with that distinction clear enough to use again.",
+      "next": "rival_facility_close_01"
+    },
+    "rival_facility_close_01": {
+      "chapter": "book_xxii_rival",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Su Yao showed the completed facility account: nine copper for the space, six for purchased consumables and six for the witnesses' attendance. The three held unused had returned to the grant account when the trial term closed. Remaining purchased stock belonged to the facility. Nobody entered those amounts as Yue's or Qiu's wages. The optional trial had offered no prize. Its useful results were the actual pages the participants permitted others to read, and the remaining question of whether another comparison would be worth arranging.",
+      "next": "rival_facility_close_02"
+    },
+    "rival_facility_close_02": {
+      "chapter": "book_xxii_rival",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The late light reached the little cold rail and stopped against its wooden foot. Yue still held four earned pairs at the fifth stage; Qiu's measured realm had not advanced because someone had watched her work. Yue's shoulder still needed its ordinary arrangements. She adjusted her strap before lifting the notebook. Su Yao carried the reusable clock back to the cupboard. Their free afternoons had acquired a history, and the history could remain specific enough to carry without pretending it was a new qualification.",
+      "next": "rival_facility_close_03"
+    },
+    "rival_facility_close_03": {
+      "chapter": "book_xxii_rival",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The desk retained only the pages their makers had actually offered for public use. Personal notebooks went home with their owners. Existing work and travel commitments kept their own dates, and any pending enquiry kept its own answer. Qiu lingered at the notice board. Yue could see, beneath the fresh heading, the faint dusty outline of the old joke. Perhaps improvement always kept some outline of the thing that had made it necessary.",
+      "next": "rival_end_gate"
+    },
+    "rival_end_gate": {
+      "chapter": "book_xxii_rival",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_long_rain_quay",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The courtyard had become ordinary evening space again. The rail was shut, the table cleared, and a child was using its shadow to measure her own footsteps. Yue left with the records actually available to her; an unavailable path remained unverified. Qiu's cord made a soft sound against the board behind her. Whatever relation they had made would begin from these afternoons, with room for the different work each might choose next.",
+      "next": "rival_end_independent",
+      "routes": [
+        {
+          "decision": "rival_path_choice",
+          "selected": "rival_compete_entry",
+          "next": "rival_end_compete"
+        },
+        {
+          "decision": "rival_path_choice",
+          "selected": "rival_cooperate_entry",
+          "next": "rival_end_cooperate"
+        }
+      ]
+    },
+    "rival_end_compete": {
+      "chapter": "book_xxii_rival",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_long_rain_quay",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue followed the quay home with the separate-method pages in her bag and Qiu's actual choices still belonging to Qiu. Rivalry had become something with conditions they could name and results they could disagree over. It could continue within those limits, change its terms or stop. Nothing in the board's clean new heading required them to become friends. Yue found she no longer needed it to. She had met a person whose measure could challenge hers without measuring all of her.",
+      "ending": "A Rival With a Place on the Board"
+    },
+    "rival_end_cooperate": {
+      "chapter": "book_xxii_rival",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_long_rain_quay",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At the quay, Yue stopped to tighten the notebook cord. Their joint fixture had not erased either maker. The offered pages retained the work performed, the selected corrections and the relation they had actually chosen at its close. Qiu could still ask for speed; Yue could still ask for recovery. A future shared afternoon remained a possibility rather than a debt. Yue carried the disagreement home as something that had become useful when both people had been allowed to remain visible inside it.",
+      "ending": "The Work Between Two Measures"
+    },
+    "rival_end_independent": {
+      "chapter": "book_xxii_rival",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_long_rain_quay",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue took the upper towpath with the pages actually supported by her journey. Independent notes, where made, retained their chosen boundaries; unavailable details stayed open. Qiu might be a correspondent, a future rival or a person greeted at a distance, if their actual decisions supported it. The trial's participants kept their own results. Yue watched the courtyard lamps shrink behind the reeds. There were more questions ahead than one rail could hold, and a road from which to ask the next one.",
+      "ending": "A Road Outside the Trial"
+    }
+  }
+}

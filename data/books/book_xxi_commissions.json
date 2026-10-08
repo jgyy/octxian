@@ -165,7 +165,7 @@
         "realm": "qi_gathering",
         "stage": "5: Four pairs"
       },
-      "text": "The clerk gave her a small card with three headings: performed work, accepted future work, and matters awaiting an answer. Yue moved one line from the first heading to the second after rereading its signature. She had accepted the appointment but had not attended it. The correction changed no agreement and earned no practice credit. It made the card useful.",
+      "text": "The clerk gave her a small card with three headings: performed work, accepted future work, and matters awaiting an answer. Yue checked each available entry against its actual receipt or agreement. An accepted but unworked appointment belonged under future work; a renewal enquiry belonged under pending answers. Where neither was documented, both headings stayed empty. Checking the card changed no agreement and earned no practice credit. It made the card useful.",
       "next": "commission_calendar_03"
     },
     "commission_calendar_03": {
@@ -1014,7 +1014,8 @@
         "stage": "5: Four pairs"
       },
       "text": "The request lay with its appointed desk, carrying an honest scope, available intervals and source contact. Yue's existing accepted bookings remained on her calendar; their wages remained unearned until performance. A future response could offer terms she would read before signing. Her four earned pairs and shoulder arrangements accompanied the same patient next step. She left the loggia with useful evidence behind the request and enough blank space ahead for another agreement to become real in its own time.",
-      "ending": "A Request Beside the Calendar"
+      "ending": "A Request Beside the Calendar",
+      "continuation": "rival_entry"
     },
     "commission_home_01": {
       "chapter": "book_xxi_commissions",
@@ -1086,7 +1087,8 @@
         "stage": "5: Four pairs"
       },
       "text": "Yue took her place on the ordinary carriage within the arranged available interval. The return plan and existing accepted dates remained in her private calendar, with changes requiring the proper agreement if circumstances demanded them. Home waited as a place of people and unfinished household questions, rather than a reward certifying that all professional work was solved. She held her permitted papers against the weather and let the journey have its own modest purpose: arriving for the visit she had actually arranged.",
-      "ending": "The Available Homeward Interval"
+      "ending": "The Available Homeward Interval",
+      "continuation": "rival_entry"
     },
     "commission_daywork_01": {
       "chapter": "book_xxi_commissions",
@@ -1158,7 +1160,8 @@
         "stage": "5: Four pairs"
       },
       "text": "Yue closed the daywork enquiry with its answer still pending and its requested hours fitted around actual commitments. Her issued record could support the next negotiation; missing evidence remained missing and completed work retained its exact scope. The fifth stage still held four earned pairs. She carried the calendar home through the rain, ready to accept a real short offer if it suited. Tomorrow would contain the work actually agreed for tomorrow, with no wage or qualification borrowed from a morning yet to be performed.",
-      "ending": "Ordinary Hours, Clearly Kept"
+      "ending": "Ordinary Hours, Clearly Kept",
+      "continuation": "rival_entry"
     }
   }
 }

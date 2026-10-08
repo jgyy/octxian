@@ -1,0 +1,309 @@
+{
+  "schema_version": 1,
+  "title": "Source-backed Tuo Yin identity continuity repair",
+  "source_commit": "0fe9938bf765611b3fe9d31c747fec6067346620",
+  "source_path": "data/books/book_xvi_desert_24.json",
+  "source_file_sha": "5fbc7437e3a72149f6bf7427cda9112ecfd07b7e",
+  "requested_plot_holes": 1000,
+  "confirmed_underlying_defects": 1,
+  "affected_source_passages": 2,
+  "target_met": false,
+  "count_policy": "The two masculine references concern the same established female guide and count once as one underlying character identity contradiction. Two affected passages do not mean two defects. Other earlier audits, new prose, rival paths, checks and media receive no credit in this batch.",
+  "review_scope": {
+    "files_scanned": 151,
+    "scenes_scanned": 10386,
+    "displayed_words_scanned": 935879,
+    "method": "Targeted recurring-identity and financial/timing search across Books XII–XVII, with close-reading of candidates and surrounding named-person passages. Scanned quantities do not imply exhaustive close-reading or 1,000 verified repairs.",
+    "excluded_candidates": "Pronouns belonging to other people in the same paragraph, the Qin trainee's own authority, and a tea stall owner's discarded wrapping paper were excluded."
+  },
+  "defects": [
+    {
+      "id": "tuo-yin-identity-001",
+      "classification": "character_identity_contradiction",
+      "root_cause": "The consistently female named guide Tuo Yin acquires masculine reflexive and possessive references in the Book XVI closing continuation without any new person or explained identity transition.",
+      "affected_node_ids": [
+        "desert_p24_002",
+        "desert_p24_rejoin"
+      ],
+      "evidence": [
+        {
+          "source_path": "data/books/book_xvi_desert_01.json",
+          "node_id": "desert_p01_016",
+          "node": {
+            "chapter": "book_xvi_desert",
+            "cultivation": {
+              "realm": "qi_gathering",
+              "stage": "5: Four pairs"
+            },
+            "effect": "none",
+            "speaker": "narrator",
+            "actor": "lin_yue",
+            "text": "A guide sat on an overturned bucket beside the nearest cart, mending the strap of a sandal. Her scarf had faded from indigo to the colour of a distant storm. When Han introduced her as Tuo Yin, she did not stand. She held the sandal up to Yue instead. 'People always look at the horizon first,' she said. 'The road begins here.' Yue examined the worn stitching. One side had been patched twice. Tuo asked whether the new stage made Yue proud. The question came so directly that Yue admitted it did.",
+            "background": "bitter_wells_caravan_yard",
+            "next": "desert_p01_017"
+          }
+        },
+        {
+          "source_path": "data/books/book_xvi_desert_21.json",
+          "node_id": "desert_p21_022",
+          "node": {
+            "chapter": "book_xvi_desert",
+            "cultivation": {
+              "realm": "qi_gathering",
+              "stage": "5: Four pairs"
+            },
+            "effect": "none",
+            "speaker": "narrator",
+            "actor": "lin_yue",
+            "text": "Her complaint had remained a complaint rather than become evidence of ingratitude. Tuo came the next day after her clinician's review extended ordinary level walking within the recovered ankle's comfortable range. She still avoided the long rough carrying work she had not been cleared to resume. In the court she met the lamp repairer struggling with a seized latch and offered no guide's advice about metal. He offered no lamp man's advice about her foot. They talked instead about the best tea stall nearby. Yue liked the ease of a conversation that did not recruit everybody into the other's profession.",
+            "background": "village_council_room",
+            "next": "desert_p21_023"
+          }
+        },
+        {
+          "source_path": "data/books/book_xvi_desert_23.json",
+          "node_id": "desert_p23_078",
+          "node": {
+            "chapter": "book_xvi_desert",
+            "cultivation": {
+              "realm": "qi_gathering",
+              "stage": "5: Four pairs"
+            },
+            "effect": "none",
+            "speaker": "narrator",
+            "actor": "lin_yue",
+            "text": "Her room's shutter stood at an awkward height but opened above firm ground, so Tuo fetched a sound short stool instead of balancing on the bed. Yue steadied it while she fitted the loop within an easy reach that did not require an overhead catch. They lowered her carefully back to the floor. When the shutter stayed open, a smell of supper from the neighbouring room reached them. Tuo said she had spent years thinking a guide ought to manage alone whatever she managed. Her landlord's old stool had apparently not heard that principle.",
+            "background": "tea_house_private_room",
+            "next": "desert_p23_079"
+          }
+        }
+      ],
+      "repair": "Replace only Tuo's himself with herself and his own household with her own household; preserve other characters' references."
+    }
+  ],
+  "repairs": [
+    {
+      "source_path": "data/books/book_xvi_desert_24.json",
+      "node_id": "desert_p24_002",
+      "before": {
+        "chapter": "book_xvi_desert",
+        "speaker": "narrator",
+        "actor": "gao_ru",
+        "background": "salt_desert_survey_camp",
+        "effects": [
+          "dust",
+          "heat_haze"
+        ],
+        "cast": [
+          "gao_ru",
+          "lin_yue",
+          "tuo_yin"
+        ],
+        "cultivation": {
+          "realm": "qi_gathering",
+          "stage": "5: Four pairs"
+        },
+        "text": "Tuo checked the accepted settlement receipt himself. Its paid amount and the question still open before the ordinary reviewer remained separate. Bao Sun's clinical instructions stayed with the person who needed them; Lin carried no private patient account north. She asked where a later reply could actually reach the guide. Tuo gave the staffed receiving address and its present collection interval. An address was more useful than a solemn promise to remember.",
+        "next": "desert_p24_003"
+      },
+      "after": {
+        "chapter": "book_xvi_desert",
+        "speaker": "narrator",
+        "actor": "gao_ru",
+        "background": "salt_desert_survey_camp",
+        "effects": [
+          "dust",
+          "heat_haze"
+        ],
+        "cast": [
+          "gao_ru",
+          "lin_yue",
+          "tuo_yin"
+        ],
+        "cultivation": {
+          "realm": "qi_gathering",
+          "stage": "5: Four pairs"
+        },
+        "text": "Tuo checked the accepted settlement receipt herself. Its paid amount and the question still open before the ordinary reviewer remained separate. Bao Sun's clinical instructions stayed with the person who needed them; Lin carried no private patient account north. She asked where a later reply could actually reach the guide. Tuo gave the staffed receiving address and its present collection interval. An address was more useful than a solemn promise to remember.",
+        "next": "desert_p24_003"
+      },
+      "displayed_word_delta": 0
+    },
+    {
+      "source_path": "data/books/book_xvi_desert_24.json",
+      "node_id": "desert_p24_rejoin",
+      "before": {
+        "chapter": "book_xvi_desert",
+        "speaker": "narrator",
+        "actor": "lin_yue",
+        "background": "salt_desert_survey_camp",
+        "effects": [
+          "dust",
+          "heat_haze"
+        ],
+        "cast": [
+          "gao_ru",
+          "lin_yue",
+          "tuo_yin"
+        ],
+        "cultivation": {
+          "realm": "qi_gathering",
+          "stage": "5: Four pairs"
+        },
+        "text": "The next morning Lin took the priced northbound carriage after the receiver signed the last returned component. Gao stayed for the survey's current appointments. Tuo returned to his own household, and Bao Sun went to the clinic's waiting patients. They had not been assigned as Lin's escort. Her road food, fare and personal notebook belonged to her, while the commission instruments stayed in their signed custody.",
+        "next": "desert_p24_close_1"
+      },
+      "after": {
+        "chapter": "book_xvi_desert",
+        "speaker": "narrator",
+        "actor": "lin_yue",
+        "background": "salt_desert_survey_camp",
+        "effects": [
+          "dust",
+          "heat_haze"
+        ],
+        "cast": [
+          "gao_ru",
+          "lin_yue",
+          "tuo_yin"
+        ],
+        "cultivation": {
+          "realm": "qi_gathering",
+          "stage": "5: Four pairs"
+        },
+        "text": "The next morning Lin took the priced northbound carriage after the receiver signed the last returned component. Gao stayed for the survey's current appointments. Tuo returned to her own household, and Bao Sun went to the clinic's waiting patients. They had not been assigned as Lin's escort. Her road food, fare and personal notebook belonged to her, while the commission instruments stayed in their signed custody.",
+        "next": "desert_p24_close_1"
+      },
+      "displayed_word_delta": 0
+    }
+  ],
+  "displayed_word_delta": 0,
+  "historical_overlap": [
+    {
+      "path": "docs/ADDITIONAL_REPAIRS_20261005.json",
+      "sha": "d15a5e25c4198f67fb28a37b2e47b7bbd4acf51f",
+      "matching_target_ids": []
+    },
+    {
+      "path": "docs/CHOICE_CONSEQUENCE_AUDIT_20261006.json",
+      "sha": "7d82fca79007d6d71217581a4b9832f275808e59",
+      "matching_target_ids": []
+    },
+    {
+      "path": "docs/CONTINUATION_SECOND_SOURCE_INDEX_20261003.json",
+      "sha": "19e8e74ffef68d8c91852b450cf2abfd041e4eaf",
+      "matching_target_ids": []
+    },
+    {
+      "path": "docs/CONTINUATION_SOURCE_INDEX_20261003.json",
+      "sha": "e17207d90bd960bcd123c64425794ca0a5ac4e9b",
+      "matching_target_ids": []
+    },
+    {
+      "path": "docs/CONTINUITY_REPAIRS_20261003.json",
+      "sha": "99aa7338f50b9af6bac9ba3fbc9a2fb44670d21a",
+      "matching_target_ids": []
+    },
+    {
+      "path": "docs/CONTINUITY_REPAIRS_20261003_COURT.json",
+      "sha": "b3e665f98b080a56b88976fc7ea706038a0e03c6",
+      "matching_target_ids": []
+    },
+    {
+      "path": "docs/CONTINUITY_REPAIRS_20261003_CULTIVATION.json",
+      "sha": "193845d4275dcc8d573cbf54c975143158915b25",
+      "matching_target_ids": []
+    },
+    {
+      "path": "docs/CONTINUITY_REPAIRS_20261003_OPENING.json",
+      "sha": "9939910038d427fe478c440bf5579de0758e64b8",
+      "matching_target_ids": []
+    },
+    {
+      "path": "docs/CONTINUITY_REPAIRS_20261003_RING.json",
+      "sha": "2a695946a3ad3007d41b4bd37380fedcde4f2dea",
+      "matching_target_ids": []
+    },
+    {
+      "path": "docs/CONTINUITY_REPAIRS_20261003_SECOND_CITY.json",
+      "sha": "a219f8429f6fd0c411ece78f73b41fa1d1e8aedc",
+      "matching_target_ids": []
+    },
+    {
+      "path": "docs/CONTINUITY_REPAIRS_20261003_SECOND_CULTIVATION.json",
+      "sha": "87b33517b3bdbc17e597ab4fb77311212ba49598",
+      "matching_target_ids": []
+    },
+    {
+      "path": "docs/CONTINUITY_REPAIRS_20261003_SECOND_FERRY.json",
+      "sha": "c86b040fc0a3287f0b9aa4040f2901963cd56855",
+      "matching_target_ids": []
+    },
+    {
+      "path": "docs/CONTINUITY_REPAIRS_20261003_SECOND_ORCHARD.json",
+      "sha": "0cde3d4f73941fb6010d4f35d6691e576ab392e9",
+      "matching_target_ids": []
+    },
+    {
+      "path": "docs/CONTINUITY_REPAIRS_20261003_SECOND_RING.json",
+      "sha": "9f0a067276e0de42620217a1ae849ddbdd17b849",
+      "matching_target_ids": []
+    },
+    {
+      "path": "docs/CONTINUITY_REPAIRS_20261003_SECOND_RIVER.json",
+      "sha": "72756acf29beceff5b692df28fab157320a94410",
+      "matching_target_ids": []
+    },
+    {
+      "path": "docs/CONTINUITY_REPAIRS_20261004.json",
+      "sha": "c4fb5d5d9d0024778d3cf6e234b727f87d1e4d57",
+      "matching_target_ids": []
+    },
+    {
+      "path": "docs/LATE_CONTINUITY_AUDIT_20261006.json",
+      "sha": "2d927df69bb47be9257ca354095207428c733616",
+      "matching_target_ids": []
+    },
+    {
+      "path": "docs/NARRATIVE_REPAIRS_20261005.json",
+      "sha": "f05a0a54719ae4eb0ef64b2e6dd44aa94bbd6f51",
+      "matching_target_ids": []
+    },
+    {
+      "path": "docs/REED_CROSSING_REPAIRS_20261006.json",
+      "sha": "e81008b6557f5ff8e6257d6f304a4ef0015d3e8d",
+      "matching_target_ids": []
+    },
+    {
+      "path": "docs/SEMANTIC_CONTINUITY_REVIEW_20261006.json",
+      "sha": "f87976fc2884c250d96800e9c2defdf8e42d3e26",
+      "matching_target_ids": []
+    },
+    {
+      "path": "docs/STORM_SALT_REPAIRS_20261006.json",
+      "sha": "7566d8bf4c149c6991aec0088ad5994f1f277862",
+      "matching_target_ids": []
+    },
+    {
+      "path": "docs/audits/vii_xii_causal_review_20261006.json",
+      "sha": "759149e39016de7cc9439d3f29233bfa3179ed2d",
+      "matching_target_ids": []
+    },
+    {
+      "path": "docs/audits/vii_xii_salt_purchase_volume_20261006.json",
+      "sha": "9bb2d1988684b6cf04aea2019b71946bb5315ad2",
+      "matching_target_ids": []
+    },
+    {
+      "path": "docs/HARBOR_IDENTITY_REPAIRS_20261007.json",
+      "sha": "232f8218b5cc2b5fa33c2afb4774e41261b4eed6",
+      "matching_target_ids": []
+    },
+    {
+      "path": "docs/CAREER_CONTINUITY_REPAIRS_20261007.json",
+      "sha": "2e306efd77c1c9a006395d66d07f3c508f85cdcc",
+      "matching_target_ids": []
+    }
+  ],
+  "unchanged_fields": "All scene IDs, prose outside the two exact substitutions, choices, routes, next/continuation destinations, rewards, backgrounds, speakers, actors and cultivation metadata are retained."
+}

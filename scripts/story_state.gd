@@ -115,6 +115,8 @@ func choice_details(choice: Dictionary) -> Dictionary:
 		if decisions[current] != target:
 			details.reason = "This decision has already been made on this journey."
 			return details
+	# A saved matching choice may be replayed for navigation, never for another reward or cost.
+	var replaying_decision := decisions.has(current)
 	var requirements = choice.get("requires", {})
 	var effects = choice.get("effects", {})
 	if not requirements is Dictionary or not effects is Dictionary:
@@ -136,7 +138,8 @@ func choice_details(choice: Dictionary) -> Dictionary:
 		if not is_finite(float(effect)) or effect < -MAX_STAT or effect > MAX_STAT or effect != int(effect):
 			details.reason = "This choice has an invalid attribute change."
 			return details
-		var updated: int = int(stats.get(key, 0)) + int(effect)
+		var applied_effect: int = 0 if replaying_decision else int(effect)
+		var updated: int = int(stats.get(key, 0)) + applied_effect
 		if updated < 0 or updated > MAX_STAT:
 			details.reason = "This choice would exceed the attribute limits."
 			return details
@@ -148,7 +151,7 @@ func choice_details(choice: Dictionary) -> Dictionary:
 			details.requirements.append(requirement)
 			if int(stats.get(key, 0)) < int(requirements[key]):
 				details.missing.append(requirement)
-		if effects.has(key) and int(effects[key]) != 0:
+		if effects.has(key) and int(effects[key]) != 0 and not replaying_decision:
 			var effect: int = int(effects[key])
 			details.effects.append("%s %s%d" % [title, "+" if effect > 0 else "", effect])
 	details.available = details.missing.is_empty()

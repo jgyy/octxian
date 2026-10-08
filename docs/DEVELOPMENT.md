@@ -151,3 +151,14 @@ Run `godot --headless --path . --script tests/commissions_test.gd` to exercise a
 The full capture suite includes ten new commission offer, entry, kitchen and saved portfolio views, bringing its expected total to 140. Capture walks use actual choices and save/load; the verifier adds the measured count only after the images pass. Seven new source PNGs retain their original bytes and maximum generated native dimensions, including the loggia's distinct 1672 × 940 output. Packaged-game smoke validation loads all seven backgrounds and checks their catalog dimensions without the source checkout.
 
 The usual full CI still checks prior pinned continuity audits, all manuscript routes, native source and decoded-pixel uniqueness, narration provenance, rendered captures and exported Linux playback. The draft keeps incomplete production word/art targets visible. No new historical plot-hole credit is assigned to authored commission failures or prepublication review corrections.
+
+
+## Book XXII rival paths and native sprites (2026-10-08)
+
+The campaign contains 1,337,201 displayed words in 15,518 scenes and 22 books; 662,799 words remain for two million. [Rival paths and exact accounting](RIVAL_PATHS_20261008.md) documents three complete approaches to Qiu Lian's method, 132 local choice combinations, actual delayed results and the finite facility grant. Every scene keeps fifth-stage four pairs and shoulder arrangements; the trial creates no wages, prizes, qualifications or growth.
+
+Run `godot --headless --path . --script tests/rival_paths_test.gd` for real prior ending continuations, zero-score path coverage, actual saved decisions, immutable selected destinations, matching replay, delayed routes and completed outcomes. Python graph traversal prunes obsolete decisions only from reachability signatures while saves retain full actual history. The two new portrait PNGs preserve maximum requested native output at 1024 × 1536 with original bytes and RGBA transparency.
+
+CI fetches source `0fe9938bf765611b3fe9d31c747fec6067346620` and runs `python -m tools.validate_commission_calendar_repair --verify-source` and `python -m tools.validate_late_identity_repairs --verify-source`. These authenticate two literary roots across three old passages. Replay effects receive separate mechanics credit. Prepublication rival corrections add no historical repair credit, and the 1,000-repair target remains unverified.
+
+Nine new actual game captures use saved zero-score route walks. The expected full set is 149 captures, measured only by successful screenshot verification. Captures run before new narration generation; source-free package tests later require every new narrated scene anchor, both native sprites and all three actual completed paths. The usual full CI validates all narration and exported Linux playback. Production word/art quotas remain incomplete, so the PR remains draft.

@@ -854,10 +854,148 @@ func _capture_commission_checkpoint(path: String) -> bool:
 	if not state.save_game(path):
 		return false
 	var restored = StoryState.new(state.story)
-	if not restored.load_game(path) or restored.current != state.current or restored.decisions != state.decisions or restored.completed_practice != state.completed_practice or restored.stats != state.stats or restored.history != state.history:
+	if not restored.load_game(path) or restored.current != state.current or restored.decisions != state.decisions or restored.completed_practice != state.completed_practice or restored.stats != state.stats or restored.history != state.history or restored.journey_seed != state.journey_seed or restored.encounters != state.encounters:
 		return false
 	state = restored
 	return true
+
+
+# Follow authored transitions and available player choices within the rival book.
+# Returns the number of transitions, or -1 on a blocked/missing/cyclic route.
+func _rival_walk_to(target: String, limit: int = 2000) -> int:
+	var steps := 0
+	while state.current != target and steps < limit:
+		if state.node().is_empty() or state.node().has("ending") or not _capture_commission_advance():
+			return -1
+		steps += 1
+	return steps if state.current == target else -1
+
+func _capture_rival_frame(name: String) -> bool:
+	_scene()
+	dialogue.visible_characters = -1
+	choice_box.visible = choice_box.get_child_count() > 0
+	await get_tree().create_timer(0.4).timeout
+	await RenderingServer.frame_post_draw
+	if actor.sprite.texture == null or background.texture == null:
+		return false
+	return get_viewport().get_texture().get_image().save_png("res://build/screenshots/%s.png" % name) == OK
+
+func _capture_rivals() -> bool:
+	var choice_save := "user://rival_capture_choice.json"
+	var branch_save := "user://rival_capture_branch.json"
+	var names := ["compete", "cooperate", "independent"]
+	var entries := ["rival_compete_entry", "rival_cooperate_entry", "rival_independent_entry"]
+	var endings := ["rival_end_compete", "rival_end_cooperate", "rival_end_independent"]
+	state = StoryState.new(state.story)
+	# A local new-book checkpoint starts before any new player decision or work.
+	state.current = "rival_entry"
+	var opening_steps := 0
+	var introductions: Dictionary = {}
+	while state.current != "rival_path_choice" and opening_steps < 2000:
+		if state.current == "rival_qiu_intro" or state.current == "rival_su_intro":
+			var capture_name := "rival_qiu_zhen" if state.current == "rival_qiu_intro" else "rival_su_yao"
+			if not (await _capture_rival_frame(capture_name)):
+				return false
+			introductions[state.current] = true
+		if state.node().is_empty() or state.node().has("ending") or not _capture_commission_advance():
+			return false
+		opening_steps += 1
+	if state.current != "rival_path_choice" or introductions.size() != 2 or state.stats != {"qi": 0, "trust": 0, "insight": 0, "resolve": 0}:
+		return false
+	if not _capture_commission_checkpoint(choice_save) or not (await _capture_rival_frame("rival_paths")):
+		return false
+	for selection in range(names.size()):
+		if not state.load_game(choice_save) or not state.choose(selection) or state.current != entries[selection]:
+			return false
+		if not (await _capture_rival_frame("rival_" + names[selection])):
+			return false
+		var receiving_steps := _rival_walk_to("rival_receiving_entry", 1999)
+		if receiving_steps < 0 or state.decisions.get("rival_path_choice", "") != entries[selection] or not _capture_commission_checkpoint(branch_save):
+			return false
+		var ending_steps := _rival_walk_to(endings[selection], 1999 - receiving_steps)
+		if ending_steps < 0 or not state.node().has("ending") or state.decisions.get("rival_path_choice", "") != entries[selection]:
+			return false
+		if state.stats != {"qi": 0, "trust": 0, "insight": 0, "resolve": 0} or not _capture_commission_checkpoint(branch_save):
+			return false
+		if not (await _capture_rival_frame(endings[selection])):
+			return false
+		print("JADE_VOW_RIVAL_CAPTURE: %s in %d actual transitions" % [names[selection], 1 + receiving_steps + ending_steps])
+	for path in [choice_save, branch_save]:
+		for suffix in ["", ".bak", ".tmp"]:
+			if FileAccess.file_exists(path + suffix):
+				DirAccess.remove_absolute(path + suffix)
+	return true
+
+func _smoke_rival_scene() -> bool:
+	_scene()
+	return actor.character == str(state.node().get("actor", "lin_yue")) and actor.sprite.texture != null and background.texture != null and audio.voice.stream is AudioStreamOggVorbis
+
+func _smoke_rivals() -> bool:
+	var valid := true
+	var chapters := ["book_i", "book_ii", "book_iii", "book_iv", "book_v", "book_vi", "book_vii", "book_viii", "book_ix", "book_x_storm_ledger", "book_xi_salt_road", "book_xii_canal", "book_xiii_forest", "book_xiv_harbor", "book_xv_kiln", "book_xvi_desert", "book_xvii_archive", "book_xviii_letters", "book_xix_reed_crossing", "book_xx_careers", "book_xxi_commissions", "book_xxii_rival"]
+	for chapter in chapters:
+		valid = state.story.chapters.has(chapter) and valid
+	valid = state.story.chapters.size() == chapters.size() and valid
+	var native_portraits: Dictionary = {}
+	for painting in world.get("npcs", []):
+		if not ["rival_qiu_zhen", "rival_su_yao"].has(str(painting.id)):
+			continue
+		var native = load("res://" + str(painting.path))
+		var size: Array = painting.get("native_size", [])
+		valid = native is Texture2D and size.size() == 2 and valid
+		if native is Texture2D and size.size() == 2:
+			valid = native.get_size() == Vector2(size[0], size[1]) and valid
+			native_portraits[str(painting.id)] = native
+	valid = native_portraits.size() == 2 and valid
+	var choice_save := "user://rival_package_choice.json"
+	var branch_save := "user://rival_package_branch.json"
+	var entries := ["rival_compete_entry", "rival_cooperate_entry", "rival_independent_entry"]
+	var endings := ["rival_end_compete", "rival_end_cooperate", "rival_end_independent"]
+	var ending_titles := ["A Rival With a Place on the Board", "The Work Between Two Measures", "A Road Outside the Trial"]
+	state = StoryState.new(state.story)
+	state.current = "rival_entry"
+	valid = _smoke_rival_scene() and valid
+	valid = state.node().get("speaker", "") == "narrator" and valid
+	var opening_steps := 0
+	var introductions: Dictionary = {}
+	while state.current != "rival_path_choice" and opening_steps < 2000:
+		if state.current == "rival_qiu_intro" or state.current == "rival_su_intro":
+			valid = _smoke_rival_scene() and valid
+			var character := "rival_qiu_zhen" if state.current == "rival_qiu_intro" else "rival_su_yao"
+			valid = actor.character == character and native_portraits.has(character) and valid
+			if native_portraits.has(character):
+				valid = actor.sprite.texture == native_portraits[character] and valid
+			valid = state.node().get("speaker", "") == "narrator" and valid
+			introductions[state.current] = true
+		if state.node().is_empty() or state.node().has("ending") or not _capture_commission_advance():
+			return false
+		opening_steps += 1
+	if state.current != "rival_path_choice" or introductions.size() != 2 or not _capture_commission_checkpoint(choice_save):
+		return false
+	valid = _smoke_rival_scene() and valid
+	valid = choice_box.get_child_count() == 3 and valid
+	for selection in range(entries.size()):
+		if not state.load_game(choice_save) or not state.choose(selection) or state.current != entries[selection]:
+			return false
+		valid = _smoke_rival_scene() and valid
+		valid = state.node().get("speaker", "") == "narrator" and valid
+		var receiving_steps := _rival_walk_to("rival_receiving_entry", 1999)
+		if receiving_steps < 0 or state.decisions.get("rival_path_choice", "") != entries[selection] or not _capture_commission_checkpoint(branch_save):
+			return false
+		valid = _smoke_rival_scene() and valid
+		var ending_steps := _rival_walk_to(endings[selection], 1999 - receiving_steps)
+		if ending_steps < 0 or not _capture_commission_checkpoint(branch_save):
+			return false
+		valid = state.decisions.get("rival_path_choice", "") == entries[selection] and valid
+		valid = state.node().get("ending", "") == ending_titles[selection] and valid
+		valid = state.stats == {"qi": 0, "trust": 0, "insight": 0, "resolve": 0} and valid
+		valid = _smoke_rival_scene() and valid
+		print("JADE_VOW_RIVAL_PACKAGE: %s in %d actual transitions" % [entries[selection], 1 + receiving_steps + ending_steps])
+	for path in [choice_save, branch_save]:
+		for suffix in ["", ".bak", ".tmp"]:
+			if FileAccess.file_exists(path + suffix):
+				DirAccess.remove_absolute(path + suffix)
+	return valid
 
 func _capture() -> void:
 	DirAccess.make_dir_recursive_absolute("res://build/screenshots")
@@ -1237,6 +1375,10 @@ func _capture() -> void:
 	for suffix in ["", ".bak", ".tmp"]:
 		if FileAccess.file_exists(commission_save + suffix):
 			DirAccess.remove_absolute(commission_save + suffix)
+	if not (await _capture_rivals()):
+		push_error("Played rival paths, saved reviews or rendered native portraits failed")
+		_quit_game(1)
+		return
 	print("JADE_VOW_CAPTURE_OK")
 	_quit_game()
 
@@ -1497,6 +1639,8 @@ func _smoke_build() -> void:
 		if native is Texture2D and painting.get("native_size", []).size() == 2:
 			valid = native.get_size() == Vector2(painting.native_size[0], painting.native_size[1]) and valid
 	valid = commission_native_count == commission_paintings.size() and valid
+	# Walk all three rival choices and retained outcomes inside the source-free pack.
+	valid = _smoke_rivals() and valid
 	if valid:
 		print("JADE_VOW_PACKAGE_OK: standalone story, world art, object inspection and narration")
 	else:

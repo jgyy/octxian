@@ -4,15 +4,23 @@
 
 An original xianxia visual novel built in **Godot 4.7.2**. Lin Yue begins as a mortal kiln worker and earns her cultivation through practice, failures, recovery and independently witnessed trials. Work, evidence and freely made commitments shape the people she meets.
 
-The playable campaign contains **1,264,970 displayed prose words across 14,543 scenes and 21 books**. The count includes alternative playable branches; only dialogue prose counts toward the manuscript. Books XII–XVII are now connected through the campaign manifest, with completed forest, desert and archive closing sequences. [Current manuscript, source review and chapter counts](docs/MILLION_WORD_CONTINUATION.md).
+The playable campaign contains **1,337,201 displayed prose words across 15,518 scenes and 22 books**. The count includes alternative playable branches; only dialogue prose counts toward the manuscript. Books XII–XVII are now connected through the campaign manifest, with completed forest, desert and archive closing sequences. [Current rival continuation, source review and exact counts](docs/RIVAL_PATHS_20261008.md).
 
 ![Archive ensemble dialogue](docs/screenshots/archive_ensemble.jpg)
+
+## Book XXII · The Other Measure
+
+**Qiu Lian** challenges Lin Yue's patient recovery method with quicker low-load closure. Players can compete under witnessed conditions, build a joint reversible fixture, or decline the trial and pursue independent questions. Saved choices shape later corrections, correspondence and rivalry; each route keeps its own performed work and limits.
+
+Book XXII adds **72,220 displayed prose words in 975 scenes**, plus eleven words from two authenticated existing-source continuity repairs. Two new transparent full-body sprites retain their original **1024 × 1536 native PNG** bytes. The requested two-million-word and 1,000-repair targets remain unfinished. [Routes, exact counts, finite grant, repair evidence and nine game captures](docs/RIVAL_PATHS_20261008.md) · [Native sprite provenance](assets/art/RIVALS_20261008_PROVENANCE.md).
+
+![Three rival paths](docs/screenshots/rival_paths.jpg)
 
 ## Book XXI · The Work After the Witness
 
 The selected career continues into a new paid commission: kiln receiving, archive condition-record coordination, watershed team recording or independent freight stewardship. Lin works with coworkers, keeps failed evidence, performs a correction and earns a bounded coordination review. The archive now offers a real current-duty choice between earlier-specialty deepening and supervised shared receiving. Saved choices retain their actual outcomes, and existing future bookings remain on the calendar.
 
-This book adds **71,944 displayed prose words across 936 scenes**. The campaign contains **1,264,970 words**, with **735,030 remaining** toward two million. **Seven new original paintings** preserve the generator's maximum native output: six are **1672 × 941**, and the review loggia is **1672 × 940**. Their original PNGs, exact prompts and Git source records are retained. New manuscript events add no historical plot-repair credit; the requested 1,000 verified repairs remain unfinished. [Commission routes, finite budgets, two diagrams and ten game captures](docs/COMMISSIONS_20261007.md) · [Native-image records](assets/art/COMMISSIONS_20261007_PROVENANCE.md).
+This book adds **71,944 displayed prose words across 936 scenes**. At this book's delivery, the campaign contained **1,264,970 words**, with **735,030 remaining** toward two million. **Seven new original paintings** preserve the generator's maximum native output: six are **1672 × 941**, and the review loggia is **1672 × 940**. Their original PNGs, exact prompts and Git source records are retained. New manuscript events add no historical plot-repair credit; the requested 1,000 verified repairs remain unfinished. [Commission routes, finite budgets, two diagrams and ten game captures](docs/COMMISSIONS_20261007.md) · [Native-image records](assets/art/COMMISSIONS_20261007_PROVENANCE.md).
 
 ![New commission offer in the game](docs/screenshots/commission_offer.jpg)
 
@@ -44,7 +52,7 @@ flowchart LR
 
 Reed Crossing adds **9,118 displayed prose words after four editorial corrections and 125 scenes**, continuing the retained Book XVIII ending. Four bounded measuring approaches, a twelve-place ferry, three explanation methods and one eighteen-copper recovery grant create **108 complete paths and nine persistent cargo-policy accounts**. Grain, linen and private wage annotations keep different losses; later work cannot rewrite the first delivery. Lin retains her earned fifth stage.
 
-Two current-source contradictions are repaired with authenticated before/after evidence. This batch does **not** verify the requested 1,000 plot holes. **735,030 displayed prose words remain** to reach two million. [Source audit, budgets, diagrams and real viewport captures](docs/REED_CROSSING_20261006.md).
+Two current-source contradictions are repaired with authenticated before/after evidence. This batch does **not** verify the requested 1,000 plot holes. **662,799 displayed prose words remain** to reach two million. [Source audit, budgets, diagrams and real viewport captures](docs/REED_CROSSING_20261006.md).
 
 One new original **1672 × 941 native PNG background** was generated at the highest native landscape resolution returned by the image tool. Established native portraits are reused. [Creation record](assets/art/REED_CROSSING_20261006_PROVENANCE.md).
 
@@ -69,7 +77,7 @@ flowchart LR
 
 Choices now retain selected destinations through saves and change later scenes. This revision adds **18,694 net prose words and 248 scenes**: six earlier followthroughs and Book XVIII, *The Letter That Arrived Late*. One copy place, a rain window, a future session, two canvas sheets and one service grant create real competing obligations. Nine final material-and-service combinations keep unchosen losses. [Consequences, source evidence, save diagram and actual captures](docs/CONSEQUENCE_REVISION_20261006.md).
 
-The exact audit verifies **one pre-existing branch inconsistency** and **six gameplay consequence improvements**. The requested 1,000 plot repairs are unverified; the manuscript still needs **735,030 words** for two million. Existing paintings cover the new locations.
+The exact audit verifies **one pre-existing branch inconsistency** and **six gameplay consequence improvements**. The requested 1,000 plot repairs are unverified; the manuscript still needs **662,799 words** for two million. Existing paintings cover the new locations.
 
 ![Delayed household comparison at identical attributes](docs/screenshots/consequence_house.jpg)
 
@@ -85,7 +93,7 @@ flowchart LR
 
 Thirteen additional choices in Books X–XI now award growth after their exclusive work passages, including the household correction hearing, all three storm departures, all three water investigations, all three optional trials and all three valley settlements. Saves use practice rules 3; older rules retain already-paid selection credit and earlier deferred work remains pending. [Source audit and review](docs/STORM_SALT_REVISION_20261006.md).
 
-This batch fixes **13 source sites of one recurring causality issue**. It does not satisfy the request for 100 new repairs or add manuscript words. The current total is **1,264,970**, with **735,030** required to reach two million.
+This batch fixes **13 source sites of one recurring causality issue**. It does not satisfy the request for 100 new repairs or add manuscript words. The current total is **1,337,201**, with **662,799** required to reach two million.
 
 ## Existing-volume expansion toward two million words
 
@@ -170,14 +178,14 @@ This continuation adds three independently generated originals: a **1536×1024 a
 
 | Production quota | Delivered | Target |
 |---|---:|---:|
-| Displayed prose words | 1,193,026 | 2,000,000 |
-| Original environments | 41 | 100 |
-| Extra building interiors | 43 | 100 |
-| Human NPC originals | 65 | 500 |
+| Displayed prose words | 1,337,201 | 2,000,000 |
+| Original environments | 46 | 100 |
+| Extra building interiors | 45 | 100 |
+| Human NPC originals | 67 | 500 |
 | Spirit-beast originals | 15 | 501 |
-| Unique world sprites | 80 | 1,001 |
+| Unique world sprites | 82 | 1,001 |
 
-The manuscript is **806,974 words short of the 2,000,000-word target**. The independent artwork quotas also remain unfinished, so the PR stays draft. Core outfit portraits, items and effects do not inflate world-sprite totals. **World → Interiors** previews delivered interiors; **Inspect objects** displays paintings without granting inventory custody.
+The manuscript is **662,799 words short of the 2,000,000-word target**. The independent artwork quotas also remain unfinished, so the PR stays draft. Core outfit portraits, items and effects do not inflate world-sprite totals. **World → Interiors** previews delivered interiors; **Inspect objects** displays paintings without granting inventory custody.
 
 ## Continuity review
 

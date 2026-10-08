@@ -21,7 +21,8 @@
     "book_xviii_letters",
     "book_xix_reed_crossing",
     "book_xx_careers",
-    "book_xxi_commissions"
+    "book_xxi_commissions",
+    "book_xxii_rival"
   ],
   "facts": [
     {
@@ -2507,6 +2508,47 @@
         "commission_home_01",
         "commission_daywork_01"
       ]
+    },
+    {
+      "id": "rival_independent_methods_and_personhood",
+      "statement": "Qiu Lian is an independent woman aged32 with measured Qi Gathering5 Four pairs. Her rival claim concerns fast low-load closure. Lin retains her own fifth-stage four pairs and shoulder limits; neither person borrows growth, qualification or intent from the other.",
+      "anchors": [
+        "rival_qiu_intro",
+        "rival_su_intro",
+        "rival_terms_02",
+        "rival_facility_close_02"
+      ]
+    },
+    {
+      "id": "rival_calendar_and_voluntary_participation",
+      "statement": "Three optional trial afternoons are confirmed free before acceptance; existing work and travel dates stay binding. Root offers separate competition, joint fixture work or refusal with independent observation. Entering pays no wage/prize and grants no growth. A documented refusal produces no participant result; an unavailable saved selection establishes neither participation nor refusal.",
+      "anchors": [
+        "rival_prior_gate",
+        "rival_calendar_01",
+        "rival_terms_01",
+        "rival_path_choice",
+        "rival_receiving_independent_01"
+      ]
+    },
+    {
+      "id": "rival_finite_facility_grant",
+      "statement": "The steward holds a24-copper facility grant:9 space,6 purchased consumables,6 witnesses,3 unused returned to grant account at the trial term's close. Remaining purchased stock stays facility property. No amount becomes either practitioner's wage or personal purse.",
+      "anchors": [
+        "rival_terms_01",
+        "rival_facility_close_01"
+      ]
+    },
+    {
+      "id": "rival_actual_method_and_relationship_history",
+      "statement": "Later callbacks read actual recorded choices and retain performed, withheld and corrected comparisons. Shared receiving names only the selected major path; public notes remain separately offered and personal notebooks stay with makers. Rivalry does not establish a standing future service.",
+      "anchors": [
+        "rival_path_choice",
+        "rival_receiving_entry",
+        "rival_receiving_compete_01",
+        "rival_receiving_cooperate_01",
+        "rival_receiving_independent_01",
+        "rival_facility_close_03"
+      ]
     }
   ],
   "review_policy": "Review each new chapter's chronology, custody, character knowledge, and alternate outcomes before updating this ledger. Structural checks supplement editorial review; they do not prove the absence of all possible plot holes.",
@@ -3521,6 +3563,36 @@
       "required": [
         "commission_entry",
         "commission_offer_choice"
+      ]
+    },
+    {
+      "id": "rival_real_dates_and_scope_before_path",
+      "before": "rival_path_choice",
+      "required": [
+        "rival_entry",
+        "rival_prior_gate",
+        "rival_calendar_01",
+        "rival_qiu_intro",
+        "rival_su_intro",
+        "rival_terms_01",
+        "rival_terms_02",
+        "rival_terms_03"
+      ]
+    },
+    {
+      "id": "rival_actual_selection_before_receiving",
+      "before": "rival_receiving_entry",
+      "required": [
+        "rival_path_choice"
+      ]
+    },
+    {
+      "id": "rival_facility_account_before_closing",
+      "before": "rival_end_gate",
+      "required": [
+        "rival_facility_close_01",
+        "rival_facility_close_02",
+        "rival_facility_close_03"
       ]
     }
   ]
