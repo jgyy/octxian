@@ -1,0 +1,852 @@
+{
+  "chapters": {},
+  "characters": {},
+  "nodes": {
+    "season_archive_m02_entry": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The next accepted interval began a week later. A household owner was coming to the consent room, and Su opened the first morning's priority record before bringing out any new paper. Its selected work had not become all the work merely because another week had passed. Qiu put a fresh board on the low table. Yue rested her shoulder and waited while the actual source question, completed sheet or pending inventory received its own place in the new morning.",
+      "next": "season_archive_m02_common_001",
+      "routes": [
+        {
+          "decision": "season_archive_m01_priority",
+          "selected": "season_archive_m01_source_001",
+          "next": "season_archive_m02_recall_source_001"
+        },
+        {
+          "decision": "season_archive_m01_priority",
+          "selected": "season_archive_m01_copy_001",
+          "next": "season_archive_m02_recall_copy_001"
+        },
+        {
+          "decision": "season_archive_m01_priority",
+          "selected": "season_archive_m01_owner_001",
+          "next": "season_archive_m02_recall_owner_001"
+        }
+      ]
+    },
+    "season_archive_m02_recall_source_001": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The source-first record contained a copied description of the surviving strokes and a precise owner question. The complete public-sheet copy remained unfinished. Su said the owner had received that question and wanted to answer in person rather than promise a remembered date in writing. Qiu looked at the small descriptive scrap. 'It did bring a person to the table,' she said. Yue answered that the person's account would still need its own limits. Their actual first priority had opened a conversation, not supplied its historical answer.",
+      "next": "season_archive_m02_recall_source_002"
+    },
+    "season_archive_m02_recall_source_002": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The owner had sent one preliminary sentence: she had received the cloth with the book from her aunt's cupboard and did not know who wrote the torn label. Yue copied that present statement into the pending-contact record, with its source and timing, rather than attaching it to an ancient date. Qiu said the missing half might now be less important than the living transfer. Yue agreed it could be useful, but only for the transfer the woman actually remembered. The earlier descriptive work stayed available beside that narrower new fact.",
+      "next": "season_archive_m02_recall_source_003"
+    },
+    "season_archive_m02_recall_source_003": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Qiu told Yue she had resented the incomplete sheet more than she had admitted. A clear owner response now made the cost easier to accept, but it did not make their unperformed copy exist. Yue liked hearing both halves. 'We can choose another interval for that sheet if it remains useful,' she said. Qiu nodded without treating the sentence as a booking. Su closed the old priority page. Its lesson belonged to a performed source-first morning and would not need to be borrowed into every later choice.",
+      "next": "season_archive_m02_common_001"
+    },
+    "season_archive_m02_recall_copy_001": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The sheet-first record contained a completed authorized public copy and the cloth's explicit unresolved group note. A reader had already used the ordinary quantities without needing the cloth's history. Su showed the copy's handling page and confirmed that no detailed source question had been prepared during that morning. The owner contact today came through the project's ordinary follow-up, not an invented earlier request. Qiu smiled at the used sheet. Yue smiled too. It was satisfying to see actual modest work travel farther than their most attractive unresolved object.",
+      "next": "season_archive_m02_recall_copy_002"
+    },
+    "season_archive_m02_recall_copy_002": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The owner had been told that the group description left the cloth's source open. She wanted to explain its recent transfer from her aunt's cupboard, and Su had arranged this separate contact under the project. Qiu said the completed sheet had made the annex look useful enough to deserve another answer. Yue warned against making that motive the owner's without asking. Qiu accepted the correction. The owner might be coming from affection, annoyance or ordinary housekeeping. Their copied sheet could remain useful without acquiring authorship of somebody else's decision.",
+      "next": "season_archive_m02_recall_copy_003"
+    },
+    "season_archive_m02_recall_copy_003": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Before the woman arrived, Yue checked the finished copy's omission bracket once more. Qiu asked whether she expected it to change overnight. 'No. I expect my memory to make it tidier,' Yue said. Qiu laughed and pointed to the unresolved cloth note. Its presence had kept the sheet-first priority honest. Su closed the first page after naming its real result and remaining question. They would begin the owner conversation with a used public copy behind them, rather than pretending they had chosen a source investigation from the start.",
+      "next": "season_archive_m02_common_001"
+    },
+    "season_archive_m02_recall_owner_001": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The narrower-inventory record contained a request for owner approval and no performed public-sheet copy. Su had carried the request through the ordinary contact. The owner had replied that she could confirm the physical group but wanted to explain its limits in person before approving the proposed heading. Qiu regarded the pending page with more patience than she had felt last week. The request had not produced a broad consent. It had produced a real response from the person whose papers the room wanted to describe.",
+      "next": "season_archive_m02_recall_owner_002"
+    },
+    "season_archive_m02_recall_owner_002": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Su read the owner's preliminary correction: the cloth had been found in her aunt's cupboard with the laundry book, but the delivery sheets had occupied a separate sleeve before she wrapped the group for deposit. The shared outer wrapper therefore proved only this recent grouping. Yue was glad the narrower question had made that relation visible. Qiu said the first title would have hidden it. They changed the proposed inventory's wrapper line while leaving its approval pending until the meeting. A corrected proposal was still a proposal, with a useful actual correction.",
+      "next": "season_archive_m02_recall_owner_003"
+    },
+    "season_archive_m02_recall_owner_003": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Qiu acknowledged that the morning without a sheet had now prevented a mistaken common origin. Yue refused to call the delay entirely repaid. 'We still haven't made the ordinary copy,' she said. Qiu smiled at that fairness. Su kept both facts in the first-priority record: a real inventory response and an unperformed public sheet. The project would choose later tasks under fresh available intervals. This contact did not retroactively perform the work they had forgone, and neither woman needed that fiction to appreciate the clearer grouping.",
+      "next": "season_archive_m02_common_001"
+    },
+    "season_archive_m02_common_001": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The household owner arrived carrying a basket whose lining had been mended with blue cloth. She was older than Yue first expected, though not old enough to have witnessed the earliest dates under discussion. Su offered the consent room's low bench. The woman set the basket down herself and looked toward the copying doorway. 'My aunt's book has become more important since it left her cupboard,' she said. Qiu answered, 'It has become visible to people who did not know her.' The distinction seemed to ease the woman's shoulders.",
+      "next": "season_archive_m02_common_002"
+    },
+    "season_archive_m02_common_002": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The owner said her aunt had used the laundry book to settle household deliveries and small debts. After the aunt died, the cupboard's contents passed through several hands before the owner gathered the remaining papers. Some things had been burned as waste before anyone asked whether they mattered. She did not speak of a grand destruction. She spoke of clearing a room while meals still had to be cooked. Yue listened without treating the loss as proof that every surviving paper deserved public exposure. Grief and permission could share a bench without becoming the same thing.",
+      "next": "season_archive_m02_common_003"
+    },
+    "season_archive_m02_common_003": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Qiu asked whether the cloth had been wrapped around the laundry book. The owner said it lay beneath the book when she found it. She remembered the drawer's smell better than its exact arrangement. 'Camphor, dust and the soap my aunt liked,' she said. Yue wrote nothing until Su asked which part the woman wanted included in a project statement. The sensory memory was hers to retain. She approved a plain account of finding the cloth and book in the cupboard, leaving the smell out of the public description.",
+      "next": "season_archive_m02_common_004"
+    },
+    "season_archive_m02_common_004": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The woman believed the red marks came from a ferry, because her aunt had once said something about carrying bundles across water. Qiu asked whether the aunt had pointed to this cloth when speaking. The woman shook her head after thinking. The story belonged to a meal conversation years earlier. It might concern this object; it might not. Qiu did not hide her disappointment. Yue appreciated that the rival had asked the direct question rather than letting an appealing inherited memory float into an identification. The owner appreciated it less at first.",
+      "next": "season_archive_m02_common_005"
+    },
+    "season_archive_m02_common_005": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "'You make me sound unreliable,' the woman said. Qiu sat down before answering. 'I am trying to let your remembered part stay yours without asking it to prove the part you didn't see.' Yue added that a present account could preserve a real loss and a real transfer even when it did not identify an older seal. The woman looked at the basket patch. 'My aunt hated being quoted wrong.' Su said they could use only the wording she approved. The conversation slowed until all three could hear what was actually being offered.",
+      "next": "season_archive_m02_common_006"
+    },
+    "season_archive_m02_common_006": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The owner had brought an ordinary diary page copied in her own hand from her aunt's surviving notebook. She had not brought the whole notebook. The page described a household move and a bundle of laundry tools left beside a ferry warehouse. It mentioned red-marked cloth but gave no object dimensions. She could allow the project to inspect that copied page if its scope remained exact. Qiu asked to see it immediately. Su checked the offered permission first. Yue watched how easily hunger for a source made the boundary feel like an obstacle rather than part of the source.",
+      "next": "season_archive_m02_common_007"
+    },
+    "season_archive_m02_common_007": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "On the copied diary page, the aunt's description of the household move was precise about a broken kettle and vague about dates. A season name appeared without a year. Yue read the broken kettle line twice because its ordinary irritation made the woman behind the notebook suddenly present. Qiu read the warehouse phrase twice because it could connect the cloth to a route. Their attention chose different doors into the same page. Neither door let them inspect an unoffered leaf or infer what the sealed Echo packet might remember.",
+      "next": "season_archive_m02_common_008"
+    },
+    "season_archive_m02_common_008": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The owner said the diary copy could remain available for inspection this morning, but she had not decided whether it should be reproduced publicly. She was willing to approve a short present statement about the cupboard transfer. She might approve the one-page diary copy after reviewing its description. Or she could retain both accounts while allowing the project only its authorized surface description. The options were hers as permissions. Yue's choice would concern which permitted approach to request and use, without overruling a refusal.",
+      "next": "season_archive_m02_common_009"
+    },
+    "season_archive_m02_common_009": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Su explained that the annex's lease did not make an answer urgent for the owner. The woman laughed bitterly. 'Rooms are always urgent to somebody after the person who knew them is gone.' Yue asked whether she meant the aunt's cupboard room. She did. A nephew needed the room for a child; an old bed occupied too much space; the cupboard had been cleared before the family could agree what to keep. These were not enemies of memory gathered for a villainous act. They were ordinary needs that had outpaced a slow question.",
+      "next": "season_archive_m02_common_010"
+    },
+    "season_archive_m02_common_010": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Qiu admitted she would have cleared the room quickly too if the child needed a bed. The owner looked surprised. Yue did not rebuke her. A preservation room could not pretend domestic life ought to stop until archivists found every object meaningful. Su asked whether the owner wanted that family account included. She said no. It was an explanation for them, not a public defense of her relatives. They respected the limit. The project would describe the papers' received state without publishing a family quarrel the woman had used to make them understand.",
+      "next": "season_archive_m02_common_011"
+    },
+    "season_archive_m02_common_011": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Outside the window, the bean vine bent around its new crosspiece. The owner watched it and said her aunt had planted beans in a chipped basin. Yue wanted to ask what had become of the basin, then stopped. The answer might matter to a conversation without belonging to the task. Qiu asked what title the woman would accept for the copied diary page if she approved it. The woman suggested Notes of a household move. It was less exciting than Ferry mystery and much more accurate.",
+      "next": "season_archive_m02_common_012"
+    },
+    "season_archive_m02_common_012": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "They returned to the copying room for a controlled view of the group's surfaces. Staff presented the cloth on a low board. The owner recognized the frayed edge but could not say whether its crease had existed in the cupboard. Qiu asked about the three red marks separately. The woman had never counted them before. Yue drew them in their current order and asked her to confirm only that this was the cloth she had deposited. She could. A modest identification of a received object became stronger when it did not carry an ancient journey too.",
+      "next": "season_archive_m02_common_013"
+    },
+    "season_archive_m02_common_013": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The diary copy's phrase red-marked cloth could refer to this strip or another piece. Its dimensions were absent, and the season date was incomplete. Qiu said a present connection was possible. Yue said an exact identity was unsupported. The owner asked whether possible meant worthless. Su answered no. It meant the account could be used as a lead with its limits shown. Qiu added that it might tell them which ordinary public warehouse records to ask about later, under their own access rules. It did not license a completed ferry provenance now.",
+      "next": "season_archive_m02_common_014"
+    },
+    "season_archive_m02_common_014": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "A clerk brought the project inventory and the existing permission sheet. The owner corrected the recent grouping in her own hand: laundry book and cloth found together, delivery sheets separately sleeved before deposit. This applied to the received group whichever first priority the women had chosen. Su checked that it described the owner's actual recollection and present approval. The inventory's title changed accordingly. Yue liked the clarity. Qiu liked that a living person's correction had finally shortened their uncertain heading rather than merely adding another paragraph beneath it.",
+      "next": "season_archive_m02_common_015"
+    },
+    "season_archive_m02_common_015": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The owner approved continued copying of the already public delivery sections and the visible book cover description. The laundry book's inner household notes remained limited pending specific requests. The Echo packet remained sealed and outside scope. She spoke those limits without embarrassment now. Qiu thanked her plainly instead of praising her generosity as though narrower consent would have been a failure of character. Yue noticed the change. Their sharper questions had not only tested a story; they had given its owner clearer language for deciding how much of it to share.",
+      "next": "season_archive_m02_common_016"
+    },
+    "season_archive_m02_common_016": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The basket's blue patch loosened as the woman lifted it. One small spool rolled across the table and stopped against Yue's paper rest. Yue caught it with her good hand, close to her body, and slid it back. The owner laughed. 'That basket carries more repair than basket.' Qiu asked whether she made the repairs herself. She did. They talked about thread that cut into old wicker and knots that looked strong until a handle bent. The conversation was practical and warm without becoming evidence of the cloth's old journey.",
+      "next": "season_archive_m02_common_017"
+    },
+    "season_archive_m02_common_017": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At the midpoint, Su offered a pause. The owner took water, Qiu stood at the doorway and Yue rested her shoulder with both hands empty. A copy task could include a conversation that tired people more than lifting paper. Qiu said quietly, 'I expected a source to end the argument.' Yue answered, 'It gave the argument a person.' Qiu looked at the bench. 'I am trying not to turn her into a slow obstacle.' Yue admitted she was trying not to turn her into a witness for patience. They returned with those temptations named.",
+      "next": "season_archive_m02_common_018"
+    },
+    "season_archive_m02_common_018": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The owner asked what the project would do if she kept the diary private. Su said they would retain the approved group description and leave that source unavailable. They would not tell visitors she was concealing the answer. Qiu said her aunt's move could remain a useful private memory without becoming the annex's attractive exhibit. The owner listened closely. It seemed she had come prepared to defend her right to refuse and found people who would let refusal exist without a dramatic account of its motives.",
+      "next": "season_archive_m02_common_019"
+    },
+    "season_archive_m02_common_019": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "A supporter arrived with a basket of blank paper paid for under the project's material arrangement. She saw the red marks and asked whether they had found the ferry story. Qiu said they had found a present owner account and a possible diary lead, each with separate limits. The supporter looked disappointed. Yue showed the approved ordinary work rather than offering the unapproved diary to renew her interest. The woman said she would return when there was a better story. Su thanked her for the paper without purchasing that story in advance.",
+      "next": "season_archive_m02_common_020"
+    },
+    "season_archive_m02_common_020": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "After the supporter left, the owner asked whether an uncertain story was worth the trouble. Yue said the present grouping correction already prevented a false claim. Qiu said the diary lead could be useful if the owner permitted it, but the project could still work on public sheets without it. Neither made the woman responsible for saving the annex's reputation. She touched the copied page through its sleeve. 'My aunt would have liked the kettle line better than the warehouse line,' she said. Yue smiled. Qiu smiled too, more reluctantly.",
+      "next": "season_archive_m02_common_021"
+    },
+    "season_archive_m02_common_021": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "They compared the surviving intake label with the owner's account. Its first place stroke did not match the warehouse name closely enough to identify it. Qiu wrote the two shapes side by side, then admitted the comparison needed more source than resemblance. Yue kept the present account separate from the historical label. Su made a line explaining the recent deposit without filling the torn gap. Two origins could coexist on one object: how it reached this project and how it came into the aunt's life.",
+      "next": "season_archive_m02_common_022"
+    },
+    "season_archive_m02_common_022": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The owner had to leave before the afternoon to help a neighbor mend a bed curtain. Qiu asked whether they could settle the offered use now rather than keep her waiting through another discussion. Yue agreed. The choices needed to be bounded enough for the woman to answer without interpreting their preservation philosophy. A short approved current statement, a request to reproduce the one diary-copy page or a continued surface-only account would each let her go with a clear understanding of what the project would do.",
+      "next": "season_archive_m02_common_023"
+    },
+    "season_archive_m02_common_023": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Su read the options as requests, and the owner confirmed what she could authorize. She would approve the short current statement immediately. She would consider the one-page diary copy while they drafted its limit, and could decline without affecting the other papers. She would also accept surface-only use, retaining her personal account outside the project. Yue would choose the next approach within that offer. Qiu would help carry it out or state a disagreement. The owner's answer would still determine any new permission.",
+      "next": "season_archive_m02_common_024"
+    },
+    "season_archive_m02_common_024": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue thought of the supporter wanting a better story and the basket carrying more repair than basket. The room needed people to care about it, but the woman did not owe it a public aunt. Qiu thought of the warehouse phrase and a possible route into the missing provenance. Neither concern alone chose the use. The next decision could turn this encounter into a present account, a limited historical source request or a respectful refusal to absorb the woman's memory.",
+      "next": "season_archive_m02_common_025"
+    },
+    "season_archive_m02_common_025": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Before deciding, they returned the diary copy to the owner's hand. Its offered presence had not transferred ownership. The approved cloth stayed with staff. Yue kept her working sheet within reach and rested the affected arm. Qiu set her brush down so the choice would not begin as a draft the owner felt obliged to accept. Su waited on the bench. The owner's mending appointment and the women's bounded interval supplied a real ending, not a reason to hurry a broader answer.",
+      "next": "season_archive_m02_use"
+    },
+    "season_archive_m02_use": {
+      "chapter": "book_xxiii_season",
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue chose which offered approach the project would actually pursue. The owner could approve a short present account of receiving the objects, consider reproduction of her one-page diary copy under a precise limit, or retain her personal accounts while the project continued with authorized surfaces only. None opened the sealed Echo packet or the whole notebook. The choice would affect the project's available account and the owner's later trust; any actual added permission still belonged to the owner.",
+      "choices": [
+        {
+          "text": "Use the owner's approved present transfer statement, keeping the older source gap open.",
+          "next": "season_archive_m02_statement_001"
+        },
+        {
+          "text": "Request the exact one-page diary copy with its source and limits stated.",
+          "next": "season_archive_m02_diary_001"
+        },
+        {
+          "text": "Continue with authorized surfaces only and leave the personal accounts with their owner.",
+          "next": "season_archive_m02_surface_001"
+        }
+      ]
+    },
+    "season_archive_m02_statement_001": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue chose the short present statement. The owner pulled the bench nearer and dictated the transfer she could personally remember: she had found the laundry book and red-marked cloth together in her aunt's cupboard, received the separately sleeved delivery papers later and wrapped them together for deposit. Yue copied the sentence in a clear hand. Qiu checked that its verbs belonged to the owner, not to the dead aunt. The statement gave the project an actual recent chain without pretending it reached beyond the living witness's experience.",
+      "next": "season_archive_m02_statement_002"
+    },
+    "season_archive_m02_statement_002": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The owner asked to leave her aunt's name out of the public version. Su confirmed that the project could use the approved household identifier instead, while retaining the ordinary contact record under its existing access limit. Yue read the public sentence aloud with the identifier. The woman heard a small stumble at wrapped together and corrected it to put together in one wrapper. Qiu thought the first wording shorter, but the owner's preferred wording made the action clearer to her. A concise account needed the source's understanding as well as the reader's convenience.",
+      "next": "season_archive_m02_statement_003"
+    },
+    "season_archive_m02_statement_003": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "They placed the approved statement beside the inventory's recent grouping line. It did not identify the torn historical label or establish the diary cloth's exact identity. Qiu wrote that limit in plain words. Yue checked that the phrase did not imply the diary had been copied into the project. It had not. The owner kept her copied page and her original notebook. Their selected route made one public current statement, not a complete household history. The work's smallness had become tangible enough that all three could agree on what left the room.",
+      "next": "season_archive_m02_statement_004"
+    },
+    "season_archive_m02_statement_004": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The woman reread the statement and smiled sadly. 'It looks as though I did only three movements,' she said. 'I spent a week deciding what to bring.' Yue asked whether she wanted a sentence about that week included. She said no. The longer private effort could remain hers. Qiu looked at the simple transfer line with new respect. A short record could be accurate without containing all the labor that produced its event. The danger was calling that completeness, not choosing a useful small statement.",
+      "next": "season_archive_m02_statement_005"
+    },
+    "season_archive_m02_statement_005": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Su made a project copy after the owner signed the approved wording. The owner kept her matching copy, so she could correct a later misquotation by showing the sentence she had actually authorized. Yue returned the diary sleeve untouched. Qiu said the warehouse phrase would remain an inspected but unreproduced possible lead, outside this public statement. The owner thanked her for stating that. The current account's clear boundary let the woman share something without feeling the project would gradually pull every offered memory through the same opening.",
+      "next": "season_archive_m02_statement_006"
+    },
+    "season_archive_m02_statement_006": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "A visitor asked whether the new statement proved the red marks came from the aunt's ferry journey. Qiu answered no. It proved the present owner's account of the cupboard and deposit. Yue showed the distinct historical gap on the inventory rather than telling the visitor the unapproved diary's words. The visitor seemed impatient with two kinds of history on one card. Su said they could keep the distinction visible even if someone preferred a single story. Their first public use of the selected statement remained within the actual permission.",
+      "next": "season_archive_m02_statement_007"
+    },
+    "season_archive_m02_statement_007": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Before leaving, the owner touched the basket patch and said she would consider a later specific laundry-page request if the project needed one. Su recorded the offer as an invitation to ask, not as an approval already granted. Qiu thanked her without invoking autumn. Yue felt glad the current statement had not consumed the whole conversation's generosity. A clear small use could leave a future door open. It could also remain the only use forever. The route accepted either outcome without pretending the offer had already become a new source.",
+      "next": "season_archive_m02_statement_008"
+    },
+    "season_archive_m02_statement_008": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Su filed the signed current statement with its project copy and public scope. Yue and Qiu had gained an actual approved recent transfer account. They had not reproduced the diary page, dated the cloth or opened the household book's limited inner notes. The owner left in time for her mending appointment. Qiu watched the basket disappear through the gate and said, 'A short account can carry more care than a long one.' Yue answered, 'When its boundary travels too.' They returned to the annex with that particular accomplishment intact.",
+      "next": "season_archive_m02_after_001"
+    },
+    "season_archive_m02_diary_001": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue requested the exact one-page diary copy, with the source chain stated. The owner laid it down again and asked to review the proposed description before deciding. Qiu drafted a concise title: Notes of a household move, owner's transcription from an aunt's notebook. Yue added that the original notebook had not been examined by this project and that the copied page gave a season without a year. Su read the scope to the owner. The request concerned this page alone, not adjacent leaves or the sealed Echo packet.",
+      "next": "season_archive_m02_diary_002"
+    },
+    "season_archive_m02_diary_002": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The owner wanted the broken kettle line preserved because it sounded like her aunt. Qiu had nearly omitted it from the description as irrelevant to the warehouse question. Yue said the source should not be carved down until only the project’s favorite clue remained. Qiu considered the whole page and agreed. They would reproduce the approved page as offered, with the stated transcription chain, rather than extract a dramatic phrase and call it representative. The kettle's ordinary annoyance kept the household move from becoming merely a vehicle for their mystery.",
+      "next": "season_archive_m02_diary_003"
+    },
+    "season_archive_m02_diary_003": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "One sentence on the copied page named a living relative involved in the move. The owner declined public reproduction of that name. Staff presented an approved redacted copy with the omission visibly marked, and the woman checked it. Yue did not retain an unredacted project transcription. Qiu asked whether the removed name affected the warehouse phrase. The owner said it did not, and the approved visible context supported that limited account. The public page would show a withheld name distinctly from a torn or unreadable word.",
+      "next": "season_archive_m02_diary_004"
+    },
+    "season_archive_m02_diary_004": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "After reviewing the precise scope, the owner approved reproduction of this redacted one-page transcription. She signed the approval and kept a matching copy of its terms. Su placed the approved page on the low support. Yue copied it with her good hand, pausing before the shoulder's supported posture became uncomfortable. Qiu checked the visible text against the authorized presentation. They called the result a project copy of an owner transcription, not a direct facsimile of the aunt's original notebook. The extra link remained part of the source wherever the page traveled.",
+      "next": "season_archive_m02_diary_005"
+    },
+    "season_archive_m02_diary_005": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The copied warehouse phrase did not settle the cloth's identity. It lacked dimensions, an exact date and a unique description of the marks. Qiu wrote possible relation, then crossed it out and wrote possible lead for a separate public-source enquiry. Yue preferred the latter because it named an action rather than letting relation grow by repetition. The owner read the limit and said her aunt would have laughed at all their words. Qiu replied, 'She might have written a better warehouse line if she knew we would need it.' The woman laughed then.",
+      "next": "season_archive_m02_diary_006"
+    },
+    "season_archive_m02_diary_006": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "They checked the finished approved copy after a rest. Yue found a missing word in the kettle sentence and corrected her draft before the final copy was issued. Qiu found a season stroke compressed enough to invite a false month name. They redrew it clearly and retained the source's unspecified year. Their care did not turn the aunt into a precise witness she had never intended to be. It preserved her actual offered words through the owner transcription and project reproduction, with the known limits of each link still named.",
+      "next": "season_archive_m02_diary_007"
+    },
+    "season_archive_m02_diary_007": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "A supporter asked to use the warehouse phrase as the annex's new exhibit title. The owner said she had approved a limited page, not a title claiming the ferry story. Su declined the title under the project scope. Qiu showed the supporter the ordinary household heading and its kettle line. Yue let the owner hear them defend the limit without turning her into a person who had refused to save the room. The supporter accepted a permitted copy for inspection with its full source description and no promised mystery solved.",
+      "next": "season_archive_m02_diary_008"
+    },
+    "season_archive_m02_diary_008": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At the stopping point, the owner took her original transcription and matching permission terms home. The project retained the authorized redacted reproduction and its source chain. They had actually added a limited historical lead, unlike a mere request awaiting reply. They still had no exact year, unique cloth identity or access to the notebook's other pages. Qiu said the morning had produced a clue that deserved to remain smaller than its excitement. Yue agreed. Su filed it where a later reader could see both the useful words and the unexamined original behind them.",
+      "next": "season_archive_m02_after_001"
+    },
+    "season_archive_m02_surface_001": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue chose to keep the project at authorized surfaces and leave the personal accounts with their owner. Qiu looked disappointed but waited while Yue explained the choice. The project could correct the recent physical grouping from the owner's approved inventory amendment without publishing her personal narrative or reproducing the diary page. The owner asked whether that meant her aunt's story had no value. Yue said it meant the annex need not take every valuable thing offered in a conversation. Qiu nodded slowly. Value and project use could be separated without contempt.",
+      "next": "season_archive_m02_surface_002"
+    },
+    "season_archive_m02_surface_002": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Su confirmed the surface-only scope in the owner's presence. The approved inventory amendment described how the received objects had been grouped for deposit; the personal story and diary stayed outside the project's public account. The owner kept her copy and notebook, and the sealed Echo packet remained untouched. Yue returned the descriptive scrap she had used while inspecting the offered page and kept no diary transcription in the project folder. Qiu watched the woman place it back in its sleeve. Their chosen refusal had an actual physical result, not only a comforting sentence.",
+      "next": "season_archive_m02_surface_003"
+    },
+    "season_archive_m02_surface_003": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The owner seemed relieved until a supporter entered asking about the ferry mystery. She stiffened as if expecting the refusal to be explained publicly. Su said the current project remained a preservation description of authorized ordinary papers and cloth, with the older source unresolved. Qiu did not describe the unretained diary page to renew the supporter's interest. Yue showed the existing public delivery work available under its own scope. The owner could see that the boundary held when a listener wanted the very story they had left with her.",
+      "next": "season_archive_m02_surface_004"
+    },
+    "season_archive_m02_surface_004": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "After the supporter departed, the woman admitted she had dreaded hearing strangers recite her aunt's kettle complaint as charming color. Yue had not predicted that particular worry. Qiu said she had thought the line would make the source more human and had forgotten that a living relative might hear it differently. The woman smiled at her honesty. An accurate page could still become somebody else's entertainment. Their surface-only choice had avoided that use, while also giving up a possible public lead. They kept both consequences in the route record.",
+      "next": "season_archive_m02_surface_005"
+    },
+    "season_archive_m02_surface_005": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Qiu asked whether the project could still make a later specific request if a public record supplied a reason. The owner said yes, but each request would require her own answer. Su marked that invitation as future contact only. It did not restore the diary page they had chosen not to retain. Yue thanked the woman and let the subject end. A respectful refusal to absorb an account could preserve trust without entitling the project to spend that trust later. Qiu seemed to understand the distinction more readily once she had heard the owner's actual fear.",
+      "next": "season_archive_m02_surface_006"
+    },
+    "season_archive_m02_surface_006": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "With the remaining interval, they improved the authorized cloth surface drawing. Staff presented the strip on the low board, and Yue copied its current frayed edge while Qiu checked the order of the three marks. The description named the received object and its unresolved origin. No remembered warehouse phrase appeared beneath it. The small work was less dramatic than a historical page, but it belonged entirely to the permission in force. A future reader would receive an inspectable surface rather than a private household memory slipped into a public source chain.",
+      "next": "season_archive_m02_surface_007"
+    },
+    "season_archive_m02_surface_007": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The owner asked for a matching copy of the surface description. Su supplied one under the project arrangement, and the woman checked it against the cloth she had deposited. She pointed out a fold line missing from the drawing. Yue added it while keeping her shoulder supported. Qiu said that present correction improved the object account without requiring any older story. The owner laughed at last. 'I can help you see the cloth without becoming your history book.' Yue said yes. It was a clear account of the role she had actually chosen.",
+      "next": "season_archive_m02_surface_008"
+    },
+    "season_archive_m02_surface_008": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At the stopping point, staff returned the originals and the owner left with her personal pages and approved surface copy. The project retained no diary reproduction or public personal statement from this meeting. It did retain the authorized grouping amendment and a better cloth description. Qiu said she regretted the unused lead. Yue said the regret belonged in their own account, not in a story blaming the owner. Su filed the route's actual result. The room remained threatened, and the woman left it with more confidence that her boundary could survive its need.",
+      "next": "season_archive_m02_after_001"
+    },
+    "season_archive_m02_after_001": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The mending appointment took the owner away before the courtyard shadow reached the bench. Yue watched her basket swing lightly from a repaired handle. Qiu said she had expected a clue to make the annex feel stronger. Instead she felt how easily its need could lean on a person. Su closed the consent room and said the day's actual selected use belonged in the project folder, while the private explanations belonged to the people who had offered them. The door made a soft wooden sound that felt less final than the words.",
+      "next": "season_archive_m02_after_002"
+    },
+    "season_archive_m02_after_002": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "A visitor from the public shelf returned the cost copy she had consulted. She had used the soap quantities to answer an ordinary question and had no idea what had happened in the consent room. Qiu greeted her warmly. Yue found the encounter grounding. The annex was still useful while its attractive cloth story remained uncertain. The approved public service needed its own relocation plan if the lease ended. Su wrote down which shelf copies were most often requested, using actual returns rather than guessing from the objects that drew the liveliest conversation.",
+      "next": "season_archive_m02_after_003"
+    },
+    "season_archive_m02_after_003": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The damp wall's stain had lengthened slightly beneath a shelf. Responsible staff had marked its edge for inspection and asked the copiers to keep their table clear of that corner. Yue and Qiu complied without diagnosing the cause. Qiu wanted to move the whole copying setup to the window; Su checked that the change would preserve staff access and Yue's low reach. The move could be made during a later authorized preparation interval. Today's accepted work was ending. An important new problem did not automatically enlarge the morning they had agreed to spend.",
+      "next": "season_archive_m02_after_004"
+    },
+    "season_archive_m02_after_004": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At the kitchen, a cook was cutting old cloth into small wiping squares. The red-marked strip's frayed edge came into Yue's mind, then she let the ordinary cloth remain ordinary. Qiu saw the pile and said, 'That is what happened to half our future archives.' The cook replied, 'And it is how the table stays clean enough for your papers.' They laughed. Preservation depended on domestic labor that also consumed objects. The contradiction was not a puzzle to solve by making the cook feel guilty about wiping the table.",
+      "next": "season_archive_m02_after_005"
+    },
+    "season_archive_m02_after_005": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Su asked whether the women wanted tea before leaving. Yue accepted a small cup and rested her shoulder against the wall. Qiu took water instead, saying hot tea made her feel as though an interval had ended more decisively than it had. Yue asked what ending she would prefer. 'A useful page and nobody following us with another question.' Su smiled and set the closed folder on the shelf. The folder held only the permissions and products actually supported by the selected route, not a sentimental promise that everyone had left satisfied.",
+      "next": "season_archive_m02_after_006"
+    },
+    "season_archive_m02_after_006": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The annex owner appeared at the kitchen door with a corrected shelf plan. She had reduced one rack and thought the copying table might share the room after autumn if the public shelf moved elsewhere. Su said they would review the offer with responsible staff and its actual dates. No extension was accepted over tea. Qiu noticed the owner had left space for the damp wall without being asked. She said she had seen the stain. Practical concern crossed interests more readily than the women had expected when they first read the lease notice.",
+      "next": "season_archive_m02_after_007"
+    },
+    "season_archive_m02_after_007": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue left the kitchen with the owner's story absent or present in the project only as her chosen route actually permitted. She could remember a conversation without publishing it. Qiu could regret an unused clue without claiming it had been copied. Su could seek a room extension without treating it as already agreed. The next accepted interval would concern a small newly approved section of the laundry book. Its ordinary household entries might reveal how a room was lived in, even while the red marks kept their older source gap.",
+      "next": "season_archive_m02_after_008"
+    },
+    "season_archive_m02_after_008": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The paper swallow on the lintel had lost one wing tip. The child who made it announced that the bird was still a swallow because he knew its maker. Qiu said that was a strong source for intention and a poor repair for the torn paper. He asked for glue. Su promised to find some through the ordinary room supplies after checking the cupboard. Yue walked beneath the damaged creature smiling. The annex could preserve a name and still need a practical repair. Its next morning would begin with the meeting's actual selected use clearly recorded.",
+      "next": "season_archive_m03_entry"
+    }
+  }
+}

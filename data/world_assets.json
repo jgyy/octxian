@@ -1433,6 +1433,152 @@
       },
       "collection": "building_interiors",
       "environment": "interior"
+    },
+    {
+      "id": "season_orchard_gate",
+      "name": "The Orchard Gate After Rain",
+      "path": "assets/art/world/season_orchard_gate.png",
+      "native_size": [
+        1659,
+        948
+      ],
+      "description": "The orchard's ordinary side lane in a later spring repair season. A rain-broken plum branch and two blank red warning ties close the old gate path; the left dining-hall route remains available.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/season_orchard_gate.png",
+        "native_size": [
+          1659,
+          948
+        ],
+        "record": "assets/art/SEASON_20261008_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "season_archive_annex",
+      "name": "The Copying Annex",
+      "path": "assets/art/world/season_archive_annex.png",
+      "native_size": [
+        1672,
+        941
+      ],
+      "description": "The later-season copying annex: curling folded paper fish, ordinary tied public folios, protective sleeves, wedged table legs and worn empty shelves beside a spring lane.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/season_archive_annex.png",
+        "native_size": [
+          1672,
+          941
+        ],
+        "record": "assets/art/SEASON_20261008_PROVENANCE.md"
+      },
+      "collection": "building_interiors",
+      "environment": "interior"
+    },
+    {
+      "id": "season_harbor_approach",
+      "name": "The Public Harbor Approach",
+      "path": "assets/art/world/season_harbor_approach.png",
+      "native_size": [
+        1672,
+        941
+      ],
+      "description": "A later-season public harbor stair above a chain marking the licensed landing. Three relevant waiting cargo boats display matching pale flags beyond the restricted approach; distant traffic retains its own signals.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/season_harbor_approach.png",
+        "native_size": [
+          1672,
+          941
+        ],
+        "record": "assets/art/SEASON_20261008_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "season_canal_footpath",
+      "name": "The Canal Footpath and the Map",
+      "path": "assets/art/world/season_canal_footpath.png",
+      "native_size": [
+        1672,
+        941
+      ],
+      "description": "An open dry inland canal footpath beside an ordinary storehouse enclosure. The public map's brown line ends at an enclosure square while the physical stone path continues past two distinct boundary stones.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/season_canal_footpath.png",
+        "native_size": [
+          1672,
+          941
+        ],
+        "record": "assets/art/SEASON_20261008_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "season_kiln_courtyard",
+      "name": "The Cold Repair Courtyard",
+      "path": "assets/art/world/season_kiln_courtyard.png",
+      "native_size": [
+        1672,
+        941
+      ],
+      "description": "The later-autumn kiln road and public cold-repair courtyard. A small intact upside-down blue bowl covers a road hole; temporary low worktables and separate professional firing space remain beyond the open gate.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/season_kiln_courtyard.png",
+        "native_size": [
+          1672,
+          941
+        ],
+        "record": "assets/art/SEASON_20261008_PROVENANCE.md"
+      }
+    },
+    {
+      "id": "season_letter_counter",
+      "name": "The Village Letter Counter",
+      "path": "assets/art/world/season_letter_counter.png",
+      "native_size": [
+        1672,
+        941
+      ],
+      "description": "The public address desk in the village council room, with three chairs, blank receiving slips and sealed private envelopes kept unread. Ordinary warm light and paper handling convey no ownership of a letter's contents.",
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/season_letter_counter.png",
+        "native_size": [
+          1672,
+          941
+        ],
+        "record": "assets/art/SEASON_20261008_PROVENANCE.md"
+      },
+      "collection": "building_interiors",
+      "environment": "interior"
+    },
+    {
+      "id": "season_kiln_public_room",
+      "name": "The Kiln Public Sample Room",
+      "path": "assets/art/world/season_kiln_public_room.png",
+      "description": "An ordinary public room for permitted cold ceramic specimen observation, with supported low chairs, clay tubular samples, rejected vessels and closed contract folios. Professional firing operations remain in their separate hall.",
+      "collection": "building_interiors",
+      "environment": "interior",
+      "native_size": [
+        1672,
+        941
+      ],
+      "provenance": {
+        "kind": "original_painting",
+        "derivation": "none",
+        "source_path": "assets/art/world/season_kiln_public_room.png",
+        "native_size": [
+          1672,
+          941
+        ],
+        "record": "assets/art/SEASON_20261008_PROVENANCE.md"
+      }
     }
   ],
   "npcs": [
@@ -1884,7 +2030,7 @@
         1024,
         1536
       ],
-      "description": "An experienced harbor rigger whose work coat and hands carry the wear of rope and weather.",
+      "description": "He Ming is a female salt packer and migrant household delegate. Her weathered work coat and saffron scarf belong to the established harbor wage and family-search story; professional rigging and rescue remain Yan Su's work.",
       "provenance": {
         "kind": "original_painting",
         "derivation": "none",

@@ -2,163 +2,92 @@
 
 ## Project layout
 
-- `data/story.json`: characters, dialogue, links, choice effects, and stat requirements.
-- `scripts/story_state.gd`: story navigation, shared choice preview/application validation, and versioned saves.
-- `scripts/attributes.gd`: attribute meanings, growth hints, and derived ranks.
-- `scripts/main.gd`: title, dialogue, choices, settings, journal, and viewport capture.
-- `scripts/animated_character.gd`: intact outfit portraits with runtime body bobbing.
-- `data/wardrobe.json` and `scripts/wardrobe.gd`: catalog and persistent character selections.
-- `scripts/audio_director.gd`: music, effects, narration buses, and orderly shutdown.
-- `tools/build_assets.py`: asset orchestration and original audio synthesis.
-- `tools/animation_baker.py`: copy independent native portraits without resampling.
-- `tools/preview_animations.py`: body bob WebP previews and portrait contact sheets.
-- `tools/generate_voices.py`: resumable neural narration.
-- `tools/validate_assets.py`: portrait inventory, transparency, source integrity, and narration checks.
+- `data/story.json` contains the campaign root, shared definitions and the ordered book manifest. `tools/story_data.py` and `scripts/story_data.gd` merge each fragment once and reject conflicting IDs or missing files.
+- `data/books/` holds independently authored book fragments. Each fragment has exactly `chapters`, `characters` and `nodes` objects.
+- `scripts/story_state.gd` handles navigation, atomic choice validation, actual decision records, completed practice and versioned saves.
+- `scripts/main.gd` displays the title, dialogue, choices, settings and journal and runs viewport captures and package smoke checks.
+- `data/cultivation.json`, `tools/cultivation.py` and `docs/CULTIVATION_PROGRESS.json` define earned cultivation and independently recomputed manuscript credit.
+- `data/continuity.json` records reviewed chapters, anchored facts and checkpoints that cannot be bypassed.
+- `data/world_assets.json` registers original backgrounds, NPCs, beasts, objects and effects.
+- `scripts/animated_character.gd`, `data/wardrobe.json` and `scripts/wardrobe.gd` retain complete original portraits and saved outfit choices.
+- `scripts/audio_director.gd` manages music, effects and narration; `tools/generate_voices.py` validates and resumes neural speech generation.
+- `tools/verify_screenshots.py` checks actual viewport captures and timed portrait animation. `docs/content_report.json` is the latest measured bundle report.
+
+## Current campaign
+
+The manifest loads **23 books**, **24,341 scenes** and **2,080,062 displayed prose words**. The two-million-word target is met. Word counts include playable alternatives and exclude labels, choice text, prompts and documentation.
+
+Book XXII provides three approaches to Qiu Lian's instrument trial. Its three retained ending markers now continue into Book XXIII. Book XXIII adds a shared root and **120 path fragments**, twenty for each of six later-season inquiries. All new nodes retain Qi Gathering 5: Four pairs, no new practice credit and the affected shoulder's limits.
+
+[Season counts, accounts, continuity and captures](SEASON_PATHS_20261008.md) · [Rival chapter](RIVAL_PATHS_20261008.md)
+
+The 98 world backgrounds comprise 50 ordinary locations and 48 additional interiors. The draft has 67 human NPC paintings and 15 beasts, giving 82 distinct world sprites. Preserve the original quotas: 100 ordinary backgrounds, 100 additional interiors, 500 human NPCs and 501 beasts. Full artwork and the requested 1,000 authenticated plot repairs remain unfinished, so the PR remains draft.
 
 ## Local checks
 
-Use Python 3.12 and Godot 4.7.2. `tools/bootstrap_godot.py` pins the official release archive SHA-256 and verifies cached downloads without querying the GitHub API. Install `requirements.txt`, then run:
+Use Python 3.12, ffmpeg and Godot 4.7.2. The bootstrap tool pins and checks the official engine archive SHA-256.
 
 ```sh
+python -m pip install -r requirements.txt
+python tools/bootstrap_godot.py
 python -m unittest discover -s tests -p 'test_*.py'
 python tools/build_assets.py
-python tools/generate_voices.py
-python tools/validate_assets.py
 python tools/validate_world.py
 python tools/preview_animations.py
-godot --headless --path . --editor --import
-godot --headless --path . --script tests/story_test.gd
-godot --headless --path . --script tests/runtime_test.gd
-godot --path . -- --capture
+.cache/godot/Godot_v4.7.2-stable_linux.x86_64 --headless --path . --editor --import
+.cache/godot/Godot_v4.7.2-stable_linux.x86_64 --headless --path . --script tests/story_test.gd
+.cache/godot/Godot_v4.7.2-stable_linux.x86_64 --headless --path . --script tests/runtime_test.gd
+.cache/godot/Godot_v4.7.2-stable_linux.x86_64 --headless --path . --script tests/rival_paths_test.gd
+.cache/godot/Godot_v4.7.2-stable_linux.x86_64 --headless --path . --script tests/season_paths_test.gd
+.cache/godot/Godot_v4.7.2-stable_linux.x86_64 --path . -- --capture
 python tools/verify_screenshots.py
-godot --headless --path . --export-pack Linux build/jade-vow.pck
+python tools/generate_voices.py
+python tools/validate_assets.py
+.cache/godot/Godot_v4.7.2-stable_linux.x86_64 --headless --path . --export-pack Linux build/jade-vow.pck
 ```
 
-Capture mode writes 130 viewport screenshots to `build/screenshots` and sixteen timed viewport frames to `build/animations/rendered`. Screenshot verification creates compact JPEG previews, `rendered_game.webp`, and a sampled game-frame sheet. Timed capture fixes the character's initial frame and disables atmospheric background animation so that measured changes reflect the character.
+Fixed-source audit checks also require their pinned commits locally. The [CI workflow](../.github/workflows/ci.yml) fetches every required source and runs all evidence validators and campaign regressions. The harbor catalog follow-up uses source commit `f50979b6bb8e3bbed6eec7b866c92377509a964b`; the rival literary evidence uses `0fe9938bf765611b3fe9d31c747fec6067346620`.
 
-The packaged executable discovers `jade-vow.pck` beside it. CI uses Xvfb with dummy audio for desktop capture and standalone playback. It runs the exported package from a folder without the source checkout and checks logs for errors, missing resources, and clean shutdown.
+## Navigation and persistence
 
-## Story schema
+Each scene has `speaker`, `actor` and `text`, plus exactly one of `next`, `choices` or `ending`. Optional `chapter` and `background` select labels and art. An ending may retain a `continuation` into the next book.
 
-Each node has `speaker`, `actor`, and `text`, plus exactly one of `next`, `choices`, or `ending`. Optional `chapter` and `background` select chapter labels and catalog art. Optional `effect` selects `lanterns`, `rain`, `reed_light`, `bell`, `qi`, the three earned trace paintings, `storm_discharge`, or `none`. An `ending` may also have `continuation` to lead into the next book while keeping the ending discoverable. Choices have `text`, `next`, optional additive `effects`, and optional minimum-stat `requires`. Animations may be `idle`, `wind`, `channeling`, or `resolve`. Named sound effects are optional.
+Ordinary choices have `text`, `next`, optional additive `effects` and optional minimum-stat `requires`. Preview and application use the same validation. Invalid choices fail before changing scores, the scene, history or practice. A previously recorded choice permits only its saved destination and applies its effects once. Replaying the matching destination cannot repeat a reward or a negative cost.
 
-The Attributes panel (C) derives ranks from the existing four saved scores at thresholds 0, 3, 6, and 10. The catalog includes descriptions and growth hints; the final rank is descriptive and does not limit points. Choice summaries show additive effects and current/required values in catalog order. `choice_details()` validates destinations, integer requirements, and in-range resulting scores; both `can_choose()` and `choose()` use this validation so the preview matches application. Malformed choices fail before any score, scene, or journal mutation.
+A `routes` list on a scene with `next` selects the first matching actual recorded decision and destination. It falls back to `next` when no matching record exists. Scores cannot reconstruct a missing enrollment, refusal, relationship or specialist qualification.
 
-A node marked `random_event: true` has two or more distinct `choices` as possible conditions; those alternatives cannot have effects or requirements. The UI exposes Continue instead of selectable cards. `StoryState.advance()` uses a per-journey seed and scene ID; the resolved destination is recorded. Version-1 saves add optional `journey_seed` and `encounters` together, preserving old saved stat keys and scores. Tests cover future outcomes, resolved revisits, seed diversity and atomic invalid-save rejection.
+A `random_event: true` scene has distinct possible conditions without effects or requirements. Continue resolves its destination from the saved journey seed and scene ID; resolved encounters remain recorded. Random conditions cannot be used to earn practice repeatedly.
 
-Choices apply effects only when their requirements are met. Failed loads preserve the current journey. Versioned saves live in Godot's `user://` directory; settings use a separate config file.
+Versioned saves live in Godot's `user://` directory. They preserve scores, full decision history, completed practice, journal and encounter context. Failed loads leave the active journey intact. Settings use a separate configuration file.
 
-## Asset accounting and regression checks
+Future-decision analysis trims only traversal signatures. Each decision stays relevant until its final downstream gate; save files retain the actual full history. Season checks enumerate every new scene under a possible local choice history, require an acyclic graph and bound simultaneous relevant decisions at four.
 
-There are twelve native 1024×1536 RGBA portrait PNGs: four adult characters × three outfits. Each is an independently generated complete portrait copied byte for byte from its retained master. Godot translates the complete Sprite2D vertically in a four-second loop; the motion label selects a 6–10 pixel bob. The original mountain environment is retained; legacy outfit sheets have been removed.
+## Original artwork and motion
 
-The portrait regression tests cover byte-preserving generation, reuse and rejection of invalid native masters. Two installer tests check offline reuse of a verified cache and rejection of modified archive bytes. Asset validation checks all twelve decoded portraits, transparency, source/code hashes, audio integrity, and narration coverage. It rejects leftover frame atlases.
+Original PNG bytes and creation records remain under `assets/art/`. Do not substitute resized, padded, cropped, recolored or re-encoded files to satisfy counts. The world validator checks native dimensions, byte/source provenance and visible-pixel uniqueness.
 
-Godot runtime tests exercise all 48 outfit/motion combinations, verifying up/down movement, a smooth loop, an unchanged portrait texture, and a still body with reduced motion. They also exercise actual playback, wardrobe selection, settings persistence, story progress, and corrupt-config recovery. Story tests traverse every reachable scene and every authored ending.
+The two rival sprites are original RGBA 1024×1536 PNGs. Seven season backgrounds retain six 1672×941 canvases and one 1659×948 canvas. Three season locations are additional interiors. Their tests verify exact byte counts and Git blob SHA-1, including the Git object header, and require every background to appear in playable prose.
 
-See [Wardrobe](WARDROBE.md) for bob settings and persistent outfit choices.
+Wardrobe art uses twelve independent native 1024×1536 RGBA portraits: four adult characters with three outfits each. Runtime motion translates the intact portrait vertically in a four-second loop; it does not replace the source with an atlas. Reduced motion keeps the body still. The runtime regressions cover all 48 outfit/motion combinations, preserved texture, smooth loops, settings and saved selections.
 
-Portrait preparation reuses unchanged, verified files. The feature-branch bundle job publishes generated assets and review media in a separate commit, and exits without another commit when assets are unchanged and captures exist.
+[Wardrobe](WARDROBE.md) · [Season provenance](../assets/art/SEASON_20261008_PROVENANCE.md) · [Rival provenance](../assets/art/RIVALS_20261008_PROVENANCE.md)
 
-## World and manuscript checks
+## Capture, narration and packaging
 
-`data/world_assets.json` registers native painted backgrounds, NPCs, spirit beasts, and inspectable items. Item painting inspection does not implement inventory ownership. World portraits render through the same intact-body animation component. The world validator rejects missing or duplicated files, dimensions that disagree with the catalog, sprites without alpha, broken links, unknown cast references, and unreachable scenes. Its JSON report states the authored word count and whether the final production targets have been reached. The present draft has not reached those targets.
+Capture mode writes **164 actual viewport screenshots** to `build/screenshots` and sixteen timed viewport frames to `build/animations/rendered`. The verifier produces compact JPEG previews, a measured content report, WebP animation and sampled frames only after validation passes.
 
-Reading scenes use a 680-pixel portrait height with room for the whole bob beneath the navigation bar and above the footer. Title portraits use 730 pixels; wardrobe previews use 350. Uniform scaling preserves proportions. Changing `display_height` updates a cached portrait's scale immediately.
+The fifteen season captures walk actual zero-score routes with save/load checkpoints: the path choice, six entries, six endings, the letter counter and the kiln public room. Captures occur before newly generated narration. Package checks later require the narrated anchors, all seven new native background textures, both rival sprites and real completion of all six season paths.
 
-The stateful Godot route traversal includes continuations across all twenty books and all authored endings. Test travelers reuse one parsed campaign. With nonnegative stat effects, values at or above the greatest gate are equivalent for reachability; capped states are deduplicated. Overflow and corrupt saves are checked separately at full values. The default `StoryState.new()` still parses its own story, keeping mutated corruption fixtures isolated.
+Piper Lessac supplies neural narration for every displayed scene. Text, bytes and decoded audio are independently checked before reuse; changed prose is regenerated. Speech uses 8 kHz mono Vorbis capped at 10 kb/s to limit downloads. `JADE_VOW_VOICE_WORKERS=4` runs four bounded generation workers; cache and manifest validation remain mandatory. Music and effects are original synthesized audio.
 
-`data/continuity.json` must list every delivered chapter as reviewed and keep its fact anchors valid. Its checkpoints name scenes that must lie on every path to a later decision. The validator removes each required scene in turn and rejects a still-reachable decision, catching shortcuts that bypass knowledge or safety work. Editorial review also covers chronology, custody, privacy, and alternate world outcomes.
+The exported `jade-vow` discovers `jade-vow.pck` beside it. CI launches the package under Xvfb with dummy audio from a folder without the source checkout and checks missing resources, errors and shutdown. Linux artifacts retain the project license, Piper model card and Godot notices.
 
-Scene effects draw at the current control size. Panels pause their clock; reduced motion removes them immediately. The capture harness re-enables effects after the isolated body-bob recording, so river screenshots show actual rain while motion measurements remain focused on the actor.
+The feature-branch bundle job retains verified generated assets, review captures and the measured report in a separate commit. It then explicitly dispatches validation of that new head. Draft runs report delivered quotas; `--require-complete` requires every production manuscript and art target.
 
-## Scope
+## Evidence policy
 
-This draft continues through Book XX with 1,193,026 displayed prose words. The manuscript requires 806,974 additional displayed words to reach the 2,000,000-word target; the independent artwork quotas remain incomplete. Narration uses one neural timbre with character pacing. Animation is a gentle whole-body bob of each intact portrait. Additional chapters, voices, and outfit portraits can extend the existing data and asset pipeline.
+Historical repair reports pin the old source, exact passages and actual contradiction. Book XXII adds two literary roots across three existing passages. Its saved-choice replay correction is a separate engine fix. The He Ming gallery follow-up aligns an asset description with the established female salt-packer role and receives no additional literary root credit.
 
-## Extra interior collection
+New events, ordinary callbacks and corrections made before publication do not count as repaired historical plot holes. Anchored continuity facts and checkpoint-removal tests provide useful regression evidence without proving all literary consistency.
 
-The 100 additional interior paintings are registered as backgrounds with `environment: interior` and `collection: building_interiors`. They do not count toward the original 100-background quota. The total background target is 200. World → Interiors loads one original painting at a time and preserves its aspect ratio. Runtime validation visits every delivered interior and checks caption synchronization, dimensions, invalid selection handling, and selection after the panel is closed. The standalone package also loads the last interior.
-
-Use `python tools/validate_world.py --require-complete` for the production acceptance check, or dispatch Godot CI with `require_complete: true`. Draft validation still checks delivered content without treating unfinished quotas as satisfied. The strict command writes its report before returning failure. PR checks automatically require completeness when the PR leaves draft; ready-for-review and converted-to-draft events trigger new checks. Both modes reject exact repeated scene prose.
-
-## Full-production sprite acceptance
-
-The current target is 500 human NPC originals and 501 spirit-beast originals, preserved independently from the 100 original backgrounds and 100 extra interiors. Every sprite records its retained original source, native dimensions, and creation record. The minimum native detail is 1024×1536 (either orientation); do not upscale to pass it. Decoded painting fingerprints ignore encoding metadata, hidden RGB, and transparent canvas padding. A shared original source cannot count twice. Editorial design review remains necessary to exclude pose, costume, mirror, and recolor derivatives.
-
-Book IV extends every river ending, retains scores and journal history, and adds four orchard settlements. The capture harness visits Ren Qiao, the Frostroot Hart, and the final orchard choice; the standalone package loads both native portraits and their narration.
-
-## Compact media storage
-
-Historical source paintings use lossless WebP with exact RGBA pixels and native dimensions recorded in `assets/art/compression.json`. Bundled narration uses 8000 Hz mono Vorbis constrained to 10000 bit/s; the manifest records text hashes, decoded timing, and previous file hashes and encodings. Review screenshots use the existing full-size JPEG captures. CI retains this encoding for new narration and bundles JPEG screenshots.
-
-The new core masters and Thunderfen originals retain their native PNG bytes. Do not run compression over catalogued originals without updating source paths, provenance and checksums together. Narration generation emits the same compact Vorbis setting. Recompress voices alone with `python tools/optimize_assets.py --voices-only --workers 6`. This reduces audio fidelity to a 4 kHz speech bandwidth while retaining complete clips, timing and text hashes. All conversions are decoded and staged before the original voice folder is replaced. Validate all decoded assets before committing.
-
-Git history was compacted by removing binary media from old commits and retaining optimized media at each branch tip. Earlier source commits remain, but their removed media requires regeneration or recovery from the original bundle. Collaborators should clone rewritten `main` with `git clone --single-branch --branch main git@github.com:jgyy/octxian.git`. Other remote branches retain their earlier history; fetching them will restore the old media objects. The compact checkout tracks only `main`.
-
-## Storm and salt-road continuation
-
-Books X and XI continue all three prior endings while keeping the earned fourth stage. The source audits identify 53 distinct existing-content defects, with 78 exact current anchors and an original-node index. Run `python tools/validate_continuation_audits.py --source-base d2ce2851c8e47842104607ec5999ffba6fdabe1c --source-node-index docs/CONTINUATION_SOURCE_INDEX_20261003.json`. CI runs this validator alongside regression tests and adds six actual captures, bringing the total to 72. The source-free smoke test loads both new chapters, their two portrait originals, native environment dimensions and generated Vorbis narration. [Current scope and accounting](CONTINUATION_20261003.md).
-
-## Million-word integration
-
-Books XII–XVII now load through the campaign manifest. Run `python -m tools.validate_million_continuation --verify-source` with source commit cc4bb2d558bcdb7deae656a76ae07abde30f7a6b available. CI fetches that exact source and authenticates 101 choice/transition anchors. It reuses the prior branch's draft narration only after validating every clip against its actual playable text.
-
-Run `godot --headless --path . --script tests/continuation_test.gd` for once-only practice credit, saved completion records, invalid-save atomicity, all five late-role choices, ensemble portrait bounds and layered-motion behavior. New viewport captures are forest_ensemble, lanternwing_crane, desert_attributes, archive_ensemble and archive_courtyard and archive_lantern_keeper. The feature-branch bundle publishes tested media after the full game job succeeds.
-
-The route traversal now retains nondominated capped score vectors at each scene. Because requirements are minima and effects are nonnegative, a stronger vector can take every choice of a weaker one. The source validator also verifies that the campaign is acyclic, making once-only completion history irrelevant to future route availability. This preserves scene and ending coverage while avoiding repeated traversal of the million-word campaign for weaker score variants. Exact saves, score overflow and corrupt input remain separate engine regressions.
-
-Full CI sets `JADE_VOW_VOICE_WORKERS=4` for independent narration clips. Each inference uses one CPU thread; Piper's phonemizer uses its own lock. A single coordinator writes atomic completion checkpoints and validates every clip. Local generation defaults to one worker. The parallel regression forces out-of-order completion and verifies each scene's text hash and the sole checkpoint writer.
-
-The bundle job dispatches CI for its committed media head in a separate concurrency group. It checks matching open PRs and enables strict production quotas when any is no longer draft. That verification run never creates another media commit.
-
-Before the expanded clips are bundled, CI can bootstrap narration from successful integration run [37182354432](https://github.com/jgyy/octxian/actions/runs/37182354432). This optional artifact restore runs only while the first archive closing clip is absent; expired artifacts fall back to generation. Every adopted clip still undergoes model, text, byte and decoded-audio checks. Required validation and package playback remain mandatory.
-
-## Deferred growth and desert dilemmas (2026-10-05)
-
-Run `python -m tools.validate_narrative_revision --verify-source` with fixed source 2b431cb2c113608bb05e1c95edc1ef9b7879d01f fetched locally. It authenticates 101 additional selection/completion repairs, 70 geographic staging corrections and six inserted dilemmas. The six decisions add eighteen distinct consequences while retaining the original next observations and at least two ungated routes each.
-
-Run `godot --headless --path . --script tests/narrative_revision_test.gd` to exercise every deferred branch, new and migrated checkpoints, duplicate-credit prevention and all dilemma outcomes. New version-1 saves use `practice_rules: 1`; earlier saves recognise already-paid growth from their journal and exclusive current branch without changing scores.
-
-Five real captures show the Bitter Wells yard, workroom, lodging, a harder dilemma and completed comparison credit. Native art and proof records are linked in [the narrative review](NARRATIVE_REVISION_20261005.md). The original-picture files remain their independently returned 1536×1024 PNG bytes.
-
-## Storm and salt-road completion credit (2026-10-06)
-
-Run `python -m tools.validate_storm_salt_repairs --verify-source` with fixed source `c90102c720c0fd97fe31559851c57ee38e976d55` available. The audit authenticates thirteen additional selection/completion sites. Run `godot --headless --path . --script tests/storm_salt_repairs_test.gd` for rules 0–3, pending and completed saves, continued endings, overflow, duplicate credit and atomic rejection of unsupported revisions.
-
-New saves retain version 1 and use `practice_rules: 3`. Revision-2 checkpoints recognize credit actually paid on the newly deferred thirteen branches; pending work from the two earlier causality revisions stays pending. Two new real viewport captures show storm household completion and the seed-lot trial's completion. No displayed text or art was changed; the manuscript total remains 1,154,076.
-
-## Saved choices and Book XVIII (2026-10-06)
-
-The campaign contains 1,154,076 displayed words in 13,079 scenes and 18 books; 845,924 remain for two million. The source audit distinguishes one pre-existing inconsistent fact from six missing-followthrough improvements. It does not claim 1,000 literary repairs.
-
-Run `python -m tools.validate_consequence_revision --verify-source` with source commit `3530d7283d0f326771b8f3661c173ad222591898` available. The validator authenticates the original repair, six original decisions and unchanged fallback passages, exclusive callbacks and baseline scan counts. The world validator follows actual recorded-choice conditions, rather than accepting an impossible union of their edges.
-
-Run `godot --headless --path . --script tests/consequences_test.gd` for engine save, revisit and atomic-rejection fixtures and `tests/authored_consequences_test.gd` for real authored decision/save/routing contracts. The complete route test retains future-relevant decisions and checks reachable attribute gates. Four new actual capture names are consequence_choices, consequence_house, consequence_school and consequence_lamp. Their three delayed results come from real selected-path walks at identical attributes.
-
-
-## Career development
-
-Book XX offers three paid supervised appointments and independent day work. Existing saved decisions select the later profession portfolio and renewal address; completed practice grants its authored credit once. [Career paths and exact counts](CAREERS_20261007.md). The capture harness adds nine actual enrollment and portfolio views. CI authenticates four earlier continuity contradictions across the Reed Crossing and harbor identity source audits, separately from one terminology clarification, and exercises every career training combination, legacy fallback, zero-score access and exported career narration.
-
-
-## Book XXI commissions and native paintings
-
-Book XXI adds 71,944 displayed prose words in 936 unique playable scenes. The current manuscript is 1,264,970 words in 14,543 scenes and 21 books; 735,030 words remain toward two million. [The commission review](COMMISSIONS_20261007.md) separates manuscript counts, current career choices, finite budgets, original paintings and review captures.
-
-Run `godot --headless --path . --script tests/commissions_test.gd` to exercise actual Book XX enrollment, retained specialties and availability contexts, the six retained ending continuations, every new commission choice, missing-record supervision, zero-score access, saved commitment restoration, atomic rejection of switched saved methods and once-only completion rewards. A declined offer reaches its own portfolio and cannot claim commissioned work. The archive's shared duty is a real player choice and preserves the older specialty.
-
-The full capture suite includes ten new commission offer, entry, kitchen and saved portfolio views, bringing its expected total to 140. Capture walks use actual choices and save/load; the verifier adds the measured count only after the images pass. Seven new source PNGs retain their original bytes and maximum generated native dimensions, including the loggia's distinct 1672 × 940 output. Packaged-game smoke validation loads all seven backgrounds and checks their catalog dimensions without the source checkout.
-
-The usual full CI still checks prior pinned continuity audits, all manuscript routes, native source and decoded-pixel uniqueness, narration provenance, rendered captures and exported Linux playback. The draft keeps incomplete production word/art targets visible. No new historical plot-hole credit is assigned to authored commission failures or prepublication review corrections.
-
-
-## Book XXII rival paths and native sprites (2026-10-08)
-
-The campaign contains 1,337,201 displayed words in 15,518 scenes and 22 books; 662,799 words remain for two million. [Rival paths and exact accounting](RIVAL_PATHS_20261008.md) documents three complete approaches to Qiu Lian's method, 132 local choice combinations, actual delayed results and the finite facility grant. Every scene keeps fifth-stage four pairs and shoulder arrangements; the trial creates no wages, prizes, qualifications or growth.
-
-Run `godot --headless --path . --script tests/rival_paths_test.gd` for real prior ending continuations, zero-score path coverage, actual saved decisions, immutable selected destinations, matching replay, delayed routes and completed outcomes. Python graph traversal prunes obsolete decisions only from reachability signatures while saves retain full actual history. The two new portrait PNGs preserve maximum requested native output at 1024 × 1536 with original bytes and RGBA transparency.
-
-CI fetches source `0fe9938bf765611b3fe9d31c747fec6067346620` and runs `python -m tools.validate_commission_calendar_repair --verify-source` and `python -m tools.validate_late_identity_repairs --verify-source`. These authenticate two literary roots across three old passages. Replay effects receive separate mechanics credit. Prepublication rival corrections add no historical repair credit, and the 1,000-repair target remains unverified.
-
-Nine new actual game captures use saved zero-score route walks. The expected full set is 149 captures, measured only by successful screenshot verification. Captures run before new narration generation; source-free package tests later require every new narrated scene anchor, both native sprites and all three actual completed paths. The usual full CI validates all narration and exported Linux playback. Production word/art quotas remain incomplete, so the PR remains draft.
+[Story authoring](STORY_AUTHORING.md) · [Cultivation canon](CULTIVATION_SYSTEM.md) · [Latest measured report](content_report.json)

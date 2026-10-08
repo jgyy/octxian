@@ -14,7 +14,7 @@ The source continues all three Book XXI settlements while retaining their ending
 | Independent questions outside the trial | 300 | 20,351 |
 | **New Book XXII** | **975** | **72,220** |
 
-Counts include distinct playable alternatives and exclude choices, labels, prompts and documentation. Existing-source repairs add eleven words. The manuscript now contains **1,337,201 words across 15,518 scenes and 22 books**; **662,799 words remain** for two million.
+Counts include distinct playable alternatives and exclude choices, labels, prompts and documentation. Existing-source repairs add eleven words. At Book XXII delivery, the manuscript contained **1,337,201 words across 15,518 scenes and 22 books**, with **662,799 words remaining**. [Book XXIII's six completed paths](SEASON_PATHS_20261008.md) now take the campaign past two million.
 
 ```mermaid
 flowchart TD
@@ -77,10 +77,10 @@ python -m unittest discover -s tests -p test_rival_paths.py
 godot --headless --path . --script tests/rival_paths_test.gd
 ```
 
-Nine new captures walk the actual zero-score root and branches with save/load checkpoints, covering both new people, the path choice, three entries and three completed outcomes. The screenshot verifier adds its measured count to the delivery report only after all captures pass; expected total is 149. The source-free package checks all 22 chapters, actual three-path completion, both native portraits and new Vorbis narration.
+Nine new captures walk the actual zero-score root and branches with save/load checkpoints, covering both new people, the path choice, three entries and three completed outcomes. The screenshot verifier adds its measured count to the delivery report only after all captures pass; the verified Book XXII total was 149. Book XXIII adds fifteen season captures for an expected current total of 164. The Book XXII source-free package checked all 22 chapters, actual three-path completion, both native portraits and new Vorbis narration. Current checks also include Book XXIII and its six completed paths.
 
 [Path choice](screenshots/rival_paths.jpg) · [Qiu Lian](screenshots/rival_qiu_zhen.jpg) · [Su Yao](screenshots/rival_su_yao.jpg) · [Competition](screenshots/rival_compete.jpg) · [Joint work](screenshots/rival_cooperate.jpg) · [Independence](screenshots/rival_independent.jpg) · [Competitive ending](screenshots/rival_end_compete.jpg) · [Joint ending](screenshots/rival_end_cooperate.jpg) · [Independent ending](screenshots/rival_end_independent.jpg)
 
 [Workflow](https://github.com/jgyy/octxian/actions/workflows/ci.yml) · [Machine-readable manuscript accounting](CULTIVATION_PROGRESS.json) · [Latest generated content report](content_report.json)
 
-Two-million-word, 1,000-repair and full-production artwork targets remain visible and incomplete. The PR stays a draft.
+The two-million-word manuscript target is met by Book XXIII. The 1,000 authenticated repair and full-production artwork targets remain unfinished. The PR stays a draft.

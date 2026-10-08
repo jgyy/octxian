@@ -1,0 +1,852 @@
+{
+  "chapters": {},
+  "characters": {},
+  "nodes": {
+    "season_archive_m05_entry": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "High summer arrived with a repaired gutter and an annex still short of certainty. Tan Ke returned for the arranged follow-up with the keeper and accepted a limited dry-table setup while keeping the affected shelf unloaded. The room did not resume every old use. At the next newly accepted project discussion, Su read the response chosen during the wet interruption. Public access, dry project preparation and owner notices had served different needs and left different costs. Yue and Qiu would not invent a complete rescue from one selected interval.",
+      "next": "season_archive_m05_common_001",
+      "routes": [
+        {
+          "decision": "season_archive_m04_response",
+          "selected": "season_archive_m04_public_001",
+          "next": "season_archive_m05_recall_public_001"
+        },
+        {
+          "decision": "season_archive_m04_response",
+          "selected": "season_archive_m04_project_001",
+          "next": "season_archive_m05_recall_project_001"
+        },
+        {
+          "decision": "season_archive_m04_response",
+          "selected": "season_archive_m04_owners_001",
+          "next": "season_archive_m05_recall_owners_001"
+        }
+      ]
+    },
+    "season_archive_m05_recall_public_001": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The public-first response had given relocated copies readable access directions and saved one visitor a second journey. The individual owner notices and dry project preparation had waited until a later accepted staff interval, now completed under Su's arrangement. One owner had heard a rain rumor before her notice arrived and asked why the project had told readers where to go before telling entrusted people what had changed. Su acknowledged the real delay. Qiu did too. Today's clear custody did not erase the earlier order or the trust it had cost.",
+      "next": "season_archive_m05_recall_public_002"
+    },
+    "season_archive_m05_recall_public_002": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue asked whether that owner wanted material returned. Su said she had asked for a current condition account first, and staff had supplied the supported inspection information. No retrieval had occurred merely because she complained. Qiu liked the precision and disliked needing it. The public-first route had served a visible immediate need while postponing a less visible person's question. Yue said that was why the actual visitor's saved journey and the owner's delayed notice belonged in the same account. Neither had to make the other imaginary to matter.",
+      "next": "season_archive_m05_recall_public_003"
+    },
+    "season_archive_m05_recall_public_003": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Su closed the response page with the public access products, later completed pending tasks and actual complaint kept distinct. The approved project copies were now ready for today's discussion. The originals remained under their own current custody; no return was borrowed from the unchosen owner-first route. Qiu read the dry-table condition and rested her hand on the empty board. Yue settled her shoulder. Their prior choice had a useful result and a human cost, both clear enough to stop directing the new funding question.",
+      "next": "season_archive_m05_common_001"
+    },
+    "season_archive_m05_recall_project_001": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The project-first response had prepared a bounded set of dry authorized reproductions and future-copy headings. The public access cards and owner notices had waited for a later accepted staff interval, now completed under Su's arrangement. A visitor had made an unnecessary second enquiry before the fuller directions were issued. One owner had asked for clearer notice of the changed room. Qiu remembered the prepared pages with pride and the delayed questions with discomfort. Yue refused to let either feeling rewrite the other half of their actual priority.",
+      "next": "season_archive_m05_recall_project_002"
+    },
+    "season_archive_m05_recall_project_002": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Su showed the prepared-copy list beside the later completed notices. Preparation had made several approved sheets ready to use, but the future transcriptions remained unperformed until actual copying intervals occurred. Qiu checked those pending markers before talking about the project's progress. Yue liked the care. An organized folder could become a false count as easily as a confident public board. The route's real achievement was readiness and legible handover under dry conditions, with postponed access and owner communication still part of its cost.",
+      "next": "season_archive_m05_recall_project_003"
+    },
+    "season_archive_m05_recall_project_003": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Su closed the response page after naming the actual prepared work and delayed tasks. No laundry-book retrieval had occurred in this route merely because another choice had enabled one. Current custody stayed under its own supported record. The dry-table setup was now available for approved work, with the affected shelf still unloaded. Yue rested her shoulder and Qiu sat opposite the finite supply pile. Their earlier project priority could stand honestly while today's new question asked how much work the annex could still afford to support.",
+      "next": "season_archive_m05_common_001"
+    },
+    "season_archive_m05_recall_owners_001": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The owner-first response had issued notices promptly and enabled the household owner's actual retrieval of the original laundry book. Its approved copies remained in the project under her explicit confirmation. Immediate access to new book surfaces had ended; any later request would need a fresh response from home. The fuller public access cards and dry project preparation had waited for a later accepted staff interval, now completed. Qiu felt the missing original sharply. Yue felt the strengthened trust. Su kept both in the response record without claiming one paid for the other.",
+      "next": "season_archive_m05_recall_owners_002"
+    },
+    "season_archive_m05_recall_owners_002": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The household owner had written that she was glad to have the original beside her own cupboard while the annex repaired its wall. She invited later precise questions but promised no further section. Qiu read the letter without asking Su to turn the invitation into a booking or a broad consent. The project could continue with its actual retained authorized copies. Its lost immediate source access was real. Yue said the owner's confidence belonged to the woman, not to the annex as a resource it could spend until the book returned.",
+      "next": "season_archive_m05_recall_owners_003"
+    },
+    "season_archive_m05_recall_owners_003": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Su closed the response page with the issued notices, completed retrieval, retained-copy terms and delayed access work. Today's funding discussion would use only the approved materials actually available. It would not make the original appear on the table because the project missed it. Qiu put the copy list beside the supply pile. Yue settled her shoulder at the dry table. Their selected route had let an owner decide differently and left the authors a smaller immediate source base, without ending the room's useful ordinary work.",
+      "next": "season_archive_m05_common_001"
+    },
+    "season_archive_m05_common_001": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The supply cupboard contained less paper than its shelf labels suggested. Empty wrappers occupied the spaces where three stacks had stood. Su set the current project provision beside the cupboard list. The owner-supported material term covered a finite quantity and would end before autumn unless a new arrangement was agreed. The room owner's gutter repair belonged to her separate responsibility. The completed old trial grant supplied none of this. Yue counted the actual clean sheets with her good hand while Qiu sorted reusable blank backs from drafts whose retained evidence mattered.",
+      "next": "season_archive_m05_common_002"
+    },
+    "season_archive_m05_common_002": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Qiu wanted to use every blank reverse side for new copies. Yue pointed to a failed public draft whose crossed version still explained an actual correction. Writing over its back could make the retained history harder to inspect, though the ink would not necessarily bleed. Su separated evidence drafts from ordinary unused scraps. They could reuse the latter within the project arrangement. The distinction reduced the apparent paper supply. Qiu sighed, then made a smaller honest pile. A finite resource became more useful when they stopped counting sheets they should not spend.",
+      "next": "season_archive_m05_common_003"
+    },
+    "season_archive_m05_common_003": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "A merchant who supplied ordinary ink had offered a bounded contribution: fresh paper, one bottle and a share of the remaining room cost for a stated term. She wanted a public acknowledgement near the exhibit and hoped the exhibit would draw people to the quay shops. Su had not accepted. Qiu asked whether the offer demanded a ferry claim. Su said the merchant had spoken enthusiastically about the red cloth but had not yet agreed how source limits would govern the title. Yue felt the project standing on a familiar edge between attention and evidence.",
+      "next": "season_archive_m05_common_004"
+    },
+    "season_archive_m05_common_004": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The merchant arrived carrying her daughter and a sample wrapper of the offered paper. The girl was old enough to be bored by a room of adults and young enough to ask why nobody had drawn the cloth as a flag. Her mother told her to wait outside with the kitchen cook. Qiu asked whether the child wanted to look at the permitted surface drawing first. She did. Yue showed the three marks without giving them a legendary name. The child said they looked like three crooked windows. It was a better drawing than her earlier flag.",
+      "next": "season_archive_m05_common_005"
+    },
+    "season_archive_m05_common_005": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The merchant explained her offer in practical terms. A useful public room brought customers who also needed ink, envelopes and ordinary copies. An exhibit with an interesting title could make that use visible. She did not claim to be rescuing history for pure virtue. Qiu appreciated the candor. Yue appreciated it too, while asking whether the acknowledgement would let the merchant choose the project's historical conclusion. The woman looked offended for a moment. 'I sell ink. I don't sell the aunt's memories,' she said. Su placed that distinction into the actual discussion.",
+      "next": "season_archive_m05_common_006"
+    },
+    "season_archive_m05_common_006": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The proposed title on the merchant's sample wrapper was Cloth of the old ferry households. It sounded plausible and exceeded the supported identification. Qiu said so before Yue had to object. The merchant asked whether old households near a ferry were not exactly what the papers concerned. Su explained that the received laundry group, delivery sheets and cloth had different known relations, while the torn historical strip remained unresolved. The merchant could support the work without purchasing a stronger provenance. The woman listened carefully, then said she would consider a title about papers that crossed ordinary hands.",
+      "next": "season_archive_m05_common_007"
+    },
+    "season_archive_m05_common_007": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue worried that the new title still suggested a journey for the cloth. Qiu asked whether any word involving movement would now be forbidden. Yue stopped and reconsidered. The present deposit had crossed hands; the public delivery sheets recorded movement; the unknown older cloth route could be named as a gap. They could make the distinction in an exhibit whose actual title did not silently assign every object the same journey. The merchant watched them argue and smiled. 'You could charge for the discussion,' she said. Su answered that they would rather finish its useful part.",
+      "next": "season_archive_m05_common_008"
+    },
+    "season_archive_m05_common_008": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Another possibility came from the cook's sister. She proposed an ordinary kitchen evening where neighbors could pay for a meal under the kitchen's own account and voluntarily contribute a stated portion toward the copying room's materials. The cook would control food preparation, and the project would explain its actual work without promising a solved mystery. No new copying permission would be bought by a contribution. Qiu liked the visible ordinary use and disliked the time required. Yue liked the shared meal and worried about turning volunteer intervals into unpaid event labor people felt unable to refuse.",
+      "next": "season_archive_m05_common_009"
+    },
+    "season_archive_m05_common_009": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "A third possibility was to shrink the current copying batch. Su could match it to the remaining actual material provision, preserve the approved work already completed and defer unstarted tasks rather than seek new support now. Staff would keep or return originals under their own terms. The smaller project would reduce public output before the lease ended, but it would also leave fewer promises dependent on sponsors and events. Qiu stared at the thin supply pile. 'We can be impeccably small until nobody knows what we meant to save,' she said. Yue heard both the sting and the fear.",
+      "next": "season_archive_m05_common_010"
+    },
+    "season_archive_m05_common_010": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The merchant said a small project could still be worth supporting, but she would not fund an indefinite argument. Her offer had an actual term and quantity. The kitchen evening also had an actual capacity and date, subject to the cook's agreement and people's available time. The reduced batch had actual omissions. Su refused to write any option as a rescue from all future uncertainty. Yue liked the finite forms and worried they might make the story feel less compelling. Qiu said finiteness was compelling when a real room might lose its door.",
+      "next": "season_archive_m05_common_011"
+    },
+    "season_archive_m05_common_011": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The cook entered with the merchant's daughter, who had made a paper copy of the three crooked windows. She asked to pin it beside the birds. Su agreed only as the child's drawing, labeled with her maker's name, not as a historical reconstruction. The merchant laughed at how thoroughly the annex qualified a child's art. Qiu said the child had more freedom than the cloth because she could answer what she meant. Yue watched the girl write her name proudly. Authorship could be ordinary delight rather than an argument over prestige.",
+      "next": "season_archive_m05_common_012"
+    },
+    "season_archive_m05_common_012": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "They took the funding discussion to the shared kitchen during a separately agreed meeting portion. Yue's existing copying interval had ended, and she had verified this short meeting did not conflict with another acceptance. Qiu checked her own time too. The cook offered chairs and kept the food preparation area clear. Su brought the actual supply and room-term pages. The merchant brought no purse to place between the women as a contest prize. Her contribution, if accepted, would go through the project's accountable material and space arrangement.",
+      "next": "season_archive_m05_common_013"
+    },
+    "season_archive_m05_common_013": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The cook's sister set down a dish of sliced cucumber and asked the merchant what a supporter expected in return. The merchant said acknowledgement and a useful public occasion, with the limits honestly stated. The sister said a meal could provide that without making the red cloth perform. Qiu asked whether the kitchen could afford the ingredients. The cook answered with a finite plan and a maximum number of bowls, not a heroic promise to feed the valley. Su listened. A domestic room could support public work only if its own ordinary costs and labor remained visible.",
+      "next": "season_archive_m05_common_014"
+    },
+    "season_archive_m05_common_014": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue asked who would do the serving if the kitchen evening went ahead. The sister named available household helpers who had agreed to be asked, not people already volunteered by somebody else's enthusiasm. Yue could take a low seated explanation role within an accepted interval, but she would not lift hot pots or work through shoulder pain. Qiu could give a compact public account if she accepted its actual time. The cook would handle food safety and preparation within his ordinary work. Their copying skills did not qualify them to take over the kitchen because the cause sounded worthy.",
+      "next": "season_archive_m05_common_015"
+    },
+    "season_archive_m05_common_015": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The merchant said she would not resent a neighborhood evening, but her offered paper might still be useful later. Su refused to add both options into one hidden enlarged plan before choosing the actual current route. If the project selected the merchant term, it would negotiate and document that term. If it selected the meal event, it would seek actual agreements and execute only what those supported. If it shrank the batch, it would state the deferred work. Other future offers could remain offers without being counted as present resources.",
+      "next": "season_archive_m05_common_016"
+    },
+    "season_archive_m05_common_016": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Qiu looked at the cook's patched curtain and asked whether the kitchen evening would make the annex seem needy. The cook laughed. 'You are needy. You need paper. I need customers who do not call my noodles thin soup.' Yue smiled and said there was a difference between naming need and making it a demand on everyone nearby. The sister agreed. The event could invite support without shaming somebody who only wanted supper. The merchant said that might make it a better public occasion than a solemn exhibit everyone felt obliged to admire.",
+      "next": "season_archive_m05_common_017"
+    },
+    "season_archive_m05_common_017": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue thought of the household owner with her repaired basket and the original's current custody under the route actually chosen. The project had asked for papers within limits, and now it would ask for materials or time within different limits. Consent did not belong only to precious memories. Qiu said they should not turn every bowl purchase into a ceremony. Yue agreed. A plain contribution line and a clear optional choice could do more than an elaborate speech about virtue. Su drafted the event possibility in ordinary language, then put it aside until the actual selection.",
+      "next": "season_archive_m05_common_018"
+    },
+    "season_archive_m05_common_018": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The merchant showed them the paper sample. It was smooth enough for clear copies and not so fine that a public shelf user would hesitate to handle it. Qiu rubbed a blank corner lightly between two fingers after asking. Yue tried a small authorized test stroke on the sample's designated scrap. The ink spread less than on the current rough paper. The practical difference made the offer tangible. A sponsor was not only a possible pressure on interpretation; she could also provide a material that let ordinary words remain easier to read.",
+      "next": "season_archive_m05_common_019"
+    },
+    "season_archive_m05_common_019": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The cook's sister showed a bowl-count list for the proposed evening. Its simple columns had room for a contribution total separate from the meal account. Qiu liked it immediately. Yue noticed one ambiguous heading that could make a meal payment look like a donation. They changed it. The sister said she had not meant the confusion. Nobody accused her of deceit. Their copying work had made them better at noticing how a small label could transfer somebody else's money into a story he had not agreed to join.",
+      "next": "season_archive_m05_common_020"
+    },
+    "season_archive_m05_common_020": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Su showed the reduced-batch list last. It prioritized the approved copies most likely to answer actual public questions, based on use and owner terms, while deferring some attractive but unstarted descriptions. The red cloth's existing surface account would remain; its missing provenance would not become solved because the batch shrank. Qiu asked whether the list abandoned the search. Su said it deferred specific new work under current resource limits. The project could return to a lead only if later access and provision existed. A smaller honest plan was a possibility, not a declaration that curiosity had died.",
+      "next": "season_archive_m05_common_021"
+    },
+    "season_archive_m05_common_021": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The merchant's daughter fell asleep against her mother's side while the adults compared the three plans. Her paper windows lay beside the cucumber dish. Qiu lowered her voice without being asked. Yue noticed the ordinary care and did not try to make it a lesson in the rival's hidden tenderness. The merchant balanced the child more comfortably and said she needed a decision before her next order of paper was due. The kitchen sister needed a date before inviting helpers. Su needed a current batch before promising work. Finite needs finally made the discussion approach a choice.",
+      "next": "season_archive_m05_common_022"
+    },
+    "season_archive_m05_common_022": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Qiu preferred the bounded merchant term if interpretation stayed independent. It could provide useful materials now without consuming a public evening. Yue saw the strength and worried about the exhibit's temptation to grow more certain under gratitude. The cook's sister preferred the meal because neighbors could hear actual accounts and choose support directly. Su said reducing the batch remained legitimate if neither new provision could be agreed within their current capacities. The room's need did not make one woman responsible for choosing the purest source of help.",
+      "next": "season_archive_m05_common_023"
+    },
+    "season_archive_m05_common_023": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "They reviewed the historical title once more. No funding option would identify the cloth as a ferry relic, turn the aunt into a public legend or open the sealed Echo cabinet. The actual exhibit could describe received household papers, public deliveries and an unresolved cloth source. Qiu suggested Ordinary things, uncertain journeys as a working title. Yue liked uncertain and disliked journeys for the cloth. The merchant said the title should fit on a sign. Su wrote the disagreement down for later actual design instead of letting it block the present resource choice.",
+      "next": "season_archive_m05_common_024"
+    },
+    "season_archive_m05_common_024": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue set the sample paper, bowl list and reduced-batch list in a row. Her shoulder rested comfortably, and the table's low arrangement let her inspect each without reaching. Qiu leaned forward with both hands empty. Su waited with the current finite account, and the merchant waited with her sleeping child. The cook's sister waited beside the patched curtain. A choice about financing had become a choice about the project's next form of public life, with actual people and costs on every side rather than a purse awarded to the most persuasive rival.",
+      "next": "season_archive_m05_common_025"
+    },
+    "season_archive_m05_common_025": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The kitchen's evening customers began to arrive. The cook needed his table back, and the merchant's next order would not wait for the annex to resolve every philosophical worry. Yue could choose a bounded sponsor term, a separately agreed neighborhood meal event or a smaller batch matched to current provision. Each route would need actual follow-through before its resources existed. Each could preserve historical independence if the authors did their ordinary work honestly. Qiu said, 'I want the room to ask for something it can use, and stop pretending that need itself is an embarrassment.'",
+      "next": "season_archive_m05_support"
+    },
+    "season_archive_m05_support": {
+      "chapter": "book_xxiii_season",
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue chose the current provision route. A bounded merchant term could supply material and space support with acknowledgement while preserving independent historical claims. A kitchen evening could invite voluntary neighborhood support under separately agreed labor and meal accounts. A smaller batch could match the project to provision already present, leaving more work deferred. None was an accomplished rescue yet. The selected route would need actual agreements and action, with its costs retained and the old trial grant closed.",
+      "choices": [
+        {
+          "text": "Negotiate and carry out the bounded merchant support term without interpretive control.",
+          "next": "season_archive_m05_merchant_001"
+        },
+        {
+          "text": "Arrange the finite kitchen evening with voluntary support and explicit work limits.",
+          "next": "season_archive_m05_meal_001"
+        },
+        {
+          "text": "Reduce the current batch to match existing provision and state the deferred work.",
+          "next": "season_archive_m05_smaller_001"
+        }
+      ]
+    },
+    "season_archive_m05_merchant_001": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue chose the merchant term, subject to its actual agreement. Su read the offered quantity and space contribution aloud, and Qiu wrote the acknowledgement separately from the historical title. The merchant accepted a sign naming her support without claiming ownership of the cloth's history. She could not require a stronger provenance, wider copying consent or access to private sources. Yue asked her to confirm that understanding in plain words. The woman did, adding that she still expected a readable public occasion rather than a room of notes nobody would see.",
+      "next": "season_archive_m05_merchant_002"
+    },
+    "season_archive_m05_merchant_002": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "They agreed the finite term and named delivery dates under the project's separate account. No resource became Yue's wages or a prize for winning the funding argument. The merchant would supply the stated paper and ink and contribute the agreed portion of room costs through Su's accountable arrangement. The title remained subject to the actual sources. Qiu kept the historical independence clause short enough that the merchant could read it without wading through every old uncertainty. Yue checked that its brevity still protected the owner's limits and the sealed packet's exclusion.",
+      "next": "season_archive_m05_merchant_003"
+    },
+    "season_archive_m05_merchant_003": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The merchant's daughter woke and asked whether the cloth was now a ferry flag. Her mother said no. The shop was helping the room copy what it could actually know. Qiu smiled at the answer. Yue liked that the boundary had reached someone who had not read the formal page. The child asked whether her crooked-window drawing could be on the event sign. Su said it could appear as her own art if her mother agreed, clearly separate from the object description. They agreed to keep that distinction visible.",
+      "next": "season_archive_m05_merchant_004"
+    },
+    "season_archive_m05_merchant_004": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At the agreed delivery time two days later, the merchant brought the stated material into the dry staging area. Su counted and entered the actual receipt. Yue attended a newly verified short copying interval; Qiu checked the labels within her own accepted time. The sample paper's promise had become usable sheets and ink. They did not count a later installment before it arrived. The room-cost contribution went through the agreed account, separate from either purse. The project now had a real bounded new provision rather than an attractive offer still waiting at the kitchen table.",
+      "next": "season_archive_m05_merchant_005"
+    },
+    "season_archive_m05_merchant_005": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Qiu prepared the acknowledgement sign with the merchant's approved wording. Yue checked that it sat outside the source descriptions and did not look like a maker's mark on the historical cloth. Su placed it where visitors could see support without confusing it with provenance. A supporter said the new paper proved the merchant believed the ferry story. Qiu corrected that inference immediately. The merchant had supported ordinary copying under a stated uncertainty. Gratitude did not allow the project to borrow her contribution as evidence of a historical identification.",
+      "next": "season_archive_m05_merchant_006"
+    },
+    "season_archive_m05_merchant_006": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The first copied page on the new material was clearer at the crossed quantity. Yue felt the brush glide more evenly and stopped herself from calling the material universally better. It served this copy well. Qiu checked the readable source note and liked the practical improvement. The bounded sponsor route had delivered an actual tool for ordinary work without solving its history. They retained the old rough-paper draft where its failed layout mattered, and used the new provision for the approved batch rather than expanding into private pages because supplies were available.",
+      "next": "season_archive_m05_merchant_007"
+    },
+    "season_archive_m05_merchant_007": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The merchant visited once during her term and asked when the public occasion would occur. Su showed the agreed date and actual remaining preparation. Qiu said the display would use supported headings and keep the cloth's older source gap open. The woman seemed disappointed by the gap and pleased by the readable pages. She did not demand a changed title. Yue saw that a sponsor could have mixed reactions without becoming a threat to be defeated. Their actual agreement gave the disappointment a boundary and the contribution a useful place.",
+      "next": "season_archive_m05_merchant_008"
+    },
+    "season_archive_m05_merchant_008": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At the route's close, the project had received the stated current material and room support under a finite merchant term, with acknowledgement issued and interpretation kept independent. Later installments remained conditional on their actual delivery; no neighborhood meal had occurred and no reduced-only plan had replaced the batch. Qiu was glad the room could work now. Yue was glad the sponsor's hope had not become a source. Su filed the receipts and terms. The route's cost included visible acknowledgement and a public occasion to fulfill, not an invented historical conclusion.",
+      "next": "season_archive_m05_after_001"
+    },
+    "season_archive_m05_meal_001": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue chose the kitchen evening, subject to actual agreements. The cook accepted a finite number of bowls and retained control of food preparation. His sister confirmed helpers who independently agreed to their tasks and times. Su kept the meal account separate from the optional project contribution line. Yue accepted a low seated explanation role within a newly checked free interval; Qiu accepted a compact account and questions portion. No one was conscripted by being nearby. The proposed evening became a bounded plan with real people rather than a cheerful list of invisible labor.",
+      "next": "season_archive_m05_meal_002"
+    },
+    "season_archive_m05_meal_002": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "They issued a plain invitation through the kitchen's ordinary notice board, with the cook's approval. A person could buy supper without contributing to the project, contribute without purchasing a historical claim or decline both. The public explanation would use only material already authorized for that use. The merchant's paper offer remained unaccepted this route. Su did not count it among the event's resources. Qiu said the notice was almost aggressively ordinary. Yue answered that ordinary made the choice easier for someone who had come hungry rather than virtuous.",
+      "next": "season_archive_m05_meal_003"
+    },
+    "season_archive_m05_meal_003": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "On the agreed evening, the kitchen filled with steam and voices. Yue sat at the low explanation table while the cook and accepted helpers handled hot food. Her shoulder stayed supported; she lifted no pot and claimed no new kitchen skill. Qiu stood at the dry board for her accepted portion, describing received household papers, usable delivery copies and the cloth's unresolved source. The audience included people who wanted the story and people who mainly wanted noodles. Both could remain without pretending they had joined a preservation movement.",
+      "next": "season_archive_m05_meal_004"
+    },
+    "season_archive_m05_meal_004": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "One customer asked whether a contribution would let him see the sealed Echo packet. Qiu answered no. The project did not handle it, and a bowl or donation purchased no private access. The cook's sister pointed him toward his meal and said the account lines were separate for a reason. He laughed and ate. Yue appreciated the directness. Their event could be hospitable without treating every intrusive question as an enemy's attack. A useful public boundary sometimes fit in two plain sentences and the return of a person to his supper.",
+      "next": "season_archive_m05_meal_005"
+    },
+    "season_archive_m05_meal_005": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The cook's sister totaled the actual meal payments and optional contributions under their agreed separate accounts. Su checked the project portion and entered only what had actually been given. It covered a stated current material purchase and a limited space contribution; any further need remained unfunded. Yue received no wage or prize. Qiu received no purse for persuading the audience. The event had produced a real finite provision and actual public use, alongside the labor, ingredients and explanation time that made it possible. They did not call the balance a permanent rescue.",
+      "next": "season_archive_m05_meal_006"
+    },
+    "season_archive_m05_meal_006": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "After her accepted questions portion, Qiu handed the board to Su and left for her other obligation. Yue stayed only through her own agreed closing time and then rested while the helpers finished the kitchen tasks they had accepted. The cook's sister refused an enthusiastic volunteer's offer to add another late session without checking the room and staff. A successful evening invited expansion at the very moment people were tired. Su kept the plan finite. The event's warmth did not dissolve the calendars that had made its labor honest.",
+      "next": "season_archive_m05_meal_007"
+    },
+    "season_archive_m05_meal_007": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At the next agreed supply receipt, Su showed the purchased paper and ink covered by the actual contribution. Yue and Qiu inspected the material during their own accepted project interval. It was less fine than the merchant's sample but suitable for the named copies. Qiu said the neighborhood had bought readable work rather than a prettier myth. Yue said the evening had also let people hear uncertainty without losing interest. They kept both actual outcomes and the event's labor cost, refusing to turn one pleasant night into proof that every project should raise support this way.",
+      "next": "season_archive_m05_meal_008"
+    },
+    "season_archive_m05_meal_008": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At the route's close, the project had held the finite kitchen evening, received actual optional support through separate accounts and obtained the stated current supplies and space contribution. The merchant term had not been accepted. No future evening was booked. Qiu remembered the useful questions and the tiring public explanation. Yue remembered the cook's ordinary hospitality and the need to leave on time. Su filed the current provision and remaining gap. The annex now had a little more material and a real neighborhood occasion behind it, with no solved cloth history purchased by supper.",
+      "next": "season_archive_m05_after_001"
+    },
+    "season_archive_m05_smaller_001": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue chose the smaller batch matched to existing provision. Qiu's disappointment showed immediately. Su put the merchant offer and kitchen plan aside as unaccepted possibilities, not resources the project secretly retained. The current batch would use actual paper and ink already present and the remaining stated room term. Yue and Qiu reviewed approved tasks by present use and source availability. The reduction deferred unstarted work; it did not erase completed copies or revoke owner permissions by pretending their papers had ceased to matter.",
+      "next": "season_archive_m05_smaller_002"
+    },
+    "season_archive_m05_smaller_002": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The first deferred task was a second decorative layout of the cloth marks. Its current surface drawing remained readable, and no new provenance source justified another attractive version. Qiu accepted that omission easily. The next was an ordinary delivery section a reader had asked about. She accepted it less easily. Su recorded the request as unfulfilled under the reduced batch, with an explanation of current limits. A smaller plan could be sensible and still leave a person without useful work. Their account would not hide that loss beneath the word focus.",
+      "next": "season_archive_m05_smaller_003"
+    },
+    "season_archive_m05_smaller_003": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "They kept the approved laundry copy, current public excerpt and high-use delivery sheets in the active set, under the actual permissions and custody supported by their history. New book surfaces remained subject to fresh presentation and any owner response needed. Yue checked the remaining clean paper against the selected tasks. Qiu checked how many source notes each would require to travel honestly. The reduced list fit the real supply more closely than its first draft. They did not spend blank backs of retained evidence merely to make the arithmetic appear comfortable.",
+      "next": "season_archive_m05_smaller_004"
+    },
+    "season_archive_m05_smaller_004": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Su told the merchant their current route would not accept her offered term. The woman was polite and disappointed. She asked whether the project distrusted her. Yue said the choice concerned the current scope and provision, not a judgment that all sponsorship corrupted history. Qiu added that her sample paper had been useful to inspect and might suit a later independently agreed task. Su made clear that no later acceptance was promised. The merchant left with her offer honestly unaccepted, rather than appearing in the project's account as a patron it had thanked but not used.",
+      "next": "season_archive_m05_smaller_005"
+    },
+    "season_archive_m05_smaller_005": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The cook's sister heard the reduced plan and put away her bowl-count sheet. She said she was relieved not to organize an evening this week and sad the room would produce less. Yue thanked her for both feelings. Qiu said she had wanted the direct neighborhood explanation too. The cook replied that supper could still be supper without becoming an event. They ate quietly at the ordinary kitchen table. The selected smaller route had saved real labor by not holding the fundraiser, while giving up its possible provision and public contact.",
+      "next": "season_archive_m05_smaller_006"
+    },
+    "season_archive_m05_smaller_006": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "A supporter asked why the project was not making a dramatic appeal before autumn. Qiu almost answered that drama would not buy a source, then stopped. Some appeals could buy paper honestly. Yue said they had chosen a current batch that could be completed with provision already present, while deferring named work rather than promise it on uncertain support. The supporter said she might have helped if asked. Su thanked her and left a future offer as an offer. Their route would not secretly expand because refusal felt socially awkward after the choice was made.",
+      "next": "season_archive_m05_smaller_007"
+    },
+    "season_archive_m05_smaller_007": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "They completed the first reduced-batch sheet during a separately accepted low copying interval. Yue worked with her shoulder supported; Qiu checked the current source note. The paper was rough but readable. Its ordinary completed use gave the smaller plan substance beyond a list of omissions. Su filed the result and left the deferred tasks visible. Qiu said the batch might still outlast the annex. Yue agreed, then added that survival did not make the unanswered reader's request disappear. They could value the actual page and keep the cost beside it.",
+      "next": "season_archive_m05_smaller_008"
+    },
+    "season_archive_m05_smaller_008": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At the route's close, the project had reduced its active batch to actual current provision and completed one named approved sheet within that plan. The merchant term and kitchen evening had not occurred. Deferred descriptions and reader requests remained unperformed. Su recorded the remaining material and room-term limit without inventing new support. Qiu disliked the smaller ambition and respected its honest completion. Yue valued the finite plan and regretted the lost public occasion. The annex continued as a narrower real project, with its missing provenance still open and its need neither denied nor dramatized into a false rescue.",
+      "next": "season_archive_m05_after_001"
+    },
+    "season_archive_m05_after_001": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The room owner inspected the dry-table setup with the keeper and saw that the unloaded affected shelf still reduced usable space. Her proposed autumn overlap would require a clearer division than the first rack drawing allowed. Su arranged a separate discussion about actual dates and room responsibilities. Yue and Qiu did not accept it on her behalf or treat the project's selected provision as a lease extension. Materials, public occasions and space agreements were different achievements. The room's future still required a real arrangement the owner could actually keep.",
+      "next": "season_archive_m05_after_002"
+    },
+    "season_archive_m05_after_002": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Qiu said the annex had become a place where every useful thing arrived with a condition. Yue asked whether she wanted the conditions hidden. Qiu shook her head. 'I want the work to be more memorable than the conditions.' Su listened, then suggested that the next public account lead with what people had actually used, followed by the limits that let that use travel. Yue saw the value. Qiu saw that brevity need not mean erasure. Their rivalry had begun to shape the order of a story, not merely the length of its evidence.",
+      "next": "season_archive_m05_after_003"
+    },
+    "season_archive_m05_after_003": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "An ordinary public stamp list had been offered as a possible reference for the cloth's marks. Su checked its access status with the keeper and found that a permitted copy could be consulted under the archive's public arrangement. It did not identify this strip yet. Yue and Qiu agreed to compare only the visible forms during a later accepted interval. Their selected funding route might determine how much new copying that interval could support, but it did not change the list's source or make a resemblance into provenance.",
+      "next": "season_archive_m05_after_004"
+    },
+    "season_archive_m05_after_004": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Su also prepared a bounded invitation to Sun Nian, the retired school copyist, asking whether she wished to visit and discuss the approved public stamp forms within a named ordinary scope. The letter offered no access to private household notes and asked no testimony from sealed memories. Sun's age and past work made her a possible informed reader, not an infallible authority. Su sent the invitation through the ordinary contact and awaited an actual answer. The project would not invent a visit or quote the retired woman merely because her name strengthened an exhibit.",
+      "next": "season_archive_m05_after_005"
+    },
+    "season_archive_m05_after_005": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue spent the last accepted copying minutes arranging the completed approved pages so the practical reader could find them before the unresolved cloth description. Qiu checked the current material result supported by their actual provision route. Neither counted a promised future installment, unheld meal or deferred task as present work. The collection was smaller than every hope the room had inspired and larger than the red-marked mystery alone. Su closed the project folder without closing its source gap. The new account's order made ordinary usefulness visible enough to deserve attention.",
+      "next": "season_archive_m05_after_006"
+    },
+    "season_archive_m05_after_006": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The merchant's daughter returned for her crooked-window drawing and found it pinned among the paper birds, labeled as her own work. She was pleased until she saw the child's swallow and claimed it was a fish. He defended his maker's intention, and she defended what the folded paper looked like now. Qiu listened with a smile. Yue said both questions could be answered separately. The children found that disappointingly reasonable and went back to arguing. The adults let them keep the harmless contest, relieved that nobody's household history depended on its winner.",
+      "next": "season_archive_m05_after_007"
+    },
+    "season_archive_m05_after_007": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At the kitchen, the cook asked what the annex would do when its copies stopped being interesting to their makers. Qiu said use them. Yue said make them findable. Su said leave enough record that somebody else could care for them without repeating every argument. The cook nodded and returned to cleaning bowls. His question had carried more force than the supporter's demand for a better story. Preservation was not only an act of intense attention. It was also the ordinary arrangement left when attention moved to another task.",
+      "next": "season_archive_m05_after_008"
+    },
+    "season_archive_m05_after_008": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Late high summer would bring names and forms that resembled one another too closely. The next accepted interval would begin with the actual merchant term, kitchen event or smaller batch recorded, including its resources and costs. If Sun Nian accepted, her visit would occur under its own bounded scope. The red cloth remained an approved object with an unresolved older source, not a flag won by the best fundraiser. Yue left with her shoulder unchanged and a clearer sense of the room's living dependencies. Qiu left still impatient, and more precise about whom her impatience served.",
+      "next": "season_archive_m06_entry"
+    }
+  }
+}

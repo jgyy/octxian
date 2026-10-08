@@ -98,9 +98,10 @@ func future_decisions(campaign: Dictionary) -> Dictionary:
 	for scene_id in parents:
 		var scene: Dictionary = campaign.nodes[scene_id]
 		var targets: Array = []
-		for field in ["next", "continuation"]:
-			if scene.has(field):
-				targets.append(scene[field])
+		if not scene.has("ending"):
+			for field in ["next", "continuation"]:
+				if scene.has(field):
+					targets.append(scene[field])
 		for option in scene.get("choices", []):
 			targets.append(option.next)
 		for route in scene.get("routes", []):

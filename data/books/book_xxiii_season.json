@@ -1,0 +1,527 @@
+{
+  "chapters": {
+    "book_xxiii_season": {
+      "label": "BOOK XXIII",
+      "title": "The Work Ahead"
+    }
+  },
+  "characters": {},
+  "nodes": {
+    "season_entry": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_long_rain_quay",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "By the time Yue returned to the quay's notice board, the chalk from the instrument trial had disappeared beneath notices of ordinary work. The three afternoons had ended; their grant was closed. A new page advertised six questions being taken up elsewhere, on different calendars. Yue read them with her bag resting on the bench. None asked whether she had won. That omission made the board look strangely larger. Behind its edge, rain had darkened the wood in a shape no measurement would preserve.",
+      "next": "season_prior_gate"
+    },
+    "season_prior_gate": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Her previous pages remained in the bag, where she could unfold them without making them say more than they had said. Competition, joint work or an independent road had led to different afternoons and different relations with Qiu. A blank or damaged record proved none of them. Yue checked what her own pages supported before looking forward. The old disagreement could accompany a new question; it could not decide who she must become to answer it.",
+      "next": "season_prior_open",
+      "routes": [
+        {
+          "decision": "rival_path_choice",
+          "selected": "rival_compete_entry",
+          "next": "season_prior_compete"
+        },
+        {
+          "decision": "rival_path_choice",
+          "selected": "rival_cooperate_entry",
+          "next": "season_prior_cooperate"
+        },
+        {
+          "decision": "rival_path_choice",
+          "selected": "rival_independent_entry",
+          "next": "season_prior_independent"
+        }
+      ]
+    },
+    "season_prior_compete": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Separate methods were recorded on the earlier page. Yue remembered the irritation of having a comparison survive her preferred explanation, and the relief of being allowed to contest a claim without contesting a person's entire worth. Their later relationship retained its actual choice. This new season offered no automatic rematch and no right to Qiu's time. Yue placed the old comparisons behind the current calendar. They were something she had done, rather than a job description she must carry forever.",
+      "next": "season_prior_open"
+    },
+    "season_prior_cooperate": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The earlier page retained their joint work, including the corrections and boundaries actually selected at its close. A shared fixture had made neither woman's notebook common property. Yue ran a finger along the fold where she had kept her own sheet. She could use an offered lesson without acquiring Qiu's next afternoon. What came after cooperation might be cooperation, rivalry or separate work; it would have to be offered and chosen again, in the circumstances where it happened.",
+      "next": "season_prior_open"
+    },
+    "season_prior_independent": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The independent road remained distinct from the trial's results. Yue's pages carried only the observations she had made and the sharing boundaries she had chosen. Qiu's presence in them might be correspondence, rivalry or a greeting kept at a distance, as the actual record supported. Yue did not turn that distance into an unfinished duty to repair. It had left space for a question of her own. The six notices offered different places where another such question could begin.",
+      "next": "season_prior_open"
+    },
+    "season_prior_open": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Where an earlier page was unavailable, its circumstances would stay open instead of acquiring a story that happened to fit Yue's present wish. Where the page was present, it could retain the particular work and relation already made. Her qualifications, promises and permitted copies kept their own records in either case. At the desk she asked about the new notices. What she had done before could help her begin; it did not have to answer a question before she reached the place where it was being asked.",
+      "next": "season_terms_01"
+    },
+    "season_terms_01": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "rival_su_yao",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Su Yao had brought a stack of ordinary scheduling slips to the loggia. She was passing on introductions, not opening another instrument trial. Each notice had its own keeper, scope and dates; entering one inquiry granted no authority over the others. Yue spread her current commitments beside them. Accepted work kept its place, pending requests kept their unanswered status, and rest remained something she could schedule without defending it as training. Only confirmed available dates belonged on a new slip.",
+      "next": "season_terms_02"
+    },
+    "season_terms_02": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "rival_su_yao",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The schedules differed. Some questions began with a short visit near home; others waited for a later safe travelling season. Longer projects would proceed through separately confirmed visits while responsible staff continued their ordinary work. Yue was not signing away an empty year. Any paid handling or new booking would need its own stated terms and resources. Su slid the unused trial attendance book into a cupboard and returned with a smaller pad. This time the first line asked simply where to send an enquiry.",
+      "next": "season_terms_03"
+    },
+    "season_terms_03": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue tested the bag strap against her shoulder before settling it across her body. Four earned pairs remained four, regardless of how many notices invited them to be useful. No branch on the board bestowed a specialist's qualification, a cure or money. Existing portfolios could support only what they actually certified. She would enter ordinary observation or authorized work within those limits and leave professional decisions with their responsible owners. The strap sat more comfortably after she shortened it by one hole.",
+      "next": "season_board_water"
+    },
+    "season_board_water": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The water notice concerned a riverside footpath whose use had become disputed after changes to the bank. Old marks, fresh measurements and household needs did not agree neatly. Qualified keepers would retain authority over closures and repairs. The inquiry needed people willing to learn what a measurement established and what it left unanswered. Yue looked at the sketch of the path bending behind a willow. A route could be short on paper and still be the only way somebody reached home.",
+      "next": "season_board_archive"
+    },
+    "season_board_archive": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The archive notice came from a copying annex with an uncertain lease and ordinary public records in need of preservation. Its keepers sought limited help under their handling rules. The gaps concerned provenance, not permission to open sealed memories. Yue had learned how tempting it was to make a missing source resemble the explanation one already preferred. Beside the notice somebody had drawn an empty shelf. The drawing was crude, but she kept looking at the space it enclosed.",
+      "next": "season_board_road"
+    },
+    "season_board_road": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "A road notice asked whether a modest letter circuit could reach households left outside the easiest seasonal route. It promised no swift departure and no passage through a closed road. Each carrier would retain custody and each addressee the right to refuse a letter. Yue thought of the weight of a small reply held longer than its sender expected. Correspondence was an ordinary thing until weather, work and pride made its ordinary passage difficult. She touched the cord around her own notebook.",
+      "next": "season_board_kiln"
+    },
+    "season_board_kiln": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The kiln notice described repair work and ceramic parts awaiting decisions about fuel, delivery and responsibility. Registered kiln workers would make professional assessments and conduct operations. An observer could still learn why a modest repair became difficult when households needed different things from it. Yue remembered the smell of a cooling room before she remembered any argument made there. It was possible to spend years speaking about retained force and forget that somebody needed the vessel containing it to survive the winter.",
+      "next": "season_board_garden"
+    },
+    "season_board_garden": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The garden notice named weather damage and a finite repair season beside the orchard's care rooms. Qualified healers would retain treatment and patient decisions; work outside the beds would have its own limits. An early green shoot could look like a success while the roots beneath it were still weak. Yue read the sentence twice. She knew how quickly a visible improvement could become a demand to prove that recovery was finished. A garden might give that difficulty a different shape.",
+      "next": "season_board_harbor"
+    },
+    "season_board_harbor": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At the harbor, a notice about signal lines and seasonal shipping asked for bounded observation under responsible staff. Navigation, rigging and quarantine would remain professional work. The question lay in how people understood a signal before acting on it, and how an interpretation acquired the appearance of certainty. Yue pictured a distant light half hidden by rain. Closing quickly might matter there. So might knowing which conclusion the light had never been able to carry.",
+      "next": "season_qiu_note"
+    },
+    "season_qiu_note": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Qiu's name appeared on one of the forwarding slips, with an address she had separately offered for work correspondence. The slip promised neither companionship nor an answer by return. Yue could ask a specific question if their actual boundaries permitted it, greet her when their paths met, or leave the address unused. She almost smiled at the thought that the woman who joked about slow explanations had supplied a careful line about unavailable dates. Even speed needed somewhere to stop.",
+      "next": "season_choice_preface"
+    },
+    "season_choice_preface": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "rival_su_yao",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The six questions would continue beyond any single visit. Choosing one would not make the other five secretly completed, and another team's result would belong to its actual makers. Yue would follow the work she entered, with choices inside it that could change what she offered, challenged or kept private. Su Yao turned the pad so that Yue could write without reaching across the table. The gesture was small enough that she nearly missed it. Her shoulder did not.",
+      "next": "season_path_choice"
+    },
+    "season_path_choice": {
+      "chapter": "book_xxiii_season",
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue set the six notices beside one another, then moved her old comparisons back into the bag. A rival could sharpen a question, but the question needed a life beyond beating somebody. She would send one enquiry on confirmed available dates, beginning within its ordinary limits and deciding later commitments when their terms existed. The riverside sketch, empty shelf, letter cord, cooling vessel, garden root and distant lamp each held a different difficulty. She chose where to begin.",
+      "choices": [
+        {
+          "text": "Follow the river footpath and the disputed measurements.",
+          "next": "season_water_entry"
+        },
+        {
+          "text": "Enter the archive copying annex and its provenance inquiry.",
+          "next": "season_archive_entry"
+        },
+        {
+          "text": "Follow the seasonal letter circuit and its isolated households.",
+          "next": "season_road_entry"
+        },
+        {
+          "text": "Learn beside the kiln repairs and their winter deadlines.",
+          "next": "season_kiln_entry"
+        },
+        {
+          "text": "Join the orchard's ordinary garden repair inquiry.",
+          "next": "season_garden_entry"
+        },
+        {
+          "text": "Observe the harbor signal dispute with its responsible staff.",
+          "next": "season_harbor_entry"
+        }
+      ]
+    },
+    "season_receiving_entry": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "rival_su_yao",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "When the inquiry she had actually followed reached its closing visit, Yue returned to the loggia with its permitted pages. The desk did not receive a season she had never lived. Its record would state what had been offered, what remained private and what decisions belonged to other people. Su Yao found a place for the bag at Yue's comfortable side. Outside, the notice board was crowded with work that had continued while she was elsewhere.",
+      "next": "season_receiving_gate"
+    },
+    "season_receiving_gate": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue sorted the current inquiry's pages from the old trial sheets. Their dates and purposes remained distinct. A selected path supplied its own work and its own limits; an unavailable record would supply no invented outcome. Su waited until the papers were in order before asking which account Yue wanted to leave at the desk. The answer had taken more than a heading to become possible. She looked down at the page she was actually holding.",
+      "next": "season_receiving_water",
+      "routes": [
+        {
+          "decision": "season_path_choice",
+          "selected": "season_archive_entry",
+          "next": "season_receiving_archive"
+        },
+        {
+          "decision": "season_path_choice",
+          "selected": "season_road_entry",
+          "next": "season_receiving_road"
+        },
+        {
+          "decision": "season_path_choice",
+          "selected": "season_kiln_entry",
+          "next": "season_receiving_kiln"
+        },
+        {
+          "decision": "season_path_choice",
+          "selected": "season_garden_entry",
+          "next": "season_receiving_garden"
+        },
+        {
+          "decision": "season_path_choice",
+          "selected": "season_harbor_entry",
+          "next": "season_receiving_harbor"
+        }
+      ]
+    },
+    "season_receiving_water": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Where the river inquiry was supported by her record, its offered pages retained the path, the disputed marks and the actual choices made about access. Professional closures and repairs remained their keepers' responsibility. If a page was unavailable, its claim stayed open. Yue could describe what she had observed without turning the river into proof of an answer she had wanted before arriving. Qiu's measurements, when separately offered, kept their maker. The water would continue past all their margins.",
+      "next": "season_close_01"
+    },
+    "season_receiving_archive": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The archive account retained the actual handling permissions and provenance findings, including what the inquiry had failed to establish. An absent private source did not become public through a better description of its absence. Yue left only copies she was permitted to offer. The annex's keepers retained their records and their remaining needs. Her relation with Qiu stayed grounded in the choices made along that work. A preserved uncertainty could be harder to carry home than a dramatic explanation.",
+      "next": "season_close_01"
+    },
+    "season_receiving_road": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The letter circuit's account belonged to its actual journey: the dispatches made, the boundaries selected and the replies received or still unavailable. Other people's correspondence kept its owners. A limited circuit could finish without making every road open or every silence speak. Yue drew a finger over the empty space beneath the last dated entry. The space no longer looked like a failure to fill the page. It looked like a place where another person's decision might arrive, or might not.",
+      "next": "season_close_01"
+    },
+    "season_receiving_kiln": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The kiln account distinguished ordinary learning and permitted help from operations and decisions made by its responsible workers. The actual repair choices and deadlines remained visible, as did work still belonging to later arrangements. No vessel certified a qualification the inquiry had not earned. Yue caught a faint trace of clay from the notebook's cover. She could have wiped it away before coming to the desk. Instead she wiped the table where it had fallen and left the cover as it was.",
+      "next": "season_close_01"
+    },
+    "season_receiving_garden": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The garden pages retained the repair work actually offered and the choices made about pace, access and rest. Patient histories and treatment decisions stayed with their owners and qualified carers. Green growth was not a declaration that every root or every person had recovered. Yue left a small pressed leaf inside her private notebook. It had come from ordinary permitted garden work, without a promise attached. The desk received the account; she kept the leaf and its particular memory.",
+      "next": "season_close_01"
+    },
+    "season_receiving_harbor": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The harbor account kept the observed signals distinct from interpretations, and those interpretations distinct from professional decisions. Navigation, quarantine and rigging remained with their responsible people. Yue offered only the pages authorized for receiving, leaving private disputes in their proper custody. The actual work with Qiu retained its choices rather than becoming a story of inevitable partnership. A distant lamp could ask for attention without answering every question raised beneath it. She had learned to leave the questions separate.",
+      "next": "season_close_01"
+    },
+    "season_close_01": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "rival_su_yao",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Su Yao set the offered account beside the relevant introduction slip. Any money, resources or booking described within the inquiry retained its own completed terms and unresolved obligations; the old twenty-four-coin trial grant stayed closed. Yue's present calendar still contained ordinary work and rest. Closing a story at the desk did not cancel the appointments ahead of her. She checked the time left before ordinary supper and found that, for once, she could walk home slowly.",
+      "next": "season_close_02"
+    },
+    "season_close_02": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_review_loggia",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Neither a long notebook nor a strong opinion had added a fifth pair. Yue remained at the fifth stage with four earned pairs, and her shoulder still needed the arrangements she had learned to make. Qiu retained her own measured capacity and her own future choices. The season had changed how Yue asked some questions. That change mattered without being mistaken for a realm. She lifted the bag with its strap properly settled and waited until the weight felt ordinary.",
+      "next": "season_end_gate"
+    },
+    "season_end_gate": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_long_rain_quay",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "On the quay, Yue stopped beside the notice board. New work had covered several old sketches; one bent corner still showed part of the page that had brought her here. The account she carried described one real path through the questions, rather than all the lives she could have chosen. Its ending would remain specific to that path. Behind the board, the river moved without consulting any of the notices. She was glad to watch it for a little while.",
+      "next": "season_end_water",
+      "routes": [
+        {
+          "decision": "season_path_choice",
+          "selected": "season_archive_entry",
+          "next": "season_end_archive"
+        },
+        {
+          "decision": "season_path_choice",
+          "selected": "season_road_entry",
+          "next": "season_end_road"
+        },
+        {
+          "decision": "season_path_choice",
+          "selected": "season_kiln_entry",
+          "next": "season_end_kiln"
+        },
+        {
+          "decision": "season_path_choice",
+          "selected": "season_garden_entry",
+          "next": "season_end_garden"
+        },
+        {
+          "decision": "season_path_choice",
+          "selected": "season_harbor_entry",
+          "next": "season_end_harbor"
+        }
+      ]
+    },
+    "season_end_water": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_long_rain_quay",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue left the quay with the river account actually available to her and its remaining questions kept in their proper places. Where an opening had been made, it belonged to the supported work and the people responsible for it. Where a limit remained, she would not call it a hidden victory. Qiu's measure could challenge hers again if they chose another meeting. For now the evening path was ordinary ground beneath her feet, and she had enough light to take it home.",
+      "ending": "The River Beyond the Marks"
+    },
+    "season_end_archive": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_long_rain_quay",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The archive's preserved account was smaller than the explanation Yue had once hoped to bring home. It was also something she could place before another person without asking them to mistake a gap for proof. What remained private or unavailable kept its boundary. Qiu could read the separately offered pages on her own terms. Yue tightened the notebook cord and imagined a shelf holding an unfinished question without hiding it. There was room beside it for the work that came next.",
+      "ending": "The Shelf That Holds an Uncertainty"
+    },
+    "season_end_road": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_long_rain_quay",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue took the road with the letter circuit's actual ending still leaving room for other people's replies. A correspondence did not become hers because she had carried its envelope. The limited work could close while a household decided what to say, or whether to say anything. Qiu's place in the journey retained their chosen boundaries. Yue had become better at bearing a question without trying to deliver its answer ahead of its owner. The bag felt lighter as she walked.",
+      "ending": "A Reply With Room for Silence"
+    },
+    "season_end_kiln": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_long_rain_quay",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The kiln account travelled home beside Yue's private lessons, each keeping its proper claim. Professional work remained with the people who had performed it; ordinary learning needed no borrowed certificate to be worth remembering. Some needs would continue into later arrangements. Yue thought of a cooling vessel whose shape held because somebody had waited at the right moment. Qiu might still favour a quicker method. Their disagreement could remain useful without requiring the vessel to contain either woman's whole life.",
+      "ending": "The Vessel and the Remaining Winter"
+    },
+    "season_end_garden": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_long_rain_quay",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue left the pressed leaf inside her notebook when she reached the quay. The garden's repair account could stand on the work actually done, while recovery kept its own time and its owners. A person could decline another effort without making the preceding care meaningless. Qiu's methods and choices remained distinct from Yue's. There would be other seasons, but none owed this one an ending that looked effortless. She carried home a small green shape and the patience to leave it small.",
+      "ending": "The Root Beneath the Green"
+    },
+    "season_end_harbor": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_long_rain_quay",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The harbor's lamp had never been meant to light every question at once. Yue carried the account of what had actually been observed and decided, leaving professional authority and private pages with their owners. Qiu might challenge a future interpretation on her own terms. Yue could meet that challenge without needing a quick answer to look complete. Across the water, evening lights appeared one after another. She watched until she could distinguish them, then chose the ordinary lit path home.",
+      "ending": "The Lamp and the Limits of Its Light"
+    }
+  }
+}

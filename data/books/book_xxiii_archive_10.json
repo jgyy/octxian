@@ -1,0 +1,864 @@
+{
+  "chapters": {},
+  "characters": {},
+  "nodes": {
+    "season_archive_m10_entry": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "On the market morning, Su asked for the actual state of the delivery work before they carried the approved selection out. A reader could be told what had been issued, what had been sought, and what remained unknown, but those were different accounts after their recent choice. The room owner would meet them later at the annex. Qiu wanted both conversations to reach a definite answer. Lin tightened the light packet without lifting it against her shoulder and listened to the news that had actually arrived.",
+      "next": "season_archive_m10_common_001",
+      "routes": [
+        {
+          "decision": "season_archive_m09_delivery",
+          "selected": "season_archive_m09_pair_001",
+          "next": "season_archive_m10_recall_pair_001"
+        },
+        {
+          "decision": "season_archive_m09_delivery",
+          "selected": "season_archive_m09_request_001",
+          "next": "season_archive_m10_recall_request_001"
+        },
+        {
+          "decision": "season_archive_m09_delivery",
+          "selected": "season_archive_m09_map_001",
+          "next": "season_archive_m10_recall_map_001"
+        }
+      ]
+    },
+    "season_archive_m10_recall_pair_001": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The paired public excerpts were ready for their approved market use. They showed two distinct dated deliveries and boat names carrying the similar short mark; they did not identify the cloth with either delivery. A reader at the annex had asked again which boat was missing. Qiu had answered that the blank column remained unresolved and no request about it had been sent. Su repeated that state now. Lin checked the sheet's opening sentence and source headings, then rolled it with the other approved material rather than adding an explanation of a search that had never taken place.",
+      "next": "season_archive_m10_recall_pair_002"
+    },
+    "season_archive_m10_recall_pair_002": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "rival_qiu_zhen",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Qiu said the paired arrangement would let a visitor see why she had wanted a solid comparison. Lin agreed, and she looked briefly surprised by the directness. The display's usefulness would depend on what readers actually understood at the market. It had already helped one person stop treating the bars as a single secret sign, but it did not promise the same response from everyone. The household owner's approved question about her aunt remained separate from the dated comparison. No private source was added to make the sheet seem more complete.",
+      "next": "season_archive_m10_recall_pair_003"
+    },
+    "season_archive_m10_recall_pair_003": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "They took the paired sheet in the light carrying packet. The proposed orientation map remained unproduced, and the unsent narrow inquiry remained outside the day's account. Qiu had prepared a short spoken explanation of the actual comparison. Lin asked her to lead with the two deliveries rather than the warning about cloth identification. She said that was what she had planned. They could disagree about who had first preferred a sentence later. For the moment, both knew what their public sheet established, and the table would soon put that knowledge into conversation.",
+      "next": "season_archive_m10_common_001"
+    },
+    "season_archive_m10_recall_request_001": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The public record office's reply had arrived within the revised interval. Its staff had found no surviving entry that clarified the specified blank boat column among the public materials they checked. The letter named the scope of that search and did not claim no such record existed anywhere. Lin copied that distinction into the work account. Qiu looked disappointed before asking whether the actual letter could be quoted. Su had checked its use with the keeper and the office: the bounded reply could be summarized, with its source and date identified, in the project account.",
+      "next": "season_archive_m10_recall_request_002"
+    },
+    "season_archive_m10_recall_request_002": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The reply did not recover a missing boat, establish a sinking, or identify the cloth's older journey. Their paired comparison had been postponed and was still unissued; there was no time to prepare a new market display through all its actual approvals that morning. They kept the smaller selection previously arranged. Qiu wrote a short status note for inquiries at the annex, approved within the reply's permission, and did not smuggle the unissued caption into the market packet. The waiting had produced a documented limited answer, not the finding she had hoped to show.",
+      "next": "season_archive_m10_recall_request_003"
+    },
+    "season_archive_m10_recall_request_003": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Lin thanked Qiu for marking the search's extent so clearly. She said an unsuccessful request ought at least to be describable. Neither called it successful because a lesson could be drawn from disappointment. The public excerpts themselves remained available under their existing permissions at the proper table; this chosen market comparison remained absent. They took the approved smaller selection and the ordinary work account, leaving the unissued paired draft behind. When a visitor asked what had been sought, they could give the actual reply rather than an account invented during the long interval of waiting.",
+      "next": "season_archive_m10_common_001"
+    },
+    "season_archive_m10_recall_map_001": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The public orientation sheet was ready for its approved market use. It showed where the verified public records had been viewed and how authorized copies had reached the present annex. The line that one reader had mistaken for the cloth's old route now carried its clearer description. Qiu checked the current entrance arrow before rolling the sheet. Lin checked that the older receipt descriptions retained their distinct dates. The blank boat column remained unresolved, and no request about it had been sent. Their practical map did not describe an inquiry or a recovered voyage.",
+      "next": "season_archive_m10_recall_map_002"
+    },
+    "season_archive_m10_recall_map_002": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "rival_su_yao",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Su reported another actual reader had used the directions to find the receiving office. The custodian had asked that the public opening interval stay visible so people would not arrive when the desk was unavailable. They made that permitted practical update without treating it as new historical evidence. Qiu liked a sheet that could get someone through the right door. Lin liked the source chain being easier to understand. Both uses mattered more than the decoration she had removed, although she still said the little roof would have looked attractive at the market.",
+      "next": "season_archive_m10_recall_map_003"
+    },
+    "season_archive_m10_recall_map_003": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "They took the approved orientation sheet with the other public material. The proposed paired delivery display remained unissued, and the unsent boat entry request stayed outside their spoken account of work performed. Qiu practiced pointing to the current annex and saying these lines followed approved copies, not the red cloth's older travels. Lin said the explanation was clear enough to try with real readers. She asked whether she could say that without an additional caution afterward. She could, and for several steps they enjoyed the rare conversation in which neither supplied the final correction.",
+      "next": "season_archive_m10_common_001"
+    },
+    "season_archive_m10_common_001": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The market smelled of roasted grain and wet rope. Su met the organizer at the agreed place and confirmed the finite display interval. The neighboring basket seller had kept his goods on the separate face they had discussed, but an extra pole now leaned across the viewing edge. Qiu moved only the project sheet roll and asked the seller to place his own pole elsewhere. He did so with an exaggerated sigh. Lin sat in the available low chair while Su checked that the stand would hold their light papers without exposing originals.",
+      "next": "season_archive_m10_common_002"
+    },
+    "season_archive_m10_common_002": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "A large painted heading hung above the offered place: The Last Voyage of the Red Cloth. Qiu stopped with the roll still tied. They had approved no such claim. The organizer came smiling from behind the neighboring stall and said a plain archive title would not draw people in. He had meant to help. Lin asked which source established a last voyage. The organizer had none; he had heard a phrase in market talk and combined it with the project's visible cloth drawing. He looked offended before he looked uncertain, which made the conversation harder to begin.",
+      "next": "season_archive_m10_common_003"
+    },
+    "season_archive_m10_common_003_b": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "rival_su_yao",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The woman pointed toward a group waiting near the grain stall and said they had been told the display would reveal one. Lin did not accuse them of credulity. A confident painted heading gave them a reason to expect a claim nobody at this table could support.",
+      "next": "season_archive_m10_common_004"
+    },
+    "season_archive_m10_common_003": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "rival_su_yao",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Su asked him to take the heading down while they discussed it. He had the authority over his sign and removed it, though not before several people had read it. One woman asked whether this was the story of a ferry lost in a storm. Qiu said their work did not establish such a story.",
+      "next": "season_archive_m10_common_003_b"
+    },
+    "season_archive_m10_common_004": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The organizer showed them a few printed hand slips with the same heading. He had already handed some out during the morning. None contained private source text, but the unsupported title made a public promise in the project's apparent name. Qiu said she had spoken enthusiastically about making ordinary records interesting. She had not approved a recovered voyage. Lin agreed that the distinction mattered. Their own public source sheets, whichever selection they had actually prepared, could not undo the wording by merely remaining accurate underneath it. They needed a concrete response to the claim already circulated.",
+      "next": "season_archive_m10_common_005"
+    },
+    "season_archive_m10_common_005": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "A boy from the earlier reading table recognized them and asked whether Reed Lantern was the lost ferry. Qiu told him the old receiving entry named a recorded delivery; it did not establish the boat's later fate. He said his cousin would be disappointed. Lin asked whether his paper boat drawing had survived. It had been crushed and remade with a flatter hull. The boy's invented vessel could take a new shape freely. The project's claim about a named historical boat required evidence, and the painted sign had given the invention a different kind of authority.",
+      "next": "season_archive_m10_common_006"
+    },
+    "season_archive_m10_common_006_b": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "She wanted that difference respected and did not want her private home mentioned in an announcement. Qiu asked whether correcting the title's unsupported claim would meet that limit. The owner said it could if they kept to the claim.",
+      "next": "season_archive_m10_common_007"
+    },
+    "season_archive_m10_common_006": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The household owner arrived carrying ordinary shopping and saw the removed sign leaning behind the stand. She asked whether her aunt's cloth had become a story about drowning. Su explained what had happened without assuming the woman had authorized a remedy yet. The owner had permitted the bounded public question about her aunt's reason for keeping the cloth, not a tragic journey.",
+      "next": "season_archive_m10_common_006_b"
+    },
+    "season_archive_m10_common_007": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Lin felt angry in a slow way that made her want to explain too much. Qiu felt angry quickly and wanted to get the market moving again with a clear spoken correction. The organizer wanted to replace the heading and avoid publicly embarrassing his helpers. Su asked what response would actually reach those who had read the first sign or received the hand slips. The answer was uncertain. They could address the present audience, correct the organizer privately and replace material, or withdraw their selection rather than display under the damaged expectation. Each action left some cost.",
+      "next": "season_archive_m10_common_008"
+    },
+    "season_archive_m10_common_008": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "A woman buying thread said she had come specifically because the heading promised a voyage. She did not need a family tragedy; she wanted an old route described. Lin explained that their evidence had not recovered such a route. She asked whether the project had anything worth looking at without it. Qiu opened one already authorized sheet just far enough to show its ordinary dates and source heading, then tied it again while the response remained undecided. The woman said she might return after choosing thread. Her interest was genuine and conditional, not a verdict on the project.",
+      "next": "season_archive_m10_common_009"
+    },
+    "season_archive_m10_common_009": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The room owner stood at the edge of the market with a basket of tools for her own storage work. She had planned to meet them at the annex later, but seeing the crowd had brought her closer. Qiu worried that the unsupported sign would make the project look unreliable. Lin worried that pleasing the owner would make them choose a remedy too gentle to reach readers. The owner said she would judge the room plan after they had dealt with the display. She did not demand a heroic public scene as the price of space.",
+      "next": "season_archive_m10_common_010"
+    },
+    "season_archive_m10_common_010": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "A gust lifted the light papers on the next stall, and several people caught them before they reached the wet paving. Lin stayed seated rather than lunging; Qiu took only the sheet already within easy reach. The little accident gave them a moment away from the heading. The organizer helped collect the loose notices and returned looking less defensive. He admitted he had selected the title himself. He could correct his own hand slips and ask the helpers to stop giving out old ones. He could not promise to find every person who had already taken one.",
+      "next": "season_archive_m10_common_011"
+    },
+    "season_archive_m10_common_011": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "rival_su_yao",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Su repeated the practical fact: their project could issue a precise response without claiming that all copies would be recalled. Any replacement heading needed their approval and the owner's permitted public question. Their present selection remained authorized within its actual source limits. Withdrawal would remove that selection from this offered market interval, not revoke the existing annex permissions. Qiu asked Lin whether she wanted the organizer punished or the claim corrected. She said corrected, and admitted that she was angry enough to confuse the two if she spoke before choosing her words.",
+      "next": "season_archive_m10_common_012"
+    },
+    "season_archive_m10_common_012": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "rival_qiu_zhen",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Qiu then admitted that a public correction could become another performance if she tried to win the whole crowd. She wanted to say this was more interesting than a lost voyage because it showed people making ordinary records across time. That might be a defensible preference, but it was not the correction itself. Lin said they could state the unsupported part first and invite interest later. The organizer listened and asked whether a quieter replacement would do. They had to decide whom their response should reach and what they were prepared to lose in order to make it honest.",
+      "next": "season_archive_m10_common_013"
+    },
+    "season_archive_m10_common_013": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "While they considered, the neighboring basket seller asked if he could use the freed upper edge for a sample. Su said not yet; the placement agreement was still in force for the offered interval. He accepted the answer and sold a basket to a woman who had never read the disputed heading. The market kept moving around their problem. This made Qiu's urge to act feel sensible and Lin's urge to slow down feel necessary. Neither instinct stopped trade or gave them extra time. The current audience would change before they could settle every possible consequence.",
+      "next": "season_archive_m10_common_014"
+    },
+    "season_archive_m10_common_014": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The household owner put her shopping on the ground and read the approved bounded question once more. She wanted it unchanged. The new source comparisons, whatever their chosen presentation state, did not answer why her aunt kept the cloth. She did not wish to be described as a bereaved seeker of lost ancestors, a phrase one helper had used in talk. Qiu wrote down the rejected phrases only long enough to make sure the organizer understood them, then returned that working scrap to the owner as she requested. They retained no extra private account.",
+      "next": "season_archive_m10_common_015"
+    },
+    "season_archive_m10_common_015": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Lin asked the organizer to show the remaining hand slips. The unsupported title stood over a brief notice of the display's time and place. There were no additional invented names or dates. This bounded the correction they needed: the project had not established a last voyage or a lost ferry story, and its source work supported narrower observations. Qiu said they could say exactly that without declaring every market rumor false. The organizer agreed to the fact. He still preferred a private conversation and replacement sign, because public correction would make his mistake visible to neighboring sellers.",
+      "next": "season_archive_m10_common_016"
+    },
+    "season_archive_m10_common_016": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "rival_su_yao",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Su kept the decision within the actual interval. A public notice and spoken clarification could reach some present readers and attach the correction to the display. A private correction with replaced material could end the wrong title's current use without attempting a crowd address. Withdrawal could make their refusal unmistakable while giving up this chance to present approved work. Lin did not know which would best prevent later retellings. Qiu did not know which would leave the room owner most convinced. They could choose an action they could carry out, rather than claim an outcome nobody could guarantee.",
+      "next": "season_archive_m10_common_017"
+    },
+    "season_archive_m10_common_017": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Across the lane, the cook's sister was buying a replacement bowl. She saw them and called that the cracked one had finally failed to hold beans because someone had washed it and left water underneath. Qiu almost answered with a joke, then stopped to explain they were resolving a display problem. The sister said she would come back if there was anything to see. Her own errand did not wait. Lin watched her go and felt relieved that the household's ordinary life did not need to mirror their public argument. The bowl was simply being replaced.",
+      "next": "season_archive_m10_common_018"
+    },
+    "season_archive_m10_common_018": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The organizer offered a plain new heading: Authorized Copies from the Annex. Qiu found it dull; Lin found it broad. Su suggested the approved project name and a short description of the actual source work instead. They could accept a bounded replacement if they continued displaying. None of them would approve the Last Voyage wording. That much was settled before the remedy choice. Qiu put her hand on the tied roll and asked Lin to choose with her, instead of treating her as either the project's impatient engine or its necessary public villain.",
+      "next": "season_archive_m10_common_019"
+    },
+    "season_archive_m10_common_019": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Lin said they had both encouraged the expectation that careful ordinary records could matter. Neither had authorized the unsupported title, and the organizer had acknowledged writing it. Their remedy would have to protect the household owner's actual limits, show the project's supported claims accurately, and admit what audience it could reach. Su nodded. She had been standing through this conversation while visitors came and went, and wanted a concrete instruction. The offered interval was already shorter than they had planned. Time itself had become part of the choice's cost.",
+      "next": "season_archive_m10_response"
+    },
+    "season_archive_m10_response": {
+      "chapter": "book_xxiii_season",
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Lin asked for a response they could actually perform. They could issue a precise public correction before showing their approved selection, settle the matter privately with the organizer and replace the current title, or withdraw their sheets from this market interval. The household owner required the unsupported voyage claim to stop and her private life to stay outside it. Qiu required that their choice leave a clear account of who had written the title. Su required them to act before the offered time was gone.",
+      "choices": [
+        {
+          "text": "Issue a bounded public correction and continue with the approved selection.",
+          "next": "season_archive_m10_public_001"
+        },
+        {
+          "text": "Correct the organizer privately, replace the current material, and continue without a crowd address.",
+          "next": "season_archive_m10_private_001"
+        },
+        {
+          "text": "Withdraw the selection from this market interval and record the unsupported title.",
+          "next": "season_archive_m10_withdraw_001"
+        }
+      ]
+    },
+    "season_archive_m10_public_001": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "rival_su_yao",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Su obtained the organizer's agreement to place a correction where the title had hung. Lin drafted the factual words low on the table, and Qiu read them to the household owner before the notice was put up. The project had not established a last voyage of the red cloth or a lost ferry story; its approved source work supported narrower observations described in the sheets actually shown. The notice named the organizer's unsupported heading without adding a motive beyond his acknowledged choice. The owner approved the statement within her public limits. Her household address and private family accounts stayed out.",
+      "next": "season_archive_m10_public_002"
+    },
+    "season_archive_m10_public_002": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "rival_qiu_zhen",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Qiu addressed the people currently near the stand, speaking once in a clear ordinary voice rather than calling across the whole market. She said the earlier title had promised a story the project could not substantiate. The organizer confirmed he had written it without their approval. Lin stayed seated and answered a woman who asked what the work did support. She used the approved selection actually available, without describing an unissued display as though it hung beside her. Several people listened. Others kept walking. The correction reached a present audience whose size they could observe, not every earlier reader.",
+      "next": "season_archive_m10_public_003"
+    },
+    "season_archive_m10_public_003": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The woman who had expected an old route said she appreciated the clarification but would rather look at maps elsewhere. She left. A man who had come for a tragic story stayed to read the source headings and asked an unexpectedly useful question about copying dates. Qiu did not use his interest to claim the correction had improved attendance. They had lost some visitors and gained the attention of others. The display's actual value would depend on what those people read. Su asked the organizer to stop handing out the old slips, and he did so.",
+      "next": "season_archive_m10_public_004"
+    },
+    "season_archive_m10_public_004": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The organizer replaced the remaining hand slips with a brief corrected description of the actual project selection. He could not retrieve every earlier slip. A helper brought back three from nearby sellers, who had no reason to keep them, and the organizer kept an account of what had been changed. Lin resisted calling it a complete recall. Qiu put the approved new heading over the sheets and left the correction visible for the remaining interval. It looked less attractive than the painted title. That was an acceptable cost of addressing a claim already made in public.",
+      "next": "season_archive_m10_public_005"
+    },
+    "season_archive_m10_public_005": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The household owner read the new heading and then went to buy what she needed. She had not been made the center of a public apology, and no one asked her to recount the aunt's life. Lin watched her basket disappear into the lane and felt the relief of a boundary actually held. Qiu remained at the stand answering questions from the sheets. She enjoyed being heard even while knowing some listeners had arrived for the wrong reason. Enjoyment did not make her explanation false; it required her to keep the correction as precise as the source claims.",
+      "next": "season_archive_m10_public_006"
+    },
+    "season_archive_m10_public_006": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "A neighboring seller asked why the organizer had been singled out when everyone exaggerated at markets. Qiu said this title appeared to state what their source work had found. The organizer had written it and acknowledged the error; the correction did not describe all market speech as misconduct. The seller accepted only part of the answer. Lin did not argue until she could make her agree. The visible correction remained. A public action could carry disagreement without failing to correct the specified claim. Their task was bounded even when neighboring opinions were not.",
+      "next": "season_archive_m10_public_007"
+    },
+    "season_archive_m10_public_007": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The boy with the boat drawing returned with his cousin. Qiu showed them where the correction distinguished recorded deliveries from a recovered last voyage. The cousin admitted he had supplied the lost ferry story from another conversation and could not identify a source. They were not asked to become witnesses about a historic sinking. The younger boy looked at the available sheets and decided the dates were like knots on a rope. Lin said that was a useful image if each knot remained attached to the record that actually made it. The cousin bought roasted grain and shared it.",
+      "next": "season_archive_m10_public_008"
+    },
+    "season_archive_m10_public_008": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At the end of the offered interval, Su recorded the actual public remedy: a correction notice, one spoken clarification to those present, replaced current slips, and an incomplete recovery of old ones. No promise of universal reach appeared. The project selection had been displayed within its permissions after the remedy. Qiu packed it with the notice kept as part of the public work account. Lin had spoken less than she imagined and still felt tired. She rested before they left. The organizer apologized directly and accepted that the current record would name his unsupported heading.",
+      "next": "season_archive_m10_public_009"
+    },
+    "season_archive_m10_public_009": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Walking back, Qiu asked whether Lin had wanted her to sound less confident. She said she wanted confidence placed on the claim they could support. She said that was exactly what she had tried. They discussed one answer that had been too long and one that had been particularly clear. It was a conversation about actual speech, not a judgment that one of them should always lead. Their public correction had reached some readers and cost some attention. The room discussion still lay ahead, with its measurements, storage access, and finite term unaffected by whatever applause they imagined.",
+      "next": "season_archive_m10_after_001"
+    },
+    "season_archive_m10_private_001": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "rival_su_yao",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Su asked the organizer and the household owner to sit at the edge of the stand for a direct conversation. Lin stated that the Last Voyage heading was unsupported by their work and had not been approved. Qiu named the actual boundaries of the available source selection. The organizer acknowledged that he had written the title himself. The owner required that her private household story stay outside any replacement. They agreed to correct current signs and remaining hand slips before continuing. This remedy would stop the present use; it would not claim to reach everyone who had read it earlier.",
+      "next": "season_archive_m10_private_002"
+    },
+    "season_archive_m10_private_002": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The organizer took the painted sign out of the public place and replaced it with the approved project description. His helper stopped handing out old slips and prepared new ones with a plain account of the actual selection. Su checked their wording. No public speech was given to the crowd, and no correction notice was placed above the stand. Lin felt uncomfortable when a visitor arrived expecting the old story. Qiu answered her directly from the supported sources and said the earlier title had been inaccurate. The woman left before reading. Their quiet remedy did not erase her expectation.",
+      "next": "season_archive_m10_private_003"
+    },
+    "season_archive_m10_private_003": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The household owner approved the replacement and went back to her shopping. She had received an acknowledgment without being asked to stand through a public account of the error. The organizer thanked them for handling it privately. Qiu said the work account would still identify the unsupported title and his authorship, because privacy in this conversation did not make the earlier public claim vanish. He accepted that after a pause. Lin liked her insistence. She was not refusing a record of the mistake; she was choosing a narrower audience for its immediate correction.",
+      "next": "season_archive_m10_private_004"
+    },
+    "season_archive_m10_private_004": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "They displayed the approved selection for the remaining interval. A man asked where the promised voyage had gone. Lin explained that their source work had not established one, and the current sheets stated the narrower observations. The man said a revised title should have explained that. Lin did not claim the replacement had done everything a public correction would have done. Qiu offered to answer the actual question, but the man preferred another stall. The decision had preserved a quieter conversation with the organizer and left some earlier expectations to be corrected individually.",
+      "next": "season_archive_m10_private_005"
+    },
+    "season_archive_m10_private_005": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "A helper privately blamed herself for taking the organizer's hand slips to neighboring sellers. Qiu asked who had written and approved them. The organizer confirmed his responsibility again. The helper had distributed the material as instructed. Lin said the work account would describe those actual roles, without assigning her an invented authorial decision. She seemed relieved and then annoyed that she had spent the morning promoting the wrong title. Her annoyance was reasonable. They did not recruit it into a lesson about loyalty or ask her to say the project had handled everything well.",
+      "next": "season_archive_m10_private_006"
+    },
+    "season_archive_m10_private_006": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "An actual reader spent several minutes with the source headings and asked why immediate copying dates mattered. Qiu answered that a recent authorized copy could preserve an older record without becoming the older event itself. He understood the distinction and took notes on his own paper. Lin watched from the low chair, resting her shoulder. Their work still found an audience after the private correction, but the one attentive reader did not prove that lost expectations had been repaired. Some people holding earlier slips would hear nothing from this stand. Their account kept that limitation visible.",
+      "next": "season_archive_m10_private_007"
+    },
+    "season_archive_m10_private_007": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The organizer recovered a few unused old slips from his helpers and stopped their current distribution. He could not retrieve every handed out copy. Su recorded the actual replacement and the absence of a crowd address or posted correction. Qiu approved that wording, including the possible persistence of the earlier claim. Lin checked it without adding a sentence about what a more forceful remedy might have achieved. That other action had not been chosen. They could assess their own consequences later without turning an imagined alternative into evidence against the day they actually had.",
+      "next": "season_archive_m10_private_008"
+    },
+    "season_archive_m10_private_008": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "When the display interval ended, the approved selection was packed with its source limits intact. The unsupported sign stayed with the organizer, removed from the project place. The replacement wording had been checked and used. The project work account named the error, acknowledged authorship, and described the private correction rather than pretending a public notice had been issued. The household owner had kept her private accounts outside the remedy. Qiu was tired of explaining the same distinction separately, which was a practical cost of the quiet choice and not proof that the choice had been wrong.",
+      "next": "season_archive_m10_private_009"
+    },
+    "season_archive_m10_private_009": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "On the road back, Lin asked whether she had preferred privacy for the organizer's sake or for their own ease. Qiu said both had mattered, and neither made the unsupported title acceptable. She admitted she had also wanted the morning to become manageable again. They could acknowledge mixed motives without making the corrected current material false. The room owner's practical meeting still awaited them. Qiu adjusted the light packet within her hands; Lin walked beside her without taking the load. Their finite display had ended, leaving a corrected present title and an earlier public expectation they could not fully recover.",
+      "next": "season_archive_m10_after_001"
+    },
+    "season_archive_m10_withdraw_001": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Lin told the organizer they would withdraw the project selection from this market interval. The unsupported title had already shaped expectations, and they would not display under it. Su stated that the decision did not revoke existing permissions at the annex or forbid future authorized public work. Qiu untied the roll only to check the sheets for safe packing, then put them away without opening a display. The household owner accepted the withdrawal and asked that her private life not become an explanation for it. They kept the reason on the unsupported claim itself.",
+      "next": "season_archive_m10_withdraw_002"
+    },
+    "season_archive_m10_withdraw_002": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The organizer looked shocked at the lost place in his market plan. He took the sign down and stopped the old hand slips, acknowledging that he had written the title without their approval. Lin and Su recorded that acknowledgment and the actual withdrawal. They did not issue a replacement project display or a public correction notice in the space. Qiu answered people who asked why the table remained empty, saying the title had promised a voyage their evidence did not establish. Some heard the explanation; others only saw papers being packed and moved on.",
+      "next": "season_archive_m10_withdraw_003"
+    },
+    "season_archive_m10_withdraw_003": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The woman who had expected an old route said she had crossed the market for nothing. Lin agreed they could not show her the promised route and explained where the existing authorized annex sheets could be read during actual opening intervals. She was not available then. Qiu gave no special private viewing promise to make up for the organizer's error. The woman left disappointed. Their withdrawal made a boundary concrete while taking away the chance to answer her curiosity here. Neither effect needed disguising as a wholly triumphant defense of truth.",
+      "next": "season_archive_m10_withdraw_004"
+    },
+    "season_archive_m10_withdraw_004": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The neighboring basket seller asked to use the vacated face after Su released their finite placement agreement. He covered the empty space with a woven tray and sold it almost immediately. The market absorbed the missing display without ceremony. Qiu watched this ordinary replacement and felt the sharp loss of an audience she had wanted. Lin asked whether they should walk back now or wait for the room owner's arranged meeting time. They chose the latter and sat away from the stand. Rest was permitted without turning disappointment into an excuse for an unapproved second display.",
+      "next": "season_archive_m10_withdraw_005"
+    },
+    "season_archive_m10_withdraw_005": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The household owner finished her purchases and sat with them briefly. She appreciated not having the unsupported voyage displayed over her approved question, but she had hoped to see people understand the plain source work. Qiu said she had hoped for the same thing. The owner asked them to let both facts remain in the account, if the account needed her public view. She authorized that bounded statement and no more. Lin did not take her disappointment as proof they should have chosen differently. It was a consequence of the action they had actually undertaken.",
+      "next": "season_archive_m10_withdraw_006"
+    },
+    "season_archive_m10_withdraw_006": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The boy with the boat drawing found them near the grain stall and asked why there was no exhibit. Qiu explained the unsupported heading and withdrawal in words he could understand. He said the painted title had sounded like a story he wanted. Lin told him he could still invent voyages for his paper boat, while the project had to say what its sources established. The boy decided his boat needed a better name and went to ask his cousin. They had corrected one conversation without placing a general public notice or claiming all earlier readers had been reached.",
+      "next": "season_archive_m10_withdraw_007"
+    },
+    "season_archive_m10_withdraw_007": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The organizer brought back the remaining old slips from his helpers. He could stop distributing them and remove the sign; he could not recover all previously handed out copies. Su recorded those actions separately from the project's withdrawal. No revised project heading or replacement selection was presented in the vacated place. Qiu asked him to keep the authorship acknowledgment in his own record of the market problem. He agreed. Lin did not demand a promise that every later rumor would end. They had no means to make that promise credible, and neither did the organizer.",
+      "next": "season_archive_m10_withdraw_008"
+    },
+    "season_archive_m10_withdraw_008": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At the end of the offered interval, their approved sheets remained packed and undisplayed here. Their permissions at the annex continued as before. The work account identified the unsupported title, the organizer's acknowledgment, the withdrawal, and the limited conversations in which they had explained it. The household owner's bounded statement was retained only as she had approved. Qiu had gained no public success to set against her frustration. Lin had gained no evidence that a quiet empty space taught more than a displayed correction would have. They had carried out a particular refusal with particular costs.",
+      "next": "season_archive_m10_withdraw_009"
+    },
+    "season_archive_m10_withdraw_009": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Walking back, Qiu told Lin she wanted the next public occasion to contain something they could show without surrendering the audience at the first bad title. She agreed that withdrawal should not become their default answer to every difficulty. She asked whether her agreement meant this refusal had been a mistake. She said it meant they had chosen it and now understood more of its cost. They could make a future decision from that knowledge without rewriting today's action. The practical room meeting awaited them, and the packed sheets still had authorized uses elsewhere.",
+      "next": "season_archive_m10_after_001"
+    },
+    "season_archive_m10_after_001": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At the annex, the room owner spread the revised floor drawing on her own storage box and invited them to point out the actual passage. The keeper attended for the practical approval that had not yet been given. Su described the proposed public intervals and the smaller table. Qiu measured the accessible edge without moving stored goods. Lin explained the copying work in its actual state, including the market remedy they had chosen. The room owner listened to that account, then returned to the more immediate question of whether she could reach her boxes.",
+      "next": "season_archive_m10_after_002"
+    },
+    "season_archive_m10_after_002": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "They tested the revised positions with the keeper's direction. A basket still narrowed one turning space, so the plan included a place for visitors' belongings that did not block the exit. The room owner's storage would occupy the agreed part of the annex. Public reading and copying would occur only within the stated intervals and the keeper's ordinary source controls. Qiu disliked losing a broad table. Lin disliked how little rest space remained. The keeper rejected a cramped compromise, and they reduced the table again rather than claim their bodies could solve a physical obstruction.",
+      "next": "season_archive_m10_after_003"
+    },
+    "season_archive_m10_after_003": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The room owner offered a finite further term, lasting until the following autumn date. Within that term, she would permit the smaller copying area alongside her storage, without a new private rent charge to these volunteers. Her own work and access stayed explicitly protected. The keeper approved the limited arrangement after the actual measurements and stated conditions were recorded. This was an agreement for the annex's shared use, not a promise that the entire public archive depended on them or that every project task would continue. Su read the end date aloud before they accepted.",
+      "next": "season_archive_m10_after_004"
+    },
+    "season_archive_m10_after_004": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Current project provision could cover only the remaining approved copies on its present plan. Su therefore arranged the next limited paper and ordinary ink allocation through the keeper's existing copying budget, confirmed for the specific approved work rather than assumed indefinitely. Supplies would go to the project, not to Lin or Qiu as wages or prize. No qualification or cultivation growth followed the agreement. They also agreed not to invite sources for which they lacked time or storage. The earlier trial grant was already closed and played no part in this new room term.",
+      "next": "season_archive_m10_after_005"
+    },
+    "season_archive_m10_after_005": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The room owner then announced repairs she had long planned for the first winter weeks. The shared annex would be unavailable while that work occurred. It was part of the actual finite agreement, not a sudden cancellation afterward. The keeper said a request for limited temporary copying space at the mountain archive could be made, subject to its custodian's approval and available room. Su would make that ordinary request; Lin and Qiu had no claim on the other archive's space. Until a reply arrived, they would schedule only work the present annex could actually hold.",
+      "next": "season_archive_m10_after_006"
+    },
+    "season_archive_m10_after_006": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "rival_qiu_zhen",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Qiu asked whether the temporary move would interrupt the cloth comparison. Su said it might interrupt some copying, and any originals would remain with the responsible owner or staff under separate custody arrangements. Approved copies could be moved only as their permissions and staff directions allowed. Lin proposed finishing the smallest necessary sheets before winter rather than expanding into new questions. Qiu proposed keeping the public source descriptions readable through the disruption. Both tasks fit the current allocation if planned carefully. Neither required a specialized conservation role or access to the sealed Echo cabinet.",
+      "next": "season_archive_m10_after_007"
+    },
+    "season_archive_m10_after_007": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "After the keeper and owner left, the annex looked the same and felt different. A finite agreement had replaced the threat of immediate loss, while the reduced table and winter closure had become definite limits. Qiu sat on the ordinary low stool and said she hated being relieved by a smaller room. Lin said she was relieved by knowing which room existed at all. They laughed without settling the difference. Su put the agreement in the project account and asked them to finish the day's packing before celebrating a space already filling with the owner's actual boxes.",
+      "next": "season_archive_m10_after_008"
+    },
+    "season_archive_m10_after_008": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The cook's sister came past carrying the new bowl. She showed it to them, poured water into it from her flask, and declared the demonstration complete. Qiu applauded once. Lin said the old bowl had held beans until somebody required another use from it. The sister said they should stop making bowls into lessons and come eat while the pan was hot. They obeyed when their work was finished. The kitchen had no project celebration meal arranged; they paid for ordinary portions by their usual means and let the family speak about whatever it wished.",
+      "next": "season_archive_m10_after_009"
+    },
+    "season_archive_m10_after_009": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At supper, the cook asked whether they still had a place to work. Su described the smaller shared room and its actual end date, without making the market's chosen remedy into the cause of the owner's decision. The cook said a room that let the owner reach her boxes sounded sensible. His father's chair now held a folded cloth, neither preserved as a shrine nor offered for anyone to remove. Lin did not ask whether he meant to leave it there. Qiu asked for more water, which was a question the household could answer easily.",
+      "next": "season_archive_m10_after_010"
+    },
+    "season_archive_m10_after_010": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Later, Su sent the limited temporary space request to the mountain archive by the ordinary arranged means. No response had yet been received. Lin and Qiu left the annex with its approved copies secure, the future term defined, and the winter interruption acknowledged. The public title problem had been handled in the action they actually chose, with its remaining reach and cost left visible. The red cloth's origin remained unresolved. Autumn had given them a room they could use for a while and a public lesson that would matter only if they remembered what really happened.",
+      "next": "season_archive_m11_entry"
+    }
+  }
+}

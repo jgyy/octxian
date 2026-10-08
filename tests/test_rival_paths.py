@@ -104,7 +104,7 @@ class RivalChapterTests(unittest.TestCase):
         indegrees = {key: 0 for key in self.nodes}
         edges = {}
         for key, node in self.nodes.items():
-            targets = set(navigation_targets(node))
+            targets = set() if "ending" in node else set(navigation_targets(node))
             self.assertLessEqual(targets, self.nodes.keys())
             edges[key] = targets
             for target in targets:
@@ -121,8 +121,13 @@ class RivalChapterTests(unittest.TestCase):
         self.assertEqual(visited, len(self.nodes), "Rival routes must not create a practice loop")
 
     def test_new_full_names_do_not_shadow_named_prior_people(self):
+        prior_chapters = []
+        for chapter in self.story["chapters"]:
+            if chapter == CHAPTER:
+                break
+            prior_chapters.append(chapter)
         inherited = "\n".join(node["text"] for node in self.story["nodes"].values()
-                              if node.get("chapter") != CHAPTER)
+                              if node.get("chapter") in prior_chapters)
         for actor in ("rival_qiu_zhen", "rival_su_yao"):
             name = self.story["characters"][actor]["name"]
             with self.subTest(actor=actor, name=name):

@@ -22,7 +22,8 @@
     "book_xix_reed_crossing",
     "book_xx_careers",
     "book_xxi_commissions",
-    "book_xxii_rival"
+    "book_xxii_rival",
+    "book_xxiii_season"
   ],
   "facts": [
     {
@@ -2549,6 +2550,93 @@
         "rival_receiving_independent_01",
         "rival_facility_close_03"
       ]
+    },
+    {
+      "id": "season_closed_trial_separate_dates_and_limits",
+      "statement": "Book XXIII starts after the three-afternoon trial and 24-copper facility grant have closed. Each later inquiry has separately confirmed dates and scope. Existing accepted commitments, actual qualifications, private custody, the affected shoulder and Qi Gathering 5: Four pairs remain. Missing old decisions establish no invented participation or relationship.",
+      "anchors": [
+        "season_entry",
+        "season_prior_gate",
+        "season_terms_01",
+        "season_terms_02",
+        "season_terms_03",
+        "season_path_choice",
+        "season_receiving_gate",
+        "season_close_01",
+        "season_close_02"
+      ]
+    },
+    {
+      "id": "season_water_actual_history_and_closing",
+      "statement": "The later river account is separate from the closed trial grant. Actual panel replacement, repair or returned borrowing remains distinct through final witness and cleanup work; private orders and paid readings keep their own purses. Independent gauge zeros and dates cannot establish a surveyed common height, and weather information grants no crossing authority.",
+      "anchors": [
+        "season_water_entry",
+        "season_water_10_entry",
+        "season_water_15_entry",
+        "season_water_19_entry",
+        "season_water_20_entry",
+        "season_end_water"
+      ]
+    },
+    {
+      "id": "season_archive_actual_history_and_closing",
+      "statement": "Owners retain originals and private recollections. Untested recipes remain untested unless actually demonstrated on newly limited terms. The smaller annex's renewed lease expires the following autumn; finite copying work, public directions and portable closing receipts confer no original custody or conservation role.",
+      "anchors": [
+        "season_archive_entry",
+        "season_archive_m10_entry",
+        "season_archive_m15_entry",
+        "season_archive_m19_common_001",
+        "season_archive_m20_common_001",
+        "season_end_archive"
+      ]
+    },
+    {
+      "id": "season_road_actual_history_and_closing",
+      "statement": "Owners control private letters and authorized delivery. Canceled sessions remain canceled and actual copying errors are acknowledged through the receivers. The 12, 18 and 40 copper circuits close separately; later visits, personal purchases and counter work require actual new acceptance and completion.",
+      "anchors": [
+        "season_road_entry",
+        "season_road_f10_001",
+        "season_road_f15_001",
+        "season_road_f19_001",
+        "season_road_f20_001",
+        "season_end_road"
+      ]
+    },
+    {
+      "id": "season_kiln_actual_history_and_closing",
+      "statement": "Qualified makers control operations. The first order receives 312 against 336 actual costs, leaving 56 of the 80 reserve; separately approved roof repair leaves 44, all actually returned at closing. Nine winter services receive 90 after completion. Bowl display, illustration and private refusal perform only the selected event and return the owner's property.",
+      "anchors": [
+        "season_kiln_entry",
+        "season_kiln_10_001",
+        "season_kiln_15_001",
+        "season_kiln_19_001",
+        "season_kiln_20_001",
+        "season_end_kiln"
+      ]
+    },
+    {
+      "id": "season_garden_actual_history_and_closing",
+      "statement": "Twenty paid sessions include one two-hour storm visit, giving 59 paid hours per helper and 118 labor total. Actual annual or plum materials cost 9 or 14, giving final total returns 33 or 28 from 160. Owners retain patient information and drawings; the separate established plum supplies only a permitted naturally fallen private pressed leaf.",
+      "anchors": [
+        "season_garden_entry",
+        "season_garden_10_001",
+        "season_garden_15_001",
+        "season_garden_19_001",
+        "season_garden_20_001",
+        "season_end_garden"
+      ]
+    },
+    {
+      "id": "season_harbor_actual_history_and_closing",
+      "statement": "Professional staff retain navigation, rescue, rigging and quarantine authority. Eighteen private canvas rolls are stock rather than public copper; the earlier 24-copper grant is closed. Actual limited helper intervals and professional review end before local custody handover. General receivers retain source sleeves; only permitted closing pages and receipt references accompany Lin.",
+      "anchors": [
+        "season_harbor_entry",
+        "season_harbor_10_entry",
+        "season_harbor_15_entry",
+        "season_harbor_19_entry",
+        "season_harbor_20_entry",
+        "season_end_harbor"
+      ]
     }
   ],
   "review_policy": "Review each new chapter's chronology, custody, character knowledge, and alternate outcomes before updating this ledger. Structural checks supplement editorial review; they do not prove the absence of all possible plot holes.",
@@ -3593,6 +3681,95 @@
         "rival_facility_close_01",
         "rival_facility_close_02",
         "rival_facility_close_03"
+      ]
+    },
+    {
+      "id": "season_real_dates_and_limits_before_choice",
+      "before": "season_path_choice",
+      "required": [
+        "season_entry",
+        "season_prior_gate",
+        "season_terms_01",
+        "season_terms_02",
+        "season_terms_03",
+        "season_choice_preface"
+      ]
+    },
+    {
+      "id": "season_actual_path_before_receiving",
+      "before": "season_receiving_entry",
+      "required": [
+        "season_path_choice"
+      ]
+    },
+    {
+      "id": "season_accounts_and_retained_growth_before_closing",
+      "before": "season_end_gate",
+      "required": [
+        "season_receiving_entry",
+        "season_receiving_gate",
+        "season_close_01",
+        "season_close_02"
+      ]
+    },
+    {
+      "id": "season_water_completed_arcs_before_account_close",
+      "before": "season_water_20_entry",
+      "required": [
+        "season_water_entry",
+        "season_water_10_entry",
+        "season_water_15_entry",
+        "season_water_19_entry"
+      ]
+    },
+    {
+      "id": "season_archive_completed_arcs_before_account_close",
+      "before": "season_archive_m20_common_001",
+      "required": [
+        "season_archive_entry",
+        "season_archive_m10_entry",
+        "season_archive_m15_entry",
+        "season_archive_m19_common_001"
+      ]
+    },
+    {
+      "id": "season_road_completed_arcs_before_account_close",
+      "before": "season_road_f20_001",
+      "required": [
+        "season_road_entry",
+        "season_road_f10_001",
+        "season_road_f15_001",
+        "season_road_f19_001"
+      ]
+    },
+    {
+      "id": "season_kiln_completed_arcs_before_account_close",
+      "before": "season_kiln_20_001",
+      "required": [
+        "season_kiln_entry",
+        "season_kiln_10_001",
+        "season_kiln_15_001",
+        "season_kiln_19_001"
+      ]
+    },
+    {
+      "id": "season_garden_completed_arcs_before_account_close",
+      "before": "season_garden_20_001",
+      "required": [
+        "season_garden_entry",
+        "season_garden_10_001",
+        "season_garden_15_001",
+        "season_garden_19_001"
+      ]
+    },
+    {
+      "id": "season_harbor_completed_arcs_before_account_close",
+      "before": "season_harbor_20_entry",
+      "required": [
+        "season_harbor_entry",
+        "season_harbor_10_entry",
+        "season_harbor_15_entry",
+        "season_harbor_19_entry"
       ]
     }
   ]

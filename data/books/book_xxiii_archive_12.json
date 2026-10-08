@@ -1,0 +1,924 @@
+{
+  "chapters": {},
+  "characters": {},
+  "nodes": {
+    "season_archive_m12_entry": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The mountain archive's winter hall held people moving between ordinary tasks. A staff member met Lin and Qiu at the agreed time and led them to the accepted copying room. They did not enter early or bring unlisted material. Su joined for the first part of the interval as arranged. Before they began, she checked the task their annex choice had actually completed. The winter packet, public explanation, and owner conversations had different states, and a useful session would start by naming what was ready rather than borrowing completion from another choice.",
+      "next": "season_archive_m12_common_001",
+      "routes": [
+        {
+          "decision": "season_archive_m11_move",
+          "selected": "season_archive_m11_guide_001",
+          "next": "season_archive_m12_recall_guide_001"
+        },
+        {
+          "decision": "season_archive_m11_move",
+          "selected": "season_archive_m11_owners_001",
+          "next": "season_archive_m12_recall_owners_001"
+        },
+        {
+          "decision": "season_archive_m11_move",
+          "selected": "season_archive_m11_packet_001",
+          "next": "season_archive_m12_recall_packet_001"
+        }
+      ]
+    },
+    "season_archive_m12_recall_guide_001": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The expanded interruption guide had been issued with the annex's actual closure dates and the temporary copying limits. A reader had used it to choose a later annex visit instead of coming here with a private book. Su reported that actual useful consequence and did not claim nobody had misunderstood. Fuller optional owner conversations and detailed packet preparation had remained delayed. Required permissions and custody matters were complete. Staff had delivered only the essential listed approved copies under the accepted arrangements, and the winter room staff confirmed receipt. Lin and Qiu still had to arrange their detailed work order.",
+      "next": "season_archive_m12_recall_guide_002"
+    },
+    "season_archive_m12_recall_guide_002": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "They spent the first portion of the allowed interval putting those accepted copies into a workable sequence, following staff directions. It was time not spent making a new sheet. Qiu accepted the cost but looked at the clock more often than Lin. She reminded her they had chosen to make the interruption clearer for readers. She said she knew, and wished the table could contain the guide's success and the delayed preparation without her explaining one against the other. She apologized for repeating a fact she had already acknowledged. Then they got back to the actual work.",
+      "next": "season_archive_m12_recall_guide_003"
+    },
+    "season_archive_m12_recall_guide_003": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The completed guide remained part of the annex public account. It did not turn the mountain room into an open replacement service, and nobody was admitted here on that assumption. The detailed packet preparation now advanced within the finite winter copying visit. The fuller optional owner conversations remained delayed rather than performed by these arrangements. Qiu placed the source descriptions in reach of Lin's good side and began the first check. They had arrived with a real public task completed and a real copying task still requiring work. Neither state had to be concealed for the visit to be worthwhile.",
+      "next": "season_archive_m12_common_001"
+    },
+    "season_archive_m12_recall_owners_001": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The offered direct owner contact task had been completed in its actual mix of meetings and a narrow written response. Su had received one followup question about the named permitted copies and answered from the list. No new private page had been offered or added. The expanded public guide and detailed packet preparation had remained delayed. Essential staff notices, required permission checks, and original custody had still been complete. Staff had delivered only the essential accepted copies to the temporary room under the actual arrangement. Lin and Qiu now had to prepare their detailed working sequence within this first visit.",
+      "next": "season_archive_m12_recall_owners_002"
+    },
+    "season_archive_m12_recall_owners_002": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "rival_qiu_zhen",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Qiu was glad the source names in the packet reflected the corrections owners had made directly. Lin was glad nobody needed to guess which private conversations had become public work. They both felt the preparation cost when arranging the first sheets consumed part of the finite interval. Su said the choices had always included a delay and did not try to make the cost vanish because the owner meetings had gone well. Qiu gave the accurate source headings their own place. Lin set the shorter first task beside them. Their work started from the permissions they had actually discussed.",
+      "next": "season_archive_m12_recall_owners_003"
+    },
+    "season_archive_m12_recall_owners_003_b": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Some copying would wait because preparation had happened now rather than before closure. Qiu disliked that but did not call the earlier owner work a waste. Lin disliked making her wait but did not reach across her sore shoulder to pretend time had been recovered.",
+      "next": "season_archive_m12_common_001"
+    },
+    "season_archive_m12_recall_owners_003": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The fuller owner account remained useful in its actual scope, and the fuller public guide remained unissued. No mountain archive public access had been implied by the owners' trust. Their accepted copying room and intervals stayed distinct. Lin rested while Qiu finished arranging the next approved sheet, then resumed the check from her low table position.",
+      "next": "season_archive_m12_recall_owners_003_b"
+    },
+    "season_archive_m12_recall_packet_001": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The detailed copying packet had been prepared, delivered by the accepted staff arrangement, and confirmed received before their visit. Its listed approved copies and source descriptions were in the order they had checked. They could begin the actual copying task without using this interval to invent that order. Su reported one reader had still needed an individual explanation of the annex closure, because the expanded public guide remained unissued. Fuller optional owner conversations remained delayed too. Essential staff notices, required permissions, and original custody had been completed in all cases. Readiness concerned the packet, not those unperformed optional tasks.",
+      "next": "season_archive_m12_recall_packet_002"
+    },
+    "season_archive_m12_recall_packet_002": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "rival_qiu_zhen",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Qiu took pleasure in opening the accepted working cover and finding the first source description where it should be. Lin admitted the low table and completed preparation gave the session a better start. She did not turn that into a general claim that her slower preferences always wasted time. She did not answer with the cost of every delayed conversation. Su confirmed their copying purpose with the room staff and left them to the actual task. Original handling and conservation remained elsewhere under responsible custody. The orderly packet gave them something to do, not a new role to perform.",
+      "next": "season_archive_m12_recall_packet_003"
+    },
+    "season_archive_m12_recall_packet_003": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "They completed the first small approved copying step during the opening part of the interval. It was actual progress made possible by the earlier preparation, and Qiu named it with satisfaction. Lin checked the source heading before setting the copy aside. The expanded guide had not appeared by magic, and owners had not received meetings merely because the copying went smoothly. Those optional tasks retained their delayed states. Their winter room stayed a finite copying acceptance. They could enjoy a concrete advantage without claiming their chosen preparation had solved every public and personal consequence of moving.",
+      "next": "season_archive_m12_common_001"
+    },
+    "season_archive_m12_common_001": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The window gave them pale light from a courtyard where the last leaves had gathered against a low wall. Lin could sit with her forearms supported and her shoulder quiet. Qiu examined the working position, then said this was what she had meant by a faster table. She agreed. A good arrangement could reduce wasted motion without creating an extra pair or curing her injury. They copied from approved material according to the accepted task, not from the archive's own closed holdings. Beyond the wall, someone scraped a path clear for ordinary footsteps.",
+      "next": "season_archive_m12_common_002"
+    },
+    "season_archive_m12_common_002": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Lan Fen came only when her maintenance route actually brought her by the door. She asked the staff member responsible for the room whether the lamp's position met the current arrangement. Lin and Qiu kept their sheets away while she adjusted it with her own tools. The light steadied. Qiu thanked her and did not ask to borrow the trimming knife. Lan said it was a tool she expected to find where she had put it. The practical firmness reminded Lin of the annex owner's bench. Other people's things did not become project resources because they improved a workday.",
+      "next": "season_archive_m12_common_003"
+    },
+    "season_archive_m12_common_003": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "After Lan left, a staff messenger knocked with a question for Dai, not for them. Qiu directed him to the responsible contact rather than answering from what she had heard during their acceptance visit. He looked surprised to find volunteers at the table and asked whether the room was now a public source desk. Lin explained the limited copying use. The messenger understood and went away. The same distinction needed repeating in a new building. Their acceptance was specific enough to work; it was not so self evident that every passing person already knew what it meant.",
+      "next": "season_archive_m12_common_004"
+    },
+    "season_archive_m12_common_004": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "They compared the approved trade marks and public delivery excerpts without touching original slips. Qiu traced the differences on their working scrap and found the corner stroke changed even within a single source type. Lin checked her drawing against the actual copy. The repeated bars remained evidence of a convention present in their sample, not a private message revealed by cultivation. They could examine visible ink and ordinary context. Echo memories remained sealed under their separate authority. No one asked an injured copier's patience or a rival's confidence to make up for the absent testimony.",
+      "next": "season_archive_m12_common_005"
+    },
+    "season_archive_m12_common_005_b": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "He asked whether she needed it. She said she had brought it for an ordinary tie that no longer required it. He accepted and worked the lace through. Lin waited seated. Nothing in the exchange authorized access to the attendant's records or obligated him to help their project.",
+      "next": "season_archive_m12_common_006"
+    },
+    "season_archive_m12_common_005": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "A young archive attendant was putting aside a torn pair of ordinary shoes near the hall. He had replaced one lace with cord too thick for the eyelet and was trying to make it lie flat. Qiu noticed while taking a rest outside the copying room and offered a thinner spare cord from her own belongings.",
+      "next": "season_archive_m12_common_005_b"
+    },
+    "season_archive_m12_common_006": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The attendant said his family was moving from one rented room to another before the cold deepened. He did not offer a historical testimony; he was worried about carrying his mother's jars without breaking them. Lin did not promise to lift them. Qiu asked if the move was arranged for a time outside their accepted work, then stopped when he said the family already had help. He wanted the thinner cord, not new organizers. She laughed at her own eagerness. They let the conversation end there, having heard a present concern without turning it into an annex comparison.",
+      "next": "season_archive_m12_common_007"
+    },
+    "season_archive_m12_common_007": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "rival_qiu_zhen",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Qiu told Lin that every place seemed to have someone being displaced by somebody else's sensible plan. She said the room owner was repairing her own annex under an agreement they had accepted, and the attendant's move had reasons they did not know. She knew that; she was speaking about how it felt. She admitted she had answered the feeling as if it were an unsupported public claim. She looked at her for a moment, then sat beside her. It was possible to correct the wrong kind of sentence. Their rivalry had acquired another ordinary way to go wrong.",
+      "next": "season_archive_m12_common_008"
+    },
+    "season_archive_m12_common_008_b": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The second showed the same uncertain edge without making it a letter. They recorded the visible ambiguity on a working note. Neither copy became a fresh view of the original by being compared twice. If they needed more, the responsible custodian would have to authorize and arrange it.",
+      "next": "season_archive_m12_common_009"
+    },
+    "season_archive_m12_common_008": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "They returned to the low table and resumed the actual check. A line in the approved public receiving excerpt looked darker at one edge, where the original impression had been copied. Qiu wanted to treat it as an additional stroke. Lin asked her to compare the other accepted drawing from the same entry.",
+      "next": "season_archive_m12_common_008_b"
+    },
+    "season_archive_m12_common_009": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Dai visited during the interval he had stated and asked what they had accomplished. Lin described the actual copied work and the uncertain edge. Qiu described the limited repeated mark observation. Dai did not solve the cloth's history. He asked whether their new working notes were distinguished from source copies and whether anything public was proposed. Su had mentioned a possible source explanation, and they now had a clear question about how a damaged record could become overinterpreted. Dai said they could submit a specific draft within the accepted scope; no general display permission followed from his interest.",
+      "next": "season_archive_m12_common_010"
+    },
+    "season_archive_m12_common_010": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The source account had to remain usable for people who did not love distinctions as much as Lin did. Qiu drafted a short explanation of what they could actually compare. It began with the two dated recorded deliveries visible in their approved sources and ended with the cloth's older origin remaining unresolved. Lin wanted a separate column for source type and present copying chain. Qiu wanted the key observation to survive the walk between a crowded doorway and a reading table. Dai's staff would consider a specific public reading use only after the wording, source permissions, and location were clear.",
+      "next": "season_archive_m12_common_011"
+    },
+    "season_archive_m12_common_011": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "On another accepted visit, Su brought the draft to the responsible staff and owners through the arranged means. The public excerpt permissions covered their factual comparison; the household owner approved the bounded account of her unresolved question without giving new private material. Dai's staff approved a small designated reading place and finite interval for this particular explanation, if they chose to issue it. It would not open the temporary copying room to general public requests. The options were now real: a concise account, a more explicit paired source presentation, or no new public explanation while a further inquiry remained possible.",
+      "next": "season_archive_m12_common_012"
+    },
+    "season_archive_m12_common_012": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "rival_qiu_zhen",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Qiu found the concise account clearer. Lin found it easier to mistake the comparison for an answer about the cloth. She suggested a strong closing sentence rather than three small qualifications. She suggested separating the exact recorded observations from their current interpretation. Their dispute stayed on the table until the room interval ended. They put the drafts away without issuing either. Dai's staff retained the specific offered public place, not a promise that every future version would be approved. An argument could improve work only if someone eventually chose which work to finish.",
+      "next": "season_archive_m12_common_013"
+    },
+    "season_archive_m12_common_013_b": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The sister said it made it more irritating. Lin laughed and kept her paper away. A recovered object could have an ordinary cause supplied by a living person without establishing the reasons behind another household's long kept cloth. The two mysteries did not have to match.",
+      "next": "season_archive_m12_common_014"
+    },
+    "season_archive_m12_common_013": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At the kitchen on a day they were not scheduled to travel, the cook's sister had found the father's old whetstone behind a jar. She placed it near the door and announced the household mystery solved. The cook said he had been the one to put it there. Qiu asked whether that made it less satisfying.",
+      "next": "season_archive_m12_common_013_b"
+    },
+    "season_archive_m12_common_014": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The cook used the whetstone on his ordinary knife and then put it where he expected to reach it. He did not preserve his father's former placement or invite them to record its edge. The household was using what had survived. Lin liked watching the practical motion and did not make it a lesson for him. Qiu asked whether the cook needed a portion taken to his sister outside. He did, and Qiu carried the ordinary bowl at a low safe height. The task had an actual recipient and ended when the bowl arrived.",
+      "next": "season_archive_m12_common_015"
+    },
+    "season_archive_m12_common_015": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The sister was arguing with a cloth seller about a winter layer she wanted repaired rather than replaced. She took her food and told Qiu not to mediate. Qiu grinned and returned to Lin. She asked whether she found it hard to help only with what people asked. She said yes, and asked whether she found it hard to stop protecting people from uses they might actually want. She said yes too. The answers were small enough not to become reconciliation speeches. They ate their own portions and left the seller and sister to their actual business.",
+      "next": "season_archive_m12_common_016"
+    },
+    "season_archive_m12_common_016": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The next copying visit began late because a public road was briefly blocked by a cart with a broken axle. They informed the archive's contact through the available ordinary arrangement rather than arriving as if their delay extended the room interval. The accepted end time remained. Lin and Qiu did the shorter task and deferred the rest. They had no authority to change staff schedules or move the cart by a special technique. Qiu was irritated at the lost minutes and careful with the minutes that remained. Lin saw both facts and did not call the irritation a flaw.",
+      "next": "season_archive_m12_common_017"
+    },
+    "season_archive_m12_common_017_b": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Qiu accepted the change and then asked her to restore the positive observation first. They repaired both parts. Their drafts were not issued yet, so the correction belonged to preparation rather than a public retraction. A corrected draft could prepare an accurate account without proving that earlier misunderstandings had been repaired.",
+      "next": "season_archive_m12_common_018"
+    },
+    "season_archive_m12_common_017": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At the end of that shortened session, their draft had one sentence Lin no longer trusted. She had written that the two slips ruled out a single voyage reading of the cloth. They showed two recorded deliveries bearing similar marks; they did not rule out whatever particular journey the cloth itself might have taken.",
+      "next": "season_archive_m12_common_017_b"
+    },
+    "season_archive_m12_common_018": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "rival_su_yao",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Su also had the household owner's cousin's public record suggestion checked through the ordinary contact. A limited inquiry for a specified landing receipt reference could be sent without opening private family correspondence. The cousin's suggestion remained a present lead, and the office's reply would have to identify its own evidence. Su asked for the actual request to be authorized within the project's current limited time and copying provision. The keeper agreed to the narrow public inquiry. It was sent with the reference, purpose, and reply arrangement stated. No receipt had yet been found or viewed.",
+      "next": "season_archive_m12_common_019"
+    },
+    "season_archive_m12_common_019": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "rival_qiu_zhen",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Qiu wanted the new public account to appear before the reply. The repeated marks and source distinctions were already established within their limited sample. Lin wondered whether a reader would take an explanation issued now as the project's final answer. Su said the date and status could make the inquiry's pendency explicit if they chose to publish. Waiting was also a possible decision, with the cost of leaving the designated reading place unused for this new account. The request's existence did not settle whether their current comparison deserved a public form. They had to judge the work they already possessed.",
+      "next": "season_archive_m12_common_020"
+    },
+    "season_archive_m12_common_020": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "A mountain archive reader asked Dai's staff about the proposed explanation and was directed only to the material already available under existing public arrangements. He had no access to the copying room or pending drafts. Lin heard the report from the responsible staff, not from overheard private conversation. Qiu wanted to meet the reader when the public place was actually used. He might value the source distinctions or find them tedious. The possibility of an audience gave her energy. The uncertainty of its understanding gave Lin care. Neither reaction supplied a reason to invent the reply before it arrived.",
+      "next": "season_archive_m12_common_021"
+    },
+    "season_archive_m12_common_021": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "They prepared three bounded options. The concise account would lead with the actual repeated mark observation and explain the unresolved cloth question in plain language. The source presentation would put the recorded observations and current source chains in separate columns, requiring more reading but exposing the evidence structure. Waiting would leave the new explanation unissued until the narrow landing inquiry received an actual answer. All options retained existing public material and permissions unchanged. No chosen version could name a cloth voyage, repair its missing year, or reveal the aunt's private intention without additional evidence.",
+      "next": "season_archive_m12_common_022"
+    },
+    "season_archive_m12_common_022": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The winter hall felt warmer when a group of ordinary visitors passed through, then cold again after they left. Lan's lamp continued to serve the accepted room; she was elsewhere on her own work. Lin adjusted her layers and kept her shoulder supported. Qiu stood for a short break, looking at their two drafts without touching staff materials. The cold made a quick decision appealing, but they were not required to choose in discomfort. Su arranged the remaining interval they actually had and asked them to settle which task would be finished within it.",
+      "next": "season_archive_m12_common_023"
+    },
+    "season_archive_m12_common_023": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "They looked toward the courtyard, where the path had been scraped clear again. The attendant with the new lace crossed it carrying an empty jar from his own household. He waved and did not stop. Their help with the cord had remained exactly that, a small exchange unrelated to access or testimony. Qiu returned to the draft with less desire to make every useful thing part of the project. Lin returned with less desire to answer every feeling as a claim. The work still required a choice about what people should be able to read before the new inquiry ended.",
+      "next": "season_archive_m12_account"
+    },
+    "season_archive_m12_account": {
+      "chapter": "book_xxiii_season",
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Lin placed the concise account beside the source columns. Both could be issued only within the specific approved public place and permissions, and both would state the landing inquiry was pending. Waiting would issue neither new explanation now while keeping the older permitted material available in its existing places. Qiu wanted the repeated mark observation to reach readers; Lin wanted the route from each source to that observation visible enough to check. Su wanted the choice to become finished work rather than another month of drafts.",
+      "choices": [
+        {
+          "text": "Issue the concise bounded account for the approved reading place.",
+          "next": "season_archive_m12_summary_001"
+        },
+        {
+          "text": "Issue the separate source columns and recorded observations.",
+          "next": "season_archive_m12_columns_001"
+        },
+        {
+          "text": "Wait for the landing inquiry and leave the new explanation unissued.",
+          "next": "season_archive_m12_wait_001"
+        }
+      ]
+    },
+    "season_archive_m12_summary_001": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "rival_qiu_zhen",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Qiu finished the concise account with its positive observation first. Similar short marks occurred on the two distinct dated public receiving forms in their approved sample. The source headings identified the records and the present copies used for comparison. The cloth's older origin and its keeper's reason remained unresolved. Lin checked the closing sentence about the pending landing inquiry and made sure it promised no answer. Su submitted the exact final wording to the already arranged approval. The responsible staff accepted it for the specified public reading place and interval, with no broader use implied.",
+      "next": "season_archive_m12_summary_002"
+    },
+    "season_archive_m12_summary_002": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The sheet went into the approved reading place outside the copying room. Qiu attended only during the agreed part of the interval and did not become the archive's general source guide. An older reader said the first sentence helped him understand why the three bars should not be read as a unique family sign. Lin answered his question about the sample's size. Two forms were enough to show recurrence here, not enough to describe every use in the trade. The reader nodded and read the source headings. The account had reached one person clearly in its chosen form.",
+      "next": "season_archive_m12_summary_003"
+    },
+    "season_archive_m12_summary_003": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Another reader asked whether the pending inquiry would name the cloth's boat. Qiu said it sought a specified public landing receipt reference, not the cloth's entire history. The concise closing sentence had not prevented that expectation by itself. Lin answered from the actual request and proposed no new claim. Su noted the question for future wording. They did not withdraw an accurate observation merely because one reader wanted more; they also did not claim the sheet had made its limits obvious to everyone. Public explanation remained work after the ink had dried.",
+      "next": "season_archive_m12_summary_004"
+    },
+    "season_archive_m12_summary_004": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Dai passed through during his actual ordinary duties and asked the staff responsible for the reading place whether the approved use was working. He did not require Lin and Qiu to summarize every private conversation with readers. Qiu described the two public questions and the limits they had explained. Dai said a plain account often invited further curiosity. Lin liked that he did not promise the curiosity would be orderly. The source columns remained an unissued alternative, not a second sheet silently assumed to have clarified everything the concise account left to conversation.",
+      "next": "season_archive_m12_summary_005"
+    },
+    "season_archive_m12_summary_005_b": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Qiu checked that distinction after seeing how readily one reader imagined the cloth sitting behind the public text. Lin said they could add a small practical location description only if accurate and specifically permitted. For now, their existing wording already identified what had been compared.",
+      "next": "season_archive_m12_summary_006"
+    },
+    "season_archive_m12_summary_005": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The household owner received the current wording through the agreed contact and confirmed her bounded question still appeared as approved. She had not come to the mountain archive and was not described as attending. Her cloth stayed under its actual custody arrangement. The sheet's immediate sources were the approved copies, not a fresh inspection of the object.",
+      "next": "season_archive_m12_summary_005_b"
+    },
+    "season_archive_m12_summary_006_b": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Qiu wanted to call the public work successful. Lin asked whether she meant the sheet was clear enough for the older reader and prompted manageable questions from the other. She said yes, and she agreed. The bounded word felt less boastful once its meaning had been stated.",
+      "next": "season_archive_m12_summary_007"
+    },
+    "season_archive_m12_summary_006": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "They completed the public interval as arranged and removed the sheet when the permission required. A retained approved project copy recorded what had been issued and where. Their concise account had been read and questioned; the column version had not been issued. The narrow landing inquiry remained pending, with no actual receipt yet received.",
+      "next": "season_archive_m12_summary_006_b"
+    },
+    "season_archive_m12_summary_007": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At the copying table later, Lin found her own next draft wanting to repeat the concise sheet's whole paragraph. Qiu told her a source cover did not need the public explanation copied into every corner. She laughed and kept only the actual identifying information. Their chosen form had become useful without becoming sacred. It could be revised when a real reply arrived and actual permission allowed the change. Nobody gained a specialist rank from having issued a readable sheet. The low table still mattered more to her shoulder than any compliment about their work.",
+      "next": "season_archive_m12_summary_008"
+    },
+    "season_archive_m12_summary_008": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Before they left the winter room, Su updated the work account: concise explanation issued within the specific place and interval; source columns unissued; landing inquiry pending. Qiu checked the description without making its audience larger than observed. Lin checked the retained approved version against the wording actually displayed. Their existing public source materials remained in their permitted places. The temporary copying room stayed separate from the public reading use. A new account had become real, with enough clarity to help some readers and enough remaining uncertainty that the next actual receipt could still change its emphasis.",
+      "next": "season_archive_m12_after_001"
+    },
+    "season_archive_m12_columns_001": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Lin and Qiu finished the source presentation as two clearly headed columns. One identified recorded observations in the approved public forms; the other described the immediate sources and present copying chain. Their own comparison appeared separately below, bounded to the sample and the unresolved cloth question. The pending landing inquiry was stated as a request without an answer yet. Su submitted the exact final version through the already arranged approval. The responsible staff accepted it for the specified public place and interval. Its fuller structure did not authorize private names, whole registers, or an original object display.",
+      "next": "season_archive_m12_columns_002"
+    },
+    "season_archive_m12_columns_002": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The presentation was placed outside the copying room at the approved location. Qiu attended within the agreed interval and watched the first reader begin in the second column. He understood the current source chain but asked what the actual observation was. Lin pointed to the first column and the short comparison below. The man read slowly and then said the separation helped him see why two recent copies did not mean two direct inspections by these authors. That understanding was useful. The extra time needed to reach it was also real, especially where visitors stood rather than sat.",
+      "next": "season_archive_m12_columns_003"
+    },
+    "season_archive_m12_columns_003": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "A woman read only the comparison at the bottom and asked whether the source columns confirmed the cloth had traveled on both boats. Qiu answered that they did not identify the cloth with either recorded delivery. She showed the explicit unresolved question and the source headings. The woman understood after their conversation. Lin did not claim a divided layout prevented every combined inference. Su noted where the reader had started. The presentation's structure exposed distinctions for those who followed it, but it could not choose a reader's path across the page or eliminate the need for a plain answer.",
+      "next": "season_archive_m12_columns_004"
+    },
+    "season_archive_m12_columns_004": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Dai came by during his actual duties and asked the responsible staff about the public use. Lin described the two observed reading responses without making them a survey. Qiu admitted she wanted a stronger first sentence so a visitor could find the main observation quickly. Dai said any changed version would need to remain within the approved wording and use. They did not revise the displayed sheet on impulse. The concise alternative remained unissued. Their chosen columns had a real strength in source clarity and a real cost in the attention asked from people arriving with unrelated errands.",
+      "next": "season_archive_m12_columns_005"
+    },
+    "season_archive_m12_columns_005": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The household owner reviewed the current presentation through the arranged contact. Her bounded question appeared in its approved wording and no new private account had been added. She liked seeing her permitted copies separated from older public forms, though she would not have read the full sheet if it belonged to a stranger. Qiu thanked her for saying so plainly. Lin did not take the comment as withdrawal of permission or as proof the presentation was useless. The owner confirmed the use in its stated interval and asked them to leave her aunt's unanswered reason exactly where it was.",
+      "next": "season_archive_m12_columns_006"
+    },
+    "season_archive_m12_columns_006": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "They completed the finite public use and removed the presentation when its accepted interval ended. A retained approved copy preserved the version actually shown. The narrow landing inquiry remained pending; no receipt had been received or interpreted. Qiu checked that the work account did not say a concise explanation had also been issued. Lin checked that the observed reader questions remained questions rather than findings about the past. The layout had let some people inspect the source relationships more closely. It had not made the repeated marks a recovered itinerary or their current commentary an old witness statement.",
+      "next": "season_archive_m12_columns_007"
+    },
+    "season_archive_m12_columns_007": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Back at the copying table, Qiu drew a tiny arrow on a working scrap to show where the first reader had begun. Lin thought it would be useful for a future version, then asked whose reading they could actually describe. Hers, and the two readers they had observed, were enough for a practical design discussion. They needed no claim about the habits of all archive visitors. Qiu said she could be exhausting, and then admitted the precise question helped her avoid dressing a preference as a measured rule. She admitted the arrows made her point faster than her paragraph did.",
+      "next": "season_archive_m12_columns_008"
+    },
+    "season_archive_m12_columns_008": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "rival_su_yao",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Su closed the month's work account with the actual choice visible: source columns and bounded comparison issued in the approved place; concise alternative unissued; landing inquiry still pending. Original custody, existing public permissions, and the temporary room's copying role remained unchanged. Lin rested before packing her light schedule. Qiu retained only the working scraps permitted for their own draft discussion. The presentation had given readers a way to inspect relationships among sources, at the cost of a slower first encounter. The next actual reply might make a clearer opening possible without making their earlier work false.",
+      "next": "season_archive_m12_after_001"
+    },
+    "season_archive_m12_wait_001": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "They decided not to issue either new explanation before the landing inquiry answered. Su told the responsible staff the specific offered reading place would remain unused by this new account during the present interval. Existing public material stayed available under its own arrangements. The concise draft and source columns were retained only as unissued project work within their current permissions. Qiu wrote their status clearly. Lin did not describe the waiting as an extra search already performed. The narrow request had been sent; no new public receipt had yet arrived, and the unknown remained unknown.",
+      "next": "season_archive_m12_wait_002"
+    },
+    "season_archive_m12_wait_002": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "A reader asked Dai's staff whether the proposed comparison would be shown. The staff gave the actual answer: this new explanation was deferred, while previously permitted material remained available in its existing places. The reader had come expecting the new account and was disappointed. Su relayed that public inquiry through the responsible contact without collecting a private reason for the visit. Qiu felt the cost immediately. Lin accepted it instead of telling her that waiting protected an audience they had not yet understood. Their choice had left a real proposed use unfulfilled for this interval.",
+      "next": "season_archive_m12_wait_003"
+    },
+    "season_archive_m12_wait_003": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "They spent the accepted copying time on the existing approved tasks rather than creating a substitute public presentation under another name. Qiu checked the source headings while Lin copied a short authorized passage. Her shoulder remained supported, and she paused before fatigue made her writing cramped. She did not fill the pause with an argument about the deferred sheet. The work could still be useful without delivering the public encounter she had wanted. Staff directed material placement and kept original handling separate. No hidden exhibition or private memory access took the place of the choice they had made.",
+      "next": "season_archive_m12_wait_004"
+    },
+    "season_archive_m12_wait_004": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The household owner received notice of the deferral through the agreed arrangement. She had approved a bounded question for the proposed use, but no new public account had been issued in this interval. She said she could wait for the narrow reply and asked not to be contacted every time somebody wondered about it. Su recorded the practical contact limit. Qiu accepted the answer without taking it as proof the owner favored waiting over every other option. The woman had consented to the chosen schedule now; she had not declared a universal preference for unfinished stories.",
+      "next": "season_archive_m12_wait_005"
+    },
+    "season_archive_m12_wait_005": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "One evening Qiu told Lin she thought the draft already deserved readers. She said she still worried the pending inquiry would change how their observation should be framed. She asked her what result could change it. She named a public receipt identifying a narrower use of the convention, or a reply showing no surviving source within the searched materials. Neither would identify the cloth automatically. She appreciated hearing the concrete possibilities more than a broad appeal to caution. She appreciated her asking for them without accusing her of fearing every clear sentence. Their disagreement remained active and specific.",
+      "next": "season_archive_m12_wait_006"
+    },
+    "season_archive_m12_wait_006": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "They checked the actual request's progress once at the arranged time. The office had received it and was examining the specified public reference. That was the full status; no source content had been communicated yet. Su did not announce a promising discovery. Qiu crossed out the word promising in her own tentative work note before it could circulate. Lin said a receipt might be ordinary enough to disappoint anyone who had waited for a revelation. She replied that ordinary information could still change a precise question. Both hoped the answer would be worth the actual effort someone was spending.",
+      "next": "season_archive_m12_wait_007"
+    },
+    "season_archive_m12_wait_007": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The approved public place's offered interval ended without either new explanation being issued. They recorded that fact alongside the completed existing copying work. The staff did not extend the offer indefinitely because the inquiry was still pending. Any later public use would need a fresh actual arrangement. Qiu disliked losing the ready audience and kept the description exact. Lin disliked knowing her preferred wait had cost a concrete opportunity. They could acknowledge those consequences without deciding that a future answer, good or poor, would retroactively prove today's choice entirely correct or entirely mistaken.",
+      "next": "season_archive_m12_wait_008"
+    },
+    "season_archive_m12_wait_008": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Before leaving the winter room, they put the two unissued drafts with their permitted work materials and kept the landing request status separate from findings. Existing public sources retained their ordinary availability and limits. No concise account or column presentation had appeared in the new reading place, and no reply had yet repaired the gap. Su checked their next actual copying interval. Qiu checked the remaining task list. Lin rested before the road. They had chosen to wait with useful work still happening, but waiting had not become a finding or an invisible public success.",
+      "next": "season_archive_m12_after_001"
+    },
+    "season_archive_m12_after_001": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The room owner sent a practical repair update through the established contact. Work was progressing, with the shared annex still unavailable during the scheduled weeks. She had found a damaged corner that required attention within the actual repair plan and would confirm the reopening after the responsible work was checked. This was not a conservation task for Lin or Qiu. Su asked the keeper to handle any project scheduling change and gave the volunteers only what affected their accepted visits. The finite further term remained defined; a reopening date still needed its actual confirmation.",
+      "next": "season_archive_m12_after_002"
+    },
+    "season_archive_m12_after_002": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "rival_qiu_zhen",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Qiu wanted to see the room before anyone else filled it with boxes again. Lin reminded her that the boxes were part of its agreed use. She said she knew and was describing the irrational wish to enter one empty room before negotiations returned. She understood that this time without correcting her as though she had proposed seizing it. They discussed how little the temporary mountain room had asked of them beyond its actual task. Then Qiu laughed at the contradiction: fewer choices of furniture had made her feel freer, provided somebody else had already made the right ones.",
+      "next": "season_archive_m12_after_003"
+    },
+    "season_archive_m12_after_003_b": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "This help did not become project labor or a payment for private household stories. The cook said the water was too cold and gave her a warmer basin. A present instruction could be followed without a source apparatus.",
+      "next": "season_archive_m12_after_004"
+    },
+    "season_archive_m12_after_003": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At the shared kitchen, the cook tried a small new arrangement of the ordinary shelf. His father's whetstone remained useful where he could reach it. The chair stayed upstairs; nobody announced a final decision about it. Lin noticed the new space and offered no interpretation. Qiu brought back the empty bowl she had carried to the sister and washed it where the cook directed.",
+      "next": "season_archive_m12_after_003_b"
+    },
+    "season_archive_m12_after_004": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The attendant from the mountain archive passed near their next visit with the repaired shoe laces and a jar wrapped safely in ordinary cloth. His family's move had happened with the help they had already arranged. He thanked Qiu for the cord and hurried to his own duty. Lin wished him well. The exchange ended without them entering the new rented room or obtaining a testimony about displacement. Their project still involved an annex under repair, but not every nearby move had to be folded into its explanation. The attendant's life remained larger than the small part they had seen.",
+      "next": "season_archive_m12_after_005"
+    },
+    "season_archive_m12_after_005": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "rival_su_yao",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Su confirmed that the landing office would send its actual reply when the specified public reference check was complete. They made no extra request for private correspondence or sealed memories to speed it up. Dai's copying room acceptance continued only for its stated intervals and could be reviewed for ordinary archive needs. Lin and Qiu kept the next visit's task small enough for that reality. Their four pairs remained a cultivation stage, not a license to overcome institutional or physical limits. The shoulder remained something Lin planned around, especially on the colder road.",
+      "next": "season_archive_m12_after_006"
+    },
+    "season_archive_m12_after_006_b": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "They left the cover plain. It was not a ban on attractive titles. It was a choice to let the actual reply arrive before the title promised what its source would contain. Qiu kept the phrase on a private working scrap as a possibility, with no public claim attached.",
+      "next": "season_archive_m12_after_007"
+    },
+    "season_archive_m12_after_006": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "On the last visit before the expected reply, Qiu found a clean blank on their work cover and nearly wrote a title for the eventual account. Lin asked what it would say. She suggested Two Ferries, then laughed because the public slips named boats and did not yet establish the next receipt's contents.",
+      "next": "season_archive_m12_after_006_b"
+    },
+    "season_archive_m12_after_007": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "mountain_archive_winter_hall",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The winter light thinned while they completed the accepted interval. Staff put the permitted packet where its arrangement required; Lin and Qiu left other holdings untouched. Their new public explanation retained exactly the state chosen that month, and the landing inquiry remained separate from it. Su had the contact ready for the actual answer. Beyond the archive wall, ordinary ferries continued taking people through cold air whether or not any old receipt survived. The project would soon hear about one dated transaction from the past, and would have to resist making that small answer carry every journey it could imagine.",
+      "next": "season_archive_m13_entry"
+    }
+  }
+}

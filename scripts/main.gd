@@ -932,7 +932,7 @@ func _smoke_rival_scene() -> bool:
 
 func _smoke_rivals() -> bool:
 	var valid := true
-	var chapters := ["book_i", "book_ii", "book_iii", "book_iv", "book_v", "book_vi", "book_vii", "book_viii", "book_ix", "book_x_storm_ledger", "book_xi_salt_road", "book_xii_canal", "book_xiii_forest", "book_xiv_harbor", "book_xv_kiln", "book_xvi_desert", "book_xvii_archive", "book_xviii_letters", "book_xix_reed_crossing", "book_xx_careers", "book_xxi_commissions", "book_xxii_rival"]
+	var chapters := ["book_i", "book_ii", "book_iii", "book_iv", "book_v", "book_vi", "book_vii", "book_viii", "book_ix", "book_x_storm_ledger", "book_xi_salt_road", "book_xii_canal", "book_xiii_forest", "book_xiv_harbor", "book_xv_kiln", "book_xvi_desert", "book_xvii_archive", "book_xviii_letters", "book_xix_reed_crossing", "book_xx_careers", "book_xxi_commissions", "book_xxii_rival", "book_xxiii_season"]
 	for chapter in chapters:
 		valid = state.story.chapters.has(chapter) and valid
 	valid = state.story.chapters.size() == chapters.size() and valid
@@ -991,6 +991,103 @@ func _smoke_rivals() -> bool:
 		valid = state.stats == {"qi": 0, "trust": 0, "insight": 0, "resolve": 0} and valid
 		valid = _smoke_rival_scene() and valid
 		print("JADE_VOW_RIVAL_PACKAGE: %s in %d actual transitions" % [entries[selection], 1 + receiving_steps + ending_steps])
+	for path in [choice_save, branch_save]:
+		for suffix in ["", ".bak", ".tmp"]:
+			if FileAccess.file_exists(path + suffix):
+				DirAccess.remove_absolute(path + suffix)
+	return valid
+
+func _capture_seasons() -> bool:
+	var choice_save := "user://season_capture_choice.json"
+	var branch_save := "user://season_capture_branch.json"
+	var names := ["water", "archive", "road", "kiln", "garden", "harbor"]
+	if state.current != "rival_end_independent" or not state.node().has("ending") or not state.advance() or state.current != "season_entry":
+		return false
+	var opening_steps := _rival_walk_to("season_path_choice", 200)
+	if opening_steps < 0 or not _capture_commission_checkpoint(choice_save) or not (await _capture_rival_frame("season_paths")):
+		return false
+	for selection in range(names.size()):
+		var entry := "season_" + names[selection] + "_entry"
+		var ending := "season_end_" + names[selection]
+		if not state.load_game(choice_save) or not state.choose(selection) or state.current != entry:
+			return false
+		if not (await _capture_rival_frame("season_" + names[selection])):
+			return false
+		var detail_steps := 0
+		if names[selection] == "road" or names[selection] == "kiln":
+			var stop := "season_road_f01_008" if names[selection] == "road" else "season_kiln_01_008"
+			var painting := "season_letter_counter" if names[selection] == "road" else "season_kiln_public_room"
+			detail_steps = _rival_walk_to(stop, 100)
+			if detail_steps < 0 or state.node().get("background", "") != painting or not _capture_commission_checkpoint(branch_save):
+				return false
+			if not (await _capture_rival_frame(painting)):
+				return false
+		var work_steps := _rival_walk_to("season_receiving_entry", 4000)
+		if work_steps < 0 or state.decisions.get("season_path_choice", "") != entry or not _capture_commission_checkpoint(branch_save):
+			return false
+		var closing_steps := _rival_walk_to(ending, 200)
+		if closing_steps < 0 or not state.node().has("ending") or state.stats != {"qi": 0, "trust": 0, "insight": 0, "resolve": 0} or not _capture_commission_checkpoint(branch_save):
+			return false
+		if not (await _capture_rival_frame(ending)):
+			return false
+		print("JADE_VOW_SEASON_CAPTURE: %s in %d actual transitions" % [names[selection], 1 + detail_steps + work_steps + closing_steps])
+	for path in [choice_save, branch_save]:
+		for suffix in ["", ".bak", ".tmp"]:
+			if FileAccess.file_exists(path + suffix):
+				DirAccess.remove_absolute(path + suffix)
+	return true
+
+func _smoke_seasons() -> bool:
+	var valid := state.story.chapters.has("book_xxiii_season") and state.story.chapters.size() == 23
+	var expected_art := ["season_orchard_gate","season_archive_annex","season_harbor_approach","season_canal_footpath","season_kiln_courtyard","season_letter_counter","season_kiln_public_room"]
+	var retained_art: Dictionary = {}
+	for painting in world.get("backgrounds", []):
+		if not expected_art.has(str(painting.id)):
+			continue
+		var original = load("res://" + str(painting.path))
+		var size: Array = painting.get("native_size", [])
+		valid = original is Texture2D and size.size() == 2 and valid
+		if original is Texture2D and size.size() == 2:
+			valid = original.get_size() == Vector2(size[0], size[1]) and valid
+			retained_art[str(painting.id)] = original
+	valid = retained_art.size() == expected_art.size() and valid
+	var choice_save := "user://season_package_choice.json"
+	var branch_save := "user://season_package_branch.json"
+	var names := ["water", "archive", "road", "kiln", "garden", "harbor"]
+	var titles := ["The River Beyond the Marks", "The Shelf That Holds an Uncertainty", "A Reply With Room for Silence", "The Vessel and the Remaining Winter", "The Root Beneath the Green", "The Lamp and the Limits of Its Light"]
+	if state.current != "rival_end_independent" or not state.advance() or state.current != "season_entry":
+		return false
+	valid = _smoke_rival_scene() and valid
+	var opening_steps := _rival_walk_to("season_path_choice", 200)
+	if opening_steps < 0 or not _capture_commission_checkpoint(choice_save):
+		return false
+	valid = _smoke_rival_scene() and valid
+	valid = choice_box.get_child_count() == names.size() and valid
+	for selection in range(names.size()):
+		var entry := "season_" + names[selection] + "_entry"
+		var ending := "season_end_" + names[selection]
+		if not state.load_game(choice_save) or not state.choose(selection) or state.current != entry:
+			return false
+		valid = _smoke_rival_scene() and valid
+		var detail_steps := 0
+		if names[selection] == "road" or names[selection] == "kiln":
+			var stop := "season_road_f01_008" if names[selection] == "road" else "season_kiln_01_008"
+			var painting := "season_letter_counter" if names[selection] == "road" else "season_kiln_public_room"
+			detail_steps = _rival_walk_to(stop, 100)
+			if detail_steps < 0 or state.node().get("background", "") != painting or not _capture_commission_checkpoint(branch_save):
+				return false
+			valid = _smoke_rival_scene() and valid
+		var work_steps := _rival_walk_to("season_receiving_entry", 4000)
+		if work_steps < 0 or state.decisions.get("season_path_choice", "") != entry or not _capture_commission_checkpoint(branch_save):
+			return false
+		valid = _smoke_rival_scene() and valid
+		var closing_steps := _rival_walk_to(ending, 200)
+		if closing_steps < 0 or not _capture_commission_checkpoint(branch_save):
+			return false
+		valid = state.node().get("ending", "") == titles[selection] and valid
+		valid = state.stats == {"qi": 0, "trust": 0, "insight": 0, "resolve": 0} and valid
+		valid = _smoke_rival_scene() and valid
+		print("JADE_VOW_SEASON_PACKAGE: %s in %d actual transitions" % [names[selection], 1 + detail_steps + work_steps + closing_steps])
 	for path in [choice_save, branch_save]:
 		for suffix in ["", ".bak", ".tmp"]:
 			if FileAccess.file_exists(path + suffix):
@@ -1379,6 +1476,10 @@ func _capture() -> void:
 		push_error("Played rival paths, saved reviews or rendered native portraits failed")
 		_quit_game(1)
 		return
+	if not (await _capture_seasons()):
+		push_error("Played seasonal paths, saved reviews or matching endings failed")
+		_quit_game(1)
+		return
 	print("JADE_VOW_CAPTURE_OK")
 	_quit_game()
 
@@ -1641,6 +1742,7 @@ func _smoke_build() -> void:
 	valid = commission_native_count == commission_paintings.size() and valid
 	# Walk all three rival choices and retained outcomes inside the source-free pack.
 	valid = _smoke_rivals() and valid
+	valid = _smoke_seasons() and valid
 	if valid:
 		print("JADE_VOW_PACKAGE_OK: standalone story, world art, object inspection and narration")
 	else:
