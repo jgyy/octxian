@@ -1,8 +1,8 @@
 {
-  "scenes": 24341,
-  "authored_words": 2080063,
-  "word_target": 2000000,
-  "word_target_met": true,
+  "scenes": 24373,
+  "authored_words": 2082566,
+  "word_target": 3000000,
+  "word_target_met": false,
   "delivered_art": {
     "backgrounds": 98,
     "npcs": 67,
@@ -39,7 +39,7 @@
   },
   "art_targets_met": false,
   "remaining": {
-    "authored_words": 0,
+    "authored_words": 917434,
     "backgrounds": 50,
     "npcs": 433,
     "monsters": 486,
@@ -49,14 +49,14 @@
   "complete": false,
   "originality_validation": "Retained original sources, native dimensions, file hashes, and decoded pixels are checked. Distinct designs require editorial review; poses, recolors, mirrors, and other derivatives do not qualify as independent originals.",
   "cultivation_rewrite": {
-    "displayed_scenes": 24341,
-    "displayed_words": 2080063,
+    "displayed_scenes": 24373,
+    "displayed_words": 2082566,
     "rewrite_scenes": 12756,
-    "rewrite_words": 1035232,
-    "inherited_words": 1044831,
+    "rewrite_words": 1035245,
+    "inherited_words": 1047321,
     "remaining_displayed_words": 0,
     "remaining_rewrite_words": 0,
-    "remaining_requested_words": 0
+    "remaining_requested_words": 917434
   },
-  "rendered_screenshots": 164
+  "rendered_screenshots": 170
 }
