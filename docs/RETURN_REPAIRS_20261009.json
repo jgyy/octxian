@@ -1,0 +1,52 @@
+{
+  "source_base": "9461af86a503a358f356c628e30c3a721471f920",
+  "total_repairs": 1,
+  "changed_passages": 2,
+  "count_policy": "One announced-timetable contradiction across two published passages. The earlier CULT-002 first-week award correction is separate and receives no additional credit here. New Book XXIV authoring earns no historical repair credit.",
+  "repairs": [
+    {
+      "id": "opening-announced-examination-timetable",
+      "path": "data/books/book_i_mortal.json",
+      "node_id": "mortal_005",
+      "before": "'The first test says nothing reliable about your eventual limit. It does say we should not give you a gathering manual today.' Qing turned the hemp tablet over. 'There is a paid place on the lower terrace. You will work in the mornings. Conditioning and reading classes meet afterward. You buy ordinary meals from your wages. The examination is in eight weeks. The work continues if you fail it.'",
+      "after": "'The first test says nothing reliable about your eventual limit. It does say we should not give you a gathering manual today.' Qing turned the hemp tablet over. 'There is a paid place on the lower terrace. You will work in the mornings. Conditioning and reading classes meet afterward. You buy ordinary meals from your wages. The eight-week teaching plan includes a recovered Skin check when ready. The work continues if you fail it.'",
+      "category": "chronology",
+      "reason": "mortal_005 promises an examination in eight weeks and mortal_018 says the first measure is eight weeks away. After the seventh-day choice, mortal_rejoin_005 advances three weeks, mortal_rejoin_006 schedules Skin for the following week, and mortal_rejoin_008 awards it after recovery. The advertised wait therefore contradicts the playable first Skin assessment around week five. Preserve the actual recovered assessment and describe the eight-week teaching plan separately from the readiness-dependent first check.",
+      "affected_passages": [
+        {
+          "path": "data/books/book_i_mortal.json",
+          "node_id": "mortal_018",
+          "before": "Yue copied the words, leaving room beneath each. 'How long?' she asked. 'For you, we do not know yet,' Qing answered. 'Your first measure is eight weeks away. A stage can take a season, or longer when an injury intervenes.' Yue had saved for one season. She stared at the spaces under the words and began calculating how many morning shifts she could work without losing the afternoons.",
+          "after": "Yue copied the words, leaving room beneath each. 'How long?' she asked. 'For you, we do not know yet,' Qing answered. 'Your first Skin check may come in the fifth week, if recovered work supports it. A stage can take a season, or longer when an injury intervenes.' Yue had saved for one season. She stared at the spaces under the words and began calculating how many morning shifts she could work without losing the afternoons."
+        }
+      ],
+      "evidence": [
+        {
+          "path": "data/books/book_i_mortal.json",
+          "node_id": "mortal_019",
+          "text": "On the seventh day, rain flooded the ash-room gutter. The supervisor offered an extra paid shift clearing it. The practice room would be open at the same hour. Yue's rice jar was nearly empty. Her left knee still hurt when she climbed. For the first time, the choice of how to cultivate arrived without a glowing sword or a dramatic enemy. It arrived as three possible uses of an afternoon."
+        },
+        {
+          "path": "data/books/book_i_mortal.json",
+          "node_id": "mortal_rejoin_005",
+          "text": "Three weeks passed. Her standing practice lengthened by small measures. The ash room taught her hands to recognize grain sizes through the sieve. She could finish a morning shift without folding herself over the dining table afterward. These changes disappointed the part of her that had expected light. They helped the part that now had to earn lamp oil, copy a release stroke and wake again before dawn."
+        },
+        {
+          "path": "data/books/book_i_mortal.json",
+          "node_id": "mortal_rejoin_006",
+          "text": "Yun watched her rub her thumb over a newly formed callus. 'Skin assessment next week,' she said. 'It is not how much abrasion you can endure today. We need to know whether you recover, whether you can notice damage early and whether yesterday's work leaves your hands steady enough for ordinary tasks.' Yue asked if that counted as cultivation. 'It counts as preparing a cultivator who might live through the next lesson.'"
+        },
+        {
+          "path": "data/books/book_i_mortal.json",
+          "node_id": "mortal_rejoin_007",
+          "text": "For the assessment she moved a small basket of smooth stones, then a basket of coarse ones. Her gloves were inspected before and after. She reported a hot spot at the base of her thumb before it split. The examiner stopped that task and asked her to copy a release stroke. Her hand shook slightly. The result was recorded for comparison with the following morning."
+        },
+        {
+          "path": "data/books/book_i_mortal.json",
+          "node_id": "mortal_rejoin_008",
+          "text": "Yue wanted the examiner to decide before sunset. She refused. At dawn, her hand had no new blister and the stroke was steadier. She marked Skin beside the current recovered assessment, leaving the earlier conditioning weeks unchanged. The mark did not open a spiritual channel. It showed that the first load could be repeated. Yue read it five times before leaving, as if the ordinary ink might vanish when she stopped looking."
+        }
+      ]
+    }
+  ]
+}

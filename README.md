@@ -1,12 +1,22 @@
 # Jade Vow
 
-[![Godot CI](https://github.com/jgyy/octxian/actions/workflows/ci.yml/badge.svg?branch=codex/careers-20261007)](https://github.com/jgyy/octxian/actions/workflows/ci.yml)
+[![Godot CI](https://github.com/jgyy/octxian/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/jgyy/octxian/actions/workflows/ci.yml)
 
 An original xianxia visual novel built in **Godot 4.7.2**. Lin Yue begins as a mortal kiln worker and earns cultivation through practice, failure, recovery and independently witnessed trials. Work, evidence and freely made commitments shape the people she meets.
 
-The campaign contains **2,080,063 displayed prose words across 24,341 scenes and 23 books**. This counts distinct playable alternatives, not words seen in one playthrough. Choice labels, titles, prompts and documentation are excluded. The two-million-word manuscript target is met; the requested 1,000 authenticated plot repairs and full artwork quotas remain unfinished.
+The campaign contains **2,082,566 displayed prose words across 24,373 scenes and 24 books**. This counts distinct playable alternatives, not words seen in one playthrough. Choice labels, titles, prompts and documentation are excluded. The requested three-million-word manuscript target remains unfinished, with 917,434 words still required. The requested 1,000 authenticated plot repairs and full artwork quotas also remain unfinished.
 
 ![Six later-season paths](docs/screenshots/season_paths.jpg)
+
+## Book XXIV · The Missing Continuation
+
+Lin returns to Azure Cloud after her winter commitments. An incomplete teaching extract appears to turn her old uncertain observation into proof of early qi success. Three available approaches lead to a prompt public correction, a custody investigation or a private conversation with the affected applicant. Each completes different work and leaves different questions open.
+
+This first batch adds **2,490 displayed words in 32 scenes**, with three distinct outcomes and saved journals. One additional published timetable contradiction is repaired across two existing opening passages. No new sprite is required for these scenes.
+
+[Story, source evidence, Mermaid diagrams and fresh captures](docs/RETURN_20261009.md)
+
+![Three first approaches](docs/screenshots/return_choices.jpg)
 
 ## Book XXIII · The Work Ahead
 
@@ -47,7 +57,7 @@ Two original transparent full-body sprites retain **1024 × 1536 native PNG** by
 
 The 98 total backgrounds include the 48 additional interiors once each. Portrait recolors, outfits and motion frames do not count as new world originals. Draft validation reports the remaining quotas; moving the PR out of draft enables strict production checks.
 
-This continuation authenticates **three underlying literary defects across five existing passages**: an unconditional commission appointment, Tuo Yin's pronouns, and the recipient of an earlier house settlement. A separate saved-choice replay fix prevents repeated rewards or charges. A harbor gallery description now agrees with He Ming's established female salt-packer role. Engine and catalog corrections receive no additional literary repair credit. New manuscript events and corrections before publication also receive zero historical repair credit.
+The Book XXII–XXIII continuation authenticated **three underlying literary defects across five existing passages**: an unconditional commission appointment, Tuo Yin's pronouns, and the recipient of an earlier house settlement. A separate saved-choice replay fix prevents repeated rewards or charges. A harbor gallery description now agrees with He Ming's established female salt-packer role. Engine and catalog corrections receive no additional literary repair credit. New manuscript events and corrections before publication also receive zero historical repair credit.
 
 [House-claimant evidence](docs/LETTERS_CLAIMANT_REPAIRS_20261008.json) · [Calendar evidence](docs/COMMISSION_CONTINUITY_REPAIRS_20261008.json) · [Identity evidence](docs/LATE_IDENTITY_REPAIRS_20261008.json) · [Harbor catalog follow-up](docs/HARBOR_CATALOG_FOLLOWUP_20261008.json)
 
@@ -74,11 +84,12 @@ python tools/validate_world.py
 .cache/godot/Godot_v4.7.2-stable_linux.x86_64 --headless --path . --editor --import
 .cache/godot/Godot_v4.7.2-stable_linux.x86_64 --headless --path . --script tests/story_test.gd
 .cache/godot/Godot_v4.7.2-stable_linux.x86_64 --headless --path . --script tests/season_paths_test.gd
+.cache/godot/Godot_v4.7.2-stable_linux.x86_64 --headless --path . --script tests/return_test.gd
 .cache/godot/Godot_v4.7.2-stable_linux.x86_64 --path . -- --capture
 python tools/verify_screenshots.py
 ```
 
-Full CI validates fixed-source repair evidence, duplicate prose, every gated route, actual saved decisions, cultivation, native artwork, narration and standalone playback. Season checks require every new scene to be reachable under an actual choice history and cap simultaneous future decisions at four. The viewport verifier expects **164 actual captures**, including fifteen season views. It records a measured count only after capture validation passes. The exported Linux package is tested from a folder without the source checkout.
+Full CI validates fixed-source repair evidence, duplicate prose, every gated route, actual saved decisions, cultivation, native artwork, narration and standalone playback. Season checks require every new scene to be reachable under an actual choice history and cap simultaneous future decisions at four. The viewport verifier expects **170 actual captures**, including fifteen season views. It records a measured count only after capture validation passes. The exported Linux package is tested from a folder without the source checkout.
 
 Piper Lessac supplies narration for every displayed scene. Clips are reused only after text, byte and decoded-audio checks. Speech is 8 kHz mono Vorbis capped at 10 kb/s to limit downloads. Original synthesized music and effects accompany it.
 

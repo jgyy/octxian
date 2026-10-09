@@ -1,17 +1,17 @@
 {
-  "displayed_scenes": 24341,
-  "displayed_words": 2080063,
+  "displayed_scenes": 24373,
+  "displayed_words": 2082566,
   "new_training_scenes": 77,
   "new_training_words": 5206,
   "rewritten_book_i_scenes": 37,
   "rewritten_book_i_words": 2519,
-  "rewrite_words": 1035232,
+  "rewrite_words": 1035245,
   "strict_word_target": 1000001,
   "planned_rewrite_words": 1050000,
   "reference_checks": "pass",
   "duplicate_prose_checks": "pass",
   "continuity_checkpoints": "pass",
-  "inherited_words": 1044831,
+  "inherited_words": 1047321,
   "remaining_displayed_words": 0,
   "remaining_rewrite_words": 0,
   "native_art": [
@@ -14004,8 +14004,8 @@
   "storm_ledger_words": 11961,
   "salt_road_scenes": 177,
   "salt_road_words": 12656,
-  "requested_total_word_target": 2000000,
-  "remaining_requested_words": 0,
+  "requested_total_word_target": 3000000,
+  "remaining_requested_words": 917434,
   "expansion_words": 8630,
   "expansion_scenes": 110,
   "latest_consequence_revision": {
@@ -14791,5 +14791,19 @@
     "evidence": "docs/LETTERS_CLAIMANT_REPAIRS_20261008.json",
     "requested_plot_repairs": 1000,
     "target_met": false
+  },
+  "latest_return": {
+    "chapter": "book_xxiv_return",
+    "source_parent": "9461af86a503a358f356c628e30c3a721471f920",
+    "new_scenes": 32,
+    "new_displayed_words": 2490,
+    "existing_word_delta": 13,
+    "confirmed_historical_roots": 1,
+    "affected_published_passages": 2,
+    "requested_plot_repairs": 1000,
+    "plot_repair_target_verified": false,
+    "manuscript_target_met": false,
+    "review": "docs/RETURN_20261009.md",
+    "source_audit": "docs/RETURN_REPAIRS_20261009.json"
   }
 }
