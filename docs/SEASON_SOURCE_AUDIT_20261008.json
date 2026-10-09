@@ -1,0 +1,1156 @@
+{
+  "kind": "actual_history_source_review",
+  "source_parent": "8e419bbb154fa2911d0f5b73a7bfee493c9f2507",
+  "chapter": "book_xxiii_season",
+  "counts": {
+    "campaign_words": 2080063,
+    "campaign_scenes": 24341,
+    "campaign_books": 23,
+    "new_words": 742861,
+    "new_scenes": 8823,
+    "new_source_files": 121,
+    "existing_source_word_delta": 1,
+    "net_displayed_word_addition": 742862
+  },
+  "scope": "Words count actual node.text prose across distinct playable alternatives. Choices, labels, prompts and documentation are excluded. Source checks supplement editorial review and do not prove the absence of all possible plot holes.",
+  "graph": {
+    "acyclic": true,
+    "missing_targets": [],
+    "unreachable_scenes": [],
+    "duplicate_prose": [],
+    "contexts": [
+      "blank legacy record",
+      "rival competition",
+      "rival cooperation",
+      "rival independent work"
+    ],
+    "states": 18642,
+    "maximum_future_live_decisions": 4,
+    "endings": [
+      "season_end_archive",
+      "season_end_water",
+      "season_end_garden",
+      "season_end_kiln",
+      "season_end_road",
+      "season_end_harbor"
+    ]
+  },
+  "paths": {
+    "water": {
+      "files": 20,
+      "scenes": 1525,
+      "words": 129456,
+      "outside": [
+        "season_receiving_entry"
+      ],
+      "states": 7777,
+      "maxLocal": 3,
+      "unreachable": [],
+      "dag": {
+        "missing": [],
+        "acyclic": true
+      }
+    },
+    "archive": {
+      "files": 20,
+      "scenes": 1363,
+      "words": 122036,
+      "outside": [
+        "season_receiving_entry"
+      ],
+      "states": 1738,
+      "maxLocal": 1,
+      "unreachable": [],
+      "dag": {
+        "missing": [],
+        "acyclic": true
+      }
+    },
+    "road": {
+      "files": 20,
+      "scenes": 1536,
+      "words": 119436,
+      "outside": [
+        "season_receiving_entry"
+      ],
+      "states": 2067,
+      "maxLocal": 1,
+      "unreachable": [],
+      "dag": {
+        "missing": [],
+        "acyclic": true
+      }
+    },
+    "kiln": {
+      "files": 20,
+      "scenes": 1410,
+      "words": 118690,
+      "outside": [
+        "season_receiving_entry"
+      ],
+      "states": 2359,
+      "maxLocal": 1,
+      "unreachable": [],
+      "dag": {
+        "missing": [],
+        "acyclic": true
+      }
+    },
+    "garden": {
+      "files": 20,
+      "scenes": 1354,
+      "words": 120672,
+      "outside": [
+        "season_receiving_entry"
+      ],
+      "states": 2972,
+      "maxLocal": 2,
+      "unreachable": [],
+      "dag": {
+        "missing": [],
+        "acyclic": true
+      }
+    },
+    "harbor": {
+      "files": 20,
+      "scenes": 1600,
+      "words": 129771,
+      "outside": [
+        "season_receiving_entry"
+      ],
+      "states": 1669,
+      "maxLocal": 1,
+      "unreachable": [],
+      "dag": {
+        "missing": [],
+        "acyclic": true
+      }
+    }
+  },
+  "checkpoint_removal_checks": [
+    {
+      "checkpoint": "season_real_dates_and_limits_before_choice",
+      "before": "season_path_choice",
+      "removed": "season_entry",
+      "protected": true
+    },
+    {
+      "checkpoint": "season_real_dates_and_limits_before_choice",
+      "before": "season_path_choice",
+      "removed": "season_prior_gate",
+      "protected": true
+    },
+    {
+      "checkpoint": "season_real_dates_and_limits_before_choice",
+      "before": "season_path_choice",
+      "removed": "season_terms_01",
+      "protected": true
+    },
+    {
+      "checkpoint": "season_real_dates_and_limits_before_choice",
+      "before": "season_path_choice",
+      "removed": "season_terms_02",
+      "protected": true
+    },
+    {
+      "checkpoint": "season_real_dates_and_limits_before_choice",
+      "before": "season_path_choice",
+      "removed": "season_terms_03",
+      "protected": true
+    },
+    {
+      "checkpoint": "season_real_dates_and_limits_before_choice",
+      "before": "season_path_choice",
+      "removed": "season_choice_preface",
+      "protected": true
+    },
+    {
+      "checkpoint": "season_actual_path_before_receiving",
+      "before": "season_receiving_entry",
+      "removed": "season_path_choice",
+      "protected": true
+    },
+    {
+      "checkpoint": "season_accounts_and_retained_growth_before_closing",
+      "before": "season_end_gate",
+      "removed": "season_receiving_entry",
+      "protected": true
+    },
+    {
+      "checkpoint": "season_accounts_and_retained_growth_before_closing",
+      "before": "season_end_gate",
+      "removed": "season_receiving_gate",
+      "protected": true
+    },
+    {
+      "checkpoint": "season_accounts_and_retained_growth_before_closing",
+      "before": "season_end_gate",
+      "removed": "season_close_01",
+      "protected": true
+    },
+    {
+      "checkpoint": "season_accounts_and_retained_growth_before_closing",
+      "before": "season_end_gate",
+      "removed": "season_close_02",
+      "protected": true
+    },
+    {
+      "checkpoint": "season_water_completed_arcs_before_account_close",
+      "before": "season_water_20_entry",
+      "removed": "season_water_entry",
+      "protected": true
+    },
+    {
+      "checkpoint": "season_water_completed_arcs_before_account_close",
+      "before": "season_water_20_entry",
+      "removed": "season_water_10_entry",
+      "protected": true
+    },
+    {
+      "checkpoint": "season_water_completed_arcs_before_account_close",
+      "before": "season_water_20_entry",
+      "removed": "season_water_15_entry",
+      "protected": true
+    },
+    {
+      "checkpoint": "season_water_completed_arcs_before_account_close",
+      "before": "season_water_20_entry",
+      "removed": "season_water_19_entry",
+      "protected": true
+    },
+    {
+      "checkpoint": "season_archive_completed_arcs_before_account_close",
+      "before": "season_archive_m20_common_001",
+      "removed": "season_archive_entry",
+      "protected": true
+    },
+    {
+      "checkpoint": "season_archive_completed_arcs_before_account_close",
+      "before": "season_archive_m20_common_001",
+      "removed": "season_archive_m10_entry",
+      "protected": true
+    },
+    {
+      "checkpoint": "season_archive_completed_arcs_before_account_close",
+      "before": "season_archive_m20_common_001",
+      "removed": "season_archive_m15_entry",
+      "protected": true
+    },
+    {
+      "checkpoint": "season_archive_completed_arcs_before_account_close",
+      "before": "season_archive_m20_common_001",
+      "removed": "season_archive_m19_common_001",
+      "protected": true
+    },
+    {
+      "checkpoint": "season_road_completed_arcs_before_account_close",
+      "before": "season_road_f20_001",
+      "removed": "season_road_entry",
+      "protected": true
+    },
+    {
+      "checkpoint": "season_road_completed_arcs_before_account_close",
+      "before": "season_road_f20_001",
+      "removed": "season_road_f10_001",
+      "protected": true
+    },
+    {
+      "checkpoint": "season_road_completed_arcs_before_account_close",
+      "before": "season_road_f20_001",
+      "removed": "season_road_f15_001",
+      "protected": true
+    },
+    {
+      "checkpoint": "season_road_completed_arcs_before_account_close",
+      "before": "season_road_f20_001",
+      "removed": "season_road_f19_001",
+      "protected": true
+    },
+    {
+      "checkpoint": "season_kiln_completed_arcs_before_account_close",
+      "before": "season_kiln_20_001",
+      "removed": "season_kiln_entry",
+      "protected": true
+    },
+    {
+      "checkpoint": "season_kiln_completed_arcs_before_account_close",
+      "before": "season_kiln_20_001",
+      "removed": "season_kiln_10_001",
+      "protected": true
+    },
+    {
+      "checkpoint": "season_kiln_completed_arcs_before_account_close",
+      "before": "season_kiln_20_001",
+      "removed": "season_kiln_15_001",
+      "protected": true
+    },
+    {
+      "checkpoint": "season_kiln_completed_arcs_before_account_close",
+      "before": "season_kiln_20_001",
+      "removed": "season_kiln_19_001",
+      "protected": true
+    },
+    {
+      "checkpoint": "season_garden_completed_arcs_before_account_close",
+      "before": "season_garden_20_001",
+      "removed": "season_garden_entry",
+      "protected": true
+    },
+    {
+      "checkpoint": "season_garden_completed_arcs_before_account_close",
+      "before": "season_garden_20_001",
+      "removed": "season_garden_10_001",
+      "protected": true
+    },
+    {
+      "checkpoint": "season_garden_completed_arcs_before_account_close",
+      "before": "season_garden_20_001",
+      "removed": "season_garden_15_001",
+      "protected": true
+    },
+    {
+      "checkpoint": "season_garden_completed_arcs_before_account_close",
+      "before": "season_garden_20_001",
+      "removed": "season_garden_19_001",
+      "protected": true
+    },
+    {
+      "checkpoint": "season_harbor_completed_arcs_before_account_close",
+      "before": "season_harbor_20_entry",
+      "removed": "season_harbor_entry",
+      "protected": true
+    },
+    {
+      "checkpoint": "season_harbor_completed_arcs_before_account_close",
+      "before": "season_harbor_20_entry",
+      "removed": "season_harbor_10_entry",
+      "protected": true
+    },
+    {
+      "checkpoint": "season_harbor_completed_arcs_before_account_close",
+      "before": "season_harbor_20_entry",
+      "removed": "season_harbor_15_entry",
+      "protected": true
+    },
+    {
+      "checkpoint": "season_harbor_completed_arcs_before_account_close",
+      "before": "season_harbor_20_entry",
+      "removed": "season_harbor_19_entry",
+      "protected": true
+    }
+  ],
+  "missing_history_regressions": [
+    {
+      "key": "season_archive_m02_entry",
+      "neutral": true
+    },
+    {
+      "key": "season_archive_m03_entry",
+      "neutral": true
+    },
+    {
+      "key": "season_archive_m04_entry",
+      "neutral": true
+    },
+    {
+      "key": "season_archive_m05_entry",
+      "neutral": true
+    },
+    {
+      "key": "season_archive_m06_entry",
+      "neutral": true
+    },
+    {
+      "key": "season_archive_m07_entry",
+      "neutral": true
+    },
+    {
+      "key": "season_archive_m08_entry",
+      "neutral": true
+    },
+    {
+      "key": "season_archive_m09_entry",
+      "neutral": true
+    },
+    {
+      "key": "season_archive_m10_entry",
+      "neutral": true
+    },
+    {
+      "key": "season_archive_m11_entry",
+      "neutral": true
+    },
+    {
+      "key": "season_archive_m12_entry",
+      "neutral": true
+    },
+    {
+      "key": "season_archive_m13_entry",
+      "neutral": true
+    },
+    {
+      "key": "season_archive_m14_entry",
+      "neutral": true
+    },
+    {
+      "key": "season_archive_m15_entry",
+      "neutral": true
+    }
+  ],
+  "source_files": [
+    {
+      "path": "data/books/book_xxiii_season.json",
+      "sha": "9651203da32b5b29a8419cb51ab42a60a3dc83b0",
+      "scenes": 35,
+      "words": 2800
+    },
+    {
+      "path": "data/books/book_xxiii_archive_01.json",
+      "sha": "fe5f42c3052d7925ab75d093d84b59632d2b39d9",
+      "scenes": 71,
+      "words": 6402
+    },
+    {
+      "path": "data/books/book_xxiii_archive_02.json",
+      "sha": "c360c55c8521585f1336ad153a99efeee3d618f7",
+      "scenes": 68,
+      "words": 6093
+    },
+    {
+      "path": "data/books/book_xxiii_archive_03.json",
+      "sha": "f95d1cb7a0bc3a9e2de68745e52f59ea86d95de0",
+      "scenes": 70,
+      "words": 6369
+    },
+    {
+      "path": "data/books/book_xxiii_archive_04.json",
+      "sha": "a79d171eac604048992821352ca79c62b1d14d4e",
+      "scenes": 68,
+      "words": 6075
+    },
+    {
+      "path": "data/books/book_xxiii_archive_05.json",
+      "sha": "843df7a0f3d1cd4636a0625cf156bbfc3fac9cf2",
+      "scenes": 68,
+      "words": 6218
+    },
+    {
+      "path": "data/books/book_xxiii_archive_06.json",
+      "sha": "5663444fa22ad22517cc5e519d8d1db0ec726222",
+      "scenes": 67,
+      "words": 6044
+    },
+    {
+      "path": "data/books/book_xxiii_archive_07.json",
+      "sha": "e695e925b24053cab10092037b58fac619daffdc",
+      "scenes": 67,
+      "words": 6101
+    },
+    {
+      "path": "data/books/book_xxiii_archive_08.json",
+      "sha": "196c2bc1840ea411feba8637dbcfa14958b7c513",
+      "scenes": 66,
+      "words": 6162
+    },
+    {
+      "path": "data/books/book_xxiii_archive_09.json",
+      "sha": "fd0b32c53d7cbeff0baff22fe498d0179b4056c5",
+      "scenes": 69,
+      "words": 6339
+    },
+    {
+      "path": "data/books/book_xxiii_archive_10.json",
+      "sha": "62be1e1383c81f30ba7b9f62e7ba077ecabacf9b",
+      "scenes": 69,
+      "words": 6387
+    },
+    {
+      "path": "data/books/book_xxiii_archive_11.json",
+      "sha": "ccc5a470646b2dcb8411d545fdd0f867717558a6",
+      "scenes": 70,
+      "words": 6380
+    },
+    {
+      "path": "data/books/book_xxiii_archive_12.json",
+      "sha": "a403001ae1700dec53e5767844888d93e5573878",
+      "scenes": 74,
+      "words": 6339
+    },
+    {
+      "path": "data/books/book_xxiii_archive_13.json",
+      "sha": "34ca3695d10be99794316d4f6e92e5007fefaa9c",
+      "scenes": 70,
+      "words": 6399
+    },
+    {
+      "path": "data/books/book_xxiii_archive_14.json",
+      "sha": "33a2fcb2a0fe24a9b8e7ce2e67c35f805beaeba0",
+      "scenes": 74,
+      "words": 6464
+    },
+    {
+      "path": "data/books/book_xxiii_archive_15.json",
+      "sha": "192ddb300c72a1eb3141373ed2ce48069633d567",
+      "scenes": 75,
+      "words": 6259
+    },
+    {
+      "path": "data/books/book_xxiii_archive_16.json",
+      "sha": "d693f30453674f2d2fbed587e413108096e7a3ad",
+      "scenes": 63,
+      "words": 5642
+    },
+    {
+      "path": "data/books/book_xxiii_archive_17.json",
+      "sha": "a64dea85fe05c06b62dae0635f7bcedf076735c3",
+      "scenes": 63,
+      "words": 5540
+    },
+    {
+      "path": "data/books/book_xxiii_archive_18.json",
+      "sha": "1bb878f1f5d3d6aace055bfa2ac738a7c9d9d1fe",
+      "scenes": 62,
+      "words": 5524
+    },
+    {
+      "path": "data/books/book_xxiii_archive_19.json",
+      "sha": "4d46e2168d16e84d11be33d9e86992e7615d5229",
+      "scenes": 62,
+      "words": 5417
+    },
+    {
+      "path": "data/books/book_xxiii_archive_20.json",
+      "sha": "2b5621c1b736a0240c3856d2402b4871a766c985",
+      "scenes": 67,
+      "words": 5882
+    },
+    {
+      "path": "data/books/book_xxiii_garden_01.json",
+      "sha": "df7ede53be53c8b6edeacfaf72e1c81ce6e1cb65",
+      "scenes": 74,
+      "words": 6091
+    },
+    {
+      "path": "data/books/book_xxiii_garden_02.json",
+      "sha": "e17a592aa0d55b9245702be2097e34f3cf09205c",
+      "scenes": 71,
+      "words": 6020
+    },
+    {
+      "path": "data/books/book_xxiii_garden_03.json",
+      "sha": "ce0cb78b4b033284335dc53700228778e78f5d3a",
+      "scenes": 70,
+      "words": 6101
+    },
+    {
+      "path": "data/books/book_xxiii_garden_04.json",
+      "sha": "2494a5a9cf18464828941e1b37d73ad2315d1f24",
+      "scenes": 69,
+      "words": 6098
+    },
+    {
+      "path": "data/books/book_xxiii_garden_05.json",
+      "sha": "9a05ab82185c64352a9185e60b3d88537d6b1cfc",
+      "scenes": 69,
+      "words": 6102
+    },
+    {
+      "path": "data/books/book_xxiii_garden_06.json",
+      "sha": "f6a3d90afb8d57d998317f8d2dbbaa76e909f4e3",
+      "scenes": 70,
+      "words": 6240
+    },
+    {
+      "path": "data/books/book_xxiii_garden_07.json",
+      "sha": "a9c58df477926596bb3260a7dbc2494288e93ea2",
+      "scenes": 69,
+      "words": 6119
+    },
+    {
+      "path": "data/books/book_xxiii_garden_08.json",
+      "sha": "0183ec3e610741adc1f22bfca4532fafa27cbab4",
+      "scenes": 69,
+      "words": 6163
+    },
+    {
+      "path": "data/books/book_xxiii_garden_09.json",
+      "sha": "d73c94381e63ce98fb512e86378a2b5f0c76ae01",
+      "scenes": 70,
+      "words": 6225
+    },
+    {
+      "path": "data/books/book_xxiii_garden_10.json",
+      "sha": "c611c5d888486b962893350d3affbc4fba4ecca4",
+      "scenes": 68,
+      "words": 6134
+    },
+    {
+      "path": "data/books/book_xxiii_garden_11.json",
+      "sha": "97833b991512b75565e745f029145d8b209bb546",
+      "scenes": 69,
+      "words": 6305
+    },
+    {
+      "path": "data/books/book_xxiii_garden_12.json",
+      "sha": "06b9b66de86a2505f8d6b500a9ea2c2a9114e3c3",
+      "scenes": 68,
+      "words": 6258
+    },
+    {
+      "path": "data/books/book_xxiii_garden_13.json",
+      "sha": "fa58656fa24b0042a8bce726d800731823eb39af",
+      "scenes": 69,
+      "words": 6099
+    },
+    {
+      "path": "data/books/book_xxiii_garden_14.json",
+      "sha": "6c6cf95dbb868933108bdb04ab97d967b1121397",
+      "scenes": 68,
+      "words": 6092
+    },
+    {
+      "path": "data/books/book_xxiii_garden_15.json",
+      "sha": "d216f8363a9158110bcdc24525aaa2a2329619c1",
+      "scenes": 69,
+      "words": 6154
+    },
+    {
+      "path": "data/books/book_xxiii_garden_16.json",
+      "sha": "47c4a7d3e01ffcc36742a5c0bfa45bf59ddc16f0",
+      "scenes": 63,
+      "words": 5455
+    },
+    {
+      "path": "data/books/book_xxiii_garden_17.json",
+      "sha": "f3fe7274c59f32d6830a5b2eb8737b5ef724c711",
+      "scenes": 58,
+      "words": 5199
+    },
+    {
+      "path": "data/books/book_xxiii_garden_18.json",
+      "sha": "2e60a31aa9c2a84a0e2a6705630c56a44c567405",
+      "scenes": 64,
+      "words": 5907
+    },
+    {
+      "path": "data/books/book_xxiii_garden_19.json",
+      "sha": "e762205a4e21ee66846feed5f48a4c62516004c3",
+      "scenes": 53,
+      "words": 4899
+    },
+    {
+      "path": "data/books/book_xxiii_garden_20.json",
+      "sha": "9485a7cedd5a81dfd2a92a326ca7d2fcfa5fc645",
+      "scenes": 74,
+      "words": 7011
+    },
+    {
+      "path": "data/books/book_xxiii_harbor_01.json",
+      "sha": "5df750c0228ba0d918526c5dcc3fe34380837918",
+      "scenes": 80,
+      "words": 6806
+    },
+    {
+      "path": "data/books/book_xxiii_harbor_02.json",
+      "sha": "3521d84272b524edb70028bb069aec35f0468709",
+      "scenes": 80,
+      "words": 6705
+    },
+    {
+      "path": "data/books/book_xxiii_harbor_03.json",
+      "sha": "c73b57499f6d53be2a35145821389e2ae6e252ad",
+      "scenes": 80,
+      "words": 6702
+    },
+    {
+      "path": "data/books/book_xxiii_harbor_04.json",
+      "sha": "e37cd0b3973e672874b8c5daf4f5c890fad06486",
+      "scenes": 80,
+      "words": 6702
+    },
+    {
+      "path": "data/books/book_xxiii_harbor_05.json",
+      "sha": "6e06e1f786631c255e4b41ce9293d4d751103a7d",
+      "scenes": 80,
+      "words": 6723
+    },
+    {
+      "path": "data/books/book_xxiii_harbor_06.json",
+      "sha": "4894ec78d042b9353a64b2b0fbb075da844a3e52",
+      "scenes": 80,
+      "words": 6638
+    },
+    {
+      "path": "data/books/book_xxiii_harbor_07.json",
+      "sha": "bfbce436f11f2caa75c48c1aabdf6ca624e52c04",
+      "scenes": 80,
+      "words": 6511
+    },
+    {
+      "path": "data/books/book_xxiii_harbor_08.json",
+      "sha": "29a33eb8ab2ae351fff9ef02eb6d1086f1483271",
+      "scenes": 80,
+      "words": 6553
+    },
+    {
+      "path": "data/books/book_xxiii_harbor_09.json",
+      "sha": "7bd088ccae28be97ff4007414aed45b7f06997ab",
+      "scenes": 80,
+      "words": 6548
+    },
+    {
+      "path": "data/books/book_xxiii_harbor_10.json",
+      "sha": "d701e25499efd77c098e514eb18c50edca73671b",
+      "scenes": 80,
+      "words": 6508
+    },
+    {
+      "path": "data/books/book_xxiii_harbor_11.json",
+      "sha": "2b6c31a4f089bd1d36995c9bd539f424e72f8d5b",
+      "scenes": 80,
+      "words": 6553
+    },
+    {
+      "path": "data/books/book_xxiii_harbor_12.json",
+      "sha": "6c799dbe02eb4241bb0455a3fcf2472c871f75a7",
+      "scenes": 80,
+      "words": 6403
+    },
+    {
+      "path": "data/books/book_xxiii_harbor_13.json",
+      "sha": "8d2c51602a833f7c9ae9df88863177dff86ebe42",
+      "scenes": 80,
+      "words": 6405
+    },
+    {
+      "path": "data/books/book_xxiii_harbor_14.json",
+      "sha": "0db550fef6592a9af4894ce6ad2965a001111ef8",
+      "scenes": 80,
+      "words": 6453
+    },
+    {
+      "path": "data/books/book_xxiii_harbor_15.json",
+      "sha": "053036249c6815a4b052771bc91c74680c58fdb8",
+      "scenes": 80,
+      "words": 6415
+    },
+    {
+      "path": "data/books/book_xxiii_harbor_16.json",
+      "sha": "bde14a1dee3c15ff114910f32423d06805badad4",
+      "scenes": 80,
+      "words": 6380
+    },
+    {
+      "path": "data/books/book_xxiii_harbor_17.json",
+      "sha": "c0d107f6f4aff108115668e3eb4211cc01ec2418",
+      "scenes": 80,
+      "words": 6358
+    },
+    {
+      "path": "data/books/book_xxiii_harbor_18.json",
+      "sha": "02c60eeeeec44abf5a1927708cd85918c6c99cce",
+      "scenes": 80,
+      "words": 6396
+    },
+    {
+      "path": "data/books/book_xxiii_harbor_19.json",
+      "sha": "15eea650791bf0b9337dcf001dafc21b8d44af32",
+      "scenes": 80,
+      "words": 5850
+    },
+    {
+      "path": "data/books/book_xxiii_harbor_20.json",
+      "sha": "21b09d9e9210d88607e6d4633729ee6cac6da719",
+      "scenes": 80,
+      "words": 6162
+    },
+    {
+      "path": "data/books/book_xxiii_kiln_01.json",
+      "sha": "fbe10017534c8536953a0c928dbf58a16ecf8a8c",
+      "scenes": 84,
+      "words": 6057
+    },
+    {
+      "path": "data/books/book_xxiii_kiln_02.json",
+      "sha": "091988941c12fba08b2e9f75730bd8589413a593",
+      "scenes": 77,
+      "words": 6033
+    },
+    {
+      "path": "data/books/book_xxiii_kiln_03.json",
+      "sha": "b7accb30ff141c462aef9d6cf106e22d86431f87",
+      "scenes": 69,
+      "words": 5873
+    },
+    {
+      "path": "data/books/book_xxiii_kiln_04.json",
+      "sha": "b4dc983975810dfb12052632be3f3495c87cb2d3",
+      "scenes": 72,
+      "words": 6092
+    },
+    {
+      "path": "data/books/book_xxiii_kiln_05.json",
+      "sha": "246cac6e94083125e800b98eb275bad4c3ce6152",
+      "scenes": 89,
+      "words": 6206
+    },
+    {
+      "path": "data/books/book_xxiii_kiln_06.json",
+      "sha": "786d6fbd015206aa511d392e6413e5849b0ed86d",
+      "scenes": 78,
+      "words": 6019
+    },
+    {
+      "path": "data/books/book_xxiii_kiln_07.json",
+      "sha": "dd33fb55294a3c9efdba35ea1a6157d45f2ee5a7",
+      "scenes": 70,
+      "words": 5946
+    },
+    {
+      "path": "data/books/book_xxiii_kiln_08.json",
+      "sha": "104bc6e84408d66fec02fd828d8f10a62d4c72ca",
+      "scenes": 70,
+      "words": 5844
+    },
+    {
+      "path": "data/books/book_xxiii_kiln_09.json",
+      "sha": "0c794b38794adcecadbf2c251fbd98e86b0f7734",
+      "scenes": 66,
+      "words": 5945
+    },
+    {
+      "path": "data/books/book_xxiii_kiln_10.json",
+      "sha": "90a2ab92574148d8fc08fd52de192a6bd17523ae",
+      "scenes": 66,
+      "words": 5493
+    },
+    {
+      "path": "data/books/book_xxiii_kiln_11.json",
+      "sha": "79c8574df1652fc6d97c06db733cd9d7dbd1e250",
+      "scenes": 72,
+      "words": 6037
+    },
+    {
+      "path": "data/books/book_xxiii_kiln_12.json",
+      "sha": "676da1c2abec3fd3d6ce53e6fae9e29f027a3e3a",
+      "scenes": 73,
+      "words": 5836
+    },
+    {
+      "path": "data/books/book_xxiii_kiln_13.json",
+      "sha": "30d37649a90f0cf8fae16f00422d2fac66b71c19",
+      "scenes": 63,
+      "words": 5753
+    },
+    {
+      "path": "data/books/book_xxiii_kiln_14.json",
+      "sha": "20a8e86d6048d84e41b89a5e07997608cb823100",
+      "scenes": 63,
+      "words": 5607
+    },
+    {
+      "path": "data/books/book_xxiii_kiln_15.json",
+      "sha": "4834d099ff8fd580e270f643c553b5e0e2be9b3c",
+      "scenes": 73,
+      "words": 5981
+    },
+    {
+      "path": "data/books/book_xxiii_kiln_16.json",
+      "sha": "dced2ac5200a8e561a1f2445b582550489f5d16f",
+      "scenes": 72,
+      "words": 5584
+    },
+    {
+      "path": "data/books/book_xxiii_kiln_17.json",
+      "sha": "451aeee464c707a7d7729090d47ce6fdca3d3763",
+      "scenes": 66,
+      "words": 6324
+    },
+    {
+      "path": "data/books/book_xxiii_kiln_18.json",
+      "sha": "b6de487e82655c3c97a308c3c4a9db8c88816234",
+      "scenes": 72,
+      "words": 6863
+    },
+    {
+      "path": "data/books/book_xxiii_kiln_19.json",
+      "sha": "726274f94b2eb2296b25bbcb5a1271a53aaf38c4",
+      "scenes": 57,
+      "words": 5534
+    },
+    {
+      "path": "data/books/book_xxiii_kiln_20.json",
+      "sha": "ba7133d23032fedfb94071b4f9cf6627d2a33871",
+      "scenes": 58,
+      "words": 5663
+    },
+    {
+      "path": "data/books/book_xxiii_road_01.json",
+      "sha": "bdb70f9af7191149f575df6c68fb50c67802726a",
+      "scenes": 83,
+      "words": 6265
+    },
+    {
+      "path": "data/books/book_xxiii_road_02.json",
+      "sha": "c76c1441889e1fe566d2d8ffc743119aa028d391",
+      "scenes": 83,
+      "words": 6047
+    },
+    {
+      "path": "data/books/book_xxiii_road_03.json",
+      "sha": "bc1664af6f6f9cf162ae7352a6668b38f9d6eeb1",
+      "scenes": 83,
+      "words": 6160
+    },
+    {
+      "path": "data/books/book_xxiii_road_04.json",
+      "sha": "f0c794f063e4d4f89a149528e10362b04cab02a5",
+      "scenes": 79,
+      "words": 5820
+    },
+    {
+      "path": "data/books/book_xxiii_road_05.json",
+      "sha": "b6efa3b4dc969da869a3cdf7e517c0937a8062dd",
+      "scenes": 81,
+      "words": 6030
+    },
+    {
+      "path": "data/books/book_xxiii_road_06.json",
+      "sha": "f1317484018ac01c2088cf79b5d82e9488fbee0d",
+      "scenes": 79,
+      "words": 6024
+    },
+    {
+      "path": "data/books/book_xxiii_road_07.json",
+      "sha": "6d81da00f93ebd623600bd6ab6864bfc744b3d5f",
+      "scenes": 77,
+      "words": 5788
+    },
+    {
+      "path": "data/books/book_xxiii_road_08.json",
+      "sha": "dca5b44289db19ada519af88abcdd2bc98f41986",
+      "scenes": 79,
+      "words": 5960
+    },
+    {
+      "path": "data/books/book_xxiii_road_09.json",
+      "sha": "b49f9ae75bc7b9d5dacd4dba0f8d3d430687db10",
+      "scenes": 77,
+      "words": 5755
+    },
+    {
+      "path": "data/books/book_xxiii_road_10.json",
+      "sha": "10476233fe1bb8f00d2cb8a65a19f6a835cce1a1",
+      "scenes": 75,
+      "words": 5635
+    },
+    {
+      "path": "data/books/book_xxiii_road_11.json",
+      "sha": "c0f34667a3f71c6c1a64899d67b57bc39e727d80",
+      "scenes": 80,
+      "words": 5944
+    },
+    {
+      "path": "data/books/book_xxiii_road_12.json",
+      "sha": "be1bbe67cf0a5251abbbf2526de0911e01844417",
+      "scenes": 75,
+      "words": 5554
+    },
+    {
+      "path": "data/books/book_xxiii_road_13.json",
+      "sha": "c087478a7f2e7fa72851bc6e8eaa86ab413a5860",
+      "scenes": 72,
+      "words": 5272
+    },
+    {
+      "path": "data/books/book_xxiii_road_14.json",
+      "sha": "a2df5a86ab4ce428cb13299d0260339a383701a4",
+      "scenes": 79,
+      "words": 6401
+    },
+    {
+      "path": "data/books/book_xxiii_road_15.json",
+      "sha": "a4755e9d0c46e09b5ae425d845a49d3c82ad4119",
+      "scenes": 80,
+      "words": 6543
+    },
+    {
+      "path": "data/books/book_xxiii_road_16.json",
+      "sha": "c4e4b6a48afa1c2205a38475dd041fdce8687b38",
+      "scenes": 77,
+      "words": 6321
+    },
+    {
+      "path": "data/books/book_xxiii_road_17.json",
+      "sha": "c040142318c63e02fcedca2666034d2e9be38d94",
+      "scenes": 70,
+      "words": 5823
+    },
+    {
+      "path": "data/books/book_xxiii_road_18.json",
+      "sha": "ca9b93bd3074121f0ce425f4c0e440a4a4d4cbf6",
+      "scenes": 71,
+      "words": 5966
+    },
+    {
+      "path": "data/books/book_xxiii_road_19.json",
+      "sha": "53ee44da97c6593dcdc80b29013c50a0f548e3e4",
+      "scenes": 64,
+      "words": 6009
+    },
+    {
+      "path": "data/books/book_xxiii_road_20.json",
+      "sha": "ab4f5d4892925ca4a5b8e04a35cd33b28acf9cf7",
+      "scenes": 72,
+      "words": 6119
+    },
+    {
+      "path": "data/books/book_xxiii_water_01.json",
+      "sha": "dc6435928a6c573662206aabffe46ee871e99544",
+      "scenes": 75,
+      "words": 6323
+    },
+    {
+      "path": "data/books/book_xxiii_water_02.json",
+      "sha": "bca4408227de7fccde1b7ad9638518882e6df102",
+      "scenes": 75,
+      "words": 6350
+    },
+    {
+      "path": "data/books/book_xxiii_water_03.json",
+      "sha": "59904fd0505c4edc6bb6cb7c86b504cc003f22bc",
+      "scenes": 75,
+      "words": 6427
+    },
+    {
+      "path": "data/books/book_xxiii_water_04.json",
+      "sha": "8672c0ce076b62a16649522e1e0bc05df2582bf7",
+      "scenes": 75,
+      "words": 6399
+    },
+    {
+      "path": "data/books/book_xxiii_water_05.json",
+      "sha": "90776629c16e5478490076aa2e9d99400dccd025",
+      "scenes": 75,
+      "words": 6480
+    },
+    {
+      "path": "data/books/book_xxiii_water_06.json",
+      "sha": "cb174a1cc3ff4a499cb7064dadfaa6975072107c",
+      "scenes": 75,
+      "words": 6476
+    },
+    {
+      "path": "data/books/book_xxiii_water_07.json",
+      "sha": "163e29685861870328acbdf8b2215008af586a31",
+      "scenes": 75,
+      "words": 6472
+    },
+    {
+      "path": "data/books/book_xxiii_water_08.json",
+      "sha": "c33548a97bf9cf0db4681af7b84982231c95d226",
+      "scenes": 75,
+      "words": 6427
+    },
+    {
+      "path": "data/books/book_xxiii_water_09.json",
+      "sha": "3d4e46f2f6bc9d1484d2bf08701e1f69e8a8b2b0",
+      "scenes": 85,
+      "words": 7469
+    },
+    {
+      "path": "data/books/book_xxiii_water_10.json",
+      "sha": "b7b3a9355cf797f2ff98864cdfd7f66f28f3c385",
+      "scenes": 75,
+      "words": 6678
+    },
+    {
+      "path": "data/books/book_xxiii_water_11.json",
+      "sha": "f2b6b18338cb2e83e9f62774494b18155fdf60d0",
+      "scenes": 77,
+      "words": 6087
+    },
+    {
+      "path": "data/books/book_xxiii_water_12.json",
+      "sha": "a26ee0728b03726abbdb87ed4fcd962151813bcb",
+      "scenes": 74,
+      "words": 5724
+    },
+    {
+      "path": "data/books/book_xxiii_water_13.json",
+      "sha": "609275224963783b2d59d9324f0886d8d3be9ebd",
+      "scenes": 83,
+      "words": 6335
+    },
+    {
+      "path": "data/books/book_xxiii_water_14.json",
+      "sha": "6f71b05eeeb5903e31dbd62293e1f0aff6c0c165",
+      "scenes": 77,
+      "words": 7194
+    },
+    {
+      "path": "data/books/book_xxiii_water_15.json",
+      "sha": "c2bb256852c9e92e9a5132e5fa275c9819e23046",
+      "scenes": 83,
+      "words": 6918
+    },
+    {
+      "path": "data/books/book_xxiii_water_16.json",
+      "sha": "c259156698be15790860c1090f6f4d2a5b5f9b6c",
+      "scenes": 70,
+      "words": 5857
+    },
+    {
+      "path": "data/books/book_xxiii_water_17.json",
+      "sha": "1a107b9dd0265c7e1c46d410e008db47ae06120e",
+      "scenes": 70,
+      "words": 5996
+    },
+    {
+      "path": "data/books/book_xxiii_water_18.json",
+      "sha": "34682374456efbb3cf7537a8cde3c892b763aa5a",
+      "scenes": 74,
+      "words": 6356
+    },
+    {
+      "path": "data/books/book_xxiii_water_19.json",
+      "sha": "135e4cdd4578aabb03f30f7440743e97135f6974",
+      "scenes": 71,
+      "words": 6145
+    },
+    {
+      "path": "data/books/book_xxiii_water_20.json",
+      "sha": "705e09c7ed16f06cf1229957bc0ee48aa35219f0",
+      "scenes": 86,
+      "words": 7343
+    }
+  ],
+  "independent_reviews": {
+    "water": "aa716e04cd04aa2cac31c65029098ebef8d3d868",
+    "archive": "56236f8626434b53a44e5ebeb70d052e7ec44d95",
+    "road": "7bc141c46cd7de7ab045a6f87510bda8385d9925",
+    "kiln": "d6b4d76e2cc75fbc7a0e98a0fe7bc0434e12b2a7",
+    "garden_and_runtime": "2386888dab356f33cb737634b0d6b0d98633630e",
+    "harbor": "27fdf78e110a92f362427d1ac53817c2455887df"
+  },
+  "prepublication_editing": {
+    "records": 155,
+    "distinct_scenes": 154,
+    "historical_plot_repair_credit": 0,
+    "evidence": "docs/SEASON_PREPUBLICATION_REVIEW_20261008.json",
+    "scope": "New continuation authoring and CI review iterations; these scenes were absent from the original published parent."
+  },
+  "native_art": {
+    "originals": 7,
+    "byte_and_dimension_checks": "Required CI verifies exact original bytes, PNG dimensions, decoded images and playable placements.",
+    "source_record": "assets/art/SEASON_20261008_PROMPTS.json"
+  },
+  "runtime_verification": "Required CI executes Python, Godot, narration, viewport capture and source-free Linux playback. Measured delivery results are written to docs/content_report.json.",
+  "additional_existing_source_repair": {
+    "defects": 1,
+    "passages": 2,
+    "delta": 1,
+    "evidence": "docs/LETTERS_CLAIMANT_REPAIRS_20261008.json",
+    "sourceParent": "8e419bbb154fa2911d0f5b73a7bfee493c9f2507"
+  }
+}

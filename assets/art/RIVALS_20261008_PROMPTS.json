@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "date": "2026-10-08",
+  "native_pixel_policy": "Original generator PNG bytes retained, without crop, upscale, recolor, mirror or reencoding.",
+  "reference_inspection": "The repository manifest and existing provenance were read. Binary reference fetch for mine_wei_yan.png returned empty content, so no source painting was copied or edited.",
+  "sprites": [
+    {
+      "id": "rival_qiu_zhen",
+      "name": "Qiu Zhen",
+      "path": "assets/art/world/rival_qiu_zhen.png",
+      "kind": "original_painting",
+      "derivation": "none",
+      "generated_with": "OpenAI image generator",
+      "generated_at": "2026-10-08",
+      "requested_resolution": "Maximum native portrait output supported by the generator; no upscaling",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "format": "PNG",
+      "color_type": "RGBA",
+      "native_bytes": 1822971,
+      "git_blob_sha": "5a0b70b45a5bdb515fd188b9200a966b5730fd28",
+      "transparent_background_requested": true,
+      "decoded_alpha": {
+        "min": 0,
+        "max": 254,
+        "fully_transparent_pixels": 1057985,
+        "partially_transparent_pixels": 514879,
+        "fully_opaque_pixels": 0,
+        "corners": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "prompt": "Generate ONE original, finished, painterly historical Chinese xianxia visual novel character sprite as a native RGBA PNG with a fully transparent background. Request the maximum native portrait resolution the generator supports; do not upscale. A single full-body uncut adult woman, the head, both hands, hem and both boots entirely within the canvas, with generous transparent margin all around and no scenery, floor, cast shadow, lettering or frame. Character: Qiu Zhen, 32, a female cultivation practitioner whose registered level is Qi Gathering 5: Four pairs. Tall and lean, a tan angular face, an alert reserved expression with a hint of proud competitive resolve, black hair in one practical long braid. She wears a dark cinnabar cross-collar work robe with charcoal sleeves, a fitted charcoal sash, finely textured simple cloth and practical flat black boots. One hand holds a neatly coiled rolled survey cord, the other lightly holds a small hand-size bronze measuring gauge. She is a working surveyor and a worthy rival with a livelihood of her own, not an aristocratic princess. Grounded natural human anatomy, three-quarter view looking slightly toward the viewer's left, stable relaxed stance. Rich but muted reds, charcoal and warm skin. Fine expressive face and hands, subtle brushwork and detailed folds, convincing wear around cuffs and boots, crisp clean silhouette, consistent soft neutral studio light suitable for compositing over multiple environments. The visual style is refined painterly game concept art rooted in historical Chinese clothing, realistic adult proportions, gently stylized with clear readable silhouettes. No sword, no weapon, no armor, no glowing aura, no luminous meridians, no magic effects, no levitation. No separate props or multiple views, only one whole-body character. Preserve native pixels and transparency."
+    },
+    {
+      "id": "rival_su_yao",
+      "name": "Su Yao",
+      "path": "assets/art/world/rival_su_yao.png",
+      "kind": "original_painting",
+      "derivation": "none",
+      "generated_with": "OpenAI image generator",
+      "generated_at": "2026-10-08",
+      "requested_resolution": "Maximum native portrait output supported by the generator; no upscaling",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "format": "PNG",
+      "color_type": "RGBA",
+      "native_bytes": 1961718,
+      "git_blob_sha": "7c90b8d90cc7bceb390cf4212b2f9b20d003aa6f",
+      "transparent_background_requested": true,
+      "decoded_alpha": {
+        "min": 0,
+        "max": 254,
+        "fully_transparent_pixels": 1004491,
+        "partially_transparent_pixels": 568373,
+        "fully_opaque_pixels": 0,
+        "corners": [
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      "prompt": "Generate ONE original, finished, painterly historical Chinese xianxia visual novel character sprite as a native RGBA PNG with a fully transparent background. Request the maximum native portrait resolution supported by the generator; do not upscale. A single full-body uncut adult woman, with her head, both hands, robe hem and both shoes entirely within the canvas, generous transparent margin, no scenery, floor, shadow, lettering or frame. Character: Su Yao, 47, an independent steward responsible for a public trial and its timing records. A grounded middle-aged working woman with a broad brown face, soft cheekbones, a few natural fine lines, observant level eyes, warm calm dignity and disciplined impartial expression. Black hair visibly grey at the temples, neatly gathered into a compact practical bun. She wears a muted warm ivory and dusty teal cross-collar work robe, broad slate-grey waist sash, plain practical sleeves and dark flat cloth shoes. The robe is modest, practical and beautifully worn with subtle linen texture. She holds a single blank rectangular wooden timing tablet horizontally in both hands at waist level. A tiny ordinary bronze sand timer hangs from a cord at the sash; no writing or marks on the tablet. She has a visibly different face, silhouette and age from a tall young rival: moderate height, sturdy mature build, calm squared stance, facing slightly toward viewer's right. Human natural proportions, expressive realistic hands, fine facial detail and softly articulated fabric folds. Refined painterly game concept art inspired by historical Chinese work clothing, realistic mature adult proportions and gentle stylization, clean readable silhouette. Neutral soft studio light suitable for compositing over many environments, delicate tactile brushwork, muted teal, slate and warm ivory palette. This woman owns no magical arena powers; no sword, no weapon, no armor, no aura, no spell effects, no levitation, no glowing objects. No separate props, duplicates or multiple views. One complete original whole-body human character. Preserve native pixels and transparency."
+    }
+  ],
+  "story_identity": {
+    "id": "rival_qiu_zhen",
+    "development_name": "Qiu Zhen",
+    "display_name": "Qiu Lian",
+    "reason": "Prepublication continuity review found an inherited Book VI attendant named Qiu Zhen. Only the new character's displayed name changed; native image bytes and literal original prompts are retained."
+  }
+}

@@ -1,0 +1,291 @@
+{
+  "schema_version": 1,
+  "title": "Published Book XVIII claimant attribution review · 2026-10-08",
+  "repository": "jgyy/octxian",
+  "source_commit": "8e419bbb154fa2911d0f5b73a7bfee493c9f2507",
+  "source_path": "data/books/book_xviii_consequences.json",
+  "source_file_sha": "2ddf24ae1e45fcffa8ebd28467165c953e95c31b",
+  "requested_plot_holes": 1000,
+  "confirmed_underlying_defects": 1,
+  "affected_source_passages": 2,
+  "target_met": false,
+  "count_policy": "The misplaced claimant identity is one underlying contradiction manifested in two existing published passages. It is distinct from the earlier covered-frame and inspected-route repairs; new manuscript identity edits earn no historical repair credit.",
+  "defects": [
+    {
+      "id": "published-xviii-compensation-holder",
+      "classification": "confirmed_claimant_attribution_defect",
+      "finding": "Book XVIII transfers the completed Book XVII house inquiry's compensated-right-holder status from He Xi's mother to Sun Nian. Sun was the separate bounded public-path witness; the actual award, payment and key handover identify He Xi's mother.",
+      "affected_nodes": [
+        "letters_prepare_003",
+        "letters_sun_result_002"
+      ],
+      "evidence": [
+        {
+          "path": "data/books/book_xvii_archive_04.json",
+          "node_id": "archive_04_witness_016",
+          "source_file_sha": "1a9692abd8725a07490884764fb2daecdb5999c0",
+          "node": {
+            "chapter": "book_xvii_archive",
+            "speaker": "narrator",
+            "actor": "lin_yue",
+            "background": "archive_copy_room",
+            "text": "Sun declined the proposed broad testimony about the founder's character. She had known him at public school meetings, not as a person arranging house inheritance. She would confirm her own attendance at one meeting if the minutes required clarification, after receiving the exact question. He accepted the refusal and removed a sentence from his witness request that called her the village's living memory. She thanked him for removing it. The phrase had made her feel like an overfilled shelf nobody intended to repair.",
+            "next": "archive_04_witness_017",
+            "cultivation": {
+              "realm": "qi_gathering",
+              "stage": "5: Four pairs"
+            }
+          },
+          "quote": "She had known him at public school meetings, not as a person arranging house inheritance."
+        },
+        {
+          "path": "data/books/book_xvii_archive_21.json",
+          "node_id": "archive_21_004",
+          "source_file_sha": "88883ec8834a80d5e587b9e92780d111d635da9c",
+          "node": {
+            "chapter": "book_xvii_archive",
+            "speaker": "narrator",
+            "actor": "lin_yue",
+            "background": "mountain_archive_winter_hall",
+            "text": "The appointed clerk brought a proposed question list for Sun's local witness statement. It asked whether she had seen the public path agreement, how she identified the sheet and which words she actually remembered. It also asked whether the founder had intended descendants to occupy the house permanently. Sun crossed out the last question before agreeing to the appointment. She had copied a public notice and heard ordinary conversations; she could not provide a dead person's undisclosed intention. The clerk returned the revised question to the registrar rather than taking offence on behalf of his form.",
+            "next": "archive_21_005",
+            "cultivation": {
+              "realm": "qi_gathering",
+              "stage": "5: Four pairs"
+            }
+          },
+          "quote": "Sun crossed out the last question before agreeing to the appointment."
+        },
+        {
+          "path": "data/books/book_xvii_archive_22.json",
+          "node_id": "archive_22_036",
+          "source_file_sha": "64c4bf770516eeefd377af63b311ddbc40c0efeb",
+          "node": {
+            "chapter": "book_xvii_archive",
+            "speaker": "narrator",
+            "actor": "lin_yue",
+            "background": "archive_copy_room",
+            "text": "The specific recent loss claim succeeded for thirty copper. The verified rental period and continued-request acknowledgments supported its connection with the ongoing denial; six copper of ordinary avoided upkeep had already been deducted from the thirty-six paid rent. The trustees would pay the thirty from their authorised orchard liability account by day one hundred and sixty-five, issuing a receipt to the mother's chosen address. It was compensation for that stated claim, not a purchase price for the descendant right or an estimate of every older year. The decision preserved any other claim only through its lawful separate procedure.",
+            "next": "archive_22_037",
+            "cultivation": {
+              "realm": "qi_gathering",
+              "stage": "5: Four pairs"
+            }
+          },
+          "quote": "issuing a receipt to the mother's chosen address."
+        },
+        {
+          "path": "data/books/book_xvii_archive_22.json",
+          "node_id": "archive_22_037",
+          "source_file_sha": "64c4bf770516eeefd377af63b311ddbc40c0efeb",
+          "node": {
+            "chapter": "book_xvii_archive",
+            "speaker": "narrator",
+            "actor": "lin_yue",
+            "background": "archive_copy_room",
+            "text": "The representative read the payment direction and asked the clerk to name the responsible treasurer in the served copy. The registrar did so. She did not pretend the foundation would find thirty copper pleasant merely because the figure was narrower than the family history. She accepted the verified account and payment duty, then asked for the occupation transition terms. He Xi looked at his mother, expecting joy about the money. She was reading the part restoring her right, one finger below the words. The payment could help the move. It had not replaced the doorway.",
+            "next": "archive_22_038",
+            "cultivation": {
+              "realm": "qi_gathering",
+              "stage": "5: Four pairs"
+            }
+          },
+          "quote": "He Xi looked at his mother, expecting joy about the money."
+        },
+        {
+          "path": "data/books/book_xvii_archive_23.json",
+          "node_id": "archive_23_011",
+          "source_file_sha": "a8855584e8b3e226273f1002a031fa73baf414ca",
+          "node": {
+            "chapter": "book_xvii_archive",
+            "speaker": "narrator",
+            "actor": "lin_yue",
+            "background": "mountain_archive_winter_hall",
+            "text": "On the one hundred and fifty-ninth morning, the orchard treasurer counted the directed thirty-copper payment at the mother's chosen receiving point. The representative brought the served order and authorised liability-account entry; the mother brought the decision copy and checked the amount before signing. The receipt identified the recent verified loss claim, its thirty-six paid rent less six avoided upkeep, and the payment's completion. It did not purchase release of the house condition or every older claim. The registry received its settlement acknowledgment. He Xi watched the coins become a finite useful amount rather than the fortune neighbours had invented.",
+            "next": "archive_23_012",
+            "cultivation": {
+              "realm": "qi_gathering",
+              "stage": "5: Four pairs"
+            }
+          },
+          "quote": "the orchard treasurer counted the directed thirty-copper payment at the mother's chosen receiving point."
+        },
+        {
+          "path": "data/books/book_xvii_archive_24.json",
+          "node_id": "archive_24_042",
+          "source_file_sha": "93936aa9d5d5672bd23d71689993728eedf09532",
+          "node": {
+            "chapter": "book_xvii_archive",
+            "speaker": "narrator",
+            "actor": "lin_yue",
+            "background": "west_kiln_home",
+            "text": "The representative handed the actual key to the clerk, who checked the lock and recorded the lawful change of possession. He then gave it to the mother under the served household arrangement and continuing condition. The registry receipt named the one hundred and seventy-third as the completed handover, with the current inspection attached. He Xi heard the key turn and expected a sentence suitable for telling everyone later. His mother asked whether the back window still closed. The inspector showed her its catch. A lawful door had opened onto a room which immediately needed ordinary questions.",
+            "next": "archive_24_043",
+            "cultivation": {
+              "realm": "qi_gathering",
+              "stage": "5: Four pairs"
+            }
+          },
+          "quote": "He then gave it to the mother under the served household arrangement and continuing condition."
+        }
+      ]
+    }
+  ],
+  "repairs": [
+    {
+      "root_cause": "published-xviii-compensation-holder",
+      "classification": "confirmed_claimant_attribution_defect",
+      "source_path": "data/books/book_xviii_consequences.json",
+      "source_file_sha": "2ddf24ae1e45fcffa8ebd28467165c953e95c31b",
+      "node_id": "letters_prepare_003",
+      "before_node": {
+        "chapter": "book_xviii_letters",
+        "speaker": "narrator",
+        "actor": "lin_yue",
+        "background": "archive_copy_room",
+        "cast": [
+          "lin_yue",
+          "luo_zhimo",
+          "sun_nian"
+        ],
+        "cultivation": {
+          "realm": "qi_gathering",
+          "stage": "5: Four pairs"
+        },
+        "text": "Sun untied the green thread herself. Her new statement concerned runoff reaching three doorways after the gutter change. She had authorized a copy of her observations and two neighbors' countersigned lines; her private notebook was not included. Her existing house right and paid compensation were already settled. A younger clerk asked whether the new damp marks meant the old inquiry had failed. Sun told him houses went on having weather after inquiries ended. She sounded more amused than forgiving.",
+        "next": "letters_prepare_004"
+      },
+      "after_node": {
+        "chapter": "book_xviii_letters",
+        "speaker": "narrator",
+        "actor": "lin_yue",
+        "background": "archive_copy_room",
+        "cast": [
+          "lin_yue",
+          "luo_zhimo",
+          "sun_nian"
+        ],
+        "cultivation": {
+          "realm": "qi_gathering",
+          "stage": "5: Four pairs"
+        },
+        "text": "Sun untied the green thread herself. Her new statement concerned runoff reaching three doorways after the gutter change. She had authorized a copy of her observations and two neighbors' countersigned lines; her private notebook was not included. The earlier inquiry's house right and paid compensation belonged to He Xi's mother. A younger clerk asked whether the new damp marks meant the old inquiry had failed. Sun told him houses went on having weather after inquiries ended. She sounded more amused than forgiving.",
+        "next": "letters_prepare_004"
+      },
+      "word_delta": 3
+    },
+    {
+      "root_cause": "published-xviii-compensation-holder",
+      "classification": "confirmed_claimant_attribution_defect",
+      "source_path": "data/books/book_xviii_consequences.json",
+      "source_file_sha": "2ddf24ae1e45fcffa8ebd28467165c953e95c31b",
+      "node_id": "letters_sun_result_002",
+      "before_node": {
+        "chapter": "book_xviii_letters",
+        "speaker": "narrator",
+        "actor": "sun_nian",
+        "background": "archive_spring_courtyard_dawn",
+        "cast": [
+          "sun_nian",
+          "lin_yue"
+        ],
+        "cultivation": {
+          "realm": "qi_gathering",
+          "stage": "5: Four pairs"
+        },
+        "text": "At the doorway Sun asked Lin to stand aside while she spoke with the clerk. Lin did, and heard the distinction arrive more clearly without her help. The crew received Sun's permission for one later outlet inspection appointment to be arranged through her contact. Her ownership, settled compensation and private notebook stayed beyond this new task. Lin could carry the permitted question back to the table, but she could not carry Sun's answer to a visit that had not yet happened.",
+        "next": "letters_sun_result_003"
+      },
+      "after_node": {
+        "chapter": "book_xviii_letters",
+        "speaker": "narrator",
+        "actor": "sun_nian",
+        "background": "archive_spring_courtyard_dawn",
+        "cast": [
+          "sun_nian",
+          "lin_yue"
+        ],
+        "cultivation": {
+          "realm": "qi_gathering",
+          "stage": "5: Four pairs"
+        },
+        "text": "At the doorway Sun asked Lin to stand aside while she spoke with the clerk. Lin did, and heard the distinction arrive more clearly without her help. The crew received Sun's permission for one later outlet inspection appointment to be arranged through her contact. Her ownership and private notebook stayed beyond this new task. Lin could carry the permitted question back to the table, but she could not carry Sun's answer to a visit that had not yet happened.",
+        "next": "letters_sun_result_003"
+      },
+      "word_delta": -2
+    }
+  ],
+  "historic_audits": [
+    {
+      "path": "docs/CHOICE_CONSEQUENCE_AUDIT_20261006.json",
+      "source_file_sha": "7d82fca79007d6d71217581a4b9832f275808e59",
+      "matching_targets": [],
+      "credited_overlap": false
+    },
+    {
+      "path": "docs/REED_CROSSING_REPAIRS_20261006.json",
+      "source_file_sha": "e81008b6557f5ff8e6257d6f304a4ef0015d3e8d",
+      "matching_targets": [],
+      "credited_overlap": false
+    },
+    {
+      "path": "docs/CAREER_CONTINUITY_REPAIRS_20261007.json",
+      "source_file_sha": "2e306efd77c1c9a006395d66d07f3c508f85cdcc",
+      "matching_targets": [],
+      "credited_overlap": false
+    },
+    {
+      "path": "docs/HARBOR_IDENTITY_REPAIRS_20261007.json",
+      "source_file_sha": "232f8218b5cc2b5fa33c2afb4774e41261b4eed6",
+      "matching_targets": [],
+      "credited_overlap": false
+    },
+    {
+      "path": "docs/COMMISSION_CONTINUITY_REPAIRS_20261008.json",
+      "source_file_sha": "91acc3dc5e3b8c02415ffcbb1767b7d2c2be738a",
+      "matching_targets": [],
+      "credited_overlap": false
+    },
+    {
+      "path": "docs/LATE_IDENTITY_REPAIRS_20261008.json",
+      "source_file_sha": "00179389fd86a36829a1538c8d249eacdc154915",
+      "matching_targets": [],
+      "credited_overlap": false
+    },
+    {
+      "path": "docs/LATE_CONTINUITY_AUDIT_20261006.json",
+      "source_file_sha": "2d927df69bb47be9257ca354095207428c733616",
+      "matching_targets": [],
+      "credited_overlap": false
+    },
+    {
+      "path": "docs/SEMANTIC_CONTINUITY_REVIEW_20261006.json",
+      "source_file_sha": "f87976fc2884c250d96800e9c2defdf8e42d3e26",
+      "matching_targets": [],
+      "credited_overlap": false
+    },
+    {
+      "path": "docs/CONTINUITY_REPAIRS_20261004.json",
+      "source_file_sha": "c4fb5d5d9d0024778d3cf6e234b727f87d1e4d57",
+      "matching_targets": [],
+      "credited_overlap": false
+    }
+  ],
+  "overlap_review": "No existing listed defect or before/after record covers these two scene IDs or the misattributed compensation root. Existing XVIII repairs concern roof covers staying on frames and inspected tread/route limits. The proposed fix keeps Sun's new three-doorway runoff statement, permissions and private notebook, and the earlier family rights intact.",
+  "displayed_word_delta": 1,
+  "book_words_before": 7218,
+  "book_words_after": 7219,
+  "book_scenes": 92,
+  "review_scope": {
+    "files_fetched": 37,
+    "scenes_fetched": 3227,
+    "scope": "Targeted identity, custody, dates and accepted-work review across Books XVII–XXI. Counts describe fetched source coverage, not close-reading depth or defects.",
+    "reviewed_focus": "Read introductions and selected pronoun candidates; actual XVII house hearing, paid compensation and key handover; XVIII selected copies, rain tasks, performed appointments and storm accounts; career and commission closing budgets, actual custody and accepted-work schedules.",
+    "limits": "No complete close-reading claim. No additional authenticated contradiction was added from ambiguous setting, ordinary house-key possession, or generic future-work language."
+  },
+  "validation": {
+    "source_fetches": "Exact GitHub file fetches at source_commit returned declared original blob SHAs and identical original models.",
+    "current_changed_fields": "Only text at letters_prepare_003 and letters_sun_result_002 changes. All mechanics, branch routes, cultivation, permissions, actions, original custody and stated payments remain intact.",
+    "unittest_execution": "Prepared for repository CI; no shell/Python execution tool is available in this agent environment."
+  }
+}

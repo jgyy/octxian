@@ -1,166 +1,63 @@
 # Jade Vow
 
-[![Godot CI](https://github.com/jgyy/octxian/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/jgyy/octxian/actions/workflows/ci.yml)
+[![Godot CI](https://github.com/jgyy/octxian/actions/workflows/ci.yml/badge.svg?branch=codex/careers-20261007)](https://github.com/jgyy/octxian/actions/workflows/ci.yml)
 
-An original xianxia visual novel built in **Godot 4.7.2**. Lin Yue begins as a mortal kiln worker and earns her cultivation through practice, failures, recovery and independently witnessed trials. Work, evidence and freely made commitments shape the people she meets.
+An original xianxia visual novel built in **Godot 4.7.2**. Lin Yue begins as a mortal kiln worker and earns cultivation through practice, failure, recovery and independently witnessed trials. Work, evidence and freely made commitments shape the people she meets.
 
-The playable campaign contains **1,163,187 displayed prose words across 13,204 scenes and 19 books**. The count includes alternative playable branches; only dialogue prose counts toward the manuscript. Books XII–XVII are now connected through the campaign manifest, with completed forest, desert and archive closing sequences. [Current manuscript, source review and chapter counts](docs/MILLION_WORD_CONTINUATION.md).
+The campaign contains **2,080,063 displayed prose words across 24,341 scenes and 23 books**. This counts distinct playable alternatives, not words seen in one playthrough. Choice labels, titles, prompts and documentation are excluded. The two-million-word manuscript target is met; the requested 1,000 authenticated plot repairs and full artwork quotas remain unfinished.
 
-![Archive ensemble dialogue](docs/screenshots/archive_ensemble.jpg)
+![Six later-season paths](docs/screenshots/season_paths.jpg)
 
-## Book XIX · The Weight of the Second Bell
+## Book XXIII · The Work Ahead
 
-Reed Crossing adds **9,109 displayed prose words and 125 scenes**, continuing the retained Book XVIII ending. Four bounded measuring approaches, a twelve-place ferry, three explanation methods and one eighteen-copper recovery grant create **108 complete paths and nine persistent cargo-policy accounts**. Grain, linen and private wage annotations keep different losses; later work cannot rewrite the first delivery. Lin retains her earned fifth stage.
+Six paths continue after the instrument trial closes. Each follows twenty later-season arcs with local decisions and delayed consequences. Existing work stays on its own calendar. New jobs and resources require separate terms, private records retain their owners, and professional operations remain with qualified people.
 
-Two current-source contradictions are repaired with authenticated before/after evidence. This batch does **not** verify the requested 1,000 plot holes. **836,813 displayed prose words remain** to reach two million. [Source audit, budgets, diagrams and real viewport captures](docs/REED_CROSSING_20261006.md).
+| Path | Questions and consequences |
+| --- | --- |
+| River footpath | Disputed access, incompatible gauge zeros, storm damage and the actual cost of replacement, repair or borrowing |
+| Copying annex | Provenance, owner permissions, an expiring lease and a smaller winter service |
+| Letter circuit | Private correspondence, isolated households, weather cancellation and a corrected delivery error |
+| Kiln repairs | Fuel refunds, rejected wares, winter household orders and the limits of a cold-handling comparison |
+| Orchard garden | Paid repair hours, a shortened storm session, plant choices, rest and a family's farewell |
+| Harbor signals | Restricted access, professional responsibility, private canvas stock and the right to decline an extension |
 
-One new original **1672 × 941 native PNG background** was generated at the highest native landscape resolution returned by the image tool. Established native portraits are reused. [Creation record](assets/art/REED_CROSSING_20261006_PROVENANCE.md).
+Book XXIII adds **742,861 displayed words in 8,823 scenes**. Every path has its own completed outcome. Missing old choices establish no invented participation or relationship. Lin remains at Qi Gathering 5: Four pairs with her shoulder arrangements intact.
 
-![Reed Crossing cargo dilemma](docs/screenshots/reed_crossing_choice.jpg)
+[Route counts, budgets, continuity review and captures](docs/SEASON_PATHS_20261008.md) · [Manuscript accounting](docs/CULTIVATION_PROGRESS.json)
 
-![Retained grain cargo outcome](docs/screenshots/reed_crossing_grain.jpg)
+## Qiu Lian · The Other Measure
 
-```mermaid
-flowchart LR
-  Archive["XVIII · retain ending and saved service"] --> Crossing["XIX · independent inspection"]
-  Crossing --> Cargo["32 units · 12 confirmed places"]
-  Cargo --> Grain["12 grain"]
-  Cargo --> Linen["8 linen + 4 grain"]
-  Cargo --> Wages["6 wage bundles + 6 grain"]
-  Grain --> Later["One later recovery service"]
-  Linen --> Later
-  Wages --> Later
-  Later --> Account["Nine accounts retain earlier losses"]
-```
+Qiu Lian challenges Lin's patient recovery method with quicker low-load closure. Book XXII offers **competition, cooperation or independent work**, with saved corrections, sharing boundaries and relationship choices. It adds 72,220 words in 975 scenes. The earlier chapter's three endings now continue into Book XXIII while remaining discoverable.
 
-## Saved choices and Book XVIII · 2026-10-06
+Two original transparent full-body sprites retain **1024 × 1536 native PNG** bytes. Seven new season environments retain six **1672 × 941** canvases and one **1659 × 948** canvas. Maximum native output was requested from the generator; the delivered dimensions are recorded as returned. These originals were not enlarged, padded, cropped or re-encoded.
 
-Choices now retain selected destinations through saves and change later scenes. This revision adds **18,694 net prose words and 248 scenes**: six earlier followthroughs and Book XVIII, *The Letter That Arrived Late*. One copy place, a rain window, a future session, two canvas sheets and one service grant create real competing obligations. Nine final material-and-service combinations keep unchosen losses. [Consequences, source evidence, save diagram and actual captures](docs/CONSEQUENCE_REVISION_20261006.md).
+[Qiu and the three rival paths](docs/RIVAL_PATHS_20261008.md) · [Sprite provenance](assets/art/RIVALS_20261008_PROVENANCE.md) · [Seven background originals](assets/art/SEASON_20261008_PROVENANCE.md) · [Exact background prompts](assets/art/SEASON_20261008_PROMPTS.json)
 
-The exact audit verifies **one pre-existing branch inconsistency** and **six gameplay consequence improvements**. The requested 1,000 plot repairs are unverified; the manuscript still needs **836,813 words** for two million. Existing paintings cover the new locations.
+![Qiu Lian in the game](docs/screenshots/rival_qiu_zhen.jpg)
 
-![Delayed household comparison at identical attributes](docs/screenshots/consequence_house.jpg)
+## Delivered world and remaining production work
 
-```mermaid
-flowchart LR
-  Choice["Choose one scarce resource"] --> Saved["Save selected destination"]
-  Saved --> Later["Later scene reads that choice"]
-  Later --> Result["Different people, evidence, access and services"]
-  Result --> Final["Keep material losses and chosen service"]
-```
+| Original asset group | Delivered | Target |
+| --- | ---: | ---: |
+| Ordinary location backgrounds | 50 | 100 |
+| Additional building interiors | 48 | 100 |
+| Human NPC paintings | 67 | 500 |
+| Spirit-beast paintings | 15 | 501 |
+| Distinct world sprites | 82 | 1,001 |
 
-## Storm and salt-road completion credit · 2026-10-06
+The 98 total backgrounds include the 48 additional interiors once each. Portrait recolors, outfits and motion frames do not count as new world originals. Draft validation reports the remaining quotas; moving the PR out of draft enables strict production checks.
 
-Thirteen additional choices in Books X–XI now award growth after their exclusive work passages, including the household correction hearing, all three storm departures, all three water investigations, all three optional trials and all three valley settlements. Saves use practice rules 3; older rules retain already-paid selection credit and earlier deferred work remains pending. [Source audit and review](docs/STORM_SALT_REVISION_20261006.md).
+This continuation authenticates **three underlying literary defects across five existing passages**: an unconditional commission appointment, Tuo Yin's pronouns, and the recipient of an earlier house settlement. A separate saved-choice replay fix prevents repeated rewards or charges. A harbor gallery description now agrees with He Ming's established female salt-packer role. Engine and catalog corrections receive no additional literary repair credit. New manuscript events and corrections before publication also receive zero historical repair credit.
 
-This batch fixes **13 source sites of one recurring causality issue**. It does not satisfy the request for 100 new repairs or add manuscript words. The current total remains **1,163,187**, with **836,813** required to reach two million.
+[House-claimant evidence](docs/LETTERS_CLAIMANT_REPAIRS_20261008.json) · [Calendar evidence](docs/COMMISSION_CONTINUITY_REPAIRS_20261008.json) · [Identity evidence](docs/LATE_IDENTITY_REPAIRS_20261008.json) · [Harbor catalog follow-up](docs/HARBOR_CATALOG_FOLLOWUP_20261008.json)
 
-## Existing-volume expansion toward two million words
+## Play and inspect
 
-Six new encounters add **8,630 words, 110 passages and eighteen distinct branch outcomes** inside Books XII–XVI. Xu Lin, Chen Rui, Song Mei and Wu Zheng have their own work and interests; the tidemirror otter and cinderback pangolin appear as observed creatures rather than proof of human claims. Each decision offers a trained comparison and two ungated alternatives with different costs. Cultivation stages, original findings, object custody and the existing sequence remain intact.
+Use the latest successful [workflow run](https://github.com/jgyy/octxian/actions/workflows/ci.yml) for the Linux game and validation artifacts. Download and unpack the game artifact, keep `jade-vow` beside `jade-vow.pck`, and launch the executable. Narration, portraits and story data are included in the package.
 
-The requested total is **2,000,000 words**; **836,813 words remain**. The delivery report enforces that total independently from the original rewrite accounting. [Expansion and save diagrams](docs/EXISTING_VOLUME_EXPANSION_20261005.md) · [Episode placement audit](docs/EXPANSION_BRANCHES_20261005.json).
+The game supports saved choices, a journal, character outfit selection, reduced motion, narration and audio settings. Earlier chapters include ordinary relationships, supervised careers, qualified specialties and paid commissions.
 
-Six additional original **1024×1536 native PNG sprites** are retained at the dimensions delivered by image generation. [Creation records](assets/art/EXPANSION_20261005_PROVENANCE.md). Another **100 deferred-growth source sites** bring the two audits to **201 sites of the recurring causality issue**. Save rules 2 preserve pending revision-1 work and recognise only credit actually paid under older rules. [Additional exact-source audit](docs/ADDITIONAL_REPAIRS_20261005.json).
-
-## Harder desert decisions and completed growth
-
-Six new desert dilemmas add eighteen distinct consequences. Compare incompatible map origins, weigh a dispatch delay, question an old building plan, preserve an unreadable source, test a public warning and separate repair exposure from money already paid. Trained approaches require 10 Comprehension or Physique points. Every dilemma also has two ordinary approaches; those approaches expose their delays, missing evidence or rejected hypotheses in playable prose. No preference grants instant growth.
-
-This revision repairs **101 additional premature-growth choice sites** across Books VI–X. The same gains now follow the actual completed branch passage and are saved once. Version-1 checkpoints from before this change retain their scores and recognise credit already paid on selection. The audit counts 101 source sites affected by one recurring causality issue, alongside **70 geographic staging corrections**; it does not claim 171 unrelated root defects. [Exact source audit](docs/NARRATIVE_REPAIRS_20261005.json) · [Narrative review](docs/NARRATIVE_REVISION_20261005.md).
-
-Three independently generated **1536×1024 native PNG** paintings give Bitter Wells its caravan yard, workroom and workers' lodging. The highest supported native landscape output was requested, and the returned bytes are preserved. [Creation records](assets/art/NARRATIVE_20261005_PROVENANCE.md).
-
-![Bitter Wells workroom in Godot](docs/screenshots/bitter_wells_workroom.jpg)
-
-![Desert evidence dilemma in Godot](docs/screenshots/desert_dilemma.jpg)
-
-```mermaid
-flowchart LR
-  Preference["Select a task"] --> Work["Perform its exclusive branch"]
-  Work --> Completion["Finish the authored work"]
-  Completion --> Credit["Grant and save growth once"]
-  Credit --> Next["Continue to shared findings"]
-  Old["Old checkpoint with selection credit"] --> Migration["Recognise the prior payment"]
-  Migration --> Next
-```
-
-## Continue the journey
-
-Use **Begin your journey** or load an existing checkpoint. The **→** button continues from each retained ending into the next book. Existing scene IDs, saved scores, wardrobe choices and version-1 checkpoints remain supported.
-
-| Books | Story |
-|---|---|
-| I–IV | A mortal beginning, nineteen restored households, entrusted river echoes and an orchard's unfinished obligations |
-| V–VIII | Borrowed faces, a cliff court, the living owner of a sealed ring and recovered foundry trials |
-| IX–XI | Thunderfen's survey, the warning that signed twice and water delivered to the names that stayed |
-| XII | The Canal That Could Not Be Sold: separate common use, private property, completed labor and finite debt |
-| XIII | The Forest With Two Winters: paid winter work, household access and living wildlife routes |
-| XIV | The Harbor of Unclaimed Names: actual wage payments, bounded storm protection and one funded improvement |
-| XV | The Kiln That Kept Its Ashes: retained failed firings, qualified practice and an earned fifth-stage record |
-| XVI | The Road Beneath the Salt: water, rival maps, ordinary rescue and a guide's own settlement |
-| XVII | The Archive of Ordinary Rain: recovered source papers, a family key, school access and one selected future |
-| XVIII | The Letter That Arrived Late: competing source copies, a rain window, completed return work and lasting material and service choices |
-| XIX | The Weight of the Second Bell: one confirmed freight crossing, bounded diagnoses, private wage claims and a recovery budget that preserves earlier losses |
-
-## Attributes change what Lin can lead
-
-Open **Attributes** or press **C** to inspect **Qi Control, Comprehension, Physique and Dao Heart**. Ranks advance at 3, 6 and 10 points; exact scores persist beyond the highest rank. Requirements and available gains are visible before a choice.
-
-The three new closing decisions give all four attributes distinct trained roles at 10 points. Qi Control leads a bounded instrument check, Comprehension leads source comparison, Physique leads cleared ordinary movement, and Dao Heart leads a difficult finite commitment. A qualified-support approach remains available. Your chosen role has its own prose, practical result and responsibility.
-
-In the later books, **92 task rewards now arrive after the work is completed**, instead of when a task is merely selected. Completed practice shows its pending credit before Continue, persists through saves and grants no extra points on a revisit. Three hoped-for future kiln preferences grant no immediate growth. [Attribute meanings and save compatibility](docs/ATTRIBUTES.md).
-
-Scores develop trained capacities. Fuel remains measured separately; realms require their authored examinations. Ordinary care, ownership, historical facts and another person's permission retain their own sources.
-
-![Desert attribute roles](docs/screenshots/desert_attributes.jpg)
-
-## Ensemble sprites and layered atmosphere
-
-Authored dialogue can stage **up to three independent intact portraits at once**, with speaking-character emphasis, separate outfit choices and body bobbing. Ensemble portraits fit beside the choice cards and above the dialogue panel. 159 scenes use multiple portraits; panels pause atmosphere and reduced motion stops every cast member and hides the effects.
-
-New effects include **snow, mist, dust, heat haze, embers, petals and sea spray**. Scenes can combine up to three layers. The new forest departure uses snow and mist; the desert closing uses dust and heat haze; the archive courtyard uses petals and mist. Choices scroll when a decision has more cards than the reading area can hold. A visible cue lists the number shortcuts; key **5** selects the fifth option.
-
-![Forest ensemble dialogue](docs/screenshots/forest_ensemble.jpg)
-
-The core cast has three independently generated outfit portraits per adult character: Sect Robes, Light Training and Moon Festival. Select clothing through **Wardrobe**. It persists without changing dialogue progress or scores. Characters animate as whole portraits on a four-second bob; [wardrobe details](docs/WARDROBE.md).
-
-## Native artwork and production scope
-
-This continuation adds three independently generated originals: a **1536×1024 archive courtyard**, a **1024×1536 transparent Lanternwing Crane**, and a **1024×1536 transparent lantern keeper portrait**. All retain the returned native PNG bytes. The highest native output available through the image tool was requested; no enlarged image is counted as new detail. [New provenance](assets/art/MILLION_WORD_PROVENANCE.md) · [World art provenance](assets/art/PROVENANCE.md).
-
-![Lanternwing Crane in the rendered game](docs/screenshots/lanternwing_crane.jpg)
-
-![Archive courtyard at dawn](docs/screenshots/archive_courtyard.jpg)
-
-![Lan Fen, the archive lantern keeper](docs/screenshots/archive_lantern_keeper.jpg)
-
-| Production quota | Delivered | Target |
-|---|---:|---:|
-| Displayed prose words | 1,163,187 | 2,000,000 |
-| Original environments | 41 | 100 |
-| Extra building interiors | 43 | 100 |
-| Human NPC originals | 65 | 500 |
-| Spirit-beast originals | 15 | 501 |
-| Unique world sprites | 80 | 1,001 |
-
-The manuscript is **836,813 words short of the 2,000,000-word target**. The independent artwork quotas also remain unfinished, so the PR stays draft. Core outfit portraits, items and effects do not inflate world-sprite totals. **World → Interiors** previews delivered interiors; **Inspect objects** displays paintings without granting inventory custody.
-
-## Continuity review
-
-This batch fixes **101 source-anchored continuity and choice-causality sites**: 95 premature task rewards, three missing closing sequences and three absent salt-road continuations. This is an evidenced site count, not 101 independent engine defects. The audit excludes new scenes, speaker definitions and art from its repair count. [Exact before/after audit](docs/CONTINUITY_REPAIRS_20261004.json) · [Review explanations](docs/MILLION_WORD_CONTINUATION.md).
-
-Forest closure preserves the selected wildlife and household arrangements. Desert closure returns equipment and leaves clinical care and the guide's settlement with their actual recipients. Archive closure completes the scheduled school lesson, Sun's paid reading and final handover before accepting one next post or going home. The earned fourth and fifth stages retain their stated limits.
-
-```mermaid
-flowchart LR
-  Salt["XI · three retained endings"] --> Canal["XII · canal"]
-  Canal --> Forest["XIII · forest + closure"]
-  Forest --> Harbor["XIV · harbor"]
-  Harbor --> Kiln["XV · kiln · earned fifth stage"]
-  Kiln --> Desert["XVI · desert + closure"]
-  Desert --> Archive["XVII · archive + selected future"]
-```
+[Careers](docs/CAREERS_20261007.md) · [Commissions](docs/COMMISSIONS_20261007.md) · [Cultivation canon](docs/CULTIVATION_SYSTEM.md) · [Wardrobe](docs/WARDROBE.md) · [Attributes](docs/ATTRIBUTES.md)
 
 ## Build and validation
 
@@ -170,42 +67,23 @@ Use Python 3.12, ffmpeg and Godot 4.7.2. The bootstrap tool verifies the officia
 python -m pip install -r requirements.txt
 python tools/bootstrap_godot.py
 python -m unittest discover -s tests -p 'test_*.py'
-python -m tools.validate_million_continuation --verify-source
 python tools/build_assets.py
 python tools/generate_voices.py
 python tools/validate_assets.py
 python tools/validate_world.py
 .cache/godot/Godot_v4.7.2-stable_linux.x86_64 --headless --path . --editor --import
 .cache/godot/Godot_v4.7.2-stable_linux.x86_64 --headless --path . --script tests/story_test.gd
-.cache/godot/Godot_v4.7.2-stable_linux.x86_64 --headless --path . --script tests/runtime_test.gd
-.cache/godot/Godot_v4.7.2-stable_linux.x86_64 --headless --path . --script tests/continuation_test.gd
+.cache/godot/Godot_v4.7.2-stable_linux.x86_64 --headless --path . --script tests/season_paths_test.gd
+.cache/godot/Godot_v4.7.2-stable_linux.x86_64 --path . -- --capture
+python tools/verify_screenshots.py
 ```
 
-The source audit requires its fixed base commit locally. Full CI checks native dimensions, alpha and provenance, authentic repair anchors, duplicate prose, every gated story route, saves, UI, all outfit motions, completed-practice persistence, ensemble bounds and motion settings. Xvfb captures **121 real viewport screenshots** and timed portrait animation. The Linux package is launched from a folder without the source checkout.
+Full CI validates fixed-source repair evidence, duplicate prose, every gated route, actual saved decisions, cultivation, native artwork, narration and standalone playback. Season checks require every new scene to be reachable under an actual choice history and cap simultaneous future decisions at four. The viewport verifier expects **164 actual captures**, including fifteen season views. It records a measured count only after capture validation passes. The exported Linux package is tested from a folder without the source checkout.
 
-Piper Lessac generates narration for every displayed scene, reusing clips only after text, byte and decoded-audio checks. Changed text is regenerated. Narration uses 8 kHz mono Vorbis capped at 10 kb/s to reduce downloads; this lowers audio fidelity while keeping complete speech and timing. CI can reuse independently verified prior draft narration. Music and sound effects are original synthesized audio.
+Piper Lessac supplies narration for every displayed scene. Clips are reused only after text, byte and decoded-audio checks. Speech is 8 kHz mono Vorbis capped at 10 kb/s to limit downloads. Original synthesized music and effects accompany it.
 
-Draft validation checks delivered content and reports quotas. `python tools/validate_world.py --require-complete` additionally requires every manuscript and art target. Moving the PR out of draft enables that strict check.
-
-```mermaid
-flowchart TD
-  Books["Manifest · 19 books · playable node prose"] --> State["Choices · completed practice · versioned saves"]
-  State --> Stage["Native ensemble portraits + layered atmosphere"]
-  Books --> Voice["Hash-verified neural narration"]
-  Voice --> Game["Godot game"]
-  Stage --> Game
-  Source["Fixed source + 101 repair anchors"] --> Checks["Python + Godot validation"]
-  Books --> Checks
-  Game --> Capture["Actual screenshots + timed animation"]
-  Checks --> Package["Exported Linux package + source-free playback"]
-```
-
-See [development instructions](docs/DEVELOPMENT.md), [story authoring](docs/STORY_AUTHORING.md), [cultivation canon](docs/CULTIVATION_SYSTEM.md) and [measured delivery report](docs/content_report.json).
+`python tools/validate_world.py --require-complete` requires every manuscript and art target. [Development instructions](docs/DEVELOPMENT.md) · [Story authoring](docs/STORY_AUTHORING.md) · [Latest measured delivery report](docs/content_report.json)
 
 ## License
 
-Project code and original story: [MIT](LICENSE). Original artwork provenance is recorded under `assets/art/`. Piper's model card and Godot's license notices are included in the Linux package.
-
-The latest [source-backed continuity sweep](docs/SEMANTIC_SWEEP_20261006.md) repairs six additional underlying contradictions across 27 passages and adds a native Lark Pass location painting. The two-million-word and 1,000-verified-repair targets remain unfinished.
-
-Twenty-one new original paintings are retained at actual native resolution: ten location backgrounds at 1536 × 1024, the avalanche shelter at 1672 × 940, and ten transparent character portraits at 1024 × 1536. [Their creation record](assets/art/CONTINUATION_20261006_PROVENANCE.md) identifies each immutable original. The world now contains 84 backgrounds and 65 NPC paintings; unfinished prose is excluded from the delivered manuscript count.
+Project code and original story: [MIT](LICENSE). Original artwork provenance is retained under `assets/art/`. Piper's model card and Godot's license notices are included in the Linux package.

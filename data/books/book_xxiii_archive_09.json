@@ -1,0 +1,864 @@
+{
+  "chapters": {},
+  "characters": {},
+  "nodes": {
+    "season_archive_m09_entry": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The first cool morning arrived before the proposed warehouse visit. Su had three kinds of news: the actual custodian could show the requested public receiving records for a short interval; the annex owner still wanted a workable storage plan; and readers had responded to the recipe decision. Lin heard the last news before tying up the older approved copies. A choice made at one table could produce a question at another. Qiu was already looking toward the road, but she stayed for the account of what their actual issued work had invited.",
+      "next": "season_archive_m09_common_001",
+      "routes": [
+        {
+          "decision": "season_archive_m08_recipe",
+          "selected": "season_archive_m08_text_001",
+          "next": "season_archive_m09_recall_text_001"
+        },
+        {
+          "decision": "season_archive_m08_recipe",
+          "selected": "season_archive_m08_notes_001",
+          "next": "season_archive_m09_recall_notes_001"
+        },
+        {
+          "decision": "season_archive_m08_recipe",
+          "selected": "season_archive_m08_defer_001",
+          "next": "season_archive_m09_recall_defer_001"
+        }
+      ]
+    },
+    "season_archive_m09_recall_text_001": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The exact recipe sheet had been read by a visitor who wanted to know whether the lost amount could be guessed from the remaining words. Su had answered from the actual sheet: the project had supplied no conversion and performed no test. The visitor copied the uncertain instruction for her own comparison with a household recipe. Lin was glad she had understood what she took. Qiu would have liked to see the comparison, but the visitor had not offered that private work. Interest did not turn her kitchen into their next source.",
+      "next": "season_archive_m09_recall_text_002"
+    },
+    "season_archive_m09_recall_text_002": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The owner reviewed the issued transcription again and left its authorization in place. She asked them to resist the more elaborate title another reader had suggested. The sheet was a recipe copy with missing information, not a lost feast recovered from exile. Qiu found the proposed title embarrassing enough to laugh, then stopped when she saw the owner disliked hearing it repeated. Lin checked that the current heading remained plain. Their exact copy had become useful to some readers without acquiring an additional dated recollection or a performed cooking demonstration.",
+      "next": "season_archive_m09_recall_text_003"
+    },
+    "season_archive_m09_recall_text_003": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Before setting out, Qiu placed the reading sheet back where it belonged and took only the public comparison request. She said a readable gap was doing work after all. Lin did not treat her remark as surrender. She still preferred a method someone could repeat, and she still wanted to ask whether a repeated success would prove the old method. Neither question needed settling on this journey. The recipe stayed in its authorized form; they went to examine dated receiving records that might establish something far narrower than a remembered taste.",
+      "next": "season_archive_m09_common_001"
+    },
+    "season_archive_m09_recall_notes_001": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The recipe and the owner's separately dated recollection had prompted a practical question about the remembered sourness. A reader wanted a precise resting interval for hot weather. Su had shown both source headings and the sentence that the method had not recently been tested with the missing bowl. The reader accepted that no interval followed. Qiu was pleased he had used the second sheet to ask a better question; Lin was pleased the question remained unanswered rather than filling itself with a guessed number. The two kinds of satisfaction could occupy the same table.",
+      "next": "season_archive_m09_recall_notes_002"
+    },
+    "season_archive_m09_recall_notes_002": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The owner had reviewed a suggestion to add further cooking signs and declined for the present. She did not want every successful cake in someone else's kitchen to become part of her dated account. The issued pair therefore remained as approved: uncertain transcription beside bounded recollection, with no project test claimed. Lin checked their retained copy for the same headings. Qiu used the spare reading place for another already authorized sheet. Waiting for new permission was neither a hidden cooking trial nor a reason to hold the whole table empty.",
+      "next": "season_archive_m09_recall_notes_003"
+    },
+    "season_archive_m09_recall_notes_003": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "rival_qiu_zhen",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Qiu said the paired records had made some readers understand that a present witness could know useful things without repairing every old gap. Lin agreed and asked her not to turn that modest result into a claim that all readers had understood. She named the two they had actually heard from. The count was small enough to be credible. They left the recipe materials where they belonged, took the request for the receiving records, and set out with a clearer reason to distinguish a dated present account from an older printed form.",
+      "next": "season_archive_m09_common_001"
+    },
+    "season_archive_m09_recall_defer_001": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The owner had sent a short note about the deferred recipe. She appreciated having her page back and did not wish to renew the offer this month. Su reported the sentence without adding an interpretation of whether the woman remained annoyed. There was no issued recipe sheet or present explanation to amend. Qiu put the empty place in their task list beside work that had actually been done, not beside completed copies. Lin accepted the woman's decision without proposing that a later holiday would make the page more convenient to request.",
+      "next": "season_archive_m09_recall_defer_002"
+    },
+    "season_archive_m09_recall_defer_002": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "A visitor asked about a cake recipe someone had heard discussed in the annex. Su said none had been issued by this project. She did not direct him to the owner's household. The absence cost them a possible reader and spared the woman an unaccepted errand; they could not weigh both effects into a final moral score. Qiu looked irritated when the visitor left. Lin did not tell her she ought to feel otherwise. Their earlier choice had consequences, including an interesting source remaining outside their public work.",
+      "next": "season_archive_m09_recall_defer_003"
+    },
+    "season_archive_m09_recall_defer_003": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Before setting out, they checked that no recipe draft had become an unofficial reference among the project papers. The owner controlled the offered transcription and the question of a later use. The cook's private letter had never entered their work. Qiu said she wanted the next task to end with something people could actually see. Lin answered that the dated public records might allow it. The prospect was a reason to do that work carefully, not a promise that declining one useful source would somehow guarantee success with another.",
+      "next": "season_archive_m09_common_001"
+    },
+    "season_archive_m09_common_001": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "rival_su_yao",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Su confirmed the custodian's interval before they walked to the old warehouse office. It was an ordinary visit to approved public forms, arranged by the keeper rather than by any authority Lin or Qiu possessed. Their work elsewhere had been checked against the morning; neither abandoned an accepted duty to make the journey. They took a light packet of approved comparisons and no originals from the annex. Lin left the heavier folder on its proper shelf. Four pairs gave her no reason to load a shoulder that had already told her how far today's carrying should go.",
+      "next": "season_archive_m09_common_002"
+    },
+    "season_archive_m09_common_002": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The road followed the canal for a stretch before turning toward the warehouse. A ferry was taking passengers at the steps, and Qiu stopped to let a woman with a sleeping child pass. The woman needed both hands for her bundle. Lin did not offer to lift it from an awkward height; she moved the loose board that caught her shoe, using her good side and keeping the motion small. The ferryman waited. No one called it a test of cultivation. The child slept through the delay, which seemed the most successful response available.",
+      "next": "season_archive_m09_common_003"
+    },
+    "season_archive_m09_common_003": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The warehouse office occupied the front of a building still used for ordinary storage. The custodian met them by the public desk, a small man with a thick scarf despite the mild day. He had been cutting labels and a strip adhered to his sleeve. Qiu pointed it out only after he had finished explaining where visitors could stand. He laughed and peeled it away. They introduced the specific question: compare dated receiving forms and the short red mark convention. They did not ask him to identify the cloth's former owner from a damaged symbol.",
+      "next": "season_archive_m09_common_004"
+    },
+    "season_archive_m09_common_004": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The custodian brought the requested public register into the approved viewing place himself. Its edge was worn, and he handled it according to his responsibility. Lin and Qiu kept their hands beside their own paper. A list of received goods had been copied from older delivery slips, with the slips' surviving dates and boat names identified where legible. The register did not make every date independent testimony. The custodian pointed out which entries referred to an attached slip and which had only the later copy. Lin recorded that difference before comparing the marks.",
+      "next": "season_archive_m09_common_005"
+    },
+    "season_archive_m09_common_005": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Two attached public slips carried the three short bars. One named a boat called Reed Lantern; the other, dated several weeks later, named Small Balance. The cargo descriptions differed. The custodian permitted a bounded copy of each visible public entry and its attached form, excluding an unrelated note in the folded margin. Qiu wanted to see the slips beside one another, but the custodian chose the handling sequence. They compared their approved drawings at the desk instead. The same convention could appear across different dated deliveries without being a unique label for a single journey.",
+      "next": "season_archive_m09_common_006"
+    },
+    "season_archive_m09_common_006": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "A gap in the older register left a boat column blank. Qiu asked whether the named Reed Lantern had continued making the route. The custodian said he could show what these records stated; he could not supply the lost portion from memory. A boy bringing a message interrupted him before he could offer a possible address for further public records. Lin watched Qiu wait rather than complete the answer on the man's behalf. When the message was dealt with, the custodian gave the address as a present suggestion and identified it as such.",
+      "next": "season_archive_m09_common_007"
+    },
+    "season_archive_m09_common_007": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "They made the permitted copies under the custodian's observation. Qiu read the form entries while Lin wrote, then they exchanged roles for the second check. She took a rest before reaching across the desk for a fresh sheet, so she passed it within her low working range. The custodian did not see the accommodation as evidence about ancient ferries. It was simply how the copying took place today. The mark on the second slip had a corner stroke that resembled a variant on the trade sheet. Resemblance mattered enough to draw; it did not identify the cloth.",
+      "next": "season_archive_m09_common_008"
+    },
+    "season_archive_m09_common_008": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The custodian approved the completed public excerpts and the way they named immediate sources. He declined a drawing of a private name visible through thin paper from an unrelated entry. Qiu had noticed the shape but had not traced it. Lin left that part blank. The omission made their sample less visually pleasing, with a sudden white interval where a careless full page reproduction would have looked complete. The approved copy belonged to the bounded view they had received. It did not need to imitate the privacy breach a more attractive picture might have made.",
+      "next": "season_archive_m09_common_009"
+    },
+    "season_archive_m09_common_009": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "On the return road, Qiu proposed comparing the two public cargo totals. Lin asked what such a comparison would answer. She said it might show whether the mark was for a standard bundle count. The totals on their excerpts did not match, and neither was a measure of the cloth. This did not establish the mark's general meaning across the trade; it narrowed one easy guess. Qiu struck that guess from her working scrap. A crossed out thought could be useful without becoming a finding, so long as they did not make a public certainty from the rejection.",
+      "next": "season_archive_m09_common_010"
+    },
+    "season_archive_m09_common_010": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "A small boat passed while they were seated near the public steps. Its owner called for someone to push the bow away from the stone. Qiu did so at a safe angle from the ground; Lin stayed with the papers. A little girl on the boat waved at them as though they had sent her on a grand expedition. The boat carried sacks and a cage with no bird in it. Lin liked the empty cage's bright paint and kept the liking separate from evidence. Objects could attract attention without becoming clues in a project that already had enough uncertainties.",
+      "next": "season_archive_m09_common_011"
+    },
+    "season_archive_m09_common_011": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "rival_qiu_zhen",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Qiu came back rubbing the heel of her palm. She had not performed a special technique or put force into the boat beyond an ordinary push. Lin offered the cloth from her clean pocket. She declined and shook her hand once. They spoke about the boat names on the slips. Names could recur; a repaired hull could keep a name; a different owner might choose a familiar one. The custodian's entries linked named deliveries within their own records. No one had promised those words alone would establish the whole life of either vessel.",
+      "next": "season_archive_m09_common_012"
+    },
+    "season_archive_m09_common_012": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At the annex, Su listened to the actual result before giving them the day's room news. The owner had measured the proposed storage stack and found the first plan too narrow for her own use. She was willing to discuss a second drawing, provided it left the passage and her boxes accessible. No final term had been offered that day. Qiu laid their copied forms down with the irritation of someone who had gained evidence and lost floor space at once. Lin moved the light chair instead of reaching for the stacked boxes they did not own.",
+      "next": "season_archive_m09_common_013"
+    },
+    "season_archive_m09_common_013": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "They used scrap to redraw the shared area. The keeper would have to approve any arrangement affecting access and staff work; the room owner would decide whether her use remained possible. Su named those actual responsibilities and then asked which public question their new copies could answer. Qiu said the red mark occurred on at least two differently dated deliveries with different named boats. Lin said their sample showed that without proving a broad trade rule. This was a useful sentence. It did not name the red cloth's missing year, absent owner, or older place of origin.",
+      "next": "season_archive_m09_common_014"
+    },
+    "season_archive_m09_common_014": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The household owner came to hear what they had found. She had not asked them to search for a lost relative; she wanted to know whether the cloth's torn strip could be explained without inventing a dramatic journey. Lin described the dated public forms and the limits of similarity. She seemed relieved and then disappointed, both feelings arriving before she could put them into words. Qiu asked which part had disappointed her. The woman said a plain answer still left her wondering why her aunt had kept the cloth. That was a real question the copied slips had not answered.",
+      "next": "season_archive_m09_common_015"
+    },
+    "season_archive_m09_common_015": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The owner could authorize an account of her current cupboard inventory, but she could not authorize someone else's lost reasons into existence. She did not offer a new private page. Lin returned the approved cloth drawing to its place. Qiu asked whether they should publish the two dated form examples so future readers would stop treating the red bars as a single secret sign. The owner said that sounded useful if the description did not pretend she had asked for a public lesson about her aunt. Su wrote down the distinction while the woman was there to approve its phrasing.",
+      "next": "season_archive_m09_common_016"
+    },
+    "season_archive_m09_common_016": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "A boy at the reading table asked whether Reed Lantern had sunk. He had heard a story about a missing boat from an older cousin. The slips did not establish that. Qiu showed him the ordinary word received, which meant the named delivery had been recorded here on that date. It said nothing about the boat afterward. He found this answer less exciting than the story but liked the boat's name. Lin asked whether he could draw a reed lantern from that name alone. The boy said yes, and accepted that his drawing would be an invention.",
+      "next": "season_archive_m09_common_017"
+    },
+    "season_archive_m09_common_017": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The boy left a little boat drawing on his own scrap, then took it when his mother called him away. It did not become part of the approved public excerpt. Qiu watched him carry it and said people could survive being told where invention began. Lin answered that some could even enjoy it. They did not generalize from one cheerful child to every visitor. Still, the exchange loosened the solemnity around their damaged strip. Not every refusal to complete a record had to end in a disappointed silence or an argument about the value of history.",
+      "next": "season_archive_m09_common_018"
+    },
+    "season_archive_m09_common_018": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The custodian's public address for further records lay in their work packet. A new request might obtain a dated landing receipt or it might produce no surviving record. They could ask one narrow question within current capacity; they could not conduct an unlimited search before the annex decision. Qiu favored showing the solid comparison immediately. Lin wanted to consider whether an explicit request would clarify the blank boat column. Su asked them to distinguish what had already become available from what another person would have to do. She was tired and wanted the choice made before supper.",
+      "next": "season_archive_m09_common_019"
+    },
+    "season_archive_m09_common_019": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_canal_shared_kitchen",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At the shared kitchen, the cook served without having to explain his father's empty chair. His sister was trying to sell a cracked bowl as still perfectly useful and had placed it at the front of the shelf. Qiu said its leak could be demonstrated; the sister replied that it held beans. The household argument sounded like ordinary trade rather than a philosophical debate. Lin ate quietly and noticed the cook had moved the salt jar farther from the ladle. A practical adjustment could happen after a difficult week without carrying the weight of recovery.",
+      "next": "season_archive_m09_common_020"
+    },
+    "season_archive_m09_common_020": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "rival_su_yao",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Su told them the public autumn market would have a small place for approved project sheets if they actually chose to take it. The offered interval was finite and would not enlarge permissions over private sources. Qiu immediately imagined the paired slips where visitors could see them. Lin imagined someone asking about the missing boat, as the boy had done. Both reactions mattered. The exhibition would need a bounded claim people could understand while standing in a noisy market, and the annex room decision would need practical evidence of actual use rather than a legend about discovery.",
+      "next": "season_archive_m09_common_021"
+    },
+    "season_archive_m09_common_021": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "They returned in daylight to prepare the choice, leaving the meal's talk at the kitchen. The public slips were currently approved excerpts; the red cloth drawing and trade forms had their own source limits. Qiu laid the two slips far enough apart for readers to see their distinct dates. Lin tried a short caption and found she had written a paragraph too long for a standing visitor. Su crossed out no facts. She asked which question the first sentence answered, and why that answer came after a sentence about every question it could not answer.",
+      "next": "season_archive_m09_common_022"
+    },
+    "season_archive_m09_common_022_b": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Su said it could be ready if that was their chosen task. There was also the possible narrow request for the missing column and a public orientation map using the records they already had. They could not finish all three before the offered market interval.",
+      "next": "season_archive_m09_common_023"
+    },
+    "season_archive_m09_common_022": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Lin rewrote the opening. The same short red mark occurred on these two dated public receiving forms, which named different boats and different deliveries. Below it she kept a smaller account of the source chain and the fact that similarity did not identify the cloth. Qiu approved the shorter opening and proposed a clear visual comparison.",
+      "next": "season_archive_m09_common_022_b"
+    },
+    "season_archive_m09_common_023": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The approved work packet remained on the dry table while they looked at the calendar. Existing duties removed one of the afternoons Qiu had first counted, and Lin needed a shorter session between the remaining ones. These were real limits, not a symbolic refusal to work. Su had no new grant or spare anonymous labor to supply. The earlier three afternoon trial was over, its facility account closed. This ordinary project had only its own current authorized provisions. A choice now would decide what they could genuinely show, ask, or explain when autumn visitors arrived.",
+      "next": "season_archive_m09_common_024"
+    },
+    "season_archive_m09_common_024": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "rival_qiu_zhen",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Qiu rested her elbows on the table and said she wanted the record to surprise people with how ordinary it was. Lin liked that ambition more than she expected. An ordinary receipt could break the expectation of one inevitable tragedy without declaring that no tragedy had happened. It could show two shipments where a romantic tale insisted on one. The household owner's question about her aunt would still remain. They could name that unresolved question only within the woman's approved phrasing. They could not use her disappointment as the market's emotional conclusion.",
+      "next": "season_archive_m09_common_025"
+    },
+    "season_archive_m09_common_025": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "rival_su_yao",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Su asked for the work they would undertake. A paired excerpt would show the dated comparison directly. A narrow new request might clarify the missing boat entry but postpone the public comparison while they waited. A public orientation sheet could place the known receiving office, landing, and records in relation without reconstructing an old route. Qiu and Lin had enough approved material for the first or third task; the second depended on an actual reply. Their answer would shape the exhibition and the next conversation with the room owner.",
+      "next": "season_archive_m09_delivery"
+    },
+    "season_archive_m09_delivery": {
+      "chapter": "book_xxiii_season",
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Lin placed the two slips beside the proposed map and the address for further records. The same marks had already survived two distinct dated deliveries; the blank column still did not name a lost boat. They could make the solid comparison public, seek a narrowly missing entry before presenting it, or help visitors understand where the verified records came from. Qiu wanted an answer that would reach actual readers. Su wanted a task they could finish within the room, time, and source permissions they really had.",
+      "choices": [
+        {
+          "text": "Prepare the paired public excerpts and show the two dated deliveries.",
+          "next": "season_archive_m09_pair_001"
+        },
+        {
+          "text": "Send the narrow request about the missing boat entry and postpone this comparison.",
+          "next": "season_archive_m09_request_001"
+        },
+        {
+          "text": "Prepare a public orientation sheet of the verified record locations.",
+          "next": "season_archive_m09_map_001"
+        }
+      ]
+    },
+    "season_archive_m09_pair_001_b": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "rival_qiu_zhen",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Su asked a visitor who was already at the table to read the opening sentence. He understood it on the first attempt and asked whether the forms had been copied on the same day. They added the present copying date without altering the old dates.",
+      "next": "season_archive_m09_pair_002"
+    },
+    "season_archive_m09_pair_001": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "rival_qiu_zhen",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Qiu began the paired comparison with the dates rather than the most attractive mark. Lin copied the authorized excerpt headings and checked that the two named boats remained separate. The first slip concerned one set of goods; the second concerned another. Their arrangement let a reader see those differences before drawing a conclusion from the red bars.",
+      "next": "season_archive_m09_pair_001_b"
+    },
+    "season_archive_m09_pair_002": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The visitor then asked which boat had carried the cloth. Lin said the excerpts did not establish that either had. The visitor pointed at the similar mark, so Qiu showed the variants within the older trade sheet. She did not claim this sample explained every mark's meaning. It demonstrated that their shape alone could not single out one named delivery from these records. The man nodded and asked for the opening hours. He had been curious, not personally invested in the mystery. His quick departure reminded them that a clear explanation might simply release someone to another errand.",
+      "next": "season_archive_m09_pair_003"
+    },
+    "season_archive_m09_pair_003": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The household owner checked the approved phrase about her question and asked them to put it below the public comparison. She wanted readers to understand the record evidence before hearing that her aunt's reason for keeping the cloth remained unknown. They adjusted the order. The private cupboard history stayed within its separately approved limit; the unused private recipe and correspondence, if any, were not added as atmosphere. Lin found the result less moving than her first draft and more honest. Qiu said visitors might supply plenty of feeling without being instructed by their captions.",
+      "next": "season_archive_m09_pair_004"
+    },
+    "season_archive_m09_pair_004": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "rival_su_yao",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Su obtained the keeper's approval for the exhibition copy within the actual public excerpt permissions. This did not authorize reproduction of the entire register or further private entries. They made one display sheet for the offered market interval and kept the approved project comparison available at the annex. The source request about the blank boat column was not sent. Lin marked that proposed inquiry unperformed, so nobody would later confuse an unanswered letter with a record that had been sought and lost. Qiu liked being able to show something finished before the room decision.",
+      "next": "season_archive_m09_pair_005"
+    },
+    "season_archive_m09_pair_005": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Preparing the display gave Qiu a chance to press Lin on the caption's last sentence. She had described similarity as insufficient for identification in a way that sounded like similarity had no use. She asked her to say what it did contribute: a reason to compare dated forms and a visible convention recurring in their sample. She revised the wording. The change was substantive and still bounded. Their rival instincts had prevented different errors, hers against empty caution and her against a recovered journey assembled from resemblance. Neither error needed to be described as the other's character.",
+      "next": "season_archive_m09_pair_006"
+    },
+    "season_archive_m09_pair_006": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "They carried only the light approved display copy to check the offered market place. Su arranged the actual visit with the organizer, and the proposed stand stayed an offer until its size and use were accepted. A neighboring seller expected to hang baskets from the same support. Qiu negotiated a separate face of the stand so the sheets would not be hidden or catch splinters. Lin rested while she and the organizer measured. She did not lift the frame. They returned with a practical placement agreement for this display, not a promise of a grand exhibition.",
+      "next": "season_archive_m09_pair_007"
+    },
+    "season_archive_m09_pair_007": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At the annex, a reader saw the paired sheet and said two dates still left the space between them unexplained. Lin agreed. Qiu asked whether the sentence about different deliveries had been clear; it had. The sheet had answered its chosen question and left another question visible. The reader wanted the gap because his own family had crossed that canal in a bad season, but he offered no source and requested no family search. They listened briefly without attaching his story to the project. His memory did not make either boat a vessel carrying his relatives.",
+      "next": "season_archive_m09_pair_008"
+    },
+    "season_archive_m09_pair_008": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "By the last preparation afternoon, the paired public excerpt was ready and approved for the offered market use. It showed two recorded deliveries with distinct dates and boat names, explaining why the mark's shape did not identify the red cloth. The missing column remained unresolved, and no new inquiry about it had been sent. Their public orientation map remained only a proposal. Qiu tied the display roll loosely so it would not crease. Lin checked the source headings once more, then stopped before checking could become a substitute for letting a real visitor read.",
+      "next": "season_archive_m09_after_001"
+    },
+    "season_archive_m09_request_001": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Lin and Qiu wrote the narrow request to the suggested public record office. They asked whether a surviving public entry clarified the blank boat column at the specified date and identified the copied register and attached slips they had seen. They did not ask the office to solve the red cloth's origin or inspect private letters. Su checked the practical delivery and reply arrangements with the keeper. The request was actually sent within their current provision. Until a response arrived, they would not present a paired comparison at the offered market place as though that inquiry had already ended.",
+      "next": "season_archive_m09_request_002"
+    },
+    "season_archive_m09_request_002": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "rival_qiu_zhen",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Qiu wanted to retain the completed shorter caption for later. Lin agreed to keep it as an unissued draft with its current status clear. They had approved public excerpts to compare at the working table, but the new request changed their chosen presentation timetable, not the contents of those sources. The household owner heard this distinction directly. She said she could wait through the stated reply interval but would not come every day to ask whether a letter had arrived. Su gave her a realistic contact arrangement rather than making her household responsible for the project's suspense.",
+      "next": "season_archive_m09_request_003"
+    },
+    "season_archive_m09_request_003": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At the proposed market place, the organizer asked whether a missing boat would be revealed. Qiu answered no. Their comparison was postponed while a narrow record request was pending, and they could offer other already authorized sheets if the place remained useful. The organizer said the gap in the program was a nuisance but accepted a smaller selection without the new comparison. Lin felt the cost of waiting more clearly when the man erased a line from his plan. The cost did not prove that waiting was wrong; it did mean their decision affected someone besides themselves.",
+      "next": "season_archive_m09_request_004"
+    },
+    "season_archive_m09_request_004": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "They used the spare preparation interval for copies that were already approved and actually needed. No new orientation map was produced. Qiu read an ordinary column of linen counts and found the work harder to enjoy without the anticipated delivery display. Lin resisted telling her that humility improved a scholar. She had completed the agreed task anyway. When her shoulder required a pause, she checked the second sheet and left the first in reach. Their practical cooperation survived disappointment more convincingly than it would have survived a lecture about the moral beauty of unfinished mysteries.",
+      "next": "season_archive_m09_request_005"
+    },
+    "season_archive_m09_request_005": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "A visitor asked about the receipt marks, having heard them mentioned by the custodian. Qiu explained the observed recurrence on differently dated forms but said their chosen public comparison awaited the narrow reply. She did not imply the office had confirmed anything. Lin showed only material already available under its existing permission. The visitor was satisfied to return another time, then forgot his umbrella. Qiu ran it to the door and came back smiling despite herself. A useful action could fit inside a delayed project without providing evidence that the delay would ultimately be rewarded.",
+      "next": "season_archive_m09_request_006"
+    },
+    "season_archive_m09_request_006": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The reply interval reached its first agreed check with no letter yet received. Su checked the actual delivery arrangement rather than assuming the silence meant loss, refusal, or disaster. The office had received the request and had not completed its search of the permitted public entry. Qiu recorded that modest status exactly. Lin did not let the work list describe the blank column as verified empty. What was missing from their current packet differed from what might survive elsewhere. They would learn only what the actual reply established when it came.",
+      "next": "season_archive_m09_request_007"
+    },
+    "season_archive_m09_request_007": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The household owner met them on an ordinary errand and asked whether anything had changed. They gave the actual status and did not turn her chance encounter into a new private interview. She said the aunt would have disliked standing beside an empty table waiting for a letter. Qiu laughed, then asked if that remark was intended for the public account. It was not. The conversation stayed a conversation. Lin noticed that people could lend the project their patience without lending every sentence they spoke. Their narrow request did not expand an owner's earlier permissions.",
+      "next": "season_archive_m09_request_008"
+    },
+    "season_archive_m09_request_008": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At the end of preparation, the new inquiry remained pending. The paired delivery display had not been issued, and no orientation map had replaced it. Other approved sheets were ready for the smaller market selection. Qiu folded the unissued caption and labeled its status on the work cover. Lin checked that the actual source copies retained their own permissions and did not become inaccessible merely because one presentation waited. They had chosen to spend time seeking a precise missing entry. The next month would bring the office's actual answer, not whatever ending anticipation preferred.",
+      "next": "season_archive_m09_after_001"
+    },
+    "season_archive_m09_map_001": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "They began the orientation sheet from the current public locations and the verified source relationships. Qiu drew the canal, landing, receiving office, and annex as places a visitor could understand now. Lin added which records had been viewed at which approved desk and which older delivery descriptions came from attached slips. They did not draw a reconstructed voyage between the boats' distant origins. The map's purpose was to show how their evidence reached the current reading table. A straight line on paper could otherwise make an uncertain historical journey look inevitable.",
+      "next": "season_archive_m09_map_002"
+    },
+    "season_archive_m09_map_002": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "rival_su_yao",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Su arranged a short daylight check of the public approach with the organizer's actual availability. They carried a light draft and left originals and unnecessary copies at the annex. Lin walked without loading her shoulder; Qiu marked the places where the first sketch confused a narrow lane with a canal edge. A porter asked if they were surveying building ownership. They said they were checking public directions for a reading sheet. He showed them the door visitors commonly missed, then returned to his work. His useful present directions did not establish the building's older use.",
+      "next": "season_archive_m09_map_003"
+    },
+    "season_archive_m09_map_003": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At the receiving office, they asked permission to verify the public desk's designation on the orientation sheet. The custodian confirmed the current description and corrected the entrance arrow. He did not approve a historic outline of the whole warehouse, which they had not requested. Qiu removed an appealing little roof drawing because it could suggest a precision their source chain did not need. Lin thought it harmless decoration until she saw where the old and current dates lay beneath it. Sometimes a drawing added an unwanted assertion even when nobody had written one in words.",
+      "next": "season_archive_m09_map_004"
+    },
+    "season_archive_m09_map_004": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "They returned by the ferry steps and found the landing crowded with a delivery. The proposed public direction across the narrow edge would be inconvenient during actual work, so they selected the ordinary wider approach where visitors were allowed. Lin sat while Qiu checked the turn. A man carrying sacks teased them for making a map of somewhere everyone knew. Qiu asked whether every visitor knew it. He admitted his sister had spent half an hour at the wrong door. That was a better reason for the sheet than their own pleasure in drawing neat paths.",
+      "next": "season_archive_m09_map_005"
+    },
+    "season_archive_m09_map_005": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The household owner read the orientation sheet and said it made the cloth look less like an object mysteriously transported to the annex. Lin explained the current approved chain into their project, bounded by what she had authorized. The map did not show the cloth's older travels. She approved the distinction and the use of the already permitted source account. Her private family questions stayed off the geographic lines. Qiu liked the map's practical use and disliked its open space where the old route might have gone. She left that space blank.",
+      "next": "season_archive_m09_map_006"
+    },
+    "season_archive_m09_map_006": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "They issued the authorized orientation sheet for the offered market place after the keeper checked the current directions and source descriptions. It located verified viewing places and showed the sequence of approved copies reaching the annex. The red mark comparison was described only within material already public, without a new paired display arranged as a finding. No request about the blank boat column was sent. Lin marked that proposed task unperformed. The map answered where their present evidence came from; it did not fill the older boat's missing column or locate the cloth in either delivery.",
+      "next": "season_archive_m09_map_007"
+    },
+    "season_archive_m09_map_007": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "A visitor tried the directions and returned to say he had found the receiving office without asking a porter. Qiu took the report as one actual success rather than proof that the map would guide everyone. Another reader thought a line meant the cloth had traveled along that route. Lin changed the line's label to approved copies brought to the reading table and asked the reader to look again. The confusion cleared. Their sheet became more useful because someone had misunderstood it openly, not because the first draft had anticipated every possible reading.",
+      "next": "season_archive_m09_map_008"
+    },
+    "season_archive_m09_map_008": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "By the final preparation afternoon, the public orientation sheet was ready under its actual approval. The paired delivery display remained unissued, and the blank boat entry remained unrequested and unresolved. Qiu folded the light map copy so the source headings would be visible before the directions. Lin checked that its current places and older record descriptions had their dates distinguished. They had not drawn a lost journey or recovered a route for the red cloth. Visitors could follow the evidence into the present annex without mistaking that practical path for a full account of the past.",
+      "next": "season_archive_m09_after_001"
+    },
+    "season_archive_m09_after_001": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The market organizer sent the actual time for placing the approved selection. Su confirmed that the remaining public sheets met their permissions and that the display could be handled without exposing originals. The annex owner asked to see the revised floor plan before the market, rather than afterward when everyone would be tired. Qiu accepted the order with less enthusiasm than she accepted the chance to show readers their work. Lin thought the practical room discussion might matter more to the project's survival. Both meetings were now real appointments, not competing imagined futures.",
+      "next": "season_archive_m09_after_002"
+    },
+    "season_archive_m09_after_002": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The floor plan still needed an honest estimate of how many readers could stand by the table. They invited two people already using the annex to try the proposed positions with no furniture moved. One reader's basket occupied the passage they had thought clear. The other needed room to turn without striking the storage boxes. Qiu redrew the table's public edge. Lin suggested a shorter viewing interval when the room was busy. Su said a plan that relied on visitors having no belongings would not be presented to the owner as workable.",
+      "next": "season_archive_m09_after_003"
+    },
+    "season_archive_m09_after_003": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Outside, the child with the paper bird had repaired its torn wing with a strip from an ordinary household wrapper. She asked whether the old marks they were studying could mend it better. Lin said the project copies were not available as repair paper and offered no source material. Qiu found a loose clean scrap from their permitted waste and asked the child's guardian before giving it. The bird acquired a pale tail. It dragged across the paving again, a very visible example of an object used differently without losing every part of its earlier shape.",
+      "next": "season_archive_m09_after_004"
+    },
+    "season_archive_m09_after_004": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The household owner passed on her way home and stopped to watch the bird. She said her aunt had kept too many things to know which ones meant something. Lin did not ask her to sort that sentence into evidence. Qiu asked whether the revised public phrasing still described the question she wished to leave open. The owner read it and approved it without adding a new story. The project could preserve that bounded question alongside actual observations. It did not need to claim every retained object had been deliberately hidden for someone later to decipher.",
+      "next": "season_archive_m09_after_005"
+    },
+    "season_archive_m09_after_005": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "commission_canal_shared_kitchen",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At the shared kitchen, the cook's sister put the cracked bowl to use holding beans exactly as she had promised. The cook placed an uncracked one beside it for water and told Qiu not to demonstrate the leak during supper. Lin laughed so abruptly her shoulder twinged, then settled back. Nothing had been cured. The cook spoke of buying a new pan when current household money allowed, not of using project provision. His father had liked the old pan; that fact could remain true without requiring him to keep using it forever.",
+      "next": "season_archive_m09_after_006"
+    },
+    "season_archive_m09_after_006": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "rival_qiu_zhen",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Qiu and Lin discussed the room proposal on the walk back. She worried that a public display would persuade the owner emotionally without addressing her storage needs. Qiu worried that a plan could satisfy every measurement and leave no reason for readers to come. They agreed to present actual use and actual limits together. The keeper would still judge practical access; the owner would still decide what term to offer. Their cultivation conferred no claim on her room. A good comparison or a careful map could justify asking for space without making that request an entitlement.",
+      "next": "season_archive_m09_after_007"
+    },
+    "season_archive_m09_after_007": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Autumn air came through the annex window and lifted a corner of the light display paper. Su placed an ordinary weight on it. The approved selection was ready within the chosen task's actual state, the new room plan waited for its scheduled discussion, and the red cloth's old origin was still bounded by missing evidence. Lin checked the carrying arrangement and chose the shorter session she could manage. Qiu checked the market place's agreed position. They would meet readers soon, and those readers would bring questions neither rivalry nor caution had fully predicted.",
+      "next": "season_archive_m10_entry"
+    }
+  }
+}

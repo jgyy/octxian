@@ -1,0 +1,158 @@
+{
+  "version": 1,
+  "title": "Source-backed commission calendar and separate mechanics review",
+  "source_commit": "0fe9938bf765611b3fe9d31c747fec6067346620",
+  "source_book_path": "data/books/book_xxi_commissions.json",
+  "source_book_blob_sha": "f102b8fe0e833de0847cfeb272d2522209e38464",
+  "requested_plot_holes": 1000,
+  "confirmed_underlying_defects": 1,
+  "affected_source_passages": 1,
+  "target_met": false,
+  "count_policy": "One newly authenticated shared-scene appointment contradiction receives literary repair credit. The separately documented replay-effects mechanics defect receives zero literary credit. New rival paths, prose, art and regression checks receive no historical defect credit.",
+  "review_scope": "Focused Book XX/XXI branch callbacks, contract timing and finite budgets, plus StoryState save and replay logic. This audit does not claim 1,000 authenticated literary repairs or an exhaustive whole-manuscript review.",
+  "repairs": [
+    {
+      "id": "commission-calendar-001",
+      "classification": "confirmed_continuity_defect",
+      "root_cause": "A shared calendar scene unconditionally gives Yue an accepted but unworked appointment even when the actual preceding ordinary or survey path establishes only finished work or a pending request; missing-record checkpoints have no acceptance to infer.",
+      "source_path": "data/books/book_xxi_commissions.json",
+      "node_id": "commission_calendar_02",
+      "before": {
+        "chapter": "book_xxi_commissions",
+        "speaker": "narrator",
+        "actor": "lin_yue",
+        "background": "commission_review_loggia",
+        "cultivation": {
+          "realm": "qi_gathering",
+          "stage": "5: Four pairs"
+        },
+        "text": "The clerk gave her a small card with three headings: performed work, accepted future work, and matters awaiting an answer. Yue moved one line from the first heading to the second after rereading its signature. She had accepted the appointment but had not attended it. The correction changed no agreement and earned no practice credit. It made the card useful.",
+        "next": "commission_calendar_03"
+      },
+      "after": {
+        "chapter": "book_xxi_commissions",
+        "speaker": "narrator",
+        "actor": "lin_yue",
+        "background": "commission_review_loggia",
+        "cultivation": {
+          "realm": "qi_gathering",
+          "stage": "5: Four pairs"
+        },
+        "text": "The clerk gave her a small card with three headings: performed work, accepted future work, and matters awaiting an answer. Yue checked each available entry against its actual receipt or agreement. An accepted but unworked appointment belonged under future work; a renewal enquiry belonged under pending answers. Where neither was documented, both headings stayed empty. Checking the card changed no agreement and earned no practice credit. It made the card useful.",
+        "next": "commission_calendar_03"
+      },
+      "displayed_word_delta": 11,
+      "evidence": [
+        {
+          "source_path": "data/books/book_xxi_commissions.json",
+          "node_id": "commission_calendar_01",
+          "node": {
+            "chapter": "book_xxi_commissions",
+            "speaker": "narrator",
+            "actor": "lin_yue",
+            "background": "commission_review_loggia",
+            "cultivation": {
+              "realm": "qi_gathering",
+              "stage": "5: Four pairs"
+            },
+            "text": "At the common desk, Yue set the old record beside a blank current calendar. Where earlier evidence was unavailable, the clerk recorded that absence without inventing a qualification, receipt or appointment. Current supervised candidate work remained possible where its own scope allowed it. Where an older acceptance was documented, its dates retained their force. The same calendar method applied to both circumstances: confirm what existed, ask before changing a commitment, and sign only the new hours the parties could really supply.",
+            "next": "commission_calendar_02"
+          }
+        },
+        {
+          "source_path": "data/books/book_xx_careers.json",
+          "node_id": "career_independent_07",
+          "node": {
+            "chapter": "book_xx_careers",
+            "speaker": "narrator",
+            "actor": "lin_yue",
+            "background": "reed_crossing_flood_terrace",
+            "cultivation": {
+              "realm": "qi_gathering",
+              "stage": "5: Four pairs"
+            },
+            "text": "The keeper asked whether Yue would stay for a second morning. Yue declined because she had promised to attend the next ordinary receiving and consider work closer to home. The keeper hired someone else at the same stated rate. Leaving after an agreed finish was different from leaving a half-sorted room and calling the departure freedom.",
+            "next": "career_independent_08"
+          }
+        },
+        {
+          "source_path": "data/books/book_xx_careers.json",
+          "node_id": "career_renew_independent_01",
+          "node": {
+            "chapter": "book_xx_careers",
+            "speaker": "narrator",
+            "actor": "lin_yue",
+            "background": "reed_crossing_flood_terrace",
+            "cultivation": {
+              "realm": "qi_gathering",
+              "stage": "5: Four pairs"
+            },
+            "text": "The ordinary work register received Yue's request for a short contract. It promised no specialist place and no wages for waiting. The clerk would send actual terms when a suitable request arrived. Any earlier work receipts retained their own dates and scopes; the new envelope added no completed shift to them.",
+            "next": "career_renew_independent_02"
+          }
+        },
+        {
+          "source_path": "data/books/book_xx_career_survey.json",
+          "node_id": "career_survey_specialist_receiving_02",
+          "node": {
+            "chapter": "book_xx_careers",
+            "speaker": "narrator",
+            "actor": "lin_yue",
+            "background": "reed_crossing_flood_terrace",
+            "cast": [
+              "lin_yue"
+            ],
+            "cultivation": {
+              "realm": "qi_gathering",
+              "stage": "5: Four pairs"
+            },
+            "text": "The receiver found the service complete under its actual ticket and entered the accepted finishing time. He did not turn that result into a standing appointment. The office kept the recorder's corrected source chain and returned the borrowable instruments against their inventory; the remaining purchased cloth stayed in the office's record stock. Yue asked when the next post would be advertised. Its funding decision was not yet made. She wrote the ordinary application contact instead of a promised date. Future employment could matter enough to ask about without becoming a wage already due.",
+            "next": "career_survey_specialist_result_gate"
+          }
+        },
+        {
+          "source_path": "data/books/book_xx_career_kiln.json",
+          "node_id": "career_kiln_qualify_vessel_04",
+          "node": {
+            "chapter": "book_xx_careers",
+            "speaker": "narrator",
+            "actor": "lin_yue",
+            "background": "kiln_common_firing_hall",
+            "cultivation": {
+              "realm": "qi_gathering",
+              "stage": "5: Four pairs"
+            },
+            "text": "Zhu changed the trainee card only after the completed review. The appointment offered four weeks at seven copper per completed shift, with actual hours and two development sessions named before each booking. Eight copper was reserved for those sessions and review, returning unused money to the hall's account. Yue accepted the first household-bench booking. The blue display tile remained a separate future project, requiring its own place, material tests and payment.",
+            "next": "career_kiln_qualify_vessel_05"
+          }
+        }
+      ],
+      "actual_route_witness": {
+        "start": "career_enrol_choice",
+        "selected_choices": {
+          "career_enrol_choice": "career_independent_entry",
+          "career_next_choice": "career_home_01"
+        },
+        "observed_scene": "commission_calendar_02",
+        "result": "The independent sorting morning was finished and the extra morning declined; a home choice creates no accepted future appointment. The shared source paragraph nevertheless asserts an accepted unworked appointment."
+      }
+    }
+  ],
+  "displayed_word_delta": 11,
+  "book_words_before": 6931,
+  "book_words_after": 6942,
+  "mechanics": [
+    {
+      "id": "choice-effects-replay-001",
+      "classification": "engine_replay_defect",
+      "confirmed_literary_defect_credit": 0,
+      "source_path": "scripts/story_state.gd",
+      "source_blob_sha": "e8dddd0232057faef204fc85e5583e0eb15ae786",
+      "before": "A saved matching choice remains playable, but choice_details() computes its authored effects again and choose() reapplies them. A repeated positive reward at MAX_STAT can also block navigation through overflow.",
+      "after": "Validate the authored effect values, apply them only on the original choice, and keep saved matching replays navigable without an additional reward or cost.",
+      "evidence": "tests/consequences_test.gd explicitly requires saved matching replay to remain playable in _test_saves_and_revisits(); its effects-bearing ordinary fixture previously had no replay regression.",
+      "regression": "The first choice charges one qi and raises insight to MAX_STAT; after save/load, two matching replays keep both scores and the recorded destination unchanged.",
+      "live_manuscript_limit": "No remaining nonzero choice.effects were found in the inspected core, Books I–II, VI–VII or XX–XXI. This mechanics repair protects the supported authoring API and receives no literary plot-hole credit."
+    }
+  ]
+}

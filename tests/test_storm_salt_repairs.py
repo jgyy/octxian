@@ -27,7 +27,7 @@ class StormSaltRepairTests(unittest.TestCase):
         report = validate()
         self.assertEqual(report["new_repair_sites"], 13)
         self.assertEqual(report["unfulfilled_requested_repair_sites"], 87)
-        self.assertEqual(report["remaining_words"], 2000000 - report["words"])
+        self.assertEqual(report["remaining_words"], max(0, 2000000 - report["words"]))
 
     def test_selection_cannot_reintroduce_the_reward(self):
         story, repair = self.changed()

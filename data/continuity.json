@@ -19,7 +19,11 @@
     "book_xvi_desert",
     "book_xvii_archive",
     "book_xviii_letters",
-    "book_xix_reed_crossing"
+    "book_xix_reed_crossing",
+    "book_xx_careers",
+    "book_xxi_commissions",
+    "book_xxii_rival",
+    "book_xxiii_season"
   ],
   "facts": [
     {
@@ -2358,6 +2362,295 @@
         "crossing_cargo_result_gate",
         "crossing_policy_result_gate"
       ]
+    },
+    {
+      "id": "career_exclusive_enrolment_and_prior_accounts",
+      "statement": "Book XX follows the retained Reed Crossing final account. Lin accepts one ungated paid training appointment or independent day work. Employment budgets remain separate from the settled flood service; prior cargo, losses, annotations and bridge clearance do not change. Missing legacy decisions cannot invent a specialist qualification.",
+      "anchors": [
+        "career_entry",
+        "career_arrival_02",
+        "career_arrival_14",
+        "career_enrol_choice",
+        "career_reunion_04",
+        "career_portfolio_independent_01"
+      ]
+    },
+    {
+      "id": "career_kiln_work_pay_and_bounded_qualification",
+      "statement": "Returning kiln experience and the declined former teaching season remain true. Three new performed supervised shifts pay six copper each. Notebook and postage cost three, leaving fifteen. Training fuel is recorded per actual lesson; one uncertain tub and eleven matched entries remain consistent. A failed test stays failed beside corrective practice and independently witnessed retest. The selected specialty earns a bounded ordinary technician qualification without personal-qi operation, hot-post clearance, independent kiln certification or new cultivation stage. Attributes arrive after completed work only.",
+      "anchors": [
+        "career_kiln_entry",
+        "career_kiln_training_choice",
+        "career_kiln_shift_one_09",
+        "career_kiln_shift_two_10",
+        "career_kiln_specialization_choice",
+        "career_kiln_retest_choice",
+        "career_kiln_retest_policy",
+        "career_kiln_appointment",
+        "career_kiln_shift_three_pay",
+        "career_kiln_finish_04"
+      ]
+    },
+    {
+      "id": "career_archive_paid_condition_record_assistant",
+      "statement": "The archive appointment acknowledges previous experience without waiving condition-record training. Ten completed four-copper shifts pay forty. A hundred-copper appropriation spends eighty-eight (forty wages, twelve examiner, twelve materials, twenty-four qualified cover), returning twelve. Trial and assessment choices keep actual failed, stopped or supported findings; specialty work and later offers preserve deferred neighboring services. Independent assessed assistant qualification grants no paper treatment, original custody, private disclosure or cultivation advancement.",
+      "anchors": [
+        "career_archive_induction_02",
+        "career_archive_induction_04",
+        "career_archive_trial_choice",
+        "career_archive_trial_fail_07",
+        "career_archive_training_06",
+        "career_archive_assessment_choice",
+        "career_archive_assessment_history",
+        "career_archive_qualification_03",
+        "career_archive_specialty_choice",
+        "career_archive_future_01",
+        "career_archive_future_04",
+        "career_archive_finish"
+      ]
+    },
+    {
+      "id": "career_survey_measurements_and_finite_budget",
+      "statement": "Three supervised recorder shifts pay twelve copper, with a selected received specialist assignment paying three more. An independent thirty-copper drainage budget pays Lin fifteen, Yuan six, Jiang three, the witness two and supplies/carrier four. A mixed current/historical datum causes a failed slope calculation; the failure is retained, corrected and independently examined. Selected spatial or temporal work and drainage or communication specialties have distinct actual downstream uses. Recorder qualification grants no structural clearance, land ownership, privacy entitlement or new realm.",
+      "anchors": [
+        "career_survey_entry",
+        "career_survey_first_method_choice",
+        "career_survey_second_error_01",
+        "career_survey_second_error_02",
+        "career_survey_second_remedy_05",
+        "career_survey_review_pass_01",
+        "career_survey_review_method_gate",
+        "career_survey_specialization_choice",
+        "career_survey_specialist_result_gate",
+        "career_survey_final_04",
+        "career_survey_final_05"
+      ]
+    },
+    {
+      "id": "career_independent_day_work_and_future_requests",
+      "statement": "Independent day work pays four copper for an accepted sorting morning, with one spent on food; it issues an ordinary reference and no specialist qualification. Later portfolios and renewal addresses follow actual saved enrollment. Home or day-work choices retain completed scopes. Renewal requests reserve no future wages or appointments; every career passage retains Qi Gathering 5: Four pairs.",
+      "anchors": [
+        "career_independent_entry",
+        "career_independent_05",
+        "career_independent_06",
+        "career_portfolio_independent_01",
+        "career_next_choice",
+        "career_renew_dispatch",
+        "career_renew_kiln_01",
+        "career_renew_archive_01",
+        "career_renew_survey_01"
+      ]
+    },
+    {
+      "id": "commission_separate_terms_and_actual_enrollment",
+      "statement": "Book XX endings retain their earned outcomes and continue into a later bounded offer. Saved enrollment selects only its own commission; missing history supplies no unperformed qualification. Declining the offer reaches a separate deferred portfolio and grants no completed commission work or attribute credit.",
+      "anchors": [
+        "commission_entry",
+        "commission_offer_choice",
+        "commission_dispatch",
+        "commission_defer_portfolio_01"
+      ]
+    },
+    {
+      "id": "commission_kiln_finite_accounts_and_future_bookings",
+      "statement": "Six completed shifts pay forty-two. The hall funds ninety for wages, comparisons, independent review and two actual nine-copper replacement losses, plus eighteen for bounded provisions. Purchasers fund one hundred twenty for eight bowls at ten, twenty delivery (lost four, cart ten, packing six), and one twenty-copper performed service. A failed dependent-source recommendation remains failed, and delayed dispatch cannot restore earlier use. The accepted three-shift future booking totals twenty-one unearned; older booking amendments and wage receipts require actual supported records.",
+      "anchors": [
+        "commission_kiln_entry_06",
+        "commission_kiln_scope_common_04",
+        "commission_kiln_day_three_05",
+        "commission_kiln_day_three_10",
+        "commission_kiln_day_six_13",
+        "commission_kiln_finish_06"
+      ]
+    },
+    {
+      "id": "commission_archive_current_scope_and_finite_receiving",
+      "statement": "The current duty choice preserves the older specialty and permits either supported deepening or two actually performed shared receiving shifts. Twelve five-copper shifts pay sixty; an independent one-hundred-eighty appropriation spends one hundred sixty-two and returns eighteen. Qualified cover, two independent reviews, common materials and one supplemental service retain separate budgets. Thirty-five public copies are released and one stays held; treatment, original custody and private disclosure remain with their actual responsible people.",
+      "anchors": [
+        "commission_archive_scope_choice",
+        "commission_archive_prior_shared_07",
+        "commission_archive_prior_gate",
+        "commission_archive_final_02",
+        "commission_archive_final_03",
+        "commission_archive_final_05"
+      ]
+    },
+    {
+      "id": "commission_survey_lead_coordination_after_review",
+      "statement": "Four field shifts pay thirty-two and actual received coordination twelve, making forty-four. The independent one-hundred-twenty account also pays assistants forty, Yuan twelve, Jiang eight, materials/carriage eight, witness three and delivered return five. Concurrent and rotated methods retain different gaps; failed reset evidence is not recreated. Lead recording develops through actual coordination, reproducible independent review and selected receiving, with no structural, land, forecast or medical authority.",
+      "anchors": [
+        "commission_survey_contract_02",
+        "commission_survey_observer_choice",
+        "commission_survey_remediation_choice",
+        "commission_survey_review_close_02",
+        "commission_survey_final_02",
+        "commission_survey_final_07"
+      ]
+    },
+    {
+      "id": "commission_independent_inventory_and_ordinary_reference",
+      "statement": "Eight six-copper mornings pay forty-eight. Porter twenty-four, keeper sixteen, base supplies twelve, witness eight and exactly one performed twelve-copper service exhaust the separate one-hundred-twenty. Fifty-four pieces reconcile to fifty-one released and three retained: two disputed coats and one defective strap. Desk and walking recovery have different later uses. Completed work yields a bounded ordinary logistics reference while specialist qualification columns stay blank.",
+      "anchors": [
+        "commission_independent_recovery_choice",
+        "commission_independent_service_choice",
+        "commission_independent_closing_11",
+        "commission_independent_closing_12",
+        "commission_independent_closing_13",
+        "commission_independent_closing_14"
+      ]
+    },
+    {
+      "id": "commission_cultivation_limits_and_existing_commitments",
+      "statement": "Every commission keeps Qi Gathering 5: Four pairs and the shoulder arrangement. Choice, signature, title and future request grant no growth; performed credited practice can pay only once. Future requests, home visits and day work fit already accepted dates or require mutual amendment before a conflicting plan. Neither an offer refusal nor another future preference silently cancels an existing booking.",
+      "anchors": [
+        "commission_offer_choice",
+        "commission_receiving_01",
+        "commission_next_choice",
+        "commission_home_01",
+        "commission_daywork_01"
+      ]
+    },
+    {
+      "id": "rival_independent_methods_and_personhood",
+      "statement": "Qiu Lian is an independent woman aged32 with measured Qi Gathering5 Four pairs. Her rival claim concerns fast low-load closure. Lin retains her own fifth-stage four pairs and shoulder limits; neither person borrows growth, qualification or intent from the other.",
+      "anchors": [
+        "rival_qiu_intro",
+        "rival_su_intro",
+        "rival_terms_02",
+        "rival_facility_close_02"
+      ]
+    },
+    {
+      "id": "rival_calendar_and_voluntary_participation",
+      "statement": "Three optional trial afternoons are confirmed free before acceptance; existing work and travel dates stay binding. Root offers separate competition, joint fixture work or refusal with independent observation. Entering pays no wage/prize and grants no growth. A documented refusal produces no participant result; an unavailable saved selection establishes neither participation nor refusal.",
+      "anchors": [
+        "rival_prior_gate",
+        "rival_calendar_01",
+        "rival_terms_01",
+        "rival_path_choice",
+        "rival_receiving_independent_01"
+      ]
+    },
+    {
+      "id": "rival_finite_facility_grant",
+      "statement": "The steward holds a24-copper facility grant:9 space,6 purchased consumables,6 witnesses,3 unused returned to grant account at the trial term's close. Remaining purchased stock stays facility property. No amount becomes either practitioner's wage or personal purse.",
+      "anchors": [
+        "rival_terms_01",
+        "rival_facility_close_01"
+      ]
+    },
+    {
+      "id": "rival_actual_method_and_relationship_history",
+      "statement": "Later callbacks read actual recorded choices and retain performed, withheld and corrected comparisons. Shared receiving names only the selected major path; public notes remain separately offered and personal notebooks stay with makers. Rivalry does not establish a standing future service.",
+      "anchors": [
+        "rival_path_choice",
+        "rival_receiving_entry",
+        "rival_receiving_compete_01",
+        "rival_receiving_cooperate_01",
+        "rival_receiving_independent_01",
+        "rival_facility_close_03"
+      ]
+    },
+    {
+      "id": "season_closed_trial_separate_dates_and_limits",
+      "statement": "Book XXIII starts after the three-afternoon trial and 24-copper facility grant have closed. Each later inquiry has separately confirmed dates and scope. Existing accepted commitments, actual qualifications, private custody, the affected shoulder and Qi Gathering 5: Four pairs remain. Missing old decisions establish no invented participation or relationship.",
+      "anchors": [
+        "season_entry",
+        "season_prior_gate",
+        "season_terms_01",
+        "season_terms_02",
+        "season_terms_03",
+        "season_path_choice",
+        "season_receiving_gate",
+        "season_close_01",
+        "season_close_02"
+      ]
+    },
+    {
+      "id": "season_water_actual_history_and_closing",
+      "statement": "The later river account is separate from the closed trial grant. Actual panel replacement, repair or returned borrowing remains distinct through final witness and cleanup work; private orders and paid readings keep their own purses. Independent gauge zeros and dates cannot establish a surveyed common height, and weather information grants no crossing authority.",
+      "anchors": [
+        "season_water_entry",
+        "season_water_10_entry",
+        "season_water_15_entry",
+        "season_water_19_entry",
+        "season_water_20_entry",
+        "season_end_water"
+      ]
+    },
+    {
+      "id": "season_archive_actual_history_and_closing",
+      "statement": "Owners retain originals and private recollections. Untested recipes remain untested unless actually demonstrated on newly limited terms. The smaller annex's renewed lease expires the following autumn; finite copying work, public directions and portable closing receipts confer no original custody or conservation role.",
+      "anchors": [
+        "season_archive_entry",
+        "season_archive_m10_entry",
+        "season_archive_m15_entry",
+        "season_archive_m19_common_001",
+        "season_archive_m20_common_001",
+        "season_end_archive"
+      ]
+    },
+    {
+      "id": "season_road_actual_history_and_closing",
+      "statement": "Owners control private letters and authorized delivery. Canceled sessions remain canceled and actual copying errors are acknowledged through the receivers. The 12, 18 and 40 copper circuits close separately; later visits, personal purchases and counter work require actual new acceptance and completion.",
+      "anchors": [
+        "season_road_entry",
+        "season_road_f10_001",
+        "season_road_f15_001",
+        "season_road_f19_001",
+        "season_road_f20_001",
+        "season_end_road"
+      ]
+    },
+    {
+      "id": "season_kiln_actual_history_and_closing",
+      "statement": "Qualified makers control operations. The first order receives 312 against 336 actual costs, leaving 56 of the 80 reserve; separately approved roof repair leaves 44, all actually returned at closing. Nine winter services receive 90 after completion. Bowl display, illustration and private refusal perform only the selected event and return the owner's property.",
+      "anchors": [
+        "season_kiln_entry",
+        "season_kiln_10_001",
+        "season_kiln_15_001",
+        "season_kiln_19_001",
+        "season_kiln_20_001",
+        "season_end_kiln"
+      ]
+    },
+    {
+      "id": "season_garden_actual_history_and_closing",
+      "statement": "Twenty paid sessions include one two-hour storm visit, giving 59 paid hours per helper and 118 labor total. Actual annual or plum materials cost 9 or 14, giving final total returns 33 or 28 from 160. Owners retain patient information and drawings; the separate established plum supplies only a permitted naturally fallen private pressed leaf.",
+      "anchors": [
+        "season_garden_entry",
+        "season_garden_10_001",
+        "season_garden_15_001",
+        "season_garden_19_001",
+        "season_garden_20_001",
+        "season_end_garden"
+      ]
+    },
+    {
+      "id": "season_harbor_actual_history_and_closing",
+      "statement": "Professional staff retain navigation, rescue, rigging and quarantine authority. Eighteen private canvas rolls are stock rather than public copper; the earlier 24-copper grant is closed. Actual limited helper intervals and professional review end before local custody handover. General receivers retain source sleeves; only permitted closing pages and receipt references accompany Lin.",
+      "anchors": [
+        "season_harbor_entry",
+        "season_harbor_10_entry",
+        "season_harbor_15_entry",
+        "season_harbor_19_entry",
+        "season_harbor_20_entry",
+        "season_end_harbor"
+      ]
+    },
+    {
+      "id": "letters_prior_house_claimant_and_later_sun_scope",
+      "statement": "The earlier conditional descendant occupation right and thirty-copper loss compensation belong to He Xi's mother with the named household. Sun Nian is the separate public-path witness. Her later three-doorway runoff statement and limited outlet-inspection permission establish no receipt of the mother's right or compensation; her separate ownership and private notebook retain their scope.",
+      "anchors": [
+        "archive_04_witness_016",
+        "archive_21_004",
+        "archive_22_036",
+        "archive_22_037",
+        "archive_23_011",
+        "archive_24_042",
+        "letters_prepare_003",
+        "letters_sun_result_002"
+      ]
     }
   ],
   "review_policy": "Review each new chapter's chronology, custody, character knowledge, and alternate outcomes before updating this ledger. Structural checks supplement editorial review; they do not prove the absence of all possible plot holes.",
@@ -3257,6 +3550,240 @@
         "crossing_departure_04",
         "crossing_cargo_result_gate",
         "crossing_policy_result_gate"
+      ]
+    },
+    {
+      "id": "career_terms_before_enrolment",
+      "before": "career_enrol_choice",
+      "required": [
+        "career_entry",
+        "career_arrival_02",
+        "career_arrival_05",
+        "career_arrival_12",
+        "career_arrival_16"
+      ]
+    },
+    {
+      "id": "career_actual_work_before_future_request",
+      "before": "career_next_choice",
+      "required": [
+        "career_enrol_choice",
+        "career_reunion_01",
+        "career_reunion_04"
+      ]
+    },
+    {
+      "id": "career_archive_practice_terms_before_trial",
+      "before": "career_archive_trial_choice",
+      "required": [
+        "career_archive_entry",
+        "career_archive_induction_02",
+        "career_archive_induction_04",
+        "career_archive_induction_16",
+        "career_archive_induction_17"
+      ]
+    },
+    {
+      "id": "career_archive_independent_scope_before_specialty",
+      "before": "career_archive_specialty_choice",
+      "required": [
+        "career_archive_training_06",
+        "career_archive_training_08",
+        "career_archive_qualification_02",
+        "career_archive_qualification_03",
+        "career_archive_qualification_07",
+        "career_archive_qualification_08"
+      ]
+    },
+    {
+      "id": "career_survey_correction_and_review_before_specialty",
+      "before": "career_survey_specialization_choice",
+      "required": [
+        "career_survey_entry",
+        "career_survey_first_method_choice",
+        "career_survey_second_error_02",
+        "career_survey_second_remedy_05",
+        "career_survey_review_pass_01",
+        "career_survey_review_method_gate"
+      ]
+    },
+    {
+      "id": "commission_terms_before_offer",
+      "before": "commission_offer_choice",
+      "required": [
+        "commission_entry",
+        "commission_calendar_01"
+      ]
+    },
+    {
+      "id": "commission_actual_acceptance_before_completed_portfolio",
+      "before": "commission_portfolio_dispatch",
+      "required": [
+        "commission_offer_choice",
+        "commission_dispatch",
+        "commission_receiving_01"
+      ]
+    },
+    {
+      "id": "commission_archive_actual_scope_before_service",
+      "before": "commission_archive_service_choice",
+      "required": [
+        "commission_archive_scope_choice",
+        "commission_archive_explanation_choice",
+        "commission_archive_recovery_19"
+      ]
+    },
+    {
+      "id": "commission_survey_actual_correction_before_delivery",
+      "before": "commission_survey_delivery_choice",
+      "required": [
+        "commission_survey_observer_choice",
+        "commission_survey_remediation_choice",
+        "commission_survey_second_close_02"
+      ]
+    },
+    {
+      "id": "commission_independent_actual_recovery_before_service",
+      "before": "commission_independent_service_choice",
+      "required": [
+        "commission_independent_entry",
+        "commission_independent_recovery_choice"
+      ]
+    },
+    {
+      "id": "commission_kiln_completed_recovery_before_service",
+      "before": "commission_kiln_service_choice",
+      "required": [
+        "commission_kiln_method_choice",
+        "commission_kiln_recovery_choice",
+        "commission_kiln_day_four_10"
+      ]
+    },
+    {
+      "id": "commission_future_choice_retains_defer_option",
+      "before": "commission_next_choice",
+      "required": [
+        "commission_entry",
+        "commission_offer_choice"
+      ]
+    },
+    {
+      "id": "rival_real_dates_and_scope_before_path",
+      "before": "rival_path_choice",
+      "required": [
+        "rival_entry",
+        "rival_prior_gate",
+        "rival_calendar_01",
+        "rival_qiu_intro",
+        "rival_su_intro",
+        "rival_terms_01",
+        "rival_terms_02",
+        "rival_terms_03"
+      ]
+    },
+    {
+      "id": "rival_actual_selection_before_receiving",
+      "before": "rival_receiving_entry",
+      "required": [
+        "rival_path_choice"
+      ]
+    },
+    {
+      "id": "rival_facility_account_before_closing",
+      "before": "rival_end_gate",
+      "required": [
+        "rival_facility_close_01",
+        "rival_facility_close_02",
+        "rival_facility_close_03"
+      ]
+    },
+    {
+      "id": "season_real_dates_and_limits_before_choice",
+      "before": "season_path_choice",
+      "required": [
+        "season_entry",
+        "season_prior_gate",
+        "season_terms_01",
+        "season_terms_02",
+        "season_terms_03",
+        "season_choice_preface"
+      ]
+    },
+    {
+      "id": "season_actual_path_before_receiving",
+      "before": "season_receiving_entry",
+      "required": [
+        "season_path_choice"
+      ]
+    },
+    {
+      "id": "season_accounts_and_retained_growth_before_closing",
+      "before": "season_end_gate",
+      "required": [
+        "season_receiving_entry",
+        "season_receiving_gate",
+        "season_close_01",
+        "season_close_02"
+      ]
+    },
+    {
+      "id": "season_water_completed_arcs_before_account_close",
+      "before": "season_water_20_entry",
+      "required": [
+        "season_water_entry",
+        "season_water_10_entry",
+        "season_water_15_entry",
+        "season_water_19_entry"
+      ]
+    },
+    {
+      "id": "season_archive_completed_arcs_before_account_close",
+      "before": "season_archive_m20_common_001",
+      "required": [
+        "season_archive_entry",
+        "season_archive_m10_entry",
+        "season_archive_m15_entry",
+        "season_archive_m19_common_001"
+      ]
+    },
+    {
+      "id": "season_road_completed_arcs_before_account_close",
+      "before": "season_road_f20_001",
+      "required": [
+        "season_road_entry",
+        "season_road_f10_001",
+        "season_road_f15_001",
+        "season_road_f19_001"
+      ]
+    },
+    {
+      "id": "season_kiln_completed_arcs_before_account_close",
+      "before": "season_kiln_20_001",
+      "required": [
+        "season_kiln_entry",
+        "season_kiln_10_001",
+        "season_kiln_15_001",
+        "season_kiln_19_001"
+      ]
+    },
+    {
+      "id": "season_garden_completed_arcs_before_account_close",
+      "before": "season_garden_20_001",
+      "required": [
+        "season_garden_entry",
+        "season_garden_10_001",
+        "season_garden_15_001",
+        "season_garden_19_001"
+      ]
+    },
+    {
+      "id": "season_harbor_completed_arcs_before_account_close",
+      "before": "season_harbor_20_entry",
+      "required": [
+        "season_harbor_entry",
+        "season_harbor_10_entry",
+        "season_harbor_15_entry",
+        "season_harbor_19_entry"
       ]
     }
   ]

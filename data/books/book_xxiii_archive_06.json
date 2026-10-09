@@ -1,0 +1,840 @@
+{
+  "chapters": {},
+  "characters": {},
+  "nodes": {
+    "season_archive_m06_entry": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Sun Nian answered the bounded invitation and arrived on a hot morning when the courtyard bean leaves hung nearly still. The retired copyist's white hair was pinned above a plum robe, and she carried her own water cup. Su received her as an actual guest for the approved public-form comparison, not as an authority who had silently joined the project. Before that work began, the women read the provision route they had carried out. Merchant support, a kitchen evening and a smaller batch had left different resources and obligations.",
+      "next": "season_archive_m06_common_001",
+      "routes": [
+        {
+          "decision": "season_archive_m05_support",
+          "selected": "season_archive_m05_merchant_001",
+          "next": "season_archive_m06_recall_merchant_001"
+        },
+        {
+          "decision": "season_archive_m05_support",
+          "selected": "season_archive_m05_meal_001",
+          "next": "season_archive_m06_recall_meal_001"
+        },
+        {
+          "decision": "season_archive_m05_support",
+          "selected": "season_archive_m05_smaller_001",
+          "next": "season_archive_m06_recall_smaller_001"
+        }
+      ]
+    },
+    "season_archive_m06_recall_merchant_001": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The bounded merchant term had supplied its current paper, ink and space contribution, with acknowledgement separate from provenance. A later installment had now arrived on its stated date and been entered by Su after receipt. Qiu checked the actual quantity before proposing new copying. The merchant still hoped for an interesting public occasion, but had not bought the right to enlarge the cloth's history. Yue said gratitude would be tested when a desired title remained unsupported. Sun listened without turning the sponsor's ordinary hope into a secret motive she could read.",
+      "next": "season_archive_m06_recall_merchant_002"
+    },
+    "season_archive_m06_recall_merchant_002": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The acknowledgement sign had drawn one visitor who thought the merchant's belief proved the ferry story. Qiu corrected him by showing the actual support terms and unresolved source note. The merchant later thanked them for not assigning her a historical opinion she had not given. Yue liked that actual reply. It did not prove sponsorship always harmless. It showed this term's boundary had survived one misunderstanding. The project had material to use and a finite public occasion to fulfill, both specific to the route it had really selected.",
+      "next": "season_archive_m06_recall_merchant_003"
+    },
+    "season_archive_m06_recall_merchant_003": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Su closed the merchant follow-up with received installments, remaining term and actual display obligation. No kitchen fundraiser was borrowed into its history, and deferred work remained deferred until accepted copying performed it. Sun asked whether the new sheets could hold a clear comparison of ordinary stamp forms. Qiu said yes within the active batch; Yue asked that the source notes remain as visible as the marks. They turned toward the public list with the chosen provision available and its independence still something to practice rather than merely announce.",
+      "next": "season_archive_m06_common_001"
+    },
+    "season_archive_m06_recall_meal_001": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The finite kitchen evening had produced its actual optional contribution and current supplies through separate meal and project accounts. The cook's sister now sent the final checked total and a note saying no further evening was planned. Qiu was relieved. Yue remembered the useful questions and the tiring work. Sun had heard that people could buy supper without purchasing private access. She smiled and said a room was more likely to earn trust when it let hungry people remain hungry people. The actual event belonged to this route, not to every possible provision history.",
+      "next": "season_archive_m06_recall_meal_002"
+    },
+    "season_archive_m06_recall_meal_002": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "One customer had returned to ask about the approved delivery copy he saw during the evening. Su showed the actual source and current access location. Another had contributed but wanted no further project contact. That choice was respected. Qiu said the evening had made some readers, not an army of supporters. Yue liked the modest description. The received provision supported the named current work, while any later need remained unfunded. The warm public occasion had not extended the lease or solved the cloth's old route merely because people had enjoyed themselves.",
+      "next": "season_archive_m06_recall_meal_003"
+    },
+    "season_archive_m06_recall_meal_003": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Su closed the event follow-up with its actual contribution, supplied material, labor cost and absence of a new booking. The merchant term remained unaccepted. Sun asked whether the ordinary public-form comparison could fit the funded current batch. Su checked that it could within the stated scope. Yue settled her shoulder and Qiu arranged the source cards. Their selected event had left a small real resource and public questions behind it. Today's witness would be heard on her own terms rather than as another entertainment owed to those who had eaten.",
+      "next": "season_archive_m06_common_001"
+    },
+    "season_archive_m06_recall_smaller_001": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The smaller batch had used existing provision for one completed approved sheet and kept deferred descriptions visible. A reader whose requested section remained unperformed had asked again. Su gave the current limit plainly, without pretending a future offer already funded the task. Qiu found the refusal difficult and necessary. Yue found the completed page satisfying and insufficient. Sun listened to both before looking at the actual supply pile. 'A small honest room can still owe a person an honest disappointment,' she said. Nobody needed to make the unfulfilled request trivial.",
+      "next": "season_archive_m06_recall_smaller_002"
+    },
+    "season_archive_m06_recall_smaller_002": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The merchant offer and kitchen evening remained unaccepted in this route. The project could consult the already permitted public stamp list within a bounded discussion, but new reproduction had to fit the smaller active batch and actual material. Qiu proposed a compact comparison sheet rather than a decorative plate. Yue agreed if its limits stayed readable. Sun said she had come to discuss the approved forms, not to insist that every recollection be copied. Their lack of expanded provision made the witness visit smaller, without turning her actual arrival into an imaginary funded event.",
+      "next": "season_archive_m06_recall_smaller_003"
+    },
+    "season_archive_m06_recall_smaller_003": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Su closed the reduced-batch follow-up with completed work, remaining material and deferred reader requests intact. No sponsor installment or fundraising total appeared beside it. Yue rested her shoulder while Qiu laid out the permitted public forms and one clean comparison sheet. Sun took the low chair near the window. The actual smaller route could still support this ordinary bounded enquiry. Its limited paper would shape the product, and its unperformed tasks would remain unperformed rather than disappear in the pleasure of a knowledgeable visitor's conversation.",
+      "next": "season_archive_m06_common_001"
+    },
+    "season_archive_m06_common_001": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Sun looked first at the public stamp list, not the red-marked cloth drawing. She wanted to know which form the archive had actually supplied before anyone invited her memory to complete it. Qiu showed the source identifier and its ordinary access description. Yue showed the copy's visible date range. Sun traced the shape in the air with one bent finger. 'This is a form I copied for school linen accounts,' she said. 'That does not tell me whose cloth yours was.' Her first useful answer removed a promised revelation before it could form.",
+      "next": "season_archive_m06_common_002"
+    },
+    "season_archive_m06_common_002": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The list showed three short bars enclosed by rough corner strokes. On the cloth drawing, the outer corners were incomplete and the bars uneven. Qiu asked whether the difference could be fading. Sun said yes, or a different hand, or a related marking habit, or a mistaken drawing. Yue checked the actual approved surface copy against its condition note. They had enough resemblance to compare and not enough to identify a unique origin. The old copyist looked amused by their expressions. 'A form can be familiar and still refuse to become a name.'",
+      "next": "season_archive_m06_common_003"
+    },
+    "season_archive_m06_common_003": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Sun had copied public household and school accounts for decades. She remembered marks used to group linen bundles for washing, return or storage. Some were written on cloth; some on wrapping; some only on a ledger beside a household identifier. The memory could orient an enquiry, but she would not certify this strip from three strokes. Su asked what exact part she permitted the project to record. Sun approved a bounded present statement about having seen similar public forms in linen accounts, leaving private names and unrecorded episodes outside it.",
+      "next": "season_archive_m06_common_004"
+    },
+    "season_archive_m06_common_004": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Qiu wanted a list of every place Sun remembered using the form. Sun shook her head. 'I remember some doors better than their dates. If you write the doors in one column, you will give them a common year they never had.' Yue laughed softly, then saw Sun was serious. They could ask about one approved public source at a time. Sun would answer what she could distinguish. Her experience was not a hidden warehouse of perfect labels waiting for the women to extract it quickly enough.",
+      "next": "season_archive_m06_common_005"
+    },
+    "season_archive_m06_common_005": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "One old school account used a household surname where a woman had delivered and reclaimed the linen. The woman herself was unnamed on that public page. Qiu called the omission careless. Sun said it might be convention, power, space or the copyist's own laziness; she could not tell from that line alone. Yue looked at the surname and felt an impulse to restore the missing woman by inventing a representative name. Sun seemed to notice the temptation in both authors without claiming to read their minds. She asked what their proposed correction would actually know.",
+      "next": "season_archive_m06_common_006"
+    },
+    "season_archive_m06_common_006": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "'We can say the record identifies the household, not the person's whole life,' Yue answered. Qiu said that description still let the old omission stand. Sun replied that standing was not the same as approving. They could explain a record's limits and seek a separately authorized present source. They could not fill a historical name because its absence was unjust. The argument made the room hotter than the weather did. Su opened the courtyard shutter after checking the paper remained protected from the draft.",
+      "next": "season_archive_m06_common_007"
+    },
+    "season_archive_m06_common_007": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Qiu said anonymous domestic labor always made the archive seem cleaner than the house had been. Sun agreed with the observation and disagreed with its universal always. Some private diaries named people whom the public ledger omitted; some public notices named women carefully; some household accounts named nobody well. The project had to look at the source it actually held. Yue liked hearing Sun challenge the rival's broad anger without asking her to stop caring. Qiu liked it less, then asked for a public example the current scope allowed them to consult.",
+      "next": "season_archive_m06_common_008"
+    },
+    "season_archive_m06_common_008": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Su fetched an already permitted public account facsimile from the ordinary shelf after the keeper confirmed its access. It recorded a woman receiving household linen under her own name, on a different date and through a different institution. The page did not identify the red cloth. It did show that a public account could preserve a person more exactly than the earlier surname line. Qiu read it slowly. Sun waited with her cup. The counterexample did not dissolve the criticism. It gave the criticism an object precise enough to survive challenge.",
+      "next": "season_archive_m06_common_009"
+    },
+    "season_archive_m06_common_009": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue copied only the comparison's approved visible identifiers and wording needed for their current sheet. She left the two sources separately named. Qiu wanted to place them side by side beneath a heading about erased women. Sun asked whether one named woman and one household surname proved erasure in both cases. Qiu lowered the brush. They changed the working heading to Different ways an account names its people. It was less accusatory and more inspectable. The project's current interpretation could be sharp without pretending the strongest possible moral claim had already been earned.",
+      "next": "season_archive_m06_common_010"
+    },
+    "season_archive_m06_common_010": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Sun asked for a pause and took her cup into the courtyard. She had been sitting longer than was comfortable. Yue stayed at the low chair with her shoulder supported, and Qiu walked beside the older woman at her chosen pace. Sun did not require an escort, but accepted the company. The bean pots held small pale flowers now. She said she disliked being introduced as a storehouse of vanishing memory. 'I am a woman who still wants lunch,' she said. Qiu laughed and promised not to put that sentence on the historical comparison sheet.",
+      "next": "season_archive_m06_common_011"
+    },
+    "season_archive_m06_common_011": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The cook brought Sun a bowl at the ordinary kitchen table. She inspected the noodles and said they were thicker than she expected, which delighted him because most people complained they were thin. Yue arrived after her rest and took the wall seat. Su closed the project folder before eating. For several minutes the copyist was a guest discussing pepper and the price of onions, not a witness being asked to account for every year she had lived. Qiu seemed more at ease with her there than beside the public forms.",
+      "next": "season_archive_m06_common_012"
+    },
+    "season_archive_m06_common_012": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Sun told an ordinary private story about losing her own spectacles beneath a stack of perfectly labeled papers. Qiu asked whether the labels had helped. 'No. I had not labeled the spectacles,' she said. They laughed. Yue made no project note. The story belonged to lunch unless Sun offered another use. A person could be interesting without becoming the project's material. Su's silence around that boundary was more effective than another formal speech would have been. The folder remained closed while the bowls were cleared.",
+      "next": "season_archive_m06_common_013"
+    },
+    "season_archive_m06_common_013": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "After lunch, Sun returned to the copying room for the agreed final portion of her visit. She approved the exact bounded statement about similar linen-account forms after reading it aloud herself. Qiu changed one word at her request: she had copied such forms, not invented them. Yue checked that the statement named its present source and did not claim a unique match to the red strip. The living copyist could correct her quoted role before it became a public elder's authority. That ordinary opportunity mattered more than the prestige of her years.",
+      "next": "season_archive_m06_common_014"
+    },
+    "season_archive_m06_common_014": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "A supporter arrived hoping Sun would name the ferry. Sun said the cloth's marks did not tell her that. The woman asked whether the old copyist had forgotten too much to help. Qiu reacted before Yue could. 'She has told us what a form can mean without pretending she remembers this object.' Sun raised one hand, stopping the defense from becoming a quarrel. 'Forgetting is not the only reason a question has no answer from me,' she said. The supporter apologized. The room had nearly turned a useful bounded witness into a test of an old woman's worth.",
+      "next": "season_archive_m06_common_015"
+    },
+    "season_archive_m06_common_015": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue asked Sun whether the comparison should include the supporter’s question as an example of uncertainty. Sun declined. She did not want the public page to exhibit another person's clumsy moment. They could state the source limit directly. Qiu accepted that answer even though the exchange had sharpened her own understanding. Not every instructive incident had to be preserved. The project could learn from a conversation without collecting its embarrassing parts as evidence. Sun's refusal helped the women see how easily moral lessons could become another form of appropriation.",
+      "next": "season_archive_m06_common_016"
+    },
+    "season_archive_m06_common_016": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The public forms included a small receiving mark beside one linen entry. It resembled one torn stroke on the project's old label, but the scale and date differed. Qiu drew the shapes beside each other and asked Sun about the hand convention. Sun said it could mark receipt in that source; she could not transfer the meaning into another source without context. Yue kept the two drawings on separate source strips. The resemblance became a useful route into public account formats, not a completed reading of the cloth's missing provenance.",
+      "next": "season_archive_m06_common_017"
+    },
+    "season_archive_m06_common_017": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Su said a further ordinary public warehouse list could be requested through the archive's access process. The current comparison did not perform that request or its result. Qiu wanted to prepare a precise enquiry while Sun could help phrase the form name. Yue agreed within the remaining discussion scope. Sun suggested asking for named public receiving formats within a date range, rather than asking for every red mark ever used near water. The request became smaller and more likely to find a source someone could actually identify. Its outcome would still require an actual reply.",
+      "next": "season_archive_m06_common_018"
+    },
+    "season_archive_m06_common_018": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At the low table, they compared the two ways names appeared on the public accounts again. The older surname line might conceal an individual; the named receiving line preserved one. Qiu wanted the project to make people notice that difference. Yue wanted the public sheet to avoid implying a corrected identity they did not possess. Su said the comparison could do both if its source columns and present interpretation remained distinct. Sun said the authors still had to choose which public form would lead. A small sheet could not explain all the archive's habits at once.",
+      "next": "season_archive_m06_common_019"
+    },
+    "season_archive_m06_common_019": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "One option would keep the historical source labels exactly as given and attach a clear present explanation of their limits. Another would seek a separately authorized current household correction before expanding the public identity account, accepting a wait. A third would use two visible columns, historical wording and present witness statement, without merging them into a restored past. The approaches differed in audience clarity, time and the pressure placed on a living source. All could be legitimate if actually performed within the offered use terms. None would name the cloth's old owner by moral intuition.",
+      "next": "season_archive_m06_common_020"
+    },
+    "season_archive_m06_common_020": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Qiu favored the two columns because they could make the present source visible now. Yue saw the value and worried that visitors would read the living statement as a replacement for the old line. Sun said that risk was real and manageable only through actual layout and explanation. She did not choose for them. The current-correction request might find a name, or a refusal, or another memory with uncertain dates. Keeping old labels might preserve their exactness and leave readers needing more help. The room had useful choices rather than a universal rule hiding in an elder's answer.",
+      "next": "season_archive_m06_common_021"
+    },
+    "season_archive_m06_common_021": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The copyist's departure cart would reach the outer gate at the agreed time. Su checked it with the driver and returned to the low table. Sun had only a few minutes left, and her ordinary need to leave mattered. Qiu stopped trying to ask one final broad question about every household she remembered. Yue read the approved statement once more. The choice would determine a current project product or request after Sun left, not extend her visit until the authors felt their uncertainty sufficiently dignified by her patience.",
+      "next": "season_archive_m06_common_022"
+    },
+    "season_archive_m06_common_022": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Sun said, 'Do not use my white hair to make your column look older than it is.' Qiu smiled and said the statement would carry today's date. Yue said it would carry the exact offered scope. Su said it would carry no private child or household name Sun had not approved. The old woman nodded, satisfied enough to leave them their own argument. Her visit had supplied a real bounded comparison, several corrected assumptions and a reminder that the person behind testimony still had a cart to catch.",
+      "next": "season_archive_m06_common_023"
+    },
+    "season_archive_m06_common_023": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The paper birds moved slowly above the courtyard door. The merchant's child's crooked-window drawing, where retained as her own art, was distinct from the approved cloth surface drawing. The practical copied accounts were distinct from Sun's present statement. The project's earlier funding route had made different resources available, but none had purchased a stronger source. Yue looked at the blank comparison sheet and felt the choice narrowing to an actual form. Qiu stood beside Sun's chair, ready to help make whichever form they chose answerable to a real reader.",
+      "next": "season_archive_m06_common_024"
+    },
+    "season_archive_m06_common_024": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Before deciding, Su placed the source facsimiles back on their approved supports. Sun held her own cup and kept the permitted statement draft within reach to check any changed wording. Yue's shoulder rested comfortably; Qiu's hands were empty. No missing woman's historical name would appear simply because the authors disliked its absence. They could preserve the source, ask a living owner or make the present witness visibly present. The choice would determine what the project actually did with today's encounter, while the red strip's older identity remained outside the elder's bounded answer.",
+      "next": "season_archive_m06_names"
+    },
+    "season_archive_m06_names": {
+      "chapter": "book_xxiii_season",
+      "speaker": "lin_yue",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue chose the public form for today's naming comparison. They could retain the historical labels exactly and explain their limits, ask the current depositor for a separately authorized identity account before expanding the display, or place historical wording beside Sun's approved present statement in visibly distinct columns. The old sources and the red cloth would keep their unresolved parts. The choice would make a real sheet or a real request, with different clarity, waiting and witness burdens.",
+      "choices": [
+        {
+          "text": "Keep the historical labels exact and explain what they do not identify.",
+          "next": "season_archive_m06_exact_001"
+        },
+        {
+          "text": "Request a current depositor account before expanding the public identity comparison.",
+          "next": "season_archive_m06_enquiry_001"
+        },
+        {
+          "text": "Use distinct historical and present-witness columns without merging them.",
+          "next": "season_archive_m06_columns_001"
+        }
+      ]
+    },
+    "season_archive_m06_exact_001": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue chose exact historical labels with a clear explanation. Qiu copied the public surname line and the separately named receiving line in their approved wording. Beneath them, Yue dictated a brief limit: one source identified a household, the other a person, and neither restored the unnamed individual's complete identity. Sun checked that the statement did not turn her recollection into an older source. Her bounded account of similar linen forms remained separately available under its own approval, without becoming the comparison's substitute historical heading.",
+      "next": "season_archive_m06_exact_002"
+    },
+    "season_archive_m06_exact_002": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The first layout gave the surname line a larger title because it looked more incomplete and therefore more interesting. Qiu noticed the imbalance while reading from the visitor line. Yue asked whether the size implied a ranking of value. Sun said a reader might think the unnamed person was the real subject and the named woman merely a reassuring example. They redrew the sheet with equal source headings. The interpretation could still criticize limits, but the physical page would not silently assign one woman's recorded presence a supporting role in another's absence.",
+      "next": "season_archive_m06_exact_003"
+    },
+    "season_archive_m06_exact_003": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Qiu wanted to add a sentence about domestic labor disappearing behind households. Yue agreed to a narrower version tied to the specific surname line. Sun said the criticism should remain the present authors' explanation, not a quote she had approved as universal historical testimony. They labeled that paragraph accordingly. Qiu liked the boundary because it let her say something sharp in her own name. She did not need to hide the argument inside an elder's authority. Yue liked that the source wording remained available for a reader who disagreed.",
+      "next": "season_archive_m06_exact_004"
+    },
+    "season_archive_m06_exact_004": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Before Sun left, she read the finished historical labels and present explanation aloud. She changed no source word. She corrected a description of her contribution from identified the marks to discussed similar forms. Qiu made the change without defending the earlier verb. The public sheet now offered exact historical lines, a present author interpretation and a separate bounded witness statement. Its pieces had distinct sources. The work was less dramatic than a restored lost name, but it could be challenged without asking the missing woman to become whoever the project wanted.",
+      "next": "season_archive_m06_exact_005"
+    },
+    "season_archive_m06_exact_005": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "A visitor asked whether the household surname meant the unnamed worker had consented to being hidden. Qiu answered that the source did not tell them that. Yue added that an account's form could reflect a convention without revealing an individual's wish. The visitor said the explanation felt unsatisfying. Sun replied, 'Then keep the dissatisfaction where the source leaves it.' She did not offer a private story to settle the question. The exact-label choice had issued a public comparison that made a real limit visible and left a moral question open.",
+      "next": "season_archive_m06_exact_006"
+    },
+    "season_archive_m06_exact_006": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Another visitor wanted to use the form resemblance to label the red cloth school linen. Qiu said the comparison did not identify that object's origin. She showed the separate cloth description and the source dates. Yue watched her protect the gap with less irritation than before. Sun's bounded visit had helped by narrowing what familiarity meant. The authors' issued explanation still needed actual public correction when a reader enlarged it. Exact copied labels did not save them from the work of explaining the relationship between two different sources.",
+      "next": "season_archive_m06_exact_007"
+    },
+    "season_archive_m06_exact_007": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Su filed the issued comparison and its source strips. The current depositor had not been asked for a new identity account in this choice, and the two-column witness layout had not been made. Sun retained a matching copy of her approved bounded statement, and the authors retained their own signed interpretation beside the public sources. Qiu said the sheet left the old omission standing visibly enough to criticize. Yue agreed. The work had neither hidden the omission nor repaired it by invention. Its usefulness depended on a reader being allowed to see both.",
+      "next": "season_archive_m06_exact_008"
+    },
+    "season_archive_m06_exact_008": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At the end of Sun's visit, the exact-label comparison stood beside the public forms with readable limits. The project had actually issued it. Qiu and Yue had named their present interpretation without attaching it to an unsupported historical identity. Sun went to her departure cart with her cup and her private recollections still hers. The comparison's new clarity and recurring explanation cost would be heard next time. The red strip retained its unresolved older source, while its marks had acquired a bounded family of possible ordinary forms rather than a unique ferry name.",
+      "next": "season_archive_m06_after_001"
+    },
+    "season_archive_m06_enquiry_001": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue chose a current depositor enquiry before expanding the identity display. Su checked the ordinary source contact for the relevant public account and prepared a precise request through that channel. It asked whether a separately authorized current account could clarify the individual behind the household line, and invited a refusal or partial answer. It did not claim the depositor owed the project a lost woman's name. Qiu helped trim the wording so the question addressed this source, not every injustice that household records had ever preserved.",
+      "next": "season_archive_m06_enquiry_002"
+    },
+    "season_archive_m06_enquiry_002": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Sun asked them to remove a phrase about restoring the truth. A current depositor might hold a useful source, a family interpretation or nothing that could identify the historical worker. Any offered account would need its own chain and scope. Yue agreed. Qiu looked disappointed, then wrote a plain request for clarification. The comparison display remained at its existing approved form while the new question was pending. Their chosen wait did not make the earlier public sources unreadable; it postponed a particular expanded identity account.",
+      "next": "season_archive_m06_enquiry_003"
+    },
+    "season_archive_m06_enquiry_003": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Su sent the request at the ordinary contact time and recorded what had actually gone. No reply arrived during Sun's visit. The copyist's approved statement about similar forms remained available separately, with no new personal name added from her private memory. Qiu said she still wanted the request because the exact-label approach might leave them admiring their own honesty while a usable source existed elsewhere. Yue agreed the possibility deserved an action. The action had now happened. Its hoped-for result remained genuinely unknown.",
+      "next": "season_archive_m06_enquiry_004"
+    },
+    "season_archive_m06_enquiry_004": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Sun told them that she once received a request to name every person in a faded school photograph. She had named three confidently, refused two and spent a night feeling accused by the unnamed faces. She offered the example only as advice for their request wording and declined public use of the private incident. Yue made no project transcript of it. Qiu added a clear sentence that an uncertain or incomplete reply would not be treated as failure. The request's kindness had become practical enough to change how a living source might answer.",
+      "next": "season_archive_m06_enquiry_005"
+    },
+    "season_archive_m06_enquiry_005": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "While waiting was impossible to complete, they prepared a small source-status card: historical household label retained; expanded identity enquiry sent; answer pending. Yue checked that it did not sound as though the old worker's identity had become a mystery staged for visitors. Qiu removed an attractive question mark drawn too large at the top. The card informed readers of current work without turning a person's absence into a promise of revelation. Sun approved the treatment of her own statement and left the future answer to the actual contact.",
+      "next": "season_archive_m06_enquiry_006"
+    },
+    "season_archive_m06_enquiry_006": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "A visitor asked whether the pending enquiry meant the project suspected the historical ledger was false. Qiu answered no. It accurately recorded the wording now visible, while the individual identity remained unestablished by that wording. Yue said a new source might add something or might not. Su showed the current status card. The waiting choice had already required explanation before any reply existed. Its cost was not only time; it invited people to imagine a hidden answer the authors had not claimed they would find.",
+      "next": "season_archive_m06_enquiry_007"
+    },
+    "season_archive_m06_enquiry_007": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Su filed the sent request and retained its contact scope. The expanded comparison remained unissued. The exact-label explanatory sheet and two-column witness display had not been made in this choice. Qiu said the enquiry mattered because it tested whether their source gap was necessary rather than treating the gap itself as a final virtue. Yue accepted that purpose. Sun accepted the wording's room for a partial answer. The project had performed a bounded attempt to ask, not a restoration of the historical woman's name.",
+      "next": "season_archive_m06_enquiry_008"
+    },
+    "season_archive_m06_enquiry_008": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At the end of Sun's visit, the project held the existing approved forms, her separate bounded statement and a real pending depositor enquiry. No identity reply had arrived and no expanded display claimed it. Sun left with her cup, private memories and matched statement copy. Qiu remained impatient for an answer. Yue remained concerned that the source be allowed to refuse. Those concerns could share the same sent page. The next accepted interval would report the actual response, if any, while the red strip's unique older origin stayed unresolved.",
+      "next": "season_archive_m06_after_001"
+    },
+    "season_archive_m06_columns_001": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Yue chose distinct historical and present-witness columns. Qiu drew a clear line down the comparison sheet. One side would hold the exact approved public account wording; the other would hold Sun's bounded present statement about similar linen forms, dated today. Yue checked the headings from the reader's distance. The two columns would not imply that Sun had witnessed this household entry or identified the red strip. Her experience could orient the form comparison while remaining a living current source rather than a replacement for the old record.",
+      "next": "season_archive_m06_columns_002"
+    },
+    "season_archive_m06_columns_002": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Sun read the proposed witness column and crossed out a phrase saying she confirmed the custom. She had described examples she remembered and could discuss within the offered scope. Qiu replaced confirmed with had copied similar forms in named public account contexts, as Sun approved. Yue saw how a column heading could make testimony broader than its actual words. They preserved Sun's modest verb and dated statement. The public page now allowed her to be useful without letting the authors press her years into certainty she had not offered.",
+      "next": "season_archive_m06_columns_003"
+    },
+    "season_archive_m06_columns_003": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The historical column contained the household surname line and the separate named receiving line, each with its own source. Qiu wanted a single bracket connecting both to Sun's statement. Yue objected that the bracket could suggest Sun had personally copied those exact entries. Sun agreed she had not claimed that. They removed the bracket and used a short present author note explaining why the forms were being compared. The relationship stayed visible without becoming a false source chain. The simplest-looking layout had needed another small correction before it could carry an honest account.",
+      "next": "season_archive_m06_columns_004"
+    },
+    "season_archive_m06_columns_004": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Qiu said the two-column form looked less accusatory than her first idea and more difficult to skim. Yue asked whether that was necessarily a loss. Qiu answered that a reader looking quickly might need a first sentence giving the point. They wrote one together: these sources name people differently, and the present witness discusses similar forms without supplying the missing identity. Sun read it and smiled. The compact sentence helped the page travel. Its useful economy came from choosing the exact relationship rather than hiding the distinction in small type.",
+      "next": "season_archive_m06_columns_005"
+    },
+    "season_archive_m06_columns_005": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "A visitor read Sun's column and asked whether the elder remembered the unnamed woman. Sun said she had not offered such an identification. Qiu showed today's date and the source headings. Yue explained the historical wording remained on the other side. The visitor reread the page and understood. Their two-column choice had made the living witness available to a reader and also created a predictable temptation to merge her with the past. The layout's success depended on a real public correction, which they retained as part of its use record.",
+      "next": "season_archive_m06_columns_006"
+    },
+    "season_archive_m06_columns_006": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Another visitor thanked Sun for helping the project make sense of an ordinary mark. She said she liked seeing the current source named rather than presented as an archive's anonymous authority. Sun accepted the thanks and asked the woman not to call her statement proof of the ferry cloth. Qiu laughed softly at the exactness. Yue thought the exchange made the point better than the first draft had. A living witness could receive ordinary appreciation and still refuse a historical conclusion. The public form did not have to make her either a sage or a failure.",
+      "next": "season_archive_m06_columns_007"
+    },
+    "season_archive_m06_columns_007": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Su filed the issued two-column sheet with Sun's approved statement and the separate public-source references. No current depositor identity enquiry had been sent in this choice. The exact-label explanation remained part of the sheet's source structure, but a separate exact-label public sheet had not been issued. Qiu said the present voice gave readers a way into the forms. Yue said its visible date kept that voice from becoming the old record. Sun approved the final copy and retained her matching statement, with private names and episodes still outside the project.",
+      "next": "season_archive_m06_columns_008"
+    },
+    "season_archive_m06_columns_008": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At the end of Sun's visit, the two-column comparison stood by the public forms with a current witness clearly dated and historical sources separately identified. The project had actually issued that form and answered one real merged-source reading. It had no restored historical name or unique cloth identification. Sun left for her cart, pleased by the useful conversation and tired enough to want it finished. Qiu and Yue remained with a page whose strength and cost were both concrete. The next interval would hear that use before a new receipt introduced another problem of names.",
+      "next": "season_archive_m06_after_001"
+    },
+    "season_archive_m06_after_001": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Sun's driver waited at the outer gate with a covered seat and no interest in the project's unresolved forms. Su walked the retired copyist there after the agreed visit ended. Qiu offered to carry her empty board; Sun accepted. Yue stayed near the low table until her shoulder rested, then came as far as the courtyard doorway. The farewell did not extend the witness's permission. Her quoted statement retained its scope, and her private lunch story remained a lunch story. The actual visitor left rather than becoming a permanent elder in the annex's invisible staff.",
+      "next": "season_archive_m06_after_002"
+    },
+    "season_archive_m06_after_002": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Before climbing into the cart, Sun told Qiu to keep asking fast questions that could be answered. Qiu said she would try not to make every refusal look slow. Sun told Yue to keep enough history for the next reader and not make him carry every doubt before he could use one clear line. Yue laughed and accepted the advice. Neither sentence transformed the women into one method. The old copyist had given each a precise irritant to carry away, which might be more useful than broad approval.",
+      "next": "season_archive_m06_after_003"
+    },
+    "season_archive_m06_after_003": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "A reply arrived from the ordinary public warehouse-source contact, acknowledging the separate format enquiry prepared during Sun's visit. It named a permitted list that could be consulted after the keeper arranged its presentation. It did not deliver the list or identify the cloth. Su scheduled a possible future discussion only after checking available times and source access. Qiu wanted to begin immediately. Yue pointed to the actual visit still needing arrangement. They could be glad a door had opened without pretending they were already on its other side.",
+      "next": "season_archive_m06_after_004"
+    },
+    "season_archive_m06_after_004": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The room owner's autumn overlap discussion now had an actual proposed date. Su agreed to attend within her role after checking the keeper could join. Yue and Qiu could contribute the copying table's observed needs in a separate preparation note. They would not negotiate ownership of the room or original custody as though they had become archive managers. Qiu said the low table and public shelf needed more than a corner. Yue agreed. Their ordinary experience could matter in the negotiation without acquiring authority it had not earned.",
+      "next": "season_archive_m06_after_005"
+    },
+    "season_archive_m06_after_005": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "At the kitchen, the cook asked whether Sun had solved the mark. Qiu said she had made its ordinary possibilities clearer and its unique identification less defensible. The cook called that a disappointing kind of progress. Yue said it might prevent the wrong story from becoming expensive to remove later. He considered that while scrubbing a bowl. 'Like leaving the wrong lid on my pot all afternoon,' he said. Qiu accepted the analogy, then pointed out the lid could still be useful on another pot. The cook told them both to stop rearranging his metaphors.",
+      "next": "season_archive_m06_after_006"
+    },
+    "season_archive_m06_after_006": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The child repaired one paper bird with a new wing cut from a blank scrap. He wrote repaired by me beneath the old maker's word and asked whether that counted as a source. Yue said it counted as his account of the repair, if true. Qiu asked whether the bird now flew better. It did not fly at all. The child seemed offended by the irrelevant test and pinned it back on the string. The adults laughed after he left. A good source could answer the question it actually addressed and remain useless for another.",
+      "next": "season_archive_m06_after_007"
+    },
+    "season_archive_m06_after_007": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "Su closed the naming comparison's actual issued sheet or pending request within its selected scope. The approved public forms returned to their ordinary access arrangement. Sun's bounded present statement remained only where she had permitted it. No private name, sealed memory or whole original notebook had been absorbed by the pleasure of the visit. Yue's shoulder had received ordinary rest; Qiu's other obligations had kept their times. The project had become more precise about its missing identities, not more entitled to fill them.",
+      "next": "season_archive_m06_after_008"
+    },
+    "season_archive_m06_after_008": {
+      "chapter": "book_xxiii_season",
+      "speaker": "narrator",
+      "actor": "lin_yue",
+      "background": "archive_copy_room",
+      "cultivation": {
+        "realm": "qi_gathering",
+        "stage": "5: Four pairs"
+      },
+      "text": "The next accepted interval would concern a second received bundle and a receipt whose title did not match its actual contents. The naming comparison would receive its own follow-up first. Whatever public form the women had chosen, its exact source distinctions would matter when another wrapper tempted them to give several objects one tidy origin. Yue left the annex beneath a still crooked paper bird. Qiu left carrying her own clean board. Both had heard an elder refuse to become a shortcut, and both knew they would still be tempted to find one.",
+      "next": "season_archive_m07_entry"
+    }
+  }
+}

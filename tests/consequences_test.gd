@@ -239,11 +239,32 @@ func _test_existing_choice_behavior() -> void:
 	check(not state.choose(0) and state.advance() and state.encounters.has("chance"), "Random encounters must retain their separate recorded-outcome behavior")
 	check(state.decisions == {"ordinary": "regroup"}, "Random encounters must not masquerade as player commitments")
 
+func _test_repeated_choice_effects() -> void:
+	var source := _campaign()
+	source.nodes.ordinary.choices[0].effects = {"qi": -1, "insight": 1}
+	var state = State.new(source)
+	state.current = "ordinary"
+	state.stats = {"qi": 10, "trust": 0, "insight": State.MAX_STAT - 1, "resolve": 0}
+	check(state.choose(0), "The original choice must apply its actual reward and cost")
+	check(state.stats == {"qi": 9, "trust": 0, "insight": State.MAX_STAT, "resolve": 0}, "A first selection must apply each authored effect once")
+	check(state.save_game(SAVE_PATH), "The effects-bearing commitment must save")
+	var restored = State.new(source)
+	check(restored.load_game(SAVE_PATH), "The effects-bearing commitment must restore")
+	for _replay in range(2):
+		restored.current = "ordinary"
+		var before_stats: Dictionary = restored.stats.duplicate()
+		var before_decisions: Dictionary = restored.decisions.duplicate(true)
+		var details: Dictionary = restored.choice_details(restored.node().choices[0])
+		check(details.available and details.effects.is_empty() and details.updated_stats == before_stats, "A saved matching choice at the reward limit must remain playable without advertising another effect")
+		check(restored.choose(0) and restored.current == "regroup", "A saved matching choice must still reach its original destination")
+		check(restored.stats == before_stats and restored.decisions == before_decisions, "Replaying a saved choice cannot duplicate its reward or charge its cost again")
+
 func _initialize() -> void:
 	_clear_checkpoint(SAVE_PATH)
 	_clear_checkpoint(BAD_PATH)
 	_test_delayed_consequences()
 	_test_saves_and_revisits()
+	_test_repeated_choice_effects()
 	_test_legacy_fallback()
 	_test_invalid_saves_are_atomic()
 	_test_invalid_routes_are_atomic()

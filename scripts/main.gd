@@ -842,6 +842,258 @@ func _load_settings() -> void:
 	for bus in ["Music", "SFX", "Voice"]:
 		AudioServer.set_bus_volume_db(AudioServer.get_bus_index(bus), _setting_number(config, "audio", bus, -8.0, -40.0, 0.0))
 
+func _capture_commission_advance() -> bool:
+	if state.node().has("choices") and not state.node().get("random_event", false):
+		for index in range(state.node().choices.size()):
+			if state.can_choose(state.node().choices[index]):
+				return state.choose(index)
+		return false
+	return state.advance()
+
+func _capture_commission_checkpoint(path: String) -> bool:
+	if not state.save_game(path):
+		return false
+	var restored = StoryState.new(state.story)
+	if not restored.load_game(path) or restored.current != state.current or restored.decisions != state.decisions or restored.completed_practice != state.completed_practice or restored.stats != state.stats or restored.history != state.history or restored.journey_seed != state.journey_seed or restored.encounters != state.encounters:
+		return false
+	state = restored
+	return true
+
+
+# Follow authored transitions and available player choices within the rival book.
+# Returns the number of transitions, or -1 on a blocked/missing/cyclic route.
+func _rival_walk_to(target: String, limit: int = 2000) -> int:
+	var steps := 0
+	while state.current != target and steps < limit:
+		if state.node().is_empty() or state.node().has("ending") or not _capture_commission_advance():
+			return -1
+		steps += 1
+	return steps if state.current == target else -1
+
+func _capture_rival_frame(name: String) -> bool:
+	_scene()
+	dialogue.visible_characters = -1
+	choice_box.visible = choice_box.get_child_count() > 0
+	await get_tree().create_timer(0.4).timeout
+	await RenderingServer.frame_post_draw
+	if actor.sprite.texture == null or background.texture == null:
+		return false
+	return get_viewport().get_texture().get_image().save_png("res://build/screenshots/%s.png" % name) == OK
+
+func _capture_rivals() -> bool:
+	var choice_save := "user://rival_capture_choice.json"
+	var branch_save := "user://rival_capture_branch.json"
+	var names := ["compete", "cooperate", "independent"]
+	var entries := ["rival_compete_entry", "rival_cooperate_entry", "rival_independent_entry"]
+	var endings := ["rival_end_compete", "rival_end_cooperate", "rival_end_independent"]
+	state = StoryState.new(state.story)
+	# A local new-book checkpoint starts before any new player decision or work.
+	state.current = "rival_entry"
+	var opening_steps := 0
+	var introductions: Dictionary = {}
+	while state.current != "rival_path_choice" and opening_steps < 2000:
+		if state.current == "rival_qiu_intro" or state.current == "rival_su_intro":
+			var capture_name := "rival_qiu_zhen" if state.current == "rival_qiu_intro" else "rival_su_yao"
+			if not (await _capture_rival_frame(capture_name)):
+				return false
+			introductions[state.current] = true
+		if state.node().is_empty() or state.node().has("ending") or not _capture_commission_advance():
+			return false
+		opening_steps += 1
+	if state.current != "rival_path_choice" or introductions.size() != 2 or state.stats != {"qi": 0, "trust": 0, "insight": 0, "resolve": 0}:
+		return false
+	if not _capture_commission_checkpoint(choice_save) or not (await _capture_rival_frame("rival_paths")):
+		return false
+	for selection in range(names.size()):
+		if not state.load_game(choice_save) or not state.choose(selection) or state.current != entries[selection]:
+			return false
+		if not (await _capture_rival_frame("rival_" + names[selection])):
+			return false
+		var receiving_steps := _rival_walk_to("rival_receiving_entry", 1999)
+		if receiving_steps < 0 or state.decisions.get("rival_path_choice", "") != entries[selection] or not _capture_commission_checkpoint(branch_save):
+			return false
+		var ending_steps := _rival_walk_to(endings[selection], 1999 - receiving_steps)
+		if ending_steps < 0 or not state.node().has("ending") or state.decisions.get("rival_path_choice", "") != entries[selection]:
+			return false
+		if state.stats != {"qi": 0, "trust": 0, "insight": 0, "resolve": 0} or not _capture_commission_checkpoint(branch_save):
+			return false
+		if not (await _capture_rival_frame(endings[selection])):
+			return false
+		print("JADE_VOW_RIVAL_CAPTURE: %s in %d actual transitions" % [names[selection], 1 + receiving_steps + ending_steps])
+	for path in [choice_save, branch_save]:
+		for suffix in ["", ".bak", ".tmp"]:
+			if FileAccess.file_exists(path + suffix):
+				DirAccess.remove_absolute(path + suffix)
+	return true
+
+func _smoke_rival_scene() -> bool:
+	_scene()
+	return actor.character == str(state.node().get("actor", "lin_yue")) and actor.sprite.texture != null and background.texture != null and audio.voice.stream is AudioStreamOggVorbis
+
+func _smoke_rivals() -> bool:
+	var valid := true
+	var chapters := ["book_i", "book_ii", "book_iii", "book_iv", "book_v", "book_vi", "book_vii", "book_viii", "book_ix", "book_x_storm_ledger", "book_xi_salt_road", "book_xii_canal", "book_xiii_forest", "book_xiv_harbor", "book_xv_kiln", "book_xvi_desert", "book_xvii_archive", "book_xviii_letters", "book_xix_reed_crossing", "book_xx_careers", "book_xxi_commissions", "book_xxii_rival", "book_xxiii_season"]
+	for chapter in chapters:
+		valid = state.story.chapters.has(chapter) and valid
+	valid = state.story.chapters.size() == chapters.size() and valid
+	var native_portraits: Dictionary = {}
+	for painting in world.get("npcs", []):
+		if not ["rival_qiu_zhen", "rival_su_yao"].has(str(painting.id)):
+			continue
+		var native = load("res://" + str(painting.path))
+		var size: Array = painting.get("native_size", [])
+		valid = native is Texture2D and size.size() == 2 and valid
+		if native is Texture2D and size.size() == 2:
+			valid = native.get_size() == Vector2(size[0], size[1]) and valid
+			native_portraits[str(painting.id)] = native
+	valid = native_portraits.size() == 2 and valid
+	var choice_save := "user://rival_package_choice.json"
+	var branch_save := "user://rival_package_branch.json"
+	var entries := ["rival_compete_entry", "rival_cooperate_entry", "rival_independent_entry"]
+	var endings := ["rival_end_compete", "rival_end_cooperate", "rival_end_independent"]
+	var ending_titles := ["A Rival With a Place on the Board", "The Work Between Two Measures", "A Road Outside the Trial"]
+	state = StoryState.new(state.story)
+	state.current = "rival_entry"
+	valid = _smoke_rival_scene() and valid
+	valid = state.node().get("speaker", "") == "narrator" and valid
+	var opening_steps := 0
+	var introductions: Dictionary = {}
+	while state.current != "rival_path_choice" and opening_steps < 2000:
+		if state.current == "rival_qiu_intro" or state.current == "rival_su_intro":
+			valid = _smoke_rival_scene() and valid
+			var character := "rival_qiu_zhen" if state.current == "rival_qiu_intro" else "rival_su_yao"
+			valid = actor.character == character and native_portraits.has(character) and valid
+			if native_portraits.has(character):
+				valid = actor.sprite.texture == native_portraits[character] and valid
+			valid = state.node().get("speaker", "") == "narrator" and valid
+			introductions[state.current] = true
+		if state.node().is_empty() or state.node().has("ending") or not _capture_commission_advance():
+			return false
+		opening_steps += 1
+	if state.current != "rival_path_choice" or introductions.size() != 2 or not _capture_commission_checkpoint(choice_save):
+		return false
+	valid = _smoke_rival_scene() and valid
+	valid = choice_box.get_child_count() == 3 and valid
+	for selection in range(entries.size()):
+		if not state.load_game(choice_save) or not state.choose(selection) or state.current != entries[selection]:
+			return false
+		valid = _smoke_rival_scene() and valid
+		valid = state.node().get("speaker", "") == "narrator" and valid
+		var receiving_steps := _rival_walk_to("rival_receiving_entry", 1999)
+		if receiving_steps < 0 or state.decisions.get("rival_path_choice", "") != entries[selection] or not _capture_commission_checkpoint(branch_save):
+			return false
+		valid = _smoke_rival_scene() and valid
+		var ending_steps := _rival_walk_to(endings[selection], 1999 - receiving_steps)
+		if ending_steps < 0 or not _capture_commission_checkpoint(branch_save):
+			return false
+		valid = state.decisions.get("rival_path_choice", "") == entries[selection] and valid
+		valid = state.node().get("ending", "") == ending_titles[selection] and valid
+		valid = state.stats == {"qi": 0, "trust": 0, "insight": 0, "resolve": 0} and valid
+		valid = _smoke_rival_scene() and valid
+		print("JADE_VOW_RIVAL_PACKAGE: %s in %d actual transitions" % [entries[selection], 1 + receiving_steps + ending_steps])
+	for path in [choice_save, branch_save]:
+		for suffix in ["", ".bak", ".tmp"]:
+			if FileAccess.file_exists(path + suffix):
+				DirAccess.remove_absolute(path + suffix)
+	return valid
+
+func _capture_seasons() -> bool:
+	var choice_save := "user://season_capture_choice.json"
+	var branch_save := "user://season_capture_branch.json"
+	var names := ["water", "archive", "road", "kiln", "garden", "harbor"]
+	if state.current != "rival_end_independent" or not state.node().has("ending") or not state.advance() or state.current != "season_entry":
+		return false
+	var opening_steps := _rival_walk_to("season_path_choice", 200)
+	if opening_steps < 0 or not _capture_commission_checkpoint(choice_save) or not (await _capture_rival_frame("season_paths")):
+		return false
+	for selection in range(names.size()):
+		var entry: String = "season_" + names[selection] + "_entry"
+		var ending: String = "season_end_" + names[selection]
+		if not state.load_game(choice_save) or not state.choose(selection) or state.current != entry:
+			return false
+		if not (await _capture_rival_frame("season_" + names[selection])):
+			return false
+		var detail_steps := 0
+		if names[selection] == "road" or names[selection] == "kiln":
+			var stop := "season_road_f01_008" if names[selection] == "road" else "season_kiln_01_008"
+			var painting := "season_letter_counter" if names[selection] == "road" else "season_kiln_public_room"
+			detail_steps = _rival_walk_to(stop, 100)
+			if detail_steps < 0 or state.node().get("background", "") != painting or not _capture_commission_checkpoint(branch_save):
+				return false
+			if not (await _capture_rival_frame(painting)):
+				return false
+		var work_steps := _rival_walk_to("season_receiving_entry", 4000)
+		if work_steps < 0 or state.decisions.get("season_path_choice", "") != entry or not _capture_commission_checkpoint(branch_save):
+			return false
+		var closing_steps := _rival_walk_to(ending, 200)
+		if closing_steps < 0 or not state.node().has("ending") or state.stats != {"qi": 0, "trust": 0, "insight": 0, "resolve": 0} or not _capture_commission_checkpoint(branch_save):
+			return false
+		if not (await _capture_rival_frame(ending)):
+			return false
+		print("JADE_VOW_SEASON_CAPTURE: %s in %d actual transitions" % [names[selection], 1 + detail_steps + work_steps + closing_steps])
+	for path in [choice_save, branch_save]:
+		for suffix in ["", ".bak", ".tmp"]:
+			if FileAccess.file_exists(path + suffix):
+				DirAccess.remove_absolute(path + suffix)
+	return true
+
+func _smoke_seasons() -> bool:
+	var valid: bool = state.story.chapters.has("book_xxiii_season") and state.story.chapters.size() == 23
+	var expected_art := ["season_orchard_gate","season_archive_annex","season_harbor_approach","season_canal_footpath","season_kiln_courtyard","season_letter_counter","season_kiln_public_room"]
+	var retained_art: Dictionary = {}
+	for painting in world.get("backgrounds", []):
+		if not expected_art.has(str(painting.id)):
+			continue
+		var original = load("res://" + str(painting.path))
+		var size: Array = painting.get("native_size", [])
+		valid = original is Texture2D and size.size() == 2 and valid
+		if original is Texture2D and size.size() == 2:
+			valid = original.get_size() == Vector2(size[0], size[1]) and valid
+			retained_art[str(painting.id)] = original
+	valid = retained_art.size() == expected_art.size() and valid
+	var choice_save := "user://season_package_choice.json"
+	var branch_save := "user://season_package_branch.json"
+	var names := ["water", "archive", "road", "kiln", "garden", "harbor"]
+	var titles := ["The River Beyond the Marks", "The Shelf That Holds an Uncertainty", "A Reply With Room for Silence", "The Vessel and the Remaining Winter", "The Root Beneath the Green", "The Lamp and the Limits of Its Light"]
+	if state.current != "rival_end_independent" or not state.advance() or state.current != "season_entry":
+		return false
+	valid = _smoke_rival_scene() and valid
+	var opening_steps := _rival_walk_to("season_path_choice", 200)
+	if opening_steps < 0 or not _capture_commission_checkpoint(choice_save):
+		return false
+	valid = _smoke_rival_scene() and valid
+	valid = choice_box.get_child_count() == names.size() and valid
+	for selection in range(names.size()):
+		var entry: String = "season_" + names[selection] + "_entry"
+		var ending: String = "season_end_" + names[selection]
+		if not state.load_game(choice_save) or not state.choose(selection) or state.current != entry:
+			return false
+		valid = _smoke_rival_scene() and valid
+		var detail_steps := 0
+		if names[selection] == "road" or names[selection] == "kiln":
+			var stop := "season_road_f01_008" if names[selection] == "road" else "season_kiln_01_008"
+			var painting := "season_letter_counter" if names[selection] == "road" else "season_kiln_public_room"
+			detail_steps = _rival_walk_to(stop, 100)
+			if detail_steps < 0 or state.node().get("background", "") != painting or not _capture_commission_checkpoint(branch_save):
+				return false
+			valid = _smoke_rival_scene() and valid
+		var work_steps := _rival_walk_to("season_receiving_entry", 4000)
+		if work_steps < 0 or state.decisions.get("season_path_choice", "") != entry or not _capture_commission_checkpoint(branch_save):
+			return false
+		valid = _smoke_rival_scene() and valid
+		var closing_steps := _rival_walk_to(ending, 200)
+		if closing_steps < 0 or not _capture_commission_checkpoint(branch_save):
+			return false
+		valid = state.node().get("ending", "") == titles[selection] and valid
+		valid = state.stats == {"qi": 0, "trust": 0, "insight": 0, "resolve": 0} and valid
+		valid = _smoke_rival_scene() and valid
+		print("JADE_VOW_SEASON_PACKAGE: %s in %d actual transitions" % [names[selection], 1 + detail_steps + work_steps + closing_steps])
+	for path in [choice_save, branch_save]:
+		for suffix in ["", ".bak", ".tmp"]:
+			if FileAccess.file_exists(path + suffix):
+				DirAccess.remove_absolute(path + suffix)
+	return valid
+
 func _capture() -> void:
 	DirAccess.make_dir_recursive_absolute("res://build/screenshots")
 	await get_tree().create_timer(1.2).timeout
@@ -1044,6 +1296,190 @@ func _capture() -> void:
 		await get_tree().create_timer(0.4).timeout
 		await RenderingServer.frame_post_draw
 		get_viewport().get_texture().get_image().save_png("res://build/screenshots/reed_crossing_%s.png" % ["grain", "linen", "wages"][selection])
+	# Select, save and follow each authored career in the real game viewport.
+	var career_entries := ["career_kiln_entry", "career_archive_entry", "career_survey_entry", "career_independent_entry"]
+	var career_names := ["kiln", "archive", "survey", "independent"]
+	var career_save := "user://career_capture_checkpoint.json"
+	for selection in range(career_entries.size()):
+		state = StoryState.new(state.story)
+		state.current = "career_enrol_choice"
+		state.stats = {"qi": 10, "trust": 10, "insight": 10, "resolve": 10}
+		if selection == 0:
+			_scene()
+			dialogue.visible_characters = -1
+			await get_tree().create_timer(0.4).timeout
+			await RenderingServer.frame_post_draw
+			get_viewport().get_texture().get_image().save_png("res://build/screenshots/career_enrolment.png")
+		if not state.choose(selection) or state.current != career_entries[selection] or state.stats != {"qi": 10, "trust": 10, "insight": 10, "resolve": 10}:
+			push_error("Career enrollment must select the actual unpaid training route")
+			_quit_game(1)
+			return
+		if not state.save_game(career_save):
+			push_error("The selected career capture checkpoint must save")
+			_quit_game(1)
+			return
+		var restored = StoryState.new(state.story)
+		if not restored.load_game(career_save) or restored.decisions != state.decisions or restored.stats != state.stats:
+			push_error("The selected career capture checkpoint must retain its choice")
+			_quit_game(1)
+			return
+		state = restored
+		_scene()
+		dialogue.visible_characters = -1
+		await get_tree().create_timer(0.4).timeout
+		await RenderingServer.frame_post_draw
+		get_viewport().get_texture().get_image().save_png("res://build/screenshots/career_%s.png" % career_names[selection])
+		var portfolio := "career_portfolio_%s_01" % career_names[selection]
+		var career_steps := 0
+		var reunited := false
+		while state.current != portfolio and career_steps < 1000:
+			if state.current == "career_reunion_01":
+				reunited = true
+				if not state.save_game(career_save):
+					push_error("Completed career work must save before portfolio review")
+					_quit_game(1)
+					return
+				var review = StoryState.new(state.story)
+				if not review.load_game(career_save) or review.decisions != state.decisions or review.completed_practice != state.completed_practice or review.stats != state.stats:
+					push_error("Portfolio routing must retain saved work and enrollment")
+					_quit_game(1)
+					return
+				state = review
+			var moved := false
+			if state.node().has("choices") and not state.node().get("random_event", false):
+				for index in range(state.node().choices.size()):
+					if state.can_choose(state.node().choices[index]):
+						moved = state.choose(index)
+						break
+			else:
+				moved = state.advance()
+			if not moved:
+				push_error("The actual career capture route must remain playable")
+				_quit_game(1)
+				return
+			career_steps += 1
+		if state.current != portfolio or not reunited or state.decisions.get("career_enrol_choice", "") != career_entries[selection]:
+			push_error("Career portfolio must describe the saved selected profession")
+			_quit_game(1)
+			return
+		_scene()
+		dialogue.visible_characters = -1
+		await get_tree().create_timer(0.4).timeout
+		await RenderingServer.frame_post_draw
+		var portfolio_file: String = "career_portfolio" if selection == 0 else "career_portfolio_%s" % career_names[selection]
+		get_viewport().get_texture().get_image().save_png("res://build/screenshots/%s.png" % portfolio_file)
+	for suffix in ["", ".bak", ".tmp"]:
+		if FileAccess.file_exists(career_save + suffix):
+			DirAccess.remove_absolute(career_save + suffix)
+	# Follow performed career training into a new, explicitly accepted commission.
+	var commission_entries := ["commission_kiln_entry", "commission_archive_entry", "commission_survey_entry", "commission_independent_entry"]
+	var commission_backgrounds := ["commission_kiln_assay_courtyard", "commission_archive_monsoon_vault", "commission_survey_rain_gauge_station", "commission_carrier_tally_court"]
+	var commission_save := "user://commission_capture_checkpoint.json"
+	var commission_kitchen_captured := false
+	for selection in range(commission_entries.size()):
+		state = StoryState.new(state.story)
+		state.current = "career_enrol_choice"
+		state.stats = {"qi": 10, "trust": 10, "insight": 10, "resolve": 10}
+		if not state.choose(selection):
+			push_error("Commission captures must begin with an actual career enrollment")
+			_quit_game(1)
+			return
+		var opening_steps := 0
+		while state.current != "commission_offer_choice" and opening_steps < 2000:
+			if not _capture_commission_advance():
+				push_error("Completed career work must reach the actual new commission offer")
+				_quit_game(1)
+				return
+			opening_steps += 1
+		if state.current != "commission_offer_choice" or not _capture_commission_checkpoint(commission_save):
+			push_error("Performed career work and its new offer must survive a checkpoint")
+			_quit_game(1)
+			return
+		if selection == 0:
+			_scene()
+			dialogue.visible_characters = -1
+			await get_tree().create_timer(0.4).timeout
+			await RenderingServer.frame_post_draw
+			get_viewport().get_texture().get_image().save_png("res://build/screenshots/commission_offer.png")
+		var offered_stats: Dictionary = state.stats.duplicate()
+		if not state.choose(0) or state.current != "commission_dispatch" or state.stats != offered_stats:
+			push_error("Accepting a new commission must follow its actual unpaid decision")
+			_quit_game(1)
+			return
+		var entry_steps := 0
+		while state.current != commission_entries[selection] and entry_steps < 2000:
+			if not _capture_commission_advance():
+				push_error("Saved career enrollment must reach its matching commission entry")
+				_quit_game(1)
+				return
+			entry_steps += 1
+		if state.current != commission_entries[selection] or state.decisions.get("career_enrol_choice", "") != career_entries[selection] or not _capture_commission_checkpoint(commission_save):
+			push_error("The saved commission entry must preserve the selected profession")
+			_quit_game(1)
+			return
+		# The initial offer may still arrive at the former workplace; walk on site.
+		var painting_steps := 0
+		while str(state.node().get("background", "")) != commission_backgrounds[selection] and painting_steps < 2000:
+			if not _capture_commission_advance():
+				push_error("The actual commission must reach its newly painted workplace")
+				_quit_game(1)
+				return
+			painting_steps += 1
+		if str(state.node().get("background", "")) != commission_backgrounds[selection] or not _capture_commission_checkpoint(commission_save):
+			push_error("The played commission workplace must retain its native painting and saved context")
+			_quit_game(1)
+			return
+		_scene()
+		dialogue.visible_characters = -1
+		await get_tree().create_timer(0.4).timeout
+		await RenderingServer.frame_post_draw
+		get_viewport().get_texture().get_image().save_png("res://build/screenshots/commission_%s.png" % career_names[selection])
+		var commission_portfolio := "commission_portfolio_%s_01" % career_names[selection]
+		var commission_steps := 0
+		var commission_received := false
+		while state.current != commission_portfolio and commission_steps < 2000:
+			if selection == 0 and state.current == "commission_kiln_day_five_11":
+				_scene()
+				dialogue.visible_characters = -1
+				await get_tree().create_timer(0.4).timeout
+				await RenderingServer.frame_post_draw
+				get_viewport().get_texture().get_image().save_png("res://build/screenshots/commission_kiln_kitchen.png")
+				commission_kitchen_captured = true
+			if state.current == "commission_receiving_01":
+				commission_received = true
+				if not _capture_commission_checkpoint(commission_save):
+					push_error("Completed commission work must save before its receiving review")
+					_quit_game(1)
+					return
+			if not _capture_commission_advance():
+				push_error("Actual commissioned work must reach its saved portfolio")
+				_quit_game(1)
+				return
+			commission_steps += 1
+		if state.current != commission_portfolio or not commission_received or state.decisions.get("career_enrol_choice", "") != career_entries[selection]:
+			push_error("Commission portfolios must describe the actual saved completed work")
+			_quit_game(1)
+			return
+		_scene()
+		dialogue.visible_characters = -1
+		await get_tree().create_timer(0.4).timeout
+		await RenderingServer.frame_post_draw
+		get_viewport().get_texture().get_image().save_png("res://build/screenshots/commission_portfolio_%s.png" % career_names[selection])
+	if not commission_kitchen_captured:
+		push_error("The played kiln commission must reach its actual on-site kitchen work")
+		_quit_game(1)
+		return
+	for suffix in ["", ".bak", ".tmp"]:
+		if FileAccess.file_exists(commission_save + suffix):
+			DirAccess.remove_absolute(commission_save + suffix)
+	if not (await _capture_rivals()):
+		push_error("Played rival paths, saved reviews or rendered native portraits failed")
+		_quit_game(1)
+		return
+	if not (await _capture_seasons()):
+		push_error("Played seasonal paths, saved reviews or matching endings failed")
+		_quit_game(1)
+		return
 	print("JADE_VOW_CAPTURE_OK")
 	_quit_game()
 
@@ -1267,6 +1703,46 @@ func _smoke_build() -> void:
 	valid = state.node().get("ending", "") == "The Covers and the Receiving Date" and valid
 	valid = audio.voice.stream is AudioStreamOggVorbis and valid
 	valid = actor.sprite.texture != null and background.texture != null and valid
+	# The new career chapter, enrollment and every entry must survive standalone export.
+	state = StoryState.new(state.story)
+	state.current = "career_entry"
+	_scene()
+	valid = state.story.chapters.has("book_xx_careers") and valid
+	valid = actor.sprite.texture != null and background.texture != null and audio.voice.stream is AudioStreamOggVorbis and valid
+	state.current = "career_enrol_choice"
+	_scene()
+	valid = choice_box.get_child_count() == 4 and valid
+	valid = audio.voice.stream is AudioStreamOggVorbis and valid
+	for career in ["career_kiln_entry", "career_archive_entry", "career_survey_entry", "career_independent_entry"]:
+		state.current = career
+		_scene()
+		valid = actor.sprite.texture != null and background.texture != null and audio.voice.stream is AudioStreamOggVorbis and valid
+	# The new commissions and all seven native paintings must survive source-free export.
+	state = StoryState.new(state.story)
+	valid = state.story.chapters.has("book_xxi_commissions") and valid
+	for scene_id in ["commission_entry", "commission_offer_choice", "commission_kiln_entry", "commission_archive_entry", "commission_survey_entry", "commission_independent_entry", "commission_portfolio_kiln_01", "commission_portfolio_archive_01", "commission_portfolio_survey_01", "commission_portfolio_independent_01"]:
+		state.current = scene_id
+		_scene()
+		valid = actor.sprite.texture != null and background.texture != null and audio.voice.stream is AudioStreamOggVorbis and valid
+		var background_id: String = state.node().get("background", "")
+		valid = background_paths.has(background_id) and valid
+		if background_paths.has(background_id):
+			var expected_background = load(background_paths[background_id])
+			valid = background.texture == expected_background and valid
+	var commission_paintings := ["commission_kiln_assay_courtyard", "commission_archive_monsoon_vault", "commission_survey_rain_gauge_station", "commission_carrier_tally_court", "commission_review_loggia", "commission_long_rain_quay", "commission_canal_shared_kitchen"]
+	var commission_native_count := 0
+	for painting in world.get("backgrounds", []):
+		if not commission_paintings.has(str(painting.id)):
+			continue
+		commission_native_count += 1
+		var native = load("res://" + str(painting.path))
+		valid = native is Texture2D and painting.get("native_size", []).size() == 2 and valid
+		if native is Texture2D and painting.get("native_size", []).size() == 2:
+			valid = native.get_size() == Vector2(painting.native_size[0], painting.native_size[1]) and valid
+	valid = commission_native_count == commission_paintings.size() and valid
+	# Walk all three rival choices and retained outcomes inside the source-free pack.
+	valid = _smoke_rivals() and valid
+	valid = _smoke_seasons() and valid
 	if valid:
 		print("JADE_VOW_PACKAGE_OK: standalone story, world art, object inspection and narration")
 	else:
