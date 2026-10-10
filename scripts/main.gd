@@ -932,7 +932,7 @@ func _smoke_rival_scene() -> bool:
 
 func _smoke_rivals() -> bool:
 	var valid := true
-	var chapters := ["book_i", "book_ii", "book_iii", "book_iv", "book_v", "book_vi", "book_vii", "book_viii", "book_ix", "book_x_storm_ledger", "book_xi_salt_road", "book_xii_canal", "book_xiii_forest", "book_xiv_harbor", "book_xv_kiln", "book_xvi_desert", "book_xvii_archive", "book_xviii_letters", "book_xix_reed_crossing", "book_xx_careers", "book_xxi_commissions", "book_xxii_rival", "book_xxiii_season"]
+	var chapters := ["book_i", "book_ii", "book_iii", "book_iv", "book_v", "book_vi", "book_vii", "book_viii", "book_ix", "book_x_storm_ledger", "book_xi_salt_road", "book_xii_canal", "book_xiii_forest", "book_xiv_harbor", "book_xv_kiln", "book_xvi_desert", "book_xvii_archive", "book_xviii_letters", "book_xix_reed_crossing", "book_xx_careers", "book_xxi_commissions", "book_xxii_rival", "book_xxiii_season", "book_xxiv_return"]
 	for chapter in chapters:
 		valid = state.story.chapters.has(chapter) and valid
 	valid = state.story.chapters.size() == chapters.size() and valid
@@ -997,6 +997,62 @@ func _smoke_rivals() -> bool:
 				DirAccess.remove_absolute(path + suffix)
 	return valid
 
+
+# Continue from a played season ending, then capture each actual return choice.
+func _capture_return() -> bool:
+	var save_path := "user://return_capture_choice.json"
+	if not state.node().has("ending") or not state.advance() or state.current != "return_001":
+		return false
+	if not (await _capture_rival_frame("return_arrival")) or _rival_walk_to("return_choice", 100) < 0:
+		return false
+	if not _capture_commission_checkpoint(save_path) or not (await _capture_rival_frame("return_choices")):
+		return false
+	var endings := ["return_public_close", "return_source_close", "return_listener_close"]
+	for selection in range(endings.size()):
+		if not state.load_game(save_path) or not state.choose(selection):
+			return false
+		if _rival_walk_to(endings[selection], 100) < 0 or not state.node().has("ending"):
+			return false
+		if state.stats != {"qi": 0, "trust": 0, "insight": 0, "resolve": 0}:
+			return false
+		if not (await _capture_rival_frame(endings[selection])):
+			return false
+	state = StoryState.new(state.story)
+	if _rival_walk_to("mortal_005", 100) < 0:
+		return false
+	if not (await _capture_rival_frame("return_timetable")):
+		return false
+	for suffix in ["", ".bak", ".tmp"]:
+		if FileAccess.file_exists(save_path + suffix):
+			DirAccess.remove_absolute(save_path + suffix)
+	print("JADE_VOW_RETURN_CAPTURE: three played outcomes and corrected timetable")
+	return true
+
+func _smoke_return() -> bool:
+	if not state.story.chapters.has("book_xxiv_return") or not state.advance() or state.current != "return_001":
+		return false
+	var valid := _smoke_rival_scene()
+	if _rival_walk_to("return_choice", 100) < 0:
+		return false
+	valid = _smoke_rival_scene() and valid
+	var save_path := "user://return_package_choice.json"
+	if not _capture_commission_checkpoint(save_path):
+		return false
+	var endings := ["return_public_close", "return_source_close", "return_listener_close"]
+	for selection in range(endings.size()):
+		if not state.load_game(save_path) or not state.choose(selection):
+			return false
+		valid = _smoke_rival_scene() and valid
+		if _rival_walk_to(endings[selection], 100) < 0:
+			return false
+		valid = state.node().has("ending") and _smoke_rival_scene() and valid
+		valid = state.stats == {"qi": 0, "trust": 0, "insight": 0, "resolve": 0} and valid
+	for suffix in ["", ".bak", ".tmp"]:
+		if FileAccess.file_exists(save_path + suffix):
+			DirAccess.remove_absolute(save_path + suffix)
+	print("JADE_VOW_RETURN_PACKAGE: three narrated outcomes")
+	return valid
+
 func _capture_seasons() -> bool:
 	var choice_save := "user://season_capture_choice.json"
 	var branch_save := "user://season_capture_branch.json"
@@ -1038,7 +1094,7 @@ func _capture_seasons() -> bool:
 	return true
 
 func _smoke_seasons() -> bool:
-	var valid: bool = state.story.chapters.has("book_xxiii_season") and state.story.chapters.size() == 23
+	var valid: bool = state.story.chapters.has("book_xxiii_season") and state.story.chapters.size() == 24
 	var expected_art := ["season_orchard_gate","season_archive_annex","season_harbor_approach","season_canal_footpath","season_kiln_courtyard","season_letter_counter","season_kiln_public_room"]
 	var retained_art: Dictionary = {}
 	for painting in world.get("backgrounds", []):
@@ -1480,6 +1536,10 @@ func _capture() -> void:
 		push_error("Played seasonal paths, saved reviews or matching endings failed")
 		_quit_game(1)
 		return
+	if not (await _capture_return()):
+		push_error("Played return choices or corrected timetable capture failed")
+		_quit_game(1)
+		return
 	print("JADE_VOW_CAPTURE_OK")
 	_quit_game()
 
@@ -1743,6 +1803,7 @@ func _smoke_build() -> void:
 	# Walk all three rival choices and retained outcomes inside the source-free pack.
 	valid = _smoke_rivals() and valid
 	valid = _smoke_seasons() and valid
+	valid = _smoke_return() and valid
 	if valid:
 		print("JADE_VOW_PACKAGE_OK: standalone story, world art, object inspection and narration")
 	else:

@@ -23,7 +23,8 @@
     "book_xx_careers",
     "book_xxi_commissions",
     "book_xxii_rival",
-    "book_xxiii_season"
+    "book_xxiii_season",
+    "book_xxiv_return"
   ],
   "facts": [
     {
@@ -2651,6 +2652,20 @@
         "letters_prepare_003",
         "letters_sun_result_002"
       ]
+    },
+    {
+      "id": "return_old_observation_and_finite_choices",
+      "statement": "The complete old observation has two false calls and one coincident call, disposition uncertain. Public correction, source comparison and applicant conversation have distinct consequences; no option settles the fee claim or identifies who displaced the continuation leaf. Private household papers remain private. One afternoon after existing commitments gives Lin no new work, cultivation stage, or applicant authority.",
+      "anchors": [
+        "return_001",
+        "return_004",
+        "return_006",
+        "return_008",
+        "return_choice",
+        "return_public_close",
+        "return_source_close",
+        "return_listener_close"
+      ]
     }
   ],
   "review_policy": "Review each new chapter's chronology, custody, character knowledge, and alternate outcomes before updating this ledger. Structural checks supplement editorial review; they do not prove the absence of all possible plot holes.",
@@ -3784,6 +3799,17 @@
         "season_harbor_10_entry",
         "season_harbor_15_entry",
         "season_harbor_19_entry"
+      ]
+    },
+    {
+      "id": "return_full_result_before_first_approach",
+      "before": "return_choice",
+      "required": [
+        "return_004",
+        "return_006",
+        "return_007",
+        "return_008",
+        "return_009"
       ]
     }
   ]

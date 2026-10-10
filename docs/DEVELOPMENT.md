@@ -15,13 +15,15 @@
 
 ## Current campaign
 
-The manifest loads **23 books**, **24,341 scenes** and **2,080,063 displayed prose words**. The two-million-word target is met. Word counts include playable alternatives and exclude labels, choice text, prompts and documentation.
+The manifest loads **24 books**, **24,373 scenes** and **2,082,566 displayed prose words**. The three-million-word target requires 917,434 more displayed words. Word counts include playable alternatives and exclude labels, choice text, prompts and documentation.
 
 Book XXII provides three approaches to Qiu Lian's instrument trial. Its three retained ending markers now continue into Book XXIII. Book XXIII adds a shared root and **120 path fragments**, twenty for each of six later-season inquiries. All new nodes retain Qi Gathering 5: Four pairs, no new practice credit and the affected shoulder's limits.
 
 [Season counts, accounts, continuity and captures](SEASON_PATHS_20261008.md) · [Rival chapter](RIVAL_PATHS_20261008.md)
 
 The 98 world backgrounds comprise 50 ordinary locations and 48 additional interiors. The draft has 67 human NPC paintings and 15 beasts, giving 82 distinct world sprites. Preserve the original quotas: 100 ordinary backgrounds, 100 additional interiors, 500 human NPCs and 501 beasts. Full artwork and the requested 1,000 authenticated plot repairs remain unfinished, so the PR remains draft.
+
+Book XXIV adds three return approaches in 32 scenes. Its published timetable repair has one root across two passages, pinned to the current published campaign. [Story, evidence and fresh review media](RETURN_20261009.md).
 
 ## Local checks
 
@@ -33,6 +35,7 @@ python tools/bootstrap_godot.py
 python -m unittest discover -s tests -p 'test_*.py'
 python tools/build_assets.py
 python tools/validate_world.py
+python -m tools.validate_return_repairs --verify-source
 python tools/preview_animations.py
 .cache/godot/Godot_v4.7.2-stable_linux.x86_64 --headless --path . --editor --import
 .cache/godot/Godot_v4.7.2-stable_linux.x86_64 --headless --path . --script tests/story_test.gd
@@ -76,7 +79,7 @@ Wardrobe art uses twelve independent native 1024×1536 RGBA portraits: four adul
 
 ## Capture, narration and packaging
 
-Capture mode writes **164 actual viewport screenshots** to `build/screenshots` and sixteen timed viewport frames to `build/animations/rendered`. The verifier produces compact JPEG previews, a measured content report, WebP animation and sampled frames only after validation passes.
+Capture mode writes **170 actual viewport screenshots** to `build/screenshots` and sixteen timed viewport frames to `build/animations/rendered`. The verifier produces compact JPEG previews, a measured content report, WebP animation and sampled frames only after validation passes.
 
 The fifteen season captures walk actual zero-score routes with save/load checkpoints: the path choice, six entries, six endings, the letter counter and the kiln public room. Captures occur before newly generated narration. Package checks later require the narrated anchors, all seven new native background textures, both rival sprites and real completion of all six season paths.
 

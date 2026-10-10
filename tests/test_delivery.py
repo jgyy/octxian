@@ -26,28 +26,34 @@ def catalog(original=100, interiors=100, npcs=500, monsters=501):
 
 class DeliveryTests(unittest.TestCase):
     def test_every_quota_is_required(self):
-        self.assertTrue(validate_world.delivery_report(catalog(), 2000000, 10001)["complete"])
+        self.assertTrue(validate_world.delivery_report(catalog(), 3000000, 10001)["complete"])
         for group, count in (("original", 99), ("interiors", 99), ("npcs", 499), ("monsters", 500)):
             with self.subTest(group=group):
-                report = validate_world.delivery_report(catalog(**{group: count}), 2000000, 10001)
+                report = validate_world.delivery_report(catalog(**{group: count}), 3000000, 10001)
                 self.assertFalse(report["complete"])
-        self.assertFalse(validate_world.delivery_report(catalog(), 1999999, 10001)["complete"])
+        self.assertFalse(validate_world.delivery_report(catalog(), 2999999, 10001)["complete"])
 
     def test_former_million_word_target_no_longer_finishes_delivery(self):
         report = validate_world.delivery_report(catalog(), 1000001, 10001)
         self.assertFalse(report["word_target_met"])
-        self.assertEqual(report["remaining"]["authored_words"], 999999)
+        self.assertEqual(report["remaining"]["authored_words"], 1999999)
+        self.assertFalse(report["complete"])
+
+    def test_former_two_million_word_target_no_longer_finishes_delivery(self):
+        report = validate_world.delivery_report(catalog(), 2000000, 10001)
+        self.assertFalse(report["word_target_met"])
+        self.assertEqual(report["remaining"]["authored_words"], 1000000)
         self.assertFalse(report["complete"])
 
     def test_exactly_one_thousand_sprites_is_insufficient(self):
-        report = validate_world.delivery_report(catalog(monsters=500), 2000000, 10001)
+        report = validate_world.delivery_report(catalog(monsters=500), 3000000, 10001)
         self.assertEqual(report["delivered_unique_sprites"], 1000)
         self.assertEqual(report["remaining"]["unique_sprites"], 1)
         self.assertFalse(report["sprite_target_met"])
         self.assertFalse(report["complete"])
 
     def test_surplus_humans_cannot_replace_spirit_beasts(self):
-        report = validate_world.delivery_report(catalog(npcs=1001, monsters=0), 2000000, 10001)
+        report = validate_world.delivery_report(catalog(npcs=1001, monsters=0), 3000000, 10001)
         self.assertTrue(report["sprite_target_met"])
         self.assertFalse(report["complete"])
         self.assertEqual(report["remaining"]["monsters"], 501)
@@ -60,7 +66,7 @@ class DeliveryTests(unittest.TestCase):
         self.assertEqual(report["remaining"]["unique_sprites"], 995)
 
     def test_extra_interiors_cannot_replace_original_backgrounds(self):
-        report = validate_world.delivery_report(catalog(original=5, interiors=195), 2000000, 10001)
+        report = validate_world.delivery_report(catalog(original=5, interiors=195), 3000000, 10001)
         self.assertEqual(report["delivered_art"]["backgrounds"], 200)
         self.assertFalse(report["art_targets_met"])
         self.assertEqual(report["remaining"]["backgrounds"], 95)
@@ -69,7 +75,7 @@ class DeliveryTests(unittest.TestCase):
     def test_original_interiors_do_not_count_as_extra(self):
         world = catalog(interiors=0)
         world["backgrounds"] = [{"environment": "interior"} for _ in range(200)]
-        report = validate_world.delivery_report(world, 2000000, 10001)
+        report = validate_world.delivery_report(world, 3000000, 10001)
         self.assertFalse(report["complete"])
         self.assertEqual(report["remaining"]["building_interiors"], 100)
 
@@ -83,11 +89,11 @@ class DeliveryTests(unittest.TestCase):
                     self.assertEqual(validate_world.main(["--require-complete"]), 1)
                 saved = json.loads((root / "build/content_report.json").read_text())
                 self.assertFalse(saved["complete"])
-                self.assertEqual(saved["remaining"]["authored_words"], 1989726)
+                self.assertEqual(saved["remaining"]["authored_words"], 2989726)
                 self.assertEqual(saved["remaining"]["unique_sprites"], 995)
 
     def test_strict_command_passes_only_when_complete(self):
-        report = validate_world.delivery_report(catalog(), 2000000, 10001)
+        report = validate_world.delivery_report(catalog(), 3000000, 10001)
         with tempfile.TemporaryDirectory() as temporary:
             with patch.object(validate_world, "ROOT", pathlib.Path(temporary)), patch.object(validate_world, "inspect", return_value=report):
                 with contextlib.redirect_stdout(io.StringIO()):
